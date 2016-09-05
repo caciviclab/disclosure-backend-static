@@ -5,6 +5,7 @@
 require 'json'
 
 require 'fileutils'
+require 'open-uri'
 require 'pg'
 
 def build_file(filename, &block)
@@ -140,5 +141,19 @@ referendum_ballot_items.each do |item|
     f.puts JSON.generate(item.merge(
       contributions_received: 4567,
     ))
+  end
+end
+
+build_file('/docs/api-docs/') do |f|
+  spec = JSON.parse(open('http://admin.caciviclab.org/docs/api-docs/').read)
+  spec['basePath'] = 'http://disclosure-backend-static.f.tdooner.com/docs/api-docs/'
+  f.puts JSON.generate(spec)
+
+  spec['apis'].each do |api_resource|
+    build_file("/docs/api-docs/#{api_resource['path']}") do |f2|
+      resource_spec = JSON.parse(open("http://admin.caciviclab.org/docs/api-docs/#{api_resource['path']}").read)
+      resource_spec['basePath'] = 'http://disclosure-backend-static.f.tdooner.com'
+      f2.puts JSON.generate(resource_spec)
+    end
   end
 end
