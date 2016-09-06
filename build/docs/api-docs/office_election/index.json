@@ -1,1 +1,95 @@
-{"swaggerVersion":"1.2","apis":[{"operations":[{"parameters":[{"paramType":"path","required":true,"type":"string","name":"office_election_id"}],"nickname":"get","notes":"Contest for an office in a specific locality.  <br/>Details for a single office election, including all candidates.","summary":"Details for a single office election, including all candidates","type":"OfficeElectionSerializer","method":"GET"}],"path":"/office_election/{office_election_id}","description":"Contest for an office in a specific locality"}],"models":{"OfficeElectionSerializer":{"required":["id","name","office","ballot_id"],"id":"OfficeElectionSerializer","properties":{"id":{"description":null,"format":"int64","required":false,"readOnly":true,"type":"integer"},"name":{"description":null,"required":true,"readOnly":false,"type":"string"},"office":{"description":null,"required":true,"readOnly":false,"type":"string"},"ballot_id":{"description":null,"required":true,"readOnly":false,"type":"string"}}},"WriteOfficeElectionSerializer":{"required":["name","office","ballot_id"],"id":"WriteOfficeElectionSerializer","properties":{"name":{"description":null,"required":true,"readOnly":false,"type":"string"},"office":{"description":null,"required":true,"readOnly":false,"type":"string"},"ballot_id":{"description":null,"required":true,"readOnly":false,"type":"string"}}}},"basePath":"http://disclosure-backend-static.f.tdooner.com","resourcePath":"/office_election","apiVersion":""}
+{
+  "swaggerVersion": "1.2",
+  "apis": [
+    {
+      "operations": [
+        {
+          "parameters": [
+            {
+              "paramType": "path",
+              "required": true,
+              "type": "string",
+              "name": "office_election_id"
+            }
+          ],
+          "nickname": "get",
+          "notes": "Contest for an office in a specific locality.  <br/>Details for a single office election, including all candidates.",
+          "summary": "Details for a single office election, including all candidates",
+          "type": "OfficeElectionSerializer",
+          "method": "GET"
+        }
+      ],
+      "path": "/office_election/{office_election_id}",
+      "description": "Contest for an office in a specific locality"
+    }
+  ],
+  "models": {
+    "OfficeElectionSerializer": {
+      "required": [
+        "id",
+        "name",
+        "office",
+        "ballot_id"
+      ],
+      "id": "OfficeElectionSerializer",
+      "properties": {
+        "id": {
+          "description": null,
+          "format": "int64",
+          "required": false,
+          "readOnly": true,
+          "type": "integer"
+        },
+        "name": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "office": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "ballot_id": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        }
+      }
+    },
+    "WriteOfficeElectionSerializer": {
+      "required": [
+        "name",
+        "office",
+        "ballot_id"
+      ],
+      "id": "WriteOfficeElectionSerializer",
+      "properties": {
+        "name": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "office": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "ballot_id": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        }
+      }
+    }
+  },
+  "basePath": "http://disclosure-backend-static.f.tdooner.com",
+  "resourcePath": "/office_election",
+  "apiVersion": ""
+}

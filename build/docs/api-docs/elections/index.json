@@ -1,1 +1,65 @@
-{"swaggerVersion":"1.2","apis":[{"operations":[{"parameters":[],"nickname":"list","notes":"TODO: Figure out what should be returned here.","summary":"TODO: Figure out what should be returned here","items":{"$ref":"ElectionDaySerializer"},"type":"array","method":"GET"}],"path":"/elections/","description":"TODO: Figure out what should be returned here"}],"models":{"WriteElectionDaySerializer":{"required":["ballot"],"id":"WriteElectionDaySerializer","properties":{"ballot":{"description":null,"required":true,"readOnly":false,"type":"string"}}},"ElectionDaySerializer":{"required":["id","ballot"],"id":"ElectionDaySerializer","properties":{"id":{"description":null,"format":"int64","required":false,"readOnly":true,"type":"integer"},"ballot":{"description":null,"required":true,"readOnly":false,"type":"string"}}}},"basePath":"http://disclosure-backend-static.f.tdooner.com","resourcePath":"/elections","apiVersion":""}
+{
+  "swaggerVersion": "1.2",
+  "apis": [
+    {
+      "operations": [
+        {
+          "parameters": [
+
+          ],
+          "nickname": "list",
+          "notes": "TODO: Figure out what should be returned here.",
+          "summary": "TODO: Figure out what should be returned here",
+          "items": {
+            "$ref": "ElectionDaySerializer"
+          },
+          "type": "array",
+          "method": "GET"
+        }
+      ],
+      "path": "/elections/",
+      "description": "TODO: Figure out what should be returned here"
+    }
+  ],
+  "models": {
+    "WriteElectionDaySerializer": {
+      "required": [
+        "ballot"
+      ],
+      "id": "WriteElectionDaySerializer",
+      "properties": {
+        "ballot": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        }
+      }
+    },
+    "ElectionDaySerializer": {
+      "required": [
+        "id",
+        "ballot"
+      ],
+      "id": "ElectionDaySerializer",
+      "properties": {
+        "id": {
+          "description": null,
+          "format": "int64",
+          "required": false,
+          "readOnly": true,
+          "type": "integer"
+        },
+        "ballot": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        }
+      }
+    }
+  },
+  "basePath": "http://disclosure-backend-static.f.tdooner.com",
+  "resourcePath": "/elections",
+  "apiVersion": ""
+}

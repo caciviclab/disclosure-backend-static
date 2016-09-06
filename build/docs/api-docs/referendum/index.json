@@ -1,1 +1,262 @@
-{"swaggerVersion":"1.2","apis":[{"operations":[{"parameters":[{"paramType":"path","required":true,"type":"string","name":"referendum_id"}],"nickname":"get","notes":"Referendum  <br/>Details for a single referendum.","summary":"Details for a single referendum","type":"ReferendumSerializer","method":"GET"}],"path":"/referendum/{referendum_id}","description":"Referendum"},{"operations":[{"parameters":[{"paramType":"path","required":true,"type":"string","name":"referendum_id"}],"nickname":"supporting","notes":"Money surrounding particular referendums.  <br/>List of committees supporting a referendum, and level of benefits given.","summary":"List of committees supporting a referendum, and level of benefits given","type":"BeneficiaryMoneyReceivedSerializer","method":"GET"}],"path":"/referendum/{referendum_id}/supporting","description":"Money surrounding particular referendums"},{"operations":[{"parameters":[{"paramType":"path","required":true,"type":"string","name":"referendum_id"}],"nickname":"opposing","notes":"Money surrounding particular referendums.  <br/>List of committees opposing a referendum, and level of benefits given.","summary":"List of committees opposing a referendum, and level of benefits given","type":"BeneficiaryMoneyReceivedSerializer","method":"GET"}],"path":"/referendum/{referendum_id}/opposing","description":"Money surrounding particular referendums"}],"models":{"BeneficiaryMoneyReceivedSerializer":{"required":["id","type","name","contributions_received"],"id":"BeneficiaryMoneyReceivedSerializer","properties":{"id":{"description":null,"format":"int64","required":true,"readOnly":false,"type":"integer"},"type":{"description":null,"required":true,"readOnly":false,"type":"string"},"name":{"description":null,"required":true,"readOnly":false,"type":"string"},"contributions_received":{"description":null,"format":"float","required":true,"readOnly":false,"type":"number"}}},"WriteReferendumSerializer":{"required":["title","ballot_id"],"id":"WriteReferendumSerializer","properties":{"photo_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"website_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"facebook_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"twitter_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"title":{"description":"The referendum title","required":true,"readOnly":false,"type":"string"},"number":{"description":"The referendum's number or letter.","required":false,"readOnly":false,"type":"string"},"ballot_id":{"description":null,"required":true,"readOnly":false,"type":"string"}}},"WriteBeneficiaryMoneyReceivedSerializer":{"required":["id","type","name","contributions_received"],"id":"WriteBeneficiaryMoneyReceivedSerializer","properties":{"id":{"description":null,"format":"int64","required":true,"readOnly":false,"type":"integer"},"type":{"description":null,"required":true,"readOnly":false,"type":"string"},"name":{"description":null,"required":true,"readOnly":false,"type":"string"},"contributions_received":{"description":null,"format":"float","required":true,"readOnly":false,"type":"number"}}},"ReferendumSerializer":{"required":["id","photo_url","website_url","facebook_url","twitter_url","title","number","ballot_id"],"id":"ReferendumSerializer","properties":{"id":{"description":null,"format":"int64","required":false,"readOnly":true,"type":"integer"},"photo_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"website_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"facebook_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"twitter_url":{"description":null,"required":false,"readOnly":false,"type":"string"},"title":{"description":"The referendum title","required":true,"readOnly":false,"type":"string"},"number":{"description":"The referendum's number or letter.","required":false,"readOnly":false,"type":"string"},"ballot_id":{"description":null,"required":true,"readOnly":false,"type":"string"}}}},"basePath":"http://disclosure-backend-static.f.tdooner.com","resourcePath":"/referendum","apiVersion":""}
+{
+  "swaggerVersion": "1.2",
+  "apis": [
+    {
+      "operations": [
+        {
+          "parameters": [
+            {
+              "paramType": "path",
+              "required": true,
+              "type": "string",
+              "name": "referendum_id"
+            }
+          ],
+          "nickname": "get",
+          "notes": "Referendum  <br/>Details for a single referendum.",
+          "summary": "Details for a single referendum",
+          "type": "ReferendumSerializer",
+          "method": "GET"
+        }
+      ],
+      "path": "/referendum/{referendum_id}",
+      "description": "Referendum"
+    },
+    {
+      "operations": [
+        {
+          "parameters": [
+            {
+              "paramType": "path",
+              "required": true,
+              "type": "string",
+              "name": "referendum_id"
+            }
+          ],
+          "nickname": "supporting",
+          "notes": "Money surrounding particular referendums.  <br/>List of committees supporting a referendum, and level of benefits given.",
+          "summary": "List of committees supporting a referendum, and level of benefits given",
+          "type": "BeneficiaryMoneyReceivedSerializer",
+          "method": "GET"
+        }
+      ],
+      "path": "/referendum/{referendum_id}/supporting",
+      "description": "Money surrounding particular referendums"
+    },
+    {
+      "operations": [
+        {
+          "parameters": [
+            {
+              "paramType": "path",
+              "required": true,
+              "type": "string",
+              "name": "referendum_id"
+            }
+          ],
+          "nickname": "opposing",
+          "notes": "Money surrounding particular referendums.  <br/>List of committees opposing a referendum, and level of benefits given.",
+          "summary": "List of committees opposing a referendum, and level of benefits given",
+          "type": "BeneficiaryMoneyReceivedSerializer",
+          "method": "GET"
+        }
+      ],
+      "path": "/referendum/{referendum_id}/opposing",
+      "description": "Money surrounding particular referendums"
+    }
+  ],
+  "models": {
+    "BeneficiaryMoneyReceivedSerializer": {
+      "required": [
+        "id",
+        "type",
+        "name",
+        "contributions_received"
+      ],
+      "id": "BeneficiaryMoneyReceivedSerializer",
+      "properties": {
+        "id": {
+          "description": null,
+          "format": "int64",
+          "required": true,
+          "readOnly": false,
+          "type": "integer"
+        },
+        "type": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "name": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "contributions_received": {
+          "description": null,
+          "format": "float",
+          "required": true,
+          "readOnly": false,
+          "type": "number"
+        }
+      }
+    },
+    "WriteReferendumSerializer": {
+      "required": [
+        "title",
+        "ballot_id"
+      ],
+      "id": "WriteReferendumSerializer",
+      "properties": {
+        "photo_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "website_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "facebook_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "twitter_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "title": {
+          "description": "The referendum title",
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "number": {
+          "description": "The referendum's number or letter.",
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "ballot_id": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        }
+      }
+    },
+    "WriteBeneficiaryMoneyReceivedSerializer": {
+      "required": [
+        "id",
+        "type",
+        "name",
+        "contributions_received"
+      ],
+      "id": "WriteBeneficiaryMoneyReceivedSerializer",
+      "properties": {
+        "id": {
+          "description": null,
+          "format": "int64",
+          "required": true,
+          "readOnly": false,
+          "type": "integer"
+        },
+        "type": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "name": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "contributions_received": {
+          "description": null,
+          "format": "float",
+          "required": true,
+          "readOnly": false,
+          "type": "number"
+        }
+      }
+    },
+    "ReferendumSerializer": {
+      "required": [
+        "id",
+        "photo_url",
+        "website_url",
+        "facebook_url",
+        "twitter_url",
+        "title",
+        "number",
+        "ballot_id"
+      ],
+      "id": "ReferendumSerializer",
+      "properties": {
+        "id": {
+          "description": null,
+          "format": "int64",
+          "required": false,
+          "readOnly": true,
+          "type": "integer"
+        },
+        "photo_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "website_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "facebook_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "twitter_url": {
+          "description": null,
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "title": {
+          "description": "The referendum title",
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        },
+        "number": {
+          "description": "The referendum's number or letter.",
+          "required": false,
+          "readOnly": false,
+          "type": "string"
+        },
+        "ballot_id": {
+          "description": null,
+          "required": true,
+          "readOnly": false,
+          "type": "string"
+        }
+      }
+    }
+  },
+  "basePath": "http://disclosure-backend-static.f.tdooner.com",
+  "resourcePath": "/referendum",
+  "apiVersion": ""
+}

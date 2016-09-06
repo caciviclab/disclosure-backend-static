@@ -39,11 +39,11 @@ end
 OAKLAND_LOCALITY_ID = 2
 
 build_file('/locality/search') do |f|
-  f.puts JSON.generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
+  f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
 build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
-  f.puts JSON.generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
+  f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
 candidates = OaklandCandidate.all
@@ -93,7 +93,7 @@ end.compact
   /locality/#{OAKLAND_LOCALITY_ID}/current_ballot
 ].each do |filename|
   build_file(filename) do |f|
-    f.puts JSON.generate({
+    f.puts JSON.pretty_generate({
       id: 1,
       ballot_items: office_ballot_items + referendum_ballot_items,
       date: '2016-11-06',
@@ -104,41 +104,41 @@ end
 
 office_ballot_items.each do |item|
   build_file("/office_election/#{item[:id]}") do |f|
-    f.puts JSON.generate(item.merge(ballot_id: 1))
+    f.puts JSON.pretty_generate(item.merge(ballot_id: 1))
   end
 
   item[:candidates].each do |candidate|
     build_file("/candidate/#{candidate[:id]}/supporting") do |f|
-      f.puts JSON.generate(candidate.merge(
+      f.puts JSON.pretty_generate(candidate.merge(
         contributions_received: 1234,
       ))
     end
 
     build_file("/candidate/#{candidate[:id]}/opposing") do |f|
-      f.puts JSON.generate(candidate.merge(
+      f.puts JSON.pretty_generate(candidate.merge(
         contributions_received: 4567,
       ))
     end
 
     build_file("/candidate/#{candidate[:id]}") do |f|
-      f.puts JSON.generate(candidate)
+      f.puts JSON.pretty_generate(candidate)
     end
   end
 end
 
 referendum_ballot_items.each do |item|
   build_file("/referendum/#{item[:id]}") do |f|
-    f.puts JSON.generate(item.merge(ballot_id: 1))
+    f.puts JSON.pretty_generate(item.merge(ballot_id: 1))
   end
 
   build_file("/referendum/#{item[:id]}/supporting") do |f|
-    f.puts JSON.generate(item.merge(
+    f.puts JSON.pretty_generate(item.merge(
       contributions_received: 1234,
     ))
   end
 
   build_file("/referendum/#{item[:id]}/opposing") do |f|
-    f.puts JSON.generate(item.merge(
+    f.puts JSON.pretty_generate(item.merge(
       contributions_received: 4567,
     ))
   end
@@ -147,13 +147,13 @@ end
 build_file('/docs/api-docs/') do |f|
   spec = JSON.parse(open('http://admin.caciviclab.org/docs/api-docs/').read)
   spec['basePath'] = 'http://disclosure-backend-static.f.tdooner.com/docs/api-docs/'
-  f.puts JSON.generate(spec)
+  f.puts JSON.pretty_generate(spec)
 
   spec['apis'].each do |api_resource|
     build_file("/docs/api-docs/#{api_resource['path']}") do |f2|
       resource_spec = JSON.parse(open("http://admin.caciviclab.org/docs/api-docs/#{api_resource['path']}").read)
       resource_spec['basePath'] = 'http://disclosure-backend-static.f.tdooner.com'
-      f2.puts JSON.generate(resource_spec)
+      f2.puts JSON.pretty_generate(resource_spec)
     end
   end
 end

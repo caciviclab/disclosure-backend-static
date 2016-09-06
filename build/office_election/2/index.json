@@ -1,1 +1,19 @@
-{"id":2,"contest_type":"Office","name":"City Attorney","candidates":[{"id":3,"name":"Barbara Parker","photo_url":"got it","website_url":"http://www.cityattorneyparker.com/","twitter_url":"@barbarajparker1","first_name":"Barbara","last_name":"Parker","ballot_item":2,"office_election":2}],"ballot_id":1}
+{
+  "id": 2,
+  "contest_type": "Office",
+  "name": "City Attorney",
+  "candidates": [
+    {
+      "id": 3,
+      "name": "Barbara Parker",
+      "photo_url": "got it",
+      "website_url": "http://www.cityattorneyparker.com/",
+      "twitter_url": "@barbarajparker1",
+      "first_name": "Barbara",
+      "last_name": "Parker",
+      "ballot_item": 2,
+      "office_election": 2
+    }
+  ],
+  "ballot_id": 1
+}
