@@ -2,9 +2,13 @@
 # /ballot/:id/disclosure_summary
 require 'json'
 
+require 'active_record'
+Dir.glob('models/*.rb').each { |f| load f }
+
 require 'fileutils'
 require 'open-uri'
-require 'pg'
+
+ActiveRecord::Base.establish_connection 'postgresql:///disclosure-backend'
 
 def build_file(filename, &block)
   filename = File.expand_path('../build', __FILE__) + filename
@@ -32,8 +36,6 @@ def get_id(record)
   end
 end
 
-$db = PG.connect(dbname: 'disclosure-backend')
-
 OAKLAND_LOCALITY_ID = 2
 
 build_file('/locality/search') do |f|
@@ -44,8 +46,8 @@ build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
   f.puts JSON.generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
-candidates = $db.exec('SELECT * FROM oakland_candidates').to_a
-office_ballot_items = candidates.group_by { |c| c['Office'] }.map do |office, rows|
+candidates = OaklandCandidate.all
+office_ballot_items = candidates.group_by { |c| c.Office }.map do |office, rows|
   next unless office
   office_election_id = get_id(office: office)
 
@@ -72,7 +74,7 @@ office_ballot_items = candidates.group_by { |c| c['Office'] }.map do |office, ro
     end
   }
 end
-referendum_ballot_items = $db.exec('SELECT * FROM oakland_referendums').map do |row|
+referendum_ballot_items = OaklandReferendums.all.map do |row|
   next unless row['Short_Title']
   {
     id: get_id(row),
