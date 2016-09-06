@@ -1,0 +1,19 @@
+{
+  "id": 9,
+  "contest_type": "Office",
+  "name": "City Attorney",
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Barbara Parker",
+      "photo_url": "got it",
+      "website_url": "http://www.cityattorneyparker.com/",
+      "twitter_url": "@barbarajparker1",
+      "first_name": "Barbara",
+      "last_name": "Parker",
+      "ballot_item": 9,
+      "office_election": 9
+    }
+  ],
+  "ballot_id": 1
+}

@@ -1,60 +1,27 @@
 {
   "id": 4,
   "contest_type": "Office",
-  "name": "City Council At-Large",
+  "name": "School Board District 7",
   "candidates": [
     {
-      "id": 5,
-      "name": "Rebecca Kaplan",
+      "id": 11,
+      "name": "Chris Jackson",
       "photo_url": null,
-      "website_url": "http://kaplanforoakland.org/",
-      "twitter_url": "@kaplan4oakland",
-      "first_name": "Rebecca",
-      "last_name": "Kaplan",
+      "website_url": "http://www.chrisjacksonforoakland.org/",
+      "twitter_url": "https://twitter.com/cj4oakland",
+      "first_name": "Chris",
+      "last_name": "Jackson",
       "ballot_item": 4,
       "office_election": 4
     },
     {
-      "id": 6,
-      "name": "Bruce Quan",
+      "id": 28,
+      "name": "James Harris",
       "photo_url": null,
-      "website_url": null,
+      "website_url": "http://harrisforeastoakland.com/about-james/",
       "twitter_url": null,
-      "first_name": "Bruce",
-      "last_name": "Quan",
-      "ballot_item": 4,
-      "office_election": 4
-    },
-    {
-      "id": 7,
-      "name": "Nancy Sidebotham",
-      "photo_url": "Provided jpg",
-      "website_url": "nancysidebotham.com (under construction)",
-      "twitter_url": null,
-      "first_name": "Nancy",
-      "last_name": "Sidebotham",
-      "ballot_item": 4,
-      "office_election": 4
-    },
-    {
-      "id": 8,
-      "name": "F. Matt Hummell",
-      "photo_url": "got it",
-      "website_url": "http://matt4thepeople.nationbuilder.com/",
-      "twitter_url": null,
-      "first_name": "F.",
-      "last_name": "Matt Hummell",
-      "ballot_item": 4,
-      "office_election": 4
-    },
-    {
-      "id": 9,
-      "name": "Peggy Moore",
-      "photo_url": "got one",
-      "website_url": null,
-      "twitter_url": null,
-      "first_name": "Peggy",
-      "last_name": "Moore",
+      "first_name": "James",
+      "last_name": "Harris",
       "ballot_item": 4,
       "office_election": 4
     }

@@ -1,16 +1,38 @@
 {
   "id": 2,
   "contest_type": "Office",
-  "name": "City Attorney",
+  "name": "City Council District 3",
   "candidates": [
     {
-      "id": 3,
-      "name": "Barbara Parker",
-      "photo_url": "got it",
-      "website_url": "http://www.cityattorneyparker.com/",
-      "twitter_url": "@barbarajparker1",
-      "first_name": "Barbara",
-      "last_name": "Parker",
+      "id": 9,
+      "name": "Alan Brown",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "first_name": "Alan",
+      "last_name": "Brown",
+      "ballot_item": 2,
+      "office_election": 2
+    },
+    {
+      "id": 10,
+      "name": "Lynette Gibson McElhaney",
+      "photo_url": "got one",
+      "website_url": "http://www.lynettemcelhaney.com/",
+      "twitter_url": "@lynettegm",
+      "first_name": "Lynette",
+      "last_name": "Gibson McElhaney",
+      "ballot_item": 2,
+      "office_election": 2
+    },
+    {
+      "id": 12,
+      "name": "Noni Session",
+      "photo_url": "got one",
+      "website_url": "http://www.nonifordistrict3.com/",
+      "twitter_url": "https://twicopy.org/NoniSession/",
+      "first_name": "Noni",
+      "last_name": "Session",
       "ballot_item": 2,
       "office_election": 2
     }

@@ -1,27 +1,27 @@
 {
   "id": 10,
   "contest_type": "Office",
-  "name": "City Council District 1",
+  "name": "City Council District 5",
   "candidates": [
     {
-      "id": 11,
-      "name": "Kevin Corbett",
+      "id": 13,
+      "name": "Noel Gallo",
       "photo_url": "got one",
-      "website_url": "http://www.corbett4oakland.com/meet-kevin/",
-      "twitter_url": null,
-      "first_name": "Kevin",
-      "last_name": "Corbett",
+      "website_url": "http://galloforoakland.com/",
+      "twitter_url": "@noelgallo5",
+      "first_name": "Noel",
+      "last_name": "Gallo",
       "ballot_item": 10,
       "office_election": 10
     },
     {
-      "id": 12,
-      "name": "Dan Kalb",
+      "id": 14,
+      "name": "Viola Gonzales",
       "photo_url": "got one",
-      "website_url": "https://dankalb.net",
-      "twitter_url": "@dankalb",
-      "first_name": "Dan",
-      "last_name": "Kalb",
+      "website_url": "www.voteviola.com",
+      "twitter_url": "@voteviola",
+      "first_name": "Viola",
+      "last_name": "Gonzales",
       "ballot_item": 10,
       "office_election": 10
     }

@@ -16,24 +16,11 @@ def build_file(filename, &block)
   File.open(File.join(filename, 'index.json'), 'w', &block)
 end
 
-$id = 1
-$candidates_by_id = {}
-$ballot_measures_by_id = {}
-$offices_by_id = {}
-def get_id(record)
-  if record[:office]
-    $id += 1
-    $offices_by_id[$id] = record[:office]
-    return $id
-  elsif record['Candidate']
-    $id += 1
-    $candidates_by_id[$id] = record
-    return $id
-  elsif record['Measure_number']
-    $id += 1
-    $ballot_measures_by_id[$id] = record
-    return $id
-  end
+# first, create OfficeElection records for all the offices to assign them IDs
+OaklandCandidate.distinct(:Office).pluck(:Office).each do |office|
+  OfficeElection
+    .where(name: office)
+    .first_or_create
 end
 
 OAKLAND_LOCALITY_ID = 2
@@ -46,45 +33,40 @@ build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
-candidates = OaklandCandidate.all
-office_ballot_items = candidates.group_by { |c| c.Office }.map do |office, rows|
-  next unless office
-  office_election_id = get_id(office: office)
-
+office_ballot_items = OfficeElection.find_each.map do |office_election|
   {
-    id: office_election_id,
+    id: office_election.id,
     contest_type: 'Office',
-    name: office,
-    candidates: rows.map do |row|
-      first_name, last_name = row['Candidate'].split(' ', 2) # Probably wrong!
+    name: office_election.name,
+    candidates: office_election.candidates.map do |candidate|
+      first_name, last_name = candidate['Candidate'].split(' ', 2) # Probably wrong!
 
       {
-        id: get_id(row),
-        name: row['Candidate'],
+        id: candidate.id,
+        name: candidate['Candidate'],
 
         # fields for /candidate/:id
-        photo_url: row['Photo'],
-        website_url: row['Website'],
-        twitter_url: row['Twitter'],
+        photo_url: candidate['Photo'],
+        website_url: candidate['Website'],
+        twitter_url: candidate['Twitter'],
         first_name: first_name,
         last_name: last_name,
-        ballot_item: office_election_id,
-        office_election: office_election_id,
+        ballot_item: office_election.id,
+        office_election: office_election.id,
       }
     end
   }
 end
-referendum_ballot_items = OaklandReferendums.all.map do |row|
-  next unless row['Short_Title']
+referendum_ballot_items = OaklandReferendums.all.map do |referendum|
   {
-    id: get_id(row),
+    id: referendum.id,
     contest_type: 'Referendum',
-    name: row['Short_Title'],
+    name: referendum['Short_Title'],
 
     # fields for /referendum/:id
-    title: row['Short_Title'],
-    summary: row['Summary'],
-    number: row['Measure_number'],
+    title: referendum['Short_Title'],
+    summary: referendum['Summary'],
+    number: referendum['Measure_number'],
   }
 end.compact
 

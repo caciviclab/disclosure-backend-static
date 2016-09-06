@@ -2,385 +2,385 @@
   "id": 1,
   "ballot_items": [
     {
-      "id": 2,
-      "contest_type": "Office",
-      "name": "City Attorney",
-      "candidates": [
-        {
-          "id": 3,
-          "name": "Barbara Parker",
-          "photo_url": "got it",
-          "website_url": "http://www.cityattorneyparker.com/",
-          "twitter_url": "@barbarajparker1",
-          "first_name": "Barbara",
-          "last_name": "Parker",
-          "ballot_item": 2,
-          "office_election": 2
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "contest_type": "Office",
-      "name": "City Council At-Large",
-      "candidates": [
-        {
-          "id": 5,
-          "name": "Rebecca Kaplan",
-          "photo_url": null,
-          "website_url": "http://kaplanforoakland.org/",
-          "twitter_url": "@kaplan4oakland",
-          "first_name": "Rebecca",
-          "last_name": "Kaplan",
-          "ballot_item": 4,
-          "office_election": 4
-        },
-        {
-          "id": 6,
-          "name": "Bruce Quan",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Bruce",
-          "last_name": "Quan",
-          "ballot_item": 4,
-          "office_election": 4
-        },
-        {
-          "id": 7,
-          "name": "Nancy Sidebotham",
-          "photo_url": "Provided jpg",
-          "website_url": "nancysidebotham.com (under construction)",
-          "twitter_url": null,
-          "first_name": "Nancy",
-          "last_name": "Sidebotham",
-          "ballot_item": 4,
-          "office_election": 4
-        },
-        {
-          "id": 8,
-          "name": "F. Matt Hummell",
-          "photo_url": "got it",
-          "website_url": "http://matt4thepeople.nationbuilder.com/",
-          "twitter_url": null,
-          "first_name": "F.",
-          "last_name": "Matt Hummell",
-          "ballot_item": 4,
-          "office_election": 4
-        },
-        {
-          "id": 9,
-          "name": "Peggy Moore",
-          "photo_url": "got one",
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Peggy",
-          "last_name": "Moore",
-          "ballot_item": 4,
-          "office_election": 4
-        }
-      ]
-    },
-    {
-      "id": 10,
+      "id": 1,
       "contest_type": "Office",
       "name": "City Council District 1",
       "candidates": [
         {
-          "id": 11,
+          "id": 7,
           "name": "Kevin Corbett",
           "photo_url": "got one",
           "website_url": "http://www.corbett4oakland.com/meet-kevin/",
           "twitter_url": null,
           "first_name": "Kevin",
           "last_name": "Corbett",
-          "ballot_item": 10,
-          "office_election": 10
+          "ballot_item": 1,
+          "office_election": 1
         },
         {
-          "id": 12,
+          "id": 8,
           "name": "Dan Kalb",
           "photo_url": "got one",
           "website_url": "https://dankalb.net",
           "twitter_url": "@dankalb",
           "first_name": "Dan",
           "last_name": "Kalb",
-          "ballot_item": 10,
-          "office_election": 10
+          "ballot_item": 1,
+          "office_election": 1
         }
       ]
     },
     {
-      "id": 13,
+      "id": 2,
       "contest_type": "Office",
       "name": "City Council District 3",
       "candidates": [
         {
-          "id": 14,
+          "id": 9,
           "name": "Alan Brown",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "first_name": "Alan",
           "last_name": "Brown",
-          "ballot_item": 13,
-          "office_election": 13
+          "ballot_item": 2,
+          "office_election": 2
         },
         {
-          "id": 15,
+          "id": 10,
           "name": "Lynette Gibson McElhaney",
           "photo_url": "got one",
           "website_url": "http://www.lynettemcelhaney.com/",
           "twitter_url": "@lynettegm",
           "first_name": "Lynette",
           "last_name": "Gibson McElhaney",
-          "ballot_item": 13,
-          "office_election": 13
+          "ballot_item": 2,
+          "office_election": 2
         },
         {
-          "id": 16,
+          "id": 12,
           "name": "Noni Session",
           "photo_url": "got one",
           "website_url": "http://www.nonifordistrict3.com/",
           "twitter_url": "https://twicopy.org/NoniSession/",
           "first_name": "Noni",
           "last_name": "Session",
-          "ballot_item": 13,
-          "office_election": 13
+          "ballot_item": 2,
+          "office_election": 2
         }
       ]
     },
     {
-      "id": 17,
+      "id": 3,
+      "contest_type": "Office",
+      "name": "City Council At-Large",
+      "candidates": [
+        {
+          "id": 2,
+          "name": "Rebecca Kaplan",
+          "photo_url": null,
+          "website_url": "http://kaplanforoakland.org/",
+          "twitter_url": "@kaplan4oakland",
+          "first_name": "Rebecca",
+          "last_name": "Kaplan",
+          "ballot_item": 3,
+          "office_election": 3
+        },
+        {
+          "id": 3,
+          "name": "Bruce Quan",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Bruce",
+          "last_name": "Quan",
+          "ballot_item": 3,
+          "office_election": 3
+        },
+        {
+          "id": 4,
+          "name": "Nancy Sidebotham",
+          "photo_url": "Provided jpg",
+          "website_url": "nancysidebotham.com (under construction)",
+          "twitter_url": null,
+          "first_name": "Nancy",
+          "last_name": "Sidebotham",
+          "ballot_item": 3,
+          "office_election": 3
+        },
+        {
+          "id": 5,
+          "name": "F. Matt Hummell",
+          "photo_url": "got it",
+          "website_url": "http://matt4thepeople.nationbuilder.com/",
+          "twitter_url": null,
+          "first_name": "F.",
+          "last_name": "Matt Hummell",
+          "ballot_item": 3,
+          "office_election": 3
+        },
+        {
+          "id": 6,
+          "name": "Peggy Moore",
+          "photo_url": "got one",
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Peggy",
+          "last_name": "Moore",
+          "ballot_item": 3,
+          "office_election": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
       "contest_type": "Office",
       "name": "School Board District 7",
       "candidates": [
         {
-          "id": 18,
+          "id": 11,
           "name": "Chris Jackson",
           "photo_url": null,
           "website_url": "http://www.chrisjacksonforoakland.org/",
           "twitter_url": "https://twitter.com/cj4oakland",
           "first_name": "Chris",
           "last_name": "Jackson",
-          "ballot_item": 17,
-          "office_election": 17
+          "ballot_item": 4,
+          "office_election": 4
         },
         {
-          "id": 19,
+          "id": 28,
           "name": "James Harris",
           "photo_url": null,
           "website_url": "http://harrisforeastoakland.com/about-james/",
           "twitter_url": null,
           "first_name": "James",
           "last_name": "Harris",
-          "ballot_item": 17,
-          "office_election": 17
+          "ballot_item": 4,
+          "office_election": 4
         }
       ]
     },
     {
-      "id": 20,
-      "contest_type": "Office",
-      "name": "City Council District 5",
-      "candidates": [
-        {
-          "id": 21,
-          "name": "Noel Gallo",
-          "photo_url": "got one",
-          "website_url": "http://galloforoakland.com/",
-          "twitter_url": "@noelgallo5",
-          "first_name": "Noel",
-          "last_name": "Gallo",
-          "ballot_item": 20,
-          "office_election": 20
-        },
-        {
-          "id": 22,
-          "name": "Viola Gonzales",
-          "photo_url": "got one",
-          "website_url": "www.voteviola.com",
-          "twitter_url": "@voteviola",
-          "first_name": "Viola",
-          "last_name": "Gonzales",
-          "ballot_item": 20,
-          "office_election": 20
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "contest_type": "Office",
-      "name": "City Council District 7",
-      "candidates": [
-        {
-          "id": 24,
-          "name": "Marcie Hodge",
-          "photo_url": "got one",
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Marcie",
-          "last_name": "Hodge",
-          "ballot_item": 23,
-          "office_election": 23
-        },
-        {
-          "id": 25,
-          "name": "Nehanda Imara",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Nehanda",
-          "last_name": "Imara",
-          "ballot_item": 23,
-          "office_election": 23
-        },
-        {
-          "id": 26,
-          "name": "Larry Reid",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Larry",
-          "last_name": "Reid",
-          "ballot_item": 23,
-          "office_election": 23
-        }
-      ]
-    },
-    {
-      "id": 27,
+      "id": 5,
       "contest_type": "Office",
       "name": "School Board District 1",
       "candidates": [
         {
-          "id": 28,
+          "id": 18,
           "name": "Donald Macleay",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "first_name": "Donald",
           "last_name": "Macleay",
-          "ballot_item": 27,
-          "office_election": 27
+          "ballot_item": 5,
+          "office_election": 5
         },
         {
-          "id": 29,
+          "id": 19,
           "name": "Jody London",
           "photo_url": "got one",
           "website_url": "http://www.votejody.com/",
           "twitter_url": "https://twitter.com/votejodylondon",
           "first_name": "Jody",
           "last_name": "London",
-          "ballot_item": 27,
-          "office_election": 27
+          "ballot_item": 5,
+          "office_election": 5
         }
       ]
     },
     {
-      "id": 30,
+      "id": 6,
       "contest_type": "Office",
       "name": "School Board District 3",
       "candidates": [
         {
-          "id": 31,
+          "id": 20,
           "name": "Jumoke Hinton Hodge",
           "photo_url": "got one",
           "website_url": "https://hintonhodge.nationbuilder.com/",
           "twitter_url": "https://twitter.com/hintonhodge4oak",
           "first_name": "Jumoke",
           "last_name": "Hinton Hodge",
-          "ballot_item": 30,
-          "office_election": 30
+          "ballot_item": 6,
+          "office_election": 6
         },
         {
-          "id": 32,
+          "id": 21,
           "name": "Benjamin Lang",
           "photo_url": null,
           "website_url": "http://www.benlang.com/",
           "twitter_url": null,
           "first_name": "Benjamin",
           "last_name": "Lang",
-          "ballot_item": 30,
-          "office_election": 30
+          "ballot_item": 6,
+          "office_election": 6
         },
         {
-          "id": 33,
+          "id": 22,
           "name": "Kharyshi Wiginton",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "first_name": "Kharyshi",
           "last_name": "Wiginton",
-          "ballot_item": 30,
-          "office_election": 30
+          "ballot_item": 6,
+          "office_election": 6
         },
         {
-          "id": 34,
+          "id": 23,
           "name": "Lucky Narain",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "first_name": "Lucky",
           "last_name": "Narain",
-          "ballot_item": 30,
-          "office_election": 30
+          "ballot_item": 6,
+          "office_election": 6
         }
       ]
     },
     {
-      "id": 35,
+      "id": 7,
+      "contest_type": "Office",
+      "name": "City Council District 7",
+      "candidates": [
+        {
+          "id": 15,
+          "name": "Marcie Hodge",
+          "photo_url": "got one",
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Marcie",
+          "last_name": "Hodge",
+          "ballot_item": 7,
+          "office_election": 7
+        },
+        {
+          "id": 16,
+          "name": "Nehanda Imara",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Nehanda",
+          "last_name": "Imara",
+          "ballot_item": 7,
+          "office_election": 7
+        },
+        {
+          "id": 17,
+          "name": "Larry Reid",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Larry",
+          "last_name": "Reid",
+          "ballot_item": 7,
+          "office_election": 7
+        }
+      ]
+    },
+    {
+      "id": 8,
       "contest_type": "Office",
       "name": "School Board District 5",
       "candidates": [
         {
-          "id": 36,
+          "id": 24,
           "name": "Michael Hassid",
           "photo_url": "got one",
           "website_url": "http://www.mikehassidforschoolboard.com/",
           "twitter_url": "https://twitter.com/michaelhassid",
           "first_name": "Michael",
           "last_name": "Hassid",
-          "ballot_item": 35,
-          "office_election": 35
+          "ballot_item": 8,
+          "office_election": 8
         },
         {
-          "id": 37,
+          "id": 25,
           "name": "Michael Hutchinson",
           "photo_url": null,
           "website_url": "https://mikehutchinsonforschoolboard.wordpress.com/",
           "twitter_url": null,
           "first_name": "Michael",
           "last_name": "Hutchinson",
-          "ballot_item": 35,
-          "office_election": 35
+          "ballot_item": 8,
+          "office_election": 8
         },
         {
-          "id": 38,
+          "id": 26,
           "name": "Roseann Torres",
           "photo_url": null,
           "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
           "twitter_url": null,
           "first_name": "Roseann",
           "last_name": "Torres",
-          "ballot_item": 35,
-          "office_election": 35
+          "ballot_item": 8,
+          "office_election": 8
         },
         {
-          "id": 39,
+          "id": 27,
           "name": "Huber Trenado",
           "photo_url": "got one",
           "website_url": "http://www.votetrenadoousd.com/",
           "twitter_url": "https://twitter.com/hubertrenado?ref_src=twsrc%5Etfw",
           "first_name": "Huber",
           "last_name": "Trenado",
-          "ballot_item": 35,
-          "office_election": 35
+          "ballot_item": 8,
+          "office_election": 8
         }
       ]
     },
     {
-      "id": 40,
+      "id": 9,
+      "contest_type": "Office",
+      "name": "City Attorney",
+      "candidates": [
+        {
+          "id": 1,
+          "name": "Barbara Parker",
+          "photo_url": "got it",
+          "website_url": "http://www.cityattorneyparker.com/",
+          "twitter_url": "@barbarajparker1",
+          "first_name": "Barbara",
+          "last_name": "Parker",
+          "ballot_item": 9,
+          "office_election": 9
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "contest_type": "Office",
+      "name": "City Council District 5",
+      "candidates": [
+        {
+          "id": 13,
+          "name": "Noel Gallo",
+          "photo_url": "got one",
+          "website_url": "http://galloforoakland.com/",
+          "twitter_url": "@noelgallo5",
+          "first_name": "Noel",
+          "last_name": "Gallo",
+          "ballot_item": 10,
+          "office_election": 10
+        },
+        {
+          "id": 14,
+          "name": "Viola Gonzales",
+          "photo_url": "got one",
+          "website_url": "www.voteviola.com",
+          "twitter_url": "@voteviola",
+          "first_name": "Viola",
+          "last_name": "Gonzales",
+          "ballot_item": 10,
+          "office_election": 10
+        }
+      ]
+    },
+    {
+      "id": 1,
       "contest_type": "Referendum",
       "name": "Sugar-Sweetened BeverageTax",
       "title": "Sugar-Sweetened BeverageTax",
@@ -388,7 +388,7 @@
       "number": "HH"
     },
     {
-      "id": 41,
+      "id": 2,
       "contest_type": "Referendum",
       "name": "Lease Term for City-Owned or City-Controlled Property",
       "title": "Lease Term for City-Owned or City-Controlled Property",
@@ -396,7 +396,7 @@
       "number": "II"
     },
     {
-      "id": 42,
+      "id": 3,
       "contest_type": "Referendum",
       "name": "Just Cause for Eviction and Rent Adjustment",
       "title": "Just Cause for Eviction and Rent Adjustment",
@@ -404,7 +404,7 @@
       "number": "JJ"
     },
     {
-      "id": 43,
+      "id": 4,
       "contest_type": "Referendum",
       "name": "Infrastructure and Housing bonds",
       "title": "Infrastructure and Housing bonds",
@@ -412,7 +412,7 @@
       "number": "KK"
     },
     {
-      "id": 44,
+      "id": 5,
       "contest_type": "Referendum",
       "name": "Police Commission",
       "title": "Police Commission",
