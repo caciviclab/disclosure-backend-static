@@ -41,27 +41,6 @@ build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
-office_ballot_items = OfficeElection.find_each.map do |office_election|
-  {
-    id: office_election.id,
-    contest_type: 'Office',
-    name: office_election.name,
-    candidates: office_election.candidates.map(&:as_json),
-  }
-end
-referendum_ballot_items = OaklandReferendum.find_each.map do |referendum|
-  {
-    id: referendum.id,
-    contest_type: 'Referendum',
-    name: referendum['Short_Title'],
-
-    # fields for /referendum/:id
-    title: referendum['Short_Title'],
-    summary: referendum['Summary'],
-    number: referendum['Measure_number'],
-  }
-end.compact
-
 %W[
   /ballot/1
   /locality/#{OAKLAND_LOCALITY_ID}/current_ballot
@@ -69,16 +48,19 @@ end.compact
   build_file(filename) do |f|
     f.puts({
       id: 1,
-      ballot_items: (office_ballot_items + referendum_ballot_items),
+      ballot_items: (
+        OfficeElection.all.map(&:as_json) +
+        OaklandReferendum.all.map(&:as_json)
+      ),
       date: '2016-11-06',
       locality_id: OAKLAND_LOCALITY_ID,
     }.to_json)
   end
 end
 
-office_ballot_items.each do |item|
-  build_file("/office_election/#{item[:id]}") do |f|
-    f.puts JSON.pretty_generate(item.merge(ballot_id: 1))
+OfficeElection.find_each do |office_election|
+  build_file("/office_election/#{office_election.id}") do |f|
+    f.puts JSON.pretty_generate(office_election.as_json.merge(ballot_id: 1))
   end
 end
 
