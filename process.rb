@@ -11,13 +11,10 @@ module ::JSON
   end
 end
 
-require 'active_record'
-Dir.glob('models/*.rb').each { |f| load f }
-Dir.glob('calculators/*.rb').each { |f| load f }
+require_relative './environment.rb'
 
 require 'fileutils'
 require 'open-uri'
-ActiveRecord::Base.establish_connection 'postgresql:///disclosure-backend'
 
 def build_file(filename, &block)
   filename = File.expand_path('../build', __FILE__) + filename

@@ -1,7 +1,3 @@
-require 'active_record'
-Dir.glob('models/*.rb').each { |f| load f }
-
-ActiveRecord::Base.establish_connection 'postgresql:///disclosure-backend'
-
+require_relative './environment.rb'
 require 'pry'
 binding.pry
