@@ -1,13 +1,21 @@
 # TODO:
 # /ballot/:id/disclosure_summary
 require 'json'
+module ::JSON
+  class << self
+    # HACK: replace the implementation of `JSON.generate` so our models are
+    # serialized pretty by default. Probably could do this better with a
+    # subclass of ActiveSupport::Serialization::JSONEncoder or whatever.
+    alias_method :old_generate, :generate
+    alias_method :generate, :pretty_generate
+  end
+end
 
 require 'active_record'
 Dir.glob('models/*.rb').each { |f| load f }
 
 require 'fileutils'
 require 'open-uri'
-
 ActiveRecord::Base.establish_connection 'postgresql:///disclosure-backend'
 
 def build_file(filename, &block)
@@ -38,26 +46,10 @@ office_ballot_items = OfficeElection.find_each.map do |office_election|
     id: office_election.id,
     contest_type: 'Office',
     name: office_election.name,
-    candidates: office_election.candidates.map do |candidate|
-      first_name, last_name = candidate['Candidate'].split(' ', 2) # Probably wrong!
-
-      {
-        id: candidate.id,
-        name: candidate['Candidate'],
-
-        # fields for /candidate/:id
-        photo_url: candidate['Photo'],
-        website_url: candidate['Website'],
-        twitter_url: candidate['Twitter'],
-        first_name: first_name,
-        last_name: last_name,
-        ballot_item: office_election.id,
-        office_election: office_election.id,
-      }
-    end
+    candidates: office_election.candidates.map(&:as_json),
   }
 end
-referendum_ballot_items = OaklandReferendums.all.map do |referendum|
+referendum_ballot_items = OaklandReferendum.find_each.map do |referendum|
   {
     id: referendum.id,
     contest_type: 'Referendum',
@@ -75,12 +67,12 @@ end.compact
   /locality/#{OAKLAND_LOCALITY_ID}/current_ballot
 ].each do |filename|
   build_file(filename) do |f|
-    f.puts JSON.pretty_generate({
+    f.puts({
       id: 1,
-      ballot_items: office_ballot_items + referendum_ballot_items,
+      ballot_items: (office_ballot_items + referendum_ballot_items),
       date: '2016-11-06',
       locality_id: OAKLAND_LOCALITY_ID,
-    })
+    }.to_json)
   end
 end
 
@@ -88,39 +80,39 @@ office_ballot_items.each do |item|
   build_file("/office_election/#{item[:id]}") do |f|
     f.puts JSON.pretty_generate(item.merge(ballot_id: 1))
   end
-
-  item[:candidates].each do |candidate|
-    build_file("/candidate/#{candidate[:id]}/supporting") do |f|
-      f.puts JSON.pretty_generate(candidate.merge(
-        contributions_received: 1234,
-      ))
-    end
-
-    build_file("/candidate/#{candidate[:id]}/opposing") do |f|
-      f.puts JSON.pretty_generate(candidate.merge(
-        contributions_received: 4567,
-      ))
-    end
-
-    build_file("/candidate/#{candidate[:id]}") do |f|
-      f.puts JSON.pretty_generate(candidate)
-    end
-  end
 end
 
-referendum_ballot_items.each do |item|
-  build_file("/referendum/#{item[:id]}") do |f|
-    f.puts JSON.pretty_generate(item.merge(ballot_id: 1))
+OaklandCandidate.includes(:office_election).find_each do |candidate|
+  build_file("/candidate/#{candidate.id}") do |f|
+    f.puts candidate.to_json
   end
 
-  build_file("/referendum/#{item[:id]}/supporting") do |f|
-    f.puts JSON.pretty_generate(item.merge(
+  build_file("/candidate/#{candidate.id}/supporting") do |f|
+    f.puts JSON.pretty_generate(candidate.as_json.merge(
       contributions_received: 1234,
     ))
   end
 
-  build_file("/referendum/#{item[:id]}/opposing") do |f|
-    f.puts JSON.pretty_generate(item.merge(
+  build_file("/candidate/#{candidate.id}/opposing") do |f|
+    f.puts JSON.pretty_generate(candidate.as_json.merge(
+      contributions_received: 4567,
+    ))
+  end
+end
+
+OaklandReferendum.find_each do |referendum|
+  build_file("/referendum/#{referendum.id}") do |f|
+    f.puts JSON.pretty_generate(referendum.as_json.merge(ballot_id: 1))
+  end
+
+  build_file("/referendum/#{referendum.id}/supporting") do |f|
+    f.puts JSON.pretty_generate(referendum.as_json.merge(
+      contributions_received: 1234,
+    ))
+  end
+
+  build_file("/referendum/#{referendum.id}/opposing") do |f|
+    f.puts JSON.pretty_generate(referendum.as_json.merge(
       contributions_received: 4567,
     ))
   end
