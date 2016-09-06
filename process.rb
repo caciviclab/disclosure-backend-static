@@ -13,6 +13,7 @@ end
 
 require 'active_record'
 Dir.glob('models/*.rb').each { |f| load f }
+Dir.glob('calculators/*.rb').each { |f| load f }
 
 require 'fileutils'
 require 'open-uri'
@@ -31,6 +32,17 @@ OaklandCandidate.distinct(:Office).pluck(:Office).each do |office|
     .first_or_create
 end
 
+# second, process the contribution data
+[
+  TotalContributionsCalculator,
+  TotalExpendituresCalculator,
+].each do |calculator_class|
+  calculator_class
+    .new(candidates: OaklandCandidate.all)
+    .fetch
+end
+
+# third, write everything out to the build files
 OAKLAND_LOCALITY_ID = 2
 
 build_file('/locality/search') do |f|
@@ -64,14 +76,16 @@ OfficeElection.find_each do |office_election|
   end
 end
 
-OaklandCandidate.includes(:office_election).find_each do |candidate|
+OaklandCandidate.includes(:office_election, :calculations).find_each do |candidate|
   build_file("/candidate/#{candidate.id}") do |f|
     f.puts candidate.to_json
   end
 
   build_file("/candidate/#{candidate.id}/supporting") do |f|
     f.puts JSON.pretty_generate(candidate.as_json.merge(
-      contributions_received: 1234,
+      contributions_received: candidate.calculation(:total_contributions).try(:to_f),
+      total_contributions: candidate.calculation(:total_contributions).try(:to_f),
+      total_expenditures: candidate.calculation(:total_expenditures).try(:to_f),
     ))
   end
 

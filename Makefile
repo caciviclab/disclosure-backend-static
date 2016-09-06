@@ -9,8 +9,7 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	inputs/oakland_committees.csv inputs/oakland_referendums.csv
 	dropdb disclosure-backend
 	createdb disclosure-backend
-	csvsql --db postgresql:///disclosure-backend --insert inputs/efile_COAK_2016_A-Contributions.csv
-	echo 'ALTER TABLE "efile_COAK_2016_A-Contributions" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
+	csvsql --db postgresql:///disclosure-backend --insert inputs/efile_COAK_2016_*.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_referendums.csv
@@ -18,6 +17,7 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_committees.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
+	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value varchar(40));' | psql disclosure-backend
 
 inputs/efile_COAK_%_A-Contributions.csv: downloads/efile_COAK_%.xlsx
 	ssconvert -S $< inputs/$(subst .xlsx,_%s.csv,$(shell basename $<))
