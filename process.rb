@@ -1,7 +1,5 @@
 # TODO:
 # /ballot/:id/disclosure_summary
-# /referendum/:id/supporting
-# /referendum/:id/opposing
 require 'json'
 
 require 'fileutils'
