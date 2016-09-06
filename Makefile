@@ -9,9 +9,7 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	inputs/oakland_committees.csv inputs/oakland_referendums.csv create.sql
 	dropdb disclosure-backend
 	createdb disclosure-backend
-	psql disclosure-backend < create.sql
-	echo "COPY contributions FROM '${CD}/inputs/efile_COAK_2016_A-Contributions.csv' WITH CSV HEADER QUOTE '\"'" | \
-		psql disclosure-backend
+	csvsql --db postgresql:///disclosure-backend --insert inputs/efile_COAK_2016_A-Contributions.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_candidates.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_referendums.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_committees.csv
