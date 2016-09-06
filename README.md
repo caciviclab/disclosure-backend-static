@@ -23,8 +23,8 @@ gem install pg
 ## Running
 
 ```bash
-make
-ruby process.rb
+make import    # <- only need to run the first time
+make process
 # everything is output into the "build" folder
 ```
 

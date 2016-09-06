@@ -1,11 +1,12 @@
-.PHONY: process
+.PHONY: import
 
 CD := $(shell pwd)
 
-process: import
+process: process.rb
+	rm -rf build && ruby process.rb
 
-import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv inputs/oakland_committees.csv \
-	inputs/oakland_referendums.csv create.sql
+import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv \
+	inputs/oakland_committees.csv inputs/oakland_referendums.csv create.sql
 	dropdb disclosure-backend
 	createdb disclosure-backend
 	psql disclosure-backend < create.sql
