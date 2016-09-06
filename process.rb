@@ -36,6 +36,7 @@ end
 [
   TotalContributionsCalculator,
   TotalExpendituresCalculator,
+  CandidateContributionsByType,
 ].each do |calculator_class|
   calculator_class
     .new(candidates: OaklandCandidate.all)
@@ -86,6 +87,7 @@ OaklandCandidate.includes(:office_election, :calculations).find_each do |candida
       contributions_received: candidate.calculation(:total_contributions).try(:to_f),
       total_contributions: candidate.calculation(:total_contributions).try(:to_f),
       total_expenditures: candidate.calculation(:total_expenditures).try(:to_f),
+      contributions_by_type: candidate.calculation(:contributions_by_type) || {},
     ))
   end
 

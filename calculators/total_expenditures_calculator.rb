@@ -9,9 +9,9 @@ class TotalExpendituresCalculator
   def fetch
     @results = ActiveRecord::Base.connection.execute <<-SQL
       SELECT "Filer_ID", "Amount_A" FROM "efile_COAK_2016_Summary"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
-          AND "Form_Type" = 'F460'
-          AND "Line_Item" = '11'
+       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
+         AND "Form_Type" = 'F460'
+         AND "Line_Item" = '11'
     SQL
 
     @results.each do |result|

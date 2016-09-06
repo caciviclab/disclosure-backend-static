@@ -10,5 +10,11 @@
   "office_election": 1,
   "contributions_received": 39058.66,
   "total_contributions": 39058.66,
-  "total_expenditures": 6118.11
+  "total_expenditures": 6118.11,
+  "contributions_by_type": {
+    "Committee": 2400.0,
+    "Individual": 22487.0,
+    "Unitemized": 3521.66,
+    "Other (includes Businesses)": 1650.0
+  }
 }
