@@ -15,14 +15,14 @@ class CandidateContributionsByType
     contributions_by_candidate_by_type.each do |filer_id, contributions_by_type|
       if small_contributor_committee = contributions_by_type.delete('SCC')
         contributions_by_type['COM'] ||= 0
-        contributions_by_type['COM'] += small_contributor_committee
+        contributions_by_type['COM'] += small_contributor_committee.to_f
       end
     end
 
     # normalization: fetch unitemized totals and add it as a bucket too
     unitemized_contributions_by_candidate.each do |filer_id, unitemized_contributions|
       contributions_by_candidate_by_type[filer_id] ||= {}
-      contributions_by_candidate_by_type[filer_id]['Unitemized'] = unitemized_contributions
+      contributions_by_candidate_by_type[filer_id]['Unitemized'] = unitemized_contributions.to_f
     end
 
     # normalization: replace three-letter names with TYPE_DESCRIPTIONS
