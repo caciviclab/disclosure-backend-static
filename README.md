@@ -15,9 +15,10 @@ no client code changes will be required.
 ## Installation
 
 ```bash
-brew install gnumeric
+brew install gnumeric postgresql
 sudo pip install csvkit psycopg2
-gem install pg
+gem install pg bundler
+bundle install
 ```
 
 ## Running
