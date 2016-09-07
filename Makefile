@@ -7,7 +7,7 @@ process: process.rb
 
 import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv \
 	inputs/oakland_committees.csv inputs/oakland_referendums.csv
-	dropdb disclosure-backend
+	dropdb disclosure-backend || true
 	createdb disclosure-backend
 	csvsql --db postgresql:///disclosure-backend --insert inputs/efile_COAK_2016_*.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_candidates.csv
