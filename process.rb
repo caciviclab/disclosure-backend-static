@@ -1,15 +1,5 @@
 # TODO:
 # /ballot/:id/disclosure_summary
-require 'json'
-module ::JSON
-  class << self
-    # HACK: replace the implementation of `JSON.generate` so our models are
-    # serialized pretty by default. Probably could do this better with a
-    # subclass of ActiveSupport::Serialization::JSONEncoder or whatever.
-    alias_method :old_generate, :generate
-    alias_method :generate, :pretty_generate
-  end
-end
 
 require_relative './environment.rb'
 
