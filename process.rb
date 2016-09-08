@@ -28,7 +28,10 @@ Dir.glob('calculators/*').each do |calculator_file|
   begin
     calculator_class = class_name.constantize
     calculator_class
-      .new(candidates: OaklandCandidate.all)
+      .new(
+        candidates: OaklandCandidate.all,
+        ballot_measures: OaklandReferendum.all,
+      )
       .fetch
   rescue NameError => ex
     if ex.message =~ /#{class_name}/
@@ -103,13 +106,23 @@ OaklandReferendum.find_each do |referendum|
 
   build_file("/referendum/#{referendum.id}/supporting") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
-      contributions_received: 1234,
+      money_supporting: 1234,
+      money_supporting_by_region: {
+        within_oakland: 123,
+        within_california: 111,
+        out_of_state: 222,
+      }
     ))
   end
 
   build_file("/referendum/#{referendum.id}/opposing") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
-      contributions_received: 4567,
+      money_opposing: 3333,
+      money_opposing_by_region: {
+        within_oakland: 123,
+        within_california: 111,
+        out_of_state: 222,
+      }
     ))
   end
 end

@@ -1,7 +1,7 @@
 require 'set'
 
 class TotalExpendituresCalculator
-  def initialize(candidates: [])
+  def initialize(candidates: [], ballot_measures: [])
     @candidates_by_filer_id =
       candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.FPPC }
   end
