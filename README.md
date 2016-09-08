@@ -29,6 +29,64 @@ make process
 # everything is output into the "build" folder
 ```
 
+## Developing
+### Adding a calculator
+
+> NOTE: Calculators can only currently calculate figures for candidate
+> controlled committees. Eventually (soon) we will add the ability to calculate
+> figures for Ballot Measure committees and independent expenditure committees.
+
+Each metric about a candidate is calculated independently. A metric might be
+something like "total contributions received" or something more complex like
+"percentage of contributions that are less than $100".
+
+When adding a new calculation, a good first place to start is the [Form
+460][form_460]. What data are you looking for? There are also a couple other
+forms that we import, like Form 496. (These are the names of the files in the
+`input` directory. Check those out.)
+
+Each schedule of each form is imported into a separate postgres table. For
+example, Schedule A of Form 460 is imported into the
+`efile_COAK_2016_A-Contributions` table.
+
+Now that you have a way of querying the data, you should come up with a SQL
+query that calculates the value you are trying to get. Once you can express
+your calcualtion as SQL, put it in a calcuator file like so:
+
+1. Create a new file named `calculators/[your_thing]_calculator.rb`
+2. Here is some boilerplate for that file:
+  ```ruby
+  # the name of this class _must_ match the filename of this file, i.e. end
+  # with "Calculator" if the file ends with "_calculator.rb"
+  class YourThingCalculator
+    def initialize(candidates:)
+      @candidates = candidates
+      @candidates_by_filer_id = @candidates.where('"FPPC" IS NOT NULL')
+        .index_by { |candidate| candidate['FPPC'] }
+    end
+
+    def fetch
+      @results = ActiveRecord::Base.connection.execute(<<-SQL)
+        -- your sql query here
+      SQL
+
+      @results.each do |row|
+        # make sure Filer_ID is returned as a column by your query!
+        candidate = @candidates_by_filer_id[row['Filer_ID']]
+
+        # change this!
+        candidate.save_calculation(:your_thing, row[column_with_your_desired_data])
+      end
+    end
+  end
+  ```
+3. You will want to fill in the SQL query and make sure that the query selects
+   the `Filer_ID` column.
+4. Make sure to update the call to `candidate.save_calculation`. That method
+   will serialize its second argument as JSON, so it can store any kind of data.
+5. Your calculation can be retrieved with `candidate.calculation(:your_thing)`.
+   You will want to add this into an API response in the `process.rb` file.
+
 ## Deploying
 This is hosted on Tom's personal server, accessible with an API root of
 
@@ -37,3 +95,5 @@ http://disclosure-backend-static.f.tdooner.com
 (e.g. http://disclosure-backend-static.f.tdooner.com/office_election/35)
 
 This means that unfortuately, only I can deploy it right now.
+
+[form_460]: http://www.fppc.ca.gov/content/dam/fppc/NS-Documents/TAD/Campaign%20Forms/460.pdf

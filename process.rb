@@ -20,14 +20,25 @@ OaklandCandidate.distinct(:Office).pluck(:Office).each do |office|
 end
 
 # second, process the contribution data
-[
-  TotalContributionsCalculator,
-  TotalExpendituresCalculator,
-  CandidateContributionsByType,
-].each do |calculator_class|
-  calculator_class
-    .new(candidates: OaklandCandidate.all)
-    .fetch
+#   load calculators dynamically, assume each one defines a class given by its
+#   filename. E.g. calculators/foo_calculator.rb would define "FooCalculator"
+Dir.glob('calculators/*').each do |calculator_file|
+  basename = File.basename(calculator_file.chomp('.rb'))
+  class_name = ActiveSupport::Inflector.classify(basename)
+  begin
+    calculator_class = class_name.constantize
+    calculator_class
+      .new(candidates: OaklandCandidate.all)
+      .fetch
+  rescue NameError => ex
+    if ex.message =~ /#{class_name}/
+      $stderr.puts "ERROR: Undefined constant #{class_name}, expected it to be "\
+        "defined in #{calculator_file}"
+      exit 1
+    else
+      raise
+    end
+  end
 end
 
 # third, write everything out to the build files
