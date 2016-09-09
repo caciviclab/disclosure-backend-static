@@ -1,5 +1,3 @@
-require 'set'
-
 class TotalExpendituresCalculator
   def initialize(candidates: [], ballot_measures: [])
     @candidates_by_filer_id =
