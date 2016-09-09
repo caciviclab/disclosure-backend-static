@@ -45,16 +45,26 @@ class CandidateContributionsByType
 
   def contributions_by_candidate_by_type
     @_contributions_by_candidate_by_type ||= {}.tap do |hash|
-      results = ActiveRecord::Base.connection.execute <<-SQL
+      monetary_results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT "Filer_ID", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
         FROM "efile_COAK_2016_A-Contributions"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Entity_Cd", "Filer_ID";
       SQL
 
-      results.each do |result|
-        hash[result['Filer_ID']] ||= {}
-        hash[result['Filer_ID']][result['Entity_Cd']] = result['Total']
+      in_kind_results = ActiveRecord::Base.connection.execute <<-SQL
+        SELECT "Filer_ID", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
+        FROM "efile_COAK_2016_C-Contributions"
+        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Entity_Cd", "Filer_ID";
+      SQL
+
+      (monetary_results.to_a + in_kind_results.to_a).each do |result|
+        filer_id = result['Filer_ID'].to_s
+
+        hash[filer_id] ||= {}
+        hash[filer_id][result['Entity_Cd']] ||= 0
+        hash[filer_id][result['Entity_Cd']] += result['Total']
       end
     end
   end
