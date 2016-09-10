@@ -34,9 +34,10 @@ Dir.glob('calculators/*').each do |calculator_file|
       )
       .fetch
   rescue NameError => ex
-    if ex.message =~ /#{class_name}/
+    if ex.message =~ /uninitialized constant #{class_name}/
       $stderr.puts "ERROR: Undefined constant #{class_name}, expected it to be "\
         "defined in #{calculator_file}"
+      puts ex.message
       exit 1
     else
       raise
