@@ -1,7 +1,7 @@
 {
   "id": 10,
   "name": "Lynette Gibson McElhaney",
-  "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Lynette-McElhaney.jpg",
+  "photo_url": "got one",
   "website_url": "http://www.lynettemcelhaney.com/",
   "twitter_url": "@lynettegm",
   "first_name": "Lynette",
@@ -17,5 +17,13 @@
     "Individual": 29188.16,
     "Unitemized": 808.92,
     "Other (includes Businesses)": 8350.0
+  },
+  "expenditures_by_type": {
+    "civic donations": 450.0,
+    "office expenses": 2340.51,
+    "fundraising events": 718.87,
+    "meetings and appearances": 184.17,
+    "professional services (legal, accounting)": 4318.35,
+    "information technology costs (internet, e-mail)": 942.85
   }
 }

@@ -3,7 +3,7 @@
   "name": "Chris Jackson",
   "photo_url": null,
   "website_url": "http://www.chrisjacksonforoakland.org/",
-  "twitter_url": "@cj4oakland",
+  "twitter_url": "https://twitter.com/cj4oakland",
   "first_name": "Chris",
   "last_name": "Jackson",
   "ballot_item": 4,
@@ -16,5 +16,7 @@
     "Committee": 1200.0,
     "Individual": 2950.0,
     "Unitemized": 1672.0
+  },
+  "expenditures_by_type": {
   }
 }

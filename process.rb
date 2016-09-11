@@ -91,6 +91,7 @@ OaklandCandidate.includes(:office_election, :calculations).find_each do |candida
       total_expenditures: candidate.calculation(:total_expenditures).try(:to_f),
       total_loans_received: candidate.calculation(:total_loans_received).try(:to_f),
       contributions_by_type: candidate.calculation(:contributions_by_type) || {},
+      expenditures_by_type: candidate.calculation(:expenditures_by_type) || {},
     ))
   end
 
