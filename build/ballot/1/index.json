@@ -9,7 +9,7 @@
         {
           "id": 7,
           "name": "Kevin Corbett",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Kevin-Corbett.jpg",
           "website_url": "http://www.corbett4oakland.com/meet-kevin/",
           "twitter_url": null,
           "first_name": "Kevin",
@@ -20,7 +20,7 @@
         {
           "id": 8,
           "name": "Dan Kalb",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Dan-Kalb.jpg",
           "website_url": "https://dankalb.net",
           "twitter_url": "@dankalb",
           "first_name": "Dan",
@@ -49,7 +49,7 @@
         {
           "id": 10,
           "name": "Lynette Gibson McElhaney",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Lynette-McElhaney.jpg",
           "website_url": "http://www.lynettemcelhaney.com/",
           "twitter_url": "@lynettegm",
           "first_name": "Lynette",
@@ -58,13 +58,24 @@
           "office_election": 2
         },
         {
-          "id": 11,
+          "id": 12,
           "name": "Noni Session",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Noni-Session2.jpg",
           "website_url": "http://www.nonifordistrict3.com/",
           "twitter_url": "@NoniSession",
           "first_name": "Noni",
           "last_name": "Session",
+          "ballot_item": 2,
+          "office_election": 2
+        },
+        {
+          "id": 29,
+          "name": "Saied Karamooz",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": "@SaiedKaramooz",
+          "first_name": "Saied",
+          "last_name": "Karamooz",
           "ballot_item": 2,
           "office_election": 2
         }
@@ -90,8 +101,8 @@
           "id": 3,
           "name": "Bruce Quan",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "http://www.bruceforoakland.com/",
+          "twitter_url": "@BruceforOakland",
           "first_name": "Bruce",
           "last_name": "Quan",
           "ballot_item": 3,
@@ -100,7 +111,7 @@
         {
           "id": 4,
           "name": "Nancy Sidebotham",
-          "photo_url": "Provided jpg",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/nancy-sidebotham2.JPG",
           "website_url": "nancysidebotham.com (under construction)",
           "twitter_url": null,
           "first_name": "Nancy",
@@ -111,7 +122,7 @@
         {
           "id": 5,
           "name": "F. Matt Hummell",
-          "photo_url": "got it",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/F-Matt-Hummell.jpg",
           "website_url": "http://matt4thepeople.nationbuilder.com/",
           "twitter_url": null,
           "first_name": "F.",
@@ -122,7 +133,7 @@
         {
           "id": 6,
           "name": "Peggy Moore",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Margaret-Moore.gif",
           "website_url": null,
           "twitter_url": null,
           "first_name": "Peggy",
@@ -153,7 +164,7 @@
           "name": "Chris Jackson",
           "photo_url": null,
           "website_url": "http://www.chrisjacksonforoakland.org/",
-          "twitter_url": "https://twitter.com/cj4oakland",
+          "twitter_url": "@cj4oakland",
           "first_name": "Chris",
           "last_name": "Jackson",
           "ballot_item": 4,
@@ -164,58 +175,29 @@
     {
       "id": 5,
       "contest_type": "Office",
-      "name": "School Board District 1",
-      "candidates": [
-        {
-          "id": 17,
-          "name": "Donald Macleay",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Donald",
-          "last_name": "Macleay",
-          "ballot_item": 5,
-          "office_election": 5
-        },
-        {
-          "id": 18,
-          "name": "Jody London",
-          "photo_url": "got one",
-          "website_url": "http://www.votejody.com/",
-          "twitter_url": "https://twitter.com/votejodylondon",
-          "first_name": "Jody",
-          "last_name": "London",
-          "ballot_item": 5,
-          "office_election": 5
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "contest_type": "Office",
       "name": "School Board District 3",
       "candidates": [
         {
-          "id": 19,
+          "id": 11,
           "name": "Jumoke Hinton Hodge",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Hinton-Hodge.jpg",
           "website_url": "https://hintonhodge.nationbuilder.com/",
-          "twitter_url": "https://twitter.com/hintonhodge4oak",
+          "twitter_url": "@hintonhodge4oak",
           "first_name": "Jumoke",
           "last_name": "Hinton Hodge",
-          "ballot_item": 6,
-          "office_election": 6
+          "ballot_item": 5,
+          "office_election": 5
         },
         {
           "id": 20,
           "name": "Benjamin Lang",
-          "photo_url": null,
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Ben-Lang.jpg",
           "website_url": "http://www.benlang.com/",
           "twitter_url": null,
           "first_name": "Benjamin",
           "last_name": "Lang",
-          "ballot_item": 6,
-          "office_election": 6
+          "ballot_item": 5,
+          "office_election": 5
         },
         {
           "id": 21,
@@ -225,8 +207,8 @@
           "twitter_url": null,
           "first_name": "Kharyshi",
           "last_name": "Wiginton",
-          "ballot_item": 6,
-          "office_election": 6
+          "ballot_item": 5,
+          "office_election": 5
         },
         {
           "id": 22,
@@ -236,6 +218,35 @@
           "twitter_url": null,
           "first_name": "Lucky",
           "last_name": "Narain",
+          "ballot_item": 5,
+          "office_election": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "contest_type": "Office",
+      "name": "School Board District 1",
+      "candidates": [
+        {
+          "id": 18,
+          "name": "Donald Macleay",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": "@donmacleay",
+          "first_name": "Donald",
+          "last_name": "Macleay",
+          "ballot_item": 6,
+          "office_election": 6
+        },
+        {
+          "id": 19,
+          "name": "Jody London",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Jody-London2.jpg.JPG",
+          "website_url": "http://www.votejody.com/",
+          "twitter_url": "@votejodylondon",
+          "first_name": "Jody",
+          "last_name": "London",
           "ballot_item": 6,
           "office_election": 6
         }
@@ -247,9 +258,9 @@
       "name": "City Council District 7",
       "candidates": [
         {
-          "id": 14,
+          "id": 15,
           "name": "Marcie Hodge",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Marcie-Hodge.jpg",
           "website_url": null,
           "twitter_url": null,
           "first_name": "Marcie",
@@ -258,7 +269,7 @@
           "office_election": 7
         },
         {
-          "id": 15,
+          "id": 16,
           "name": "Nehanda Imara",
           "photo_url": null,
           "website_url": null,
@@ -269,7 +280,7 @@
           "office_election": 7
         },
         {
-          "id": 16,
+          "id": 17,
           "name": "Larry Reid",
           "photo_url": null,
           "website_url": null,
@@ -289,9 +300,9 @@
         {
           "id": 23,
           "name": "Michael Hassid",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Mike-Hassid.png",
           "website_url": "http://www.mikehassidforschoolboard.com/",
-          "twitter_url": "https://twitter.com/michaelhassid",
+          "twitter_url": "@michaelhassid",
           "first_name": "Michael",
           "last_name": "Hassid",
           "ballot_item": 8,
@@ -313,7 +324,7 @@
           "name": "Roseann Torres",
           "photo_url": null,
           "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
-          "twitter_url": null,
+          "twitter_url": "@roseann_torres",
           "first_name": "Roseann",
           "last_name": "Torres",
           "ballot_item": 8,
@@ -322,9 +333,9 @@
         {
           "id": 26,
           "name": "Huber Trenado",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Huber-Trenado.jpg",
           "website_url": "http://www.votetrenadoousd.com/",
-          "twitter_url": "https://twitter.com/hubertrenado?ref_src=twsrc%5Etfw",
+          "twitter_url": "@hubertrenado",
           "first_name": "Huber",
           "last_name": "Trenado",
           "ballot_item": 8,
@@ -340,7 +351,7 @@
         {
           "id": 1,
           "name": "Barbara Parker",
-          "photo_url": "got it",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Barbara-Parker2.jpg",
           "website_url": "http://www.cityattorneyparker.com/",
           "twitter_url": "@barbarajparker1",
           "first_name": "Barbara",
@@ -356,9 +367,9 @@
       "name": "City Council District 5",
       "candidates": [
         {
-          "id": 12,
+          "id": 13,
           "name": "Noel Gallo",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Noel-Gallo2.jpg",
           "website_url": "http://galloforoakland.com/",
           "twitter_url": "@noelgallo5",
           "first_name": "Noel",
@@ -367,9 +378,9 @@
           "office_election": 10
         },
         {
-          "id": 13,
+          "id": 14,
           "name": "Viola Gonzales",
-          "photo_url": "got one",
+          "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Viola-Gonzales.jpg",
           "website_url": "www.voteviola.com",
           "twitter_url": "@voteviola",
           "first_name": "Viola",
