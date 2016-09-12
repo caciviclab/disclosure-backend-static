@@ -109,17 +109,21 @@ OaklandReferendum.find_each do |referendum|
 
   build_file("/referendum/#{referendum.id}/supporting") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
+      supporting_organizations:
+        referendum.calculation(:supporting_organizations) || [],
       money_supporting: 1234,
       money_supporting_by_region: {
         within_oakland: 123,
         within_california: 111,
         out_of_state: 222,
-      }
+      },
     ))
   end
 
   build_file("/referendum/#{referendum.id}/opposing") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
+      opposing_organizations:
+        referendum.calculation(:opposing_organizations) || [],
       money_opposing: 3333,
       money_opposing_by_region: {
         within_oakland: 123,
