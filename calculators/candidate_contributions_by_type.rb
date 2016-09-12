@@ -5,7 +5,7 @@ class CandidateContributionsByType
     'OTH' => 'Other (includes Businesses)',
   }
 
-  def initialize(candidates: [], ballot_measures: [])
+  def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates_by_filer_id =
       candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.FPPC }
   end

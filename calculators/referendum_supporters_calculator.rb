@@ -1,5 +1,5 @@
 class ReferendumSupportersCalculator
-  def initialize(candidates: [], ballot_measures: [])
+  def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
   end
 

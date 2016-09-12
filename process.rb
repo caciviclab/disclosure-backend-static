@@ -31,6 +31,7 @@ Dir.glob('calculators/*').each do |calculator_file|
       .new(
         candidates: OaklandCandidate.all,
         ballot_measures: OaklandReferendum.all,
+        committees: OaklandCommittee.all
       )
       .fetch
   rescue NameError => ex
@@ -99,6 +100,12 @@ OaklandCandidate.includes(:office_election, :calculations).find_each do |candida
     f.puts JSON.pretty_generate(candidate.as_json.merge(
       contributions_received: 4567,
     ))
+  end
+end
+
+OaklandCommittee.includes(:calculations).find_each do |committee|
+  build_file("/committee/#{committee.id}") do |f|
+    f.puts committee.to_json
   end
 end
 

@@ -1,6 +1,9 @@
-.PHONY: import
+.PHONY: clean import
 
 CD := $(shell pwd)
+
+clean:
+	rm -rf inputs/*.csv
 
 process: process.rb
 	rm -rf build && ruby process.rb

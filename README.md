@@ -12,6 +12,10 @@ data, download the CSV human-curated data for Oakland, and combine the two. The
 output is a directory of JSON files which mimic the existing API structure so
 no client code changes will be required.
 
+## Prerequisites
+
+- Ruby >= 2.2.2
+
 ## Installation
 
 ```bash
@@ -56,7 +60,7 @@ your calcualtion as SQL, put it in a calcuator file like so:
   # the name of this class _must_ match the filename of this file, i.e. end
   # with "Calculator" if the file ends with "_calculator.rb"
   class YourThingCalculator
-    def initialize(candidates: [], ballot_measures: [])
+    def initialize(candidates: [], ballot_measures: [], committees: [])
       @candidates = candidates
       @candidates_by_filer_id = @candidates.where('"FPPC" IS NOT NULL')
         .index_by { |candidate| candidate['FPPC'] }
