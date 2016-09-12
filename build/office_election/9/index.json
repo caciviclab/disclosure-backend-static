@@ -1,16 +1,49 @@
 {
   "id": 9,
   "contest_type": "Office",
-  "name": "City Attorney",
+  "name": "School Board District 5",
   "candidates": [
     {
-      "id": 1,
-      "name": "Barbara Parker",
-      "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Barbara-Parker2.jpg",
-      "website_url": "http://www.cityattorneyparker.com/",
-      "twitter_url": "@barbarajparker1",
-      "first_name": "Barbara",
-      "last_name": "Parker",
+      "id": 32,
+      "name": "Michael Hassid",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Michael-Hassid.png",
+      "website_url": "http://www.mikehassidforschoolboard.com/",
+      "twitter_url": "@michaelhassid",
+      "first_name": "Michael",
+      "last_name": "Hassid",
+      "ballot_item": 9,
+      "office_election": 9
+    },
+    {
+      "id": 33,
+      "name": "Michael Hutchinson",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Mike-Hutchinson.png",
+      "website_url": "https://mikehutchinsonforschoolboard.wordpress.com/",
+      "twitter_url": null,
+      "first_name": "Michael",
+      "last_name": "Hutchinson",
+      "ballot_item": 9,
+      "office_election": 9
+    },
+    {
+      "id": 34,
+      "name": "Roseann Torres",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Roseann-Torres.png",
+      "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
+      "twitter_url": "@roseann_torres",
+      "first_name": "Roseann",
+      "last_name": "Torres",
+      "ballot_item": 9,
+      "office_election": 9
+    },
+    {
+      "id": 35,
+      "name": "Huber Trenado",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Huber-Trenado.png",
+      "website_url": "http://www.votetrenadoousd.com/",
+      "twitter_url": "@hubertrenado",
+      "first_name": "Huber",
+      "last_name": "Trenado",
       "ballot_item": 9,
       "office_election": 9
     }

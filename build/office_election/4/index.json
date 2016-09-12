@@ -1,27 +1,71 @@
 {
   "id": 4,
   "contest_type": "Office",
-  "name": "School Board District 7",
+  "name": "City Council District 3",
   "candidates": [
     {
-      "id": 27,
-      "name": "James Harris",
+      "id": 12,
+      "name": "Alan Brown",
       "photo_url": null,
-      "website_url": "http://harrisforeastoakland.com/about-james/",
+      "website_url": null,
       "twitter_url": null,
-      "first_name": "James",
-      "last_name": "Harris",
+      "first_name": "Alan",
+      "last_name": "Brown",
       "ballot_item": 4,
       "office_election": 4
     },
     {
-      "id": 28,
-      "name": "Chris Jackson",
+      "id": 13,
+      "name": "Lynette Gibson McElhaney",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lynette-Gibson-McElhaney.png",
+      "website_url": "http://www.lynettemcelhaney.com/",
+      "twitter_url": "@lynettegm",
+      "first_name": "Lynette",
+      "last_name": "Gibson McElhaney",
+      "ballot_item": 4,
+      "office_election": 4
+    },
+    {
+      "id": 14,
+      "name": "Noni Session",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
+      "website_url": "http://www.nonifordistrict3.com/",
+      "twitter_url": "@NoniSession",
+      "first_name": "Noni",
+      "last_name": "Session",
+      "ballot_item": 4,
+      "office_election": 4
+    },
+    {
+      "id": 15,
+      "name": "Saied Karamooz",
       "photo_url": null,
-      "website_url": "http://www.chrisjacksonforoakland.org/",
-      "twitter_url": "@cj4oakland",
-      "first_name": "Chris",
-      "last_name": "Jackson",
+      "website_url": null,
+      "twitter_url": "@SaiedKaramooz",
+      "first_name": "Saied",
+      "last_name": "Karamooz",
+      "ballot_item": 4,
+      "office_election": 4
+    },
+    {
+      "id": 16,
+      "name": "Anthony McNeal",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "first_name": "Anthony",
+      "last_name": "McNeal",
+      "ballot_item": 4,
+      "office_election": 4
+    },
+    {
+      "id": 17,
+      "name": "Tyron Jordan",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "first_name": "Tyron",
+      "last_name": "Jordan",
       "ballot_item": 4,
       "office_election": 4
     }

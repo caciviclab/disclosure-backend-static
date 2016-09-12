@@ -1,27 +1,27 @@
 {
   "id": 1,
   "contest_type": "Office",
-  "name": "City Council District 1",
+  "name": "School Board District 1",
   "candidates": [
     {
-      "id": 7,
-      "name": "Kevin Corbett",
-      "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Kevin-Corbett.jpg",
-      "website_url": "http://www.corbett4oakland.com/meet-kevin/",
-      "twitter_url": null,
-      "first_name": "Kevin",
-      "last_name": "Corbett",
+      "id": 26,
+      "name": "Donald Macleay",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": "@donmacleay",
+      "first_name": "Donald",
+      "last_name": "Macleay",
       "ballot_item": 1,
       "office_election": 1
     },
     {
-      "id": 8,
-      "name": "Dan Kalb",
-      "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Dan-Kalb.jpg",
-      "website_url": "https://dankalb.net",
-      "twitter_url": "@dankalb",
-      "first_name": "Dan",
-      "last_name": "Kalb",
+      "id": 27,
+      "name": "Jody London",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+      "website_url": "http://www.votejody.com/",
+      "twitter_url": "@votejodylondon",
+      "first_name": "Jody",
+      "last_name": "London",
       "ballot_item": 1,
       "office_election": 1
     }

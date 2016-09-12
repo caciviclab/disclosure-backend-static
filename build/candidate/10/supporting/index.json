@@ -1,29 +1,22 @@
 {
   "id": 10,
-  "name": "Lynette Gibson McElhaney",
-  "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Lynette-McElhaney.jpg",
-  "website_url": "http://www.lynettemcelhaney.com/",
-  "twitter_url": "@lynettegm",
-  "first_name": "Lynette",
-  "last_name": "Gibson McElhaney",
-  "ballot_item": 2,
-  "office_election": 2,
-  "contributions_received": 41597.08,
-  "total_contributions": 41597.08,
-  "total_expenditures": 9736.75,
+  "name": "Kevin Corbett",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
+  "website_url": "http://www.corbett4oakland.com/meet-kevin/",
+  "twitter_url": null,
+  "first_name": "Kevin",
+  "last_name": "Corbett",
+  "ballot_item": 3,
+  "office_election": 3,
+  "contributions_received": 19375.0,
+  "total_contributions": 19375.0,
+  "total_expenditures": 8479.42,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 3250.0,
-    "Individual": 29188.16,
-    "Unitemized": 808.92,
-    "Other (includes Businesses)": 8350.0
+    "Individual": 16250.0,
+    "Unitemized": 675.0,
+    "Other (includes Businesses)": 2450.0
   },
   "expenditures_by_type": {
-    "civic donations": 450.0,
-    "office expenses": 2340.51,
-    "fundraising events": 718.87,
-    "meetings and appearances": 184.17,
-    "professional services (legal, accounting)": 4318.35,
-    "information technology costs (internet, e-mail)": 942.85
   }
 }

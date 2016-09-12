@@ -1,27 +1,27 @@
 {
   "id": 6,
   "contest_type": "Office",
-  "name": "School Board District 1",
+  "name": "School Board District 7",
   "candidates": [
     {
-      "id": 18,
-      "name": "Donald Macleay",
-      "photo_url": null,
-      "website_url": null,
-      "twitter_url": "@donmacleay",
-      "first_name": "Donald",
-      "last_name": "Macleay",
+      "id": 36,
+      "name": "James Harris",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/james-harris.png",
+      "website_url": "http://harrisforeastoakland.com/about-james/",
+      "twitter_url": null,
+      "first_name": "James",
+      "last_name": "Harris",
       "ballot_item": 6,
       "office_election": 6
     },
     {
-      "id": 19,
-      "name": "Jody London",
-      "photo_url": "https://dl.dropboxusercontent.com/u/36443953/Jody-London2.jpg.JPG",
-      "website_url": "http://www.votejody.com/",
-      "twitter_url": "@votejodylondon",
-      "first_name": "Jody",
-      "last_name": "London",
+      "id": 37,
+      "name": "Chris Jackson",
+      "photo_url": null,
+      "website_url": "http://www.chrisjacksonforoakland.org/",
+      "twitter_url": "@cj4oakland",
+      "first_name": "Chris",
+      "last_name": "Jackson",
       "ballot_item": 6,
       "office_election": 6
     }
