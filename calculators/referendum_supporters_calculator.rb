@@ -1,7 +1,7 @@
 class ReferendumSupportersCalculator
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
-    @committees_by_filer_id = committees
+    @committees_by_filer_id =
       committees.where('"Filer_ID" IS NOT NULL').index_by { |c| c.Filer_ID }
   end
 
@@ -37,7 +37,7 @@ class ReferendumSupportersCalculator
         ballot_measure = ballot_measure_from_name(bal_name)
         ballot_measure.save_calculation(calculation_name, rows.map do |row|
           committee = committee_from_expenditure(row)
-          id = committee && committee.id || '?'
+          id = committee && committee.id || nil
           name = committee && committee.Filer_NamL || row['Filer_NamL']
 
           # committees in support/opposition:
@@ -65,7 +65,7 @@ class ReferendumSupportersCalculator
     committee = @committees_by_filer_id[expenditure['Filer_ID'].to_i]
 
     unless committee
-      @committees_by_filer_id.each do |cmte|
+      @committees_by_filer_id.each do |id, cmte|
         if expenditure['Filer_NamL'] =~ /#{cmte.Filer_NamL}/i
           committee = cmte
           break
