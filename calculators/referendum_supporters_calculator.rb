@@ -62,11 +62,11 @@ class ReferendumSupportersCalculator
   end
 
   def committee_from_expenditure(expenditure)
-    committee = @committees_by_filer_id[expenditure['Filer_ID'].to_i]
+    committee = @committees_by_filer_id[expenditure['Filer_ID']]
 
     unless committee
       @committees_by_filer_id.each do |id, cmte|
-        if expenditure['Filer_NamL'] =~ /#{cmte.Filer_NamL}/i
+        if expenditure['Filer_NamL'] =~ /#{Regexp.escape cmte.Filer_NamL}/i
           committee = cmte
           break
         end
