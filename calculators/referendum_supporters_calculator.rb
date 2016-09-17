@@ -1,6 +1,8 @@
 class ReferendumSupportersCalculator
-  def initialize(candidates: [], ballot_measures: [])
+  def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
+    @committees_by_filer_id =
+      committees.where('"Filer_ID" IS NOT NULL').index_by { |c| c.Filer_ID }
   end
 
   def fetch
@@ -34,11 +36,16 @@ class ReferendumSupportersCalculator
       rows_by_bal_name.each do |bal_name, rows|
         ballot_measure = ballot_measure_from_name(bal_name)
         ballot_measure.save_calculation(calculation_name, rows.map do |row|
+          committee = committee_from_expenditure(row)
+          id = committee && committee.id || nil
+          name = committee && committee.Filer_NamL || row['Filer_NamL']
+
           # committees in support/opposition:
           {
-            id: 'no-id-yet-but-there-will-be-one-here-eventually',
-            name: row['Filer_NamL'],
+            id: id,
+            name: name,
             amount: row['Total_Amount'],
+            payee: row['Filer_NamL'],
           }
         end)
       end
@@ -52,5 +59,20 @@ class ReferendumSupportersCalculator
       measure['Measure_number'] ==
         OaklandReferendum.name_to_measure_number(bal_name)
     end
+  end
+
+  def committee_from_expenditure(expenditure)
+    committee = @committees_by_filer_id[expenditure['Filer_ID']]
+
+    unless committee
+      @committees_by_filer_id.each do |id, cmte|
+        if expenditure['Filer_NamL'] =~ /#{Regexp.escape cmte.Filer_NamL}/i
+          committee = cmte
+          break
+        end
+      end
+    end
+
+    committee
   end
 end
