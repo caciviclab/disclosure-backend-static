@@ -8,5 +8,47 @@
   "last_name": "Kaplan",
   "ballot_item": 5,
   "office_election": 5,
-  "contributions_received": 4567
+  "supporting_contribution_data": {
+    "contributions_received": 52199.0,
+    "total_contributions": 52199.0,
+    "total_expenditures": 16219.89,
+    "total_loans_received": 0.0,
+    "contributions_by_type": {
+      "Committee": 4400.0,
+      "Individual": 39954.0,
+      "Unitemized": 1495.0,
+      "Other (includes Businesses)": 6350.0
+    },
+    "expenditures_by_type": {
+      "office expenses": 4936.55,
+      "fundraising events": 200.0,
+      "campaign paraphernalia/misc.": 1916.25,
+      "campaign literature and mailings": 4765.23,
+      "postage, delivery and messenger services": 1255.12,
+      "professional services (legal, accounting)": 1236.26,
+      "information technology costs (internet, e-mail)": 220.0
+    }
+  },
+  "opposing_contribution_data": {
+    "contributions_received": 4567
+  },
+  "contributions_received": 52199.0,
+  "total_contributions": 52199.0,
+  "total_expenditures": 16219.89,
+  "total_loans_received": 0.0,
+  "contributions_by_type": {
+    "Committee": 4400.0,
+    "Individual": 39954.0,
+    "Unitemized": 1495.0,
+    "Other (includes Businesses)": 6350.0
+  },
+  "expenditures_by_type": {
+    "office expenses": 4936.55,
+    "fundraising events": 200.0,
+    "campaign paraphernalia/misc.": 1916.25,
+    "campaign literature and mailings": 4765.23,
+    "postage, delivery and messenger services": 1255.12,
+    "professional services (legal, accounting)": 1236.26,
+    "information technology costs (internet, e-mail)": 220.0
+  }
 }

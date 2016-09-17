@@ -8,5 +8,31 @@
   "last_name": "Corbett",
   "ballot_item": 3,
   "office_election": 3,
-  "contributions_received": 4567
+  "supporting_contribution_data": {
+    "contributions_received": 19375.0,
+    "total_contributions": 19375.0,
+    "total_expenditures": 8479.42,
+    "total_loans_received": 0.0,
+    "contributions_by_type": {
+      "Individual": 16250.0,
+      "Unitemized": 675.0,
+      "Other (includes Businesses)": 2450.0
+    },
+    "expenditures_by_type": {
+    }
+  },
+  "opposing_contribution_data": {
+    "contributions_received": 4567
+  },
+  "contributions_received": 19375.0,
+  "total_contributions": 19375.0,
+  "total_expenditures": 8479.42,
+  "total_loans_received": 0.0,
+  "contributions_by_type": {
+    "Individual": 16250.0,
+    "Unitemized": 675.0,
+    "Other (includes Businesses)": 2450.0
+  },
+  "expenditures_by_type": {
+  }
 }

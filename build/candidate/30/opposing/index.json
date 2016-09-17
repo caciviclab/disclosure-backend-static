@@ -8,5 +8,25 @@
   "last_name": "Wiginton",
   "ballot_item": 7,
   "office_election": 7,
-  "contributions_received": 4567
+  "supporting_contribution_data": {
+    "contributions_received": null,
+    "total_contributions": null,
+    "total_expenditures": null,
+    "total_loans_received": null,
+    "contributions_by_type": {
+    },
+    "expenditures_by_type": {
+    }
+  },
+  "opposing_contribution_data": {
+    "contributions_received": 4567
+  },
+  "contributions_received": null,
+  "total_contributions": null,
+  "total_expenditures": null,
+  "total_loans_received": null,
+  "contributions_by_type": {
+  },
+  "expenditures_by_type": {
+  }
 }

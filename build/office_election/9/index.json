@@ -12,7 +12,28 @@
       "first_name": "Michael",
       "last_name": "Hassid",
       "ballot_item": 9,
-      "office_election": 9
+      "office_election": 9,
+      "supporting_contribution_data": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_contribution_data": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
     },
     {
       "id": 33,
@@ -23,7 +44,28 @@
       "first_name": "Michael",
       "last_name": "Hutchinson",
       "ballot_item": 9,
-      "office_election": 9
+      "office_election": 9,
+      "supporting_contribution_data": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_contribution_data": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
     },
     {
       "id": 34,
@@ -34,7 +76,46 @@
       "first_name": "Roseann",
       "last_name": "Torres",
       "ballot_item": 9,
-      "office_election": 9
+      "office_election": 9,
+      "supporting_contribution_data": {
+        "contributions_received": 6895.0,
+        "total_contributions": 6895.0,
+        "total_expenditures": 6673.3,
+        "total_loans_received": 0.0,
+        "contributions_by_type": {
+          "Committee": 1700.0,
+          "Individual": 4150.0,
+          "Unitemized": 345.0,
+          "Other (includes Businesses)": 700.0
+        },
+        "expenditures_by_type": {
+          "office expenses": 107.05,
+          "fundraising events": 600.0,
+          "campaign consultants": 1130.0,
+          "professional services (legal, accounting)": 3626.34,
+          "information technology costs (internet, e-mail)": 400.0
+        }
+      },
+      "opposing_contribution_data": {
+        "contributions_received": 4567
+      },
+      "contributions_received": 6895.0,
+      "total_contributions": 6895.0,
+      "total_expenditures": 6673.3,
+      "total_loans_received": 0.0,
+      "contributions_by_type": {
+        "Committee": 1700.0,
+        "Individual": 4150.0,
+        "Unitemized": 345.0,
+        "Other (includes Businesses)": 700.0
+      },
+      "expenditures_by_type": {
+        "office expenses": 107.05,
+        "fundraising events": 600.0,
+        "campaign consultants": 1130.0,
+        "professional services (legal, accounting)": 3626.34,
+        "information technology costs (internet, e-mail)": 400.0
+      }
     },
     {
       "id": 35,
@@ -45,7 +126,28 @@
       "first_name": "Huber",
       "last_name": "Trenado",
       "ballot_item": 9,
-      "office_election": 9
+      "office_election": 9,
+      "supporting_contribution_data": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_contribution_data": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
     }
   ],
   "ballot_id": 1

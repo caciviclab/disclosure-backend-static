@@ -12,7 +12,28 @@
       "first_name": "James",
       "last_name": "Harris",
       "ballot_item": 6,
-      "office_election": 6
+      "office_election": 6,
+      "supporting_contribution_data": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_contribution_data": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
     },
     {
       "id": 37,
@@ -23,7 +44,34 @@
       "first_name": "Chris",
       "last_name": "Jackson",
       "ballot_item": 6,
-      "office_election": 6
+      "office_election": 6,
+      "supporting_contribution_data": {
+        "contributions_received": 5822.0,
+        "total_contributions": 5822.0,
+        "total_expenditures": 12413.89,
+        "total_loans_received": 0.0,
+        "contributions_by_type": {
+          "Committee": 1200.0,
+          "Individual": 2950.0,
+          "Unitemized": 1672.0
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_contribution_data": {
+        "contributions_received": 4567
+      },
+      "contributions_received": 5822.0,
+      "total_contributions": 5822.0,
+      "total_expenditures": 12413.89,
+      "total_loans_received": 0.0,
+      "contributions_by_type": {
+        "Committee": 1200.0,
+        "Individual": 2950.0,
+        "Unitemized": 1672.0
+      },
+      "expenditures_by_type": {
+      }
     }
   ],
   "ballot_id": 1
