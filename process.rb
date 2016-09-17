@@ -81,25 +81,18 @@ OfficeElection.find_each do |office_election|
 end
 
 OaklandCandidate.includes(:office_election, :calculations).find_each do |candidate|
-  build_file("/candidate/#{candidate.id}") do |f|
-    f.puts candidate.to_json
-  end
-
-  build_file("/candidate/#{candidate.id}/supporting") do |f|
-    f.puts JSON.pretty_generate(candidate.as_json.merge(
-      contributions_received: candidate.calculation(:total_contributions).try(:to_f),
-      total_contributions: candidate.calculation(:total_contributions).try(:to_f),
-      total_expenditures: candidate.calculation(:total_expenditures).try(:to_f),
-      total_loans_received: candidate.calculation(:total_loans_received).try(:to_f),
-      contributions_by_type: candidate.calculation(:contributions_by_type) || {},
-      expenditures_by_type: candidate.calculation(:expenditures_by_type) || {},
-    ))
-  end
-
-  build_file("/candidate/#{candidate.id}/opposing") do |f|
-    f.puts JSON.pretty_generate(candidate.as_json.merge(
-      contributions_received: 4567,
-    ))
+  %W[
+    /candidate/#{candidate.id}
+    /candidate/#{candidate.id}/supporting
+    /candidate/#{candidate.id}/opposing
+  ].each do |candidate_filename|
+    build_file(candidate_filename) do |f|
+      #
+      # To add a field to one of these endpoints, add it to the '#as_json'
+      # method in models/oakland_candidate.rb
+      #
+      f.puts candidate.to_json
+    end
   end
 end
 
