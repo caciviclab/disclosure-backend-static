@@ -8,7 +8,7 @@
   "last_name": "London",
   "ballot_item": 1,
   "office_election": 1,
-  "supporting_contribution_data": {
+  "supporting_money": {
     "contributions_received": 5975.0,
     "total_contributions": 5975.0,
     "total_expenditures": 4826.78,
@@ -27,7 +27,7 @@
       "campaign literature and mailings": 850.0
     }
   },
-  "opposing_contribution_data": {
+  "opposing_money": {
     "contributions_received": 4567
   },
   "contributions_received": 5975.0,

@@ -13,7 +13,7 @@
       "last_name": "Harris",
       "ballot_item": 6,
       "office_election": 6,
-      "supporting_contribution_data": {
+      "supporting_money": {
         "contributions_received": null,
         "total_contributions": null,
         "total_expenditures": null,
@@ -23,7 +23,7 @@
         "expenditures_by_type": {
         }
       },
-      "opposing_contribution_data": {
+      "opposing_money": {
         "contributions_received": 4567
       },
       "contributions_received": null,
@@ -45,7 +45,7 @@
       "last_name": "Jackson",
       "ballot_item": 6,
       "office_election": 6,
-      "supporting_contribution_data": {
+      "supporting_money": {
         "contributions_received": 5822.0,
         "total_contributions": 5822.0,
         "total_expenditures": 12413.89,
@@ -58,7 +58,7 @@
         "expenditures_by_type": {
         }
       },
-      "opposing_contribution_data": {
+      "opposing_money": {
         "contributions_received": 4567
       },
       "contributions_received": 5822.0,

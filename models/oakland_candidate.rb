@@ -32,7 +32,7 @@ class OaklandCandidate < ActiveRecord::Base
       office_election: office_election.id,
 
       # contribution data
-      supporting_contribution_data: {
+      supporting_money: {
         contributions_received: calculation(:total_contributions).try(:to_f),
         total_contributions: calculation(:total_contributions).try(:to_f),
         total_expenditures: calculation(:total_expenditures).try(:to_f),
@@ -40,7 +40,7 @@ class OaklandCandidate < ActiveRecord::Base
         contributions_by_type: calculation(:contributions_by_type) || {},
         expenditures_by_type: calculation(:expenditures_by_type) || {},
       },
-      opposing_contribution_data: {
+      opposing_money: {
         contributions_received: 4567,
       },
 
