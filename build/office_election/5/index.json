@@ -1,102 +1,56 @@
 {
   "id": 5,
   "contest_type": "Office",
-  "name": "City Council At-Large",
+  "name": "School Board District 3",
   "candidates": [
     {
-      "id": 2,
-      "name": "Rebecca Kaplan",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png",
-      "website_url": "http://kaplanforoakland.org/",
-      "twitter_url": "@kaplan4oakland",
-      "first_name": "Rebecca",
-      "last_name": "Kaplan",
+      "id": 10,
+      "name": "Jumoke Hinton Hodge",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
+      "website_url": "https://hintonhodge.nationbuilder.com/",
+      "twitter_url": "@hintonhodge4oak",
+      "first_name": "Jumoke",
+      "last_name": "Hinton Hodge",
       "ballot_item": 5,
       "office_election": 5,
       "supporting_money": {
-        "contributions_received": 52199.0,
-        "total_contributions": 52199.0,
-        "total_expenditures": 16219.89,
-        "total_loans_received": 0.0,
+        "contributions_received": 3488.0,
+        "total_contributions": 3488.0,
+        "total_expenditures": 730.97,
+        "total_loans_received": 500.0,
         "contributions_by_type": {
-          "Committee": 4400.0,
-          "Individual": 39954.0,
-          "Unitemized": 1495.0,
-          "Other (includes Businesses)": 6350.0
+          "Individual": 2988.0,
+          "Unitemized": 0.0
         },
         "expenditures_by_type": {
-          "office expenses": 4936.55,
-          "fundraising events": 200.0,
-          "campaign paraphernalia/misc.": 1916.25,
-          "campaign literature and mailings": 4765.23,
-          "postage, delivery and messenger services": 1255.12,
-          "professional services (legal, accounting)": 1236.26,
-          "information technology costs (internet, e-mail)": 220.0
+          "fundraising events": 203.53,
+          "campaign paraphernalia/misc.": 527.44
         }
       },
       "opposing_money": {
         "contributions_received": 4567
       },
-      "contributions_received": 52199.0,
-      "total_contributions": 52199.0,
-      "total_expenditures": 16219.89,
-      "total_loans_received": 0.0,
+      "contributions_received": 3488.0,
+      "total_contributions": 3488.0,
+      "total_expenditures": 730.97,
+      "total_loans_received": 500.0,
       "contributions_by_type": {
-        "Committee": 4400.0,
-        "Individual": 39954.0,
-        "Unitemized": 1495.0,
-        "Other (includes Businesses)": 6350.0
+        "Individual": 2988.0,
+        "Unitemized": 0.0
       },
       "expenditures_by_type": {
-        "office expenses": 4936.55,
-        "fundraising events": 200.0,
-        "campaign paraphernalia/misc.": 1916.25,
-        "campaign literature and mailings": 4765.23,
-        "postage, delivery and messenger services": 1255.12,
-        "professional services (legal, accounting)": 1236.26,
-        "information technology costs (internet, e-mail)": 220.0
+        "fundraising events": 203.53,
+        "campaign paraphernalia/misc.": 527.44
       }
     },
     {
-      "id": 3,
-      "name": "Bruce Quan",
-      "photo_url": null,
-      "website_url": "http://www.bruceforoakland.com/",
-      "twitter_url": "@BruceforOakland",
-      "first_name": "Bruce",
-      "last_name": "Quan",
-      "ballot_item": 5,
-      "office_election": 5,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 4567
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 4,
-      "name": "Nancy Sidebotham",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
-      "website_url": "nancysidebotham.com (under construction)",
+      "id": 19,
+      "name": "Benjamin Lang",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
+      "website_url": "http://www.benlang.com/",
       "twitter_url": null,
-      "first_name": "Nancy",
-      "last_name": "Sidebotham",
+      "first_name": "Benjamin",
+      "last_name": "Lang",
       "ballot_item": 5,
       "office_election": 5,
       "supporting_money": {
@@ -122,109 +76,13 @@
       }
     },
     {
-      "id": 5,
-      "name": "Francis Matt Hummell",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/F-Matt-Hummell.png",
-      "website_url": "http://matt4thepeople.nationbuilder.com/",
-      "twitter_url": null,
-      "first_name": "Francis",
-      "last_name": "Matt Hummell",
-      "ballot_item": 5,
-      "office_election": 5,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 4567
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 6,
-      "name": "Peggy Moore",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Margaret-Moore.png",
-      "website_url": null,
-      "twitter_url": null,
-      "first_name": "Peggy",
-      "last_name": "Moore",
-      "ballot_item": 5,
-      "office_election": 5,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 4567
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 7,
-      "name": "Patricia Ellis",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Patricia-Ellis.png",
-      "website_url": null,
-      "twitter_url": null,
-      "first_name": "Patricia",
-      "last_name": "Ellis",
-      "ballot_item": 5,
-      "office_election": 5,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 4567
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 8,
-      "name": "Larry Young Jr.",
+      "id": 20,
+      "name": "Kharyshi Wiginton",
       "photo_url": null,
       "website_url": null,
       "twitter_url": null,
-      "first_name": "Larry",
-      "last_name": "Young Jr.",
+      "first_name": "Kharyshi",
+      "last_name": "Wiginton",
       "ballot_item": 5,
       "office_election": 5,
       "supporting_money": {
@@ -250,13 +108,13 @@
       }
     },
     {
-      "id": 9,
-      "name": "Manuel Cabello",
+      "id": 21,
+      "name": "Lucky Narain",
       "photo_url": null,
       "website_url": null,
       "twitter_url": null,
-      "first_name": "Manuel",
-      "last_name": "Cabello",
+      "first_name": "Lucky",
+      "last_name": "Narain",
       "ballot_item": 5,
       "office_election": 5,
       "supporting_money": {

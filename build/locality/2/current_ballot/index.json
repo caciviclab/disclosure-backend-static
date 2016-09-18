@@ -4,158 +4,22 @@
     {
       "id": 1,
       "contest_type": "Office",
-      "name": "School Board District 1",
-      "candidates": [
-        {
-          "id": 26,
-          "name": "Donald Macleay",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": "@donmacleay",
-          "first_name": "Donald",
-          "last_name": "Macleay",
-          "ballot_item": 1,
-          "office_election": 1,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 27,
-          "name": "Jody London",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
-          "website_url": "http://www.votejody.com/",
-          "twitter_url": "@votejodylondon",
-          "first_name": "Jody",
-          "last_name": "London",
-          "ballot_item": 1,
-          "office_election": 1,
-          "supporting_money": {
-            "contributions_received": 5975.0,
-            "total_contributions": 5975.0,
-            "total_expenditures": 4826.78,
-            "total_loans_received": 0.0,
-            "contributions_by_type": {
-              "Individual": 4000.0,
-              "Unitemized": 575.0,
-              "Other (includes Businesses)": 1400.0
-            },
-            "expenditures_by_type": {
-              "office expenses": 166.47,
-              "fundraising events": 475.05,
-              "campaign consultants": 1000.0,
-              "meetings and appearances": 437.32,
-              "campaign paraphernalia/misc.": 1397.94,
-              "campaign literature and mailings": 850.0
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": 5975.0,
-          "total_contributions": 5975.0,
-          "total_expenditures": 4826.78,
-          "total_loans_received": 0.0,
-          "contributions_by_type": {
-            "Individual": 4000.0,
-            "Unitemized": 575.0,
-            "Other (includes Businesses)": 1400.0
-          },
-          "expenditures_by_type": {
-            "office expenses": 166.47,
-            "fundraising events": 475.05,
-            "campaign consultants": 1000.0,
-            "meetings and appearances": 437.32,
-            "campaign paraphernalia/misc.": 1397.94,
-            "campaign literature and mailings": 850.0
-          }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "contest_type": "Office",
-      "name": "City Attorney",
-      "candidates": [
-        {
-          "id": 1,
-          "name": "Barbara Parker",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Barbara-Parker.png",
-          "website_url": "http://www.cityattorneyparker.com/",
-          "twitter_url": "@barbarajparker1",
-          "first_name": "Barbara",
-          "last_name": "Parker",
-          "ballot_item": 2,
-          "office_election": 2,
-          "supporting_money": {
-            "contributions_received": 60871.0,
-            "total_contributions": 60871.0,
-            "total_expenditures": 7510.5,
-            "total_loans_received": 0.0,
-            "contributions_by_type": {
-              "Individual": 55100.0,
-              "Unitemized": 355.0,
-              "Other (includes Businesses)": 5416.0
-            },
-            "expenditures_by_type": {
-              "campaign consultants": 7500.0
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": 60871.0,
-          "total_contributions": 60871.0,
-          "total_expenditures": 7510.5,
-          "total_loans_received": 0.0,
-          "contributions_by_type": {
-            "Individual": 55100.0,
-            "Unitemized": 355.0,
-            "Other (includes Businesses)": 5416.0
-          },
-          "expenditures_by_type": {
-            "campaign consultants": 7500.0
-          }
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "contest_type": "Office",
       "name": "City Council District 1",
       "candidates": [
         {
-          "id": 10,
+          "id": 7,
           "name": "Kevin Corbett",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
           "website_url": "http://www.corbett4oakland.com/meet-kevin/",
           "twitter_url": null,
           "first_name": "Kevin",
           "last_name": "Corbett",
-          "ballot_item": 3,
-          "office_election": 3,
+          "ballot_item": 1,
+          "office_election": 1,
           "supporting_money": {
             "contributions_received": 19375.0,
             "total_contributions": 19375.0,
-            "total_expenditures": 8479.42,
+            "total_expenditures": 9599.24,
             "total_loans_received": 0.0,
             "contributions_by_type": {
               "Individual": 16250.0,
@@ -170,7 +34,7 @@
           },
           "contributions_received": 19375.0,
           "total_contributions": 19375.0,
-          "total_expenditures": 8479.42,
+          "total_expenditures": 9599.24,
           "total_loans_received": 0.0,
           "contributions_by_type": {
             "Individual": 16250.0,
@@ -181,15 +45,15 @@
           }
         },
         {
-          "id": 11,
+          "id": 8,
           "name": "Dan Kalb",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
           "website_url": "https://dankalb.net",
           "twitter_url": "@dankalb",
           "first_name": "Dan",
           "last_name": "Kalb",
-          "ballot_item": 3,
-          "office_election": 3,
+          "ballot_item": 1,
+          "office_election": 1,
           "supporting_money": {
             "contributions_received": 39058.66,
             "total_contributions": 39058.66,
@@ -229,52 +93,20 @@
       ]
     },
     {
-      "id": 4,
+      "id": 2,
       "contest_type": "Office",
       "name": "City Council District 3",
       "candidates": [
         {
-          "id": 12,
-          "name": "Alan Brown",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Alan",
-          "last_name": "Brown",
-          "ballot_item": 4,
-          "office_election": 4,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 13,
+          "id": 9,
           "name": "Lynette Gibson McElhaney",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lynette-Gibson-McElhaney.png",
           "website_url": "http://www.lynettemcelhaney.com/",
           "twitter_url": "@lynettegm",
           "first_name": "Lynette",
           "last_name": "Gibson McElhaney",
-          "ballot_item": 4,
-          "office_election": 4,
+          "ballot_item": 2,
+          "office_election": 2,
           "supporting_money": {
             "contributions_received": 41597.08,
             "total_contributions": 41597.08,
@@ -318,111 +150,15 @@
           }
         },
         {
-          "id": 14,
+          "id": 11,
           "name": "Noni Session",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
           "website_url": "http://www.nonifordistrict3.com/",
           "twitter_url": "@NoniSession",
           "first_name": "Noni",
           "last_name": "Session",
-          "ballot_item": 4,
-          "office_election": 4,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 15,
-          "name": "Saied Karamooz",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": "@SaiedKaramooz",
-          "first_name": "Saied",
-          "last_name": "Karamooz",
-          "ballot_item": 4,
-          "office_election": 4,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 16,
-          "name": "Anthony McNeal",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Anthony",
-          "last_name": "McNeal",
-          "ballot_item": 4,
-          "office_election": 4,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 17,
-          "name": "Tyron Jordan",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Tyron",
-          "last_name": "Jordan",
-          "ballot_item": 4,
-          "office_election": 4,
+          "ballot_item": 2,
+          "office_election": 2,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -448,7 +184,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 3,
       "contest_type": "Office",
       "name": "City Council At-Large",
       "candidates": [
@@ -460,8 +196,8 @@
           "twitter_url": "@kaplan4oakland",
           "first_name": "Rebecca",
           "last_name": "Kaplan",
-          "ballot_item": 5,
-          "office_election": 5,
+          "ballot_item": 3,
+          "office_election": 3,
           "supporting_money": {
             "contributions_received": 52199.0,
             "total_contributions": 52199.0,
@@ -514,8 +250,8 @@
           "twitter_url": "@BruceforOakland",
           "first_name": "Bruce",
           "last_name": "Quan",
-          "ballot_item": 5,
-          "office_election": 5,
+          "ballot_item": 3,
+          "office_election": 3,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -546,8 +282,8 @@
           "twitter_url": null,
           "first_name": "Nancy",
           "last_name": "Sidebotham",
-          "ballot_item": 5,
-          "office_election": 5,
+          "ballot_item": 3,
+          "office_election": 3,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -578,8 +314,8 @@
           "twitter_url": null,
           "first_name": "Francis",
           "last_name": "Matt Hummell",
-          "ballot_item": 5,
-          "office_election": 5,
+          "ballot_item": 3,
+          "office_election": 3,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -610,104 +346,8 @@
           "twitter_url": null,
           "first_name": "Peggy",
           "last_name": "Moore",
-          "ballot_item": 5,
-          "office_election": 5,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 7,
-          "name": "Patricia Ellis",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Patricia-Ellis.png",
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Patricia",
-          "last_name": "Ellis",
-          "ballot_item": 5,
-          "office_election": 5,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 8,
-          "name": "Larry Young Jr.",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Larry",
-          "last_name": "Young Jr.",
-          "ballot_item": 5,
-          "office_election": 5,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 9,
-          "name": "Manuel Cabello",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Manuel",
-          "last_name": "Cabello",
-          "ballot_item": 5,
-          "office_election": 5,
+          "ballot_item": 3,
+          "office_election": 3,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -733,20 +373,20 @@
       ]
     },
     {
-      "id": 6,
+      "id": 4,
       "contest_type": "Office",
       "name": "School Board District 7",
       "candidates": [
         {
-          "id": 36,
+          "id": 26,
           "name": "James Harris",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/james-harris.png",
           "website_url": "http://harrisforeastoakland.com/about-james/",
           "twitter_url": null,
           "first_name": "James",
           "last_name": "Harris",
-          "ballot_item": 6,
-          "office_election": 6,
+          "ballot_item": 4,
+          "office_election": 4,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -770,15 +410,15 @@
           }
         },
         {
-          "id": 37,
+          "id": 27,
           "name": "Chris Jackson",
           "photo_url": null,
           "website_url": "http://www.chrisjacksonforoakland.org/",
           "twitter_url": "@cj4oakland",
           "first_name": "Chris",
           "last_name": "Jackson",
-          "ballot_item": 6,
-          "office_election": 6,
+          "ballot_item": 4,
+          "office_election": 4,
           "supporting_money": {
             "contributions_received": 5822.0,
             "total_contributions": 5822.0,
@@ -810,52 +450,60 @@
       ]
     },
     {
-      "id": 7,
+      "id": 5,
       "contest_type": "Office",
       "name": "School Board District 3",
       "candidates": [
         {
-          "id": 28,
+          "id": 10,
           "name": "Jumoke Hinton Hodge",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
           "website_url": "https://hintonhodge.nationbuilder.com/",
           "twitter_url": "@hintonhodge4oak",
           "first_name": "Jumoke",
           "last_name": "Hinton Hodge",
-          "ballot_item": 7,
-          "office_election": 7,
+          "ballot_item": 5,
+          "office_election": 5,
           "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
+            "contributions_received": 3488.0,
+            "total_contributions": 3488.0,
+            "total_expenditures": 730.97,
+            "total_loans_received": 500.0,
             "contributions_by_type": {
+              "Individual": 2988.0,
+              "Unitemized": 0.0
             },
             "expenditures_by_type": {
+              "fundraising events": 203.53,
+              "campaign paraphernalia/misc.": 527.44
             }
           },
           "opposing_money": {
             "contributions_received": 4567
           },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
+          "contributions_received": 3488.0,
+          "total_contributions": 3488.0,
+          "total_expenditures": 730.97,
+          "total_loans_received": 500.0,
           "contributions_by_type": {
+            "Individual": 2988.0,
+            "Unitemized": 0.0
           },
           "expenditures_by_type": {
+            "fundraising events": 203.53,
+            "campaign paraphernalia/misc.": 527.44
           }
         },
         {
-          "id": 29,
+          "id": 19,
           "name": "Benjamin Lang",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
           "website_url": "http://www.benlang.com/",
           "twitter_url": null,
           "first_name": "Benjamin",
           "last_name": "Lang",
-          "ballot_item": 7,
-          "office_election": 7,
+          "ballot_item": 5,
+          "office_election": 5,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -879,13 +527,173 @@
           }
         },
         {
-          "id": 30,
+          "id": 20,
           "name": "Kharyshi Wiginton",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "first_name": "Kharyshi",
           "last_name": "Wiginton",
+          "ballot_item": 5,
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 21,
+          "name": "Lucky Narain",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Lucky",
+          "last_name": "Narain",
+          "ballot_item": 5,
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "contest_type": "Office",
+      "name": "School Board District 1",
+      "candidates": [
+        {
+          "id": 17,
+          "name": "Donald Macleay",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": "@donmacleay",
+          "first_name": "Donald",
+          "last_name": "Macleay",
+          "ballot_item": 6,
+          "office_election": 6,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 18,
+          "name": "Jody London",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+          "website_url": "http://www.votejody.com/",
+          "twitter_url": "@votejodylondon",
+          "first_name": "Jody",
+          "last_name": "London",
+          "ballot_item": 6,
+          "office_election": 6,
+          "supporting_money": {
+            "contributions_received": 5975.0,
+            "total_contributions": 5975.0,
+            "total_expenditures": 4826.78,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Individual": 4000.0,
+              "Unitemized": 575.0,
+              "Other (includes Businesses)": 1400.0
+            },
+            "expenditures_by_type": {
+              "office expenses": 166.47,
+              "fundraising events": 475.05,
+              "campaign consultants": 1000.0,
+              "meetings and appearances": 437.32,
+              "campaign paraphernalia/misc.": 1397.94,
+              "campaign literature and mailings": 850.0
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 5975.0,
+          "total_contributions": 5975.0,
+          "total_expenditures": 4826.78,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 4000.0,
+            "Unitemized": 575.0,
+            "Other (includes Businesses)": 1400.0
+          },
+          "expenditures_by_type": {
+            "office expenses": 166.47,
+            "fundraising events": 475.05,
+            "campaign consultants": 1000.0,
+            "meetings and appearances": 437.32,
+            "campaign paraphernalia/misc.": 1397.94,
+            "campaign literature and mailings": 850.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "contest_type": "Office",
+      "name": "City Council District 7",
+      "candidates": [
+        {
+          "id": 14,
+          "name": "Marcie Hodge",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Marcie",
+          "last_name": "Hodge",
           "ballot_item": 7,
           "office_election": 7,
           "supporting_money": {
@@ -911,13 +719,45 @@
           }
         },
         {
-          "id": 31,
-          "name": "Lucky Narain",
+          "id": 15,
+          "name": "Nehanda Imara",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
-          "first_name": "Lucky",
-          "last_name": "Narain",
+          "first_name": "Nehanda",
+          "last_name": "Imara",
+          "ballot_item": 7,
+          "office_election": 7,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 16,
+          "name": "Larry Reid",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "first_name": "Larry",
+          "last_name": "Reid",
           "ballot_item": 7,
           "office_election": 7,
           "supporting_money": {
@@ -947,80 +787,16 @@
     {
       "id": 8,
       "contest_type": "Office",
-      "name": "City Council District 7",
+      "name": "School Board District 5",
       "candidates": [
         {
-          "id": 20,
-          "name": "Marcie Hodge",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Marcie",
-          "last_name": "Hodge",
-          "ballot_item": 8,
-          "office_election": 8,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 21,
-          "name": "Nehanda Imara",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Nehanda",
-          "last_name": "Imara",
-          "ballot_item": 8,
-          "office_election": 8,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
           "id": 22,
-          "name": "Larry Reid",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Larry",
-          "last_name": "Reid",
+          "name": "Michael Hassid",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Michael-Hassid.png",
+          "website_url": "http://www.mikehassidforschoolboard.com/",
+          "twitter_url": "@michaelhassid",
+          "first_name": "Michael",
+          "last_name": "Hassid",
           "ballot_item": 8,
           "office_election": 8,
           "supporting_money": {
@@ -1047,12 +823,12 @@
         },
         {
           "id": 23,
-          "name": "Treva Reid",
-          "photo_url": null,
-          "website_url": null,
+          "name": "Michael Hutchinson",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Mike-Hutchinson.png",
+          "website_url": "https://mikehutchinsonforschoolboard.wordpress.com/",
           "twitter_url": null,
-          "first_name": "Treva",
-          "last_name": "Reid",
+          "first_name": "Michael",
+          "last_name": "Hutchinson",
           "ballot_item": 8,
           "office_election": 8,
           "supporting_money": {
@@ -1079,149 +855,14 @@
         },
         {
           "id": 24,
-          "name": "Maxine Oliver-Benson",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Maxine",
-          "last_name": "Oliver-Benson",
-          "ballot_item": 8,
-          "office_election": 8,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 25,
-          "name": "Olivia De Jimenez",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "first_name": "Olivia",
-          "last_name": "De Jimenez",
-          "ballot_item": 8,
-          "office_election": 8,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "contest_type": "Office",
-      "name": "School Board District 5",
-      "candidates": [
-        {
-          "id": 32,
-          "name": "Michael Hassid",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Michael-Hassid.png",
-          "website_url": "http://www.mikehassidforschoolboard.com/",
-          "twitter_url": "@michaelhassid",
-          "first_name": "Michael",
-          "last_name": "Hassid",
-          "ballot_item": 9,
-          "office_election": 9,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 33,
-          "name": "Michael Hutchinson",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Mike-Hutchinson.png",
-          "website_url": "https://mikehutchinsonforschoolboard.wordpress.com/",
-          "twitter_url": null,
-          "first_name": "Michael",
-          "last_name": "Hutchinson",
-          "ballot_item": 9,
-          "office_election": 9,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "expenditures_by_type": {
-            }
-          },
-          "opposing_money": {
-            "contributions_received": 4567
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 34,
           "name": "Roseann Torres",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Roseann-Torres.png",
           "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
           "twitter_url": "@roseann_torres",
           "first_name": "Roseann",
           "last_name": "Torres",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 8,
+          "office_election": 8,
           "supporting_money": {
             "contributions_received": 6895.0,
             "total_contributions": 6895.0,
@@ -1263,15 +904,15 @@
           }
         },
         {
-          "id": 35,
+          "id": 25,
           "name": "Huber Trenado",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Huber-Trenado.png",
           "website_url": "http://www.votetrenadoousd.com/",
           "twitter_url": "@hubertrenado",
           "first_name": "Huber",
           "last_name": "Trenado",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 8,
+          "office_election": 8,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -1297,12 +938,59 @@
       ]
     },
     {
+      "id": 9,
+      "contest_type": "Office",
+      "name": "City Attorney",
+      "candidates": [
+        {
+          "id": 1,
+          "name": "Barbara Parker",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Barbara-Parker.png",
+          "website_url": "http://www.cityattorneyparker.com/",
+          "twitter_url": "@barbarajparker1",
+          "first_name": "Barbara",
+          "last_name": "Parker",
+          "ballot_item": 9,
+          "office_election": 9,
+          "supporting_money": {
+            "contributions_received": 60871.0,
+            "total_contributions": 60871.0,
+            "total_expenditures": 7510.5,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Individual": 55100.0,
+              "Unitemized": 355.0,
+              "Other (includes Businesses)": 5416.0
+            },
+            "expenditures_by_type": {
+              "campaign consultants": 7500.0
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 60871.0,
+          "total_contributions": 60871.0,
+          "total_expenditures": 7510.5,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 55100.0,
+            "Unitemized": 355.0,
+            "Other (includes Businesses)": 5416.0
+          },
+          "expenditures_by_type": {
+            "campaign consultants": 7500.0
+          }
+        }
+      ]
+    },
+    {
       "id": 10,
       "contest_type": "Office",
       "name": "City Council District 5",
       "candidates": [
         {
-          "id": 18,
+          "id": 12,
           "name": "Noel Gallo",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
           "website_url": "http://galloforoakland.com/",
@@ -1334,7 +1022,7 @@
           }
         },
         {
-          "id": 19,
+          "id": 13,
           "name": "Viola Gonzales",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Viola-Gonzales.png",
           "website_url": "www.voteviola.com",

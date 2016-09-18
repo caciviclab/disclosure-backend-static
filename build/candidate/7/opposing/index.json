@@ -1,19 +1,22 @@
 {
   "id": 7,
-  "name": "Patricia Ellis",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Patricia-Ellis.png",
-  "website_url": null,
+  "name": "Kevin Corbett",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
+  "website_url": "http://www.corbett4oakland.com/meet-kevin/",
   "twitter_url": null,
-  "first_name": "Patricia",
-  "last_name": "Ellis",
-  "ballot_item": 5,
-  "office_election": 5,
+  "first_name": "Kevin",
+  "last_name": "Corbett",
+  "ballot_item": 1,
+  "office_election": 1,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 19375.0,
+    "total_contributions": 19375.0,
+    "total_expenditures": 9599.24,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
+      "Individual": 16250.0,
+      "Unitemized": 675.0,
+      "Other (includes Businesses)": 2450.0
     },
     "expenditures_by_type": {
     }
@@ -21,11 +24,14 @@
   "opposing_money": {
     "contributions_received": 4567
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 19375.0,
+  "total_contributions": 19375.0,
+  "total_expenditures": 9599.24,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 16250.0,
+    "Unitemized": 675.0,
+    "Other (includes Businesses)": 2450.0
   },
   "expenditures_by_type": {
   }

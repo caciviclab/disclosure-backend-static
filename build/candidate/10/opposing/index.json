@@ -1,38 +1,40 @@
 {
   "id": 10,
-  "name": "Kevin Corbett",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
-  "website_url": "http://www.corbett4oakland.com/meet-kevin/",
-  "twitter_url": null,
-  "first_name": "Kevin",
-  "last_name": "Corbett",
-  "ballot_item": 3,
-  "office_election": 3,
+  "name": "Jumoke Hinton Hodge",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
+  "website_url": "https://hintonhodge.nationbuilder.com/",
+  "twitter_url": "@hintonhodge4oak",
+  "first_name": "Jumoke",
+  "last_name": "Hinton Hodge",
+  "ballot_item": 5,
+  "office_election": 5,
   "supporting_money": {
-    "contributions_received": 19375.0,
-    "total_contributions": 19375.0,
-    "total_expenditures": 8479.42,
-    "total_loans_received": 0.0,
+    "contributions_received": 3488.0,
+    "total_contributions": 3488.0,
+    "total_expenditures": 730.97,
+    "total_loans_received": 500.0,
     "contributions_by_type": {
-      "Individual": 16250.0,
-      "Unitemized": 675.0,
-      "Other (includes Businesses)": 2450.0
+      "Individual": 2988.0,
+      "Unitemized": 0.0
     },
     "expenditures_by_type": {
+      "fundraising events": 203.53,
+      "campaign paraphernalia/misc.": 527.44
     }
   },
   "opposing_money": {
     "contributions_received": 4567
   },
-  "contributions_received": 19375.0,
-  "total_contributions": 19375.0,
-  "total_expenditures": 8479.42,
-  "total_loans_received": 0.0,
+  "contributions_received": 3488.0,
+  "total_contributions": 3488.0,
+  "total_expenditures": 730.97,
+  "total_loans_received": 500.0,
   "contributions_by_type": {
-    "Individual": 16250.0,
-    "Unitemized": 675.0,
-    "Other (includes Businesses)": 2450.0
+    "Individual": 2988.0,
+    "Unitemized": 0.0
   },
   "expenditures_by_type": {
+    "fundraising events": 203.53,
+    "campaign paraphernalia/misc.": 527.44
   }
 }

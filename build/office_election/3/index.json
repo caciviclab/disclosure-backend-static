@@ -1,27 +1,78 @@
 {
   "id": 3,
   "contest_type": "Office",
-  "name": "City Council District 1",
+  "name": "City Council At-Large",
   "candidates": [
     {
-      "id": 10,
-      "name": "Kevin Corbett",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
-      "website_url": "http://www.corbett4oakland.com/meet-kevin/",
-      "twitter_url": null,
-      "first_name": "Kevin",
-      "last_name": "Corbett",
+      "id": 2,
+      "name": "Rebecca Kaplan",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png",
+      "website_url": "http://kaplanforoakland.org/",
+      "twitter_url": "@kaplan4oakland",
+      "first_name": "Rebecca",
+      "last_name": "Kaplan",
       "ballot_item": 3,
       "office_election": 3,
       "supporting_money": {
-        "contributions_received": 19375.0,
-        "total_contributions": 19375.0,
-        "total_expenditures": 8479.42,
+        "contributions_received": 52199.0,
+        "total_contributions": 52199.0,
+        "total_expenditures": 16219.89,
         "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Individual": 16250.0,
-          "Unitemized": 675.0,
-          "Other (includes Businesses)": 2450.0
+          "Committee": 4400.0,
+          "Individual": 39954.0,
+          "Unitemized": 1495.0,
+          "Other (includes Businesses)": 6350.0
+        },
+        "expenditures_by_type": {
+          "office expenses": 4936.55,
+          "fundraising events": 200.0,
+          "campaign paraphernalia/misc.": 1916.25,
+          "campaign literature and mailings": 4765.23,
+          "postage, delivery and messenger services": 1255.12,
+          "professional services (legal, accounting)": 1236.26,
+          "information technology costs (internet, e-mail)": 220.0
+        }
+      },
+      "opposing_money": {
+        "contributions_received": 4567
+      },
+      "contributions_received": 52199.0,
+      "total_contributions": 52199.0,
+      "total_expenditures": 16219.89,
+      "total_loans_received": 0.0,
+      "contributions_by_type": {
+        "Committee": 4400.0,
+        "Individual": 39954.0,
+        "Unitemized": 1495.0,
+        "Other (includes Businesses)": 6350.0
+      },
+      "expenditures_by_type": {
+        "office expenses": 4936.55,
+        "fundraising events": 200.0,
+        "campaign paraphernalia/misc.": 1916.25,
+        "campaign literature and mailings": 4765.23,
+        "postage, delivery and messenger services": 1255.12,
+        "professional services (legal, accounting)": 1236.26,
+        "information technology costs (internet, e-mail)": 220.0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bruce Quan",
+      "photo_url": null,
+      "website_url": "http://www.bruceforoakland.com/",
+      "twitter_url": "@BruceforOakland",
+      "first_name": "Bruce",
+      "last_name": "Quan",
+      "ballot_item": 3,
+      "office_election": 3,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
         },
         "expenditures_by_type": {
         }
@@ -29,62 +80,109 @@
       "opposing_money": {
         "contributions_received": 4567
       },
-      "contributions_received": 19375.0,
-      "total_contributions": 19375.0,
-      "total_expenditures": 8479.42,
-      "total_loans_received": 0.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
-        "Individual": 16250.0,
-        "Unitemized": 675.0,
-        "Other (includes Businesses)": 2450.0
       },
       "expenditures_by_type": {
       }
     },
     {
-      "id": 11,
-      "name": "Dan Kalb",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
-      "website_url": "https://dankalb.net",
-      "twitter_url": "@dankalb",
-      "first_name": "Dan",
-      "last_name": "Kalb",
+      "id": 4,
+      "name": "Nancy Sidebotham",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
+      "website_url": "nancysidebotham.com (under construction)",
+      "twitter_url": null,
+      "first_name": "Nancy",
+      "last_name": "Sidebotham",
       "ballot_item": 3,
       "office_election": 3,
       "supporting_money": {
-        "contributions_received": 39058.66,
-        "total_contributions": 39058.66,
-        "total_expenditures": 6118.11,
-        "total_loans_received": 9000.0,
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
         "contributions_by_type": {
-          "Committee": 2400.0,
-          "Individual": 22487.0,
-          "Unitemized": 3521.66,
-          "Other (includes Businesses)": 1650.0
         },
         "expenditures_by_type": {
-          "fundraising events": 4749.38,
-          "campaign literature and mailings": 894.7,
-          "information technology costs (internet, e-mail)": 404.03
         }
       },
       "opposing_money": {
         "contributions_received": 4567
       },
-      "contributions_received": 39058.66,
-      "total_contributions": 39058.66,
-      "total_expenditures": 6118.11,
-      "total_loans_received": 9000.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
-        "Committee": 2400.0,
-        "Individual": 22487.0,
-        "Unitemized": 3521.66,
-        "Other (includes Businesses)": 1650.0
       },
       "expenditures_by_type": {
-        "fundraising events": 4749.38,
-        "campaign literature and mailings": 894.7,
-        "information technology costs (internet, e-mail)": 404.03
+      }
+    },
+    {
+      "id": 5,
+      "name": "Francis Matt Hummell",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/F-Matt-Hummell.png",
+      "website_url": "http://matt4thepeople.nationbuilder.com/",
+      "twitter_url": null,
+      "first_name": "Francis",
+      "last_name": "Matt Hummell",
+      "ballot_item": 3,
+      "office_election": 3,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_money": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 6,
+      "name": "Peggy Moore",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Margaret-Moore.png",
+      "website_url": null,
+      "twitter_url": null,
+      "first_name": "Peggy",
+      "last_name": "Moore",
+      "ballot_item": 3,
+      "office_election": 3,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_money": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
       }
     }
   ],

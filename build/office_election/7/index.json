@@ -1,48 +1,16 @@
 {
   "id": 7,
   "contest_type": "Office",
-  "name": "School Board District 3",
+  "name": "City Council District 7",
   "candidates": [
     {
-      "id": 28,
-      "name": "Jumoke Hinton Hodge",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
-      "website_url": "https://hintonhodge.nationbuilder.com/",
-      "twitter_url": "@hintonhodge4oak",
-      "first_name": "Jumoke",
-      "last_name": "Hinton Hodge",
-      "ballot_item": 7,
-      "office_election": 7,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 4567
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 29,
-      "name": "Benjamin Lang",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
-      "website_url": "http://www.benlang.com/",
+      "id": 14,
+      "name": "Marcie Hodge",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
+      "website_url": null,
       "twitter_url": null,
-      "first_name": "Benjamin",
-      "last_name": "Lang",
+      "first_name": "Marcie",
+      "last_name": "Hodge",
       "ballot_item": 7,
       "office_election": 7,
       "supporting_money": {
@@ -68,13 +36,13 @@
       }
     },
     {
-      "id": 30,
-      "name": "Kharyshi Wiginton",
+      "id": 15,
+      "name": "Nehanda Imara",
       "photo_url": null,
       "website_url": null,
       "twitter_url": null,
-      "first_name": "Kharyshi",
-      "last_name": "Wiginton",
+      "first_name": "Nehanda",
+      "last_name": "Imara",
       "ballot_item": 7,
       "office_election": 7,
       "supporting_money": {
@@ -100,13 +68,13 @@
       }
     },
     {
-      "id": 31,
-      "name": "Lucky Narain",
+      "id": 16,
+      "name": "Larry Reid",
       "photo_url": null,
       "website_url": null,
       "twitter_url": null,
-      "first_name": "Lucky",
-      "last_name": "Narain",
+      "first_name": "Larry",
+      "last_name": "Reid",
       "ballot_item": 7,
       "office_election": 7,
       "supporting_money": {

@@ -1,46 +1,90 @@
 {
   "id": 2,
   "contest_type": "Office",
-  "name": "City Attorney",
+  "name": "City Council District 3",
   "candidates": [
     {
-      "id": 1,
-      "name": "Barbara Parker",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Barbara-Parker.png",
-      "website_url": "http://www.cityattorneyparker.com/",
-      "twitter_url": "@barbarajparker1",
-      "first_name": "Barbara",
-      "last_name": "Parker",
+      "id": 9,
+      "name": "Lynette Gibson McElhaney",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lynette-Gibson-McElhaney.png",
+      "website_url": "http://www.lynettemcelhaney.com/",
+      "twitter_url": "@lynettegm",
+      "first_name": "Lynette",
+      "last_name": "Gibson McElhaney",
       "ballot_item": 2,
       "office_election": 2,
       "supporting_money": {
-        "contributions_received": 60871.0,
-        "total_contributions": 60871.0,
-        "total_expenditures": 7510.5,
+        "contributions_received": 41597.08,
+        "total_contributions": 41597.08,
+        "total_expenditures": 9736.75,
         "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Individual": 55100.0,
-          "Unitemized": 355.0,
-          "Other (includes Businesses)": 5416.0
+          "Committee": 3250.0,
+          "Individual": 29188.16,
+          "Unitemized": 808.92,
+          "Other (includes Businesses)": 8350.0
         },
         "expenditures_by_type": {
-          "campaign consultants": 7500.0
+          "civic donations": 450.0,
+          "office expenses": 2340.51,
+          "fundraising events": 718.87,
+          "meetings and appearances": 184.17,
+          "professional services (legal, accounting)": 4318.35,
+          "information technology costs (internet, e-mail)": 942.85
         }
       },
       "opposing_money": {
         "contributions_received": 4567
       },
-      "contributions_received": 60871.0,
-      "total_contributions": 60871.0,
-      "total_expenditures": 7510.5,
+      "contributions_received": 41597.08,
+      "total_contributions": 41597.08,
+      "total_expenditures": 9736.75,
       "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Individual": 55100.0,
-        "Unitemized": 355.0,
-        "Other (includes Businesses)": 5416.0
+        "Committee": 3250.0,
+        "Individual": 29188.16,
+        "Unitemized": 808.92,
+        "Other (includes Businesses)": 8350.0
       },
       "expenditures_by_type": {
-        "campaign consultants": 7500.0
+        "civic donations": 450.0,
+        "office expenses": 2340.51,
+        "fundraising events": 718.87,
+        "meetings and appearances": 184.17,
+        "professional services (legal, accounting)": 4318.35,
+        "information technology costs (internet, e-mail)": 942.85
+      }
+    },
+    {
+      "id": 11,
+      "name": "Noni Session",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
+      "website_url": "http://www.nonifordistrict3.com/",
+      "twitter_url": "@NoniSession",
+      "first_name": "Noni",
+      "last_name": "Session",
+      "ballot_item": 2,
+      "office_election": 2,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_money": {
+        "contributions_received": 4567
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
       }
     }
   ],

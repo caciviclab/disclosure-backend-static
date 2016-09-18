@@ -1,32 +1,50 @@
 {
   "id": 18,
-  "name": "Noel Gallo",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
-  "website_url": "http://galloforoakland.com/",
-  "twitter_url": "@noelgallo5",
-  "first_name": "Noel",
-  "last_name": "Gallo",
-  "ballot_item": 10,
-  "office_election": 10,
+  "name": "Jody London",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+  "website_url": "http://www.votejody.com/",
+  "twitter_url": "@votejodylondon",
+  "first_name": "Jody",
+  "last_name": "London",
+  "ballot_item": 6,
+  "office_election": 6,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 5975.0,
+    "total_contributions": 5975.0,
+    "total_expenditures": 4826.78,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
+      "Individual": 4000.0,
+      "Unitemized": 575.0,
+      "Other (includes Businesses)": 1400.0
     },
     "expenditures_by_type": {
+      "office expenses": 166.47,
+      "fundraising events": 475.05,
+      "campaign consultants": 1000.0,
+      "meetings and appearances": 437.32,
+      "campaign paraphernalia/misc.": 1397.94,
+      "campaign literature and mailings": 850.0
     }
   },
   "opposing_money": {
     "contributions_received": 4567
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 5975.0,
+  "total_contributions": 5975.0,
+  "total_expenditures": 4826.78,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 4000.0,
+    "Unitemized": 575.0,
+    "Other (includes Businesses)": 1400.0
   },
   "expenditures_by_type": {
+    "office expenses": 166.47,
+    "fundraising events": 475.05,
+    "campaign consultants": 1000.0,
+    "meetings and appearances": 437.32,
+    "campaign paraphernalia/misc.": 1397.94,
+    "campaign literature and mailings": 850.0
   }
 }
