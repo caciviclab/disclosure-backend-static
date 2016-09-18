@@ -3,7 +3,7 @@
 CD := $(shell pwd)
 
 clean:
-	rm -rf inputs/*.csv
+	rm -rf inputs/*.csv downloads/*
 
 process: process.rb
 	rm -rf build && ruby process.rb
