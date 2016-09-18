@@ -7,11 +7,13 @@ class ReferendumSupportersCalculator
 
   def fetch
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
-             SUM("Amount") AS "Total_Amount"
-        FROM "efile_COAK_2016_E-Expenditure"
-       WHERE "Bal_Name" IS NOT NULL
-       GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd";
+      SELECT DISTINCT ON ("Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd")
+        "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
+        SUM("Amount") AS "Total_Amount"
+      FROM "efile_COAK_2016_E-Expenditure"
+      WHERE "Bal_Name" IS NOT NULL
+      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Report_Num"
+      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Report_Num" DESC
     SQL
 
     supporting_by_measure_name = {}

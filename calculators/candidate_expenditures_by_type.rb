@@ -57,10 +57,12 @@ class CandidateExpendituresByType
   def expenditures_by_candidate_by_type
     @_expenditures_by_candidate_by_type ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
+        SELECT DISTINCT ON ("Expn_Code", "Filer_ID")
+          "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Expn_Code", "Filer_ID";
+        GROUP BY "Expn_Code", "Filer_ID", "Report_Num"
+        ORDER BY "Expn_Code", "Filer_ID", "Report_Num" DESC
       SQL
 
       results.each do |result|
