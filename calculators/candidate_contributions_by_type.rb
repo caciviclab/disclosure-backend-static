@@ -68,6 +68,7 @@ class CandidateContributionsByType
           "Filer_ID", "Entity_Cd", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_497"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        AND "Form_Type" = 'F497P1'
         GROUP BY "Entity_Cd", "Filer_ID", "Report_Num"
         ORDER BY "Entity_Cd", "Filer_ID", "Report_Num" DESC
       SQL
