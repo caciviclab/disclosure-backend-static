@@ -30,6 +30,29 @@ class OaklandCandidate < ActiveRecord::Base
       last_name: last_name,
       ballot_item: office_election.id,
       office_election: office_election.id,
+
+      # contribution data
+      supporting_money: {
+        contributions_received: calculation(:total_contributions).try(:to_f),
+        total_contributions: calculation(:total_contributions).try(:to_f),
+        total_expenditures: calculation(:total_expenditures).try(:to_f),
+        total_loans_received: calculation(:total_loans_received).try(:to_f),
+        contributions_by_type: calculation(:contributions_by_type) || {},
+        expenditures_by_type: calculation(:expenditures_by_type) || {},
+      },
+      opposing_money: {
+        contributions_received: 4567,
+      },
+
+      # for backwards compatibility, these should also be exposed at the
+      # top-level:
+      # TODO: remove once the frontend no longer uses this
+      contributions_received: calculation(:total_contributions).try(:to_f),
+      total_contributions: calculation(:total_contributions).try(:to_f),
+      total_expenditures: calculation(:total_expenditures).try(:to_f),
+      total_loans_received: calculation(:total_loans_received).try(:to_f),
+      contributions_by_type: calculation(:contributions_by_type) || {},
+      expenditures_by_type: calculation(:expenditures_by_type) || {},
     }
   end
 end

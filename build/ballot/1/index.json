@@ -15,7 +15,28 @@
           "first_name": "Donald",
           "last_name": "Macleay",
           "ballot_item": 1,
-          "office_election": 1
+          "office_election": 1,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 27,
@@ -26,7 +47,46 @@
           "first_name": "Jody",
           "last_name": "London",
           "ballot_item": 1,
-          "office_election": 1
+          "office_election": 1,
+          "supporting_money": {
+            "contributions_received": 5975.0,
+            "total_contributions": 5975.0,
+            "total_expenditures": 4826.78,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Individual": 4000.0,
+              "Unitemized": 575.0,
+              "Other (includes Businesses)": 1400.0
+            },
+            "expenditures_by_type": {
+              "office expenses": 166.47,
+              "fundraising events": 475.05,
+              "campaign consultants": 1000.0,
+              "meetings and appearances": 437.32,
+              "campaign paraphernalia/misc.": 1397.94,
+              "campaign literature and mailings": 850.0
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 5975.0,
+          "total_contributions": 5975.0,
+          "total_expenditures": 4826.78,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 4000.0,
+            "Unitemized": 575.0,
+            "Other (includes Businesses)": 1400.0
+          },
+          "expenditures_by_type": {
+            "office expenses": 166.47,
+            "fundraising events": 475.05,
+            "campaign consultants": 1000.0,
+            "meetings and appearances": 437.32,
+            "campaign paraphernalia/misc.": 1397.94,
+            "campaign literature and mailings": 850.0
+          }
         }
       ]
     },
@@ -44,7 +104,36 @@
           "first_name": "Barbara",
           "last_name": "Parker",
           "ballot_item": 2,
-          "office_election": 2
+          "office_election": 2,
+          "supporting_money": {
+            "contributions_received": 60871.0,
+            "total_contributions": 60871.0,
+            "total_expenditures": 7510.5,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Individual": 55100.0,
+              "Unitemized": 355.0,
+              "Other (includes Businesses)": 5416.0
+            },
+            "expenditures_by_type": {
+              "campaign consultants": 7500.0
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 60871.0,
+          "total_contributions": 60871.0,
+          "total_expenditures": 7510.5,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 55100.0,
+            "Unitemized": 355.0,
+            "Other (includes Businesses)": 5416.0
+          },
+          "expenditures_by_type": {
+            "campaign consultants": 7500.0
+          }
         }
       ]
     },
@@ -62,7 +151,34 @@
           "first_name": "Kevin",
           "last_name": "Corbett",
           "ballot_item": 3,
-          "office_election": 3
+          "office_election": 3,
+          "supporting_money": {
+            "contributions_received": 19375.0,
+            "total_contributions": 19375.0,
+            "total_expenditures": 8479.42,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Individual": 16250.0,
+              "Unitemized": 675.0,
+              "Other (includes Businesses)": 2450.0
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 19375.0,
+          "total_contributions": 19375.0,
+          "total_expenditures": 8479.42,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 16250.0,
+            "Unitemized": 675.0,
+            "Other (includes Businesses)": 2450.0
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 11,
@@ -73,7 +189,42 @@
           "first_name": "Dan",
           "last_name": "Kalb",
           "ballot_item": 3,
-          "office_election": 3
+          "office_election": 3,
+          "supporting_money": {
+            "contributions_received": 39058.66,
+            "total_contributions": 39058.66,
+            "total_expenditures": 6118.11,
+            "total_loans_received": 9000.0,
+            "contributions_by_type": {
+              "Committee": 2400.0,
+              "Individual": 22487.0,
+              "Unitemized": 3521.66,
+              "Other (includes Businesses)": 1650.0
+            },
+            "expenditures_by_type": {
+              "fundraising events": 4749.38,
+              "campaign literature and mailings": 894.7,
+              "information technology costs (internet, e-mail)": 404.03
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 39058.66,
+          "total_contributions": 39058.66,
+          "total_expenditures": 6118.11,
+          "total_loans_received": 9000.0,
+          "contributions_by_type": {
+            "Committee": 2400.0,
+            "Individual": 22487.0,
+            "Unitemized": 3521.66,
+            "Other (includes Businesses)": 1650.0
+          },
+          "expenditures_by_type": {
+            "fundraising events": 4749.38,
+            "campaign literature and mailings": 894.7,
+            "information technology costs (internet, e-mail)": 404.03
+          }
         }
       ]
     },
@@ -91,7 +242,28 @@
           "first_name": "Alan",
           "last_name": "Brown",
           "ballot_item": 4,
-          "office_election": 4
+          "office_election": 4,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 13,
@@ -102,7 +274,48 @@
           "first_name": "Lynette",
           "last_name": "Gibson McElhaney",
           "ballot_item": 4,
-          "office_election": 4
+          "office_election": 4,
+          "supporting_money": {
+            "contributions_received": 41597.08,
+            "total_contributions": 41597.08,
+            "total_expenditures": 9736.75,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Committee": 3250.0,
+              "Individual": 29188.16,
+              "Unitemized": 808.92,
+              "Other (includes Businesses)": 8350.0
+            },
+            "expenditures_by_type": {
+              "civic donations": 450.0,
+              "office expenses": 2340.51,
+              "fundraising events": 718.87,
+              "meetings and appearances": 184.17,
+              "professional services (legal, accounting)": 4318.35,
+              "information technology costs (internet, e-mail)": 942.85
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 41597.08,
+          "total_contributions": 41597.08,
+          "total_expenditures": 9736.75,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 3250.0,
+            "Individual": 29188.16,
+            "Unitemized": 808.92,
+            "Other (includes Businesses)": 8350.0
+          },
+          "expenditures_by_type": {
+            "civic donations": 450.0,
+            "office expenses": 2340.51,
+            "fundraising events": 718.87,
+            "meetings and appearances": 184.17,
+            "professional services (legal, accounting)": 4318.35,
+            "information technology costs (internet, e-mail)": 942.85
+          }
         },
         {
           "id": 14,
@@ -113,7 +326,28 @@
           "first_name": "Noni",
           "last_name": "Session",
           "ballot_item": 4,
-          "office_election": 4
+          "office_election": 4,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 15,
@@ -124,7 +358,28 @@
           "first_name": "Saied",
           "last_name": "Karamooz",
           "ballot_item": 4,
-          "office_election": 4
+          "office_election": 4,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 16,
@@ -135,7 +390,28 @@
           "first_name": "Anthony",
           "last_name": "McNeal",
           "ballot_item": 4,
-          "office_election": 4
+          "office_election": 4,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 17,
@@ -146,7 +422,28 @@
           "first_name": "Tyron",
           "last_name": "Jordan",
           "ballot_item": 4,
-          "office_election": 4
+          "office_election": 4,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
@@ -164,7 +461,50 @@
           "first_name": "Rebecca",
           "last_name": "Kaplan",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": 52199.0,
+            "total_contributions": 52199.0,
+            "total_expenditures": 16219.89,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Committee": 4400.0,
+              "Individual": 39954.0,
+              "Unitemized": 1495.0,
+              "Other (includes Businesses)": 6350.0
+            },
+            "expenditures_by_type": {
+              "office expenses": 4936.55,
+              "fundraising events": 200.0,
+              "campaign paraphernalia/misc.": 1916.25,
+              "campaign literature and mailings": 4765.23,
+              "postage, delivery and messenger services": 1255.12,
+              "professional services (legal, accounting)": 1236.26,
+              "information technology costs (internet, e-mail)": 220.0
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 52199.0,
+          "total_contributions": 52199.0,
+          "total_expenditures": 16219.89,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 4400.0,
+            "Individual": 39954.0,
+            "Unitemized": 1495.0,
+            "Other (includes Businesses)": 6350.0
+          },
+          "expenditures_by_type": {
+            "office expenses": 4936.55,
+            "fundraising events": 200.0,
+            "campaign paraphernalia/misc.": 1916.25,
+            "campaign literature and mailings": 4765.23,
+            "postage, delivery and messenger services": 1255.12,
+            "professional services (legal, accounting)": 1236.26,
+            "information technology costs (internet, e-mail)": 220.0
+          }
         },
         {
           "id": 3,
@@ -175,7 +515,28 @@
           "first_name": "Bruce",
           "last_name": "Quan",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 4,
@@ -186,7 +547,28 @@
           "first_name": "Nancy",
           "last_name": "Sidebotham",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 5,
@@ -197,7 +579,28 @@
           "first_name": "Francis",
           "last_name": "Matt Hummell",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 6,
@@ -208,7 +611,28 @@
           "first_name": "Peggy",
           "last_name": "Moore",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 7,
@@ -219,7 +643,28 @@
           "first_name": "Patricia",
           "last_name": "Ellis",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 8,
@@ -230,7 +675,28 @@
           "first_name": "Larry",
           "last_name": "Young Jr.",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 9,
@@ -241,7 +707,28 @@
           "first_name": "Manuel",
           "last_name": "Cabello",
           "ballot_item": 5,
-          "office_election": 5
+          "office_election": 5,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
@@ -259,7 +746,28 @@
           "first_name": "James",
           "last_name": "Harris",
           "ballot_item": 6,
-          "office_election": 6
+          "office_election": 6,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 37,
@@ -270,7 +778,34 @@
           "first_name": "Chris",
           "last_name": "Jackson",
           "ballot_item": 6,
-          "office_election": 6
+          "office_election": 6,
+          "supporting_money": {
+            "contributions_received": 5822.0,
+            "total_contributions": 5822.0,
+            "total_expenditures": 12413.89,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Committee": 1200.0,
+              "Individual": 2950.0,
+              "Unitemized": 1672.0
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 5822.0,
+          "total_contributions": 5822.0,
+          "total_expenditures": 12413.89,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 1200.0,
+            "Individual": 2950.0,
+            "Unitemized": 1672.0
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
@@ -288,7 +823,28 @@
           "first_name": "Jumoke",
           "last_name": "Hinton Hodge",
           "ballot_item": 7,
-          "office_election": 7
+          "office_election": 7,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 29,
@@ -299,7 +855,28 @@
           "first_name": "Benjamin",
           "last_name": "Lang",
           "ballot_item": 7,
-          "office_election": 7
+          "office_election": 7,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 30,
@@ -310,7 +887,28 @@
           "first_name": "Kharyshi",
           "last_name": "Wiginton",
           "ballot_item": 7,
-          "office_election": 7
+          "office_election": 7,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 31,
@@ -321,7 +919,28 @@
           "first_name": "Lucky",
           "last_name": "Narain",
           "ballot_item": 7,
-          "office_election": 7
+          "office_election": 7,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
@@ -339,7 +958,28 @@
           "first_name": "Marcie",
           "last_name": "Hodge",
           "ballot_item": 8,
-          "office_election": 8
+          "office_election": 8,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 21,
@@ -350,7 +990,28 @@
           "first_name": "Nehanda",
           "last_name": "Imara",
           "ballot_item": 8,
-          "office_election": 8
+          "office_election": 8,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 22,
@@ -361,7 +1022,28 @@
           "first_name": "Larry",
           "last_name": "Reid",
           "ballot_item": 8,
-          "office_election": 8
+          "office_election": 8,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 23,
@@ -372,7 +1054,28 @@
           "first_name": "Treva",
           "last_name": "Reid",
           "ballot_item": 8,
-          "office_election": 8
+          "office_election": 8,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 24,
@@ -383,7 +1086,28 @@
           "first_name": "Maxine",
           "last_name": "Oliver-Benson",
           "ballot_item": 8,
-          "office_election": 8
+          "office_election": 8,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 25,
@@ -394,7 +1118,28 @@
           "first_name": "Olivia",
           "last_name": "De Jimenez",
           "ballot_item": 8,
-          "office_election": 8
+          "office_election": 8,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
@@ -412,7 +1157,28 @@
           "first_name": "Michael",
           "last_name": "Hassid",
           "ballot_item": 9,
-          "office_election": 9
+          "office_election": 9,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 33,
@@ -423,7 +1189,28 @@
           "first_name": "Michael",
           "last_name": "Hutchinson",
           "ballot_item": 9,
-          "office_election": 9
+          "office_election": 9,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 34,
@@ -434,7 +1221,46 @@
           "first_name": "Roseann",
           "last_name": "Torres",
           "ballot_item": 9,
-          "office_election": 9
+          "office_election": 9,
+          "supporting_money": {
+            "contributions_received": 6895.0,
+            "total_contributions": 6895.0,
+            "total_expenditures": 6673.3,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Committee": 1700.0,
+              "Individual": 4150.0,
+              "Unitemized": 345.0,
+              "Other (includes Businesses)": 700.0
+            },
+            "expenditures_by_type": {
+              "office expenses": 107.05,
+              "fundraising events": 600.0,
+              "campaign consultants": 1130.0,
+              "professional services (legal, accounting)": 3626.34,
+              "information technology costs (internet, e-mail)": 400.0
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": 6895.0,
+          "total_contributions": 6895.0,
+          "total_expenditures": 6673.3,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 1700.0,
+            "Individual": 4150.0,
+            "Unitemized": 345.0,
+            "Other (includes Businesses)": 700.0
+          },
+          "expenditures_by_type": {
+            "office expenses": 107.05,
+            "fundraising events": 600.0,
+            "campaign consultants": 1130.0,
+            "professional services (legal, accounting)": 3626.34,
+            "information technology costs (internet, e-mail)": 400.0
+          }
         },
         {
           "id": 35,
@@ -445,7 +1271,28 @@
           "first_name": "Huber",
           "last_name": "Trenado",
           "ballot_item": 9,
-          "office_election": 9
+          "office_election": 9,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
@@ -463,7 +1310,28 @@
           "first_name": "Noel",
           "last_name": "Gallo",
           "ballot_item": 10,
-          "office_election": 10
+          "office_election": 10,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         },
         {
           "id": 19,
@@ -474,7 +1342,28 @@
           "first_name": "Viola",
           "last_name": "Gonzales",
           "ballot_item": 10,
-          "office_election": 10
+          "office_election": 10,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "expenditures_by_type": {
+            }
+          },
+          "opposing_money": {
+            "contributions_received": 4567
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },

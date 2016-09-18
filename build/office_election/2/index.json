@@ -12,7 +12,36 @@
       "first_name": "Barbara",
       "last_name": "Parker",
       "ballot_item": 2,
-      "office_election": 2
+      "office_election": 2,
+      "supporting_money": {
+        "contributions_received": 60871.0,
+        "total_contributions": 60871.0,
+        "total_expenditures": 7510.5,
+        "total_loans_received": 0.0,
+        "contributions_by_type": {
+          "Individual": 55100.0,
+          "Unitemized": 355.0,
+          "Other (includes Businesses)": 5416.0
+        },
+        "expenditures_by_type": {
+          "campaign consultants": 7500.0
+        }
+      },
+      "opposing_money": {
+        "contributions_received": 4567
+      },
+      "contributions_received": 60871.0,
+      "total_contributions": 60871.0,
+      "total_expenditures": 7510.5,
+      "total_loans_received": 0.0,
+      "contributions_by_type": {
+        "Individual": 55100.0,
+        "Unitemized": 355.0,
+        "Other (includes Businesses)": 5416.0
+      },
+      "expenditures_by_type": {
+        "campaign consultants": 7500.0
+      }
     }
   ],
   "ballot_id": 1

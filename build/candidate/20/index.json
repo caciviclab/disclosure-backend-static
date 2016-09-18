@@ -7,5 +7,26 @@
   "first_name": "Marcie",
   "last_name": "Hodge",
   "ballot_item": 8,
-  "office_election": 8
+  "office_election": 8,
+  "supporting_money": {
+    "contributions_received": null,
+    "total_contributions": null,
+    "total_expenditures": null,
+    "total_loans_received": null,
+    "contributions_by_type": {
+    },
+    "expenditures_by_type": {
+    }
+  },
+  "opposing_money": {
+    "contributions_received": 4567
+  },
+  "contributions_received": null,
+  "total_contributions": null,
+  "total_expenditures": null,
+  "total_loans_received": null,
+  "contributions_by_type": {
+  },
+  "expenditures_by_type": {
+  }
 }

@@ -7,5 +7,26 @@
   "first_name": "Larry",
   "last_name": "Young Jr.",
   "ballot_item": 5,
-  "office_election": 5
+  "office_election": 5,
+  "supporting_money": {
+    "contributions_received": null,
+    "total_contributions": null,
+    "total_expenditures": null,
+    "total_loans_received": null,
+    "contributions_by_type": {
+    },
+    "expenditures_by_type": {
+    }
+  },
+  "opposing_money": {
+    "contributions_received": 4567
+  },
+  "contributions_received": null,
+  "total_contributions": null,
+  "total_expenditures": null,
+  "total_loans_received": null,
+  "contributions_by_type": {
+  },
+  "expenditures_by_type": {
+  }
 }
