@@ -1,32 +1,56 @@
 {
   "id": 17,
-  "name": "Donald Macleay",
-  "photo_url": null,
-  "website_url": null,
-  "twitter_url": "@donmacleay",
-  "first_name": "Donald",
-  "last_name": "Macleay",
-  "ballot_item": 6,
-  "office_election": 6,
+  "name": "Jody London",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+  "website_url": "http://www.votejody.com/",
+  "twitter_url": "@votejodylondon",
+  "first_name": "Jody",
+  "last_name": "London",
+  "ballot_item": 5,
+  "office_election": 5,
+  "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
+  "committee_name": "Friends of Jody London for Oakland School Board 2016",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": true,
+  "occupation": "School Board Director, and Sustainability Coordinator",
+  "party_affiliation": "Democrat",
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 5975.0,
+    "total_contributions": 5975.0,
+    "total_expenditures": 4826.78,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
+      "Individual": 4000.0,
+      "Unitemized": 575.0,
+      "Other (includes Businesses)": 1400.0
     },
     "expenditures_by_type": {
+      "office expenses": 166.47,
+      "fundraising events": 475.05,
+      "campaign consultants": 1000.0,
+      "meetings and appearances": 437.32,
+      "campaign paraphernalia/misc.": 1397.94,
+      "campaign literature and mailings": 850.0
     }
   },
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 5975.0,
+  "total_contributions": 5975.0,
+  "total_expenditures": 4826.78,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 4000.0,
+    "Unitemized": 575.0,
+    "Other (includes Businesses)": 1400.0
   },
   "expenditures_by_type": {
+    "office expenses": 166.47,
+    "fundraising events": 475.05,
+    "campaign consultants": 1000.0,
+    "meetings and appearances": 437.32,
+    "campaign paraphernalia/misc.": 1397.94,
+    "campaign literature and mailings": 850.0
   }
 }

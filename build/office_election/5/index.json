@@ -1,90 +1,24 @@
 {
   "id": 5,
   "contest_type": "Office",
-  "name": "School Board District 3",
+  "name": "School Board District 1",
   "candidates": [
     {
-      "id": 10,
-      "name": "Jumoke Hinton Hodge",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
-      "website_url": "https://hintonhodge.nationbuilder.com/",
-      "twitter_url": "@hintonhodge4oak",
-      "first_name": "Jumoke",
-      "last_name": "Hinton Hodge",
-      "ballot_item": 5,
-      "office_election": 5,
-      "supporting_money": {
-        "contributions_received": 3488.0,
-        "total_contributions": 3488.0,
-        "total_expenditures": 730.97,
-        "total_loans_received": 500.0,
-        "contributions_by_type": {
-          "Individual": 2988.0,
-          "Unitemized": 0.0
-        },
-        "expenditures_by_type": {
-          "fundraising events": 203.53,
-          "campaign paraphernalia/misc.": 527.44
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 0
-      },
-      "contributions_received": 3488.0,
-      "total_contributions": 3488.0,
-      "total_expenditures": 730.97,
-      "total_loans_received": 500.0,
-      "contributions_by_type": {
-        "Individual": 2988.0,
-        "Unitemized": 0.0
-      },
-      "expenditures_by_type": {
-        "fundraising events": 203.53,
-        "campaign paraphernalia/misc.": 527.44
-      }
-    },
-    {
-      "id": 19,
-      "name": "Benjamin Lang",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
-      "website_url": "http://www.benlang.com/",
-      "twitter_url": null,
-      "first_name": "Benjamin",
-      "last_name": "Lang",
-      "ballot_item": 5,
-      "office_election": 5,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 0
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 20,
-      "name": "Kharyshi Wiginton",
+      "id": 16,
+      "name": "Donald Macleay",
       "photo_url": null,
       "website_url": null,
-      "twitter_url": null,
-      "first_name": "Kharyshi",
-      "last_name": "Wiginton",
+      "twitter_url": "@donmacleay",
+      "first_name": "Donald",
+      "last_name": "Macleay",
       "ballot_item": 5,
       "office_election": 5,
+      "bio": "Don Macleay owns and runs East Bay Computer Services, a computer repair business in the Temescal district.  While running for office, Macleay is on leave from People United for a Better Life in Oakland, a youth advocacy organization where he serves as a board member. In 2010, Macleay ran for mayor in Oakland. \n\nSource: https://oaklandnorth.net/2012/10/29/greens-don-macleay-promotes-civilians-on-police-force-higher-minimum-wage/",
+      "committee_name": "Macleay for Oakland School Board, District 1, 2016",
+      "is_accepted_expenditure_ceiling": null,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": "Green Party",
       "supporting_money": {
         "contributions_received": null,
         "total_contributions": null,
@@ -108,35 +42,59 @@
       }
     },
     {
-      "id": 21,
-      "name": "Lucky Narain",
-      "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
-      "first_name": "Lucky",
-      "last_name": "Narain",
+      "id": 17,
+      "name": "Jody London",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+      "website_url": "http://www.votejody.com/",
+      "twitter_url": "@votejodylondon",
+      "first_name": "Jody",
+      "last_name": "London",
       "ballot_item": 5,
       "office_election": 5,
+      "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
+      "committee_name": "Friends of Jody London for Oakland School Board 2016",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": true,
+      "occupation": "School Board Director, and Sustainability Coordinator",
+      "party_affiliation": "Democrat",
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 5975.0,
+        "total_contributions": 5975.0,
+        "total_expenditures": 4826.78,
+        "total_loans_received": 0.0,
         "contributions_by_type": {
+          "Individual": 4000.0,
+          "Unitemized": 575.0,
+          "Other (includes Businesses)": 1400.0
         },
         "expenditures_by_type": {
+          "office expenses": 166.47,
+          "fundraising events": 475.05,
+          "campaign consultants": 1000.0,
+          "meetings and appearances": 437.32,
+          "campaign paraphernalia/misc.": 1397.94,
+          "campaign literature and mailings": 850.0
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 5975.0,
+      "total_contributions": 5975.0,
+      "total_expenditures": 4826.78,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
+        "Individual": 4000.0,
+        "Unitemized": 575.0,
+        "Other (includes Businesses)": 1400.0
       },
       "expenditures_by_type": {
+        "office expenses": 166.47,
+        "fundraising events": 475.05,
+        "campaign consultants": 1000.0,
+        "meetings and appearances": 437.32,
+        "campaign paraphernalia/misc.": 1397.94,
+        "campaign literature and mailings": 850.0
       }
     }
   ],
