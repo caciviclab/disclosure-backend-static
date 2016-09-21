@@ -63,7 +63,20 @@ class CandidateContributionsByType
         ORDER BY "Entity_Cd", "Filer_ID", "Report_Num" DESC
       SQL
 
-      (monetary_results.to_a + in_kind_results.to_a).each do |result|
+      late_results = ActiveRecord::Base.connection.execute(<<-SQL)
+        SELECT DISTINCT ON ("Entity_Cd", "Filer_ID")
+          "Filer_ID", "Entity_Cd", SUM("Amount") AS "Total"
+        FROM "efile_COAK_2016_497"
+        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        AND "Form_Type" = 'F497P1'
+        GROUP BY "Entity_Cd", "Filer_ID", "Report_Num"
+        ORDER BY "Entity_Cd", "Filer_ID", "Report_Num" DESC
+      SQL
+
+      # TODO: we need to subtract `late_results` that are also present in
+      # `monetary_results` so as to not duplicate transactions!
+
+      (monetary_results.to_a + in_kind_results.to_a + late_results.to_a).each do |result|
         filer_id = result['Filer_ID'].to_s
 
         hash[filer_id] ||= {}

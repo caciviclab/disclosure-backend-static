@@ -128,11 +128,12 @@
       "ballot_item": 8,
       "office_election": 8,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 1500.0,
+        "total_contributions": 1500.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Other (includes Businesses)": 1500.0
         },
         "expenditures_by_type": {
         }
@@ -140,11 +141,12 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 1500.0,
+      "total_contributions": 1500.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Other (includes Businesses)": 1500.0
       },
       "expenditures_by_type": {
       }
