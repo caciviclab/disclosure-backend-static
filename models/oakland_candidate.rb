@@ -30,6 +30,12 @@ class OaklandCandidate < ActiveRecord::Base
       last_name: last_name,
       ballot_item: office_election.id,
       office_election: office_election.id,
+      bio: self['Bio'],
+      committee_name: self['Committee_Name'],
+      is_accepted_expenditure_ceiling: self['Accepted_expenditure_ceiling'],
+      is_incumbent: self['Incumbent'],
+      occupation: self['Occupation'],
+      party_affiliation: self['Party_Affiliation'],
 
       # contribution data
       supporting_money: {

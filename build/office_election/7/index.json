@@ -4,7 +4,7 @@
   "name": "City Council District 7",
   "candidates": [
     {
-      "id": 14,
+      "id": 13,
       "name": "Marcie Hodge",
       "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
       "website_url": null,
@@ -13,6 +13,50 @@
       "last_name": "Hodge",
       "ballot_item": 7,
       "office_election": 7,
+      "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and Candidate",
+      "committee_name": "Hodge 4 Oakland City Council 2016",
+      "is_accepted_expenditure_ceiling": false,
+      "is_incumbent": false,
+      "occupation": "Non-profit Executive Director",
+      "party_affiliation": "Democrat",
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "expenditures_by_type": {
+        }
+      },
+      "opposing_money": {
+        "contributions_received": 0
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 14,
+      "name": "Nehanda Imara",
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Nehanda_Imara.png",
+      "website_url": "http://www.nehandafordistrict7.com/",
+      "twitter_url": "@NehandaForD7",
+      "first_name": "Nehanda",
+      "last_name": "Imara",
+      "ballot_item": 7,
+      "office_election": 7,
+      "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora. Source: http://www.cbecal.org/about/staff/",
+      "committee_name": "Nehanda Imara for City Council 2016",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": false,
+      "occupation": "East Oakland Community Organizer",
+      "party_affiliation": null,
       "supporting_money": {
         "contributions_received": null,
         "total_contributions": null,
@@ -37,46 +81,20 @@
     },
     {
       "id": 15,
-      "name": "Nehanda Imara",
-      "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
-      "first_name": "Nehanda",
-      "last_name": "Imara",
-      "ballot_item": 7,
-      "office_election": 7,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "contributions_by_type": {
-        },
-        "expenditures_by_type": {
-        }
-      },
-      "opposing_money": {
-        "contributions_received": 0
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 16,
       "name": "Larry Reid",
-      "photo_url": null,
-      "website_url": null,
+      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/larry-reid.png",
+      "website_url": "https://www.facebook.com/LarryReid4District7/",
       "twitter_url": null,
       "first_name": "Larry",
       "last_name": "Reid",
       "ballot_item": 7,
       "office_election": 7,
+      "bio": "Larry Reid has been a Councilmember for District 7 since 1997. Reid is a member of the Public Works and Rules and Legislation Committees for the City of Oakland and is Chairman of the Community and Economic Development Committee. Reid served as Chief of Staff for former Oakland City Councilmember Aleta Cannon and former Mayor and Assemblymember Elihu Harris. He was born and raised in Cincinnati, Ohio and attended the University of Cincinnati. \n\nSource: http://www2.oaklandnet.com/government/o/CityCouncil/o/District7/index.htm and http://www2.oaklandnet.com/government/o/CityCouncil/o/District7/a/Profile/index.htm",
+      "committee_name": "Re-Elect Larry Reid for Council 2016",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": true,
+      "occupation": "Councilmember for District 7",
+      "party_affiliation": null,
       "supporting_money": {
         "contributions_received": null,
         "total_contributions": null,

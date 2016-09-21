@@ -1,40 +1,38 @@
 {
   "id": 10,
-  "name": "Jumoke Hinton Hodge",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
-  "website_url": "https://hintonhodge.nationbuilder.com/",
-  "twitter_url": "@hintonhodge4oak",
-  "first_name": "Jumoke",
-  "last_name": "Hinton Hodge",
-  "ballot_item": 5,
-  "office_election": 5,
+  "name": "Noni Session",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
+  "website_url": "http://www.nonifordistrict3.com/",
+  "twitter_url": "@NoniSession",
+  "first_name": "Noni",
+  "last_name": "Session",
+  "ballot_item": 2,
+  "office_election": 2,
+  "bio": "Noni Session is a lifelong resident of Oakland and attended Oakland public schools. Session served as a special education teacher at Harbor Way Academy Elementary School. She graduated with a degree in Cultural Anthropology and African American Studies from San Francisco State University and received her Ph.D. in Cultural Anthropology from Cornell University. Session’s doctoral research in Nairobi, Kenya on Bureaucratic Organizations \u0026 Humanitarianism led her to work with the United Nations Development Programme as a Researcher and Government Liaison. \n\nSource: https://www.crowdpac.com/campaigns/68285/support-noni-session-for-oakland-city-council-distict-3",
+  "committee_name": "Noni D. Session for City Council 2016",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Assistant Librarian",
+  "party_affiliation": "Democrat",
   "supporting_money": {
-    "contributions_received": 3488.0,
-    "total_contributions": 3488.0,
-    "total_expenditures": 730.97,
-    "total_loans_received": 500.0,
+    "contributions_received": null,
+    "total_contributions": null,
+    "total_expenditures": null,
+    "total_loans_received": null,
     "contributions_by_type": {
-      "Individual": 2988.0,
-      "Unitemized": 0.0
     },
     "expenditures_by_type": {
-      "fundraising events": 203.53,
-      "campaign paraphernalia/misc.": 527.44
     }
   },
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": 3488.0,
-  "total_contributions": 3488.0,
-  "total_expenditures": 730.97,
-  "total_loans_received": 500.0,
+  "contributions_received": null,
+  "total_contributions": null,
+  "total_expenditures": null,
+  "total_loans_received": null,
   "contributions_by_type": {
-    "Individual": 2988.0,
-    "Unitemized": 0.0
   },
   "expenditures_by_type": {
-    "fundraising events": 203.53,
-    "campaign paraphernalia/misc.": 527.44
   }
 }
