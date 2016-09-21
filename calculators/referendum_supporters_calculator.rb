@@ -16,6 +16,16 @@ class ReferendumSupportersCalculator
       ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Report_Num" DESC
     SQL
 
+    late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
+      SELECT DISTINCT ON ("Filer_ID", "Filer_NamL", "Bal_Name")
+        "Filer_ID", "Filer_NamL", "Bal_Name", SUM("Amount") AS "Total_Amount"
+      FROM "efile_COAK_2016_497"
+      WHERE "Bal_Name" IS NOT NULL
+      AND "Form_Type" = 'F497P2'
+      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Report_Num"
+      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Report_Num" DESC
+    SQL
+
     supporting_by_measure_name = {}
     opposing_by_measure_name = {}
 
@@ -26,6 +36,35 @@ class ReferendumSupportersCalculator
       elsif row['Sup_Opp_Cd'] == 'O'
         opposing_by_measure_name[row['Bal_Name']] ||= []
         opposing_by_measure_name[row['Bal_Name']] << row
+      end
+    end
+
+    late_expenditures.each do |row|
+      sup_opp_cd = guess_whether_committee_supports_measure(row['Filer_ID'], row['Bal_Name'])
+      if sup_opp_cd == 'S'
+        supporting_by_measure_name[row['Bal_Name']] ||= []
+        existing_idx = supporting_by_measure_name[row['Bal_Name']].find_index do |existing_row|
+          existing_row['Filer_ID'].to_s == row['Filer_ID'].to_s
+        end
+
+        if existing_idx
+          supporting_by_measure_name[row['Bal_Name']][existing_idx]['Total_Amount'] +=
+            row['Total_Amount']
+        else
+          supporting_by_measure_name[row['Bal_Name']] << row
+        end
+      elsif sup_opp_cd == 'O'
+        opposing_by_measure_name[row['Bal_Name']] ||= []
+        existing_idx = opposing_by_measure_name[row['Bal_Name']].find_index do |existing_row|
+          existing_row['Filer_ID'].to_s == row['Filer_ID'].to_s
+        end
+
+        if existing_idx
+          opposing_by_measure_name[row['Bal_Name']][existing_idx]['Total_Amount'] +=
+            row['Total_Amount']
+        else
+          opposing_by_measure_name[row['Bal_Name']] << row
+        end
       end
     end
 
@@ -76,5 +115,30 @@ class ReferendumSupportersCalculator
     end
 
     committee
+  end
+
+  # Form 497 Page 2 (Late Expenditures) includes the ballot measure name and
+  # committee ID, but does not indicate whether that expenditure was in support
+  # or opposition of the ballot measure.
+  #
+  # This is not perfect, but it should get us pretty close.
+  def guess_whether_committee_supports_measure(committee_id, bal_name)
+    @_guess_cache ||=
+      begin
+        guesses = ActiveRecord::Base.connection.execute(<<-SQL)
+          SELECT "Filer_ID", "Bal_Name", "Sup_Opp_Cd"
+          FROM "efile_COAK_2016_E-Expenditure"
+          WHERE "Bal_Name" IS NOT NULL
+          GROUP BY "Filer_ID", "Bal_Name", "Sup_Opp_Cd"
+        SQL
+
+        guesses.index_by do |row|
+          row.values_at('Filer_ID', 'Bal_Name').map(&:to_s)
+        end
+      end
+
+    if row = @_guess_cache[[committee_id.to_s, bal_name]]
+      row['Sup_Opp_Cd']
+    end
   end
 end

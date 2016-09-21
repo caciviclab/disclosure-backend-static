@@ -65,7 +65,21 @@ class CandidateExpendituresByType
         ORDER BY "Expn_Code", "Filer_ID", "Report_Num" DESC
       SQL
 
-      results.each do |result|
+      # 497 does not contain "Expn_Code" making this calculator pretty useless
+      # for those contributions.
+      # To make the numbers line up closer, we'll bucket those all under "Not
+      # Stated".
+      late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
+        SELECT DISTINCT ON ("Filer_ID")
+          "Filer_ID", '' AS "Expn_Code", SUM("Amount") AS "Total"
+        FROM "efile_COAK_2016_497"
+        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        AND "Form_Type" = 'F497P2'
+        GROUP BY "Filer_ID", "Report_Num"
+        ORDER BY "Filer_ID", "Report_Num" DESC
+      SQL
+
+      (results.to_a + late_expenditures.to_a).each do |result|
         hash[result['Filer_ID']] ||= {}
         hash[result['Filer_ID']][result['Expn_Code']] = result['Total']
       end

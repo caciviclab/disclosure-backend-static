@@ -5,7 +5,7 @@ class TotalExpendituresCalculator
   end
 
   def fetch
-    @results = ActiveRecord::Base.connection.execute <<-SQL
+    results = ActiveRecord::Base.connection.execute <<-SQL
       SELECT DISTINCT ON ("Filer_ID", "Amount_A")
         "Filer_ID", "Amount_A"
       FROM "efile_COAK_2016_Summary"
@@ -16,7 +16,17 @@ class TotalExpendituresCalculator
       ORDER BY "Filer_ID", "Amount_A", "Report_Num" DESC
     SQL
 
-    @results.each do |result|
+    late_expenditures = ActiveRecord::Base.connection.execute <<-SQL
+      SELECT DISTINCT ON ("Filer_ID")
+        "Filer_ID", SUM("Amount") AS "Amount_A"
+      FROM "efile_COAK_2016_497"
+      WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
+      AND "Form_Type" = 'F497P2'
+      GROUP BY "Filer_ID", "Report_Num"
+      ORDER BY "Filer_ID", "Report_Num" DESC
+    SQL
+
+    (results.to_a + late_expenditures.to_a).each do |result|
       candidate = @candidates_by_filer_id[result['Filer_ID'].to_i]
       candidate.save_calculation(:total_expenditures, result['Amount_A'])
     end
