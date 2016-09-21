@@ -55,8 +55,6 @@ class ReferendumSupportersCalculator
         end
       elsif sup_opp_cd == 'O'
         opposing_by_measure_name[row['Bal_Name']] ||= []
-        opposing_by_measure_name[row['Bal_Name']] << row
-
         existing_idx = opposing_by_measure_name[row['Bal_Name']].find_index do |existing_row|
           existing_row['Filer_ID'].to_s == row['Filer_ID'].to_s
         end
