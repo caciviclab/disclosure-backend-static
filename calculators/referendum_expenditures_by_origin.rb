@@ -6,14 +6,17 @@ class ReferendumExpendituresByOrigin
   end
 
   def fetch
-    totals = ActiveRecord::Base.connection.execute(<<-SQL)
+    # Get the total expenditures.  If the contributions are less than this
+    # then the remainder will be from "Unknown" locale.
+    expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Measure_Number", "Sup_Opp_Cd", sum("Amount") AS total
       FROM "efile_COAK_2016_E-Expenditure",
         oakland_name_to_number
       WHERE "Bal_Name" = "Measure_Name"
       GROUP BY "Measure_Number", "Sup_Opp_Cd";
     SQL
-    expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
+
+    contributions = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT d."Measure_Number", d."Sup_Opp_Cd", A.locale, A.total
       FROM
         (SELECT distinct "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
@@ -47,7 +50,7 @@ class ReferendumExpendituresByOrigin
     support_total = {}
     oppose_total = {}
 
-    totals.each do |row|
+    expenditures.each do |row|
       if row['Sup_Opp_Cd'] == 'S'
         support_total[row['Measure_Number']] = row['total']
       elsif row['Sup_Opp_Cd'] == 'O'
@@ -58,7 +61,7 @@ class ReferendumExpendituresByOrigin
     support = {}
     oppose = {}
 
-    expenditures.each do |row|
+    contributions.each do |row|
       if row['Sup_Opp_Cd'] == 'S'
         support[row['Measure_Number']] ||= {}
         support[row['Measure_Number']][row['locale']] = row['total']
@@ -69,26 +72,31 @@ class ReferendumExpendituresByOrigin
     end
 
     [
-      [support_total, support, :supporting_locales],
-      [oppose_total, oppose, :opposing_locales],
-    ].each do |totals, locales, calculation_name|
-      totals.keys.each do |measure|
+      [support_total, support, :supporting_locales, :supporting_total],
+      [oppose_total, oppose, :opposing_locales, :opposing_total],
+    ].each do |expenditures, locales, calculation_name, total_name|
+      totals = {}
+      expenditures.keys.each do |measure|
+        total = 0
         ballot_measure = ballot_measure_from_number(measure)
         result = locales[measure].keys.map do |locale|
           amount = locales[measure][locale]
-          totals[measure] -= amount
+          expenditures[measure] -= amount
+          total += amount
           {
             locale: locale,
             amount: amount,
           }
         end
-        if totals[measure] > 0
+        if expenditures[measure] > 0
+          total += expenditures[measure]
           result <<
           {
-            locale: 'unknown',
-            amount: totals[measure],
+            locale: 'Unknown',
+            amount: expenditures[measure],
           }
         end
+        ballot_measure.save_calculation(total_name, total)
         ballot_measure.save_calculation(calculation_name, result)
       end
     end

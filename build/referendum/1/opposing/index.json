@@ -13,15 +13,15 @@
       "amount": 593709.77
     }
   ],
-  "total_contributions": 456,
-  "opposing_locales": [
+  "total_contributions": 593709.77,
+  "contributions_by_region": [
     {
       "amount": 350000.0,
       "locale": "Within California"
     },
     {
       "amount": 243709.77000000002,
-      "locale": "unknown"
+      "locale": "Unknown"
     }
   ]
 }
