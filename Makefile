@@ -9,7 +9,7 @@ process: process.rb
 	rm -rf build && ruby process.rb
 
 import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv \
-	inputs/oakland_committees.csv inputs/oakland_referendums.csv
+	inputs/oakland_committees.csv inputs/oakland_referendums.csv inputs/oakland_name_to_number.csv
 	dropdb disclosure-backend || true
 	createdb disclosure-backend
 	csvsql --db postgresql:///disclosure-backend --insert inputs/efile_COAK_2016_*.csv
@@ -17,6 +17,7 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_referendums.csv
 	echo 'ALTER TABLE "oakland_referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
+	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_name_to_number.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert inputs/oakland_committees.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
@@ -40,6 +41,12 @@ inputs/oakland_candidates.csv:
 inputs/oakland_referendums.csv:
 	wget -q -O- \
 		'https://docs.google.com/spreadsheets/d/1272oaLyQhKwQa6RicA5tBso6wFruum-mgrNm3O3VogI/pub?gid=1693935349&single=true&output=csv' | \
+	sed -e '1s/ /_/g' | \
+	sed -e '1s/[^a-zA-Z,_]//g' > $@
+
+inputs/oakland_name_to_number.csv:
+	wget -q -O- \
+		'https://docs.google.com/spreadsheets/d/1272oaLyQhKwQa6RicA5tBso6wFruum-mgrNm3O3VogI/pub?gid=896561174&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 

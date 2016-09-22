@@ -13,10 +13,15 @@
       "amount": 593709.77
     }
   ],
-  "total_contributions": 456,
-  "contributions_by_region": {
-    "within_oakland": 123,
-    "within_california": 111,
-    "out_of_state": 222
-  }
+  "total_contributions": 593709.77,
+  "contributions_by_region": [
+    {
+      "amount": 350000.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 243709.77000000002,
+      "locale": "Unknown"
+    }
+  ]
 }
