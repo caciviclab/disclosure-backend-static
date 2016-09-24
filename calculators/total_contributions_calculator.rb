@@ -10,14 +10,13 @@ class TotalContributionsCalculator
     contributions_by_filer_id = {}
 
     summary_results = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT DISTINCT ON ("Filer_ID", "Amount_A")
-        "Filer_ID", "Amount_A"
+      SELECT "Filer_ID", "Amount_A"
       FROM "efile_COAK_2016_Summary"
       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
       AND "Line_Item" = '5'
-      GROUP BY "Filer_ID", "Amount_A", "Report_Num"
-      ORDER BY "Filer_ID", "Amount_A", "Report_Num" DESC
+      GROUP BY "Filer_ID", "Amount_A"
+      ORDER BY "Filer_ID", "Amount_A"
     SQL
 
     summary_results.each do |result|
@@ -27,13 +26,12 @@ class TotalContributionsCalculator
     end
 
     late_results = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT DISTINCT ON ("Filer_ID")
-        "Filer_ID", SUM("Amount") AS "Total"
+      SELECT "Filer_ID", SUM("Amount") AS "Total"
       FROM "efile_COAK_2016_497"
       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
       AND "Form_Type" = 'F497P1'
-      GROUP BY "Filer_ID", "Report_Num"
-      ORDER BY "Filer_ID", "Report_Num" DESC
+      GROUP BY "Filer_ID"
+      ORDER BY "Filer_ID"
     SQL
 
     late_results.index_by { |row| row['Filer_ID'].to_s }.each do |filer_id, result|

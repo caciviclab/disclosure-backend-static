@@ -57,12 +57,11 @@ class CandidateExpendituresByType
   def expenditures_by_candidate_by_type
     @_expenditures_by_candidate_by_type ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT DISTINCT ON ("Expn_Code", "Filer_ID")
-          "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
+        SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Expn_Code", "Filer_ID", "Report_Num"
-        ORDER BY "Expn_Code", "Filer_ID", "Report_Num" DESC
+        GROUP BY "Expn_Code", "Filer_ID"
+        ORDER BY "Expn_Code", "Filer_ID"
       SQL
 
       # 497 does not contain "Expn_Code" making this calculator pretty useless
@@ -70,13 +69,12 @@ class CandidateExpendituresByType
       # To make the numbers line up closer, we'll bucket those all under "Not
       # Stated".
       late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT DISTINCT ON ("Filer_ID")
-          "Filer_ID", '' AS "Expn_Code", SUM("Amount") AS "Total"
+        SELECT "Filer_ID", '' AS "Expn_Code", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_497"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         AND "Form_Type" = 'F497P2'
-        GROUP BY "Filer_ID", "Report_Num"
-        ORDER BY "Filer_ID", "Report_Num" DESC
+        GROUP BY "Filer_ID"
+        ORDER BY "Filer_ID"
       SQL
 
       (results.to_a + late_expenditures.to_a).each do |result|
