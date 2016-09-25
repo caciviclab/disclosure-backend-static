@@ -15,11 +15,13 @@
   "occupation": "Nonprofit Executive",
   "party_affiliation": "Democrat",
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
+    "contributions_received": 11400.0,
+    "total_contributions": 11400.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "contributions_by_type": {
+      "Committee": 1400.0,
+      "Individual": 10000.0
     },
     "expenditures_by_type": {
     }
@@ -27,11 +29,13 @@
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": null,
-  "total_contributions": null,
+  "contributions_received": 11400.0,
+  "total_contributions": 11400.0,
   "total_expenditures": null,
   "total_loans_received": null,
   "contributions_by_type": {
+    "Committee": 1400.0,
+    "Individual": 10000.0
   },
   "expenditures_by_type": {
   }

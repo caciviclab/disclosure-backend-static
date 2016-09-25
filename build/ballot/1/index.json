@@ -315,7 +315,7 @@
           "name": "Nancy Sidebotham",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
           "website_url": "nancysidebotham.com (under construction)",
-          "twitter_url": null,
+          "twitter_url": "@nancy6368",
           "first_name": "Nancy",
           "last_name": "Sidebotham",
           "ballot_item": 3,
@@ -486,12 +486,12 @@
           "occupation": null,
           "party_affiliation": null,
           "supporting_money": {
-            "contributions_received": 5822.0,
-            "total_contributions": 5822.0,
+            "contributions_received": 6822.0,
+            "total_contributions": 6822.0,
             "total_expenditures": 12413.89,
             "total_loans_received": 0.0,
             "contributions_by_type": {
-              "Committee": 1200.0,
+              "Committee": 2200.0,
               "Individual": 2950.0,
               "Unitemized": 1672.0
             },
@@ -501,12 +501,12 @@
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": 5822.0,
-          "total_contributions": 5822.0,
+          "contributions_received": 6822.0,
+          "total_contributions": 6822.0,
           "total_expenditures": 12413.89,
           "total_loans_received": 0.0,
           "contributions_by_type": {
-            "Committee": 1200.0,
+            "Committee": 2200.0,
             "Individual": 2950.0,
             "Unitemized": 1672.0
           },
@@ -836,7 +836,7 @@
           "last_name": "Imara",
           "ballot_item": 7,
           "office_election": 7,
-          "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora. Source: http://www.cbecal.org/about/staff/",
+          "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora.  \n\nSource: http://www.cbecal.org/about/staff/",
           "committee_name": "Nehanda Imara for City Council 2016",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
@@ -1196,11 +1196,13 @@
           "occupation": "Nonprofit Executive",
           "party_affiliation": "Democrat",
           "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
+            "contributions_received": 11400.0,
+            "total_contributions": 11400.0,
             "total_expenditures": null,
             "total_loans_received": null,
             "contributions_by_type": {
+              "Committee": 1400.0,
+              "Individual": 10000.0
             },
             "expenditures_by_type": {
             }
@@ -1208,11 +1210,13 @@
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": null,
-          "total_contributions": null,
+          "contributions_received": 11400.0,
+          "total_contributions": 11400.0,
           "total_expenditures": null,
           "total_loans_received": null,
           "contributions_by_type": {
+            "Committee": 1400.0,
+            "Individual": 10000.0
           },
           "expenditures_by_type": {
           }
