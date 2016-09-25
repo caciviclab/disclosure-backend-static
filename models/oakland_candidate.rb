@@ -38,6 +38,7 @@ class OaklandCandidate < ActiveRecord::Base
       party_affiliation: self['Party_Affiliation'],
 
       # contribution data
+      filer_id: self['FPPC'],
       supporting_money: {
         contributions_received: calculation(:total_contributions).try(:to_f),
         total_contributions: calculation(:total_contributions).try(:to_f),
