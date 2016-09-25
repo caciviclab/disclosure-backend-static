@@ -1,6 +1,3 @@
-# TODO:
-# /ballot/:id/disclosure_summary
-
 require_relative './environment.rb'
 
 require 'fileutils'
