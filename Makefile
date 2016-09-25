@@ -22,6 +22,22 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
+	./latest_only.sh efile_COAK_2016_496
+	./latest_only.sh efile_COAK_2016_497
+	./latest_only.sh efile_COAK_2016_A-Contributions
+	./latest_only.sh efile_COAK_2016_B1-Loans
+	./latest_only.sh efile_COAK_2016_B2-Loans
+	./latest_only.sh efile_COAK_2016_C-Contributions
+	./latest_only.sh efile_COAK_2016_D-Expenditure
+	./latest_only.sh efile_COAK_2016_E-Expenditure
+	./latest_only.sh efile_COAK_2016_F-Expenses
+	./latest_only.sh efile_COAK_2016_F461P5-Expenditure
+	./latest_only.sh efile_COAK_2016_F465P3-Expenditure
+	./latest_only.sh efile_COAK_2016_F496P3-Contributions
+	./latest_only.sh efile_COAK_2016_G-Expenditure
+	./latest_only.sh efile_COAK_2016_H-Loans
+	./latest_only.sh efile_COAK_2016_I-Contributions
+	./latest_only.sh efile_COAK_2016_Summary
 
 inputs/efile_COAK_%_A-Contributions.csv: downloads/efile_COAK_%.xlsx
 	ssconvert -S $< inputs/$(subst .xlsx,_%s.csv,$(shell basename $<))

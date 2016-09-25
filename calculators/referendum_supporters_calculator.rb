@@ -7,23 +7,21 @@ class ReferendumSupportersCalculator
 
   def fetch
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT DISTINCT ON ("Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd")
-        "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
         SUM("Amount") AS "Total_Amount"
       FROM "efile_COAK_2016_E-Expenditure"
       WHERE "Bal_Name" IS NOT NULL
-      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Report_Num"
-      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Report_Num" DESC
+      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
+      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
     SQL
 
     late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT DISTINCT ON ("Filer_ID", "Filer_NamL", "Bal_Name")
-        "Filer_ID", "Filer_NamL", "Bal_Name", SUM("Amount") AS "Total_Amount"
+      SELECT "Filer_ID", "Filer_NamL", "Bal_Name", SUM("Amount") AS "Total_Amount"
       FROM "efile_COAK_2016_497"
       WHERE "Bal_Name" IS NOT NULL
       AND "Form_Type" = 'F497P2'
-      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Report_Num"
-      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Report_Num" DESC
+      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name"
+      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name"
     SQL
 
     supporting_by_measure_name = {}

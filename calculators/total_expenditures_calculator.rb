@@ -6,24 +6,22 @@ class TotalExpendituresCalculator
 
   def fetch
     results = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT DISTINCT ON ("Filer_ID", "Amount_A")
-        "Filer_ID", "Amount_A"
+      SELECT "Filer_ID", "Amount_A"
       FROM "efile_COAK_2016_Summary"
       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
       AND "Line_Item" = '11'
-      GROUP BY "Filer_ID", "Amount_A", "Report_Num"
-      ORDER BY "Filer_ID", "Amount_A", "Report_Num" DESC
+      GROUP BY "Filer_ID", "Amount_A"
+      ORDER BY "Filer_ID", "Amount_A"
     SQL
 
     late_expenditures = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT DISTINCT ON ("Filer_ID")
-        "Filer_ID", SUM("Amount") AS "Amount_A"
+      SELECT "Filer_ID", SUM("Amount") AS "Amount_A"
       FROM "efile_COAK_2016_497"
       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F497P2'
-      GROUP BY "Filer_ID", "Report_Num"
-      ORDER BY "Filer_ID", "Report_Num" DESC
+      GROUP BY "Filer_ID"
+      ORDER BY "Filer_ID"
     SQL
 
     (results.to_a + late_expenditures.to_a).each do |result|
