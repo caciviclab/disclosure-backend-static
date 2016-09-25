@@ -94,7 +94,7 @@ OaklandCandidate.includes(:office_election, :calculations).find_each do |candida
 end
 
 OaklandCommittee.includes(:calculations).find_each do |committee|
-  build_file("/committee/#{committee.id}") do |f|
+  build_file("/committee/#{committee['Filer_ID']}") do |f|
     f.puts committee.to_json
   end
 end
