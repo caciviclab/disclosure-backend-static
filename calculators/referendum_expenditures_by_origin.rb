@@ -44,7 +44,7 @@ class ReferendumExpendituresByOrigin
               WHERE "Bal_Name" IS NOT NULL)
         GROUP BY "Filer_ID", locale) A
       WHERE d."Filer_ID" = A."Filer_ID"
-      ORDER BY d."Measure_Number", d."Sup_Opp_Cd";
+      ORDER BY d."Measure_Number", d."Sup_Opp_Cd", A.locale;
     SQL
 
     support_total = {}
@@ -75,7 +75,6 @@ class ReferendumExpendituresByOrigin
       [support_total, support, :supporting_locales, :supporting_total],
       [oppose_total, oppose, :opposing_locales, :opposing_total],
     ].each do |expenditures, locales, calculation_name, total_name|
-      totals = {}
       expenditures.keys.each do |measure|
         total = 0
         ballot_measure = ballot_measure_from_number(measure)
@@ -90,8 +89,7 @@ class ReferendumExpendituresByOrigin
         end
         if expenditures[measure] > 0
           total += expenditures[measure]
-          result <<
-          {
+          result << {
             locale: 'Unknown',
             amount: expenditures[measure],
           }
