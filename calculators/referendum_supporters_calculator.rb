@@ -76,7 +76,7 @@ class ReferendumSupportersCalculator
         ballot_measure = ballot_measure_from_name(bal_name)
         ballot_measure.save_calculation(calculation_name, rows.map do |row|
           committee = committee_from_expenditure(row)
-          id = committee && committee.id || nil
+          id = committee && committee.Filer_ID || nil
           name = committee && committee.Filer_NamL || row['Filer_NamL']
 
           # committees in support/opposition:

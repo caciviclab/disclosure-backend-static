@@ -398,19 +398,19 @@
           "id": 6,
           "name": "Peggy Moore",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Margaret-Moore.png",
-          "website_url": null,
+          "website_url": "http://www.mooreforoakland.com/",
           "twitter_url": null,
           "first_name": "Peggy",
           "last_name": "Moore",
           "ballot_item": 3,
           "office_election": 3,
           "bio": "Peggy Moore has served as a Senior Advisor to Oakland Mayor Libby Schaaf and as California Political Director for two winning presidential campaigns. She grew up in Oklahoma City and moved to Oakland in 1990. She has held leadership roles in LGBTQ and African American organizations. \n\nSource: Candidate Statement",
-          "committee_name": null,
+          "committee_name": "Moore for Oakland City Council At-Large 2016",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
           "occupation": null,
           "party_affiliation": "Democrat",
-          "filer_id": null,
+          "filer_id": 1388168,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -535,7 +535,7 @@
           "id": 16,
           "name": "Donald Macleay",
           "photo_url": null,
-          "website_url": null,
+          "website_url": "http://www.don4ousd.org/",
           "twitter_url": "@donmacleay",
           "first_name": "Donald",
           "last_name": "Macleay",
@@ -547,7 +547,7 @@
           "is_incumbent": false,
           "occupation": null,
           "party_affiliation": "Green Party",
-          "filer_id": null,
+          "filer_id": 1384267,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -691,7 +691,7 @@
           "last_name": "Lang",
           "ballot_item": 6,
           "office_election": 6,
-          "bio": "Benjamin Lang has served as a both public school teacher and administrator for over two decades. Lang has been a resident of Oakland's District 3 for 42 years. He holds a Bachelor’s of Arts in Political Science, a Master’s of Arts in Political Theory, and a Master’s of Sciences in Educational Technologies. \n\nSource: http://www.benlang.com/index.html",
+          "bio": "Benjamin Lang has served as a both public school teacher and administrator for over two decades. Lang has been a resident of Oakland's District 3 for 42 years. He holds a Bachelor’s of Arts in Political Science, a Master’s of Arts in Political Theory, and a Master’s of Sciences in Educational Technologies.Lang has elected to not accept any contributions or make any personal expenditures for his campaign.\n\nSource: http://www.benlang.com/index.html",
           "committee_name": null,
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
@@ -809,7 +809,7 @@
           "id": 13,
           "name": "Marcie Hodge",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
-          "website_url": null,
+          "website_url": "http://hodge4oaklandcitycouncil.com/",
           "twitter_url": null,
           "first_name": "Marcie",
           "last_name": "Hodge",
@@ -821,7 +821,7 @@
           "is_incumbent": false,
           "occupation": "Non-profit Executive Director",
           "party_affiliation": "Democrat",
-          "filer_id": null,
+          "filer_id": 1388731,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,
@@ -860,13 +860,14 @@
           "is_incumbent": false,
           "occupation": "East Oakland Community Organizer",
           "party_affiliation": null,
-          "filer_id": null,
+          "filer_id": 1386932,
           "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
+            "contributions_received": 1500.0,
+            "total_contributions": 1500.0,
             "total_expenditures": null,
             "total_loans_received": null,
             "contributions_by_type": {
+              "Committee": 1500.0
             },
             "expenditures_by_type": {
             }
@@ -874,11 +875,12 @@
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": null,
-          "total_contributions": null,
+          "contributions_received": 1500.0,
+          "total_contributions": 1500.0,
           "total_expenditures": null,
           "total_loans_received": null,
           "contributions_by_type": {
+            "Committee": 1500.0
           },
           "expenditures_by_type": {
           }
@@ -899,7 +901,7 @@
           "is_incumbent": true,
           "occupation": "Councilmember for District 7",
           "party_affiliation": null,
-          "filer_id": null,
+          "filer_id": 1387905,
           "supporting_money": {
             "contributions_received": null,
             "total_contributions": null,

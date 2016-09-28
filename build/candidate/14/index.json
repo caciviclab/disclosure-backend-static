@@ -14,13 +14,14 @@
   "is_incumbent": false,
   "occupation": "East Oakland Community Organizer",
   "party_affiliation": null,
-  "filer_id": null,
+  "filer_id": 1386932,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
+    "contributions_received": 1500.0,
+    "total_contributions": 1500.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "contributions_by_type": {
+      "Committee": 1500.0
     },
     "expenditures_by_type": {
     }
@@ -28,11 +29,12 @@
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": null,
-  "total_contributions": null,
+  "contributions_received": 1500.0,
+  "total_contributions": 1500.0,
   "total_expenditures": null,
   "total_loans_received": null,
   "contributions_by_type": {
+    "Committee": 1500.0
   },
   "expenditures_by_type": {
   }
