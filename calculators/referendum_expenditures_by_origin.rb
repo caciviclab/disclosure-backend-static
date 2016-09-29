@@ -13,6 +13,7 @@ class ReferendumExpendituresByOrigin
       FROM "efile_COAK_2016_E-Expenditure",
         oakland_name_to_number
       WHERE "Bal_Name" = "Measure_Name"
+      AND "Cmte_ID" IS NULL
       GROUP BY "Measure_Number", "Sup_Opp_Cd";
     SQL
 
