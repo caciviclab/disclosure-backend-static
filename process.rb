@@ -65,7 +65,7 @@ end
         OfficeElection.all.map(&:as_json) +
         OaklandReferendum.all.map(&:as_json)
       ),
-      date: '2016-11-06',
+      date: '2016-11-08',
       locality_id: OAKLAND_LOCALITY_ID,
     }.to_json)
   end
