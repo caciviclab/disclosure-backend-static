@@ -18,34 +18,39 @@ class ReferendumExpendituresByOrigin
     SQL
 
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT d."Measure_Number", d."Sup_Opp_Cd", A.locale, A.total
-      FROM
-        (SELECT distinct "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
-          FROM "efile_COAK_2016_E-Expenditure",
-          oakland_name_to_number
-          WHERE "Bal_Name" IS NOT NULL
-          AND "Bal_Name" = "Measure_Name") d,
-        (SELECT "Filer_ID",
+      SELECT
+        expenditures."Measure_Number",
+        expenditures."Sup_Opp_Cd",
+        contributions_by_locale.locale,
+        contributions_by_locale.total
+      FROM (
+        SELECT DISTINCT "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
+        FROM "efile_COAK_2016_E-Expenditure"
+        INNER JOIN oakland_name_to_number ON "Bal_Name" = "Measure_Name"
+        WHERE "Bal_Name" IS NOT NULL
+      ) expenditures,
+      (
+        SELECT "Filer_ID",
         CASE
-          WHEN lower("Tran_City") = 'oakland' THEN 'Within Oakland'
-          WHEN upper("Tran_State") = 'CA' THEN 'Within California'
+          WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'
+          WHEN UPPER("Tran_State") = 'CA' THEN 'Within California'
           ELSE 'Out of State'
-        END as locale,
-        sum("Tran_Amt1") as total
-        FROM
-          (SELECT "Filer_ID", "Tran_City", "Tran_State", "Tran_Amt1"
+        END AS locale,
+        SUM("Tran_Amt1") AS total
+        FROM (
+          SELECT "Filer_ID", "Tran_City", "Tran_State", "Tran_Amt1"
           FROM "efile_COAK_2016_A-Contributions"
           UNION
-          SELECT CAST("Filer_ID" as VARCHAR(7)),
-          "Enty_City" as "Tran_City", "Enty_ST" as "Tran_State",
-          "Amount" as "Tran_Amt1"
-          FROM "efile_COAK_2016_497") x
-        WHERE "Filer_ID" IN (SELECT "Filer_ID"
-              FROM "efile_COAK_2016_E-Expenditure"
-              WHERE "Bal_Name" IS NOT NULL)
-        GROUP BY "Filer_ID", locale) A
-      WHERE d."Filer_ID" = A."Filer_ID"
-      ORDER BY d."Measure_Number", d."Sup_Opp_Cd", A.locale;
+          SELECT "Filer_ID"::varchar,
+            "Enty_City" as "Tran_City",
+            "Enty_ST" as "Tran_State",
+            "Amount" as "Tran_Amt1"
+          FROM "efile_COAK_2016_497"
+        ) contributions
+        GROUP BY "Filer_ID", locale
+      ) contributions_by_locale
+      WHERE expenditures."Filer_ID" = contributions_by_locale."Filer_ID"
+      ORDER BY expenditures."Measure_Number", expenditures."Sup_Opp_Cd", contributions_by_locale.locale;
     SQL
 
     support_total = {}
