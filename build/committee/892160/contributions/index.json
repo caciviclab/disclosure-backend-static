@@ -1,20 +1,6 @@
 [
   {
     "Filer_ID": "892160",
-    "Tran_Amt1": 10.0,
-    "Tran_Date": "2016-05-31",
-    "Tran_NamF": "Jarod",
-    "Tran_NamL": "Torres"
-  },
-  {
-    "Filer_ID": "892160",
-    "Tran_Amt1": 10.0,
-    "Tran_Date": "2016-06-07",
-    "Tran_NamF": "Jarod",
-    "Tran_NamL": "Torres"
-  },
-  {
-    "Filer_ID": "892160",
     "Tran_Amt1": 2008.9,
     "Tran_Date": "2016-06-13",
     "Tran_NamF": null,
@@ -37,6 +23,20 @@
   {
     "Filer_ID": "892160",
     "Tran_Amt1": 10.0,
+    "Tran_Date": "2016-05-31",
+    "Tran_NamF": "Nicolas",
+    "Tran_NamL": "Romero"
+  },
+  {
+    "Filer_ID": "892160",
+    "Tran_Amt1": 10.0,
+    "Tran_Date": "2016-06-07",
+    "Tran_NamF": "Nicolas",
+    "Tran_NamL": "Romero"
+  },
+  {
+    "Filer_ID": "892160",
+    "Tran_Amt1": 10.0,
     "Tran_Date": "2016-06-07",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Sawyer"
@@ -51,15 +51,15 @@
   {
     "Filer_ID": "892160",
     "Tran_Amt1": 10.0,
-    "Tran_Date": "2016-06-07",
-    "Tran_NamF": "Nicolas",
-    "Tran_NamL": "Romero"
+    "Tran_Date": "2016-05-31",
+    "Tran_NamF": "Jarod",
+    "Tran_NamL": "Torres"
   },
   {
     "Filer_ID": "892160",
     "Tran_Amt1": 10.0,
-    "Tran_Date": "2016-05-31",
-    "Tran_NamF": "Nicolas",
-    "Tran_NamL": "Romero"
+    "Tran_Date": "2016-06-07",
+    "Tran_NamF": "Jarod",
+    "Tran_NamL": "Torres"
   }
 ]
