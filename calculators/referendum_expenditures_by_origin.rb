@@ -46,6 +46,7 @@ class ReferendumExpendituresByOrigin
             "Enty_ST" as "Tran_State",
             "Amount" as "Tran_Amt1"
           FROM "efile_COAK_2016_497"
+          WHERE "Form_Type" = 'F497P1'
         ) contributions
         GROUP BY "Filer_ID", locale
       ) contributions_by_locale
