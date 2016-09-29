@@ -6,11 +6,19 @@ class ReferendumSupportersCalculator
   end
 
   def fetch
+    # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
         SUM("Amount") AS "Total_Amount"
-      FROM "efile_COAK_2016_E-Expenditure"
-      WHERE "Bal_Name" IS NOT NULL
+      FROM (
+        SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
+        FROM "efile_COAK_2016_E-Expenditure"
+        WHERE "Bal_Name" IS NOT NULL
+        UNION
+        SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
+        FROM "efile_COAK_2016_496"
+        WHERE "Bal_Name" IS NOT NULL
+      ) as U
       GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
 
       UNION

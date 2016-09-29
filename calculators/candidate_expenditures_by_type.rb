@@ -58,7 +58,22 @@ class CandidateExpendituresByType
     @_expenditures_by_candidate_by_type ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
-        FROM "efile_COAK_2016_E-Expenditure"
+        FROM
+          (
+          SELECT "Filer_ID", "Expn_Code", "Amount"
+          FROM "efile_COAK_2016_E-Expenditure"
+          UNION ALL
+          SELECT "FPPC"::varchar AS "Filer_ID", '' as "Expn_Code", "Amount"
+          FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
+          WHERE "Sup_Opp_Cd" = 'S'
+          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+          AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
+              WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
+              AND "outer"."Exp_Date" = "inner"."Expn_Date"
+              AND "outer"."Amount" = "inner"."Amount"
+              AND ("outer"."Bal_Name" IS NULL OR "outer"."Bal_Name" = "inner"."Bal_Name")
+              AND ("outer"."Cand_NamL" IS NULL OR "outer"."Cand_NamL" = "inner"."Cand_NamL"))
+          ) U
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Expn_Code", "Filer_ID"
         ORDER BY "Expn_Code", "Filer_ID"
