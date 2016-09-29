@@ -156,27 +156,43 @@
       "party_affiliation": "Democrat",
       "filer_id": 1386749,
       "supporting_money": {
-        "contributions_received": 1500.0,
-        "total_contributions": 1500.0,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 17840.48,
+        "total_contributions": 17840.48,
+        "total_expenditures": 5863.54,
+        "total_loans_received": 1600.0,
         "contributions_by_type": {
-          "Other (includes Businesses)": 1500.0
+          "Individual": 11763.31,
+          "Unitemized": 1453.0,
+          "Other (includes Businesses)": 3000.0
         },
         "expenditures_by_type": {
+          "fundraising events": 126.9,
+          "voter registration": 1600.0,
+          "campaign paraphernalia/misc.": 856.05,
+          "candidate filing/ballot fees": 300.0,
+          "campaign literature and mailings": 1880.74,
+          "information technology costs (internet, e-mail)": 550.17
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": 1500.0,
-      "total_contributions": 1500.0,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 17840.48,
+      "total_contributions": 17840.48,
+      "total_expenditures": 5863.54,
+      "total_loans_received": 1600.0,
       "contributions_by_type": {
-        "Other (includes Businesses)": 1500.0
+        "Individual": 11763.31,
+        "Unitemized": 1453.0,
+        "Other (includes Businesses)": 3000.0
       },
       "expenditures_by_type": {
+        "fundraising events": 126.9,
+        "voter registration": 1600.0,
+        "campaign paraphernalia/misc.": 856.05,
+        "candidate filing/ballot fees": 300.0,
+        "campaign literature and mailings": 1880.74,
+        "information technology costs (internet, e-mail)": 550.17
       }
     }
   ],

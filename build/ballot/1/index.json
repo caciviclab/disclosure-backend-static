@@ -320,7 +320,7 @@
           "id": 4,
           "name": "Nancy Sidebotham",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
-          "website_url": "nancysidebotham.com (under construction)",
+          "website_url": "http://nancysidebotham.com/",
           "twitter_url": "@nancy6368",
           "first_name": "Nancy",
           "last_name": "Sidebotham",
@@ -482,7 +482,7 @@
         {
           "id": 27,
           "name": "Chris Jackson",
-          "photo_url": null,
+          "photo_url": "Photo here: https://drive.google.com/open?id=0B_mJPkm423eVQXYwYi1mM08tRWs",
           "website_url": "http://www.chrisjacksonforoakland.org/",
           "twitter_url": "@cj4oakland",
           "first_name": "Chris",
@@ -493,7 +493,7 @@
           "committee_name": "Chris Jackson for School Board 2016",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Social Worker",
           "party_affiliation": null,
           "filer_id": 1384926,
           "supporting_money": {
@@ -534,7 +534,7 @@
         {
           "id": 16,
           "name": "Donald Macleay",
-          "photo_url": null,
+          "photo_url": "Photo here: https://drive.google.com/open?id=0B_mJPkm423eVcF9LODNVdV9hRlU",
           "website_url": "http://www.don4ousd.org/",
           "twitter_url": "@donmacleay",
           "first_name": "Donald",
@@ -545,7 +545,7 @@
           "committee_name": "Macleay for Oakland School Board, District 1, 2016",
           "is_accepted_expenditure_ceiling": null,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Small business owner",
           "party_affiliation": "Green Party",
           "filer_id": 1384267,
           "supporting_money": {
@@ -648,15 +648,16 @@
           "committee_name": "Re-Elect Jumoke Hinton Hodge for Oakland School Board 2016",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": true,
-          "occupation": "Incumbent",
+          "occupation": "OUSD Councilmember",
           "party_affiliation": null,
           "filer_id": 1386416,
           "supporting_money": {
-            "contributions_received": 3488.0,
-            "total_contributions": 3488.0,
+            "contributions_received": 4988.0,
+            "total_contributions": 4988.0,
             "total_expenditures": 730.97,
             "total_loans_received": 500.0,
             "contributions_by_type": {
+              "Committee": 1500.0,
               "Individual": 2988.0,
               "Unitemized": 0.0
             },
@@ -668,11 +669,12 @@
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": 3488.0,
-          "total_contributions": 3488.0,
+          "contributions_received": 4988.0,
+          "total_contributions": 4988.0,
           "total_expenditures": 730.97,
           "total_loans_received": 500.0,
           "contributions_by_type": {
+            "Committee": 1500.0,
             "Individual": 2988.0,
             "Unitemized": 0.0
           },
@@ -723,7 +725,7 @@
         {
           "id": 20,
           "name": "Kharyshi Wiginton",
-          "photo_url": null,
+          "photo_url": "Photo here: https://drive.google.com/open?id=0B03Xojb0TVCobHFzd1dBRlVwOU0",
           "website_url": null,
           "twitter_url": null,
           "first_name": "Kharyshi",
@@ -734,7 +736,7 @@
           "committee_name": "Kharyshi Wiginton for School Board 2016",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Youth Leadership Coordinator",
           "party_affiliation": null,
           "filer_id": null,
           "supporting_money": {
@@ -762,18 +764,18 @@
         {
           "id": 21,
           "name": "Lucky Narain",
-          "photo_url": null,
+          "photo_url": "Photo here: https://drive.google.com/open?id=0B03Xojb0TVCoYkNMOVZsUFNqYW8",
           "website_url": null,
           "twitter_url": null,
           "first_name": "Lucky",
           "last_name": "Narain",
           "ballot_item": 6,
           "office_election": 6,
-          "bio": "Lucky Narain is currently an Associate Regional Public Affairs Director for the USDA. He is a Oakland resident and father. For almost three years, Narain taught middle school in the Dominican Republic with the Peace Corps as a volunteer in 2001. He holds a Master’s Degree in Public Policy from Carnegie Mellon University and a law degree from Fordham Law School. Narain has served as a lawyer in the U.S. Army Reserve since 2010. \n\nSource: https://www.linkedin.com/in/lucky-narain-1a054b16 and Candidate Statement",
+          "bio": "Lucky Narain is currently an Associate Regional Public Affairs Director for the United States Department of Agriculture (USDA). He is a Oakland resident and father. For almost three years, Narain taught middle school in the Dominican Republic with the Peace Corps as a volunteer in 2001. He holds a Master’s Degree in Public Policy from Carnegie Mellon University and a law degree from Fordham Law School. Narain has served as a lawyer in the U.S. Army Reserve since 2010. \n\nSource: https://www.linkedin.com/in/lucky-narain-1a054b16 and Candidate Statement",
           "committee_name": null,
           "is_accepted_expenditure_ceiling": null,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Associate Regional Public Affairs Director",
           "party_affiliation": null,
           "filer_id": null,
           "supporting_money": {
@@ -1084,27 +1086,43 @@
           "party_affiliation": "Democrat",
           "filer_id": 1386749,
           "supporting_money": {
-            "contributions_received": 1500.0,
-            "total_contributions": 1500.0,
-            "total_expenditures": null,
-            "total_loans_received": null,
+            "contributions_received": 17840.48,
+            "total_contributions": 17840.48,
+            "total_expenditures": 5863.54,
+            "total_loans_received": 1600.0,
             "contributions_by_type": {
-              "Other (includes Businesses)": 1500.0
+              "Individual": 11763.31,
+              "Unitemized": 1453.0,
+              "Other (includes Businesses)": 3000.0
             },
             "expenditures_by_type": {
+              "fundraising events": 126.9,
+              "voter registration": 1600.0,
+              "campaign paraphernalia/misc.": 856.05,
+              "candidate filing/ballot fees": 300.0,
+              "campaign literature and mailings": 1880.74,
+              "information technology costs (internet, e-mail)": 550.17
             }
           },
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": 1500.0,
-          "total_contributions": 1500.0,
-          "total_expenditures": null,
-          "total_loans_received": null,
+          "contributions_received": 17840.48,
+          "total_contributions": 17840.48,
+          "total_expenditures": 5863.54,
+          "total_loans_received": 1600.0,
           "contributions_by_type": {
-            "Other (includes Businesses)": 1500.0
+            "Individual": 11763.31,
+            "Unitemized": 1453.0,
+            "Other (includes Businesses)": 3000.0
           },
           "expenditures_by_type": {
+            "fundraising events": 126.9,
+            "voter registration": 1600.0,
+            "campaign paraphernalia/misc.": 856.05,
+            "candidate filing/ballot fees": 300.0,
+            "campaign literature and mailings": 1880.74,
+            "information technology costs (internet, e-mail)": 550.17
           }
         }
       ]
@@ -1211,7 +1229,7 @@
           "id": 12,
           "name": "Viola Gonzales",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Viola-Gonzales.png",
-          "website_url": "www.voteviola.com",
+          "website_url": "http://www.voteviola.com/",
           "twitter_url": "@voteviola",
           "first_name": "Viola",
           "last_name": "Gonzales",
@@ -1293,6 +1311,6 @@
       "number": "LL"
     }
   ],
-  "date": "2016-11-06",
+  "date": "2016-11-08",
   "locality_id": 2
 }
