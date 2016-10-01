@@ -1,9 +1,21 @@
 class OaklandReferendum < ActiveRecord::Base
   NETFILE_NAMES_TO_MEASURE_NUMBER = {
+    'City of Oakland Soda Tax' => 'HH',
     'CITY OF OAKLAND SODA TAX' => 'HH',
+    'MEASURE HH' => 'HH',
     'SUGAR-SWEETENED DRINKS DISTRIBUTOR TAX' => 'HH',
+
     'Proposed amendments to residental rent adjustments and evictions ordinance' => 'JJ',
+
     'City of Oakland Renters Upgrade Act' => 'KK',
+    "Oakland Infrastructure and Housing Bond Measure" => 'KK',
+    'Investing in Oakland?s Infrastructure and Affordable Housing' => 'KK',
+
+    # Non-Oakland measures: (Skip these because we don't want them to collide.)
+    # TODO: scope these ballot measures by jurisdiction
+    "Renewal of the Utility User's Tax, Measure D" => 'SKIP',
+    "Alameda County Affordable Housing Bond" => 'SKIP',
+    "BART Safety, Reliability and Traffic Relief" => 'SKIP',
   }
 
   def self.name_to_measure_number(name)

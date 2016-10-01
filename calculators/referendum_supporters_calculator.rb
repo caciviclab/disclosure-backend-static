@@ -7,62 +7,45 @@ class ReferendumSupportersCalculator
 
   def fetch
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
         SUM("Amount") AS "Total_Amount"
       FROM "efile_COAK_2016_E-Expenditure"
       WHERE "Bal_Name" IS NOT NULL
       GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
-      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
-    SQL
 
-    late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID", "Filer_NamL", "Bal_Name", SUM("Amount") AS "Total_Amount"
+      UNION
+      SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
+        SUM("Amount") AS "Total_Amount"
       FROM "efile_COAK_2016_497"
       WHERE "Bal_Name" IS NOT NULL
       AND "Form_Type" = 'F497P2'
       GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name"
-      ORDER BY "Filer_ID", "Filer_NamL", "Bal_Name"
+
+      ORDER BY "Filer_ID", "Filer_NamL"
     SQL
 
     supporting_by_measure_name = {}
     opposing_by_measure_name = {}
 
     expenditures.each do |row|
-      if row['Sup_Opp_Cd'] == 'S'
-        supporting_by_measure_name[row['Bal_Name']] ||= []
-        supporting_by_measure_name[row['Bal_Name']] << row
-      elsif row['Sup_Opp_Cd'] == 'O'
-        opposing_by_measure_name[row['Bal_Name']] ||= []
-        opposing_by_measure_name[row['Bal_Name']] << row
+      bal_num = OaklandReferendum.name_to_measure_number(row['Bal_Name'])
+
+      unless bal_num
+        $stderr.puts "COULD NOT FIND BALLOT MEASURE: #{row['Bal_Name'].inspect}"
+        $stderr.puts "  Add it to the lookup keys in models/oakland_referendum.rb"
+        $stderr.puts "  Debug: #{row.inspect}"
+        next
       end
-    end
 
-    late_expenditures.each do |row|
-      sup_opp_cd = guess_whether_committee_supports_measure(row['Filer_ID'], row['Bal_Name'])
-      if sup_opp_cd == 'S'
-        supporting_by_measure_name[row['Bal_Name']] ||= []
-        existing_idx = supporting_by_measure_name[row['Bal_Name']].find_index do |existing_row|
-          existing_row['Filer_ID'].to_s == row['Filer_ID'].to_s
-        end
+      # TODO: track number of skips (#35)
+      next if bal_num == 'SKIP'
 
-        if existing_idx
-          supporting_by_measure_name[row['Bal_Name']][existing_idx]['Total_Amount'] +=
-            row['Total_Amount']
-        else
-          supporting_by_measure_name[row['Bal_Name']] << row
-        end
-      elsif sup_opp_cd == 'O'
-        opposing_by_measure_name[row['Bal_Name']] ||= []
-        existing_idx = opposing_by_measure_name[row['Bal_Name']].find_index do |existing_row|
-          existing_row['Filer_ID'].to_s == row['Filer_ID'].to_s
-        end
-
-        if existing_idx
-          opposing_by_measure_name[row['Bal_Name']][existing_idx]['Total_Amount'] +=
-            row['Total_Amount']
-        else
-          opposing_by_measure_name[row['Bal_Name']] << row
-        end
+      if row['Sup_Opp_Cd'] == 'S'
+        supporting_by_measure_name[bal_num] ||= []
+        supporting_by_measure_name[bal_num] << row
+      elsif row['Sup_Opp_Cd'] == 'O'
+        opposing_by_measure_name[bal_num] ||= []
+        opposing_by_measure_name[bal_num] << row
       end
     end
 
@@ -70,15 +53,11 @@ class ReferendumSupportersCalculator
       # { bal_name => rows }     , calculation name
       [supporting_by_measure_name, :supporting_organizations],
       [opposing_by_measure_name, :opposing_organizations],
-    ].each do |rows_by_bal_name, calculation_name|
+    ].each do |rows_by_bal_num, calculation_name|
       # the processing is the same for both supporting and opposing expenses
-      rows_by_bal_name.each do |bal_name, rows|
-        ballot_measure = ballot_measure_from_name(bal_name)
-        unless ballot_measure
-          $stderr.puts "COULD NOT FIND BALLOT MEASURE #{bal_name.inspect}"
-          $stderr.puts "  add it to the referendums spreadsheet"
-          next
-        end
+      rows_by_bal_num.each do |bal_num, rows|
+        ballot_measure = ballot_measure_from_num(bal_num)
+
         ballot_measure.save_calculation(calculation_name, rows.map do |row|
           committee = committee_from_expenditure(row)
           id = committee && committee.Filer_ID || nil
@@ -98,11 +77,8 @@ class ReferendumSupportersCalculator
 
   private
 
-  def ballot_measure_from_name(bal_name)
-    @ballot_measures.detect do |measure|
-      measure['Measure_number'] ==
-        OaklandReferendum.name_to_measure_number(bal_name)
-    end
+  def ballot_measure_from_num(bal_num)
+    @ballot_measures.detect { |measure| measure['Measure_number'] == bal_num }
   end
 
   def committee_from_expenditure(expenditure)
