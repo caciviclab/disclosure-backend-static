@@ -28,6 +28,7 @@ class ReferendumSupportersCalculator
     opposing_by_measure_name = {}
 
     expenditures.each do |row|
+      committee = committee_from_expenditure(row)
       bal_num = OaklandReferendum.name_to_measure_number(row['Bal_Name'])
 
       unless bal_num
@@ -40,12 +41,31 @@ class ReferendumSupportersCalculator
       # TODO: track number of skips (#35)
       next if bal_num == 'SKIP'
 
+      if row['Sup_Opp_Cd'] == 'Unknown'
+        # TODO: track number of guesses (#35)
+        row['Sup_Opp_Cd'] = guess_whether_committee_supports_measure(row['Filer_ID'], row['Bal_Name'])
+      end
+
       if row['Sup_Opp_Cd'] == 'S'
-        supporting_by_measure_name[bal_num] ||= []
-        supporting_by_measure_name[bal_num] << row
+        supporting_by_measure_name[bal_num] ||= {}
+        supporting_by_measure_name[bal_num][row['Filer_ID']] ||= {
+          id: committee ? committee['Filer_ID'] : nil,
+          name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          amount: 0,
+        }
+        supporting_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
       elsif row['Sup_Opp_Cd'] == 'O'
-        opposing_by_measure_name[bal_num] ||= []
-        opposing_by_measure_name[bal_num] << row
+        opposing_by_measure_name[bal_num] ||= {}
+        opposing_by_measure_name[bal_num][row['Filer_ID']] ||= {
+          id: committee ? committee['Filer_ID'] : nil,
+          name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          amount: 0,
+        }
+        opposing_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
+      elsif
+        $stderr.puts "unknown support: #{row}"
       end
     end
 
@@ -57,20 +77,7 @@ class ReferendumSupportersCalculator
       # the processing is the same for both supporting and opposing expenses
       rows_by_bal_num.each do |bal_num, rows|
         ballot_measure = ballot_measure_from_num(bal_num)
-
-        ballot_measure.save_calculation(calculation_name, rows.map do |row|
-          committee = committee_from_expenditure(row)
-          id = committee && committee.Filer_ID || nil
-          name = committee && committee.Filer_NamL || row['Filer_NamL']
-
-          # committees in support/opposition:
-          {
-            id: id,
-            name: name,
-            amount: row['Total_Amount'],
-            payee: row['Filer_NamL'],
-          }
-        end)
+        ballot_measure.save_calculation(calculation_name, rows.values)
       end
     end
   end
