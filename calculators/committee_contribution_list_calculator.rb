@@ -28,6 +28,8 @@ class CommitteeContributionListCalculator
       FROM "efile_COAK_2016_497"
       WHERE "Form_Type" = 'F497P1'
       AND "Filer_ID"::varchar IN (#{filer_ids})
+
+      ORDER BY "Tran_Date", "Tran_NamF", "Tran_NamL"
     SQL
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
