@@ -19,10 +19,19 @@
       "amount": 24833.59
     }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 173715.78,
   "contributions_by_region": [
-
+    {
+      "amount": 5000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 28600.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 140115.78,
+      "locale": "Within Oakland"
+    }
   ]
 }
