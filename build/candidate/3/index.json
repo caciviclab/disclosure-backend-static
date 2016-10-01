@@ -16,24 +16,38 @@
   "party_affiliation": null,
   "filer_id": 1387267,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 75819.0,
+    "total_contributions": 75819.0,
+    "total_expenditures": 51437.89,
+    "total_loans_received": 50000.0,
     "contributions_by_type": {
+      "Individual": 23851.0,
+      "Unitemized": 1168.0,
+      "Other (includes Businesses)": 800.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 7403.68,
+      "Campaign Consultants": 42134.75,
+      "Campaign Literature and Mailings": 685.52,
+      "Information Technology Costs (Internet, E-mail)": 1000.0
     }
   },
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 75819.0,
+  "total_contributions": 75819.0,
+  "total_expenditures": 51437.89,
+  "total_loans_received": 50000.0,
   "contributions_by_type": {
+    "Individual": 23851.0,
+    "Unitemized": 1168.0,
+    "Other (includes Businesses)": 800.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 7403.68,
+    "Campaign Consultants": 42134.75,
+    "Campaign Literature and Mailings": 685.52,
+    "Information Technology Costs (Internet, E-mail)": 1000.0
   }
 }

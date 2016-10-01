@@ -30,6 +30,13 @@
   {
     "Filer_ID": "1294190",
     "Tran_Amt1": 10000.0,
+    "Tran_Date": "2016-09-01",
+    "Tran_NamF": null,
+    "Tran_NamL": "PG&E Corporation and Affiliated Entities"
+  },
+  {
+    "Filer_ID": "1294190",
+    "Tran_Amt1": 10000.0,
     "Tran_Date": "2016-06-06",
     "Tran_NamF": null,
     "Tran_NamL": "PG&E Corporation and Affiliated Entities"
@@ -40,5 +47,12 @@
     "Tran_Date": "2016-05-30",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC"
+  },
+  {
+    "Filer_ID": "1294190",
+    "Tran_Amt1": 5000.0,
+    "Tran_Date": "2016-07-05",
+    "Tran_NamF": "Tony",
+    "Tran_NamL": "Thurmond for Assembly 2016"
   }
 ]

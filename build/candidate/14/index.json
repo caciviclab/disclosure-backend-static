@@ -16,26 +16,32 @@
   "party_affiliation": null,
   "filer_id": 1386932,
   "supporting_money": {
-    "contributions_received": 1500.0,
-    "total_contributions": 1500.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 13004.0,
+    "total_contributions": 13004.0,
+    "total_expenditures": 2774.63,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
-      "Committee": 1500.0
+      "Committee": 3200.0,
+      "Individual": 8650.0,
+      "Unitemized": 1154.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 1254.02
     }
   },
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": 1500.0,
-  "total_contributions": 1500.0,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 13004.0,
+  "total_contributions": 13004.0,
+  "total_expenditures": 2774.63,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 1500.0
+    "Committee": 3200.0,
+    "Individual": 8650.0,
+    "Unitemized": 1154.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 1254.02
   }
 }

@@ -16,24 +16,32 @@
   "party_affiliation": null,
   "filer_id": 1388133,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 7536.0,
+    "total_contributions": 7536.0,
+    "total_expenditures": 3099.45,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
+      "Individual": 6700.0,
+      "Unitemized": 836.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 235.21,
+      "Information Technology Costs (Internet, E-mail)": 147.0
     }
   },
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 7536.0,
+  "total_contributions": 7536.0,
+  "total_expenditures": 3099.45,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 6700.0,
+    "Unitemized": 836.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 235.21,
+    "Information Technology Costs (Internet, E-mail)": 147.0
   }
 }

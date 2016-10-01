@@ -9,19 +9,27 @@
     {
       "id": "1364564",
       "name": "Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations",
-      "payee": "Committee to Protect Oakland Renters sponsored by labor and community organizations",
-      "amount": 95013.08
+      "payee": "Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations",
+      "amount": 158964.4
     }
   ],
-  "total_contributions": 270830.05,
+  "total_contributions": 160146.25,
   "contributions_by_region": [
     {
-      "amount": 43800.0,
+      "amount": 4000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 44400.0,
       "locale": "Within California"
     },
     {
-      "amount": 227030.05,
+      "amount": 1000.0,
       "locale": "Within Oakland"
+    },
+    {
+      "amount": 110746.25,
+      "locale": "Unknown"
     }
   ]
 }

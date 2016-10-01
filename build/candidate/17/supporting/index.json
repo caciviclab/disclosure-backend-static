@@ -16,42 +16,44 @@
   "party_affiliation": "Democrat",
   "filer_id": 1303019,
   "supporting_money": {
-    "contributions_received": 5975.0,
-    "total_contributions": 5975.0,
+    "contributions_received": 18823.0,
+    "total_contributions": 18823.0,
     "total_expenditures": 4826.78,
     "total_loans_received": 0.0,
     "contributions_by_type": {
-      "Individual": 4000.0,
-      "Unitemized": 575.0,
-      "Other (includes Businesses)": 1400.0
+      "Individual": 13385.0,
+      "Unitemized": 2963.0,
+      "Other (includes Businesses)": 1900.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 166.47,
-      "Fundraising Events": 475.05,
+      "Office Expenses": 248.2,
+      "Fundraising Events": 641.59,
       "Campaign Consultants": 1000.0,
       "Meetings and Appearances": 437.32,
-      "Campaign Paraphernalia/Misc.": 1397.94,
+      "Campaign Paraphernalia/Misc.": 3755.99,
+      "Candidate Filing/Ballot Fees": 300.0,
       "Campaign Literature and Mailings": 850.0
     }
   },
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": 5975.0,
-  "total_contributions": 5975.0,
+  "contributions_received": 18823.0,
+  "total_contributions": 18823.0,
   "total_expenditures": 4826.78,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 4000.0,
-    "Unitemized": 575.0,
-    "Other (includes Businesses)": 1400.0
+    "Individual": 13385.0,
+    "Unitemized": 2963.0,
+    "Other (includes Businesses)": 1900.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 166.47,
-    "Fundraising Events": 475.05,
+    "Office Expenses": 248.2,
+    "Fundraising Events": 641.59,
     "Campaign Consultants": 1000.0,
     "Meetings and Appearances": 437.32,
-    "Campaign Paraphernalia/Misc.": 1397.94,
+    "Campaign Paraphernalia/Misc.": 3755.99,
+    "Candidate Filing/Ballot Fees": 300.0,
     "Campaign Literature and Mailings": 850.0
   }
 }

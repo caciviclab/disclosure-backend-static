@@ -13,7 +13,7 @@
       "last_name": "Hodge",
       "ballot_item": 7,
       "office_election": 7,
-      "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and Candidate",
+      "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and candidate website",
       "committee_name": "Hodge 4 Oakland City Council 2016",
       "is_accepted_expenditure_ceiling": false,
       "is_incumbent": false,
@@ -60,27 +60,33 @@
       "party_affiliation": null,
       "filer_id": 1386932,
       "supporting_money": {
-        "contributions_received": 1500.0,
-        "total_contributions": 1500.0,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 13004.0,
+        "total_contributions": 13004.0,
+        "total_expenditures": 2774.63,
+        "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Committee": 1500.0
+          "Committee": 3200.0,
+          "Individual": 8650.0,
+          "Unitemized": 1154.0
         },
         "expenditures_by_type": {
+          "Office Expenses": 1254.02
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": 1500.0,
-      "total_contributions": 1500.0,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 13004.0,
+      "total_contributions": 13004.0,
+      "total_expenditures": 2774.63,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Committee": 1500.0
+        "Committee": 3200.0,
+        "Individual": 8650.0,
+        "Unitemized": 1154.0
       },
       "expenditures_by_type": {
+        "Office Expenses": 1254.02
       }
     },
     {
@@ -101,25 +107,39 @@
       "party_affiliation": null,
       "filer_id": 1387905,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 38376.0,
+        "total_contributions": 38376.0,
+        "total_expenditures": 4952.89,
+        "total_loans_received": 0.0,
         "contributions_by_type": {
+          "Committee": 530.0,
+          "Individual": 30550.0,
+          "Unitemized": 496.0,
+          "Other (includes Businesses)": 6800.0
         },
         "expenditures_by_type": {
+          "Campaign Paraphernalia/Misc.": 3779.35,
+          "Professional Services (Legal, Accounting)": 486.6,
+          "Information Technology Costs (Internet, E-mail)": 106.94
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 38376.0,
+      "total_contributions": 38376.0,
+      "total_expenditures": 4952.89,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
+        "Committee": 530.0,
+        "Individual": 30550.0,
+        "Unitemized": 496.0,
+        "Other (includes Businesses)": 6800.0
       },
       "expenditures_by_type": {
+        "Campaign Paraphernalia/Misc.": 3779.35,
+        "Professional Services (Legal, Accounting)": 486.6,
+        "Information Technology Costs (Internet, E-mail)": 106.94
       }
     }
   ],

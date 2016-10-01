@@ -74,6 +74,11 @@ class ReferendumSupportersCalculator
       # the processing is the same for both supporting and opposing expenses
       rows_by_bal_name.each do |bal_name, rows|
         ballot_measure = ballot_measure_from_name(bal_name)
+        unless ballot_measure
+          $stderr.puts "COULD NOT FIND BALLOT MEASURE #{bal_name.inspect}"
+          $stderr.puts "  add it to the referendums spreadsheet"
+          next
+        end
         ballot_measure.save_calculation(calculation_name, rows.map do |row|
           committee = committee_from_expenditure(row)
           id = committee && committee.Filer_ID || nil
