@@ -61,6 +61,9 @@ class CandidateContributionsByType
         ORDER BY "Entity_Cd", "Filer_ID"
       SQL
 
+      # NOTE: We remove duplicate transactions on 497 that are also reported on
+      # Schedule A during a preprocssing script. (See
+      # `./../remove_duplicate_transactionts.sh`)
       late_results = ActiveRecord::Base.connection.execute(<<-SQL)
         SELECT "Filer_ID", "Entity_Cd", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_497"
@@ -69,9 +72,6 @@ class CandidateContributionsByType
         GROUP BY "Entity_Cd", "Filer_ID"
         ORDER BY "Entity_Cd", "Filer_ID"
       SQL
-
-      # TODO: we need to subtract `late_results` that are also present in
-      # `monetary_results` so as to not duplicate transactions!
 
       (monetary_results.to_a + in_kind_results.to_a + late_results.to_a).each do |result|
         filer_id = result['Filer_ID'].to_s
