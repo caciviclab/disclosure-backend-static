@@ -38,6 +38,7 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	./latest_only.sh efile_COAK_2016_H-Loans
 	./latest_only.sh efile_COAK_2016_I-Contributions
 	./latest_only.sh efile_COAK_2016_Summary
+	./remove_duplicate_transactions.sh
 
 inputs/efile_COAK_%_A-Contributions.csv: downloads/efile_COAK_%.xlsx
 	ssconvert -S $< inputs/$(subst .xlsx,_%s.csv,$(shell basename $<))
