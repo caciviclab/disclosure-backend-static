@@ -6,8 +6,8 @@ class OaklandReferendum < ActiveRecord::Base
     'SUGAR-SWEETENED DRINKS DISTRIBUTOR TAX' => 'HH',
 
     'Proposed amendments to residental rent adjustments and evictions ordinance' => 'JJ',
+    'City of Oakland Renters Upgrade Act' => 'JJ',
 
-    'City of Oakland Renters Upgrade Act' => 'KK',
     'MEASURE G1' => 'G1',
     "Oakland Infrastructure and Housing Bond Measure" => 'KK',
     'Investing in Oakland?s Infrastructure and Affordable Housing' => 'KK',
