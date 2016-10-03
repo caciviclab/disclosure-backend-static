@@ -25,6 +25,9 @@ class TotalContributionsCalculator
       contributions_by_filer_id[filer_id] += result['Amount_A'].to_f
     end
 
+    # NOTE: We remove duplicate transactions on 497 that are also reported on
+    # Schedule A during a preprocssing script. (See
+    # `./../remove_duplicate_transactionts.sh`)
     late_results = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Filer_ID", SUM("Amount") AS "Total"
       FROM "efile_COAK_2016_497"
@@ -38,10 +41,6 @@ class TotalContributionsCalculator
       contributions_by_filer_id[filer_id] ||= 0
       contributions_by_filer_id[filer_id] += result['Total'].to_f
     end
-
-    # TODO: We will have to remove any late_results that are also included on
-    # the Schedule A since they are included in the Summary's "Total
-    # Contributions" line item if reported on Schedule A.
 
     contributions_by_filer_id.each do |filer_id, total_contributions|
       candidate = @candidates_by_filer_id[filer_id]

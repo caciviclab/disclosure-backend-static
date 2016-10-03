@@ -18,7 +18,6 @@ class CommitteeContributionListCalculator
       UNION
 
       -- Form 497 Late Contributions
-      -- TODO: we will need to dedupe this against the other forms
       SELECT
         "Filer_ID"::varchar,
         "Amount" AS "Tran_Amt1",
