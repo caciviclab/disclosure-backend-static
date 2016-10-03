@@ -13,11 +13,10 @@
       "amount": 3003417.21
     }
   ],
-  "total_contributions": 4450000.0,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 4450000.0,
-      "locale": "Within California"
-    }
+
   ]
 }
