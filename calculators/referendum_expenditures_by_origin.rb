@@ -12,7 +12,7 @@ class ReferendumExpendituresByOrigin
       SELECT "Measure_Number", "Sup_Opp_Cd", sum("Amount") AS total
       FROM "efile_COAK_2016_E-Expenditure",
         oakland_name_to_number
-      WHERE "Bal_Name" = "Measure_Name"
+      WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
       AND "Cmte_ID" IS NULL
       GROUP BY "Measure_Number", "Sup_Opp_Cd";
     SQL
@@ -26,7 +26,7 @@ class ReferendumExpendituresByOrigin
       FROM (
         SELECT DISTINCT "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
         FROM "efile_COAK_2016_E-Expenditure"
-        INNER JOIN oakland_name_to_number ON "Bal_Name" = "Measure_Name"
+        INNER JOIN oakland_name_to_number ON LOWER("Bal_Name") = LOWER("Measure_Name")
         WHERE "Bal_Name" IS NOT NULL
       ) expenditures,
       (
