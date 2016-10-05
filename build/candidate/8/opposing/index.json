@@ -22,8 +22,9 @@
     "total_loans_received": 10000.0,
     "contributions_by_type": {
       "Committee": 5900.0,
-      "Individual": 43622.0,
+      "Individual": 43422.0,
       "Unitemized": 7174.66,
+      "Self Funding": 200.0,
       "Other (includes Businesses)": 3357.0
     },
     "expenditures_by_type": {
@@ -44,8 +45,9 @@
   "total_loans_received": 10000.0,
   "contributions_by_type": {
     "Committee": 5900.0,
-    "Individual": 43622.0,
+    "Individual": 43422.0,
     "Unitemized": 7174.66,
+    "Self Funding": 200.0,
     "Other (includes Businesses)": 3357.0
   },
   "expenditures_by_type": {

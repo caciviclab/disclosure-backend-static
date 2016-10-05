@@ -3,6 +3,7 @@ class CandidateContributionsByType
     'IND' => 'Individual',
     'COM' => 'Committee',
     'OTH' => 'Other (includes Businesses)',
+    'SLF' => 'Self Funding'
   }
 
   def initialize(candidates: [], ballot_measures: [], committees: [])
@@ -45,40 +46,49 @@ class CandidateContributionsByType
 
   def contributions_by_candidate_by_type
     @_contributions_by_candidate_by_type ||= {}.tap do |hash|
-      monetary_results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
-        FROM "efile_COAK_2016_A-Contributions"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Entity_Cd", "Filer_ID"
-        ORDER BY "Entity_Cd", "Filer_ID"
-      SQL
-
-      in_kind_results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
-        FROM "efile_COAK_2016_C-Contributions"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Entity_Cd", "Filer_ID"
-        ORDER BY "Entity_Cd", "Filer_ID"
-      SQL
-
       # NOTE: We remove duplicate transactions on 497 that are also reported on
       # Schedule A during a preprocssing script. (See
       # `./../remove_duplicate_transactionts.sh`)
-      late_results = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT "Filer_ID", "Entity_Cd", SUM("Amount") AS "Total"
-        FROM "efile_COAK_2016_497"
+      monetary_results = ActiveRecord::Base.connection.execute <<-SQL
+        SELECT
+          "Filer_ID",
+          CASE
+            WHEN "FPPC" IS NULL THEN "Entity_Cd"
+            ELSE 'SLF'
+          END AS "Cd",
+          SUM("Tran_Amt1") AS "Total"
+        FROM
+          (
+            SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
+            FROM "efile_COAK_2016_A-Contributions"
+            UNION ALL
+            SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
+            FROM "efile_COAK_2016_C-Contributions"
+            UNION ALL
+            SELECT "Filer_ID"::varchar, "Entity_Cd",
+              "Amount" as "Tran_Amt1",
+              "Enty_NamF" as "Tran_NamF",
+              "Enty_NamL" as "Tran_NamL"
+            FROM "efile_COAK_2016_497"
+            WHERE "Form_Type" = 'F497P1'
+          ) AS U
+          LEFT OUTER JOIN
+          "oakland_candidates"
+            ON  "FPPC"::varchar = "Filer_ID"
+              AND (LOWER("Candidate") = LOWER(CONCAT("Tran_NamF", ' ', "Tran_NamL"))
+                OR LOWER("Aliases") like
+                    LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%')))
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        AND "Form_Type" = 'F497P1'
-        GROUP BY "Entity_Cd", "Filer_ID"
-        ORDER BY "Entity_Cd", "Filer_ID"
+        GROUP BY "Cd", "Filer_ID"
+        ORDER BY "Cd", "Filer_ID";
       SQL
 
-      (monetary_results.to_a + in_kind_results.to_a + late_results.to_a).each do |result|
+      monetary_results.to_a.each do |result|
         filer_id = result['Filer_ID'].to_s
 
         hash[filer_id] ||= {}
-        hash[filer_id][result['Entity_Cd']] ||= 0
-        hash[filer_id][result['Entity_Cd']] += result['Total']
+        hash[filer_id][result['Cd']] ||= 0
+        hash[filer_id][result['Cd']] += result['Total']
       end
     end
   end
