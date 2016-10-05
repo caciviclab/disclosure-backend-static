@@ -10,7 +10,16 @@ AND contributions."Tran_ID" = "efile_COAK_2016_497"."Tran_ID"
 AND "efile_COAK_2016_497"."Form_Type" = 'F497P1';
 QUERY
 
-# 2. delete duplicate E/497 expenditures
+# 2. delete duplicate C/497 contributions
+cat <<-QUERY | psql disclosure-backend
+DELETE FROM "efile_COAK_2016_497"
+USING "efile_COAK_2016_C-Contributions" contributions
+WHERE contributions."Filer_ID"::varchar = "efile_COAK_2016_497"."Filer_ID"::varchar
+AND contributions."Tran_ID" = "efile_COAK_2016_497"."Tran_ID"
+AND "efile_COAK_2016_497"."Form_Type" = 'F497P1';
+QUERY
+
+# 3. delete duplicate E/497 expenditures
 cat <<-QUERY | psql disclosure-backend
 DELETE FROM "efile_COAK_2016_497"
 USING "efile_COAK_2016_E-Expenditure" expenditures
