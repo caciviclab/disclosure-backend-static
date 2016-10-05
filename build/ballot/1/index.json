@@ -24,12 +24,12 @@
           "party_affiliation": "Democrat",
           "filer_id": 1386081,
           "supporting_money": {
-            "contributions_received": 39242.0,
-            "total_contributions": 39242.0,
+            "contributions_received": 40242.0,
+            "total_contributions": 40242.0,
             "total_expenditures": 23659.45,
             "total_loans_received": 0.0,
             "contributions_by_type": {
-              "Individual": 33350.0,
+              "Individual": 34350.0,
               "Unitemized": 917.0,
               "Other (includes Businesses)": 4300.0
             },
@@ -44,12 +44,12 @@
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": 39242.0,
-          "total_contributions": 39242.0,
+          "contributions_received": 40242.0,
+          "total_contributions": 40242.0,
           "total_expenditures": 23659.45,
           "total_loans_received": 0.0,
           "contributions_by_type": {
-            "Individual": 33350.0,
+            "Individual": 34350.0,
             "Unitemized": 917.0,
             "Other (includes Businesses)": 4300.0
           },
@@ -1352,27 +1352,39 @@
           "party_affiliation": "Democrat",
           "filer_id": 1388641,
           "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
+            "contributions_received": 28085.0,
+            "total_contributions": 28085.0,
+            "total_expenditures": 10162.2,
+            "total_loans_received": 10000.0,
             "contributions_by_type": {
+              "Committee": 500.0,
+              "Individual": 11075.0,
+              "Unitemized": 110.0,
+              "Other (includes Businesses)": 6400.0
             },
             "expenditures_by_type": {
-              "Not Stated": 3685.75
+              "Not Stated": 3685.75,
+              "Campaign Paraphernalia/Misc.": 4162.06,
+              "Campaign Literature and Mailings": 6000.0
             }
           },
           "opposing_money": {
             "contributions_received": 0
           },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
+          "contributions_received": 28085.0,
+          "total_contributions": 28085.0,
+          "total_expenditures": 10162.2,
+          "total_loans_received": 10000.0,
           "contributions_by_type": {
+            "Committee": 500.0,
+            "Individual": 11075.0,
+            "Unitemized": 110.0,
+            "Other (includes Businesses)": 6400.0
           },
           "expenditures_by_type": {
-            "Not Stated": 3685.75
+            "Not Stated": 3685.75,
+            "Campaign Paraphernalia/Misc.": 4162.06,
+            "Campaign Literature and Mailings": 6000.0
           }
         },
         {

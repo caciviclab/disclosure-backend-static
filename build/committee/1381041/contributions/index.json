@@ -71,6 +71,20 @@
   },
   {
     "Filer_ID": "1381041",
+    "Tran_Amt1": 504040.0,
+    "Tran_Date": "2016-09-27",
+    "Tran_NamF": "MICHAEL",
+    "Tran_NamL": "BLOOMBERG"
+  },
+  {
+    "Filer_ID": "1381041",
+    "Tran_Amt1": 348155.5,
+    "Tran_Date": "2016-09-07",
+    "Tran_NamF": "MICHAEL",
+    "Tran_NamL": "BLOOMBERG"
+  },
+  {
+    "Filer_ID": "1381041",
     "Tran_Amt1": 440955.5,
     "Tran_Date": "2016-08-31",
     "Tran_NamF": "MICHAEL",
@@ -87,20 +101,6 @@
     "Filer_ID": "1381041",
     "Tran_Amt1": 487496.5,
     "Tran_Date": "2016-09-14",
-    "Tran_NamF": "MICHAEL",
-    "Tran_NamL": "BLOOMBERG"
-  },
-  {
-    "Filer_ID": "1381041",
-    "Tran_Amt1": 504040.0,
-    "Tran_Date": "2016-09-27",
-    "Tran_NamF": "MICHAEL",
-    "Tran_NamL": "BLOOMBERG"
-  },
-  {
-    "Filer_ID": "1381041",
-    "Tran_Amt1": 348155.5,
-    "Tran_Date": "2016-09-07",
     "Tran_NamF": "MICHAEL",
     "Tran_NamL": "BLOOMBERG"
   },
@@ -208,6 +208,13 @@
     "Tran_Date": "2016-05-25",
     "Tran_NamF": "RICHARD J.",
     "Tran_NamL": "CUROTTO"
+  },
+  {
+    "Filer_ID": "1381041",
+    "Tran_Amt1": 5000.0,
+    "Tran_Date": "2016-10-03",
+    "Tran_NamF": null,
+    "Tran_NamL": "California Dental Association"
   },
   {
     "Filer_ID": "1381041",
@@ -624,15 +631,15 @@
   },
   {
     "Filer_ID": "1381041",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-06-20",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-05-25",
     "Tran_NamF": "RONA",
     "Tran_NamL": "RENNER"
   },
   {
     "Filer_ID": "1381041",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-05-25",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-06-20",
     "Tran_NamF": "RONA",
     "Tran_NamL": "RENNER"
   },
