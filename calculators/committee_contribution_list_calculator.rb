@@ -28,7 +28,7 @@ class CommitteeContributionListCalculator
       WHERE "Form_Type" = 'F497P1'
       AND "Filer_ID"::varchar IN (#{filer_ids})
 
-      ORDER BY "Tran_Date", "Tran_NamF", "Tran_NamL"
+      ORDER BY "Tran_Date", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
     SQL
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
