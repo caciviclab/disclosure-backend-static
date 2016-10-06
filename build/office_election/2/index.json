@@ -84,27 +84,43 @@
       "is_incumbent": false,
       "occupation": "Assistant Librarian",
       "party_affiliation": "Democrat",
-      "filer_id": 1386822,
+      "filer_id": 1386922,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 7429.0,
+        "total_contributions": 7429.0,
+        "total_expenditures": 2588.31,
+        "total_loans_received": 0.0,
         "contributions_by_type": {
+          "Individual": 6150.0,
+          "Unitemized": 1279.0
         },
         "expenditures_by_type": {
+          "Office Expenses": 248.59,
+          "Fundraising Events": 381.2,
+          "Campaign Paraphernalia/Misc.": 195.0,
+          "Candidate Filing/Ballot Fees": 300.0,
+          "Campaign Literature and Mailings": 1129.84,
+          "Information Technology Costs (Internet, E-mail)": 208.0
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 7429.0,
+      "total_contributions": 7429.0,
+      "total_expenditures": 2588.31,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
+        "Individual": 6150.0,
+        "Unitemized": 1279.0
       },
       "expenditures_by_type": {
+        "Office Expenses": 248.59,
+        "Fundraising Events": 381.2,
+        "Campaign Paraphernalia/Misc.": 195.0,
+        "Candidate Filing/Ballot Fees": 300.0,
+        "Campaign Literature and Mailings": 1129.84,
+        "Information Technology Costs (Internet, E-mail)": 208.0
       }
     }
   ],
