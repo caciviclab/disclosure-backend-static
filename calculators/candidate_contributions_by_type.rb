@@ -86,11 +86,11 @@ class CandidateContributionsByType
   def unitemized_contributions_by_candidate
     @_unitemized_contributions_by_candidate ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Amount_A" FROM "efile_COAK_2016_Summary"
+        SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "efile_COAK_2016_Summary"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND "Form_Type" = 'A' AND "Line_Item" = '2'
-        GROUP BY "Filer_ID", "Amount_A"
-        ORDER BY "Filer_ID", "Amount_A"
+        GROUP BY "Filer_ID"
+        ORDER BY "Filer_ID"
       SQL
 
       hash.merge!(Hash[results.map { |row| row.values_at('Filer_ID', 'Amount_A') }])
