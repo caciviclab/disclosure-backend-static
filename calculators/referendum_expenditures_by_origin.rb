@@ -10,11 +10,25 @@ class ReferendumExpendituresByOrigin
     # then the remainder will be from "Unknown" locale.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Measure_Number", "Sup_Opp_Cd", sum("Amount") AS total
-      FROM "efile_COAK_2016_E-Expenditure",
-        oakland_name_to_number
-      WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-      AND "Cmte_ID" IS NULL
-      GROUP BY "Measure_Number", "Sup_Opp_Cd";
+      FROM
+      (
+        SELECT "Measure_Number", "Sup_Opp_Cd", "Amount"
+        FROM
+          "efile_COAK_2016_E-Expenditure", oakland_name_to_number
+        WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
+        AND "Cmte_ID" IS NULL
+        AND "Sup_Opp_Cd" IS NOT NULL
+        UNION ALL
+        SELECT "Ballot_Measure" as "Measure_Number",
+          "Support_Or_Oppose" as "Sup_Opp_Cd", "Amount"
+        FROM
+          "efile_COAK_2016_E-Expenditure" expend,
+          oakland_committees committee
+        WHERE "Sup_Opp_Cd" IS NULL
+          AND expend."Filer_ID" = committee."Filer_ID"
+          AND "Ballot_Measure" IS NOT NULL
+      ) AS U
+      GROUP BY "Measure_Number", "Sup_Opp_Cd"
     SQL
 
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
@@ -26,8 +40,18 @@ class ReferendumExpendituresByOrigin
       FROM (
         SELECT DISTINCT "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
         FROM "efile_COAK_2016_E-Expenditure"
-        INNER JOIN oakland_name_to_number ON LOWER("Bal_Name") = LOWER("Measure_Name")
+        INNER JOIN oakland_name_to_number
+          ON LOWER("Bal_Name") = LOWER("Measure_Name")
         WHERE "Bal_Name" IS NOT NULL
+        UNION ALL
+        SELECT DISTINCT expend."Filer_ID", "Ballot_Measure" as "Measure_Number",
+          "Support_Or_Oppose" as "Sup_Opp_Cd"
+        FROM
+          "efile_COAK_2016_E-Expenditure" expend,
+          oakland_committees committee
+        WHERE "Sup_Opp_Cd" IS NULL
+          AND expend."Filer_ID" = committee."Filer_ID"
+          AND "Ballot_Measure" IS NOT NULL
       ) expenditures,
       (
         SELECT "Filer_ID",

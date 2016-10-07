@@ -8,10 +8,19 @@
   "supporting_organizations": [
 
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 9891.5,
   "contributions_by_region": [
-
+    {
+      "amount": 125.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 1900.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 7866.5,
+      "locale": "Within Oakland"
+    }
   ]
 }
