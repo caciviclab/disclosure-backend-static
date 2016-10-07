@@ -14,14 +14,14 @@ class ReferendumSupportersCalculator
         SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
         FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Bal_Name" IS NOT NULL
-        UNION
+        UNION ALL
         SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
         FROM "efile_COAK_2016_496"
         WHERE "Bal_Name" IS NOT NULL
       ) as U
       GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
 
-      UNION
+      UNION ALL
       SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
         SUM("Amount") AS "Total_Amount"
       FROM "efile_COAK_2016_497"

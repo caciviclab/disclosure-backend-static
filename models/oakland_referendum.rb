@@ -11,6 +11,7 @@ class OaklandReferendum < ActiveRecord::Base
     'MEASURE G1' => 'G1',
     "Oakland Infrastructure and Housing Bond Measure" => 'KK',
     'Investing in Oakland?s Infrastructure and Affordable Housing' => 'KK',
+    'Oversight of Police Department' => 'LL',
 
     # Non-Oakland measures: (Skip these because we don't want them to collide.)
     # TODO: scope these ballot measures by jurisdiction
