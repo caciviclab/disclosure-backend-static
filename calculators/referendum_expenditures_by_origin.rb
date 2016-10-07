@@ -36,7 +36,7 @@ class ReferendumExpendituresByOrigin
         expenditures."Measure_Number",
         expenditures."Sup_Opp_Cd",
         contributions_by_locale.locale,
-        contributions_by_locale.total
+        SUM(contributions_by_locale.total) as total
       FROM (
         SELECT DISTINCT "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
         FROM "efile_COAK_2016_E-Expenditure"
@@ -71,13 +71,15 @@ class ReferendumExpendituresByOrigin
           SELECT "Filer_ID"::varchar,
             "Enty_City" as "Tran_City",
             "Enty_ST" as "Tran_State",
-            "Amount" as "Tran_Amt1", "Tran_ID"
+            "Amount" as "Tran_Amt1",
+            "Tran_ID"
           FROM "efile_COAK_2016_497"
           WHERE "Form_Type" = 'F497P1'
         ) contributions
         GROUP BY "Filer_ID", locale
       ) contributions_by_locale
       WHERE expenditures."Filer_ID" = contributions_by_locale."Filer_ID"
+      GROUP BY expenditures."Measure_Number", expenditures."Sup_Opp_Cd", contributions_by_locale.locale
       ORDER BY expenditures."Measure_Number", expenditures."Sup_Opp_Cd", contributions_by_locale.locale;
     SQL
 
