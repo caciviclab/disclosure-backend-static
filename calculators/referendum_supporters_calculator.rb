@@ -8,31 +8,10 @@ class ReferendumSupportersCalculator
   def fetch
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID"::varchar, "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd",
         SUM("Amount") AS "Total_Amount"
-      FROM (
-        SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
-        FROM "efile_COAK_2016_E-Expenditure"
-        WHERE "Bal_Name" IS NOT NULL
-        UNION ALL
-        SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
-        FROM "efile_COAK_2016_496"
-        WHERE "Bal_Name" IS NOT NULL
-      ) as U LEFT OUTER JOIN "oakland_name_to_number"
-      ON LOWER(U."Bal_Name") = LOWER("Measure_Name")
-      GROUP BY "Filer_ID", "Measure_Number", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
-
-      UNION ALL
-      SELECT "Filer_ID"::varchar, "Filer_NamL",
-        "Measure_Number", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
-        SUM("Amount") AS "Total_Amount"
-      FROM "efile_COAK_2016_497" LEFT OUTER JOIN "oakland_name_to_number"
-      ON LOWER("Bal_Name") = LOWER("Measure_Name")
-      WHERE "Bal_Name" IS NOT NULL
-      AND "Form_Type" = 'F497P2'
-      GROUP BY "Filer_ID", "Measure_Number", "Filer_NamL", "Bal_Name"
-
-      ORDER BY "Filer_ID", "Filer_NamL"
+      FROM "Measure_Expenditures"
+      GROUP BY "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd"
     SQL
 
     summary_other = ActiveRecord::Base.connection.execute(<<-SQL)
@@ -51,7 +30,6 @@ class ReferendumSupportersCalculator
     expenditures.each do |row|
       committee = committee_from_expenditure(row)
       bal_num = row['Measure_Number']
-      printf("%s %s %s\n", bal_num, row['Bal_Name'], row['Sup_Opp_Cd'])
 
       unless bal_num
         $stderr.puts "COULD NOT FIND BALLOT MEASURE: #{row['Bal_Name'].inspect}"
@@ -69,7 +47,6 @@ class ReferendumSupportersCalculator
       end
 
       if row['Sup_Opp_Cd'] == 'S'
-        printf("S:%s %s\n", bal_num, row['Bal_Name'])
         supporting_by_measure_name[bal_num] ||= {}
         supporting_by_measure_name[bal_num][row['Filer_ID']] ||= {
           id: committee ? committee['Filer_ID'] : nil,
