@@ -10,13 +10,22 @@
       "id": "1331137",
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "payee": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
-      "amount": 2327.63
+      "amount": 5327.63
     }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 147246.01,
   "contributions_by_region": [
-
+    {
+      "amount": 641.63,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 72376.87,
+      "locale": "Within California"
+    },
+    {
+      "amount": 74227.51,
+      "locale": "Within Oakland"
+    }
   ]
 }

@@ -22,6 +22,7 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
+	./make_view.sh
 	./latest_only.sh efile_COAK_2016_496
 	./latest_only.sh efile_COAK_2016_497
 	./latest_only.sh efile_COAK_2016_A-Contributions

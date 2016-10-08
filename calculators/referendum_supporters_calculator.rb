@@ -8,28 +8,10 @@ class ReferendumSupportersCalculator
   def fetch
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd",
         SUM("Amount") AS "Total_Amount"
-      FROM (
-        SELECT "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
-        FROM "efile_COAK_2016_E-Expenditure"
-        WHERE "Bal_Name" IS NOT NULL
-        UNION ALL
-        SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
-        FROM "efile_COAK_2016_496"
-        WHERE "Bal_Name" IS NOT NULL
-      ) as U
-      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
-
-      UNION ALL
-      SELECT "Filer_ID"::varchar, "Filer_NamL", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
-        SUM("Amount") AS "Total_Amount"
-      FROM "efile_COAK_2016_497"
-      WHERE "Bal_Name" IS NOT NULL
-      AND "Form_Type" = 'F497P2'
-      GROUP BY "Filer_ID", "Filer_NamL", "Bal_Name"
-
-      ORDER BY "Filer_ID", "Filer_NamL"
+      FROM "Measure_Expenditures"
+      GROUP BY "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd"
     SQL
 
     supporting_by_measure_name = {}
@@ -37,11 +19,11 @@ class ReferendumSupportersCalculator
 
     expenditures.each do |row|
       committee = committee_from_expenditure(row)
-      bal_num = OaklandReferendum.name_to_measure_number(row['Bal_Name'])
+      bal_num = row['Measure_Number']
 
       unless bal_num
         $stderr.puts "COULD NOT FIND BALLOT MEASURE: #{row['Bal_Name'].inspect}"
-        $stderr.puts "  Add it to the lookup keys in models/oakland_referendum.rb"
+        $stderr.puts "  Add it to the Oakland Candidates spreadsheet"
         $stderr.puts "  Debug: #{row.inspect}"
         next
       end
