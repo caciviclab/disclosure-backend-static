@@ -99,15 +99,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": -700.0,
-    "Tran_Date": "2016-05-05",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Kevin",
     "Tran_NamL": "Bohm"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-04-27",
+    "Tran_Amt1": -700.0,
+    "Tran_Date": "2016-05-05",
     "Tran_NamF": "Kevin",
     "Tran_NamL": "Bohm"
   },
@@ -120,15 +120,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-04-25",
+    "Tran_Amt1": -100.0,
+    "Tran_Date": "2016-07-27",
     "Tran_NamF": "Elaine",
     "Tran_NamL": "Brown"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": -100.0,
-    "Tran_Date": "2016-07-27",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-04-25",
     "Tran_NamF": "Elaine",
     "Tran_NamL": "Brown"
   },
@@ -141,15 +141,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": -730.95,
-    "Tran_Date": "2016-06-17",
+    "Tran_Amt1": 730.95,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Conley",
     "Tran_NamL": "Byrnes"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 730.95,
-    "Tran_Date": "2016-04-27",
+    "Tran_Amt1": -730.95,
+    "Tran_Date": "2016-06-17",
     "Tran_NamF": "Conley",
     "Tran_NamL": "Byrnes"
   },
@@ -184,14 +184,14 @@
   {
     "Filer_ID": "1375179",
     "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-04-27",
+    "Tran_Date": "2016-06-23",
     "Tran_NamF": "Judy",
     "Tran_NamL": "Chu"
   },
   {
     "Filer_ID": "1375179",
     "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-06-23",
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Judy",
     "Tran_NamL": "Chu"
   },
@@ -267,13 +267,6 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-03-24",
-    "Tran_NamF": null,
-    "Tran_NamL": "Feld Entertainment"
-  },
-  {
-    "Filer_ID": "1375179",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-06-30",
     "Tran_NamF": null,
@@ -283,6 +276,13 @@
     "Filer_ID": "1375179",
     "Tran_Amt1": -700.0,
     "Tran_Date": "2016-06-30",
+    "Tran_NamF": null,
+    "Tran_NamL": "Feld Entertainment"
+  },
+  {
+    "Filer_ID": "1375179",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-03-24",
     "Tran_NamF": null,
     "Tran_NamL": "Feld Entertainment"
   },
@@ -309,15 +309,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 118.04,
-    "Tran_Date": "2016-04-22",
+    "Tran_Amt1": 25.0,
+    "Tran_Date": "2016-08-29",
     "Tran_NamF": "Donald",
     "Tran_NamL": "Gilmore"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 25.0,
-    "Tran_Date": "2016-08-29",
+    "Tran_Amt1": 118.04,
+    "Tran_Date": "2016-04-22",
     "Tran_NamF": "Donald",
     "Tran_NamL": "Gilmore"
   },
@@ -491,13 +491,6 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": -700.0,
-    "Tran_Date": "2016-07-29",
-    "Tran_NamF": "Martin",
-    "Tran_NamL": "Kaufman"
-  },
-  {
-    "Filer_ID": "1375179",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Martin",
@@ -505,15 +498,22 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-04-27",
-    "Tran_NamF": null,
-    "Tran_NamL": "Keith Carson For Alameda County Supervisor"
+    "Tran_Amt1": -700.0,
+    "Tran_Date": "2016-07-29",
+    "Tran_NamF": "Martin",
+    "Tran_NamL": "Kaufman"
   },
   {
     "Filer_ID": "1375179",
     "Tran_Amt1": 150.0,
     "Tran_Date": "2016-08-30",
+    "Tran_NamF": null,
+    "Tran_NamL": "Keith Carson For Alameda County Supervisor"
+  },
+  {
+    "Filer_ID": "1375179",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": null,
     "Tran_NamL": "Keith Carson For Alameda County Supervisor"
   },
@@ -575,15 +575,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 106.49,
-    "Tran_Date": "2016-06-22",
+    "Tran_Amt1": 20.0,
+    "Tran_Date": "2016-08-30",
     "Tran_NamF": "Raymond",
     "Tran_NamL": "Lankford"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 20.0,
-    "Tran_Date": "2016-08-30",
+    "Tran_Amt1": 106.49,
+    "Tran_Date": "2016-06-22",
     "Tran_NamF": "Raymond",
     "Tran_NamL": "Lankford"
   },
@@ -596,15 +596,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-04-27",
+    "Tran_Amt1": -700.0,
+    "Tran_Date": "2016-06-17",
     "Tran_NamF": "Yui Hay",
     "Tran_NamL": "Lee"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": -700.0,
-    "Tran_Date": "2016-06-17",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Yui Hay",
     "Tran_NamL": "Lee"
   },
@@ -639,13 +639,6 @@
   {
     "Filer_ID": "1375179",
     "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-08-30",
-    "Tran_NamF": "Larry",
-    "Tran_NamL": "Manning"
-  },
-  {
-    "Filer_ID": "1375179",
-    "Tran_Amt1": 100.0,
     "Tran_Date": "2016-04-27",
     "Tran_NamF": "Larry",
     "Tran_NamL": "Manning"
@@ -654,6 +647,13 @@
     "Filer_ID": "1375179",
     "Tran_Amt1": 25.0,
     "Tran_Date": "2016-08-29",
+    "Tran_NamF": "Larry",
+    "Tran_NamL": "Manning"
+  },
+  {
+    "Filer_ID": "1375179",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-30",
     "Tran_NamF": "Larry",
     "Tran_NamL": "Manning"
   },
@@ -743,15 +743,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 150.0,
-    "Tran_Date": "2016-06-23",
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Jennie",
     "Tran_NamL": "Ong"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-04-27",
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-06-23",
     "Tran_NamF": "Jennie",
     "Tran_NamL": "Ong"
   },
@@ -848,13 +848,6 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-04-27",
-    "Tran_NamF": null,
-    "Tran_NamL": "Robert Arnold & Co"
-  },
-  {
-    "Filer_ID": "1375179",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-30",
     "Tran_NamF": null,
@@ -862,15 +855,22 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 236.08,
+    "Tran_Amt1": 250.0,
     "Tran_Date": "2016-04-27",
-    "Tran_NamF": "Laura",
-    "Tran_NamL": "Sarapochillo"
+    "Tran_NamF": null,
+    "Tran_NamL": "Robert Arnold & Co"
   },
   {
     "Filer_ID": "1375179",
     "Tran_Amt1": 177.06,
     "Tran_Date": "2016-04-23",
+    "Tran_NamF": "Laura",
+    "Tran_NamL": "Sarapochillo"
+  },
+  {
+    "Filer_ID": "1375179",
+    "Tran_Amt1": 236.08,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Laura",
     "Tran_NamL": "Sarapochillo"
   },
@@ -974,6 +974,13 @@
   },
   {
     "Filer_ID": "1375179",
+    "Tran_Amt1": 1000.0,
+    "Tran_Date": "2016-10-06",
+    "Tran_NamF": null,
+    "Tran_NamL": "Transport Oakland"
+  },
+  {
+    "Filer_ID": "1375179",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Sara",
@@ -1065,15 +1072,15 @@
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": -700.0,
-    "Tran_Date": "2016-06-17",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-04-27",
     "Tran_NamF": "Anna",
     "Tran_NamL": "Wong"
   },
   {
     "Filer_ID": "1375179",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-04-27",
+    "Tran_Amt1": -700.0,
+    "Tran_Date": "2016-06-17",
     "Tran_NamF": "Anna",
     "Tran_NamL": "Wong"
   },
