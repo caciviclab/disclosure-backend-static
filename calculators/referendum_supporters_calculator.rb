@@ -32,6 +32,16 @@ class ReferendumSupportersCalculator
       ORDER BY "Filer_ID", "Filer_NamL"
     SQL
 
+    summary_other = ActiveRecord::Base.connection.execute(<<-SQL)
+      SELECT "Filer_ID", SUM("Amount_A") as "Summary_Other_Expenditures"
+      FROM "efile_COAK_2016_Summary"
+      WHERE "Form_Type" = 'F460'
+      AND "Line_Item" = '9'               -- "Accrued Expenses (Unpaid Bills)"
+      OR "Line_Item" = '10'               -- "Non-monetary Adjustment"
+      GROUP BY "Filer_ID"
+    SQL
+    summary_other = summary_other.index_by { |r| r['Filer_ID'] }
+
     supporting_by_measure_name = {}
     opposing_by_measure_name = {}
 
@@ -60,7 +70,8 @@ class ReferendumSupportersCalculator
           id: committee ? committee['Filer_ID'] : nil,
           name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
-          amount: 0,
+          # start with the other items from the summary page (lines 9 + 10)
+          amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
         supporting_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
       elsif row['Sup_Opp_Cd'] == 'O'
@@ -69,7 +80,8 @@ class ReferendumSupportersCalculator
           id: committee ? committee['Filer_ID'] : nil,
           name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
-          amount: 0,
+          # start with the other items from the summary page (lines 9 + 10)
+          amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
         opposing_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
       elsif
