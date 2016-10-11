@@ -18,6 +18,9 @@ class ReferendumSupportersCalculator
       SELECT "Filer_ID", SUM("Amount_A") as "Summary_Other_Expenditures"
       FROM "efile_COAK_2016_Summary"
       WHERE "Form_Type" = 'F460'
+      AND "Committee_Type" = 'BMC'        -- Ignore recipient committees' summary
+                                          --   data since it represents more than
+                                          --   just ballot measure expenditures
       AND "Line_Item" = '9'               -- "Accrued Expenses (Unpaid Bills)"
       OR "Line_Item" = '10'               -- "Non-monetary Adjustment"
       GROUP BY "Filer_ID"
