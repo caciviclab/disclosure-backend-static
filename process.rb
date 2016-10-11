@@ -130,3 +130,9 @@ OaklandReferendum.find_each do |referendum|
     ))
   end
 end
+
+build_file('/stats') do |f|
+  f.puts JSON.pretty_generate(
+    date_processed: Date.today
+  )
+end
