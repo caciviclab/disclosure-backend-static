@@ -48,7 +48,7 @@ class OaklandCandidate < ActiveRecord::Base
         expenditures_by_type: calculation(:expenditures_by_type) || {},
       },
       opposing_money: {
-        contributions_received: 0,
+        opposing_expenditures: calculation(:total_opposing).try(:to_f),
       },
 
       # for backwards compatibility, these should also be exposed at the
