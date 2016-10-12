@@ -101,6 +101,9 @@ OaklandCommittee.includes(:calculations).find_each do |committee|
   build_file("/committee/#{committee['Filer_ID']}/contributions") do |f|
     f.puts JSON.pretty_generate(committee.calculation(:contribution_list) || [])
   end
+  build_file("/committee/#{committee['Filer_ID']}/opposing") do |f|
+    f.puts JSON.pretty_generate(committee.calculation(:opposition_list) || [])
+  end
 end
 
 OaklandReferendum.find_each do |referendum|
