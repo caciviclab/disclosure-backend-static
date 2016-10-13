@@ -12,7 +12,6 @@ SELECT "Filer_ID"::varchar, "Filer_NamL",
 FROM
   "efile_COAK_2016_E-Expenditure", oakland_name_to_number
 WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-AND "Sup_Opp_Cd" IS NOT NULL
 -- Get IE 
 UNION ALL
 SELECT "Filer_ID"::varchar, "Filer_NamL",
@@ -30,7 +29,7 @@ SELECT expend."Filer_ID"::varchar, expend."Filer_NamL",
 FROM
   "efile_COAK_2016_E-Expenditure" expend,
   oakland_committees committee
-WHERE "Sup_Opp_Cd" IS NULL
+WHERE "Bal_Name" IS NULL
   AND expend."Filer_ID" = committee."Filer_ID"
   AND "Ballot_Measure" IS NOT NULL
 UNION ALL

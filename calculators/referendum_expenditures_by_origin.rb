@@ -16,14 +16,11 @@ class ReferendumExpendituresByOrigin
 
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT
-        expenditures."Measure_Number",
-        expenditures."Sup_Opp_Cd",
+        "Ballot_Measure" AS "Measure_Number",
+        "Support_Or_Oppose" AS "Sup_Opp_Cd",
         contributions_by_locale.locale,
         SUM(contributions_by_locale.total) as total
-      FROM (
-        SELECT DISTINCT "Filer_ID", "Measure_Number", "Sup_Opp_Cd"
-        FROM "Measure_Expenditures"
-      ) expenditures,
+      FROM "oakland_committees" committees,
       (
         SELECT "Filer_ID",
         CASE
@@ -49,9 +46,9 @@ class ReferendumExpendituresByOrigin
         ) contributions
         GROUP BY "Filer_ID", locale
       ) contributions_by_locale
-      WHERE expenditures."Filer_ID" = contributions_by_locale."Filer_ID"
-      GROUP BY expenditures."Measure_Number", expenditures."Sup_Opp_Cd", contributions_by_locale.locale
-      ORDER BY expenditures."Measure_Number", expenditures."Sup_Opp_Cd", contributions_by_locale.locale;
+      WHERE committees."Filer_ID" = contributions_by_locale."Filer_ID"
+      GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale
+      ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
     SQL
 
     support_total = {}
