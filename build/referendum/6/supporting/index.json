@@ -11,20 +11,22 @@
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "payee": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "amount": 14827.630000000001
-    }
-  ],
-  "total_contributions": 147246.01,
-  "contributions_by_region": [
-    {
-      "amount": 641.63,
-      "locale": "Out of State"
     },
     {
-      "amount": 72376.87,
+      "id": "960997",
+      "name": "Friends of Oakland Public Schools Yes on G1 2016",
+      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
+      "amount": 32926.02
+    }
+  ],
+  "total_contributions": 60000.0,
+  "contributions_by_region": [
+    {
+      "amount": 6000.0,
       "locale": "Within California"
     },
     {
-      "amount": 74227.51,
+      "amount": 54000.0,
       "locale": "Within Oakland"
     }
   ]
