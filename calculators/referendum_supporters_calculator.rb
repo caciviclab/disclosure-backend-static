@@ -21,8 +21,10 @@ class ReferendumSupportersCalculator
       AND "Committee_Type" = 'BMC'        -- Ignore recipient committees' summary
                                           --   data since it represents more than
                                           --   just ballot measure expenditures
-      AND "Line_Item" = '9'               -- "Accrued Expenses (Unpaid Bills)"
-      OR "Line_Item" = '10'               -- "Non-monetary Adjustment"
+      AND (
+        "Line_Item" = '9'                 -- "Accrued Expenses (Unpaid Bills)"
+        OR "Line_Item" = '10'             -- "Non-monetary Adjustment"
+      )
       GROUP BY "Filer_ID"
     SQL
     summary_other = summary_other.index_by { |r| r['Filer_ID'] }
