@@ -16,11 +16,12 @@
   "party_affiliation": "Democrat",
   "filer_id": 1386741,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
+    "total_expenditures": 0.0,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
+      "Unitemized": 0.0
     },
     "expenditures_by_type": {
     }
@@ -28,11 +29,12 @@
   "opposing_money": {
     "opposing_expenditures": null
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 0.0,
+  "total_contributions": 0.0,
+  "total_expenditures": 0.0,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Unitemized": 0.0
   },
   "expenditures_by_type": {
   }

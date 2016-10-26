@@ -13,8 +13,12 @@
       "amount": 3791588.28
     }
   ],
-  "total_contributions": 4950000.0,
+  "total_contributions": 4952800.0,
   "contributions_by_region": [
+    {
+      "amount": 2800.0,
+      "locale": "Out of State"
+    },
     {
       "amount": 4950000.0,
       "locale": "Within California"

@@ -15,14 +15,14 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 5000.0,
+    "Tran_Amt1": 100.0,
     "Tran_Date": "2016-10-07",
     "Tran_NamF": "Orson",
     "Tran_NamL": "Aguilar"
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 100.0,
+    "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-10-07",
     "Tran_NamF": "Orson",
     "Tran_NamL": "Aguilar"
@@ -43,15 +43,29 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 3000.0,
-    "Tran_Date": "2016-04-15",
+    "Tran_Amt1": -3000.0,
+    "Tran_Date": "2016-05-10",
     "Tran_NamF": null,
     "Tran_NamL": "Asian Pacific Environmental Network"
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": -3000.0,
-    "Tran_Date": "2016-05-10",
+    "Tran_Amt1": 3591.0,
+    "Tran_Date": "2016-10-13",
+    "Tran_NamF": null,
+    "Tran_NamL": "Asian Pacific Environmental Network"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 5363.0,
+    "Tran_Date": "2016-10-23",
+    "Tran_NamF": null,
+    "Tran_NamL": "Asian Pacific Environmental Network"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 3000.0,
+    "Tran_Date": "2016-04-15",
     "Tran_NamF": null,
     "Tran_NamL": "Asian Pacific Environmental Network"
   },
@@ -61,6 +75,13 @@
     "Tran_Date": "2016-09-12",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Bassein"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 2000.0,
+    "Tran_Date": "2016-10-20",
+    "Tran_NamF": "Angela G",
+    "Tran_NamL": "Blackwell"
   },
   {
     "Filer_ID": "1364564",
@@ -80,27 +101,6 @@
     "Filer_ID": "1364564",
     "Tran_Amt1": 89.0,
     "Tran_Date": "2016-09-09",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
-  },
-  {
-    "Filer_ID": "1364564",
-    "Tran_Amt1": 13315.74,
-    "Tran_Date": "2016-01-01",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
-  },
-  {
-    "Filer_ID": "1364564",
-    "Tran_Amt1": 519.47,
-    "Tran_Date": "2016-08-15",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
-  },
-  {
-    "Filer_ID": "1364564",
-    "Tran_Amt1": 4585.65,
-    "Tran_Date": "2016-10-09",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
   },
@@ -141,15 +141,29 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 10000.0,
-    "Tran_Date": "2016-09-26",
+    "Tran_Amt1": 4585.65,
+    "Tran_Date": "2016-10-09",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 1144.95,
-    "Tran_Date": "2016-09-13",
+    "Tran_Amt1": 13315.74,
+    "Tran_Date": "2016-01-01",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 519.47,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 1020.82,
+    "Tran_Date": "2016-08-29",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
   },
@@ -162,8 +176,15 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 1020.82,
-    "Tran_Date": "2016-08-29",
+    "Tran_Amt1": 1144.95,
+    "Tran_Date": "2016-09-13",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 10000.0,
+    "Tran_Date": "2016-09-26",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))"
   },
@@ -194,6 +215,13 @@
     "Tran_Date": "2016-04-22",
     "Tran_NamF": null,
     "Tran_NamL": "East Bay Alliance for a Sustainable Economy"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 2500.0,
+    "Tran_Date": "2016-10-19",
+    "Tran_NamF": null,
+    "Tran_NamL": "East Bay Asian Local Development Corporation"
   },
   {
     "Filer_ID": "1364564",
@@ -229,6 +257,20 @@
     "Tran_Date": "2016-08-26",
     "Tran_NamF": "Heather",
     "Tran_NamL": "Hood"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 5000.0,
+    "Tran_Date": "2016-10-24",
+    "Tran_NamF": null,
+    "Tran_NamL": "Instructional Telecommunications Foundation, Inc. dba Voqal USA"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 5000.0,
+    "Tran_Date": "2016-10-17",
+    "Tran_NamF": null,
+    "Tran_NamL": "International Federation of Professional and Technical Engineers, Local 21 Issues PAC"
   },
   {
     "Filer_ID": "1364564",
@@ -288,6 +330,13 @@
   },
   {
     "Filer_ID": "1364564",
+    "Tran_Amt1": 3970.84,
+    "Tran_Date": "2016-10-19",
+    "Tran_NamF": null,
+    "Tran_NamL": "Mayor Libby Schaaf for Oakland"
+  },
+  {
+    "Filer_ID": "1364564",
     "Tran_Amt1": 1200.0,
     "Tran_Date": "2016-10-06",
     "Tran_NamF": null,
@@ -302,15 +351,15 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-04-22",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-07-26",
     "Tran_NamF": "Luke",
     "Tran_NamL": "Newton"
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-07-26",
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-04-22",
     "Tran_NamF": "Luke",
     "Tran_NamL": "Newton"
   },
@@ -323,15 +372,29 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 11845.16,
-    "Tran_Date": "2016-10-07",
+    "Tran_Amt1": 24966.0,
+    "Tran_Date": "2016-10-01",
     "Tran_NamF": null,
-    "Tran_NamL": "Oakland Working Families, sponsored by labor and community organizations"
+    "Tran_NamL": "Oakland Rising Committee sponsored by Movement Strategy Action Center"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 12296.0,
+    "Tran_Date": "2016-10-23",
+    "Tran_NamF": null,
+    "Tran_NamL": "Oakland Rising Committee sponsored by Movement Strategy Action Center"
   },
   {
     "Filer_ID": "1364564",
     "Tran_Amt1": 1650.76,
     "Tran_Date": "2016-09-24",
+    "Tran_NamF": null,
+    "Tran_NamL": "Oakland Working Families, sponsored by labor and community organizations"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 11845.16,
+    "Tran_Date": "2016-10-07",
     "Tran_NamF": null,
     "Tran_NamL": "Oakland Working Families, sponsored by labor and community organizations"
   },
@@ -355,6 +418,13 @@
     "Tran_Date": "2016-04-20",
     "Tran_NamF": "Daniel Louis",
     "Tran_NamL": "Robinson"
+  },
+  {
+    "Filer_ID": "1364564",
+    "Tran_Amt1": 1750.0,
+    "Tran_Date": "2016-10-19",
+    "Tran_NamF": "Kalima",
+    "Tran_NamL": "Rose"
   },
   {
     "Filer_ID": "1364564",
@@ -393,7 +463,7 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 2900.48,
+    "Tran_Amt1": 1450.24,
     "Tran_Date": "2016-01-08",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021"
@@ -407,22 +477,22 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 1450.24,
+    "Tran_Amt1": 2900.48,
     "Tran_Date": "2016-01-08",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021"
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 12000.0,
-    "Tran_Date": "2016-09-21",
+    "Tran_Amt1": 21000.0,
+    "Tran_Date": "2016-05-19",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC"
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 21000.0,
-    "Tran_Date": "2016-05-19",
+    "Tran_Amt1": 12000.0,
+    "Tran_Date": "2016-09-21",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC"
   },
@@ -435,6 +505,13 @@
   },
   {
     "Filer_ID": "1364564",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-07-05",
+    "Tran_NamF": "Alanya",
+    "Tran_NamL": "Snyder"
+  },
+  {
+    "Filer_ID": "1364564",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-05-11",
     "Tran_NamF": "Alanya",
@@ -442,10 +519,10 @@
   },
   {
     "Filer_ID": "1364564",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-07-05",
-    "Tran_NamF": "Alanya",
-    "Tran_NamL": "Snyder"
+    "Tran_Amt1": 50000.0,
+    "Tran_Date": "2016-10-17",
+    "Tran_NamF": null,
+    "Tran_NamL": "The San Francisco Foundation"
   },
   {
     "Filer_ID": "1364564",
