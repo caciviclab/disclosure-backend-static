@@ -26,6 +26,7 @@ class OaklandCandidate < ActiveRecord::Base
       photo_url: self['Photo'],
       website_url: self['Website'],
       twitter_url: self['Twitter'],
+      votersedge_url: self['VotersEdge'],
       first_name: first_name,
       last_name: last_name,
       ballot_item: office_election.id,
