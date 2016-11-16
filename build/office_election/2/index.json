@@ -90,41 +90,47 @@
       "party_affiliation": "Democrat",
       "filer_id": 1386922,
       "supporting_money": {
-        "contributions_received": 7429.0,
-        "total_contributions": 7429.0,
-        "total_expenditures": 2588.31,
+        "contributions_received": 10484.0,
+        "total_contributions": 10484.0,
+        "total_expenditures": 7121.21,
         "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Individual": 6150.0,
-          "Unitemized": 1279.0
+          "Individual": 6960.0,
+          "Unitemized": 1424.0,
+          "Other (includes Businesses)": 2100.0
         },
         "expenditures_by_type": {
-          "Office Expenses": 248.59,
+          "Office Expenses": 359.71,
           "Fundraising Events": 381.2,
+          "Campaign Consultants": 1375.0,
+          "Campaign Workers' Salaries": 1144.0,
           "Campaign Paraphernalia/Misc.": 195.0,
           "Candidate Filing/Ballot Fees": 300.0,
-          "Campaign Literature and Mailings": 1129.84,
-          "Information Technology Costs (Internet, E-mail)": 208.0
+          "Campaign Literature and Mailings": 2750.77,
+          "Information Technology Costs (Internet, E-mail)": 387.0
         }
       },
       "opposing_money": {
         "opposing_expenditures": null
       },
-      "contributions_received": 7429.0,
-      "total_contributions": 7429.0,
-      "total_expenditures": 2588.31,
+      "contributions_received": 10484.0,
+      "total_contributions": 10484.0,
+      "total_expenditures": 7121.21,
       "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Individual": 6150.0,
-        "Unitemized": 1279.0
+        "Individual": 6960.0,
+        "Unitemized": 1424.0,
+        "Other (includes Businesses)": 2100.0
       },
       "expenditures_by_type": {
-        "Office Expenses": 248.59,
+        "Office Expenses": 359.71,
         "Fundraising Events": 381.2,
+        "Campaign Consultants": 1375.0,
+        "Campaign Workers' Salaries": 1144.0,
         "Campaign Paraphernalia/Misc.": 195.0,
         "Candidate Filing/Ballot Fees": 300.0,
-        "Campaign Literature and Mailings": 1129.84,
-        "Information Technology Costs (Internet, E-mail)": 208.0
+        "Campaign Literature and Mailings": 2750.77,
+        "Information Technology Costs (Internet, E-mail)": 387.0
       }
     }
   ],

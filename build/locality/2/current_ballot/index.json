@@ -83,12 +83,12 @@
           "party_affiliation": "Democrat",
           "filer_id": 1382408,
           "supporting_money": {
-            "contributions_received": 110351.66,
-            "total_contributions": 110351.66,
+            "contributions_received": 111751.66,
+            "total_contributions": 111751.66,
             "total_expenditures": 64245.6,
             "total_loans_received": 6975.0,
             "contributions_by_type": {
-              "Committee": 9250.0,
+              "Committee": 10650.0,
               "Individual": 74147.0,
               "Unitemized": 9122.66,
               "Self Funding": 200.0,
@@ -110,12 +110,12 @@
           "opposing_money": {
             "opposing_expenditures": 12416.96
           },
-          "contributions_received": 110351.66,
-          "total_contributions": 110351.66,
+          "contributions_received": 111751.66,
+          "total_contributions": 111751.66,
           "total_expenditures": 64245.6,
           "total_loans_received": 6975.0,
           "contributions_by_type": {
-            "Committee": 9250.0,
+            "Committee": 10650.0,
             "Individual": 74147.0,
             "Unitemized": 9122.66,
             "Self Funding": 200.0,
@@ -228,41 +228,47 @@
           "party_affiliation": "Democrat",
           "filer_id": 1386922,
           "supporting_money": {
-            "contributions_received": 7429.0,
-            "total_contributions": 7429.0,
-            "total_expenditures": 2588.31,
+            "contributions_received": 10484.0,
+            "total_contributions": 10484.0,
+            "total_expenditures": 7121.21,
             "total_loans_received": 0.0,
             "contributions_by_type": {
-              "Individual": 6150.0,
-              "Unitemized": 1279.0
+              "Individual": 6960.0,
+              "Unitemized": 1424.0,
+              "Other (includes Businesses)": 2100.0
             },
             "expenditures_by_type": {
-              "Office Expenses": 248.59,
+              "Office Expenses": 359.71,
               "Fundraising Events": 381.2,
+              "Campaign Consultants": 1375.0,
+              "Campaign Workers' Salaries": 1144.0,
               "Campaign Paraphernalia/Misc.": 195.0,
               "Candidate Filing/Ballot Fees": 300.0,
-              "Campaign Literature and Mailings": 1129.84,
-              "Information Technology Costs (Internet, E-mail)": 208.0
+              "Campaign Literature and Mailings": 2750.77,
+              "Information Technology Costs (Internet, E-mail)": 387.0
             }
           },
           "opposing_money": {
             "opposing_expenditures": null
           },
-          "contributions_received": 7429.0,
-          "total_contributions": 7429.0,
-          "total_expenditures": 2588.31,
+          "contributions_received": 10484.0,
+          "total_contributions": 10484.0,
+          "total_expenditures": 7121.21,
           "total_loans_received": 0.0,
           "contributions_by_type": {
-            "Individual": 6150.0,
-            "Unitemized": 1279.0
+            "Individual": 6960.0,
+            "Unitemized": 1424.0,
+            "Other (includes Businesses)": 2100.0
           },
           "expenditures_by_type": {
-            "Office Expenses": 248.59,
+            "Office Expenses": 359.71,
             "Fundraising Events": 381.2,
+            "Campaign Consultants": 1375.0,
+            "Campaign Workers' Salaries": 1144.0,
             "Campaign Paraphernalia/Misc.": 195.0,
             "Candidate Filing/Ballot Fees": 300.0,
-            "Campaign Literature and Mailings": 1129.84,
-            "Information Technology Costs (Internet, E-mail)": 208.0
+            "Campaign Literature and Mailings": 2750.77,
+            "Information Technology Costs (Internet, E-mail)": 387.0
           }
         }
       ]
@@ -293,7 +299,7 @@
           "supporting_money": {
             "contributions_received": 119046.0,
             "total_contributions": 119046.0,
-            "total_expenditures": 87439.09,
+            "total_expenditures": 121350.28,
             "total_loans_received": 0.0,
             "contributions_by_type": {
               "Committee": 9900.0,
@@ -323,7 +329,7 @@
           },
           "contributions_received": 119046.0,
           "total_contributions": 119046.0,
-          "total_expenditures": 87439.09,
+          "total_expenditures": 121350.28,
           "total_loans_received": 0.0,
           "contributions_by_type": {
             "Committee": 9900.0,
@@ -600,7 +606,7 @@
             },
             "expenditures_by_type": {
               "Print Ads": 6879.9,
-              "Not Stated": 87010.89,
+              "Not Stated": 114796.33,
               "Phone Banks": 79.0,
               "Office Expenses": 55.0,
               "Fundraising Events": 300.8,
@@ -625,7 +631,7 @@
           },
           "expenditures_by_type": {
             "Print Ads": 6879.9,
-            "Not Stated": 87010.89,
+            "Not Stated": 114796.33,
             "Phone Banks": 79.0,
             "Office Expenses": 55.0,
             "Fundraising Events": 300.8,
@@ -797,7 +803,7 @@
               "Other (includes Businesses)": 2600.0
             },
             "expenditures_by_type": {
-              "Not Stated": 1989.33,
+              "Not Stated": 3894.33,
               "Office Expenses": 248.2,
               "Fundraising Events": 641.59,
               "Campaign Consultants": 1000.0,
@@ -820,7 +826,7 @@
             "Other (includes Businesses)": 2600.0
           },
           "expenditures_by_type": {
-            "Not Stated": 1989.33,
+            "Not Stated": 3894.33,
             "Office Expenses": 248.2,
             "Fundraising Events": 641.59,
             "Campaign Consultants": 1000.0,
@@ -866,7 +872,7 @@
               "Unitemized": 0.0
             },
             "expenditures_by_type": {
-              "Not Stated": 48302.14,
+              "Not Stated": 78327.14,
               "Phone Banks": 834.94,
               "Fundraising Events": 203.53,
               "Campaign Consultants": 1340.0,
@@ -889,7 +895,7 @@
             "Unitemized": 0.0
           },
           "expenditures_by_type": {
-            "Not Stated": 48302.14,
+            "Not Stated": 78327.14,
             "Phone Banks": 834.94,
             "Fundraising Events": 203.53,
             "Campaign Consultants": 1340.0,
@@ -1169,12 +1175,12 @@
           "party_affiliation": null,
           "filer_id": 1387905,
           "supporting_money": {
-            "contributions_received": 55676.0,
-            "total_contributions": 55676.0,
+            "contributions_received": 57076.0,
+            "total_contributions": 57076.0,
             "total_expenditures": 36349.16,
             "total_loans_received": 0.0,
             "contributions_by_type": {
-              "Committee": 6430.0,
+              "Committee": 7830.0,
               "Individual": 37450.0,
               "Unitemized": 496.0,
               "Other (includes Businesses)": 11300.0
@@ -1194,12 +1200,12 @@
           "opposing_money": {
             "opposing_expenditures": null
           },
-          "contributions_received": 55676.0,
-          "total_contributions": 55676.0,
+          "contributions_received": 57076.0,
+          "total_contributions": 57076.0,
           "total_expenditures": 36349.16,
           "total_loans_received": 0.0,
           "contributions_by_type": {
-            "Committee": 6430.0,
+            "Committee": 7830.0,
             "Individual": 37450.0,
             "Unitemized": 496.0,
             "Other (includes Businesses)": 11300.0
@@ -1244,7 +1250,7 @@
           "supporting_money": {
             "contributions_received": 7786.0,
             "total_contributions": 7786.0,
-            "total_expenditures": 3252.07,
+            "total_expenditures": 3254.65,
             "total_loans_received": 0.0,
             "contributions_by_type": {
               "Individual": 6250.0,
@@ -1262,7 +1268,7 @@
           },
           "contributions_received": 7786.0,
           "total_contributions": 7786.0,
-          "total_expenditures": 3252.07,
+          "total_expenditures": 3254.65,
           "total_loans_received": 0.0,
           "contributions_by_type": {
             "Individual": 6250.0,
@@ -1411,7 +1417,7 @@
               "Other (includes Businesses)": 3000.0
             },
             "expenditures_by_type": {
-              "Not Stated": 65093.94,
+              "Not Stated": 88339.72,
               "Fundraising Events": 126.9,
               "Voter Registration": 1600.0,
               "Campaign Consultants": 1500.0,
@@ -1436,7 +1442,7 @@
             "Other (includes Businesses)": 3000.0
           },
           "expenditures_by_type": {
-            "Not Stated": 65093.94,
+            "Not Stated": 88339.72,
             "Fundraising Events": 126.9,
             "Voter Registration": 1600.0,
             "Campaign Consultants": 1500.0,
