@@ -1,15 +1,15 @@
 [
   {
     "Filer_ID": "S10088",
-    "Tran_Amt1": -500.0,
-    "Tran_Date": "2016-03-21",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-02-24",
     "Tran_NamF": "Cathy",
     "Tran_NamL": "Adams"
   },
   {
     "Filer_ID": "S10088",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-02-24",
+    "Tran_Amt1": -500.0,
+    "Tran_Date": "2016-03-21",
     "Tran_NamF": "Cathy",
     "Tran_NamL": "Adams"
   },
@@ -57,15 +57,15 @@
   },
   {
     "Filer_ID": "S10088",
-    "Tran_Amt1": 70.0,
-    "Tran_Date": "2016-03-17",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-01-21",
     "Tran_NamF": "Nancy",
     "Tran_NamL": "Skinner"
   },
   {
     "Filer_ID": "S10088",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-01-21",
+    "Tran_Amt1": 70.0,
+    "Tran_Date": "2016-03-17",
     "Tran_NamF": "Nancy",
     "Tran_NamL": "Skinner"
   },
