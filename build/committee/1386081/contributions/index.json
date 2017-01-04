@@ -183,9 +183,9 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": -300.0,
-    "Tran_Date": "2016-10-19",
-    "Tran_NamF": "Pamela K.",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-06-30",
+    "Tran_NamF": "Jeffery T.",
     "Tran_NamL": "Corbett"
   },
   {
@@ -204,9 +204,9 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-06-30",
-    "Tran_NamF": "Jeffery T.",
+    "Tran_Amt1": -300.0,
+    "Tran_Date": "2016-10-19",
+    "Tran_NamF": "Pamela K.",
     "Tran_NamL": "Corbett"
   },
   {
@@ -311,14 +311,14 @@
     "Filer_ID": "1386081",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-06-29",
-    "Tran_NamF": "Paula",
+    "Tran_NamF": "David",
     "Tran_NamL": "Eisenberg"
   },
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-06-29",
-    "Tran_NamF": "David",
+    "Tran_NamF": "Paula",
     "Tran_NamL": "Eisenberg"
   },
   {
@@ -639,14 +639,14 @@
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-09-23",
+    "Tran_Date": "2016-07-22",
     "Tran_NamF": "Edward E.",
     "Tran_NamL": "Madigan"
   },
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-07-22",
+    "Tran_Date": "2016-09-23",
     "Tran_NamF": "Edward E.",
     "Tran_NamL": "Madigan"
   },
@@ -785,13 +785,6 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 300.0,
-    "Tran_Date": "2016-08-25",
-    "Tran_NamF": "Alexandra",
-    "Tran_NamL": "Murphy"
-  },
-  {
-    "Filer_ID": "1386081",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-06-28",
     "Tran_NamF": "Michael B.",
@@ -802,6 +795,13 @@
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-06-28",
     "Tran_NamF": "John F.",
+    "Tran_NamL": "Murphy"
+  },
+  {
+    "Filer_ID": "1386081",
+    "Tran_Amt1": 300.0,
+    "Tran_Date": "2016-08-25",
+    "Tran_NamF": "Alexandra",
     "Tran_NamL": "Murphy"
   },
   {
@@ -1128,16 +1128,16 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 150.0,
-    "Tran_Date": "2016-08-04",
-    "Tran_NamF": "John Hanna",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-06-28",
+    "Tran_NamF": "Thomas",
     "Tran_NamL": "Valva"
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-28",
-    "Tran_NamF": "Thomas",
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-08-04",
+    "Tran_NamF": "John Hanna",
     "Tran_NamL": "Valva"
   },
   {
