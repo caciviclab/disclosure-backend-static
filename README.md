@@ -20,7 +20,7 @@ no client code changes will be required.
 
 ```bash
 brew install gnumeric postgresql
-sudo pip install csvkit psycopg2
+sudo pip install -r requirements.txt
 gem install pg bundler
 bundle install
 ```
