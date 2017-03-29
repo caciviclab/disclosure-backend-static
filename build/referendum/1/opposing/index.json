@@ -10,18 +10,22 @@
       "id": "1385180",
       "name": "No on HH: No Oakland Grocery Tax, with Major Funding by American Beverage Association California PAC",
       "payee": "No on HH: No Oakland Grocery Tax, with Major Funding by American Beverage Association California PAC",
-      "amount": 6915540.98
+      "amount": 8057756.42
     }
   ],
-  "total_contributions": 7500200.6,
+  "total_contributions": 7891546.11,
   "contributions_by_region": [
     {
-      "amount": 30200.6,
+      "amount": 8391.91,
       "locale": "Out of State"
     },
     {
       "amount": 7470000.0,
       "locale": "Within California"
+    },
+    {
+      "amount": 413154.2000000002,
+      "locale": "Unknown"
     }
   ]
 }

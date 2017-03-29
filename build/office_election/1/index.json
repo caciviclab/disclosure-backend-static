@@ -82,55 +82,61 @@
       "party_affiliation": "Democrat",
       "filer_id": 1382408,
       "supporting_money": {
-        "contributions_received": 111751.66,
-        "total_contributions": 111751.66,
-        "total_expenditures": 64245.6,
-        "total_loans_received": 6975.0,
+        "contributions_received": 109521.66,
+        "total_contributions": 109521.66,
+        "total_expenditures": 131255.42,
+        "total_loans_received": 0.0,
         "contributions_by_type": {
           "Committee": 10650.0,
-          "Individual": 74147.0,
-          "Unitemized": 9122.66,
+          "Individual": 77692.0,
+          "Unitemized": 9622.66,
           "Self Funding": 200.0,
-          "Other (includes Businesses)": 10657.0
+          "Other (includes Businesses)": 11357.0
         },
         "expenditures_by_type": {
+          "": 1388.85,
+          "Print Ads": 300.0,
           "Civic Donations": 1000.0,
-          "Fundraising Events": 4948.38,
-          "Campaign Consultants": 23459.53,
+          "Fundraising Events": 12500.23,
+          "Campaign Consultants": 37769.07,
           "Meetings and Appearances": 200.0,
           "Campaign Workers' Salaries": 3500.0,
-          "Campaign Paraphernalia/Misc.": 19405.3,
-          "Campaign Literature and Mailings": 4096.31,
-          "Professional Services (Legal, Accounting)": 3000.0,
-          "Information Technology Costs (Internet, E-mail)": 3918.04,
-          "Independent Expenditure Supporting/Opposing Others": 300.0
+          "Campaign Paraphernalia/Misc.": 21458.91,
+          "Campaign Literature and Mailings": 36770.03,
+          "Professional Services (Legal, Accounting)": 10745.0,
+          "Information Technology Costs (Internet, E-mail)": 4226.01,
+          "Independent Expenditure Supporting/Opposing Others": 300.0,
+          "Transfer Between Committees of the Same Candidate/sponsor": 600.0
         }
       },
       "opposing_money": {
         "opposing_expenditures": 12416.96
       },
-      "contributions_received": 111751.66,
-      "total_contributions": 111751.66,
-      "total_expenditures": 64245.6,
-      "total_loans_received": 6975.0,
+      "contributions_received": 109521.66,
+      "total_contributions": 109521.66,
+      "total_expenditures": 131255.42,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
         "Committee": 10650.0,
-        "Individual": 74147.0,
-        "Unitemized": 9122.66,
+        "Individual": 77692.0,
+        "Unitemized": 9622.66,
         "Self Funding": 200.0,
-        "Other (includes Businesses)": 10657.0
+        "Other (includes Businesses)": 11357.0
       },
       "expenditures_by_type": {
+        "": 1388.85,
+        "Print Ads": 300.0,
         "Civic Donations": 1000.0,
-        "Fundraising Events": 4948.38,
-        "Campaign Consultants": 23459.53,
+        "Fundraising Events": 12500.23,
+        "Campaign Consultants": 37769.07,
         "Meetings and Appearances": 200.0,
         "Campaign Workers' Salaries": 3500.0,
-        "Campaign Paraphernalia/Misc.": 19405.3,
-        "Campaign Literature and Mailings": 4096.31,
-        "Professional Services (Legal, Accounting)": 3000.0,
-        "Information Technology Costs (Internet, E-mail)": 3918.04,
-        "Independent Expenditure Supporting/Opposing Others": 300.0
+        "Campaign Paraphernalia/Misc.": 21458.91,
+        "Campaign Literature and Mailings": 36770.03,
+        "Professional Services (Legal, Accounting)": 10745.0,
+        "Information Technology Costs (Internet, E-mail)": 4226.01,
+        "Independent Expenditure Supporting/Opposing Others": 300.0,
+        "Transfer Between Committees of the Same Candidate/sponsor": 600.0
       }
     }
   ],
