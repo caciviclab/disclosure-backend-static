@@ -47,9 +47,11 @@ class OaklandCandidate < ActiveRecord::Base
         total_loans_received: calculation(:total_loans_received).try(:to_f),
         contributions_by_type: calculation(:contributions_by_type) || {},
         expenditures_by_type: calculation(:expenditures_by_type) || {},
+        supporting_by_type: calculation(:supporting_by_type) || {},
       },
       opposing_money: {
         opposing_expenditures: calculation(:total_opposing).try(:to_f),
+        opposing_by_type: calculation(:opposing_by_type) || {},
       },
 
       # for backwards compatibility, these should also be exposed at the
