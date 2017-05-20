@@ -27,7 +27,7 @@
       "Unitemized": 3066.0
     },
     "expenditures_by_type": {
-      "": 700.0,
+      "Not Stated": 700.0,
       "Phone Banks": 1659.63,
       "Office Expenses": 2307.9,
       "Campaign Consultants": 3000.0,
@@ -35,10 +35,14 @@
       "Campaign Literature and Mailings": 7287.36,
       "Postage, Delivery and Messenger Services": 3818.95,
       "Professional Services (Legal, Accounting)": 3147.37
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 26966.0,
   "total_contributions": 26966.0,
@@ -50,7 +54,7 @@
     "Unitemized": 3066.0
   },
   "expenditures_by_type": {
-    "": 700.0,
+    "Not Stated": 700.0,
     "Phone Banks": 1659.63,
     "Office Expenses": 2307.9,
     "Campaign Consultants": 3000.0,

@@ -33,8 +33,8 @@
           "Other (includes Businesses)": 11200.0
         },
         "expenditures_by_type": {
-          "": 17406.96,
           "Print Ads": 1000.0,
+          "Not Stated": 17406.96,
           "Contribution": 750.0,
           "Civic Donations": 4600.0,
           "Office Expenses": 7051.9,
@@ -47,10 +47,14 @@
           "Candidate Travel, Lodging, and Meals": 91.39,
           "Professional Services (Legal, Accounting)": 12410.7,
           "Information Technology Costs (Internet, E-mail)": 3343.09
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 58231.08,
       "total_contributions": 58231.08,
@@ -63,8 +67,8 @@
         "Other (includes Businesses)": 11200.0
       },
       "expenditures_by_type": {
-        "": 17406.96,
         "Print Ads": 1000.0,
+        "Not Stated": 17406.96,
         "Contribution": 750.0,
         "Civic Donations": 4600.0,
         "Office Expenses": 7051.9,
@@ -116,10 +120,14 @@
           "Candidate Filing/Ballot Fees": 300.0,
           "Campaign Literature and Mailings": 3399.31,
           "Information Technology Costs (Internet, E-mail)": 387.0
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 10634.0,
       "total_contributions": 10634.0,

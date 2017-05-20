@@ -25,13 +25,17 @@
       "Unitemized": 382.0
     },
     "expenditures_by_type": {
-      "": 435.74,
+      "Not Stated": 435.74,
       "Campaign Paraphernalia/Misc.": 13557.03,
       "Professional Services (Legal, Accounting)": 850.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 20239.0,
   "total_contributions": 20239.0,
@@ -41,7 +45,7 @@
     "Unitemized": 382.0
   },
   "expenditures_by_type": {
-    "": 435.74,
+    "Not Stated": 435.74,
     "Campaign Paraphernalia/Misc.": 13557.03,
     "Professional Services (Legal, Accounting)": 850.0
   }

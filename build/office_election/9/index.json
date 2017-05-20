@@ -36,10 +36,14 @@
           "Campaign Paraphernalia/Misc.": 820.44,
           "Candidate Filing/Ballot Fees": 1477.0,
           "Campaign Literature and Mailings": 1559.56
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 67909.0,
       "total_contributions": 67909.0,

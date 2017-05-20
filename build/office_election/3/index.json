@@ -34,8 +34,8 @@
           "Other (includes Businesses)": 11950.0
         },
         "expenditures_by_type": {
-          "": 16605.58,
           "Print Ads": 1298.18,
+          "Not Stated": 16605.58,
           "Office Expenses": 15728.02,
           "Fundraising Events": 750.0,
           "Campaign Consultants": 41405.69,
@@ -47,10 +47,14 @@
           "Professional Services (Legal, Accounting)": 3583.75,
           "T.V. or Cable Airtime and Production Costs": 8000.0,
           "Information Technology Costs (Internet, E-mail)": 400.0
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 134374.0,
       "total_contributions": 134374.0,
@@ -64,8 +68,8 @@
         "Other (includes Businesses)": 11950.0
       },
       "expenditures_by_type": {
-        "": 16605.58,
         "Print Ads": 1298.18,
+        "Not Stated": 16605.58,
         "Office Expenses": 15728.02,
         "Fundraising Events": 750.0,
         "Campaign Consultants": 41405.69,
@@ -117,10 +121,14 @@
           "Campaign Literature and Mailings": 1056.73,
           "Professional Services (Legal, Accounting)": 5575.0,
           "Information Technology Costs (Internet, E-mail)": 1997.97
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 75623.14,
       "total_contributions": 75623.14,
@@ -173,10 +181,14 @@
           "Office Expenses": 145.97,
           "Campaign Paraphernalia/Misc.": 310.03,
           "Candidate Filing/Ballot Fees": 190.0
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 396.0,
       "total_contributions": 396.0,
@@ -217,10 +229,14 @@
         "contributions_by_type": {
         },
         "expenditures_by_type": {
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": null,
       "total_contributions": null,
@@ -273,10 +289,14 @@
           "Professional Services (Legal, Accounting)": 14215.1,
           "T.V. or Cable Airtime and Production Costs": 79500.0,
           "Information Technology Costs (Internet, E-mail)": 6488.21
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 198167.0,
       "total_contributions": 198167.0,

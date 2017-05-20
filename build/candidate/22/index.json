@@ -30,10 +30,14 @@
       "Office Expenses": 506.71,
       "Campaign Consultants": 2500.0,
       "Information Technology Costs (Internet, E-mail)": 265.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 8486.0,
   "total_contributions": 8486.0,

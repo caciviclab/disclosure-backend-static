@@ -28,10 +28,14 @@
       "Office Expenses": 145.97,
       "Campaign Paraphernalia/Misc.": 310.03,
       "Candidate Filing/Ballot Fees": 190.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 396.0,
   "total_contributions": 396.0,

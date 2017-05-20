@@ -29,8 +29,8 @@
       "Other (includes Businesses)": 11357.0
     },
     "expenditures_by_type": {
-      "": 1388.85,
       "Print Ads": 300.0,
+      "Not Stated": 1388.85,
       "Civic Donations": 1000.0,
       "Fundraising Events": 12500.23,
       "Campaign Consultants": 37769.07,
@@ -42,10 +42,17 @@
       "Information Technology Costs (Internet, E-mail)": 4226.01,
       "Independent Expenditure Supporting/Opposing Others": 300.0,
       "Transfer Between Committees of the Same Candidate/sponsor": 600.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 12416.96
+    "opposing_expenditures": 12416.96,
+    "opposing_by_type": {
+      "Design of mailer in opposition of Dan Kalb.": 1650.0,
+      "Printing of mailer in opposition to Dan Kalb": 2916.63,
+      "Mailing and Postage in opposition to Dan Kalb": 7850.33
+    }
   },
   "contributions_received": 109521.66,
   "total_contributions": 109521.66,
@@ -59,8 +66,8 @@
     "Other (includes Businesses)": 11357.0
   },
   "expenditures_by_type": {
-    "": 1388.85,
     "Print Ads": 300.0,
+    "Not Stated": 1388.85,
     "Civic Donations": 1000.0,
     "Fundraising Events": 12500.23,
     "Campaign Consultants": 37769.07,

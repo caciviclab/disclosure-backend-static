@@ -29,8 +29,8 @@
       "Other (includes Businesses)": 11950.0
     },
     "expenditures_by_type": {
-      "": 16605.58,
       "Print Ads": 1298.18,
+      "Not Stated": 16605.58,
       "Office Expenses": 15728.02,
       "Fundraising Events": 750.0,
       "Campaign Consultants": 41405.69,
@@ -42,10 +42,14 @@
       "Professional Services (Legal, Accounting)": 3583.75,
       "T.V. or Cable Airtime and Production Costs": 8000.0,
       "Information Technology Costs (Internet, E-mail)": 400.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 134374.0,
   "total_contributions": 134374.0,
@@ -59,8 +63,8 @@
     "Other (includes Businesses)": 11950.0
   },
   "expenditures_by_type": {
-    "": 16605.58,
     "Print Ads": 1298.18,
+    "Not Stated": 16605.58,
     "Office Expenses": 15728.02,
     "Fundraising Events": 750.0,
     "Campaign Consultants": 41405.69,

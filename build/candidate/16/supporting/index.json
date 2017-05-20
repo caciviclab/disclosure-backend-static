@@ -27,7 +27,7 @@
       "Other (includes Businesses)": 1750.0
     },
     "expenditures_by_type": {
-      "": 809.02,
+      "Not Stated": 809.02,
       "Office Expenses": 1710.94,
       "Fundraising Events": 147.81,
       "Voter Registration": 156.15,
@@ -39,10 +39,14 @@
       "Staff/Spouse Travel, Lodging, and Meals": 320.14,
       "Professional Services (Legal, Accounting)": 372.42,
       "Information Technology Costs (Internet, E-mail)": 100.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 5144.0,
   "total_contributions": 5144.0,
@@ -54,7 +58,7 @@
     "Other (includes Businesses)": 1750.0
   },
   "expenditures_by_type": {
-    "": 809.02,
+    "Not Stated": 809.02,
     "Office Expenses": 1710.94,
     "Fundraising Events": 147.81,
     "Voter Registration": 156.15,
