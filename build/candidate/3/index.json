@@ -36,10 +36,14 @@
       "Campaign Literature and Mailings": 1056.73,
       "Professional Services (Legal, Accounting)": 5575.0,
       "Information Technology Costs (Internet, E-mail)": 1997.97
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 75623.14,
   "total_contributions": 75623.14,

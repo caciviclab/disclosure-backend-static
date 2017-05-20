@@ -43,6 +43,11 @@ class CandidateExpendituresByType
           expenditures_by_type[human_name] = value
         end
       end
+      supporting_candidate_by_type.each do |filer_id, expenditures_by_type|
+        if value = expenditures_by_type.delete(short_name)
+          expenditures_by_type[human_name] = value
+        end
+      end
       opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
         if value = expenditures_by_type.delete(short_name)
           expenditures_by_type[human_name] = value
@@ -54,6 +59,10 @@ class CandidateExpendituresByType
     expenditures_by_candidate_by_type.each do |filer_id, expenditures_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
       candidate.save_calculation(:expenditures_by_type, expenditures_by_type)
+    end
+    supporting_candidate_by_type.each do |filer_id, expenditures_by_type|
+      candidate = @candidates_by_filer_id[filer_id.to_i]
+      candidate.save_calculation(:supporting_by_type, expenditures_by_type)
     end
     opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
@@ -69,22 +78,8 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Expn_Code is not set in 496 so we cannot just UNION them out.
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
-        FROM
-          (
-          SELECT "Filer_ID", "Expn_Code", "Amount"
-          FROM "efile_COAK_2016_E-Expenditure"
-          UNION ALL
-          SELECT "FPPC"::varchar AS "Filer_ID", '' AS "Expn_Code", "Amount"
-          FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
-          WHERE "Sup_Opp_Cd" = 'S'
-          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
-              AND "outer"."Exp_Date" = "inner"."Expn_Date"
-              AND "outer"."Amount" = "inner"."Amount"
-              AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
-          ) U
+        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
+        FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Expn_Code", "Filer_ID"
         ORDER BY "Expn_Code", "Filer_ID"
@@ -111,13 +106,49 @@ class CandidateExpendituresByType
   end
 
 
+  def supporting_candidate_by_type
+    @_supporting_candidate_by_type ||= {}.tap do |hash|
+      # Include expenses from the 24 hour IE report on FORM 496
+      # except those that are already in Schedule E.  Note that
+      # Expn_Code is not set in 496 so we use Expn_Dscr instead
+      results = ActiveRecord::Base.connection.execute <<-SQL
+        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
+        FROM
+          (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
+          FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
+          WHERE "Sup_Opp_Cd" = 'S'
+          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+          AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
+          UNION ALL
+          SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Dscr" AS "Expn_Code", "Amount"
+          FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
+          WHERE "Sup_Opp_Cd" = 'S'
+          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+          AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
+              WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
+              AND "outer"."Exp_Date" = "inner"."Expn_Date"
+              AND "outer"."Amount" = "inner"."Amount"
+              AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
+          ) U
+        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Expn_Code", "Filer_ID"
+        ORDER BY "Expn_Code", "Filer_ID"
+      SQL
+
+      results.to_a.each do |result|
+        hash[result['Filer_ID']] ||= {}
+        hash[result['Filer_ID']][result['Expn_Code']] = result['Total']
+      end
+    end
+  end
+
   def opposing_candidate_by_type
     @_opposing_candidate_by_type ||= {}.tap do |hash|
       # Include expenses from the 24 hour IE report on FORM 496
       # except those that are already in Schedule E.  Note that
-      # Expn_Code is not set in 496 so we cannot just UNION them out.
+      # Expn_Code is not set in 496 so we use Expn_Dscr instead
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
+        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
         FROM
           (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
           FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
@@ -125,7 +156,7 @@ class CandidateExpendituresByType
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
-          SELECT "FPPC"::varchar AS "Filer_ID", '' AS "Expn_Code", "Amount"
+          SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Dscr" AS "Expn_Code", "Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))

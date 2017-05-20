@@ -33,8 +33,8 @@
           "Other (includes Businesses)": 37631.69
         },
         "expenditures_by_type": {
-          "": 10826.1,
           "Print Ads": 500.0,
+          "Not Stated": 10826.1,
           "Contribution": 550.0,
           "Civic Donations": 700.0,
           "Office Expenses": 3595.76,
@@ -44,10 +44,23 @@
           "Candidate Filing/Ballot Fees": 300.0,
           "Campaign Literature and Mailings": 36593.49,
           "Professional Services (Legal, Accounting)": 21788.0
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": 40013.84
+        "opposing_expenditures": 40013.84,
+        "opposing_by_type": {
+          "Postage": 4714.25,
+          "Mailer Design": 1650.0,
+          "Mailer Printing": 2438.13,
+          "Mailhouse & Postage": 3699.26,
+          "Digital Ad in opposition to Noel Gallo": 9250.0,
+          "Design of mailer in opposition to Noel Gallo": 3300.0,
+          "Design of mailer in opposition of Noel Gallo.": 1650.0,
+          "Printing of mailer in opposition to Noel Gallo": 5913.68,
+          "Mailing and Postage in opposition to Noel Gallo": 7398.52
+        }
       },
       "contributions_received": 80100.69,
       "total_contributions": 80100.69,
@@ -60,8 +73,8 @@
         "Other (includes Businesses)": 37631.69
       },
       "expenditures_by_type": {
-        "": 10826.1,
         "Print Ads": 500.0,
+        "Not Stated": 10826.1,
         "Contribution": 550.0,
         "Civic Donations": 700.0,
         "Office Expenses": 3595.76,
@@ -104,16 +117,20 @@
           "Other (includes Businesses)": 3300.0
         },
         "expenditures_by_type": {
-          "": 455.45,
+          "Not Stated": 455.45,
           "Campaign Consultants": 18667.55,
           "Meetings and Appearances": 529.0,
           "Campaign Paraphernalia/Misc.": 3884.37,
           "Campaign Literature and Mailings": 33656.76,
           "Information Technology Costs (Internet, E-mail)": 3150.0
+        },
+        "supporting_by_type": {
         }
       },
       "opposing_money": {
-        "opposing_expenditures": null
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
       },
       "contributions_received": 84742.41,
       "total_contributions": 84742.41,
@@ -127,7 +144,7 @@
         "Other (includes Businesses)": 3300.0
       },
       "expenditures_by_type": {
-        "": 455.45,
+        "Not Stated": 455.45,
         "Campaign Consultants": 18667.55,
         "Meetings and Appearances": 529.0,
         "Campaign Paraphernalia/Misc.": 3884.37,

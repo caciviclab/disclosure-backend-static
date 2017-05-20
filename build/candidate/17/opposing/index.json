@@ -28,7 +28,6 @@
       "Other (includes Businesses)": 2600.0
     },
     "expenditures_by_type": {
-      "Not Stated": 3894.33,
       "Office Expenses": 248.2,
       "Fundraising Events": 2338.58,
       "Campaign Consultants": 1000.0,
@@ -36,10 +35,17 @@
       "Campaign Paraphernalia/Misc.": 3755.99,
       "Candidate Filing/Ballot Fees": 300.0,
       "Campaign Literature and Mailings": 15150.0
+    },
+    "supporting_by_type": {
+      "ESTIMATE OF STAFF TIME": 1941.33,
+      "Campaign Literature and Mailings": 48.0,
+      "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 1905.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 22344.0,
   "total_contributions": 22344.0,
@@ -52,7 +58,6 @@
     "Other (includes Businesses)": 2600.0
   },
   "expenditures_by_type": {
-    "Not Stated": 3894.33,
     "Office Expenses": 248.2,
     "Fundraising Events": 2338.58,
     "Campaign Consultants": 1000.0,

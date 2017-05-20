@@ -27,7 +27,6 @@
       "Unitemized": 0.0
     },
     "expenditures_by_type": {
-      "Not Stated": 78327.14,
       "Phone Banks": 834.94,
       "Fundraising Events": 203.53,
       "Campaign Consultants": 1340.0,
@@ -35,10 +34,22 @@
       "Campaign Literature and Mailings": 5458.08,
       "Professional Services (Legal, Accounting)": 200.0,
       "Information Technology Costs (Internet, E-mail)": 597.0
+    },
+    "supporting_by_type": {
+      "Print Ads": 2048.0,
+      "Phone Banks": 276.33,
+      "ESTIMATE OF LIT": 1800.0,
+      "ESTIMATE OF STAFF TIME": 19599.4,
+      "Campaign Paraphernalia/Misc.": 2702.11,
+      "Campaign Literature and Mailings": 45044.3,
+      "Information Technology Costs (Internet, E-mail)": 675.0,
+      "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 6182.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 17888.0,
   "total_contributions": 17888.0,
@@ -50,7 +61,6 @@
     "Unitemized": 0.0
   },
   "expenditures_by_type": {
-    "Not Stated": 78327.14,
     "Phone Banks": 834.94,
     "Fundraising Events": 203.53,
     "Campaign Consultants": 1340.0,

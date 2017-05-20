@@ -40,10 +40,14 @@
       "Professional Services (Legal, Accounting)": 14215.1,
       "T.V. or Cable Airtime and Production Costs": 79500.0,
       "Information Technology Costs (Internet, E-mail)": 6488.21
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 198167.0,
   "total_contributions": 198167.0,

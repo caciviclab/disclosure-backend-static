@@ -35,10 +35,14 @@
       "Candidate Filing/Ballot Fees": 300.0,
       "Campaign Literature and Mailings": 3399.31,
       "Information Technology Costs (Internet, E-mail)": 387.0
+    },
+    "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null
+    "opposing_expenditures": null,
+    "opposing_by_type": {
+    }
   },
   "contributions_received": 10634.0,
   "total_contributions": 10634.0,
