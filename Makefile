@@ -1,4 +1,4 @@
-.PHONY: clean import
+.PHONY: clean import run
 
 CD := $(shell pwd)
 
@@ -73,3 +73,6 @@ inputs/oakland_committees.csv:
 		'https://docs.google.com/spreadsheets/d/1272oaLyQhKwQa6RicA5tBso6wFruum-mgrNm3O3VogI/pub?gid=1995437960&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
+
+run:
+	bundle exec ruby server.rb
