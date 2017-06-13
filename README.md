@@ -33,6 +33,13 @@ make process
 # everything is output into the "build" folder
 ```
 
+If you want to serve the static JSON files via a local web server:
+
+```bash
+make run
+```
+
+
 ## Developing
 ### Adding a calculator
 
