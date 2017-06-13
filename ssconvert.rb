@@ -12,7 +12,7 @@ xlsx.sheets.each do |sheet|
   out = output_filename(sheet)
 
   $stderr.puts "  -> #{out}"
-  file = xlsx.sheet(sheet).each_row_streaming.each_entry
+  file = xlsx.sheet(sheet).to_enum(:each_row_streaming)
 
   headers = file.next
 
