@@ -41,8 +41,8 @@ import: inputs/efile_COAK_2016_A-Contributions.csv inputs/oakland_candidates.csv
 	./latest_only.sh efile_COAK_2016_Summary
 	./remove_duplicate_transactions.sh
 
-inputs/efile_COAK_%_A-Contributions.csv: downloads/efile_COAK_%.xlsx
-	ssconvert -S $< inputs/$(subst .xlsx,_%s.csv,$(shell basename $<))
+inputs/efile_COAK_2016_A-Contributions.csv: downloads/efile_COAK_2016.xlsx
+	ruby ssconvert.rb $<
 
 downloads/efile_COAK_%.xlsx: downloads/efile_COAK_%.zip
 	 unzip -p $< > $@

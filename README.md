@@ -19,7 +19,7 @@ no client code changes will be required.
 ## Installation
 
 ```bash
-brew install gnumeric postgresql
+brew install postgresql
 sudo pip install -r requirements.txt
 gem install pg bundler
 bundle install
