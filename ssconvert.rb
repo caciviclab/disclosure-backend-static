@@ -22,8 +22,10 @@ xlsx.sheets.each do |sheet|
     loop do
       row = file.next
 
-      # HACK: the datetimes seem to have a weird formatting string
-      # ("mm/dd/yyy") in the XLSX spreadsheet which has an extra "y" at the end.
+      # HACK: the datetimes in the XLSX spreadsheet seem to have a weird
+      # formatting string ("mm/dd/yyy") which has an extra "y" at the end. By
+      # converting the format string to "yyyy-mm-dd" we can get a date formatted
+      # properly for import into the database.
       row.each do |cell|
         if cell.type == :date
           cell.instance_variable_set(:@format, "yyyy-mm-dd")
