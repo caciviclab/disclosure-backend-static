@@ -9,5 +9,5 @@ cache:
 addons:
   postgresql: '9.6'
 script:
-  - make clean import process
+  - make clean download import process
   - ./bin/travis-deploy
