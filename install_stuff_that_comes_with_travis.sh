@@ -1,3 +1,4 @@
+sudo apt-get update
 sudo apt-get install --yes software-properties-common build-essential \
   python python-pip libpython-dev wget unzip zlib1g-dev git
 sudo add-apt-repository --yes "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main"
