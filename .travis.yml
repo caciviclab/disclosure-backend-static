@@ -1,9 +1,11 @@
 dist: trusty
 sudo: required
 install:
-  - ./bin/travis-install-dependencies
+  - pip install -r requirements.txt
   - bundle install
-cache: bundler
+cache:
+  - bundler
+  - pip
 addons:
   postgresql: '9.6'
 script:

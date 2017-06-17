@@ -11,5 +11,5 @@ ENV TRAVIS_BUILD_DIR /src
 
 ADD . /src
 RUN /src/bin/travis-create-docker-environment
-RUN /src/bin/travis-install-dependencies
+RUN bash -c 'cd /src && pip install -r requirements.txt'
 RUN bash -c 'cd /src && bundle install'
