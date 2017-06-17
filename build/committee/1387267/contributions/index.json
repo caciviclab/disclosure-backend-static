@@ -155,15 +155,15 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-08-01",
+    "Tran_Amt1": 1.0,
+    "Tran_Date": "2016-07-31",
     "Tran_NamF": "Peter",
     "Tran_NamL": "Coye"
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 1.0,
-    "Tran_Date": "2016-07-31",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-01",
     "Tran_NamF": "Peter",
     "Tran_NamL": "Coye"
   },
@@ -253,16 +253,16 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-09-17",
-    "Tran_NamF": "Victoria",
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Alan",
     "Tran_NamL": "Fong"
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-08-15",
-    "Tran_NamF": "Alan",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-17",
+    "Tran_NamF": "Victoria",
     "Tran_NamL": "Fong"
   },
   {
@@ -302,13 +302,6 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-10-27",
-    "Tran_NamF": "Robert",
-    "Tran_NamL": "Gee"
-  },
-  {
-    "Filer_ID": "1387267",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-07",
     "Tran_NamF": "Harry",
@@ -316,16 +309,23 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-08-07",
-    "Tran_NamF": "Victor",
-    "Tran_NamL": "Gong"
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-10-27",
+    "Tran_NamF": "Robert",
+    "Tran_NamL": "Gee"
   },
   {
     "Filer_ID": "1387267",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "Fanny",
+    "Tran_NamL": "Gong"
+  },
+  {
+    "Filer_ID": "1387267",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Victor",
     "Tran_NamL": "Gong"
   },
   {
@@ -555,15 +555,15 @@
   {
     "Filer_ID": "1387267",
     "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-09-30",
-    "Tran_NamF": "Patricia",
+    "Tran_Date": "2016-08-30",
+    "Tran_NamF": "Melvin",
     "Tran_NamL": "Quan"
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 30000.0,
-    "Tran_Date": "2016-12-15",
-    "Tran_NamF": "Bruce",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-30",
+    "Tran_NamF": "Patricia",
     "Tran_NamL": "Quan"
   },
   {
@@ -575,9 +575,9 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-08-30",
-    "Tran_NamF": "Melvin",
+    "Tran_Amt1": 30000.0,
+    "Tran_Date": "2016-12-15",
+    "Tran_NamF": "Bruce",
     "Tran_NamL": "Quan"
   },
   {
@@ -729,16 +729,9 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-08-17",
-    "Tran_NamF": "Douglas",
-    "Tran_NamL": "Wong"
-  },
-  {
-    "Filer_ID": "1387267",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-10-03",
-    "Tran_NamF": "William",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Karen",
     "Tran_NamL": "Wong"
   },
   {
@@ -750,9 +743,23 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-09-28",
-    "Tran_NamF": "Karen",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-12",
+    "Tran_NamF": "Peter",
+    "Tran_NamL": "Wong"
+  },
+  {
+    "Filer_ID": "1387267",
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Douglas",
+    "Tran_NamL": "Wong"
+  },
+  {
+    "Filer_ID": "1387267",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-06",
+    "Tran_NamF": "Robert",
     "Tran_NamL": "Wong"
   },
   {
@@ -764,9 +771,16 @@
   },
   {
     "Filer_ID": "1387267",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-08-12",
-    "Tran_NamF": "Peter",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-09-28",
+    "Tran_NamF": "Karen",
+    "Tran_NamL": "Wong"
+  },
+  {
+    "Filer_ID": "1387267",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-10-03",
+    "Tran_NamF": "William",
     "Tran_NamL": "Wong"
   },
   {
@@ -781,20 +795,6 @@
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-10-28",
     "Tran_NamF": "Douglas",
-    "Tran_NamL": "Wong"
-  },
-  {
-    "Filer_ID": "1387267",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-08-07",
-    "Tran_NamF": "Karen",
-    "Tran_NamL": "Wong"
-  },
-  {
-    "Filer_ID": "1387267",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-06",
-    "Tran_NamF": "Robert",
     "Tran_NamL": "Wong"
   },
   {

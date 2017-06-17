@@ -190,20 +190,6 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 1000.0,
-    "Tran_Date": "2016-10-03",
-    "Tran_NamF": "Pamela K.",
-    "Tran_NamL": "Corbett"
-  },
-  {
-    "Filer_ID": "1386081",
-    "Tran_Amt1": -300.0,
-    "Tran_Date": "2016-10-19",
-    "Tran_NamF": "Pamela K.",
-    "Tran_NamL": "Corbett"
-  },
-  {
-    "Filer_ID": "1386081",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Jeffery T.",
@@ -214,6 +200,20 @@
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Eveleen R.",
+    "Tran_NamL": "Corbett"
+  },
+  {
+    "Filer_ID": "1386081",
+    "Tran_Amt1": 1000.0,
+    "Tran_Date": "2016-10-03",
+    "Tran_NamF": "Pamela K.",
+    "Tran_NamL": "Corbett"
+  },
+  {
+    "Filer_ID": "1386081",
+    "Tran_Amt1": -300.0,
+    "Tran_Date": "2016-10-19",
+    "Tran_NamF": "Pamela K.",
     "Tran_NamL": "Corbett"
   },
   {
@@ -276,14 +276,14 @@
     "Filer_ID": "1386081",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-06-28",
-    "Tran_NamF": "Darcy",
+    "Tran_NamF": "James A.",
     "Tran_NamL": "Diamantine"
   },
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-06-28",
-    "Tran_NamF": "James A.",
+    "Tran_NamF": "Darcy",
     "Tran_NamL": "Diamantine"
   },
   {
@@ -653,14 +653,14 @@
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-09-23",
+    "Tran_Date": "2016-07-22",
     "Tran_NamF": "Edward E.",
     "Tran_NamL": "Madigan"
   },
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-07-22",
+    "Tran_Date": "2016-09-23",
     "Tran_NamF": "Edward E.",
     "Tran_NamL": "Madigan"
   },
@@ -806,16 +806,16 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 300.0,
-    "Tran_Date": "2016-08-25",
-    "Tran_NamF": "Alexandra",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-06-28",
+    "Tran_NamF": "Michael B.",
     "Tran_NamL": "Murphy"
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-28",
-    "Tran_NamF": "Michael B.",
+    "Tran_Amt1": 300.0,
+    "Tran_Date": "2016-08-25",
+    "Tran_NamF": "Alexandra",
     "Tran_NamL": "Murphy"
   },
   {
@@ -918,15 +918,15 @@
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": -500.0,
-    "Tran_Date": "2016-07-14",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-06-28",
     "Tran_NamF": "Nina M.",
     "Tran_NamL": "Patane"
   },
   {
     "Filer_ID": "1386081",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-06-28",
+    "Tran_Amt1": -500.0,
+    "Tran_Date": "2016-07-14",
     "Tran_NamF": "Nina M.",
     "Tran_NamL": "Patane"
   },
@@ -1073,15 +1073,15 @@
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-11-03",
-    "Tran_NamF": "Niki L.",
+    "Tran_Date": "2016-09-09",
+    "Tran_NamF": "Patricia A.",
     "Tran_NamL": "Smith"
   },
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-09-09",
-    "Tran_NamF": "Patricia A.",
+    "Tran_Date": "2016-11-03",
+    "Tran_NamF": "Niki L.",
     "Tran_NamL": "Smith"
   },
   {
@@ -1129,15 +1129,15 @@
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-08-25",
-    "Tran_NamF": "Claudia E.",
+    "Tran_Date": "2016-07-22",
+    "Tran_NamF": "Kathleen C.",
     "Tran_NamL": "Toomey"
   },
   {
     "Filer_ID": "1386081",
     "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-07-22",
-    "Tran_NamF": "Kathleen C.",
+    "Tran_Date": "2016-08-25",
+    "Tran_NamF": "Claudia E.",
     "Tran_NamL": "Toomey"
   },
   {

@@ -40,8 +40,8 @@ class CommitteeContributionListCalculator
 
     @committees.each do |committee|
       filer_id = committee['Filer_ID'].to_s
-      sorted =
-        Array(contributions_by_committee[filer_id]).sort_by { |row| row['Tran_NamL'] }
+      sorted = Array(contributions_by_committee[filer_id])
+        .sort_by { |row| [row['Tran_NamL'], row['Tran_Date']] }
 
       committee.save_calculation(:contribution_list, sorted)
     end

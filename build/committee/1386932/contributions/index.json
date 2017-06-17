@@ -50,15 +50,15 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": -100.0,
-    "Tran_Date": "2016-11-30",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-11-16",
     "Tran_NamF": "Michael Anthony",
     "Tran_NamL": "Benson Sr."
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-11-16",
+    "Tran_Amt1": -100.0,
+    "Tran_Date": "2016-11-30",
     "Tran_NamF": "Michael Anthony",
     "Tran_NamL": "Benson Sr."
   },
@@ -85,16 +85,16 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-11-05",
-    "Tran_NamF": "Sierra",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-13",
+    "Tran_NamF": "Lewis",
     "Tran_NamL": "Bundy"
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-09-13",
-    "Tran_NamF": "Lewis",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-11-05",
+    "Tran_NamF": "Sierra",
     "Tran_NamL": "Bundy"
   },
   {
@@ -225,16 +225,9 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-10-09",
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-08-03",
     "Tran_NamF": "Nia M.",
-    "Tran_NamL": "Imara"
-  },
-  {
-    "Filer_ID": "1386932",
-    "Tran_Amt1": 2000.0,
-    "Tran_Date": "2016-10-12",
-    "Tran_NamF": "Nehanda Z.",
     "Tran_NamL": "Imara"
   },
   {
@@ -246,9 +239,16 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 150.0,
-    "Tran_Date": "2016-08-03",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-10-09",
     "Tran_NamF": "Nia M.",
+    "Tran_NamL": "Imara"
+  },
+  {
+    "Filer_ID": "1386932",
+    "Tran_Amt1": 2000.0,
+    "Tran_Date": "2016-10-12",
+    "Tran_NamF": "Nehanda Z.",
     "Tran_NamL": "Imara"
   },
   {
@@ -323,8 +323,8 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-10-28",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-09-24",
     "Tran_NamF": "Anna",
     "Tran_NamL": "Lee"
   },
@@ -337,8 +337,8 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-09-24",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-10-28",
     "Tran_NamF": "Anna",
     "Tran_NamL": "Lee"
   },
@@ -435,15 +435,15 @@
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-11-11",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-11-02",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Roth"
   },
   {
     "Filer_ID": "1386932",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-11-02",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-11-11",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Roth"
   },
