@@ -10,6 +10,6 @@ ENV LC_ALL en_US.UTF-8
 ENV TRAVIS_BUILD_DIR /src
 
 ADD . /src
-RUN bash /src/install_stuff_that_comes_with_travis.sh
-RUN bash /src/install_everything.sh
+RUN /src/bin/travis-create-docker-environment
+RUN /src/bin/travis-install-dependencies
 RUN 'cd /src && bundle install'

@@ -1,0 +1,13 @@
+#!/bin/bash
+# This script is run by the .travis.yml in the repository and installs
+# dependencies of the application.
+set -exuo pipefail
+
+# Install system level dependencies
+sudo apt-get update -qq
+sudo apt-get install wget unzip zlib1g-dev git
+
+# Install application dependencies
+cd $TRAVIS_BUILD_DIR
+# TODO: figure out why this isn't caching on Travis
+pip install -r requirements.txt

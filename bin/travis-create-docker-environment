@@ -1,3 +1,9 @@
+#!/bin/bash
+# This script is meant to NOT run on Travis because all this stuff comes
+# pre-installed.  Rather, this script installs the same things in a Docker
+# container (ubuntu:trusty) from scratch, for testing changes locally.
+set -euo pipefail
+
 sudo apt-get update
 sudo apt-get install --yes software-properties-common build-essential \
   python python-pip libpython-dev wget unzip zlib1g-dev git

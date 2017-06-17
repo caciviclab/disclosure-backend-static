@@ -1,11 +1,11 @@
 dist: trusty
 sudo: required
 install:
-  - ./install_everything.sh
+  - ./bin/travis-install-dependencies
   - bundle install
 cache: bundler
 addons:
   postgresql: '9.6'
 script:
   - make clean import process
-  - ./travis_deploy_update.sh
+  - ./bin/travis-deploy
