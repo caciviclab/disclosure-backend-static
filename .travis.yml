@@ -1,8 +1,8 @@
 dist: trusty
 sudo: required
 install: ./install_everything.sh
-before_script:
-  - /etc/init.d/postgresql start
+addons:
+  postgresql: '9.6'
 script:
   - make clean import process
   - git add build
