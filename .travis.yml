@@ -9,4 +9,4 @@ script:
   - git config --global user.name 'Tom Dooner'
   - git config --global user.email 'tomdooner@gmail.com'
   - git commit -m 'Run `make clean import process`'
-  - git push https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git
+  - git push --force "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" HEAD:test_auto_updating | sed -e "s/$GITHUB_AUTH_TOKEN//"
