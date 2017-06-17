@@ -12,4 +12,4 @@ ENV TRAVIS_BUILD_DIR /src
 ADD . /src
 RUN /src/bin/travis-create-docker-environment
 RUN /src/bin/travis-install-dependencies
-RUN 'cd /src && bundle install'
+RUN bash -c 'cd /src && bundle install'
