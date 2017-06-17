@@ -12,3 +12,4 @@ ENV TRAVIS_BUILD_DIR /src
 ADD . /src
 RUN bash /src/install_stuff_that_comes_with_travis.sh
 RUN bash /src/install_everything.sh
+RUN 'cd /src && bundle install'
