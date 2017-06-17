@@ -12,6 +12,7 @@ class ReferendumSupportersCalculator
         SUM("Amount") AS "Total_Amount"
       FROM "Measure_Expenditures"
       GROUP BY "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd"
+      ORDER BY "Filer_NamL" ASC
     SQL
 
     summary_other = ActiveRecord::Base.connection.execute(<<-SQL)
