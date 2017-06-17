@@ -1,6 +1,7 @@
 dist: trusty
 sudo: required
 install: ./install_everything.sh
+cache: bundler
 addons:
   postgresql: '9.6'
 script:
