@@ -9,17 +9,20 @@ process: process.rb
 	rm -rf build && ruby process.rb
 
 download: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
-	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv
+	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
+	download-2016 download-2017
+
+download-%:
 	mkdir -p downloads/raw
-	wget -O downloads/raw/efile_COAK_2016.zip --no-verbose \
-		http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_COAK_2016.zip
-	unzip -p downloads/raw/efile_COAK_2016.zip > downloads/raw/efile_COAK_2016.xlsx
-	ruby ssconvert.rb downloads/raw/efile_COAK_2016.xlsx 'downloads/csv/efile_COAK_2016_%{sheet}.csv'
+	wget -O downloads/raw/efile_COAK_$(subst download-,,$@).zip --no-verbose \
+		http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_COAK_$(subst download-,,$@).zip
+	unzip -p downloads/raw/efile_COAK_$(subst download-,,$@).zip > downloads/raw/efile_COAK_$(subst download-,,$@).xlsx
+	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-,,$@)_%{sheet}.csv'
 
 import:
 	dropdb disclosure-backend || true
 	createdb disclosure-backend
-	csvsql --db postgresql:///disclosure-backend --insert downloads/csv/efile_COAK_2016_*.csv
+	csvsql --db postgresql:///disclosure-backend --insert downloads/csv/efile_COAK_*.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_referendums.csv
