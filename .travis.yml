@@ -1,3 +1,4 @@
+sudo: required
 install: ./install_everything.sh
 before_script:
   - /etc/init.d/postgresql start
