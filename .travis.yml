@@ -1,0 +1,10 @@
+install: ./install_everything.sh
+before_script:
+  - /etc/init.d/postgresql start
+script:
+  - make clean import process
+  - git add build
+  - git config --global user.name 'Tom Dooner'
+  - git config --global user.email 'tomdooner@gmail.com'
+  - git commit -m 'Run `make clean import process`'
+  - git push https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git
