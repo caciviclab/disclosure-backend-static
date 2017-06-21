@@ -1,0 +1,13 @@
+dist: trusty
+sudo: required
+install:
+  - pip install -r requirements.txt
+  - bundle install
+cache:
+  - bundler
+  - pip
+addons:
+  postgresql: '9.6'
+script:
+  - make clean import process
+  - ./bin/travis-deploy
