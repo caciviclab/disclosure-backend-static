@@ -8,7 +8,7 @@ deploy() {
   git config --global user.email 'tomdooner@gmail.com'
   git commit -m 'Run `make clean import process`
 
-This is an automated update by travis-ci at '$(date)'
+This is an automated update by travis-ci at '"$(date)"'
 [skip ci]'
   git push --force \
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
