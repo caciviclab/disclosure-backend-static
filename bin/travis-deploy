@@ -14,6 +14,10 @@ This is an automated update by travis-ci at '"$(date)"'
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
     HEAD:master \
     | sed -e "s/$GITHUB_AUTH_TOKEN//"
+  git push \
+    "https://:$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
+    HEAD:master \
+    | sed -e "s/$HEROKU_API_KEY//"
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" = "cron" -o "${TRAVIS_BRANCH}" = "automatic_updating" ]; then
