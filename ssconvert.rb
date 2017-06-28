@@ -1,22 +1,25 @@
+# Usage:
+# ./ssconvert.rb [input xlsx] [output filename]
+#
+# For example:
+# ./ssconvert.rb stuff.xlsx out_%{sheet}.csv
+#
+# The '%{sheet}' will be interpolated with the name of the sheet.
 require 'roo'
-
-def output_filename(sheet)
-  "inputs/efile_COAK_2016_#{sheet}.csv"
-end
 
 xlsx = Roo::Spreadsheet.open(ARGV[0])
 
 $stderr.puts "Converting #{ARGV[0]} to a series of CSV files..."
 
 xlsx.sheets.each do |sheet|
-  out = output_filename(sheet)
+  output_filename = ARGV[1] % { sheet: sheet }
 
-  $stderr.puts "  -> #{out}"
+  $stderr.puts "  -> #{output_filename}"
   file = xlsx.sheet(sheet).to_enum(:each_row_streaming)
 
   headers = file.next
 
-  CSV.open(out, 'wb') do |csv|
+  CSV.open(output_filename, 'wb') do |csv|
     csv << headers
 
     loop do
