@@ -15,7 +15,7 @@ This is an automated update by travis-ci at '"$(date)"'
     HEAD:master \
     | sed -e "s/$GITHUB_AUTH_TOKEN//"
   git push \
-    "https://$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
+    "https://:$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
     HEAD:master \
     | sed -e "s/$HEROKU_API_KEY//"
 }
