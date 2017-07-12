@@ -13,15 +13,12 @@ This is an automated update by travis-ci at '"$(date)"'
   git push \
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
     HEAD:master \
-    | sed -e "s/$GITHUB_AUTH_TOKEN//"
-
-  echo "Deploying with API KEY hash:"
-  echo "$HEROKU_API_KEY" | openssl sha1
+    | sed -e "s/$GITHUB_AUTH_TOKEN/[removed]/"
 
   git push \
-    "https://:$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
+    "https://tomdooner+disclosure-backend-static:$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
     HEAD:master -vvv 2>&1 \
-    | sed -e "s/$HEROKU_API_KEY//"
+    | sed -e "s/$HEROKU_API_KEY/[removed]/"
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" = "cron" -o "${TRAVIS_BRANCH}" = "automatic_updating" ]; then
