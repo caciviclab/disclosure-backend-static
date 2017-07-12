@@ -136,6 +136,6 @@ end
 
 build_file('/stats') do |f|
   f.puts JSON.pretty_generate(
-    date_processed: Date.today
+    date_processed: TZInfo::Timezone.get('America/Los_Angeles').now.to_date,
   )
 end
