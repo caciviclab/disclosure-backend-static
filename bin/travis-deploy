@@ -14,6 +14,10 @@ This is an automated update by travis-ci at '"$(date)"'
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
     HEAD:master \
     | sed -e "s/$GITHUB_AUTH_TOKEN//"
+
+  echo "Deploying with API KEY hash:"
+  echo "$HEROKU_API_KEY" | openssl sha1
+
   git push \
     "https://:$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
     HEAD:master -vvv 2>&1 \
