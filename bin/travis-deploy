@@ -4,8 +4,8 @@ set -euo pipefail
 deploy() {
   set -x
   git add build
-  git config --global user.name 'Tom Dooner'
-  git config --global user.email 'tomdooner@gmail.com'
+  git config --global user.name 'OpenDisclosure Deploybot'
+  git config --global user.email 'open-disclosure@gmail.com'
   git commit -m 'Run `make clean import process`
 
 This is an automated update by travis-ci at '"$(date)"'
