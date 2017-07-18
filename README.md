@@ -25,7 +25,8 @@ gem install pg bundler
 bundle install
 ```
 Note: if you use brew you might get an error while doing the bundle install:
-```error: use of undeclared identifier 'LZMA_OK' 
+```
+error: use of undeclared identifier 'LZMA_OK' 
 ```
 Try:
 ```
