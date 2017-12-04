@@ -11,7 +11,7 @@ class TotalContributionsCalculator
 
     summary_results = ActiveRecord::Base.connection.execute <<-SQL
       SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A"
-      FROM "efile_COAK_2016_Summary"
+      FROM "Summary"
       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
       AND "Line_Item" = '5'
@@ -30,7 +30,7 @@ class TotalContributionsCalculator
     # `./../remove_duplicate_transactionts.sh`)
     late_results = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Filer_ID", SUM("Amount") AS "Total"
-      FROM "efile_COAK_2016_497"
+      FROM "497"
       WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
       AND "Form_Type" = 'F497P1'
       GROUP BY "Filer_ID"

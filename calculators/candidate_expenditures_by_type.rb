@@ -79,7 +79,7 @@ class CandidateExpendituresByType
       # Expn_Code is not set in 496 so we cannot just UNION them out.
       results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
-        FROM "efile_COAK_2016_E-Expenditure"
+        FROM "E-Expenditure"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Expn_Code", "Filer_ID"
         ORDER BY "Expn_Code", "Filer_ID"
@@ -91,7 +91,7 @@ class CandidateExpendituresByType
       # Stated".
       late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
         SELECT "Filer_ID", '' AS "Expn_Code", SUM("Amount") AS "Total"
-        FROM "efile_COAK_2016_497"
+        FROM "497"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         AND "Form_Type" = 'F497P2'
         GROUP BY "Filer_ID"
@@ -115,16 +115,16 @@ class CandidateExpendituresByType
         SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
         FROM
           (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
-          FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
+          FROM "E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
           SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Dscr" AS "Expn_Code", "Amount"
-          FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
+          FROM "496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
+          AND NOT EXISTS (SELECT 1 from "E-Expenditure" AS "inner"
               WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
               AND "outer"."Exp_Date" = "inner"."Expn_Date"
               AND "outer"."Amount" = "inner"."Amount"
@@ -151,16 +151,16 @@ class CandidateExpendituresByType
         SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
         FROM
           (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
-          FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
+          FROM "E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
           SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Dscr" AS "Expn_Code", "Amount"
-          FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
+          FROM "496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
+          AND NOT EXISTS (SELECT 1 from "E-Expenditure" AS "inner"
               WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
               AND "outer"."Exp_Date" = "inner"."Expn_Date"
               AND "outer"."Amount" = "inner"."Amount"

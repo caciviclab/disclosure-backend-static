@@ -7,13 +7,13 @@ class CommitteeContributionListCalculator
     results = ActiveRecord::Base.connection.execute(<<-SQL)
       -- Schedule A Monetary Contributions
       SELECT "Filer_ID"::varchar, "Tran_Amt1", "Tran_NamF", "Tran_NamL", "Tran_Date"
-      FROM "efile_COAK_2016_A-Contributions"
+      FROM "A-Contributions"
       WHERE "Filer_ID"::varchar IN (#{filer_ids})
       UNION
 
       -- Schedule C In-Kind contributions
       SELECT "Filer_ID"::varchar, "Tran_Amt1", "Tran_NamF", "Tran_NamL", "Tran_Date"
-      FROM "efile_COAK_2016_C-Contributions"
+      FROM "C-Contributions"
       WHERE "Filer_ID"::varchar IN (#{filer_ids})
       UNION
 
@@ -24,7 +24,7 @@ class CommitteeContributionListCalculator
         "Enty_NamF" AS "Tran_NamF",
         "Enty_NamL" AS "Tran_NamL",
         "Ctrib_Date" AS "Tran_Date"
-      FROM "efile_COAK_2016_497"
+      FROM "497"
       WHERE "Form_Type" = 'F497P1'
       AND "Filer_ID"::varchar IN (#{filer_ids})
 
