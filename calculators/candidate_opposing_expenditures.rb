@@ -12,12 +12,12 @@ class CandidateOpposingExpenditure
       FROM (
         SELECT "Filer_NamL", "Exp_Date",
           "Cand_NamF", "Cand_NamL", "Amount"
-        FROM "efile_COAK_2016_496"
+        FROM "496"
         WHERE "Cand_NamL" IS NOT NULL
         AND "Sup_Opp_Cd" = 'O'
         UNION ALL
         SELECT "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
-        FROM "efile_COAK_2016_E-Expenditure"
+        FROM "E-Expenditure"
         WHERE "Cand_NamL" IS NOT NULL
         AND "Sup_Opp_Cd" = 'O'
       ) AS U,

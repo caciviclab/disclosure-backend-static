@@ -10,7 +10,7 @@ process: process.rb
 
 download: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
 	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
-	download-2016 download-2017
+	download-2015 download-2016 download-2017
 
 download-%:
 	mkdir -p downloads/raw
@@ -19,10 +19,9 @@ download-%:
 	unzip -p downloads/raw/efile_COAK_$(subst download-,,$@).zip > downloads/raw/efile_COAK_$(subst download-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-,,$@)_%{sheet}.csv'
 
-import:
-	dropdb disclosure-backend || true
-	createdb disclosure-backend
-	csvsql --db postgresql:///disclosure-backend --insert downloads/csv/efile_COAK_*.csv
+import: dropdb createdb 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
+		D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
+		F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_referendums.csv
@@ -33,23 +32,18 @@ import:
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
 	./make_view.sh
-	./latest_only.sh efile_COAK_2016_496
-	./latest_only.sh efile_COAK_2016_497
-	./latest_only.sh efile_COAK_2016_A-Contributions
-	./latest_only.sh efile_COAK_2016_B1-Loans
-	./latest_only.sh efile_COAK_2016_B2-Loans
-	./latest_only.sh efile_COAK_2016_C-Contributions
-	./latest_only.sh efile_COAK_2016_D-Expenditure
-	./latest_only.sh efile_COAK_2016_E-Expenditure
-	./latest_only.sh efile_COAK_2016_F-Expenses
-	./latest_only.sh efile_COAK_2016_F461P5-Expenditure
-	./latest_only.sh efile_COAK_2016_F465P3-Expenditure
-	./latest_only.sh efile_COAK_2016_F496P3-Contributions
-	./latest_only.sh efile_COAK_2016_G-Expenditure
-	./latest_only.sh efile_COAK_2016_H-Loans
-	./latest_only.sh efile_COAK_2016_I-Contributions
-	./latest_only.sh efile_COAK_2016_Summary
 	./remove_duplicate_transactions.sh
+
+dropdb:
+	dropdb disclosure-backend || true
+
+createdb:
+	createdb disclosure-backend
+
+496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
+	./load.sh $@
+	./clean.sh $@
+	./latest_only.sh $@
 
 downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv

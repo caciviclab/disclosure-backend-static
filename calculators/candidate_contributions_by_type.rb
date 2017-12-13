@@ -60,16 +60,16 @@ class CandidateContributionsByType
         FROM
           (
             SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
-            FROM "efile_COAK_2016_A-Contributions"
+            FROM "A-Contributions"
             UNION ALL
             SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
-            FROM "efile_COAK_2016_C-Contributions"
+            FROM "C-Contributions"
             UNION ALL
             SELECT "Filer_ID"::varchar, "Entity_Cd",
               "Amount" as "Tran_Amt1",
               "Enty_NamF" as "Tran_NamF",
               "Enty_NamL" as "Tran_NamL"
-            FROM "efile_COAK_2016_497"
+            FROM "497"
             WHERE "Form_Type" = 'F497P1'
           ) AS U
           LEFT OUTER JOIN
@@ -96,7 +96,7 @@ class CandidateContributionsByType
   def unitemized_contributions_by_candidate
     @_unitemized_contributions_by_candidate ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "efile_COAK_2016_Summary"
+        SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "Summary"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND "Form_Type" = 'A' AND "Line_Item" = '2'
         GROUP BY "Filer_ID"

@@ -31,17 +31,17 @@ class ReferendumExpendituresByOrigin
         SUM("Tran_Amt1") AS total
         FROM (
           SELECT "Filer_ID", "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
-          FROM "efile_COAK_2016_A-Contributions"
+          FROM "A-Contributions"
           UNION
           SELECT "Filer_ID"::varchar, "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
-          FROM "efile_COAK_2016_C-Contributions"
+          FROM "C-Contributions"
           UNION
           SELECT "Filer_ID"::varchar,
             "Enty_City" as "Tran_City",
             "Enty_ST" as "Tran_State",
             "Amount" as "Tran_Amt1",
             "Tran_ID"
-          FROM "efile_COAK_2016_497"
+          FROM "497"
           WHERE "Form_Type" = 'F497P1'
         ) contributions
         GROUP BY "Filer_ID", locale

@@ -17,7 +17,7 @@ class ReferendumSupportersCalculator
 
     summary_other = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Filer_ID", SUM("Amount_A") as "Summary_Other_Expenditures"
-      FROM "efile_COAK_2016_Summary"
+      FROM "Summary"
       WHERE "Form_Type" = 'F460'
       AND "Committee_Type" = 'BMC'        -- Ignore recipient committees' summary
                                           --   data since it represents more than
@@ -121,7 +121,7 @@ class ReferendumSupportersCalculator
       begin
         guesses = ActiveRecord::Base.connection.execute(<<-SQL)
           SELECT "Filer_ID", "Bal_Name", "Sup_Opp_Cd"
-          FROM "efile_COAK_2016_E-Expenditure"
+          FROM "E-Expenditure"
           WHERE "Bal_Name" IS NOT NULL
           GROUP BY "Filer_ID", "Bal_Name", "Sup_Opp_Cd"
         SQL

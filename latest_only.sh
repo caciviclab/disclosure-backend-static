@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-if [[ "$1" == "efile_COAK_2016_497" || "$1" == "efile_COAK_2016_496" ]]; then
+if [[ "$1" == "497" || "$1" == "496" ]]; then
   cat <<-QUERY | psql disclosure-backend
   DELETE FROM "$1" "outer"
   WHERE "Report_Num" < (
