@@ -1,6 +1,10 @@
 dist: trusty
+pyton:
+  - '2.7'
+group: deprecated-2017Q4
 sudo: required
 install:
+  - pip install 'urllib3[secure]'
   - sudo pip install -r requirements.txt
   - bundle install
 cache:
