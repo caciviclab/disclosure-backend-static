@@ -17,13 +17,13 @@
   "party_affiliation": null,
   "filer_id": 1386416,
   "supporting_money": {
-    "contributions_received": 25391.85,
-    "total_contributions": 25391.85,
-    "total_expenditures": 24846.54,
-    "total_loans_received": 7575.0,
+    "contributions_received": 25041.85,
+    "total_contributions": 25041.85,
+    "total_expenditures": 25486.04,
+    "total_loans_received": 7125.0,
     "contributions_by_type": {
       "Committee": 1500.0,
-      "Individual": 15688.0,
+      "Individual": 15788.0,
       "Unitemized": 628.85
     },
     "expenditures_by_type": {
@@ -33,17 +33,19 @@
       "Campaign Paraphernalia/Misc.": 8825.7,
       "Campaign Literature and Mailings": 5458.08,
       "Professional Services (Legal, Accounting)": 1200.0,
-      "Information Technology Costs (Internet, E-mail)": 1459.29
+      "Information Technology Costs (Internet, E-mail)": 2056.29
     },
     "supporting_by_type": {
-      "Print Ads": 2048.0,
-      "Phone Banks": 277.0,
+      "Print Ads": 2000.0,
+      "STAFF TIME": 15112.0,
+      "Phone Banks": 373.0,
       "ESTIMATE OF LIT": 1800.0,
-      "ESTIMATE OF STAFF TIME": 19599.0,
+      "CMP; SEE SCHEDULE G": 2702.0,
+      "ESTIMATE OF STAFF TIME": 7844.0,
       "Campaign Paraphernalia/Misc.": 2702.0,
-      "Campaign Literature and Mailings": 45045.0,
-      "Information Technology Costs (Internet, E-mail)": 675.0,
-      "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 6182.0
+      "Campaign Literature and Mailings": 77957.0,
+      "STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 6256.0,
+      "Information Technology Costs (Internet, E-mail)": 1050.0
     }
   },
   "opposing_money": {
@@ -51,13 +53,13 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 25391.85,
-  "total_contributions": 25391.85,
-  "total_expenditures": 24846.54,
-  "total_loans_received": 7575.0,
+  "contributions_received": 25041.85,
+  "total_contributions": 25041.85,
+  "total_expenditures": 25486.04,
+  "total_loans_received": 7125.0,
   "contributions_by_type": {
     "Committee": 1500.0,
-    "Individual": 15688.0,
+    "Individual": 15788.0,
     "Unitemized": 628.85
   },
   "expenditures_by_type": {
@@ -67,6 +69,6 @@
     "Campaign Paraphernalia/Misc.": 8825.7,
     "Campaign Literature and Mailings": 5458.08,
     "Professional Services (Legal, Accounting)": 1200.0,
-    "Information Technology Costs (Internet, E-mail)": 1459.29
+    "Information Technology Costs (Internet, E-mail)": 2056.29
   }
 }

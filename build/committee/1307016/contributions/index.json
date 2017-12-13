@@ -1,6 +1,13 @@
 [
   {
     "Filer_ID": "1307016",
+    "Tran_Amt1": 25000.0,
+    "Tran_Date": "2015-04-24",
+    "Tran_NamF": null,
+    "Tran_NamL": "Signature Development Group, Inc."
+  },
+  {
+    "Filer_ID": "1307016",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-01-07",
     "Tran_NamF": null,
@@ -89,5 +96,19 @@
     "Tran_Date": "2016-10-26",
     "Tran_NamF": null,
     "Tran_NamL": "PG&E Corporation"
+  },
+  {
+    "Filer_ID": "1307016",
+    "Tran_Amt1": 2175.0,
+    "Tran_Date": "2017-01-31",
+    "Tran_NamF": null,
+    "Tran_NamL": "The McConnell Group, Inc."
+  },
+  {
+    "Filer_ID": "1307016",
+    "Tran_Amt1": 4500.0,
+    "Tran_Date": "2017-01-31",
+    "Tran_NamF": null,
+    "Tran_NamL": "The McConnell Group, Inc."
   }
 ]

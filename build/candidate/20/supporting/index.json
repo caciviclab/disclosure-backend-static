@@ -19,7 +19,7 @@
   "supporting_money": {
     "contributions_received": 5798.0,
     "total_contributions": 5798.0,
-    "total_expenditures": 3052.34,
+    "total_expenditures": 4886.23,
     "total_loans_received": 0.0,
     "contributions_by_type": {
       "Individual": 2590.0,
@@ -27,13 +27,15 @@
       "Other (includes Businesses)": 2115.0
     },
     "expenditures_by_type": {
-      "Not Stated": 60.0,
+      "Not Stated": 180.0,
       "Fundraising Events": 128.05,
       "Meetings and Appearances": 114.67,
+      "Campaign Workers' Salaries": 150.0,
       "Campaign Paraphernalia/Misc.": 870.17,
-      "Candidate Filing/Ballot Fees": 310.0,
+      "Candidate Filing/Ballot Fees": 1140.0,
       "Campaign Literature and Mailings": 1187.01,
-      "Information Technology Costs (Internet, E-mail)": 177.0
+      "Professional Services (Legal, Accounting)": 500.0,
+      "Information Technology Costs (Internet, E-mail)": 381.89
     },
     "supporting_by_type": {
     }
@@ -45,7 +47,7 @@
   },
   "contributions_received": 5798.0,
   "total_contributions": 5798.0,
-  "total_expenditures": 3052.34,
+  "total_expenditures": 4886.23,
   "total_loans_received": 0.0,
   "contributions_by_type": {
     "Individual": 2590.0,
@@ -53,12 +55,14 @@
     "Other (includes Businesses)": 2115.0
   },
   "expenditures_by_type": {
-    "Not Stated": 60.0,
+    "Not Stated": 180.0,
     "Fundraising Events": 128.05,
     "Meetings and Appearances": 114.67,
+    "Campaign Workers' Salaries": 150.0,
     "Campaign Paraphernalia/Misc.": 870.17,
-    "Candidate Filing/Ballot Fees": 310.0,
+    "Candidate Filing/Ballot Fees": 1140.0,
     "Campaign Literature and Mailings": 1187.01,
-    "Information Technology Costs (Internet, E-mail)": 177.0
+    "Professional Services (Legal, Accounting)": 500.0,
+    "Information Technology Costs (Internet, E-mail)": 381.89
   }
 }
