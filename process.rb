@@ -10,7 +10,7 @@ def build_file(filename, &block)
 end
 
 # first, create OfficeElection records for all the offices to assign them IDs
-OaklandCandidate.distinct(:Office).pluck(:Office).each do |office|
+OaklandCandidate.distinct(:Office).order(:Office).pluck(:Office).each do |office|
   OfficeElection
     .where(name: office)
     .first_or_create
