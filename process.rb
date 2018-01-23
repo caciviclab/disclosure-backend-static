@@ -80,8 +80,6 @@ end
 OaklandCandidate.includes(:office_election, :calculations).find_each do |candidate|
   %W[
     /candidate/#{candidate.id}
-    /candidate/#{candidate.id}/supporting
-    /candidate/#{candidate.id}/opposing
   ].each do |candidate_filename|
     build_file(candidate_filename) do |f|
       #
