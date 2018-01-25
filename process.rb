@@ -10,9 +10,9 @@ def build_file(filename, &block)
 end
 
 # first, create OfficeElection records for all the offices to assign them IDs
-OaklandCandidate.distinct(:Office).order(:Office).pluck(:Office).each do |office|
+OaklandCandidate.select(:Office, :election_name).distinct.each do |office|
   OfficeElection
-    .where(name: office)
+    .where(name: office.Office, election_name: office.election_name)
     .first_or_create
 end
 
@@ -45,6 +45,10 @@ end
 
 # third, write everything out to the build files
 OAKLAND_LOCALITY_ID = 2
+ELECTIONS = [
+  { id: 1, date: '2016-11-08', election_name: 'oakland-2016', is_current: true },
+  { id: 2, date: '2018-11-06', election_name: 'oakland-2018' },
+]
 
 build_file('/locality/search') do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
@@ -54,20 +58,26 @@ build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
-%W[
-  /ballot/1
-  /locality/#{OAKLAND_LOCALITY_ID}/current_ballot
-].each do |filename|
-  build_file(filename) do |f|
-    f.puts({
-      id: 1,
-      ballot_items: (
-        OfficeElection.all.map(&:as_json) +
-        OaklandReferendum.all.map(&:as_json)
-      ),
-      date: '2016-11-08',
-      locality_id: OAKLAND_LOCALITY_ID,
-    }.to_json)
+ELECTIONS.each do |election|
+  candidates = OfficeElection.where(election_name: election[:election_name])
+  referendums = OaklandReferendum.where(election_name: election[:election_name])
+  files = [
+    "/ballot/#{election[:id]}",
+    ("/locality/#{OAKLAND_LOCALITY_ID}/current_ballot" if election[:is_current])
+  ]
+
+  files.compact.each do |filename|
+    build_file(filename) do |f|
+      f.puts({
+        id: 1,
+        ballot_items: (
+          candidates.map(&:as_json) +
+          referendums.map(&:as_json)
+        ),
+        date: election[:date],
+        locality_id: OAKLAND_LOCALITY_ID,
+      }.to_json)
+    end
   end
 end
 
