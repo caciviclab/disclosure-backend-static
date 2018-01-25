@@ -46,7 +46,7 @@ createdb:
 	./latest_only.sh $@
 
 downloads/csv/oakland_candidates.csv:
-	mkdir -p downloads/csv
+	mkdir -p downloads/csv downloads/raw
 	# 2016 candidates
 	wget -q -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=0&single=true&output=csv' | \
@@ -64,7 +64,7 @@ downloads/csv/oakland_candidates.csv:
 		downloads/raw/oakland_candidates_2018.csv > $@
 
 downloads/csv/oakland_referendums.csv:
-	mkdir -p downloads/csv
+	mkdir -p downloads/csv downloads/raw
 	# 2016 referendums
 	wget -q -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=1693935349&single=true&output=csv' | \
