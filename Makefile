@@ -1,4 +1,4 @@
-.PHONY: download clean import run data-2016
+.PHONY: download clean import run
 
 CD := $(shell pwd)
 
