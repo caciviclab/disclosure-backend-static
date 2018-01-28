@@ -50,6 +50,22 @@ class CandidateContributionsByType
       # Schedule A during a preprocssing script. (See
       # `./../remove_duplicate_transactionts.sh`)
       monetary_results = ActiveRecord::Base.connection.execute <<-SQL
+        WITH combined_contributions AS (
+          SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
+          FROM "A-Contributions"
+          UNION ALL
+          SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
+          FROM "C-Contributions"
+          UNION ALL
+          SELECT
+            "Filer_ID"::varchar,
+            "Entity_Cd",
+            "Amount" as "Tran_Amt1",
+            "Enty_NamF" as "Tran_NamF",
+            "Enty_NamL" as "Tran_NamL"
+          FROM "497"
+          WHERE "Form_Type" = 'F497P1'
+        )
         SELECT
           "Filer_ID",
           CASE
@@ -57,27 +73,11 @@ class CandidateContributionsByType
             ELSE 'SLF'
           END AS "Cd",
           SUM("Tran_Amt1") AS "Total"
-        FROM
-          (
-            SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
-            FROM "A-Contributions"
-            UNION ALL
-            SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
-            FROM "C-Contributions"
-            UNION ALL
-            SELECT "Filer_ID"::varchar, "Entity_Cd",
-              "Amount" as "Tran_Amt1",
-              "Enty_NamF" as "Tran_NamF",
-              "Enty_NamL" as "Tran_NamL"
-            FROM "497"
-            WHERE "Form_Type" = 'F497P1'
-          ) AS U
-          LEFT OUTER JOIN
-          "oakland_candidates"
-            ON  "FPPC"::varchar = "Filer_ID"
-              AND (LOWER("Candidate") = LOWER(CONCAT("Tran_NamF", ' ', "Tran_NamL"))
-                OR LOWER("Aliases") like
-                    LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%')))
+        FROM combined_contributions
+        LEFT OUTER JOIN "oakland_candidates"
+          ON "FPPC"::varchar = "Filer_ID"
+          AND (LOWER("Candidate") = LOWER(CONCAT("Tran_NamF", ' ', "Tran_NamL"))
+          OR LOWER("Aliases") LIKE LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%')))
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Cd", "Filer_ID"
         ORDER BY "Cd", "Filer_ID";
