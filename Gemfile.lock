@@ -15,10 +15,10 @@ GEM
     arel (7.1.1)
     concurrent-ruby (1.0.2)
     i18n (0.7.0)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.9.0)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     pg (0.18.4)
     puma (3.6.0)
     rack (1.6.4)
@@ -52,4 +52,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.13.6
+   1.16.1
