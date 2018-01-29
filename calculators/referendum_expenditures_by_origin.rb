@@ -15,13 +15,22 @@ class ReferendumExpendituresByOrigin
     SQL
 
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT
-        "Ballot_Measure" AS "Measure_Number",
-        "Support_Or_Oppose" AS "Sup_Opp_Cd",
-        contributions_by_locale.locale,
-        SUM(contributions_by_locale.total) as total
-      FROM "oakland_committees" committees,
-      (
+      WITH combined_contributions AS (
+        SELECT "Filer_ID", "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
+        FROM "A-Contributions"
+        UNION
+        SELECT "Filer_ID"::varchar, "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
+        FROM "C-Contributions"
+        UNION
+        SELECT "Filer_ID"::varchar,
+          "Enty_City" as "Tran_City",
+          "Enty_ST" as "Tran_State",
+          "Amount" as "Tran_Amt1",
+          "Tran_ID"
+        FROM "497"
+        WHERE "Form_Type" = 'F497P1'
+      ),
+      contributions_by_locale AS (
         SELECT "Filer_ID",
         CASE
           WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'
@@ -29,23 +38,15 @@ class ReferendumExpendituresByOrigin
           ELSE 'Out of State'
         END AS locale,
         SUM("Tran_Amt1") AS total
-        FROM (
-          SELECT "Filer_ID", "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
-          FROM "A-Contributions"
-          UNION
-          SELECT "Filer_ID"::varchar, "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
-          FROM "C-Contributions"
-          UNION
-          SELECT "Filer_ID"::varchar,
-            "Enty_City" as "Tran_City",
-            "Enty_ST" as "Tran_State",
-            "Amount" as "Tran_Amt1",
-            "Tran_ID"
-          FROM "497"
-          WHERE "Form_Type" = 'F497P1'
-        ) contributions
+        FROM combined_contributions
         GROUP BY "Filer_ID", locale
-      ) contributions_by_locale
+      )
+      SELECT
+        "Ballot_Measure" AS "Measure_Number",
+        "Support_Or_Oppose" AS "Sup_Opp_Cd",
+        contributions_by_locale.locale,
+        SUM(contributions_by_locale.total) as total
+      FROM "oakland_committees" committees, contributions_by_locale
       WHERE committees."Filer_ID" = contributions_by_locale."Filer_ID"
       GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
