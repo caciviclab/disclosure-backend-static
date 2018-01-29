@@ -1,11 +1,8 @@
 # Disclosure Backend Static
 
-I'm not proud of this, but we're gunning toward a deadline and I want to be
-able to quickly iterate on the backend. That means it needs to be 1) fast to
-run, 2) written with a programming language I know, and 3) as conceptually
-simple as possible.
+The `disclosure-backend-static` repo is the backend powering [Open Disclosure California](https://opendisclosure.io).
 
-Our existing `disclosure-backend` project is none of the three.
+It was created in haste running up to the 2016 election, and thus is engineered around a "get it done" philosophy. At that time, we had already designed an API and built (most of) a frontend; this repo was created to implement those as quickly as possible.
 
 This project implements a basic ETL pipeline to download the Oakland netfile
 data, download the CSV human-curated data for Oakland, and combine the two. The
@@ -26,7 +23,7 @@ bundle install
 ```
 Note: if you use brew you might get an error while doing the bundle install:
 ```
-error: use of undeclared identifier 'LZMA_OK' 
+error: use of undeclared identifier 'LZMA_OK'
 ```
 Try:
 ```
@@ -66,7 +63,7 @@ the files in the `input` directory. Check those out.)
 
 Each schedule of each form is imported into a separate postgres table. For
 example, Schedule A of Form 460 is imported into the
-`efile_COAK_2016_A-Contributions` table.
+`A-Contributions` table.
 
 Now that you have a way of querying the data, you should come up with a SQL
 query that calculates the value you are trying to get. Once you can express
