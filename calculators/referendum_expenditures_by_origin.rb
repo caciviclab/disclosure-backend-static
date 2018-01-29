@@ -15,22 +15,7 @@ class ReferendumExpendituresByOrigin
     SQL
 
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
-      WITH combined_contributions AS (
-        SELECT "Filer_ID", "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
-        FROM "A-Contributions"
-        UNION
-        SELECT "Filer_ID"::varchar, "Tran_City", "Tran_State", "Tran_Amt1", "Tran_ID"
-        FROM "C-Contributions"
-        UNION
-        SELECT "Filer_ID"::varchar,
-          "Enty_City" as "Tran_City",
-          "Enty_ST" as "Tran_State",
-          "Amount" as "Tran_Amt1",
-          "Tran_ID"
-        FROM "497"
-        WHERE "Form_Type" = 'F497P1'
-      ),
-      contributions_by_locale AS (
+      WITH contributions_by_locale AS (
         SELECT "Filer_ID",
         CASE
           WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'

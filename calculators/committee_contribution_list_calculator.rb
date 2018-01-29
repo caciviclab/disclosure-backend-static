@@ -5,30 +5,10 @@ class CommitteeContributionListCalculator
 
   def fetch
     results = ActiveRecord::Base.connection.execute(<<-SQL)
-      -- Schedule A Monetary Contributions
-      SELECT "Filer_ID"::varchar, "Tran_Amt1", "Tran_NamF", "Tran_NamL", "Tran_Date"
-      FROM "A-Contributions"
-      WHERE "Filer_ID"::varchar IN (#{filer_ids})
-      UNION
-
-      -- Schedule C In-Kind contributions
-      SELECT "Filer_ID"::varchar, "Tran_Amt1", "Tran_NamF", "Tran_NamL", "Tran_Date"
-      FROM "C-Contributions"
-      WHERE "Filer_ID"::varchar IN (#{filer_ids})
-      UNION
-
-      -- Form 497 Late Contributions
-      SELECT
-        "Filer_ID"::varchar,
-        "Amount" AS "Tran_Amt1",
-        "Enty_NamF" AS "Tran_NamF",
-        "Enty_NamL" AS "Tran_NamL",
-        "Ctrib_Date" AS "Tran_Date"
-      FROM "497"
-      WHERE "Form_Type" = 'F497P1'
-      AND "Filer_ID"::varchar IN (#{filer_ids})
-
-      ORDER BY "Tran_Date", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
+      SELECT "Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL"
+      FROM combined_contributions
+      WHERE "Filer_ID" IN (#{filer_ids})
+      ORDER BY "Tran_Date", "Tran_NamL", "Tran_NamF", "Tran_Amt1"
     SQL
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
@@ -41,14 +21,6 @@ class CommitteeContributionListCalculator
     @committees.each do |committee|
       filer_id = committee['Filer_ID'].to_s
       sorted = Array(contributions_by_committee[filer_id])
-        .sort_by do |row|
-          [
-            row['Tran_Date'],
-            row['Tran_NamL'],
-            row['Tran_NamF'] || '',
-            row['Tran_Amt1'],
-          ]
-      end
 
       committee.save_calculation(:contribution_list, sorted)
     end

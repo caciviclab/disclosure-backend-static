@@ -43,4 +43,25 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   ON LOWER("Bal_Name") = LOWER("Measure_Name")
   WHERE "Bal_Name" IS NOT NULL
   AND "Form_Type" = 'F497P2';
+
+CREATE OR REPLACE VIEW combined_contributions AS
+  SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+    "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+  FROM "A-Contributions"
+  UNION ALL
+  SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+    "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+  FROM "C-Contributions"
+  UNION ALL
+  SELECT
+    "Filer_ID"::varchar,
+    "Entity_Cd",
+    "Amount" as "Tran_Amt1",
+    "Enty_NamF" as "Tran_NamF",
+    "Enty_NamL" as "Tran_NamL",
+    "Ctrib_Date" as "Tran_Date",
+    '' as "Tran_City",
+    '' as "Tran_State"
+  FROM "497"
+  WHERE "Form_Type" = 'F497P1';
 SQL

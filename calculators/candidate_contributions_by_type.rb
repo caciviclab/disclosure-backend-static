@@ -50,22 +50,6 @@ class CandidateContributionsByType
       # Schedule A during a preprocssing script. (See
       # `./../remove_duplicate_transactionts.sh`)
       monetary_results = ActiveRecord::Base.connection.execute <<-SQL
-        WITH combined_contributions AS (
-          SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
-          FROM "A-Contributions"
-          UNION ALL
-          SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF", "Tran_NamL"
-          FROM "C-Contributions"
-          UNION ALL
-          SELECT
-            "Filer_ID"::varchar,
-            "Entity_Cd",
-            "Amount" as "Tran_Amt1",
-            "Enty_NamF" as "Tran_NamF",
-            "Enty_NamL" as "Tran_NamL"
-          FROM "497"
-          WHERE "Form_Type" = 'F497P1'
-        )
         SELECT
           "Filer_ID",
           CASE
