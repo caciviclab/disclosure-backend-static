@@ -1,52 +1,83 @@
 {
   "id": 13,
-  "name": "Marcie Hodge",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
-  "website_url": "http://hodge4oaklandcitycouncil.com/",
-  "twitter_url": null,
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130761?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Marcie",
-  "last_name": "Hodge",
+  "name": "Noel Gallo",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
+  "website_url": "http://galloforoakland.com/",
+  "twitter_url": "@noelgallo5",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130759?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Noel",
+  "last_name": "Gallo",
   "ballot_item": 6,
   "office_election": 6,
-  "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and candidate website",
-  "committee_name": "Hodge 4 Oakland City Council 2016",
-  "is_accepted_expenditure_ceiling": false,
-  "is_incumbent": false,
-  "occupation": "Non-profit Executive Director",
+  "bio": "Noel Gallo was elected to the Oakland City Council in 2012 to represent District 5. He serves as Co-Chair of the Oakland City Council Education Partnership Committee, and a member of the Life Enrichment, Public Works, and Public Safety City Council Committees. He represents the City of Oakland as a member of the AC Transit Bus Rapid Transit (BRT) Policy Steering Committee. Prior to joining the council, Gallo was elected and served on the Oakland Board of Education for 20 years. \nGallo is a lifelong resident of Oakland; he grew up in the Fruitvale/San Antonio District neighborhoods. He graduated from the University of California, Berkeley, with a Business Degree. \nSource: Candidate statement and website",
+  "committee_name": "ReElect Noel Gallo for Oakland City Council 2016",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": true,
+  "occupation": "Incumbent, City Council member",
   "party_affiliation": "Democrat",
-  "filer_id": 1388731,
+  "filer_id": 1388641,
   "supporting_money": {
-    "contributions_received": 20299.0,
-    "total_contributions": 20299.0,
-    "total_expenditures": 16624.17,
-    "total_loans_received": 19857.0,
+    "contributions_received": 80100.69,
+    "total_contributions": 80100.69,
+    "total_expenditures": 86946.74,
+    "total_loans_received": 10000.0,
     "contributions_by_type": {
-      "Unitemized": 442.0
+      "Committee": 9200.0,
+      "Individual": 22350.0,
+      "Unitemized": 919.0,
+      "Other (includes Businesses)": 37631.69
     },
     "expenditures_by_type": {
-      "Not Stated": 435.74,
-      "Campaign Paraphernalia/Misc.": 13557.03,
-      "Professional Services (Legal, Accounting)": 850.0
+      "Print Ads": 500.0,
+      "Not Stated": 10826.1,
+      "Contribution": 550.0,
+      "Civic Donations": 700.0,
+      "Office Expenses": 3595.76,
+      "Fundraising Events": 656.55,
+      "Campaign Workers' Salaries": 3000.0,
+      "Campaign Paraphernalia/Misc.": 8404.06,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 36593.49,
+      "Professional Services (Legal, Accounting)": 21788.0
     },
     "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 40013.0,
     "opposing_by_type": {
+      "Postage": 4714.0,
+      "Mailer Design": 1650.0,
+      "Mailer Printing": 2438.0,
+      "Mailhouse \u0026 Postage": 3699.0,
+      "Digital Ad in opposition to Noel Gallo": 9250.0,
+      "Design of mailer in opposition to Noel Gallo": 3300.0,
+      "Design of mailer in opposition of Noel Gallo.": 1650.0,
+      "Printing of mailer in opposition to Noel Gallo": 5914.0,
+      "Mailing and Postage in opposition to Noel Gallo": 7398.0
     }
   },
-  "contributions_received": 20299.0,
-  "total_contributions": 20299.0,
-  "total_expenditures": 16624.17,
-  "total_loans_received": 19857.0,
+  "contributions_received": 80100.69,
+  "total_contributions": 80100.69,
+  "total_expenditures": 86946.74,
+  "total_loans_received": 10000.0,
   "contributions_by_type": {
-    "Unitemized": 442.0
+    "Committee": 9200.0,
+    "Individual": 22350.0,
+    "Unitemized": 919.0,
+    "Other (includes Businesses)": 37631.69
   },
   "expenditures_by_type": {
-    "Not Stated": 435.74,
-    "Campaign Paraphernalia/Misc.": 13557.03,
-    "Professional Services (Legal, Accounting)": 850.0
+    "Print Ads": 500.0,
+    "Not Stated": 10826.1,
+    "Contribution": 550.0,
+    "Civic Donations": 700.0,
+    "Office Expenses": 3595.76,
+    "Fundraising Events": 656.55,
+    "Campaign Workers' Salaries": 3000.0,
+    "Campaign Paraphernalia/Misc.": 8404.06,
+    "Candidate Filing/Ballot Fees": 300.0,
+    "Campaign Literature and Mailings": 36593.49,
+    "Professional Services (Legal, Accounting)": 21788.0
   }
 }

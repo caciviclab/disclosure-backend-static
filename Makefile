@@ -1,4 +1,4 @@
-.PHONY: download clean import run data-2016
+.PHONY: download clean import run
 
 CD := $(shell pwd)
 
@@ -29,7 +29,7 @@ import: dropdb createdb 496 497 A-Contributions B1-Loans B2-Loans C-Contribution
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_name_to_number.csv
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_committees.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
-	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
+	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
 	./make_view.sh
 	./remove_duplicate_transactions.sh
@@ -46,18 +46,40 @@ createdb:
 	./latest_only.sh $@
 
 downloads/csv/oakland_candidates.csv:
-	mkdir -p downloads/csv
+	mkdir -p downloads/csv downloads/raw
+	# 2016 candidates
 	wget -q -O- \
-		'https://docs.google.com/spreadsheets/d/1272oaLyQhKwQa6RicA5tBso6wFruum-mgrNm3O3VogI/pub?gid=0&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=0&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
-	sed -e '1s/[^a-zA-Z,_]//g' > $@
+	sed -e '1s/[^a-zA-Z,_]//g' > downloads/raw/oakland_candidates_2016.csv
+	# 2018 candidates
+	wget -q -O- \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=222087091&single=true&output=csv' | \
+	sed -e '1s/ /_/g' | \
+	sed -e '1s/[^a-zA-Z,_]//g' > downloads/raw/oakland_candidates_2018.csv
+	# combine the two years' candidates, adding an "election_name" column so we
+	#   can differentiate later.
+	csvstack -n election_name -g oakland-2016,oakland-2018 \
+		downloads/raw/oakland_candidates_2016.csv \
+		downloads/raw/oakland_candidates_2018.csv > $@
 
 downloads/csv/oakland_referendums.csv:
-	mkdir -p downloads/csv
+	mkdir -p downloads/csv downloads/raw
+	# 2016 referendums
 	wget -q -O- \
-		'https://docs.google.com/spreadsheets/d/1272oaLyQhKwQa6RicA5tBso6wFruum-mgrNm3O3VogI/pub?gid=1693935349&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=1693935349&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
-	sed -e '1s/[^a-zA-Z,_]//g' > $@
+	sed -e '1s/[^a-zA-Z,_]//g' > downloads/raw/oakland_referendums_2016.csv
+	# 2018 referendums
+	wget -q -O- \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=831424275&single=true&output=csv' | \
+	sed -e '1s/ /_/g' | \
+	sed -e '1s/[^a-zA-Z,_]//g' > downloads/raw/oakland_referendums_2018.csv
+	# combine the two years' referendums, adding an "election_name" column so we
+	#   can differentiate later.
+	csvstack -n election_name -g oakland-2016,oakland-2018 \
+		downloads/raw/oakland_referendums_2016.csv \
+		downloads/raw/oakland_referendums_2018.csv > $@
 
 downloads/csv/oakland_name_to_number.csv:
 	mkdir -p downloads/csv

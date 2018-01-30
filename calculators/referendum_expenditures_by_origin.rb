@@ -82,6 +82,12 @@ class ReferendumExpendituresByOrigin
       expenditures.keys.each do |measure|
         total = 0
         ballot_measure = ballot_measure_from_number(measure)
+
+        if ballot_measure.nil?
+          puts 'WARN: Could not find ballot measure: ' + measure.inspect
+          next
+        end
+
         result = locales[measure].keys.map do |locale|
           amount = locales[measure][locale]
           expenditures[measure] -= amount

@@ -1,41 +1,40 @@
 {
   "id": 12,
-  "name": "Viola Gonzales",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Viola-Gonzales.png",
-  "website_url": "http://www.voteviola.com/",
-  "twitter_url": "@voteviola",
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130760?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Viola",
-  "last_name": "Gonzales",
+  "name": "Noni Session",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
+  "website_url": "http://www.nonifordistrict3.com/",
+  "twitter_url": "@NoniSession",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130758?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Noni",
+  "last_name": "Session",
   "ballot_item": 5,
   "office_election": 5,
-  "bio": "Viola Gonzales was the Chief Executive Officer of AnewAmerica Community Corporation, a non-profit that helps immigrants and refugees start small and micro-businesses. Gonzales has been Executive Director for a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Her volunteer service has included corporate advisory, nonprofit and civic boards. In 2002, Gonzales was appointed to the Oakland Board of Education by then-Mayor Jerry Brown. Prior to this appointment, she served on the Oakland Planning Commission. \n\nSource: http://www.anewamerica.org/index.php/news/events/173-changes-in-leadership-at-anewamerica , https://www.linkedin.com/in/violagonzales , http://boedocdepot.ousd.k12.ca.us/boe-webextender/bextest/ViolaGonzales.asp , and candidate survey",
-  "committee_name": "Viola Gonzales for City Council 2016",
+  "bio": "Noni Session is a lifelong resident of Oakland and attended Oakland public schools. Session served as a special education teacher at Harbor Way Academy Elementary School. She graduated with a degree in Cultural Anthropology and African American Studies from San Francisco State University and received her Ph.D. in Cultural Anthropology from Cornell University. Session’s doctoral research in Nairobi, Kenya on Bureaucratic Organizations \u0026 Humanitarianism led her to work with the United Nations Development Programme as a Researcher and Government Liaison. \n\nSource: https://www.crowdpac.com/campaigns/68285/support-noni-session-for-oakland-city-council-distict-3",
+  "committee_name": "Noni D. Session for City Council 2016",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
-  "occupation": "Nonprofit Executive",
+  "occupation": "Assistant Librarian",
   "party_affiliation": "Democrat",
-  "filer_id": 1387192,
+  "filer_id": 1386922,
   "supporting_money": {
-    "contributions_received": 69742.41,
-    "total_contributions": 69742.41,
-    "total_expenditures": 69842.41,
-    "total_loans_received": 6899.83,
+    "contributions_received": 10634.0,
+    "total_contributions": 10634.0,
+    "total_expenditures": 9611.19,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
-      "Committee": 4700.0,
-      "Individual": 43517.84,
-      "Unitemized": 2524.57,
-      "Self Funding": 8800.17,
-      "Other (includes Businesses)": 3300.0
+      "Individual": 7110.0,
+      "Unitemized": 1424.0,
+      "Other (includes Businesses)": 2100.0
     },
     "expenditures_by_type": {
-      "Not Stated": 7355.28,
-      "Campaign Consultants": 18667.55,
-      "Meetings and Appearances": 529.0,
-      "Campaign Paraphernalia/Misc.": 3884.37,
-      "Campaign Literature and Mailings": 33656.76,
-      "Professional Services (Legal, Accounting)": 2500.0,
-      "Information Technology Costs (Internet, E-mail)": 3150.0
+      "Office Expenses": 359.71,
+      "Fundraising Events": 381.2,
+      "Campaign Consultants": 1375.0,
+      "Campaign Workers' Salaries": 1144.0,
+      "Campaign Paraphernalia/Misc.": 195.0,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 3399.31,
+      "Information Technology Costs (Internet, E-mail)": 387.0
     },
     "supporting_by_type": {
     }
@@ -45,24 +44,23 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 69742.41,
-  "total_contributions": 69742.41,
-  "total_expenditures": 69842.41,
-  "total_loans_received": 6899.83,
+  "contributions_received": 10634.0,
+  "total_contributions": 10634.0,
+  "total_expenditures": 9611.19,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 4700.0,
-    "Individual": 43517.84,
-    "Unitemized": 2524.57,
-    "Self Funding": 8800.17,
-    "Other (includes Businesses)": 3300.0
+    "Individual": 7110.0,
+    "Unitemized": 1424.0,
+    "Other (includes Businesses)": 2100.0
   },
   "expenditures_by_type": {
-    "Not Stated": 7355.28,
-    "Campaign Consultants": 18667.55,
-    "Meetings and Appearances": 529.0,
-    "Campaign Paraphernalia/Misc.": 3884.37,
-    "Campaign Literature and Mailings": 33656.76,
-    "Professional Services (Legal, Accounting)": 2500.0,
-    "Information Technology Costs (Internet, E-mail)": 3150.0
+    "Office Expenses": 359.71,
+    "Fundraising Events": 381.2,
+    "Campaign Consultants": 1375.0,
+    "Campaign Workers' Salaries": 1144.0,
+    "Campaign Paraphernalia/Misc.": 195.0,
+    "Candidate Filing/Ballot Fees": 300.0,
+    "Campaign Literature and Mailings": 3399.31,
+    "Information Technology Costs (Internet, E-mail)": 387.0
   }
 }

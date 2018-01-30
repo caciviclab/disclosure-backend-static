@@ -85,6 +85,12 @@ class ReferendumSupportersCalculator
       # the processing is the same for both supporting and opposing expenses
       rows_by_bal_num.each do |bal_num, rows|
         ballot_measure = ballot_measure_from_num(bal_num)
+
+        if ballot_measure.nil?
+          puts 'WARN: Could not find ballot measure: ' + bal_num.inspect
+          next
+        end
+
         ballot_measure.save_calculation(calculation_name, rows.values)
       end
     end
