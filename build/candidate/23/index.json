@@ -1,43 +1,45 @@
 {
   "id": 23,
-  "name": "Kharyshi Wiginton",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kharyshi-Wiginton.png",
-  "website_url": "http://www.mskfordistrict3sb.com/",
-  "twitter_url": null,
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130698?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Kharyshi",
-  "last_name": "Wiginton",
-  "ballot_item": 10,
-  "office_election": 10,
-  "bio": "Kharyshi Wiginton is the Youth Leadership Coordinator at McClymonds Youth and Family Center has spent a decade doing education-related work in Oakland and currently holds a position at McClymonds High School. Wiginton graduated from the California Institute of Integral Studies in 2009. \n\nSource: https://www.facebook.com/kharyshi.wiginton, https://www.linkedin.com/in/kharyshi-wiginton-6a545b8, http://museumca.org/story/kharyshi-wiginton-youth-organizing-mcclymonds-high-school, and Candidate Statement",
-  "committee_name": "Kharyshi Wiginton for School Board 2016",
+  "name": "Jody London",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+  "website_url": "http://www.votejody.com/",
+  "twitter_url": "@votejodylondon",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130693?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Jody",
+  "last_name": "London",
+  "ballot_item": 11,
+  "office_election": 11,
+  "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
+  "committee_name": "Friends of Jody London for Oakland School Board 2016",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": false,
-  "occupation": "Youth Leadership Coordinator",
-  "party_affiliation": null,
-  "filer_id": 1386929,
+  "is_incumbent": true,
+  "occupation": "School Board Director, and Sustainability Coordinator",
+  "party_affiliation": "Democrat",
+  "filer_id": 1303019,
   "supporting_money": {
-    "contributions_received": 5798.0,
-    "total_contributions": 5798.0,
-    "total_expenditures": 4886.23,
+    "contributions_received": 22344.0,
+    "total_contributions": 22344.0,
+    "total_expenditures": 23891.0,
     "total_loans_received": 0.0,
     "contributions_by_type": {
-      "Individual": 2590.0,
-      "Unitemized": 1093.0,
-      "Other (includes Businesses)": 2115.0
+      "Committee": 500.0,
+      "Individual": 15485.0,
+      "Unitemized": 3759.0,
+      "Other (includes Businesses)": 2600.0
     },
     "expenditures_by_type": {
-      "Not Stated": 180.0,
-      "Fundraising Events": 128.05,
-      "Meetings and Appearances": 114.67,
-      "Campaign Workers' Salaries": 150.0,
-      "Campaign Paraphernalia/Misc.": 870.17,
-      "Candidate Filing/Ballot Fees": 1140.0,
-      "Campaign Literature and Mailings": 1187.01,
-      "Professional Services (Legal, Accounting)": 500.0,
-      "Information Technology Costs (Internet, E-mail)": 381.89
+      "Office Expenses": 248.2,
+      "Fundraising Events": 2338.58,
+      "Campaign Consultants": 1000.0,
+      "Meetings and Appearances": 437.32,
+      "Campaign Paraphernalia/Misc.": 3755.99,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 15150.0
     },
     "supporting_by_type": {
+      "STAFF TIME": 1977.0,
+      "Campaign Literature and Mailings": 48.0,
+      "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 1905.0
     }
   },
   "opposing_money": {
@@ -45,24 +47,23 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 5798.0,
-  "total_contributions": 5798.0,
-  "total_expenditures": 4886.23,
+  "contributions_received": 22344.0,
+  "total_contributions": 22344.0,
+  "total_expenditures": 23891.0,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 2590.0,
-    "Unitemized": 1093.0,
-    "Other (includes Businesses)": 2115.0
+    "Committee": 500.0,
+    "Individual": 15485.0,
+    "Unitemized": 3759.0,
+    "Other (includes Businesses)": 2600.0
   },
   "expenditures_by_type": {
-    "Not Stated": 180.0,
-    "Fundraising Events": 128.05,
-    "Meetings and Appearances": 114.67,
-    "Campaign Workers' Salaries": 150.0,
-    "Campaign Paraphernalia/Misc.": 870.17,
-    "Candidate Filing/Ballot Fees": 1140.0,
-    "Campaign Literature and Mailings": 1187.01,
-    "Professional Services (Legal, Accounting)": 500.0,
-    "Information Technology Costs (Internet, E-mail)": 381.89
+    "Office Expenses": 248.2,
+    "Fundraising Events": 2338.58,
+    "Campaign Consultants": 1000.0,
+    "Meetings and Appearances": 437.32,
+    "Campaign Paraphernalia/Misc.": 3755.99,
+    "Candidate Filing/Ballot Fees": 300.0,
+    "Campaign Literature and Mailings": 15150.0
   }
 }

@@ -1,45 +1,42 @@
 {
   "id": 20,
-  "name": "Jody London",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
-  "website_url": "http://www.votejody.com/",
-  "twitter_url": "@votejodylondon",
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130693?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Jody",
-  "last_name": "London",
-  "ballot_item": 9,
-  "office_election": 9,
-  "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
-  "committee_name": "Friends of Jody London for Oakland School Board 2016",
+  "name": "Nehanda Imara",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Nehanda_Imara.png",
+  "website_url": "http://www.nehandafordistrict7.com/",
+  "twitter_url": "@NehandaForD7",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130762?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Nehanda",
+  "last_name": "Imara",
+  "ballot_item": 8,
+  "office_election": 8,
+  "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora.  \n\nSource: http://www.cbecal.org/about/staff/",
+  "committee_name": "Nehanda Imara for City Council 2016",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": true,
-  "occupation": "School Board Director, and Sustainability Coordinator",
-  "party_affiliation": "Democrat",
-  "filer_id": 1303019,
+  "is_incumbent": false,
+  "occupation": "East Oakland Community Organizer",
+  "party_affiliation": null,
+  "filer_id": 1386932,
   "supporting_money": {
-    "contributions_received": 22344.0,
-    "total_contributions": 22344.0,
-    "total_expenditures": 23891.0,
-    "total_loans_received": 0.0,
+    "contributions_received": 27941.0,
+    "total_contributions": 27941.0,
+    "total_expenditures": 35137.46,
+    "total_loans_received": 6500.0,
     "contributions_by_type": {
-      "Committee": 500.0,
-      "Individual": 15485.0,
-      "Unitemized": 3759.0,
-      "Other (includes Businesses)": 2600.0
+      "Committee": 1700.0,
+      "Individual": 16550.0,
+      "Unitemized": 3191.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 248.2,
-      "Fundraising Events": 2338.58,
-      "Campaign Consultants": 1000.0,
-      "Meetings and Appearances": 437.32,
-      "Campaign Paraphernalia/Misc.": 3755.99,
-      "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 15150.0
+      "Not Stated": 700.0,
+      "Phone Banks": 1659.63,
+      "Office Expenses": 2307.9,
+      "Campaign Consultants": 6500.0,
+      "Campaign Paraphernalia/Misc.": 2680.47,
+      "Campaign Literature and Mailings": 7287.36,
+      "Postage, Delivery and Messenger Services": 3818.95,
+      "Professional Services (Legal, Accounting)": 3147.37
     },
     "supporting_by_type": {
-      "STAFF TIME": 1977.0,
-      "Campaign Literature and Mailings": 48.0,
-      "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 1905.0
     }
   },
   "opposing_money": {
@@ -47,23 +44,23 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 22344.0,
-  "total_contributions": 22344.0,
-  "total_expenditures": 23891.0,
-  "total_loans_received": 0.0,
+  "contributions_received": 27941.0,
+  "total_contributions": 27941.0,
+  "total_expenditures": 35137.46,
+  "total_loans_received": 6500.0,
   "contributions_by_type": {
-    "Committee": 500.0,
-    "Individual": 15485.0,
-    "Unitemized": 3759.0,
-    "Other (includes Businesses)": 2600.0
+    "Committee": 1700.0,
+    "Individual": 16550.0,
+    "Unitemized": 3191.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 248.2,
-    "Fundraising Events": 2338.58,
-    "Campaign Consultants": 1000.0,
-    "Meetings and Appearances": 437.32,
-    "Campaign Paraphernalia/Misc.": 3755.99,
-    "Candidate Filing/Ballot Fees": 300.0,
-    "Campaign Literature and Mailings": 15150.0
+    "Not Stated": 700.0,
+    "Phone Banks": 1659.63,
+    "Office Expenses": 2307.9,
+    "Campaign Consultants": 6500.0,
+    "Campaign Paraphernalia/Misc.": 2680.47,
+    "Campaign Literature and Mailings": 7287.36,
+    "Postage, Delivery and Messenger Services": 3818.95,
+    "Professional Services (Legal, Accounting)": 3147.37
   }
 }
