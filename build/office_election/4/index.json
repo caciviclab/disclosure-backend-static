@@ -22,13 +22,19 @@
       "party_affiliation": null,
       "filer_id": 1400325,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 43000.0,
+        "total_contributions": 43000.0,
+        "total_expenditures": 3729.35,
+        "total_loans_received": 0.0,
         "contributions_by_type": {
+          "Individual": 37951.0,
+          "Unitemized": 5049.0
         },
         "expenditures_by_type": {
+          "Not Stated": 2245.31,
+          "Office Expenses": 118.87,
+          "Postage, Delivery and Messenger Services": 29.69,
+          "Professional Services (Legal, Accounting)": 1228.19
         },
         "supporting_by_type": {
         }
@@ -38,13 +44,19 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 43000.0,
+      "total_contributions": 43000.0,
+      "total_expenditures": 3729.35,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
+        "Individual": 37951.0,
+        "Unitemized": 5049.0
       },
       "expenditures_by_type": {
+        "Not Stated": 2245.31,
+        "Office Expenses": 118.87,
+        "Postage, Delivery and Messenger Services": 29.69,
+        "Professional Services (Legal, Accounting)": 1228.19
       }
     },
     {
@@ -66,19 +78,23 @@
       "party_affiliation": null,
       "filer_id": 1395580,
       "supporting_money": {
-        "contributions_received": 6275.0,
-        "total_contributions": 6275.0,
-        "total_expenditures": 2629.38,
+        "contributions_received": 61546.0,
+        "total_contributions": 61546.0,
+        "total_expenditures": 22254.42,
         "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Committee": 500.0,
-          "Individual": 3900.0,
-          "Unitemized": 75.0,
-          "Other (includes Businesses)": 1800.0
+          "Committee": 6925.0,
+          "Individual": 45600.0,
+          "Unitemized": 771.0,
+          "Other (includes Businesses)": 8250.0
         },
         "expenditures_by_type": {
-          "Contribution": 250.0,
-          "Professional Services (Legal, Accounting)": 558.75
+          "Contribution": 1550.0,
+          "Civic Donations": 2500.0,
+          "Office Expenses": 2656.58,
+          "Fundraising Events": 12422.3,
+          "Professional Services (Legal, Accounting)": 2775.34,
+          "Information Technology Costs (Internet, E-mail)": 153.32
         },
         "supporting_by_type": {
         }
@@ -88,19 +104,23 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": 6275.0,
-      "total_contributions": 6275.0,
-      "total_expenditures": 2629.38,
+      "contributions_received": 61546.0,
+      "total_contributions": 61546.0,
+      "total_expenditures": 22254.42,
       "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Committee": 500.0,
-        "Individual": 3900.0,
-        "Unitemized": 75.0,
-        "Other (includes Businesses)": 1800.0
+        "Committee": 6925.0,
+        "Individual": 45600.0,
+        "Unitemized": 771.0,
+        "Other (includes Businesses)": 8250.0
       },
       "expenditures_by_type": {
-        "Contribution": 250.0,
-        "Professional Services (Legal, Accounting)": 558.75
+        "Contribution": 1550.0,
+        "Civic Donations": 2500.0,
+        "Office Expenses": 2656.58,
+        "Fundraising Events": 12422.3,
+        "Professional Services (Legal, Accounting)": 2775.34,
+        "Information Technology Costs (Internet, E-mail)": 153.32
       }
     },
     {
@@ -122,21 +142,21 @@
       "party_affiliation": null,
       "filer_id": 1376660,
       "supporting_money": {
-        "contributions_received": 24341.0,
-        "total_contributions": 24341.0,
-        "total_expenditures": 12472.87,
+        "contributions_received": 27791.0,
+        "total_contributions": 27791.0,
+        "total_expenditures": 23538.29,
         "total_loans_received": 3600.0,
         "contributions_by_type": {
-          "Committee": 5200.0,
-          "Individual": 12850.0,
+          "Committee": 7200.0,
+          "Individual": 13500.0,
           "Unitemized": 91.0,
-          "Other (includes Businesses)": 2600.0
+          "Other (includes Businesses)": 3400.0
         },
         "expenditures_by_type": {
-          "Not Stated": 5800.0,
-          "Fundraising Events": 1417.95,
-          "Professional Services (Legal, Accounting)": 3826.71,
-          "Information Technology Costs (Internet, E-mail)": 1246.21
+          "Not Stated": 10300.0,
+          "Fundraising Events": 1436.9,
+          "Professional Services (Legal, Accounting)": 8408.06,
+          "Information Technology Costs (Internet, E-mail)": 3131.38
         },
         "supporting_by_type": {
         }
@@ -146,21 +166,21 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": 24341.0,
-      "total_contributions": 24341.0,
-      "total_expenditures": 12472.87,
+      "contributions_received": 27791.0,
+      "total_contributions": 27791.0,
+      "total_expenditures": 23538.29,
       "total_loans_received": 3600.0,
       "contributions_by_type": {
-        "Committee": 5200.0,
-        "Individual": 12850.0,
+        "Committee": 7200.0,
+        "Individual": 13500.0,
         "Unitemized": 91.0,
-        "Other (includes Businesses)": 2600.0
+        "Other (includes Businesses)": 3400.0
       },
       "expenditures_by_type": {
-        "Not Stated": 5800.0,
-        "Fundraising Events": 1417.95,
-        "Professional Services (Legal, Accounting)": 3826.71,
-        "Information Technology Costs (Internet, E-mail)": 1246.21
+        "Not Stated": 10300.0,
+        "Fundraising Events": 1436.9,
+        "Professional Services (Legal, Accounting)": 8408.06,
+        "Information Technology Costs (Internet, E-mail)": 3131.38
       }
     }
   ],

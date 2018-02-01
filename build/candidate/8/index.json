@@ -17,13 +17,19 @@
   "party_affiliation": null,
   "filer_id": 1400325,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 43000.0,
+    "total_contributions": 43000.0,
+    "total_expenditures": 3729.35,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
+      "Individual": 37951.0,
+      "Unitemized": 5049.0
     },
     "expenditures_by_type": {
+      "Not Stated": 2245.31,
+      "Office Expenses": 118.87,
+      "Postage, Delivery and Messenger Services": 29.69,
+      "Professional Services (Legal, Accounting)": 1228.19
     },
     "supporting_by_type": {
     }
@@ -33,12 +39,18 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 43000.0,
+  "total_contributions": 43000.0,
+  "total_expenditures": 3729.35,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 37951.0,
+    "Unitemized": 5049.0
   },
   "expenditures_by_type": {
+    "Not Stated": 2245.31,
+    "Office Expenses": 118.87,
+    "Postage, Delivery and Messenger Services": 29.69,
+    "Professional Services (Legal, Accounting)": 1228.19
   }
 }
