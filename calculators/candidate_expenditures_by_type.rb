@@ -112,24 +112,33 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Expn_Code is not set in 496 so we use Expn_Dscr instead
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
-        FROM
-          (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
+        WITH combined_expenditures AS (
+          SELECT
+            "FPPC"::varchar AS "Filer_ID",
+            "Expn_Code",
+            "Amount"
           FROM "E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
-          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
+            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+            AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
-          SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Dscr" AS "Expn_Code", "Amount"
+          SELECT
+            "FPPC"::varchar AS "Filer_ID",
+            "Expn_Dscr" AS "Expn_Code",
+            "Amount"
           FROM "496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
-          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND NOT EXISTS (SELECT 1 from "E-Expenditure" AS "inner"
+            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+            AND NOT EXISTS (
+              SELECT 1 from "E-Expenditure" AS "inner"
               WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
-              AND "outer"."Exp_Date" = "inner"."Expn_Date"
-              AND "outer"."Amount" = "inner"."Amount"
-              AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
-          ) U
+                AND "outer"."Exp_Date" = "inner"."Expn_Date"
+                AND "outer"."Amount" = "inner"."Amount"
+                AND "outer"."Cand_NamL" = "inner"."Cand_NamL"
+            )
+          )
+        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
+        FROM combined_expenditures
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Expn_Code", "Filer_ID"
         ORDER BY "Expn_Code", "Filer_ID"
@@ -148,24 +157,33 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Expn_Code is not set in 496 so we use Expn_Dscr instead
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
-        FROM
-          (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
+        WITH combined_opposing_expenditures AS (
+          SELECT
+            "FPPC"::varchar AS "Filer_ID",
+            "Expn_Code",
+            "Amount"
           FROM "E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
-          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
+            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+            AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
-          SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Dscr" AS "Expn_Code", "Amount"
+          SELECT
+            "FPPC"::varchar AS "Filer_ID",
+            "Expn_Dscr" AS "Expn_Code",
+            "Amount"
           FROM "496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
-          AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND NOT EXISTS (SELECT 1 from "E-Expenditure" AS "inner"
+            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
+            AND NOT EXISTS (
+              SELECT 1 FROM "E-Expenditure" AS "inner"
               WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
               AND "outer"."Exp_Date" = "inner"."Expn_Date"
               AND "outer"."Amount" = "inner"."Amount"
-              AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
-          ) U
+              AND "outer"."Cand_NamL" = "inner"."Cand_NamL"
+            )
+          )
+        SELECT "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
+        FROM combined_opposing_expenditures
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Expn_Code", "Filer_ID"
         ORDER BY "Expn_Code", "Filer_ID"
