@@ -60,8 +60,14 @@ class CandidateContributionsByType
         FROM combined_contributions
         LEFT OUTER JOIN "oakland_candidates"
           ON "FPPC"::varchar = "Filer_ID"
-          AND (LOWER("Candidate") = LOWER(CONCAT("Tran_NamF", ' ', "Tran_NamL"))
-          OR LOWER("Aliases") LIKE LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%')))
+          AND (
+            -- Schedules A & C have a "Tran_Self" column we can use, but 497 does not.
+            -- So, we instead do a name match of the receipient. And of course, sometimes
+            --   the candidate's name in the recipient field of the donation is reported
+            --   slightly differently so we have an Aliases table to handle those cases.
+            LOWER("Candidate") = LOWER(CONCAT("Tran_NamF", ' ', "Tran_NamL"))
+            OR LOWER("Aliases") LIKE LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%'))
+          )
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Cd", "Filer_ID"
         ORDER BY "Cd", "Filer_ID";
