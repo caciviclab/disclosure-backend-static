@@ -1,3 +1,5 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/caciviclab/disclosure-backend.png?columns=ready)](https://waffle.io/caciviclab/disclosure-backend?utm_source=badge)
+
 # Disclosure Backend Static
 
 The `disclosure-backend-static` repo is the backend powering [Open Disclosure California](https://opendisclosure.io).
