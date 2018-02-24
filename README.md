@@ -35,9 +35,20 @@ brew link xz
 
 ## Running
 
-```bash
-make import    # <- only need to run the first time
-make process
+Download the raw data files. You only need to run this once in a while to get
+the latest data.
+
+    $ make download
+
+Import the data into the database for easier processing. You only need to run
+this after you've downloaded new data.
+
+    $ make import
+
+Run the calculators.
+
+    $ make process
+
 # everything is output into the "build" folder
 ```
 
