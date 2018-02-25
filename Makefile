@@ -10,14 +10,22 @@ process: process.rb
 
 download: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
 	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
-	download-2015 download-2016 download-2017
+	download-SFO-2017 download-SFO-2018 \
+	download-COAK-2015 download-COAK-2016 download-COAK-2017
 
-download-%:
+download-SFO-%:
 	mkdir -p downloads/raw
-	wget -O downloads/raw/efile_COAK_$(subst download-,,$@).zip --no-verbose \
-		http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_COAK_$(subst download-,,$@).zip
-	unzip -p downloads/raw/efile_COAK_$(subst download-,,$@).zip > downloads/raw/efile_COAK_$(subst download-,,$@).xlsx
-	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-,,$@)_%{sheet}.csv'
+	wget -O downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip --no-verbose \
+		http://nf4.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip
+	unzip -p downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip > downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx
+	ruby ssconvert.rb downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx 'downloads/csv/efile_SFO_$(subst download-SFO-,,$@)_%{sheet}.csv'
+
+download-COAK-%:
+	mkdir -p downloads/raw
+	wget -O downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip --no-verbose \
+		http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_COAK_$(subst download-COAK-,,$@).zip
+	unzip -p downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip > downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx
+	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-COAK-,,$@)_%{sheet}.csv'
 
 import: dropdb createdb 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 		D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
@@ -41,7 +49,7 @@ createdb:
 	createdb disclosure-backend
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
-	./load.sh $@
+	csvstack downloads/csv/efile_*_$@.csv | csvsql --db postgresql:///disclosure-backend --tables $@ --insert
 	./clean.sh $@
 	./latest_only.sh $@
 
