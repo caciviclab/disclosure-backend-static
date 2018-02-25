@@ -64,9 +64,9 @@ ELECTIONS.each do |election|
   files = [
     "/ballot/#{election[:id]}",
     ("/locality/#{OAKLAND_LOCALITY_ID}/current_ballot" if election[:is_current])
-  ]
+  ].compact
 
-  files.compact.each do |filename|
+  files.each do |filename|
     build_file(filename) do |f|
       f.puts({
         id: 1,
