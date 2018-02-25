@@ -39,8 +39,8 @@ import: dropdb createdb 496 497 A-Contributions B1-Loans B2-Loans C-Contribution
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
-	./make_view.sh
-	./remove_duplicate_transactions.sh
+	./bin/make_view
+	./bin/remove_duplicate_transactions
 
 dropdb:
 	dropdb disclosure-backend || true
@@ -50,8 +50,8 @@ createdb:
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	csvstack downloads/csv/efile_*_$@.csv | csvsql --db postgresql:///disclosure-backend --tables $@ --insert
-	./clean.sh $@
-	./latest_only.sh $@
+	./bin/clean $@
+	./bin/latest_only $@
 
 downloads/csv/oakland_candidates.csv: bin/auto-detect-candidates
 	mkdir -p downloads/csv downloads/raw
