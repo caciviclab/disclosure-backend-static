@@ -127,6 +127,8 @@ OaklandReferendum.find_each do |referendum|
         referendum.calculation(:supporting_total) || [],
       contributions_by_region:
         referendum.calculation(:supporting_locales) || [],
+      contributions_by_type:
+        referendum.calculation(:supporting_type) || [],
     ))
   end
 
@@ -138,6 +140,8 @@ OaklandReferendum.find_each do |referendum|
         referendum.calculation(:opposing_total) || [],
       contributions_by_region:
         referendum.calculation(:opposing_locales) || [],
+      contributions_by_type:
+        referendum.calculation(:opposing_type) || [],
     ))
   end
 end
