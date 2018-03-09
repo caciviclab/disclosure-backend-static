@@ -27,5 +27,19 @@
       "amount": 78680.0,
       "locale": "Within Oakland"
     }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 213964.72
+    },
+    {
+      "type": "Individual",
+      "amount": 9416327.2
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 1129650.0
+    }
   ]
 }
