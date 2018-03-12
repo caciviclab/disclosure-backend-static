@@ -3,22 +3,18 @@ set -euo pipefail
 
 if [[ "$1" == "497" || "$1" == "496" ]]; then
   cat <<-QUERY | psql disclosure-backend
-  DELETE FROM "$1" "outer"
-  WHERE "Report_Num" < (
-    SELECT MAX("Report_Num") FROM "$1" "inner"
-      GROUP BY "Filer_ID", "Rpt_ID_Num"
-      HAVING "outer"."Filer_ID" = "inner"."Filer_ID"
-        AND "outer"."Rpt_ID_Num" = "inner"."Rpt_ID_Num"
-    );
+  DELETE FROM "$1"
+  WHERE ("Filer_ID", "Rpt_ID_Num", "Report_Num") NOT IN (
+    SELECT "Filer_ID", "Rpt_ID_Num", max("Report_Num") from "$1"
+    GROUP BY "Filer_ID", "Rpt_ID_Num"
+  );
 QUERY
 else
   cat <<-QUERY | psql disclosure-backend
-  DELETE FROM "$1" "outer"
-  WHERE "Report_Num" < (
-    SELECT MAX("Report_Num") FROM "$1" "inner"
-      GROUP BY "Filer_ID", "From_Date"
-      HAVING "outer"."Filer_ID" = "inner"."Filer_ID"
-        AND "outer"."From_Date" = "inner"."From_Date"
-    );
+  DELETE FROM "$1"
+  WHERE ("Filer_ID", "From_Date", "Report_Num") NOT IN (
+    SELECT "Filer_ID", "From_Date", max("Report_Num") from "$1"
+    GROUP BY "Filer_ID", "From_Date"
+  );
 QUERY
 fi
