@@ -1,49 +1,31 @@
 {
   "id": 28,
-  "name": "Jeff Sheehy",
+  "name": "Natasha Middleton",
   "photo_url": null,
   "website_url": null,
   "twitter_url": null,
   "votersedge_url": null,
-  "first_name": "Jeff",
-  "last_name": "Sheehy",
-  "ballot_item": 16,
-  "office_election": 16,
+  "first_name": "Natasha",
+  "last_name": "Middleton",
+  "ballot_item": 8,
+  "office_election": 8,
   "bio": null,
-  "committee_name": "JEFF SHEEHY FOR SUPERVISOR JUNE 2018",
-  "is_accepted_expenditure_ceiling": null,
-  "is_incumbent": null,
+  "committee_name": "Natasha Middleton for Oakland City Council",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
   "occupation": null,
   "party_affiliation": null,
-  "filer_id": 1395306,
+  "filer_id": null,
   "supporting_money": {
-    "contributions_received": 182435.91,
-    "total_contributions": 182435.91,
-    "total_expenditures": 116283.42,
-    "total_loans_received": 0.0,
+    "contributions_received": null,
+    "total_contributions": null,
+    "total_expenditures": null,
+    "total_loans_received": null,
     "contributions_by_type": {
-      "Committee": 6917.0,
-      "Individual": 171315.17,
-      "Unitemized": 1703.74,
-      "Other (includes Businesses)": 2500.0
     },
     "contributions_by_origin": {
-      "Out of State": 200.0,
-      "Within Oakland": 3100.0,
-      "Within California": 177432.17
     },
     "expenditures_by_type": {
-      "Print Ads": 5956.2,
-      "Not Stated": 5609.14,
-      "Contribution": 1200.0,
-      "Office Expenses": 7498.82,
-      "Campaign Consultants": 41522.73,
-      "Campaign Workers' Salaries": 6400.0,
-      "Polling and Survey Research": 14300.0,
-      "Campaign Paraphernalia/Misc.": 6656.06,
-      "Campaign Literature and Mailings": 4151.99,
-      "Professional Services (Legal, Accounting)": 13930.61,
-      "Information Technology Costs (Internet, E-mail)": 2350.0
     },
     "supporting_by_type": {
     }
@@ -53,27 +35,12 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 182435.91,
-  "total_contributions": 182435.91,
-  "total_expenditures": 116283.42,
-  "total_loans_received": 0.0,
+  "contributions_received": null,
+  "total_contributions": null,
+  "total_expenditures": null,
+  "total_loans_received": null,
   "contributions_by_type": {
-    "Committee": 6917.0,
-    "Individual": 171315.17,
-    "Unitemized": 1703.74,
-    "Other (includes Businesses)": 2500.0
   },
   "expenditures_by_type": {
-    "Print Ads": 5956.2,
-    "Not Stated": 5609.14,
-    "Contribution": 1200.0,
-    "Office Expenses": 7498.82,
-    "Campaign Consultants": 41522.73,
-    "Campaign Workers' Salaries": 6400.0,
-    "Polling and Survey Research": 14300.0,
-    "Campaign Paraphernalia/Misc.": 6656.06,
-    "Campaign Literature and Mailings": 4151.99,
-    "Professional Services (Legal, Accounting)": 13930.61,
-    "Information Technology Costs (Internet, E-mail)": 2350.0
   }
 }

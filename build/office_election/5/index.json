@@ -1,57 +1,45 @@
 {
   "id": 5,
   "contest_type": "Office",
-  "name": "City Council District 3",
+  "name": "City Council District 2",
   "candidates": [
     {
-      "id": 11,
-      "name": "Lynette Gibson McElhaney",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lynette-Gibson-McElhaney.png",
-      "website_url": "http://www.lynettemcelhaney.com/",
-      "twitter_url": "@lynettegm",
-      "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130757?&county=Alameda%20County&election_authority_id=1",
-      "first_name": "Lynette",
-      "last_name": "Gibson McElhaney",
+      "id": 29,
+      "name": "Nikke Fortunato Bas",
+      "photo_url": "https://d3n8a8pro7vhmx.cloudfront.net/nikki4oakland/pages/34/attachments/original/1513124836/NikkiLaunch-December17.png?1513124836",
+      "website_url": "http://www.nikki4oakland.com/launch",
+      "twitter_url": "@Nikki4Oakland",
+      "votersedge_url": null,
+      "first_name": "Nikke",
+      "last_name": "Fortunato Bas",
       "ballot_item": 5,
       "office_election": 5,
-      "bio": "Lynnette McElhaney currently serves as an Oakland City Council member representing District 3 and has advocated for the betterment of Oakland in terms of enhancing jobs, public safety, education and the economy. She earned a degree from UC Berkeley and moved to West Oakland after graduating college. \n\nSource: http://www.lynettemcelhaney.com/",
-      "committee_name": "Re-Elect McElhaney for City Council 2016",
+      "bio": null,
+      "committee_name": "Nikki Fortunato Bas for Oakland City Council 2018",
       "is_accepted_expenditure_ceiling": true,
-      "is_incumbent": true,
-      "occupation": "Incumbent, City Council member",
-      "party_affiliation": "Democrat",
-      "filer_id": 1375179,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1400325,
       "supporting_money": {
-        "contributions_received": 126756.69,
-        "total_contributions": 126756.69,
-        "total_expenditures": 134875.99,
+        "contributions_received": 43000.0,
+        "total_contributions": 43000.0,
+        "total_expenditures": 3729.35,
         "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Committee": 15850.0,
-          "Individual": 80872.77,
-          "Unitemized": 3233.92,
-          "Other (includes Businesses)": 26800.0
+          "Individual": 37951.0,
+          "Unitemized": 5049.0
         },
         "contributions_by_origin": {
-          "Out of State": 2000.0,
-          "Within Oakland": 51461.79,
-          "Within California": 70060.98
+          "Out of State": 6300.0,
+          "Within Oakland": 22901.0,
+          "Within California": 8750.0
         },
         "expenditures_by_type": {
-          "Print Ads": 1000.0,
-          "Not Stated": 17406.96,
-          "Contribution": 750.0,
-          "Civic Donations": 5300.0,
-          "Office Expenses": 7348.9,
-          "Fundraising Events": 920.48,
-          "Campaign Consultants": 29000.0,
-          "Meetings and Appearances": 2016.19,
-          "Campaign Paraphernalia/Misc.": 3891.01,
-          "Candidate Filing/Ballot Fees": 250.0,
-          "Campaign Literature and Mailings": 37361.74,
-          "Candidate Travel, Lodging, and Meals": 91.39,
-          "Professional Services (Legal, Accounting)": 21335.45,
-          "Information Technology Costs (Internet, E-mail)": 4228.5
+          "Not Stated": 2245.31,
+          "Office Expenses": 118.87,
+          "Postage, Delivery and Messenger Services": 29.69,
+          "Professional Services (Legal, Accounting)": 1228.19
         },
         "supporting_by_type": {
         }
@@ -61,75 +49,62 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": 126756.69,
-      "total_contributions": 126756.69,
-      "total_expenditures": 134875.99,
+      "contributions_received": 43000.0,
+      "total_contributions": 43000.0,
+      "total_expenditures": 3729.35,
       "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Committee": 15850.0,
-        "Individual": 80872.77,
-        "Unitemized": 3233.92,
-        "Other (includes Businesses)": 26800.0
+        "Individual": 37951.0,
+        "Unitemized": 5049.0
       },
       "expenditures_by_type": {
-        "Print Ads": 1000.0,
-        "Not Stated": 17406.96,
-        "Contribution": 750.0,
-        "Civic Donations": 5300.0,
-        "Office Expenses": 7348.9,
-        "Fundraising Events": 920.48,
-        "Campaign Consultants": 29000.0,
-        "Meetings and Appearances": 2016.19,
-        "Campaign Paraphernalia/Misc.": 3891.01,
-        "Candidate Filing/Ballot Fees": 250.0,
-        "Campaign Literature and Mailings": 37361.74,
-        "Candidate Travel, Lodging, and Meals": 91.39,
-        "Professional Services (Legal, Accounting)": 21335.45,
-        "Information Technology Costs (Internet, E-mail)": 4228.5
+        "Not Stated": 2245.31,
+        "Office Expenses": 118.87,
+        "Postage, Delivery and Messenger Services": 29.69,
+        "Professional Services (Legal, Accounting)": 1228.19
       }
     },
     {
-      "id": 12,
-      "name": "Noni Session",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
-      "website_url": "http://www.nonifordistrict3.com/",
-      "twitter_url": "@NoniSession",
-      "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130758?&county=Alameda%20County&election_authority_id=1",
-      "first_name": "Noni",
-      "last_name": "Session",
+      "id": 40,
+      "name": "Abel Guillen",
+      "photo_url": "https://www.facebook.com/AbelGuillen/",
+      "website_url": "http://www.voteabelguillen.com/",
+      "twitter_url": "@abelguillen",
+      "votersedge_url": null,
+      "first_name": "Abel",
+      "last_name": "Guillen",
       "ballot_item": 5,
       "office_election": 5,
-      "bio": "Noni Session is a lifelong resident of Oakland and attended Oakland public schools. Session served as a special education teacher at Harbor Way Academy Elementary School. She graduated with a degree in Cultural Anthropology and African American Studies from San Francisco State University and received her Ph.D. in Cultural Anthropology from Cornell University. Session’s doctoral research in Nairobi, Kenya on Bureaucratic Organizations & Humanitarianism led her to work with the United Nations Development Programme as a Researcher and Government Liaison. \n\nSource: https://www.crowdpac.com/campaigns/68285/support-noni-session-for-oakland-city-council-distict-3",
-      "committee_name": "Noni D. Session for City Council 2016",
+      "bio": null,
+      "committee_name": "Abel Guillen for City Council 2018",
       "is_accepted_expenditure_ceiling": true,
-      "is_incumbent": false,
-      "occupation": "Assistant Librarian",
-      "party_affiliation": "Democrat",
-      "filer_id": 1386922,
+      "is_incumbent": true,
+      "occupation": "Incumbent, Councilmember",
+      "party_affiliation": null,
+      "filer_id": 1395580,
       "supporting_money": {
-        "contributions_received": 10634.0,
-        "total_contributions": 10634.0,
-        "total_expenditures": 9611.19,
+        "contributions_received": 61546.0,
+        "total_contributions": 61546.0,
+        "total_expenditures": 22254.42,
         "total_loans_received": 0.0,
         "contributions_by_type": {
-          "Individual": 7110.0,
-          "Unitemized": 1424.0,
-          "Other (includes Businesses)": 2100.0
+          "Committee": 6925.0,
+          "Individual": 45600.0,
+          "Unitemized": 771.0,
+          "Other (includes Businesses)": 8250.0
         },
         "contributions_by_origin": {
-          "Out of State": 850.0,
-          "Within Oakland": 6500.0,
-          "Within California": 1860.0
+          "Out of State": 2300.0,
+          "Within Oakland": 37350.0,
+          "Within California": 21125.0
         },
         "expenditures_by_type": {
-          "Office Expenses": 359.71,
-          "Fundraising Events": 381.2,
-          "Campaign Consultants": 1375.0,
-          "Campaign Workers' Salaries": 1144.0,
-          "Campaign Paraphernalia/Misc.": 195.0,
-          "Candidate Filing/Ballot Fees": 300.0,
-          "Campaign Literature and Mailings": 3399.31,
-          "Information Technology Costs (Internet, E-mail)": 387.0
+          "Contribution": 1550.0,
+          "Civic Donations": 2500.0,
+          "Office Expenses": 2656.58,
+          "Fundraising Events": 12422.3,
+          "Professional Services (Legal, Accounting)": 2775.34,
+          "Information Technology Costs (Internet, E-mail)": 153.32
         },
         "supporting_by_type": {
         }
@@ -139,24 +114,88 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": 10634.0,
-      "total_contributions": 10634.0,
-      "total_expenditures": 9611.19,
+      "contributions_received": 61546.0,
+      "total_contributions": 61546.0,
+      "total_expenditures": 22254.42,
       "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Individual": 7110.0,
-        "Unitemized": 1424.0,
-        "Other (includes Businesses)": 2100.0
+        "Committee": 6925.0,
+        "Individual": 45600.0,
+        "Unitemized": 771.0,
+        "Other (includes Businesses)": 8250.0
       },
       "expenditures_by_type": {
-        "Office Expenses": 359.71,
-        "Fundraising Events": 381.2,
-        "Campaign Consultants": 1375.0,
-        "Campaign Workers' Salaries": 1144.0,
-        "Campaign Paraphernalia/Misc.": 195.0,
-        "Candidate Filing/Ballot Fees": 300.0,
-        "Campaign Literature and Mailings": 3399.31,
-        "Information Technology Costs (Internet, E-mail)": 387.0
+        "Contribution": 1550.0,
+        "Civic Donations": 2500.0,
+        "Office Expenses": 2656.58,
+        "Fundraising Events": 12422.3,
+        "Professional Services (Legal, Accounting)": 2775.34,
+        "Information Technology Costs (Internet, E-mail)": 153.32
+      }
+    },
+    {
+      "id": 41,
+      "name": "Annie Campbell Washington",
+      "photo_url": "https://www.facebook.com/anniecampbellwashington/",
+      "website_url": "http://www.annieforoakland.com",
+      "twitter_url": "@anniecampbellwashington",
+      "votersedge_url": null,
+      "first_name": "Annie",
+      "last_name": "Campbell Washington",
+      "ballot_item": 5,
+      "office_election": 5,
+      "bio": null,
+      "committee_name": "Annie Campbell Washington for Oakland City Council 2018",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": true,
+      "occupation": "Incumbent, Councilmember",
+      "party_affiliation": null,
+      "filer_id": 1376660,
+      "supporting_money": {
+        "contributions_received": 27791.0,
+        "total_contributions": 27791.0,
+        "total_expenditures": 23538.29,
+        "total_loans_received": 3600.0,
+        "contributions_by_type": {
+          "Committee": 7200.0,
+          "Individual": 13500.0,
+          "Unitemized": 91.0,
+          "Other (includes Businesses)": 3400.0
+        },
+        "contributions_by_origin": {
+          "Out of State": 800.0,
+          "Within Oakland": 12800.0,
+          "Within California": 10500.0
+        },
+        "expenditures_by_type": {
+          "Not Stated": 10300.0,
+          "Fundraising Events": 1436.9,
+          "Professional Services (Legal, Accounting)": 8408.06,
+          "Information Technology Costs (Internet, E-mail)": 3131.38
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": 27791.0,
+      "total_contributions": 27791.0,
+      "total_expenditures": 23538.29,
+      "total_loans_received": 3600.0,
+      "contributions_by_type": {
+        "Committee": 7200.0,
+        "Individual": 13500.0,
+        "Unitemized": 91.0,
+        "Other (includes Businesses)": 3400.0
+      },
+      "expenditures_by_type": {
+        "Not Stated": 10300.0,
+        "Fundraising Events": 1436.9,
+        "Professional Services (Legal, Accounting)": 8408.06,
+        "Information Technology Costs (Internet, E-mail)": 3131.38
       }
     }
   ],

@@ -1,42 +1,37 @@
 {
   "id": 16,
-  "name": "Annie Campbell Washington",
-  "photo_url": "https://www.facebook.com/anniecampbellwashington/",
-  "website_url": "http://www.annieforoakland.com",
-  "twitter_url": "@anniecampbellwashington",
-  "votersedge_url": null,
-  "first_name": "Annie",
-  "last_name": "Campbell Washington",
-  "ballot_item": 4,
-  "office_election": 4,
-  "bio": null,
-  "committee_name": "Annie Campbell Washington for Oakland City Council 2018",
-  "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": true,
-  "occupation": "Incumbent, Councilmember",
-  "party_affiliation": null,
-  "filer_id": 1376660,
+  "name": "Marcie Hodge",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
+  "website_url": "http://hodge4oaklandcitycouncil.com/",
+  "twitter_url": null,
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130761?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Marcie",
+  "last_name": "Hodge",
+  "ballot_item": 9,
+  "office_election": 9,
+  "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and candidate website",
+  "committee_name": "Hodge 4 Oakland City Council 2016",
+  "is_accepted_expenditure_ceiling": false,
+  "is_incumbent": false,
+  "occupation": "Non-profit Executive Director",
+  "party_affiliation": "Democrat",
+  "filer_id": 1388731,
   "supporting_money": {
-    "contributions_received": 27791.0,
-    "total_contributions": 27791.0,
-    "total_expenditures": 23538.29,
-    "total_loans_received": 3600.0,
+    "contributions_received": 20349.0,
+    "total_contributions": 20349.0,
+    "total_expenditures": 16624.17,
+    "total_loans_received": 19857.0,
     "contributions_by_type": {
-      "Committee": 7200.0,
-      "Individual": 13500.0,
-      "Unitemized": 91.0,
-      "Other (includes Businesses)": 3400.0
+      "Unitemized": 442.0,
+      "Self Funding": 50.0
     },
     "contributions_by_origin": {
-      "Out of State": 800.0,
-      "Within Oakland": 12800.0,
-      "Within California": 10500.0
+      "Within Oakland": 50.0
     },
     "expenditures_by_type": {
-      "Not Stated": 10300.0,
-      "Fundraising Events": 1436.9,
-      "Professional Services (Legal, Accounting)": 8408.06,
-      "Information Technology Costs (Internet, E-mail)": 3131.38
+      "Not Stated": 435.74,
+      "Campaign Paraphernalia/Misc.": 13557.03,
+      "Professional Services (Legal, Accounting)": 850.0
     },
     "supporting_by_type": {
     }
@@ -46,20 +41,17 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 27791.0,
-  "total_contributions": 27791.0,
-  "total_expenditures": 23538.29,
-  "total_loans_received": 3600.0,
+  "contributions_received": 20349.0,
+  "total_contributions": 20349.0,
+  "total_expenditures": 16624.17,
+  "total_loans_received": 19857.0,
   "contributions_by_type": {
-    "Committee": 7200.0,
-    "Individual": 13500.0,
-    "Unitemized": 91.0,
-    "Other (includes Businesses)": 3400.0
+    "Unitemized": 442.0,
+    "Self Funding": 50.0
   },
   "expenditures_by_type": {
-    "Not Stated": 10300.0,
-    "Fundraising Events": 1436.9,
-    "Professional Services (Legal, Accounting)": 8408.06,
-    "Information Technology Costs (Internet, E-mail)": 3131.38
+    "Not Stated": 435.74,
+    "Campaign Paraphernalia/Misc.": 13557.03,
+    "Professional Services (Legal, Accounting)": 850.0
   }
 }

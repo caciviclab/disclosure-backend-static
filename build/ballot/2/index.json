@@ -2,12 +2,65 @@
   "id": 1,
   "ballot_items": [
     {
-      "id": 4,
+      "id": 2,
+      "contest_type": "Office",
+      "name": "City Auditor",
+      "candidates": [
+        {
+          "id": 8,
+          "name": "Brenda Roberts",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Brenda",
+          "last_name": "Roberts",
+          "ballot_item": 2,
+          "office_election": 2,
+          "bio": null,
+          "committee_name": "Brenda Roberts for Oakland City Auditor 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, City Auditor",
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
       "contest_type": "Office",
       "name": "City Council District 2",
       "candidates": [
         {
-          "id": 8,
+          "id": 29,
           "name": "Nikke Fortunato Bas",
           "photo_url": "https://d3n8a8pro7vhmx.cloudfront.net/nikki4oakland/pages/34/attachments/original/1513124836/NikkiLaunch-December17.png?1513124836",
           "website_url": "http://www.nikki4oakland.com/launch",
@@ -15,8 +68,8 @@
           "votersedge_url": null,
           "first_name": "Nikke",
           "last_name": "Fortunato Bas",
-          "ballot_item": 4,
-          "office_election": 4,
+          "ballot_item": 5,
+          "office_election": 5,
           "bio": null,
           "committee_name": "Nikki Fortunato Bas for Oakland City Council 2018",
           "is_accepted_expenditure_ceiling": true,
@@ -68,7 +121,7 @@
           }
         },
         {
-          "id": 9,
+          "id": 40,
           "name": "Abel Guillen",
           "photo_url": "https://www.facebook.com/AbelGuillen/",
           "website_url": "http://www.voteabelguillen.com/",
@@ -76,8 +129,8 @@
           "votersedge_url": null,
           "first_name": "Abel",
           "last_name": "Guillen",
-          "ballot_item": 4,
-          "office_election": 4,
+          "ballot_item": 5,
+          "office_election": 5,
           "bio": null,
           "committee_name": "Abel Guillen for City Council 2018",
           "is_accepted_expenditure_ceiling": true,
@@ -137,7 +190,7 @@
           }
         },
         {
-          "id": 16,
+          "id": 41,
           "name": "Annie Campbell Washington",
           "photo_url": "https://www.facebook.com/anniecampbellwashington/",
           "website_url": "http://www.annieforoakland.com",
@@ -145,8 +198,8 @@
           "votersedge_url": null,
           "first_name": "Annie",
           "last_name": "Campbell Washington",
-          "ballot_item": 4,
-          "office_election": 4,
+          "ballot_item": 5,
+          "office_election": 5,
           "bio": null,
           "committee_name": "Annie Campbell Washington for Oakland City Council 2018",
           "is_accepted_expenditure_ceiling": true,
@@ -204,58 +257,12 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "contest_type": "Office",
       "name": "City Council District 6",
       "candidates": [
         {
-          "id": 17,
-          "name": "Loren Taylor",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "votersedge_url": null,
-          "first_name": "Loren",
-          "last_name": "Taylor",
-          "ballot_item": 7,
-          "office_election": 7,
-          "bio": null,
-          "committee_name": "Loren Taylor for Oakland City Council 2018",
-          "is_accepted_expenditure_ceiling": true,
-          "is_incumbent": false,
-          "occupation": null,
-          "party_affiliation": null,
-          "filer_id": 1401499,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "contributions_by_origin": {
-            },
-            "expenditures_by_type": {
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 27,
+          "id": 9,
           "name": "Desley Brooks",
           "photo_url": null,
           "website_url": null,
@@ -263,10 +270,10 @@
           "votersedge_url": null,
           "first_name": "Desley",
           "last_name": "Brooks",
-          "ballot_item": 7,
-          "office_election": 7,
+          "ballot_item": 8,
+          "office_election": 8,
           "bio": null,
-          "committee_name": "Friends Of Desley Brooks for City Council 2018",
+          "committee_name": "Desley Brooks for City Council 2018",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": true,
           "occupation": null,
@@ -329,28 +336,281 @@
             "Candidate Travel, Lodging, and Meals": 1440.61,
             "Postage, Delivery and Messenger Services": 102.0
           }
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "contest_type": "Office",
-      "name": "Mayor",
-      "candidates": [
+        },
         {
           "id": 19,
-          "name": "Saied Karamooz",
+          "name": "Loren Taylor",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "votersedge_url": null,
-          "first_name": "Saied",
-          "last_name": "Karamooz",
-          "ballot_item": 9,
-          "office_election": 9,
+          "first_name": "Loren",
+          "last_name": "Taylor",
+          "ballot_item": 8,
+          "office_election": 8,
           "bio": null,
-          "committee_name": null,
-          "is_accepted_expenditure_ceiling": false,
+          "committee_name": "Loren Taylor for Oakland City Council 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": 1401499,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 28,
+          "name": "Natasha Middleton",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Natasha",
+          "last_name": "Middleton",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "Natasha Middleton for Oakland City Council",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 42,
+          "name": "Maria Rodriguez",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Maria",
+          "last_name": "Rodriguez",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 46,
+          "name": "Mya Whitaker",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Mya",
+          "last_name": "Whitaker",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "contest_type": "Office",
+      "name": "Mayor",
+      "candidates": [
+        {
+          "id": 18,
+          "name": "Libby Schaaf",
+          "photo_url": "https://www.facebook.com/MayorLibbySchaaf/",
+          "website_url": "https://libbyformayor.wordpress.com/",
+          "twitter_url": "@LibbySchaaf; @MayorLibbySchaaf",
+          "votersedge_url": null,
+          "first_name": "Libby",
+          "last_name": "Schaaf",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "Libby Schaaf for Mayor 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, Mayor",
+          "party_affiliation": null,
+          "filer_id": 1395968,
+          "supporting_money": {
+            "contributions_received": 262193.66,
+            "total_contributions": 262193.66,
+            "total_expenditures": 36153.65,
+            "total_loans_received": 0.0,
+            "contributions_by_type": {
+              "Committee": 2250.0,
+              "Individual": 235919.66,
+              "Unitemized": 2824.0,
+              "Other (includes Businesses)": 21200.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 5200.0,
+              "Within Oakland": 141640.0,
+              "Within California": 112529.66
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 15105.6,
+              "Fundraising Events": 349.05,
+              "Campaign Consultants": 3000.0,
+              "Returned Contributions": 2700.0,
+              "Professional Services (Legal, Accounting)": 13994.0,
+              "Information Technology Costs (Internet, E-mail)": 975.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 262193.66,
+          "total_contributions": 262193.66,
+          "total_expenditures": 36153.65,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 2250.0,
+            "Individual": 235919.66,
+            "Unitemized": 2824.0,
+            "Other (includes Businesses)": 21200.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 15105.6,
+            "Fundraising Events": 349.05,
+            "Campaign Consultants": 3000.0,
+            "Returned Contributions": 2700.0,
+            "Professional Services (Legal, Accounting)": 13994.0,
+            "Information Technology Costs (Internet, E-mail)": 975.0
+          }
+        },
+        {
+          "id": 20,
+          "name": "Marchon Tatmon",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Marchon",
+          "last_name": "Tatmon",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "Marchon Tatmon Mayor for Oakland 2018",
+          "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
           "occupation": null,
           "party_affiliation": null,
@@ -385,6 +645,282 @@
         },
         {
           "id": 30,
+          "name": "Saied Karamooz",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Saied",
+          "last_name": "Karamooz",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "Saied Karamooz for Oakland Mayor 2018",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 31,
+          "name": "Kristina Molina",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Kristina",
+          "last_name": "Molina",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 32,
+          "name": "Ken Houston",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": "@KHouston4Mayor",
+          "votersedge_url": null,
+          "first_name": "Ken",
+          "last_name": "Houston",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 43,
+          "name": "Nancy Sidebotham",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Nancy",
+          "last_name": "Sidebotham",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 44,
+          "name": "Jesse A.J. Smith",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Jesse",
+          "last_name": "A.J. Smith",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 45,
+          "name": "Cedric Anthony Troupe",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Cedric",
+          "last_name": "Anthony Troupe",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 49,
           "name": "Jane Kim",
           "photo_url": null,
           "website_url": null,
@@ -392,8 +928,8 @@
           "votersedge_url": null,
           "first_name": "Jane",
           "last_name": "Kim",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 10,
+          "office_election": 10,
           "bio": null,
           "committee_name": "Jane Kim for Mayor 2018",
           "is_accepted_expenditure_ceiling": null,
@@ -450,7 +986,7 @@
           }
         },
         {
-          "id": 31,
+          "id": 50,
           "name": "Mark Leno",
           "photo_url": null,
           "website_url": null,
@@ -458,8 +994,8 @@
           "votersedge_url": null,
           "first_name": "Mark",
           "last_name": "Leno",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 10,
+          "office_election": 10,
           "bio": null,
           "committee_name": "Mark Leno for Mayor 2018",
           "is_accepted_expenditure_ceiling": null,
@@ -521,177 +1057,62 @@
             "Professional Services (Legal, Accounting)": 2000.0,
             "Information Technology Costs (Internet, E-mail)": 8000.0
           }
-        },
-        {
-          "id": 39,
-          "name": "Libby Schaaf",
-          "photo_url": "https://www.facebook.com/MayorLibbySchaaf/",
-          "website_url": "https://libbyformayor.wordpress.com/",
-          "twitter_url": "@LibbySchaaf; @MayorLibbySchaaf",
-          "votersedge_url": null,
-          "first_name": "Libby",
-          "last_name": "Schaaf",
-          "ballot_item": 9,
-          "office_election": 9,
-          "bio": null,
-          "committee_name": "Libby Schaaf for Mayor 2018",
-          "is_accepted_expenditure_ceiling": true,
-          "is_incumbent": true,
-          "occupation": "Incumbent, Mayor",
-          "party_affiliation": null,
-          "filer_id": 1395968,
-          "supporting_money": {
-            "contributions_received": 262193.66,
-            "total_contributions": 262193.66,
-            "total_expenditures": 36153.65,
-            "total_loans_received": 0.0,
-            "contributions_by_type": {
-              "Committee": 2250.0,
-              "Individual": 235919.66,
-              "Unitemized": 2824.0,
-              "Other (includes Businesses)": 21200.0
-            },
-            "contributions_by_origin": {
-              "Out of State": 5200.0,
-              "Within Oakland": 141640.0,
-              "Within California": 112529.66
-            },
-            "expenditures_by_type": {
-              "Office Expenses": 15105.6,
-              "Fundraising Events": 349.05,
-              "Campaign Consultants": 3000.0,
-              "Returned Contributions": 2700.0,
-              "Professional Services (Legal, Accounting)": 13994.0,
-              "Information Technology Costs (Internet, E-mail)": 975.0
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": 262193.66,
-          "total_contributions": 262193.66,
-          "total_expenditures": 36153.65,
-          "total_loans_received": 0.0,
-          "contributions_by_type": {
-            "Committee": 2250.0,
-            "Individual": 235919.66,
-            "Unitemized": 2824.0,
-            "Other (includes Businesses)": 21200.0
-          },
-          "expenditures_by_type": {
-            "Office Expenses": 15105.6,
-            "Fundraising Events": 349.05,
-            "Campaign Consultants": 3000.0,
-            "Returned Contributions": 2700.0,
-            "Professional Services (Legal, Accounting)": 13994.0,
-            "Information Technology Costs (Internet, E-mail)": 975.0
-          }
-        },
-        {
-          "id": 40,
-          "name": "Kristina Molina",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "votersedge_url": null,
-          "first_name": "Kristina",
-          "last_name": "Molina",
-          "ballot_item": 9,
-          "office_election": 9,
-          "bio": null,
-          "committee_name": null,
-          "is_accepted_expenditure_ceiling": true,
-          "is_incumbent": false,
-          "occupation": null,
-          "party_affiliation": null,
-          "filer_id": null,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "contributions_by_origin": {
-            },
-            "expenditures_by_type": {
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 41,
-          "name": "Ken Houston",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": "@KHouston4Mayor",
-          "votersedge_url": null,
-          "first_name": "Ken",
-          "last_name": "Houston",
-          "ballot_item": 9,
-          "office_election": 9,
-          "bio": null,
-          "committee_name": null,
-          "is_accepted_expenditure_ceiling": null,
-          "is_incumbent": false,
-          "occupation": null,
-          "party_affiliation": null,
-          "filer_id": null,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "contributions_by_type": {
-            },
-            "contributions_by_origin": {
-            },
-            "expenditures_by_type": {
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
         }
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "contest_type": "Office",
       "name": "OUSD District 6",
       "candidates": [
         {
-          "id": 18,
+          "id": 10,
+          "name": "Ebony Edgerson",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Ebony",
+          "last_name": "Edgerson",
+          "ballot_item": 12,
+          "office_election": 12,
+          "bio": null,
+          "committee_name": "No committee registered",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 17,
           "name": "Shanthi Gonzales",
           "photo_url": null,
           "website_url": null,
@@ -699,8 +1120,8 @@
           "votersedge_url": null,
           "first_name": "Shanthi",
           "last_name": "Gonzales",
-          "ballot_item": 11,
-          "office_election": 11,
+          "ballot_item": 12,
+          "office_election": 12,
           "bio": null,
           "committee_name": "Gonzales for School Board 2018",
           "is_accepted_expenditure_ceiling": true,
