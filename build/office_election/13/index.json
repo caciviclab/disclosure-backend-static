@@ -31,6 +31,11 @@
           "Individual": 15788.0,
           "Unitemized": 628.85
         },
+        "contributions_by_origin": {
+          "Out of State": 150.0,
+          "Within Oakland": 8238.0,
+          "Within California": 8900.0
+        },
         "expenditures_by_type": {
           "Phone Banks": 5354.94,
           "Fundraising Events": 203.53,
@@ -102,6 +107,8 @@
         "total_loans_received": null,
         "contributions_by_type": {
         },
+        "contributions_by_origin": {
+        },
         "expenditures_by_type": {
         },
         "supporting_by_type": {
@@ -148,6 +155,11 @@
           "Individual": 2590.0,
           "Unitemized": 1093.0,
           "Other (includes Businesses)": 2115.0
+        },
+        "contributions_by_origin": {
+          "Out of State": 1905.0,
+          "Within Oakland": 2150.0,
+          "Within California": 650.0
         },
         "expenditures_by_type": {
           "Not Stated": 180.0,
@@ -213,6 +225,8 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+        },
+        "contributions_by_origin": {
         },
         "expenditures_by_type": {
         },

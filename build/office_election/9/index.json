@@ -28,6 +28,8 @@
         "total_loans_received": null,
         "contributions_by_type": {
         },
+        "contributions_by_origin": {
+        },
         "expenditures_by_type": {
         },
         "supporting_by_type": {
@@ -75,6 +77,11 @@
           "Individual": 47051.0,
           "Unitemized": 3829.3,
           "Other (includes Businesses)": 100.0
+        },
+        "contributions_by_origin": {
+          "Out of State": 1450.0,
+          "Within Oakland": 850.0,
+          "Within California": 44951.0
         },
         "expenditures_by_type": {
           "Not Stated": 500.0,
@@ -136,6 +143,11 @@
           "Individual": 405430.96,
           "Unitemized": 4966.0,
           "Other (includes Businesses)": 2250.0
+        },
+        "contributions_by_origin": {
+          "Out of State": 18419.98,
+          "Within Oakland": 8200.0,
+          "Within California": 386560.98
         },
         "expenditures_by_type": {
           "Not Stated": 778.22,
@@ -205,6 +217,11 @@
           "Unitemized": 2824.0,
           "Other (includes Businesses)": 21200.0
         },
+        "contributions_by_origin": {
+          "Out of State": 5200.0,
+          "Within Oakland": 141640.0,
+          "Within California": 112529.66
+        },
         "expenditures_by_type": {
           "Office Expenses": 15105.6,
           "Fundraising Events": 349.05,
@@ -265,6 +282,8 @@
         "total_loans_received": null,
         "contributions_by_type": {
         },
+        "contributions_by_origin": {
+        },
         "expenditures_by_type": {
         },
         "supporting_by_type": {
@@ -308,6 +327,8 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+        },
+        "contributions_by_origin": {
         },
         "expenditures_by_type": {
         },

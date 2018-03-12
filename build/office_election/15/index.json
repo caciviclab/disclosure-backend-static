@@ -32,6 +32,11 @@
           "Unitemized": 50.0,
           "Self Funding": 300.0
         },
+        "contributions_by_origin": {
+          "Out of State": 700.0,
+          "Within Oakland": 15535.0,
+          "Within California": 11301.0
+        },
         "expenditures_by_type": {
           "Print Ads": 13871.57,
           "Phone Banks": 79.0,
@@ -109,6 +114,10 @@
           "Committee": 5900.0,
           "Individual": 5900.0,
           "Unitemized": 2762.0
+        },
+        "contributions_by_origin": {
+          "Within Oakland": 6350.0,
+          "Within California": 5450.0
         },
         "expenditures_by_type": {
           "Not Stated": 2033.0,

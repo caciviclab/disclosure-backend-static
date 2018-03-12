@@ -27,5 +27,19 @@
       "amount": 299.6999999999971,
       "locale": "Unknown"
     }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Individual",
+      "amount": 7500.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 35274.29
+    },
+    {
+      "type": "COM",
+      "amount": 299.6999999999971
+    }
   ]
 }
