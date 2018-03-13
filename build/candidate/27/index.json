@@ -1,48 +1,56 @@
 {
   "id": 27,
-  "name": "Kharyshi Wiginton",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kharyshi-Wiginton.png",
-  "website_url": "http://www.mskfordistrict3sb.com/",
-  "twitter_url": null,
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130698?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Kharyshi",
-  "last_name": "Wiginton",
+  "name": "Jumoke Hinton Hodge",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
+  "website_url": "https://hintonhodge.nationbuilder.com/",
+  "twitter_url": "@hintonhodge4oak",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130695?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Jumoke",
+  "last_name": "Hinton Hodge",
   "ballot_item": 14,
   "office_election": 14,
-  "bio": "Kharyshi Wiginton is the Youth Leadership Coordinator at McClymonds Youth and Family Center has spent a decade doing education-related work in Oakland and currently holds a position at McClymonds High School. Wiginton graduated from the California Institute of Integral Studies in 2009. \n\nSource: https://www.facebook.com/kharyshi.wiginton, https://www.linkedin.com/in/kharyshi-wiginton-6a545b8, http://museumca.org/story/kharyshi-wiginton-youth-organizing-mcclymonds-high-school, and Candidate Statement",
-  "committee_name": "Kharyshi Wiginton for School Board 2016",
+  "bio": "Jumoke Hinton-Hodge is running for re-election as District 3 representative for the Oakland Unified School Board of Education. Hinton-Hodge is the co-founder of the Parent Leadership and Engagement Academy Initiative (PLEA), a community-building project dedicated to the education and support of West Oakland parents and families. She received a Bachelor degree in Black Studies and English from Oberlin College. \n\nSource: http://www.ousd.org/directorhodge",
+  "committee_name": "Re-Elect Jumoke Hinton Hodge for Oakland School Board 2016",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": false,
-  "occupation": "Youth Leadership Coordinator",
+  "is_incumbent": true,
+  "occupation": "OUSD Councilmember",
   "party_affiliation": null,
-  "filer_id": 1386929,
+  "filer_id": 1386416,
   "supporting_money": {
-    "contributions_received": 5798.0,
-    "total_contributions": 5798.0,
-    "total_expenditures": 4886.23,
-    "total_loans_received": 0.0,
+    "contributions_received": 25041.85,
+    "total_contributions": 25041.85,
+    "total_expenditures": 25486.04,
+    "total_loans_received": 7125.0,
     "contributions_by_type": {
-      "Individual": 2590.0,
-      "Unitemized": 1093.0,
-      "Other (includes Businesses)": 2115.0
+      "Committee": 1500.0,
+      "Individual": 15788.0,
+      "Unitemized": 628.85
     },
     "contributions_by_origin": {
-      "Out of State": 1905.0,
-      "Within Oakland": 2150.0,
-      "Within California": 650.0
+      "Out of State": 150.0,
+      "Within Oakland": 8238.0,
+      "Within California": 8900.0
     },
     "expenditures_by_type": {
-      "Not Stated": 180.0,
-      "Fundraising Events": 128.05,
-      "Meetings and Appearances": 114.67,
-      "Campaign Workers' Salaries": 150.0,
-      "Campaign Paraphernalia/Misc.": 870.17,
-      "Candidate Filing/Ballot Fees": 1140.0,
-      "Campaign Literature and Mailings": 1187.01,
-      "Professional Services (Legal, Accounting)": 500.0,
-      "Information Technology Costs (Internet, E-mail)": 381.89
+      "Phone Banks": 5354.94,
+      "Fundraising Events": 203.53,
+      "Campaign Consultants": 1815.0,
+      "Campaign Paraphernalia/Misc.": 8825.7,
+      "Campaign Literature and Mailings": 5458.08,
+      "Professional Services (Legal, Accounting)": 1200.0,
+      "Information Technology Costs (Internet, E-mail)": 2056.29
     },
     "supporting_by_type": {
+      "Print Ads": 2000.0,
+      "STAFF TIME": 15112.0,
+      "Phone Banks": 373.0,
+      "ESTIMATE OF LIT": 1800.0,
+      "CMP; SEE SCHEDULE G": 2702.0,
+      "ESTIMATE OF STAFF TIME": 7844.0,
+      "Campaign Paraphernalia/Misc.": 2702.0,
+      "Campaign Literature and Mailings": 77957.0,
+      "STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 6256.0,
+      "Information Technology Costs (Internet, E-mail)": 1050.0
     }
   },
   "opposing_money": {
@@ -50,24 +58,22 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 5798.0,
-  "total_contributions": 5798.0,
-  "total_expenditures": 4886.23,
-  "total_loans_received": 0.0,
+  "contributions_received": 25041.85,
+  "total_contributions": 25041.85,
+  "total_expenditures": 25486.04,
+  "total_loans_received": 7125.0,
   "contributions_by_type": {
-    "Individual": 2590.0,
-    "Unitemized": 1093.0,
-    "Other (includes Businesses)": 2115.0
+    "Committee": 1500.0,
+    "Individual": 15788.0,
+    "Unitemized": 628.85
   },
   "expenditures_by_type": {
-    "Not Stated": 180.0,
-    "Fundraising Events": 128.05,
-    "Meetings and Appearances": 114.67,
-    "Campaign Workers' Salaries": 150.0,
-    "Campaign Paraphernalia/Misc.": 870.17,
-    "Candidate Filing/Ballot Fees": 1140.0,
-    "Campaign Literature and Mailings": 1187.01,
-    "Professional Services (Legal, Accounting)": 500.0,
-    "Information Technology Costs (Internet, E-mail)": 381.89
+    "Phone Banks": 5354.94,
+    "Fundraising Events": 203.53,
+    "Campaign Consultants": 1815.0,
+    "Campaign Paraphernalia/Misc.": 8825.7,
+    "Campaign Literature and Mailings": 5458.08,
+    "Professional Services (Legal, Accounting)": 1200.0,
+    "Information Technology Costs (Internet, E-mail)": 2056.29
   }
 }

@@ -1,31 +1,42 @@
 {
   "id": 46,
-  "name": "Mya Whitaker",
-  "photo_url": null,
-  "website_url": null,
-  "twitter_url": null,
+  "name": "Annie Campbell Washington",
+  "photo_url": "https://www.facebook.com/anniecampbellwashington/",
+  "website_url": "http://www.annieforoakland.com",
+  "twitter_url": "anniecampbellwashington",
   "votersedge_url": null,
-  "first_name": "Mya",
-  "last_name": "Whitaker",
-  "ballot_item": 8,
-  "office_election": 8,
+  "first_name": "Annie",
+  "last_name": "Campbell Washington",
+  "ballot_item": 5,
+  "office_election": 5,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Annie Campbell Washington for Oakland City Council 2018",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": false,
-  "occupation": null,
+  "is_incumbent": true,
+  "occupation": "Incumbent, Councilmember",
   "party_affiliation": null,
-  "filer_id": null,
+  "filer_id": 1376660,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 27791.0,
+    "total_contributions": 27791.0,
+    "total_expenditures": 23538.29,
+    "total_loans_received": 3600.0,
     "contributions_by_type": {
+      "Committee": 7200.0,
+      "Individual": 13500.0,
+      "Unitemized": 91.0,
+      "Other (includes Businesses)": 3400.0
     },
     "contributions_by_origin": {
+      "Out of State": 800.0,
+      "Within Oakland": 12800.0,
+      "Within California": 10500.0
     },
     "expenditures_by_type": {
+      "Not Stated": 10300.0,
+      "Fundraising Events": 1436.9,
+      "Professional Services (Legal, Accounting)": 8408.06,
+      "Information Technology Costs (Internet, E-mail)": 3131.38
     },
     "supporting_by_type": {
     }
@@ -35,12 +46,20 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 27791.0,
+  "total_contributions": 27791.0,
+  "total_expenditures": 23538.29,
+  "total_loans_received": 3600.0,
   "contributions_by_type": {
+    "Committee": 7200.0,
+    "Individual": 13500.0,
+    "Unitemized": 91.0,
+    "Other (includes Businesses)": 3400.0
   },
   "expenditures_by_type": {
+    "Not Stated": 10300.0,
+    "Fundraising Events": 1436.9,
+    "Professional Services (Legal, Accounting)": 8408.06,
+    "Information Technology Costs (Internet, E-mail)": 3131.38
   }
 }

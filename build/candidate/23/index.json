@@ -1,50 +1,45 @@
 {
   "id": 23,
-  "name": "Donald Macleay",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Donald-Macleay1.png",
-  "website_url": "http://www.don4ousd.org/",
-  "twitter_url": "@donmacleay",
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130694?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Donald",
-  "last_name": "Macleay",
-  "ballot_item": 13,
-  "office_election": 13,
-  "bio": "Don Macleay owns and runs East Bay Computer Services, a computer repair business in the Temescal district.  While running for office, Macleay is on leave from People United for a Better Life in Oakland, a youth advocacy organization where he serves as a board member. In 2010, Macleay ran for mayor in Oakland. \n\nSource: https://oaklandnorth.net/2012/10/29/greens-don-macleay-promotes-civilians-on-police-force-higher-minimum-wage/",
-  "committee_name": "Macleay for Oakland School Board, District 1, 2016",
-  "is_accepted_expenditure_ceiling": null,
+  "name": "Nehanda Imara",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Nehanda_Imara.png",
+  "website_url": "http://www.nehandafordistrict7.com/",
+  "twitter_url": "@NehandaForD7",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130762?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Nehanda",
+  "last_name": "Imara",
+  "ballot_item": 9,
+  "office_election": 9,
+  "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora.  \n\nSource: http://www.cbecal.org/about/staff/",
+  "committee_name": "Nehanda Imara for City Council 2016",
+  "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
-  "occupation": "Small business owner",
-  "party_affiliation": "Green Party",
-  "filer_id": 1384267,
+  "occupation": "East Oakland Community Organizer",
+  "party_affiliation": null,
+  "filer_id": 1386932,
   "supporting_money": {
-    "contributions_received": 5219.5,
-    "total_contributions": 5219.5,
-    "total_expenditures": 7369.87,
-    "total_loans_received": 0.0,
+    "contributions_received": 27941.0,
+    "total_contributions": 27941.0,
+    "total_expenditures": 35137.46,
+    "total_loans_received": 6500.0,
     "contributions_by_type": {
-      "Individual": 2630.0,
-      "Unitemized": 839.5,
-      "Other (includes Businesses)": 1750.0
+      "Committee": 1700.0,
+      "Individual": 16550.0,
+      "Unitemized": 3191.0
     },
     "contributions_by_origin": {
-      "Out of State": 500.0,
-      "Within Oakland": 3680.0,
-      "Within California": 200.0
+      "Out of State": 300.0,
+      "Within Oakland": 12450.0,
+      "Within California": 5500.0
     },
     "expenditures_by_type": {
-      "Not Stated": 809.02,
-      "Civic Donations": 261.86,
-      "Office Expenses": 1981.28,
-      "Fundraising Events": 147.81,
-      "Voter Registration": 156.15,
-      "Petition Circulating": 29.28,
-      "Meetings and Appearances": 24.86,
-      "Campaign Paraphernalia/Misc.": 1629.6,
-      "Candidate Filing/Ballot Fees": 440.0,
-      "Campaign Literature and Mailings": 541.33,
-      "Staff/Spouse Travel, Lodging, and Meals": 320.14,
-      "Professional Services (Legal, Accounting)": 372.42,
-      "Information Technology Costs (Internet, E-mail)": 100.0
+      "Not Stated": 700.0,
+      "Phone Banks": 1659.63,
+      "Office Expenses": 2307.9,
+      "Campaign Consultants": 6500.0,
+      "Campaign Paraphernalia/Misc.": 2680.47,
+      "Campaign Literature and Mailings": 7287.36,
+      "Postage, Delivery and Messenger Services": 3818.95,
+      "Professional Services (Legal, Accounting)": 3147.37
     },
     "supporting_by_type": {
     }
@@ -54,28 +49,23 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 5219.5,
-  "total_contributions": 5219.5,
-  "total_expenditures": 7369.87,
-  "total_loans_received": 0.0,
+  "contributions_received": 27941.0,
+  "total_contributions": 27941.0,
+  "total_expenditures": 35137.46,
+  "total_loans_received": 6500.0,
   "contributions_by_type": {
-    "Individual": 2630.0,
-    "Unitemized": 839.5,
-    "Other (includes Businesses)": 1750.0
+    "Committee": 1700.0,
+    "Individual": 16550.0,
+    "Unitemized": 3191.0
   },
   "expenditures_by_type": {
-    "Not Stated": 809.02,
-    "Civic Donations": 261.86,
-    "Office Expenses": 1981.28,
-    "Fundraising Events": 147.81,
-    "Voter Registration": 156.15,
-    "Petition Circulating": 29.28,
-    "Meetings and Appearances": 24.86,
-    "Campaign Paraphernalia/Misc.": 1629.6,
-    "Candidate Filing/Ballot Fees": 440.0,
-    "Campaign Literature and Mailings": 541.33,
-    "Staff/Spouse Travel, Lodging, and Meals": 320.14,
-    "Professional Services (Legal, Accounting)": 372.42,
-    "Information Technology Costs (Internet, E-mail)": 100.0
+    "Not Stated": 700.0,
+    "Phone Banks": 1659.63,
+    "Office Expenses": 2307.9,
+    "Campaign Consultants": 6500.0,
+    "Campaign Paraphernalia/Misc.": 2680.47,
+    "Campaign Literature and Mailings": 7287.36,
+    "Postage, Delivery and Messenger Services": 3818.95,
+    "Professional Services (Legal, Accounting)": 3147.37
   }
 }

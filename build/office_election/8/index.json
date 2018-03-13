@@ -4,82 +4,6 @@
   "name": "City Council District 6",
   "candidates": [
     {
-      "id": 9,
-      "name": "Desley Brooks",
-      "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
-      "votersedge_url": null,
-      "first_name": "Desley",
-      "last_name": "Brooks",
-      "ballot_item": 8,
-      "office_election": 8,
-      "bio": null,
-      "committee_name": "Desley Brooks for City Council 2018",
-      "is_accepted_expenditure_ceiling": true,
-      "is_incumbent": true,
-      "occupation": null,
-      "party_affiliation": null,
-      "filer_id": 1236617,
-      "supporting_money": {
-        "contributions_received": 16700.0,
-        "total_contributions": 16700.0,
-        "total_expenditures": 22496.14,
-        "total_loans_received": -2400.0,
-        "contributions_by_type": {
-          "Individual": 21900.0,
-          "Unitemized": 0.0,
-          "Other (includes Businesses)": -2100.0
-        },
-        "contributions_by_origin": {
-          "Within Oakland": 5400.0,
-          "Within California": 14400.0
-        },
-        "expenditures_by_type": {
-          "Not Stated": 6985.48,
-          "Contribution": 700.0,
-          "Legal Defense": 1000.0,
-          "Civic Donations": 1725.0,
-          "Office Expenses": 4275.6,
-          "Fundraising Events": 1893.34,
-          "Campaign Consultants": 2500.0,
-          "Member Communications": 199.19,
-          "Candidate Filing/Ballot Fees": 250.0,
-          "Candidate Travel, Lodging, and Meals": 1440.61,
-          "Postage, Delivery and Messenger Services": 102.0
-        },
-        "supporting_by_type": {
-        }
-      },
-      "opposing_money": {
-        "opposing_expenditures": null,
-        "opposing_by_type": {
-        }
-      },
-      "contributions_received": 16700.0,
-      "total_contributions": 16700.0,
-      "total_expenditures": 22496.14,
-      "total_loans_received": -2400.0,
-      "contributions_by_type": {
-        "Individual": 21900.0,
-        "Unitemized": 0.0,
-        "Other (includes Businesses)": -2100.0
-      },
-      "expenditures_by_type": {
-        "Not Stated": 6985.48,
-        "Contribution": 700.0,
-        "Legal Defense": 1000.0,
-        "Civic Donations": 1725.0,
-        "Office Expenses": 4275.6,
-        "Fundraising Events": 1893.34,
-        "Campaign Consultants": 2500.0,
-        "Member Communications": 199.19,
-        "Candidate Filing/Ballot Fees": 250.0,
-        "Candidate Travel, Lodging, and Meals": 1440.61,
-        "Postage, Delivery and Messenger Services": 102.0
-      }
-    },
-    {
       "id": 19,
       "name": "Loren Taylor",
       "photo_url": null,
@@ -126,18 +50,18 @@
       }
     },
     {
-      "id": 28,
-      "name": "Natasha Middleton",
+      "id": 22,
+      "name": "Mya Whitaker",
       "photo_url": null,
       "website_url": null,
       "twitter_url": null,
       "votersedge_url": null,
-      "first_name": "Natasha",
-      "last_name": "Middleton",
+      "first_name": "Mya",
+      "last_name": "Whitaker",
       "ballot_item": 8,
       "office_election": 8,
       "bio": null,
-      "committee_name": "Natasha Middleton for Oakland City Council",
+      "committee_name": "No committee registered",
       "is_accepted_expenditure_ceiling": true,
       "is_incumbent": false,
       "occupation": null,
@@ -172,7 +96,53 @@
       }
     },
     {
-      "id": 42,
+      "id": 30,
+      "name": "Natasha Middleton",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Natasha",
+      "last_name": "Middleton",
+      "ballot_item": 8,
+      "office_election": 8,
+      "bio": null,
+      "committee_name": "Natasha Middleton for Oakland City Council",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1403124,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 35,
       "name": "Maria Rodriguez",
       "photo_url": null,
       "website_url": null,
@@ -218,33 +188,49 @@
       }
     },
     {
-      "id": 46,
-      "name": "Mya Whitaker",
+      "id": 44,
+      "name": "Desley Brooks",
       "photo_url": null,
       "website_url": null,
       "twitter_url": null,
       "votersedge_url": null,
-      "first_name": "Mya",
-      "last_name": "Whitaker",
+      "first_name": "Desley",
+      "last_name": "Brooks",
       "ballot_item": 8,
       "office_election": 8,
       "bio": null,
-      "committee_name": "No committee registered",
+      "committee_name": "Desley Brooks for City Council 2018",
       "is_accepted_expenditure_ceiling": true,
-      "is_incumbent": false,
+      "is_incumbent": true,
       "occupation": null,
       "party_affiliation": null,
-      "filer_id": null,
+      "filer_id": 1236617,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
+        "contributions_received": 16800.0,
+        "total_contributions": 16800.0,
+        "total_expenditures": 22496.14,
+        "total_loans_received": -2400.0,
         "contributions_by_type": {
+          "Individual": 22000.0,
+          "Unitemized": 0.0,
+          "Other (includes Businesses)": -2100.0
         },
         "contributions_by_origin": {
+          "Within Oakland": 5500.0,
+          "Within California": 14400.0
         },
         "expenditures_by_type": {
+          "Not Stated": 6985.48,
+          "Contribution": 700.0,
+          "Legal Defense": 1000.0,
+          "Civic Donations": 1725.0,
+          "Office Expenses": 4275.6,
+          "Fundraising Events": 1893.34,
+          "Campaign Consultants": 2500.0,
+          "Member Communications": 199.19,
+          "Candidate Filing/Ballot Fees": 250.0,
+          "Candidate Travel, Lodging, and Meals": 1440.61,
+          "Postage, Delivery and Messenger Services": 102.0
         },
         "supporting_by_type": {
         }
@@ -254,13 +240,27 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
+      "contributions_received": 16800.0,
+      "total_contributions": 16800.0,
+      "total_expenditures": 22496.14,
+      "total_loans_received": -2400.0,
       "contributions_by_type": {
+        "Individual": 22000.0,
+        "Unitemized": 0.0,
+        "Other (includes Businesses)": -2100.0
       },
       "expenditures_by_type": {
+        "Not Stated": 6985.48,
+        "Contribution": 700.0,
+        "Legal Defense": 1000.0,
+        "Civic Donations": 1725.0,
+        "Office Expenses": 4275.6,
+        "Fundraising Events": 1893.34,
+        "Campaign Consultants": 2500.0,
+        "Member Communications": 199.19,
+        "Candidate Filing/Ballot Fees": 250.0,
+        "Candidate Travel, Lodging, and Meals": 1440.61,
+        "Postage, Delivery and Messenger Services": 102.0
       }
     }
   ],
