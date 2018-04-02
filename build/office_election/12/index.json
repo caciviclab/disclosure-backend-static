@@ -26,6 +26,7 @@
         "total_contributions": null,
         "total_expenditures": null,
         "total_loans_received": null,
+        "total_supporting_independent": 0.0,
         "contributions_by_type": {
         },
         "contributions_by_origin": {
@@ -72,6 +73,7 @@
         "total_contributions": 8250.0,
         "total_expenditures": 1452.91,
         "total_loans_received": 0.0,
+        "total_supporting_independent": 0.0,
         "contributions_by_type": {
           "Committee": 6400.0,
           "Individual": 1650.0,
