@@ -39,6 +39,8 @@ class CandidateSupportingExpenditure
     SQL
 
     total = {}
+    # TODO: Key this based off the candidate name rather than the Filer ID, to
+    # support IEs for candidates that haven't filed to run yet.
     expenditures.each_with_object({}) do |row, hash|
       filer_id = row['Filer_ID'].to_s
       total[filer_id] ||= 0
@@ -49,8 +51,8 @@ class CandidateSupportingExpenditure
     end
 
     @candidates.each do |candidate|
-      filer_id = candidate['FPPC'].to_s
-      candidate.save_calculation(:total_supporting_independent, total.fetch(filer_id, 0).round(2))
+      filer_id = candidate['FPPC']
+      candidate.save_calculation(:total_supporting_independent, total.fetch(filer_id.to_s, 0).round(2))
     end
   end
 end
