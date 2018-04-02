@@ -45,6 +45,7 @@ class OaklandCandidate < ActiveRecord::Base
         total_contributions: calculation(:total_contributions).try(:to_f),
         total_expenditures: calculation(:total_expenditures).try(:to_f),
         total_loans_received: calculation(:total_loans_received).try(:to_f),
+        total_supporting_independent: calculation(:total_supporting_independent).try(:to_f),
         contributions_by_type: calculation(:contributions_by_type) || {},
         contributions_by_origin: calculation(:contributions_by_origin) || {},
         expenditures_by_type: calculation(:expenditures_by_type) || {},
