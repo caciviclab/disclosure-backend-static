@@ -103,7 +103,7 @@ downloads/csv/oakland_name_to_number.csv:
 downloads/csv/oakland_committees.csv:
 	mkdir -p downloads/csv
 	wget -q -O- \
-		'https://docs.google.com/spreadsheets/d/1272oaLyQhKwQa6RicA5tBso6wFruum-mgrNm3O3VogI/pub?gid=1995437960&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=387884938&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
