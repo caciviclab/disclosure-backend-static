@@ -11,46 +11,8 @@ HEADERS = %i[
   Accepted_expenditure_ceiling Website Twitter Party_Affiliation Occupation Bio
   Photo VotersEdge Internal_Notes
 ]
-STUBBED_ELECTIONS = %w[sf-june-2018]
-SPREADSHEET_ELECTIONS = %w[oakland-2016 oakland-2018]
-SUPPORTED_ELECTIONS = STUBBED_ELECTIONS + SPREADSHEET_ELECTIONS
-
+SPREADSHEET_ELECTIONS = %w[oakland-2016 oakland-2018 sf-june-2018]
 SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=307879638&single=true&output=csv'
-
-def print_stubbed_election(_election)
-  # for now, don't do any autodetection and just output a static CSV.
-  require 'csv'
-
-  puts(CSV.generate(headers: HEADERS, write_headers: true) do |csv|
-    csv << {
-      FPPC: '1395306',
-      Committee_Name: 'JEFF SHEEHY FOR SUPERVISOR JUNE 2018',
-      Candidate: 'Jeff Sheehy',
-      Office: 'Supervisor District 8',
-    }
-
-    csv << {
-      FPPC: '1395947',
-      Committee_Name: 'Rafael Mandelman for Supervisor 2018 Primary',
-      Candidate: 'Rafael Mandelman',
-      Office: 'Supervisor District 8',
-    }
-
-    csv << {
-      FPPC: '1400832',
-      Committee_Name: 'Jane Kim for Mayor 2018',
-      Candidate: 'Jane Kim',
-      Office: 'Mayor',
-    }
-
-    csv << {
-      FPPC: '1396338',
-      Committee_Name: 'Mark Leno for Mayor 2018',
-      Candidate: 'Mark Leno',
-      Office: 'Mayor',
-    }
-  end)
-end
 
 def print_spreadsheet_election(election)
   puts(CSV.generate(headers: HEADERS, write_headers: true) do |out|
@@ -66,22 +28,20 @@ def print_spreadsheet_election(election)
 end
 
 election_name = ARGV.shift
-unless election_name && SUPPORTED_ELECTIONS.include?(election_name)
+unless election_name && SPREADSHEET_ELECTIONS.include?(election_name)
   puts 'Outputs a CSV of candidates for an election'
 
   puts "Usage: #{$0} [election name]"
   puts
   puts 'Supported Elections:'
-  SUPPORTED_ELECTIONS.each do |e|
+  SPREADSHEET_ELECTIONS.each do |e|
     puts "  #{e}"
   end
 
   exit 1
 end
 
-if STUBBED_ELECTIONS.include?(election_name)
-  print_stubbed_election(election_name)
-elsif SPREADSHEET_ELECTIONS.include?(election_name)
+if SPREADSHEET_ELECTIONS.include?(election_name)
   print_spreadsheet_election(election_name)
 end
 
