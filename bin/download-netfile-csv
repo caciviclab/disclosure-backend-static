@@ -1,0 +1,156 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+require 'csv'
+require 'json'
+require 'logger'
+require 'net/https'
+require 'uri'
+
+if ARGV.length != 2
+  puts "Usage: #{$0} [agency id] [year]"
+  puts "       #{$0} COAK 2017"
+  exit 1
+end
+
+class NetfileDownloader
+  API_BASE = URI('https://netfile.com/Connect2/api/')
+  SUMMARY_ENDPOINT = '/public/campaign/export/cal201/summary/year'
+  TRANSACTIONS_ENDPOINT = '/public/campaign/export/cal201/transaction/year'
+  PAGE_SIZE = 200
+
+  def initialize(agency_id, year, logger: nil)
+    @agency_id = agency_id
+    @year = year
+    @logger = logger
+
+    @connection = nil
+  end
+
+  def each_summary_row(&block)
+    current_page = 0
+    has_more_pages = true
+
+    while has_more_pages
+      json = page_request(SUMMARY_ENDPOINT, current_page)
+      json['results'].each(&block)
+      current_page += 1
+      has_more_pages = current_page < json['totalMatchingPages']
+    end
+  end
+
+  def each_transaction_row(&block)
+    current_page = 0
+    has_more_pages = true
+
+    while has_more_pages
+      json = page_request(TRANSACTIONS_ENDPOINT, current_page)
+      json['results'].each(&block)
+      current_page += 1
+      has_more_pages = current_page < json['totalMatchingPages']
+    end
+  end
+
+  def finish
+    @logger&.debug "Closing connection to #{API_BASE.host}"
+    @connection.finish
+  end
+
+  private
+
+  def page_request(endpoint, page_index)
+    @logger&.debug "Requesting #{endpoint} page #{page_index}"
+
+    @connection ||= begin
+                      @logger&.debug "Initializing connection to #{API_BASE.host}"
+
+                      Net::HTTP.start(API_BASE.host, API_BASE.port, use_ssl: true).tap do |http|
+                        # some responses can be very slow
+                        http.read_timeout = 120
+                      end
+                    end
+
+    req = Net::HTTP::Post.new(API_BASE.request_uri + endpoint)
+    req['Accept'] = 'application/json'
+    req.body = URI.encode_www_form(
+      Aid: @agency_id,
+      Year: @year,
+      CurrentPageIndex: page_index,
+      PageSize: PAGE_SIZE,
+      ShowSuperceded: false
+    )
+
+    resp = @connection.request(req)
+    JSON.parse(resp.body)
+  end
+end
+
+class NetfileCSVWriter
+  def initialize(filename, logger: nil)
+    @filename = filename
+    @csvs = {}
+    @headers = {}
+    @logger = logger
+  end
+
+  def write_row(record)
+    filename = @filename % { type: file_type(record) }
+
+    # filerStateId -> Filer_ID and such
+    record = fix_headers(record)
+
+    @headers[filename] ||= record.keys
+    @csvs[filename] ||= CSV.open(filename, 'wb', headers: @headers[filename], write_headers: true)
+    @csvs[filename] << record
+  end
+
+  def close
+    @csvs.values.map(&:close)
+  end
+
+  private
+
+  HEADER_MAP = Hash.new { |h, k| h[k] = k[0].upcase + k[1..-1] }.merge(
+    'filerStateId' => 'Filer_ID',
+    'filerName' => 'Filer_NamL'
+  )
+  def fix_headers(record)
+    Hash[record.map { |k, v| [HEADER_MAP[k], v] }]
+  end
+
+  # Generate the name of the tab from the Excel file from the `rec_Type` and
+  # `form_Type` fields.
+  def file_type(record)
+    return 'Summary' if record['rec_Type'] == 'SMRY'
+    return '497' if record['rec_Type'] == 'S497'
+
+    case record['form_Type']
+    when 'A', 'C', 'I'
+      "#{record['form_Type']}-Contributions"
+    when 'B1', 'B2', 'H'
+      "#{record['form_Type']}-Loans"
+    when 'D', 'E', 'F461P5', 'F465P3', 'F496P3', 'G'
+      "#{record['form_Type']}-Expenditure"
+    when 'F'
+      "#{record['form_Type']}-Expenses"
+    when 'F496'
+      record['form_Type']
+    else
+      raise "Unknown record type: #{record}"
+    end
+  end
+end
+
+agency_id = ARGV.shift
+year = ARGV.shift
+$stderr.sync = true
+logger = Logger.new($stderr) if ENV['DEBUG']
+
+output = NetfileCSVWriter.new("downloads/csv/efile_#{agency_id}_#{year}_%{type}.csv", logger: logger)
+downloader = NetfileDownloader.new(agency_id, year, logger: logger)
+downloader.each_summary_row { |i| output.write_row(i) }
+downloader.each_transaction_row { |i| output.write_row(i) }
+
+at_exit do
+  downloader.finish
+  output.close
+end

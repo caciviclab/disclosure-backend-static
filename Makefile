@@ -27,9 +27,9 @@ download-COAK-%:
 	unzip -p downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip > downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-COAK-,,$@)_%{sheet}.csv'
 
-import: dropdb createdb 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
-		D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-		F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+import: dropdb createdb 497 A-Contributions B1-Loans C-Contributions \
+		D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure \
+		G-Expenditure I-Contributions Summary
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_referendums.csv
@@ -51,7 +51,7 @@ createdb:
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	csvstack downloads/csv/efile_*_$@.csv | csvsql --db postgresql:///disclosure-backend --tables $@ --insert
 	./bin/clean $@
-	./bin/latest_only $@
+	# ./bin/latest_only $@
 
 downloads/csv/oakland_candidates.csv: bin/auto-detect-candidates
 	mkdir -p downloads/csv downloads/raw
