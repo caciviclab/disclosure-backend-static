@@ -74,7 +74,7 @@ class ReferendumExpendituresByOrigin
           next
         end
 
-        result = locales[measure].keys.map do |locale|
+        result = locales.fetch(measure, {}).keys.map do |locale|
           amount = locales[measure][locale]
           expenditures[measure] -= amount
           total += amount

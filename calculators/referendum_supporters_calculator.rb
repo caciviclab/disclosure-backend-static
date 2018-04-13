@@ -19,7 +19,8 @@ class ReferendumSupportersCalculator
       SELECT "Filer_ID", SUM("Amount_A") as "Summary_Other_Expenditures"
       FROM "Summary"
       WHERE "Form_Type" = 'F460'
-      AND "Committee_Type" = 'BMC'        -- Ignore recipient committees' summary
+      -- TODO: request from netfile
+      -- AND "Committee_Type" = 'BMC'        -- Ignore recipient committees' summary
                                           --   data since it represents more than
                                           --   just ballot measure expenditures
       AND (

@@ -27,7 +27,7 @@ download-COAK-%:
 	unzip -p downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip > downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-COAK-,,$@)_%{sheet}.csv'
 
-import: dropdb createdb 497 A-Contributions B1-Loans C-Contributions \
+import: dropdb createdb 496 497 A-Contributions B1-Loans C-Contributions \
 		D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure \
 		G-Expenditure I-Contributions Summary
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_candidates.csv
@@ -40,7 +40,7 @@ import: dropdb createdb 497 A-Contributions B1-Loans C-Contributions \
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
 	./bin/make_view
-	./bin/remove_duplicate_transactions
+	# ./bin/remove_duplicate_transactions
 
 dropdb:
 	dropdb disclosure-backend || true

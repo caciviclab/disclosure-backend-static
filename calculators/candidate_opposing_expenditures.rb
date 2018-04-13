@@ -13,7 +13,7 @@ class CandidateOpposingExpenditure
         WHERE "Cand_NamL" IS NOT NULL
           AND "Sup_Opp_Cd" = 'O'
         UNION ALL
-        SELECT "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
+        SELECT "Filer_NamL", "Tran_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
         FROM "E-Expenditure"
         WHERE "Cand_NamL" IS NOT NULL
           AND "Sup_Opp_Cd" = 'O'

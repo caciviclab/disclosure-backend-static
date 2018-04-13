@@ -79,7 +79,7 @@ class ReferendumExpendituresByType
           next
         end
 
-        result = by_type[measure].keys.map do |type|
+        result = by_type.fetch(measure, {}).keys.map do |type|
           amount = by_type[measure][type]
           expenditures[measure] -= amount
           {

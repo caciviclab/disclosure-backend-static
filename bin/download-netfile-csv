@@ -63,24 +63,28 @@ class NetfileDownloader
     @connection ||= begin
                       @logger&.debug "Initializing connection to #{API_BASE.host}"
 
-                      Net::HTTP.start(API_BASE.host, API_BASE.port, use_ssl: true).tap do |http|
-                        # some responses can be very slow
-                        http.read_timeout = 120
-                      end
+                      Net::HTTP.start(API_BASE.host, API_BASE.port, use_ssl: true)
                     end
 
-    req = Net::HTTP::Post.new(API_BASE.request_uri + endpoint)
-    req['Accept'] = 'application/json'
-    req.body = URI.encode_www_form(
-      Aid: @agency_id,
-      Year: @year,
-      CurrentPageIndex: page_index,
-      PageSize: PAGE_SIZE,
-      ShowSuperceded: false
-    )
+    retries = 2
+    begin
+      req = Net::HTTP::Post.new(API_BASE.request_uri + endpoint)
+      req['Accept'] = 'application/json'
+      req.body = URI.encode_www_form(
+        Aid: @agency_id,
+        Year: @year,
+        CurrentPageIndex: page_index,
+        PageSize: PAGE_SIZE,
+        ShowSuperceded: false
+      )
 
-    resp = @connection.request(req)
-    JSON.parse(resp.body)
+      resp = @connection.request(req)
+      return JSON.parse(resp.body)
+    rescue Net::ReadTimeout
+      @logger&.debug "  read timed out... retrying"
+      retries -= 1
+      retry if retries > 0
+    end
   end
 end
 
@@ -111,7 +115,9 @@ class NetfileCSVWriter
 
   HEADER_MAP = Hash.new { |h, k| h[k] = k[0].upcase + k[1..-1] }.merge(
     'filerStateId' => 'Filer_ID',
-    'filerName' => 'Filer_NamL'
+    'filerName' => 'Filer_NamL',
+    'calculated_Amount' => 'Amount',
+    'tran_ST' => 'Tran_State',
   )
   def fix_headers(record)
     Hash[record.map { |k, v| [HEADER_MAP[k], v] }]
