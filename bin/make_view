@@ -61,11 +61,11 @@ CREATE OR REPLACE VIEW combined_contributions AS
     "Filer_ID"::varchar,
     "Entity_Cd",
     "Amount" as "Tran_Amt1",
-    "Tran_NamF",
-    "Tran_NamL",
-    "Tran_Date",
-    "Tran_City",
-    "Tran_State"
+    "Enty_NamF",
+    "Enty_NamL",
+    "Ctrib_Date",
+    "Enty_City",
+    "Enty_ST"
   FROM "497"
   WHERE "Form_Type" = 'F497P1';
 SQL

@@ -8,21 +8,21 @@ class CandidateOpposingExpenditure
     # Get the total expenditures against candidates by date.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH combined_opposing_expenditures AS (
-        SELECT "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
+        SELECT "Filer_NamL", "Exp_Date" as "Expn_Date", "Cand_NamF", "Cand_NamL", "Amount"
         FROM "496"
         WHERE "Cand_NamL" IS NOT NULL
           AND "Sup_Opp_Cd" = 'O'
         UNION ALL
-        SELECT "Filer_NamL", "Tran_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
+        SELECT "Filer_NamL", "Expn_Date", "Cand_NamF", "Cand_NamL", "Amount"
         FROM "E-Expenditure"
         WHERE "Cand_NamL" IS NOT NULL
           AND "Sup_Opp_Cd" = 'O'
       )
-      SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Exp_Date",
+      SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Expn_Date",
       sum("Amount") AS total
       FROM combined_opposing_expenditures, "oakland_candidates"
       WHERE LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
-      GROUP BY "FPPC", "Filer_NamL", "Exp_Date"
+      GROUP BY "FPPC", "Filer_NamL", "Expn_Date"
     SQL
 
     total = {}
@@ -38,7 +38,7 @@ class CandidateOpposingExpenditure
     @committees.each do |committee|
       filer_id = committee['Filer_ID'].to_s
       sorted =
-        Array(expenditure_against_committee[filer_id]).sort_by { |row| [row['Filer_NamL'], row['Exp_Date']] }
+        Array(expenditure_against_committee[filer_id]).sort_by { |row| [row['Filer_NamL'], row['Expn_Date']] }
 
       committee.save_calculation(:opposition_list, sorted)
     end
