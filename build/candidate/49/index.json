@@ -21,7 +21,7 @@
     "total_contributions": 51080.3,
     "total_expenditures": 3331.03,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 17038.0,
+    "total_supporting_independent": 10619.0,
     "contributions_by_type": {
       "Committee": 100.0,
       "Individual": 47051.0,
@@ -40,15 +40,16 @@
     "supporting_by_type": {
       "Civic Donations": 387.38,
       "Campaign Consultants": 8153.0,
-      "Print Ads - Estimated": 12838.0,
+      "Print Ads - Estimated": 6419.0,
       "Meetings and Appearances": 756.0,
       "Professional Services (Legal, Accounting)": 2619.62,
       "Information Technology Costs (Internet, E-mail)": 7345.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 129500.0,
     "opposing_by_type": {
+      "Online Ads (Estimated Costs)": 129500.0
     }
   },
   "contributions_received": 51080.3,
