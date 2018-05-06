@@ -48,6 +48,7 @@ OAKLAND_LOCALITY_ID = 2
 ELECTIONS = [
   { id: 1, date: '2016-11-08', election_name: 'oakland-2016', is_current: true },
   { id: 2, date: '2018-11-06', election_name: 'oakland-2018' },
+  { id: 3, date: '2018-11-06', election_name: 'berkeley-2018' },
 ]
 
 build_file('/locality/search') do |f|

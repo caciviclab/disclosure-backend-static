@@ -36,7 +36,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "E-Expenditure" expend,
     oakland_committees committee
   WHERE "Bal_Name" IS NULL
-    AND expend."Filer_ID" = committee."Filer_ID"
+    AND expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
     AND "Ballot_Measure" IS NOT NULL
   UNION ALL
 

@@ -1,62 +1,52 @@
 {
   "id": 14,
   "contest_type": "Office",
-  "name": "School Board District 3",
+  "name": "Mayor",
   "candidates": [
     {
-      "id": 27,
-      "name": "Jumoke Hinton Hodge",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
-      "website_url": "https://hintonhodge.nationbuilder.com/",
-      "twitter_url": "@hintonhodge4oak",
-      "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130695?&county=Alameda%20County&election_authority_id=1",
-      "first_name": "Jumoke",
-      "last_name": "Hinton Hodge",
-      "ballot_item": 14,
-      "office_election": 14,
-      "bio": "Jumoke Hinton-Hodge is running for re-election as District 3 representative for the Oakland Unified School Board of Education. Hinton-Hodge is the co-founder of the Parent Leadership and Engagement Academy Initiative (PLEA), a community-building project dedicated to the education and support of West Oakland parents and families. She received a Bachelor degree in Black Studies and English from Oberlin College. \n\nSource: http://www.ousd.org/directorhodge",
-      "committee_name": "Re-Elect Jumoke Hinton Hodge for Oakland School Board 2016",
+      "id": 42,
+      "name": "Libby Schaaf",
+      "photo_url": "https://www.facebook.com/MayorLibbySchaaf/",
+      "website_url": "https://libbyformayor.wordpress.com/",
+      "twitter_url": "LibbySchaaf",
+      "votersedge_url": null,
+      "first_name": "Libby",
+      "last_name": "Schaaf",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": "Libby Schaaf for Mayor 2018",
       "is_accepted_expenditure_ceiling": true,
       "is_incumbent": true,
-      "occupation": "OUSD Councilmember",
+      "occupation": "Incumbent, Mayor",
       "party_affiliation": null,
-      "filer_id": 1386416,
+      "filer_id": 1395968,
       "supporting_money": {
-        "contributions_received": 25041.85,
-        "total_contributions": 25041.85,
-        "total_expenditures": 25486.04,
-        "total_loans_received": 7125.0,
-        "total_supporting_independent": 209719.03,
+        "contributions_received": 262193.66,
+        "total_contributions": 262193.66,
+        "total_expenditures": 36153.65,
+        "total_loans_received": 0.0,
+        "total_supporting_independent": 3400.0,
         "contributions_by_type": {
-          "Committee": 1500.0,
-          "Individual": 15788.0,
-          "Unitemized": 628.85
+          "Committee": 2250.0,
+          "Individual": 235919.66,
+          "Unitemized": 2824.0,
+          "Other (includes Businesses)": 21200.0
         },
         "contributions_by_origin": {
-          "Out of State": 150.0,
-          "Within Oakland": 8238.0,
-          "Within California": 8900.0
+          "Out of State": 5200.0,
+          "Within Oakland": 141640.0,
+          "Within California": 112529.66
         },
         "expenditures_by_type": {
-          "Phone Banks": 5354.94,
-          "Fundraising Events": 203.53,
-          "Campaign Consultants": 1815.0,
-          "Campaign Paraphernalia/Misc.": 8825.7,
-          "Campaign Literature and Mailings": 5458.08,
-          "Professional Services (Legal, Accounting)": 1200.0,
-          "Information Technology Costs (Internet, E-mail)": 2056.29
+          "Office Expenses": 15105.6,
+          "Fundraising Events": 349.05,
+          "Campaign Consultants": 3000.0,
+          "Returned Contributions": 2700.0,
+          "Professional Services (Legal, Accounting)": 13994.0,
+          "Information Technology Costs (Internet, E-mail)": 975.0
         },
         "supporting_by_type": {
-          "Print Ads": 2000.0,
-          "STAFF TIME": 15112.0,
-          "Phone Banks": 373.0,
-          "ESTIMATE OF LIT": 1800.0,
-          "CMP; SEE SCHEDULE G": 2702.0,
-          "ESTIMATE OF STAFF TIME": 7844.0,
-          "Campaign Paraphernalia/Misc.": 2702.0,
-          "Campaign Literature and Mailings": 77957.0,
-          "STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 6256.0,
-          "Information Technology Costs (Internet, E-mail)": 1050.0
         }
       },
       "opposing_money": {
@@ -64,42 +54,136 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": 25041.85,
-      "total_contributions": 25041.85,
-      "total_expenditures": 25486.04,
-      "total_loans_received": 7125.0,
+      "contributions_received": 262193.66,
+      "total_contributions": 262193.66,
+      "total_expenditures": 36153.65,
+      "total_loans_received": 0.0,
       "contributions_by_type": {
-        "Committee": 1500.0,
-        "Individual": 15788.0,
-        "Unitemized": 628.85
+        "Committee": 2250.0,
+        "Individual": 235919.66,
+        "Unitemized": 2824.0,
+        "Other (includes Businesses)": 21200.0
       },
       "expenditures_by_type": {
-        "Phone Banks": 5354.94,
-        "Fundraising Events": 203.53,
-        "Campaign Consultants": 1815.0,
-        "Campaign Paraphernalia/Misc.": 8825.7,
-        "Campaign Literature and Mailings": 5458.08,
-        "Professional Services (Legal, Accounting)": 1200.0,
-        "Information Technology Costs (Internet, E-mail)": 2056.29
+        "Office Expenses": 15105.6,
+        "Fundraising Events": 349.05,
+        "Campaign Consultants": 3000.0,
+        "Returned Contributions": 2700.0,
+        "Professional Services (Legal, Accounting)": 13994.0,
+        "Information Technology Costs (Internet, E-mail)": 975.0
       }
     },
     {
-      "id": 28,
-      "name": "Benjamin Lang",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
-      "website_url": "http://www.benlang.com/",
+      "id": 43,
+      "name": "Marchon Tatmon",
+      "photo_url": null,
+      "website_url": null,
       "twitter_url": null,
-      "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130696?&county=Alameda%20County&election_authority_id=1",
-      "first_name": "Benjamin",
-      "last_name": "Lang",
-      "ballot_item": 14,
-      "office_election": 14,
-      "bio": "Benjamin Lang has served as a both public school teacher and administrator for over two decades. Lang has been a resident of Oakland's District 3 for 42 years. He holds a Bachelor’s of Arts in Political Science, a Master’s of Arts in Political Theory, and a Master’s of Sciences in Educational Technologies.Lang has elected to not accept any contributions for his campaign.\n\nSource: http://www.benlang.com/index.html",
+      "votersedge_url": null,
+      "first_name": "Marchon",
+      "last_name": "Tatmon",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": "Marchon Tatmon Mayor for Oakland 2018",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1403436,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 44,
+      "name": "Saied Karamooz",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Saied",
+      "last_name": "Karamooz",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": "Saied Karamooz for Oakland Mayor 2018",
+      "is_accepted_expenditure_ceiling": false,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1401694,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 45,
+      "name": "Kristina Molina",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Kristina",
+      "last_name": "Molina",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
       "committee_name": null,
       "is_accepted_expenditure_ceiling": true,
       "is_incumbent": false,
-      "occupation": "Retired Teacher and Administrator",
-      "party_affiliation": "Democrat",
+      "occupation": null,
+      "party_affiliation": null,
       "filer_id": null,
       "supporting_money": {
         "contributions_received": null,
@@ -131,49 +215,34 @@
       }
     },
     {
-      "id": 29,
-      "name": "Kharyshi Wiginton",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kharyshi-Wiginton.png",
-      "website_url": "http://www.mskfordistrict3sb.com/",
-      "twitter_url": null,
-      "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130698?&county=Alameda%20County&election_authority_id=1",
-      "first_name": "Kharyshi",
-      "last_name": "Wiginton",
-      "ballot_item": 14,
-      "office_election": 14,
-      "bio": "Kharyshi Wiginton is the Youth Leadership Coordinator at McClymonds Youth and Family Center has spent a decade doing education-related work in Oakland and currently holds a position at McClymonds High School. Wiginton graduated from the California Institute of Integral Studies in 2009. \n\nSource: https://www.facebook.com/kharyshi.wiginton, https://www.linkedin.com/in/kharyshi-wiginton-6a545b8, http://museumca.org/story/kharyshi-wiginton-youth-organizing-mcclymonds-high-school, and Candidate Statement",
-      "committee_name": "Kharyshi Wiginton for School Board 2016",
-      "is_accepted_expenditure_ceiling": true,
+      "id": 46,
+      "name": "Ken Houston",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": "KHouston4Mayor",
+      "votersedge_url": null,
+      "first_name": "Ken",
+      "last_name": "Houston",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": null,
+      "is_accepted_expenditure_ceiling": false,
       "is_incumbent": false,
-      "occupation": "Youth Leadership Coordinator",
+      "occupation": null,
       "party_affiliation": null,
-      "filer_id": 1386929,
+      "filer_id": null,
       "supporting_money": {
-        "contributions_received": 5798.0,
-        "total_contributions": 5798.0,
-        "total_expenditures": 4886.23,
-        "total_loans_received": 0.0,
-        "total_supporting_independent": 6174.0,
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
         "contributions_by_type": {
-          "Individual": 2590.0,
-          "Unitemized": 1093.0,
-          "Other (includes Businesses)": 2115.0
         },
         "contributions_by_origin": {
-          "Out of State": 1905.0,
-          "Within Oakland": 2150.0,
-          "Within California": 650.0
         },
         "expenditures_by_type": {
-          "Not Stated": 180.0,
-          "Fundraising Events": 128.05,
-          "Meetings and Appearances": 114.67,
-          "Campaign Workers' Salaries": 150.0,
-          "Campaign Paraphernalia/Misc.": 870.17,
-          "Candidate Filing/Ballot Fees": 1140.0,
-          "Campaign Literature and Mailings": 1187.01,
-          "Professional Services (Legal, Accounting)": 500.0,
-          "Information Technology Costs (Internet, E-mail)": 381.89
         },
         "supporting_by_type": {
         }
@@ -183,43 +252,385 @@
         "opposing_by_type": {
         }
       },
-      "contributions_received": 5798.0,
-      "total_contributions": 5798.0,
-      "total_expenditures": 4886.23,
-      "total_loans_received": 0.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
-        "Individual": 2590.0,
-        "Unitemized": 1093.0,
-        "Other (includes Businesses)": 2115.0
       },
       "expenditures_by_type": {
-        "Not Stated": 180.0,
-        "Fundraising Events": 128.05,
-        "Meetings and Appearances": 114.67,
-        "Campaign Workers' Salaries": 150.0,
-        "Campaign Paraphernalia/Misc.": 870.17,
-        "Candidate Filing/Ballot Fees": 1140.0,
-        "Campaign Literature and Mailings": 1187.01,
-        "Professional Services (Legal, Accounting)": 500.0,
-        "Information Technology Costs (Internet, E-mail)": 381.89
       }
     },
     {
-      "id": 37,
-      "name": "Lucky Narain",
-      "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lucky-Narain.png",
+      "id": 47,
+      "name": "Nancy Sidebotham",
+      "photo_url": null,
       "website_url": null,
       "twitter_url": null,
-      "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130697?&county=Alameda%20County&election_authority_id=1",
-      "first_name": "Lucky",
-      "last_name": "Narain",
-      "ballot_item": 14,
-      "office_election": 14,
-      "bio": "Lucky Narain is currently an Associate Regional Public Affairs Director for the United States Department of Agriculture (USDA). He is a Oakland resident and father. For almost three years, Narain taught middle school in the Dominican Republic with the Peace Corps as a volunteer in 2001. He holds a Master’s Degree in Public Policy from Carnegie Mellon University and a law degree from Fordham Law School. Narain has served as a lawyer in the U.S. Army Reserve since 2010. \n\nSource: https://www.linkedin.com/in/lucky-narain-1a054b16 and Candidate Statement",
+      "votersedge_url": null,
+      "first_name": "Nancy",
+      "last_name": "Sidebotham",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": null,
+      "is_accepted_expenditure_ceiling": false,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": null,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 48,
+      "name": "Jesse A.J. Smith",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Jesse",
+      "last_name": "A.J. Smith",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": null,
+      "is_accepted_expenditure_ceiling": false,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": null,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 49,
+      "name": "Cedric Anthony Troupe",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Cedric",
+      "last_name": "Anthony Troupe",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": null,
+      "is_accepted_expenditure_ceiling": false,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": null,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 54,
+      "name": "Jane Kim",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Jane",
+      "last_name": "Kim",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": "Jane Kim for Mayor 2018",
+      "is_accepted_expenditure_ceiling": null,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1400832,
+      "supporting_money": {
+        "contributions_received": 409339.41,
+        "total_contributions": 409339.41,
+        "total_expenditures": 468360.49,
+        "total_loans_received": 0.0,
+        "total_supporting_independent": 30381.51,
+        "contributions_by_type": {
+          "PTY": 496.52,
+          "Committee": 3100.0,
+          "Individual": 374223.34,
+          "Unitemized": 30019.55,
+          "Self Funding": 100.0,
+          "Other (includes Businesses)": 1400.0
+        },
+        "contributions_by_origin": {
+          "Out of State": 38038.0,
+          "Within Oakland": 8300.0,
+          "Within California": 332981.86
+        },
+        "expenditures_by_type": {
+          "Print Ads": 12113.01,
+          "Not Stated": 86726.91,
+          "Phone Banks": 5073.48,
+          "Contribution": 250.0,
+          "Office Expenses": 38839.16,
+          "Campaign Consultants": 54000.0,
+          "Meetings and Appearances": 1079.42,
+          "Polling and Survey Research": 46500.0,
+          "Campaign Paraphernalia/Misc.": 1102.55,
+          "Candidate Filing/Ballot Fees": 6531.0,
+          "Campaign Literature and Mailings": 62570.06,
+          "Radio Airtime and Production Costs": 15084.94,
+          "Candidate Travel, Lodging, and Meals": 81.33,
+          "Staff/Spouse Travel, Lodging, and Meals": 2149.19,
+          "Postage, Delivery and Messenger Services": 21968.06,
+          "Professional Services (Legal, Accounting)": 22903.41,
+          "T.V. or Cable Airtime and Production Costs": 64419.75,
+          "Information Technology Costs (Internet, E-mail)": 20671.2
+        },
+        "supporting_by_type": {
+          "Signs": 260.0,
+          "Doorhanger": 392.0,
+          "Walk Piece": 469.0,
+          "Newspaper Ad": 12093.0,
+          "Civic Donations": 387.38,
+          "Campaign Consultants": 8153.0,
+          "Print Ads - Estimated": 6419.0,
+          "Meetings and Appearances": 756.0,
+          "Professional Services (Legal, Accounting)": 2619.62,
+          "Information Technology Costs (Internet, E-mail)": 7345.0
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": 154828.0,
+        "opposing_by_type": {
+          "Mailer (Estimated Costs)": 25328.0,
+          "Online Ads (Estimated Costs)": 129500.0
+        }
+      },
+      "contributions_received": 409339.41,
+      "total_contributions": 409339.41,
+      "total_expenditures": 468360.49,
+      "total_loans_received": 0.0,
+      "contributions_by_type": {
+        "PTY": 496.52,
+        "Committee": 3100.0,
+        "Individual": 374223.34,
+        "Unitemized": 30019.55,
+        "Self Funding": 100.0,
+        "Other (includes Businesses)": 1400.0
+      },
+      "expenditures_by_type": {
+        "Print Ads": 12113.01,
+        "Not Stated": 86726.91,
+        "Phone Banks": 5073.48,
+        "Contribution": 250.0,
+        "Office Expenses": 38839.16,
+        "Campaign Consultants": 54000.0,
+        "Meetings and Appearances": 1079.42,
+        "Polling and Survey Research": 46500.0,
+        "Campaign Paraphernalia/Misc.": 1102.55,
+        "Candidate Filing/Ballot Fees": 6531.0,
+        "Campaign Literature and Mailings": 62570.06,
+        "Radio Airtime and Production Costs": 15084.94,
+        "Candidate Travel, Lodging, and Meals": 81.33,
+        "Staff/Spouse Travel, Lodging, and Meals": 2149.19,
+        "Postage, Delivery and Messenger Services": 21968.06,
+        "Professional Services (Legal, Accounting)": 22903.41,
+        "T.V. or Cable Airtime and Production Costs": 64419.75,
+        "Information Technology Costs (Internet, E-mail)": 20671.2
+      }
+    },
+    {
+      "id": 55,
+      "name": "Mark Leno",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Mark",
+      "last_name": "Leno",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
+      "committee_name": "Mark Leno for Mayor 2018",
+      "is_accepted_expenditure_ceiling": null,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1396338,
+      "supporting_money": {
+        "contributions_received": 789257.14,
+        "total_contributions": 789257.14,
+        "total_expenditures": 942014.38,
+        "total_loans_received": 0.0,
+        "total_supporting_independent": 64276.58,
+        "contributions_by_type": {
+          "Committee": 13000.0,
+          "Individual": 755002.96,
+          "Unitemized": 16904.18,
+          "Other (includes Businesses)": 4350.0
+        },
+        "contributions_by_origin": {
+          "Out of State": 33327.98,
+          "Within Oakland": 14490.0,
+          "Within California": 724534.98
+        },
+        "expenditures_by_type": {
+          "Print Ads": 19153.32,
+          "Not Stated": 16476.12,
+          "Phone Banks": 2000.0,
+          "Office Expenses": 129825.51,
+          "Fundraising Events": 13760.0,
+          "Campaign Consultants": 65864.89,
+          "Returned Contributions": 7550.0,
+          "Meetings and Appearances": 1075.36,
+          "Campaign Workers' Salaries": 149804.36,
+          "Polling and Survey Research": 39095.7,
+          "Campaign Paraphernalia/Misc.": 1799.55,
+          "Candidate Filing/Ballot Fees": 6531.0,
+          "Campaign Literature and Mailings": 66798.99,
+          "Postage, Delivery and Messenger Services": 34676.41,
+          "Professional Services (Legal, Accounting)": 25790.0,
+          "T.V. or Cable Airtime and Production Costs": 196920.0,
+          "Information Technology Costs (Internet, E-mail)": 36368.81
+        },
+        "supporting_by_type": {
+          "Data": 102.0,
+          "Signs": 260.0,
+          "Billboard": 960.0,
+          "Doorhanger": 392.0,
+          "Walk Piece": 469.0,
+          "Postcard - ESTIMATE": 413.0,
+          "Walkcard - ESTIMATE": 304.0,
+          "Print Ads - Estimated": 6419.0,
+          "Newspaper Ad (ESTIMATE)": 407.0,
+          "Social Media Ads - ESTIMATE": 1500.0,
+          "Online Ads (Estimated Costs)": 43325.0
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": 789257.14,
+      "total_contributions": 789257.14,
+      "total_expenditures": 942014.38,
+      "total_loans_received": 0.0,
+      "contributions_by_type": {
+        "Committee": 13000.0,
+        "Individual": 755002.96,
+        "Unitemized": 16904.18,
+        "Other (includes Businesses)": 4350.0
+      },
+      "expenditures_by_type": {
+        "Print Ads": 19153.32,
+        "Not Stated": 16476.12,
+        "Phone Banks": 2000.0,
+        "Office Expenses": 129825.51,
+        "Fundraising Events": 13760.0,
+        "Campaign Consultants": 65864.89,
+        "Returned Contributions": 7550.0,
+        "Meetings and Appearances": 1075.36,
+        "Campaign Workers' Salaries": 149804.36,
+        "Polling and Survey Research": 39095.7,
+        "Campaign Paraphernalia/Misc.": 1799.55,
+        "Candidate Filing/Ballot Fees": 6531.0,
+        "Campaign Literature and Mailings": 66798.99,
+        "Postage, Delivery and Messenger Services": 34676.41,
+        "Professional Services (Legal, Accounting)": 25790.0,
+        "T.V. or Cable Airtime and Production Costs": 196920.0,
+        "Information Technology Costs (Internet, E-mail)": 36368.81
+      }
+    },
+    {
+      "id": 56,
+      "name": "London Breed",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "London",
+      "last_name": "Breed",
+      "ballot_item": 13,
+      "office_election": 13,
+      "bio": null,
       "committee_name": null,
       "is_accepted_expenditure_ceiling": null,
       "is_incumbent": false,
-      "occupation": "Associate Regional Public Affairs Director",
+      "occupation": null,
       "party_affiliation": null,
       "filer_id": null,
       "supporting_money": {
