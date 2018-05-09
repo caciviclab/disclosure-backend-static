@@ -56,16 +56,10 @@ createdb:
 downloads/csv/oakland_candidates.csv: bin/auto-detect-candidates
 	mkdir -p downloads/csv downloads/raw
 	# 2016 candidates
-	wget -q -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=0&single=true&output=csv' | \
-	sed -e '1s/ /_/g' | \
-	sed -e '1s/[^a-zA-Z,_]//g' > downloads/raw/oakland_candidates_2016.csv
+	bin/auto-detect-candidates oakland-2016 > downloads/raw/oakland_candidates_2016.csv
 	# 2018 candidates
-	wget -q -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vSeuPY8huhnstJAKOoFNzwGCuTXMX6DhBU5hVVPIYmIBRLzHMGAPC2N7665gsT3F9LuLaRcBGDP4jm5/pub?gid=222087091&single=true&output=csv' | \
-	sed -e '1s/ /_/g' | \
-	sed -e '1s/[^a-zA-Z,_]//g' > downloads/raw/oakland_candidates_2018.csv
-	# make a fake entry for SF candidates
+	bin/auto-detect-candidates oakland-2018 > downloads/raw/oakland_candidates_2018.csv
+	# make a fake entry for SF candidates until they're added to the spreadsheet
 	bin/auto-detect-candidates sf-june-2018 > downloads/raw/sf_candidates_june_2018.csv
 	# combine the two years' candidates, adding an "election_name" column so we
 	#   can differentiate later.
