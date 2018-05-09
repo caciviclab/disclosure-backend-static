@@ -303,11 +303,406 @@
             "Professional Services (Legal, Accounting)": 8382.3,
             "Information Technology Costs (Internet, E-mail)": 340.0
           }
+        },
+        {
+          "id": 27,
+          "name": "Annie Campbell Washington",
+          "photo_url": "https://www.facebook.com/anniecampbellwashington/",
+          "website_url": "http://www.annieforoakland.com",
+          "twitter_url": "anniecampbellwashington",
+          "votersedge_url": null,
+          "first_name": "Annie",
+          "last_name": "Campbell Washington",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "Annie Campbell Washington for Oakland City Council 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, Councilmember",
+          "party_affiliation": null,
+          "filer_id": 1376660,
+          "supporting_money": {
+            "contributions_received": 27791.0,
+            "total_contributions": 27791.0,
+            "total_expenditures": 23538.29,
+            "total_loans_received": 3600.0,
+            "total_supporting_independent": 700.0,
+            "contributions_by_type": {
+              "Committee": 7200.0,
+              "Individual": 13500.0,
+              "Unitemized": 91.0,
+              "Other (includes Businesses)": 3400.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 800.0,
+              "Within Oakland": 12800.0,
+              "Within California": 10500.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 10300.0,
+              "Fundraising Events": 1436.9,
+              "Professional Services (Legal, Accounting)": 8408.06,
+              "Information Technology Costs (Internet, E-mail)": 3131.38
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 27791.0,
+          "total_contributions": 27791.0,
+          "total_expenditures": 23538.29,
+          "total_loans_received": 3600.0,
+          "contributions_by_type": {
+            "Committee": 7200.0,
+            "Individual": 13500.0,
+            "Unitemized": 91.0,
+            "Other (includes Businesses)": 3400.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 10300.0,
+            "Fundraising Events": 1436.9,
+            "Professional Services (Legal, Accounting)": 8408.06,
+            "Information Technology Costs (Internet, E-mail)": 3131.38
+          }
+        },
+        {
+          "id": 37,
+          "name": "Nayeli Maxson",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Nayeli",
+          "last_name": "Maxson",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "Nayeli Maxson for Oakland City Council",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": 1405187,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 38,
+          "name": "Sheng Thao",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Sheng",
+          "last_name": "Thao",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "Sheng Thao for Oakland City Council 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": 1405456,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 39,
+          "name": "Chris Young",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Chris",
+          "last_name": "Young",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": "Chris Young for City Council 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": 1405565,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 40,
+          "name": "Joseph Tanios",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Joseph",
+          "last_name": "Tanios",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": null,
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 41,
+          "name": "Pamela Harris",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Pamela",
+          "last_name": "Harris",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": null,
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 42,
+          "name": "Jonathan Selsley",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Jonathan",
+          "last_name": "Selsley",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": null,
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 43,
+          "name": "Ahmad Anderson",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Ahmad",
+          "last_name": "Anderson",
+          "ballot_item": 8,
+          "office_election": 8,
+          "bio": null,
+          "committee_name": null,
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
         }
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "contest_type": "Office",
       "name": "City Council District 8",
       "candidates": [
@@ -320,8 +715,8 @@
           "votersedge_url": null,
           "first_name": "Lori",
           "last_name": "Droste",
-          "ballot_item": 12,
-          "office_election": 12,
+          "ballot_item": 13,
+          "office_election": 13,
           "bio": null,
           "committee_name": "Droste for City Council 2018",
           "is_accepted_expenditure_ceiling": null,
@@ -372,8 +767,8 @@
           "votersedge_url": null,
           "first_name": "Mary",
           "last_name": "Kay Lacey",
-          "ballot_item": 12,
-          "office_election": 12,
+          "ballot_item": 13,
+          "office_election": 13,
           "bio": null,
           "committee_name": "Lacey for City Council 2018",
           "is_accepted_expenditure_ceiling": null,
@@ -419,8 +814,8 @@
           "votersedge_url": null,
           "first_name": "Alfred",
           "last_name": "Twu",
-          "ballot_item": 12,
-          "office_election": 12,
+          "ballot_item": 13,
+          "office_election": 13,
           "bio": "Combining my artistic and pragmatic sides, I came to Berkeley in 2002 to study architecture at UC Berkeley. Since graduating, I've worked for architects in the Bay Area, designing apartments, public infrastructure, home additions, businesses, and more.\n\nI entered politics through the trash room door, starting out as a Waste Reduction Coordinator in the Berkeley Student Cooperative, where I audited dumpsters and put together support and financing for the Co-op's first photovoltaic solar panel array.  Presently, I serve on the City of Berkeley's Zero Waste Commission and also as the chair of the Sierra Club San Francisco Bay Chapter's Zero Waste Committee.  I've worked on reducing plastic use and litter, organizing activists to fight methane-emitting garbage grinders, expanding multi-stream recycling that ensures that recovered paper and plastics have willing buyers and second lives, and am presently looking at policies to encourage the reuse of buildings and their component materials. \n\nThroughout my political career, the Zero Waste goal of highest and best use has been a guide, as has the everyday reality of taking out the garbage/compost/recycling, an ever present reminder that while working towards a better world, maintaining the functions of daily life cannot be neglected. \n\nIn the last several years as the Bay Area flipped out of the frying pan of the recession and into the fire of the housing crisis, I have worked on efforts to zone for more housing, fund affordable housing, and expand rent control and other tenant protections.  Some say we need to increase supply.  Some say we need stronger rent control.  I say, \"Why Not Both\" \n\nI am fired up by the challenges I've seen not just my generation, but low and moderate income people of all ages face; yet grounded in economic reality with a business degree and professional experience.  Having a dozen years of experience designing housing, I know how to find elegant solutions for a Berkeley that is affordable, not dependent on fossil fuels, safer, and capable of being achieved in the next few years.\n\nSource: https://www.alfred2018.com/about",
           "committee_name": "Alfred Twu for Berkeley City Council 2018",
           "is_accepted_expenditure_ceiling": null,
