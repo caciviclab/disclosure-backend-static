@@ -32,7 +32,7 @@ class ReferendumExpendituresByOrigin
         contributions_by_locale.locale,
         SUM(contributions_by_locale.total) as total
       FROM "oakland_committees" committees, contributions_by_locale
-      WHERE committees."Filer_ID" = contributions_by_locale."Filer_ID"
+      WHERE committees."Filer_ID"::varchar = contributions_by_locale."Filer_ID"::varchar
       GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
     SQL
@@ -52,11 +52,13 @@ class ReferendumExpendituresByOrigin
     oppose = {}
 
     contributions.each do |row|
-      if row['Sup_Opp_Cd'] == 'S'
-        support[row['Measure_Number']] ||= {}
+      support[row['Measure_Number']] ||= {}
+      oppose[row['Measure_Number']] ||= {}
+
+      case row['Sup_Opp_Cd']
+      when 'S', 'Support'
         support[row['Measure_Number']][row['locale']] = row['total']
-      elsif row['Sup_Opp_Cd'] == 'O'
-        oppose[row['Measure_Number']] ||= {}
+      when 'O', 'Oppose'
         oppose[row['Measure_Number']][row['locale']] = row['total']
       end
     end

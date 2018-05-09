@@ -1,89 +1,72 @@
 {
   "id": 15,
-  "name": "Noel Gallo",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
-  "website_url": "http://galloforoakland.com/",
-  "twitter_url": "@noelgallo5",
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130759?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Noel",
-  "last_name": "Gallo",
+  "name": "Noni Session",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
+  "website_url": "http://www.nonifordistrict3.com/",
+  "twitter_url": "@NoniSession",
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130758?\u0026county=Alameda%20County\u0026election_authority_id=1",
+  "first_name": "Noni",
+  "last_name": "Session",
   "ballot_item": 7,
   "office_election": 7,
-  "bio": "Noel Gallo was elected to the Oakland City Council in 2012 to represent District 5. He serves as Co-Chair of the Oakland City Council Education Partnership Committee, and a member of the Life Enrichment, Public Works, and Public Safety City Council Committees. He represents the City of Oakland as a member of the AC Transit Bus Rapid Transit (BRT) Policy Steering Committee. Prior to joining the council, Gallo was elected and served on the Oakland Board of Education for 20 years. \nGallo is a lifelong resident of Oakland; he grew up in the Fruitvale/San Antonio District neighborhoods. He graduated from the University of California, Berkeley, with a Business Degree. \nSource: Candidate statement and website",
-  "committee_name": "ReElect Noel Gallo for Oakland City Council 2016",
+  "bio": "Noni Session is a lifelong resident of Oakland and attended Oakland public schools. Session served as a special education teacher at Harbor Way Academy Elementary School. She graduated with a degree in Cultural Anthropology and African American Studies from San Francisco State University and received her Ph.D. in Cultural Anthropology from Cornell University. Session’s doctoral research in Nairobi, Kenya on Bureaucratic Organizations \u0026 Humanitarianism led her to work with the United Nations Development Programme as a Researcher and Government Liaison. \n\nSource: https://www.crowdpac.com/campaigns/68285/support-noni-session-for-oakland-city-council-distict-3",
+  "committee_name": "Noni D. Session for City Council 2016",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": true,
-  "occupation": "Incumbent, City Council member",
+  "is_incumbent": false,
+  "occupation": "Assistant Librarian",
   "party_affiliation": "Democrat",
-  "filer_id": 1388641,
+  "filer_id": 1386922,
   "supporting_money": {
-    "contributions_received": 80100.69,
-    "total_contributions": 80100.69,
-    "total_expenditures": 87107.1,
-    "total_loans_received": 10000.0,
+    "contributions_received": 10634.0,
+    "total_contributions": 10634.0,
+    "total_expenditures": 9611.19,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 700.0,
     "contributions_by_type": {
-      "Committee": 9200.0,
-      "Individual": 22350.0,
-      "Unitemized": 919.0,
-      "Other (includes Businesses)": 37631.69
+      "Individual": 7110.0,
+      "Unitemized": 1424.0,
+      "Other (includes Businesses)": 2100.0
     },
     "contributions_by_origin": {
-      "Out of State": 1400.0,
-      "Within Oakland": 51081.69,
-      "Within California": 16700.0
+      "Out of State": 850.0,
+      "Within Oakland": 6500.0,
+      "Within California": 1860.0
     },
     "expenditures_by_type": {
-      "Print Ads": 500.0,
-      "Not Stated": 10826.1,
-      "Contribution": 550.0,
-      "Civic Donations": 860.36,
-      "Office Expenses": 3595.76,
-      "Fundraising Events": 656.55,
-      "Campaign Workers' Salaries": 3000.0,
-      "Campaign Paraphernalia/Misc.": 8404.06,
+      "Office Expenses": 359.71,
+      "Fundraising Events": 381.2,
+      "Campaign Consultants": 1375.0,
+      "Campaign Workers' Salaries": 1144.0,
+      "Campaign Paraphernalia/Misc.": 195.0,
       "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 36593.49,
-      "Professional Services (Legal, Accounting)": 21788.0
+      "Campaign Literature and Mailings": 3399.31,
+      "Information Technology Costs (Internet, E-mail)": 387.0
     },
     "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 40013.0,
+    "opposing_expenditures": null,
     "opposing_by_type": {
-      "Postage": 4714.0,
-      "Mailer Design": 1650.0,
-      "Mailer Printing": 2438.0,
-      "Mailhouse \u0026 Postage": 3699.0,
-      "Digital Ad in opposition to Noel Gallo": 9250.0,
-      "Design of mailer in opposition to Noel Gallo": 3300.0,
-      "Design of mailer in opposition of Noel Gallo.": 1650.0,
-      "Printing of mailer in opposition to Noel Gallo": 5914.0,
-      "Mailing and Postage in opposition to Noel Gallo": 7398.0
     }
   },
-  "contributions_received": 80100.69,
-  "total_contributions": 80100.69,
-  "total_expenditures": 87107.1,
-  "total_loans_received": 10000.0,
+  "contributions_received": 10634.0,
+  "total_contributions": 10634.0,
+  "total_expenditures": 9611.19,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 9200.0,
-    "Individual": 22350.0,
-    "Unitemized": 919.0,
-    "Other (includes Businesses)": 37631.69
+    "Individual": 7110.0,
+    "Unitemized": 1424.0,
+    "Other (includes Businesses)": 2100.0
   },
   "expenditures_by_type": {
-    "Print Ads": 500.0,
-    "Not Stated": 10826.1,
-    "Contribution": 550.0,
-    "Civic Donations": 860.36,
-    "Office Expenses": 3595.76,
-    "Fundraising Events": 656.55,
-    "Campaign Workers' Salaries": 3000.0,
-    "Campaign Paraphernalia/Misc.": 8404.06,
+    "Office Expenses": 359.71,
+    "Fundraising Events": 381.2,
+    "Campaign Consultants": 1375.0,
+    "Campaign Workers' Salaries": 1144.0,
+    "Campaign Paraphernalia/Misc.": 195.0,
     "Candidate Filing/Ballot Fees": 300.0,
-    "Campaign Literature and Mailings": 36593.49,
-    "Professional Services (Legal, Accounting)": 21788.0
+    "Campaign Literature and Mailings": 3399.31,
+    "Information Technology Costs (Internet, E-mail)": 387.0
   }
 }

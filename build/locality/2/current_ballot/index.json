@@ -7,7 +7,7 @@
       "name": "City Attorney",
       "candidates": [
         {
-          "id": 1,
+          "id": 6,
           "name": "Barbara Parker",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Barbara-Parker.png",
           "website_url": "http://www.cityattorneyparker.com/",
@@ -78,7 +78,7 @@
       "name": "City Council At-Large",
       "candidates": [
         {
-          "id": 2,
+          "id": 7,
           "name": "Rebecca Kaplan",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png",
           "website_url": "http://kaplanforoakland.org/",
@@ -164,7 +164,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 8,
           "name": "Bruce Quan",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Bruce_Quan.png",
           "website_url": "http://www.bruceforoakland.com/",
@@ -238,7 +238,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 9,
           "name": "Nancy Sidebotham",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
           "website_url": "http://nancysidebotham.com/",
@@ -293,7 +293,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 10,
           "name": "Francis Matt Hummel",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/F-Matt-Hummell.png",
           "website_url": "http://matt4thepeople.nationbuilder.com/",
@@ -355,7 +355,7 @@
           }
         },
         {
-          "id": 6,
+          "id": 11,
           "name": "Peggy Moore",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Margaret-Moore.png",
           "website_url": "http://www.mooreforoakland.com/",
@@ -439,12 +439,59 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "contest_type": "Office",
       "name": "City Council District 1",
       "candidates": [
         {
-          "id": 7,
+          "id": 1,
+          "name": "Rashi Kesarwani",
+          "photo_url": "http://www.rashi2018.org/wp-content/uploads/2018/04/Bio-Flier-Photo.jpg",
+          "website_url": "http://www.rashi2018.org",
+          "twitter_url": "@RashiKesarwani",
+          "votersedge_url": null,
+          "first_name": "Rashi",
+          "last_name": "Kesarwani",
+          "ballot_item": 4,
+          "office_election": 4,
+          "bio": "I’m running for City Council in District 1 as a new mom and a first-time homeowner who is deeply invested in the future of our community. I want to ensure that the American Dream of my parents’ generation remains possible for my newborn son, Austin. \n\nMy parents took a leap of blind faith when they came to this country as immigrants from India in 1978. They were able to purchase a modest home in a Southern California suburb, and that’s where the American Dream unfolded for our family. I was blessed to attend solid public schools in a safe neighborhood, earn a bachelor’s degree from Brown University in 2005 and then a master’s degree in public policy from U.C. Berkeley in 2012. But today, for so many members of our community, it feels like the Berkeley version of the American Dream is becoming harder to grasp. \n\nAs your councilmember, I would build on my experience serving on Berkeley’s Housing Advisory Commission and Community Health Commission, where I’ve championed affordable housing and preventing the closure of Alta Bates Hospital. I would also draw on my professional background in policy analysis and public budgeting. After earning a Master of Public Policy from U.C. Berkeley, I spent three years in Sacramento working for the California Legislative Analyst’s Office, where I advised the state legislature on budget and policy issues. I now work as a Finance Manager for the San Francisco Human Services Agency, which provides safety net programs to low-income individuals and families. In my role, I ensure that the agency’s $900 million annual operating budget remains in balance. \n\nI look forward to using my unique perspective and experience to be a new voice for our North Berkeley community. Among my top priorities are housing, homelessness, public safety, transportation infrastructure, as well as parks and open space.\n\nSource: http://www.rashi2018.org/meetrashi/",
+          "committee_name": "Kesarwani for Berkeley City Council 2018",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": false,
+          "occupation": "Finance Manager, San Francisco Human Services Agency",
+          "party_affiliation": "Nonpartisan",
+          "filer_id": 1404224,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 12,
           "name": "Kevin Corbett",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
           "website_url": "http://www.corbett4oakland.com/meet-kevin/",
@@ -514,7 +561,7 @@
           }
         },
         {
-          "id": 12,
+          "id": 13,
           "name": "Dan Kalb",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
           "website_url": "https://dankalb.net",
@@ -607,12 +654,12 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "contest_type": "Office",
       "name": "City Council District 3",
       "candidates": [
         {
-          "id": 13,
+          "id": 14,
           "name": "Lynette Gibson McElhaney",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lynette-Gibson-McElhaney.png",
           "website_url": "http://www.lynettemcelhaney.com/",
@@ -620,8 +667,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130757?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Lynette",
           "last_name": "Gibson McElhaney",
-          "ballot_item": 6,
-          "office_election": 6,
+          "ballot_item": 7,
+          "office_election": 7,
           "bio": "Lynnette McElhaney currently serves as an Oakland City Council member representing District 3 and has advocated for the betterment of Oakland in terms of enhancing jobs, public safety, education and the economy. She earned a degree from UC Berkeley and moved to West Oakland after graduating college. \n\nSource: http://www.lynettemcelhaney.com/",
           "committee_name": "Re-Elect McElhaney for City Council 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -698,7 +745,7 @@
           }
         },
         {
-          "id": 14,
+          "id": 15,
           "name": "Noni Session",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
           "website_url": "http://www.nonifordistrict3.com/",
@@ -706,8 +753,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130758?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Noni",
           "last_name": "Session",
-          "ballot_item": 6,
-          "office_election": 6,
+          "ballot_item": 7,
+          "office_election": 7,
           "bio": "Noni Session is a lifelong resident of Oakland and attended Oakland public schools. Session served as a special education teacher at Harbor Way Academy Elementary School. She graduated with a degree in Cultural Anthropology and African American Studies from San Francisco State University and received her Ph.D. in Cultural Anthropology from Cornell University. Session’s doctoral research in Nairobi, Kenya on Bureaucratic Organizations \u0026 Humanitarianism led her to work with the United Nations Development Programme as a Researcher and Government Liaison. \n\nSource: https://www.crowdpac.com/campaigns/68285/support-noni-session-for-oakland-city-council-distict-3",
           "committee_name": "Noni D. Session for City Council 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -772,12 +819,12 @@
       ]
     },
     {
-      "id": 7,
+      "id": 9,
       "contest_type": "Office",
       "name": "City Council District 5",
       "candidates": [
         {
-          "id": 15,
+          "id": 16,
           "name": "Noel Gallo",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
           "website_url": "http://galloforoakland.com/",
@@ -785,8 +832,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130759?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Noel",
           "last_name": "Gallo",
-          "ballot_item": 7,
-          "office_election": 7,
+          "ballot_item": 9,
+          "office_election": 9,
           "bio": "Noel Gallo was elected to the Oakland City Council in 2012 to represent District 5. He serves as Co-Chair of the Oakland City Council Education Partnership Committee, and a member of the Life Enrichment, Public Works, and Public Safety City Council Committees. He represents the City of Oakland as a member of the AC Transit Bus Rapid Transit (BRT) Policy Steering Committee. Prior to joining the council, Gallo was elected and served on the Oakland Board of Education for 20 years. \nGallo is a lifelong resident of Oakland; he grew up in the Fruitvale/San Antonio District neighborhoods. He graduated from the University of California, Berkeley, with a Business Degree. \nSource: Candidate statement and website",
           "committee_name": "ReElect Noel Gallo for Oakland City Council 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -866,7 +913,7 @@
           }
         },
         {
-          "id": 16,
+          "id": 17,
           "name": "Viola Gonzales",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Viola-Gonzales.png",
           "website_url": "http://www.voteviola.com/",
@@ -874,8 +921,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130760?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Viola",
           "last_name": "Gonzales",
-          "ballot_item": 7,
-          "office_election": 7,
+          "ballot_item": 9,
+          "office_election": 9,
           "bio": "Viola Gonzales was the Chief Executive Officer of AnewAmerica Community Corporation, a non-profit that helps immigrants and refugees start small and micro-businesses. Gonzales has been Executive Director for a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Her volunteer service has included corporate advisory, nonprofit and civic boards. In 2002, Gonzales was appointed to the Oakland Board of Education by then-Mayor Jerry Brown. Prior to this appointment, she served on the Oakland Planning Commission. \n\nSource: http://www.anewamerica.org/index.php/news/events/173-changes-in-leadership-at-anewamerica , https://www.linkedin.com/in/violagonzales , http://boedocdepot.ousd.k12.ca.us/boe-webextender/bextest/ViolaGonzales.asp , and candidate survey",
           "committee_name": "Viola Gonzales for City Council 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -942,12 +989,12 @@
       ]
     },
     {
-      "id": 9,
+      "id": 11,
       "contest_type": "Office",
       "name": "City Council District 7",
       "candidates": [
         {
-          "id": 17,
+          "id": 19,
           "name": "Marcie Hodge",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
           "website_url": "http://hodge4oaklandcitycouncil.com/",
@@ -955,8 +1002,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130761?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Marcie",
           "last_name": "Hodge",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 11,
+          "office_election": 11,
           "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and candidate website",
           "committee_name": "Hodge 4 Oakland City Council 2016",
           "is_accepted_expenditure_ceiling": false,
@@ -1005,7 +1052,7 @@
           }
         },
         {
-          "id": 23,
+          "id": 20,
           "name": "Nehanda Imara",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Nehanda_Imara.png",
           "website_url": "http://www.nehandafordistrict7.com/",
@@ -1013,8 +1060,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130762?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Nehanda",
           "last_name": "Imara",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 11,
+          "office_election": 11,
           "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora.  \n\nSource: http://www.cbecal.org/about/staff/",
           "committee_name": "Nehanda Imara for City Council 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -1077,7 +1124,7 @@
           }
         },
         {
-          "id": 24,
+          "id": 21,
           "name": "Larry Reid",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/larry-reid.png",
           "website_url": "https://www.facebook.com/LarryReid4District7/",
@@ -1085,8 +1132,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130763?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Larry",
           "last_name": "Reid",
-          "ballot_item": 9,
-          "office_election": 9,
+          "ballot_item": 11,
+          "office_election": 11,
           "bio": "Larry Reid has been a Councilmember for District 7 since 1997. Reid is a member of the Public Works and Rules and Legislation Committees for the City of Oakland and is Chairman of the Community and Economic Development Committee. Reid served as Chief of Staff for former Oakland City Councilmember Aleta Cannon and former Mayor and Assemblymember Elihu Harris. He was born and raised in Cincinnati, Ohio and attended the University of Cincinnati. \n\nSource: http://www2.oaklandnet.com/government/o/CityCouncil/o/District7/index.htm and http://www2.oaklandnet.com/government/o/CityCouncil/o/District7/a/Profile/index.htm",
           "committee_name": "Re-Elect Larry Reid for Council 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -1161,12 +1208,12 @@
       ]
     },
     {
-      "id": 13,
+      "id": 16,
       "contest_type": "Office",
       "name": "School Board District 1",
       "candidates": [
         {
-          "id": 25,
+          "id": 22,
           "name": "Donald Macleay",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Donald-Macleay1.png",
           "website_url": "http://www.don4ousd.org/",
@@ -1174,8 +1221,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130694?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Donald",
           "last_name": "Macleay",
-          "ballot_item": 13,
-          "office_election": 13,
+          "ballot_item": 16,
+          "office_election": 16,
           "bio": "Don Macleay owns and runs East Bay Computer Services, a computer repair business in the Temescal district.  While running for office, Macleay is on leave from People United for a Better Life in Oakland, a youth advocacy organization where he serves as a board member. In 2010, Macleay ran for mayor in Oakland. \n\nSource: https://oaklandnorth.net/2012/10/29/greens-don-macleay-promotes-civilians-on-police-force-higher-minimum-wage/",
           "committee_name": "Macleay for Oakland School Board, District 1, 2016",
           "is_accepted_expenditure_ceiling": null,
@@ -1248,7 +1295,7 @@
           }
         },
         {
-          "id": 26,
+          "id": 23,
           "name": "Jody London",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
           "website_url": "http://www.votejody.com/",
@@ -1256,8 +1303,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130693?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Jody",
           "last_name": "London",
-          "ballot_item": 13,
-          "office_election": 13,
+          "ballot_item": 16,
+          "office_election": 16,
           "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
           "committee_name": "Friends of Jody London for Oakland School Board 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -1325,12 +1372,86 @@
       ]
     },
     {
-      "id": 14,
+      "id": 17,
       "contest_type": "Office",
       "name": "School Board District 3",
       "candidates": [
         {
-          "id": 27,
+          "id": 18,
+          "name": "Kharyshi Wiginton",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kharyshi-Wiginton.png",
+          "website_url": "http://www.mskfordistrict3sb.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130698?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Kharyshi",
+          "last_name": "Wiginton",
+          "ballot_item": 17,
+          "office_election": 17,
+          "bio": "Kharyshi Wiginton is the Youth Leadership Coordinator at McClymonds Youth and Family Center has spent a decade doing education-related work in Oakland and currently holds a position at McClymonds High School. Wiginton graduated from the California Institute of Integral Studies in 2009. \n\nSource: https://www.facebook.com/kharyshi.wiginton, https://www.linkedin.com/in/kharyshi-wiginton-6a545b8, http://museumca.org/story/kharyshi-wiginton-youth-organizing-mcclymonds-high-school, and Candidate Statement",
+          "committee_name": "Kharyshi Wiginton for School Board 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Youth Leadership Coordinator",
+          "party_affiliation": null,
+          "filer_id": 1386929,
+          "supporting_money": {
+            "contributions_received": 5798.0,
+            "total_contributions": 5798.0,
+            "total_expenditures": 4886.23,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 6174.0,
+            "contributions_by_type": {
+              "Individual": 2590.0,
+              "Unitemized": 1093.0,
+              "Other (includes Businesses)": 2115.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 1905.0,
+              "Within Oakland": 2150.0,
+              "Within California": 650.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 180.0,
+              "Fundraising Events": 128.05,
+              "Meetings and Appearances": 114.67,
+              "Campaign Workers' Salaries": 150.0,
+              "Campaign Paraphernalia/Misc.": 870.17,
+              "Candidate Filing/Ballot Fees": 1140.0,
+              "Campaign Literature and Mailings": 1187.01,
+              "Professional Services (Legal, Accounting)": 500.0,
+              "Information Technology Costs (Internet, E-mail)": 381.89
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 5798.0,
+          "total_contributions": 5798.0,
+          "total_expenditures": 4886.23,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 2590.0,
+            "Unitemized": 1093.0,
+            "Other (includes Businesses)": 2115.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 180.0,
+            "Fundraising Events": 128.05,
+            "Meetings and Appearances": 114.67,
+            "Campaign Workers' Salaries": 150.0,
+            "Campaign Paraphernalia/Misc.": 870.17,
+            "Candidate Filing/Ballot Fees": 1140.0,
+            "Campaign Literature and Mailings": 1187.01,
+            "Professional Services (Legal, Accounting)": 500.0,
+            "Information Technology Costs (Internet, E-mail)": 381.89
+          }
+        },
+        {
+          "id": 24,
           "name": "Jumoke Hinton Hodge",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
           "website_url": "https://hintonhodge.nationbuilder.com/",
@@ -1338,8 +1459,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130695?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Jumoke",
           "last_name": "Hinton Hodge",
-          "ballot_item": 14,
-          "office_election": 14,
+          "ballot_item": 17,
+          "office_election": 17,
           "bio": "Jumoke Hinton-Hodge is running for re-election as District 3 representative for the Oakland Unified School Board of Education. Hinton-Hodge is the co-founder of the Parent Leadership and Engagement Academy Initiative (PLEA), a community-building project dedicated to the education and support of West Oakland parents and families. She received a Bachelor degree in Black Studies and English from Oberlin College. \n\nSource: http://www.ousd.org/directorhodge",
           "committee_name": "Re-Elect Jumoke Hinton Hodge for Oakland School Board 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -1410,7 +1531,7 @@
           }
         },
         {
-          "id": 28,
+          "id": 25,
           "name": "Benjamin Lang",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
           "website_url": "http://www.benlang.com/",
@@ -1418,8 +1539,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130696?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Benjamin",
           "last_name": "Lang",
-          "ballot_item": 14,
-          "office_election": 14,
+          "ballot_item": 17,
+          "office_election": 17,
           "bio": "Benjamin Lang has served as a both public school teacher and administrator for over two decades. Lang has been a resident of Oakland's District 3 for 42 years. He holds a Bachelor’s of Arts in Political Science, a Master’s of Arts in Political Theory, and a Master’s of Sciences in Educational Technologies.Lang has elected to not accept any contributions for his campaign.\n\nSource: http://www.benlang.com/index.html",
           "committee_name": null,
           "is_accepted_expenditure_ceiling": true,
@@ -1458,80 +1579,6 @@
         },
         {
           "id": 29,
-          "name": "Kharyshi Wiginton",
-          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kharyshi-Wiginton.png",
-          "website_url": "http://www.mskfordistrict3sb.com/",
-          "twitter_url": null,
-          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130698?\u0026county=Alameda%20County\u0026election_authority_id=1",
-          "first_name": "Kharyshi",
-          "last_name": "Wiginton",
-          "ballot_item": 14,
-          "office_election": 14,
-          "bio": "Kharyshi Wiginton is the Youth Leadership Coordinator at McClymonds Youth and Family Center has spent a decade doing education-related work in Oakland and currently holds a position at McClymonds High School. Wiginton graduated from the California Institute of Integral Studies in 2009. \n\nSource: https://www.facebook.com/kharyshi.wiginton, https://www.linkedin.com/in/kharyshi-wiginton-6a545b8, http://museumca.org/story/kharyshi-wiginton-youth-organizing-mcclymonds-high-school, and Candidate Statement",
-          "committee_name": "Kharyshi Wiginton for School Board 2016",
-          "is_accepted_expenditure_ceiling": true,
-          "is_incumbent": false,
-          "occupation": "Youth Leadership Coordinator",
-          "party_affiliation": null,
-          "filer_id": 1386929,
-          "supporting_money": {
-            "contributions_received": 5798.0,
-            "total_contributions": 5798.0,
-            "total_expenditures": 4886.23,
-            "total_loans_received": 0.0,
-            "total_supporting_independent": 6174.0,
-            "contributions_by_type": {
-              "Individual": 2590.0,
-              "Unitemized": 1093.0,
-              "Other (includes Businesses)": 2115.0
-            },
-            "contributions_by_origin": {
-              "Out of State": 1905.0,
-              "Within Oakland": 2150.0,
-              "Within California": 650.0
-            },
-            "expenditures_by_type": {
-              "Not Stated": 180.0,
-              "Fundraising Events": 128.05,
-              "Meetings and Appearances": 114.67,
-              "Campaign Workers' Salaries": 150.0,
-              "Campaign Paraphernalia/Misc.": 870.17,
-              "Candidate Filing/Ballot Fees": 1140.0,
-              "Campaign Literature and Mailings": 1187.01,
-              "Professional Services (Legal, Accounting)": 500.0,
-              "Information Technology Costs (Internet, E-mail)": 381.89
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": 5798.0,
-          "total_contributions": 5798.0,
-          "total_expenditures": 4886.23,
-          "total_loans_received": 0.0,
-          "contributions_by_type": {
-            "Individual": 2590.0,
-            "Unitemized": 1093.0,
-            "Other (includes Businesses)": 2115.0
-          },
-          "expenditures_by_type": {
-            "Not Stated": 180.0,
-            "Fundraising Events": 128.05,
-            "Meetings and Appearances": 114.67,
-            "Campaign Workers' Salaries": 150.0,
-            "Campaign Paraphernalia/Misc.": 870.17,
-            "Candidate Filing/Ballot Fees": 1140.0,
-            "Campaign Literature and Mailings": 1187.01,
-            "Professional Services (Legal, Accounting)": 500.0,
-            "Information Technology Costs (Internet, E-mail)": 381.89
-          }
-        },
-        {
-          "id": 37,
           "name": "Lucky Narain",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lucky-Narain.png",
           "website_url": null,
@@ -1539,8 +1586,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130697?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Lucky",
           "last_name": "Narain",
-          "ballot_item": 14,
-          "office_election": 14,
+          "ballot_item": 17,
+          "office_election": 17,
           "bio": "Lucky Narain is currently an Associate Regional Public Affairs Director for the United States Department of Agriculture (USDA). He is a Oakland resident and father. For almost three years, Narain taught middle school in the Dominican Republic with the Peace Corps as a volunteer in 2001. He holds a Master’s Degree in Public Policy from Carnegie Mellon University and a law degree from Fordham Law School. Narain has served as a lawyer in the U.S. Army Reserve since 2010. \n\nSource: https://www.linkedin.com/in/lucky-narain-1a054b16 and Candidate Statement",
           "committee_name": null,
           "is_accepted_expenditure_ceiling": null,
@@ -1580,12 +1627,12 @@
       ]
     },
     {
-      "id": 15,
+      "id": 18,
       "contest_type": "Office",
       "name": "School Board District 5",
       "candidates": [
         {
-          "id": 38,
+          "id": 30,
           "name": "Michael Hassid",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Michael-Hassid.png",
           "website_url": "http://www.mikehassidforschoolboard.com/",
@@ -1593,8 +1640,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130699?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Michael",
           "last_name": "Hassid",
-          "ballot_item": 15,
-          "office_election": 15,
+          "ballot_item": 18,
+          "office_election": 18,
           "bio": "Mike Hassid currently serves as Vice President of Finance and Operations at Exponent Partner Partners, a B-Corp and California Benefit Corporation providing strategic technology consulting to nonprofit organizations. Hassid also currently serves on the board of the Community School for Creative Education (CSCE) public school, where his son is a student and his daughter a future student. In the past, Hassid has served as Chief Financial Officer at both StudentsFirst, a national public education advocacy organization, and EnCorps STEM Teachers Program, a nonprofit that recruits professionals in science, technology, engineering and mathematics to become teachers in California public schools. Hassid has also served as Controller at both NewSchools Ventures Fund, a philanthropic firm that funds and supports education entrepreneurs, and at Common Sense Media, a national nonprofit focused on media literacy. Hassid has a Masters of Business Administration from the Masagung Graduate School of Management at The University of San Francisco and a Bachelor of Arts in Philosophy from University of California, Berkeley. He is a Bay Area native and currently lives in the Jingletown neighborhood of Oakland with my wife and two young children. \n\nSource:http://www.mikehassidforschoolboard.com/",
           "committee_name": "Friends of Hassid for School Board Director 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -1649,7 +1696,7 @@
           }
         },
         {
-          "id": 39,
+          "id": 31,
           "name": "Michael Hutchinson",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Mike-Hutchinson.png",
           "website_url": "https://mikehutchinsonforschoolboard.wordpress.com/",
@@ -1657,8 +1704,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130700?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Michael",
           "last_name": "Hutchinson",
-          "ballot_item": 15,
-          "office_election": 15,
+          "ballot_item": 18,
+          "office_election": 18,
           "bio": "Mike Hutchinson has worked and volunteered in Oakland's public schools for the past twenty years and has run programs for non-profit organizations for the past nine years. Hutchinson is an Oakland resident who attended UC Berkeley.",
           "committee_name": "Mike Hutchinson for School Board 2016",
           "is_accepted_expenditure_ceiling": null,
@@ -1696,7 +1743,7 @@
           }
         },
         {
-          "id": 40,
+          "id": 32,
           "name": "Roseann Torres",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Roseann-Torres.png",
           "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
@@ -1704,8 +1751,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130701?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Roseann",
           "last_name": "Torres",
-          "ballot_item": 15,
-          "office_election": 15,
+          "ballot_item": 18,
+          "office_election": 18,
           "bio": "Rosie Torres is running for re-election to represent District 5 for Oakland School Board. Torres was elected to represent Oakland’s District 5 schools in 2012. Torres holds a Bachelor’s Degree in Marketing from San Francisco State University and a Juris Doctorate from Albany Law School in Albany, New York.  \n\nSource: https://www.facebook.com/torresforschoolboard/home",
           "committee_name": "Roseann Torres for Oakland School Board 2016",
           "is_accepted_expenditure_ceiling": null,
@@ -1775,7 +1822,7 @@
           }
         },
         {
-          "id": 41,
+          "id": 33,
           "name": "Huber Trenado",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Huber-Trenado.png",
           "website_url": "http://www.votetrenadoousd.com/",
@@ -1783,8 +1830,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130702?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Huber",
           "last_name": "Trenado",
-          "ballot_item": 15,
-          "office_election": 15,
+          "ballot_item": 18,
+          "office_election": 18,
           "bio": "Huber Trenado is a teacher, community leader, and Oakland native. Trenado has helped establish an Aim High program site to increase the quality of academic programs offered to students during the summer and implement common core standards in Oakland United School District classrooms. Trenado graduated from UC Berkeley. \n\nSource: http://www.votetrenadoousd.com/about",
           "committee_name": "Huber Trenado for OUSD School Board 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -1863,12 +1910,12 @@
       ]
     },
     {
-      "id": 16,
+      "id": 19,
       "contest_type": "Office",
       "name": "School Board District 7",
       "candidates": [
         {
-          "id": 42,
+          "id": 34,
           "name": "James Harris",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/james-harris.png",
           "website_url": "http://harrisforeastoakland.com/about-james/",
@@ -1876,8 +1923,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13219/candidate/130703?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "James",
           "last_name": "Harris",
-          "ballot_item": 16,
-          "office_election": 16,
+          "ballot_item": 19,
+          "office_election": 19,
           "bio": "James Harris is the current Board of Education President, a business owner, parent, former teacher, and East Oakland native. Harris serves on the Aim High East Bay Leadership Council. He is a founding board member of Great Oakland Public Schools and a current board member at Youth Uprising. Harris’ career in education began at 16 as a teaching assistant at the Aim High Summer Program, which prepares children from low-income communities for success in high school and life. \n\nSource: http://harrisforeastoakland.com/",
           "committee_name": "Re-Elect James Harris for School Board",
           "is_accepted_expenditure_ceiling": null,
@@ -1953,7 +2000,7 @@
           }
         },
         {
-          "id": 43,
+          "id": 35,
           "name": "Chris Jackson",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/chris-jackson.png",
           "website_url": "http://www.chrisjacksonforoakland.org/",
@@ -1961,8 +2008,8 @@
           "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13219/candidate/130704?\u0026county=Alameda%20County\u0026election_authority_id=1",
           "first_name": "Chris",
           "last_name": "Jackson",
-          "ballot_item": 16,
-          "office_election": 16,
+          "ballot_item": 19,
+          "office_election": 19,
           "bio": "Chris Jackson is a social worker who works with the formerly incarcerated on parole or probation. He is a father of a kindergartener who is going into an OUSD school. \n\nSource: http://postnewsgroup.com/blog/2016/08/19/incumbents-run-four-seats-oakland-school-board/ and http://www.chrisjacksonforoakland.org/",
           "committee_name": "Chris Jackson for School Board 2016",
           "is_accepted_expenditure_ceiling": true,
@@ -2023,7 +2070,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 3,
       "contest_type": "Referendum",
       "name": "Sugar-Sweetened BeverageTax",
       "title": "Sugar-Sweetened BeverageTax",
@@ -2031,7 +2078,7 @@
       "number": "HH"
     },
     {
-      "id": 2,
+      "id": 4,
       "contest_type": "Referendum",
       "name": "Lease Term for City-Owned or City-Controlled Property",
       "title": "Lease Term for City-Owned or City-Controlled Property",
@@ -2039,7 +2086,7 @@
       "number": "II"
     },
     {
-      "id": 3,
+      "id": 5,
       "contest_type": "Referendum",
       "name": "Just Cause for Eviction and Rent Adjustment",
       "title": "Just Cause for Eviction and Rent Adjustment",
@@ -2047,7 +2094,7 @@
       "number": "JJ"
     },
     {
-      "id": 4,
+      "id": 6,
       "contest_type": "Referendum",
       "name": "Infrastructure and Housing bonds",
       "title": "Infrastructure and Housing bonds",
@@ -2055,7 +2102,7 @@
       "number": "KK"
     },
     {
-      "id": 5,
+      "id": 7,
       "contest_type": "Referendum",
       "name": "Police Commission",
       "title": "Police Commission",
@@ -2063,7 +2110,7 @@
       "number": "LL"
     },
     {
-      "id": 6,
+      "id": 8,
       "contest_type": "Referendum",
       "name": "Oakland School Bond",
       "title": "Oakland School Bond",

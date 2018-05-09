@@ -1,51 +1,47 @@
 {
   "id": 26,
-  "name": "Jody London",
-  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
-  "website_url": "http://www.votejody.com/",
-  "twitter_url": "@votejodylondon",
-  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130693?\u0026county=Alameda%20County\u0026election_authority_id=1",
-  "first_name": "Jody",
-  "last_name": "London",
-  "ballot_item": 13,
-  "office_election": 13,
-  "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
-  "committee_name": "Friends of Jody London for Oakland School Board 2016",
+  "name": "Abel Guillén",
+  "photo_url": "https://www.facebook.com/AbelGuillen/",
+  "website_url": "http://www.voteabelguillen.com/",
+  "twitter_url": "abelguillen",
+  "votersedge_url": null,
+  "first_name": "Abel",
+  "last_name": "Guillén",
+  "ballot_item": 6,
+  "office_election": 6,
+  "bio": null,
+  "committee_name": "Abel Guillen for City Council 2018",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": true,
-  "occupation": "School Board Director, and Sustainability Coordinator",
-  "party_affiliation": "Democrat",
-  "filer_id": 1303019,
+  "occupation": "Incumbent, Councilmember",
+  "party_affiliation": null,
+  "filer_id": 1395580,
   "supporting_money": {
-    "contributions_received": 22344.0,
-    "total_contributions": 22344.0,
-    "total_expenditures": 23891.0,
+    "contributions_received": 61546.0,
+    "total_contributions": 61546.0,
+    "total_expenditures": 22254.42,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 6620.73,
+    "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Committee": 500.0,
-      "Individual": 15485.0,
-      "Unitemized": 3759.0,
-      "Other (includes Businesses)": 2600.0
+      "Committee": 6925.0,
+      "Individual": 45600.0,
+      "Unitemized": 771.0,
+      "Other (includes Businesses)": 8250.0
     },
     "contributions_by_origin": {
-      "Out of State": 450.0,
-      "Within Oakland": 10975.0,
-      "Within California": 7160.0
+      "Out of State": 2300.0,
+      "Within Oakland": 37350.0,
+      "Within California": 21125.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 248.2,
-      "Fundraising Events": 2338.58,
-      "Campaign Consultants": 1000.0,
-      "Meetings and Appearances": 437.32,
-      "Campaign Paraphernalia/Misc.": 3755.99,
-      "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 15150.0
+      "Contribution": 1550.0,
+      "Civic Donations": 2500.0,
+      "Office Expenses": 2656.58,
+      "Fundraising Events": 12422.3,
+      "Professional Services (Legal, Accounting)": 2775.34,
+      "Information Technology Costs (Internet, E-mail)": 153.32
     },
     "supporting_by_type": {
-      "STAFF TIME": 1977.0,
-      "Campaign Literature and Mailings": 48.0,
-      "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 1905.0
     }
   },
   "opposing_money": {
@@ -53,23 +49,22 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 22344.0,
-  "total_contributions": 22344.0,
-  "total_expenditures": 23891.0,
+  "contributions_received": 61546.0,
+  "total_contributions": 61546.0,
+  "total_expenditures": 22254.42,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 500.0,
-    "Individual": 15485.0,
-    "Unitemized": 3759.0,
-    "Other (includes Businesses)": 2600.0
+    "Committee": 6925.0,
+    "Individual": 45600.0,
+    "Unitemized": 771.0,
+    "Other (includes Businesses)": 8250.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 248.2,
-    "Fundraising Events": 2338.58,
-    "Campaign Consultants": 1000.0,
-    "Meetings and Appearances": 437.32,
-    "Campaign Paraphernalia/Misc.": 3755.99,
-    "Candidate Filing/Ballot Fees": 300.0,
-    "Campaign Literature and Mailings": 15150.0
+    "Contribution": 1550.0,
+    "Civic Donations": 2500.0,
+    "Office Expenses": 2656.58,
+    "Fundraising Events": 12422.3,
+    "Professional Services (Legal, Accounting)": 2775.34,
+    "Information Technology Costs (Internet, E-mail)": 153.32
   }
 }

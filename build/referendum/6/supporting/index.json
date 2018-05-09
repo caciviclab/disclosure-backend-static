@@ -1,53 +1,45 @@
 {
   "id": 6,
   "contest_type": "Referendum",
-  "name": "Oakland School Bond",
-  "title": "Oakland School Bond",
-  "summary": "This measure will provide a districtwide educator salary increase designed to attract/retain teachers; provide enhanced middle school art, music, languages/other programs in addition to core educational programs; improve academic achievement; provide safe, positive schools, and prepare students for college/careers; shall Oakland Unified School District levy a tax of $120 per parcel, providing $12.4 million annually, for 12 years, with exemptions for senior and low income residents, no money for Sacramento, and all money benefitting Oakland students?",
-  "number": "G1",
+  "name": "Infrastructure and Housing bonds",
+  "title": "Infrastructure and Housing bonds",
+  "summary": "This measure would allow the City to borrow up to $600 million by issuing general obligation bonds. The bonds would be repaid with revenue from an “ad valorem” property tax. “Ad valorem” means according to the value of the property. The City would impose a tax based on the value of real property and improvements within the City to pay the principal and interest of the bonds. The City would use this money to build, buy, improve, and rehabilitate facilities and infrastructure and for affordable housing in Oakland. The projects financed by the bonds would be completed as needed according to City Council established priorities as set forth in the City’s Capital Improvement Plan.",
+  "number": "KK",
   "supporting_organizations": [
     {
-      "id": "1331137",
-      "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
-      "payee": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
-      "amount": 9928.0
-    },
-    {
-      "id": "960997",
-      "name": "Friends of Oakland Public Schools Yes on G1 2016",
-      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
-      "amount": 32926.02
-    },
-    {
-      "id": "1391632",
-      "name": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
-      "payee": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
-      "amount": 15018.45
+      "id": "1387983",
+      "name": "Invest in Oakland's Infrastructure and Affordable Housing -- Yes on KK, a Coalition of Business, Community Leaders and Oakland Residents",
+      "payee": "Invest in Oakland's Infrastructure and Affordable Housing -- Yes on KK, a Coalition of Business, Community Leaders and Oakland Residents",
+      "amount": 413909.6
     }
   ],
-  "total_contributions": 257500.0,
+  "total_contributions": 406937.34,
   "contributions_by_region": [
     {
-      "amount": 148000.0,
+      "amount": 17500.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 121050.0,
       "locale": "Within California"
     },
     {
-      "amount": 109500.0,
+      "amount": 268387.34,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 149000.0
+      "amount": 176049.34
     },
     {
       "type": "Individual",
-      "amount": 10500.0
+      "amount": 23188.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 98000.0
+      "amount": 207700.0
     }
   ]
 }
