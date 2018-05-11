@@ -11,7 +11,7 @@ process: process.rb
 download: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
 	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
 	download-SFO-2017 download-SFO-2018 \
-	download-COAK-2015 download-COAK-2016 download-COAK-2017 \
+	download-COAK-2015 download-COAK-2016 download-COAK-2017 download-COAK-2018 \
 	download-BRK-2017 download-BRK-2018
 
 download-SFO-%:
