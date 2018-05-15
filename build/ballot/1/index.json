@@ -1,0 +1,2123 @@
+{
+  "id": 1,
+  "ballot_items": [
+    {
+      "id": 1,
+      "contest_type": "Office",
+      "name": "City Attorney",
+      "candidates": [
+        {
+          "id": 6,
+          "name": "Barbara Parker",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Barbara-Parker.png",
+          "website_url": "http://www.cityattorneyparker.com/",
+          "twitter_url": "@barbarajparker1",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13239/candidate/130764?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Barbara",
+          "last_name": "Parker",
+          "ballot_item": 1,
+          "office_election": 1,
+          "bio": "Barbara Parker was appointed City Attorney in 2011 after the retirement of then-City Attorney John Russo. Prior to becoming City Attorney, Parker served for 20 years in the Oakland City Attorney’s Office, including ten years as Chief Assistant City Attorney. Parker graduated from Harvard Law in 1975 and has worked as an attorney in the private sector for two major corporations and two prominent law firms. She has served as the manager of a large public agency and as an attorney at all levels of government—federal, state, and local—including more than five years as an Assistant United States Attorney for the Northern District of California, where she represented the U.S. in federal court litigation. In 2005, the State Bar Board of Governors selected Parker for an appointment to the State Judicial Council. \n\nSource: http://www.cityattorneyparker.com/about and campaign website.",
+          "committee_name": "Re-elect City Attorney Barbara Parker 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, City Attorney",
+          "party_affiliation": "Democrat",
+          "filer_id": 1382679,
+          "supporting_money": {
+            "contributions_received": 67909.0,
+            "total_contributions": 67909.0,
+            "total_expenditures": 35744.47,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 700.0,
+            "contributions_by_type": {
+              "Individual": 59850.0,
+              "Unitemized": 393.0,
+              "Other (includes Businesses)": 7666.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 1550.0,
+              "Within Oakland": 33391.0,
+              "Within California": 32575.0
+            },
+            "expenditures_by_type": {
+              "Campaign Consultants": 31823.97,
+              "Campaign Paraphernalia/Misc.": 820.44,
+              "Candidate Filing/Ballot Fees": 1477.0,
+              "Campaign Literature and Mailings": 1559.56
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 67909.0,
+          "total_contributions": 67909.0,
+          "total_expenditures": 35744.47,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 59850.0,
+            "Unitemized": 393.0,
+            "Other (includes Businesses)": 7666.0
+          },
+          "expenditures_by_type": {
+            "Campaign Consultants": 31823.97,
+            "Campaign Paraphernalia/Misc.": 820.44,
+            "Candidate Filing/Ballot Fees": 1477.0,
+            "Campaign Literature and Mailings": 1559.56
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "contest_type": "Office",
+      "name": "City Council At-Large",
+      "candidates": [
+        {
+          "id": 7,
+          "name": "Rebecca Kaplan",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png",
+          "website_url": "http://kaplanforoakland.org/",
+          "twitter_url": "@kaplan4oakland",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13234/candidate/130751?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Rebecca",
+          "last_name": "Kaplan",
+          "ballot_item": 3,
+          "office_election": 3,
+          "bio": "Rebecca Kaplan was elected Councilmember-at-Large in 2008 and re-elected in 2012. Before joining the Oakland City Council, she served as an elected Director on the AC Transit Board and worked as housing rights attorney in Oakland. Kaplan holds a Juris Doctorate in Law from Stanford Law School and a Master of Arts in Urban \u0026 Environmental Policy from Tufts University. Source: Candidate Statement and campaign website.",
+          "committee_name": "Kaplan for Oakland City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, City Council member At-Large",
+          "party_affiliation": "Democrat",
+          "filer_id": 1381183,
+          "supporting_money": {
+            "contributions_received": 169231.99,
+            "total_contributions": 169231.99,
+            "total_expenditures": 175382.48,
+            "total_loans_received": 4000.0,
+            "total_supporting_independent": 2600.0,
+            "contributions_by_type": {
+              "Committee": 18570.0,
+              "Individual": 70440.0,
+              "Unitemized": 9571.99,
+              "Self Funding": 48050.0,
+              "Other (includes Businesses)": 18600.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 5420.0,
+              "Within Oakland": 48606.0,
+              "Within California": 101634.0
+            },
+            "expenditures_by_type": {
+              "Print Ads": 1298.18,
+              "Not Stated": 20139.12,
+              "Office Expenses": 21445.32,
+              "Fundraising Events": 2907.9,
+              "Campaign Consultants": 50317.3,
+              "Meetings and Appearances": 100.36,
+              "Campaign Paraphernalia/Misc.": 6453.12,
+              "Campaign Literature and Mailings": 30619.34,
+              "Staff/Spouse Travel, Lodging, and Meals": 109.82,
+              "Postage, Delivery and Messenger Services": 19925.66,
+              "Professional Services (Legal, Accounting)": 6863.38,
+              "T.V. or Cable Airtime and Production Costs": 8000.0,
+              "Information Technology Costs (Internet, E-mail)": 4170.18
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 169231.99,
+          "total_contributions": 169231.99,
+          "total_expenditures": 175382.48,
+          "total_loans_received": 4000.0,
+          "contributions_by_type": {
+            "Committee": 18570.0,
+            "Individual": 70440.0,
+            "Unitemized": 9571.99,
+            "Self Funding": 48050.0,
+            "Other (includes Businesses)": 18600.0
+          },
+          "expenditures_by_type": {
+            "Print Ads": 1298.18,
+            "Not Stated": 20139.12,
+            "Office Expenses": 21445.32,
+            "Fundraising Events": 2907.9,
+            "Campaign Consultants": 50317.3,
+            "Meetings and Appearances": 100.36,
+            "Campaign Paraphernalia/Misc.": 6453.12,
+            "Campaign Literature and Mailings": 30619.34,
+            "Staff/Spouse Travel, Lodging, and Meals": 109.82,
+            "Postage, Delivery and Messenger Services": 19925.66,
+            "Professional Services (Legal, Accounting)": 6863.38,
+            "T.V. or Cable Airtime and Production Costs": 8000.0,
+            "Information Technology Costs (Internet, E-mail)": 4170.18
+          }
+        },
+        {
+          "id": 8,
+          "name": "Bruce Quan",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Bruce_Quan.png",
+          "website_url": "http://www.bruceforoakland.com/",
+          "twitter_url": "@BruceforOakland",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13234/candidate/130753?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Bruce",
+          "last_name": "Quan",
+          "ballot_item": 3,
+          "office_election": 3,
+          "bio": "Bruce Quan is a retired attorney, Quan worked as the Assistant General Counsel for the Redevelopment Agency of the City of San Jose and served as interim City Attorney for the City of Alameda. He also served as general counsel of the Organization of Chinese Americans (OCA), a national civil rights group based in Washington, He co-founded a law firm, Katz, Quan, and Kors. Quan is also an official with Zarsion, real estate developer and investment firm, partner in Brooklyn Basin development project in the Jack London Square area.Quan volunteers with the Chinese Coalition as well as Oakland Community Organizations (OCO) to address issues of housing displacement, youth civic leadership, and criminal justice for minorities.Quan has taught as a visiting Associate Professor at Peking University Law School and as an Adjunct Professor at U.C. Hastings College of Law. Quan earned his undergraduate degree from UC Berkeley and a law degree from the UC Berkeley Law School.\n\nSource: http://www.bruceforoakland.com/meet_bruce and http://www.bruceforoakland.com/news.",
+          "committee_name": "Bruce Quan for City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Real Estate Attorney",
+          "party_affiliation": null,
+          "filer_id": 1387267,
+          "supporting_money": {
+            "contributions_received": 75623.14,
+            "total_contributions": 75623.14,
+            "total_expenditures": 75910.59,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Committee": 350.0,
+              "Individual": 31551.0,
+              "Unitemized": 1706.0,
+              "Self Funding": 39366.14,
+              "Other (includes Businesses)": 2650.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 2650.0,
+              "Within Oakland": 51816.14,
+              "Within California": 19451.0
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 7808.74,
+              "Campaign Consultants": 52134.75,
+              "Meetings and Appearances": 835.15,
+              "Campaign Paraphernalia/Misc.": 6133.94,
+              "Campaign Literature and Mailings": 1056.73,
+              "Professional Services (Legal, Accounting)": 5575.0,
+              "Information Technology Costs (Internet, E-mail)": 1997.97
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 75623.14,
+          "total_contributions": 75623.14,
+          "total_expenditures": 75910.59,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 350.0,
+            "Individual": 31551.0,
+            "Unitemized": 1706.0,
+            "Self Funding": 39366.14,
+            "Other (includes Businesses)": 2650.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 7808.74,
+            "Campaign Consultants": 52134.75,
+            "Meetings and Appearances": 835.15,
+            "Campaign Paraphernalia/Misc.": 6133.94,
+            "Campaign Literature and Mailings": 1056.73,
+            "Professional Services (Legal, Accounting)": 5575.0,
+            "Information Technology Costs (Internet, E-mail)": 1997.97
+          }
+        },
+        {
+          "id": 9,
+          "name": "Nancy Sidebotham",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
+          "website_url": "http://nancysidebotham.com/",
+          "twitter_url": "@nancy6368",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13234/candidate/130754?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Nancy",
+          "last_name": "Sidebotham",
+          "ballot_item": 3,
+          "office_election": 3,
+          "bio": "Nancy Sidebotham has lived and worked in Oakland since 1964. She served for 15 years as Chairperson of the Neighborhood Crime Prevention Committee (NCPC) for beat 29X, on the Community Policing Advisory Board (CPAB), and on Neighborhood Watch. Sidebotham graduated from Merritt College in 1968 and California State University Hayward in 1970. \n\nSource: Candidate Statement and survey",
+          "committee_name": "Committee to Elect Nancy Sidebotham, Councilmember At Large, 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Tax Preparer",
+          "party_affiliation": "Democrat",
+          "filer_id": 1386741,
+          "supporting_money": {
+            "contributions_received": 396.0,
+            "total_contributions": 396.0,
+            "total_expenditures": 646.0,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Unitemized": 396.0
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 145.97,
+              "Campaign Paraphernalia/Misc.": 310.03,
+              "Candidate Filing/Ballot Fees": 190.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 396.0,
+          "total_contributions": 396.0,
+          "total_expenditures": 646.0,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Unitemized": 396.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 145.97,
+            "Campaign Paraphernalia/Misc.": 310.03,
+            "Candidate Filing/Ballot Fees": 190.0
+          }
+        },
+        {
+          "id": 10,
+          "name": "Francis Matt Hummel",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/F-Matt-Hummell.png",
+          "website_url": "http://matt4thepeople.nationbuilder.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13234/candidate/130750?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Francis",
+          "last_name": "Matt Hummel",
+          "ballot_item": 3,
+          "office_election": 3,
+          "bio": "Francis Matt Hummel moved to Oakland from Stockton in 1992. He is Chair of the Cannabis Regulatory Commission. \n\nSource: Candidate Statement",
+          "committee_name": "Matt Hummel 4 the People",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": false,
+          "occupation": "Chair, Cannabis Regulatory Commission",
+          "party_affiliation": null,
+          "filer_id": 1389717,
+          "supporting_money": {
+            "contributions_received": 1750.0,
+            "total_contributions": 1750.0,
+            "total_expenditures": 5148.26,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Individual": 1750.0,
+              "Unitemized": 0.0
+            },
+            "contributions_by_origin": {
+              "Within Oakland": 1750.0
+            },
+            "expenditures_by_type": {
+              "Print Ads": 500.0,
+              "Campaign Consultants": 1000.0,
+              "Campaign Workers' Salaries": 1000.0,
+              "Campaign Paraphernalia/Misc.": 1612.37,
+              "Campaign Literature and Mailings": 300.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 1750.0,
+          "total_contributions": 1750.0,
+          "total_expenditures": 5148.26,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 1750.0,
+            "Unitemized": 0.0
+          },
+          "expenditures_by_type": {
+            "Print Ads": 500.0,
+            "Campaign Consultants": 1000.0,
+            "Campaign Workers' Salaries": 1000.0,
+            "Campaign Paraphernalia/Misc.": 1612.37,
+            "Campaign Literature and Mailings": 300.0
+          }
+        },
+        {
+          "id": 11,
+          "name": "Peggy Moore",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Margaret-Moore.png",
+          "website_url": "http://www.mooreforoakland.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13234/candidate/130752?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Peggy",
+          "last_name": "Moore",
+          "ballot_item": 3,
+          "office_election": 3,
+          "bio": "Peggy Moore has served as a Senior Advisor to Oakland Mayor Libby Schaaf and as California Political Director for two winning presidential campaigns. She grew up in Oklahoma City and moved to Oakland in 1990. She has held leadership roles in LGBTQ and African American organizations. \n\nSource: Candidate Statement",
+          "committee_name": "Moore for Oakland City Council At-Large 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": "Democrat",
+          "filer_id": 1388168,
+          "supporting_money": {
+            "contributions_received": 316892.58,
+            "total_contributions": 316892.58,
+            "total_expenditures": 402322.71,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 1400.0,
+            "contributions_by_type": {
+              "Committee": 10100.0,
+              "Individual": 263596.14,
+              "Unitemized": 19001.44,
+              "Self Funding": 2495.0,
+              "Other (includes Businesses)": 21500.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 10250.0,
+              "Within Oakland": 170456.14,
+              "Within California": 116985.0
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 14153.29,
+              "Fundraising Events": 2073.75,
+              "Campaign Consultants": 20900.16,
+              "Meetings and Appearances": 5327.46,
+              "Polling and Survey Research": 41081.9,
+              "Campaign Paraphernalia/Misc.": 2923.65,
+              "Campaign Literature and Mailings": 34711.66,
+              "Postage, Delivery and Messenger Services": 138.8,
+              "Professional Services (Legal, Accounting)": 25072.65,
+              "T.V. or Cable Airtime and Production Costs": 135000.0,
+              "Information Technology Costs (Internet, E-mail)": 9961.9
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 316892.58,
+          "total_contributions": 316892.58,
+          "total_expenditures": 402322.71,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 10100.0,
+            "Individual": 263596.14,
+            "Unitemized": 19001.44,
+            "Self Funding": 2495.0,
+            "Other (includes Businesses)": 21500.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 14153.29,
+            "Fundraising Events": 2073.75,
+            "Campaign Consultants": 20900.16,
+            "Meetings and Appearances": 5327.46,
+            "Polling and Survey Research": 41081.9,
+            "Campaign Paraphernalia/Misc.": 2923.65,
+            "Campaign Literature and Mailings": 34711.66,
+            "Postage, Delivery and Messenger Services": 138.8,
+            "Professional Services (Legal, Accounting)": 25072.65,
+            "T.V. or Cable Airtime and Production Costs": 135000.0,
+            "Information Technology Costs (Internet, E-mail)": 9961.9
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "contest_type": "Office",
+      "name": "City Council District 1",
+      "candidates": [
+        {
+          "id": 1,
+          "name": "Rashi Kesarwani",
+          "photo_url": "http://www.rashi2018.org/wp-content/uploads/2018/04/Bio-Flier-Photo.jpg",
+          "website_url": "http://www.rashi2018.org",
+          "twitter_url": "@RashiKesarwani",
+          "votersedge_url": null,
+          "first_name": "Rashi",
+          "last_name": "Kesarwani",
+          "ballot_item": 4,
+          "office_election": 4,
+          "bio": "I’m running for City Council in District 1 as a new mom and a first-time homeowner who is deeply invested in the future of our community. I want to ensure that the American Dream of my parents’ generation remains possible for my newborn son, Austin. \n\nMy parents took a leap of blind faith when they came to this country as immigrants from India in 1978. They were able to purchase a modest home in a Southern California suburb, and that’s where the American Dream unfolded for our family. I was blessed to attend solid public schools in a safe neighborhood, earn a bachelor’s degree from Brown University in 2005 and then a master’s degree in public policy from U.C. Berkeley in 2012. But today, for so many members of our community, it feels like the Berkeley version of the American Dream is becoming harder to grasp. \n\nAs your councilmember, I would build on my experience serving on Berkeley’s Housing Advisory Commission and Community Health Commission, where I’ve championed affordable housing and preventing the closure of Alta Bates Hospital. I would also draw on my professional background in policy analysis and public budgeting. After earning a Master of Public Policy from U.C. Berkeley, I spent three years in Sacramento working for the California Legislative Analyst’s Office, where I advised the state legislature on budget and policy issues. I now work as a Finance Manager for the San Francisco Human Services Agency, which provides safety net programs to low-income individuals and families. In my role, I ensure that the agency’s $900 million annual operating budget remains in balance. \n\nI look forward to using my unique perspective and experience to be a new voice for our North Berkeley community. Among my top priorities are housing, homelessness, public safety, transportation infrastructure, as well as parks and open space.\n\nSource: http://www.rashi2018.org/meetrashi/",
+          "committee_name": "Kesarwani for Berkeley City Council 2018",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": false,
+          "occupation": "Finance Manager, San Francisco Human Services Agency",
+          "party_affiliation": "Nonpartisan",
+          "filer_id": 1404224,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 12,
+          "name": "Kevin Corbett",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kevin-Corbett.png",
+          "website_url": "http://www.corbett4oakland.com/meet-kevin/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13235/candidate/130755?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Kevin",
+          "last_name": "Corbett",
+          "ballot_item": 4,
+          "office_election": 4,
+          "bio": "Kevin Corbett is a practicing attorney and has run his own law practice for the past 30 years. Corbett attended Bishop O'Dowd High School in Oakland and earned his Bachelor’s Degree and Juris Doctorate from Santa Clara University. He has worked as a Business Law Professor at Vista Community College and Holy Names University. \n\nSource: Candidate survey and http://www.corbett4oakland.com/",
+          "committee_name": "Kevin Corbett for Oakland City Council 2016, District 1",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Probate Attorney, Business Person and Community Volunteer",
+          "party_affiliation": "Democrat",
+          "filer_id": 1386081,
+          "supporting_money": {
+            "contributions_received": 42542.0,
+            "total_contributions": 42542.0,
+            "total_expenditures": 77186.88,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Committee": 350.0,
+              "Individual": 36100.0,
+              "Unitemized": 1642.0,
+              "Other (includes Businesses)": 4450.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 1400.0,
+              "Within Oakland": 22300.0,
+              "Within California": 17200.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 31671.74,
+              "Civic Donations": 18683.77,
+              "Office Expenses": 1498.61,
+              "Campaign Literature and Mailings": 7535.18,
+              "Postage, Delivery and Messenger Services": 12149.88,
+              "Professional Services (Legal, Accounting)": 5380.73
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 42542.0,
+          "total_contributions": 42542.0,
+          "total_expenditures": 77186.88,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 350.0,
+            "Individual": 36100.0,
+            "Unitemized": 1642.0,
+            "Other (includes Businesses)": 4450.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 31671.74,
+            "Civic Donations": 18683.77,
+            "Office Expenses": 1498.61,
+            "Campaign Literature and Mailings": 7535.18,
+            "Postage, Delivery and Messenger Services": 12149.88,
+            "Professional Services (Legal, Accounting)": 5380.73
+          }
+        },
+        {
+          "id": 13,
+          "name": "Dan Kalb",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
+          "website_url": "https://dankalb.net",
+          "twitter_url": "@dankalb",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13235/candidate/130756?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Dan",
+          "last_name": "Kalb",
+          "ballot_item": 4,
+          "office_election": 4,
+          "bio": "Dan Kalb was elected in 2013 to represent District 1 in Oakland City Council. Past roles Kalb has held include policy analyst, environmental, public interest, and social justice advocate, policy director, progressive reformer, and community service volunteer. Kalb serves as the City’s official representative on the StopWaste Board of Directors and is on the East Bay Jewish Community Relations Council Board of Directors. He was the California Policy Director with the Union of Concerned Scientists from 2003 to 2012. He received a Bachelor's of Science in Conservation of Natural Resources from UC Berkeley and a Masters of Public Administration from the University of San Francisco. \n\nSource: http://www.dankalb.net/",
+          "committee_name": "Re-Elect Dan Kalb Oakland City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, City Council member",
+          "party_affiliation": "Democrat",
+          "filer_id": 1382408,
+          "supporting_money": {
+            "contributions_received": 111576.66,
+            "total_contributions": 111576.66,
+            "total_expenditures": 147916.91,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 2750.0,
+            "contributions_by_type": {
+              "Committee": 11350.0,
+              "Individual": 78927.0,
+              "Unitemized": 9742.66,
+              "Self Funding": 200.0,
+              "Other (includes Businesses)": 11357.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 4145.0,
+              "Within Oakland": 45987.0,
+              "Within California": 51702.0
+            },
+            "expenditures_by_type": {
+              "Print Ads": 655.0,
+              "Not Stated": 1816.93,
+              "Contribution": 820.0,
+              "Civic Donations": 1650.0,
+              "Fundraising Events": 12500.23,
+              "Campaign Consultants": 37769.07,
+              "Meetings and Appearances": 200.0,
+              "Campaign Workers' Salaries": 3500.0,
+              "Campaign Paraphernalia/Misc.": 22732.32,
+              "Campaign Literature and Mailings": 36770.03,
+              "Professional Services (Legal, Accounting)": 10745.0,
+              "Information Technology Costs (Internet, E-mail)": 4226.01,
+              "Independent Expenditure Supporting/Opposing Others": 400.0,
+              "Transfer Between Committees of the Same Candidate/sponsor": 13500.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": 12417.0,
+            "opposing_by_type": {
+              "Design of mailer in opposition of Dan Kalb.": 1650.0,
+              "Printing of mailer in opposition to Dan Kalb": 2917.0,
+              "Mailing and Postage in opposition to Dan Kalb": 7850.0
+            }
+          },
+          "contributions_received": 111576.66,
+          "total_contributions": 111576.66,
+          "total_expenditures": 147916.91,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 11350.0,
+            "Individual": 78927.0,
+            "Unitemized": 9742.66,
+            "Self Funding": 200.0,
+            "Other (includes Businesses)": 11357.0
+          },
+          "expenditures_by_type": {
+            "Print Ads": 655.0,
+            "Not Stated": 1816.93,
+            "Contribution": 820.0,
+            "Civic Donations": 1650.0,
+            "Fundraising Events": 12500.23,
+            "Campaign Consultants": 37769.07,
+            "Meetings and Appearances": 200.0,
+            "Campaign Workers' Salaries": 3500.0,
+            "Campaign Paraphernalia/Misc.": 22732.32,
+            "Campaign Literature and Mailings": 36770.03,
+            "Professional Services (Legal, Accounting)": 10745.0,
+            "Information Technology Costs (Internet, E-mail)": 4226.01,
+            "Independent Expenditure Supporting/Opposing Others": 400.0,
+            "Transfer Between Committees of the Same Candidate/sponsor": 13500.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "contest_type": "Office",
+      "name": "City Council District 3",
+      "candidates": [
+        {
+          "id": 14,
+          "name": "Lynette Gibson McElhaney",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lynette-Gibson-McElhaney.png",
+          "website_url": "http://www.lynettemcelhaney.com/",
+          "twitter_url": "@lynettegm",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130757?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Lynette",
+          "last_name": "Gibson McElhaney",
+          "ballot_item": 7,
+          "office_election": 7,
+          "bio": "Lynnette McElhaney currently serves as an Oakland City Council member representing District 3 and has advocated for the betterment of Oakland in terms of enhancing jobs, public safety, education and the economy. She earned a degree from UC Berkeley and moved to West Oakland after graduating college. \n\nSource: http://www.lynettemcelhaney.com/",
+          "committee_name": "Re-Elect McElhaney for City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, City Council member",
+          "party_affiliation": "Democrat",
+          "filer_id": 1375179,
+          "supporting_money": {
+            "contributions_received": 126756.69,
+            "total_contributions": 126756.69,
+            "total_expenditures": 134875.99,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 3150.0,
+            "contributions_by_type": {
+              "Committee": 15850.0,
+              "Individual": 80872.77,
+              "Unitemized": 3233.92,
+              "Other (includes Businesses)": 26800.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 2000.0,
+              "Within Oakland": 51461.79,
+              "Within California": 70060.98
+            },
+            "expenditures_by_type": {
+              "Print Ads": 1000.0,
+              "Not Stated": 17406.96,
+              "Contribution": 750.0,
+              "Civic Donations": 5300.0,
+              "Office Expenses": 7348.9,
+              "Fundraising Events": 920.48,
+              "Campaign Consultants": 29000.0,
+              "Meetings and Appearances": 2016.19,
+              "Campaign Paraphernalia/Misc.": 3891.01,
+              "Candidate Filing/Ballot Fees": 250.0,
+              "Campaign Literature and Mailings": 37361.74,
+              "Candidate Travel, Lodging, and Meals": 91.39,
+              "Professional Services (Legal, Accounting)": 21335.45,
+              "Information Technology Costs (Internet, E-mail)": 4228.5
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 126756.69,
+          "total_contributions": 126756.69,
+          "total_expenditures": 134875.99,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 15850.0,
+            "Individual": 80872.77,
+            "Unitemized": 3233.92,
+            "Other (includes Businesses)": 26800.0
+          },
+          "expenditures_by_type": {
+            "Print Ads": 1000.0,
+            "Not Stated": 17406.96,
+            "Contribution": 750.0,
+            "Civic Donations": 5300.0,
+            "Office Expenses": 7348.9,
+            "Fundraising Events": 920.48,
+            "Campaign Consultants": 29000.0,
+            "Meetings and Appearances": 2016.19,
+            "Campaign Paraphernalia/Misc.": 3891.01,
+            "Candidate Filing/Ballot Fees": 250.0,
+            "Campaign Literature and Mailings": 37361.74,
+            "Candidate Travel, Lodging, and Meals": 91.39,
+            "Professional Services (Legal, Accounting)": 21335.45,
+            "Information Technology Costs (Internet, E-mail)": 4228.5
+          }
+        },
+        {
+          "id": 15,
+          "name": "Noni Session",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noni-Session2.png",
+          "website_url": "http://www.nonifordistrict3.com/",
+          "twitter_url": "@NoniSession",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13236/candidate/130758?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Noni",
+          "last_name": "Session",
+          "ballot_item": 7,
+          "office_election": 7,
+          "bio": "Noni Session is a lifelong resident of Oakland and attended Oakland public schools. Session served as a special education teacher at Harbor Way Academy Elementary School. She graduated with a degree in Cultural Anthropology and African American Studies from San Francisco State University and received her Ph.D. in Cultural Anthropology from Cornell University. Session’s doctoral research in Nairobi, Kenya on Bureaucratic Organizations \u0026 Humanitarianism led her to work with the United Nations Development Programme as a Researcher and Government Liaison. \n\nSource: https://www.crowdpac.com/campaigns/68285/support-noni-session-for-oakland-city-council-distict-3",
+          "committee_name": "Noni D. Session for City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Assistant Librarian",
+          "party_affiliation": "Democrat",
+          "filer_id": 1386922,
+          "supporting_money": {
+            "contributions_received": 10634.0,
+            "total_contributions": 10634.0,
+            "total_expenditures": 9611.19,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 700.0,
+            "contributions_by_type": {
+              "Individual": 7110.0,
+              "Unitemized": 1424.0,
+              "Other (includes Businesses)": 2100.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 850.0,
+              "Within Oakland": 6500.0,
+              "Within California": 1860.0
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 359.71,
+              "Fundraising Events": 381.2,
+              "Campaign Consultants": 1375.0,
+              "Campaign Workers' Salaries": 1144.0,
+              "Campaign Paraphernalia/Misc.": 195.0,
+              "Candidate Filing/Ballot Fees": 300.0,
+              "Campaign Literature and Mailings": 3399.31,
+              "Information Technology Costs (Internet, E-mail)": 387.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 10634.0,
+          "total_contributions": 10634.0,
+          "total_expenditures": 9611.19,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 7110.0,
+            "Unitemized": 1424.0,
+            "Other (includes Businesses)": 2100.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 359.71,
+            "Fundraising Events": 381.2,
+            "Campaign Consultants": 1375.0,
+            "Campaign Workers' Salaries": 1144.0,
+            "Campaign Paraphernalia/Misc.": 195.0,
+            "Candidate Filing/Ballot Fees": 300.0,
+            "Campaign Literature and Mailings": 3399.31,
+            "Information Technology Costs (Internet, E-mail)": 387.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "contest_type": "Office",
+      "name": "City Council District 5",
+      "candidates": [
+        {
+          "id": 16,
+          "name": "Noel Gallo",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
+          "website_url": "http://galloforoakland.com/",
+          "twitter_url": "@noelgallo5",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130759?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Noel",
+          "last_name": "Gallo",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": "Noel Gallo was elected to the Oakland City Council in 2012 to represent District 5. He serves as Co-Chair of the Oakland City Council Education Partnership Committee, and a member of the Life Enrichment, Public Works, and Public Safety City Council Committees. He represents the City of Oakland as a member of the AC Transit Bus Rapid Transit (BRT) Policy Steering Committee. Prior to joining the council, Gallo was elected and served on the Oakland Board of Education for 20 years. \nGallo is a lifelong resident of Oakland; he grew up in the Fruitvale/San Antonio District neighborhoods. He graduated from the University of California, Berkeley, with a Business Degree. \nSource: Candidate statement and website",
+          "committee_name": "ReElect Noel Gallo for Oakland City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Incumbent, City Council member",
+          "party_affiliation": "Democrat",
+          "filer_id": 1388641,
+          "supporting_money": {
+            "contributions_received": 80100.69,
+            "total_contributions": 80100.69,
+            "total_expenditures": 87107.1,
+            "total_loans_received": 10000.0,
+            "total_supporting_independent": 700.0,
+            "contributions_by_type": {
+              "Committee": 9200.0,
+              "Individual": 22350.0,
+              "Unitemized": 919.0,
+              "Other (includes Businesses)": 37631.69
+            },
+            "contributions_by_origin": {
+              "Out of State": 1400.0,
+              "Within Oakland": 51081.69,
+              "Within California": 16700.0
+            },
+            "expenditures_by_type": {
+              "Print Ads": 500.0,
+              "Not Stated": 10826.1,
+              "Contribution": 550.0,
+              "Civic Donations": 860.36,
+              "Office Expenses": 3595.76,
+              "Fundraising Events": 656.55,
+              "Campaign Workers' Salaries": 3000.0,
+              "Campaign Paraphernalia/Misc.": 8404.06,
+              "Candidate Filing/Ballot Fees": 300.0,
+              "Campaign Literature and Mailings": 36593.49,
+              "Professional Services (Legal, Accounting)": 21788.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": 40013.0,
+            "opposing_by_type": {
+              "Postage": 4714.0,
+              "Mailer Design": 1650.0,
+              "Mailer Printing": 2438.0,
+              "Mailhouse \u0026 Postage": 3699.0,
+              "Digital Ad in opposition to Noel Gallo": 9250.0,
+              "Design of mailer in opposition to Noel Gallo": 3300.0,
+              "Design of mailer in opposition of Noel Gallo.": 1650.0,
+              "Printing of mailer in opposition to Noel Gallo": 5914.0,
+              "Mailing and Postage in opposition to Noel Gallo": 7398.0
+            }
+          },
+          "contributions_received": 80100.69,
+          "total_contributions": 80100.69,
+          "total_expenditures": 87107.1,
+          "total_loans_received": 10000.0,
+          "contributions_by_type": {
+            "Committee": 9200.0,
+            "Individual": 22350.0,
+            "Unitemized": 919.0,
+            "Other (includes Businesses)": 37631.69
+          },
+          "expenditures_by_type": {
+            "Print Ads": 500.0,
+            "Not Stated": 10826.1,
+            "Contribution": 550.0,
+            "Civic Donations": 860.36,
+            "Office Expenses": 3595.76,
+            "Fundraising Events": 656.55,
+            "Campaign Workers' Salaries": 3000.0,
+            "Campaign Paraphernalia/Misc.": 8404.06,
+            "Candidate Filing/Ballot Fees": 300.0,
+            "Campaign Literature and Mailings": 36593.49,
+            "Professional Services (Legal, Accounting)": 21788.0
+          }
+        },
+        {
+          "id": 17,
+          "name": "Viola Gonzales",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Viola-Gonzales.png",
+          "website_url": "http://www.voteviola.com/",
+          "twitter_url": "@voteviola",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130760?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Viola",
+          "last_name": "Gonzales",
+          "ballot_item": 10,
+          "office_election": 10,
+          "bio": "Viola Gonzales was the Chief Executive Officer of AnewAmerica Community Corporation, a non-profit that helps immigrants and refugees start small and micro-businesses. Gonzales has been Executive Director for a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Her volunteer service has included corporate advisory, nonprofit and civic boards. In 2002, Gonzales was appointed to the Oakland Board of Education by then-Mayor Jerry Brown. Prior to this appointment, she served on the Oakland Planning Commission. \n\nSource: http://www.anewamerica.org/index.php/news/events/173-changes-in-leadership-at-anewamerica , https://www.linkedin.com/in/violagonzales , http://boedocdepot.ousd.k12.ca.us/boe-webextender/bextest/ViolaGonzales.asp , and candidate survey",
+          "committee_name": "Viola Gonzales for City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Nonprofit Executive",
+          "party_affiliation": "Democrat",
+          "filer_id": 1387192,
+          "supporting_money": {
+            "contributions_received": 69742.41,
+            "total_contributions": 69742.41,
+            "total_expenditures": 69842.41,
+            "total_loans_received": 6899.83,
+            "total_supporting_independent": 1400.0,
+            "contributions_by_type": {
+              "Committee": 4700.0,
+              "Individual": 43517.84,
+              "Unitemized": 2524.57,
+              "Self Funding": 8800.17,
+              "Other (includes Businesses)": 3300.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 2422.35,
+              "Within Oakland": 32801.33,
+              "Within California": 25094.33
+            },
+            "expenditures_by_type": {
+              "Not Stated": 5350.76,
+              "Campaign Consultants": 18667.55,
+              "Meetings and Appearances": 529.0,
+              "Campaign Paraphernalia/Misc.": 3884.37,
+              "Campaign Literature and Mailings": 33656.76,
+              "Professional Services (Legal, Accounting)": 4504.52,
+              "Information Technology Costs (Internet, E-mail)": 3150.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 69742.41,
+          "total_contributions": 69742.41,
+          "total_expenditures": 69842.41,
+          "total_loans_received": 6899.83,
+          "contributions_by_type": {
+            "Committee": 4700.0,
+            "Individual": 43517.84,
+            "Unitemized": 2524.57,
+            "Self Funding": 8800.17,
+            "Other (includes Businesses)": 3300.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 5350.76,
+            "Campaign Consultants": 18667.55,
+            "Meetings and Appearances": 529.0,
+            "Campaign Paraphernalia/Misc.": 3884.37,
+            "Campaign Literature and Mailings": 33656.76,
+            "Professional Services (Legal, Accounting)": 4504.52,
+            "Information Technology Costs (Internet, E-mail)": 3150.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "contest_type": "Office",
+      "name": "City Council District 7",
+      "candidates": [
+        {
+          "id": 19,
+          "name": "Marcie Hodge",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
+          "website_url": "http://hodge4oaklandcitycouncil.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130761?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Marcie",
+          "last_name": "Hodge",
+          "ballot_item": 12,
+          "office_election": 12,
+          "bio": "Marcie Hodge is the Executive Director for SJBH, Inc. (St. John Boys Home, Inc.(?)), a non-profit residential program for developmentally disabled kids based in Oakland for the past eight years. Hodge served two terms as a trustee on the Peralta Community College Board from 2004–12, Oakland Budget Committee, and other education-focused committees. Hodge holds two master’s degrees in Counseling Psychology and Organizational Psychology from Alliant International University-Fresno. Hodge ran for mayor of Oakland in 2010. \n\nSource: https://www.linkedin.com/in/marcie-hodge-ba17b2b and candidate website",
+          "committee_name": "Hodge 4 Oakland City Council 2016",
+          "is_accepted_expenditure_ceiling": false,
+          "is_incumbent": false,
+          "occupation": "Non-profit Executive Director",
+          "party_affiliation": "Democrat",
+          "filer_id": 1388731,
+          "supporting_money": {
+            "contributions_received": 20349.0,
+            "total_contributions": 20349.0,
+            "total_expenditures": 16624.17,
+            "total_loans_received": 19857.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Unitemized": 442.0,
+              "Self Funding": 50.0
+            },
+            "contributions_by_origin": {
+              "Within Oakland": 50.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 435.74,
+              "Campaign Paraphernalia/Misc.": 13557.03,
+              "Professional Services (Legal, Accounting)": 850.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 20349.0,
+          "total_contributions": 20349.0,
+          "total_expenditures": 16624.17,
+          "total_loans_received": 19857.0,
+          "contributions_by_type": {
+            "Unitemized": 442.0,
+            "Self Funding": 50.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 435.74,
+            "Campaign Paraphernalia/Misc.": 13557.03,
+            "Professional Services (Legal, Accounting)": 850.0
+          }
+        },
+        {
+          "id": 20,
+          "name": "Nehanda Imara",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Nehanda_Imara.png",
+          "website_url": "http://www.nehandafordistrict7.com/",
+          "twitter_url": "@NehandaForD7",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130762?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Nehanda",
+          "last_name": "Imara",
+          "ballot_item": 12,
+          "office_election": 12,
+          "bio": "Nehanda Imara is an Oakland resident, organizer, educator and adjunct teacher for African American and Environmental Studies at Merritt College. She is a Community Organizer for Communities for a Better Environment. She is a member of the Board of Directors of Leadership Excellence, a non-profit African American youth organization in Oakland and member of the East Oakland Building Healthy Community initiative. Imara also serves as Co-coordinator of Merritt’s “Black Consciousness Raising Tours of Africa and the African Diaspora.  \n\nSource: http://www.cbecal.org/about/staff/",
+          "committee_name": "Nehanda Imara for City Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "East Oakland Community Organizer",
+          "party_affiliation": null,
+          "filer_id": 1386932,
+          "supporting_money": {
+            "contributions_received": 27941.0,
+            "total_contributions": 27941.0,
+            "total_expenditures": 35137.46,
+            "total_loans_received": 6500.0,
+            "total_supporting_independent": 1500.0,
+            "contributions_by_type": {
+              "Committee": 1700.0,
+              "Individual": 16550.0,
+              "Unitemized": 3191.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 300.0,
+              "Within Oakland": 12450.0,
+              "Within California": 5500.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 700.0,
+              "Phone Banks": 1659.63,
+              "Office Expenses": 2307.9,
+              "Campaign Consultants": 6500.0,
+              "Campaign Paraphernalia/Misc.": 2680.47,
+              "Campaign Literature and Mailings": 7287.36,
+              "Postage, Delivery and Messenger Services": 3818.95,
+              "Professional Services (Legal, Accounting)": 3147.37
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 27941.0,
+          "total_contributions": 27941.0,
+          "total_expenditures": 35137.46,
+          "total_loans_received": 6500.0,
+          "contributions_by_type": {
+            "Committee": 1700.0,
+            "Individual": 16550.0,
+            "Unitemized": 3191.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 700.0,
+            "Phone Banks": 1659.63,
+            "Office Expenses": 2307.9,
+            "Campaign Consultants": 6500.0,
+            "Campaign Paraphernalia/Misc.": 2680.47,
+            "Campaign Literature and Mailings": 7287.36,
+            "Postage, Delivery and Messenger Services": 3818.95,
+            "Professional Services (Legal, Accounting)": 3147.37
+          }
+        },
+        {
+          "id": 21,
+          "name": "Larry Reid",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/larry-reid.png",
+          "website_url": "https://www.facebook.com/LarryReid4District7/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13238/candidate/130763?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Larry",
+          "last_name": "Reid",
+          "ballot_item": 12,
+          "office_election": 12,
+          "bio": "Larry Reid has been a Councilmember for District 7 since 1997. Reid is a member of the Public Works and Rules and Legislation Committees for the City of Oakland and is Chairman of the Community and Economic Development Committee. Reid served as Chief of Staff for former Oakland City Councilmember Aleta Cannon and former Mayor and Assemblymember Elihu Harris. He was born and raised in Cincinnati, Ohio and attended the University of Cincinnati. \n\nSource: http://www2.oaklandnet.com/government/o/CityCouncil/o/District7/index.htm and http://www2.oaklandnet.com/government/o/CityCouncil/o/District7/a/Profile/index.htm",
+          "committee_name": "Re-Elect Larry Reid for Council 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "Councilmember for District 7",
+          "party_affiliation": null,
+          "filer_id": 1387905,
+          "supporting_money": {
+            "contributions_received": 73352.51,
+            "total_contributions": 73352.51,
+            "total_expenditures": 76660.71,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 2630.0,
+            "contributions_by_type": {
+              "Committee": 8330.0,
+              "Individual": 48550.0,
+              "Unitemized": 546.0,
+              "Self Funding": 376.51,
+              "Other (includes Businesses)": 15550.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 7000.0,
+              "Within Oakland": 20056.51,
+              "Within California": 45750.0
+            },
+            "expenditures_by_type": {
+              "Print Ads": 1000.0,
+              "Not Stated": 4698.42,
+              "Office Expenses": 1475.2,
+              "Fundraising Events": 315.92,
+              "Campaign Consultants": 15000.0,
+              "Meetings and Appearances": 1200.0,
+              "Campaign Paraphernalia/Misc.": 6588.1,
+              "Campaign Literature and Mailings": 29019.99,
+              "Staff/Spouse Travel, Lodging, and Meals": 202.76,
+              "Professional Services (Legal, Accounting)": 10248.12,
+              "Information Technology Costs (Internet, E-mail)": 2575.69
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 73352.51,
+          "total_contributions": 73352.51,
+          "total_expenditures": 76660.71,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 8330.0,
+            "Individual": 48550.0,
+            "Unitemized": 546.0,
+            "Self Funding": 376.51,
+            "Other (includes Businesses)": 15550.0
+          },
+          "expenditures_by_type": {
+            "Print Ads": 1000.0,
+            "Not Stated": 4698.42,
+            "Office Expenses": 1475.2,
+            "Fundraising Events": 315.92,
+            "Campaign Consultants": 15000.0,
+            "Meetings and Appearances": 1200.0,
+            "Campaign Paraphernalia/Misc.": 6588.1,
+            "Campaign Literature and Mailings": 29019.99,
+            "Staff/Spouse Travel, Lodging, and Meals": 202.76,
+            "Professional Services (Legal, Accounting)": 10248.12,
+            "Information Technology Costs (Internet, E-mail)": 2575.69
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "contest_type": "Office",
+      "name": "School Board District 1",
+      "candidates": [
+        {
+          "id": 22,
+          "name": "Donald Macleay",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Donald-Macleay1.png",
+          "website_url": "http://www.don4ousd.org/",
+          "twitter_url": "@donmacleay",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130694?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Donald",
+          "last_name": "Macleay",
+          "ballot_item": 19,
+          "office_election": 19,
+          "bio": "Don Macleay owns and runs East Bay Computer Services, a computer repair business in the Temescal district.  While running for office, Macleay is on leave from People United for a Better Life in Oakland, a youth advocacy organization where he serves as a board member. In 2010, Macleay ran for mayor in Oakland. \n\nSource: https://oaklandnorth.net/2012/10/29/greens-don-macleay-promotes-civilians-on-police-force-higher-minimum-wage/",
+          "committee_name": "Macleay for Oakland School Board, District 1, 2016",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": false,
+          "occupation": "Small business owner",
+          "party_affiliation": "Green Party",
+          "filer_id": 1384267,
+          "supporting_money": {
+            "contributions_received": 5219.5,
+            "total_contributions": 5219.5,
+            "total_expenditures": 7369.87,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Individual": 2630.0,
+              "Unitemized": 839.5,
+              "Other (includes Businesses)": 1750.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 500.0,
+              "Within Oakland": 3680.0,
+              "Within California": 200.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 809.02,
+              "Civic Donations": 261.86,
+              "Office Expenses": 1981.28,
+              "Fundraising Events": 147.81,
+              "Voter Registration": 156.15,
+              "Petition Circulating": 29.28,
+              "Meetings and Appearances": 24.86,
+              "Campaign Paraphernalia/Misc.": 1629.6,
+              "Candidate Filing/Ballot Fees": 440.0,
+              "Campaign Literature and Mailings": 541.33,
+              "Staff/Spouse Travel, Lodging, and Meals": 320.14,
+              "Professional Services (Legal, Accounting)": 372.42,
+              "Information Technology Costs (Internet, E-mail)": 100.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 5219.5,
+          "total_contributions": 5219.5,
+          "total_expenditures": 7369.87,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 2630.0,
+            "Unitemized": 839.5,
+            "Other (includes Businesses)": 1750.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 809.02,
+            "Civic Donations": 261.86,
+            "Office Expenses": 1981.28,
+            "Fundraising Events": 147.81,
+            "Voter Registration": 156.15,
+            "Petition Circulating": 29.28,
+            "Meetings and Appearances": 24.86,
+            "Campaign Paraphernalia/Misc.": 1629.6,
+            "Candidate Filing/Ballot Fees": 440.0,
+            "Campaign Literature and Mailings": 541.33,
+            "Staff/Spouse Travel, Lodging, and Meals": 320.14,
+            "Professional Services (Legal, Accounting)": 372.42,
+            "Information Technology Costs (Internet, E-mail)": 100.0
+          }
+        },
+        {
+          "id": 23,
+          "name": "Jody London",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Jody-London2.jpg.png",
+          "website_url": "http://www.votejody.com/",
+          "twitter_url": "@votejodylondon",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13216/candidate/130693?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Jody",
+          "last_name": "London",
+          "ballot_item": 19,
+          "office_election": 19,
+          "bio": "Jody London was elected to the Oakland School Board in 2009 to represent District 1. As a parent of two students who have attended Oakland Unified, London began working with the OUSD as a parent volunteer. Before being elected to the board, she chaired the Measure B bond campaign in 2006, served on the bond oversight committee, and led her neighborhood school community in designing and building a new school. London holds a Bachelor of Arts in English, with high honors, from UC Berkeley, and a Master's degreee in Public Administration from Columbia University. \n\nSource: Candidate statement and www.votejody.com",
+          "committee_name": "Friends of Jody London for Oakland School Board 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "School Board Director, and Sustainability Coordinator",
+          "party_affiliation": "Democrat",
+          "filer_id": 1303019,
+          "supporting_money": {
+            "contributions_received": 22344.0,
+            "total_contributions": 22344.0,
+            "total_expenditures": 23891.0,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 6620.73,
+            "contributions_by_type": {
+              "Committee": 500.0,
+              "Individual": 15485.0,
+              "Unitemized": 3759.0,
+              "Other (includes Businesses)": 2600.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 450.0,
+              "Within Oakland": 10975.0,
+              "Within California": 7160.0
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 248.2,
+              "Fundraising Events": 2338.58,
+              "Campaign Consultants": 1000.0,
+              "Meetings and Appearances": 437.32,
+              "Campaign Paraphernalia/Misc.": 3755.99,
+              "Candidate Filing/Ballot Fees": 300.0,
+              "Campaign Literature and Mailings": 15150.0
+            },
+            "supporting_by_type": {
+              "STAFF TIME": 1977.0,
+              "Campaign Literature and Mailings": 48.0,
+              "ESTIMATE OF STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 1905.0
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 22344.0,
+          "total_contributions": 22344.0,
+          "total_expenditures": 23891.0,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 500.0,
+            "Individual": 15485.0,
+            "Unitemized": 3759.0,
+            "Other (includes Businesses)": 2600.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 248.2,
+            "Fundraising Events": 2338.58,
+            "Campaign Consultants": 1000.0,
+            "Meetings and Appearances": 437.32,
+            "Campaign Paraphernalia/Misc.": 3755.99,
+            "Candidate Filing/Ballot Fees": 300.0,
+            "Campaign Literature and Mailings": 15150.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "contest_type": "Office",
+      "name": "School Board District 3",
+      "candidates": [
+        {
+          "id": 18,
+          "name": "Kharyshi Wiginton",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Kharyshi-Wiginton.png",
+          "website_url": "http://www.mskfordistrict3sb.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130698?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Kharyshi",
+          "last_name": "Wiginton",
+          "ballot_item": 20,
+          "office_election": 20,
+          "bio": "Kharyshi Wiginton is the Youth Leadership Coordinator at McClymonds Youth and Family Center has spent a decade doing education-related work in Oakland and currently holds a position at McClymonds High School. Wiginton graduated from the California Institute of Integral Studies in 2009. \n\nSource: https://www.facebook.com/kharyshi.wiginton, https://www.linkedin.com/in/kharyshi-wiginton-6a545b8, http://museumca.org/story/kharyshi-wiginton-youth-organizing-mcclymonds-high-school, and Candidate Statement",
+          "committee_name": "Kharyshi Wiginton for School Board 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Youth Leadership Coordinator",
+          "party_affiliation": null,
+          "filer_id": 1386929,
+          "supporting_money": {
+            "contributions_received": 5798.0,
+            "total_contributions": 5798.0,
+            "total_expenditures": 4886.23,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 6174.0,
+            "contributions_by_type": {
+              "Individual": 2590.0,
+              "Unitemized": 1093.0,
+              "Other (includes Businesses)": 2115.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 1905.0,
+              "Within Oakland": 2150.0,
+              "Within California": 650.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 180.0,
+              "Fundraising Events": 128.05,
+              "Meetings and Appearances": 114.67,
+              "Campaign Workers' Salaries": 150.0,
+              "Campaign Paraphernalia/Misc.": 870.17,
+              "Candidate Filing/Ballot Fees": 1140.0,
+              "Campaign Literature and Mailings": 1187.01,
+              "Professional Services (Legal, Accounting)": 500.0,
+              "Information Technology Costs (Internet, E-mail)": 381.89
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 5798.0,
+          "total_contributions": 5798.0,
+          "total_expenditures": 4886.23,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 2590.0,
+            "Unitemized": 1093.0,
+            "Other (includes Businesses)": 2115.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 180.0,
+            "Fundraising Events": 128.05,
+            "Meetings and Appearances": 114.67,
+            "Campaign Workers' Salaries": 150.0,
+            "Campaign Paraphernalia/Misc.": 870.17,
+            "Candidate Filing/Ballot Fees": 1140.0,
+            "Campaign Literature and Mailings": 1187.01,
+            "Professional Services (Legal, Accounting)": 500.0,
+            "Information Technology Costs (Internet, E-mail)": 381.89
+          }
+        },
+        {
+          "id": 24,
+          "name": "Jumoke Hinton Hodge",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Hinton-Hodge.png",
+          "website_url": "https://hintonhodge.nationbuilder.com/",
+          "twitter_url": "@hintonhodge4oak",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130695?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Jumoke",
+          "last_name": "Hinton Hodge",
+          "ballot_item": 20,
+          "office_election": 20,
+          "bio": "Jumoke Hinton-Hodge is running for re-election as District 3 representative for the Oakland Unified School Board of Education. Hinton-Hodge is the co-founder of the Parent Leadership and Engagement Academy Initiative (PLEA), a community-building project dedicated to the education and support of West Oakland parents and families. She received a Bachelor degree in Black Studies and English from Oberlin College. \n\nSource: http://www.ousd.org/directorhodge",
+          "committee_name": "Re-Elect Jumoke Hinton Hodge for Oakland School Board 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": true,
+          "occupation": "OUSD Councilmember",
+          "party_affiliation": null,
+          "filer_id": 1386416,
+          "supporting_money": {
+            "contributions_received": 25041.85,
+            "total_contributions": 25041.85,
+            "total_expenditures": 25486.04,
+            "total_loans_received": 7125.0,
+            "total_supporting_independent": 209719.03,
+            "contributions_by_type": {
+              "Committee": 1500.0,
+              "Individual": 15788.0,
+              "Unitemized": 628.85
+            },
+            "contributions_by_origin": {
+              "Out of State": 150.0,
+              "Within Oakland": 8238.0,
+              "Within California": 8900.0
+            },
+            "expenditures_by_type": {
+              "Phone Banks": 5354.94,
+              "Fundraising Events": 203.53,
+              "Campaign Consultants": 1815.0,
+              "Campaign Paraphernalia/Misc.": 8825.7,
+              "Campaign Literature and Mailings": 5458.08,
+              "Professional Services (Legal, Accounting)": 1200.0,
+              "Information Technology Costs (Internet, E-mail)": 2056.29
+            },
+            "supporting_by_type": {
+              "Print Ads": 2000.0,
+              "STAFF TIME": 15112.0,
+              "Phone Banks": 373.0,
+              "ESTIMATE OF LIT": 1800.0,
+              "CMP; SEE SCHEDULE G": 2702.0,
+              "ESTIMATE OF STAFF TIME": 7844.0,
+              "Campaign Paraphernalia/Misc.": 2702.0,
+              "Campaign Literature and Mailings": 77957.0,
+              "STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 6256.0,
+              "Information Technology Costs (Internet, E-mail)": 1050.0
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 25041.85,
+          "total_contributions": 25041.85,
+          "total_expenditures": 25486.04,
+          "total_loans_received": 7125.0,
+          "contributions_by_type": {
+            "Committee": 1500.0,
+            "Individual": 15788.0,
+            "Unitemized": 628.85
+          },
+          "expenditures_by_type": {
+            "Phone Banks": 5354.94,
+            "Fundraising Events": 203.53,
+            "Campaign Consultants": 1815.0,
+            "Campaign Paraphernalia/Misc.": 8825.7,
+            "Campaign Literature and Mailings": 5458.08,
+            "Professional Services (Legal, Accounting)": 1200.0,
+            "Information Technology Costs (Internet, E-mail)": 2056.29
+          }
+        },
+        {
+          "id": 25,
+          "name": "Benjamin Lang",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Ben-Lang.png",
+          "website_url": "http://www.benlang.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130696?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Benjamin",
+          "last_name": "Lang",
+          "ballot_item": 20,
+          "office_election": 20,
+          "bio": "Benjamin Lang has served as a both public school teacher and administrator for over two decades. Lang has been a resident of Oakland's District 3 for 42 years. He holds a Bachelor’s of Arts in Political Science, a Master’s of Arts in Political Theory, and a Master’s of Sciences in Educational Technologies.Lang has elected to not accept any contributions for his campaign.\n\nSource: http://www.benlang.com/index.html",
+          "committee_name": null,
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Retired Teacher and Administrator",
+          "party_affiliation": "Democrat",
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 28,
+          "name": "Lucky Narain",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Lucky-Narain.png",
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13217/candidate/130697?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Lucky",
+          "last_name": "Narain",
+          "ballot_item": 20,
+          "office_election": 20,
+          "bio": "Lucky Narain is currently an Associate Regional Public Affairs Director for the United States Department of Agriculture (USDA). He is a Oakland resident and father. For almost three years, Narain taught middle school in the Dominican Republic with the Peace Corps as a volunteer in 2001. He holds a Master’s Degree in Public Policy from Carnegie Mellon University and a law degree from Fordham Law School. Narain has served as a lawyer in the U.S. Army Reserve since 2010. \n\nSource: https://www.linkedin.com/in/lucky-narain-1a054b16 and Candidate Statement",
+          "committee_name": null,
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": false,
+          "occupation": "Associate Regional Public Affairs Director",
+          "party_affiliation": null,
+          "filer_id": null,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "contest_type": "Office",
+      "name": "School Board District 5",
+      "candidates": [
+        {
+          "id": 29,
+          "name": "Michael Hassid",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Michael-Hassid.png",
+          "website_url": "http://www.mikehassidforschoolboard.com/",
+          "twitter_url": "@michaelhassid",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130699?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Michael",
+          "last_name": "Hassid",
+          "ballot_item": 21,
+          "office_election": 21,
+          "bio": "Mike Hassid currently serves as Vice President of Finance and Operations at Exponent Partner Partners, a B-Corp and California Benefit Corporation providing strategic technology consulting to nonprofit organizations. Hassid also currently serves on the board of the Community School for Creative Education (CSCE) public school, where his son is a student and his daughter a future student. In the past, Hassid has served as Chief Financial Officer at both StudentsFirst, a national public education advocacy organization, and EnCorps STEM Teachers Program, a nonprofit that recruits professionals in science, technology, engineering and mathematics to become teachers in California public schools. Hassid has also served as Controller at both NewSchools Ventures Fund, a philanthropic firm that funds and supports education entrepreneurs, and at Common Sense Media, a national nonprofit focused on media literacy. Hassid has a Masters of Business Administration from the Masagung Graduate School of Management at The University of San Francisco and a Bachelor of Arts in Philosophy from University of California, Berkeley. He is a Bay Area native and currently lives in the Jingletown neighborhood of Oakland with my wife and two young children. \n\nSource:http://www.mikehassidforschoolboard.com/",
+          "committee_name": "Friends of Hassid for School Board Director 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "VP of Finance and Operations at Nonprofit Organization",
+          "party_affiliation": null,
+          "filer_id": 1388133,
+          "supporting_money": {
+            "contributions_received": 8546.0,
+            "total_contributions": 8546.0,
+            "total_expenditures": 8554.69,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+              "Individual": 6950.0,
+              "Unitemized": 896.0,
+              "Self Funding": 700.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 1500.0,
+              "Within Oakland": 1850.0,
+              "Within California": 4300.0
+            },
+            "expenditures_by_type": {
+              "Civic Donations": 4907.33,
+              "Office Expenses": 506.71,
+              "Campaign Consultants": 2500.0,
+              "Information Technology Costs (Internet, E-mail)": 265.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 8546.0,
+          "total_contributions": 8546.0,
+          "total_expenditures": 8554.69,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 6950.0,
+            "Unitemized": 896.0,
+            "Self Funding": 700.0
+          },
+          "expenditures_by_type": {
+            "Civic Donations": 4907.33,
+            "Office Expenses": 506.71,
+            "Campaign Consultants": 2500.0,
+            "Information Technology Costs (Internet, E-mail)": 265.0
+          }
+        },
+        {
+          "id": 30,
+          "name": "Michael Hutchinson",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Mike-Hutchinson.png",
+          "website_url": "https://mikehutchinsonforschoolboard.wordpress.com/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130700?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Michael",
+          "last_name": "Hutchinson",
+          "ballot_item": 21,
+          "office_election": 21,
+          "bio": "Mike Hutchinson has worked and volunteered in Oakland's public schools for the past twenty years and has run programs for non-profit organizations for the past nine years. Hutchinson is an Oakland resident who attended UC Berkeley.",
+          "committee_name": "Mike Hutchinson for School Board 2016",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": "Democrat",
+          "filer_id": 134896,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 31,
+          "name": "Roseann Torres",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Roseann-Torres.png",
+          "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
+          "twitter_url": "@roseann_torres",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130701?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Roseann",
+          "last_name": "Torres",
+          "ballot_item": 21,
+          "office_election": 21,
+          "bio": "Rosie Torres is running for re-election to represent District 5 for Oakland School Board. Torres was elected to represent Oakland’s District 5 schools in 2012. Torres holds a Bachelor’s Degree in Marketing from San Francisco State University and a Juris Doctorate from Albany Law School in Albany, New York.  \n\nSource: https://www.facebook.com/torresforschoolboard/home",
+          "committee_name": "Roseann Torres for Oakland School Board 2016",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": true,
+          "occupation": "Incumbent",
+          "party_affiliation": "Democrat",
+          "filer_id": 1379121,
+          "supporting_money": {
+            "contributions_received": 36273.01,
+            "total_contributions": 36273.01,
+            "total_expenditures": 47922.55,
+            "total_loans_received": 9250.0,
+            "total_supporting_independent": 12911.5,
+            "contributions_by_type": {
+              "Committee": 6500.0,
+              "Individual": 16225.01,
+              "Unitemized": 2798.0,
+              "Other (includes Businesses)": 1500.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 150.0,
+              "Within Oakland": 10950.0,
+              "Within California": 13125.01
+            },
+            "expenditures_by_type": {
+              "Not Stated": 3317.0,
+              "Contribution": 300.0,
+              "Office Expenses": 1736.74,
+              "Fundraising Events": 1243.86,
+              "Campaign Consultants": 8330.0,
+              "Campaign Paraphernalia/Misc.": 3538.03,
+              "Campaign Literature and Mailings": 4574.98,
+              "Postage, Delivery and Messenger Services": 740.46,
+              "Professional Services (Legal, Accounting)": 8500.24,
+              "Information Technology Costs (Internet, E-mail)": 400.0
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": 6988.0,
+            "opposing_by_type": {
+              "Campaign Literature and Mailings": 6988.0
+            }
+          },
+          "contributions_received": 36273.01,
+          "total_contributions": 36273.01,
+          "total_expenditures": 47922.55,
+          "total_loans_received": 9250.0,
+          "contributions_by_type": {
+            "Committee": 6500.0,
+            "Individual": 16225.01,
+            "Unitemized": 2798.0,
+            "Other (includes Businesses)": 1500.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 3317.0,
+            "Contribution": 300.0,
+            "Office Expenses": 1736.74,
+            "Fundraising Events": 1243.86,
+            "Campaign Consultants": 8330.0,
+            "Campaign Paraphernalia/Misc.": 3538.03,
+            "Campaign Literature and Mailings": 4574.98,
+            "Postage, Delivery and Messenger Services": 740.46,
+            "Professional Services (Legal, Accounting)": 8500.24,
+            "Information Technology Costs (Internet, E-mail)": 400.0
+          }
+        },
+        {
+          "id": 32,
+          "name": "Huber Trenado",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Huber-Trenado.png",
+          "website_url": "http://www.votetrenadoousd.com/",
+          "twitter_url": "@hubertrenado",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13218/candidate/130702?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Huber",
+          "last_name": "Trenado",
+          "ballot_item": 21,
+          "office_election": 21,
+          "bio": "Huber Trenado is a teacher, community leader, and Oakland native. Trenado has helped establish an Aim High program site to increase the quality of academic programs offered to students during the summer and implement common core standards in Oakland United School District classrooms. Trenado graduated from UC Berkeley. \n\nSource: http://www.votetrenadoousd.com/about",
+          "committee_name": "Huber Trenado for OUSD School Board 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Teacher",
+          "party_affiliation": "Democrat",
+          "filer_id": 1386749,
+          "supporting_money": {
+            "contributions_received": 21685.48,
+            "total_contributions": 21685.48,
+            "total_expenditures": 23562.66,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 202127.96,
+            "contributions_by_type": {
+              "Individual": 16163.31,
+              "Unitemized": 1798.0,
+              "Self Funding": 700.0,
+              "Other (includes Businesses)": 3000.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 2750.0,
+              "Within Oakland": 9550.0,
+              "Within California": 7563.31
+            },
+            "expenditures_by_type": {
+              "Office Expenses": 123.83,
+              "Fundraising Events": 126.9,
+              "Voter Registration": 1600.0,
+              "Campaign Consultants": 1500.0,
+              "Campaign Paraphernalia/Misc.": 4633.94,
+              "Candidate Filing/Ballot Fees": 300.0,
+              "Campaign Literature and Mailings": 10825.06,
+              "Professional Services (Legal, Accounting)": 2500.0,
+              "Information Technology Costs (Internet, E-mail)": 833.57
+            },
+            "supporting_by_type": {
+              "CANVASSING": 5000.0,
+              "STAFF TIME": 18880.0,
+              "Phone Banks": 360.0,
+              "ESTIMATE OF LIT": 8981.0,
+              "CMP; SEE SCHEDULE G": 2702.0,
+              "ESTIMATE OF STAFF TIME": 7100.0,
+              "Campaign Paraphernalia/Misc.": 2702.0,
+              "Campaign Literature and Mailings": 41137.0,
+              "STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 8427.0,
+              "Information Technology Costs (Internet, E-mail)": 6050.0
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 21685.48,
+          "total_contributions": 21685.48,
+          "total_expenditures": 23562.66,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Individual": 16163.31,
+            "Unitemized": 1798.0,
+            "Self Funding": 700.0,
+            "Other (includes Businesses)": 3000.0
+          },
+          "expenditures_by_type": {
+            "Office Expenses": 123.83,
+            "Fundraising Events": 126.9,
+            "Voter Registration": 1600.0,
+            "Campaign Consultants": 1500.0,
+            "Campaign Paraphernalia/Misc.": 4633.94,
+            "Candidate Filing/Ballot Fees": 300.0,
+            "Campaign Literature and Mailings": 10825.06,
+            "Professional Services (Legal, Accounting)": 2500.0,
+            "Information Technology Costs (Internet, E-mail)": 833.57
+          }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "contest_type": "Office",
+      "name": "School Board District 7",
+      "candidates": [
+        {
+          "id": 33,
+          "name": "James Harris",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/james-harris.png",
+          "website_url": "http://harrisforeastoakland.com/about-james/",
+          "twitter_url": null,
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13219/candidate/130703?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "James",
+          "last_name": "Harris",
+          "ballot_item": 22,
+          "office_election": 22,
+          "bio": "James Harris is the current Board of Education President, a business owner, parent, former teacher, and East Oakland native. Harris serves on the Aim High East Bay Leadership Council. He is a founding board member of Great Oakland Public Schools and a current board member at Youth Uprising. Harris’ career in education began at 16 as a teaching assistant at the Aim High Summer Program, which prepares children from low-income communities for success in high school and life. \n\nSource: http://harrisforeastoakland.com/",
+          "committee_name": "Re-Elect James Harris for School Board",
+          "is_accepted_expenditure_ceiling": null,
+          "is_incumbent": true,
+          "occupation": "Board of Education President; owns and operates media company in San Francisco",
+          "party_affiliation": null,
+          "filer_id": 1387803,
+          "supporting_money": {
+            "contributions_received": 27586.0,
+            "total_contributions": 27586.0,
+            "total_expenditures": 26950.43,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 284501.01,
+            "contributions_by_type": {
+              "Committee": 5700.0,
+              "Individual": 21536.0,
+              "Unitemized": 50.0,
+              "Self Funding": 300.0
+            },
+            "contributions_by_origin": {
+              "Out of State": 700.0,
+              "Within Oakland": 15535.0,
+              "Within California": 11301.0
+            },
+            "expenditures_by_type": {
+              "Print Ads": 13871.57,
+              "Phone Banks": 79.0,
+              "Office Expenses": 125.0,
+              "Fundraising Events": 300.8,
+              "Campaign Consultants": 5000.0,
+              "Campaign Paraphernalia/Misc.": 2443.7,
+              "Candidate Filing/Ballot Fees": 250.0,
+              "Professional Services (Legal, Accounting)": 4542.81
+            },
+            "supporting_by_type": {
+              "Print Ads": 2000.0,
+              "CANVASSING": 5000.0,
+              "STAFF TIME": 27904.0,
+              "Phone Banks": 759.0,
+              "ESTIMATE OF LIT": 7915.0,
+              "CMP; SEE SCHEDULE G": 2702.0,
+              "ESTIMATE OF STAFF TIME": 11278.0,
+              "Campaign Paraphernalia/Misc.": 2702.0,
+              "Campaign Literature and Mailings": 79635.0,
+              "STAFF TIME COVERING 11/1/16 THROUGH 11/8/16": 10414.0,
+              "Information Technology Costs (Internet, E-mail)": 8725.0
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": 27586.0,
+          "total_contributions": 27586.0,
+          "total_expenditures": 26950.43,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 5700.0,
+            "Individual": 21536.0,
+            "Unitemized": 50.0,
+            "Self Funding": 300.0
+          },
+          "expenditures_by_type": {
+            "Print Ads": 13871.57,
+            "Phone Banks": 79.0,
+            "Office Expenses": 125.0,
+            "Fundraising Events": 300.8,
+            "Campaign Consultants": 5000.0,
+            "Campaign Paraphernalia/Misc.": 2443.7,
+            "Candidate Filing/Ballot Fees": 250.0,
+            "Professional Services (Legal, Accounting)": 4542.81
+          }
+        },
+        {
+          "id": 34,
+          "name": "Chris Jackson",
+          "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/chris-jackson.png",
+          "website_url": "http://www.chrisjacksonforoakland.org/",
+          "twitter_url": "@cj4oakland",
+          "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13219/candidate/130704?\u0026county=Alameda%20County\u0026election_authority_id=1",
+          "first_name": "Chris",
+          "last_name": "Jackson",
+          "ballot_item": 22,
+          "office_election": 22,
+          "bio": "Chris Jackson is a social worker who works with the formerly incarcerated on parole or probation. He is a father of a kindergartener who is going into an OUSD school. \n\nSource: http://postnewsgroup.com/blog/2016/08/19/incumbents-run-four-seats-oakland-school-board/ and http://www.chrisjacksonforoakland.org/",
+          "committee_name": "Chris Jackson for School Board 2016",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Social Worker",
+          "party_affiliation": null,
+          "filer_id": 1384926,
+          "supporting_money": {
+            "contributions_received": 14562.0,
+            "total_contributions": 14562.0,
+            "total_expenditures": 35235.23,
+            "total_loans_received": 0.0,
+            "total_supporting_independent": 8824.0,
+            "contributions_by_type": {
+              "Committee": 5900.0,
+              "Individual": 5900.0,
+              "Unitemized": 2762.0
+            },
+            "contributions_by_origin": {
+              "Within Oakland": 6350.0,
+              "Within California": 5450.0
+            },
+            "expenditures_by_type": {
+              "Not Stated": 2033.0,
+              "Office Expenses": 1900.34,
+              "Campaign Consultants": 5150.0,
+              "Campaign Paraphernalia/Misc.": 1167.25,
+              "Campaign Literature and Mailings": 1054.74,
+              "Professional Services (Legal, Accounting)": 3020.47
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": 6988.0,
+            "opposing_by_type": {
+              "Campaign Literature and Mailings": 6988.0
+            }
+          },
+          "contributions_received": 14562.0,
+          "total_contributions": 14562.0,
+          "total_expenditures": 35235.23,
+          "total_loans_received": 0.0,
+          "contributions_by_type": {
+            "Committee": 5900.0,
+            "Individual": 5900.0,
+            "Unitemized": 2762.0
+          },
+          "expenditures_by_type": {
+            "Not Stated": 2033.0,
+            "Office Expenses": 1900.34,
+            "Campaign Consultants": 5150.0,
+            "Campaign Paraphernalia/Misc.": 1167.25,
+            "Campaign Literature and Mailings": 1054.74,
+            "Professional Services (Legal, Accounting)": 3020.47
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "contest_type": "Referendum",
+      "name": "Sugar-Sweetened BeverageTax",
+      "title": "Sugar-Sweetened BeverageTax",
+      "summary": "This measure would impose a tax on the distribution of Sugar-Sweetened Beverage Products in Oakland. Sugar-Sweetened beverages are defined as any beverage to which one or more Caloric Sweeteners have been added and that contain 25 or more calories per 12 fluid ounces of beverage. The tax would not be imposed on infant or baby formula, beverages for medical use, supplemental, meal replacement, or nutritional beverages, milk products, fruit or vegetable juices with no added sweeteners, or alcoholic beverages. The measure would require that any distributor of sugar-sweetened beverages register with the City and establish a Community Advisory Board. The Board would be responsible for making recommendations to the City Council on setting up or funding programs that prevent or reduce the health consequences of consuming sugar-sweetened beverages.",
+      "number": "HH"
+    },
+    {
+      "id": 4,
+      "contest_type": "Referendum",
+      "name": "Lease Term for City-Owned or City-Controlled Property",
+      "title": "Lease Term for City-Owned or City-Controlled Property",
+      "summary": "This measure would amend the Charter to increase the term the City Council can lease City-owned or City-controlled real property to a maximum of ninety-nine (99) years. The Oakland City Charter currently authorizes the City Council to lease real property owned or controlled by the City of Oakland for a maximum term of sixty-six (66) years. (City Charter Section 1001).",
+      "number": "II"
+    },
+    {
+      "id": 5,
+      "contest_type": "Referendum",
+      "name": "Just Cause for Eviction and Rent Adjustment",
+      "title": "Just Cause for Eviction and Rent Adjustment",
+      "summary": "This measure would: (1) extend the just cause eviction requirements to rental units constructed and approved for occupancy before December 31, 1995, if the units were newly constructed from the group and not created by rehabilitating, improving, or converting pre-existing commercial space or other residential rental space; (2) amend the Rent Ordinance to require that landlords obtain approval from the Rent Program before imposing any rent increases exceeding the Consumer Price Index. Without advance approval, landlords could not make tenants pay any rent increases noticed on or after February 1, 2017 exceeding the allowable adjustment. In addition the measure would require the City to provide an annual notice to residents that would include the amount of the allowable cost-of-living rent adjustment for the year while explaining how to get information for a rent increase.",
+      "number": "JJ"
+    },
+    {
+      "id": 6,
+      "contest_type": "Referendum",
+      "name": "Infrastructure and Housing bonds",
+      "title": "Infrastructure and Housing bonds",
+      "summary": "This measure would allow the City to borrow up to $600 million by issuing general obligation bonds. The bonds would be repaid with revenue from an “ad valorem” property tax. “Ad valorem” means according to the value of the property. The City would impose a tax based on the value of real property and improvements within the City to pay the principal and interest of the bonds. The City would use this money to build, buy, improve, and rehabilitate facilities and infrastructure and for affordable housing in Oakland. The projects financed by the bonds would be completed as needed according to City Council established priorities as set forth in the City’s Capital Improvement Plan.",
+      "number": "KK"
+    },
+    {
+      "id": 7,
+      "contest_type": "Referendum",
+      "name": "Police Commission",
+      "title": "Police Commission",
+      "summary": "This measure would establish a Police Commission consisting of seven regular and two alternate members. Commission members would be Oakland residents with no member permitted to be a police officer, current City employee, former Oakland police officer, or current or former official, employee or representative of a union that represents police officers. The first group of Commissioners would serve two, three, or four year terms. Later members would serve three-year terms with a two-term limit. The Commission would establish a Community Police Review Agency (“Agency”) which would receive and review complaints of police misconduct. The Agency would be required to investigate complaints involving use of force, in-custody deaths, profiling and public assemblies. After completing its investigation of a complaint, the Agency would submit its findings and proposed discipline to the Commission and Chief. In addition The Commission would review the OPD’s policies, procedures and General Orders while being able to propose changes and approve or reject the OPD’s changes to those policies. The majority of the Commission’s members would be independently appointed by a panel of Oakland residents with subpoena power and five commissioners could vote to fire the chief.",
+      "number": "LL"
+    },
+    {
+      "id": 8,
+      "contest_type": "Referendum",
+      "name": "Oakland School Bond",
+      "title": "Oakland School Bond",
+      "summary": "This measure will provide a districtwide educator salary increase designed to attract/retain teachers; provide enhanced middle school art, music, languages/other programs in addition to core educational programs; improve academic achievement; provide safe, positive schools, and prepare students for college/careers; shall Oakland Unified School District levy a tax of $120 per parcel, providing $12.4 million annually, for 12 years, with exemptions for senior and low income residents, no money for Sacramento, and all money benefitting Oakland students?",
+      "number": "G1"
+    }
+  ],
+  "date": "2016-11-08",
+  "locality_id": 2
+}
