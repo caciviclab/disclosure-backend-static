@@ -52,15 +52,20 @@ class ReferendumExpendituresByOrigin
     oppose = {}
 
     contributions.each do |row|
-      support[row['Measure_Number']] ||= {}
-      oppose[row['Measure_Number']] ||= {}
+      measure = row['Measure_Number']
+      support[measure] ||= {}
+      oppose[measure] ||= {}
 
       case row['Sup_Opp_Cd']
       when 'S', 'Support'
-        support[row['Measure_Number']][row['locale']] = row['total']
+        support[measure][row['locale']] = row['total']
       when 'O', 'Oppose'
-        oppose[row['Measure_Number']][row['locale']] = row['total']
+        oppose[measure][row['locale']] = row['total']
       end
+      election = @ballot_measures[measure.to_i].election_name
+      ContributionsByOrigin[election] ||= {}
+      ContributionsByOrigin[election][row['locale']] ||= 0
+      ContributionsByOrigin[election][row['locale']] += row['total']
     end
 
     [
