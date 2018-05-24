@@ -80,6 +80,10 @@ class ReferendumExpendituresByOrigin
           puts 'WARN: Could not find ballot measure: ' + measure.inspect
           next
         end
+        if locales[measure].nil?
+          puts 'WARN: No data for ' + total_name.inspect + ': ' + measure.inspect
+          next
+        end
 
         result = locales[measure].keys.map do |locale|
           amount = locales[measure][locale]

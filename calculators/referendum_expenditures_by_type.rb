@@ -78,6 +78,10 @@ class ReferendumExpendituresByType
           puts 'WARN: Could not find ballot measure: ' + measure.inspect
           next
         end
+        if by_type[measure].nil?
+          puts 'WARN: No data for ' + calculation_name.inspect + ': ' + measure.inspect
+          next
+        end
 
         result = by_type[measure].keys.map do |type|
           amount = by_type[measure][type]
