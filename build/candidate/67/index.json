@@ -21,7 +21,7 @@
     "total_contributions": 789257.14,
     "total_expenditures": 942014.38,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 64276.58,
+    "total_supporting_independent": 101414.58,
     "contributions_by_type": {
       "Committee": 13000.0,
       "Individual": 755002.96,
@@ -54,21 +54,33 @@
     },
     "supporting_by_type": {
       "Data": 102.0,
-      "Signs": 260.0,
+      "Signs": 784.0,
       "Billboard": 960.0,
-      "Doorhanger": 392.0,
+      "Postcards": 923.0,
+      "Print Ads": 3326.0,
+      "Doorhanger": 891.0,
+      "Online Ads": 488.0,
       "Walk Piece": 469.0,
+      "Newspaper Ad": 3487.0,
+      "Text Messages": 3530.0,
+      "Google Adwords": 750.0,
       "Postcard - ESTIMATE": 413.0,
       "Walkcard - ESTIMATE": 304.0,
+      "Newspaper Ads Design": 120.0,
       "Print Ads - Estimated": 6419.0,
-      "Newspaper Ad (ESTIMATE)": 407.0,
+      "Social Media Advertising": 2500.0,
       "Social Media Ads - ESTIMATE": 1500.0,
-      "Online Ads (Estimated Costs)": 43325.0
+      "Online Ads (Estimated Costs)": 54575.0,
+      "Radio Airtime and Production Costs": 2648.0,
+      "Information Technology Costs (Internet, E-mail)": 7500.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 101891.0,
     "opposing_by_type": {
+      "Mailer (Estimated Costs)": 26891.0,
+      "Website (Estimated Costs)": 2500.0,
+      "Online Ads (Estimated Costs)": 72500.0
     }
   },
   "contributions_received": 789257.14,

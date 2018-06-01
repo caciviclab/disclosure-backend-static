@@ -16,6 +16,9 @@ OaklandCandidate.select(:Office, :election_name).order(:Office, :election_name).
     .first_or_create
 end
 
+# Accumulate totals by orgin while processing Candidate and Referendums
+ContributionsByOrigin = {}
+
 # second, process the contribution data
 #   load calculators dynamically, assume each one defines a class given by its
 #   filename. E.g. calculators/foo_calculator.rb would define "FooCalculator"
@@ -148,6 +151,10 @@ OaklandReferendum.find_each do |referendum|
         referendum.calculation(:opposing_type) || [],
     ))
   end
+end
+
+build_file('/totals') do |f|
+  f.puts JSON.pretty_generate(ContributionsByOrigin)
 end
 
 build_file('/stats') do |f|
