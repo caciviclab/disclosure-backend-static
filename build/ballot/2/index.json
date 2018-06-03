@@ -1519,7 +1519,7 @@
             "total_contributions": 545499.29,
             "total_expenditures": 1006669.74,
             "total_loans_received": 0.0,
-            "total_supporting_independent": 269802.58,
+            "total_supporting_independent": 272786.58,
             "contributions_by_type": {
               "PTY": 496.52,
               "Committee": 6850.0,
@@ -1570,7 +1570,7 @@
               "Digital Ads": 3150.0,
               "Doorhangers": 993.0,
               "Email blast": 1853.0,
-              "Newspaper Ad": 26195.0,
+              "Newspaper Ad": 29179.0,
               "Window Signs": 1047.0,
               "Television Ad": 41300.0,
               "Civic Donations": 387.38,
@@ -1586,14 +1586,16 @@
             }
           },
           "opposing_money": {
-            "opposing_expenditures": 245249.0,
+            "opposing_expenditures": 266249.0,
             "opposing_by_type": {
               "Mailer (Estimated Costs)": 49632.0,
+              "Digital Ad (Estimated Costs)": 2000.0,
               "Online Ads (Estimated Costs)": 129500.0,
               "Campaign Literature and Mailings": 25063.0,
               "Bay Area Reporter Print Advertisement": 527.0,
               "San Francisco Media Co.Print Advertisement": 527.0,
-              "T.V. or Cable Airtime and Production Costs": 40000.0
+              "T.V. or Cable Airtime and Production Costs": 40000.0,
+              "Information Technology Costs (Internet, E-mail)": 19000.0
             }
           },
           "contributions_received": 545499.29,
@@ -1716,10 +1718,11 @@
             }
           },
           "opposing_money": {
-            "opposing_expenditures": 107945.0,
+            "opposing_expenditures": 109945.0,
             "opposing_by_type": {
               "Mailer (Estimated Costs)": 26891.0,
               "Website (Estimated Costs)": 2500.0,
+              "Digital Ad (Estimated Costs)": 2000.0,
               "Online Ads (Estimated Costs)": 77500.0,
               "Bay Area Reporter Print Advertisement": 527.0,
               "San Francisco Media Co.Print Advertisement": 527.0
