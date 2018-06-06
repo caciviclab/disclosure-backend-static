@@ -64,7 +64,7 @@ createdb:
 	./bin/clean $@
 	./bin/latest_only $@
 
-downloads/csv/oakland_candidates.csv: bin/auto-detect-candidates
+downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv downloads/raw
 	wget -q -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=0&single=true&output=csv' | \
