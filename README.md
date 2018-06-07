@@ -125,4 +125,15 @@ http://disclosure-backend-static.f.tdooner.com
 
 This means that unfortuately, only I can deploy it right now.
 
+
+## Data flow
+
+This is how the data flows through the back end. Finance data is pulled from
+Netfile which is supplemented by a Google Sheet mapping Filer Ids to ballot
+information like candidate names, offices, ballot measures, etc. Once data is
+filtered, aggregated, and transformed, the front end consumes it and builds the
+static HTML front end.
+
+<img alt="Diagram showing how finance data flows through different disclosure components" src="./docs/img/open-disclosure-data-flow.png" width="600" />
+
 [form_460]: http://www.fppc.ca.gov/content/dam/fppc/NS-Documents/TAD/Campaign%20Forms/460.pdf
