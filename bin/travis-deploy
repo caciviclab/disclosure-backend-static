@@ -21,6 +21,8 @@ This is an automated update by travis-ci at
     "https://tomdooner+disclosure-backend-static:$HEROKU_API_KEY@git.heroku.com/disclosure-backend-static.git" \
     HEAD:master -vvv 2>&1 \
     | sed -e "s/$HEROKU_API_KEY/[removed]/"
+
+  make upload-cache
 }
 
 if git diff --exit-code --quiet; then
