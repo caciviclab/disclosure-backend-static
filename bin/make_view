@@ -56,7 +56,8 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     AND "Ballot_Measure" IS NOT NULL
   UNION ALL
 
-  -- Get 24hr report expenditures. There is no S/O information!
+  -- Get 24hr report expenditures. Infers S/O information from "committees" tab
+  -- of spreadsheet.
   SELECT
     "497"."Filer_ID"::varchar,
     "497"."Filer_NamL",
