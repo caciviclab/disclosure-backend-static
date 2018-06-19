@@ -37,15 +37,15 @@ class ReferendumSupportersCalculator
       committee = committee_from_expenditure(row)
       bal_num = row['Measure_Number']
 
+      # TODO: track number of skips (#35)
+      next if bal_num == 'SKIP'
+
       unless bal_num
         $stderr.puts "COULD NOT FIND BALLOT MEASURE: #{row['Bal_Name'].inspect}"
-        $stderr.puts "  Add it to the Oakland Candidates spreadsheet"
+        $stderr.puts "  Add it to the 'Referendum Name to Number' sheet"
         $stderr.puts "  Debug: #{row.inspect}"
         next
       end
-
-      # TODO: track number of skips (#35)
-      next if bal_num == 'SKIP'
 
       if row['Sup_Opp_Cd'] == 'Unknown'
         # TODO: track number of guesses (#35)
