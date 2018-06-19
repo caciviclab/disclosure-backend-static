@@ -1,53 +1,53 @@
 {
   "id": 8,
   "contest_type": "Referendum",
-  "name": "Oakland School Bond",
-  "title": "Oakland School Bond",
-  "summary": "This measure will provide a districtwide educator salary increase designed to attract/retain teachers; provide enhanced middle school art, music, languages/other programs in addition to core educational programs; improve academic achievement; provide safe, positive schools, and prepare students for college/careers; shall Oakland Unified School District levy a tax of $120 per parcel, providing $12.4 million annually, for 12 years, with exemptions for senior and low income residents, no money for Sacramento, and all money benefitting Oakland students?",
-  "number": "G1",
+  "name": "Police Commission",
+  "title": "Police Commission",
+  "summary": "This measure would establish a Police Commission consisting of seven regular and two alternate members. Commission members would be Oakland residents with no member permitted to be a police officer, current City employee, former Oakland police officer, or current or former official, employee or representative of a union that represents police officers. The first group of Commissioners would serve two, three, or four year terms. Later members would serve three-year terms with a two-term limit. The Commission would establish a Community Police Review Agency (“Agency”) which would receive and review complaints of police misconduct. The Agency would be required to investigate complaints involving use of force, in-custody deaths, profiling and public assemblies. After completing its investigation of a complaint, the Agency would submit its findings and proposed discipline to the Commission and Chief. In addition The Commission would review the OPD’s policies, procedures and General Orders while being able to propose changes and approve or reject the OPD’s changes to those policies. The majority of the Commission’s members would be independently appointed by a panel of Oakland residents with subpoena power and five commissioners could vote to fire the chief.",
+  "number": "LL",
   "supporting_organizations": [
     {
-      "id": "1331137",
-      "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
-      "payee": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
-      "amount": 9928.0
-    },
-    {
-      "id": "960997",
-      "name": "Friends of Oakland Public Schools Yes on G1 2016",
-      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
-      "amount": 32926.02
-    },
-    {
-      "id": "1391632",
-      "name": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
-      "payee": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
-      "amount": 15018.45
+      "id": "1386145",
+      "name": "Coalition for Police Accountability Yes on LL",
+      "payee": "Coalition for Police Accountability Yes on LL",
+      "amount": 28892.390000000003
     }
   ],
-  "total_contributions": 257500.0,
+  "total_contributions": 28888.81,
   "contributions_by_region": [
     {
-      "amount": 148000.0,
+      "amount": 1425.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 11544.0,
       "locale": "Within California"
     },
     {
-      "amount": 109500.0,
+      "amount": 15436.5,
       "locale": "Within Oakland"
+    },
+    {
+      "amount": 483.3100000000013,
+      "locale": "Unknown"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 149000.0
+      "amount": 9250.0
     },
     {
       "type": "Individual",
-      "amount": 10500.0
+      "amount": 17355.5
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 98000.0
+      "amount": 1800.0
+    },
+    {
+      "type": "COM",
+      "amount": 483.3100000000013
     }
   ]
 }

@@ -1,20 +1,55 @@
 {
   "id": 24,
   "contest_type": "Referendum",
-  "name": "PROPOSITION E",
-  "title": "PROPOSITION E",
+  "name": "Parcel Tax for San Francisco Unified School District",
+  "title": "Parcel Tax for San Francisco Unified School District",
   "summary": null,
-  "number": null,
+  "number": "G",
   "supporting_organizations": [
-
+    {
+      "id": null,
+      "name": "Living Wage for Educators Committee with support from United Educators of San Francisco and major funding from Phil Halperin",
+      "payee": "Living Wage for Educators Committee with support from United Educators of San Francisco and major funding from Phil Halperin",
+      "amount": 1694039.59
+    },
+    {
+      "id": "1381519",
+      "name": "Progress San Francisco",
+      "payee": "Progress San Francisco",
+      "amount": 430512.97
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 2070659.75,
   "contributions_by_region": [
-
+    {
+      "amount": 542500.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 503500.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 1024659.75,
+      "locale": "Unknown"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 10000.0
+    },
+    {
+      "type": "Individual",
+      "amount": 884000.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 152000.0
+    },
+    {
+      "type": "COM",
+      "amount": 1024659.75
+    }
   ]
 }

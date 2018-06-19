@@ -1,12 +1,17 @@
 {
   "id": 21,
   "contest_type": "Referendum",
-  "name": "Public Health & Safety Bond Issue, Measure A",
-  "title": "Public Health & Safety Bond Issue, Measure A",
+  "name": "Placeholder for a combination of C and D",
+  "title": "Placeholder for a combination of C and D",
   "summary": null,
-  "number": null,
+  "number": "C+D",
   "opposing_organizations": [
-
+    {
+      "id": null,
+      "name": "BUILDING OWNERS AND MANAGERS ASSOCIATION (BOMA) INTERNATIONAL INDUSTRY DEFENSE FUND, OPPOSING PROPOSITIONS C & D (NONPROFIT 501(C)(6))",
+      "payee": "BUILDING OWNERS AND MANAGERS ASSOCIATION (BOMA) INTERNATIONAL INDUSTRY DEFENSE FUND, OPPOSING PROPOSITIONS C & D (NONPROFIT 501(C)(6))",
+      "amount": 150000.0
+    }
   ],
   "total_contributions": [
 

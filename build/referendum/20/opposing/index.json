@@ -1,20 +1,45 @@
 {
   "id": 20,
   "contest_type": "Referendum",
-  "name": "Requires San Francisco government to assume responsibility for street tree tree maintenance, sidewalk damage, and related liability and establishes a long-term dedicated funding source to do so.",
-  "title": "Requires San Francisco government to assume responsibility for street tree tree maintenance, sidewalk damage, and related liability and establishes a long-term dedicated funding source to do so.",
+  "name": "Additional tax on Commercial Rents to Fund Childcare & Education",
+  "title": "Additional tax on Commercial Rents to Fund Childcare & Education",
   "summary": null,
-  "number": null,
+  "number": "C",
   "opposing_organizations": [
-
+    {
+      "id": "931558",
+      "name": "Edwin M. Lee Democratic Club Political Action Committee",
+      "payee": "Edwin M. Lee Democratic Club Political Action Committee",
+      "amount": 93083.55
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 156725.0,
   "contributions_by_region": [
-
+    {
+      "amount": 55000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 101425.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 300.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 4350.0
+    },
+    {
+      "type": "Individual",
+      "amount": 70375.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 82000.0
+    }
   ]
 }

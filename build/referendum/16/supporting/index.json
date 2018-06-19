@@ -1,20 +1,47 @@
 {
   "id": 16,
   "contest_type": "Referendum",
-  "name": "Additional Tax on Commercial Rents Mostly to Fund Housing and Homelessness Services",
-  "title": "Additional Tax on Commercial Rents Mostly to Fund Housing and Homelessness Services",
+  "name": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
+  "title": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
   "summary": null,
-  "number": null,
+  "number": "E",
   "supporting_organizations": [
-
+    {
+      "id": null,
+      "name": "San Francisco vs. Big Tobacco, a coalition of doctors, parents, and community groups protecting youth from flavored tobacco products and addiction, sponsored by nonprofit health organizations",
+      "payee": "San Francisco vs. Big Tobacco, a coalition of doctors, parents, and community groups protecting youth from flavored tobacco products and addiction, sponsored by nonprofit health organizations",
+      "amount": 4751843.68999999
+    },
+    {
+      "id": null,
+      "name": "Yes on E, Coalition for Healthy Trees and Safe Sidewalks, with Major Funding by the Friends of the Urban Forest committee and Mitzi Johnson",
+      "payee": "Yes on E, Coalition for Healthy Trees and Safe Sidewalks, with Major Funding by the Friends of the Urban Forest committee and Mitzi Johnson",
+      "amount": 4974.56
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 4427725.56999999,
   "contributions_by_region": [
-
+    {
+      "amount": 98634.35,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 4329091.21999999,
+      "locale": "Unknown"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 62217.59
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 36416.76
+    },
+    {
+      "type": "COM",
+      "amount": 4329091.21999999
+    }
   ]
 }

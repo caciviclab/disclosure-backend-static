@@ -1,45 +1,53 @@
 {
   "id": 3,
   "contest_type": "Referendum",
-  "name": "Sugar-Sweetened BeverageTax",
-  "title": "Sugar-Sweetened BeverageTax",
-  "summary": "This measure would impose a tax on the distribution of Sugar-Sweetened Beverage Products in Oakland. Sugar-Sweetened beverages are defined as any beverage to which one or more Caloric Sweeteners have been added and that contain 25 or more calories per 12 fluid ounces of beverage. The tax would not be imposed on infant or baby formula, beverages for medical use, supplemental, meal replacement, or nutritional beverages, milk products, fruit or vegetable juices with no added sweeteners, or alcoholic beverages. The measure would require that any distributor of sugar-sweetened beverages register with the City and establish a Community Advisory Board. The Board would be responsible for making recommendations to the City Council on setting up or funding programs that prevent or reduce the health consequences of consuming sugar-sweetened beverages.",
-  "number": "HH",
+  "name": "Oakland School Bond",
+  "title": "Oakland School Bond",
+  "summary": "This measure will provide a districtwide educator salary increase designed to attract/retain teachers; provide enhanced middle school art, music, languages/other programs in addition to core educational programs; improve academic achievement; provide safe, positive schools, and prepare students for college/careers; shall Oakland Unified School District levy a tax of $120 per parcel, providing $12.4 million annually, for 12 years, with exemptions for senior and low income residents, no money for Sacramento, and all money benefitting Oakland students?",
+  "number": "G1",
   "supporting_organizations": [
     {
-      "id": "1381041",
-      "name": "Yes on Measure HH, Citizens for Healthy Oakland Children",
-      "payee": "Yes on Measure HH, Citizens for Healthy Oakland Children",
-      "amount": 10770118.520000001
-    }
-  ],
-  "total_contributions": 10759941.92,
-  "contributions_by_region": [
-    {
-      "amount": 10447387.2,
-      "locale": "Out of State"
+      "id": "1331137",
+      "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+      "payee": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+      "amount": 9928.0
     },
     {
-      "amount": 233874.72,
+      "id": "960997",
+      "name": "Friends of Oakland Public Schools Yes on G1 2016",
+      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
+      "amount": 32926.02
+    },
+    {
+      "id": "1391632",
+      "name": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
+      "payee": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
+      "amount": 15018.45
+    }
+  ],
+  "total_contributions": 257500.0,
+  "contributions_by_region": [
+    {
+      "amount": 148000.0,
       "locale": "Within California"
     },
     {
-      "amount": 78680.0,
+      "amount": 109500.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 213964.72
+      "amount": 149000.0
     },
     {
       "type": "Individual",
-      "amount": 9416327.2
+      "amount": 10500.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 1129650.0
+      "amount": 98000.0
     }
   ]
 }

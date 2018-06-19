@@ -1,45 +1,31 @@
 {
   "id": 9,
   "contest_type": "Referendum",
-  "name": "Library Parcel Tax",
-  "title": "Library Parcel Tax",
+  "name": "Hotel Protection & Employer Standards",
+  "title": "Hotel Protection & Employer Standards",
   "summary": null,
-  "number": "D",
+  "number": "PENDING-1",
   "supporting_organizations": [
     {
-      "id": "1400467",
-      "name": "Protect Oakland Libraries - Yes on D 2018",
-      "payee": "Protect Oakland Libraries - Yes on D 2018",
-      "amount": 90260.79999999999
+      "id": "1405491",
+      "name": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
+      "payee": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
+      "amount": 54395.88
+    },
+    {
+      "id": "1403165",
+      "name": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
+      "payee": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
+      "amount": 93472.35
     }
   ],
-  "total_contributions": 125345.0,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 26700.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 16950.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 81695.0,
-      "locale": "Within Oakland"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 15500.0
-    },
-    {
-      "type": "Individual",
-      "amount": 46095.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 63750.0
-    }
+
   ]
 }

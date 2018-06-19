@@ -1,20 +1,45 @@
 {
   "id": 7,
   "contest_type": "Referendum",
-  "name": "Police Commission",
-  "title": "Police Commission",
-  "summary": "This measure would establish a Police Commission consisting of seven regular and two alternate members. Commission members would be Oakland residents with no member permitted to be a police officer, current City employee, former Oakland police officer, or current or former official, employee or representative of a union that represents police officers. The first group of Commissioners would serve two, three, or four year terms. Later members would serve three-year terms with a two-term limit. The Commission would establish a Community Police Review Agency (“Agency”) which would receive and review complaints of police misconduct. The Agency would be required to investigate complaints involving use of force, in-custody deaths, profiling and public assemblies. After completing its investigation of a complaint, the Agency would submit its findings and proposed discipline to the Commission and Chief. In addition The Commission would review the OPD’s policies, procedures and General Orders while being able to propose changes and approve or reject the OPD’s changes to those policies. The majority of the Commission’s members would be independently appointed by a panel of Oakland residents with subpoena power and five commissioners could vote to fire the chief.",
-  "number": "LL",
+  "name": "Infrastructure and Housing bonds",
+  "title": "Infrastructure and Housing bonds",
+  "summary": "This measure would allow the City to borrow up to $600 million by issuing general obligation bonds. The bonds would be repaid with revenue from an “ad valorem” property tax. “Ad valorem” means according to the value of the property. The City would impose a tax based on the value of real property and improvements within the City to pay the principal and interest of the bonds. The City would use this money to build, buy, improve, and rehabilitate facilities and infrastructure and for affordable housing in Oakland. The projects financed by the bonds would be completed as needed according to City Council established priorities as set forth in the City’s Capital Improvement Plan.",
+  "number": "KK",
   "opposing_organizations": [
-
+    {
+      "id": "1391606",
+      "name": "Coalition to Improve Oakland Government - NO on Measure KK sponsored by Oakland small business and property owners, home owners and renters",
+      "payee": "Coalition to Improve Oakland Government - NO on Measure KK sponsored by Oakland small business and property owners, home owners and renters",
+      "amount": 43073.99
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 43073.99,
   "contributions_by_region": [
-
+    {
+      "amount": 19500.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 23274.29,
+      "locale": "Within Oakland"
+    },
+    {
+      "amount": 299.6999999999971,
+      "locale": "Unknown"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 7500.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 35274.29
+    },
+    {
+      "type": "COM",
+      "amount": 299.6999999999971
+    }
   ]
 }

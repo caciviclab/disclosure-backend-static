@@ -1,20 +1,45 @@
 {
   "id": 13,
   "contest_type": "Referendum",
-  "name": "Proposition A",
-  "title": "Proposition A",
+  "name": "Alameda County Sales Tax for Childcare and Education",
+  "title": "Alameda County Sales Tax for Childcare and Education",
   "summary": null,
-  "number": null,
+  "number": "A",
   "supporting_organizations": [
-
+    {
+      "id": "1332115",
+      "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "amount": 4969.24
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 60186.1,
   "contributions_by_region": [
-
+    {
+      "amount": 1270.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 15500.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 43416.1,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 10850.0
+    },
+    {
+      "type": "Individual",
+      "amount": 44285.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 5051.1
+    }
   ]
 }

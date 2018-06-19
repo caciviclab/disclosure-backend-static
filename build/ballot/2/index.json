@@ -1519,7 +1519,7 @@
             "total_contributions": 545499.29,
             "total_expenditures": 1006669.74,
             "total_loans_received": 0.0,
-            "total_supporting_independent": 288741.58,
+            "total_supporting_independent": 290431.83,
             "contributions_by_type": {
               "PTY": 496.52,
               "Committee": 6850.0,
@@ -1561,6 +1561,7 @@
               "Print Ad": 1275.0,
               "Print ad": 6460.0,
               "Radio ad": 2340.0,
+              "WEB; CNS": 845.0,
               "Postcards": 923.0,
               "Print Ads": 3326.0,
               "Radio Ads": 9640.0,
@@ -1656,7 +1657,7 @@
             "total_contributions": 911378.01,
             "total_expenditures": 1616485.76,
             "total_loans_received": 0.0,
-            "total_supporting_independent": 218311.17,
+            "total_supporting_independent": 220001.42,
             "contributions_by_type": {
               "Committee": 16000.0,
               "Individual": 868916.96,
@@ -1694,6 +1695,7 @@
               "Print Ad": 1275.0,
               "Print ad": 6590.0,
               "Radio ad": 2210.0,
+              "WEB; CNS": 845.0,
               "Billboard": 960.0,
               "Postcards": 923.0,
               "Print Ads": 3326.0,
@@ -2034,20 +2036,28 @@
       ]
     },
     {
-      "id": 10,
-      "contest_type": "Referendum",
-      "name": "Oakland Children's Initiative",
-      "title": "Oakland Children's Initiative",
-      "summary": null,
-      "number": null
-    },
-    {
-      "id": 11,
+      "id": 9,
       "contest_type": "Referendum",
       "name": "Hotel Protection \u0026 Employer Standards",
       "title": "Hotel Protection \u0026 Employer Standards",
       "summary": null,
-      "number": null
+      "number": "PENDING-1"
+    },
+    {
+      "id": 10,
+      "contest_type": "Referendum",
+      "name": "Hotel Protection and Employment Standards Enforcement Initiative",
+      "title": "Hotel Protection and Employment Standards Enforcement Initiative",
+      "summary": null,
+      "number": "PENDING-1"
+    },
+    {
+      "id": 11,
+      "contest_type": "Referendum",
+      "name": "Oakland Children's Initiative",
+      "title": "Oakland Children's Initiative",
+      "summary": null,
+      "number": "PENDING-2"
     }
   ],
   "date": "2018-11-06",

@@ -1,12 +1,17 @@
 {
   "id": 11,
   "contest_type": "Referendum",
-  "name": "Hotel Protection & Employer Standards",
-  "title": "Hotel Protection & Employer Standards",
+  "name": "Oakland Children's Initiative",
+  "title": "Oakland Children's Initiative",
   "summary": null,
-  "number": null,
+  "number": "PENDING-2",
   "supporting_organizations": [
-
+    {
+      "id": "1310647",
+      "name": "The Oakland Fund",
+      "payee": "The Oakland Fund",
+      "amount": 100250.0
+    }
   ],
   "total_contributions": [
 

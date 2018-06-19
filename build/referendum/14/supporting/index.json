@@ -1,20 +1,71 @@
 {
   "id": 14,
   "contest_type": "Referendum",
-  "name": "PROPOSITIONS C AND D",
-  "title": "PROPOSITIONS C AND D",
+  "name": "Library Parcel Tax",
+  "title": "Library Parcel Tax",
   "summary": null,
-  "number": null,
+  "number": "D",
   "supporting_organizations": [
-
+    {
+      "id": null,
+      "name": "AFFORDABLE HOUSING FOR ALL, YES ON D",
+      "payee": "AFFORDABLE HOUSING FOR ALL, YES ON D",
+      "amount": 998332.33
+    },
+    {
+      "id": "1381519",
+      "name": "Progress San Francisco",
+      "payee": "Progress San Francisco",
+      "amount": 430512.97
+    },
+    {
+      "id": "1400467",
+      "name": "Protect Oakland Libraries - Yes on D 2018",
+      "payee": "Protect Oakland Libraries - Yes on D 2018",
+      "amount": 90260.79999999999
+    },
+    {
+      "id": null,
+      "name": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
+      "payee": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
+      "amount": 2361.0
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 1347017.41,
   "contributions_by_region": [
-
+    {
+      "amount": 569200.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 520450.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 81695.0,
+      "locale": "Within Oakland"
+    },
+    {
+      "amount": 175672.40999999992,
+      "locale": "Unknown"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 25500.0
+    },
+    {
+      "type": "Individual",
+      "amount": 930095.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 215750.0
+    },
+    {
+      "type": "COM",
+      "amount": 175672.40999999992
+    }
   ]
 }
