@@ -11,16 +11,28 @@ psql disclosure-backend << SQL
 */
 CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   -- Map names to numbers as ballot numbers are often missing
-  SELECT "Filer_ID"::varchar, "Filer_NamL",
-    "Bal_Name", "Measure_Number", "Sup_Opp_Cd", "Amount"
+  SELECT
+    "Filer_ID"::varchar,
+    "Filer_NamL",
+    "Bal_Name",
+    "Measure_Number",
+    "Sup_Opp_Cd",
+    "Amount",
+    "Payee_NamL" as "Recipient_Or_Description"
   FROM
     "E-Expenditure", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
   UNION ALL
 
   -- Get IE 
-  SELECT "Filer_ID"::varchar, "Filer_NamL",
-    "Bal_Name", "Measure_Number", "Sup_Opp_Cd", "Amount"
+  SELECT
+    "Filer_ID"::varchar,
+    "Filer_NamL",
+    "Bal_Name",
+    "Measure_Number",
+    "Sup_Opp_Cd",
+    "Amount",
+    "Expn_Dscr" as "Recipient_Or_Description"
   FROM
     "496", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
@@ -28,10 +40,14 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   UNION ALL
 
   -- Get support/oppose information from committee
-  SELECT expend."Filer_ID"::varchar, expend."Filer_NamL",
+  SELECT
+    expend."Filer_ID"::varchar,
+    expend."Filer_NamL",
     "Bal_Name",
     "Ballot_Measure" as "Measure_Number",
-    "Support_Or_Oppose" as "Sup_Opp_Cd", "Amount"
+    "Support_Or_Oppose" as "Sup_Opp_Cd",
+    "Amount",
+    "Payee_NamL" as "Recipient_Or_Description"
   FROM
     "E-Expenditure" expend,
     oakland_committees committee
@@ -41,10 +57,19 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   UNION ALL
 
   -- Get 24hr report expenditures. There is no S/O information!
-  SELECT "Filer_ID"::varchar, "Filer_NamL",
-    "Bal_Name", "Measure_Number", 'Unknown' as "Sup_Opp_Cd", "Amount"
-  FROM "497" LEFT OUTER JOIN "oakland_name_to_number"
-  ON LOWER("Bal_Name") = LOWER("Measure_Name")
+  SELECT
+    "497"."Filer_ID"::varchar,
+    "497"."Filer_NamL",
+    "Bal_Name",
+    "Measure_Number",
+    COALESCE(oakland_committees."Support_Or_Oppose", 'Unknown') as "Sup_Opp_Cd",
+    "Amount",
+    "Cmte_ID" || ' / ' || "Enty_NamL" as "Recipient_Or_Description"
+  FROM "497"
+  LEFT OUTER JOIN "oakland_name_to_number"
+    ON LOWER("Bal_Name") = LOWER("Measure_Name")
+  LEFT OUTER JOIN oakland_committees
+    ON oakland_committees."Filer_ID" = "497"."Cmte_ID"
   WHERE "Bal_Name" IS NOT NULL
   AND "Form_Type" = 'F497P2';
 
