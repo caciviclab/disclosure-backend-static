@@ -9,7 +9,9 @@ process: process.rb
 	rm -rf build && ruby process.rb
 
 download-cached:
-	wget -O- https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell date +%Y-%m-%d).tar.gz | tar xz
+	wget -O- https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
+		git log --author 'OpenDisclosure Deploybot' -n1 --pretty=format:%aI | cut -d"T" -f1 \
+	).tar.gz | tar xz
 
 upload-cache:
 	tar czf - downloads/csv downloads/static \
