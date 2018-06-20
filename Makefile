@@ -9,7 +9,9 @@ process: process.rb
 	rm -rf build && ruby process.rb
 
 download-cached:
-	wget -O- https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell date +%Y-%m-%d).tar.gz | tar xz
+	wget -O- https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
+		git log --author 'OpenDisclosure Deploybot' -n1 --pretty=format:%aI | cut -d"T" -f1 \
+	).tar.gz | tar xz
 
 upload-cache:
 	tar czf - downloads/csv downloads/static \
@@ -38,20 +40,29 @@ download-COAK-%:
 download-BRK-%:
 	ruby ssconvert.rb downloads/static/efile_BRK_$(subst download-BRK-,,$@).xlsx 'downloads/csv/efile_BRK_$(subst download-BRK-,,$@)_%{sheet}.csv'
 
-import: dropdb createdb 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
-		D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-		F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+import-spreadsheets:
+	echo 'DROP VIEW "Measure_Expenditures";' | psql disclosure-backend
+	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
+	echo 'DROP TABLE IF EXISTS oakland_referendums;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_referendums.csv
 	echo 'ALTER TABLE "oakland_referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
+	echo 'DROP TABLE IF EXISTS oakland_name_to_number;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_name_to_number.csv
+	echo 'DROP TABLE IF EXISTS oakland_committees;' | psql disclosure-backend
 	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_committees.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
+	./bin/make_view
+
+import: dropdb createdb import-spreadsheets \
+	496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
+	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
+	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
-	./bin/make_view
 	./bin/remove_duplicate_transactions
+	./bin/make_view
 
 dropdb:
 	dropdb disclosure-backend || true
@@ -64,7 +75,7 @@ createdb:
 	./bin/clean $@
 	./bin/latest_only $@
 
-downloads/csv/oakland_candidates.csv: bin/auto-detect-candidates
+downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv downloads/raw
 	wget -q -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=0&single=true&output=csv' | \

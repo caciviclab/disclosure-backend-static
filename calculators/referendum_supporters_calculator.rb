@@ -8,10 +8,10 @@ class ReferendumSupportersCalculator
   def fetch
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd", "Recipient_Or_Description",
         SUM("Amount") AS "Total_Amount"
       FROM "Measure_Expenditures"
-      GROUP BY "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd"
+      GROUP BY "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd", "Recipient_Or_Description"
       ORDER BY "Filer_NamL" ASC
     SQL
 
@@ -37,15 +37,15 @@ class ReferendumSupportersCalculator
       committee = committee_from_expenditure(row)
       bal_num = row['Measure_Number']
 
+      # TODO: track number of skips (#35)
+      next if bal_num == 'SKIP'
+
       unless bal_num
         $stderr.puts "COULD NOT FIND BALLOT MEASURE: #{row['Bal_Name'].inspect}"
-        $stderr.puts "  Add it to the Oakland Candidates spreadsheet"
+        $stderr.puts "  Add it to the 'Referendum Name to Number' sheet"
         $stderr.puts "  Debug: #{row.inspect}"
         next
       end
-
-      # TODO: track number of skips (#35)
-      next if bal_num == 'SKIP'
 
       if row['Sup_Opp_Cd'] == 'Unknown'
         # TODO: track number of guesses (#35)
@@ -72,8 +72,15 @@ class ReferendumSupportersCalculator
           amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
         opposing_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
-      elsif
-        $stderr.puts "unknown support: #{row}"
+      else
+        $stderr.puts
+        $stderr.puts "UNKNOWN SUPPORT ($#{row['Total_Amount']}) -- Add to 'Committees' tab:"
+        if row['Recipient_Or_Description']
+          $stderr.puts "  Recipient or Description: #{row['Recipient_Or_Description']}"
+        else
+          $stderr.puts '  No recipient information. Contributor information:'
+          $stderr.puts "  #{row['Filer_ID']} / #{row['Filer_NamL']} / #{bal_num}"
+        end
       end
     end
 
@@ -87,7 +94,7 @@ class ReferendumSupportersCalculator
         ballot_measure = ballot_measure_from_num(bal_num)
 
         if ballot_measure.nil?
-          puts 'WARN: Could not find ballot measure: ' + bal_num.inspect
+          $stderr.puts 'WARN: Could not find ballot measure: ' + bal_num.inspect
           next
         end
 
