@@ -7,39 +7,57 @@
   "number": "A",
   "supporting_organizations": [
     {
-      "id": "1332115",
+      "id": null,
+      "name": "AECOM",
+      "payee": "AECOM",
+      "amount": 20000.0
+    },
+    {
+      "id": null,
+      "name": "ARCADIS U.S., INC.",
+      "payee": "ARCADIS U.S., INC.",
+      "amount": 10000.0
+    },
+    {
+      "id": null,
+      "name": "John S. Wadsworth, Jr.",
+      "payee": "John S. Wadsworth, Jr.",
+      "amount": 10000.0
+    },
+    {
+      "id": null,
       "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
       "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
-      "amount": 4969.24
+      "amount": 43556.0
     }
   ],
-  "total_contributions": 60186.1,
+  "total_contributions": 279564.07,
   "contributions_by_region": [
     {
-      "amount": 1270.0,
+      "amount": 149500.0,
       "locale": "Out of State"
     },
     {
-      "amount": 15500.0,
+      "amount": 125064.07,
       "locale": "Within California"
     },
     {
-      "amount": 43416.1,
+      "amount": 5000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 10850.0
+      "amount": 47143.25
     },
     {
       "type": "Individual",
-      "amount": 44285.0
+      "amount": 12500.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 5051.1
+      "amount": 219920.82
     }
   ]
 }
