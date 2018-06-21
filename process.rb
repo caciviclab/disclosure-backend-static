@@ -49,9 +49,9 @@ end
 # third, write everything out to the build files
 OAKLAND_LOCALITY_ID = 2
 ELECTIONS = [
-  { id: 1, date: '2016-11-08', election_name: 'oakland-2016', is_current: true },
-  { id: 2, date: '2018-11-06', election_name: 'oakland-2018' },
-  { id: 3, date: '2018-11-06', election_name: 'berkeley-2018' },
+  { id: 1, date: '2016-11-08', election_name: 'oakland-2016', locality_id: OAKLAND_LOCALITY_ID, is_current: true },
+  { id: 3, date: '2018-11-06', election_name: 'oakland-2018', locality_id: OAKLAND_LOCALITY_ID },
+  { id: 3, date: '2018-11-06', election_name: 'berkeley-2018', locality_id: 4 },
 ]
 
 build_file('/locality/search') do |f|
@@ -62,32 +62,44 @@ build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
+build_file("/locality/3") do |f|
+  f.puts JSON.pretty_generate([{ name: 'San Francisco', type: 'city', id: 3 }])
+end
+
+build_file("/locality/4") do |f|
+  f.puts JSON.pretty_generate([{ name: 'Berkeley', type: 'city', id: 4 }])
+end
+
+
 ELECTIONS.each do |election|
   candidates = OfficeElection.where(election_name: election[:election_name])
   referendums = OaklandReferendum.where(election_name: election[:election_name])
   files = [
     "/ballot/#{election[:id]}",
-    ("/locality/#{OAKLAND_LOCALITY_ID}/current_ballot" if election[:is_current])
+    ("/locality/#{election[:locality_id]}/current_ballot" if election[:is_current])
   ].compact
 
   files.each do |filename|
     build_file(filename) do |f|
       f.puts({
-        id: 1,
+        id: election[:id],
         ballot_items: (
           candidates.map(&:as_json) +
           referendums.map(&:as_json)
         ),
         date: election[:date],
-        locality_id: OAKLAND_LOCALITY_ID,
+        locality_id: election[:locality_id],
       }.to_json)
     end
   end
 end
 
 OfficeElection.find_each do |office_election|
+  ballot = (ELECTIONS.select { |e| e[:election_name] == office_election[:election_name] }).first
+  raise "Unknown ballot for election_name=#{office_election[:election_name]}" if ballot.nil?
+
   build_file("/office_election/#{office_election.id}") do |f|
-    f.puts JSON.pretty_generate(office_election.as_json.merge(ballot_id: 1))
+    f.puts JSON.pretty_generate(office_election.as_json.merge(ballot_id: ballot[:id]))
   end
 end
 
