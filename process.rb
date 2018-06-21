@@ -140,8 +140,11 @@ OaklandCommittee.includes(:calculations).find_each do |committee|
 end
 
 OaklandReferendum.find_each do |referendum|
+  ballot = (ELECTIONS.select { |e| e[:election_name] == referendum[:election_name] }).first
+  raise "Unknown ballot for election_name=#{referendum[:election_name]}" if ballot.nil?
+
   build_file("/referendum/#{referendum.id}") do |f|
-    f.puts JSON.pretty_generate(referendum.as_json.merge(ballot_id: 1))
+    f.puts JSON.pretty_generate(referendum.as_json.merge(ballot_id: ballot[:id]))
   end
 
   build_file("/referendum/#{referendum.id}/supporting") do |f|
