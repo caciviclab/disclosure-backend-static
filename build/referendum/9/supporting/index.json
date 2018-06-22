@@ -3,13 +3,13 @@
   "contest_type": "Referendum",
   "name": "Hotel Protection & Employer Standards",
   "title": "Hotel Protection & Employer Standards",
-  "summary": null,
+  "summary": "Initiative would strengthen workplace protections available to hotel employees and create a Department of Workplace and Employment Standards to improve enforcement of employment standards",
   "number": "PENDING-1",
   "supporting_organizations": [
     {
-      "id": null,
-      "name": "Alameda Labor Council, AFL-CIO Solidarity PAC",
-      "payee": "Alameda Labor Council, AFL-CIO Solidarity PAC",
+      "id": "1284523",
+      "name": "ALAMEDA LABOR COUNCIL, AFL-CIO SOLIDARITY PAC",
+      "payee": "ALAMEDA LABOR COUNCIL, AFL-CIO SOLIDARITY PAC",
       "amount": 5000.0
     },
     {
@@ -19,9 +19,9 @@
       "amount": 54395.88
     },
     {
-      "id": null,
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 Issues Committee",
-      "payee": "Sheet Metal Workers' International Association Local Union No. 104 Issues Committee",
+      "id": "1351785",
+      "name": "SHEET METAL WORKERS' INTERNATIONAL ASSOCIATION LOCAL UNION NO. 104 ISSUES COMMITTEE",
+      "payee": "SHEET METAL WORKERS' INTERNATIONAL ASSOCIATION LOCAL UNION NO. 104 ISSUES COMMITTEE",
       "amount": 10000.0
     },
     {
@@ -31,13 +31,25 @@
       "amount": 93472.35
     }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 183358.88,
   "contributions_by_region": [
-
+    {
+      "amount": 1500.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 181858.88,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 50000.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 133358.88
+    }
   ]
 }

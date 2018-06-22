@@ -4,7 +4,54 @@
   "name": "Mayor",
   "candidates": [
     {
-      "id": 49,
+      "id": 28,
+      "name": "Rebecca Kaplan",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Rebecca",
+      "last_name": "Kaplan",
+      "ballot_item": 14,
+      "office_election": 14,
+      "bio": null,
+      "committee_name": "Rebecca Kaplan for Oakland Mayor 2018",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": false,
+      "occupation": "Incumbent, Councilmember",
+      "party_affiliation": null,
+      "filer_id": 1406223,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 2600.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 50,
       "name": "Libby Schaaf",
       "photo_url": "https://www.facebook.com/MayorLibbySchaaf/",
       "website_url": "https://libbyformayor.wordpress.com/",
@@ -74,7 +121,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 51,
       "name": "Marchon Tatmon",
       "photo_url": null,
       "website_url": null,
@@ -121,7 +168,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 52,
       "name": "Saied Karamooz",
       "photo_url": null,
       "website_url": null,
@@ -168,7 +215,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 53,
       "name": "Kristina Molina",
       "photo_url": null,
       "website_url": null,
@@ -215,7 +262,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 54,
       "name": "Ken Houston",
       "photo_url": null,
       "website_url": null,
@@ -262,7 +309,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 55,
       "name": "Nancy Sidebotham",
       "photo_url": null,
       "website_url": null,
@@ -309,7 +356,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 56,
       "name": "Jesse A.J. Smith",
       "photo_url": null,
       "website_url": null,
@@ -356,7 +403,7 @@
       }
     },
     {
-      "id": 56,
+      "id": 57,
       "name": "Cedric Anthony Troupe",
       "photo_url": null,
       "website_url": null,
@@ -403,7 +450,7 @@
       }
     },
     {
-      "id": 57,
+      "id": 58,
       "name": "Sheilagh \"Cat Brooks\" Polk",
       "photo_url": null,
       "website_url": null,
@@ -450,7 +497,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 59,
       "name": "Shelton Dunson",
       "photo_url": null,
       "website_url": null,
@@ -497,7 +544,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 60,
       "name": "Randolph Wilkins",
       "photo_url": null,
       "website_url": null,
@@ -544,7 +591,7 @@
       }
     },
     {
-      "id": 66,
+      "id": 67,
       "name": "Jane Kim",
       "photo_url": null,
       "website_url": null,
@@ -682,7 +729,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 68,
       "name": "Mark Leno",
       "photo_url": null,
       "website_url": null,
@@ -810,7 +857,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 69,
       "name": "London Breed",
       "photo_url": null,
       "website_url": null,

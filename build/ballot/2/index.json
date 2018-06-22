@@ -349,7 +349,7 @@
           }
         },
         {
-          "id": 28,
+          "id": 38,
           "name": "Nayeli Maxson",
           "photo_url": null,
           "website_url": null,
@@ -396,7 +396,7 @@
           }
         },
         {
-          "id": 38,
+          "id": 39,
           "name": "Sheng Thao",
           "photo_url": null,
           "website_url": null,
@@ -443,7 +443,7 @@
           }
         },
         {
-          "id": 39,
+          "id": 40,
           "name": "Chris Young",
           "photo_url": null,
           "website_url": null,
@@ -490,7 +490,7 @@
           }
         },
         {
-          "id": 40,
+          "id": 41,
           "name": "Joseph Tanios",
           "photo_url": null,
           "website_url": null,
@@ -537,7 +537,7 @@
           }
         },
         {
-          "id": 41,
+          "id": 42,
           "name": "Pamela Harris",
           "photo_url": null,
           "website_url": null,
@@ -584,7 +584,7 @@
           }
         },
         {
-          "id": 42,
+          "id": 43,
           "name": "Jonathan Selsley",
           "photo_url": null,
           "website_url": null,
@@ -631,7 +631,7 @@
           }
         },
         {
-          "id": 43,
+          "id": 44,
           "name": "Ahmad Anderson",
           "photo_url": null,
           "website_url": null,
@@ -685,7 +685,7 @@
       "name": "City Council District 6",
       "candidates": [
         {
-          "id": 44,
+          "id": 45,
           "name": "Desley Brooks",
           "photo_url": null,
           "website_url": null,
@@ -762,7 +762,7 @@
           }
         },
         {
-          "id": 45,
+          "id": 46,
           "name": "Loren Taylor",
           "photo_url": null,
           "website_url": null,
@@ -809,7 +809,7 @@
           }
         },
         {
-          "id": 46,
+          "id": 47,
           "name": "Natasha Middleton",
           "photo_url": null,
           "website_url": null,
@@ -856,7 +856,7 @@
           }
         },
         {
-          "id": 47,
+          "id": 48,
           "name": "Maria \"Marlo\" Rodriguez",
           "photo_url": null,
           "website_url": null,
@@ -903,7 +903,7 @@
           }
         },
         {
-          "id": 48,
+          "id": 49,
           "name": "Mya Whitaker",
           "photo_url": null,
           "website_url": null,
@@ -957,7 +957,54 @@
       "name": "Mayor",
       "candidates": [
         {
-          "id": 49,
+          "id": 28,
+          "name": "Rebecca Kaplan",
+          "photo_url": null,
+          "website_url": null,
+          "twitter_url": null,
+          "votersedge_url": null,
+          "first_name": "Rebecca",
+          "last_name": "Kaplan",
+          "ballot_item": 14,
+          "office_election": 14,
+          "bio": null,
+          "committee_name": "Rebecca Kaplan for Oakland Mayor 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": "Incumbent, Councilmember",
+          "party_affiliation": null,
+          "filer_id": 1406223,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 2600.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
+          "id": 50,
           "name": "Libby Schaaf",
           "photo_url": "https://www.facebook.com/MayorLibbySchaaf/",
           "website_url": "https://libbyformayor.wordpress.com/",
@@ -1027,7 +1074,7 @@
           }
         },
         {
-          "id": 50,
+          "id": 51,
           "name": "Marchon Tatmon",
           "photo_url": null,
           "website_url": null,
@@ -1074,7 +1121,7 @@
           }
         },
         {
-          "id": 51,
+          "id": 52,
           "name": "Saied Karamooz",
           "photo_url": null,
           "website_url": null,
@@ -1121,7 +1168,7 @@
           }
         },
         {
-          "id": 52,
+          "id": 53,
           "name": "Kristina Molina",
           "photo_url": null,
           "website_url": null,
@@ -1168,7 +1215,7 @@
           }
         },
         {
-          "id": 53,
+          "id": 54,
           "name": "Ken Houston",
           "photo_url": null,
           "website_url": null,
@@ -1215,7 +1262,7 @@
           }
         },
         {
-          "id": 54,
+          "id": 55,
           "name": "Nancy Sidebotham",
           "photo_url": null,
           "website_url": null,
@@ -1262,7 +1309,7 @@
           }
         },
         {
-          "id": 55,
+          "id": 56,
           "name": "Jesse A.J. Smith",
           "photo_url": null,
           "website_url": null,
@@ -1309,7 +1356,7 @@
           }
         },
         {
-          "id": 56,
+          "id": 57,
           "name": "Cedric Anthony Troupe",
           "photo_url": null,
           "website_url": null,
@@ -1356,7 +1403,7 @@
           }
         },
         {
-          "id": 57,
+          "id": 58,
           "name": "Sheilagh \"Cat Brooks\" Polk",
           "photo_url": null,
           "website_url": null,
@@ -1403,7 +1450,7 @@
           }
         },
         {
-          "id": 58,
+          "id": 59,
           "name": "Shelton Dunson",
           "photo_url": null,
           "website_url": null,
@@ -1450,7 +1497,7 @@
           }
         },
         {
-          "id": 59,
+          "id": 60,
           "name": "Randolph Wilkins",
           "photo_url": null,
           "website_url": null,
@@ -1497,7 +1544,7 @@
           }
         },
         {
-          "id": 66,
+          "id": 67,
           "name": "Jane Kim",
           "photo_url": null,
           "website_url": null,
@@ -1635,7 +1682,7 @@
           }
         },
         {
-          "id": 67,
+          "id": 68,
           "name": "Mark Leno",
           "photo_url": null,
           "website_url": null,
@@ -1763,7 +1810,7 @@
           }
         },
         {
-          "id": 68,
+          "id": 69,
           "name": "London Breed",
           "photo_url": null,
           "website_url": null,
@@ -1817,7 +1864,7 @@
       "name": "OUSD District 2",
       "candidates": [
         {
-          "id": 60,
+          "id": 61,
           "name": "Amy Eng",
           "photo_url": null,
           "website_url": null,
@@ -1886,7 +1933,7 @@
       "name": "OUSD District 4",
       "candidates": [
         {
-          "id": 61,
+          "id": 62,
           "name": "Clarissa Doutherd",
           "photo_url": null,
           "website_url": null,
@@ -1940,7 +1987,7 @@
       "name": "OUSD District 6",
       "candidates": [
         {
-          "id": 62,
+          "id": 63,
           "name": "Shanthi Gonzales",
           "photo_url": null,
           "website_url": null,
@@ -1987,7 +2034,7 @@
           }
         },
         {
-          "id": 63,
+          "id": 64,
           "name": "Ebony Edgerson",
           "photo_url": null,
           "website_url": null,
@@ -2040,7 +2087,7 @@
       "contest_type": "Referendum",
       "name": "Hotel Protection \u0026 Employer Standards",
       "title": "Hotel Protection \u0026 Employer Standards",
-      "summary": null,
+      "summary": "Initiative would strengthen workplace protections available to hotel employees and create a Department of Workplace and Employment Standards to improve enforcement of employment standards",
       "number": "PENDING-1"
     },
     {
@@ -2048,7 +2095,7 @@
       "contest_type": "Referendum",
       "name": "Hotel Protection and Employment Standards Enforcement Initiative",
       "title": "Hotel Protection and Employment Standards Enforcement Initiative",
-      "summary": null,
+      "summary": "Initiative would strengthen workplace protections available to hotel employees and create a Department of Workplace and Employment Standards to improve enforcement of employment standards",
       "number": "PENDING-1"
     },
     {
@@ -2056,8 +2103,40 @@
       "contest_type": "Referendum",
       "name": "Oakland Children's Initiative",
       "title": "Oakland Children's Initiative",
-      "summary": null,
+      "summary": "Establish parcel tax to expand access to preschool, improve graduation rates, and reduce disparities in kinderreadiness and college completion",
       "number": "PENDING-2"
+    },
+    {
+      "id": 27,
+      "contest_type": "Referendum",
+      "name": "Establish Residency Requirement and Term Limits",
+      "title": "Establish Residency Requirement and Term Limits",
+      "summary": "Amend City Charter to increase residency requirement to serve on the City Council from 30 days to one year, increase the term for City Council from 4 to 6 years, and limit Council members to serving 2 terms of office",
+      "number": "PENDING-4"
+    },
+    {
+      "id": 28,
+      "contest_type": "Referendum",
+      "name": "Repeal Ranked Choice Voting",
+      "title": "Repeal Ranked Choice Voting",
+      "summary": "Amend City Charter to remove rank choice voting for municipal elections",
+      "number": "PENDING-5"
+    },
+    {
+      "id": 29,
+      "contest_type": "Referendum",
+      "name": "City Auditor Budget",
+      "title": "City Auditor Budget",
+      "summary": "Amend City Charter to provide for the City Auditor to submit a budget directly to the City Council for approval",
+      "number": "PENDING-6"
+    },
+    {
+      "id": 30,
+      "contest_type": "Referendum",
+      "name": "Remove Limit on Monetary Fine for Violation of Ordinances",
+      "title": "Remove Limit on Monetary Fine for Violation of Ordinances",
+      "summary": "Amend City Charter by eliminating the $1,000 limit for violation of all City ordinances allowing the City Council discretion to determine monetary fines for violation of ordinances.",
+      "number": "PENDING-7"
     }
   ],
   "date": "2018-11-06",

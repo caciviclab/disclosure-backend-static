@@ -3,7 +3,7 @@
   "contest_type": "Referendum",
   "name": "Oakland Children's Initiative",
   "title": "Oakland Children's Initiative",
-  "summary": null,
+  "summary": "Establish parcel tax to expand access to preschool, improve graduation rates, and reduce disparities in kinderreadiness and college completion",
   "number": "PENDING-2",
   "supporting_organizations": [
     {
@@ -16,16 +16,28 @@
       "id": "1310647",
       "name": "The Oakland Fund",
       "payee": "The Oakland Fund",
-      "amount": 100250.0
+      "amount": 101038.6
     }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 725000.0,
   "contributions_by_region": [
-
+    {
+      "amount": 550000.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 175000.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 400000.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 325000.0
+    }
   ]
 }
