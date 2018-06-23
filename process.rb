@@ -154,7 +154,7 @@ OaklandReferendum.find_each do |referendum|
 end
 
 build_file('/totals') do |f|
-  f.puts JSON.pretty_generate(ContributionsByOrigin)
+  f.puts JSON.pretty_generate(Hash[ContributionsByOrigin.sort])
 end
 
 build_file('/stats') do |f|
