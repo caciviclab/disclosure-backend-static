@@ -98,6 +98,10 @@ class ReferendumSupportersCalculator
           next
         end
 
+        rows.values.map do |supporter_row|
+          supporter_row[:amount] = supporter_row[:amount].round(2)
+        end
+
         ballot_measure.save_calculation(calculation_name, rows.values)
       end
     end
