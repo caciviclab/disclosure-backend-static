@@ -37,8 +37,9 @@ class ReferendumExpendituresByType
         "Support_Or_Oppose" AS "Sup_Opp_Cd",
         contributions_by_type.type,
         SUM(contributions_by_type.total) as total
-      FROM "oakland_committees" committees, contributions_by_type
-      WHERE committees."Filer_ID" = contributions_by_type."Filer_ID"
+      FROM contributions_by_type
+      INNER JOIN oakland_committees committees
+        ON committees."Filer_ID" = contributions_by_type."Filer_ID"
       GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type;
     SQL

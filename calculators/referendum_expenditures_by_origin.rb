@@ -31,8 +31,9 @@ class ReferendumExpendituresByOrigin
         "Support_Or_Oppose" AS "Sup_Opp_Cd",
         contributions_by_locale.locale,
         SUM(contributions_by_locale.total) as total
-      FROM "oakland_committees" committees, contributions_by_locale
-      WHERE committees."Filer_ID"::varchar = contributions_by_locale."Filer_ID"::varchar
+      FROM contributions_by_locale
+      INNER JOIN oakland_committees committees
+        ON committees."Filer_ID"::varchar = contributions_by_locale."Filer_ID"::varchar
       GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
     SQL
