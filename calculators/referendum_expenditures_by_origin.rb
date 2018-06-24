@@ -72,8 +72,8 @@ class ReferendumExpendituresByOrigin
     [
       [support_total, support, :supporting_locales, :supporting_total],
       [oppose_total, oppose, :opposing_locales, :opposing_total],
-    ].each do |expenditures, locales, calculation_name, total_name|
-      expenditures.keys.each do |measure|
+    ].each do |expenditures_of_type, locales, calculation_name, total_name|
+      expenditures_of_type.keys.each do |measure|
         total = 0
         ballot_measure = ballot_measure_from_number(measure)
 
@@ -88,18 +88,18 @@ class ReferendumExpendituresByOrigin
 
         result = locales[measure].keys.map do |locale|
           amount = locales[measure][locale]
-          expenditures[measure] -= amount
+          expenditures_of_type[measure] -= amount
           total += amount
           {
             locale: locale,
             amount: amount,
           }
         end
-        if expenditures[measure] > 0
-          total += expenditures[measure]
+        if expenditures_of_type[measure] > 0
+          total += expenditures_of_type[measure]
           result << {
             locale: 'Unknown',
-            amount: expenditures[measure],
+            amount: expenditures_of_type[measure],
           }
         end
         ballot_measure.save_calculation(total_name, total)

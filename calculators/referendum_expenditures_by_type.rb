@@ -71,8 +71,8 @@ class ReferendumExpendituresByType
     [
       [support_total, support, :supporting_type],
       [oppose_total, oppose, :opposing_type],
-    ].each do |expenditures, by_type, calculation_name|
-      expenditures.keys.each do |measure|
+    ].each do |expenditures_of_type, by_type, calculation_name|
+      expenditures_of_type.keys.each do |measure|
         ballot_measure = ballot_measure_from_number(measure)
 
         if ballot_measure.nil?
@@ -86,16 +86,16 @@ class ReferendumExpendituresByType
 
         result = by_type[measure].keys.map do |type|
           amount = by_type[measure][type]
-          expenditures[measure] -= amount
+          expenditures_of_type[measure] -= amount
           {
             type: type,
             amount: amount,
           }
         end
-        if expenditures[measure] > 0
+        if expenditures_of_type[measure] > 0
           result << {
             type: 'COM',
-            amount: expenditures[measure],
+            amount: expenditures_of_type[measure],
           }
         end
         ballot_measure.save_calculation(calculation_name, result)
