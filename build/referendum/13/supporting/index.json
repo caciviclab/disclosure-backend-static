@@ -1,63 +1,20 @@
 {
   "id": 13,
   "contest_type": "Referendum",
-  "name": "Alameda County Sales Tax for Childcare and Education",
-  "title": "Alameda County Sales Tax for Childcare and Education",
-  "summary": null,
-  "number": "A",
+  "name": "Repeal Ranked Choice Voting",
+  "title": "Repeal Ranked Choice Voting",
+  "summary": "Amend City Charter to remove rank choice voting for municipal elections",
+  "number": "PENDING-7",
   "supporting_organizations": [
-    {
-      "id": null,
-      "name": "AECOM",
-      "payee": "AECOM",
-      "amount": 20000.0
-    },
-    {
-      "id": null,
-      "name": "ARCADIS U.S., INC.",
-      "payee": "ARCADIS U.S., INC.",
-      "amount": 10000.0
-    },
-    {
-      "id": null,
-      "name": "John S. Wadsworth, Jr.",
-      "payee": "John S. Wadsworth, Jr.",
-      "amount": 10000.0
-    },
-    {
-      "id": null,
-      "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
-      "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
-      "amount": 43556.0
-    }
+
   ],
-  "total_contributions": 279564.07,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 149500.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 125064.07,
-      "locale": "Within California"
-    },
-    {
-      "amount": 5000.0,
-      "locale": "Within Oakland"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 47143.25
-    },
-    {
-      "type": "Individual",
-      "amount": 12500.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 219920.82
-    }
+
   ]
 }

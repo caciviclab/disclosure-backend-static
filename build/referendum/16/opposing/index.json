@@ -1,29 +1,20 @@
 {
   "id": 16,
   "contest_type": "Referendum",
-  "name": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
-  "title": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
+  "name": "Regional Measure 3",
+  "title": "Regional Measure 3",
   "summary": null,
-  "number": "E",
+  "number": "3",
   "opposing_organizations": [
-    {
-      "id": null,
-      "name": "R.J. REYNOLDS TOBACCO COMPANY AND ITS AFFILIATES, BY ITS SERVICE COMPANY RAI SERVICES COMPANY",
-      "payee": "R.J. REYNOLDS TOBACCO COMPANY AND ITS AFFILIATES, BY ITS SERVICE COMPANY RAI SERVICES COMPANY",
-      "amount": 2662311.17
-    }
+
   ],
-  "total_contributions": 13084309.78,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 13084309.78,
-      "locale": "Out of State"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 13084309.78
-    }
+
   ]
 }

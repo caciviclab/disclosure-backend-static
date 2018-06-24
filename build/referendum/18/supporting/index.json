@@ -1,20 +1,87 @@
 {
   "id": 18,
   "contest_type": "Referendum",
-  "name": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
-  "title": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
+  "name": "Library Parcel Tax",
+  "title": "Library Parcel Tax",
   "summary": null,
-  "number": "V",
+  "number": "D",
   "supporting_organizations": [
-
+    {
+      "id": "1402425",
+      "name": "Affordable Housing for All, Yes on D",
+      "payee": "Affordable Housing for All, Yes on D",
+      "amount": 998332.33
+    },
+    {
+      "id": "1229791",
+      "name": "EMERALD FUND, INC.",
+      "payee": "EMERALD FUND, INC.",
+      "amount": 12500.0
+    },
+    {
+      "id": "942553734",
+      "name": "Friends of The Oakland Public Library",
+      "payee": "Friends of The Oakland Public Library",
+      "amount": 29000.0
+    },
+    {
+      "id": "1295554",
+      "name": "NIBBI BROTHERS ASSOCIATES",
+      "payee": "NIBBI BROTHERS ASSOCIATES",
+      "amount": 25000.0
+    },
+    {
+      "id": "1381519",
+      "name": "PROGRESS SAN FRANCISCO",
+      "payee": "PROGRESS SAN FRANCISCO",
+      "amount": 140000.0
+    },
+    {
+      "id": "1400467",
+      "name": "Protect Oakland Libraries - Yes on D 2018",
+      "payee": "Protect Oakland Libraries - Yes on D 2018",
+      "amount": 90260.8
+    },
+    {
+      "id": "1405137",
+      "name": "SOMA HOTEL, LLC",
+      "payee": "SOMA HOTEL, LLC",
+      "amount": 50000.0
+    },
+    {
+      "id": "1392132",
+      "name": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
+      "payee": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
+      "amount": 2361.0
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 1422495.0,
   "contributions_by_region": [
-
+    {
+      "amount": 179200.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 1151600.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 91695.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 357500.0
+    },
+    {
+      "type": "Individual",
+      "amount": 254245.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 810750.0
+    }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "id": 31,
+  "contest_type": "Referendum",
+  "name": "EXPANDS LOCAL GOVERNMENTS' AUTHORITY TO ENACT RENT CONTROL ON RESIDENTIAL PROPERTY. INTIATIVE STATUTE. (17-0041)",
+  "title": "EXPANDS LOCAL GOVERNMENTS' AUTHORITY TO ENACT RENT CONTROL ON RESIDENTIAL PROPERTY. INTIATIVE STATUTE. (17-0041)",
+  "summary": null,
+  "number": "PENDING-10",
+  "opposing_organizations": [
+    {
+      "id": "840002",
+      "name": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+      "payee": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+      "amount": 130739.99
+    }
+  ],
+  "total_contributions": 130739.99,
+  "contributions_by_region": [
+    {
+      "amount": 12300.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 21790.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 96649.99,
+      "locale": "Unknown"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Individual",
+      "amount": 4276.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 29814.0
+    },
+    {
+      "type": "COM",
+      "amount": 96649.99
+    }
+  ]
+}

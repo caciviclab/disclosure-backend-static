@@ -1,71 +1,20 @@
 {
   "id": 21,
   "contest_type": "Referendum",
-  "name": "Placeholder for a combination of C and D",
-  "title": "Placeholder for a combination of C and D",
+  "name": "Non-Citizen Voting in School Board, Measure N",
+  "title": "Non-Citizen Voting in School Board, Measure N",
   "summary": null,
-  "number": "C+D",
+  "number": "N",
   "opposing_organizations": [
-    {
-      "id": null,
-      "name": "BUILDING OWNERS AND MANAGERS ASSOCIATION (BOMA) INTERNATIONAL INDUSTRY DEFENSE FUND, OPPOSING PROPOSITIONS C & D (NONPROFIT 501(C)(6))",
-      "payee": "BUILDING OWNERS AND MANAGERS ASSOCIATION (BOMA) INTERNATIONAL INDUSTRY DEFENSE FUND, OPPOSING PROPOSITIONS C & D (NONPROFIT 501(C)(6))",
-      "amount": 165000.0
-    },
-    {
-      "id": "1404060",
-      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "amount": 1130392.44
-    },
-    {
-      "id": null,
-      "name": "SAN FRANCISCO ASSOCIATION OF REALTORS",
-      "payee": "SAN FRANCISCO ASSOCIATION OF REALTORS",
-      "amount": 6000.0
-    },
-    {
-      "id": null,
-      "name": "SF FORWARD SPONSORED BY SAN FRANCISCO CHAMBER OF COMMERCE",
-      "payee": "SF FORWARD SPONSORED BY SAN FRANCISCO CHAMBER OF COMMERCE",
-      "amount": 40000.0
-    },
-    {
-      "id": null,
-      "name": "The Swig Company, LLC",
-      "payee": "The Swig Company, LLC",
-      "amount": 20000.0
-    },
-    {
-      "id": null,
-      "name": "UNION SQUARE BUSINESS IMPROVEMENT DISTRICT",
-      "payee": "UNION SQUARE BUSINESS IMPROVEMENT DISTRICT",
-      "amount": 10000.0
-    }
+
   ],
-  "total_contributions": 1290196.8199999998,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 552626.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 737570.82,
-      "locale": "Within California"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 440000.0
-    },
-    {
-      "type": "Individual",
-      "amount": 59850.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 790346.82
-    }
+
   ]
 }

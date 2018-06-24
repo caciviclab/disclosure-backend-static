@@ -1,25 +1,41 @@
 {
   "id": 18,
   "contest_type": "Referendum",
-  "name": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
-  "title": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
+  "name": "Library Parcel Tax",
+  "title": "Library Parcel Tax",
   "summary": null,
-  "number": "V",
+  "number": "D",
   "opposing_organizations": [
     {
-      "id": "1344506",
-      "name": "American Beverage Association California PAC",
-      "payee": "American Beverage Association California PAC",
-      "amount": -20654.2
+      "id": "1404060",
+      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
+      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
+      "amount": 1130392.44
     }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 1290196.8199999998,
   "contributions_by_region": [
-
+    {
+      "amount": 552626.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 737570.82,
+      "locale": "Within California"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 440000.0
+    },
+    {
+      "type": "Individual",
+      "amount": 59850.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 790346.82
+    }
   ]
 }

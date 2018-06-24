@@ -1,23 +1,24 @@
 {
   "id": 25,
   "contest_type": "Referendum",
-  "name": "Measure to support the purchase and use of conductive energy devices by the San Francisco Police Department",
-  "title": "Measure to support the purchase and use of conductive energy devices by the San Francisco Police Department",
+  "name": "Additional tax on Commercial Rents to Fund Childcare & Education",
+  "title": "Additional tax on Commercial Rents to Fund Childcare & Education",
   "summary": null,
-  "number": "H",
+  "number": "C",
   "supporting_organizations": [
     {
-      "id": null,
-      "name": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
-      "payee": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
-      "amount": 121616.78
+      "id": "1405137",
+      "name": "SOMA HOTEL, LLC",
+      "payee": "SOMA HOTEL, LLC",
+      "amount": 40000.0
     }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 40000.0,
   "contributions_by_region": [
-
+    {
+      "amount": 40000.0,
+      "locale": "Unknown"
+    }
   ],
   "contributions_by_type": [
 
