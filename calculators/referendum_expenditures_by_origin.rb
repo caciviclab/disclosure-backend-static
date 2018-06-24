@@ -77,12 +77,19 @@ class ReferendumExpendituresByOrigin
         total = 0
         ballot_measure = ballot_measure_from_number(measure)
 
+        next if measure == 'SKIP'
+
         if ballot_measure.nil?
           puts 'WARN: Could not find ballot measure: ' + measure.inspect
           next
         end
+
         if locales[measure].nil?
-          puts 'WARN: No data for ' + total_name.inspect + ': ' + measure.inspect
+          # Debug with:
+          # SELECT * FROM "Measure_Expenditures" WHERE "Measure_Number" = '#{measure}'
+          $stderr.puts 'EXPENDITURES W/O CONTRIBUTIONS (by origin):'
+          $stderr.puts '  Expenditures present but contributions missing for ' + total_name.inspect + ': ' + measure.inspect
+          $stderr.puts '  Perhaps add expenditure committees to "committees" tab'
           next
         end
 

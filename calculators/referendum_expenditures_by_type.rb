@@ -79,8 +79,13 @@ class ReferendumExpendituresByType
           puts 'WARN: Could not find ballot measure: ' + measure.inspect
           next
         end
+
         if by_type[measure].nil?
-          puts 'WARN: No data for ' + calculation_name.inspect + ': ' + measure.inspect
+          # Debug with:
+          # SELECT * FROM "Measure_Expenditures" WHERE "Measure_Number" = '#{measure}'
+          $stderr.puts 'EXPENDITURES W/O CONTRIBUTIONS (by type):'
+          $stderr.puts '  Expenditures present but contributions missing for ' + calculation_name.inspect + ': ' + measure.inspect
+          $stderr.puts '  Perhaps add expenditure committees to "committees" tab'
           next
         end
 
