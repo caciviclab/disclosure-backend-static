@@ -65,26 +65,26 @@ Dir.glob('calculators/*').each do |calculator_file|
   end
 end
 
-# /candidates/libby-schaaf.json
+# /_data/candidates/libby-schaaf.json
 OaklandCandidate.includes(:office_election, :calculations).find_each do |candidate|
   filename = slugify(candidate['Candidate'])
-  build_file("/candidates/#{filename}.json") do |f|
+  build_file("/_data/candidates/#{filename}.json") do |f|
     f.puts candidate.to_json
   end
 end
 
-# /contributions/1229791.json
+# /_data/contributions/1229791.json
 OaklandCommittee.includes(:calculations).find_each do |committee|
   next if committee['Filer_ID'].nil?
   next if committee['Filer_ID'] =~ /pending/i
 
-  build_file("/committees/#{committee['Filer_ID']}.json") do |f|
+  build_file("/_data/committees/#{committee['Filer_ID']}.json") do |f|
     f.puts JSON.pretty_generate(contributions: committee.calculation(:contribution_list) || [])
   end
 end
 
-# /referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
-# /referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
+# /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
+# /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
 OaklandReferendum.includes(:calculations).find_each do |referendum|
   locality, _year = referendum.election_name.split('-', 2)
   election = ELECTIONS[referendum.election_name]
@@ -97,7 +97,7 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
     next
   end
 
-  build_file("/referendum_supporting/#{locality}/#{election[:date]}/#{title}.json") do |f|
+  build_file("/_data/referendum_supporting/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       supporting_organizations: referendum.calculation(:supporting_organizations) || [],
       total_contributions: referendum.calculation(:supporting_total) || [],
@@ -106,7 +106,7 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
     ))
   end
 
-  build_file("/referendum_opposing/#{locality}/#{election[:date]}/#{title}.json") do |f|
+  build_file("/_data/referendum_opposing/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       opposing_organizations: referendum.calculation(:opposing_organizations) || [],
       total_contributions: referendum.calculation(:opposing_total) || [],
@@ -116,11 +116,11 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
   end
 end
 
-build_file('/totals') do |f|
+build_file('/_data/totals.json') do |f|
   f.puts JSON.pretty_generate(Hash[ContributionsByOrigin.sort])
 end
 
-build_file('/stats') do |f|
+build_file('/_data/stats.json') do |f|
   f.puts JSON.pretty_generate(
     date_processed: TZInfo::Timezone.get('America/Los_Angeles').now.to_date,
   )
