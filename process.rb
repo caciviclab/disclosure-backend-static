@@ -162,7 +162,7 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
       'locality' => locality,
       'election' => election[:date],
       'title' => referendum['Short_Title'],
-      'number' => referendum['Measure_number']
+      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number']
     ))
     f.puts('---')
     f.puts(referendum['Summary'])
