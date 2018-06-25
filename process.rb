@@ -5,15 +5,15 @@ require 'open-uri'
 
 # map of election_name => { hash including date }
 ELECTIONS = {
-  'sf-2016' => { date: '2016-11-08' },
-  'oakland-2016' => { date: '2016-11-08' },
+  'sf-2016' => { date: '2016-11-08', title: 'San Francisco November 8th, 2016 Election' },
+  'oakland-2016' => { date: '2016-11-08', title: 'Oakland November 8th, 2016 Election' },
 
-  'sf-june-2018' => { date: '2018-06-05' },
-  'oakland-june-2018' => { date: '2018-06-05' },
+  'sf-june-2018' => { date: '2018-06-05', title: 'San Francisco June 5th, 2018 Election'  },
+  'oakland-june-2018' => { date: '2018-06-05', title: 'Oakland June 5th, 2018 Election' },
 
-  'sf-2018' => { date: '2018-11-06' },
-  'oakland-2018' => { date: '2018-11-06' },
-  'berkeley-2018' => { date: '2018-11-06' },
+  'sf-2018' => { date: '2018-11-06', title: 'San Francisco November 6th, 2018 Election'  },
+  'oakland-2018' => { date: '2018-11-06', title: 'Oakland November 6th, 2018 Election' },
+  'berkeley-2018' => { date: '2018-11-06', title: 'Berkeley November 6th, 2018 Election'  },
 }
 
 def build_file(filename, &block)
@@ -26,6 +26,28 @@ end
 # (text || '').toLowerCase().replace(/[\._~!$&'()+,;=@]+/g, '').replace(/[^a-z0-9-]+/g, '-');
 def slugify(word)
   (word || '').downcase.gsub(/[\._~!$&'()+,;=@]+/, '').gsub(/[^a-z0-9-]+/, '-')
+end
+
+# Sort like:
+# 1. Mayor
+# 2. City Council ...
+# 3. City ...
+# 4. School Board
+#
+# If multiple offices match the same regex they are sorted alphabetically (i.e.
+# "School Board District 1", then "School Board District 2")
+SORT_PATTERNS = [
+  /mayor/i,
+  /city council/i,
+  /city /i,
+  /ousd/i,
+]
+def sort_office_elections(office_elections)
+  office_elections
+    .group_by { |office| SORT_PATTERNS.find_index { |p| office =~ p } || Float::INFINITY }
+    .sort_by { |k, _v| k }
+    .map { |_k, v| v.sort }
+    .flatten
 end
 
 # first, create OfficeElection records for all the offices to assign them IDs
@@ -62,6 +84,30 @@ Dir.glob('calculators/*').each do |calculator_file|
     else
       raise
     end
+  end
+end
+
+# /_ballots/oakland/2018-11-06.md
+ELECTIONS.each do |election_name, election|
+  locality, _time = election_name.split('-', 2)
+  office_elections = sort_office_elections(
+    OaklandCandidate.where(election_name: election_name).pluck(:Office).uniq
+  )
+  referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
+
+  build_file("/_ballots/#{locality}/#{election[:date]}.md") do |f|
+    f.puts(YAML.dump(
+      'title' => election[:title],
+      'locality' => locality,
+      'election' => election[:date],
+      'office_elections' => office_elections.map do |office|
+        "_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md"
+      end,
+      'referendums' => referendums.map do |title|
+        "_referendums/#{locality}/#{election[:date]}/#{slugify(title)}.md"
+      end,
+    ))
+    f.puts('---')
   end
 end
 
