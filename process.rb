@@ -22,7 +22,7 @@ def build_file(filename, &block)
   File.open(filename, 'w', &block)
 end
 
-# keep this logic in-sync with the frontend
+# keep this logic in-sync with the frontend (_plugins/odca_slugify.rb)
 # (text || '').toLowerCase().replace(/[\._~!$&'()+,;=@]+/g, '').replace(/[^a-z0-9-]+/g, '-');
 def slugify(word)
   (word || '').downcase.gsub(/[\._~!$&'()+,;=@]+/, '').gsub(/[^a-z0-9-]+/, '-')
