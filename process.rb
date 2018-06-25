@@ -83,8 +83,6 @@ OaklandCommittee.includes(:calculations).find_each do |committee|
   end
 end
 
-# /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
-# /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
 OaklandReferendum.includes(:calculations).find_each do |referendum|
   locality, _year = referendum.election_name.split('-', 2)
   election = ELECTIONS[referendum.election_name]
@@ -97,6 +95,19 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
     next
   end
 
+  # /_referendums/oakland/2018-11-06/oakland-childrens-initiative.md
+  build_file("/_referendums/#{locality}/#{election[:date]}/#{title}.md") do |f|
+    f.puts(YAML.dump(
+      'locality' => locality,
+      'election' => election[:date],
+      'title' => referendum['Short_Title'],
+      'number' => referendum['Measure_number']
+    ))
+    f.puts('---')
+    f.puts(referendum['Summary'])
+  end
+
+  # /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
   build_file("/_data/referendum_supporting/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       supporting_organizations: referendum.calculation(:supporting_organizations) || [],
@@ -106,6 +117,7 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
     ))
   end
 
+  # /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
   build_file("/_data/referendum_opposing/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       opposing_organizations: referendum.calculation(:opposing_organizations) || [],
