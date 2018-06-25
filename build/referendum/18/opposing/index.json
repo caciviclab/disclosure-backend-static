@@ -1,41 +1,20 @@
 {
   "id": 18,
   "contest_type": "Referendum",
-  "name": "Library Parcel Tax",
-  "title": "Library Parcel Tax",
+  "name": "Bond: Public Health and Safety Bond, Measure",
+  "title": "Bond: Public Health and Safety Bond, Measure",
   "summary": null,
-  "number": "D",
+  "number": "A",
   "opposing_organizations": [
-    {
-      "id": "1404060",
-      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "amount": 1130392.44
-    }
+
   ],
-  "total_contributions": 1290196.8199999998,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 552626.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 737570.82,
-      "locale": "Within California"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 440000.0
-    },
-    {
-      "type": "Individual",
-      "amount": 59850.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 790346.82
-    }
+
   ]
 }

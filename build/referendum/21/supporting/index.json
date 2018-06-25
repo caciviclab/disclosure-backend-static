@@ -1,37 +1,20 @@
 {
   "id": 21,
   "contest_type": "Referendum",
-  "name": "Non-Citizen Voting in School Board, Measure N",
-  "title": "Non-Citizen Voting in School Board, Measure N",
+  "name": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
+  "title": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
   "summary": null,
-  "number": "N",
+  "number": "V",
   "supporting_organizations": [
-    {
-      "id": "1390722",
-      "name": "Coalition for Immigrant Parent Empowerment, Yes on N, 2016",
-      "payee": "Coalition for Immigrant Parent Empowerment, Yes on N, 2016",
-      "amount": 15694.1
-    }
+
   ],
-  "total_contributions": 23717.16,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 10000.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 13717.16,
-      "locale": "Unknown"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 10000.0
-    },
-    {
-      "type": "COM",
-      "amount": 13717.16
-    }
+
   ]
 }

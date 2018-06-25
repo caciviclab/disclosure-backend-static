@@ -1,79 +1,37 @@
 {
   "id": 20,
   "contest_type": "Referendum",
-  "name": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
-  "title": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
+  "name": "Non-Citizen Voting in School Board, Measure N",
+  "title": "Non-Citizen Voting in School Board, Measure N",
   "summary": null,
-  "number": "E",
+  "number": "N",
   "supporting_organizations": [
     {
-      "id": null,
-      "name": "American Cancer Society Cancer Action Network, Inc.",
-      "payee": "American Cancer Society Cancer Action Network, Inc.",
-      "amount": 48000.0
-    },
-    {
-      "id": null,
-      "name": "Elizabeth M. Brown",
-      "payee": "Elizabeth M. Brown",
-      "amount": 75000.0
-    },
-    {
-      "id": null,
-      "name": "Friends of the Urban Forest (nonprofit 501(c) (3)), Yes on E",
-      "payee": "Friends of the Urban Forest (nonprofit 501(c) (3)), Yes on E",
-      "amount": 100000.0
-    },
-    {
-      "id": "1398847",
-      "name": "Yes on Proposition E San Francisco Kids vs. Big Tobacco",
-      "payee": "Yes on Proposition E San Francisco Kids vs. Big Tobacco",
-      "amount": 4751843.69
-    },
-    {
-      "id": "1386655",
-      "name": "Yes on E, Coalition for Healthy Trees and Safe Sidewalks, with Major Funding by Friends of the Urban Forest Committee and Mitzi Johnson",
-      "payee": "Yes on E, Coalition for Healthy Trees and Safe Sidewalks, with Major Funding by Friends of the Urban Forest Committee and Mitzi Johnson",
-      "amount": 4974.56
-    },
-    {
-      "id": null,
-      "name": "Yes on Proposition E Tobacco-Free Kids Action Fund (Nonprofit 501(c)(4)) Protecting Youth From Flavored Tobacco Products",
-      "payee": "Yes on Proposition E Tobacco-Free Kids Action Fund (Nonprofit 501(c)(4)) Protecting Youth From Flavored Tobacco Products",
-      "amount": 33541.72
+      "id": "1390722",
+      "name": "Coalition for Immigrant Parent Empowerment, Yes on N, 2016",
+      "payee": "Coalition for Immigrant Parent Empowerment, Yes on N, 2016",
+      "amount": 15694.1
     }
   ],
-  "total_contributions": 4680725.56999999,
+  "total_contributions": 23717.16,
   "contributions_by_region": [
     {
-      "amount": 2406365.74,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 149771.16,
+      "amount": 10000.0,
       "locale": "Within California"
     },
     {
-      "amount": 2124588.6699999897,
+      "amount": 13717.16,
       "locale": "Unknown"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 184432.5
-    },
-    {
-      "type": "Individual",
-      "amount": 1800850.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 570854.4
+      "amount": 10000.0
     },
     {
       "type": "COM",
-      "amount": 2124588.66999999
+      "amount": 13717.16
     }
   ]
 }

@@ -1,37 +1,20 @@
 {
   "id": 22,
   "contest_type": "Referendum",
-  "name": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
-  "title": "TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V",
+  "name": "Universal Childcare in San Francisco",
+  "title": "Universal Childcare in San Francisco",
   "summary": null,
-  "number": "V",
+  "number": "PENDING-4",
   "opposing_organizations": [
-    {
-      "id": "1382995",
-      "name": "NO ON V, ENOUGH IS ENOUGH: DON'T TAX OUR GROCERIES, WITH MAJOR FUNDING BY AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC",
-      "payee": "NO ON V, ENOUGH IS ENOUGH: DON'T TAX OUR GROCERIES, WITH MAJOR FUNDING BY AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC",
-      "amount": -20654.2
-    }
+
   ],
-  "total_contributions": 96849.12,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 90347.02,
-      "locale": "Within California"
-    },
-    {
-      "amount": 6502.099999999991,
-      "locale": "Unknown"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 90347.02
-    },
-    {
-      "type": "COM",
-      "amount": 6502.099999999991
-    }
+
   ]
 }

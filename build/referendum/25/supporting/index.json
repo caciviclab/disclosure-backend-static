@@ -1,24 +1,18 @@
 {
   "id": 25,
   "contest_type": "Referendum",
-  "name": "Additional tax on Commercial Rents to Fund Childcare & Education",
-  "title": "Additional tax on Commercial Rents to Fund Childcare & Education",
+  "name": "Placeholder for a combination of C and D",
+  "title": "Placeholder for a combination of C and D",
   "summary": null,
-  "number": "C",
+  "number": "C+D",
   "supporting_organizations": [
-    {
-      "id": "1405137",
-      "name": "SOMA HOTEL, LLC",
-      "payee": "SOMA HOTEL, LLC",
-      "amount": 40000.0
-    }
+
   ],
-  "total_contributions": 40000.0,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 40000.0,
-      "locale": "Unknown"
-    }
+
   ],
   "contributions_by_type": [
 

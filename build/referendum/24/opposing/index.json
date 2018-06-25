@@ -1,20 +1,51 @@
 {
   "id": 24,
   "contest_type": "Referendum",
-  "name": "Public Utilities Revenue Bonds",
-  "title": "Public Utilities Revenue Bonds",
+  "name": "Additional tax on Commercial Rents to Fund Childcare & Education",
+  "title": "Additional tax on Commercial Rents to Fund Childcare & Education",
   "summary": null,
-  "number": "A",
+  "number": "C",
   "opposing_organizations": [
-
+    {
+      "id": "931558",
+      "name": "Edwin M. Lee Democratic Club Political Action Committee",
+      "payee": "Edwin M. Lee Democratic Club Political Action Committee",
+      "amount": 93083.55
+    },
+    {
+      "id": "1404060",
+      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
+      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
+      "amount": 1130392.44
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 1446921.8199999998,
   "contributions_by_region": [
-
+    {
+      "amount": 607626.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 838995.82,
+      "locale": "Within California"
+    },
+    {
+      "amount": 300.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 444350.0
+    },
+    {
+      "type": "Individual",
+      "amount": 130225.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 872346.82
+    }
   ]
 }

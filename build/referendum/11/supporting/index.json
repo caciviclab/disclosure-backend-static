@@ -1,43 +1,20 @@
 {
   "id": 11,
   "contest_type": "Referendum",
-  "name": "Oakland Children's Initiative",
-  "title": "Oakland Children's Initiative",
-  "summary": "Establish parcel tax to expand access to preschool, improve graduation rates, and reduce disparities in kinderreadiness and college completion",
-  "number": "PENDING-2",
+  "name": "Establish Residency Requirement and Term Limits",
+  "title": "Establish Residency Requirement and Term Limits",
+  "summary": "Amend City Charter to increase residency requirement to serve on the City Council from 30 days to one year, increase the term for City Council from 4 to 6 years, and limit Council members to serving 2 terms of office",
+  "number": "PENDING-3",
   "supporting_organizations": [
-    {
-      "id": "1400908",
-      "name": "East Bay Community Foundation (nonprofit 501(c)(3))",
-      "payee": "East Bay Community Foundation (nonprofit 501(c)(3))",
-      "amount": 300000.0
-    },
-    {
-      "id": "1310647",
-      "name": "The Oakland Fund",
-      "payee": "The Oakland Fund",
-      "amount": 201288.6
-    }
+
   ],
-  "total_contributions": 725000.0,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 550000.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 175000.0,
-      "locale": "Within Oakland"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Individual",
-      "amount": 400000.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 325000.0
-    }
+
   ]
 }

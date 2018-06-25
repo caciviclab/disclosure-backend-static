@@ -1,18 +1,24 @@
 {
   "id": 24,
   "contest_type": "Referendum",
-  "name": "Public Utilities Revenue Bonds",
-  "title": "Public Utilities Revenue Bonds",
+  "name": "Additional tax on Commercial Rents to Fund Childcare & Education",
+  "title": "Additional tax on Commercial Rents to Fund Childcare & Education",
   "summary": null,
-  "number": "A",
+  "number": "C",
   "supporting_organizations": [
-
+    {
+      "id": "1405137",
+      "name": "SOMA HOTEL, LLC",
+      "payee": "SOMA HOTEL, LLC",
+      "amount": 40000.0
+    }
   ],
-  "total_contributions": [
-
-  ],
+  "total_contributions": 40000.0,
   "contributions_by_region": [
-
+    {
+      "amount": 40000.0,
+      "locale": "Unknown"
+    }
   ],
   "contributions_by_type": [
 
