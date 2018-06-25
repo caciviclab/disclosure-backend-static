@@ -94,8 +94,9 @@ ELECTIONS.each do |election_name, election|
     OaklandCandidate.where(election_name: election_name).pluck(:Office).uniq
   )
   referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
+  ballot_name = "/_ballots/#{locality}/#{election[:date]}.md"
 
-  build_file("/_ballots/#{locality}/#{election[:date]}.md") do |f|
+  build_file(ballot_name) do |f|
     f.puts(YAML.dump(
       'title' => election[:title],
       'locality' => locality,
@@ -108,6 +109,20 @@ ELECTIONS.each do |election_name, election|
       end,
     ))
     f.puts('---')
+  end
+
+  # /_office_elections/oakland/2018-11-06/city-auditor.md
+  office_elections.each do |office|
+    build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md") do |f|
+      candidates = OaklandCandidate.where(Office: office, election_name: election_name).pluck(:Candidate)
+
+      f.puts(YAML.dump(
+        'title' => office,
+        'candidates' => candidates.map { |name| slugify(name) },
+        'ballot' => ballot_name[1..-1],
+      ))
+      f.puts('---')
+    end
   end
 end
 
