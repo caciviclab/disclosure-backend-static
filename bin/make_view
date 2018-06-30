@@ -52,13 +52,12 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "Amount",
     "Payee_NamL" as "Recipient_Or_Description"
   FROM
-    "E-Expenditure" expend,
-    oakland_committees committee,
-    oakland_name_to_number
+    "E-Expenditure" expend
+  JOIN oakland_committees committee
+      ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
+  JOIN oakland_name_to_number ON "Measure_Name" = "Bal_Name"
   WHERE "Bal_Name" IS NULL
-    AND expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
     AND "Ballot_Measure" IS NOT NULL
-    AND "Measure_Name" = "Bal_Name"
   UNION ALL
 
   -- Get 24hr report expenditures. Infers S/O information from "committees" tab
