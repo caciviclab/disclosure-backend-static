@@ -14,6 +14,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   SELECT
     "Filer_ID"::varchar,
     "Filer_NamL",
+    "election_name",
     "Bal_Name",
     "Measure_Number",
     "Sup_Opp_Cd",
@@ -28,6 +29,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   SELECT
     "Filer_ID"::varchar,
     "Filer_NamL",
+    "election_name",
     "Bal_Name",
     "Measure_Number",
     "Sup_Opp_Cd",
@@ -43,16 +45,18 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   SELECT
     expend."Filer_ID"::varchar,
     expend."Filer_NamL",
+    "election_name",
     "Bal_Name",
     "Ballot_Measure" as "Measure_Number",
     "Support_Or_Oppose" as "Sup_Opp_Cd",
     "Amount",
     "Payee_NamL" as "Recipient_Or_Description"
   FROM
-    "E-Expenditure" expend,
-    oakland_committees committee
+    "E-Expenditure" expend
+  JOIN oakland_committees committee
+      ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
+  JOIN oakland_name_to_number ON "Measure_Name" = "Bal_Name"
   WHERE "Bal_Name" IS NULL
-    AND expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
     AND "Ballot_Measure" IS NOT NULL
   UNION ALL
 
@@ -61,6 +65,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   SELECT
     "497"."Filer_ID"::varchar,
     "497"."Filer_NamL",
+    "election_name",
     "Bal_Name",
     "Measure_Number",
     COALESCE(oakland_committees."Support_Or_Oppose", 'Unknown') as "Sup_Opp_Cd",

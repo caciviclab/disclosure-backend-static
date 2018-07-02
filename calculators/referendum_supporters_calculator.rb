@@ -8,10 +8,10 @@ class ReferendumSupportersCalculator
   def fetch
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd", "Recipient_Or_Description",
+      SELECT "Filer_ID", "Filer_NamL", "election_name", "Measure_Number", "Bal_Name", "Sup_Opp_Cd", "Recipient_Or_Description",
         SUM("Amount") AS "Total_Amount"
       FROM "Measure_Expenditures"
-      GROUP BY "Filer_ID", "Filer_NamL", "Measure_Number", "Bal_Name", "Sup_Opp_Cd", "Recipient_Or_Description"
+      GROUP BY "Filer_ID", "Filer_NamL", "election_name", "Measure_Number", "Bal_Name", "Sup_Opp_Cd", "Recipient_Or_Description"
       ORDER BY "Filer_NamL" ASC
     SQL
 
@@ -35,6 +35,7 @@ class ReferendumSupportersCalculator
 
     expenditures.each do |row|
       committee = committee_from_expenditure(row)
+      election_name = row['election_name']
       bal_num = row['Measure_Number']
 
       # TODO: track number of skips (#35)
@@ -53,25 +54,25 @@ class ReferendumSupportersCalculator
       end
 
       if row['Sup_Opp_Cd'] == 'S'
-        supporting_by_measure_name[bal_num] ||= {}
-        supporting_by_measure_name[bal_num][row['Filer_ID']] ||= {
+        supporting_by_measure_name[[election_name, bal_num]] ||= {}
+        supporting_by_measure_name[[election_name, bal_num]][row['Filer_ID']] ||= {
           id: committee ? committee['Filer_ID'] : nil,
           name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           # start with the other items from the summary page (lines 9 + 10)
           amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
-        supporting_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
+        supporting_by_measure_name[[election_name, bal_num]][row['Filer_ID']][:amount] += row['Total_Amount']
       elsif row['Sup_Opp_Cd'] == 'O'
-        opposing_by_measure_name[bal_num] ||= {}
-        opposing_by_measure_name[bal_num][row['Filer_ID']] ||= {
+        opposing_by_measure_name[[election_name, bal_num]] ||= {}
+        opposing_by_measure_name[[election_name, bal_num]][row['Filer_ID']] ||= {
           id: committee ? committee['Filer_ID'] : nil,
           name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           # start with the other items from the summary page (lines 9 + 10)
           amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
-        opposing_by_measure_name[bal_num][row['Filer_ID']][:amount] += row['Total_Amount']
+        opposing_by_measure_name[[election_name, bal_num]][row['Filer_ID']][:amount] += row['Total_Amount']
       else
         $stderr.puts
         $stderr.puts "UNKNOWN SUPPORT ($#{row['Total_Amount']}) -- Add to 'Committees' tab:"
@@ -90,8 +91,8 @@ class ReferendumSupportersCalculator
       [opposing_by_measure_name, :opposing_organizations],
     ].each do |rows_by_bal_num, calculation_name|
       # the processing is the same for both supporting and opposing expenses
-      rows_by_bal_num.each do |bal_num, rows|
-        ballot_measure = ballot_measure_from_num(bal_num)
+      rows_by_bal_num.each do |(election_name, bal_num), rows|
+        ballot_measure = ballot_measure_from_num(election_name, bal_num)
 
         if ballot_measure.nil?
           $stderr.puts 'WARN: Could not find ballot measure: ' + bal_num.inspect
@@ -109,8 +110,11 @@ class ReferendumSupportersCalculator
 
   private
 
-  def ballot_measure_from_num(bal_num)
-    @ballot_measures.detect { |measure| measure['Measure_number'] == bal_num }
+  def ballot_measure_from_num(election_name, bal_num)
+    @ballot_measures.detect do |measure|
+      measure['election_name'] == election_name &&
+                measure['Measure_number'] == bal_num 
+    end
   end
 
   def committee_from_expenditure(expenditure)
