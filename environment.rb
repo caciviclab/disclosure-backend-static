@@ -1,3 +1,4 @@
+require 'active_support/core_ext/hash/compact'
 require 'active_record'
 require 'json'
 

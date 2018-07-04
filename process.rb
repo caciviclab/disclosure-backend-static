@@ -111,6 +111,27 @@ ELECTIONS.each do |election_name, election|
     f.puts('---')
   end
 
+  # /_candidates/abel-guillen.md
+  OaklandCandidate.where(election_name: election_name).each do |candidate|
+    build_file("/_candidates/#{slugify(candidate.Candidate)}.md") do |f|
+      f.puts(YAML.dump({
+        'name' => candidate.Candidate,
+        'photo_url' => candidate.Photo,
+        'website_url' => candidate.Website,
+        'twitter_url' => candidate.Twitter,
+        'votersedge_url' => candidate.VotersEdge,
+        'committee_name' => candidate.Committee_Name,
+        'is_accepted_expenditure_ceiling' => candidate.Accepted_expenditure_ceiling,
+        'is_incumbent' => candidate.Incumbent,
+        'occupation' => candidate.Occupation,
+        'party_affiliation' => candidate.Party_Affiliation,
+        'filer_id' => candidate.FPPC,
+        'ballots' => ["_ballots/#{locality}/#{election[:date]}.md"]
+      }.compact))
+      f.puts('---')
+    end
+  end
+
   # /_office_elections/oakland/2018-11-06/city-auditor.md
   office_elections.each do |office|
     build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md") do |f|
