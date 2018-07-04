@@ -4,7 +4,54 @@
   "name": "City Council District 6",
   "candidates": [
     {
-      "id": 36,
+      "id": 29,
+      "name": "Loren Taylor",
+      "photo_url": null,
+      "website_url": null,
+      "twitter_url": null,
+      "votersedge_url": null,
+      "first_name": "Loren",
+      "last_name": "Taylor",
+      "ballot_item": 11,
+      "office_election": 11,
+      "bio": null,
+      "committee_name": "Loren Taylor for Oakland City Council 2018",
+      "is_accepted_expenditure_ceiling": true,
+      "is_incumbent": false,
+      "occupation": null,
+      "party_affiliation": null,
+      "filer_id": 1401499,
+      "supporting_money": {
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
+        "total_supporting_independent": 0.0,
+        "contributions_by_type": {
+        },
+        "contributions_by_origin": {
+        },
+        "expenditures_by_type": {
+        },
+        "supporting_by_type": {
+        }
+      },
+      "opposing_money": {
+        "opposing_expenditures": null,
+        "opposing_by_type": {
+        }
+      },
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
+      "contributions_by_type": {
+      },
+      "expenditures_by_type": {
+      }
+    },
+    {
+      "id": 37,
       "name": "Desley Brooks",
       "photo_url": null,
       "website_url": null,
@@ -18,7 +65,7 @@
       "committee_name": "Desley Brooks for City Council 2018",
       "is_accepted_expenditure_ceiling": true,
       "is_incumbent": true,
-      "occupation": "Incumbent, Councilmember",
+      "occupation": "Councilmember",
       "party_affiliation": null,
       "filer_id": 1236617,
       "supporting_money": {
@@ -81,53 +128,6 @@
       }
     },
     {
-      "id": 39,
-      "name": "Loren Taylor",
-      "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
-      "votersedge_url": null,
-      "first_name": "Loren",
-      "last_name": "Taylor",
-      "ballot_item": 11,
-      "office_election": 11,
-      "bio": null,
-      "committee_name": "Loren Taylor for Oakland City Council 2018",
-      "is_accepted_expenditure_ceiling": true,
-      "is_incumbent": false,
-      "occupation": null,
-      "party_affiliation": null,
-      "filer_id": 1401499,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "total_supporting_independent": 0.0,
-        "contributions_by_type": {
-        },
-        "contributions_by_origin": {
-        },
-        "expenditures_by_type": {
-        },
-        "supporting_by_type": {
-        }
-      },
-      "opposing_money": {
-        "opposing_expenditures": null,
-        "opposing_by_type": {
-        }
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
       "id": 41,
       "name": "Natasha Middleton",
       "photo_url": null,
@@ -179,7 +179,7 @@
       "name": "Maria \"Marlo\" Rodriguez",
       "photo_url": null,
       "website_url": null,
-      "twitter_url": null,
+      "twitter_url": "marlo4oakland",
       "votersedge_url": null,
       "first_name": "Maria",
       "last_name": "\"Marlo\" Rodriguez",

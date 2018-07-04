@@ -1,41 +1,40 @@
 {
   "id": 38,
-  "name": "Nikki Fortunato Bas",
-  "photo_url": "https://d3n8a8pro7vhmx.cloudfront.net/nikki4oakland/pages/34/attachments/original/1513124836/NikkiLaunch-December17.png?1513124836",
-  "website_url": "http://www.nikki4oakland.com/launch",
-  "twitter_url": "Nikki4Oakland",
+  "name": "Amy Eng",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
   "votersedge_url": null,
-  "first_name": "Nikki",
-  "last_name": "Fortunato Bas",
-  "ballot_item": 6,
-  "office_election": 6,
+  "first_name": "Amy",
+  "last_name": "Eng",
+  "ballot_item": 16,
+  "office_election": 16,
   "bio": null,
-  "committee_name": "Nikki Fortunato Bas for Oakland City Council 2018",
+  "committee_name": "Aimee Eng for School Board 2014",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": false,
+  "is_incumbent": true,
   "occupation": null,
   "party_affiliation": null,
-  "filer_id": 1400325,
+  "filer_id": 1368984,
   "supporting_money": {
-    "contributions_received": 43000.0,
-    "total_contributions": 43000.0,
-    "total_expenditures": 3729.35,
-    "total_loans_received": 0.0,
+    "contributions_received": 4900.0,
+    "total_contributions": 4900.0,
+    "total_expenditures": 5272.0,
+    "total_loans_received": 3500.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Individual": 37951.0,
-      "Unitemized": 5049.0
+      "Committee": 1400.0,
+      "Unitemized": 0.0
     },
     "contributions_by_origin": {
-      "Out of State": 6300.0,
-      "Within Oakland": 22901.0,
-      "Within California": 8750.0
+      "Within California": 1400.0
     },
     "expenditures_by_type": {
-      "Not Stated": 2245.31,
-      "Office Expenses": 118.87,
-      "Postage, Delivery and Messenger Services": 29.69,
-      "Professional Services (Legal, Accounting)": 1228.19
+      "Not Stated": 72.0,
+      "Contribution": 1175.0,
+      "Office Expenses": 100.0,
+      "Campaign Workers' Salaries": 3500.0,
+      "Candidate Filing/Ballot Fees": 140.0
     },
     "supporting_by_type": {
     }
@@ -45,18 +44,19 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 43000.0,
-  "total_contributions": 43000.0,
-  "total_expenditures": 3729.35,
-  "total_loans_received": 0.0,
+  "contributions_received": 4900.0,
+  "total_contributions": 4900.0,
+  "total_expenditures": 5272.0,
+  "total_loans_received": 3500.0,
   "contributions_by_type": {
-    "Individual": 37951.0,
-    "Unitemized": 5049.0
+    "Committee": 1400.0,
+    "Unitemized": 0.0
   },
   "expenditures_by_type": {
-    "Not Stated": 2245.31,
-    "Office Expenses": 118.87,
-    "Postage, Delivery and Messenger Services": 29.69,
-    "Professional Services (Legal, Accounting)": 1228.19
+    "Not Stated": 72.0,
+    "Contribution": 1175.0,
+    "Office Expenses": 100.0,
+    "Campaign Workers' Salaries": 3500.0,
+    "Candidate Filing/Ballot Fees": 140.0
   }
 }
