@@ -22,7 +22,7 @@ class CandidateSupportingExpenditure
           AND "496"."Sup_Opp_Cd" = 'S'
           AND "FPPC" IS NOT NULL
 
-        UNION ALL
+        UNION
         SELECT "FPPC" as "Filer_ID", "Filer_NamL", "Amount"
         FROM "D-Expenditure"
         INNER JOIN "oakland_candidates"
