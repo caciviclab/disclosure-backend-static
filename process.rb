@@ -113,7 +113,7 @@ ELECTIONS.each do |election_name, election|
 
   # /_candidates/abel-guillen.md
   OaklandCandidate.where(election_name: election_name).each do |candidate|
-    build_file("/_candidates/#{slugify(candidate.Candidate)}.md") do |f|
+    build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
       f.puts(YAML.dump({
         'name' => candidate.Candidate,
         'photo_url' => candidate.Photo,
@@ -126,11 +126,23 @@ ELECTIONS.each do |election_name, election|
         'occupation' => candidate.Occupation,
         'party_affiliation' => candidate.Party_Affiliation,
         'filer_id' => candidate.FPPC,
-        'ballots' => ["_ballots/#{locality}/#{election[:date]}.md"]
+        'ballot' => "_ballots/#{locality}/#{election[:date]}.md"
       }.compact))
       f.puts('---')
     end
   end
+
+  # /_data/candidates/oakland/2016-11-06/libby-schaaf.json
+  OaklandCandidate
+    .where(election_name: election_name)
+    .includes(:office_election, :calculations)
+    .find_each do |candidate|
+      filename = slugify(candidate['Candidate'])
+      build_file("/_data/candidates/#{locality}/#{election[:date]}/#{filename}.json") do |f|
+        f.puts candidate.to_json
+      end
+  end
+
 
   # /_office_elections/oakland/2018-11-06/city-auditor.md
   office_elections.each do |office|
@@ -147,11 +159,14 @@ ELECTIONS.each do |election_name, election|
   end
 end
 
-# /_data/candidates/libby-schaaf.json
-OaklandCandidate.includes(:office_election, :calculations).find_each do |candidate|
-  filename = slugify(candidate['Candidate'])
-  build_file("/_data/candidates/#{filename}.json") do |f|
-    f.puts candidate.to_json
+# /_committees/1386416.md
+OaklandCommittee.find_each do |committee|
+  build_file("/_committees/#{committee.Filer_ID}.md") do |f|
+    f.puts(YAML.dump(
+      'filer_id' => committee.Filer_ID,
+      'name' => committee.Filer_NamL,
+    ))
+    f.puts('---')
   end
 end
 
