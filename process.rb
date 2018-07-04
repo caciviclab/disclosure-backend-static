@@ -48,46 +48,65 @@ end
 
 # third, write everything out to the build files
 OAKLAND_LOCALITY_ID = 2
+BERKELEY_LOCALITY_ID = 3
+SAN_FRANCISCO_LOCALITY_ID = 4
 ELECTIONS = [
-  { id: 1, date: '2016-11-08', election_name: 'oakland-2016', is_current: true },
-  { id: 2, date: '2018-11-06', election_name: 'oakland-2018' },
-  { id: 3, date: '2018-11-06', election_name: 'berkeley-2018' },
+  { id: 1, date: '2016-11-08', election_name: 'oakland-2016', locality_id: OAKLAND_LOCALITY_ID, is_current: true },
+  { id: 2, date: '2018-06-05', election_name: 'oakland-june-2018', locality_id: OAKLAND_LOCALITY_ID },
+  { id: 3, date: '2018-11-06', election_name: 'oakland-2018', locality_id: OAKLAND_LOCALITY_ID },
+  { id: 4, date: '2018-11-06', election_name: 'berkeley-2018', locality_id: BERKELEY_LOCALITY_ID },
+  { id: 5, date: '2018-06-05', election_name: 'sf-june-2018', locality_id: SAN_FRANCISCO_LOCALITY_ID },
+  { id: 6, date: '2018-11-06', election_name: 'sf-2018', locality_id: SAN_FRANCISCO_LOCALITY_ID },
+  { id: 7, date: '2016-11-08', election_name: 'sf-2016', locality_id: SAN_FRANCISCO_LOCALITY_ID },
 ]
 
 build_file('/locality/search') do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
 
+# TODO these should be objects, not arrays
 build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
   f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
 end
+
+build_file("/locality/#{BERKELEY_LOCALITY_ID}") do |f|
+  f.puts JSON.pretty_generate([{ name: 'Berkeley', type: 'city', id: BERKELEY_LOCALITY_ID }])
+end
+
+build_file("/locality/#{SAN_FRANCISCO_LOCALITY_ID}") do |f|
+  f.puts JSON.pretty_generate([{ name: 'San Francisco', type: 'city', id: SAN_FRANCISCO_LOCALITY_ID }])
+end
+
 
 ELECTIONS.each do |election|
   candidates = OfficeElection.where(election_name: election[:election_name])
   referendums = OaklandReferendum.where(election_name: election[:election_name])
   files = [
     "/ballot/#{election[:id]}",
-    ("/locality/#{OAKLAND_LOCALITY_ID}/current_ballot" if election[:is_current])
+    ("/locality/#{election[:locality_id]}/current_ballot" if election[:is_current])
   ].compact
 
   files.each do |filename|
     build_file(filename) do |f|
       f.puts({
-        id: 1,
+        id: election[:id],
         ballot_items: (
           candidates.map(&:as_json) +
           referendums.map(&:as_json)
         ),
         date: election[:date],
-        locality_id: OAKLAND_LOCALITY_ID,
+        locality_id: election[:locality_id],
       }.to_json)
     end
   end
 end
 
 OfficeElection.find_each do |office_election|
+  ballot = (ELECTIONS.select { |e| e[:election_name] == office_election[:election_name] }).first
+  raise "Unknown ballot for election_name=#{office_election[:election_name]}" if ballot.nil?
+
   build_file("/office_election/#{office_election.id}") do |f|
-    f.puts JSON.pretty_generate(office_election.as_json.merge(ballot_id: 1))
+    f.puts JSON.pretty_generate(office_election.as_json.merge(ballot_id: ballot[:id]))
   end
 end
 
@@ -122,8 +141,11 @@ OaklandCommittee.includes(:calculations).find_each do |committee|
 end
 
 OaklandReferendum.find_each do |referendum|
+  ballot = (ELECTIONS.select { |e| e[:election_name] == referendum[:election_name] }).first
+  raise "Unknown ballot for election_name=#{referendum[:election_name]}" if ballot.nil?
+
   build_file("/referendum/#{referendum.id}") do |f|
-    f.puts JSON.pretty_generate(referendum.as_json.merge(ballot_id: 1))
+    f.puts JSON.pretty_generate(referendum.as_json.merge(ballot_id: ballot[:id]))
   end
 
   build_file("/referendum/#{referendum.id}/supporting") do |f|
