@@ -11,7 +11,7 @@ psql disclosure-backend << SQL
 */
 CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   -- Map names to numbers as ballot numbers are often missing
-  SELECT
+  ( SELECT
     "Filer_ID"::varchar,
     "Filer_NamL",
     "election_name",
@@ -23,7 +23,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   FROM
     "E-Expenditure", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-  UNION ALL
+  UNION
 
   -- Get IE 
   SELECT
@@ -39,6 +39,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "496", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
   AND "Sup_Opp_Cd" IS NOT NULL
+  )
   UNION ALL
 
   -- Get support/oppose information from committee
