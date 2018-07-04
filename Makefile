@@ -2,11 +2,17 @@
 
 CD := $(shell pwd)
 
+clean-spreadsheets:
+	rm -rf downloads/csv/oakland_*.csv
+
 clean:
 	rm -rf downloads/raw downloads/csv
 
 process: process.rb
 	rm -rf build && ruby process.rb
+
+download-spreadsheets: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
+	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv
 
 download-cached:
 	wget -O- https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
@@ -17,9 +23,7 @@ upload-cache:
 	tar czf - downloads/csv downloads/static \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
-	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
-	download-SFO-2017 download-SFO-2018 \
+download: download-spreadsheets download-SFO-2017 download-SFO-2018 \
 	download-COAK-2015 download-COAK-2016 download-COAK-2017 download-COAK-2018 \
 	download-BRK-2017 download-BRK-2018
 
