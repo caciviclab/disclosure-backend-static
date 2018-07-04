@@ -57,6 +57,7 @@ ELECTIONS = [
   { id: 4, date: '2018-11-06', election_name: 'berkeley-2018', locality_id: BERKELEY_LOCALITY_ID },
   { id: 5, date: '2018-06-05', election_name: 'sf-june-2018', locality_id: SAN_FRANCISCO_LOCALITY_ID },
   { id: 6, date: '2018-11-06', election_name: 'sf-2018', locality_id: SAN_FRANCISCO_LOCALITY_ID },
+  { id: 7, date: '2016-11-08', election_name: 'sf-2016', locality_id: SAN_FRANCISCO_LOCALITY_ID },
 ]
 
 build_file('/locality/search') do |f|
