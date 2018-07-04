@@ -38,8 +38,8 @@ end
 # "School Board District 1", then "School Board District 2")
 SORT_PATTERNS = [
   /mayor/i,
-  /city council/i,
   /city /i,
+  /city council/i,
   /ousd/i,
 ]
 def sort_office_elections(office_elections)
