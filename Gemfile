@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'activesupport'
-gem 'activerecord'
+gem 'activesupport', '5.2.0'
+gem 'activerecord', '5.2.0'
 gem 'sinatra'
 gem 'pg'
 gem 'puma'
