@@ -11,7 +11,7 @@
           "name": "Brenda Roberts",
           "photo_url": null,
           "website_url": null,
-          "twitter_url": null,
+          "twitter_url": "OaklandAuditor ‏",
           "votersedge_url": null,
           "first_name": "Brenda",
           "last_name": "Roberts",
@@ -61,7 +61,7 @@
       "name": "City Council District 2",
       "candidates": [
         {
-          "id": 26,
+          "id": 27,
           "name": "Abel Guillén",
           "photo_url": null,
           "website_url": "http://www.voteabelguillen.com/",
@@ -131,7 +131,7 @@
           }
         },
         {
-          "id": 28,
+          "id": 29,
           "name": "Nikki Fortunato Bas",
           "photo_url": null,
           "website_url": "http://www.nikki4oakland.com/launch",
@@ -283,11 +283,11 @@
           }
         },
         {
-          "id": 39,
+          "id": 26,
           "name": "Annie Campbell Washington",
           "photo_url": null,
           "website_url": null,
-          "twitter_url": "anniecampbellwashington",
+          "twitter_url": "annieforoakland",
           "votersedge_url": null,
           "first_name": "Annie",
           "last_name": "Campbell Washington",
@@ -352,8 +352,8 @@
           "id": 47,
           "name": "Nayeli Maxson",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://nayeliforoakland.com/",
+          "twitter_url": "nayelimax",
           "votersedge_url": null,
           "first_name": "Nayeli",
           "last_name": "Maxson",
@@ -363,7 +363,7 @@
           "committee_name": "Nayeli Maxson for Oakland City Council",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Executive Director, Alliance for Community Development",
           "party_affiliation": null,
           "filer_id": 1405187,
           "supporting_money": {
@@ -399,8 +399,8 @@
           "id": 49,
           "name": "Sheng Thao",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://www.shengforoakland.com/",
+          "twitter_url": "sheng_tha0",
           "votersedge_url": null,
           "first_name": "Sheng",
           "last_name": "Thao",
@@ -410,7 +410,7 @@
           "committee_name": "Sheng Thao for Oakland City Council 2018",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Chief of Staff, City Council Member At-Large",
           "party_affiliation": null,
           "filer_id": 1405456,
           "supporting_money": {
@@ -493,8 +493,8 @@
           "id": 52,
           "name": "Joseph Tanios",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://www.joetanios.com/",
+          "twitter_url": "taniosfor",
           "votersedge_url": null,
           "first_name": "Joseph",
           "last_name": "Tanios",
@@ -504,7 +504,7 @@
           "committee_name": "Joseph Tanios for Oakland City Council 2018",
           "is_accepted_expenditure_ceiling": false,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Construction Management Supervisor, Oakland Department of Public Works",
           "party_affiliation": null,
           "filer_id": 1406153,
           "supporting_money": {
@@ -540,8 +540,8 @@
           "id": 54,
           "name": "Pamela Harris",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://www.pamharris4oakland.com/",
+          "twitter_url": "Pamharris",
           "votersedge_url": null,
           "first_name": "Pamela",
           "last_name": "Harris",
@@ -685,58 +685,11 @@
       "name": "City Council District 6",
       "candidates": [
         {
-          "id": 29,
-          "name": "Loren Taylor",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "votersedge_url": null,
-          "first_name": "Loren",
-          "last_name": "Taylor",
-          "ballot_item": 11,
-          "office_election": 11,
-          "bio": null,
-          "committee_name": "Loren Taylor for Oakland City Council 2018",
-          "is_accepted_expenditure_ceiling": true,
-          "is_incumbent": false,
-          "occupation": null,
-          "party_affiliation": null,
-          "filer_id": 1401499,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "total_supporting_independent": 0.0,
-            "contributions_by_type": {
-            },
-            "contributions_by_origin": {
-            },
-            "expenditures_by_type": {
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
           "id": 37,
           "name": "Desley Brooks",
           "photo_url": null,
           "website_url": null,
-          "twitter_url": null,
+          "twitter_url": "desleyb",
           "votersedge_url": null,
           "first_name": "Desley",
           "last_name": "Brooks",
@@ -809,11 +762,58 @@
           }
         },
         {
+          "id": 39,
+          "name": "Loren Taylor",
+          "photo_url": null,
+          "website_url": "https://www.lorentaylor.org/",
+          "twitter_url": "lorenmtaylor",
+          "votersedge_url": null,
+          "first_name": "Loren",
+          "last_name": "Taylor",
+          "ballot_item": 11,
+          "office_election": 11,
+          "bio": null,
+          "committee_name": "Loren Taylor for Oakland City Council 2018",
+          "is_accepted_expenditure_ceiling": true,
+          "is_incumbent": false,
+          "occupation": null,
+          "party_affiliation": null,
+          "filer_id": 1401499,
+          "supporting_money": {
+            "contributions_received": null,
+            "total_contributions": null,
+            "total_expenditures": null,
+            "total_loans_received": null,
+            "total_supporting_independent": 0.0,
+            "contributions_by_type": {
+            },
+            "contributions_by_origin": {
+            },
+            "expenditures_by_type": {
+            },
+            "supporting_by_type": {
+            }
+          },
+          "opposing_money": {
+            "opposing_expenditures": null,
+            "opposing_by_type": {
+            }
+          },
+          "contributions_received": null,
+          "total_contributions": null,
+          "total_expenditures": null,
+          "total_loans_received": null,
+          "contributions_by_type": {
+          },
+          "expenditures_by_type": {
+          }
+        },
+        {
           "id": 41,
           "name": "Natasha Middleton",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://www.natashaforoakland.com/",
+          "twitter_url": "MiddletonNat",
           "votersedge_url": null,
           "first_name": "Natasha",
           "last_name": "Middleton",
@@ -823,7 +823,7 @@
           "committee_name": "Natasha Middleton for Oakland City Council 2018",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Management Analyst, Alameda County Probation Department",
           "party_affiliation": null,
           "filer_id": 1403124,
           "supporting_money": {
@@ -859,7 +859,7 @@
           "id": 45,
           "name": "Maria \"Marlo\" Rodriguez",
           "photo_url": null,
-          "website_url": null,
+          "website_url": "https://www.marlo4oakland.com/",
           "twitter_url": "marlo4oakland",
           "votersedge_url": null,
           "first_name": "Maria",
@@ -906,8 +906,8 @@
           "id": 48,
           "name": "Mya Whitaker",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://whitakerforoakland.com",
+          "twitter_url": "whitfordist6",
           "votersedge_url": null,
           "first_name": "Mya",
           "last_name": "Whitaker",
@@ -957,7 +957,7 @@
       "name": "Mayor",
       "candidates": [
         {
-          "id": 27,
+          "id": 28,
           "name": "Libby Schaaf",
           "photo_url": null,
           "website_url": "https://libbyformayor.wordpress.com/",
@@ -1031,7 +1031,7 @@
           "name": "Saied Karamooz",
           "photo_url": null,
           "website_url": null,
-          "twitter_url": null,
+          "twitter_url": "SaiedKaramooz",
           "votersedge_url": null,
           "first_name": "Saied",
           "last_name": "Karamooz",
@@ -1077,8 +1077,8 @@
           "id": 42,
           "name": "Marchon Tatmon",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "http://votemarchon.com/",
+          "twitter_url": "therealmtat1",
           "votersedge_url": null,
           "first_name": "Marchon",
           "last_name": "Tatmon",
@@ -1124,8 +1124,8 @@
           "id": 50,
           "name": "Sheilagh \"Cat Brooks\" Polk",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://www.catbrooksforoakland.com/",
+          "twitter_url": "CatsCommentary",
           "votersedge_url": null,
           "first_name": "Sheilagh",
           "last_name": "\"Cat Brooks\" Polk",
@@ -1171,8 +1171,8 @@
           "id": 53,
           "name": "Rebecca Kaplan",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "http://kaplanforoakland.org/",
+          "twitter_url": "kaplan4oakland",
           "votersedge_url": null,
           "first_name": "Rebecca",
           "last_name": "Kaplan",
@@ -1183,7 +1183,7 @@
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
           "occupation": "Councilmember At-Large",
-          "party_affiliation": null,
+          "party_affiliation": "Democrat",
           "filer_id": 1406223,
           "supporting_money": {
             "contributions_received": null,
@@ -1216,53 +1216,6 @@
         },
         {
           "id": 57,
-          "name": "Kristina Molina",
-          "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
-          "votersedge_url": null,
-          "first_name": "Kristina",
-          "last_name": "Molina",
-          "ballot_item": 14,
-          "office_election": 14,
-          "bio": null,
-          "committee_name": null,
-          "is_accepted_expenditure_ceiling": true,
-          "is_incumbent": false,
-          "occupation": null,
-          "party_affiliation": null,
-          "filer_id": null,
-          "supporting_money": {
-            "contributions_received": null,
-            "total_contributions": null,
-            "total_expenditures": null,
-            "total_loans_received": null,
-            "total_supporting_independent": 0.0,
-            "contributions_by_type": {
-            },
-            "contributions_by_origin": {
-            },
-            "expenditures_by_type": {
-            },
-            "supporting_by_type": {
-            }
-          },
-          "opposing_money": {
-            "opposing_expenditures": null,
-            "opposing_by_type": {
-            }
-          },
-          "contributions_received": null,
-          "total_contributions": null,
-          "total_expenditures": null,
-          "total_loans_received": null,
-          "contributions_by_type": {
-          },
-          "expenditures_by_type": {
-          }
-        },
-        {
-          "id": 58,
           "name": "Ken Houston",
           "photo_url": null,
           "website_url": null,
@@ -1309,7 +1262,7 @@
           }
         },
         {
-          "id": 59,
+          "id": 58,
           "name": "Nancy Sidebotham",
           "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
           "website_url": "http://nancysidebotham.com/",
@@ -1356,11 +1309,11 @@
           }
         },
         {
-          "id": 60,
+          "id": 59,
           "name": "Jesse A.J. Smith",
           "photo_url": null,
           "website_url": null,
-          "twitter_url": null,
+          "twitter_url": "OakSmith2018",
           "votersedge_url": null,
           "first_name": "Jesse",
           "last_name": "A.J. Smith",
@@ -1403,7 +1356,7 @@
           }
         },
         {
-          "id": 61,
+          "id": 60,
           "name": "Cedric Anthony Troupe",
           "photo_url": null,
           "website_url": null,
@@ -1450,7 +1403,7 @@
           }
         },
         {
-          "id": 62,
+          "id": 61,
           "name": "Shelton Dunson",
           "photo_url": null,
           "website_url": null,
@@ -1497,7 +1450,7 @@
           }
         },
         {
-          "id": 63,
+          "id": 62,
           "name": "Randolph Wilkins",
           "photo_url": null,
           "website_url": null,
@@ -1544,7 +1497,7 @@
           }
         },
         {
-          "id": 67,
+          "id": 66,
           "name": "Jane Kim",
           "photo_url": null,
           "website_url": null,
@@ -1682,7 +1635,7 @@
           }
         },
         {
-          "id": 68,
+          "id": 67,
           "name": "Mark Leno",
           "photo_url": null,
           "website_url": null,
@@ -1810,7 +1763,7 @@
           }
         },
         {
-          "id": 69,
+          "id": 68,
           "name": "London Breed",
           "photo_url": null,
           "website_url": null,
@@ -1865,12 +1818,12 @@
       "candidates": [
         {
           "id": 38,
-          "name": "Amy Eng",
+          "name": "Aimee Eng",
           "photo_url": null,
           "website_url": null,
           "twitter_url": null,
           "votersedge_url": null,
-          "first_name": "Amy",
+          "first_name": "Aimee",
           "last_name": "Eng",
           "ballot_item": 16,
           "office_election": 16,
@@ -1878,7 +1831,7 @@
           "committee_name": "Aimee Eng for School Board 2014",
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": true,
-          "occupation": null,
+          "occupation": "Vice President of Programs, Thomas J. Long Foundation",
           "party_affiliation": null,
           "filer_id": 1368984,
           "supporting_money": {
@@ -1933,11 +1886,11 @@
       "name": "OUSD District 4",
       "candidates": [
         {
-          "id": 64,
+          "id": 63,
           "name": "Clarissa Doutherd",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "https://www.clarissaforoaklandschools.com/",
+          "twitter_url": "msclarissaellen",
           "votersedge_url": null,
           "first_name": "Clarissa",
           "last_name": "Doutherd",
@@ -1947,7 +1900,7 @@
           "committee_name": null,
           "is_accepted_expenditure_ceiling": true,
           "is_incumbent": false,
-          "occupation": null,
+          "occupation": "Executive Director, Parent Voices Oakland",
           "party_affiliation": null,
           "filer_id": null,
           "supporting_money": {
@@ -1990,8 +1943,8 @@
           "id": 44,
           "name": "Shanthi Gonzales",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "http://gonzalesforschools.nationbuilder.com/",
+          "twitter_url": "ShanthiGonzales",
           "votersedge_url": null,
           "first_name": "Shanthi",
           "last_name": "Gonzales",
@@ -2037,8 +1990,8 @@
           "id": 46,
           "name": "Ebony Edgerson",
           "photo_url": null,
-          "website_url": null,
-          "twitter_url": null,
+          "website_url": "http://www.ebony4district6.com/",
+          "twitter_url": "BlackAuthor ‏",
           "votersedge_url": null,
           "first_name": "Ebony",
           "last_name": "Edgerson",

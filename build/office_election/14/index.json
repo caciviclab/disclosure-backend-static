@@ -4,7 +4,7 @@
   "name": "Mayor",
   "candidates": [
     {
-      "id": 27,
+      "id": 28,
       "name": "Libby Schaaf",
       "photo_url": null,
       "website_url": "https://libbyformayor.wordpress.com/",
@@ -78,7 +78,7 @@
       "name": "Saied Karamooz",
       "photo_url": null,
       "website_url": null,
-      "twitter_url": null,
+      "twitter_url": "SaiedKaramooz",
       "votersedge_url": null,
       "first_name": "Saied",
       "last_name": "Karamooz",
@@ -124,8 +124,8 @@
       "id": 42,
       "name": "Marchon Tatmon",
       "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
+      "website_url": "http://votemarchon.com/",
+      "twitter_url": "therealmtat1",
       "votersedge_url": null,
       "first_name": "Marchon",
       "last_name": "Tatmon",
@@ -171,8 +171,8 @@
       "id": 50,
       "name": "Sheilagh \"Cat Brooks\" Polk",
       "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
+      "website_url": "https://www.catbrooksforoakland.com/",
+      "twitter_url": "CatsCommentary",
       "votersedge_url": null,
       "first_name": "Sheilagh",
       "last_name": "\"Cat Brooks\" Polk",
@@ -218,8 +218,8 @@
       "id": 53,
       "name": "Rebecca Kaplan",
       "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
+      "website_url": "http://kaplanforoakland.org/",
+      "twitter_url": "kaplan4oakland",
       "votersedge_url": null,
       "first_name": "Rebecca",
       "last_name": "Kaplan",
@@ -230,7 +230,7 @@
       "is_accepted_expenditure_ceiling": true,
       "is_incumbent": false,
       "occupation": "Councilmember At-Large",
-      "party_affiliation": null,
+      "party_affiliation": "Democrat",
       "filer_id": 1406223,
       "supporting_money": {
         "contributions_received": null,
@@ -263,53 +263,6 @@
     },
     {
       "id": 57,
-      "name": "Kristina Molina",
-      "photo_url": null,
-      "website_url": null,
-      "twitter_url": null,
-      "votersedge_url": null,
-      "first_name": "Kristina",
-      "last_name": "Molina",
-      "ballot_item": 14,
-      "office_election": 14,
-      "bio": null,
-      "committee_name": null,
-      "is_accepted_expenditure_ceiling": true,
-      "is_incumbent": false,
-      "occupation": null,
-      "party_affiliation": null,
-      "filer_id": null,
-      "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
-        "total_expenditures": null,
-        "total_loans_received": null,
-        "total_supporting_independent": 0.0,
-        "contributions_by_type": {
-        },
-        "contributions_by_origin": {
-        },
-        "expenditures_by_type": {
-        },
-        "supporting_by_type": {
-        }
-      },
-      "opposing_money": {
-        "opposing_expenditures": null,
-        "opposing_by_type": {
-        }
-      },
-      "contributions_received": null,
-      "total_contributions": null,
-      "total_expenditures": null,
-      "total_loans_received": null,
-      "contributions_by_type": {
-      },
-      "expenditures_by_type": {
-      }
-    },
-    {
-      "id": 58,
       "name": "Ken Houston",
       "photo_url": null,
       "website_url": null,
@@ -356,7 +309,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 58,
       "name": "Nancy Sidebotham",
       "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png",
       "website_url": "http://nancysidebotham.com/",
@@ -403,11 +356,11 @@
       }
     },
     {
-      "id": 60,
+      "id": 59,
       "name": "Jesse A.J. Smith",
       "photo_url": null,
       "website_url": null,
-      "twitter_url": null,
+      "twitter_url": "OakSmith2018",
       "votersedge_url": null,
       "first_name": "Jesse",
       "last_name": "A.J. Smith",
@@ -450,7 +403,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 60,
       "name": "Cedric Anthony Troupe",
       "photo_url": null,
       "website_url": null,
@@ -497,7 +450,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 61,
       "name": "Shelton Dunson",
       "photo_url": null,
       "website_url": null,
@@ -544,7 +497,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 62,
       "name": "Randolph Wilkins",
       "photo_url": null,
       "website_url": null,
@@ -591,7 +544,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 66,
       "name": "Jane Kim",
       "photo_url": null,
       "website_url": null,
@@ -729,7 +682,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 67,
       "name": "Mark Leno",
       "photo_url": null,
       "website_url": null,
@@ -857,7 +810,7 @@
       }
     },
     {
-      "id": 69,
+      "id": 68,
       "name": "London Breed",
       "photo_url": null,
       "website_url": null,
