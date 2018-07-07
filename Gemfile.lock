@@ -48,6 +48,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (= 5.2.0)
   activesupport (= 5.2.0)
+  i18n
   pg
   puma
   roo
