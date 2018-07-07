@@ -3,10 +3,51 @@ require_relative './environment.rb'
 require 'fileutils'
 require 'open-uri'
 
+# map of election_name => { hash including date }
+ELECTIONS = {
+  'sf-2016' => { date: '2016-11-08', title: 'San Francisco November 8th, 2016 Election' },
+  'oakland-2016' => { date: '2016-11-08', title: 'Oakland November 8th, 2016 Election' },
+
+  'sf-june-2018' => { date: '2018-06-05', title: 'San Francisco June 5th, 2018 Election'  },
+  'oakland-june-2018' => { date: '2018-06-05', title: 'Oakland June 5th, 2018 Election' },
+
+  'sf-2018' => { date: '2018-11-06', title: 'San Francisco November 6th, 2018 Election'  },
+  'oakland-2018' => { date: '2018-11-06', title: 'Oakland November 6th, 2018 Election' },
+  'berkeley-2018' => { date: '2018-11-06', title: 'Berkeley November 6th, 2018 Election'  },
+}
+
 def build_file(filename, &block)
   filename = File.expand_path('../build', __FILE__) + filename
-  FileUtils.mkdir_p(filename) unless File.exist?(filename)
-  File.open(File.join(filename, 'index.json'), 'w', &block)
+  FileUtils.mkdir_p(File.dirname(filename))
+  File.open(filename, 'w', &block)
+end
+
+# keep this logic in-sync with the frontend (_plugins/odca_slugify.rb)
+# (text || '').toLowerCase().replace(/[\._~!$&'()+,;=@]+/g, '').replace(/[^a-z0-9-]+/g, '-');
+def slugify(word)
+  (word || '').downcase.gsub(/[\._~!$&'()+,;=@]+/, '').gsub(/[^a-z0-9-]+/, '-')
+end
+
+# Sort like:
+# 1. Mayor
+# 2. City Council ...
+# 3. City ...
+# 4. School Board
+#
+# If multiple offices match the same regex they are sorted alphabetically (i.e.
+# "School Board District 1", then "School Board District 2")
+SORT_PATTERNS = [
+  /mayor/i,
+  /city /i,
+  /city council/i,
+  /ousd/i,
+]
+def sort_office_elections(office_elections)
+  office_elections
+    .group_by { |office| SORT_PATTERNS.find_index { |p| office =~ p } || Float::INFINITY }
+    .sort_by { |k, _v| k }
+    .map { |_k, v| v.sort }
+    .flatten
 end
 
 # first, create OfficeElection records for all the offices to assign them IDs
@@ -46,118 +87,149 @@ Dir.glob('calculators/*').each do |calculator_file|
   end
 end
 
-# third, write everything out to the build files
-OAKLAND_LOCALITY_ID = 2
-ELECTIONS = [
-  { id: 1, date: '2016-11-08', election_name: 'oakland-2016', is_current: true },
-  { id: 2, date: '2018-11-06', election_name: 'oakland-2018' },
-  { id: 3, date: '2018-11-06', election_name: 'berkeley-2018' },
-]
+# /_ballots/oakland/2018-11-06.md
+ELECTIONS.each do |election_name, election|
+  locality, _time = election_name.split('-', 2)
+  office_elections = sort_office_elections(
+    OaklandCandidate.where(election_name: election_name).pluck(:Office).uniq
+  )
+  referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
+  ballot_name = "/_ballots/#{locality}/#{election[:date]}.md"
 
-build_file('/locality/search') do |f|
-  f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
-end
+  build_file(ballot_name) do |f|
+    f.puts(YAML.dump(
+      'title' => election[:title],
+      'locality' => locality,
+      'election' => election[:date],
+      'office_elections' => office_elections.map do |office|
+        "_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md"
+      end,
+      'referendums' => referendums.map do |title|
+        "_referendums/#{locality}/#{election[:date]}/#{slugify(title)}.md"
+      end,
+    ))
+    f.puts('---')
+  end
 
-build_file("/locality/#{OAKLAND_LOCALITY_ID}") do |f|
-  f.puts JSON.pretty_generate([{ name: 'Oakland', type: 'city', id: OAKLAND_LOCALITY_ID }])
-end
+  # /_candidates/abel-guillen.md
+  OaklandCandidate.where(election_name: election_name).each do |candidate|
+    build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
+      f.puts(YAML.dump({
+        'name' => candidate.Candidate,
+        'photo_url' => candidate.Photo,
+        'website_url' => candidate.Website,
+        'twitter_url' => candidate.Twitter,
+        'votersedge_url' => candidate.VotersEdge,
+        'committee_name' => candidate.Committee_Name,
+        'is_accepted_expenditure_ceiling' => candidate.Accepted_expenditure_ceiling,
+        'is_incumbent' => candidate.Incumbent,
+        'occupation' => candidate.Occupation,
+        'party_affiliation' => candidate.Party_Affiliation,
+        'filer_id' => candidate.FPPC,
+        'ballot' => "_ballots/#{locality}/#{election[:date]}.md"
+      }.compact))
+      f.puts('---')
+    end
+  end
 
-ELECTIONS.each do |election|
-  candidates = OfficeElection.where(election_name: election[:election_name])
-  referendums = OaklandReferendum.where(election_name: election[:election_name])
-  files = [
-    "/ballot/#{election[:id]}",
-    ("/locality/#{OAKLAND_LOCALITY_ID}/current_ballot" if election[:is_current])
-  ].compact
+  # /_data/candidates/oakland/2016-11-06/libby-schaaf.json
+  OaklandCandidate
+    .where(election_name: election_name)
+    .includes(:office_election, :calculations)
+    .find_each do |candidate|
+      filename = slugify(candidate['Candidate'])
+      build_file("/_data/candidates/#{locality}/#{election[:date]}/#{filename}.json") do |f|
+        f.puts candidate.to_json
+      end
+  end
 
-  files.each do |filename|
-    build_file(filename) do |f|
-      f.puts({
-        id: 1,
-        ballot_items: (
-          candidates.map(&:as_json) +
-          referendums.map(&:as_json)
-        ),
-        date: election[:date],
-        locality_id: OAKLAND_LOCALITY_ID,
-      }.to_json)
+
+  # /_office_elections/oakland/2018-11-06/city-auditor.md
+  office_elections.each do |office|
+    build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md") do |f|
+      candidates = OaklandCandidate.where(Office: office, election_name: election_name).pluck(:Candidate)
+
+      f.puts(YAML.dump(
+        'title' => office,
+        'candidates' => candidates.map { |name| slugify(name) },
+        'ballot' => ballot_name[1..-1],
+      ))
+      f.puts('---')
     end
   end
 end
 
-OfficeElection.find_each do |office_election|
-  build_file("/office_election/#{office_election.id}") do |f|
-    f.puts JSON.pretty_generate(office_election.as_json.merge(ballot_id: 1))
+# /_committees/1386416.md
+OaklandCommittee.find_each do |committee|
+  build_file("/_committees/#{committee.Filer_ID}.md") do |f|
+    f.puts(YAML.dump(
+      'filer_id' => committee.Filer_ID,
+      'name' => committee.Filer_NamL,
+    ))
+    f.puts('---')
   end
 end
 
-OaklandCandidate.includes(:office_election, :calculations).find_each do |candidate|
-  %W[
-    /candidate/#{candidate.id}
-  ].each do |candidate_filename|
-    build_file(candidate_filename) do |f|
-      #
-      # To add a field to one of these endpoints, add it to the '#as_json'
-      # method in models/oakland_candidate.rb
-      #
-      f.puts candidate.to_json
-    end
-  end
-end
-
+# /_data/contributions/1229791.json
 OaklandCommittee.includes(:calculations).find_each do |committee|
   next if committee['Filer_ID'].nil?
   next if committee['Filer_ID'] =~ /pending/i
 
-  build_file("/committee/#{committee['Filer_ID']}") do |f|
-    f.puts committee.to_json
-  end
-
-  build_file("/committee/#{committee['Filer_ID']}/contributions") do |f|
-    f.puts JSON.pretty_generate(committee.calculation(:contribution_list) || [])
-  end
-  build_file("/committee/#{committee['Filer_ID']}/opposing") do |f|
-    f.puts JSON.pretty_generate(committee.calculation(:opposition_list) || [])
+  build_file("/_data/committees/#{committee['Filer_ID']}.json") do |f|
+    f.puts JSON.pretty_generate(contributions: committee.calculation(:contribution_list) || [])
   end
 end
 
-OaklandReferendum.find_each do |referendum|
-  build_file("/referendum/#{referendum.id}") do |f|
-    f.puts JSON.pretty_generate(referendum.as_json.merge(ballot_id: 1))
+OaklandReferendum.includes(:calculations).find_each do |referendum|
+  locality, _year = referendum.election_name.split('-', 2)
+  election = ELECTIONS[referendum.election_name]
+  title = slugify(referendum['Short_Title'])
+
+  if election.nil?
+    $stderr.puts "MISSING ELECTION:"
+    $stderr.puts "  Election Name: #{referendum.election_name}"
+    $stderr.puts '  Add it to ELECTIONS global in process.rb'
+    next
   end
 
-  build_file("/referendum/#{referendum.id}/supporting") do |f|
+  # /_referendums/oakland/2018-11-06/oakland-childrens-initiative.md
+  build_file("/_referendums/#{locality}/#{election[:date]}/#{title}.md") do |f|
+    f.puts(YAML.dump(
+      'locality' => locality,
+      'election' => election[:date],
+      'title' => referendum['Short_Title'],
+      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number']
+    ))
+    f.puts('---')
+    f.puts(referendum['Summary'])
+  end
+
+  # /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
+  build_file("/_data/referendum_supporting/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
-      supporting_organizations:
-        referendum.calculation(:supporting_organizations) || [],
-      total_contributions:
-        referendum.calculation(:supporting_total) || [],
-      contributions_by_region:
-        referendum.calculation(:supporting_locales) || [],
-      contributions_by_type:
-        referendum.calculation(:supporting_type) || [],
+      supporting_organizations: referendum.calculation(:supporting_organizations) || [],
+      total_contributions: referendum.calculation(:supporting_total) || [],
+      contributions_by_region: referendum.calculation(:supporting_locales) || [],
+      contributions_by_type: referendum.calculation(:supporting_type) || [],
     ))
   end
 
-  build_file("/referendum/#{referendum.id}/opposing") do |f|
+  # /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
+  build_file("/_data/referendum_opposing/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
-      opposing_organizations:
-        referendum.calculation(:opposing_organizations) || [],
-      total_contributions:
-        referendum.calculation(:opposing_total) || [],
-      contributions_by_region:
-        referendum.calculation(:opposing_locales) || [],
-      contributions_by_type:
-        referendum.calculation(:opposing_type) || [],
+      opposing_organizations: referendum.calculation(:opposing_organizations) || [],
+      total_contributions: referendum.calculation(:opposing_total) || [],
+      contributions_by_region: referendum.calculation(:opposing_locales) || [],
+      contributions_by_type: referendum.calculation(:opposing_type) || [],
     ))
   end
 end
 
-build_file('/totals') do |f|
+build_file('/_data/totals.json') do |f|
   f.puts JSON.pretty_generate(Hash[ContributionsByOrigin.sort])
 end
 
-build_file('/stats') do |f|
+build_file('/_data/stats.json') do |f|
   f.puts JSON.pretty_generate(
     date_processed: TZInfo::Timezone.get('America/Los_Angeles').now.to_date,
   )
