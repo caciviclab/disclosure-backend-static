@@ -198,7 +198,7 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
     f.puts(YAML.dump(
       'election' => election[:date],
       'locality' => locality,
-      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number']
+      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number'],
       'title' => referendum['Short_Title'],
     ))
     f.puts('---')
