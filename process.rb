@@ -126,7 +126,8 @@ ELECTIONS.each do |election_name, election|
         'occupation' => candidate.Occupation,
         'party_affiliation' => candidate.Party_Affiliation,
         'filer_id' => candidate.FPPC,
-        'ballot' => "_ballots/#{locality}/#{election[:date]}.md"
+        'ballot' => "_ballots/#{locality}/#{election[:date]}.md",
+        'data_warning' => candidate.data_warning,
       }.compact))
       f.puts('---')
     end
