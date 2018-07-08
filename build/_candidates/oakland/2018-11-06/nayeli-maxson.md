@@ -1,5 +1,6 @@
 ---
 name: Nayeli Maxson
+photo_url: Nayeli-Maxson-600x600.png
 website_url: https://nayeliforoakland.com/
 twitter_url: nayelimax
 committee_name: Nayeli Maxson for Oakland City Council

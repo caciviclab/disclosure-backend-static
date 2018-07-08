@@ -1,5 +1,6 @@
 ---
 name: Abel Guillén
+photo_url: abel_guillen-600x600.png
 website_url: http://www.voteabelguillen.com/
 twitter_url: abelguillen
 committee_name: Abel Guillen for City Council 2018

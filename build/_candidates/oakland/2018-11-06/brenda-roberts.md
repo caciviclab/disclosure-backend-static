@@ -1,5 +1,6 @@
 ---
 name: Brenda Roberts
+photo_url: brenda_roberts-600x600.png
 twitter_url: OaklandAuditor ‏
 committee_name: Brenda Roberts for Oakland City Auditor 2018
 is_accepted_expenditure_ceiling: true

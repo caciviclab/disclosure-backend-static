@@ -1,5 +1,6 @@
 ---
 name: Sheng Thao
+photo_url: Sheng-Thao-600x600.png
 website_url: https://www.shengforoakland.com/
 twitter_url: sheng_tha0
 committee_name: Sheng Thao for Oakland City Council 2018
