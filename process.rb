@@ -1,6 +1,7 @@
 require_relative './environment.rb'
 
 require 'fileutils'
+require 'i18n'
 require 'open-uri'
 
 # map of election_name => { hash including date }
@@ -22,10 +23,13 @@ def build_file(filename, &block)
   File.open(filename, 'w', &block)
 end
 
-# keep this logic in-sync with the frontend (_plugins/odca_slugify.rb)
-# (text || '').toLowerCase().replace(/[\._~!$&'()+,;=@]+/g, '').replace(/[^a-z0-9-]+/g, '-');
+# keep this logic in-sync with the frontend (Jekyll's slugify filter)
+# https://github.com/jekyll/jekyll/blob/035ea729ff5668dfc96e7f56a86d214e5a633291/lib/jekyll/utils.rb#L204
+# We add transliteration to convert non-latin characters to ascii, especially
+# for candidate names. e.g. Guillén -> guillen.
 def slugify(word)
-  (word || '').downcase.gsub(/[\._~!$&'()+,;=@]+/, '').gsub(/[^a-z0-9-]+/, '-')
+  I18n.transliterate(word || '')
+    .downcase.gsub(/[^a-z0-9-]+/, '-')
 end
 
 # Sort like:
