@@ -115,18 +115,19 @@ ELECTIONS.each do |election_name, election|
   OaklandCandidate.where(election_name: election_name).each do |candidate|
     build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
       f.puts(YAML.dump({
-        'name' => candidate.Candidate,
-        'photo_url' => candidate.Photo,
-        'website_url' => candidate.Website,
-        'twitter_url' => candidate.Twitter,
-        'votersedge_url' => candidate.VotersEdge,
+        'ballot' => "_ballots/#{locality}/#{election[:date]}.md",
         'committee_name' => candidate.Committee_Name,
+        'data_warning' => candidate.data_warning,
+        'filer_id' => candidate.FPPC,
         'is_accepted_expenditure_ceiling' => candidate.Accepted_expenditure_ceiling,
         'is_incumbent' => candidate.Incumbent,
+        'name' => candidate.Candidate,
         'occupation' => candidate.Occupation,
         'party_affiliation' => candidate.Party_Affiliation,
-        'filer_id' => candidate.FPPC,
-        'ballot' => "_ballots/#{locality}/#{election[:date]}.md"
+        'photo_url' => candidate.Photo,
+        'twitter_url' => candidate.Twitter,
+        'votersedge_url' => candidate.VotersEdge,
+        'website_url' => candidate.Website,
       }.compact))
       f.puts('---')
     end
@@ -150,9 +151,9 @@ ELECTIONS.each do |election_name, election|
       candidates = OaklandCandidate.where(Office: office, election_name: election_name).pluck(:Candidate)
 
       f.puts(YAML.dump(
-        'title' => office,
-        'candidates' => candidates.map { |name| slugify(name) },
         'ballot' => ballot_name[1..-1],
+        'candidates' => candidates.map { |name| slugify(name) },
+        'title' => office,
       ))
       f.puts('---')
     end
@@ -195,10 +196,10 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
   # /_referendums/oakland/2018-11-06/oakland-childrens-initiative.md
   build_file("/_referendums/#{locality}/#{election[:date]}/#{title}.md") do |f|
     f.puts(YAML.dump(
-      'locality' => locality,
       'election' => election[:date],
+      'locality' => locality,
+      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number'],
       'title' => referendum['Short_Title'],
-      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number']
     ))
     f.puts('---')
     f.puts(referendum['Summary'])
@@ -207,20 +208,20 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
   # /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
   build_file("/_data/referendum_supporting/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
-      supporting_organizations: referendum.calculation(:supporting_organizations) || [],
-      total_contributions: referendum.calculation(:supporting_total) || [],
       contributions_by_region: referendum.calculation(:supporting_locales) || [],
       contributions_by_type: referendum.calculation(:supporting_type) || [],
+      supporting_organizations: referendum.calculation(:supporting_organizations) || [],
+      total_contributions: referendum.calculation(:supporting_total) || [],
     ))
   end
 
   # /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
   build_file("/_data/referendum_opposing/#{locality}/#{election[:date]}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
-      opposing_organizations: referendum.calculation(:opposing_organizations) || [],
-      total_contributions: referendum.calculation(:opposing_total) || [],
       contributions_by_region: referendum.calculation(:opposing_locales) || [],
       contributions_by_type: referendum.calculation(:opposing_type) || [],
+      opposing_organizations: referendum.calculation(:opposing_organizations) || [],
+      total_contributions: referendum.calculation(:opposing_total) || [],
     ))
   end
 end
