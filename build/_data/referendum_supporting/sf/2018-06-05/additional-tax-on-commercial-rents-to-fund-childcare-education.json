@@ -5,15 +5,6 @@
   "title": "Additional tax on Commercial Rents to Fund Childcare & Education",
   "summary": null,
   "number": "C",
-  "supporting_organizations": [
-    {
-      "id": "1405137",
-      "name": "SOMA HOTEL, LLC",
-      "payee": "SOMA HOTEL, LLC",
-      "amount": 40000.0
-    }
-  ],
-  "total_contributions": 40000.0,
   "contributions_by_region": [
     {
       "amount": 40000.0,
@@ -22,5 +13,14 @@
   ],
   "contributions_by_type": [
 
-  ]
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1405137",
+      "name": "SOMA HOTEL, LLC",
+      "payee": "SOMA HOTEL, LLC",
+      "amount": 40000.0
+    }
+  ],
+  "total_contributions": 40000.0
 }

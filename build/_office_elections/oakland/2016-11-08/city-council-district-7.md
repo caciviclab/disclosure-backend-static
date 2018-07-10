@@ -1,8 +1,8 @@
 ---
-title: City Council District 7
+ballot: _ballots/oakland/2016-11-08.md
 candidates:
 - marcie-hodge
 - nehanda-imara
 - larry-reid
-ballot: _ballots/oakland/2016-11-08.md
+title: City Council District 7
 ---

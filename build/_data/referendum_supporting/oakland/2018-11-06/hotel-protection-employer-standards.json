@@ -5,6 +5,26 @@
   "title": "Hotel Protection & Employer Standards",
   "summary": "Initiative would strengthen workplace protections available to hotel employees and create a Department of Workplace and Employment Standards to improve enforcement of employment standards",
   "number": "PENDING-1",
+  "contributions_by_region": [
+    {
+      "amount": 1500.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 181858.88,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Individual",
+      "amount": 50000.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 133358.88
+    }
+  ],
   "supporting_organizations": [
     {
       "id": "1284523",
@@ -16,7 +36,7 @@
       "id": "1405491",
       "name": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
       "payee": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
-      "amount": 108791.76
+      "amount": 54395.88
     },
     {
       "id": "1351785",
@@ -28,36 +48,8 @@
       "id": "1403165",
       "name": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
       "payee": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
-      "amount": 149890.82
+      "amount": 93472.35
     }
   ],
-  "total_contributions": 241628.7,
-  "contributions_by_region": [
-    {
-      "amount": 1500.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 181858.88,
-      "locale": "Within Oakland"
-    },
-    {
-      "amount": 58269.82000000001,
-      "locale": "Unknown"
-    }
-  ],
-  "contributions_by_type": [
-    {
-      "type": "Individual",
-      "amount": 50000.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 133358.88
-    },
-    {
-      "type": "COM",
-      "amount": 58269.82000000001
-    }
-  ]
+  "total_contributions": 183358.88
 }

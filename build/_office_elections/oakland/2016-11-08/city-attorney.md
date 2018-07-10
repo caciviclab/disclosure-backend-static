@@ -1,6 +1,6 @@
 ---
-title: City Attorney
+ballot: _ballots/oakland/2016-11-08.md
 candidates:
 - barbara-parker
-ballot: _ballots/oakland/2016-11-08.md
+title: City Attorney
 ---

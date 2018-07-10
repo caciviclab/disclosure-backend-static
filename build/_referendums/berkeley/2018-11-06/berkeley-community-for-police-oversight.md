@@ -1,7 +1,7 @@
 ---
-locality: berkeley
 election: '2018-11-06'
-title: Berkeley Community for Police Oversight
+locality: berkeley
 number: 
+title: Berkeley Community for Police Oversight
 ---
 https://www.berkeleypoliceoversight.org/our-mission

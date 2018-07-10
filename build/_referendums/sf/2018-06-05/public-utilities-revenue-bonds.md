@@ -1,7 +1,7 @@
 ---
-locality: sf
 election: '2018-06-05'
-title: Public Utilities Revenue Bonds
+locality: sf
 number: A
+title: Public Utilities Revenue Bonds
 ---
 

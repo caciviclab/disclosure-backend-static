@@ -1,10 +1,10 @@
 ---
-name: Marchon Tatmon
-website_url: http://votemarchon.com/
-twitter_url: therealmtat1
+ballot: _ballots/oakland/2018-11-06.md
 committee_name: Marchon Tatmon Mayor for Oakland 2018
+filer_id: 1403436
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-filer_id: 1403436
-ballot: _ballots/oakland/2018-11-06.md
+name: Marchon Tatmon
+twitter_url: therealmtat1
+website_url: http://votemarchon.com/
 ---

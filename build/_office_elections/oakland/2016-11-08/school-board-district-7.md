@@ -1,7 +1,7 @@
 ---
-title: School Board District 7
+ballot: _ballots/oakland/2016-11-08.md
 candidates:
 - james-harris
 - chris-jackson
-ballot: _ballots/oakland/2016-11-08.md
+title: School Board District 7
 ---

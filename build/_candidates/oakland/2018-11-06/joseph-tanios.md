@@ -1,11 +1,11 @@
 ---
-name: Joseph Tanios
-website_url: https://www.joetanios.com/
-twitter_url: taniosfor
+ballot: _ballots/oakland/2018-11-06.md
 committee_name: Joseph Tanios for Oakland City Council 2018
+filer_id: 1406153
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
+name: Joseph Tanios
 occupation: Construction Management Supervisor, Oakland Department of Public Works
-filer_id: 1406153
-ballot: _ballots/oakland/2018-11-06.md
+twitter_url: taniosfor
+website_url: https://www.joetanios.com/
 ---

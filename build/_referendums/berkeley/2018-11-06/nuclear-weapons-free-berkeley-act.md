@@ -1,7 +1,7 @@
 ---
-locality: berkeley
 election: '2018-11-06'
-title: Nuclear Weapons Free Berkeley Act
+locality: berkeley
 number: 
+title: Nuclear Weapons Free Berkeley Act
 ---
 

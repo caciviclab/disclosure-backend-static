@@ -1,7 +1,7 @@
 ---
-title: School Board District 1
+ballot: _ballots/oakland/2016-11-08.md
 candidates:
 - donald-macleay
 - jody-london
-ballot: _ballots/oakland/2016-11-08.md
+title: School Board District 1
 ---

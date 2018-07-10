@@ -5,6 +5,30 @@
   "title": "Responsibility for Maintaining Trees and Surrounding Sidewalks",
   "summary": null,
   "number": "E",
+  "contributions_by_region": [
+    {
+      "amount": 2403717.23,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 149771.16,
+      "locale": "Within California"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 181783.99
+    },
+    {
+      "type": "Individual",
+      "amount": 1800850.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 570854.4
+    }
+  ],
   "supporting_organizations": [
     {
       "id": "foobar",
@@ -22,40 +46,8 @@
       "id": "1386655",
       "name": "Yes on E, Coalition for Healthy Trees and Safe Sidewalks, with Major Funding by Friends of the Urban Forest Committee and Mitzi Johnson",
       "payee": "Yes on E, Coalition for Healthy Trees and Safe Sidewalks, with Major Funding by Friends of the Urban Forest Committee and Mitzi Johnson",
-      "amount": 4974.56
+      "amount": 1237.28
     }
   ],
-  "total_contributions": 4672780.03999999,
-  "contributions_by_region": [
-    {
-      "amount": 2403717.23,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 149771.16,
-      "locale": "Within California"
-    },
-    {
-      "amount": 2119291.6499999897,
-      "locale": "Unknown"
-    }
-  ],
-  "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 181783.99
-    },
-    {
-      "type": "Individual",
-      "amount": 1800850.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 570854.4
-    },
-    {
-      "type": "COM",
-      "amount": 2119291.6499999897
-    }
-  ]
+  "total_contributions": 2553488.39
 }

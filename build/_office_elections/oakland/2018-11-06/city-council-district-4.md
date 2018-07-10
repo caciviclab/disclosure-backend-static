@@ -1,5 +1,5 @@
 ---
-title: City Council District 4
+ballot: _ballots/oakland/2018-11-06.md
 candidates:
 - annie-campbell-washington
 - nayeli-maxson
@@ -9,5 +9,5 @@ candidates:
 - pamela-harris
 - jonathan-selsley
 - ahmad-anderson
-ballot: _ballots/oakland/2018-11-06.md
+title: City Council District 4
 ---

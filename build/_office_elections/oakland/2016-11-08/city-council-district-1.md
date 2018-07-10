@@ -1,7 +1,7 @@
 ---
-title: City Council District 1
+ballot: _ballots/oakland/2016-11-08.md
 candidates:
 - kevin-corbett
 - dan-kalb
-ballot: _ballots/oakland/2016-11-08.md
+title: City Council District 1
 ---

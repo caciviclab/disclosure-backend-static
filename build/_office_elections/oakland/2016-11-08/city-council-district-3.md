@@ -1,7 +1,7 @@
 ---
-title: City Council District 3
+ballot: _ballots/oakland/2016-11-08.md
 candidates:
 - lynette-gibson-mcelhaney
 - noni-session
-ballot: _ballots/oakland/2016-11-08.md
+title: City Council District 3
 ---

@@ -1,7 +1,7 @@
 ---
-locality: sf
 election: '2018-06-05'
-title: Parcel Tax for San Francisco Unified School District
+locality: sf
 number: G
+title: Parcel Tax for San Francisco Unified School District
 ---
 

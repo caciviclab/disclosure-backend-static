@@ -5,15 +5,6 @@
   "title": "Measure to support the purchase and use of conductive energy devices by the San Francisco Police Department",
   "summary": null,
   "number": "H",
-  "supporting_organizations": [
-    {
-      "id": "1400773",
-      "name": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
-      "payee": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
-      "amount": 121616.78
-    }
-  ],
-  "total_contributions": 359071.0,
   "contributions_by_region": [
     {
       "amount": 349071.0,
@@ -37,5 +28,14 @@
       "type": "Other (includes Businesses)",
       "amount": 319459.0
     }
-  ]
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1400773",
+      "name": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
+      "payee": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
+      "amount": 80741.89
+    }
+  ],
+  "total_contributions": 359071.0
 }

@@ -1,6 +1,6 @@
 ---
-title: City Council District 1
+ballot: _ballots/berkeley/2018-11-06.md
 candidates:
 - rashi-kesarwani
-ballot: _ballots/berkeley/2018-11-06.md
+title: City Council District 1
 ---

@@ -1,7 +1,7 @@
 ---
-locality: oakland
 election: '2018-06-05'
-title: Library Parcel Tax
+locality: oakland
 number: D
+title: Library Parcel Tax
 ---
 

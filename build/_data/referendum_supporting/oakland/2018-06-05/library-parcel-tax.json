@@ -5,21 +5,6 @@
   "title": "Library Parcel Tax",
   "summary": null,
   "number": "D",
-  "supporting_organizations": [
-    {
-      "id": "942553734",
-      "name": "Friends of The Oakland Public Library",
-      "payee": "Friends of The Oakland Public Library",
-      "amount": 29000.0
-    },
-    {
-      "id": "1400467",
-      "name": "Protect Oakland Libraries - Yes on D 2018",
-      "payee": "Protect Oakland Libraries - Yes on D 2018",
-      "amount": 92363.47
-    }
-  ],
-  "total_contributions": 1432495.0,
   "contributions_by_region": [
     {
       "amount": 189200.0,
@@ -47,5 +32,20 @@
       "type": "Other (includes Businesses)",
       "amount": 820750.0
     }
-  ]
+  ],
+  "supporting_organizations": [
+    {
+      "id": "942553734",
+      "name": "Friends of The Oakland Public Library",
+      "payee": "Friends of The Oakland Public Library",
+      "amount": 29000.0
+    },
+    {
+      "id": "1400467",
+      "name": "Protect Oakland Libraries - Yes on D 2018",
+      "payee": "Protect Oakland Libraries - Yes on D 2018",
+      "amount": 87097.94
+    }
+  ],
+  "total_contributions": 1432495.0
 }

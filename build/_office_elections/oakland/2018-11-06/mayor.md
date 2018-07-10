@@ -1,5 +1,5 @@
 ---
-title: Mayor
+ballot: _ballots/oakland/2018-11-06.md
 candidates:
 - libby-schaaf
 - saied-karamooz
@@ -8,9 +8,9 @@ candidates:
 - rebecca-kaplan
 - ken-houston
 - nancy-sidebotham
-- jesse-aj-smith
+- jesse-a-j-smith
 - cedric-anthony-troupe
 - shelton-dunson
 - randolph-wilkins
-ballot: _ballots/oakland/2018-11-06.md
+title: Mayor
 ---

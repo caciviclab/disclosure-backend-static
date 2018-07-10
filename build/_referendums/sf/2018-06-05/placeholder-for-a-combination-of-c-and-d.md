@@ -1,7 +1,7 @@
 ---
-locality: sf
 election: '2018-06-05'
-title: Placeholder for a combination of C and D
+locality: sf
 number: C+D
+title: Placeholder for a combination of C and D
 ---
 
