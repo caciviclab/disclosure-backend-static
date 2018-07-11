@@ -122,7 +122,7 @@ ELECTIONS.each do |election_name, election|
         'ballot' => "_ballots/#{locality}/#{election[:date]}.md",
         'committee_name' => candidate.Committee_Name,
         'data_warning' => candidate.data_warning,
-        'filer_id' => candidate.FPPC,
+        'filer_id' => candidate.FPPC.to_s,
         'is_accepted_expenditure_ceiling' => candidate.Accepted_expenditure_ceiling,
         'is_incumbent' => candidate.Incumbent,
         'name' => candidate.Candidate,
@@ -168,8 +168,9 @@ end
 OaklandCommittee.find_each do |committee|
   build_file("/_committees/#{committee.Filer_ID}.md") do |f|
     f.puts(YAML.dump(
-      'filer_id' => committee.Filer_ID,
+      'filer_id' => committee.Filer_ID.to_s,
       'name' => committee.Filer_NamL,
+      'candidate_controlled_id' => committee.candidate_controlled_id.to_s,
     ))
     f.puts('---')
   end
