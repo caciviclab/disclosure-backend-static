@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
 committee_name: Re-Elect James Harris for School Board
-filer_id: 1387803
+filer_id: '1387803'
 is_incumbent: true
 name: James Harris
 occupation: Board of Education President; owns and operates media company in San Francisco

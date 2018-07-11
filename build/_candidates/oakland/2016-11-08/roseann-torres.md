@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
 committee_name: Roseann Torres for Oakland School Board 2016
-filer_id: 1379121
+filer_id: '1379121'
 is_incumbent: true
 name: Roseann Torres
 occupation: School Board Member

@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
 committee_name: Friends of Hassid for School Board Director 2016
-filer_id: 1388133
+filer_id: '1388133'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Michael Hassid

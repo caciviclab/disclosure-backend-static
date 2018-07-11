@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
 committee_name: Macleay for Oakland School Board, District 1, 2016
-filer_id: 1384267
+filer_id: '1384267'
 is_incumbent: false
 name: Donald Macleay
 occupation: Small business owner

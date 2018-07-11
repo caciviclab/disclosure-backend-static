@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
 committee_name: Re-elect City Attorney Barbara Parker 2016
-filer_id: 1382679
+filer_id: '1382679'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Barbara Parker

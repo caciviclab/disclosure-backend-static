@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/berkeley/2018-11-06.md
 committee_name: Droste for City Council 2018
-filer_id: 1363582
+filer_id: '1363582'
 is_incumbent: true
 name: Lori Droste
 occupation: City Councilmember

@@ -4,7 +4,7 @@ committee_name: Moore for Oakland City Council At-Large 2016
 data_warning: Filer error is impacting the data accuracy for this candidate and causing
   2016 contributions to be over-counted. When the filer corrects the campaign statement,
   this warning will be removed.
-filer_id: 1388168
+filer_id: '1388168'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Peggy Moore

@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/berkeley/2018-11-06.md
 committee_name: Alfred Twu for Berkeley City Council 2018
-filer_id: 1400769
+filer_id: '1400769'
 is_incumbent: false
 name: Alfred Twu
 occupation: Designer, MWA Architects

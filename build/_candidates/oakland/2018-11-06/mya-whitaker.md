@@ -1,7 +1,7 @@
 ---
 ballot: _ballots/oakland/2018-11-06.md
 committee_name: Whitaker for Oakland City Council 2018
-filer_id: 1405266
+filer_id: '1405266'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Mya Whitaker
