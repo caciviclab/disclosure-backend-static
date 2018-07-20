@@ -145,12 +145,12 @@ ELECTIONS.each do |election_name, election|
     build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md") do |f|
       candidates = OaklandCandidate.where(Office: office_election.title, election_name: election_name).pluck(:Candidate)
 
-      f.puts(YAML.dump(
+      f.puts(YAML.dump({
         'ballot' => ballot_name[1..-1],
         'candidates' => candidates.map { |name| slugify(name) },
         'title' => office_election.title,
         'label' => office_election.label,
-      ))
+      }.compact))
       f.puts('---')
     end
   end
