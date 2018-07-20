@@ -87,17 +87,23 @@ end
 # /_ballots/oakland/2018-11-06.md
 ELECTIONS.each do |election_name, election|
   locality, _time = election_name.split('-', 2)
-  office_elections = OfficeElection.where(election_name: election_name).pluck(:title).uniq
+  office_elections = OfficeElection.where(election_name: election_name)
   referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
   ballot_name = "/_ballots/#{locality}/#{election[:date]}.md"
+  office_elections_by_label = office_elections.group_by(&:label)
 
   build_file(ballot_name) do |f|
     f.puts(YAML.dump(
       'title' => election[:title],
       'locality' => locality,
       'election' => election[:date],
-      'office_elections' => office_elections.map do |office|
-        "_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md"
+      'office_elections' => office_elections_by_label.map do |label, items|
+        {
+          'label' => label,
+          'items' => items.map do |office_election|
+            "_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md"
+          end
+        }.compact
       end,
       'referendums' => referendums.map do |title|
         "_referendums/#{locality}/#{election[:date]}/#{slugify(title)}.md"
