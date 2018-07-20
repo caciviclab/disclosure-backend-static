@@ -31,6 +31,6 @@ RSpec.describe CandidateSupportingExpenditure do
   subject { huber_trenado.calculation(:total_supporting_independent) }
 
   it 'calculates the correct value' do
-    expect(subject).to eq(100_788.96) # Is this value right? It doesn't agree with Suzanne.
+    expect(subject).to eq(99_288.96) # Is this value right? It doesn't agree with Suzanne.
   end
 end

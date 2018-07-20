@@ -35,6 +35,7 @@ class CandidateSupportingExpenditure
         WHERE "D-Expenditure"."Cand_NamL" IS NOT NULL
           AND "D-Expenditure"."Sup_Opp_Cd" = 'S'
           AND "FPPC" IS NOT NULL
+          AND "Expn_Code" = 'IND'
       )
       SELECT
         "Filer_ID",
