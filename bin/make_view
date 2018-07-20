@@ -2,7 +2,7 @@
 # vim: set ft=sh
 set -euo pipefail
 
-psql disclosure-backend << SQL
+psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 /*
 ** View to capture all expenditures for ballot measures.
 ** Some committees formed to support/oppose a measure do

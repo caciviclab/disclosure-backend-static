@@ -1,5 +1,8 @@
 .PHONY: download clean import run
 
+DATABASE_NAME?=disclosure-backend
+CSV_PATH?=downloads/csv
+
 CD := $(shell pwd)
 
 clean-spreadsheets:
@@ -44,40 +47,39 @@ download-COAK-%:
 download-BRK-%:
 	ruby ssconvert.rb downloads/static/efile_BRK_$(subst download-BRK-,,$@).xlsx 'downloads/csv/efile_BRK_$(subst download-BRK-,,$@)_%{sheet}.csv'
 
+import: dropdb createdb import-spreadsheets import-data
+
 import-spreadsheets:
-	echo 'DROP VIEW "Measure_Expenditures";' | psql disclosure-backend
-	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql disclosure-backend
-	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_candidates.csv
-	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
-	echo 'DROP TABLE IF EXISTS oakland_referendums;' | psql disclosure-backend
-	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_referendums.csv
-	echo 'ALTER TABLE "oakland_referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
-	echo 'DROP TABLE IF EXISTS oakland_name_to_number;' | psql disclosure-backend
-	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_name_to_number.csv
-	echo 'DROP TABLE IF EXISTS oakland_committees;' | psql disclosure-backend
-	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/csv/oakland_committees.csv
-	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql disclosure-backend
+	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_candidates.csv
+	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS oakland_referendums;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_referendums.csv
+	echo 'ALTER TABLE "oakland_referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS oakland_name_to_number;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_name_to_number.csv
+	echo 'DROP TABLE IF EXISTS oakland_committees;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_committees.csv
+	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/make_view
 
-import: dropdb createdb import-spreadsheets \
-	496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
+import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
 	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
-	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql disclosure-backend
-	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
+	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql $(DATABASE_NAME)
+	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
 
 dropdb:
-	dropdb disclosure-backend || true
+	dropdb $(DATABASE_NAME) || true
 
 createdb:
-	createdb disclosure-backend
+	createdb $(DATABASE_NAME)
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
-	csvstack downloads/csv/efile_*_$@.csv | csvsql --db postgresql:///disclosure-backend --tables $@ --insert
-	./bin/clean $@
-	./bin/latest_only $@
+	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
 
 downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv downloads/raw
