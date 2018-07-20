@@ -16,7 +16,8 @@ process: process.rb
 	rm -rf build && ruby process.rb
 
 download-spreadsheets: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
-	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv
+	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
+	downloads/csv/office_elections.csv
 
 download-cached:
 	$(WGET) https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
@@ -67,12 +68,14 @@ import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS oakland_committees;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_committees.csv
 	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
+	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/make_view
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
 	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
-	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255), election_name VARCHAR(255));' | psql $(DATABASE_NAME)
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
@@ -90,6 +93,13 @@ downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv downloads/raw
 	$(WGET) \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=0&single=true&output=csv' | \
+	sed -e '1s/ /_/g' | \
+	sed -e '1s/[^a-zA-Z,_]//g' > $@
+
+downloads/csv/office_elections.csv:
+	mkdir -p downloads/csv downloads/raw
+	wget -q -O- \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=585313505&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
