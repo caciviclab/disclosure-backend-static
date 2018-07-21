@@ -17,22 +17,29 @@
   "party_affiliation": "Democrat",
   "filer_id": 1388731,
   "supporting_money": {
-    "contributions_received": 20349.0,
-    "total_contributions": 20349.0,
-    "total_expenditures": 16624.17,
-    "total_loans_received": 19857.0,
+    "contributions_received": 44523.0,
+    "total_contributions": 44523.0,
+    "total_expenditures": 43819.87,
+    "total_loans_received": 39714.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Unitemized": 442.0,
-      "Self Funding": 50.0
+      "Individual": 2300.0,
+      "Unitemized": 1259.0,
+      "Self Funding": 50.0,
+      "Other (includes Businesses)": 1200.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 50.0
+      "Out of State": 350.0,
+      "Within Oakland": 2000.0,
+      "Within California": 1200.0
     },
     "expenditures_by_type": {
-      "Not Stated": 435.74,
-      "Campaign Paraphernalia/Misc.": 13557.03,
-      "Professional Services (Legal, Accounting)": 850.0
+      "Print Ads": 1800.0,
+      "Not Stated": 871.48,
+      "Campaign Paraphernalia/Misc.": 28345.46,
+      "Campaign Literature and Mailings": 3636.53,
+      "Professional Services (Legal, Accounting)": 3200.0,
+      "T.V. or Cable Airtime and Production Costs": 3485.0
     },
     "supporting_by_type": {
     }
@@ -42,17 +49,22 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 20349.0,
-  "total_contributions": 20349.0,
-  "total_expenditures": 16624.17,
-  "total_loans_received": 19857.0,
+  "contributions_received": 44523.0,
+  "total_contributions": 44523.0,
+  "total_expenditures": 43819.87,
+  "total_loans_received": 39714.0,
   "contributions_by_type": {
-    "Unitemized": 442.0,
-    "Self Funding": 50.0
+    "Individual": 2300.0,
+    "Unitemized": 1259.0,
+    "Self Funding": 50.0,
+    "Other (includes Businesses)": 1200.0
   },
   "expenditures_by_type": {
-    "Not Stated": 435.74,
-    "Campaign Paraphernalia/Misc.": 13557.03,
-    "Professional Services (Legal, Accounting)": 850.0
+    "Print Ads": 1800.0,
+    "Not Stated": 871.48,
+    "Campaign Paraphernalia/Misc.": 28345.46,
+    "Campaign Literature and Mailings": 3636.53,
+    "Professional Services (Legal, Accounting)": 3200.0,
+    "T.V. or Cable Airtime and Production Costs": 3485.0
   }
 }
