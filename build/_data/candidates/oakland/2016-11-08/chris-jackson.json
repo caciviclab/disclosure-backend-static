@@ -1,5 +1,5 @@
 {
-  "id": 35,
+  "id": 36,
   "name": "Chris Jackson",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/chris-jackson.png",
   "website_url": "http://www.chrisjacksonforoakland.org/",
@@ -40,12 +40,14 @@
       "Professional Services (Legal, Accounting)": 3020.47
     },
     "supporting_by_type": {
+      "IKD": 5924.0,
+      "MON": 1500.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 13975.5,
+    "opposing_expenditures": 6987.5,
     "opposing_by_type": {
-      "Campaign Literature and Mailings": 6988.0
+      "Independent Expenditure Supporting/Opposing Others": 6987.5
     }
   },
   "contributions_received": 14562.0,
