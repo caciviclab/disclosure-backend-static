@@ -7,22 +7,34 @@
   "number": "PENDING-2",
   "contributions_by_region": [
     {
-      "amount": 550000.0,
+      "amount": 50000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 610500.0,
       "locale": "Within California"
     },
     {
-      "amount": 175000.0,
+      "amount": 336163.6,
       "locale": "Within Oakland"
+    },
+    {
+      "amount": 194848.01000000013,
+      "locale": "Unknown"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Individual",
-      "amount": 400000.0
+      "amount": 471663.6
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 325000.0
+      "amount": 525000.0
+    },
+    {
+      "type": "COM",
+      "amount": 194848.01000000013
     }
   ],
   "supporting_organizations": [
@@ -36,8 +48,8 @@
       "id": "1310647",
       "name": "The Oakland Fund",
       "payee": "The Oakland Fund",
-      "amount": 100250.0
+      "amount": 893374.16
     }
   ],
-  "total_contributions": 725000.0
+  "total_contributions": 1191511.61
 }
