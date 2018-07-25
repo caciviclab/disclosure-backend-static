@@ -182,7 +182,10 @@ OaklandCommittee.includes(:calculations).find_each do |committee|
   next if committee['Filer_ID'] =~ /pending/i
 
   build_file("/_data/committees/#{committee['Filer_ID']}.json") do |f|
-    f.puts JSON.pretty_generate(contributions: committee.calculation(:contribution_list) || [])
+    f.puts JSON.pretty_generate(
+      total_contributions: committee.calculation(:total_contributions),
+      contributions: committee.calculation(:contribution_list) || [],
+    )
   end
 end
 
