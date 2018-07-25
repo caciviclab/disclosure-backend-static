@@ -3,6 +3,10 @@ set -euo pipefail
 
 # 1. delete duplicate 497 summary
 cat <<-QUERY | psql disclosure-backend
+DELETE FROM "496" late
+WHERE EXISTS (
+  SELECT * FROM "Summary" summary
+      WHERE summary."Filer_ID"::varchar = late."Filer_ID" AND late."Rpt_Date" <= summary."Thru_Date");
 DELETE FROM "497" late
 WHERE EXISTS (
   SELECT * FROM "Summary" summary
