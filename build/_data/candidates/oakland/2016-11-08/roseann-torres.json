@@ -1,5 +1,5 @@
 {
-  "id": 32,
+  "id": 33,
   "name": "Roseann Torres",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Roseann-Torres.png",
   "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
@@ -46,12 +46,13 @@
       "Information Technology Costs (Internet, E-mail)": 400.0
     },
     "supporting_by_type": {
+      "IKD": 5924.0,
+      "Independent Expenditure Supporting/Opposing Others": 6987.5
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 6988.0,
+    "opposing_expenditures": null,
     "opposing_by_type": {
-      "Campaign Literature and Mailings": 6988.0
     }
   },
   "contributions_received": 36273.01,

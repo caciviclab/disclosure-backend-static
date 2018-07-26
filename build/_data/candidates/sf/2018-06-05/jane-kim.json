@@ -1,5 +1,5 @@
 {
-  "id": 11,
+  "id": 12,
   "name": "Jane Kim",
   "photo_url": null,
   "website_url": null,
@@ -21,7 +21,7 @@
     "total_contributions": 545499.29,
     "total_expenditures": 1006669.74,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 234651.83,
+    "total_supporting_independent": 178260.83,
     "contributions_by_type": {
       "PTY": 496.52,
       "Committee": 6850.0,
@@ -57,49 +57,34 @@
       "Information Technology Costs (Internet, E-mail)": 81421.72
     },
     "supporting_by_type": {
-      "Signs": 784.0,
-      "Payroll": 5004.0,
-      "Palmcard": 4448.0,
+      "MON": 4700.0,
       "Print Ad": 1275.0,
       "Print ad": 6460.0,
       "Radio ad": 2340.0,
       "WEB; CNS": 845.0,
-      "Postcards": 923.0,
-      "Print Ads": 3326.0,
-      "Radio Ads": 9640.0,
+      "Radio Ads": 1000.0,
       "Digital Ad": 5642.0,
-      "Doorhanger": 7654.0,
-      "Walk Piece": 469.0,
+      "Doorhanger": 286.0,
       "Digital Ads": 3150.0,
       "Doorhangers": 993.0,
       "Email blast": 1853.0,
-      "Newspaper Ad": 29439.0,
-      "Window Signs": 1047.0,
-      "Television Ad": 41300.0,
-      "Civic Donations": 387.38,
+      "Newspaper Ad": 5484.0,
+      "Television Ad": 6400.0,
       "Estimated Payroll": 11705.0,
-      "Campaign Consultants": 8153.0,
-      "Print Ads - Estimated": 6419.0,
       "Doorhanger Photography": 125.0,
-      "Meetings and Appearances": 756.0,
-      "Social Media Advertising": 2500.0,
-      "Radio Airtime and Production Costs": 2648.0,
-      "Professional Services (Legal, Accounting)": 2619.62,
       "T.V. or Cable Airtime and Production Costs": 3750.0,
-      "Information Technology Costs (Internet, E-mail)": 28820.0
+      "Information Technology Costs (Internet, E-mail)": 13975.0,
+      "Independent Expenditure Supporting/Opposing Others": 110777.83
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 315354.67000000004,
+    "opposing_expenditures": 265195.67,
     "opposing_by_type": {
-      "Mailer (Estimated Costs)": 49632.0,
       "Digital Ad (Estimated Costs)": 2000.0,
-      "Online Ads (Estimated Costs)": 129500.0,
       "Campaign Literature and Mailings": 25063.0,
-      "Bay Area Reporter Print Advertisement": 527.0,
-      "San Francisco Media Co.Print Advertisement": 527.0,
       "T.V. or Cable Airtime and Production Costs": 40000.0,
-      "Information Technology Costs (Internet, E-mail)": 19000.0
+      "Information Technology Costs (Internet, E-mail)": 19000.0,
+      "Independent Expenditure Supporting/Opposing Others": 179132.67
     }
   },
   "contributions_received": 545499.29,
