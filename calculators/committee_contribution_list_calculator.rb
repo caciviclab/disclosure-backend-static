@@ -21,8 +21,12 @@ class CommitteeContributionListCalculator
     @committees.each do |committee|
       filer_id = committee['Filer_ID'].to_s
       sorted = Array(contributions_by_committee[filer_id])
+      total_contributions = sorted.reduce(0) do |total, contribution|
+        total + contribution['Tran_Amt1']
+      end
 
       committee.save_calculation(:contribution_list, sorted)
+      committee.save_calculation(:total_contributions, total_contributions)
     end
   end
 
