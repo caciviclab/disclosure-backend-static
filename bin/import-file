@@ -16,23 +16,23 @@ fi
 if [ $# -eq 0 ]; then
   echo "Usage: bin/import-file [csv_path] [table]"
   exit 1
-else
-  csv_path=$1
-  table_name=$2
-  filename_glob=$csv_path'/*'${table_name}'.csv'
-  table_exists=
-  if psql disclosure-backend -c '\d "'${table_name}'"' >/dev/null 2>&1; then
-    table_exists=true
-  fi
+fi
 
-  if ls $filename_glob 2>/dev/null >/dev/null; then
-    csvstack $filename_glob /dev/null | \
-      csvsql --db postgresql:///$DATABASE_NAME --tables $table_name --insert ${table_exists:+--no-create}
-    echo -n '  Removing empty Tran_Date... '
-    ./bin/clean $table_name
-    echo -n '  Removing amended filings... '
-    ./bin/latest_only $table_name
-  else
-    echo 'Found no files to import'
-  fi
+csv_path=$1
+table_name=$2
+filename_glob=$csv_path'/*'${table_name}'.csv'
+table_exists=
+if psql disclosure-backend -c '\d "'${table_name}'"' >/dev/null 2>&1; then
+  table_exists=true
+fi
+
+if ls $filename_glob 2>/dev/null >/dev/null; then
+  csvstack $filename_glob /dev/null | \
+    csvsql --db postgresql:///$DATABASE_NAME --tables $table_name --insert ${table_exists:+--no-create}
+  echo -n '  Removing empty Tran_Date... '
+  ./bin/clean $table_name
+  echo -n '  Removing amended filings... '
+  ./bin/latest_only $table_name
+else
+  echo 'Found no files to import'
 fi
