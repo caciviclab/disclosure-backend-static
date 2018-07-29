@@ -30,9 +30,9 @@ if ls $filename_glob 2>/dev/null >/dev/null; then
   csvstack $filename_glob /dev/null | \
     csvsql --db postgresql:///$DATABASE_NAME --tables $table_name --insert ${table_exists:+--no-create}
   echo -n '  Removing empty Tran_Date... '
-  ./bin/clean $table_name
+  ./bin/clean "$DATABASE_NAME" "$table_name"
   echo -n '  Removing amended filings... '
-  ./bin/latest_only $table_name
+  ./bin/latest_only "$DATABASE_NAME" "'$table_name"
 else
   echo 'Found no files to import'
 fi

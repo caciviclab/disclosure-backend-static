@@ -1,19 +1,29 @@
 #!/bin/bash
+# Usage: ./bin/latest_only [database name] [table name]
+#        ./bin/latest_only disclosure-backend A-Contributions
 set -euo pipefail
 
-if [[ "$1" == "497" || "$1" == "496" ]]; then
-  cat <<-QUERY | psql ${DATABASE_NAME:-"disclosure-backend"}
-  DELETE FROM "$1"
+if [ $# -ne 2 ]; then
+  echo 'Usage: ./bin/latest_only [database name] [table name]'
+  exit 1
+fi
+
+database_name=$1
+table_name=$2
+
+if [[ "$table_name" == "497" || "$table_name" == "496" ]]; then
+  cat <<-QUERY | psql "${database_name}"
+  DELETE FROM "$table_name"
   WHERE ("Filer_ID", "Rpt_ID_Num", "Report_Num") NOT IN (
-    SELECT "Filer_ID", "Rpt_ID_Num", max("Report_Num") from "$1"
+    SELECT "Filer_ID", "Rpt_ID_Num", max("Report_Num") from "$table_name"
     GROUP BY "Filer_ID", "Rpt_ID_Num"
   );
 QUERY
 else
-  cat <<-QUERY | psql ${DATABASE_NAME:-"disclosure-backend"}
-  DELETE FROM "$1"
+  cat <<-QUERY | psql "${database_name}"
+  DELETE FROM "$table_name"
   WHERE ("Filer_ID", "From_Date", "Report_Num") NOT IN (
-    SELECT "Filer_ID", "From_Date", max("Report_Num") from "$1"
+    SELECT "Filer_ID", "From_Date", max("Report_Num") from "$table_name"
     GROUP BY "Filer_ID", "From_Date"
   );
 QUERY
