@@ -50,6 +50,10 @@ download-BRK-%:
 import: dropdb createdb import-spreadsheets import-data
 
 import-spreadsheets:
+	# DEBUG: SPREADSHEET SIZES
+	du -h -a downloads/csv/
+	# DEBUG: BINARY PATH
+	which csvsql
 	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
 	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_candidates.csv
