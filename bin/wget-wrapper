@@ -1,0 +1,25 @@
+#!/bin/bash
+# This script mimics the `--retry-on-http-error' functionality, which isn't
+# available on Travis.
+#
+# Usage: bin/wget-wrapper [arguments to wget]
+set -euo pipefail
+
+retries=3
+while true; do
+  wget "$@" && break
+
+  exit_code=$?
+
+  retries=$(($retries - 1))
+  if [ $retries -lt 0 ]; then
+    echo "Ran out of retries :("
+    exit $exit_code
+  fi
+
+  echo "Error downloading. Waiting and retrying..." >&2
+  # when retries = 2, sleep 1 second
+  # when retries = 1, sleep 3 seconds
+  # when retries = 0, sleep 5 seconds
+  sleep $(($((2 - $retries)) * 2 + 1))
+done

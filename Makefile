@@ -4,7 +4,7 @@ DATABASE_NAME?=disclosure-backend
 CSV_PATH?=downloads/csv
 
 CD := $(shell pwd)
-WGET=wget -O- --no-verbose --tries=3 --retry-on-http-error=403
+WGET=bin/wget-wrapper -O- --no-verbose --tries=3
 
 clean-spreadsheets:
 	rm -rf downloads/csv/oakland_*.csv
