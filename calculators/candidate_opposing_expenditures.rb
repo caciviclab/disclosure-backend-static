@@ -17,6 +17,7 @@ class CandidateOpposingExpenditure
         FROM "D-Expenditure"
         WHERE "Cand_NamL" IS NOT NULL
           AND "Sup_Opp_Cd" = 'O'
+          AND "Expn_Code" = 'IND'
       )
       SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Exp_Date",
       sum("Amount") AS total

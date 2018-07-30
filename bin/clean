@@ -1,10 +1,20 @@
 #!/bin/bash
+# Usage: ./bin/clean [database name] [table name]
+#        ./bin/clean disclosure-backend A-Contributions
 set -euo pipefail
 
-if [[ "$1" == "A-Contributions" || "$1" == "C-Contributions" || "$1" == "F496P3-Contributions" || "$1" == "I-Contributions" ]]; then
+if [ $# -ne 2 ]; then
+  echo 'Usage: ./bin/clean [database name] [table name]'
+  exit 1
+fi
 
-cat <<-QUERY | psql disclosure-backend
-  DELETE FROM "$1"
+database_name=$1
+table_name=$2
+
+if [[ "$table_name" == "A-Contributions" || "$table_name" == "C-Contributions" || "$table_name" == "F496P3-Contributions" || "$table_name" == "I-Contributions" ]]; then
+
+cat <<-QUERY | psql ${database_name}
+  DELETE FROM "$table_name"
   WHERE "Tran_Date" is NULL;
 QUERY
 fi

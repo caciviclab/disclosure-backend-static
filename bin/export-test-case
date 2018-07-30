@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euo pipefail
+
+test_case_dir=spec/fixtures/candidate_independent_supporting
+
+sed -n '1p; /trenado/p' downloads/csv/oakland_candidates.csv > $test_case_dir/oakland_candidates.csv
+
+psql disclosure-backend <<QUERY > "${test_case_dir}/D-Expenditure.csv"
+copy (select * from "D-Expenditure" where "Cand_NamL" ilike '%trenado%')
+  to stdout with csv header delimiter ',';
+QUERY

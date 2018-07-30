@@ -13,6 +13,7 @@ class CandidateSupportingExpenditure
       WITH combined_independent_expenditures AS (
         SELECT
           "FPPC" AS "Filer_ID",
+          "Exp_Date" as "Expn_Date",
           "Filer_NamL",
           "Amount"
         FROM "496"
@@ -23,13 +24,18 @@ class CandidateSupportingExpenditure
           AND "FPPC" IS NOT NULL
 
         UNION
-        SELECT "FPPC" as "Filer_ID", "Filer_NamL", "Amount"
+        SELECT
+          "FPPC" as "Filer_ID",
+          "Expn_Date",
+          "Filer_NamL",
+          "Amount"
         FROM "D-Expenditure"
         INNER JOIN "oakland_candidates"
           ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("oakland_candidates"."Candidate")
         WHERE "D-Expenditure"."Cand_NamL" IS NOT NULL
           AND "D-Expenditure"."Sup_Opp_Cd" = 'S'
           AND "FPPC" IS NOT NULL
+          AND "Expn_Code" = 'IND'
       )
       SELECT
         "Filer_ID",
