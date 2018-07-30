@@ -7,22 +7,22 @@
   "number": "A",
   "contributions_by_region": [
     {
-      "amount": 159500.0,
+      "amount": 191500.0,
       "locale": "Out of State"
     },
     {
-      "amount": 125064.07,
+      "amount": 161207.32,
       "locale": "Within California"
     },
     {
-      "amount": 5000.0,
+      "amount": 10000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 47143.25
+      "amount": 79286.5
     },
     {
       "type": "Individual",
@@ -30,7 +30,7 @@
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 229920.82
+      "amount": 270920.82
     }
   ],
   "supporting_organizations": [
@@ -38,8 +38,8 @@
       "id": "1332115",
       "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
       "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
-      "amount": 43556.0
+      "amount": 70065.0
     }
   ],
-  "total_contributions": 289564.07
+  "total_contributions": 362707.32
 }

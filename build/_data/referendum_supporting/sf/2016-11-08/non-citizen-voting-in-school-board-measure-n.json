@@ -7,22 +7,14 @@
   "number": "N",
   "contributions_by_region": [
     {
-      "amount": 10000.0,
+      "amount": 20000.0,
       "locale": "Within California"
-    },
-    {
-      "amount": 1858.58,
-      "locale": "Unknown"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 10000.0
-    },
-    {
-      "type": "COM",
-      "amount": 1858.58
+      "amount": 20000.0
     }
   ],
   "supporting_organizations": [
@@ -30,8 +22,8 @@
       "id": "1390722",
       "name": "Coalition for Immigrant Parent Empowerment, Yes on N, 2016",
       "payee": "Coalition for Immigrant Parent Empowerment, Yes on N, 2016",
-      "amount": 3835.52
+      "amount": -3687.54
     }
   ],
-  "total_contributions": 11858.58
+  "total_contributions": 20000.0
 }

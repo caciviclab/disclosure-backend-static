@@ -17,16 +17,19 @@
   "party_affiliation": null,
   "filer_id": 1401694,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 181257.0,
+    "total_contributions": 181257.0,
+    "total_expenditures": 887.17,
+    "total_loans_received": 181005.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Unitemized": 252.0
     },
     "contributions_by_origin": {
     },
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 300.0,
+      "Campaign Literature and Mailings": 480.8
     },
     "supporting_by_type": {
     }
@@ -36,12 +39,15 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 181257.0,
+  "total_contributions": 181257.0,
+  "total_expenditures": 887.17,
+  "total_loans_received": 181005.0,
   "contributions_by_type": {
+    "Unitemized": 252.0
   },
   "expenditures_by_type": {
+    "Campaign Paraphernalia/Misc.": 300.0,
+    "Campaign Literature and Mailings": 480.8
   }
 }
