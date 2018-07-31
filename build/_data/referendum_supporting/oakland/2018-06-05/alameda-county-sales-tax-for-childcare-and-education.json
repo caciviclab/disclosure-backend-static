@@ -7,30 +7,30 @@
   "number": "A",
   "contributions_by_region": [
     {
-      "amount": 191500.0,
+      "amount": 201000.0,
       "locale": "Out of State"
     },
     {
-      "amount": 161207.32,
+      "amount": 325101.95,
       "locale": "Within California"
     },
     {
-      "amount": 10000.0,
+      "amount": 20922.24,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 79286.5
+      "amount": 122351.99
     },
     {
       "type": "Individual",
-      "amount": 12500.0
+      "amount": 23000.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 270920.82
+      "amount": 401672.2
     }
   ],
   "supporting_organizations": [
@@ -41,5 +41,5 @@
       "amount": 70065.0
     }
   ],
-  "total_contributions": 362707.32
+  "total_contributions": 547024.19
 }
