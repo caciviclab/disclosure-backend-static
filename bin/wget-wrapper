@@ -1,6 +1,7 @@
 #!/bin/bash
-# This script mimics the `--retry-on-http-error' functionality, which isn't
-# available on Travis.
+# Google periodicially, and for no apparent reason, returns "403 Forbidden"
+# when attempting to download the published CSVs of the sheet. By adding some
+# retry logic in here we can hopefully withstand this error.
 #
 # Usage: bin/wget-wrapper [arguments to wget]
 set -euo pipefail
@@ -18,6 +19,7 @@ while true; do
   fi
 
   echo "Error downloading. Waiting and retrying..." >&2
+
   # when retries = 2, sleep 1 second
   # when retries = 1, sleep 3 seconds
   # when retries = 0, sleep 5 seconds
