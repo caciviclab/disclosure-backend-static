@@ -20,9 +20,9 @@ download-spreadsheets: downloads/csv/oakland_candidates.csv downloads/csv/oaklan
 	downloads/csv/office_elections.csv
 
 download-cached:
-	$(WGET) https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
+	$(WGET) "https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
 		git log --author 'OpenDisclosure Deploybot' -n1 --pretty=format:%aI | cut -d"T" -f1 \
-	).tar.gz | tar xz
+	).tar.gz" | tar xz
 
 upload-cache:
 	tar czf - downloads/csv downloads/static \
