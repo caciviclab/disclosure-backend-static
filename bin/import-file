@@ -32,7 +32,7 @@ if ls $filename_glob 2>/dev/null >/dev/null; then
   echo -n '  Removing empty Tran_Date... '
   ./bin/clean "$DATABASE_NAME" "$table_name"
   echo -n '  Removing amended filings... '
-  ./bin/latest_only "$DATABASE_NAME" "'$table_name"
+  ./bin/latest_only "$DATABASE_NAME" "$table_name"
 else
   echo 'Found no files to import'
 fi
