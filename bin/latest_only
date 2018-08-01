@@ -13,6 +13,7 @@ table_name=$2
 
 if [[ "$table_name" == "497" || "$table_name" == "496" ]]; then
   cat <<-QUERY | psql "${database_name}"
+  \\set ON_ERROR_STOP on
   DELETE FROM "$table_name"
   WHERE ("Filer_ID", "Rpt_ID_Num", "Report_Num") NOT IN (
     SELECT "Filer_ID", "Rpt_ID_Num", max("Report_Num") from "$table_name"
@@ -21,6 +22,7 @@ if [[ "$table_name" == "497" || "$table_name" == "496" ]]; then
 QUERY
 else
   cat <<-QUERY | psql "${database_name}"
+  \\set ON_ERROR_STOP on
   DELETE FROM "$table_name"
   WHERE ("Filer_ID", "From_Date", "Report_Num") NOT IN (
     SELECT "Filer_ID", "From_Date", max("Report_Num") from "$table_name"

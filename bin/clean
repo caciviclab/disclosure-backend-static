@@ -14,6 +14,7 @@ table_name=$2
 if [[ "$table_name" == "A-Contributions" || "$table_name" == "C-Contributions" || "$table_name" == "F496P3-Contributions" || "$table_name" == "I-Contributions" ]]; then
 
 cat <<-QUERY | psql ${database_name}
+  \\set ON_ERROR_STOP on
   DELETE FROM "$table_name"
   WHERE "Tran_Date" is NULL;
 QUERY
