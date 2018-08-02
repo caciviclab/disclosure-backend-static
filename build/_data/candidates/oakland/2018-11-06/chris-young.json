@@ -1,5 +1,5 @@
 {
-  "id": 55,
+  "id": 54,
   "name": "Chris Young",
   "photo_url": null,
   "website_url": "https://www.chris4oakland.com/",
@@ -17,16 +17,23 @@
   "party_affiliation": null,
   "filer_id": 1405565,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 113207.0,
+    "total_contributions": 113207.0,
+    "total_expenditures": 6456.05,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Individual": 111750.0,
+      "Unitemized": 1457.0
     },
     "contributions_by_origin": {
+      "Out of State": 9400.0,
+      "Within Oakland": 25050.0,
+      "Within California": 77300.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 3950.58,
+      "Professional Services (Legal, Accounting)": 768.66
     },
     "supporting_by_type": {
     }
@@ -36,12 +43,16 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 113207.0,
+  "total_contributions": 113207.0,
+  "total_expenditures": 6456.05,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 111750.0,
+    "Unitemized": 1457.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 3950.58,
+    "Professional Services (Legal, Accounting)": 768.66
   }
 }

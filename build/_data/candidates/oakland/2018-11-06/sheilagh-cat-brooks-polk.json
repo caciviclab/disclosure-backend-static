@@ -1,5 +1,5 @@
 {
-  "id": 54,
+  "id": 68,
   "name": "Sheilagh \"Cat Brooks\" Polk",
   "photo_url": null,
   "website_url": "https://www.catbrooksforoakland.com/",
@@ -17,16 +17,29 @@
   "party_affiliation": null,
   "filer_id": 1405474,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 49932.42,
+    "total_contributions": 49932.42,
+    "total_expenditures": 13082.17,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Individual": 38047.44,
+      "Unitemized": 11884.98
     },
     "contributions_by_origin": {
+      "Out of State": 1575.0,
+      "Within Oakland": 24463.32,
+      "Within California": 12009.12
     },
     "expenditures_by_type": {
+      "Not Stated": 300.0,
+      "Office Expenses": 107.26,
+      "Meetings and Appearances": 150.0,
+      "Campaign Workers' Salaries": 1500.0,
+      "Campaign Paraphernalia/Misc.": 2825.94,
+      "Campaign Literature and Mailings": 1122.75,
+      "Postage, Delivery and Messenger Services": 116.58,
+      "Professional Services (Legal, Accounting)": 3825.0
     },
     "supporting_by_type": {
     }
@@ -36,12 +49,22 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 49932.42,
+  "total_contributions": 49932.42,
+  "total_expenditures": 13082.17,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 38047.44,
+    "Unitemized": 11884.98
   },
   "expenditures_by_type": {
+    "Not Stated": 300.0,
+    "Office Expenses": 107.26,
+    "Meetings and Appearances": 150.0,
+    "Campaign Workers' Salaries": 1500.0,
+    "Campaign Paraphernalia/Misc.": 2825.94,
+    "Campaign Literature and Mailings": 1122.75,
+    "Postage, Delivery and Messenger Services": 116.58,
+    "Professional Services (Legal, Accounting)": 3825.0
   }
 }

@@ -1,5 +1,5 @@
 {
-  "id": 57,
+  "id": 69,
   "name": "Rebecca Kaplan",
   "photo_url": null,
   "website_url": "http://kaplanforoakland.org/",
@@ -17,19 +17,26 @@
   "party_affiliation": "Democrat",
   "filer_id": 1406223,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 6920.0,
+    "total_contributions": 6920.0,
+    "total_expenditures": 2168.09,
+    "total_loans_received": 5000.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Individual": 1600.0,
+      "Unitemized": 320.0
     },
     "contributions_by_origin": {
+      "Out of State": 1600.0,
+      "Within California": 0.0
     },
     "expenditures_by_type": {
+      "Campaign Literature and Mailings": 882.0,
+      "Postage, Delivery and Messenger Services": 150.48,
+      "Information Technology Costs (Internet, E-mail)": 500.0
     },
     "supporting_by_type": {
-      "MON": 2800.0
+      "MON": 2100.0
     }
   },
   "opposing_money": {
@@ -37,12 +44,17 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 6920.0,
+  "total_contributions": 6920.0,
+  "total_expenditures": 2168.09,
+  "total_loans_received": 5000.0,
   "contributions_by_type": {
+    "Individual": 1600.0,
+    "Unitemized": 320.0
   },
   "expenditures_by_type": {
+    "Campaign Literature and Mailings": 882.0,
+    "Postage, Delivery and Messenger Services": 150.48,
+    "Information Technology Costs (Internet, E-mail)": 500.0
   }
 }

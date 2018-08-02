@@ -7,30 +7,30 @@
   "number": "JJ",
   "contributions_by_region": [
     {
-      "amount": 63600.0,
+      "amount": 29200.0,
       "locale": "Out of State"
     },
     {
-      "amount": 258860.17,
+      "amount": 123760.65,
       "locale": "Within California"
     },
     {
-      "amount": 769524.07,
+      "amount": 324759.16,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 628368.86
+      "amount": 270394.35
     },
     {
       "type": "Individual",
-      "amount": 101990.0
+      "amount": 49670.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 361625.38
+      "amount": 157655.46
     }
   ],
   "supporting_organizations": [
@@ -38,14 +38,14 @@
       "id": "1385949",
       "name": "Causa Justa :: Just Cause (nonprofit 501(c)(3))",
       "payee": "Causa Justa :: Just Cause (nonprofit 501(c)(3))",
-      "amount": 170043.83
+      "amount": 168898.88
     },
     {
       "id": "1364564",
       "name": "Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations",
       "payee": "Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations",
-      "amount": 648694.46
+      "amount": 349481.88
     }
   ],
-  "total_contributions": 1091984.24
+  "total_contributions": 477719.80999999994
 }

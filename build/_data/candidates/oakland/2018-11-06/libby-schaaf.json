@@ -1,5 +1,5 @@
 {
-  "id": 41,
+  "id": 65,
   "name": "Libby Schaaf",
   "photo_url": null,
   "website_url": "https://libbyformayor.wordpress.com/",
@@ -17,32 +17,33 @@
   "party_affiliation": null,
   "filer_id": 1395968,
   "supporting_money": {
-    "contributions_received": 262193.66,
-    "total_contributions": 262193.66,
-    "total_expenditures": 36153.65,
+    "contributions_received": 378933.16,
+    "total_contributions": 378933.16,
+    "total_expenditures": 80256.92,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Committee": 2250.0,
-      "Individual": 235919.66,
-      "Unitemized": 2824.0,
-      "Other (includes Businesses)": 21200.0
+      "Committee": 2500.0,
+      "Individual": 346080.68,
+      "Unitemized": 6123.18,
+      "Other (includes Businesses)": 24150.0
     },
     "contributions_by_origin": {
-      "Out of State": 5200.0,
-      "Within Oakland": 141640.0,
-      "Within California": 112529.66
+      "Out of State": 11850.0,
+      "Within Oakland": 192540.0,
+      "Within California": 168340.68
     },
     "expenditures_by_type": {
-      "Office Expenses": 15105.6,
+      "Office Expenses": 19990.29,
       "Fundraising Events": 349.05,
       "Campaign Consultants": 3000.0,
-      "Returned Contributions": 2700.0,
-      "Professional Services (Legal, Accounting)": 13994.0,
+      "Returned Contributions": 3900.0,
+      "Polling and Survey Research": 15000.0,
+      "Professional Services (Legal, Accounting)": 18557.55,
       "Information Technology Costs (Internet, E-mail)": 975.0
     },
     "supporting_by_type": {
-      "MON": 4400.0
+      "MON": 3400.0
     }
   },
   "opposing_money": {
@@ -50,22 +51,23 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 262193.66,
-  "total_contributions": 262193.66,
-  "total_expenditures": 36153.65,
+  "contributions_received": 378933.16,
+  "total_contributions": 378933.16,
+  "total_expenditures": 80256.92,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 2250.0,
-    "Individual": 235919.66,
-    "Unitemized": 2824.0,
-    "Other (includes Businesses)": 21200.0
+    "Committee": 2500.0,
+    "Individual": 346080.68,
+    "Unitemized": 6123.18,
+    "Other (includes Businesses)": 24150.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 15105.6,
+    "Office Expenses": 19990.29,
     "Fundraising Events": 349.05,
     "Campaign Consultants": 3000.0,
-    "Returned Contributions": 2700.0,
-    "Professional Services (Legal, Accounting)": 13994.0,
+    "Returned Contributions": 3900.0,
+    "Polling and Survey Research": 15000.0,
+    "Professional Services (Legal, Accounting)": 18557.55,
     "Information Technology Costs (Internet, E-mail)": 975.0
   }
 }

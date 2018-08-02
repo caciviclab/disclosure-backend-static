@@ -1,5 +1,5 @@
 {
-  "id": 37,
+  "id": 60,
   "name": "Desley Brooks",
   "photo_url": null,
   "website_url": null,
@@ -17,32 +17,37 @@
   "party_affiliation": null,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 41600.0,
-    "total_contributions": 41600.0,
-    "total_expenditures": 26808.66,
-    "total_loans_received": -2300.0,
+    "contributions_received": 50297.0,
+    "total_contributions": 50297.0,
+    "total_expenditures": 27236.73,
+    "total_loans_received": -2400.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Individual": 46700.0,
-      "Unitemized": 0.0,
-      "Other (includes Businesses)": -2100.0
+      "Committee": 3800.0,
+      "Individual": 47890.0,
+      "Unitemized": 557.0,
+      "Other (includes Businesses)": 1150.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 13700.0,
-      "Within California": 30900.0
+      "Out of State": 1500.0,
+      "Within Oakland": 26920.0,
+      "Within California": 24420.0
     },
     "expenditures_by_type": {
       "Not Stated": 6985.48,
       "Contribution": 700.0,
       "Legal Defense": 1000.0,
-      "Civic Donations": 1825.0,
-      "Office Expenses": 6589.66,
-      "Fundraising Events": 2471.0,
+      "Civic Donations": 1725.0,
+      "Office Expenses": 4944.68,
+      "Fundraising Events": 1893.34,
       "Campaign Consultants": 2500.0,
       "Member Communications": 199.19,
+      "Campaign Paraphernalia/Misc.": 420.0,
       "Candidate Filing/Ballot Fees": 250.0,
-      "Candidate Travel, Lodging, and Meals": 2251.26,
-      "Postage, Delivery and Messenger Services": 102.0
+      "Campaign Literature and Mailings": 2523.06,
+      "Candidate Travel, Lodging, and Meals": 1871.39,
+      "Postage, Delivery and Messenger Services": 102.0,
+      "Information Technology Costs (Internet, E-mail)": 366.7
     },
     "supporting_by_type": {
     }
@@ -52,26 +57,30 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 41600.0,
-  "total_contributions": 41600.0,
-  "total_expenditures": 26808.66,
-  "total_loans_received": -2300.0,
+  "contributions_received": 50297.0,
+  "total_contributions": 50297.0,
+  "total_expenditures": 27236.73,
+  "total_loans_received": -2400.0,
   "contributions_by_type": {
-    "Individual": 46700.0,
-    "Unitemized": 0.0,
-    "Other (includes Businesses)": -2100.0
+    "Committee": 3800.0,
+    "Individual": 47890.0,
+    "Unitemized": 557.0,
+    "Other (includes Businesses)": 1150.0
   },
   "expenditures_by_type": {
     "Not Stated": 6985.48,
     "Contribution": 700.0,
     "Legal Defense": 1000.0,
-    "Civic Donations": 1825.0,
-    "Office Expenses": 6589.66,
-    "Fundraising Events": 2471.0,
+    "Civic Donations": 1725.0,
+    "Office Expenses": 4944.68,
+    "Fundraising Events": 1893.34,
     "Campaign Consultants": 2500.0,
     "Member Communications": 199.19,
+    "Campaign Paraphernalia/Misc.": 420.0,
     "Candidate Filing/Ballot Fees": 250.0,
-    "Candidate Travel, Lodging, and Meals": 2251.26,
-    "Postage, Delivery and Messenger Services": 102.0
+    "Campaign Literature and Mailings": 2523.06,
+    "Candidate Travel, Lodging, and Meals": 1871.39,
+    "Postage, Delivery and Messenger Services": 102.0,
+    "Information Technology Costs (Internet, E-mail)": 366.7
   }
 }

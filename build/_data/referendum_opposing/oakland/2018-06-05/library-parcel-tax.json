@@ -6,7 +6,14 @@
   "summary": null,
   "number": "D",
   "contributions_by_region": [
-
+    {
+      "amount": 390611.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 850707.82,
+      "locale": "Within California"
+    }
   ],
   "contributions_by_type": [
 
@@ -14,7 +21,5 @@
   "opposing_organizations": [
 
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 1241318.8199999998
 }

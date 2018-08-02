@@ -7,10 +7,14 @@ candidates:
 - sheilagh-cat-brooks-polk
 - rebecca-kaplan
 - ken-houston
-- nancy-sidebotham
+- peter-liu
+- asah-m-pearson
+- pamela-price
 - jesse-a-j-smith
 - cedric-anthony-troupe
 - shelton-dunson
+- nancy-sidebotham
+- preston-walker
 - randolph-wilkins
 title: Mayor
 ---

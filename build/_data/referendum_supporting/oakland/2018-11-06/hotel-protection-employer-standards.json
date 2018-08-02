@@ -7,22 +7,38 @@
   "number": "PENDING-1",
   "contributions_by_region": [
     {
-      "amount": 1500.0,
+      "amount": 50500.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 101195.0,
       "locale": "Within California"
     },
     {
-      "amount": 181858.88,
+      "amount": 192559.56,
       "locale": "Within Oakland"
+    },
+    {
+      "amount": 26600.109999999986,
+      "locale": "Unknown"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 21695.0
+    },
+    {
       "type": "Individual",
-      "amount": 50000.0
+      "amount": 51000.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 133358.88
+      "amount": 271559.56
+    },
+    {
+      "type": "COM",
+      "amount": 26600.109999999986
     }
   ],
   "supporting_organizations": [
@@ -48,8 +64,8 @@
       "id": "1403165",
       "name": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
       "payee": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
-      "amount": 93472.35
+      "amount": 336018.35
     }
   ],
-  "total_contributions": 183358.88
+  "total_contributions": 370854.67
 }
