@@ -1,4 +1,4 @@
-class ReferendumExpendituresByOrigin
+class ReferendumByOrigin
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
     @committees_by_filer_id =
@@ -6,14 +6,6 @@ class ReferendumExpendituresByOrigin
   end
 
   def fetch
-    # Get the total expenditures.  If the contributions are less than this
-    # then the remainder will be from "Unknown" locale.
-    expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Measure_Number", "Sup_Opp_Cd", sum("Amount") AS total
-      FROM "Measure_Expenditures"
-      GROUP BY "Measure_Number", "Sup_Opp_Cd"
-    SQL
-
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH contributions_by_locale AS (
         SELECT "Filer_ID",
@@ -38,22 +30,15 @@ class ReferendumExpendituresByOrigin
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
     SQL
 
-    support_total = {}
-    oppose_total = {}
-
-    expenditures.each do |row|
-      if row['Sup_Opp_Cd'] == 'S'
-        support_total[row['Measure_Number']] = row['total']
-      elsif row['Sup_Opp_Cd'] == 'O'
-        oppose_total[row['Measure_Number']] = row['total']
-      end
-    end
-
     support = {}
     oppose = {}
 
     contributions.each do |row|
       measure = row['Measure_Number']
+      if measure.nil?
+        puts 'WARN empty measure number: ' + row.inspect
+        next
+      end
       support[measure] ||= {}
       oppose[measure] ||= {}
 
@@ -70,43 +55,18 @@ class ReferendumExpendituresByOrigin
     end
 
     [
-      [support_total, support, :supporting_locales, :supporting_total],
-      [oppose_total, oppose, :opposing_locales, :opposing_total],
-    ].each do |expenditures_of_type, locales, calculation_name, total_name|
-      expenditures_of_type.keys.each do |measure|
+      [support, :supporting_locales, :supporting_total],
+      [oppose, :opposing_locales, :opposing_total],
+    ].each do |locales, calculation_name, total_name|
+      locales.keys.map do |measure|
         total = 0
         ballot_measure = ballot_measure_from_number(measure)
-
-        next if measure == 'SKIP'
-
-        if ballot_measure.nil?
-          puts 'WARN: Could not find ballot measure: ' + measure.inspect
-          next
-        end
-
-        if locales[measure].nil?
-          # Debug with:
-          # SELECT * FROM "Measure_Expenditures" WHERE "Measure_Number" = '#{measure}'
-          $stderr.puts 'EXPENDITURES W/O CONTRIBUTIONS (by origin):'
-          $stderr.puts '  Expenditures present but contributions missing for ' + total_name.inspect + ': ' + measure.inspect
-          $stderr.puts '  Perhaps add expenditure committees to "committees" tab'
-          next
-        end
-
         result = locales[measure].keys.map do |locale|
           amount = locales[measure][locale]
-          expenditures_of_type[measure] -= amount
           total += amount
           {
             locale: locale,
             amount: amount,
-          }
-        end
-        if expenditures_of_type[measure] > 0
-          total += expenditures_of_type[measure]
-          result << {
-            locale: 'Unknown',
-            amount: expenditures_of_type[measure],
           }
         end
         ballot_measure.save_calculation(total_name, total)
