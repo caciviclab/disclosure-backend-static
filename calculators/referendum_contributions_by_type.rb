@@ -1,4 +1,4 @@
-class ReferendumExpendituresByType
+class ReferendumContributionsByType
   TYPE_DESCRIPTIONS = {
     'IND' => 'Individual',
     'COM' => 'Committee',

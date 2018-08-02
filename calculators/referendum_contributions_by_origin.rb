@@ -1,4 +1,4 @@
-class ReferendumByOrigin
+class ReferendumContributionsByOrigin
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
     @committees_by_filer_id =
