@@ -13,14 +13,6 @@ class ReferendumExpendituresByType
   end
 
   def fetch
-    # Get the total expenditures.  If the contributions are less than this
-    # then the remainder will be from this committee.
-    expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Measure_Number", "Sup_Opp_Cd", sum("Amount") AS total
-      FROM "Measure_Expenditures"
-      GROUP BY "Measure_Number", "Sup_Opp_Cd"
-    SQL
-
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH contributions_by_type AS (
         SELECT "Filer_ID",
@@ -44,63 +36,35 @@ class ReferendumExpendituresByType
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type;
     SQL
 
-    support_total = {}
-    oppose_total = {}
-
-    expenditures.each do |row|
-      if row['Sup_Opp_Cd'] == 'S'
-        support_total[row['Measure_Number']] = row['total']
-      elsif row['Sup_Opp_Cd'] == 'O'
-        oppose_total[row['Measure_Number']] = row['total']
-      end
-    end
-
     support = {}
     oppose = {}
 
     contributions.each do |row|
+      measure = row['Measure_Number']
+      if measure.nil?
+        puts 'WARN empty measure number: ' + row.inspect
+        next
+      end
       if row['Sup_Opp_Cd'] == 'S'
-        support[row['Measure_Number']] ||= {}
-        support[row['Measure_Number']][TYPE_DESCRIPTIONS[row['type']]] = row['total']
+        support[measure] ||= {}
+        support[measure][TYPE_DESCRIPTIONS[row['type']]] = row['total']
       elsif row['Sup_Opp_Cd'] == 'O'
-        oppose[row['Measure_Number']] ||= {}
-        oppose[row['Measure_Number']][TYPE_DESCRIPTIONS[row['type']]] = row['total']
+        oppose[measure] ||= {}
+        oppose[measure][TYPE_DESCRIPTIONS[row['type']]] = row['total']
       end
     end
 
     [
-      [support_total, support, :supporting_type],
-      [oppose_total, oppose, :opposing_type],
-    ].each do |expenditures_of_type, by_type, calculation_name|
-      expenditures_of_type.keys.each do |measure|
+      [support, :supporting_type],
+      [oppose, :opposing_type],
+    ].each do |by_type, calculation_name|
+      by_type.keys.map do |measure|
         ballot_measure = ballot_measure_from_number(measure)
-
-        if ballot_measure.nil?
-          puts 'WARN: Could not find ballot measure: ' + measure.inspect
-          next
-        end
-
-        if by_type[measure].nil?
-          # Debug with:
-          # SELECT * FROM "Measure_Expenditures" WHERE "Measure_Number" = '#{measure}'
-          $stderr.puts 'EXPENDITURES W/O CONTRIBUTIONS (by type):'
-          $stderr.puts '  Expenditures present but contributions missing for ' + calculation_name.inspect + ': ' + measure.inspect
-          $stderr.puts '  Perhaps add expenditure committees to "committees" tab'
-          next
-        end
-
         result = by_type[measure].keys.map do |type|
           amount = by_type[measure][type]
-          expenditures_of_type[measure] -= amount
           {
             type: type,
             amount: amount,
-          }
-        end
-        if expenditures_of_type[measure] > 0
-          result << {
-            type: 'COM',
-            amount: expenditures_of_type[measure],
           }
         end
         ballot_measure.save_calculation(calculation_name, result)
