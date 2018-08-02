@@ -17,16 +17,26 @@
   "party_affiliation": null,
   "filer_id": 1405422,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 20361.0,
+    "total_contributions": 20361.0,
+    "total_expenditures": 1911.22,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Individual": 17715.0,
+      "Unitemized": 2346.0,
+      "Self Funding": 100.0,
+      "Other (includes Businesses)": 200.0
     },
     "contributions_by_origin": {
+      "Out of State": 3550.0,
+      "Within Oakland": 7765.0,
+      "Within California": 6700.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 196.74,
+      "Fundraising Events": 750.0,
+      "Campaign Consultants": 500.0
     },
     "supporting_by_type": {
     }
@@ -36,12 +46,19 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 20361.0,
+  "total_contributions": 20361.0,
+  "total_expenditures": 1911.22,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 17715.0,
+    "Unitemized": 2346.0,
+    "Self Funding": 100.0,
+    "Other (includes Businesses)": 200.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 196.74,
+    "Fundraising Events": 750.0,
+    "Campaign Consultants": 500.0
   }
 }

@@ -17,16 +17,23 @@
   "party_affiliation": null,
   "filer_id": 1405456,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 21139.0,
+    "total_contributions": 21139.0,
+    "total_expenditures": 150.2,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Committee": 800.0,
+      "Individual": 17225.0,
+      "Unitemized": 714.0,
+      "Other (includes Businesses)": 2400.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 12675.0,
+      "Within California": 7750.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 100.2
     },
     "supporting_by_type": {
     }
@@ -36,12 +43,17 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 21139.0,
+  "total_contributions": 21139.0,
+  "total_expenditures": 150.2,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Committee": 800.0,
+    "Individual": 17225.0,
+    "Unitemized": 714.0,
+    "Other (includes Businesses)": 2400.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 100.2
   }
 }
