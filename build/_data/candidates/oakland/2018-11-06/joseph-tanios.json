@@ -1,5 +1,5 @@
 {
-  "id": 56,
+  "id": 57,
   "name": "Joseph Tanios",
   "photo_url": null,
   "website_url": "https://www.joetanios.com/",
@@ -11,22 +11,30 @@
   "office_election": 8,
   "bio": null,
   "committee_name": "Joseph Tanios for Oakland City Council 2018",
-  "is_accepted_expenditure_ceiling": false,
+  "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
   "occupation": "Construction Management Supervisor, Oakland Department of Public Works",
   "party_affiliation": null,
   "filer_id": 1406153,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 26455.0,
+    "total_contributions": 26455.0,
+    "total_expenditures": 607.56,
+    "total_loans_received": 10000.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
+      "Individual": 11400.0,
+      "Unitemized": 555.0,
+      "Other (includes Businesses)": 4500.0
     },
     "contributions_by_origin": {
+      "Out of State": 600.0,
+      "Within Oakland": 6650.0,
+      "Within California": 8650.0
     },
     "expenditures_by_type": {
+      "Fundraising Events": 211.03,
+      "Professional Services (Legal, Accounting)": 328.03
     },
     "supporting_by_type": {
     }
@@ -36,12 +44,17 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 26455.0,
+  "total_contributions": 26455.0,
+  "total_expenditures": 607.56,
+  "total_loans_received": 10000.0,
   "contributions_by_type": {
+    "Individual": 11400.0,
+    "Unitemized": 555.0,
+    "Other (includes Businesses)": 4500.0
   },
   "expenditures_by_type": {
+    "Fundraising Events": 211.03,
+    "Professional Services (Legal, Accounting)": 328.03
   }
 }

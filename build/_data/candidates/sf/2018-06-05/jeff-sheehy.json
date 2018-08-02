@@ -1,5 +1,5 @@
 {
-  "id": 68,
+  "id": 31,
   "name": "Jeff Sheehy",
   "photo_url": null,
   "website_url": "http://jeffsheehy.org/",
@@ -17,42 +17,40 @@
   "party_affiliation": null,
   "filer_id": 1395306,
   "supporting_money": {
-    "contributions_received": 562840.79,
-    "total_contributions": 562840.79,
-    "total_expenditures": 548057.4,
+    "contributions_received": 198468.97,
+    "total_contributions": 198468.97,
+    "total_expenditures": 418165.05,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 81399.16,
+    "total_supporting_independent": 69365.19,
     "contributions_by_type": {
-      "Committee": 23251.0,
-      "Individual": 526725.51,
-      "Unitemized": 5261.22,
-      "Other (includes Businesses)": 7500.0
+      "Committee": 8917.0,
+      "Individual": 177705.17,
+      "Unitemized": 1853.74,
+      "Other (includes Businesses)": 2500.0
     },
     "contributions_by_origin": {
-      "Out of State": 880.0,
-      "Within Oakland": 9300.0,
-      "Within California": 547296.51
+      "Out of State": 340.0,
+      "Within Oakland": 3100.0,
+      "Within California": 185682.17
     },
     "expenditures_by_type": {
-      "Print Ads": 17868.6,
-      "Not Stated": 62620.82,
-      "Contribution": 3600.0,
-      "Office Expenses": 44870.76,
-      "Campaign Consultants": 207068.19,
-      "Campaign Workers' Salaries": 23415.0,
-      "Polling and Survey Research": 42900.0,
-      "Campaign Paraphernalia/Misc.": 21425.28,
-      "Candidate Filing/Ballot Fees": 759.0,
-      "Campaign Literature and Mailings": 19593.0,
-      "Professional Services (Legal, Accounting)": 79374.79,
-      "Information Technology Costs (Internet, E-mail)": 7050.0
+      "Print Ads": 5956.2,
+      "Not Stated": 71823.14,
+      "Phone Banks": 18805.0,
+      "Contribution": 1200.0,
+      "Office Expenses": 21375.22,
+      "Campaign Consultants": 101022.73,
+      "Campaign Workers' Salaries": 13620.0,
+      "Polling and Survey Research": 14300.0,
+      "Campaign Paraphernalia/Misc.": 8859.61,
+      "Candidate Filing/Ballot Fees": 379.5,
+      "Campaign Literature and Mailings": 31376.1,
+      "Professional Services (Legal, Accounting)": 42627.1,
+      "Information Technology Costs (Internet, E-mail)": 2350.0
     },
     "supporting_by_type": {
       "MON": 1500.0,
-      "Phone Banks": 1999.0,
-      "Campaign Literature and Mailings": 60530.0,
-      "Information Technology Costs (Internet, E-mail)": 7000.0,
-      "Independent Expenditure Supporting/Opposing Others": 34049.16
+      "Independent Expenditure Supporting/Opposing Others": 73365.19
     }
   },
   "opposing_money": {
@@ -60,28 +58,29 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 562840.79,
-  "total_contributions": 562840.79,
-  "total_expenditures": 548057.4,
+  "contributions_received": 198468.97,
+  "total_contributions": 198468.97,
+  "total_expenditures": 418165.05,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 23251.0,
-    "Individual": 526725.51,
-    "Unitemized": 5261.22,
-    "Other (includes Businesses)": 7500.0
+    "Committee": 8917.0,
+    "Individual": 177705.17,
+    "Unitemized": 1853.74,
+    "Other (includes Businesses)": 2500.0
   },
   "expenditures_by_type": {
-    "Print Ads": 17868.6,
-    "Not Stated": 62620.82,
-    "Contribution": 3600.0,
-    "Office Expenses": 44870.76,
-    "Campaign Consultants": 207068.19,
-    "Campaign Workers' Salaries": 23415.0,
-    "Polling and Survey Research": 42900.0,
-    "Campaign Paraphernalia/Misc.": 21425.28,
-    "Candidate Filing/Ballot Fees": 759.0,
-    "Campaign Literature and Mailings": 19593.0,
-    "Professional Services (Legal, Accounting)": 79374.79,
-    "Information Technology Costs (Internet, E-mail)": 7050.0
+    "Print Ads": 5956.2,
+    "Not Stated": 71823.14,
+    "Phone Banks": 18805.0,
+    "Contribution": 1200.0,
+    "Office Expenses": 21375.22,
+    "Campaign Consultants": 101022.73,
+    "Campaign Workers' Salaries": 13620.0,
+    "Polling and Survey Research": 14300.0,
+    "Campaign Paraphernalia/Misc.": 8859.61,
+    "Candidate Filing/Ballot Fees": 379.5,
+    "Campaign Literature and Mailings": 31376.1,
+    "Professional Services (Legal, Accounting)": 42627.1,
+    "Information Technology Costs (Internet, E-mail)": 2350.0
   }
 }

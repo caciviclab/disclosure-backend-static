@@ -1,5 +1,5 @@
 {
-  "id": 42,
+  "id": 47,
   "name": "Nikki Fortunato Bas",
   "photo_url": "nikki_fortunato_bas-600x600.png",
   "website_url": "http://www.nikki4oakland.com/launch",
@@ -17,27 +17,32 @@
   "party_affiliation": null,
   "filer_id": 1400325,
   "supporting_money": {
-    "contributions_received": 43000.0,
-    "total_contributions": 43000.0,
-    "total_expenditures": 3729.35,
+    "contributions_received": 79943.0,
+    "total_contributions": 79943.0,
+    "total_expenditures": 34538.7,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Individual": 37951.0,
-      "Unitemized": 5049.0
+      "Committee": 4100.0,
+      "Individual": 65463.0,
+      "Unitemized": 10380.0
     },
     "contributions_by_origin": {
-      "Out of State": 6300.0,
-      "Within Oakland": 22901.0,
-      "Within California": 8750.0
+      "Out of State": 10300.0,
+      "Within Oakland": 36683.0,
+      "Within California": 22580.0
     },
     "expenditures_by_type": {
-      "Not Stated": 2245.31,
-      "Office Expenses": 118.87,
+      "Not Stated": 2303.1,
+      "Office Expenses": 1224.27,
+      "Campaign Consultants": 13300.0,
+      "Meetings and Appearances": 175.0,
+      "Campaign Literature and Mailings": 3000.0,
       "Postage, Delivery and Messenger Services": 29.69,
-      "Professional Services (Legal, Accounting)": 1228.19
+      "Professional Services (Legal, Accounting)": 8915.46
     },
     "supporting_by_type": {
+      "MON": 800.0
     }
   },
   "opposing_money": {
@@ -45,18 +50,22 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 43000.0,
-  "total_contributions": 43000.0,
-  "total_expenditures": 3729.35,
+  "contributions_received": 79943.0,
+  "total_contributions": 79943.0,
+  "total_expenditures": 34538.7,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 37951.0,
-    "Unitemized": 5049.0
+    "Committee": 4100.0,
+    "Individual": 65463.0,
+    "Unitemized": 10380.0
   },
   "expenditures_by_type": {
-    "Not Stated": 2245.31,
-    "Office Expenses": 118.87,
+    "Not Stated": 2303.1,
+    "Office Expenses": 1224.27,
+    "Campaign Consultants": 13300.0,
+    "Meetings and Appearances": 175.0,
+    "Campaign Literature and Mailings": 3000.0,
     "Postage, Delivery and Messenger Services": 29.69,
-    "Professional Services (Legal, Accounting)": 1228.19
+    "Professional Services (Legal, Accounting)": 8915.46
   }
 }

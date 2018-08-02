@@ -1,5 +1,5 @@
 {
-  "id": 40,
+  "id": 46,
   "name": "Abel Guillén",
   "photo_url": "abel_guillen-600x600.png",
   "website_url": "http://www.voteabelguillen.com/",
@@ -17,28 +17,30 @@
   "party_affiliation": null,
   "filer_id": 1395580,
   "supporting_money": {
-    "contributions_received": 61546.0,
-    "total_contributions": 61546.0,
-    "total_expenditures": 22254.42,
+    "contributions_received": 158888.0,
+    "total_contributions": 158888.0,
+    "total_expenditures": 45463.06,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
-      "Committee": 6925.0,
-      "Individual": 45600.0,
-      "Unitemized": 771.0,
-      "Other (includes Businesses)": 8250.0
+      "Committee": 23203.0,
+      "Individual": 111295.0,
+      "Unitemized": 3190.0,
+      "Other (includes Businesses)": 21200.0
     },
     "contributions_by_origin": {
-      "Out of State": 2300.0,
-      "Within Oakland": 37350.0,
-      "Within California": 21125.0
+      "Out of State": 4950.0,
+      "Within Oakland": 94480.0,
+      "Within California": 56268.0
     },
     "expenditures_by_type": {
+      "Not Stated": 800.0,
       "Contribution": 1550.0,
-      "Civic Donations": 2500.0,
-      "Office Expenses": 2656.58,
-      "Fundraising Events": 12422.3,
-      "Professional Services (Legal, Accounting)": 2775.34,
+      "Civic Donations": 4250.0,
+      "Office Expenses": 6361.72,
+      "Fundraising Events": 21172.3,
+      "Campaign Consultants": 4500.0,
+      "Professional Services (Legal, Accounting)": 4628.84,
       "Information Technology Costs (Internet, E-mail)": 153.32
     },
     "supporting_by_type": {
@@ -49,22 +51,24 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 61546.0,
-  "total_contributions": 61546.0,
-  "total_expenditures": 22254.42,
+  "contributions_received": 158888.0,
+  "total_contributions": 158888.0,
+  "total_expenditures": 45463.06,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 6925.0,
-    "Individual": 45600.0,
-    "Unitemized": 771.0,
-    "Other (includes Businesses)": 8250.0
+    "Committee": 23203.0,
+    "Individual": 111295.0,
+    "Unitemized": 3190.0,
+    "Other (includes Businesses)": 21200.0
   },
   "expenditures_by_type": {
+    "Not Stated": 800.0,
     "Contribution": 1550.0,
-    "Civic Donations": 2500.0,
-    "Office Expenses": 2656.58,
-    "Fundraising Events": 12422.3,
-    "Professional Services (Legal, Accounting)": 2775.34,
+    "Civic Donations": 4250.0,
+    "Office Expenses": 6361.72,
+    "Fundraising Events": 21172.3,
+    "Campaign Consultants": 4500.0,
+    "Professional Services (Legal, Accounting)": 4628.84,
     "Information Technology Costs (Internet, E-mail)": 153.32
   }
 }

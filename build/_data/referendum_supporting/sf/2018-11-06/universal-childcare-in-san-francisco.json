@@ -6,15 +6,39 @@
   "summary": null,
   "number": "PENDING-4",
   "contributions_by_region": [
-
+    {
+      "amount": 52000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 268043.25,
+      "locale": "Within California"
+    },
+    {
+      "amount": 8250.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 106000.0
+    },
+    {
+      "type": "Individual",
+      "amount": 29150.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 193000.0
+    },
+    {
+      "type": null,
+      "amount": 143.25
+    }
   ],
   "supporting_organizations": [
 
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 328293.25
 }

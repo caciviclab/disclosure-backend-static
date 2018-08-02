@@ -7,7 +7,7 @@
   "number": "G",
   "contributions_by_region": [
     {
-      "amount": 3457151.03,
+      "amount": 1229753.53,
       "locale": "Within California"
     },
     {
@@ -18,15 +18,15 @@
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 971898.33
+      "amount": 405671.83
     },
     {
       "type": "Individual",
-      "amount": 2221893.0
+      "amount": 753222.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 267000.0
+      "amount": 74500.0
     }
   ],
   "supporting_organizations": [
@@ -34,13 +34,7 @@
       "id": "1387393",
       "name": "Living Wage for Educators Committee with Support from United Educators of San Francisco and Major Funding from Phil Halperin",
       "payee": "Living Wage for Educators Committee with Support from United Educators of San Francisco and Major Funding from Phil Halperin",
-      "amount": 985912.51
-    },
-    {
-      "id": "1381519",
-      "name": "PROGRESS SAN FRANCISCO",
-      "payee": "PROGRESS SAN FRANCISCO",
-      "amount": 10000.0
+      "amount": 816019.77
     },
     {
       "id": null,
@@ -49,5 +43,5 @@
       "amount": 50000.0
     }
   ],
-  "total_contributions": 3460791.3299999996
+  "total_contributions": 1233393.83
 }
