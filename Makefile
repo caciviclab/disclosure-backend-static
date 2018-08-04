@@ -98,7 +98,7 @@ downloads/csv/oakland_candidates.csv:
 
 downloads/csv/office_elections.csv:
 	mkdir -p downloads/csv downloads/raw
-	wget -q -O- \
+	$(WGET) \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=585313505&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
