@@ -46,18 +46,11 @@ SORT_PATTERNS = [
   /city council/i,
   /ousd/i,
 ]
-def sort_office_elections(office_elections)
-  office_elections
-    .group_by { |office| SORT_PATTERNS.find_index { |p| office =~ p } || Float::INFINITY }
-    .sort_by { |k, _v| k }
-    .map { |_k, v| v.sort }
-    .flatten
-end
 
-# first, create OfficeElection records for all the offices to assign them IDs
+# first, create any missing OfficeElection records for all the offices to assign them IDs
 OaklandCandidate.select(:Office, :election_name).order(:Office, :election_name).distinct.each do |office|
   OfficeElection
-    .where(name: office.Office, election_name: office.election_name)
+    .where(title: office.Office, election_name: office.election_name)
     .first_or_create
 end
 
@@ -94,19 +87,23 @@ end
 # /_ballots/oakland/2018-11-06.md
 ELECTIONS.each do |election_name, election|
   locality, _time = election_name.split('-', 2)
-  office_elections = sort_office_elections(
-    OaklandCandidate.where(election_name: election_name).pluck(:Office).uniq
-  )
+  office_elections = OfficeElection.where(election_name: election_name)
   referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
   ballot_name = "/_ballots/#{locality}/#{election[:date]}.md"
+  office_elections_by_label = office_elections.group_by(&:label)
 
   build_file(ballot_name) do |f|
     f.puts(YAML.dump(
       'title' => election[:title],
       'locality' => locality,
       'election' => election[:date],
-      'office_elections' => office_elections.map do |office|
-        "_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md"
+      'office_elections' => office_elections_by_label.map do |label, items|
+        {
+          'label' => label,
+          'items' => items.map do |office_election|
+            "_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md"
+          end
+        }.compact
       end,
       'referendums' => referendums.map do |title|
         "_referendums/#{locality}/#{election[:date]}/#{slugify(title)}.md"
@@ -150,15 +147,16 @@ ELECTIONS.each do |election_name, election|
 
 
   # /_office_elections/oakland/2018-11-06/city-auditor.md
-  office_elections.each do |office|
-    build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office)}.md") do |f|
-      candidates = OaklandCandidate.where(Office: office, election_name: election_name).pluck(:Candidate)
+  OfficeElection.where(election_name: election_name).find_each do |office_election|
+    build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md") do |f|
+      candidates = OaklandCandidate.where(Office: office_election.title, election_name: election_name).pluck(:Candidate)
 
-      f.puts(YAML.dump(
+      f.puts(YAML.dump({
         'ballot' => ballot_name[1..-1],
         'candidates' => candidates.map { |name| slugify(name) },
-        'title' => office,
-      ))
+        'title' => office_election.title,
+        'label' => office_election.label,
+      }.compact))
       f.puts('---')
     end
   end

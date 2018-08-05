@@ -1,5 +1,5 @@
 class OaklandCandidate < ActiveRecord::Base
-  belongs_to :office_election, foreign_key: 'Office', primary_key: 'name'
+  belongs_to :office_election, foreign_key: 'Office', primary_key: 'title'
 
   has_many :calculations, as: :subject
 

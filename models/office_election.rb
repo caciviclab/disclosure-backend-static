@@ -5,7 +5,8 @@ class OfficeElection < ActiveRecord::Base
     {
       id: id,
       contest_type: 'Office',
-      name: name,
+      title: title,
+      label: label,
       candidates: candidates.map(&:as_json),
     }
   end
