@@ -7,4 +7,5 @@ candidates:
 - maria-marlo-rodriguez
 - mya-whitaker
 title: City Council District 6
+label: City Council
 ---

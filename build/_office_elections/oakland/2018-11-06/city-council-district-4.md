@@ -14,4 +14,5 @@ candidates:
 - nayeli-maxson
 - pamela-harris
 title: City Council District 4
+label: City Council
 ---

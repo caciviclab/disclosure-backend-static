@@ -4,4 +4,5 @@ candidates:
 - kevin-corbett
 - dan-kalb
 title: City Council District 1
+label: City Council
 ---

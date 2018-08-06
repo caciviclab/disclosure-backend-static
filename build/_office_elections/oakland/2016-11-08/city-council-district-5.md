@@ -4,4 +4,5 @@ candidates:
 - noel-gallo
 - viola-gonzales
 title: City Council District 5
+label: City Council
 ---

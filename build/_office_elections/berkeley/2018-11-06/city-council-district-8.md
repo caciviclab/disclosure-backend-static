@@ -5,4 +5,5 @@ candidates:
 - mary-kay-lacey
 - alfred-twu
 title: City Council District 8
+label: City Council
 ---

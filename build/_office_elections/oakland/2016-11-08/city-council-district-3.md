@@ -4,4 +4,5 @@ candidates:
 - lynette-gibson-mcelhaney
 - noni-session
 title: City Council District 3
+label: City Council
 ---

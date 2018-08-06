@@ -5,4 +5,5 @@ candidates:
 - nikki-fortunato-bas
 - carlos-kenzie-smith
 title: City Council District 2
+label: City Council
 ---

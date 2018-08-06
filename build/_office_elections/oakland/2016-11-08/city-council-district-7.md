@@ -5,4 +5,5 @@ candidates:
 - nehanda-imara
 - larry-reid
 title: City Council District 7
+label: City Council
 ---

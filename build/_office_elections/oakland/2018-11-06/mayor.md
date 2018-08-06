@@ -17,4 +17,5 @@ candidates:
 - preston-walker
 - randolph-wilkins
 title: Mayor
+label: City-Wide Office
 ---

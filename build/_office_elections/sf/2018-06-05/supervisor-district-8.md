@@ -4,4 +4,5 @@ candidates:
 - jeff-sheehy
 - rafael-mandelman
 title: Supervisor District 8
+label: Board of Supervisors
 ---

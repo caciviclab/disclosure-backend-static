@@ -4,4 +4,5 @@ candidates:
 - james-harris
 - chris-jackson
 title: School Board District 7
+label: Oakland Unified School District
 ---

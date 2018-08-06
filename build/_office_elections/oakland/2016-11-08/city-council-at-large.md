@@ -7,4 +7,5 @@ candidates:
 - francis-matt-hummel
 - peggy-moore
 title: City Council At-Large
+label: City Council
 ---

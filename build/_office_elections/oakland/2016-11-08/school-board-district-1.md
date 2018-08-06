@@ -4,4 +4,5 @@ candidates:
 - donald-macleay
 - jody-london
 title: School Board District 1
+label: Oakland Unified School District
 ---

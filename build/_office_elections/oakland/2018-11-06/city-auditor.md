@@ -4,4 +4,5 @@ candidates:
 - brenda-roberts
 - courtney-ruby
 title: City Auditor
+label: City-Wide Office
 ---

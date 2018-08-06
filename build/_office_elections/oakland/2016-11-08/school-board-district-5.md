@@ -6,4 +6,5 @@ candidates:
 - roseann-torres
 - huber-trenado
 title: School Board District 5
+label: Oakland Unified School District
 ---

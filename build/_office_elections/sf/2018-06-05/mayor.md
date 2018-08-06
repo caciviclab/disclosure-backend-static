@@ -5,4 +5,5 @@ candidates:
 - mark-leno
 - london-breed
 title: Mayor
+label: City-Wide Office
 ---

@@ -6,4 +6,5 @@ candidates:
 - kharyshi-wiginton
 - lucky-narain
 title: School Board District 3
+label: Oakland Unified School District
 ---
