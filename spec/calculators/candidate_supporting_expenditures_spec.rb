@@ -9,15 +9,7 @@ RSpec.describe CandidateSupportingExpenditure do
       Accepted_expenditure_ceiling: 't',
       FPPC: '1386749',
       Office: 'School Board District 5',
-      Incumbent: false,
-      Website: '',
-      Twitter: '',
-      Party_Affiliation: '',
-      Occupation: '',
-      Bio: '',
-      Photo: '',
-      VotersEdge: '',
-      Internal_Notes: '',
+      Incumbent: false
     )
   end
 

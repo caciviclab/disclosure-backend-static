@@ -1,8 +1,6 @@
 class ReferendumContributionsByOrigin
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
-    @committees_by_filer_id =
-      committees.where('"Filer_ID" IS NOT NULL').index_by { |c| c.Filer_ID }
   end
 
   def fetch

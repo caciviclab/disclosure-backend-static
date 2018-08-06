@@ -1,11 +1,80 @@
 #!/bin/bash
 set -euo pipefail
 
-test_case_dir=spec/fixtures/candidate_independent_supporting
+# 1. Import the data
+# 2. Fill this section out:
+test_case_dir=spec/fixtures/referendum_contributions_by_origin
 
-sed -n '1p; /trenado/p' downloads/csv/oakland_candidates.csv > $test_case_dir/oakland_candidates.csv
+# 3. Modify the dump commands called at the bottom of the script
 
-psql disclosure-backend <<QUERY > "${test_case_dir}/D-Expenditure.csv"
-copy (select * from "D-Expenditure" where "Cand_NamL" ilike '%trenado%')
-  to stdout with csv header delimiter ',';
+# Dumps independent expenditures reported as supporting or opposing a candidate.
+dump_d_expenditures() {
+  candidate_name=$1
+  output_directory=$2
+  psql disclosure-backend <<QUERY > "${output_directory}/D-Expenditure.csv"
+  copy (select * from "D-Expenditure" where "Cand_NamL" ilike '%${candidate_name}%')
+    to stdout with csv header delimiter ',';
 QUERY
+}
+
+# Dumps candidate metadata from the google doc spreadsheet.
+dump_candidate_metadata() {
+  candidate_name=$1
+  output_directory=$2
+
+  output_file="${output_directory}/oakland_candidates.csv"
+  header=$([ -f "${output_file}" ] && true || echo "header")
+  sed -n '1p; /'${candidate_name}'/p' downloads/csv/oakland_candidates.csv > \
+    $output_file
+}
+
+# Dump committee metadata from the google doc spreadsheet
+dump_committee_metadata() {
+  filer_id=$1
+  output_directory=$2
+
+  output_file="${output_directory}/oakland_committees.csv"
+  header=$([ -f "${output_file}" ] && true || echo "1p; ")
+  sed -n "${header} /^${filer_id},/p" downloads/csv/oakland_committees.csv >> \
+    $output_file
+}
+
+# Dumps reported contributions to a Filer
+dump_contributions_for_filer_id() {
+  filer_id=$1
+  output_directory=$2
+
+  # Export A-Contributions
+  output_file="${output_directory}/A-Contributions.csv"
+  header=$([ -f "${output_file}" ] && true || echo "header")
+  psql disclosure-backend <<QUERY >> "${output_file}"
+  copy (select * from "A-Contributions" where "Filer_ID" = '${filer_id}')
+    to stdout with csv ${header} delimiter ',';
+QUERY
+
+  # Export C-Contributions
+  output_file="${output_directory}/C-Contributions.csv"
+  header=$([ -f "${output_file}" ] && true || echo "header")
+  psql disclosure-backend <<QUERY >> "${output_file}"
+  copy (select * from "C-Contributions" where "Filer_ID" = '${filer_id}')
+    to stdout with csv ${header} delimiter ',';
+QUERY
+
+  # Export 497 Contributions
+  output_file="${output_directory}/497.csv"
+  header=$([ -f "${output_file}" ] && true || echo "header")
+  psql disclosure-backend <<QUERY >> "${output_file}"
+  copy (select * from "497" where "Filer_ID" = '${filer_id}' and "Form_Type" = 'F497P1')
+    to stdout with csv ${header} delimiter ',';
+QUERY
+}
+
+# Change this as necessary for the script:
+set -x
+mkdir -p "${test_case_dir}"
+rm -f "${test_case_dir}"/*
+dump_committee_metadata "1385949" $test_case_dir # Just Cause
+dump_committee_metadata "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
+
+dump_contributions_for_filer_id "1385949" $test_case_dir # Just Cause
+dump_contributions_for_filer_id "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
