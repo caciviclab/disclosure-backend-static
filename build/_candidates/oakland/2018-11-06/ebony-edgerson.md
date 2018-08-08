@@ -5,6 +5,6 @@ filer_id: '1404992'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Ebony Edgerson
-twitter_url: BlackAuthor ‏
+twitter_url: BlackAuthor‏
 website_url: http://www.ebony4district6.com/
 ---

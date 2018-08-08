@@ -7,5 +7,5 @@ is_incumbent: true
 name: Brenda Roberts
 occupation: City Auditor
 photo_url: brenda_roberts-600x600.png
-twitter_url: OaklandAuditor ‏
+twitter_url: OaklandAuditor
 ---
