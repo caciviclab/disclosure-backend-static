@@ -4,5 +4,6 @@ filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Jesse A.J. Smith
+photo_url: Jesse-Smith.png
 twitter_url: OakSmith2018
 ---

@@ -6,7 +6,7 @@ is_incumbent: false
 name: Nancy Sidebotham
 occupation: Tax Preparer
 party_affiliation: Democrat
-photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/nancy-sidebotham2.png
+photo_url: Nancy-Sidebotham.png
 twitter_url: nancy6368
 website_url: http://nancysidebotham.com/
 ---

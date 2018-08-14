@@ -7,6 +7,7 @@ is_incumbent: false
 name: Courtney Ruby
 occupation: Director of Administration and Facilities, Metropolitan Transportation
   Commission
+photo_url: courtney-ruby.png
 twitter_url: CourtneyRuby
 website_url: https://courtneyruby.com/
 ---

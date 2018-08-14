@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Nayeli Maxson
 occupation: Executive Director, Alliance for Community Development
-photo_url: Nayeli-Maxson-600x600.png
+photo_url: Nayeli-Maxson.png
 twitter_url: nayelimax
 website_url: https://nayeliforoakland.com/
 ---

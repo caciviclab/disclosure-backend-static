@@ -5,6 +5,7 @@ filer_id: '1403436'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Marchon Tatmon
+photo_url: marchon-tatmon.png
 twitter_url: therealmtat1
 website_url: http://votemarchon.com/
 ---

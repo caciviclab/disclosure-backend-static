@@ -4,4 +4,5 @@ filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Carlos "Kenzie" Smith
+photo_url: Carlos-'Kenzie'-Smith.png
 ---

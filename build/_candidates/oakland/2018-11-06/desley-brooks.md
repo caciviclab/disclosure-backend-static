@@ -10,5 +10,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Desley Brooks
 occupation: Councilmember
+photo_url: Desley-Brooks.png
 twitter_url: desleyb
 ---

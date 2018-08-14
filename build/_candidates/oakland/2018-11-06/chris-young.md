@@ -5,5 +5,6 @@ filer_id: '1405565'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Chris Young
+photo_url: chris-young.png
 website_url: https://www.chris4oakland.com/
 ---

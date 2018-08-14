@@ -6,6 +6,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Annie Campbell Washington
 occupation: Councilmember
-photo_url: anne_campbell-washington-600x600.png
+photo_url: anne_campbell-washington.png
 twitter_url: annieforoakland
 ---

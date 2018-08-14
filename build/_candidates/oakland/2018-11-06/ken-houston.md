@@ -5,5 +5,6 @@ filer_id: '1408367'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Ken Houston
+photo_url: Ken-Houston.png
 twitter_url: KHouston4Mayor
 ---

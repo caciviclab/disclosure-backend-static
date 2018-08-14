@@ -1,6 +1,9 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
 committee_name: ReElect Noel Gallo for Oakland City Council 2016
+data_warning: This data does not reflect the candidate's most recently amended 2016
+  campaign filing affecting the accuracy of the data displayed. When the problem is
+  corrected, this warning will be removed.
 filer_id: '1388641'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true

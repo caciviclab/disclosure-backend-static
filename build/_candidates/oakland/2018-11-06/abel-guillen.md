@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Abel Guillén
 occupation: Councilmember
-photo_url: abel_guillen-600x600.png
+photo_url: abel_guillen.png
 twitter_url: abelguillen
 website_url: http://www.voteabelguillen.com/
 ---

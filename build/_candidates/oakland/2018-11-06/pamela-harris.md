@@ -5,6 +5,7 @@ filer_id: '1405422'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Pamela Harris
+photo_url: Pamela-Harris.png
 twitter_url: Pamharris
 website_url: https://www.pamharris4oakland.com/
 ---

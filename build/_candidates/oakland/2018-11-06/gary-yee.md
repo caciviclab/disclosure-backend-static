@@ -4,4 +4,5 @@ filer_id: ''
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Gary Yee
+photo_url: gary-yee.png
 ---

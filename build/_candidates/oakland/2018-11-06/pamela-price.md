@@ -5,4 +5,5 @@ filer_id: '1407729'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Pamela Price
+photo_url: Pamela-Price.png
 ---

@@ -7,6 +7,7 @@ is_incumbent: false
 name: Rebecca Kaplan
 occupation: Councilmember At-Large
 party_affiliation: Democrat
+photo_url: Rebecca-Kaplan.png
 twitter_url: kaplan4oakland
 website_url: http://kaplanforoakland.org/
 ---

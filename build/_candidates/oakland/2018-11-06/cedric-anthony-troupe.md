@@ -4,4 +4,5 @@ filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Cedric Anthony Troupe
+photo_url: Cedric-Anthony-Troupe.png
 ---

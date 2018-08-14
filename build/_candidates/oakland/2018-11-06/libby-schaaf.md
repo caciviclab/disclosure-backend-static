@@ -6,6 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Libby Schaaf
 occupation: Mayor
+photo_url: libby_schaaf.png
 twitter_url: LibbySchaaf
 website_url: https://libbyformayor.wordpress.com/
 ---
