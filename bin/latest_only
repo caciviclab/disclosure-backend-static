@@ -17,6 +17,7 @@ if [[ "$table_name" == "497" || "$table_name" == "496" ]]; then
   DELETE FROM "$table_name"
   WHERE ("Filer_ID", "Rpt_ID_Num", "Report_Num") NOT IN (
     SELECT "Filer_ID", "Rpt_ID_Num", max("Report_Num") from "$table_name"
+    WHERE "Filer_ID" is not null
     GROUP BY "Filer_ID", "Rpt_ID_Num"
   );
 QUERY
@@ -26,6 +27,7 @@ else
   DELETE FROM "$table_name"
   WHERE ("Filer_ID", "From_Date", "Report_Num") NOT IN (
     SELECT "Filer_ID", "From_Date", max("Report_Num") from "$table_name"
+    WHERE "Filer_ID" is not null
     GROUP BY "Filer_ID", "From_Date"
   );
 QUERY

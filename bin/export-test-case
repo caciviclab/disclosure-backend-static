@@ -3,9 +3,18 @@ set -euo pipefail
 
 # 1. Import the data
 # 2. Fill this section out:
-test_case_dir=spec/fixtures/referendum_contributions_by_origin
+test_case_dir=spec/fixtures/cat_brooks_summary
 
 # 3. Modify the dump commands called at the bottom of the script
+
+dump_summary_data() {
+  filer_id=$1
+  output_directory=$2
+  psql disclosure-backend <<QUERY > "${output_directory}/Summary.csv"
+  copy (select * from "Summary" where "Filer_ID" = '${filer_id}')
+    to stdout with csv header delimiter ',';
+QUERY
+}
 
 # Dumps independent expenditures reported as supporting or opposing a candidate.
 dump_d_expenditures() {
@@ -69,12 +78,19 @@ QUERY
 QUERY
 }
 
+init_test_case() {
+  dir=$1
+  mkdir -p "${dir}"
+  rm -f "${dir}"/*
+}
+
 # Change this as necessary for the script:
 set -x
-mkdir -p "${test_case_dir}"
-rm -f "${test_case_dir}"/*
-dump_committee_metadata "1385949" $test_case_dir # Just Cause
-dump_committee_metadata "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
+init_test_case $test_case_dir
+dump_summary_data '1405474' $test_case_dir
 
-dump_contributions_for_filer_id "1385949" $test_case_dir # Just Cause
-dump_contributions_for_filer_id "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
+# dump_committee_metadata "1385949" $test_case_dir # Just Cause
+# dump_committee_metadata "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
+#
+# dump_contributions_for_filer_id "1385949" $test_case_dir # Just Cause
+# dump_contributions_for_filer_id "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
