@@ -7,7 +7,7 @@
   "number": "PENDING-2",
   "contributions_by_region": [
     {
-      "amount": 50000.0,
+      "amount": 127500.0,
       "locale": "Out of State"
     },
     {
@@ -22,11 +22,11 @@
   "contributions_by_type": [
     {
       "type": "Individual",
-      "amount": 471663.6
+      "amount": 474163.6
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 525000.0
+      "amount": 600000.0
     }
   ],
   "supporting_organizations": [
@@ -49,5 +49,5 @@
       "amount": 893374.16
     }
   ],
-  "total_contributions": 996663.6
+  "total_contributions": 1074163.6
 }
