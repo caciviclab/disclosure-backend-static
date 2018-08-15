@@ -12,14 +12,15 @@ psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   -- Map names to numbers as ballot numbers are often missing
   ( SELECT
-    "Filer_ID"::varchar,
+    cast ("Filer_ID" as character varying),
     "Filer_NamL",
     "election_name",
     "Bal_Name",
     "Measure_Number",
     "Sup_Opp_Cd",
     "Amount",
-    "Payee_NamL" as "Recipient_Or_Description"
+    "Payee_NamL" as "Recipient_Or_Description",
+    'E name' as "Form"
   FROM
     "E-Expenditure", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
@@ -34,7 +35,8 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "Measure_Number",
     "Sup_Opp_Cd",
     "Amount",
-    "Expn_Dscr" as "Recipient_Or_Description"
+    "Expn_Dscr" as "Recipient_Or_Description",
+    '496' as "Form"
   FROM
     "496", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
@@ -51,7 +53,8 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "Ballot_Measure" as "Measure_Number",
     "Support_Or_Oppose" as "Sup_Opp_Cd",
     "Amount",
-    "Payee_NamL" as "Recipient_Or_Description"
+    "Payee_NamL" as "Recipient_Or_Description",
+    'E number' as "Form"
   FROM
     "E-Expenditure" expend
   JOIN oakland_committees committee
@@ -59,26 +62,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   JOIN oakland_name_to_number ON "Measure_Name" = "Bal_Name"
   WHERE "Bal_Name" IS NULL
     AND "Ballot_Measure" IS NOT NULL
-  UNION ALL
-
-  -- Get 24hr report expenditures. Infers S/O information from "committees" tab
-  -- of spreadsheet.
-  SELECT
-    "497"."Filer_ID"::varchar,
-    "497"."Filer_NamL",
-    "election_name",
-    "Bal_Name",
-    "Measure_Number",
-    COALESCE(oakland_committees."Support_Or_Oppose", 'Unknown') as "Sup_Opp_Cd",
-    "Amount",
-    "Cmte_ID" || ' / ' || "Enty_NamL" as "Recipient_Or_Description"
-  FROM "497"
-  LEFT OUTER JOIN "oakland_name_to_number"
-    ON LOWER("Bal_Name") = LOWER("Measure_Name")
-  LEFT OUTER JOIN oakland_committees
-    ON oakland_committees."Filer_ID" = "497"."Cmte_ID"
-  WHERE "Bal_Name" IS NOT NULL
-  AND "Form_Type" = 'F497P2';
+;
 
 CREATE OR REPLACE VIEW combined_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
