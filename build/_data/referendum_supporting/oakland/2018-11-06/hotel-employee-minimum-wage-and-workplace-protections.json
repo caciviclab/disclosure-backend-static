@@ -1,36 +1,40 @@
 {
-  "id": 10,
+  "id": 9,
   "contest_type": "Referendum",
-  "name": "Oakland Children's Initiative",
-  "title": "Oakland Children's Initiative",
+  "name": "Hotel Employee Minimum Wage and Workplace Protections",
+  "title": "Hotel Employee Minimum Wage and Workplace Protections",
   "summary": null,
-  "number": "AA",
+  "number": "Z",
   "contributions_by_region": [
     {
-      "amount": 127500.0,
+      "amount": 50500.0,
       "locale": "Out of State"
     },
     {
-      "amount": 610500.0,
+      "amount": 101195.0,
       "locale": "Within California"
     },
     {
-      "amount": 336163.6,
+      "amount": 192559.56,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 21695.0
+    },
+    {
       "type": "Individual",
-      "amount": 474163.6
+      "amount": 51000.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 600000.0
+      "amount": 271559.56
     }
   ],
   "supporting_organizations": [
 
   ],
-  "total_contributions": 1074163.6
+  "total_contributions": 344254.56
 }
