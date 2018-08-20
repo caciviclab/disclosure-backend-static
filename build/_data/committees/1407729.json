@@ -1,5 +1,5 @@
 {
-  "total_contributions": 7500.0,
+  "total_contributions": 10000.0,
   "contributions": [
     {
       "Filer_ID": "1407729",
@@ -7,6 +7,13 @@
       "Tran_Date": "2018-08-07",
       "Tran_NamF": "Pamela",
       "Tran_NamL": "Price"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-08-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Ida B. Wells LLC"
     }
   ]
 }
