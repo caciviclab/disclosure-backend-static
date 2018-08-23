@@ -25,6 +25,7 @@ class ReferendumContributionsByType
         GROUP BY "Filer_ID", type
       )
       SELECT
+        "Ballot_Measure_Election" AS "Election",
         "Ballot_Measure" AS "Measure_Number",
         "Support_Or_Oppose" AS "Sup_Opp_Cd",
         contributions_by_type.type,
@@ -32,8 +33,8 @@ class ReferendumContributionsByType
       FROM contributions_by_type
       INNER JOIN oakland_committees committees
         ON committees."Filer_ID" = contributions_by_type."Filer_ID"
-      GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type
-      ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type;
+      GROUP BY "Election", "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type
+      ORDER BY "Election", "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type;
     SQL
 
     support = {}
@@ -45,12 +46,15 @@ class ReferendumContributionsByType
         puts 'WARN empty measure number: ' + row.inspect
         next
       end
+      election = row['Election']
       if row['Sup_Opp_Cd'] == 'S'
-        support[measure] ||= {}
-        support[measure][TYPE_DESCRIPTIONS[row['type']]] = row['total']
+        support[election] ||= {}
+        support[election][measure] ||= {}
+        support[election][measure][TYPE_DESCRIPTIONS[row['type']]] = row['total']
       elsif row['Sup_Opp_Cd'] == 'O'
-        oppose[measure] ||= {}
-        oppose[measure][TYPE_DESCRIPTIONS[row['type']]] = row['total']
+        oppose[election] ||= {}
+        oppose[election][measure] ||= {}
+        oppose[election][measure][TYPE_DESCRIPTIONS[row['type']]] = row['total']
       end
     end
 
@@ -58,22 +62,25 @@ class ReferendumContributionsByType
       [support, :supporting_type],
       [oppose, :opposing_type],
     ].each do |by_type, calculation_name|
-      by_type.keys.map do |measure|
-        ballot_measure = ballot_measure_from_number(measure)
-        result = by_type[measure].keys.map do |type|
-          amount = by_type[measure][type]
-          {
-            type: type,
-            amount: amount,
-          }
+      by_type.keys.map do |election|
+        by_type[election].keys.map do |measure|
+          ballot_measure = ballot_measure_from_number(election, measure)
+          result = by_type[election][measure].keys.map do |type|
+            amount = by_type[election][measure][type]
+            {
+              type: type,
+              amount: amount,
+            }
+          end
+          ballot_measure.save_calculation(calculation_name, result)
         end
-        ballot_measure.save_calculation(calculation_name, result)
       end
     end
   end
-  def ballot_measure_from_number(bal_number)
+  def ballot_measure_from_number(election, bal_number)
     @ballot_measures.detect do |measure|
-      measure['Measure_number'] == bal_number
+      measure['election_name'] == election &&
+        measure['Measure_number'] == bal_number
     end
   end
 end
