@@ -1,5 +1,5 @@
 {
-  "id": 27,
+  "id": 26,
   "contest_type": "Referendum",
   "name": "Additional Tax on Commercial Rents Mostly to Fund Housing and Homelessness Services",
   "title": "Additional Tax on Commercial Rents Mostly to Fund Housing and Homelessness Services",
@@ -12,7 +12,12 @@
 
   ],
   "opposing_organizations": [
-
+    {
+      "id": "1404060",
+      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
+      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
+      "amount": 230762.62
+    }
   ],
   "total_contributions": [
 
