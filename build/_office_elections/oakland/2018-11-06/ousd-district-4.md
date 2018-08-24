@@ -1,8 +1,8 @@
 ---
 ballot: _ballots/oakland/2018-11-06.md
 candidates:
-- gary-yee
 - clarissa-doutherd
+- gary-yee
 title: OUSD District 4
 label: Oakland Unified School District
 ---

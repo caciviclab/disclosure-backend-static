@@ -10,7 +10,7 @@ candidates:
 - pamela-price
 - peter-liu
 - saied-karamooz
-- sheilagh-cat-brooks-polk
+- cat-brooks
 title: Mayor
 label: City-Wide Office
 ---
