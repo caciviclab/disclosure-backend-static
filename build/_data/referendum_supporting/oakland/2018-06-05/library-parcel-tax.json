@@ -7,11 +7,11 @@
   "number": "D",
   "contributions_by_region": [
     {
-      "amount": 21200.0,
+      "amount": 19200.0,
       "locale": "Out of State"
     },
     {
-      "amount": 1540900.0,
+      "amount": 1351900.0,
       "locale": "Within California"
     },
     {
@@ -22,15 +22,15 @@
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 452250.0
+      "amount": 364250.0
     },
     {
       "type": "Individual",
-      "amount": 298397.0
+      "amount": 269897.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 928000.0
+      "amount": 853500.0
     }
   ],
   "supporting_organizations": [
@@ -41,5 +41,5 @@
       "amount": 136952.89
     }
   ],
-  "total_contributions": 1678647.0
+  "total_contributions": 1487647.0
 }
