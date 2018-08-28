@@ -23,6 +23,7 @@ class CandidateOpposingExpenditure
       sum("Amount") AS total
       FROM combined_opposing_expenditures, "oakland_candidates"
       WHERE LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
+      AND ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
       GROUP BY "FPPC", "Filer_NamL", "Exp_Date"
     SQL
 
