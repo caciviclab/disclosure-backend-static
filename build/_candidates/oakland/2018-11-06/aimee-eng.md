@@ -9,6 +9,6 @@ filer_id: '1368984'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Aimee Eng
-occupation: Vice President of Programs, Thomas J. Long Foundation
+occupation: School Board Director
 photo_url: Aimee-Eng.png
 ---

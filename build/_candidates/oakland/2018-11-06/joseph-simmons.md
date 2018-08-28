@@ -5,5 +5,6 @@ filer_id: '1406398'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Joseph Simmons
+occupation: Pastor/Non-Profit Leader
 photo_url: Joseph-Simmons.png
 ---

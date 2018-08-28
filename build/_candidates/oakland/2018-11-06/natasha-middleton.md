@@ -5,7 +5,8 @@ filer_id: '1403124'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Natasha Middleton
-occupation: Management Analyst, Alameda County Probation Department
+occupation: Management Analyst
+photo_url: Natasha-Middleton.png
 twitter_url: MiddletonNat
 website_url: https://www.natashaforoakland.com/
 ---

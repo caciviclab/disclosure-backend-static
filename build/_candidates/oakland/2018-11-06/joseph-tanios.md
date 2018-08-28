@@ -5,7 +5,7 @@ filer_id: '1406153'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Joseph Tanios
-occupation: Construction Management Supervisor, Oakland Department of Public Works
+occupation: Construction Inspection Supervisor
 photo_url: Joseph-Tanios.png
 twitter_url: taniosfor
 website_url: https://www.joetanios.com/

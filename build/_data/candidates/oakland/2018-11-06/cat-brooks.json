@@ -1,5 +1,5 @@
 {
-  "id": 65,
+  "id": 67,
   "name": "Cat Brooks",
   "photo_url": "Cat-Brooks.png",
   "website_url": "https://www.catbrooksforoakland.com/",
@@ -13,21 +13,22 @@
   "committee_name": "Sheilagh Polk \"Cat Brooks\" for Mayor 2018",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
-  "occupation": null,
+  "occupation": "Executive/Community Organizer",
   "party_affiliation": null,
   "filer_id": 1405474,
   "supporting_money": {
-    "contributions_received": 49932.42,
-    "total_contributions": 49932.42,
+    "contributions_received": 50932.42,
+    "total_contributions": 50932.42,
     "total_expenditures": 13082.17,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "contributions_by_type": {
       "Individual": 38047.44,
-      "Unitemized": 11884.98
+      "Unitemized": 11884.98,
+      "Other (includes Businesses)": 1000.0
     },
     "contributions_by_origin": {
-      "Out of State": 1575.0,
+      "Out of State": 2575.0,
       "Within Oakland": 24463.32,
       "Within California": 12009.12
     },
@@ -49,13 +50,14 @@
     "opposing_by_type": {
     }
   },
-  "contributions_received": 49932.42,
-  "total_contributions": 49932.42,
+  "contributions_received": 50932.42,
+  "total_contributions": 50932.42,
   "total_expenditures": 13082.17,
   "total_loans_received": 0.0,
   "contributions_by_type": {
     "Individual": 38047.44,
-    "Unitemized": 11884.98
+    "Unitemized": 11884.98,
+    "Other (includes Businesses)": 1000.0
   },
   "expenditures_by_type": {
     "Not Stated": 300.0,

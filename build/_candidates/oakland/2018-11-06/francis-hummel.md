@@ -4,5 +4,6 @@ filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Francis Hummel
+occupation: Carpenter
 photo_url: Matt-Francis-Hummel.png
 ---
