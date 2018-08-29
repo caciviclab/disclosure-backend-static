@@ -22,6 +22,8 @@ This is an automated update by travis-ci at
 
 if git diff --exit-code --quiet; then
   echo "No changes to deploy!"
+elif [ "${TRAVIS_EVENT_TYPE}" = "push" -a "${TRAVIS_BRANCH}" = "master" ]; then
+  deploy
 elif [ ! "${TRAVIS_EVENT_TYPE}" = "cron" -a ! "${TRAVIS_BRANCH}" = "automatic_updating" ]; then
   echo "Not deploying since this is not a cron job or on the 'automatic_updating' branch."
 elif [ ! -d "build" ]; then
