@@ -6,20 +6,40 @@
   "summary": null,
   "number": "D",
   "contributions_by_region": [
-
+    {
+      "amount": 4000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 1512650.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 10000.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 436000.0
+    },
+    {
+      "type": "Individual",
+      "amount": 249150.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 841500.0
+    }
   ],
   "supporting_organizations": [
     {
       "id": "1402425",
       "name": "Affordable Housing for All, Yes on D",
       "payee": "Affordable Housing for All, Yes on D",
-      "amount": 1381967.43
+      "amount": 1393258.04
     }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 1526650.0
 }

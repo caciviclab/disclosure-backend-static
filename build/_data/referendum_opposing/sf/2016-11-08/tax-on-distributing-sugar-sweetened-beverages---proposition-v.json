@@ -6,10 +6,16 @@
   "summary": null,
   "number": "V",
   "contributions_by_region": [
-
+    {
+      "amount": 90347.02,
+      "locale": "Within California"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 90347.02
+    }
   ],
   "opposing_organizations": [
     {
@@ -19,7 +25,5 @@
       "amount": -20654.2
     }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 90347.02
 }
