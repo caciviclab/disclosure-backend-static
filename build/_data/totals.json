@@ -1,22 +1,35 @@
 {
   "berkeley-2018": {
-    "Within California": 14950349.44,
-    "Within Oakland": 1524694.9900000002,
-    "Out of State": 24293632.28
+    "Within California": 37946.63,
+    "Within Oakland": 1275.0,
+    "Out of State": 927.0
   },
   "oakland-2016": {
-    "Within Oakland": 616002.91,
-    "Within California": 572886.63,
-    "Out of State": 48992.35
+    "Out of State": 10552896.459999999,
+    "Within California": 9137216.680000002,
+    "Within Oakland": 1461040.2000000002
   },
   "oakland-2018": {
-    "Within California": 399508.08999999997,
-    "Within Oakland": 546841.77,
-    "Out of State": 70925.0
+    "Within Oakland": 1078364.93,
+    "Within California": 1111903.0899999999,
+    "Out of State": 248925.0
+  },
+  "oakland-june-2018": {
+    "Out of State": 17200.0,
+    "Within California": 28250.0,
+    "Within Oakland": 106547.0
+  },
+  "sf-2016": {
+    "Within California": 100347.02
+  },
+  "sf-2018": {
+    "Within California": 302133.25,
+    "Out of State": 52000.0,
+    "Within Oakland": 8250.0
   },
   "sf-june-2018": {
-    "Within Oakland": 99281.0,
-    "Within California": 2940411.8,
-    "Out of State": 152154.98
+    "Within Oakland": 134143.53999999998,
+    "Within California": 8146059.289999999,
+    "Out of State": 13693756.15
   }
 }

@@ -22,6 +22,7 @@ class CandidateSupportingExpenditure
         WHERE "496"."Cand_NamL" IS NOT NULL
           AND "496"."Sup_Opp_Cd" = 'S'
           AND "FPPC" IS NOT NULL
+          AND ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
 
         UNION
         SELECT
@@ -36,6 +37,7 @@ class CandidateSupportingExpenditure
           AND "D-Expenditure"."Sup_Opp_Cd" = 'S'
           AND "FPPC" IS NOT NULL
           AND "Expn_Code" = 'IND'
+          AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
       )
       SELECT
         "Filer_ID",

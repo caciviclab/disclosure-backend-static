@@ -69,22 +69,29 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
 
 CREATE OR REPLACE VIEW combined_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
-    "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
-  FROM "A-Contributions"
-  UNION ALL
-  SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
-    "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
-  FROM "C-Contributions"
-  UNION ALL
-  SELECT
-    "Filer_ID"::varchar,
-    "Entity_Cd",
-    "Amount" as "Tran_Amt1",
-    "Enty_NamF" as "Tran_NamF",
-    "Enty_NamL" as "Tran_NamL",
-    "Ctrib_Date" as "Tran_Date",
-    '' as "Tran_City",
-    '' as "Tran_State"
-  FROM "497"
-  WHERE "Form_Type" = 'F497P1';
+      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+  FROM (
+    SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+    FROM "A-Contributions"
+    UNION ALL
+    SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+    FROM "C-Contributions"
+    UNION ALL
+    SELECT
+      "Filer_ID"::varchar,
+      "Entity_Cd",
+      "Amount" as "Tran_Amt1",
+      "Enty_NamF" as "Tran_NamF",
+      "Enty_NamL" as "Tran_NamL",
+      "Ctrib_Date" as "Tran_Date",
+      '' as "Tran_City",
+      '' as "Tran_State"
+    FROM "497"
+    WHERE "Form_Type" = 'F497P1'
+  ) AS all_contributions
+  LEFT OUTER JOIN oakland_candidates
+  ON "FPPC"::varchar = "Filer_ID"
+  WHERE "Start_Date" IS NULL OR "Tran_Date" >= "Start_Date";
 SQL
