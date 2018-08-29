@@ -63,6 +63,7 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   JOIN oakland_committees committee
       ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
   JOIN oakland_name_to_number ON "Ballot_Measure" = "Measure_Number"
+    AND "Ballot_Measure_Election" = "election_name"
   WHERE "Bal_Name" IS NULL
     AND "Ballot_Measure" IS NOT NULL
 ;
