@@ -37,7 +37,7 @@ RSpec.describe ReferendumSupportersCalculator do
       expect(subject.length).to eq(1)
 
       calculation = subject[0]
-      expect(calculation['amount']).to eq(136_952.89)
+      expect(calculation['amount']).to eq(145_418.42)
     end
   end
 end
