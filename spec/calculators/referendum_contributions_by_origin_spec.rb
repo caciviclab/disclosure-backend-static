@@ -9,12 +9,14 @@ RSpec.describe ReferendumContributionsByOrigin do
     # these committees need to be created before the test is run, but after the
     # test case is imported
     OaklandCommittee.create(
+      Ballot_Measure_Election: 'oakland-2016',
       Filer_ID: '1385949',
       Filer_NamL: 'Causa Justa :: Just Cause (nonprofit 501(c)(3))',
       Ballot_Measure: 'JJ',
       Support_Or_Oppose: 'S'
     )
     OaklandCommittee.create(
+      Ballot_Measure_Election: 'oakland-2016',
       Filer_ID: '1364564',
       Filer_NamL: 'Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations',
       Ballot_Measure: 'JJ',
