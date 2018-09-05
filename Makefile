@@ -53,6 +53,7 @@ import: dropdb createdb import-spreadsheets import-data
 
 import-spreadsheets:
 	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
+	echo 'DROP VIEW "combined_contributions";' | psql $(DATABASE_NAME)
 	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
