@@ -7,31 +7,17 @@ class CandidateOpposingExpenditure
   def fetch
     # Get the total expenditures against candidates by date.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      WITH combined_opposing_expenditures AS (
-        SELECT "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
-        FROM "496"
-        WHERE "Cand_NamL" IS NOT NULL
-          AND "Sup_Opp_Cd" = 'O'
-        UNION
-        SELECT "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount"
-        FROM "D-Expenditure"
-        WHERE "Cand_NamL" IS NOT NULL
-          AND "Sup_Opp_Cd" = 'O'
-          AND "Expn_Code" = 'IND'
-      )
-      SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Exp_Date",
-      sum("Amount") AS total
-      FROM combined_opposing_expenditures, "oakland_candidates"
-      WHERE LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
-      AND ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
-      GROUP BY "FPPC", "Filer_NamL", "Exp_Date"
+      SELECT "Filer_ID", "Filer_NamL", "Exp_Date", SUM("Amount") as "Total"
+      FROM combined_independent_expenditures
+      WHERE "Sup_Opp_Cd" = 'O'
+      GROUP BY "Filer_ID", "Filer_NamL", "Exp_Date";
     SQL
 
     total = {}
     expenditure_against_committee = expenditures.each_with_object({}) do |row, hash|
       filer_id = row['Filer_ID'].to_s
       total[filer_id] ||= 0
-      total[filer_id] += row['total']
+      total[filer_id] += row['Total']
 
       hash[filer_id] ||= []
       hash[filer_id] << row
