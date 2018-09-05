@@ -9,9 +9,10 @@ psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 ** do not report their expenditures ass supporting/opposing
 ** The measure
 */
-CREATE OR REPLACE VIEW "Measure_Expenditures" AS
+DROP VIEW IF EXISTS "Measure_Expenditures";
+CREATE VIEW "Measure_Expenditures" AS
   -- Map names to numbers as ballot numbers are often missing
-  ( SELECT
+  SELECT
     cast ("Filer_ID" as character varying),
     "Filer_NamL",
     "election_name",
@@ -25,9 +26,9 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   FROM
     "E-Expenditure", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-  UNION
+  UNION ALL
 
-  -- Get IE 
+  -- Get IE
   SELECT
     "Filer_ID"::varchar,
     "Filer_NamL",
@@ -43,7 +44,6 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "496", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
   AND "Sup_Opp_Cd" IS NOT NULL
-  )
   UNION ALL
 
   -- Get support/oppose information from committee
@@ -68,7 +68,8 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     AND "Ballot_Measure" IS NOT NULL
 ;
 
-CREATE OR REPLACE VIEW combined_contributions AS
+DROP VIEW IF EXISTS combined_contributions;
+CREATE VIEW combined_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
   FROM (
