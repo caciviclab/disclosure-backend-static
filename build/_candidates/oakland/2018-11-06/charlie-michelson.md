@@ -7,4 +7,6 @@ is_incumbent: false
 name: Charlie Michelson
 occupation: Local Business Owner
 photo_url: Charlie-Michelson.png
+twitter_url: charlie_m_michelson
+website_url: https://www.charlie.vote/
 ---

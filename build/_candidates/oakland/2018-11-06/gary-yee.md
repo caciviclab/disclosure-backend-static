@@ -7,4 +7,5 @@ is_incumbent: false
 name: Gary Yee
 occupation: Oakland Educator
 photo_url: gary-yee.png
+website_url: http://www.yee4schools.com/
 ---

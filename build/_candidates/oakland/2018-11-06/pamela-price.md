@@ -7,4 +7,6 @@ is_incumbent: false
 name: Pamela Price
 occupation: Civil Rights Attorney
 photo_url: Pamela-Price.png
+twitter_url: PPriceCares
+website_url: https://www.pamelaprice4mayor.com/
 ---
