@@ -6,5 +6,4 @@ is_incumbent: false
 name: Francis Hummel
 occupation: Carpenter
 photo_url: Matt-Francis-Hummel.png
-website_url: https://www.facebook.com/fmatt.hummel
 ---

@@ -7,5 +7,4 @@ is_incumbent: false
 name: Joseph Simmons
 occupation: Pastor/Non-Profit Leader
 photo_url: Joseph-Simmons.png
-twitter_url: joseph4oakland
 ---
