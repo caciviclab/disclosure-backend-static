@@ -8,7 +8,7 @@ class CommitteeContributionListCalculator
       SELECT "Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL"
       FROM combined_contributions
       WHERE "Filer_ID" IN (#{filer_ids})
-      ORDER BY "Tran_Date", "Tran_NamL", "Tran_NamF", "Tran_Amt1"
+      ORDER BY "Tran_Date" ASC, CONCAT("Tran_NamL", "Tran_NamF"), "Tran_Amt1" ASC
     SQL
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
