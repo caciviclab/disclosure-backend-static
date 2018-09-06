@@ -96,4 +96,23 @@ CREATE VIEW combined_contributions AS
   LEFT OUTER JOIN oakland_candidates
   ON "FPPC"::varchar = "Filer_ID"
   WHERE "Start_Date" IS NULL OR "Tran_Date" >= "Start_Date";
+
+DROP VIEW IF EXISTS independent_candidate_expenditures;
+CREATE VIEW independent_candidate_expenditures AS
+  SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
+  FROM (
+    SELECT "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
+    FROM "496"
+    UNION ALL
+    SELECT "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL",
+    "Amount", "Sup_Opp_Cd"
+    FROM "D-Expenditure"
+    WHERE "Expn_Code" = 'IND'
+  ) AS all_data
+  JOIN "oakland_candidates"
+  ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
+    OR LOWER("Aliases") LIKE LOWER(CONCAT('%', TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL")), '%'))
+  WHERE ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
+  AND "FPPC" IS NOT NULL
+  AND "Cand_NamL" IS NOT NULL
 SQL
