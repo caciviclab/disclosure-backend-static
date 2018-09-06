@@ -8,7 +8,7 @@ class CandidateOpposingExpenditure
     # Get the total expenditures against candidates by date.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Filer_ID", "Filer_NamL", "Exp_Date", SUM("Amount") as "Total"
-      FROM combined_independent_expenditures
+      FROM independent_candidate_expenditures
       WHERE "Sup_Opp_Cd" = 'O'
       GROUP BY "Filer_ID", "Filer_NamL", "Exp_Date";
     SQL

@@ -11,7 +11,7 @@ class CandidateSupportingExpenditure
     # Get the total indepedent expenditures for candidates by date.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "Filer_ID", Sum("Amount") as "Total"
-      FROM combined_independent_expenditures
+      FROM independent_candidate_expenditures
       WHERE "Sup_Opp_Cd" = 'S'
       GROUP BY "Filer_ID";
     SQL
