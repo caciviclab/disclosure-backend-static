@@ -19,10 +19,6 @@ BODY
 
 }
 
-echo "hi"
-post_pr_diff_to_github 153 "37c2e6c"
-exit
-
 deploy() {
   set -x
   git add build
