@@ -5,8 +5,6 @@ post_pr_diff_to_github() {
   issue_id=$1
   pr_head_sha=$2
   url="https://$GITHUB_AUTH_TOKEN@api.github.com/repos/caciviclab/disclosure-backend-static/issues/${issue_id}/comments"
-  tmp=$(mktemp)
-  trap "rm $tmp" EXIT
   cat <<BODY | jq -R -s '{ body: . }' | curl -v -H"Content-Type: application/json" -d@- "$url"
 <details>
 <summary>Build diff from Commit ${pr_head_sha}:</summary>
