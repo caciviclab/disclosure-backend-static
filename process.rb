@@ -149,7 +149,13 @@ ELECTIONS.each do |election_name, election|
   # /_office_elections/oakland/2018-11-06/city-auditor.md
   OfficeElection.where(election_name: election_name).find_each do |office_election|
     build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md") do |f|
-      candidates = OaklandCandidate.where(Office: office_election.title, election_name: election_name).pluck(:Candidate)
+      candidates =
+        OaklandCandidate
+          .where(Office: office_election.title, election_name: election_name)
+          .sort_by do |candidate|
+            [-1 * (candidate.calculation(:total_contributions) || 0.0), candidate.Candidate]
+          end
+          .map { |candidate| candidate.Candidate }
 
       f.puts(YAML.dump({
         'ballot' => ballot_name[1..-1],
