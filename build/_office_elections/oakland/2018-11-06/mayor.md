@@ -1,16 +1,16 @@
 ---
 ballot: _ballots/oakland/2018-11-06.md
 candidates:
+- libby-schaaf
+- saied-karamooz
+- cat-brooks
+- pamela-price
+- marchon-tatmon
 - cedric-anthony-troupe
 - jesse-a-j-smith
 - ken-houston
-- libby-schaaf
-- marchon-tatmon
 - nancy-sidebotham
-- pamela-price
 - peter-liu
-- saied-karamooz
-- cat-brooks
 title: Mayor
 label: City-Wide Office
 ---
