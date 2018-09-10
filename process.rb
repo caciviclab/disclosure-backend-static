@@ -92,23 +92,7 @@ ELECTIONS.each do |election_name, election|
   ballot_name = "/_ballots/#{locality}/#{election[:date]}.md"
   election_path = "/_elections/#{locality}/#{election[:date]}.md"
   office_elections_by_label = office_elections.group_by(&:label)
-  ballot_content = YAML.dump(
-    'title' => election[:title],
-    'locality' => locality,
-    'election' => election[:date],
-    'office_elections' => office_elections_by_label.map do |label, items|
-      {
-        'label' => label,
-        'items' => items.map do |office_election|
-          "_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md"
-        end
-      }.compact
-    end,
-    'referendums' => referendums.map do |title|
-      "_referendums/#{locality}/#{election[:date]}/#{slugify(title)}.md"
-    end,
-  )
-  election_content = YAML.dump(
+  election_content = ballot_content = YAML.dump(
     'title' => election[:title],
     'locality' => locality,
     'election' => election[:date],
