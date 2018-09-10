@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2016-11-08.md
 election: _electionsoakland/2016-11-08.md
 committee_name: Mike Hutchinson for School Board 2016
 filer_id: '134896'

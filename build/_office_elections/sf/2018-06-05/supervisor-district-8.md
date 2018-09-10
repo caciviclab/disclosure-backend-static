@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/sf/2018-06-05.md
 election: _elections/sf/2018-06-05.md
 candidates:
 - jeff-sheehy

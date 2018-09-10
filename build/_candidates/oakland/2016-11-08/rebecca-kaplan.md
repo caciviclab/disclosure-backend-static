@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2016-11-08.md
 election: _electionsoakland/2016-11-08.md
 committee_name: Kaplan for Oakland City Council 2016
 filer_id: '1381183'

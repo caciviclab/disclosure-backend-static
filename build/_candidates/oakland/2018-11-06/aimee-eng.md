@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2018-11-06.md
 election: _electionsoakland/2018-11-06.md
 committee_name: Aimee Eng for School Board 2018
 data_warning: |-
