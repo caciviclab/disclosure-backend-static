@@ -1,6 +1,22 @@
 #!/bin/bash
 set -euo pipefail
 
+post_pr_diff_to_github() {
+  issue_id=$1
+  pr_head_sha=$2
+  url="https://$GITHUB_AUTH_TOKEN@api.github.com/repos/caciviclab/disclosure-backend-static/issues/${issue_id}/comments"
+  cat <<BODY | jq -R -s '{ body: . }' | curl -v -H"Content-Type: application/json" -d@- "$url"
+<details>
+<summary>Build diff from Commit ${pr_head_sha}:</summary>
+
+\`\`\`diff
+$(git diff)
+\`\`\`
+</details>
+BODY
+
+}
+
 deploy() {
   set -x
   git add build
@@ -20,14 +36,16 @@ This is an automated update by travis-ci at
   make upload-cache
 }
 
-if git diff --exit-code --quiet; then
+if [ "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
+  post_pr_diff_to_github "$TRAVIS_PULL_REQUEST" "$TRAVIS_PULL_REQUEST_SHA"
+elif [ ! -d "build" ]; then
+  echo "The 'build' directory is missing. Bailing!"
+elif git diff --exit-code --quiet; then
   echo "No changes to deploy!"
 elif [ "${TRAVIS_EVENT_TYPE}" = "push" -a "${TRAVIS_BRANCH}" = "master" ]; then
   deploy
-elif [ ! "${TRAVIS_EVENT_TYPE}" = "cron" -a ! "${TRAVIS_BRANCH}" = "automatic_updating" ]; then
-  echo "Not deploying since this is not a cron job or on the 'automatic_updating' branch."
-elif [ ! -d "build" ]; then
-  echo "The 'build' directory is missing. Bailing!"
-else
+elif [ "${TRAVIS_EVENT_TYPE}" = "cron" -a "${TRAVIS_BRANCH}" = "master" ]; then
   deploy
+else
+  echo "Not deploying since not push or cron build on master branch"
 fi

@@ -10,40 +10,10 @@ class CandidateSupportingExpenditure
   def fetch
     # Get the total indepedent expenditures for candidates by date.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      WITH combined_independent_expenditures AS (
-        SELECT
-          "FPPC" AS "Filer_ID",
-          "Exp_Date" as "Expn_Date",
-          "Filer_NamL",
-          "Amount"
-        FROM "496"
-        INNER JOIN "oakland_candidates"
-          ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("oakland_candidates"."Candidate")
-        WHERE "496"."Cand_NamL" IS NOT NULL
-          AND "496"."Sup_Opp_Cd" = 'S'
-          AND "FPPC" IS NOT NULL
-          AND ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
-
-        UNION
-        SELECT
-          "FPPC" as "Filer_ID",
-          "Expn_Date",
-          "Filer_NamL",
-          "Amount"
-        FROM "D-Expenditure"
-        INNER JOIN "oakland_candidates"
-          ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("oakland_candidates"."Candidate")
-        WHERE "D-Expenditure"."Cand_NamL" IS NOT NULL
-          AND "D-Expenditure"."Sup_Opp_Cd" = 'S'
-          AND "FPPC" IS NOT NULL
-          AND "Expn_Code" = 'IND'
-          AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
-      )
-      SELECT
-        "Filer_ID",
-        SUM("Amount") as total
-      FROM combined_independent_expenditures
-      GROUP BY "Filer_ID"
+      SELECT "Filer_ID", Sum("Amount") as "Total"
+      FROM independent_candidate_expenditures
+      WHERE "Sup_Opp_Cd" = 'S'
+      GROUP BY "Filer_ID";
     SQL
 
     total = {}
@@ -52,7 +22,7 @@ class CandidateSupportingExpenditure
     expenditures.each_with_object({}) do |row, hash|
       filer_id = row['Filer_ID'].to_s
       total[filer_id] ||= 0
-      total[filer_id] += row['total']
+      total[filer_id] += row['Total']
 
       hash[filer_id] ||= []
       hash[filer_id] << row

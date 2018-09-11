@@ -49,10 +49,18 @@ download-COAK-%:
 download-BRK-%:
 	ruby ssconvert.rb downloads/static/efile_BRK_$(subst download-BRK-,,$@).xlsx 'downloads/csv/efile_BRK_$(subst download-BRK-,,$@)_%{sheet}.csv'
 
-import: dropdb createdb import-spreadsheets import-data
+import: dropdb createdb do-import-spreadsheets import-data
 
-import-spreadsheets:
+import-spreadsheets: prep-import-spreadsheets do-import-spreadsheets
+	./bin/make_view
+
+prep-import-spreadsheets:
 	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
+	echo 'DROP VIEW "combined_contributions";' | psql $(DATABASE_NAME)
+	echo 'DROP VIEW "combined_independent_expenditures";' | psql $(DATABASE_NAME)
+
+
+do-import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_candidates.csv
 	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
@@ -67,7 +75,6 @@ import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
-	./bin/make_view
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \

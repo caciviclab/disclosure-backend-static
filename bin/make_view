@@ -9,9 +9,10 @@ psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 ** do not report their expenditures ass supporting/opposing
 ** The measure
 */
-CREATE OR REPLACE VIEW "Measure_Expenditures" AS
+DROP VIEW IF EXISTS "Measure_Expenditures";
+CREATE VIEW "Measure_Expenditures" AS
   -- Map names to numbers as ballot numbers are often missing
-  ( SELECT
+  SELECT
     cast ("Filer_ID" as character varying),
     "Filer_NamL",
     "election_name",
@@ -25,9 +26,9 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   FROM
     "E-Expenditure", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-  UNION
+  UNION ALL
 
-  -- Get IE 
+  -- Get IE
   SELECT
     "Filer_ID"::varchar,
     "Filer_NamL",
@@ -43,7 +44,6 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
     "496", oakland_name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
   AND "Sup_Opp_Cd" IS NOT NULL
-  )
   UNION ALL
 
   -- Get support/oppose information from committee
@@ -63,11 +63,13 @@ CREATE OR REPLACE VIEW "Measure_Expenditures" AS
   JOIN oakland_committees committee
       ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
   JOIN oakland_name_to_number ON "Ballot_Measure" = "Measure_Number"
+    AND "Ballot_Measure_Election" = "election_name"
   WHERE "Bal_Name" IS NULL
     AND "Ballot_Measure" IS NOT NULL
 ;
 
-CREATE OR REPLACE VIEW combined_contributions AS
+DROP VIEW IF EXISTS combined_contributions;
+CREATE VIEW combined_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
   FROM (
@@ -94,4 +96,23 @@ CREATE OR REPLACE VIEW combined_contributions AS
   LEFT OUTER JOIN oakland_candidates
   ON "FPPC"::varchar = "Filer_ID"
   WHERE "Start_Date" IS NULL OR "Tran_Date" >= "Start_Date";
+
+DROP VIEW IF EXISTS independent_candidate_expenditures;
+CREATE VIEW independent_candidate_expenditures AS
+  SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
+  FROM (
+    SELECT "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
+    FROM "496"
+    UNION ALL
+    SELECT "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL",
+    "Amount", "Sup_Opp_Cd"
+    FROM "D-Expenditure"
+    WHERE "Expn_Code" = 'IND'
+  ) AS all_data
+  JOIN "oakland_candidates"
+  ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
+    OR LOWER("Aliases") LIKE LOWER(CONCAT('%', TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL")), '%'))
+  WHERE ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
+  AND "FPPC" IS NOT NULL
+  AND "Cand_NamL" IS NOT NULL
 SQL
