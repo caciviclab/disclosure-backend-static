@@ -22,6 +22,50 @@
     "total_expenditures": 23891.0,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2690.73,
+    "support_list": [
+      {
+        "Total": 299.41,
+        "Exp_Date": "2016-08-31",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 48.0,
+        "Exp_Date": "2016-09-13",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 48.93,
+        "Exp_Date": "2016-09-15",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 390.21,
+        "Exp_Date": "2016-09-30",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 563.37,
+        "Exp_Date": "2016-10-14",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 676.49,
+        "Exp_Date": "2016-10-31",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 664.32,
+        "Exp_Date": "2016-11-08",
+        "Filer_ID": 1303019,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      }
+    ],
     "contributions_by_type": {
       "Committee": 500.0,
       "Individual": 15485.0,
@@ -47,9 +91,12 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
-    }
+    },
+    "opposition_list": [
+
+    ]
   },
   "contributions_received": 22344.0,
   "total_contributions": 22344.0,

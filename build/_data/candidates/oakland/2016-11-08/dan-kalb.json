@@ -22,6 +22,9 @@
     "total_expenditures": 149346.65,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
     "contributions_by_type": {
       "Committee": 11350.0,
       "Individual": 80751.0,
@@ -59,7 +62,33 @@
     "opposing_expenditures": 13241.65,
     "opposing_by_type": {
       "Independent Expenditure Supporting/Opposing Others": 13241.65
-    }
+    },
+    "opposition_list": [
+      {
+        "Total": 148.12,
+        "Exp_Date": "2016-11-03",
+        "Filer_ID": 1382408,
+        "Filer_NamL": "East Bay Rental Housing Association PAC"
+      },
+      {
+        "Total": 10156.99,
+        "Exp_Date": "2016-10-06",
+        "Filer_ID": 1382408,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 2259.97,
+        "Exp_Date": "2016-10-11",
+        "Filer_ID": 1382408,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 676.57,
+        "Exp_Date": "2016-10-27",
+        "Filer_ID": 1382408,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      }
+    ]
   },
   "contributions_received": 113810.66,
   "total_contributions": 113810.66,

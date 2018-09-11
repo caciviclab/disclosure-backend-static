@@ -22,6 +22,20 @@
     "total_expenditures": null,
     "total_loans_received": null,
     "total_supporting_independent": 31340.0,
+    "support_list": [
+      {
+        "Total": 4291.0,
+        "Exp_Date": "2018-08-29",
+        "Filer_ID": 1409088,
+        "Filer_NamL": "Families and Educators for Public Education, Sponsored by GO Public Schools Advocates"
+      },
+      {
+        "Total": 27049.0,
+        "Exp_Date": "2018-09-08",
+        "Filer_ID": 1409088,
+        "Filer_NamL": "Families and Educators for Public Education, Sponsored by GO Public Schools Advocates"
+      }
+    ],
     "contributions_by_type": {
     },
     "contributions_by_origin": {
@@ -32,9 +46,12 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
-    }
+    },
+    "opposition_list": [
+
+    ]
   },
   "contributions_received": null,
   "total_contributions": null,

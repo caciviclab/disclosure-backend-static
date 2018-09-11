@@ -22,6 +22,9 @@
     "total_expenditures": 83962.89,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
     "contributions_by_type": {
       "Committee": 9200.0,
       "Individual": 26450.0,
@@ -51,10 +54,48 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 39316.350000000006,
+    "opposing_expenditures": 39316.35,
     "opposing_by_type": {
       "Independent Expenditure Supporting/Opposing Others": 39316.35
-    }
+    },
+    "opposition_list": [
+      {
+        "Total": 7385.01,
+        "Exp_Date": "2016-09-29",
+        "Filer_ID": 1388641,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 7526.39,
+        "Exp_Date": "2016-10-06",
+        "Filer_ID": 1388641,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 7050.06,
+        "Exp_Date": "2016-10-11",
+        "Filer_ID": 1388641,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 9250.0,
+        "Exp_Date": "2016-10-18",
+        "Filer_ID": 1388641,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 7787.39,
+        "Exp_Date": "2016-10-20",
+        "Filer_ID": 1388641,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      },
+      {
+        "Total": 317.5,
+        "Exp_Date": "2016-10-27",
+        "Filer_ID": 1388641,
+        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
+      }
+    ]
   },
   "contributions_received": 48119.0,
   "total_contributions": 48119.0,

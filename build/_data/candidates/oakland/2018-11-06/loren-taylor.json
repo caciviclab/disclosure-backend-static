@@ -22,6 +22,9 @@
     "total_expenditures": 20401.5,
     "total_loans_received": 8000.0,
     "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
     "contributions_by_type": {
       "Individual": 101065.94,
       "Unitemized": 8161.0,
@@ -43,9 +46,12 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
-    }
+    },
+    "opposition_list": [
+
+    ]
   },
   "contributions_received": 119476.94,
   "total_contributions": 119476.94,

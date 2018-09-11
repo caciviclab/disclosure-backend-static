@@ -22,6 +22,14 @@
     "total_expenditures": 49880.03,
     "total_loans_received": 9250.0,
     "total_supporting_independent": 6987.5,
+    "support_list": [
+      {
+        "Total": 6987.5,
+        "Exp_Date": "2016-10-11",
+        "Filer_ID": 1379121,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      }
+    ],
     "contributions_by_type": {
       "Committee": 6500.0,
       "Individual": 16375.01,
@@ -52,9 +60,12 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
-    }
+    },
+    "opposition_list": [
+
+    ]
   },
   "contributions_received": 36773.01,
   "total_contributions": 36773.01,

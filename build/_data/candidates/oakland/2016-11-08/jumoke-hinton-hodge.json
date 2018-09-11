@@ -22,6 +22,110 @@
     "total_expenditures": 25486.04,
     "total_loans_received": 7125.0,
     "total_supporting_independent": 90423.03,
+    "support_list": [
+      {
+        "Total": 4264.86,
+        "Exp_Date": "2016-08-31",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 657.0,
+        "Exp_Date": "2016-09-01",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 2506.34,
+        "Exp_Date": "2016-09-09",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 48.0,
+        "Exp_Date": "2016-09-13",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 2879.48,
+        "Exp_Date": "2016-09-15",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 213.75,
+        "Exp_Date": "2016-09-22",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 5756.23,
+        "Exp_Date": "2016-09-30",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 455.0,
+        "Exp_Date": "2016-10-07",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 8.1,
+        "Exp_Date": "2016-10-08",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 10232.95,
+        "Exp_Date": "2016-10-11",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 2959.24,
+        "Exp_Date": "2016-10-14",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 6219.69,
+        "Exp_Date": "2016-10-31",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 2000.0,
+        "Exp_Date": "2016-11-01",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 96.23,
+        "Exp_Date": "2016-11-03",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 28567.44,
+        "Exp_Date": "2016-11-04",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 16722.27,
+        "Exp_Date": "2016-11-07",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      },
+      {
+        "Total": 6836.45,
+        "Exp_Date": "2016-11-08",
+        "Filer_ID": 1386416,
+        "Filer_NamL": "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+      }
+    ],
     "contributions_by_type": {
       "Committee": 1500.0,
       "Individual": 15788.0,
@@ -47,9 +151,12 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
-    }
+    },
+    "opposition_list": [
+
+    ]
   },
   "contributions_received": 25041.85,
   "total_contributions": 25041.85,
