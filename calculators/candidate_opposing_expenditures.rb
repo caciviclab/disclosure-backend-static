@@ -1,6 +1,6 @@
+# Calculate independent expenditures opposing a candidate.
 class CandidateOpposingExpenditure
   def initialize(candidates: [], ballot_measures: [], committees: [])
-    @committees = committees
     @candidates = candidates
   end
 
@@ -14,7 +14,7 @@ class CandidateOpposingExpenditure
     SQL
 
     total = {}
-    expenditure_against_committee = expenditures.each_with_object({}) do |row, hash|
+    expenditure_against_candidate = expenditures.each_with_object({}) do |row, hash|
       filer_id = row['Filer_ID'].to_s
       total[filer_id] ||= 0
       total[filer_id] += row['Total']
@@ -23,17 +23,14 @@ class CandidateOpposingExpenditure
       hash[filer_id] << row
     end
 
-    @committees.each do |committee|
-      filer_id = committee['Filer_ID'].to_s
-      sorted =
-        Array(expenditure_against_committee[filer_id]).sort_by { |row| [row['Filer_NamL'], row['Exp_Date']] }
-
-      committee.save_calculation(:opposition_list, sorted)
-    end
-
     @candidates.each do |candidate|
       filer_id = candidate['FPPC'].to_s
-      candidate.save_calculation(:total_opposing, total[filer_id])
+      candidate.save_calculation(:total_opposing, total.fetch(filer_id, 0).round(2))
+
+      sorted =
+        Array(expenditure_against_candidate[filer_id]).sort_by { |row| [row['Filer_NamL'], row['Exp_Date']] }
+
+      candidate.save_calculation(:opposition_list, sorted)
     end
   end
 end
