@@ -1,6 +1,5 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
-election: _electionsoakland/2016-11-08.md
 committee_name: Huber Trenado for OUSD School Board 2016
 filer_id: '1386749'
 is_accepted_expenditure_ceiling: true

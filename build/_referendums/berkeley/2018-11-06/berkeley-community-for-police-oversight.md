@@ -4,4 +4,4 @@ locality: berkeley
 number: 
 title: Berkeley Community for Police Oversight
 ---
-https://www.berkeleypoliceoversight.org/our-mission
+See more at [Berkeley Community United for Police Oversight](https://www.berkeleypoliceoversight.org/our-mission).

@@ -1,6 +1,5 @@
 ---
 ballot: _ballots/berkeley/2018-11-06.md
-election: _electionsberkeley/2018-11-06.md
 committee_name: Kesarwani for Berkeley City Council 2018
 filer_id: '1404224'
 is_incumbent: false
