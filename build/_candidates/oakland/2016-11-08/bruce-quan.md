@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2016-11-08.md
+ballot: _ballots/oakland/2016-11-08.md
 committee_name: Bruce Quan for City Council 2016
 filer_id: '1387267'
 is_accepted_expenditure_ceiling: true

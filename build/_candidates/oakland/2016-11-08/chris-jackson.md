@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2016-11-08.md
+ballot: _ballots/oakland/2016-11-08.md
 committee_name: Chris Jackson for School Board 2016
 filer_id: '1384926'
 is_accepted_expenditure_ceiling: true

@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2016-11-08.md
+ballot: _ballots/oakland/2016-11-08.md
 committee_name: Moore for Oakland City Council At-Large 2016
 data_warning: Filer error is impacting the data accuracy for this candidate and causing
   2016 contributions to be over-counted. When the filer corrects the campaign statement,

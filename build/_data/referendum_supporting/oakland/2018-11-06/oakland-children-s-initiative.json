@@ -3,11 +3,11 @@
   "contest_type": "Referendum",
   "name": "Oakland Children's Initiative",
   "title": "Oakland Children's Initiative",
-  "summary": "Shall the measure amending Oakland’s Charter for the purposes of funding services to: expand access to early childhood  and  preschool  education;  improve  high  school  and  college  graduation  and  career  readiness;  provide  mentoring and college financial assistance; by establishing a $198, 30-year parcel tax for single family parcels and  specified  rates  for  other  parcel  types,  raising  approximately  $25,000,000  – 30,000,000  annually,  with  citizen’s oversight, and exemptions for low-income households and others, be adopted?Percentage Needed to Pass: Two-thirds (2/3)",
+  "summary": "Shall the measure amending Oakland’s Charter for the purposes of funding services to: expand access to early childhood  and  preschool  education;  improve  high  school  and  college  graduation  and  career  readiness;  provide  mentoring and college financial assistance; by establishing a $198, 30-year parcel tax for single family parcels and  specified  rates  for  other  parcel  types,  raising  approximately  $25,000,000  – 30,000,000  annually,  with  citizen’s oversight, and exemptions for low-income households and others, be adopted?Percentage Needed to Pass: Two-thirds (2/3)\n\n_This text provided by [Alameda County Registrar of Voters](https://www.acvote.org/election-information/elections?id=236#)_",
   "number": "AA",
   "contributions_by_region": [
     {
-      "amount": 127500.0,
+      "amount": 139500.0,
       "locale": "Out of State"
     },
     {
@@ -20,6 +20,10 @@
     }
   ],
   "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 12000.0
+    },
     {
       "type": "Individual",
       "amount": 474163.6
@@ -34,8 +38,8 @@
       "id": "1310647",
       "name": "The Oakland Fund",
       "payee": "The Oakland Fund",
-      "amount": 894162.76
+      "amount": 909162.76
     }
   ],
-  "total_contributions": 1074163.6
+  "total_contributions": 1086163.6
 }

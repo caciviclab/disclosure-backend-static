@@ -7,30 +7,30 @@
   "number": "D",
   "contributions_by_region": [
     {
-      "amount": 17200.0,
+      "amount": 7200.0,
       "locale": "Out of State"
     },
     {
-      "amount": 28250.0,
+      "amount": 33550.0,
       "locale": "Within California"
     },
     {
-      "amount": 106547.0,
+      "amount": 110837.72,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 16250.0
+      "amount": 21250.0
     },
     {
       "type": "Individual",
-      "amount": 49247.0
+      "amount": 49547.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 86500.0
+      "amount": 80790.72
     }
   ],
   "supporting_organizations": [
@@ -38,8 +38,8 @@
       "id": "1400467",
       "name": "Protect Oakland Libraries - Yes on D 2018",
       "payee": "Protect Oakland Libraries - Yes on D 2018",
-      "amount": 136952.89
+      "amount": 155810.1
     }
   ],
-  "total_contributions": 151997.0
+  "total_contributions": 151587.72
 }

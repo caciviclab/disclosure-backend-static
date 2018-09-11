@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2016-11-08.md
+ballot: _ballots/oakland/2016-11-08.md
 filer_id: ''
 is_incumbent: false
 name: Lucky Narain

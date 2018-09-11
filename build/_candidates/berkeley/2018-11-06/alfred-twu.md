@@ -1,5 +1,5 @@
 ---
-election: _electionsberkeley/2018-11-06.md
+ballot: _ballots/berkeley/2018-11-06.md
 committee_name: Alfred Twu for Berkeley City Council 2018
 filer_id: '1400769'
 is_incumbent: false

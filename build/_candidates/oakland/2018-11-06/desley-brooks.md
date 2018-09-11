@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2018-11-06.md
+ballot: _ballots/oakland/2018-11-06.md
 committee_name: Desley Brooks for City Council 2018
 data_warning: |-
   This data reflects information from 2018 and prior campaign filings because the candidate is using the same campaign account for multiple elections. Therefore contribution and experditure calculations may include money raised for or spent on prior elections. <span class="hover-info-container"><img src="/assets/images/icon_more_info.png" alt="Question mark in a circle">

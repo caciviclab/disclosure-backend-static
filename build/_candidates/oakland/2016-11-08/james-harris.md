@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2016-11-08.md
+ballot: _ballots/oakland/2016-11-08.md
 committee_name: Re-Elect James Harris for School Board
 filer_id: '1387803'
 is_incumbent: true

@@ -1,5 +1,5 @@
 ---
-election: _electionsoakland/2016-11-08.md
+ballot: _ballots/oakland/2016-11-08.md
 committee_name: Hodge 4 Oakland City Council 2016
 filer_id: '1388731'
 is_accepted_expenditure_ceiling: false
