@@ -175,6 +175,7 @@ OaklandCommittee.find_each do |committee|
       'filer_id' => committee.Filer_ID.to_s,
       'name' => committee.Filer_NamL,
       'candidate_controlled_id' => committee.candidate_controlled_id.to_s,
+      'title' => committee.Filer_NamL
     ))
     f.puts('---')
   end
