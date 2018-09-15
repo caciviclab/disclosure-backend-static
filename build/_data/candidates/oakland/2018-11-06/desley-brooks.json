@@ -21,9 +21,14 @@
     "total_contributions": 50297.0,
     "total_expenditures": 27236.73,
     "total_loans_received": -2400.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 6900.0,
     "support_list": [
-
+      {
+        "Total": 6900.0,
+        "Exp_Date": "2018-09-14",
+        "Filer_ID": 1236617,
+        "Filer_NamL": "East Bay Working Families, a coalition of unions and community groups"
+      }
     ],
     "contributions_by_type": {
       "Committee": 3800.0,
@@ -53,6 +58,7 @@
       "Information Technology Costs (Internet, E-mail)": 366.7
     },
     "supporting_by_type": {
+      "Phone Banking \u0026 Field Campaign": 6900.0
     }
   },
   "opposing_money": {

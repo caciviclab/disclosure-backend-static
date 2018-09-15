@@ -7,4 +7,5 @@ name: Jesse A.J. Smith
 occupation: Writer
 photo_url: Jesse-Smith.png
 twitter_url: OakSmith2018
+website_url: https://oaksmith2018.com/
 ---

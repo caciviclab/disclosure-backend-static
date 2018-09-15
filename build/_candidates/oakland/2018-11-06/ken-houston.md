@@ -7,4 +7,5 @@ is_incumbent: false
 name: Ken Houston
 photo_url: Ken-Houston.png
 twitter_url: KHouston4Mayor
+website_url: http://sonofoakland.com/
 ---

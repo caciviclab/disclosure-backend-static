@@ -1,5 +1,5 @@
 {
-  "id": 30,
+  "id": 39,
   "name": "Mark Leno",
   "photo_url": null,
   "website_url": null,
@@ -244,11 +244,18 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 108891.37,
+    "opposing_expenditures": 110391.37,
     "opposing_by_type": {
+      "Digital Ad": 1500.0,
       "Independent Expenditure Supporting/Opposing Others": 108891.37
     },
     "opposition_list": [
+      {
+        "Total": 1500.0,
+        "Exp_Date": "2018-06-01",
+        "Filer_ID": 1396338,
+        "Filer_NamL": "SF Workforce Housing Alliance"
+      },
       {
         "Total": 2000.0,
         "Exp_Date": "2018-06-01",

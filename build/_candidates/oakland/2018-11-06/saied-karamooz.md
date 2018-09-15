@@ -8,4 +8,5 @@ name: Saied Karamooz
 occupation: Chief Operating Officer
 photo_url: Saied-Karamooz.png
 twitter_url: SAiED4Oakland
+website_url: https://everyonesmayor.org/
 ---
