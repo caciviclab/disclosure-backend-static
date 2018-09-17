@@ -5,6 +5,7 @@ filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Anthony Wilson
+photo_url: anthony-wilson.png
 twitter_url: AnthonyForOakland
 website_url: https://www.anthonyforoakland.com/
 ---
