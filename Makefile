@@ -57,7 +57,7 @@ import-spreadsheets: prep-import-spreadsheets do-import-spreadsheets
 prep-import-spreadsheets:
 	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
 	echo 'DROP VIEW "combined_contributions";' | psql $(DATABASE_NAME)
-	echo 'DROP VIEW "combined_independent_expenditures";' | psql $(DATABASE_NAME)
+	echo 'DROP VIEW "independent_candidate_expenditures";' | psql $(DATABASE_NAME)
 
 
 do-import-spreadsheets:
