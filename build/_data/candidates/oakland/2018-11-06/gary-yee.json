@@ -17,8 +17,8 @@
   "party_affiliation": null,
   "filer_id": 1409088,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
+    "contributions_received": 11600.0,
+    "total_contributions": 11600.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "total_supporting_independent": 31644.0,
@@ -37,8 +37,11 @@
       }
     ],
     "contributions_by_type": {
+      "Self Funding": 10000.0,
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
+      "Out of State": 11600.0
     },
     "expenditures_by_type": {
     },
@@ -53,11 +56,13 @@
 
     ]
   },
-  "contributions_received": null,
-  "total_contributions": null,
+  "contributions_received": 11600.0,
+  "total_contributions": 11600.0,
   "total_expenditures": null,
   "total_loans_received": null,
   "contributions_by_type": {
+    "Self Funding": 10000.0,
+    "Other (includes Businesses)": 1600.0
   },
   "expenditures_by_type": {
   }

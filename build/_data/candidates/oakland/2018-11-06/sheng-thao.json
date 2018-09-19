@@ -21,9 +21,14 @@
     "total_contributions": 26339.0,
     "total_expenditures": 150.2,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 48000.0,
     "support_list": [
-
+      {
+        "Total": 48000.0,
+        "Exp_Date": "2018-09-17",
+        "Filer_ID": 1405456,
+        "Filer_NamL": "Unity PAC, sponsored by Alameda Labor Council, AFL-CIO to support Thao for City Council 2018"
+      }
     ],
     "contributions_by_type": {
       "Committee": 6000.0,
@@ -40,6 +45,7 @@
       "Office Expenses": 100.2
     },
     "supporting_by_type": {
+      "Campaign Field Program": 48000.0
     }
   },
   "opposing_money": {
