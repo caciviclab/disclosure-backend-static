@@ -71,14 +71,17 @@ CREATE VIEW "Measure_Expenditures" AS
 DROP VIEW IF EXISTS combined_contributions;
 CREATE VIEW combined_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
-      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
+      "Tran_Occ", "Tran_Emp"
   FROM (
     SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
-      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
+      "Tran_Occ", "Tran_Emp"
     FROM "A-Contributions"
     UNION ALL
     SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
-      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State"
+      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
+      "Tran_Occ", "Tran_Emp"
     FROM "C-Contributions"
     UNION ALL
     SELECT
@@ -88,8 +91,11 @@ CREATE VIEW combined_contributions AS
       "Enty_NamF" as "Tran_NamF",
       "Enty_NamL" as "Tran_NamL",
       "Ctrib_Date" as "Tran_Date",
-      '' as "Tran_City",
-      '' as "Tran_State"
+      "Enty_City" as "Tran_City",
+      "Enty_ST" as "Tran_State",
+      "Enty_Zip4" as "Tran_Zip4",
+      "Ctrib_Occ" as "Tran_Occ",
+      "Ctrib_Emp" as "Tran_Emp"
     FROM "497"
     WHERE "Form_Type" = 'F497P1'
   ) AS all_contributions
