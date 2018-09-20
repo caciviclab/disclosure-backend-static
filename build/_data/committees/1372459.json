@@ -3,24 +3,33 @@
   "contributions": [
     {
       "Filer_ID": "1372459",
+      "Tran_Emp": "Self employed",
+      "Tran_Occ": "Investor",
       "Tran_Amt1": 2000.0,
       "Tran_Date": "2016-05-23",
       "Tran_NamF": "Dale",
-      "Tran_NamL": "Gieringer"
+      "Tran_NamL": "Gieringer",
+      "Tran_Zip4": "94704"
     },
     {
       "Filer_ID": "1372459",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Publisher",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2016-05-24",
       "Tran_NamF": "Chris",
-      "Tran_NamL": "Conrad"
+      "Tran_NamL": "Conrad",
+      "Tran_Zip4": "94803"
     },
     {
       "Filer_ID": "1372459",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Attorney",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2016-05-24",
       "Tran_NamF": "Robert",
-      "Tran_NamL": "Raich"
+      "Tran_NamL": "Raich",
+      "Tran_Zip4": "94612"
     }
   ]
 }

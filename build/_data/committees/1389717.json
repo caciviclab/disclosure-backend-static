@@ -3,24 +3,33 @@
   "contributions": [
     {
       "Filer_ID": "1389717",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Unknown",
       "Tran_Amt1": 350.0,
       "Tran_Date": "2016-09-19",
       "Tran_NamF": "Robert",
-      "Tran_NamL": "Raich"
+      "Tran_NamL": "Raich",
+      "Tran_Zip4": "94619"
     },
     {
       "Filer_ID": "1389717",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Unknown",
       "Tran_Amt1": 700.0,
       "Tran_Date": "2016-09-22",
       "Tran_NamF": "Martin",
-      "Tran_NamL": "Schreider"
+      "Tran_NamL": "Schreider",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1389717",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Attorny",
       "Tran_Amt1": 700.0,
       "Tran_Date": "2016-09-23",
       "Tran_NamF": "James",
-      "Tran_NamL": "Anthony"
+      "Tran_NamL": "Anthony",
+      "Tran_Zip4": "94602"
     }
   ]
 }

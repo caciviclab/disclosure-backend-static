@@ -3,24 +3,33 @@
   "contributions": [
     {
       "Filer_ID": "1402139",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2018-01-29",
       "Tran_NamF": "Gordon",
-      "Tran_NamL": "Wozniak"
+      "Tran_NamL": "Wozniak",
+      "Tran_Zip4": "94705"
     },
     {
       "Filer_ID": "1402139",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 500.0,
       "Tran_Date": "2018-02-12",
       "Tran_NamF": "Gordon",
-      "Tran_NamL": "Wozniak"
+      "Tran_NamL": "Wozniak",
+      "Tran_Zip4": "94705"
     },
     {
       "Filer_ID": "1402139",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 6.0,
       "Tran_Date": "2018-03-01",
       "Tran_NamF": "Gordon",
-      "Tran_NamL": "Wozniak"
+      "Tran_NamL": "Wozniak",
+      "Tran_Zip4": "94705"
     }
   ]
 }

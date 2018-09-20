@@ -3,52 +3,73 @@
   "contributions": [
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": "Khepera Consulting",
+      "Tran_Occ": "Attorney/Consultant",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2016-02-02",
       "Tran_NamF": "Gregory",
-      "Tran_NamL": "Hodge"
+      "Tran_NamL": "Hodge",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": "San Francisco Public Utilities Commission",
+      "Tran_Occ": "Government Worker",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2016-02-03",
       "Tran_NamF": "Elinor",
-      "Tran_NamL": "Buchen"
+      "Tran_NamL": "Buchen",
+      "Tran_Zip4": "94602"
     },
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Human Resources",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2016-02-03",
       "Tran_NamF": "Gwendolyn",
-      "Tran_NamL": "Mosley"
+      "Tran_NamL": "Mosley",
+      "Tran_Zip4": "94706"
     },
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": "United States Federal Government",
+      "Tran_Occ": "Registered Nurse",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2016-02-04",
       "Tran_NamF": "Uruaku",
-      "Tran_NamL": "Obasi"
+      "Tran_NamL": "Obasi",
+      "Tran_Zip4": "60680"
     },
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2016-02-04",
       "Tran_NamF": "Katherint",
-      "Tran_NamL": "Welch"
+      "Tran_NamL": "Welch",
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": "RC Wealth Managment LLC",
+      "Tran_Occ": "Financials Advisor",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2016-02-05",
       "Tran_NamF": "Cassandra",
-      "Tran_NamL": "Cummings"
+      "Tran_NamL": "Cummings",
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1382194",
+      "Tran_Emp": "First 5 Alameda County",
+      "Tran_Occ": "Early Childhood Projects Coordinator",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2016-02-05",
       "Tran_NamF": "Page",
-      "Tran_NamL": "Tomblin"
+      "Tran_NamL": "Tomblin",
+      "Tran_Zip4": "94501"
     }
   ]
 }

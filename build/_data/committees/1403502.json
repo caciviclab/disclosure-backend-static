@@ -3,66 +3,93 @@
   "contributions": [
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Bank of America",
+      "Tran_Occ": "Relationship Manager & Lending Specialist",
       "Tran_Amt1": 105.0,
       "Tran_Date": "2018-03-03",
       "Tran_NamF": "Forrest",
-      "Tran_NamL": "Liu"
+      "Tran_NamL": "Liu",
+      "Tran_Zip4": "94702"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Physicist",
+      "Tran_Occ": "UC Berkeley",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2018-03-06",
       "Tran_NamF": "James",
-      "Tran_NamL": "McFadden"
+      "Tran_NamL": "McFadden",
+      "Tran_Zip4": "94704"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Provider",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2018-03-06",
       "Tran_NamF": "Christine",
-      "Tran_NamL": "Sanders"
+      "Tran_NamL": "Sanders",
+      "Tran_Zip4": "94704"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 50.0,
       "Tran_Date": "2018-03-10",
       "Tran_NamF": null,
-      "Tran_NamL": "Friends of Adeline"
+      "Tran_NamL": "Friends of Adeline",
+      "Tran_Zip4": "Unknown"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retiree",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2018-03-13",
       "Tran_NamF": "JP",
-      "Tran_NamL": "Massar"
+      "Tran_NamL": "Massar",
+      "Tran_Zip4": "94703"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2018-03-13",
       "Tran_NamF": "James",
-      "Tran_NamL": "Masser"
+      "Tran_NamL": "Masser",
+      "Tran_Zip4": "94703"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retiree",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2018-03-14",
       "Tran_NamF": "James",
-      "Tran_NamL": "Chang"
+      "Tran_NamL": "Chang",
+      "Tran_Zip4": "94704"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retiree",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2018-03-15",
       "Tran_NamF": "Boona",
-      "Tran_NamL": "Cheema"
+      "Tran_NamL": "Cheema",
+      "Tran_Zip4": "94706"
     },
     {
       "Filer_ID": "1403502",
+      "Tran_Emp": "Healthnet",
+      "Tran_Occ": "Social Worker",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2018-03-20",
       "Tran_NamF": "Mary",
-      "Tran_NamL": "Carl"
+      "Tran_NamL": "Carl",
+      "Tran_Zip4": "94801"
     }
   ]
 }

@@ -3,17 +3,23 @@
   "contributions": [
     {
       "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 32500.0,
       "Tran_Date": "2018-09-17",
       "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors"
+      "Tran_NamL": "National Association of Realtors",
+      "Tran_Zip4": "60611"
     },
     {
       "Filer_ID": "1410943",
+      "Tran_Emp": "Luke A. Blacklidge",
+      "Tran_Occ": "Real Estate Broker",
       "Tran_Amt1": 3000.0,
       "Tran_Date": "2018-09-18",
       "Tran_NamF": "Luke A.",
-      "Tran_NamL": "Blacklidge"
+      "Tran_NamL": "Blacklidge",
+      "Tran_Zip4": "94549"
     }
   ]
 }

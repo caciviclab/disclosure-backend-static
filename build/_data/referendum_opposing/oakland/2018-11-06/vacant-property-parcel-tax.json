@@ -7,8 +7,12 @@
   "number": "W",
   "contributions_by_region": [
     {
-      "amount": 35500.0,
+      "amount": 32500.0,
       "locale": "Out of State"
+    },
+    {
+      "amount": 3000.0,
+      "locale": "Within California"
     }
   ],
   "contributions_by_type": [

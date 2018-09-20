@@ -3,59 +3,83 @@
   "contributions": [
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 2000.0,
       "Tran_Date": "2016-01-18",
       "Tran_NamF": "James",
-      "Tran_NamL": "Moore"
+      "Tran_NamL": "Moore",
+      "Tran_Zip4": "98155"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Librarian",
       "Tran_Amt1": 2500.0,
       "Tran_Date": "2016-01-20",
       "Tran_NamF": "David",
-      "Tran_NamL": "Eifler"
+      "Tran_NamL": "Eifler",
+      "Tran_Zip4": "94702"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": "Brown & Toland Physicians",
+      "Tran_Occ": "Physician",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2016-04-01",
       "Tran_NamF": "Margaret",
-      "Tran_NamL": "Renik"
+      "Tran_NamL": "Renik",
+      "Tran_Zip4": "94609"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": "Homemaker/Unemployed",
+      "Tran_Occ": "Homemaker/Unemployed",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2016-07-12",
       "Tran_NamF": "Anne",
-      "Tran_NamL": "MacDougald"
+      "Tran_NamL": "MacDougald",
+      "Tran_Zip4": "48105"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2016-07-13",
       "Tran_NamF": "James",
-      "Tran_NamL": "Moore"
+      "Tran_NamL": "Moore",
+      "Tran_Zip4": "98155"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": "Three Counties Termite Control",
+      "Tran_Occ": "Owner",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2016-07-15",
       "Tran_NamF": "Jose",
-      "Tran_NamL": "Arias"
+      "Tran_NamL": "Arias",
+      "Tran_Zip4": "94560"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": "Co-Director",
+      "Tran_Occ": "Speak Out",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2016-07-15",
       "Tran_NamF": "Felicia",
-      "Tran_NamL": "Gustin"
+      "Tran_NamL": "Gustin",
+      "Tran_Zip4": "94702"
     },
     {
       "Filer_ID": "1385949",
+      "Tran_Emp": "Policylink",
+      "Tran_Occ": "Senior Director",
       "Tran_Amt1": 1200.0,
       "Tran_Date": "2016-10-07",
       "Tran_NamF": "Sarah",
-      "Tran_NamL": "Treuhaft"
+      "Tran_NamL": "Treuhaft",
+      "Tran_Zip4": "94110"
     }
   ]
 }

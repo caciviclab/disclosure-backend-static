@@ -3,17 +3,23 @@
   "contributions": [
     {
       "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Tran_Amt1": 2500.0,
       "Tran_Date": "2018-08-30",
       "Tran_NamF": null,
-      "Tran_NamL": "MCGRATH PROPERTIES, INC."
+      "Tran_NamL": "MCGRATH PROPERTIES, INC.",
+      "Tran_Zip4": "94608"
     },
     {
       "Filer_ID": "1410279",
+      "Tran_Emp": "LAW OFFICES OF DAVID ROE",
+      "Tran_Occ": "ATTORNEY",
       "Tran_Amt1": 4990.0,
       "Tran_Date": "2018-09-13",
       "Tran_NamF": "DAVID",
-      "Tran_NamL": "ROE"
+      "Tran_NamL": "ROE",
+      "Tran_Zip4": "94610"
     }
   ]
 }
