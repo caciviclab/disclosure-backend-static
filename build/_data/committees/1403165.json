@@ -1,5 +1,5 @@
 {
-  "total_contributions": 379754.56,
+  "total_contributions": 380754.56,
   "contributions": [
     {
       "Filer_ID": "1403165",
@@ -330,6 +330,16 @@
       "Tran_NamF": "M Quinn",
       "Tran_NamL": "Delaney",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1403165",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "UA Local Union No. 342",
+      "Tran_Zip4": "94518"
     }
   ]
 }

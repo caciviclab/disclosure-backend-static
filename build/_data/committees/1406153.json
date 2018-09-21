@@ -1,5 +1,5 @@
 {
-  "total_contributions": 15900.0,
+  "total_contributions": 17500.0,
   "contributions": [
     {
       "Filer_ID": "1406153",
@@ -350,6 +350,16 @@
       "Tran_NamF": "Gregory",
       "Tran_NamL": "McConnell",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2018-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "IFPTE Local 21",
+      "Tran_Zip4": "94103"
     }
   ]
 }
