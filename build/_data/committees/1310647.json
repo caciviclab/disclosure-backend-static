@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1111163.6,
+  "total_contributions": 1112163.6,
   "contributions": [
     {
       "Filer_ID": "1310647",
@@ -360,6 +360,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Pacific Gas & Electric Co.",
       "Tran_Zip4": "93721"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Real Estate Management",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Rick",
+      "Tran_NamL": "Mariano",
+      "Tran_Zip4": "94114"
     }
   ]
 }
