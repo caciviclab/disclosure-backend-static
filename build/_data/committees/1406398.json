@@ -1,5 +1,5 @@
 {
-  "total_contributions": 24017.65,
+  "total_contributions": 49017.65,
   "contributions": [
     {
       "Filer_ID": "1406398",
@@ -243,16 +243,6 @@
     },
     {
       "Filer_ID": "1406398",
-      "Tran_Emp": "Presidio Trust",
-      "Tran_Occ": "Human Resources",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2018-06-29",
-      "Tran_NamF": "Angela",
-      "Tran_NamL": "Johnson",
-      "Tran_Zip4": "94509"
-    },
-    {
-      "Filer_ID": "1406398",
       "Tran_Emp": "Blackberry Soul",
       "Tran_Occ": "Chef",
       "Tran_Amt1": 50.0,
@@ -260,6 +250,16 @@
       "Tran_NamF": "Angela",
       "Tran_NamL": "Johnson",
       "Tran_Zip4": "94710"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": "Presidio Trust",
+      "Tran_Occ": "Human Resources",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-06-29",
+      "Tran_NamF": "Angela",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94509"
     },
     {
       "Filer_ID": "1406398",
@@ -627,6 +627,16 @@
       "Tran_Occ": "Pastor",
       "Tran_Amt1": 13600.0,
       "Tran_Date": "2018-08-30",
+      "Tran_NamF": "Joseph",
+      "Tran_NamL": "Simmons",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": "Greater St. Paul Church",
+      "Tran_Occ": "Pastor",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2018-09-22",
       "Tran_NamF": "Joseph",
       "Tran_NamL": "Simmons",
       "Tran_Zip4": "94611"
