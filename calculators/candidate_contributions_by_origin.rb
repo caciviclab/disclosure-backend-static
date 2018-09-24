@@ -9,12 +9,12 @@ class CandidateContributionsByOrigin
       monetary_results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT "Filer_ID",
         CASE
-          WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'
+          WHEN TRIM(LOWER("Tran_City")) = LOWER(location) THEN CONCAT('Within ', location)
           WHEN UPPER("Tran_State") = 'CA' THEN 'Within California'
           ELSE 'Out of State'
         END AS locale,
         SUM("Tran_Amt1") AS total
-        FROM combined_contributions
+        FROM candidate_contributions
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Filer_ID", locale
       SQL

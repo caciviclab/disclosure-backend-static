@@ -7,7 +7,7 @@ CD := $(shell pwd)
 WGET=bin/wget-wrapper -O- --no-verbose --tries=3
 
 clean-spreadsheets:
-	rm -rf downloads/csv/oakland_*.csv
+	rm -rf downloads/csv/oakland_*.csv office_elections.csv measure_committees.csv
 
 clean:
 	rm -rf downloads/raw downloads/csv
@@ -17,7 +17,7 @@ process: process.rb
 
 download-spreadsheets: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
 	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
-	downloads/csv/office_elections.csv
+	downloads/csv/office_elections.csv downloads/csv/elections.csv
 
 download-cached:
 	$(WGET) "https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
@@ -61,7 +61,7 @@ import-spreadsheets: prep-import-spreadsheets do-import-spreadsheets
 
 prep-import-spreadsheets:
 	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
-	echo 'DROP VIEW "combined_contributions";' | psql $(DATABASE_NAME)
+	echo 'DROP VIEW "all_contributions" CASCADE;' | psql $(DATABASE_NAME)
 	echo 'DROP VIEW "independent_candidate_expenditures";' | psql $(DATABASE_NAME)
 
 
@@ -80,6 +80,9 @@ do-import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS elections;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/elections.csv
+	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
@@ -128,7 +131,14 @@ downloads/csv/oakland_name_to_number.csv:
 downloads/csv/oakland_committees.csv:
 	mkdir -p downloads/csv
 	$(WGET) \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=145882925&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=1015408103&single=true&output=csv' | \
+	sed -e '1s/ /_/g' | \
+	sed -e '1s/[^a-zA-Z,_]//g' > $@
+
+downloads/csv/elections.csv:
+	mkdir -p downloads/csv
+	$(WGET) \
+		'https://docs.google.com/spreadsheets/d/1vJR8GR5Bk3bUQXziPiQe7to1O-QEm-_5GfD7hPjp-Xc/pub?gid=2138925841&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 

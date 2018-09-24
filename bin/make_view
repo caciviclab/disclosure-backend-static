@@ -62,6 +62,8 @@ CREATE VIEW "Measure_Expenditures" AS
     "E-Expenditure" expend
   JOIN oakland_committees committee
       ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
+      AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
+      AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date")
   JOIN oakland_name_to_number ON "Ballot_Measure" = "Measure_Number"
     AND "Ballot_Measure_Election" = "election_name"
   WHERE "Bal_Name" IS NULL
@@ -69,39 +71,67 @@ CREATE VIEW "Measure_Expenditures" AS
 ;
 
 DROP VIEW IF EXISTS combined_contributions;
-CREATE VIEW combined_contributions AS
+DROP VIEW IF EXISTS candidate_contributions;
+DROP VIEW IF EXISTS measure_contributions;
+DROP VIEW IF EXISTS all_contributions;
+CREATE VIEW  all_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+    "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
+    "Tran_Occ", "Tran_Emp"
+  FROM "A-Contributions"
+  UNION ALL
+  SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+    "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
+    "Tran_Occ", "Tran_Emp"
+  FROM "C-Contributions"
+  UNION ALL
+  SELECT
+    "Filer_ID"::varchar,
+    "Entity_Cd",
+    "Amount" as "Tran_Amt1",
+    "Enty_NamF" as "Tran_NamF",
+    "Enty_NamL" as "Tran_NamL",
+    "Ctrib_Date" as "Tran_Date",
+    "Enty_City" as "Tran_City",
+    "Enty_ST" as "Tran_State",
+    "Enty_Zip4" as "Tran_Zip4",
+    "Ctrib_Occ" as "Tran_Occ",
+    "Ctrib_Emp" as "Tran_Emp"
+  FROM "497"
+  WHERE "Form_Type" = 'F497P1';
+
+CREATE VIEW candidate_contributions AS
+  SELECT "Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-      "Tran_Occ", "Tran_Emp"
-  FROM (
-    SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
+      "Tran_Occ", "Tran_Emp", elections.location
+FROM all_contributions
+  JOIN oakland_candidates
+  ON "FPPC"::varchar = all_contributions."Filer_ID"
+  AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
+  JOIN elections
+  ON oakland_candidates.election_name = elections.name;
+
+CREATE VIEW measure_contributions AS
+  SELECT all_contributions."Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-      "Tran_Occ", "Tran_Emp"
-    FROM "A-Contributions"
-    UNION ALL
-    SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
-      "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-      "Tran_Occ", "Tran_Emp"
-    FROM "C-Contributions"
-    UNION ALL
-    SELECT
-      "Filer_ID"::varchar,
-      "Entity_Cd",
-      "Amount" as "Tran_Amt1",
-      "Enty_NamF" as "Tran_NamF",
-      "Enty_NamL" as "Tran_NamL",
-      "Ctrib_Date" as "Tran_Date",
-      "Enty_City" as "Tran_City",
-      "Enty_ST" as "Tran_State",
-      "Enty_Zip4" as "Tran_Zip4",
-      "Ctrib_Occ" as "Tran_Occ",
-      "Ctrib_Emp" as "Tran_Emp"
-    FROM "497"
-    WHERE "Form_Type" = 'F497P1'
-  ) AS all_contributions
-  LEFT OUTER JOIN oakland_candidates
-  ON "FPPC"::varchar = "Filer_ID"
-  WHERE "Start_Date" IS NULL OR "Tran_Date" >= "Start_Date";
+      "Tran_Occ", "Tran_Emp", elections.location
+FROM all_contributions
+  JOIN (
+    SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date", "Ballot_Measure_Election"
+    FROM oakland_committees
+    WHERE "Ballot_Measure_Election" IS NOT NULL
+  ) committees
+  ON committees."Filer_ID" = all_contributions."Filer_ID"
+  AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
+  JOIN elections
+  ON "Ballot_Measure_Election" = elections.name;
+
+CREATE VIEW combined_contributions AS
+  SELECT * from candidate_contributions
+  UNION ALL
+  SELECT * from measure_contributions;
 
 DROP VIEW IF EXISTS independent_candidate_expenditures;
 CREATE VIEW independent_candidate_expenditures AS

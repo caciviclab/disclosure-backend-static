@@ -183,6 +183,17 @@ OaklandCommittee.find_each do |committee|
     f.puts('---')
   end
 end
+OaklandCandidate.find_each do |committee|
+  build_file("/_committees/#{committee.FPPC}.md") do |f|
+    f.puts(YAML.dump(
+      'filer_id' => committee.FPPC.to_s,
+      'name' => committee.Committee_Name,
+      'candidate_controlled_id' => '',
+      'title' => committee.Committee_Name
+    ))
+    f.puts('---')
+  end
+end
 
 # /_data/contributions/1229791.json
 OaklandCommittee.includes(:calculations).find_each do |committee|
