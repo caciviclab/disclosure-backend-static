@@ -85,6 +85,11 @@ class ReferendumSupportersCalculator
       end
     end
 
+    # Augment the list of committees that have spent money with the list of
+    # committees that have raised money, in case there are some committees that
+    # have raised money but not spent it yet.
+    augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name)
+
     [
       # { bal_name => rows }     , calculation name
       [supporting_by_measure_name, :supporting_organizations],
@@ -109,6 +114,53 @@ class ReferendumSupportersCalculator
   end
 
   private
+
+  def augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name)
+    committees_with_contributions = ActiveRecord::Base.connection.execute(<<-SQL)
+    SELECT
+      oakland_committees."Filer_ID",
+      oakland_committees."Filer_NamL",
+      oakland_committees."Ballot_Measure",
+      oakland_committees."Ballot_Measure_Election",
+      oakland_committees."Support_Or_Oppose"
+    FROM combined_contributions
+    INNER JOIN oakland_committees
+      ON oakland_committees."Filer_ID" = combined_contributions."Filer_ID"
+    WHERE "Ballot_Measure" IS NOT NULL
+    GROUP BY
+      oakland_committees."Filer_ID",
+      oakland_committees."Filer_NamL",
+      oakland_committees."Ballot_Measure",
+      oakland_committees."Ballot_Measure_Election",
+      oakland_committees."Support_Or_Oppose";
+    SQL
+    committees_with_contributions.each do |row|
+      election_name = row['Ballot_Measure_Election']
+      bal_num = row['Ballot_Measure']
+      committee = committee_from_expenditure(row)
+
+      case row['Support_Or_Oppose']
+      when 'S'
+        supporting_by_measure_name[[election_name, bal_num]] ||= {}
+        supporting_by_measure_name[[election_name, bal_num]][row['Filer_ID']] ||= {
+          id: committee ? committee['Filer_ID'] : nil,
+          name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          # start with the other items from the summary page (lines 9 + 10)
+          amount: 0,
+        }
+      when 'O'
+        opposing_by_measure_name[[election_name, bal_num]] ||= {}
+        opposing_by_measure_name[[election_name, bal_num]][row['Filer_ID']] ||= {
+          id: committee ? committee['Filer_ID'] : nil,
+          name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          # start with the other items from the summary page (lines 9 + 10)
+          amount: 0,
+        }
+      end
+    end
+  end
 
   def ballot_measure_from_num(election_name, bal_num)
     @ballot_measures.detect do |measure|
