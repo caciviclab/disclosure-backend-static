@@ -17,22 +17,26 @@
   "party_affiliation": null,
   "filer_id": 1401694,
   "supporting_money": {
-    "contributions_received": 181257.0,
-    "total_contributions": 181257.0,
-    "total_expenditures": 887.17,
+    "contributions_received": 181407.0,
+    "total_contributions": 181407.0,
+    "total_expenditures": 3244.04,
     "total_loans_received": 181005.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Unitemized": 252.0
+      "Unitemized": 402.0
     },
     "contributions_by_origin": {
     },
     "expenditures_by_type": {
+      "Meetings and Appearances": 154.75,
       "Campaign Paraphernalia/Misc.": 300.0,
-      "Campaign Literature and Mailings": 480.8
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 1303.86,
+      "Professional Services (Legal, Accounting)": 100.0,
+      "Information Technology Costs (Internet, E-mail)": 100.0
     },
     "supporting_by_type": {
     }
@@ -45,15 +49,19 @@
 
     ]
   },
-  "contributions_received": 181257.0,
-  "total_contributions": 181257.0,
-  "total_expenditures": 887.17,
+  "contributions_received": 181407.0,
+  "total_contributions": 181407.0,
+  "total_expenditures": 3244.04,
   "total_loans_received": 181005.0,
   "contributions_by_type": {
-    "Unitemized": 252.0
+    "Unitemized": 402.0
   },
   "expenditures_by_type": {
+    "Meetings and Appearances": 154.75,
     "Campaign Paraphernalia/Misc.": 300.0,
-    "Campaign Literature and Mailings": 480.8
+    "Candidate Filing/Ballot Fees": 1000.0,
+    "Campaign Literature and Mailings": 1303.86,
+    "Professional Services (Legal, Accounting)": 100.0,
+    "Information Technology Costs (Internet, E-mail)": 100.0
   }
 }

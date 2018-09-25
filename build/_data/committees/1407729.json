@@ -1,5 +1,5 @@
 {
-  "total_contributions": 10000.0,
+  "total_contributions": 25000.0,
   "contributions": [
     {
       "Filer_ID": "1407729",
@@ -20,6 +20,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Ida B. Wells LLC",
       "Tran_Zip4": "94607-3900"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Pamela",
+      "Tran_NamL": "Price",
+      "Tran_Zip4": "94605"
     }
   ]
 }

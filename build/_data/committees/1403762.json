@@ -1,6 +1,65 @@
 {
-  "total_contributions": 0,
+  "total_contributions": 1550.0,
   "contributions": [
-
+    {
+      "Filer_ID": "1403762",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Management Consultant",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-18",
+      "Tran_NamF": "Kenneth",
+      "Tran_NamL": "Benson",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403762",
+      "Tran_Emp": "City of Palo Alto",
+      "Tran_Occ": "City Auditor",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-08-19",
+      "Tran_NamF": "Harriet",
+      "Tran_NamL": "Richardson",
+      "Tran_Zip4": "98467"
+    },
+    {
+      "Filer_ID": "1403762",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Al and Erika",
+      "Tran_NamL": "Pickett",
+      "Tran_Zip4": "89815"
+    },
+    {
+      "Filer_ID": "1403762",
+      "Tran_Emp": "Upwork",
+      "Tran_Occ": "Sr. Tax Director",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Ramila",
+      "Tran_NamL": "Ruparel",
+      "Tran_Zip4": "94566"
+    },
+    {
+      "Filer_ID": "1403762",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Carolyn",
+      "Tran_NamL": "Burgess",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1403762",
+      "Tran_Emp": "Consultant",
+      "Tran_Occ": "Self",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Brooke",
+      "Tran_NamL": "Levin",
+      "Tran_Zip4": "94618"
+    }
   ]
 }
