@@ -123,9 +123,9 @@ class ReferendumSupportersCalculator
       oakland_committees."Ballot_Measure",
       oakland_committees."Ballot_Measure_Election",
       oakland_committees."Support_Or_Oppose"
-    FROM combined_contributions
+    FROM measure_contributions
     INNER JOIN oakland_committees
-      ON oakland_committees."Filer_ID" = combined_contributions."Filer_ID"
+      ON oakland_committees."Filer_ID" = measure_contributions."Filer_ID"
     WHERE "Ballot_Measure" IS NOT NULL
     GROUP BY
       oakland_committees."Filer_ID",
