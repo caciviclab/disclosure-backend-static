@@ -171,12 +171,16 @@ end
 # /_committees/1386416.md
 OaklandCommittee.find_each do |committee|
   build_file("/_committees/#{committee.Filer_ID}.md") do |f|
-    f.puts(YAML.dump(
+    election = ELECTIONS[committee.Ballot_Measure_Election]
+    f.puts(YAML.dump({
       'filer_id' => committee.Filer_ID.to_s,
       'name' => committee.Filer_NamL,
       'candidate_controlled_id' => committee.candidate_controlled_id.to_s,
-      'title' => committee.Filer_NamL
-    ))
+      'title' => committee.Filer_NamL,
+      'support_or_oppose' => committee.Support_Or_Oppose,
+      'election' => election && election[:date],
+      'referendum_number' => committee.Ballot_Measure,
+    }.compact))
     f.puts('---')
   end
 end
