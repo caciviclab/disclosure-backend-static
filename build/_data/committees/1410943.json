@@ -1,5 +1,5 @@
 {
-  "total_contributions": 35500.0,
+  "total_contributions": 56500.0,
   "contributions": [
     {
       "Filer_ID": "1410943",
@@ -20,6 +20,26 @@
       "Tran_NamF": "Luke A.",
       "Tran_NamL": "Blacklidge",
       "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": "Dwight L. Johnson",
+      "Tran_Occ": "Real Estate Property Owner",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": "Dwight L.",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94563"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management Account",
+      "Tran_Zip4": "94611"
     }
   ]
 }

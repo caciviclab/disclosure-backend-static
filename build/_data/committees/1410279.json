@@ -1,5 +1,5 @@
 {
-  "total_contributions": 11490.0,
+  "total_contributions": 21490.0,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -30,6 +30,16 @@
       "Tran_NamF": "JENNIFER L.",
       "Tran_NamL": "PAHLKA",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL 595 PAC",
+      "Tran_Zip4": "94568"
     }
   ]
 }

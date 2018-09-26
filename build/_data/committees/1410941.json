@@ -1,5 +1,5 @@
 {
-  "total_contributions": 5000.0,
+  "total_contributions": 28585.0,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -10,6 +10,46 @@
       "Tran_NamF": "Luke A.",
       "Tran_NamL": "Blacklidge",
       "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Dwight L. Johnson",
+      "Tran_Occ": "Real Estate Property Owner",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": "Dwight L.",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94563"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management, Inc.",
+      "Tran_Zip4": "10022"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 19950.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management, Inc.",
+      "Tran_Zip4": "10022"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Palmview Apartments",
+      "Tran_Zip4": "94610"
     }
   ]
 }
