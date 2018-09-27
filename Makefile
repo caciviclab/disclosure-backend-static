@@ -25,7 +25,9 @@ download-cached:
 	).tar.gz" | tar xz
 
 upload-cache:
-	tar czf - downloads/csv downloads/static \
+	mkdir -p downloads/cached-db/
+	pg_dump $(DATABASE_NAME) > downloads/cached-db/$(DATABASE_NAME).sql
+	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
 download: download-spreadsheets download-SFO-2017 download-SFO-2018 \
@@ -50,6 +52,9 @@ download-BRK-%:
 	ruby ssconvert.rb downloads/static/efile_BRK_$(subst download-BRK-,,$@).xlsx 'downloads/csv/efile_BRK_$(subst download-BRK-,,$@)_%{sheet}.csv'
 
 import: dropdb createdb do-import-spreadsheets import-data
+
+import-cached: dropdb createdb
+	cat downloads/cached-db/$(DATABASE_NAME).sql | psql $(DATABASE_NAME)
 
 import-spreadsheets: prep-import-spreadsheets do-import-spreadsheets
 	./bin/make_view
