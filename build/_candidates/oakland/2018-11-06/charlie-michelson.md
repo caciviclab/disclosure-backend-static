@@ -8,5 +8,6 @@ name: Charlie Michelson
 occupation: Local Business Owner
 photo_url: Charlie-Michelson.png
 twitter_url: charlie_m_michelson
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17340/candidate/139759?&county=alameda%20county&election_authority_id=1
 website_url: https://www.charlie.vote/
 ---

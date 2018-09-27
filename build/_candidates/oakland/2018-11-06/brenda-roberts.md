@@ -8,4 +8,5 @@ name: Brenda Roberts
 occupation: City Auditor
 photo_url: brenda_roberts.png
 twitter_url: OaklandAuditor
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17338/candidate/139751?&county=alameda%20county&election_authority_id=1
 ---

@@ -8,5 +8,6 @@ name: Joseph Tanios
 occupation: Construction Inspection Supervisor
 photo_url: Joseph-Tanios.png
 twitter_url: taniosfor
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17340/candidate/139761?&county=alameda%20county&election_authority_id=1
 website_url: https://www.joetanios.com/
 ---

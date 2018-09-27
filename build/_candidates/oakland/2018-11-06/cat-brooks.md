@@ -8,5 +8,6 @@ name: Cat Brooks
 occupation: Executive/Community Organizer
 photo_url: Cat-Brooks.png
 twitter_url: CatsCommentary
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139768?&county=alameda%20county&election_authority_id=1
 website_url: https://www.catbrooksforoakland.com/
 ---

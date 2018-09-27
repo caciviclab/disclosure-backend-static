@@ -7,5 +7,6 @@ is_incumbent: false
 name: Gary Yee
 occupation: Oakland Educator
 photo_url: gary-yee.png
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17364/candidate/139863?&county=alameda%20county&election_authority_id=1
 website_url: http://www.yee4schools.com/
 ---

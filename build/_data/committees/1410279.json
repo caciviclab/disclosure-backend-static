@@ -1,5 +1,5 @@
 {
-  "total_contributions": 21490.0,
+  "total_contributions": 33980.0,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -40,6 +40,26 @@
       "Tran_NamF": null,
       "Tran_NamL": "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL 595 PAC",
       "Tran_Zip4": "94568"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "SELF-EMPLOYED; SAME NAME",
+      "Tran_Occ": "INVESTOR",
+      "Tran_Amt1": 4990.0,
+      "Tran_Date": "2018-09-25",
+      "Tran_NamF": "KENNETH J.",
+      "Tran_NamL": "SCHMIER",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2018-09-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "SPRINKLER FITTERS AND APPRENTICES LOCAL 483 PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

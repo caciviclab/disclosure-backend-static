@@ -8,5 +8,6 @@ name: Libby Schaaf
 occupation: Mayor
 photo_url: libby_schaaf.png
 twitter_url: LibbySchaaf
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139773?&county=alameda%20county&election_authority_id=1
 website_url: https://libbyformayor.wordpress.com/
 ---

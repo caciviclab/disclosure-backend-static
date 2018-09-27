@@ -7,5 +7,6 @@ is_incumbent: false
 name: Ken Houston
 photo_url: Ken-Houston.png
 twitter_url: KHouston4Mayor
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139769?&county=alameda%20county&election_authority_id=1
 website_url: http://sonofoakland.com/
 ---

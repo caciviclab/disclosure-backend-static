@@ -8,5 +8,6 @@ name: Pamela Price
 occupation: Civil Rights Attorney
 photo_url: Pamela-Price.png
 twitter_url: PPriceCares
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139772?&county=alameda%20county&election_authority_id=1
 website_url: https://www.pamelaprice4mayor.com/
 ---

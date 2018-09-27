@@ -8,5 +8,6 @@ name: Courtney Ruby
 occupation: Chief Financial Officer
 photo_url: courtney-ruby.png
 twitter_url: CourtneyRuby
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17338/candidate/139752?&county=alameda%20county&election_authority_id=1
 website_url: https://courtneyruby.com/
 ---

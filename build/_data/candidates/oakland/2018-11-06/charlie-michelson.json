@@ -1,10 +1,10 @@
 {
-  "id": 46,
+  "id": 44,
   "name": "Charlie Michelson",
   "photo_url": "Charlie-Michelson.png",
   "website_url": "https://www.charlie.vote/",
   "twitter_url": "charlie_m_michelson",
-  "votersedge_url": null,
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17340/candidate/139759?\u0026county=alameda%20county\u0026election_authority_id=1",
   "first_name": "Charlie",
   "last_name": "Michelson",
   "ballot_item": 14,
@@ -17,25 +17,35 @@
   "party_affiliation": null,
   "filer_id": 1406241,
   "supporting_money": {
-    "contributions_received": 47330.0,
-    "total_contributions": 47330.0,
-    "total_expenditures": 1824.86,
+    "contributions_received": 90334.0,
+    "total_contributions": 90334.0,
+    "total_expenditures": 37713.54,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 31875.0,
-      "Unitemized": 1855.0,
-      "Self Funding": 13600.0
+      "Individual": 72218.0,
+      "Unitemized": 3976.0,
+      "Self Funding": 13600.0,
+      "Other (includes Businesses)": 500.0
     },
     "contributions_by_origin": {
-      "Out of State": 5700.0,
-      "Within Oakland": 24300.0,
-      "Within California": 15475.0
+      "Out of State": 7300.0,
+      "Within Oakland": 55870.0,
+      "Within California": 23148.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 149.97,
+      "Fundraising Events": 1210.0,
+      "Campaign Consultants": 13248.62,
+      "Meetings and Appearances": 650.0,
+      "Campaign Paraphernalia/Misc.": 5367.82,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 5614.97,
+      "Professional Services (Legal, Accounting)": 6463.68,
+      "Information Technology Costs (Internet, E-mail)": 3893.48
     },
     "supporting_by_type": {
     }
@@ -48,15 +58,25 @@
 
     ]
   },
-  "contributions_received": 47330.0,
-  "total_contributions": 47330.0,
-  "total_expenditures": 1824.86,
+  "contributions_received": 90334.0,
+  "total_contributions": 90334.0,
+  "total_expenditures": 37713.54,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 31875.0,
-    "Unitemized": 1855.0,
-    "Self Funding": 13600.0
+    "Individual": 72218.0,
+    "Unitemized": 3976.0,
+    "Self Funding": 13600.0,
+    "Other (includes Businesses)": 500.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 149.97,
+    "Fundraising Events": 1210.0,
+    "Campaign Consultants": 13248.62,
+    "Meetings and Appearances": 650.0,
+    "Campaign Paraphernalia/Misc.": 5367.82,
+    "Candidate Filing/Ballot Fees": 1000.0,
+    "Campaign Literature and Mailings": 5614.97,
+    "Professional Services (Legal, Accounting)": 6463.68,
+    "Information Technology Costs (Internet, E-mail)": 3893.48
   }
 }

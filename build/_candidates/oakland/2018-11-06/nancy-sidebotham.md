@@ -8,5 +8,6 @@ occupation: Tax Preparer
 party_affiliation: Democrat
 photo_url: Nancy-Sidebotham.png
 twitter_url: nancy6368
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139774?&county=alameda%20county&election_authority_id=1
 website_url: http://nancysidebotham.com/
 ---

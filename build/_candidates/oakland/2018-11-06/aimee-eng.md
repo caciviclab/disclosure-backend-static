@@ -11,4 +11,5 @@ is_incumbent: true
 name: Aimee Eng
 occupation: School Board Director
 photo_url: Aimee-Eng.png
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17849?&county=alameda%20county&election_authority_id=1
 ---

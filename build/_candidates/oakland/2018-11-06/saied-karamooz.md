@@ -8,5 +8,6 @@ name: Saied Karamooz
 occupation: Chief Operating Officer
 photo_url: Saied-Karamooz.png
 twitter_url: SAiED4Oakland
+votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139770?&county=alameda%20county&election_authority_id=1
 website_url: https://everyonesmayor.org/
 ---
