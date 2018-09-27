@@ -5,17 +5,9 @@ require 'i18n'
 require 'open-uri'
 
 # map of election_name => { hash including date }
-ELECTIONS = {
-  'sf-2016' => { date: '2016-11-08', title: 'San Francisco November 8th, 2016 Election' },
-  'oakland-2016' => { date: '2016-11-08', title: 'Oakland November 8th, 2016 Election' },
-
-  'sf-june-2018' => { date: '2018-06-05', title: 'San Francisco June 5th, 2018 Election'  },
-  'oakland-june-2018' => { date: '2018-06-05', title: 'Oakland June 5th, 2018 Election' },
-
-  'sf-2018' => { date: '2018-11-06', title: 'San Francisco November 6th, 2018 Election'  },
-  'oakland-2018' => { date: '2018-11-06', title: 'Oakland November 6th, 2018 Election' },
-  'berkeley-2018' => { date: '2018-11-06', title: 'Berkeley November 6th, 2018 Election'  },
-}
+ELECTIONS = ActiveRecord::Base.connection.execute(<<-SQL).index_by { |row| row['name'] }.transform_values(&:symbolize_keys)
+  SELECT * from elections;
+SQL
 
 def build_file(filename, &block)
   filename = File.expand_path('../build', __FILE__) + filename
