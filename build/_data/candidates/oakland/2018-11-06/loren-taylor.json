@@ -17,30 +17,36 @@
   "party_affiliation": null,
   "filer_id": 1401499,
   "supporting_money": {
-    "contributions_received": 119476.94,
-    "total_contributions": 119476.94,
-    "total_expenditures": 20401.5,
+    "contributions_received": 136676.94,
+    "total_contributions": 136676.94,
+    "total_expenditures": 41744.89,
     "total_loans_received": 8000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 101065.94,
-      "Unitemized": 8161.0,
+      "Individual": 117305.94,
+      "Unitemized": 9121.0,
       "Self Funding": 1000.0,
       "Other (includes Businesses)": 1250.0
     },
     "contributions_by_origin": {
-      "Out of State": 7050.0,
-      "Within Oakland": 63670.94,
-      "Within California": 32595.0
+      "Out of State": 7265.0,
+      "Within Oakland": 76395.94,
+      "Within California": 35895.0
     },
     "expenditures_by_type": {
-      "Fundraising Events": 646.25,
-      "Campaign Consultants": 10138.0,
-      "Campaign Paraphernalia/Misc.": 4382.82,
-      "Information Technology Costs (Internet, E-mail)": 3459.24
+      "Not Stated": 87.29,
+      "Phone Banks": 197.24,
+      "Contribution": 100.0,
+      "Office Expenses": 181.19,
+      "Fundraising Events": 1221.25,
+      "Campaign Consultants": 24750.62,
+      "Meetings and Appearances": 94.41,
+      "Campaign Paraphernalia/Misc.": 7613.44,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Information Technology Costs (Internet, E-mail)": 3879.3
     },
     "supporting_by_type": {
     }
@@ -53,20 +59,26 @@
 
     ]
   },
-  "contributions_received": 119476.94,
-  "total_contributions": 119476.94,
-  "total_expenditures": 20401.5,
+  "contributions_received": 136676.94,
+  "total_contributions": 136676.94,
+  "total_expenditures": 41744.89,
   "total_loans_received": 8000.0,
   "contributions_by_type": {
-    "Individual": 101065.94,
-    "Unitemized": 8161.0,
+    "Individual": 117305.94,
+    "Unitemized": 9121.0,
     "Self Funding": 1000.0,
     "Other (includes Businesses)": 1250.0
   },
   "expenditures_by_type": {
-    "Fundraising Events": 646.25,
-    "Campaign Consultants": 10138.0,
-    "Campaign Paraphernalia/Misc.": 4382.82,
-    "Information Technology Costs (Internet, E-mail)": 3459.24
+    "Not Stated": 87.29,
+    "Phone Banks": 197.24,
+    "Contribution": 100.0,
+    "Office Expenses": 181.19,
+    "Fundraising Events": 1221.25,
+    "Campaign Consultants": 24750.62,
+    "Meetings and Appearances": 94.41,
+    "Campaign Paraphernalia/Misc.": 7613.44,
+    "Candidate Filing/Ballot Fees": 1000.0,
+    "Information Technology Costs (Internet, E-mail)": 3879.3
   }
 }

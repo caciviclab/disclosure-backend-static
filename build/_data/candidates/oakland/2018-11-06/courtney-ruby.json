@@ -17,19 +17,27 @@
   "party_affiliation": null,
   "filer_id": 1408075,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 26609.0,
+    "total_contributions": 26609.0,
+    "total_expenditures": 8094.02,
+    "total_loans_received": 1000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 22700.0,
+      "Unitemized": 1309.0,
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
+      "Out of State": 1600.0,
+      "Within Oakland": 16750.0,
+      "Within California": 5950.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 299.32,
+      "Professional Services (Legal, Accounting)": 545.85
     },
     "supporting_by_type": {
     }
@@ -42,12 +50,17 @@
 
     ]
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 26609.0,
+  "total_contributions": 26609.0,
+  "total_expenditures": 8094.02,
+  "total_loans_received": 1000.0,
   "contributions_by_type": {
+    "Individual": 22700.0,
+    "Unitemized": 1309.0,
+    "Other (includes Businesses)": 1600.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 299.32,
+    "Professional Services (Legal, Accounting)": 545.85
   }
 }

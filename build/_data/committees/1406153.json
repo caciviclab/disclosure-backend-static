@@ -1,5 +1,5 @@
 {
-  "total_contributions": 17500.0,
+  "total_contributions": 21300.0,
   "contributions": [
     {
       "Filer_ID": "1406153",
@@ -353,6 +353,86 @@
     },
     {
       "Filer_ID": "1406153",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-07-03",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Wilson",
+      "Tran_Zip4": "95831-2110"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Electrician",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-07-18",
+      "Tran_NamF": "Omar",
+      "Tran_NamL": "Almasarawa",
+      "Tran_Zip4": "94587"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Frederic Neema Photography",
+      "Tran_Occ": "Photographer",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-07-21",
+      "Tran_NamF": "Frederic",
+      "Tran_NamL": "Neema",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Ghilotti Bros., Inc.",
+      "Tran_Occ": "President",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Mike",
+      "Tran_NamL": "Ghilotti",
+      "Tran_Zip4": "94903"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Emadtuneup",
+      "Tran_Occ": "Business Owner",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-11",
+      "Tran_NamF": "Emad",
+      "Tran_NamL": "Abdallah",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Google",
+      "Tran_Occ": "Engineering Manager",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-09-12",
+      "Tran_NamF": "Kevin",
+      "Tran_NamL": "Tsai",
+      "Tran_Zip4": "04610"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "City of Santa Ana",
+      "Tran_Occ": "Public Works",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-15",
+      "Tran_NamF": "Nadia",
+      "Tran_NamL": "Sweiss",
+      "Tran_Zip4": "94563"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Matson Company",
+      "Tran_Occ": "Director of Risk Management",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": "Mary",
+      "Tran_NamL": "Tanios",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1406153",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Tran_Amt1": 1600.0,
@@ -360,6 +440,36 @@
       "Tran_NamF": null,
       "Tran_NamL": "IFPTE Local 21",
       "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Research Development",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-19",
+      "Tran_NamF": "Steve",
+      "Tran_NamL": "Lowe",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "LinkedIn",
+      "Tran_Occ": "Executive",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Peterson",
+      "Tran_Zip4": "95020"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "General Contractor",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Ruslan",
+      "Tran_NamL": "Vdovicenco",
+      "Tran_Zip4": "94122"
     }
   ]
 }

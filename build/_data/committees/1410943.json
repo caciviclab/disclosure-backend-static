@@ -1,6 +1,36 @@
 {
-  "total_contributions": 56500.0,
+  "total_contributions": 127970.0,
   "contributions": [
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Crossroads Investments, LLC",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": "Compass Lexecon",
+      "Tran_Occ": "Economist",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": "Taylor",
+      "Tran_NamL": "Hines",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": "Law Offices of Brent Kernan",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 270.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": "Brent",
+      "Tran_NamL": "Kernan",
+      "Tran_Zip4": "94618"
+    },
     {
       "Filer_ID": "1410943",
       "Tran_Emp": null,
@@ -10,6 +40,36 @@
       "Tran_NamF": null,
       "Tran_NamL": "National Association of Realtors",
       "Tran_Zip4": "60611"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Pacific View Investments, LLC",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": "Richard J. Phillips",
+      "Tran_Occ": "Property Manager",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Richard J. Phillips",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Victoriana, LLC",
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1410943",
@@ -40,6 +100,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management Account",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 65000.0,
+      "Tran_Date": "2018-09-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Association of REALTORS-Issues Mobilization PAC (CAR-IMPAC)",
+      "Tran_Zip4": "95814"
     }
   ]
 }

@@ -7,15 +7,15 @@
   "number": "AA",
   "contributions_by_region": [
     {
-      "amount": 200000.0,
+      "amount": 206000.0,
       "locale": "Out of State"
     },
     {
-      "amount": 651000.0,
+      "amount": 788200.0,
       "locale": "Within California"
     },
     {
-      "amount": 336163.6,
+      "amount": 401463.6,
       "locale": "Within Oakland"
     }
   ],
@@ -26,11 +26,11 @@
     },
     {
       "type": "Individual",
-      "amount": 475163.6
+      "amount": 594663.6
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 700000.0
+      "amount": 789000.0
     }
   ],
   "supporting_organizations": [
@@ -38,8 +38,8 @@
       "id": "1310647",
       "name": "The Oakland Fund",
       "payee": "The Oakland Fund",
-      "amount": 909951.36
+      "amount": 908102.41
     }
   ],
-  "total_contributions": 1187163.6
+  "total_contributions": 1395663.6
 }

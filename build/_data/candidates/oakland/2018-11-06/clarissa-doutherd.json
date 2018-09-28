@@ -17,9 +17,9 @@
   "party_affiliation": null,
   "filer_id": 1404085,
   "supporting_money": {
-    "contributions_received": 12788.0,
-    "total_contributions": 12788.0,
-    "total_expenditures": 2869.57,
+    "contributions_received": 28384.77,
+    "total_contributions": 28384.77,
+    "total_expenditures": 23254.13,
     "total_loans_received": 0.0,
     "total_supporting_independent": 1192.0,
     "support_list": [
@@ -30,16 +30,23 @@
       }
     ],
     "contributions_by_type": {
-      "Individual": 9900.0,
-      "Unitemized": 2888.0
+      "Committee": 800.0,
+      "Individual": 22597.77,
+      "Unitemized": 4987.0
     },
     "contributions_by_origin": {
-      "Out of State": 150.0,
-      "Within Oakland": 7075.0,
-      "Within California": 2675.0
+      "Out of State": 250.0,
+      "Within Oakland": 16297.77,
+      "Within California": 6850.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 403.16
+      "Office Expenses": 2274.67,
+      "Fundraising Events": 1121.25,
+      "Campaign Consultants": 7000.0,
+      "Campaign Paraphernalia/Misc.": 1602.35,
+      "Candidate Filing/Ballot Fees": 1050.0,
+      "Campaign Literature and Mailings": 4041.34,
+      "Professional Services (Legal, Accounting)": 4450.4
     },
     "supporting_by_type": {
       "Literature supporting Clarissa Doutherd, Oakland Unified School District Area 4": 1192.0
@@ -53,15 +60,22 @@
 
     ]
   },
-  "contributions_received": 12788.0,
-  "total_contributions": 12788.0,
-  "total_expenditures": 2869.57,
+  "contributions_received": 28384.77,
+  "total_contributions": 28384.77,
+  "total_expenditures": 23254.13,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 9900.0,
-    "Unitemized": 2888.0
+    "Committee": 800.0,
+    "Individual": 22597.77,
+    "Unitemized": 4987.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 403.16
+    "Office Expenses": 2274.67,
+    "Fundraising Events": 1121.25,
+    "Campaign Consultants": 7000.0,
+    "Campaign Paraphernalia/Misc.": 1602.35,
+    "Candidate Filing/Ballot Fees": 1050.0,
+    "Campaign Literature and Mailings": 4041.34,
+    "Professional Services (Legal, Accounting)": 4450.4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 33980.0,
+  "total_contributions": 37670.0,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -7,6 +7,16 @@
       "Tran_Occ": null,
       "Tran_Amt1": 2500.0,
       "Tran_Date": "2018-08-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "MCGRATH PROPERTIES, INC.",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": -2500.0,
+      "Tran_Date": "2018-09-11",
       "Tran_NamF": null,
       "Tran_NamL": "MCGRATH PROPERTIES, INC.",
       "Tran_Zip4": "94608"
@@ -29,6 +39,26 @@
       "Tran_Date": "2018-09-19",
       "Tran_NamF": "JENNIFER L.",
       "Tran_NamL": "PAHLKA",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Tran_Amt1": 950.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "PATRICIA",
+      "Tran_NamL": "KERNIGHAN",
+      "Tran_Zip4": "94614"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "GOOGLE VENTURES",
+      "Tran_Occ": "PARTNER",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "JOHN",
+      "Tran_NamL": "LYMAN",
       "Tran_Zip4": "94610"
     },
     {
@@ -60,6 +90,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "SPRINKLER FITTERS AND APPRENTICES LOCAL 483 PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Tran_Amt1": 4990.0,
+      "Tran_Date": "2018-09-26",
+      "Tran_NamF": "LISA",
+      "Tran_NamL": "SCHMIER",
+      "Tran_Zip4": "94939"
     }
   ]
 }

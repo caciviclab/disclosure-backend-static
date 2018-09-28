@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1309000.0,
+  "total_contributions": 1409000.0,
   "contributions": [
     {
       "Filer_ID": "1381519",
@@ -508,7 +508,7 @@
       "Tran_Amt1": 25000.0,
       "Tran_Date": "2018-09-10",
       "Tran_NamF": null,
-      "Tran_NamL": "SST Investments, LLC.",
+      "Tran_NamL": "SST Investments, LLC",
       "Tran_Zip4": "94103"
     },
     {
@@ -550,6 +550,16 @@
       "Tran_NamF": "Diana B.",
       "Tran_NamL": "Wilsey",
       "Tran_Zip4": "94115"
+    },
+    {
+      "Filer_ID": "1381519",
+      "Tran_Emp": "Ripple, Inc.",
+      "Tran_Occ": "Executive Chairman",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2018-09-19",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Larsen",
+      "Tran_Zip4": "94109"
     }
   ]
 }

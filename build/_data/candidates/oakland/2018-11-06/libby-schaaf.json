@@ -17,32 +17,37 @@
   "party_affiliation": null,
   "filer_id": 1395968,
   "supporting_money": {
-    "contributions_received": 379733.16,
-    "total_contributions": 379733.16,
-    "total_expenditures": 80256.92,
+    "contributions_received": 458393.16,
+    "total_contributions": 458393.16,
+    "total_expenditures": 137069.45,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 2500.0,
-      "Individual": 346880.68,
-      "Unitemized": 6123.18,
-      "Other (includes Businesses)": 24150.0
+      "Committee": 4600.0,
+      "Individual": 417535.68,
+      "Unitemized": 7528.18,
+      "Other (includes Businesses)": 28650.0
     },
     "contributions_by_origin": {
-      "Out of State": 11850.0,
-      "Within Oakland": 193340.0,
-      "Within California": 168340.68
+      "Out of State": 13050.0,
+      "Within Oakland": 215295.0,
+      "Within California": 222440.68
     },
     "expenditures_by_type": {
-      "Office Expenses": 19990.29,
+      "Not Stated": 8619.05,
+      "Office Expenses": 35072.26,
       "Fundraising Events": 349.05,
-      "Campaign Consultants": 3000.0,
+      "Campaign Consultants": 26510.0,
       "Returned Contributions": 3900.0,
+      "Campaign Workers' Salaries": 7183.94,
       "Polling and Survey Research": 15000.0,
-      "Professional Services (Legal, Accounting)": 18557.55,
+      "Campaign Paraphernalia/Misc.": 5750.81,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 815.01,
+      "Professional Services (Legal, Accounting)": 29147.05,
       "Information Technology Costs (Internet, E-mail)": 975.0
     },
     "supporting_by_type": {
@@ -57,23 +62,28 @@
 
     ]
   },
-  "contributions_received": 379733.16,
-  "total_contributions": 379733.16,
-  "total_expenditures": 80256.92,
+  "contributions_received": 458393.16,
+  "total_contributions": 458393.16,
+  "total_expenditures": 137069.45,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 2500.0,
-    "Individual": 346880.68,
-    "Unitemized": 6123.18,
-    "Other (includes Businesses)": 24150.0
+    "Committee": 4600.0,
+    "Individual": 417535.68,
+    "Unitemized": 7528.18,
+    "Other (includes Businesses)": 28650.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 19990.29,
+    "Not Stated": 8619.05,
+    "Office Expenses": 35072.26,
     "Fundraising Events": 349.05,
-    "Campaign Consultants": 3000.0,
+    "Campaign Consultants": 26510.0,
     "Returned Contributions": 3900.0,
+    "Campaign Workers' Salaries": 7183.94,
     "Polling and Survey Research": 15000.0,
-    "Professional Services (Legal, Accounting)": 18557.55,
+    "Campaign Paraphernalia/Misc.": 5750.81,
+    "Candidate Filing/Ballot Fees": 1000.0,
+    "Campaign Literature and Mailings": 815.01,
+    "Professional Services (Legal, Accounting)": 29147.05,
     "Information Technology Costs (Internet, E-mail)": 975.0
   }
 }

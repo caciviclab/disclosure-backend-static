@@ -17,22 +17,33 @@
   "party_affiliation": null,
   "filer_id": 1407729,
   "supporting_money": {
-    "contributions_received": 25000.0,
-    "total_contributions": 25000.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 72018.0,
+    "total_contributions": 72018.0,
+    "total_expenditures": 24123.89,
+    "total_loans_received": 25000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Self Funding": 22500.0,
-      "Other (includes Businesses)": 2500.0
+      "Committee": 800.0,
+      "Individual": 27895.0,
+      "Unitemized": 1758.0,
+      "Self Funding": 15065.0,
+      "Other (includes Businesses)": 1500.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 25000.0
+      "Out of State": 1500.0,
+      "Within Oakland": 29110.0,
+      "Within California": 14650.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 1000.0,
+      "Campaign Consultants": 12500.0,
+      "Campaign Paraphernalia/Misc.": 596.82,
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Campaign Literature and Mailings": 137.5,
+      "Professional Services (Legal, Accounting)": 6350.0
     },
     "supporting_by_type": {
     }
@@ -46,14 +57,23 @@
 
     ]
   },
-  "contributions_received": 25000.0,
-  "total_contributions": 25000.0,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 72018.0,
+  "total_contributions": 72018.0,
+  "total_expenditures": 24123.89,
+  "total_loans_received": 25000.0,
   "contributions_by_type": {
-    "Self Funding": 22500.0,
-    "Other (includes Businesses)": 2500.0
+    "Committee": 800.0,
+    "Individual": 27895.0,
+    "Unitemized": 1758.0,
+    "Self Funding": 15065.0,
+    "Other (includes Businesses)": 1500.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 1000.0,
+    "Campaign Consultants": 12500.0,
+    "Campaign Paraphernalia/Misc.": 596.82,
+    "Candidate Filing/Ballot Fees": 950.0,
+    "Campaign Literature and Mailings": 137.5,
+    "Professional Services (Legal, Accounting)": 6350.0
   }
 }

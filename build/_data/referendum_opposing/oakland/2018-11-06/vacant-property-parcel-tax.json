@@ -11,22 +11,26 @@
       "locale": "Out of State"
     },
     {
-      "amount": 4000.0,
+      "amount": 69000.0,
       "locale": "Within California"
     },
     {
-      "amount": 20000.0,
+      "amount": 26470.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 65000.0
+    },
+    {
       "type": "Individual",
-      "amount": 4000.0
+      "amount": 7470.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 52500.0
+      "amount": 55500.0
     }
   ],
   "opposing_organizations": [
@@ -37,5 +41,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 56500.0
+  "total_contributions": 127970.0
 }

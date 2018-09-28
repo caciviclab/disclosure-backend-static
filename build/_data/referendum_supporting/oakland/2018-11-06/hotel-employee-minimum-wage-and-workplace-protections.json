@@ -11,29 +11,35 @@
       "locale": "Out of State"
     },
     {
-      "amount": 107195.0,
+      "amount": 112845.0,
       "locale": "Within California"
     },
     {
-      "amount": 229059.56,
+      "amount": 300868.48,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 21695.0
+      "amount": 27195.0
     },
     {
       "type": "Individual",
-      "amount": 81000.0
+      "amount": 81150.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 284059.56
+      "amount": 355868.48
     }
   ],
   "supporting_organizations": [
+    {
+      "id": "1405491",
+      "name": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
+      "payee": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
+      "amount": 30728.65
+    },
     {
       "id": "1405491",
       "name": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
@@ -44,8 +50,8 @@
       "id": "1403165",
       "name": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
       "payee": "Times Up Oakland: Committee for Fair Workplaces & Ending Sexual Assault on the Job",
-      "amount": 336018.35
+      "amount": 410398.55
     }
   ],
-  "total_contributions": 386754.56
+  "total_contributions": 464213.48
 }

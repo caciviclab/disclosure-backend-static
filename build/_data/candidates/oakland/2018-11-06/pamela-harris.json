@@ -17,29 +17,39 @@
   "party_affiliation": null,
   "filer_id": 1405422,
   "supporting_money": {
-    "contributions_received": 20361.0,
-    "total_contributions": 20361.0,
-    "total_expenditures": 1911.22,
+    "contributions_received": 42203.0,
+    "total_contributions": 42203.0,
+    "total_expenditures": 35747.13,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 17715.0,
-      "Unitemized": 2346.0,
+      "Committee": 800.0,
+      "Individual": 32190.0,
+      "Unitemized": 6363.0,
       "Self Funding": 100.0,
-      "Other (includes Businesses)": 200.0
+      "Other (includes Businesses)": 2750.0
     },
     "contributions_by_origin": {
-      "Out of State": 3550.0,
-      "Within Oakland": 7765.0,
-      "Within California": 6700.0
+      "Out of State": 5750.0,
+      "Within Oakland": 19140.0,
+      "Within California": 10950.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 196.74,
-      "Fundraising Events": 750.0,
-      "Campaign Consultants": 500.0
+      "Office Expenses": 2617.53,
+      "Fundraising Events": 873.92,
+      "Campaign Consultants": 14000.0,
+      "Member Communications": 116.88,
+      "Meetings and Appearances": 1184.17,
+      "Campaign Paraphernalia/Misc.": 685.94,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 1622.87,
+      "Candidate Travel, Lodging, and Meals": 398.25,
+      "Postage, Delivery and Messenger Services": 2877.27,
+      "T.V. or Cable Airtime and Production Costs": 400.0,
+      "Information Technology Costs (Internet, E-mail)": 325.0
     },
     "supporting_by_type": {
     }
@@ -52,19 +62,29 @@
 
     ]
   },
-  "contributions_received": 20361.0,
-  "total_contributions": 20361.0,
-  "total_expenditures": 1911.22,
+  "contributions_received": 42203.0,
+  "total_contributions": 42203.0,
+  "total_expenditures": 35747.13,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 17715.0,
-    "Unitemized": 2346.0,
+    "Committee": 800.0,
+    "Individual": 32190.0,
+    "Unitemized": 6363.0,
     "Self Funding": 100.0,
-    "Other (includes Businesses)": 200.0
+    "Other (includes Businesses)": 2750.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 196.74,
-    "Fundraising Events": 750.0,
-    "Campaign Consultants": 500.0
+    "Office Expenses": 2617.53,
+    "Fundraising Events": 873.92,
+    "Campaign Consultants": 14000.0,
+    "Member Communications": 116.88,
+    "Meetings and Appearances": 1184.17,
+    "Campaign Paraphernalia/Misc.": 685.94,
+    "Candidate Filing/Ballot Fees": 1000.0,
+    "Campaign Literature and Mailings": 1622.87,
+    "Candidate Travel, Lodging, and Meals": 398.25,
+    "Postage, Delivery and Messenger Services": 2877.27,
+    "T.V. or Cable Airtime and Production Costs": 400.0,
+    "Information Technology Costs (Internet, E-mail)": 325.0
   }
 }

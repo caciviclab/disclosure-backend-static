@@ -1,25 +1,1055 @@
 {
-  "total_contributions": 25000.0,
+  "total_contributions": 45260.0,
   "contributions": [
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "PAMELA PRICE FOR DISTRICT ATTORNEY 2018",
+      "Tran_Zip4": "90301"
+    },
     {
       "Filer_ID": "1407729",
       "Tran_Emp": "Self-Employed No Separate Business Name",
       "Tran_Occ": "Attorney",
-      "Tran_Amt1": 7500.0,
-      "Tran_Date": "2018-08-07",
+      "Tran_Amt1": 15.0,
+      "Tran_Date": "2018-08-13",
       "Tran_NamF": "Pamela",
       "Tran_NamL": "Price",
       "Tran_Zip4": "94605"
     },
     {
       "Filer_ID": "1407729",
+      "Tran_Emp": "Law Offices of Bonner & Bonner",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-14",
+      "Tran_NamF": "Adam",
+      "Tran_NamL": "Bonner",
+      "Tran_Zip4": "94965"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Firefighter Paramedic",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-08-14",
+      "Tran_NamF": "Ronald",
+      "Tran_NamL": "Curtis",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-08-14",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Harris",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Finance Executive",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Loraine",
+      "Tran_NamL": "Binion",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Merrit College",
+      "Tran_Occ": "Adjunct Faculty",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Cy Carolyn",
+      "Tran_NamL": "Bracy",
+      "Tran_Zip4": "94605-5414"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Trial Consultant",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Karen Jo",
+      "Tran_NamL": "Koonan",
+      "Tran_Zip4": "94115"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Muslimah",
+      "Tran_NamL": "Mohammed",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Harold W.",
+      "Tran_NamL": "Orr",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Mildred L.",
+      "Tran_NamL": "Price",
+      "Tran_Zip4": "85255"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Pacific Gas & Electric",
+      "Tran_Occ": "Lineman",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-15",
+      "Tran_NamF": "Hattie M.",
+      "Tran_NamL": "Tate",
+      "Tran_Zip4": "94806"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Benjamin Law Group",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-16",
+      "Tran_NamF": "Na'il",
+      "Tran_NamL": "Benjamin",
+      "Tran_Zip4": "94541"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Gibson, Dunn & Crutcher LLP",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-16",
+      "Tran_NamF": "George",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94022"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Google",
+      "Tran_Occ": "Engineer",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-16",
+      "Tran_NamF": "Jackson",
+      "Tran_NamL": "Lord",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-16",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Shepardson",
+      "Tran_Zip4": "95030"
+    },
+    {
+      "Filer_ID": "1407729",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2018-08-16",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-17",
       "Tran_NamF": null,
-      "Tran_NamL": "Ida B. Wells LLC",
-      "Tran_Zip4": "94607-3900"
+      "Tran_NamL": "Alert Home Health Care, Inc",
+      "Tran_Zip4": "94568-2827"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Unemployed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-17",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Williamson",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Local 324 Labor Union",
+      "Tran_Occ": "Laborer",
+      "Tran_Amt1": 920.0,
+      "Tran_Date": "2018-08-21",
+      "Tran_NamF": "Antwon",
+      "Tran_NamL": "Cloird",
+      "Tran_Zip4": "94804"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "University of Califonia, Berkeley",
+      "Tran_Occ": "Law Professor",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-21",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Oppenheimer",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-22",
+      "Tran_NamF": "Howard",
+      "Tran_NamL": "Egerman",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Bay Area Rapid Transit",
+      "Tran_Occ": "Chief of Strategic Comminucations",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-08-22",
+      "Tran_NamF": "Linton",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Day and Night Realty",
+      "Tran_Occ": "Real Estate Broker",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-22",
+      "Tran_NamF": "Dan",
+      "Tran_NamL": "Thomas",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-08-23",
+      "Tran_NamF": "Kathleen",
+      "Tran_NamL": "Kahn",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Councilmember",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-08-23",
+      "Tran_NamF": "Rebecca",
+      "Tran_NamL": "Kaplan",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Unemployed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-23",
+      "Tran_NamF": "Tyehimba",
+      "Tran_NamL": "Peyton",
+      "Tran_Zip4": "95330"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Children's Hospital Oakland",
+      "Tran_Occ": "Medical Practice Management",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-08-24",
+      "Tran_NamF": "Gabrielle",
+      "Tran_NamL": "Dolphin",
+      "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Bay Area Rapid Transit",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-24",
+      "Tran_NamF": "Crystal",
+      "Tran_NamL": "Matson",
+      "Tran_Zip4": "94541"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Everette & Jones Barbeque",
+      "Tran_Occ": "Restaurant Owner",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-08-25",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Jernegan",
+      "Tran_Zip4": "94619-2206"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Peralta Community College District",
+      "Tran_Occ": "Instructor",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-25",
+      "Tran_NamF": "Blake",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Shikina Mediation & Arbitration",
+      "Tran_Occ": "Mediator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-25",
+      "Tran_NamF": "Alice",
+      "Tran_NamL": "Shikina",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Traditions Behavioral Health",
+      "Tran_Occ": "Psychiatrist",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-26",
+      "Tran_NamF": "Margaret",
+      "Tran_NamL": "Copi",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "William A. Cohan, Professional Corporation",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-27",
+      "Tran_NamF": "William A.",
+      "Tran_NamL": "Cohan",
+      "Tran_Zip4": "92067"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-27",
+      "Tran_NamF": "Carol",
+      "Tran_NamL": "Jones",
+      "Tran_Zip4": "94565"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Scott Law Firm",
+      "Tran_Occ": "Attorney/Principal",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-28",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Scott",
+      "Tran_Zip4": "94109"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "California Public Utilities Commission",
+      "Tran_Occ": "Administrative Law Judge",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-08-29",
+      "Tran_NamF": "Anne",
+      "Tran_NamL": "Simon",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Children's Hospital Oakland",
+      "Tran_Occ": "Medical Practice Management",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-30",
+      "Tran_NamF": "Gabrielle",
+      "Tran_NamL": "Dolphin",
+      "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Performing Artist",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-30",
+      "Tran_NamF": "Amy",
+      "Tran_NamL": "Verebay",
+      "Tran_Zip4": "01060"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Margaret",
+      "Tran_NamL": "Anderson",
+      "Tran_Zip4": "94610-1110"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Our Revolution",
+      "Tran_Occ": "Web Developer",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Eric",
+      "Tran_NamL": "Broder",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Dentist",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Kimberly",
+      "Tran_NamL": "Butler",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Farrise Firm",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Simona",
+      "Tran_NamL": "Farrise",
+      "Tran_Zip4": "93105"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Real Estate Sales",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Parker",
+      "Tran_NamL": "Jennifer",
+      "Tran_Zip4": "95472"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Novelist",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Alan",
+      "Tran_NamL": "Marling",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Peralta Community College District",
+      "Tran_Occ": "Director",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Royl",
+      "Tran_NamL": "Roberts",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Clapper Patti Schweizer",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": -250.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Deborah",
+      "Tran_NamL": "Schweizer",
+      "Tran_Zip4": "94114"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Clapper Patti Schweizer",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Deborah",
+      "Tran_NamL": "Schweizer",
+      "Tran_Zip4": "94114"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Clapper Patti Schweizer",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Deborah",
+      "Tran_NamL": "Schweizer",
+      "Tran_Zip4": "94114"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "California State University East Bay",
+      "Tran_Occ": "Lecturer",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Alton",
+      "Tran_NamL": "Jelks",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Bay Area Rapid Transit",
+      "Tran_Occ": "Chief of Strategic Comminucations",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Linton",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Siegel Lewitter Malkani",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Jody",
+      "Tran_NamL": "Lewitter",
+      "Tran_Zip4": "94114"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Muslimah",
+      "Tran_NamL": "Mohammed",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Tonsa",
+      "Tran_NamL": "Price-Edwards",
+      "Tran_Zip4": "85255"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Marketing Service",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Sedrick",
+      "Tran_NamL": "Tydus",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "California Department of Justice",
+      "Tran_Occ": "aTTORNEY",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-02",
+      "Tran_NamF": "Kelli",
+      "Tran_NamL": "Evans",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Programer",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-03",
+      "Tran_NamF": "Martin",
+      "Tran_NamL": "MacKerel",
+      "Tran_Zip4": "94115"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Technical Writer",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Lorelei",
+      "Tran_NamL": "Bosserman",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Lil Nancy's Primary Schoolhouse",
+      "Tran_Occ": "Early Education Teacher",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Harvey",
+      "Tran_Zip4": "94607-2261"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Levy Vinick Burrell Hyams LLP",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Jean",
+      "Tran_NamL": "Hyams",
+      "Tran_Zip4": "94804"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Unemployed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Anne",
+      "Tran_NamL": "Janks",
+      "Tran_Zip4": "94611-5847"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Nolan, Barton & Olmos",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-08",
+      "Tran_NamF": "Charlie",
+      "Tran_NamL": "Dickson",
+      "Tran_Zip4": "94118"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-08",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Harris",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "California Department of Corrections and Rehabilitation",
+      "Tran_Occ": "Special Agent",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-08",
+      "Tran_NamF": "Lisa",
+      "Tran_NamL": "Laporta",
+      "Tran_Zip4": "95220"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Corizon Health",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 350.0,
+      "Tran_Date": "2018-09-08",
+      "Tran_NamF": "Glenda",
+      "Tran_NamL": "Newell-Harris",
+      "Tran_Zip4": "94506-4528"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-09-08",
+      "Tran_NamF": "Pamela",
+      "Tran_NamL": "Price",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-09-08",
+      "Tran_NamF": "Pamela",
+      "Tran_NamL": "Price",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Chest Pain & Heart Medicine Clinic",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-12",
+      "Tran_NamF": "Rollington",
+      "Tran_NamL": "Ferguson",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Local 324 Labor Union",
+      "Tran_Occ": "Laborer",
+      "Tran_Amt1": -120.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Antwon",
+      "Tran_NamL": "Cloird",
+      "Tran_Zip4": "94804"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Chest Pain & Heart Medicine Clinic",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": -800.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Rollington",
+      "Tran_NamL": "Ferguson",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Chest Pain & Heart Medicine Clinic",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Rollington",
+      "Tran_NamL": "Ferguson",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Realty World Coliseum Realty",
+      "Tran_Occ": "Real Estate Broker",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-14",
+      "Tran_NamF": "Betty",
+      "Tran_NamL": "Moore",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-15",
+      "Tran_NamF": "Kathleen",
+      "Tran_NamL": "Benjamin",
+      "Tran_Zip4": "94590-5906"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2018-09-15",
+      "Tran_NamF": "Muslimah",
+      "Tran_NamL": "Mohammed",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Abbey Clinic",
+      "Tran_Occ": "Learning Specialist",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": "Margaret",
+      "Tran_NamL": "Powell",
+      "Tran_Zip4": "95037"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Southern Cafe",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": "King",
+      "Tran_NamL": "Wiley",
+      "Tran_Zip4": "94534"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Phillip R.",
+      "Tran_NamL": "Bell",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Betsy",
+      "Tran_NamL": "Brazy",
+      "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Lifelong Medical",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Brazell",
+      "Tran_NamL": "Carter",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Close The Gap",
+      "Tran_Occ": "Director",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Betsy",
+      "Tran_NamL": "Cotton",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "8th ave Enterprise",
+      "Tran_Occ": "Educator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Norma",
+      "Tran_NamL": "Francisco",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Leslie",
+      "Tran_NamL": "Levy",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Certified Public Accountant",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Dennis N.",
+      "Tran_NamL": "Middleton",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Doctors Medical Center",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Otis",
+      "Tran_NamL": "Rounds",
+      "Tran_Zip4": "94803"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Silicon Heights LLC",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Doctor",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "H. Geoffrey",
+      "Tran_NamL": "Watson",
+      "Tran_Zip4": "94608-2811"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Neal and Leroy, LLC",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Anne",
+      "Tran_NamL": "Fredd",
+      "Tran_Zip4": "60601"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Hanlon & Reif",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Stuart",
+      "Tran_NamL": "Hanlon",
+      "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Jean",
+      "Tran_NamL": "Tepperman",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Unemployed",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Williamson",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "A Hundred Monkeys",
+      "Tran_Occ": "Consultant",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Altman",
+      "Tran_Zip4": "94941"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Emory University",
+      "Tran_Occ": "College Professor",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Dwight",
+      "Tran_NamL": "Andrews",
+      "Tran_Zip4": "30329"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Barbara",
+      "Tran_NamL": "Brooks",
+      "Tran_Zip4": "94541"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Deborah",
+      "Tran_NamL": "Clabiorne",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Oakland Private Industry Council, Inc.",
+      "Tran_Occ": "Chief Executive Officer",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Gay",
+      "Tran_NamL": "Cobb",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Michael Freund & Associates",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Freund",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Douglas  Parking Co.",
+      "Tran_Occ": "Controller",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Jeffrey",
+      "Tran_NamL": "Gaddy",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Lil Nancy's Primary Schoolhouse",
+      "Tran_Occ": "Early Education Teacher",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Harvey",
+      "Tran_Zip4": "94607-2261"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Patricia J.",
+      "Tran_NamL": "Howze",
+      "Tran_Zip4": "94947"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Home Depot",
+      "Tran_Occ": "Cashier",
+      "Tran_Amt1": 160.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Anita Adama",
+      "Tran_NamL": "Jalo",
+      "Tran_Zip4": "94607-3261"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Everette & Jones Barbeque",
+      "Tran_Occ": "Restaurant Owner",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Jernegan",
+      "Tran_Zip4": "94619-2206"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Kathleen",
+      "Tran_NamL": "Kahn",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Theon",
+      "Tran_NamL": "King",
+      "Tran_Zip4": "94607-2830"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed No Separate Business Name",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Howard",
+      "Tran_NamL": "Moore",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Doctor",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "J G",
+      "Tran_NamL": "Nickolopoulos",
+      "Tran_Zip4": "94122-1618"
     },
     {
       "Filer_ID": "1407729",
@@ -30,6 +1060,36 @@
       "Tran_NamF": "Pamela",
       "Tran_NamL": "Price",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Self-Employed - No Separate Business Name",
+      "Tran_Occ": "Communications",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Carla",
+      "Tran_NamL": "Reed",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 120.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Linda",
+      "Tran_NamL": "Roberts",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1407729",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Tamara",
+      "Tran_NamL": "Steele",
+      "Tran_Zip4": "94577"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 57740.0,
+  "total_contributions": 92008.0,
   "contributions": [
     {
       "Filer_ID": "1236617",
@@ -264,7 +264,7 @@
     {
       "Filer_ID": "1236617",
       "Tran_Emp": "Self Employed, VMC Travel",
-      "Tran_Occ": "Owner -- Travel",
+      "Tran_Occ": "Owner-- Travel",
       "Tran_Amt1": 800.0,
       "Tran_Date": "2017-07-18",
       "Tran_NamF": "Mark",
@@ -274,7 +274,7 @@
     {
       "Filer_ID": "1236617",
       "Tran_Emp": "Self Employed, VMC Travel",
-      "Tran_Occ": "Owner-- Travel",
+      "Tran_Occ": "Owner -- Travel",
       "Tran_Amt1": 800.0,
       "Tran_Date": "2017-07-18",
       "Tran_NamF": "Mark",
@@ -483,18 +483,28 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": "Cypress Mandela Training",
+      "Tran_Occ": "Program Manager",
+      "Tran_Amt1": 99.0,
+      "Tran_Date": "2018-03-20",
+      "Tran_NamF": "Douglas",
+      "Tran_NamL": "Butler",
+      "Tran_Zip4": "94565"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2018-03-21",
       "Tran_NamF": "Charles",
       "Tran_NamL": "Gibson",
-      "Tran_Zip4": null
+      "Tran_Zip4": "94803"
     },
     {
       "Filer_ID": "1236617",
-      "Tran_Emp": "Information Requested",
-      "Tran_Occ": "Information Requested",
+      "Tran_Emp": "First AME Church Oakland",
+      "Tran_Occ": "Reverend",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-03-25",
       "Tran_NamF": "Dana",
@@ -663,8 +673,8 @@
     },
     {
       "Filer_ID": "1236617",
-      "Tran_Emp": "Information Requested",
-      "Tran_Occ": "Information Requested",
+      "Tran_Emp": "Kied Nagi",
+      "Tran_Occ": "Artist",
       "Tran_Amt1": 400.0,
       "Tran_Date": "2018-04-07",
       "Tran_NamF": "Kied Y",
@@ -689,7 +699,17 @@
       "Tran_Date": "2018-04-21",
       "Tran_NamF": "Charles",
       "Tran_NamL": "Gibson",
-      "Tran_Zip4": null
+      "Tran_Zip4": "94803"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Everett & Jones",
+      "Tran_Occ": "Business Owner",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-04-25",
+      "Tran_NamF": "John B",
+      "Tran_NamL": "Jernegan",
+      "Tran_Zip4": "94619"
     },
     {
       "Filer_ID": "1236617",
@@ -833,6 +853,16 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": "Kied Nagi",
+      "Tran_Occ": "Artist",
+      "Tran_Amt1": -400.0,
+      "Tran_Date": "2018-05-01",
+      "Tran_NamF": "Kied Y",
+      "Tran_NamL": "Nagi",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": "Abbissinian Baptist Church",
       "Tran_Occ": "Pastor",
       "Tran_Amt1": 400.0,
@@ -953,6 +983,16 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Armor Loan & Credit Modifications, Inc.",
+      "Tran_Zip4": "94588"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": "ONGB",
       "Tran_Occ": "Executive Director",
       "Tran_Amt1": 600.0,
@@ -973,6 +1013,16 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Pharmacy Technician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-10",
+      "Tran_NamF": "Andy K",
+      "Tran_NamL": "Bui",
+      "Tran_Zip4": "95111"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Tran_Amt1": 200.0,
@@ -980,6 +1030,16 @@
       "Tran_NamF": "Patricia",
       "Tran_NamL": "Ford",
       "Tran_Zip4": "20707"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Disney",
+      "Tran_Occ": "Technical Director",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-11",
+      "Tran_NamF": "Don T",
+      "Tran_NamL": "Bui",
+      "Tran_Zip4": "95111"
     },
     {
       "Filer_ID": "1236617",
@@ -999,7 +1059,7 @@
       "Tran_Date": "2018-05-21",
       "Tran_NamF": "Charles",
       "Tran_NamL": "Gibson",
-      "Tran_Zip4": null
+      "Tran_Zip4": "94803"
     },
     {
       "Filer_ID": "1236617",
@@ -1010,6 +1070,256 @@
       "Tran_NamF": "Sudip",
       "Tran_NamL": "Ray",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Marvin Thang",
+      "Tran_Occ": "Business Owner",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-21",
+      "Tran_NamF": "Marvin",
+      "Tran_NamL": "Thang",
+      "Tran_Zip4": "94572"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Academy of Arts",
+      "Tran_Occ": "Purchasing Lead",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-22",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Kim Le",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Tri Lu's Nail Salon and Spa",
+      "Tran_Occ": "Beutician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-23",
+      "Tran_NamF": "Anh",
+      "Tran_NamL": "Kim Le",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Pacific Park Plaza",
+      "Tran_Occ": "Janitor",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-23",
+      "Tran_NamF": "Sylvia",
+      "Tran_NamL": "Leung Wong",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Music KTV Cafe",
+      "Tran_Occ": "Manger",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-23",
+      "Tran_NamF": "Charlie",
+      "Tran_NamL": "Ng",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-05-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Cybertran International, Inc.",
+      "Tran_Zip4": "94804"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "CPME",
+      "Tran_Occ": "Nurse",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-24",
+      "Tran_NamF": "Martha",
+      "Tran_NamL": "Tadesse",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Kenny Truong",
+      "Tran_Occ": "Real Estate Agent",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-24",
+      "Tran_NamF": "Kenny",
+      "Tran_NamL": "Truong",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "AC Transit",
+      "Tran_Occ": "Analyst",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-05-26",
+      "Tran_NamF": "Cynthia",
+      "Tran_NamL": "Isom Dorsey",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Frontend Development",
+      "Tran_Occ": "Freelancer",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-26",
+      "Tran_NamF": "Kevin",
+      "Tran_NamL": "Jiang",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Aqua Skin Care",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-26",
+      "Tran_NamF": "Judy Y",
+      "Tran_NamL": "Liu",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Pacific Park Management",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-27",
+      "Tran_NamF": "Solomon",
+      "Tran_NamL": "Abayneh",
+      "Tran_Zip4": "94547"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-05-27",
+      "Tran_NamF": "Fasil G",
+      "Tran_NamL": "Chala",
+      "Tran_Zip4": "94547"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Seifu Daba",
+      "Tran_Occ": "Cab Driver",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-27",
+      "Tran_NamF": "Seifu",
+      "Tran_NamL": "Daba",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "YaYu Restaurant",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-05-27",
+      "Tran_NamF": "Messay",
+      "Tran_NamL": "Girma",
+      "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Better Homes",
+      "Tran_Occ": "Realtor",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-27",
+      "Tran_NamF": "Getachew",
+      "Tran_NamL": "Tadesse",
+      "Tran_Zip4": "94547"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Accountant",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-05-27",
+      "Tran_NamF": "Konjit",
+      "Tran_NamL": "Tadesse",
+      "Tran_Zip4": "94552"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Arda, LLC",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Express Couriers",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Eclipse Electric",
+      "Tran_Occ": "Electrician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-29",
+      "Tran_NamF": "Majied",
+      "Tran_NamL": "Bey",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Eclipse Electric",
+      "Tran_Occ": "Business Owner",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-29",
+      "Tran_NamF": "Nedir N",
+      "Tran_NamL": "Bey",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "CA Labor Federation",
+      "Tran_Occ": "Event Coordinator",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-29",
+      "Tran_NamF": "Rosemarie",
+      "Tran_NamL": "Boothe-Bey",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Eclipse Electric",
+      "Tran_Occ": "Engineer",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-29",
+      "Tran_NamF": "Isa",
+      "Tran_NamL": "Islam Bey",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Berkeley Bowl",
+      "Tran_Occ": "Supervisor",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-29",
+      "Tran_NamF": "Tuan F",
+      "Tran_NamL": "Lenh",
+      "Tran_Zip4": "94579"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-29",
+      "Tran_NamF": "Bernice L",
+      "Tran_NamL": "Tingle",
+      "Tran_Zip4": "94603"
     },
     {
       "Filer_ID": "1236617",
@@ -1043,6 +1353,16 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-05-30",
+      "Tran_NamF": "Octavia",
+      "Tran_NamL": "Hall",
+      "Tran_Zip4": "95824"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": "Oakland Children's Hospital",
       "Tran_Occ": "Nursing Director",
       "Tran_Amt1": 800.0,
@@ -1060,6 +1380,16 @@
       "Tran_NamF": "Gezahegn",
       "Tran_NamL": "Mengistu",
       "Tran_Zip4": "94552"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-30",
+      "Tran_NamF": "Mavis",
+      "Tran_NamL": "Scott",
+      "Tran_Zip4": "94609"
     },
     {
       "Filer_ID": "1236617",
@@ -1103,6 +1433,46 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-05-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "City Nights",
+      "Tran_Zip4": "94107"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-05-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Nacirfa Corporation",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-05-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Rouge Nightclub, Inc.",
+      "Tran_Zip4": "94107"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-06-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Adeline Grocery, Inc.",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": "Law Office of Gould & Hahn",
       "Tran_Occ": "Paralegal",
       "Tran_Amt1": 40.0,
@@ -1113,6 +1483,16 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": "Cypress Mandela, Inc.",
+      "Tran_Occ": "Executive Director",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-06-01",
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Shanks",
+      "Tran_Zip4": "94546"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": "College of Alameda",
       "Tran_Occ": "College Administrator",
       "Tran_Amt1": 60.0,
@@ -1120,6 +1500,56 @@
       "Tran_NamF": "Toni",
       "Tran_NamL": "Cook",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Kaiser",
+      "Tran_Occ": "Payroll Manager",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-06-12",
+      "Tran_NamF": "Bonnie",
+      "Tran_NamL": "Bouligny",
+      "Tran_Zip4": "94587"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Cypress Mandela Training",
+      "Tran_Occ": "Program Manager",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-06-12",
+      "Tran_NamF": "Douglas",
+      "Tran_NamL": "Butler",
+      "Tran_Zip4": "94565"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Cypress Mandela, Inc.",
+      "Tran_Occ": "Instructor",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-06-12",
+      "Tran_NamF": "Sylvester",
+      "Tran_NamL": "Hodges",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Cypress Mandela, Inc.",
+      "Tran_Occ": "Project Coordinator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-06-12",
+      "Tran_NamF": "Eric",
+      "Tran_NamL": "Shanks",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Homemaker",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-06-12",
+      "Tran_NamF": "Linda Jo",
+      "Tran_NamL": "Struna",
+      "Tran_Zip4": "94603"
     },
     {
       "Filer_ID": "1236617",
@@ -1139,7 +1569,157 @@
       "Tran_Date": "2018-06-21",
       "Tran_NamF": "Charles",
       "Tran_NamL": "Gibson",
-      "Tran_Zip4": null
+      "Tran_Zip4": "94803"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Microserch Environmental, Inc.",
+      "Tran_Occ": "President",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-06-21",
+      "Tran_NamF": "Carl",
+      "Tran_NamL": "Hackney",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-06-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "USA Grocery & Liquor",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Friendship Fellowship",
+      "Tran_Occ": "Pastor",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-06-27",
+      "Tran_NamF": "Gerald Lee",
+      "Tran_NamL": "Agee",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Eclipse Electric",
+      "Tran_Occ": "Electrician",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Najah",
+      "Tran_NamL": "Bey",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Rajinder Brar",
+      "Tran_Occ": "Consultant",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Rajinder",
+      "Tran_NamL": "Brar",
+      "Tran_Zip4": "94539"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Cummings CM",
+      "Tran_Occ": "Project Manager",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Elena",
+      "Tran_NamL": "Comrie",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "YCAT-C",
+      "Tran_Occ": "Billing",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Debra B",
+      "Tran_NamL": "Holloway",
+      "Tran_Zip4": "94124"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "YCAT-C",
+      "Tran_Occ": "Operations Manager",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Ginger Mae",
+      "Tran_NamL": "Jones",
+      "Tran_Zip4": "94806"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Derrick H Muhammad",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Derrick H",
+      "Tran_NamL": "Muhammad",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "International EZ Tire",
+      "Tran_Occ": "Business Owner",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Sukhwinder",
+      "Tran_NamL": "Singh",
+      "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Michael L",
+      "Tran_NamL": "Trisby",
+      "Tran_Zip4": "95206"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Sudeep",
+      "Tran_NamL": "Virk",
+      "Tran_Zip4": "94539"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "YCAT-C",
+      "Tran_Occ": "Recorder",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-28",
+      "Tran_NamF": "Crystal D",
+      "Tran_NamL": "Walker",
+      "Tran_Zip4": "94591"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-06-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Friends of Bill Riley for Peralta Community College Board 2014",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Peralta Community College",
+      "Tran_Occ": "Board President",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-06-29",
+      "Tran_NamF": "William S.",
+      "Tran_NamL": "Riley",
+      "Tran_Zip4": "94602"
     },
     {
       "Filer_ID": "1236617",
@@ -1153,6 +1733,36 @@
     },
     {
       "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Fast Gas & Mini Mart",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Gazali Corp.",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "GIR Investments",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1236617",
       "Tran_Emp": "Marinship Development Interest",
       "Tran_Occ": "Business Owner",
       "Tran_Amt1": 500.0,
@@ -1160,6 +1770,166 @@
       "Tran_NamF": "Derek",
       "Tran_NamL": "Smith",
       "Tran_Zip4": "94124"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Law Office of Gould & Hahn",
+      "Tran_Occ": "Paralegal",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2018-07-01",
+      "Tran_NamF": "Brian",
+      "Tran_NamL": "Hofer",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": -800.0,
+      "Tran_Date": "2018-07-03",
+      "Tran_NamF": "Michael L",
+      "Tran_NamL": "Trisby",
+      "Tran_Zip4": "95206"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lounge 3411",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Lounge 3411",
+      "Tran_Occ": "Bartender",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-07-04",
+      "Tran_NamF": "Aaron",
+      "Tran_NamL": "Luna",
+      "Tran_Zip4": "93905"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Lenny Williams",
+      "Tran_Occ": "Publishing",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-07-04",
+      "Tran_NamF": "Lenny",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94534"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "Niagara Movement Democratic Club",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-26",
+      "Tran_NamF": "Janeith",
+      "Tran_NamL": "Glenn-Davis",
+      "Tran_Zip4": "94542"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Mobile Meeting",
+      "Tran_Occ": "Chief Operating Officer",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-29",
+      "Tran_NamF": "Kevin",
+      "Tran_NamL": "Jenkins",
+      "Tran_Zip4": "94541"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Law Office of Gould & Hahn",
+      "Tran_Occ": "Paralegal",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2018-08-01",
+      "Tran_NamF": "Brian",
+      "Tran_NamL": "Hofer",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Law Office of Gould & Hahn",
+      "Tran_Occ": "Paralegal",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2018-09-01",
+      "Tran_NamF": "Brian",
+      "Tran_NamL": "Hofer",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Aegis Equity Partners",
+      "Tran_Occ": "President",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Terrence Michael",
+      "Tran_NamL": "McGrath",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 350.0,
+      "Tran_Date": "2018-09-15",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Hammock",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Oakland Housing Authority",
+      "Tran_Occ": "Administration",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-19",
+      "Tran_NamF": "Eric",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Marlon McWilson",
+      "Tran_Occ": "Consultant",
+      "Tran_Amt1": 99.0,
+      "Tran_Date": "2018-09-20",
+      "Tran_NamF": "Marlon",
+      "Tran_NamL": "McWilson",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": "Paul Cobb",
+      "Tran_Occ": "Publisher",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Paul",
+      "Tran_NamL": "Cobb",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Janeith",
+      "Tran_NamL": "Glenn-Davis",
+      "Tran_Zip4": "94542"
     }
   ]
 }

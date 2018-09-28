@@ -1,5 +1,5 @@
 {
-  "total_contributions": 27929.0,
+  "total_contributions": 42063.0,
   "contributions": [
     {
       "Filer_ID": "1403124",
@@ -1444,12 +1444,652 @@
     {
       "Filer_ID": "1403124",
       "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-07-01",
+      "Tran_NamF": "Darlene",
+      "Tran_NamL": "Demanincor",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-04",
+      "Tran_NamF": "Patty",
+      "Tran_NamL": "Mintz",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Alameda County Health Care Services Agency",
+      "Tran_Occ": "Manager, Clinical Case Management Projects",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-07-06",
+      "Tran_NamF": "Rebecca",
+      "Tran_NamL": "Alvarado",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Commissioner",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-07",
+      "Tran_NamF": "Boydine",
+      "Tran_NamL": "Hall",
+      "Tran_Zip4": "94544"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Government Employee",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-07-08",
+      "Tran_NamF": "Leola",
+      "Tran_NamL": "Spencer",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-11",
+      "Tran_NamF": "Greg",
+      "Tran_NamL": "Lieberknecht",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Promise",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-07-13",
+      "Tran_NamF": "Diana",
+      "Tran_NamL": "Frappier",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Reddit",
+      "Tran_Occ": "Executive Assistant",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-07-15",
+      "Tran_NamF": "Teresa",
+      "Tran_NamL": "Johns",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Oakland Community Acupuncture",
+      "Tran_Occ": "Acupuncture",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2018-07-17",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Randle",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Victorious Seo",
+      "Tran_Occ": "Account Executive",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-07-18",
+      "Tran_NamF": "Audra",
+      "Tran_NamL": "Caravas",
+      "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-19",
+      "Tran_NamF": "Gwendolyn",
+      "Tran_NamL": "Booze",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Director",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-07-19",
+      "Tran_NamF": "Willie",
+      "Tran_NamL": "Hopkins",
+      "Tran_Zip4": "94604"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Wiss Janney Elstner Assoc Inc",
+      "Tran_Occ": "Construction Consultant",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-07-21",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Strong",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Madera Group",
+      "Tran_Occ": "Founder",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": "Kathleen",
+      "Tran_NamL": "Delaney",
+      "Tran_Zip4": "94708"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "94568"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Carmel Partners",
+      "Tran_Occ": "Real Estate Investment Management Company",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": "Mike",
+      "Tran_NamL": "LaHorgue",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Administrative Secretary",
+      "Tran_Amt1": 3.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": "Leslie",
+      "Tran_NamL": "Robertson",
+      "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Hamilton Families",
+      "Tran_Occ": "Director Of Administration",
+      "Tran_Amt1": 3.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": "Ladawna",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94564"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Carmel Partners",
+      "Tran_Occ": "Real Estate Investment",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-23",
+      "Tran_NamF": "Ron",
+      "Tran_NamL": "Zeff",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-07-25",
+      "Tran_NamF": "Gregor",
+      "Tran_NamL": "Balough",
+      "Tran_Zip4": "94109"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-07-25",
+      "Tran_NamF": "Gregor",
+      "Tran_NamL": "Balough",
+      "Tran_Zip4": "94109"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-25",
+      "Tran_NamF": "I. Snelling",
+      "Tran_NamL": "Hughes",
+      "Tran_Zip4": "21075"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Bay Area Rapid Transit",
+      "Tran_Occ": "Bart Board Director",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-07-25",
+      "Tran_NamF": "Nick",
+      "Tran_NamL": "Josefowitz",
+      "Tran_Zip4": "94115"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Cameo California Assoc For MicroEnterprise Opportunity",
+      "Tran_Occ": "Non Profit Executive",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-07-25",
+      "Tran_NamF": "Heidi",
+      "Tran_NamL": "Pickman",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Carmel Partners",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-28",
+      "Tran_NamF": "Dennis",
+      "Tran_NamL": "Markus",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Saint Mary?s College",
+      "Tran_Occ": "Administrative Assistant",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-07-29",
+      "Tran_NamF": "Cassie",
+      "Tran_NamL": "Webster",
+      "Tran_Zip4": "94531"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "City Of San Francisco",
+      "Tran_Occ": "Policy Analyst",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-07-30",
+      "Tran_NamF": "Ecaterina",
+      "Tran_NamL": "Burton",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "The Carter Law Group",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-07-30",
+      "Tran_NamF": "Sean",
+      "Tran_NamL": "Carter",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-07-30",
+      "Tran_NamF": "Vera",
+      "Tran_NamL": "Sims",
+      "Tran_Zip4": "94578"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-08-01",
+      "Tran_NamF": "Mary",
+      "Tran_NamL": "Pouncil",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "University of California, Berkeley",
+      "Tran_Occ": "Professor",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-08-03",
+      "Tran_NamF": "Jabari",
+      "Tran_NamL": "Mahiri",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Principal",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-04",
+      "Tran_NamF": "Darren",
+      "Tran_NamL": "Avent",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-04",
+      "Tran_NamF": "William",
+      "Tran_NamL": "Taeusch",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
       "Tran_Occ": null,
       "Tran_Amt1": 1500.0,
-      "Tran_Date": "2018-08-16",
+      "Tran_Date": "2018-08-06",
       "Tran_NamF": null,
       "Tran_NamL": "District Council of Iron Workers Political Action League",
       "Tran_Zip4": "94564"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Gobee Group",
+      "Tran_Occ": "Strategist",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-08-14",
+      "Tran_NamF": "Olivia",
+      "Tran_NamL": "Nava",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "The What List",
+      "Tran_Occ": "Editor",
+      "Tran_Amt1": -800.0,
+      "Tran_Date": "2018-08-14",
+      "Tran_NamF": "Virginia",
+      "Tran_NamL": "Pell",
+      "Tran_Zip4": "94904"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "The What List",
+      "Tran_Occ": "Editor",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-08-14",
+      "Tran_NamF": "Virginia",
+      "Tran_NamL": "Pell",
+      "Tran_Zip4": "94904"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Oakland Community Acupuncture",
+      "Tran_Occ": "Acupuncture",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2018-08-17",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Randle",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Reddit",
+      "Tran_Occ": "Executive Assistant",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-08-19",
+      "Tran_NamF": "Teresa",
+      "Tran_NamL": "Johns",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Hamilton Families",
+      "Tran_Occ": "Director Of Administration",
+      "Tran_Amt1": 3.0,
+      "Tran_Date": "2018-08-23",
+      "Tran_NamF": "Ladawna",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94564"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 350.0,
+      "Tran_Date": "2018-08-27",
+      "Tran_NamF": "Deborah",
+      "Tran_NamL": "Shefler",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Framework Organizational Development",
+      "Tran_Occ": "Organizational Consultant",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-28",
+      "Tran_NamF": "Marcelia",
+      "Tran_NamL": "Nava",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Maritz",
+      "Tran_Occ": "Facilitator",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-08-28",
+      "Tran_NamF": "Margaret",
+      "Tran_NamL": "Schultz",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Metropolitan Transportation Commission",
+      "Tran_Occ": "Transportation Planner",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-28",
+      "Tran_NamF": "Drennen",
+      "Tran_NamL": "Shelton",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Jeps Inc",
+      "Tran_Occ": "Caterer",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-29",
+      "Tran_NamF": "Rashidath",
+      "Tran_NamL": "Agbabiaka",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-29",
+      "Tran_NamF": "Laurie",
+      "Tran_NamL": "Bennett",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "The Carter Law Group",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-08-29",
+      "Tran_NamF": "Sean",
+      "Tran_NamL": "Carter",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-29",
+      "Tran_NamF": "Russell",
+      "Tran_NamL": "Gatewood",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Saint Mary?s College",
+      "Tran_Occ": "Administrative Assistant",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-08-29",
+      "Tran_NamF": "Cassie",
+      "Tran_NamL": "Webster",
+      "Tran_Zip4": "94531"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "The Carter Law Group",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-08-30",
+      "Tran_NamF": "Sean",
+      "Tran_NamL": "Carter",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Teamsters Local 2010",
+      "Tran_Occ": "Regional Director",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-08-30",
+      "Tran_NamF": "Keith",
+      "Tran_NamL": "Uriarte",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Organizational Development Trainer",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-08-31",
+      "Tran_NamF": "Holly",
+      "Tran_NamL": "Faust",
+      "Tran_Zip4": "94611-4343"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2018-09-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Badelle Group, Inc.",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "County Of Alameda",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-03",
+      "Tran_NamF": "Jody",
+      "Tran_NamL": "Nunez",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Empower U.",
+      "Tran_Occ": "Educator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Brenden",
+      "Tran_NamL": "Anderson",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Fire Dept",
+      "Tran_Occ": "Firefighter",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Russ",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94109"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Data Manager",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-04",
+      "Tran_NamF": "Bruce",
+      "Tran_NamL": "Stoffmacher",
+      "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-05",
+      "Tran_NamF": "Shirley",
+      "Tran_NamL": "Poe",
+      "Tran_Zip4": "94540"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Serendipity Solutions, LLC",
+      "Tran_Occ": "It Consultant",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-06",
+      "Tran_NamF": "Rosemary",
+      "Tran_NamL": "Kim",
+      "Tran_Zip4": "94118"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Dr. Charleston A. Cone, MD",
+      "Tran_Occ": "Physician",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-07",
+      "Tran_NamF": "Charleston",
+      "Tran_NamL": "Cone",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Gap, Inc",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-09-07",
+      "Tran_NamF": "Matthew",
+      "Tran_NamL": "Irwin",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-09-09",
+      "Tran_NamF": "Gregor",
+      "Tran_NamL": "Balough",
+      "Tran_Zip4": "94109"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Writer",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-09-09",
+      "Tran_NamF": "Dave",
+      "Tran_NamL": "Pell",
+      "Tran_Zip4": "94904"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Red Hat, Inc",
+      "Tran_Occ": "Enterprise Software Sales",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-09",
+      "Tran_NamF": "Darrell",
+      "Tran_NamL": "Sprewell",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Designing Justice + Designing Spaces",
+      "Tran_Occ": "Real Estate Developer",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-11",
+      "Tran_NamF": "Kyle",
+      "Tran_NamL": "Rawlins",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1403124",
@@ -1460,6 +2100,146 @@
       "Tran_NamF": null,
       "Tran_NamL": "District Council 16, International Union of Painters and Allied Trades",
       "Tran_Zip4": "21076"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Stantec",
+      "Tran_Occ": "Environmental Consultant",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-09-13",
+      "Tran_NamF": "Angus",
+      "Tran_NamL": "McGrath",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "State Of California",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2018-09-16",
+      "Tran_NamF": "Leif",
+      "Tran_NamL": "Dautch",
+      "Tran_Zip4": "94123"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": "Virginia",
+      "Tran_NamL": "Irwin",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Oakland Community Acupuncture",
+      "Tran_Occ": "Acupuncture",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2018-09-17",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Randle",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Non-Profit Consultant",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": "Kathrina",
+      "Tran_NamL": "Moore-Richardson",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "National Institute for Criminal Justice Reform",
+      "Tran_Occ": "Non-profit Executive",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Muhammad",
+      "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "FLRish, Inc.",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-18",
+      "Tran_NamF": "John Jack",
+      "Tran_NamL": "Nichols",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Edw R",
+      "Tran_NamL": "Gerber",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Angela",
+      "Tran_NamL": "LaMacchia",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Architect",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "McGillis",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Nonprofit Consultant",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2018-09-21",
+      "Tran_NamF": "Dan",
+      "Tran_NamL": "Quigley",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "City Of San Pablo",
+      "Tran_Occ": "Environmental Program Analyst",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Jennifer",
+      "Tran_NamL": "Jackson",
+      "Tran_Zip4": "94610-2927"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "Sutter Health",
+      "Tran_Occ": "Client Svcs Coordinator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Kevin",
+      "Tran_NamL": "Lucas",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": "S?ntesis Strategies",
+      "Tran_Occ": "Principal",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Evelyn",
+      "Tran_NamL": "Torres",
+      "Tran_Zip4": "94601"
     }
   ]
 }
