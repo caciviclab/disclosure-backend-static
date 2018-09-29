@@ -17,26 +17,35 @@
   "party_affiliation": null,
   "filer_id": 1406398,
   "supporting_money": {
-    "contributions_received": 49067.65,
-    "total_contributions": 49067.65,
-    "total_expenditures": 3259.05,
-    "total_loans_received": 50.0,
+    "contributions_received": 78041.65,
+    "total_contributions": 78041.65,
+    "total_expenditures": 22390.04,
+    "total_loans_received": 38600.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 8675.0,
+      "Committee": 800.0,
+      "Individual": 11099.0,
       "Unitemized": 0.0,
-      "Self Funding": 40342.65
+      "Self Funding": 26742.65,
+      "Other (includes Businesses)": 800.0
     },
     "contributions_by_origin": {
-      "Out of State": 525.0,
-      "Within Oakland": 44392.65,
-      "Within California": 4100.0
+      "Out of State": 625.0,
+      "Within Oakland": 32216.65,
+      "Within California": 6600.0
     },
     "expenditures_by_type": {
-      "Campaign Paraphernalia/Misc.": 266.4
+      "Office Expenses": 202.77,
+      "Campaign Consultants": 2500.0,
+      "Campaign Paraphernalia/Misc.": 6572.37,
+      "Candidate Filing/Ballot Fees": 1050.0,
+      "Campaign Literature and Mailings": 5636.2,
+      "Staff/Spouse Travel, Lodging, and Meals": 121.96,
+      "Postage, Delivery and Messenger Services": 64.09,
+      "Professional Services (Legal, Accounting)": 3200.0
     },
     "supporting_by_type": {
     }
@@ -49,16 +58,25 @@
 
     ]
   },
-  "contributions_received": 49067.65,
-  "total_contributions": 49067.65,
-  "total_expenditures": 3259.05,
-  "total_loans_received": 50.0,
+  "contributions_received": 78041.65,
+  "total_contributions": 78041.65,
+  "total_expenditures": 22390.04,
+  "total_loans_received": 38600.0,
   "contributions_by_type": {
-    "Individual": 8675.0,
+    "Committee": 800.0,
+    "Individual": 11099.0,
     "Unitemized": 0.0,
-    "Self Funding": 40342.65
+    "Self Funding": 26742.65,
+    "Other (includes Businesses)": 800.0
   },
   "expenditures_by_type": {
-    "Campaign Paraphernalia/Misc.": 266.4
+    "Office Expenses": 202.77,
+    "Campaign Consultants": 2500.0,
+    "Campaign Paraphernalia/Misc.": 6572.37,
+    "Candidate Filing/Ballot Fees": 1050.0,
+    "Campaign Literature and Mailings": 5636.2,
+    "Staff/Spouse Travel, Lodging, and Meals": 121.96,
+    "Postage, Delivery and Messenger Services": 64.09,
+    "Professional Services (Legal, Accounting)": 3200.0
   }
 }

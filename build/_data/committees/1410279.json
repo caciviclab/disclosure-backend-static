@@ -1,5 +1,5 @@
 {
-  "total_contributions": 37670.0,
+  "total_contributions": 50170.0,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -100,6 +100,26 @@
       "Tran_NamF": "LISA",
       "Tran_NamL": "SCHMIER",
       "Tran_Zip4": "94939"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2018-09-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "SHEET METAL WORKERS' INTERNATIONAL ASSOCIATION LOCAL UNION NO. 104",
+      "Tran_Zip4": "94583"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "EARTHLINK",
+      "Tran_Occ": "OWNER",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-09-27",
+      "Tran_NamF": "EUGENE",
+      "Tran_NamL": "ZAHAS",
+      "Tran_Zip4": "94602"
     }
   ]
 }
