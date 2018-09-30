@@ -13,7 +13,7 @@ no client code changes will be required.
 
 ## Prerequisites
 
-- Ruby >= 2.2.2
+- Ruby (see version in `.ruby-version`)
 
 ## Installation
 
