@@ -6,9 +6,9 @@ cat <<-QUERY | psql ${DATABASE_NAME:-"disclosure-backend"}
 DELETE FROM "496" late
 WHERE EXISTS (
   SELECT * FROM "Summary" summary
-      WHERE summary."Filer_ID"::varchar = late."Filer_ID" AND late."Rpt_Date" <= summary."Thru_Date");
+      WHERE summary."Filer_ID"::varchar = late."Filer_ID" AND late."Exp_Date" <= summary."Thru_Date");
 DELETE FROM "497" late
 WHERE EXISTS (
   SELECT * FROM "Summary" summary
-      WHERE summary."Filer_ID"::varchar = late."Filer_ID" AND late."Rpt_Date" <= summary."Thru_Date");
+      WHERE summary."Filer_ID"::varchar = late."Filer_ID" AND late."Ctrib_Date" <= summary."Thru_Date");
 QUERY
