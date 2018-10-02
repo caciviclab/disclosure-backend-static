@@ -1,5 +1,5 @@
 {
-  "total_contributions": 31855.0,
+  "total_contributions": 37355.0,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -100,6 +100,36 @@
       "Tran_NamF": null,
       "Tran_NamL": "Palmview Apartments",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Black Oak Properties",
+      "Tran_Occ": "Owner",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": "Mimi Johnson",
+      "Tran_NamL": "Jacobs",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "J.A.M Partnership",
+      "Tran_Zip4": "10010"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": "Steve R.",
+      "Tran_NamL": "Shepherd",
+      "Tran_Zip4": "94556"
     }
   ]
 }
