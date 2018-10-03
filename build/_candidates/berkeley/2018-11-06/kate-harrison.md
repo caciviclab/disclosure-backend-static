@@ -1,5 +1,6 @@
 ---
 ballot: _ballots/berkeley/2018-11-06.md
+election: _electionsberkeley/2018-11-06.md
 committee_name: Kate Harrison For City Council 2018
 filer_id: '1392842'
 is_incumbent: true
