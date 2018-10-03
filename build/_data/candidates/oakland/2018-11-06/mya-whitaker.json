@@ -1,5 +1,5 @@
 {
-  "id": 54,
+  "id": 52,
   "name": "Mya Whitaker",
   "photo_url": "Mya-Whitaker.png",
   "website_url": "https://whitakerforoakland.com",
@@ -17,19 +17,30 @@
   "party_affiliation": null,
   "filer_id": 1405266,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 5115.0,
+    "total_contributions": 5115.0,
+    "total_expenditures": 2912.22,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 4300.0,
+      "Unitemized": 815.0
     },
     "contributions_by_origin": {
+      "Out of State": 200.0,
+      "Within Oakland": 1850.0,
+      "Within California": 2250.0
     },
     "expenditures_by_type": {
+      "Fundraising Events": 112.22,
+      "Meetings and Appearances": 400.06,
+      "Campaign Workers' Salaries": 1250.0,
+      "Campaign Paraphernalia/Misc.": 113.91,
+      "Campaign Literature and Mailings": 256.74,
+      "Information Technology Costs (Internet, E-mail)": 176.07
     },
     "supporting_by_type": {
     }
@@ -42,12 +53,20 @@
 
     ]
   },
-  "contributions_received": null,
-  "total_contributions": null,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 5115.0,
+  "total_contributions": 5115.0,
+  "total_expenditures": 2912.22,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 4300.0,
+    "Unitemized": 815.0
   },
   "expenditures_by_type": {
+    "Fundraising Events": 112.22,
+    "Meetings and Appearances": 400.06,
+    "Campaign Workers' Salaries": 1250.0,
+    "Campaign Paraphernalia/Misc.": 113.91,
+    "Campaign Literature and Mailings": 256.74,
+    "Information Technology Costs (Internet, E-mail)": 176.07
   }
 }

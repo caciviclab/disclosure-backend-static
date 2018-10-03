@@ -1,5 +1,5 @@
 {
-  "total_contributions": 42063.0,
+  "total_contributions": 56593.81,
   "contributions": [
     {
       "Filer_ID": "1403124",
@@ -2240,6 +2240,16 @@
       "Tran_NamF": "Evelyn",
       "Tran_NamL": "Torres",
       "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1403124",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 14530.81,
+      "Tran_Date": "2018-10-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "City of Oakland",
+      "Tran_Zip4": "94612"
     }
   ]
 }

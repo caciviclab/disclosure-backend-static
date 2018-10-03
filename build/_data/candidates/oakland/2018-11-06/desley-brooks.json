@@ -1,5 +1,5 @@
 {
-  "id": 51,
+  "id": 38,
   "name": "Desley Brooks",
   "photo_url": "Desley-Brooks.png",
   "website_url": null,
@@ -63,11 +63,16 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 5471.0,
     "opposing_by_type": {
+      "IND OF CANVASSING": 5471.0
     },
     "opposition_list": [
-
+      {
+        "Total": 5471.0,
+        "Filer_ID": 1236617,
+        "Filer_NamL": "OAKLANDERS FOR RESPONSIBLE LEADERSHIP, OPPOSING DESLEY BROOKS FOR OAKLAND CITY COUNCIL 2018"
+      }
     ]
   },
   "contributions_received": 85054.0,

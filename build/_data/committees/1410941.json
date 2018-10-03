@@ -1,5 +1,5 @@
 {
-  "total_contributions": 37355.0,
+  "total_contributions": 38355.0,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -130,6 +130,16 @@
       "Tran_NamF": "Steve R.",
       "Tran_NamL": "Shepherd",
       "Tran_Zip4": "94556"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-10-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Cox Investments",
+      "Tran_Zip4": "94606"
     }
   ]
 }
