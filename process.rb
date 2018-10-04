@@ -126,7 +126,7 @@ ELECTIONS.each do |election_name, election|
     build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
       f.puts(YAML.dump({
         'ballot' => "_ballots/#{locality}/#{election[:date]}.md",
-        'election' => "_elections#{locality}/#{election[:date]}.md",
+        'election' => "_elections/#{locality}/#{election[:date]}.md",
         'committee_name' => candidate.Committee_Name,
         'data_warning' => candidate.data_warning,
         'filer_id' => candidate.FPPC.to_s,
