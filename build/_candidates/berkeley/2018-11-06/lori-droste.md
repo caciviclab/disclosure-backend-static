@@ -1,6 +1,6 @@
 ---
 ballot: _ballots/berkeley/2018-11-06.md
-election: _electionsberkeley/2018-11-06.md
+election: _elections/berkeley/2018-11-06.md
 committee_name: Droste for City Council 2018
 filer_id: '1363582'
 is_incumbent: true

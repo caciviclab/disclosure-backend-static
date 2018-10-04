@@ -1,6 +1,6 @@
 ---
 ballot: _ballots/oakland/2016-11-08.md
-election: _electionsoakland/2016-11-08.md
+election: _elections/oakland/2016-11-08.md
 committee_name: Committee to Elect Nancy Sidebotham, Councilmember At Large, 2016
 filer_id: '1386741'
 is_accepted_expenditure_ceiling: true

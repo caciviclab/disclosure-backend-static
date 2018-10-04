@@ -1,6 +1,6 @@
 ---
 ballot: _ballots/oakland/2018-11-06.md
-election: _electionsoakland/2018-11-06.md
+election: _elections/oakland/2018-11-06.md
 committee_name: Troupe for Mayor 2018
 filer_id: '1408555'
 is_accepted_expenditure_ceiling: true
