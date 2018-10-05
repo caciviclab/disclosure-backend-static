@@ -84,15 +84,14 @@ Dir.glob('calculators/*').each do |calculator_file|
   end
 end
 
-# /_ballots/oakland/2018-11-06.md
+# /_elections/oakland/2018-11-06.md
 ELECTIONS.each do |election_name, election|
   locality, _time = election_name.split('-', 2)
   office_elections = OfficeElection.where(election_name: election_name)
   referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
-  ballot_name = "/_ballots/#{locality}/#{election[:date]}.md"
   election_path = "/_elections/#{locality}/#{election[:date]}.md"
   office_elections_by_label = office_elections.group_by(&:label)
-  election_content = ballot_content = YAML.dump(
+  election_content = YAML.dump(
     'title' => election[:title],
     'locality' => locality,
     'election' => election[:date],
@@ -109,13 +108,6 @@ ELECTIONS.each do |election_name, election|
     end,
   )
 
-  # build two parallel, redundant sets of files one w/i _ballots, the other, _elections
-  # this is a temporary solution for migrating from the file structure under _ballots to one named _elections
-  build_file(ballot_name) do |f|
-    f.puts(ballot_content)
-    f.puts('---')
-  end
-
   build_file(election_path) do |f|
     f.puts(election_content)
     f.puts('---')
@@ -125,7 +117,6 @@ ELECTIONS.each do |election_name, election|
   OaklandCandidate.where(election_name: election_name).each do |candidate|
     build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
       f.puts(YAML.dump({
-        'ballot' => "_ballots/#{locality}/#{election[:date]}.md",
         'election' => "_elections/#{locality}/#{election[:date]}.md",
         'committee_name' => candidate.Committee_Name,
         'data_warning' => candidate.data_warning,
@@ -168,7 +159,6 @@ ELECTIONS.each do |election_name, election|
           .map { |candidate| candidate.Candidate }
 
       f.puts(YAML.dump({
-        'ballot' => ballot_name[1..-1],
         'election' => election_path[1..-1],
         'candidates' => candidates.map { |name| slugify(name) },
         'title' => office_election.title,
