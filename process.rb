@@ -176,7 +176,8 @@ OaklandCommittee.find_each do |committee|
       'filer_id' => committee.Filer_ID.to_s,
       'name' => committee.Filer_NamL,
       'candidate_controlled_id' => committee.candidate_controlled_id.to_s,
-      'title' => committee.Filer_NamL
+      'title' => committee.Filer_NamL,
+      'data_warning' => committee.data_warning,
     ))
     f.puts('---')
   end
@@ -214,6 +215,7 @@ OaklandReferendum.includes(:calculations).find_each do |referendum|
       'locality' => locality,
       'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number'],
       'title' => referendum['Short_Title'],
+      'data_warning' => referendum['data_warning'],
     ))
     f.puts('---')
     f.puts(referendum['Summary'])
