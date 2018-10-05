@@ -127,6 +127,7 @@ ELECTIONS.each do |election_name, election|
         'occupation' => candidate.Occupation,
         'party_affiliation' => candidate.Party_Affiliation,
         'photo_url' => candidate.Photo,
+        'public_funding_received' => candidate.Public_Funding_Received,
         'twitter_url' => candidate.Twitter,
         'votersedge_url' => candidate.VotersEdge,
         'website_url' => candidate.Website,
