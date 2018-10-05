@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2018-11-06.md
 election: _elections/oakland/2018-11-06.md
 committee_name: Anthony Wilson for School Board OUSD 2018
 data_warning: Missing information is preventing display of this candidate's data.

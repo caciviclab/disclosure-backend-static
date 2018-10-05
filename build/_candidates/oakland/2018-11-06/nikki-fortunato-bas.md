@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2018-11-06.md
 election: _elections/oakland/2018-11-06.md
 committee_name: Nikki Fortunato Bas for Oakland City Council 2018
 filer_id: '1400325'

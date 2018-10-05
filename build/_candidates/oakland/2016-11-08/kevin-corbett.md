@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2016-11-08.md
 election: _elections/oakland/2016-11-08.md
 committee_name: Kevin Corbett for Oakland City Council 2016, District 1
 filer_id: '1386081'

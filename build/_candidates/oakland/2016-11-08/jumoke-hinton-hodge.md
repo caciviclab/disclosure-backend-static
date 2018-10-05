@@ -1,5 +1,4 @@
 ---
-ballot: _ballots/oakland/2016-11-08.md
 election: _elections/oakland/2016-11-08.md
 committee_name: Re-Elect Jumoke Hinton Hodge for Oakland School Board 2016
 filer_id: '1386416'
