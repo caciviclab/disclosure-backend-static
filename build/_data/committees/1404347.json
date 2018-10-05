@@ -1,5 +1,5 @@
 {
-  "total_contributions": 63140.0,
+  "total_contributions": 64140.0,
   "contributions": [
     {
       "Filer_ID": "1404347",
@@ -2740,6 +2740,16 @@
       "Tran_NamF": "Christine",
       "Tran_NamL": "Quan",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1404347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-10-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
+      "Tran_Zip4": "94621"
     }
   ]
 }

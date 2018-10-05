@@ -21,8 +21,13 @@
     "total_contributions": 29884.77,
     "total_expenditures": 23254.13,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 7577.83,
+    "total_supporting_independent": 9120.83,
     "support_list": [
+      {
+        "Total": 1543.0,
+        "Filer_ID": 1404085,
+        "Filer_NamL": "California Federation of Teachers COPE"
+      },
       {
         "Total": 7577.83,
         "Filer_ID": 1404085,
@@ -50,6 +55,7 @@
     },
     "supporting_by_type": {
       "IKD": 410.0,
+      "Mailer": 1543.0,
       "Independent Expenditure Supporting/Opposing Others": 1191.83,
       "Mailer in support of Clarissa Doutherd for School Board; OUSD D4": 6386.0
     }

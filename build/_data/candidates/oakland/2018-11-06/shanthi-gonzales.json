@@ -17,8 +17,8 @@
   "party_affiliation": null,
   "filer_id": 1404347,
   "supporting_money": {
-    "contributions_received": 71586.0,
-    "total_contributions": 71586.0,
+    "contributions_received": 72586.0,
+    "total_contributions": 72586.0,
     "total_expenditures": 19105.82,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
@@ -26,13 +26,14 @@
 
     ],
     "contributions_by_type": {
+      "Committee": 1000.0,
       "Individual": 61740.0,
       "Unitemized": 8246.0,
       "Self Funding": 1400.0
     },
     "contributions_by_origin": {
       "Out of State": 14500.0,
-      "Within Oakland": 27065.0,
+      "Within Oakland": 28065.0,
       "Within California": 21575.0
     },
     "expenditures_by_type": {
@@ -53,11 +54,12 @@
 
     ]
   },
-  "contributions_received": 71586.0,
-  "total_contributions": 71586.0,
+  "contributions_received": 72586.0,
+  "total_contributions": 72586.0,
   "total_expenditures": 19105.82,
   "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Committee": 1000.0,
     "Individual": 61740.0,
     "Unitemized": 8246.0,
     "Self Funding": 1400.0
