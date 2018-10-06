@@ -5,7 +5,7 @@ set -euo pipefail
 #    make clean download import
 
 # 2. Fill this section out:
-test_case_dir=spec/fixtures/deduplicate_committee_expenses
+test_case_dir=spec/fixtures/deduplicate_460_497_within_1_day_of_deadline
 
 # 3. Set up your test file such that any objects from the "oakland_"
 # spreadsheets (oakland_candidate, oakland_committee, oakland_name_to_number,
@@ -49,8 +49,18 @@ dump_candidate_metadata() {
 dump_committe_expenditures() {
   filer_id=$1
   output_directory=$2
+  psql disclosure-backend <<QUERY > "${output_directory}/D-Expenditure.csv"
+  copy (select * from "D-Expenditure" where "Filer_ID" = '${filer_id}')
+    to stdout with csv header delimiter ',';
+QUERY
+
   psql disclosure-backend <<QUERY > "${output_directory}/E-Expenditure.csv"
   copy (select * from "E-Expenditure" where "Filer_ID" = '${filer_id}')
+    to stdout with csv header delimiter ',';
+QUERY
+
+  psql disclosure-backend <<QUERY > "${output_directory}/496.csv"
+  copy (select * from "496" where "Filer_ID" = '${filer_id}')
     to stdout with csv header delimiter ',';
 QUERY
 }
@@ -94,8 +104,8 @@ init_test_case() {
 # Change this as necessary for the script:
 set -x
 init_test_case $test_case_dir
-dump_summary_data '1400467' $test_case_dir
-dump_committe_expenditures '1400467' $test_case_dir
+dump_summary_data '1331137' $test_case_dir
+dump_committe_expenditures '1331137' $test_case_dir # Families & Educators
 
-# dump_contributions_for_filer_id "1385949" $test_case_dir # Just Cause
+# dump_contributions_for_filer_id "1331137" $test_case_dir # Families & Educators
 # dump_contributions_for_filer_id "1364564" $test_case_dir # Committee to Protect Oakland Renters - Yes on Measure JJ
