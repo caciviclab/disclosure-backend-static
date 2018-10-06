@@ -40,4 +40,35 @@ RSpec.describe ReferendumSupportersCalculator do
       expect(calculation['amount']).to eq(145_418.42)
     end
   end
+
+  describe 'including committees that have raised, but not spent, money' do
+    before do
+      import_test_case('spec/fixtures/referendum_supporters_without_expenditures_are_included')
+
+      OaklandCommittee.create(
+        Filer_ID: '1410941',
+        Filer_NamL: 'Committee for Better Choices, No on Measure AA',
+        Ballot_Measure: 'AA',
+        Ballot_Measure_Election: 'oakland-2018',
+        Support_Or_Oppose: 'O'
+      )
+
+      described_class.new(ballot_measures: [ballot_measure]).fetch
+    end
+
+    let(:ballot_measure) do
+      OaklandReferendum.create(
+        election_name: 'oakland-2018',
+        Measure_number: 'AA',
+        Short_Title: "Oakland Children's Initiative",
+      )
+    end
+
+    subject { ballot_measure.calculation(:opposing_organizations) }
+
+    it 'includes the committee in the supporters list' do
+      expect(subject).to_not be_empty
+      expect(subject).to include(hash_including('name' => 'Committee for Better Choices, No on Measure AA'))
+    end
+  end
 end
