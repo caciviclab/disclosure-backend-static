@@ -6,7 +6,7 @@ RSpec.describe TotalContributionsCalculator do
   let(:cat_brooks) do
     OaklandCandidate.create(
       election_name: 'oakland-2018',
-      Candidate: 'Sheilagh “Cat Brooks” Polk',
+      Candidate: 'Cat Brooks',
       Committee_Name: 'Sheilagh Polk “Cat Brooks” for Mayor 2018',
       FPPC: '1405474',
       Office: 'Mayor',
