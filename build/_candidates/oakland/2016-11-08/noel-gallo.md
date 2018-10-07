@@ -8,6 +8,7 @@ name: Noel Gallo
 occupation: City Council member
 party_affiliation: Democrat
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png
+public_funding_received: "$35,843.75"
 twitter_url: noelgallo5
 votersedge_url: http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13237/candidate/130759?&county=Alameda%20County&election_authority_id=1
 website_url: http://galloforoakland.com/

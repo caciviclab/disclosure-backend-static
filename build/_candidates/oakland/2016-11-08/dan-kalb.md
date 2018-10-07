@@ -8,6 +8,7 @@ name: Dan Kalb
 occupation: City Council member
 party_affiliation: Democrat
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png
+public_funding_received: "$35,843.75"
 twitter_url: dankalb
 votersedge_url: http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13235/candidate/130756?&county=Alameda%20County&election_authority_id=1
 website_url: https://dankalb.net

@@ -6,5 +6,6 @@ is_incumbent: false
 name: Donte Kenzie Smith
 occupation: Business Owner
 photo_url: Carlos-'Kenzie'-Smith.png
+public_funding_received: Not eligible
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17339/candidate/139755?&county=alameda%20county&election_authority_id=1
 ---

@@ -4,5 +4,6 @@ locality: sf
 number: D
 title: Additional Tax on Commercial Rents Mostly to Fund Housing and Homelessness
   Services
+data_warning: 
 ---
 

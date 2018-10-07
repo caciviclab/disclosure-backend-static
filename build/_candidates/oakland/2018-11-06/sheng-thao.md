@@ -7,6 +7,7 @@ is_incumbent: false
 name: Sheng Thao
 occupation: Chief of Staff
 photo_url: Sheng-Thao.png
+public_funding_received: "$7,469"
 twitter_url: sheng_tha0
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17340/candidate/139762?&county=alameda%20county&election_authority_id=1
 website_url: https://www.shengforoakland.com/
