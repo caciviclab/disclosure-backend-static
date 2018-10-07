@@ -6,17 +6,20 @@ class CommitteeContributionListCalculator
 
   def fetch
     results = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
-        "Tran_Zip4", "Tran_Occ", "Tran_Emp"
-      FROM all_contributions
-      JOIN (
-        SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date" FROM oakland_committees
+      WITH all_committees AS (
+        SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date"
+        FROM oakland_committees
         WHERE NOT EXISTS (SELECT * FROM oakland_candidates
                           WHERE "FPPC"::varchar = "Filer_ID")
         UNION ALL
-        SELECT "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date" FROM oakland_candidates
-      ) committees
-      ON committees."Filer_ID" = all_contributions."Filer_ID"
+        SELECT "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
+        FROM oakland_candidates
+      )
+      SELECT all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
+        "Tran_Zip4", "Tran_Occ", "Tran_Emp"
+      FROM all_contributions
+      JOIN all_committees
+      ON all_committees."Filer_ID" = all_contributions."Filer_ID"
       AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
       AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
       ORDER BY "Tran_Date" ASC, CONCAT("Tran_NamL", "Tran_NamF"), "Tran_Amt1" ASC

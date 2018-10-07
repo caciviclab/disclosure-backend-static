@@ -7,7 +7,7 @@ CD := $(shell pwd)
 WGET=bin/wget-wrapper -O- --no-verbose --tries=3
 
 clean-spreadsheets:
-	rm -rf downloads/csv/oakland_*.csv office_elections.csv measure_committees.csv
+	rm -rf downloads/csv/oakland_*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
 
 clean:
 	rm -rf downloads/raw downloads/csv
