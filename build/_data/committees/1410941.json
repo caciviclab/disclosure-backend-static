@@ -1,5 +1,5 @@
 {
-  "total_contributions": 43125.0,
+  "total_contributions": 44625.0,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -190,6 +190,16 @@
       "Tran_NamF": "Gerald R.",
       "Tran_NamL": "Pamp",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2018-10-06",
+      "Tran_NamF": "Carlton",
+      "Tran_NamL": "Jones",
+      "Tran_Zip4": "94705"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 499919.88,
+  "total_contributions": 500919.88,
   "contributions": [
     {
       "Filer_ID": "1403165",
@@ -470,6 +470,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unite Here",
       "Tran_Zip4": "10001"
+    },
+    {
+      "Filer_ID": "1403165",
+      "Tran_Emp": "ComCon International",
+      "Tran_Occ": "Founder",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-10-05",
+      "Tran_NamF": "Roselyne",
+      "Tran_NamL": "Swig",
+      "Tran_Zip4": "94118"
     }
   ]
 }
