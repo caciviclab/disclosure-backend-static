@@ -181,7 +181,8 @@ OaklandCandidate.find_each do |committee|
       'filer_id' => committee.FPPC.to_s,
       'name' => committee.Committee_Name,
       'candidate_controlled_id' => '',
-      'title' => committee.Committee_Name
+      'title' => committee.Committee_Name,
+      'data_warning' => committee.data_warning,
     ))
     f.puts('---')
   end
