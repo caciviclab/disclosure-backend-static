@@ -105,12 +105,12 @@ CREATE VIEW combined_contributions AS
 
 DROP VIEW IF EXISTS independent_candidate_expenditures;
 CREATE VIEW independent_candidate_expenditures AS
-  SELECT "FPPC" AS "Filer_ID", "Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
+  SELECT "FPPC" AS candidate_filer_id, "Filer_ID", "Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
   FROM (
-    SELECT "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
+    SELECT "Filer_ID", "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
     FROM "496"
     UNION ALL
-    SELECT "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL",
+    SELECT "Filer_ID", "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL",
     "Amount", "Sup_Opp_Cd"
     FROM "D-Expenditure"
     WHERE "Expn_Code" = 'IND'
