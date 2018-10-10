@@ -25,8 +25,9 @@
     "support_list": [
       {
         "Total": 10990.0,
-        "Filer_ID": 1236617,
-        "Filer_NamL": "East Bay Working Families, a coalition of unions and community groups"
+        "Filer_ID": "1390351",
+        "Filer_NamL": "East Bay Working Families, a coalition of unions and community groups",
+        "candidate_filer_id": "1236617"
       }
     ],
     "contributions_by_type": {
@@ -63,26 +64,17 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 38154.0,
+    "opposing_expenditures": 13523.0,
     "opposing_by_type": {
       "IND OF LIT": 8052.0,
-      "IND OF CANVASSING": 5471.0,
-      "Postage Billed through Printpro": 3275.0,
-      "LIT Voter information / list for mailings": 258.0,
-      "LIT  Campaign Lit and Mailings printing of campaign Q\u0026A Brochure": 6854.0,
-      "LIT Campaign Lit and Mailings printed material Voter Guide Brochure": 7122.0,
-      "LIT Campaign Lit and Mailings Printed Material Step by Step brochure": 7122.0
+      "IND OF CANVASSING": 5471.0
     },
     "opposition_list": [
       {
-        "Total": 24631.0,
-        "Filer_ID": 1236617,
-        "Filer_NamL": "Citizens for a United Oakland, Opposing Desley Brooks for City Council"
-      },
-      {
         "Total": 13523.0,
-        "Filer_ID": 1236617,
-        "Filer_NamL": "OAKLANDERS FOR RESPONSIBLE LEADERSHIP, OPPOSING DESLEY BROOKS FOR OAKLAND CITY COUNCIL 2018"
+        "Filer_ID": "1410279",
+        "Filer_NamL": "OAKLANDERS FOR RESPONSIBLE LEADERSHIP, OPPOSING DESLEY BROOKS FOR OAKLAND CITY COUNCIL 2018",
+        "candidate_filer_id": "1236617"
       }
     ]
   },
