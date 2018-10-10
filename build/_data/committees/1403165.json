@@ -1,5 +1,5 @@
 {
-  "total_contributions": 500919.88,
+  "total_contributions": 503419.88,
   "contributions": [
     {
       "Filer_ID": "1403165",
@@ -480,6 +480,16 @@
       "Tran_NamF": "Roselyne",
       "Tran_NamL": "Swig",
       "Tran_Zip4": "94118"
+    },
+    {
+      "Filer_ID": "1403165",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "IFPTE Local 21",
+      "Tran_Zip4": "94103"
     }
   ]
 }

@@ -7,30 +7,30 @@
   "number": "Z",
   "contributions_by_region": [
     {
-      "amount": 97500.0,
+      "amount": 99500.0,
       "locale": "Out of State"
     },
     {
-      "amount": 123845.0,
+      "amount": 131205.92,
       "locale": "Within California"
     },
     {
-      "amount": 310303.53,
+      "amount": 357838.49,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 27195.0
+      "amount": 29695.0
     },
     {
       "type": "Individual",
-      "amount": 82150.0
+      "amount": 84510.92
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 422303.53
+      "amount": 474338.49
     }
   ],
   "supporting_organizations": [
@@ -38,7 +38,7 @@
       "id": "1405491",
       "name": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
       "payee": "East Bay Alliance for a Sustainable Economy (EBASE) nonprofit 501(c)(3)",
-      "amount": 30728.65
+      "amount": 85124.53
     },
     {
       "id": "1405491",
@@ -53,5 +53,5 @@
       "amount": 413161.13
     }
   ],
-  "total_contributions": 531648.53
+  "total_contributions": 588544.41
 }
