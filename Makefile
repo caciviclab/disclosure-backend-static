@@ -8,6 +8,7 @@ WGET=bin/wget-wrapper -O- --no-verbose --tries=3
 
 clean-spreadsheets:
 	rm -rf downloads/csv/oakland_*.csv
+	rm -rf downloads/csv/office_elections.csv
 
 clean:
 	rm -rf downloads/raw downloads/csv
