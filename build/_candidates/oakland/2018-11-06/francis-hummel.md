@@ -7,7 +7,6 @@ is_incumbent: false
 name: Francis Hummel
 occupation: Carpenter
 photo_url: Matt-Francis-Hummel.png
-public_funding_received: Pending approval
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17340/candidate/139757?&county=alameda%20county&election_authority_id=1
 website_url: https://www.facebook.com/fmatt.hummel
 ---

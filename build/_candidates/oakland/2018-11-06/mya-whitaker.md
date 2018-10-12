@@ -7,7 +7,6 @@ is_incumbent: false
 name: Mya Whitaker
 occupation: Nonprofit Program Director
 photo_url: Mya-Whitaker.png
-public_funding_received: Not eligible
 twitter_url: whitfordist6
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17341/candidate/139767?&county=alameda%20county&election_authority_id=1
 website_url: https://whitakerforoakland.com

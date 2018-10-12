@@ -11,7 +11,6 @@ is_incumbent: true
 name: Desley Brooks
 occupation: Councilmember
 photo_url: Desley-Brooks.png
-public_funding_received: Did not apply
 twitter_url: desleyb
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17341/candidate/139763?&county=alameda%20county&election_authority_id=1
 ---

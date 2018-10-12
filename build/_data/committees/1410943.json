@@ -1,5 +1,5 @@
 {
-  "total_contributions": 238436.66,
+  "total_contributions": 270936.66000000003,
   "contributions": [
     {
       "Filer_ID": "1410943",
@@ -160,6 +160,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Wilson Associates",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 32500.0,
+      "Tran_Date": "2018-10-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Califorina Association of Realtors Issues Mobilization PAC (IMPAC)",
+      "Tran_Zip4": "90020"
     }
   ]
 }
