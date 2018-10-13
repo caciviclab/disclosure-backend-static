@@ -1,5 +1,5 @@
 {
-  "total_contributions": 68608.34,
+  "total_contributions": 80608.34,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -270,6 +270,26 @@
       "Tran_NamF": null,
       "Tran_NamL": "Lasalle Keller, LLC",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "RFN Realty",
+      "Tran_Occ": "Real Estate Agent",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Peter",
+      "Tran_NamL": "Consos",
+      "Tran_Zip4": "94526"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Flynn Investments",
+      "Tran_Occ": "Partner",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Russell",
+      "Tran_NamL": "Flynn",
+      "Tran_Zip4": "94133"
     }
   ]
 }

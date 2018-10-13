@@ -11,7 +11,7 @@
       "locale": "Out of State"
     },
     {
-      "amount": 788200.0,
+      "amount": 851200.0,
       "locale": "Within California"
     },
     {
@@ -22,11 +22,11 @@
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 12000.0
+      "amount": 25000.0
     },
     {
       "type": "Individual",
-      "amount": 594663.6
+      "amount": 644663.6
     },
     {
       "type": "Other (includes Businesses)",
@@ -41,5 +41,5 @@
       "amount": 908102.41
     }
   ],
-  "total_contributions": 1461088.6
+  "total_contributions": 1524088.6
 }

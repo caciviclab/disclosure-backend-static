@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1461088.6,
+  "total_contributions": 1524088.6,
   "contributions": [
     {
       "Filer_ID": "1310647",
@@ -930,6 +930,26 @@
       "Tran_NamF": null,
       "Tran_NamL": "RAD Urban",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 13000.0,
+      "Tran_Date": "2018-10-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "AT&T Inc. and its Affiliates",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "Orton Development  Inc.",
+      "Tran_Occ": "President",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2018-10-12",
+      "Tran_NamF": "Julian R.",
+      "Tran_NamL": "Orton",
+      "Tran_Zip4": "94608"
     }
   ]
 }

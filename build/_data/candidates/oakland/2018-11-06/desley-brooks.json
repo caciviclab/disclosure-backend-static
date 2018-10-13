@@ -69,14 +69,16 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 60039.21,
+    "opposing_expenditures": 66639.21,
     "opposing_by_type": {
+      "Filing fee": 50.0,
       "IND OF CNS": 1667.0,
       "IND OF LIT": 8543.0,
       "IND OF PHO": 3003.0,
       "IND OF POL": 4570.0,
       "IND OF CANVASSING": 5471.0,
       "IND OF LIT (ESTIMATE)": 7551.0,
+      "Postage paid by Printpro": 6550.0,
       "Postage Billed through Printpro": 3275.0,
       "LIT Voter information / list for mailings": 258.0,
       "Independent Expenditure Supporting/Opposing Others": 4603.21,
@@ -86,7 +88,7 @@
     },
     "opposition_list": [
       {
-        "Total": 24631.0,
+        "Total": 31231.0,
         "Filer_ID": 1236617,
         "Filer_NamL": "Citizens for a United Oakland, Opposing Desley Brooks for City Council"
       },
