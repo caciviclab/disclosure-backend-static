@@ -17,8 +17,8 @@
   "party_affiliation": null,
   "filer_id": 1408555,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "total_supporting_independent": 0.0,
@@ -42,8 +42,8 @@
 
     ]
   },
-  "contributions_received": null,
-  "total_contributions": null,
+  "contributions_received": 0.0,
+  "total_contributions": 0.0,
   "total_expenditures": null,
   "total_loans_received": null,
   "contributions_by_type": {
