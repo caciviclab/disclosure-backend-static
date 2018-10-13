@@ -8,25 +8,31 @@ class ReferendumContributionsByOrigin
       WITH contributions_by_locale AS (
         SELECT "Filer_ID",
         CASE
-          WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'
+          WHEN TRIM(LOWER("Tran_City")) = LOWER(location) THEN CONCAT('Within ', location)
           WHEN UPPER("Tran_State") = 'CA' THEN 'Within California'
           ELSE 'Out of State'
         END AS locale,
         SUM("Tran_Amt1") AS total
-        FROM combined_contributions
+        FROM measure_contributions
         GROUP BY "Filer_ID", locale
       )
       SELECT
         "Ballot_Measure_Election" AS "Election",
         "Ballot_Measure" AS "Measure_Number",
         "Support_Or_Oppose" AS "Sup_Opp_Cd",
-        contributions_by_locale.locale,
-        SUM(contributions_by_locale.total) as total
-      FROM contributions_by_locale
+        CASE
+          WHEN TRIM(LOWER("Tran_City")) = LOWER(location) THEN CONCAT('Within ', location)
+          WHEN UPPER("Tran_State") = 'CA' THEN 'Within California'
+          ELSE 'Out of State'
+        END AS locale,
+        SUM("Tran_Amt1") as total
+      FROM measure_contributions
       INNER JOIN oakland_committees committees
-        ON committees."Filer_ID"::varchar = contributions_by_locale."Filer_ID"::varchar
-      GROUP BY "Election", "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale
-      ORDER BY "Election", "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
+        ON committees."Filer_ID"::varchar = measure_contributions."Filer_ID"::varchar
+        AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
+        AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
+      GROUP BY "Election", "Ballot_Measure", "Support_Or_Oppose", locale
+      ORDER BY "Election", "Ballot_Measure", "Support_Or_Oppose", locale;
     SQL
 
     support = {}

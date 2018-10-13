@@ -57,7 +57,7 @@ class CandidateContributionsByType
             ELSE 'SLF'
           END AS "Cd",
           SUM("Tran_Amt1") AS "Total"
-        FROM combined_contributions
+        FROM candidate_contributions
         LEFT OUTER JOIN "oakland_candidates"
           ON "FPPC"::varchar = "Filer_ID"
           AND (

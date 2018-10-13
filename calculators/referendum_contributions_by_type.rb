@@ -14,27 +14,22 @@ class ReferendumContributionsByType
 
   def fetch
     contributions = ActiveRecord::Base.connection.execute(<<-SQL)
-      WITH contributions_by_type AS (
-        SELECT "Filer_ID",
-        CASE
-          WHEN "Entity_Cd" = 'SCC' THEN 'COM'
-          ELSE "Entity_Cd"
-        END AS type,
-        SUM("Tran_Amt1") AS total
-        FROM combined_contributions
-        GROUP BY "Filer_ID", type
-      )
       SELECT
         "Ballot_Measure_Election" AS "Election",
         "Ballot_Measure" AS "Measure_Number",
         "Support_Or_Oppose" AS "Sup_Opp_Cd",
-        contributions_by_type.type,
-        SUM(contributions_by_type.total) as total
-      FROM contributions_by_type
+        CASE
+          WHEN "Entity_Cd" = 'SCC' THEN 'COM'
+          ELSE "Entity_Cd"
+        END AS type,
+        SUM("Tran_Amt1") as total
+      FROM measure_contributions contributions
       INNER JOIN oakland_committees committees
-        ON committees."Filer_ID" = contributions_by_type."Filer_ID"
-      GROUP BY "Election", "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type
-      ORDER BY "Election", "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type;
+        ON committees."Filer_ID" = contributions."Filer_ID"
+        AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
+        AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
+      GROUP BY "Election", "Ballot_Measure", "Support_Or_Oppose", type
+      ORDER BY "Election", "Ballot_Measure", "Support_Or_Oppose", type;
     SQL
 
     support = {}
