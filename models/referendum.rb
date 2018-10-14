@@ -1,4 +1,4 @@
-class OaklandReferendum < ActiveRecord::Base
+class Referendum < ActiveRecord::Base
   has_many :calculations, as: :subject
 
   def calculation(name)

@@ -24,7 +24,7 @@ CREATE VIEW "Measure_Expenditures" AS
     "Payee_NamL" as "Recipient_Or_Description",
     'E name' as "Form"
   FROM
-    "E-Expenditure", oakland_name_to_number
+    "E-Expenditure", name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
   UNION ALL
 
@@ -41,7 +41,7 @@ CREATE VIEW "Measure_Expenditures" AS
     "Expn_Dscr" as "Recipient_Or_Description",
     '496' as "Form"
   FROM
-    "496", oakland_name_to_number
+    "496", name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
   AND "Sup_Opp_Cd" IS NOT NULL
   UNION ALL
@@ -60,11 +60,11 @@ CREATE VIEW "Measure_Expenditures" AS
     'E number' as "Form"
   FROM
     "E-Expenditure" expend
-  JOIN oakland_committees committee
+  JOIN committees committee
       ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
       AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
       AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date")
-  JOIN oakland_name_to_number ON "Ballot_Measure" = "Measure_Number"
+  JOIN name_to_number ON "Ballot_Measure" = "Measure_Number"
     AND "Ballot_Measure_Election" = "election_name"
   WHERE "Bal_Name" IS NULL
     AND "Ballot_Measure" IS NOT NULL
@@ -105,12 +105,12 @@ CREATE VIEW candidate_contributions AS
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
       "Tran_Occ", "Tran_Emp", elections.location
 FROM all_contributions
-  JOIN oakland_candidates
+  JOIN candidates
   ON "FPPC"::varchar = all_contributions."Filer_ID"
   AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
   AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
   JOIN elections
-  ON oakland_candidates.election_name = elections.name;
+  ON candidates.election_name = elections.name;
 
 CREATE VIEW measure_contributions AS
   SELECT all_contributions."Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
@@ -119,7 +119,7 @@ CREATE VIEW measure_contributions AS
 FROM all_contributions
   JOIN (
     SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date", "Ballot_Measure_Election"
-    FROM oakland_committees
+    FROM committees
     WHERE "Ballot_Measure_Election" IS NOT NULL
   ) committees
   ON committees."Filer_ID" = all_contributions."Filer_ID"
@@ -145,7 +145,7 @@ CREATE VIEW independent_candidate_expenditures AS
     FROM "D-Expenditure"
     WHERE "Expn_Code" = 'IND'
   ) AS all_data
-  JOIN "oakland_candidates"
+  JOIN "candidates"
   ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
     OR LOWER("Aliases") LIKE LOWER(CONCAT('%', TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL")), '%'))
   WHERE ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")

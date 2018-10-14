@@ -27,7 +27,7 @@ class ReferendumContributionsByOrigin
         END AS locale,
         SUM("Tran_Amt1") as total
       FROM measure_contributions
-      INNER JOIN oakland_committees committees
+      INNER JOIN committees committees
         ON committees."Filer_ID"::varchar = measure_contributions."Filer_ID"::varchar
         AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
         AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")

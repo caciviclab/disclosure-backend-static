@@ -24,7 +24,7 @@ class ReferendumContributionsByType
         END AS type,
         SUM("Tran_Amt1") as total
       FROM measure_contributions contributions
-      INNER JOIN oakland_committees committees
+      INNER JOIN committees committees
         ON committees."Filer_ID" = contributions."Filer_ID"
         AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
         AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")

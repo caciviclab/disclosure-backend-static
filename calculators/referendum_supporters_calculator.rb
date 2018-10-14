@@ -118,21 +118,21 @@ class ReferendumSupportersCalculator
   def augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name)
     committees_with_contributions = ActiveRecord::Base.connection.execute(<<-SQL)
     SELECT
-      oakland_committees."Filer_ID",
-      oakland_committees."Filer_NamL",
-      oakland_committees."Ballot_Measure",
-      oakland_committees."Ballot_Measure_Election",
-      oakland_committees."Support_Or_Oppose"
+      committees."Filer_ID",
+      committees."Filer_NamL",
+      committees."Ballot_Measure",
+      committees."Ballot_Measure_Election",
+      committees."Support_Or_Oppose"
     FROM measure_contributions
-    INNER JOIN oakland_committees
-      ON oakland_committees."Filer_ID" = measure_contributions."Filer_ID"
+    INNER JOIN committees
+      ON committees."Filer_ID" = measure_contributions."Filer_ID"
     WHERE "Ballot_Measure" IS NOT NULL
     GROUP BY
-      oakland_committees."Filer_ID",
-      oakland_committees."Filer_NamL",
-      oakland_committees."Ballot_Measure",
-      oakland_committees."Ballot_Measure_Election",
-      oakland_committees."Support_Or_Oppose";
+      committees."Filer_ID",
+      committees."Filer_NamL",
+      committees."Ballot_Measure",
+      committees."Ballot_Measure_Election",
+      committees."Support_Or_Oppose";
     SQL
     committees_with_contributions.each do |row|
       election_name = row['Ballot_Measure_Election']

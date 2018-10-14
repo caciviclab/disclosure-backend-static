@@ -7,7 +7,7 @@ class TotalExpendituresCalculator
   def fetch
     results = ActiveRecord::Base.connection.execute <<-SQL
       SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A"
-      FROM "Summary", oakland_candidates
+      FROM "Summary", candidates
       WHERE "Filer_ID" = "FPPC"::varchar
       AND "Form_Type" = 'F460'
       AND "Line_Item" = '11'

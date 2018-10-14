@@ -7,8 +7,8 @@ set -euo pipefail
 # 2. Fill this section out:
 test_case_dir=spec/fixtures/referendum_supporters_without_expenditures_are_included
 
-# 3. Set up your test file such that any objects from the "oakland_"
-# spreadsheets (oakland_candidate, oakland_committee, oakland_name_to_number,
+# 3. Set up your test file such that any objects from the ""
+# spreadsheets (candidate, committee, name_to_number,
 # etc.) are created in a `before` block before your test is run and not as part
 # of this test case.
 
@@ -39,9 +39,9 @@ dump_candidate_metadata() {
   candidate_name=$1
   output_directory=$2
 
-  output_file="${output_directory}/oakland_candidates.csv"
+  output_file="${output_directory}/candidates.csv"
   header=$([ -f "${output_file}" ] && true || echo "header")
-  sed -n '1p; /'${candidate_name}'/p' downloads/csv/oakland_candidates.csv > \
+  sed -n '1p; /'${candidate_name}'/p' downloads/csv/candidates.csv > \
     $output_file
 }
 

@@ -40,7 +40,7 @@ SORT_PATTERNS = [
 ]
 
 # first, create any missing OfficeElection records for all the offices to assign them IDs
-OaklandCandidate.select(:Office, :election_name).order(:Office, :election_name).distinct.each do |office|
+Candidate.select(:Office, :election_name).order(:Office, :election_name).distinct.each do |office|
   OfficeElection
     .where(title: office.Office, election_name: office.election_name)
     .first_or_create
@@ -59,9 +59,9 @@ Dir.glob('calculators/*').each do |calculator_file|
     calculator_class = class_name.constantize
     calculator_class
       .new(
-        candidates: OaklandCandidate.all,
-        ballot_measures: OaklandReferendum.all,
-        committees: OaklandCommittee.all
+        candidates: Candidate.all,
+        ballot_measures: Referendum.all,
+        committees: Committee.all
       )
       .fetch
   rescue NameError => ex
@@ -80,7 +80,7 @@ end
 ELECTIONS.each do |election_name, election|
   locality, _time = election_name.split('-', 2)
   office_elections = OfficeElection.where(election_name: election_name)
-  referendums = OaklandReferendum.where(election_name: election_name).pluck(:Short_Title).uniq
+  referendums = Referendum.where(election_name: election_name).pluck(:Short_Title).uniq
   election_path = "/_elections/#{locality}/#{election[:date]}.md"
   office_elections_by_label = office_elections.group_by(&:label)
   election_content = YAML.dump(
@@ -106,7 +106,7 @@ ELECTIONS.each do |election_name, election|
   end
 
   # /_candidates/abel-guillen.md
-  OaklandCandidate.where(election_name: election_name).each do |candidate|
+  Candidate.where(election_name: election_name).each do |candidate|
     build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
       f.puts(YAML.dump({
         'election' => "_elections/#{locality}/#{election[:date]}.md",
@@ -129,7 +129,7 @@ ELECTIONS.each do |election_name, election|
   end
 
   # /_data/candidates/oakland/2016-11-06/libby-schaaf.json
-  OaklandCandidate
+  Candidate
     .where(election_name: election_name)
     .includes(:office_election, :calculations)
     .find_each do |candidate|
@@ -144,7 +144,7 @@ ELECTIONS.each do |election_name, election|
   OfficeElection.where(election_name: election_name).find_each do |office_election|
     build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md") do |f|
       candidates =
-        OaklandCandidate
+        Candidate
           .where(Office: office_election.title, election_name: election_name)
           .sort_by do |candidate|
             [-1 * (candidate.calculation(:total_contributions) || 0.0), candidate.Candidate]
@@ -163,7 +163,7 @@ ELECTIONS.each do |election_name, election|
 end
 
 # /_committees/1386416.md
-OaklandCommittee.find_each do |committee|
+Committee.find_each do |committee|
   build_file("/_committees/#{committee.Filer_ID}.md") do |f|
     f.puts(YAML.dump(
       'filer_id' => committee.Filer_ID.to_s,
@@ -176,7 +176,7 @@ OaklandCommittee.find_each do |committee|
     f.puts('---')
   end
 end
-OaklandCandidate.find_each do |committee|
+Candidate.find_each do |committee|
   build_file("/_committees/#{committee.FPPC}.md") do |f|
     f.puts(YAML.dump(
       'filer_id' => committee.FPPC.to_s,
@@ -190,7 +190,7 @@ OaklandCandidate.find_each do |committee|
 end
 
 # /_data/contributions/1229791.json
-OaklandCommittee.includes(:calculations).find_each do |committee|
+Committee.includes(:calculations).find_each do |committee|
   next if committee['Filer_ID'].nil?
   next if committee['Filer_ID'] =~ /pending/i
 
@@ -202,7 +202,7 @@ OaklandCommittee.includes(:calculations).find_each do |committee|
   end
 end
 
-OaklandReferendum.includes(:calculations).find_each do |referendum|
+Referendum.includes(:calculations).find_each do |referendum|
   locality, _year = referendum.election_name.split('-', 2)
   election = ELECTIONS[referendum.election_name]
   title = slugify(referendum['Short_Title'])

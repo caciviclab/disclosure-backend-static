@@ -7,7 +7,7 @@ CD := $(shell pwd)
 WGET=bin/wget-wrapper --no-verbose --tries=3
 
 clean-spreadsheets:
-	rm -rf downloads/csv/oakland_*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
+	rm -rf downloads/csv/*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
 
 clean:
 	rm -rf downloads/raw downloads/csv
@@ -15,8 +15,8 @@ clean:
 process: process.rb
 	rm -rf build && ruby process.rb
 
-download-spreadsheets: downloads/csv/oakland_candidates.csv downloads/csv/oakland_committees.csv \
-	downloads/csv/oakland_referendums.csv downloads/csv/oakland_name_to_number.csv \
+download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
+	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
 	downloads/csv/office_elections.csv downloads/csv/elections.csv
 
 download-cached:
@@ -66,17 +66,17 @@ prep-import-spreadsheets:
 
 
 do-import-spreadsheets:
-	echo 'DROP TABLE IF EXISTS oakland_candidates;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_candidates.csv
-	echo 'ALTER TABLE "oakland_candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
-	echo 'DROP TABLE IF EXISTS oakland_referendums;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_referendums.csv
-	echo 'ALTER TABLE "oakland_referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
-	echo 'DROP TABLE IF EXISTS oakland_name_to_number;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_name_to_number.csv
-	echo 'DROP TABLE IF EXISTS oakland_committees;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/oakland_committees.csv
-	echo 'ALTER TABLE "oakland_committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS candidates;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/candidates.csv
+	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/referendums.csv
+	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/name_to_number.csv
+	echo 'DROP TABLE IF EXISTS committees;' | psql $(DATABASE_NAME)
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/committees.csv
+	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
 	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
@@ -100,7 +100,7 @@ createdb:
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
 
-downloads/csv/oakland_candidates.csv:
+downloads/csv/candidates.csv:
 	mkdir -p downloads/csv downloads/raw
 	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=0&single=true&output=csv' | \
@@ -114,21 +114,21 @@ downloads/csv/office_elections.csv:
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
-downloads/csv/oakland_referendums.csv:
+downloads/csv/referendums.csv:
 	mkdir -p downloads/csv downloads/raw
 	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=608094632&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
-downloads/csv/oakland_name_to_number.csv:
+downloads/csv/name_to_number.csv:
 	mkdir -p downloads/csv
 	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=102954444&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
-downloads/csv/oakland_committees.csv:
+downloads/csv/committees.csv:
 	mkdir -p downloads/csv
 	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=1015408103&single=true&output=csv' | \
