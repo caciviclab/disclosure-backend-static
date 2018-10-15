@@ -7,15 +7,15 @@ class CandidateOpposingExpenditure
   def fetch
     # Get the total expenditures against candidates by date.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Filer_ID", "Filer_NamL", SUM("Amount") as "Total"
+      SELECT "Cand_ID", "Filer_ID", "Filer_NamL", SUM("Amount") as "Total"
       FROM independent_candidate_expenditures
       WHERE "Sup_Opp_Cd" = 'O'
-      GROUP BY "Filer_ID", "Filer_NamL";
+      GROUP BY "Cand_ID", "Filer_ID", "Filer_NamL";
     SQL
 
     total = {}
     expenditure_against_candidate = expenditures.each_with_object({}) do |row, hash|
-      filer_id = row['Filer_ID'].to_s
+      filer_id = row['Cand_ID'].to_s
       total[filer_id] ||= 0
       total[filer_id] += row['Total']
 
