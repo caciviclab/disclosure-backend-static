@@ -1,5 +1,5 @@
 {
-  "total_contributions": 273936.66000000003,
+  "total_contributions": 275936.66000000003,
   "contributions": [
     {
       "Filer_ID": "1410943",
@@ -190,6 +190,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Merit Enterprises",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": "Greer Painting",
+      "Tran_Occ": "Owner",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2018-10-16",
+      "Tran_NamF": "Gregory Clark",
+      "Tran_NamL": "Greer",
+      "Tran_Zip4": "94549"
     }
   ]
 }
