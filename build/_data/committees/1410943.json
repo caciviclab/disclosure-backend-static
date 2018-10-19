@@ -1,5 +1,5 @@
 {
-  "total_contributions": 275936.66000000003,
+  "total_contributions": 465936.66000000003,
   "contributions": [
     {
       "Filer_ID": "1410943",
@@ -200,6 +200,16 @@
       "Tran_NamF": "Gregory Clark",
       "Tran_NamL": "Greer",
       "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 190000.0,
+      "Tran_Date": "2018-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Association of Realtors",
+      "Tran_Zip4": "60611"
     }
   ]
 }

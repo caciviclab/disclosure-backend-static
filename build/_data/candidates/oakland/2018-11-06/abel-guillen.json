@@ -1,5 +1,5 @@
 {
-  "id": 38,
+  "id": 37,
   "name": "Abel Guillén",
   "photo_url": "abel_guillen.png",
   "website_url": "http://www.voteabelguillen.com/",
@@ -21,9 +21,14 @@
     "total_contributions": 173043.0,
     "total_expenditures": 77582.62,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 6949.0,
     "support_list": [
-
+      {
+        "Total": 6949.0,
+        "Cand_ID": 1395580,
+        "Filer_ID": "892160",
+        "Filer_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55"
+      }
     ],
     "contributions_by_type": {
       "Committee": 26503.0,
@@ -53,11 +58,16 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 2205.0,
     "opposing_by_type": {
     },
     "opposition_list": [
-
+      {
+        "Total": 2205.0,
+        "Cand_ID": 1395580,
+        "Filer_ID": "1390351",
+        "Filer_NamL": "East Bay Working Families, a coalition of unions and community groups"
+      }
     ]
   },
   "contributions_received": 173043.0,
