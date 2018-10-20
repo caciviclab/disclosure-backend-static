@@ -21,9 +21,14 @@
     "total_contributions": 466393.16,
     "total_expenditures": 137069.45,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 7500.0,
     "support_list": [
-
+      {
+        "Total": 7500.0,
+        "Cand_ID": 1395968,
+        "Filer_ID": "1253609",
+        "Filer_NamL": "OUTFRONT MEDIA LLC"
+      }
     ],
     "contributions_by_type": {
       "Committee": 12600.0,
@@ -51,7 +56,8 @@
       "Information Technology Costs (Internet, E-mail)": 975.0
     },
     "supporting_by_type": {
-      "MON": 3400.0
+      "MON": 3400.0,
+      "EST. COST OF BILLBOARDS 10/18 - 11/6": 7500.0
     }
   },
   "opposing_money": {
