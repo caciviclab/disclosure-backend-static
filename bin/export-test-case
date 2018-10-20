@@ -7,7 +7,7 @@ set -euo pipefail
 # 2. Fill this section out:
 test_case_dir=spec/fixtures/referendum_supporters_without_expenditures_are_included
 
-# 3. Set up your test file such that any objects from the ""
+# 3. Set up your test file such that any objects from the
 # spreadsheets (candidate, committee, name_to_number,
 # etc.) are created in a `before` block before your test is run and not as part
 # of this test case.
