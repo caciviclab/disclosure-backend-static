@@ -17,27 +17,30 @@
   "party_affiliation": null,
   "filer_id": 1412686,
   "supporting_money": {
-    "contributions_received": 8323.91,
-    "total_contributions": 8323.91,
-    "total_expenditures": 1435.07,
+    "contributions_received": 11738.59,
+    "total_contributions": 11738.59,
+    "total_expenditures": 6259.19,
     "total_loans_received": 453.9,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 6500.01,
-      "Unitemized": 570.0,
-      "Other (includes Businesses)": 800.0
+      "Individual": 8600.01,
+      "Unitemized": 1596.0,
+      "Other (includes Businesses)": 1088.68
     },
     "contributions_by_origin": {
-      "Out of State": 2600.0,
-      "Within Oakland": 2700.0,
-      "Within California": 2000.01
+      "Out of State": 3338.68,
+      "Within Oakland": 3550.0,
+      "Within California": 2800.01
     },
     "expenditures_by_type": {
-      "Fundraising Events": 595.999999999999,
-      "Campaign Consultants": 512.59
+      "Print Ads": 2885.04,
+      "Fundraising Events": 1691.48,
+      "Campaign Consultants": 512.59,
+      "Campaign Paraphernalia/Misc.": 124.21,
+      "Professional Services (Legal, Accounting)": 649.0
     },
     "supporting_by_type": {
     }
@@ -50,17 +53,20 @@
 
     ]
   },
-  "contributions_received": 8323.91,
-  "total_contributions": 8323.91,
-  "total_expenditures": 1435.07,
+  "contributions_received": 11738.59,
+  "total_contributions": 11738.59,
+  "total_expenditures": 6259.19,
   "total_loans_received": 453.9,
   "contributions_by_type": {
-    "Individual": 6500.01,
-    "Unitemized": 570.0,
-    "Other (includes Businesses)": 800.0
+    "Individual": 8600.01,
+    "Unitemized": 1596.0,
+    "Other (includes Businesses)": 1088.68
   },
   "expenditures_by_type": {
-    "Fundraising Events": 595.999999999999,
-    "Campaign Consultants": 512.59
+    "Print Ads": 2885.04,
+    "Fundraising Events": 1691.48,
+    "Campaign Consultants": 512.59,
+    "Campaign Paraphernalia/Misc.": 124.21,
+    "Professional Services (Legal, Accounting)": 649.0
   }
 }

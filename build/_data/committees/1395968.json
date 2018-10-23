@@ -1,5 +1,5 @@
 {
-  "total_contributions": 458785.68000000005,
+  "total_contributions": 463485.68000000005,
   "contributions": [
     {
       "Filer_ID": "1395968",
@@ -11386,6 +11386,16 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Tran_Amt1": 1600.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborers Local 185 PAC SCC",
+      "Tran_Zip4": "95834-1908"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1600.0,
       "Tran_Date": "2018-10-02",
       "Tran_NamF": null,
       "Tran_NamL": "Laborers Pacific Southwest Regional Organizing Coalition PAC",
@@ -11430,6 +11440,26 @@
       "Tran_NamF": null,
       "Tran_NamL": "San Francisco Laborer's Local 261 PAC",
       "Tran_Zip4": "94110-1920"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2018-10-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Northern California Carpenters Regional Council SCC",
+      "Tran_Zip4": "94621-1480"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2018-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborers Local 67 PAC",
+      "Tran_Zip4": "95814-4503"
     }
   ]
 }
