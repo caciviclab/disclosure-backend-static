@@ -6,10 +6,20 @@
   "summary": "Shall the Measure amending Oakland’s Just Yes Cause for Eviction Ordinance (“Ordinance”) to: (1) remove the exemption for owner occupied duplexes and triplexes; and (2) allow the City Council, without returning to the voters, to add limitations on a landlord’s right to evict under the Ordinance, be adopted? Percentage Needed to Pass: 50% + 1\n\n\n_This text provided by [Alameda County Registrar of Voters](https://www.acvote.org/election-information/elections?id=236#)_",
   "number": "Y",
   "contributions_by_region": [
-
+    {
+      "amount": 2500.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 2000.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 4500.0
+    }
   ],
   "supporting_organizations": [
     {
@@ -17,7 +27,13 @@
       "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
       "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
       "amount": 1325.0
+    },
+    {
+      "id": "1413440",
+      "name": "Protect Oakland Renters, Yes on Measure Y. Sponsored by CommunityOrganizations",
+      "payee": "Protect Oakland Renters, Yes on Measure Y. Sponsored by CommunityOrganizations",
+      "amount": 0.0
     }
   ],
-  "total_contributions": 0
+  "total_contributions": 4500.0
 }

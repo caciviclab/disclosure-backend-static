@@ -1,5 +1,5 @@
 {
-  "total_contributions": 7750.0,
+  "total_contributions": 8125.0,
   "contributions": [
     {
       "Filer_ID": "1404416",
@@ -279,6 +279,46 @@
       "Tran_Date": "2018-09-04",
       "Tran_NamF": "Mike",
       "Tran_NamL": "Ferro",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": "Ademan",
+      "Tran_NamL": "Angeles",
+      "Tran_Zip4": "94014"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": "Anthony",
+      "Tran_NamL": "Pegram",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": "Kaiser",
+      "Tran_Occ": "Office Manager",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-02",
+      "Tran_NamF": "Kent",
+      "Tran_NamL": "Lewandowski",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": "Better Home Realty",
+      "Tran_Occ": "Real Estate Agent",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-10-16",
+      "Tran_NamF": "Lois",
+      "Tran_NamL": "Harris",
       "Tran_Zip4": "94619"
     }
   ]
