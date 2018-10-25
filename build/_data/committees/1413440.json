@@ -1,5 +1,5 @@
 {
-  "total_contributions": 4500.0,
+  "total_contributions": 7000.0,
   "contributions": [
     {
       "Filer_ID": "1413440",
@@ -17,6 +17,16 @@
       "Tran_Occ": "Not Employed",
       "Tran_Amt1": 2500.0,
       "Tran_Date": "2018-10-22",
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Lewis",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1413440",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-10-23",
       "Tran_NamF": "Daniel",
       "Tran_NamL": "Lewis",
       "Tran_Zip4": "94707"

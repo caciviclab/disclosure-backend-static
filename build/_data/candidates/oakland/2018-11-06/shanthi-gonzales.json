@@ -17,9 +17,9 @@
   "party_affiliation": null,
   "filer_id": 1404347,
   "supporting_money": {
-    "contributions_received": 76246.0,
-    "total_contributions": 76246.0,
-    "total_expenditures": 36796.62,
+    "contributions_received": 39973.0,
+    "total_contributions": 39973.0,
+    "total_expenditures": 19829.49,
     "total_loans_received": 0.0,
     "total_supporting_independent": 1577.0,
     "support_list": [
@@ -31,21 +31,22 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 1000.0,
-      "Individual": 64790.0,
-      "Unitemized": 8856.0,
-      "Self Funding": 1400.0
+      "Committee": 2350.0,
+      "Individual": 32395.0,
+      "Unitemized": 4428.0,
+      "Self Funding": 700.0
     },
     "contributions_by_origin": {
-      "Out of State": 15300.0,
-      "Within Oakland": 29840.0,
-      "Within California": 22050.0
+      "Out of State": 7650.0,
+      "Within Oakland": 15520.0,
+      "Within California": 12275.0
     },
     "expenditures_by_type": {
-      "Contribution": 1600.0,
-      "Campaign Consultants": 30868.0,
-      "Campaign Workers' Salaries": 3413.6,
-      "Professional Services (Legal, Accounting)": 915.02
+      "Contribution": 900.0,
+      "Campaign Consultants": 15184.0,
+      "Campaign Workers' Salaries": 1706.8,
+      "Postage, Delivery and Messenger Services": 1581.18,
+      "Professional Services (Legal, Accounting)": 457.51
     },
     "supporting_by_type": {
       "MON": 250.0
@@ -59,20 +60,21 @@
 
     ]
   },
-  "contributions_received": 76246.0,
-  "total_contributions": 76246.0,
-  "total_expenditures": 36796.62,
+  "contributions_received": 39973.0,
+  "total_contributions": 39973.0,
+  "total_expenditures": 19829.49,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 1000.0,
-    "Individual": 64790.0,
-    "Unitemized": 8856.0,
-    "Self Funding": 1400.0
+    "Committee": 2350.0,
+    "Individual": 32395.0,
+    "Unitemized": 4428.0,
+    "Self Funding": 700.0
   },
   "expenditures_by_type": {
-    "Contribution": 1600.0,
-    "Campaign Consultants": 30868.0,
-    "Campaign Workers' Salaries": 3413.6,
-    "Professional Services (Legal, Accounting)": 915.02
+    "Contribution": 900.0,
+    "Campaign Consultants": 15184.0,
+    "Campaign Workers' Salaries": 1706.8,
+    "Postage, Delivery and Messenger Services": 1581.18,
+    "Professional Services (Legal, Accounting)": 457.51
   }
 }

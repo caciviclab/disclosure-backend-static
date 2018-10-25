@@ -1,5 +1,5 @@
 {
-  "total_contributions": 92008.0,
+  "total_contributions": 93608.0,
   "contributions": [
     {
       "Filer_ID": "1236617",
@@ -1930,6 +1930,16 @@
       "Tran_NamF": "Janeith",
       "Tran_NamL": "Glenn-Davis",
       "Tran_Zip4": "94542"
+    },
+    {
+      "Filer_ID": "1236617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2018-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee",
+      "Tran_Zip4": "95814"
     }
   ]
 }

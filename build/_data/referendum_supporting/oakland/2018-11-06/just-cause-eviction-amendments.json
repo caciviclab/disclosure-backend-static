@@ -7,7 +7,7 @@
   "number": "Y",
   "contributions_by_region": [
     {
-      "amount": 2500.0,
+      "amount": 5000.0,
       "locale": "Within California"
     },
     {
@@ -18,7 +18,7 @@
   "contributions_by_type": [
     {
       "type": "Individual",
-      "amount": 4500.0
+      "amount": 7000.0
     }
   ],
   "supporting_organizations": [
@@ -35,5 +35,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 4500.0
+  "total_contributions": 7000.0
 }
