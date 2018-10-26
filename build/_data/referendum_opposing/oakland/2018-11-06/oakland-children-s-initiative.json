@@ -11,22 +11,26 @@
       "locale": "Out of State"
     },
     {
-      "amount": 67485.0,
+      "amount": 120080.0,
       "locale": "Within California"
     },
     {
-      "amount": 68388.34,
+      "amount": 74178.59,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 49750.0
+    },
+    {
       "type": "Individual",
-      "amount": 62255.0
+      "amount": 69499.75
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 95203.34
+      "amount": 96593.84
     }
   ],
   "opposing_organizations": [
@@ -34,8 +38,8 @@
       "id": "1410941",
       "name": "Committee for Better Choices, No on Measure AA, Y and W",
       "payee": "Committee for Better Choices, No on Measure AA, Y and W",
-      "amount": 0.0
+      "amount": 137751.27
     }
   ],
-  "total_contributions": 157458.34
+  "total_contributions": 215843.59
 }

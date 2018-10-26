@@ -17,11 +17,11 @@
   "party_affiliation": null,
   "filer_id": 1404085,
   "supporting_money": {
-    "contributions_received": 31406.690000000002,
-    "total_contributions": 31406.690000000002,
-    "total_expenditures": 23254.13,
+    "contributions_received": 42136.12,
+    "total_contributions": 42136.12,
+    "total_expenditures": 34846.94,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 7929.0,
+    "total_supporting_independent": 18730.0,
     "support_list": [
       {
         "Total": 1543.0,
@@ -30,34 +30,39 @@
         "Filer_NamL": "California Federation of Teachers COPE"
       },
       {
-        "Total": 6386.0,
+        "Total": 17187.0,
         "Cand_ID": 1404085,
         "Filer_ID": "1345259",
         "Filer_NamL": "OAKLAND EDUCATION ASSOCIATION POLITICAL ACTION COMMITTEE"
       }
     ],
     "contributions_by_type": {
-      "Committee": 3821.92,
-      "Individual": 22597.77,
-      "Unitemized": 4987.0
+      "Committee": 5164.87,
+      "Individual": 30595.25,
+      "Unitemized": 5926.0,
+      "Other (includes Businesses)": 450.0
     },
     "contributions_by_origin": {
       "Out of State": 250.0,
-      "Within Oakland": 17819.69,
-      "Within California": 8350.0
+      "Within Oakland": 26210.12,
+      "Within California": 9750.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 2274.67,
-      "Fundraising Events": 1121.25,
+      "Not Stated": 1850.0,
+      "Office Expenses": 2559.13,
+      "Fundraising Events": 2371.25,
       "Campaign Consultants": 7000.0,
       "Campaign Paraphernalia/Misc.": 1602.35,
       "Candidate Filing/Ballot Fees": 1050.0,
-      "Campaign Literature and Mailings": 4041.34,
-      "Professional Services (Legal, Accounting)": 4450.4
+      "Campaign Literature and Mailings": 7519.99,
+      "Postage, Delivery and Messenger Services": 3705.59,
+      "Professional Services (Legal, Accounting)": 5409.51
     },
     "supporting_by_type": {
       "IKD": 410.0,
+      "MON": 1500.0,
       "Mailer": 1543.0,
+      "Mailer in Support of Clarissa Doutherd for School Board.": 10801.0,
       "Mailer in support of Clarissa Doutherd for School Board; OUSD D4": 6386.0
     }
   },
@@ -69,22 +74,25 @@
 
     ]
   },
-  "contributions_received": 31406.690000000002,
-  "total_contributions": 31406.690000000002,
-  "total_expenditures": 23254.13,
+  "contributions_received": 42136.12,
+  "total_contributions": 42136.12,
+  "total_expenditures": 34846.94,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 3821.92,
-    "Individual": 22597.77,
-    "Unitemized": 4987.0
+    "Committee": 5164.87,
+    "Individual": 30595.25,
+    "Unitemized": 5926.0,
+    "Other (includes Businesses)": 450.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 2274.67,
-    "Fundraising Events": 1121.25,
+    "Not Stated": 1850.0,
+    "Office Expenses": 2559.13,
+    "Fundraising Events": 2371.25,
     "Campaign Consultants": 7000.0,
     "Campaign Paraphernalia/Misc.": 1602.35,
     "Candidate Filing/Ballot Fees": 1050.0,
-    "Campaign Literature and Mailings": 4041.34,
-    "Professional Services (Legal, Accounting)": 4450.4
+    "Campaign Literature and Mailings": 7519.99,
+    "Postage, Delivery and Messenger Services": 3705.59,
+    "Professional Services (Legal, Accounting)": 5409.51
   }
 }

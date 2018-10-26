@@ -7,45 +7,45 @@
   "number": "Y",
   "contributions_by_region": [
     {
-      "amount": 244085.0,
+      "amount": 244185.0,
       "locale": "Out of State"
     },
     {
-      "amount": 274485.0,
+      "amount": 329512.33,
       "locale": "Within California"
     },
     {
-      "amount": 104825.0,
+      "amount": 113169.25,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 197500.0
+      "amount": 247250.0
     },
     {
       "type": "Individual",
-      "amount": 73725.0
+      "amount": 84948.75
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 352170.0
+      "amount": 354667.83
     }
   ],
   "opposing_organizations": [
+    {
+      "id": "1410943",
+      "name": "Homeowners for Fair Treatment, No on Measures W and Y",
+      "payee": "Homeowners for Fair Treatment, No on Measures W and Y",
+      "amount": 554056.91
+    },
     {
       "id": "1410941",
       "name": "Committee for Better Choices, No on Measure AA, Y and W",
       "payee": "Committee for Better Choices, No on Measure AA, Y and W",
       "amount": 0.0
-    },
-    {
-      "id": "1410943",
-      "name": "Homeowners for Fair Treatment, No on Measures W and Y",
-      "payee": "Homeowners for Fair Treatment, No on Measures W and Y",
-      "amount": 0.0
     }
   ],
-  "total_contributions": 623395.0
+  "total_contributions": 686866.5800000001
 }

@@ -17,41 +17,48 @@
   "party_affiliation": null,
   "filer_id": 1405422,
   "supporting_money": {
-    "contributions_received": 42203.0,
-    "total_contributions": 42203.0,
-    "total_expenditures": 35747.13,
+    "contributions_received": 53974.0,
+    "total_contributions": 53974.0,
+    "total_expenditures": 64036.33,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 435.08,
     "support_list": [
-
+      {
+        "Total": 435.08,
+        "Cand_ID": 1405422,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
+      }
     ],
     "contributions_by_type": {
-      "Committee": 800.0,
-      "Individual": 32190.0,
-      "Unitemized": 6363.0,
+      "Committee": 1700.0,
+      "Individual": 41419.0,
+      "Unitemized": 7970.0,
       "Self Funding": 100.0,
       "Other (includes Businesses)": 2750.0
     },
     "contributions_by_origin": {
-      "Out of State": 5750.0,
-      "Within Oakland": 19140.0,
-      "Within California": 10950.0
+      "Out of State": 6350.0,
+      "Within Oakland": 25549.0,
+      "Within California": 14070.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 2617.53,
+      "Office Expenses": 3037.06,
       "Fundraising Events": 873.92,
-      "Campaign Consultants": 14000.0,
+      "Campaign Consultants": 14500.0,
       "Member Communications": 116.88,
-      "Meetings and Appearances": 1184.17,
+      "Meetings and Appearances": 1431.02,
       "Campaign Paraphernalia/Misc.": 685.94,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 1622.87,
-      "Candidate Travel, Lodging, and Meals": 398.25,
-      "Postage, Delivery and Messenger Services": 2877.27,
+      "Campaign Literature and Mailings": 30705.07,
+      "Candidate Travel, Lodging, and Meals": 433.75,
+      "Postage, Delivery and Messenger Services": 3877.27,
       "T.V. or Cable Airtime and Production Costs": 400.0,
-      "Information Technology Costs (Internet, E-mail)": 325.0
+      "Information Technology Costs (Internet, E-mail)": 633.26
     },
     "supporting_by_type": {
+      "MON": 400.0,
+      "Independent Expenditure Supporting/Opposing Others": 435.08
     }
   },
   "opposing_money": {
@@ -62,29 +69,29 @@
 
     ]
   },
-  "contributions_received": 42203.0,
-  "total_contributions": 42203.0,
-  "total_expenditures": 35747.13,
+  "contributions_received": 53974.0,
+  "total_contributions": 53974.0,
+  "total_expenditures": 64036.33,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 800.0,
-    "Individual": 32190.0,
-    "Unitemized": 6363.0,
+    "Committee": 1700.0,
+    "Individual": 41419.0,
+    "Unitemized": 7970.0,
     "Self Funding": 100.0,
     "Other (includes Businesses)": 2750.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 2617.53,
+    "Office Expenses": 3037.06,
     "Fundraising Events": 873.92,
-    "Campaign Consultants": 14000.0,
+    "Campaign Consultants": 14500.0,
     "Member Communications": 116.88,
-    "Meetings and Appearances": 1184.17,
+    "Meetings and Appearances": 1431.02,
     "Campaign Paraphernalia/Misc.": 685.94,
     "Candidate Filing/Ballot Fees": 1000.0,
-    "Campaign Literature and Mailings": 1622.87,
-    "Candidate Travel, Lodging, and Meals": 398.25,
-    "Postage, Delivery and Messenger Services": 2877.27,
+    "Campaign Literature and Mailings": 30705.07,
+    "Candidate Travel, Lodging, and Meals": 433.75,
+    "Postage, Delivery and Messenger Services": 3877.27,
     "T.V. or Cable Airtime and Production Costs": 400.0,
-    "Information Technology Costs (Internet, E-mail)": 325.0
+    "Information Technology Costs (Internet, E-mail)": 633.26
   }
 }

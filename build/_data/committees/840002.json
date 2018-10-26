@@ -1,5 +1,5 @@
 {
-  "total_contributions": 40040.0,
+  "total_contributions": 40460.0,
   "contributions": [
     {
       "Filer_ID": "840002",
@@ -1650,6 +1650,46 @@
       "Tran_NamF": "Helen",
       "Tran_NamL": "Young",
       "Tran_Zip4": "94080"
+    },
+    {
+      "Filer_ID": "840002",
+      "Tran_Emp": "Self-Employed; Sherry Chan",
+      "Tran_Occ": "Landlord",
+      "Tran_Amt1": 45.0,
+      "Tran_Date": "2018-10-05",
+      "Tran_NamF": "Sherry",
+      "Tran_NamL": "Chan",
+      "Tran_Zip4": "94121"
+    },
+    {
+      "Filer_ID": "840002",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2018-10-05",
+      "Tran_NamF": null,
+      "Tran_NamL": "Emerald Fund Rincongreen",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "840002",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2018-10-05",
+      "Tran_NamF": null,
+      "Tran_NamL": "Related Management The Paramount",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "840002",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2018-10-05",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Pinnacle At Nob Hill",
+      "Tran_Zip4": "94108"
     }
   ]
 }

@@ -11,7 +11,7 @@
       "locale": "Within California"
     },
     {
-      "amount": 2000.0,
+      "amount": 2250.0,
       "locale": "Within Oakland"
     }
   ],
@@ -19,15 +19,13 @@
     {
       "type": "Individual",
       "amount": 7000.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 250.0
     }
   ],
   "supporting_organizations": [
-    {
-      "id": "1332115",
-      "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
-      "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
-      "amount": 1325.0
-    },
     {
       "id": "1413440",
       "name": "Protect Oakland Renters, Yes on Measure Y. Sponsored by CommunityOrganizations",
@@ -35,5 +33,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 7000.0
+  "total_contributions": 7250.0
 }

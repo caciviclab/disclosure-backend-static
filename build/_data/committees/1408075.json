@@ -1,5 +1,5 @@
 {
-  "total_contributions": 24300.0,
+  "total_contributions": 36175.0,
   "contributions": [
     {
       "Filer_ID": "1408075",
@@ -790,6 +790,556 @@
       "Tran_NamF": "Robert",
       "Tran_NamL": "Yohai",
       "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Stephen Lowe",
+      "Tran_Occ": "Real Estate Development",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-23",
+      "Tran_NamF": "Stephen",
+      "Tran_NamL": "Lowe",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Woody's",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-23",
+      "Tran_NamF": "Steve",
+      "Tran_NamL": "Ma",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Metropolitan Transportation Commission",
+      "Tran_Occ": "Deputy Director",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-09-23",
+      "Tran_NamF": "Brad",
+      "Tran_NamL": "Paul",
+      "Tran_Zip4": "94904"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Bruce Westphal",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-09-23",
+      "Tran_NamF": "Bruce",
+      "Tran_NamL": "Westphal",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Cushman and Wakefield",
+      "Tran_Occ": "Real Estate",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-09-25",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Dolby",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "CNA",
+      "Tran_Occ": "Accountant",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-09-26",
+      "Tran_NamF": "Ifeoma",
+      "Tran_NamL": "Adams",
+      "Tran_Zip4": "94547"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-26",
+      "Tran_NamF": "Jeffrey",
+      "Tran_NamL": "Rice",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Richelle Lieberman",
+      "Tran_Occ": "Art Dealer",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": "Richelle",
+      "Tran_NamL": "Lieberman",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Asian Health Services",
+      "Tran_Occ": "Dentist",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": "Thomas E.",
+      "Tran_NamL": "Love",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Elida Scola",
+      "Tran_Occ": "Picture Framer",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-09-29",
+      "Tran_NamF": "Elida",
+      "Tran_NamL": "Scola",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-01",
+      "Tran_NamF": "Jeffrey",
+      "Tran_NamL": "Fearn",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Michael Lauer",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-10-02",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Lauer",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Shannon-Leigh Associates",
+      "Tran_Occ": "Designer",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-03",
+      "Tran_NamF": "Shannon",
+      "Tran_NamL": "Hackley",
+      "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "University of California, Berkeley",
+      "Tran_Occ": "University Administrator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-03",
+      "Tran_NamF": "Jill",
+      "Tran_NamL": "Martin",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-05",
+      "Tran_NamF": "Kim",
+      "Tran_NamL": "Malcolm",
+      "Tran_Zip4": "94123"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-06",
+      "Tran_NamF": "Zoe",
+      "Tran_NamL": "Garmendia",
+      "Tran_Zip4": "20816"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-10-07",
+      "Tran_NamF": "Cestra",
+      "Tran_NamL": "Butner",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Deputy Chief of Staff",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-08",
+      "Tran_NamF": "Claudia",
+      "Tran_NamL": "Albano",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Pilates 580",
+      "Tran_Occ": "Pilates Instructor",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-08",
+      "Tran_NamF": "Ephraim",
+      "Tran_NamL": "Greenwall",
+      "Tran_Zip4": "94107"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Metropoliton Transportation Committee",
+      "Tran_Occ": "Program Manager",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Jennifer Karyn",
+      "Tran_NamL": "Berg",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Touro University California",
+      "Tran_Occ": "Professor",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Linda K.",
+      "Tran_NamL": "Haymes-Elliott",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Tamra C.",
+      "Tran_NamL": "Hege",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Mills College",
+      "Tran_Occ": "Educator",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Lawrence D.",
+      "Tran_NamL": "Magid",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Morgan Stanley",
+      "Tran_Occ": "Financial Advisor",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Marlo A.",
+      "Tran_NamL": "Seligman",
+      "Tran_Zip4": "94965"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "St. John's Episcopal Church",
+      "Tran_Occ": "Minister",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-12",
+      "Tran_NamF": "Scott",
+      "Tran_NamL": "Denman",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-12",
+      "Tran_NamF": "Peter",
+      "Tran_NamL": "Turner",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Alain Pinel Realtors",
+      "Tran_Occ": "Real Estate Broker",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-15",
+      "Tran_NamF": "Helen",
+      "Tran_NamL": "Nicholas",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Premium Properties",
+      "Tran_Occ": "Real Estate Manager",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-15",
+      "Tran_NamF": "Sam",
+      "Tran_NamL": "Sorokin",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Clifford Fried Attorney at Law",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-16",
+      "Tran_NamF": "Clifford",
+      "Tran_NamL": "Fried",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Cisco Systems, Inc.",
+      "Tran_Occ": "IT Project Manager",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-16",
+      "Tran_NamF": "Christopher",
+      "Tran_NamL": "Gulli",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Lakehurst Hall, Inc.",
+      "Tran_Occ": "Apartment Owner",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-16",
+      "Tran_NamF": "Tomoko",
+      "Tran_NamL": "Nakama",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "The Greenspan Company",
+      "Tran_Occ": "Vice President",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-17",
+      "Tran_NamF": "Richard T.",
+      "Tran_NamL": "Hallock",
+      "Tran_Zip4": "94530"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-17",
+      "Tran_NamF": "Sheryl L.",
+      "Tran_NamL": "Jennings",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Duane Morris",
+      "Tran_Occ": "Lawyer",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-17",
+      "Tran_NamF": "Philip R.",
+      "Tran_NamL": "Matthews",
+      "Tran_Zip4": "94517"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Adams Nye Becht LLP",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-17",
+      "Tran_NamF": "Bruce",
+      "Tran_NamL": "Nye",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Foster Employment Law",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-18",
+      "Tran_NamF": "Tammy A",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "City of Oakland Advisor's Office",
+      "Tran_Occ": "Receptionist",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-18",
+      "Tran_NamF": "Maya",
+      "Tran_NamL": "Collins",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "City & County of San Francisco",
+      "Tran_Occ": "Audit Director",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-18",
+      "Tran_NamF": "Tonia",
+      "Tran_NamL": "Lediju",
+      "Tran_Zip4": "94591"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-18",
+      "Tran_NamF": "Patricia A",
+      "Tran_NamL": "Smith",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Solares Properties, Vernon St. Apts. LLC",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "John B. Accinelli",
+      "Tran_Occ": "Consultant",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "John B.",
+      "Tran_NamL": "Accinelli",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Daniel Altemus",
+      "Tran_Occ": "Arbitrator",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Altemus",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Richard Baskin, Attorney at Law",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Richard",
+      "Tran_NamL": "Baskin",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Rosemary S.",
+      "Tran_NamL": "Darden",
+      "Tran_Zip4": "94604"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "John W.",
+      "Tran_NamL": "Foley",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Patricia",
+      "Tran_NamL": "Hardy",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "NM Mesa, Inc.",
+      "Tran_Occ": "Accounting Tech",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Helena",
+      "Tran_NamL": "Kirkwood",
+      "Tran_Zip4": "87107"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Bay Area Ear Nose And Throat Medical Group",
+      "Tran_Occ": "Otolaryngologist",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "James W.",
+      "Tran_NamL": "Miller",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "KaREN",
+      "Tran_NamL": "Newton",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Adams Nye Becht LLP",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Bruce",
+      "Tran_NamL": "Nye",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Kathryn",
+      "Tran_NamL": "Porter",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Susan L.",
+      "Tran_NamL": "Rasmussen",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Donahue Gallagher Woods, LLP",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "David A.",
+      "Tran_NamL": "Stein",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Peter Sullivan Associates",
+      "Tran_Occ": "Commercial Real Estate",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Peter B.",
+      "Tran_NamL": "Sullivan",
+      "Tran_Zip4": "94104"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "MV Hospitality, dba Hotel Vue",
+      "Tran_Zip4": "94603"
     }
   ]
 }

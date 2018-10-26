@@ -17,33 +17,41 @@
   "party_affiliation": null,
   "filer_id": 1405266,
   "supporting_money": {
-    "contributions_received": 11440.0,
-    "total_contributions": 11440.0,
-    "total_expenditures": 6727.34,
+    "contributions_received": 15691.0,
+    "total_contributions": 15691.0,
+    "total_expenditures": 10023.37,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 435.08,
     "support_list": [
-
+      {
+        "Total": 435.08,
+        "Cand_ID": 1405266,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
+      }
     ],
     "contributions_by_type": {
-      "Individual": 9250.0,
-      "Unitemized": 1390.0,
-      "Other (includes Businesses)": 800.0
+      "Individual": 12060.0,
+      "Unitemized": 2031.0,
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
       "Out of State": 300.0,
-      "Within Oakland": 5050.0,
-      "Within California": 4700.0
+      "Within Oakland": 5360.0,
+      "Within California": 8000.0
     },
     "expenditures_by_type": {
       "Fundraising Events": 186.12,
-      "Meetings and Appearances": 982.08,
+      "Meetings and Appearances": 1527.44,
       "Campaign Workers' Salaries": 2500.0,
-      "Campaign Paraphernalia/Misc.": 388.17,
-      "Campaign Literature and Mailings": 1171.55,
-      "Information Technology Costs (Internet, E-mail)": 265.07
+      "Campaign Paraphernalia/Misc.": 551.05,
+      "Campaign Literature and Mailings": 2299.64,
+      "Candidate Travel, Lodging, and Meals": 28.65,
+      "Information Technology Costs (Internet, E-mail)": 1354.07
     },
     "supporting_by_type": {
+      "MON": 800.0,
+      "Independent Expenditure Supporting/Opposing Others": 435.08
     }
   },
   "opposing_money": {
@@ -54,21 +62,22 @@
 
     ]
   },
-  "contributions_received": 11440.0,
-  "total_contributions": 11440.0,
-  "total_expenditures": 6727.34,
+  "contributions_received": 15691.0,
+  "total_contributions": 15691.0,
+  "total_expenditures": 10023.37,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 9250.0,
-    "Unitemized": 1390.0,
-    "Other (includes Businesses)": 800.0
+    "Individual": 12060.0,
+    "Unitemized": 2031.0,
+    "Other (includes Businesses)": 1600.0
   },
   "expenditures_by_type": {
     "Fundraising Events": 186.12,
-    "Meetings and Appearances": 982.08,
+    "Meetings and Appearances": 1527.44,
     "Campaign Workers' Salaries": 2500.0,
-    "Campaign Paraphernalia/Misc.": 388.17,
-    "Campaign Literature and Mailings": 1171.55,
-    "Information Technology Costs (Internet, E-mail)": 265.07
+    "Campaign Paraphernalia/Misc.": 551.05,
+    "Campaign Literature and Mailings": 2299.64,
+    "Candidate Travel, Lodging, and Meals": 28.65,
+    "Information Technology Costs (Internet, E-mail)": 1354.07
   }
 }

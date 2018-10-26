@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1654781.6,
+  "total_contributions": 1729781.6,
   "contributions": [
     {
       "Filer_ID": "1310647",
@@ -990,6 +990,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "Facebook  Inc.",
       "Tran_Zip4": "94025"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 75000.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Emerson Collective",
+      "Tran_Zip4": "94301"
     }
   ]
 }

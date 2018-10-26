@@ -17,9 +17,9 @@
   "party_affiliation": null,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 94754.0,
-    "total_contributions": 94754.0,
-    "total_expenditures": 28653.46,
+    "contributions_received": 102321.0,
+    "total_contributions": 102321.0,
+    "total_expenditures": 66964.41,
     "total_loans_received": -2400.0,
     "total_supporting_independent": 11161.61,
     "support_list": [
@@ -37,52 +37,48 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 6150.0,
-      "Individual": 78308.0,
-      "Unitemized": 1046.0,
-      "Other (includes Businesses)": 9150.0
+      "Committee": 8250.0,
+      "Individual": 84798.0,
+      "Unitemized": 1623.0,
+      "Other (includes Businesses)": 7550.0
     },
     "contributions_by_origin": {
       "Out of State": 700.0,
-      "Within Oakland": 50169.0,
-      "Within California": 42739.0
+      "Within Oakland": 54319.0,
+      "Within California": 45579.0
     },
     "expenditures_by_type": {
-      "Not Stated": 6985.48,
+      "Not Stated": 8085.48,
       "Contribution": 700.0,
       "Legal Defense": 1000.0,
       "Civic Donations": 1725.0,
-      "Office Expenses": 7642.45,
+      "Office Expenses": 8586.13,
       "Fundraising Events": 2597.61,
-      "Campaign Consultants": 7500.0,
+      "Campaign Consultants": 12500.0,
       "Member Communications": 199.19,
-      "Meetings and Appearances": 119.08,
+      "Meetings and Appearances": 349.16,
       "Campaign Paraphernalia/Misc.": 3386.81,
       "Candidate Filing/Ballot Fees": 1250.0,
-      "Campaign Literature and Mailings": 5455.58,
+      "Campaign Literature and Mailings": 17819.92,
       "Candidate Travel, Lodging, and Meals": 1871.39,
-      "Postage, Delivery and Messenger Services": 270.1,
-      "Information Technology Costs (Internet, E-mail)": 3514.9
+      "Postage, Delivery and Messenger Services": 15309.06,
+      "Professional Services (Legal, Accounting)": 2982.79,
+      "Information Technology Costs (Internet, E-mail)": 3963.91
     },
     "supporting_by_type": {
+      "MON": 1600.0,
       "Doorhanger": 4090.0,
       "Phone Banking \u0026 Field Campaign": 6900.0,
       "Independent Expenditure Supporting/Opposing Others": 171.61
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 88235.7,
+    "opposing_expenditures": 104828.59,
     "opposing_by_type": {
-      "IND OF CNS": 3334.0,
-      "IND OF LIT": 9532.0,
-      "IND OF PHO": 6036.0,
-      "IND OF POL": 4570.0,
+      "IKD": 4570.0,
+      "IND OF PHO": 3033.0,
       "IND OF WEB": 5000.0,
-      "IND OF POLLING": 4570.0,
-      "IND OF CANVASSING": 9576.0,
-      "IND OF LIT (ESTIMATE)": 7551.0,
-      "STAFF TIME FROM 10/1 TO 10/12": 2233.0,
-      "Independent Expenditure Supporting/Opposing Others": 35833.7
+      "Independent Expenditure Supporting/Opposing Others": 96795.59
     },
     "opposition_list": [
       {
@@ -92,38 +88,39 @@
         "Filer_NamL": "Citizens for a United Oakland, Opposing Desley Brooks for City Council 2018"
       },
       {
-        "Total": 57005.21,
+        "Total": 73598.1,
         "Cand_ID": 1236617,
         "Filer_ID": "1410279",
         "Filer_NamL": "OAKLANDERS FOR RESPONSIBLE LEADERSHIP, OPPOSING DESLEY BROOKS FOR OAKLAND CITY COUNCIL 2018"
       }
     ]
   },
-  "contributions_received": 94754.0,
-  "total_contributions": 94754.0,
-  "total_expenditures": 28653.46,
+  "contributions_received": 102321.0,
+  "total_contributions": 102321.0,
+  "total_expenditures": 66964.41,
   "total_loans_received": -2400.0,
   "contributions_by_type": {
-    "Committee": 6150.0,
-    "Individual": 78308.0,
-    "Unitemized": 1046.0,
-    "Other (includes Businesses)": 9150.0
+    "Committee": 8250.0,
+    "Individual": 84798.0,
+    "Unitemized": 1623.0,
+    "Other (includes Businesses)": 7550.0
   },
   "expenditures_by_type": {
-    "Not Stated": 6985.48,
+    "Not Stated": 8085.48,
     "Contribution": 700.0,
     "Legal Defense": 1000.0,
     "Civic Donations": 1725.0,
-    "Office Expenses": 7642.45,
+    "Office Expenses": 8586.13,
     "Fundraising Events": 2597.61,
-    "Campaign Consultants": 7500.0,
+    "Campaign Consultants": 12500.0,
     "Member Communications": 199.19,
-    "Meetings and Appearances": 119.08,
+    "Meetings and Appearances": 349.16,
     "Campaign Paraphernalia/Misc.": 3386.81,
     "Candidate Filing/Ballot Fees": 1250.0,
-    "Campaign Literature and Mailings": 5455.58,
+    "Campaign Literature and Mailings": 17819.92,
     "Candidate Travel, Lodging, and Meals": 1871.39,
-    "Postage, Delivery and Messenger Services": 270.1,
-    "Information Technology Costs (Internet, E-mail)": 3514.9
+    "Postage, Delivery and Messenger Services": 15309.06,
+    "Professional Services (Legal, Accounting)": 2982.79,
+    "Information Technology Costs (Internet, E-mail)": 3963.91
   }
 }

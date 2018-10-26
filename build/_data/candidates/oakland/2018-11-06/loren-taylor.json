@@ -17,36 +17,39 @@
   "party_affiliation": null,
   "filer_id": 1401499,
   "supporting_money": {
-    "contributions_received": 136676.94,
-    "total_contributions": 136676.94,
-    "total_expenditures": 41744.89,
-    "total_loans_received": 8000.0,
+    "contributions_received": 141041.26,
+    "total_contributions": 141041.26,
+    "total_expenditures": 95964.07,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 117305.94,
-      "Unitemized": 9121.0,
+      "Individual": 128885.26,
+      "Unitemized": 9906.0,
       "Self Funding": 1000.0,
       "Other (includes Businesses)": 1250.0
     },
     "contributions_by_origin": {
-      "Out of State": 7265.0,
-      "Within Oakland": 76395.94,
-      "Within California": 35895.0
+      "Out of State": 8165.0,
+      "Within Oakland": 85425.26,
+      "Within California": 37545.0
     },
     "expenditures_by_type": {
-      "Not Stated": 87.29,
-      "Phone Banks": 197.24,
+      "Print Ads": 13900.0,
+      "Not Stated": 146.14,
+      "Phone Banks": 1527.74,
       "Contribution": 100.0,
       "Office Expenses": 181.19,
       "Fundraising Events": 1221.25,
-      "Campaign Consultants": 24750.62,
+      "Campaign Consultants": 29950.62,
       "Meetings and Appearances": 94.41,
       "Campaign Paraphernalia/Misc.": 7613.44,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Information Technology Costs (Internet, E-mail)": 3879.3
+      "Campaign Literature and Mailings": 32485.08,
+      "Professional Services (Legal, Accounting)": 140.0,
+      "Information Technology Costs (Internet, E-mail)": 4219.36
     },
     "supporting_by_type": {
     }
@@ -59,26 +62,29 @@
 
     ]
   },
-  "contributions_received": 136676.94,
-  "total_contributions": 136676.94,
-  "total_expenditures": 41744.89,
-  "total_loans_received": 8000.0,
+  "contributions_received": 141041.26,
+  "total_contributions": 141041.26,
+  "total_expenditures": 95964.07,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 117305.94,
-    "Unitemized": 9121.0,
+    "Individual": 128885.26,
+    "Unitemized": 9906.0,
     "Self Funding": 1000.0,
     "Other (includes Businesses)": 1250.0
   },
   "expenditures_by_type": {
-    "Not Stated": 87.29,
-    "Phone Banks": 197.24,
+    "Print Ads": 13900.0,
+    "Not Stated": 146.14,
+    "Phone Banks": 1527.74,
     "Contribution": 100.0,
     "Office Expenses": 181.19,
     "Fundraising Events": 1221.25,
-    "Campaign Consultants": 24750.62,
+    "Campaign Consultants": 29950.62,
     "Meetings and Appearances": 94.41,
     "Campaign Paraphernalia/Misc.": 7613.44,
     "Candidate Filing/Ballot Fees": 1000.0,
-    "Information Technology Costs (Internet, E-mail)": 3879.3
+    "Campaign Literature and Mailings": 32485.08,
+    "Professional Services (Legal, Accounting)": 140.0,
+    "Information Technology Costs (Internet, E-mail)": 4219.36
   }
 }

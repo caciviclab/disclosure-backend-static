@@ -1,5 +1,5 @@
 {
-  "total_contributions": 61436.7,
+  "total_contributions": 62736.7,
   "contributions": [
     {
       "Filer_ID": "1365384",
@@ -1710,6 +1710,26 @@
       "Tran_NamF": null,
       "Tran_NamL": "JT2 Integrated Resources",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1365384",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Country Builders Construction, Inc.",
+      "Tran_Zip4": "94550"
+    },
+    {
+      "Filer_ID": "1365384",
+      "Tran_Emp": "Port of Oakland",
+      "Tran_Occ": "Attorney",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-09-26",
+      "Tran_NamF": "Danny W.",
+      "Tran_NamL": "Wan",
+      "Tran_Zip4": "94601"
     }
   ]
 }

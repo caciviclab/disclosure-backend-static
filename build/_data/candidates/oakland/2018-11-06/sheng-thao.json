@@ -17,11 +17,11 @@
   "party_affiliation": null,
   "filer_id": 1405456,
   "supporting_money": {
-    "contributions_received": 61424.0,
-    "total_contributions": 61424.0,
-    "total_expenditures": 26404.15,
+    "contributions_received": 70973.0,
+    "total_contributions": 70973.0,
+    "total_expenditures": 56121.68,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 75414.0,
+    "total_supporting_independent": 75413.41,
     "support_list": [
       {
         "Total": 8117.0,
@@ -30,48 +30,47 @@
         "Filer_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55"
       },
       {
-        "Total": 1577.0,
+        "Total": 1576.52,
         "Cand_ID": 1405456,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
       },
       {
-        "Total": 65720.0,
+        "Total": 65719.89,
         "Cand_ID": 1405456,
         "Filer_ID": "1294190",
         "Filer_NamL": "Unity PAC, sponsored by Alameda Labor Council, AFL-CIO to support Thao for City Council 2018"
       }
     ],
     "contributions_by_type": {
-      "Committee": 34850.0,
-      "Individual": 21875.0,
-      "Unitemized": 1249.0,
+      "Committee": 35350.0,
+      "Individual": 28075.0,
+      "Unitemized": 2248.0,
       "Self Funding": 800.0,
-      "Other (includes Businesses)": 2650.0
+      "Other (includes Businesses)": 4500.0
     },
     "contributions_by_origin": {
       "Out of State": 3200.0,
-      "Within Oakland": 21125.0,
-      "Within California": 35850.0
+      "Within Oakland": 25725.0,
+      "Within California": 39800.0
     },
     "expenditures_by_type": {
+      "Phone Banks": 443.0,
+      "Contribution": 250.0,
       "Civic Donations": 150.0,
       "Office Expenses": 100.2,
       "Fundraising Events": 600.0,
-      "Campaign Consultants": 18000.0,
-      "Meetings and Appearances": 437.93,
+      "Campaign Consultants": 26200.0,
+      "Meetings and Appearances": 797.41,
       "Campaign Paraphernalia/Misc.": 3212.7,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 1534.28,
-      "Information Technology Costs (Internet, E-mail)": 1192.0
+      "Campaign Literature and Mailings": 20920.33,
+      "Information Technology Costs (Internet, E-mail)": 2192.0
     },
     "supporting_by_type": {
-      "MON": 1600.0,
-      "Mailer": 21837.0,
-      "VOTER GUIDE": 1522.0,
-      "NEWSPAPER AD": 55.0,
-      "Social Media Ad": 4000.0,
-      "Independent Expenditure Supporting/Opposing Others": 48000.0
+      "MON": 3200.0,
+      "Mailer": 8117.0,
+      "Independent Expenditure Supporting/Opposing Others": 67296.41
     }
   },
   "opposing_money": {
@@ -82,26 +81,28 @@
 
     ]
   },
-  "contributions_received": 61424.0,
-  "total_contributions": 61424.0,
-  "total_expenditures": 26404.15,
+  "contributions_received": 70973.0,
+  "total_contributions": 70973.0,
+  "total_expenditures": 56121.68,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Committee": 34850.0,
-    "Individual": 21875.0,
-    "Unitemized": 1249.0,
+    "Committee": 35350.0,
+    "Individual": 28075.0,
+    "Unitemized": 2248.0,
     "Self Funding": 800.0,
-    "Other (includes Businesses)": 2650.0
+    "Other (includes Businesses)": 4500.0
   },
   "expenditures_by_type": {
+    "Phone Banks": 443.0,
+    "Contribution": 250.0,
     "Civic Donations": 150.0,
     "Office Expenses": 100.2,
     "Fundraising Events": 600.0,
-    "Campaign Consultants": 18000.0,
-    "Meetings and Appearances": 437.93,
+    "Campaign Consultants": 26200.0,
+    "Meetings and Appearances": 797.41,
     "Campaign Paraphernalia/Misc.": 3212.7,
     "Candidate Filing/Ballot Fees": 1000.0,
-    "Campaign Literature and Mailings": 1534.28,
-    "Information Technology Costs (Internet, E-mail)": 1192.0
+    "Campaign Literature and Mailings": 20920.33,
+    "Information Technology Costs (Internet, E-mail)": 2192.0
   }
 }
