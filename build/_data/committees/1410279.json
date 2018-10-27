@@ -1,5 +1,5 @@
 {
-  "total_contributions": 81660.0,
+  "total_contributions": 95660.0,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -210,6 +210,36 @@
       "Tran_NamF": "CYNTHIA",
       "Tran_NamL": "WOOD",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "CARMEL PARTNERS",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "PORT OF OAKLAND",
+      "Tran_Occ": "GENERAL COUNSEL",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": "DANNY W.",
+      "Tran_NamL": "WAN",
+      "Tran_Zip4": "95037"
     }
   ]
 }
