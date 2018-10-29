@@ -7,7 +7,7 @@ is_incumbent: false
 name: Natasha Middleton
 occupation: Management Analyst
 photo_url: Natasha-Middleton.png
-public_funding_received: "$14,530"
+public_funding_received: "$18,345"
 twitter_url: MiddletonNat
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17341/candidate/139764?&county=alameda%20county&election_authority_id=1
 website_url: https://www.natashaforoakland.com/

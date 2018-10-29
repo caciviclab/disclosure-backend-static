@@ -3,11 +3,7 @@ election: '2018-11-06'
 locality: oakland
 number: Z
 title: Hotel Employee Minimum Wage and Workplace Protections
-data_warning: A filing irregularity is affecting data accuracy for this measure and
-  causing contributions and expenditures reported by the East Bay Alliance for a Sustainable
-  Economy to be over-counted. This warning will be removed when the issue is corrected.
-  To view campaign statements or download raw data visit <a href="https://public.netfile.com/pub2/Default.aspx?aid=COAK">Oakland’s
-  public campaign finance portal</a>.
+data_warning: 
 ---
 Shall  the  measure  amending  Oakland’s  Municipal  Code  to:  (1)  establish  workplace  protections  and  minimum  hourly wage of $15 with benefits or $20 without benefits, increasing annually with inflation, for employees of Oakland  hotels  with  50  or  more  guest  rooms;  (2)  authorize  administrative  enforcement  of  Oakland’s  employment  standards  for  hotel  and  non-hotel  workers;  and  (3)  create  City  department  to  administratively  enforce Oakland’s employment standards for hotel and non-hotel workers, be adopted? Percentage Needed to Pass: 50% + 1
 
