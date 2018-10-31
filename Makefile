@@ -4,7 +4,7 @@ DATABASE_NAME?=disclosure-backend
 CSV_PATH?=downloads/csv
 
 CD := $(shell pwd)
-WGET=bin/wget-wrapper -O- --no-verbose --tries=3
+WGET=bin/wget-wrapper --no-verbose --tries=3
 
 clean-spreadsheets:
 	rm -rf downloads/csv/oakland_*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
@@ -20,7 +20,7 @@ download-spreadsheets: downloads/csv/oakland_candidates.csv downloads/csv/oaklan
 	downloads/csv/office_elections.csv downloads/csv/elections.csv
 
 download-cached:
-	$(WGET) "https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
+	$(WGET) -O- "https://s3-us-west-2.amazonaws.com/odca-data-cache/$(shell \
 		git log --author 'OpenDisclosure Deploybot' -n1 --pretty=format:%aI | cut -d"T" -f1 \
 	).tar.gz" | tar xz
 
@@ -36,14 +36,14 @@ download: download-spreadsheets download-SFO-2017 download-SFO-2018 \
 
 download-SFO-%:
 	mkdir -p downloads/raw
-	$(WGET) http://nf4.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip > \
+	$(WGET) http://nf4.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip -O \
 		downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip
 	unzip -p downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip > downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx 'downloads/csv/efile_SFO_$(subst download-SFO-,,$@)_%{sheet}.csv'
 
 download-COAK-%:
 	mkdir -p downloads/raw
-	$(WGET) http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_COAK_$(subst download-COAK-,,$@).zip > \
+	$(WGET) http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_COAK_$(subst download-COAK-,,$@).zip -O \
 		downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip
 	unzip -p downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip > downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-COAK-,,$@)_%{sheet}.csv'
@@ -102,42 +102,42 @@ createdb:
 
 downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv downloads/raw
-	$(WGET) \
+	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=0&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/office_elections.csv:
 	mkdir -p downloads/csv downloads/raw
-	$(WGET) \
+	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=585313505&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/oakland_referendums.csv:
 	mkdir -p downloads/csv downloads/raw
-	$(WGET) \
+	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=608094632&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/oakland_name_to_number.csv:
 	mkdir -p downloads/csv
-	$(WGET) \
+	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=102954444&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/oakland_committees.csv:
 	mkdir -p downloads/csv
-	$(WGET) \
+	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=1015408103&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/elections.csv:
 	mkdir -p downloads/csv
-	$(WGET) \
+	$(WGET) -O- \
 		'https://docs.google.com/spreadsheets/d/1vJR8GR5Bk3bUQXziPiQe7to1O-QEm-_5GfD7hPjp-Xc/pub?gid=2138925841&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@

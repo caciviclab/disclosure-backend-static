@@ -1,4 +1,7 @@
 dist: trusty
+env:
+  global:
+    - TZ=America/Los_Angeles
 pyton:
   - '2.7'
 group: deprecated-2017Q4
