@@ -1,5 +1,5 @@
 {
-  "total_contributions": 36210.119999999995,
+  "total_contributions": 38710.119999999995,
   "contributions": [
     {
       "Filer_ID": "1404085",
@@ -2210,6 +2210,26 @@
       "Tran_NamF": "Priscilla",
       "Tran_NamL": "Hung",
       "Tran_Zip4": "91403"
+    },
+    {
+      "Filer_ID": "1404085",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Education Association P.A.C PID",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1404085",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unity PAC",
+      "Tran_Zip4": "94621"
     }
   ]
 }

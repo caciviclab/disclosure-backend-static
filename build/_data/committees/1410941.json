@@ -1,5 +1,5 @@
 {
-  "total_contributions": 220843.59,
+  "total_contributions": 231843.59,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -750,6 +750,26 @@
       "Tran_NamF": null,
       "Tran_NamL": "Trebor Properties",
       "Tran_Zip4": "94563"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Frederick Lewis",
+      "Tran_Occ": "Real Estate Developer",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": "Frederick",
+      "Tran_NamL": "Lewis",
+      "Tran_Zip4": "95356"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management, Inc.",
+      "Tran_Zip4": "10022"
     }
   ]
 }

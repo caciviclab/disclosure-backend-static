@@ -1,5 +1,5 @@
 {
-  "total_contributions": 179623.0,
+  "total_contributions": 181223.0,
   "contributions": [
     {
       "Filer_ID": "1395580",
@@ -4890,6 +4890,16 @@
       "Tran_NamF": "Mollie",
       "Tran_NamL": "Westphal",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1395580",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce (OAKPAC)",
+      "Tran_Zip4": "94618"
     }
   ]
 }

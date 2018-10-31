@@ -1,5 +1,5 @@
 {
-  "total_contributions": 7250.0,
+  "total_contributions": 23250.0,
   "contributions": [
     {
       "Filer_ID": "1413440",
@@ -90,6 +90,26 @@
       "Tran_NamF": "Daniel",
       "Tran_NamL": "Lewis",
       "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1413440",
+      "Tran_Emp": "Hospice by the Bay",
+      "Tran_Occ": "Counselor",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": "Clementine",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1413440",
+      "Tran_Emp": null,
+      "Tran_Occ": "Student",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": "Katherine B.",
+      "Tran_NamL": "Orr",
+      "Tran_Zip4": "15232"
     }
   ]
 }
