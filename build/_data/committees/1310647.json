@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1744781.6,
+  "total_contributions": 1779781.6,
   "contributions": [
     {
       "Filer_ID": "1310647",
@@ -1030,6 +1030,16 @@
       "Tran_NamF": "Susan",
       "Tran_NamL": "Stutzman",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 35000.0,
+      "Tran_Date": "2018-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "The San Francisco Foundation",
+      "Tran_Zip4": "94111"
     }
   ]
 }

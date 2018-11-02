@@ -1,5 +1,5 @@
 {
-  "total_contributions": 231843.59,
+  "total_contributions": 260843.59,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -743,6 +743,16 @@
     },
     {
       "Filer_ID": "1410941",
+      "Tran_Emp": "Raub Family Limited Partnership",
+      "Tran_Occ": "Manager",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": "Hans",
+      "Tran_NamL": "Raub",
+      "Tran_Zip4": "97523"
+    },
+    {
+      "Filer_ID": "1410941",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Tran_Amt1": 5000.0,
@@ -770,6 +780,36 @@
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management, Inc.",
       "Tran_Zip4": "10022"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2018-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kasa Properties",
+      "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2018-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Mosser Group Holdings, LLC",
+      "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2018-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Lapham Company, Inc.",
+      "Tran_Zip4": "94609"
     }
   ]
 }
