@@ -1,5 +1,5 @@
 {
-  "total_contributions": 260843.59,
+  "total_contributions": 300843.58999999997,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -810,6 +810,16 @@
       "Tran_NamF": null,
       "Tran_NamL": "The Lapham Company, Inc.",
       "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 40000.0,
+      "Tran_Date": "2018-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association PAC",
+      "Tran_Zip4": "94618"
     }
   ]
 }

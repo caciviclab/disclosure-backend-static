@@ -1,5 +1,5 @@
 {
-  "total_contributions": 23250.0,
+  "total_contributions": 28800.0,
   "contributions": [
     {
       "Filer_ID": "1413440",
@@ -110,6 +110,16 @@
       "Tran_NamF": "Katherine B.",
       "Tran_NamL": "Orr",
       "Tran_Zip4": "15232"
+    },
+    {
+      "Filer_ID": "1413440",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Tran_Amt1": 5550.0,
+      "Tran_Date": "2018-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Urban Habitat",
+      "Tran_Zip4": "94612"
     }
   ]
 }
