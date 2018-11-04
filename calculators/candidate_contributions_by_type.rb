@@ -38,6 +38,10 @@ class CandidateContributionsByType
     # save!
     contributions_by_candidate_by_type.each do |filer_id, contributions_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
+      unless candidate
+        puts "ERROR missing candidate filer_id=#{filer_id}"
+        return
+      end
       candidate.save_calculation(:contributions_by_type, contributions_by_type)
     end
   end
@@ -75,10 +79,17 @@ class CandidateContributionsByType
 
       monetary_results.to_a.each do |result|
         filer_id = result['Filer_ID'].to_s
+        unless filer_id
+          puts "ERROR missing filer_id"
+          return
+        end
 
+        unless result['Total']
+          puts "WARN missing total amount filer_id=#{filer_id} Cd=#{result['Cd']} Total=#{result['Total']}"
+        end
         hash[filer_id] ||= {}
         hash[filer_id][result['Cd']] ||= 0
-        hash[filer_id][result['Cd']] += result['Total']
+        hash[filer_id][result['Cd']] += result['Total'] || 0
       end
     end
   end

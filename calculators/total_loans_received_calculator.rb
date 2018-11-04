@@ -16,7 +16,12 @@ class TotalLoansReceivedCalculator
     SQL
 
     @results.each do |row|
-      candidate = @candidates_by_filer_id[row['Filer_ID'].to_i]
+      filer_id = row['Filer_ID'].to_i
+      candidate = @candidates_by_filer_id[filer_id]
+      unless candidate
+        puts "ERROR unknown candidate filer_id=#{filer_id}"
+        return
+      end
       candidate.save_calculation(:total_loans_received, row['Amount_A'].to_f)
     end
   end

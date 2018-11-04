@@ -40,7 +40,12 @@ class CommitteeContributionListCalculator
         filer_id = committee[id].to_s
         sorted = Array(contributions_by_committee[filer_id])
         total_contributions = sorted.reduce(0) do |total, contribution|
-          total + contribution['Tran_Amt1']
+          amount = contribution['Tran_Amt1']
+          if amount.nil?
+            puts "ERROR Tran_Amt1 missing from contribution=#{contribution}"
+            amount = 0
+          end
+          total + amount
         end
 
         committee.save_calculation(:contribution_list, sorted)

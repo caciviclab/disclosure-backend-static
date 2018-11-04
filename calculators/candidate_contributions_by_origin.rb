@@ -26,7 +26,12 @@ class CandidateContributionsByOrigin
         hash[filer_id] ||= {}
         hash[filer_id][result['locale']] ||= 0
         hash[filer_id][result['locale']] += result['total']
-        election = @candidates_by_filer_id[filer_id.to_i].election_name
+        candidate = @candidates_by_filer_id[filer_id.to_i]
+        unless candidate
+          puts "ERROR unknown candidate filer_id=#{filer_id}"
+          return
+        end
+        election = candidate.election_name
         ContributionsByOrigin[election] ||= {}
         ContributionsByOrigin[election][result['locale']] ||= 0
         ContributionsByOrigin[election][result['locale']] += result['total']

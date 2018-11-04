@@ -6,7 +6,7 @@ require 'open-uri'
 
 # map of election_name => { hash including date }
 ELECTIONS = ActiveRecord::Base.connection.execute(<<-SQL).index_by { |row| row['name'] }.transform_values(&:symbolize_keys)
-  SELECT * from elections;
+  SELECT * from elections WHERE name <> '';
 SQL
 
 def build_file(filename, &block)
@@ -254,7 +254,7 @@ end
 
 build_file('/_data/stats.json') do |f|
   # TODO this should probably be locality-election specific to the date of the bulk data download
-  date_processed = File.mtime('downloads/raw/efile_COAK_2018.zip')
+  date_processed = File.mtime('downloads/raw/efile_SCC_2018.zip')
   f.puts JSON.pretty_generate(
     date_processed: date_processed.to_s
   )

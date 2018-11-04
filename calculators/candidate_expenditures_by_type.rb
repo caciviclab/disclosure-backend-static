@@ -58,15 +58,20 @@ class CandidateExpendituresByType
     # save!
     expenditures_by_candidate_by_type.each do |filer_id, expenditures_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
+      unless candidate
+        puts "ERROR candidate filer_id missing filer_id=#{filer_id}"
+        return
+      end
+
       candidate.save_calculation(:expenditures_by_type, expenditures_by_type)
     end
     supporting_candidate_by_type.each do |filer_id, expenditures_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
-      candidate.save_calculation(:supporting_by_type, expenditures_by_type)
+      candidate.save_calculation(:supporting_by_type, expenditures_by_type) if candidate
     end
     opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
-      candidate.save_calculation(:opposing_by_type, expenditures_by_type)
+      candidate.save_calculation(:opposing_by_type, expenditures_by_type) if candidate
     end
   end
 

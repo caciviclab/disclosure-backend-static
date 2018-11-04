@@ -6,6 +6,19 @@ CSV_PATH?=downloads/csv
 CD := $(shell pwd)
 WGET=bin/wget-wrapper --no-verbose --tries=3
 
+SHEETS := 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+
+SCC_2018_SHEETS := $(patsubst %,downloads/csv/efile_SCC_2018_%.csv,$(SHEETS))
+
+$(SCC_2018_SHEETS): downloads/raw/efile_SCC_2018.xlsx
+	mkdir downloads/csv
+	ruby ssconvert.rb $^ 'downloads/csv/efile_SCC_2018_%{sheet}.csv'
+
+scc: $(SCC_2018_SHEETS)
+
+downloads/raw/efile_SCC_2018.xlsx: downloads/raw/efile_SCC_2018.zip
+	unzip -p $^ > $@
+
 clean-spreadsheets:
 	rm -rf downloads/csv/oakland_*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
 
@@ -30,9 +43,15 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets download-SFO-2017 download-SFO-2018 \
-	download-COAK-2015 download-COAK-2016 download-COAK-2017 download-COAK-2018 \
-	download-BRK-2017 download-BRK-2018
+download: download-spreadsheets download-SCC-2018
+
+
+download-SCC-%:
+	mkdir -p downloads/raw
+	$(WGET) http://nf4.netfile.com/pub2/excel/SCCBrowsable/efile_SCC_$(subst download-SCC-,,$@).zip -O \
+		downloads/raw/efile_SCC_$(subst download-SCC-,,$@).zip
+	unzip -p downloads/raw/efile_SCC_$(subst download-SCC-,,$@).zip > downloads/raw/efile_SCC_$(subst download-SCC-,,$@).xlsx
+	ruby ssconvert.rb downloads/raw/efile_SCC_$(subst download-SCC-,,$@).xlsx 'downloads/csv/efile_SCC_$(subst download-SCC-,,$@)_%{sheet}.csv'
 
 download-SFO-%:
 	mkdir -p downloads/raw
@@ -103,42 +122,42 @@ createdb:
 downloads/csv/oakland_candidates.csv:
 	mkdir -p downloads/csv downloads/raw
 	$(WGET) -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=0&single=true&output=csv' | \
+	  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrhFmIZS-aCSA7ET9aqcspugieDkkZwTvUWz8ahgzvZ-9-plBvGfbw01KLjxN7joJg53FJePtvVm48/pub?gid=0&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/office_elections.csv:
 	mkdir -p downloads/csv downloads/raw
 	$(WGET) -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=585313505&single=true&output=csv' | \
+	  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrhFmIZS-aCSA7ET9aqcspugieDkkZwTvUWz8ahgzvZ-9-plBvGfbw01KLjxN7joJg53FJePtvVm48/pub?gid=585313505&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/oakland_referendums.csv:
 	mkdir -p downloads/csv downloads/raw
 	$(WGET) -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=608094632&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrhFmIZS-aCSA7ET9aqcspugieDkkZwTvUWz8ahgzvZ-9-plBvGfbw01KLjxN7joJg53FJePtvVm48/pub?gid=608094632&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/oakland_name_to_number.csv:
 	mkdir -p downloads/csv
 	$(WGET) -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=102954444&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrhFmIZS-aCSA7ET9aqcspugieDkkZwTvUWz8ahgzvZ-9-plBvGfbw01KLjxN7joJg53FJePtvVm48/pub?gid=102954444&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/oakland_committees.csv:
 	mkdir -p downloads/csv
 	$(WGET) -O- \
-		'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZNbqOzI3TlelO3OSh7QGC1Y4rofoRPs0TefWDLJvleFkaXq_6CSWgX89HfxLYrHhy0lr4QqUEryuc/pub?gid=1015408103&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrhFmIZS-aCSA7ET9aqcspugieDkkZwTvUWz8ahgzvZ-9-plBvGfbw01KLjxN7joJg53FJePtvVm48/pub?gid=1015408103&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 
 downloads/csv/elections.csv:
 	mkdir -p downloads/csv
 	$(WGET) -O- \
-		'https://docs.google.com/spreadsheets/d/1vJR8GR5Bk3bUQXziPiQe7to1O-QEm-_5GfD7hPjp-Xc/pub?gid=2138925841&single=true&output=csv' | \
+		'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrhFmIZS-aCSA7ET9aqcspugieDkkZwTvUWz8ahgzvZ-9-plBvGfbw01KLjxN7joJg53FJePtvVm48/pub?gid=2138925841&single=true&output=csv' | \
 	sed -e '1s/ /_/g' | \
 	sed -e '1s/[^a-zA-Z,_]//g' > $@
 

@@ -69,6 +69,10 @@ class ReferendumContributionsByOrigin
         locales[election].keys.map do |measure|
           total = 0
           ballot_measure = ballot_measure_from_number(election, measure)
+          unless ballot_measure
+            puts "ERROR unknown ballot measure election=#{election} measure=#{measure}"
+            return
+          end
           result = locales[election][measure].keys.map do |locale|
             amount = locales[election][measure][locale]
             total += amount

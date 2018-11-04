@@ -27,7 +27,12 @@ class TotalExpendituresCalculator
     SQL
 
     (results.to_a + late_expenditures.to_a).each do |result|
-      candidate = @candidates_by_filer_id[result['Filer_ID'].to_i]
+      filer_id = result['Filer_ID'].to_i
+      candidate = @candidates_by_filer_id[filer_id]
+      unless candidate
+        puts "ERROR missing candidate filer_id=#{filer_id}"
+        return
+      end
       candidate.save_calculation(:total_expenditures, result['Amount_A'])
     end
   end
