@@ -1,17 +1,17 @@
 {
   "berkeley-2018": {
     "Within Berkeley": 30855.629999999997,
-    "Within California": 8366.0,
-    "Out of State": 927.0
+    "Out of State": 927.0,
+    "Within California": 8366.0
   },
   "oakland-2016": {
-    "Within California": 9136516.68,
+    "Out of State": 10552896.459999999,
     "Within Oakland": 1459663.6900000002,
-    "Out of State": 10552896.459999999
+    "Within California": 9136516.680000002
   },
   "oakland-2018": {
     "Out of State": 972779.03,
-    "Within California": 2781287.0000000005,
+    "Within California": 2781287.0,
     "Within Oakland": 2308607.99
   },
   "oakland-june-2018": {
@@ -28,8 +28,8 @@
     "Within San Francisco": 196828.25
   },
   "sf-june-2018": {
-    "Out of State": 13663391.15,
-    "Within California": 2138333.76,
-    "Within San Francisco": 6063318.069999998
+    "Within San Francisco": 6063318.069999999,
+    "Within California": 2138333.7600000002,
+    "Out of State": 13663391.15
   }
 }
