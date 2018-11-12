@@ -58,7 +58,7 @@ class CandidateContributionsByType
           END AS "Cd",
           SUM("Tran_Amt1") AS "Total"
         FROM candidate_contributions
-        LEFT OUTER JOIN "oakland_candidates"
+        LEFT OUTER JOIN "candidates"
           ON "FPPC"::varchar = "Filer_ID"
           AND (
             -- Schedules A & C have a "Tran_Self" column we can use, but 497 does not.

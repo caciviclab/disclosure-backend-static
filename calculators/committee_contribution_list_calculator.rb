@@ -9,12 +9,12 @@ class CommitteeContributionListCalculator
     results = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH all_committees AS (
         SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date"
-        FROM oakland_committees
-        WHERE NOT EXISTS (SELECT * FROM oakland_candidates
+        FROM committees
+        WHERE NOT EXISTS (SELECT * FROM candidates
                           WHERE "FPPC"::varchar = "Filer_ID")
         UNION ALL
         SELECT "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
-        FROM oakland_candidates
+        FROM candidates
       )
       SELECT all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
         "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd"

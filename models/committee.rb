@@ -1,4 +1,4 @@
-class OaklandCommittee < ActiveRecord::Base
+class Committee < ActiveRecord::Base
 
   has_many :calculations, as: :subject
 

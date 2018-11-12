@@ -1,5 +1,5 @@
 class OfficeElection < ActiveRecord::Base
-  has_many :candidates, class_name: 'OaklandCandidate', foreign_key: 'Office', primary_key: 'name'
+  has_many :candidates, class_name: 'Candidate', foreign_key: 'Office', primary_key: 'name'
 
   def as_json(options = nil)
     {

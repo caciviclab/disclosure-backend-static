@@ -117,7 +117,7 @@ class CandidateExpendituresByType
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Code",
             "Amount"
-          FROM "D-Expenditure", "oakland_candidates"
+          FROM "D-Expenditure", "candidates"
           WHERE "Sup_Opp_Cd" = 'S'
             AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
@@ -126,7 +126,7 @@ class CandidateExpendituresByType
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Dscr" AS "Expn_Code",
             "Amount"
-          FROM "496" AS "outer", "oakland_candidates"
+          FROM "496" AS "outer", "candidates"
           WHERE "Sup_Opp_Cd" = 'S'
             AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND NOT EXISTS (
@@ -162,7 +162,7 @@ class CandidateExpendituresByType
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Code",
             "Amount"
-          FROM "D-Expenditure", "oakland_candidates"
+          FROM "D-Expenditure", "candidates"
           WHERE "Sup_Opp_Cd" = 'O'
             AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
@@ -171,7 +171,7 @@ class CandidateExpendituresByType
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Dscr" AS "Expn_Code",
             "Amount"
-          FROM "496" AS "outer", "oakland_candidates"
+          FROM "496" AS "outer", "candidates"
           WHERE "Sup_Opp_Cd" = 'O'
             AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND NOT EXISTS (
