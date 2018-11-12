@@ -5,6 +5,7 @@ class CommitteeContributionListCalculator
   end
 
   def fetch
+    descriptions = CandidateContributionsByType::TYPE_DESCRIPTIONS
     results = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH all_committees AS (
         SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date"
@@ -16,7 +17,7 @@ class CommitteeContributionListCalculator
         FROM oakland_candidates
       )
       SELECT all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
-        "Tran_Zip4", "Tran_Occ", "Tran_Emp"
+        "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd"
       FROM all_contributions
       JOIN all_committees
       ON all_committees."Filer_ID" = all_contributions."Filer_ID"
@@ -27,6 +28,7 @@ class CommitteeContributionListCalculator
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
       filer_id = row['Filer_ID'].to_s
+      row['Entity_Cd'] = descriptions[row['Entity_Cd']]
 
       hash[filer_id] ||= []
       hash[filer_id] << row
