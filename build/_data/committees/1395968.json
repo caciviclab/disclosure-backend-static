@@ -1,5 +1,5 @@
 {
-  "total_contributions": 483935.68000000005,
+  "total_contributions": 485335.68000000005,
   "contributions": [
     {
       "Filer_ID": "1395968",
@@ -13233,6 +13233,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Laborers Local 67 PAC",
       "Tran_Zip4": "95814-4503"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1400.0,
+      "Tran_Date": "2018-11-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "D.R.I.V.E. - Democrat, Republican, Independent Voter Education (DRIVE Committee)",
+      "Tran_Zip4": "20001-2130"
     }
   ]
 }
