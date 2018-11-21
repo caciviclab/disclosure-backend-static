@@ -23,6 +23,7 @@ class Referendum < ActiveRecord::Base
       title: self['Short_Title'],
       summary: self['Summary'],
       number: self['Measure_number'],
+      votersedge: self['VotersEdge'],
     }
   end
 end
