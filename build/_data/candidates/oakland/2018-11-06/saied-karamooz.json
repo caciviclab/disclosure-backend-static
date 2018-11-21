@@ -1,5 +1,5 @@
 {
-  "id": 43,
+  "id": 45,
   "name": "Saied Karamooz",
   "photo_url": "Saied-Karamooz.png",
   "website_url": "https://everyonesmayor.org/",
@@ -17,18 +17,22 @@
   "party_affiliation": null,
   "filer_id": 1401694,
   "supporting_money": {
-    "contributions_received": 181612.0,
-    "total_contributions": 181612.0,
-    "total_expenditures": 9018.6,
-    "total_loans_received": 181005.0,
+    "contributions_received": 9548.60000000001,
+    "total_contributions": 9548.60000000001,
+    "total_expenditures": 9548.6,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Unitemized": 607.0
+      "Unitemized": 652.0,
+      "Self Funding": 8796.6,
+      "Other (includes Businesses)": 100.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 8796.6,
+      "Within California": 100.0
     },
     "expenditures_by_type": {
       "Print Ads": 3625.0,
@@ -36,7 +40,7 @@
       "Campaign Paraphernalia/Misc.": 300.0,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 1773.42,
-      "Professional Services (Legal, Accounting)": 1730.0,
+      "Professional Services (Legal, Accounting)": 2260.0,
       "Information Technology Costs (Internet, E-mail)": 100.0
     },
     "supporting_by_type": {
@@ -50,12 +54,14 @@
 
     ]
   },
-  "contributions_received": 181612.0,
-  "total_contributions": 181612.0,
-  "total_expenditures": 9018.6,
-  "total_loans_received": 181005.0,
+  "contributions_received": 9548.60000000001,
+  "total_contributions": 9548.60000000001,
+  "total_expenditures": 9548.6,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Unitemized": 607.0
+    "Unitemized": 652.0,
+    "Self Funding": 8796.6,
+    "Other (includes Businesses)": 100.0
   },
   "expenditures_by_type": {
     "Print Ads": 3625.0,
@@ -63,7 +69,7 @@
     "Campaign Paraphernalia/Misc.": 300.0,
     "Candidate Filing/Ballot Fees": 1000.0,
     "Campaign Literature and Mailings": 1773.42,
-    "Professional Services (Legal, Accounting)": 1730.0,
+    "Professional Services (Legal, Accounting)": 2260.0,
     "Information Technology Costs (Internet, E-mail)": 100.0
   }
 }
