@@ -37,6 +37,7 @@ class Candidate < ActiveRecord::Base
       is_incumbent: self['Incumbent'],
       occupation: self['Occupation'],
       party_affiliation: self['Party_Affiliation'],
+      is_winner: self['is_winner'],
 
       # contribution data
       filer_id: self['FPPC'],
