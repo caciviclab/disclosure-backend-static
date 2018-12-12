@@ -17,23 +17,18 @@ no client code changes will be required.
 
 ## Installation
 
+**Note:** You do not need to run these commands to develop on the frontend. All
+you need to do is clone the repository adjacent to the frontend repo.
+
+If you'll be changing the backend code, install the development dependencies
+with these commands:
+
 ```bash
 brew install postgresql
 sudo pip install -r requirements.txt
 gem install pg bundler
 bundle install
 ```
-Note: if you use brew you might get an error while doing the bundle install:
-```
-error: use of undeclared identifier 'LZMA_OK'
-```
-Try:
-```
-brew unlink xz
-bundle install
-brew link xz
-```
-
 
 ## Running
 
@@ -135,5 +130,19 @@ filtered, aggregated, and transformed, the front end consumes it and builds the
 static HTML front end.
 
 <img alt="Diagram showing how finance data flows through different disclosure components" src="./docs/img/open-disclosure-data-flow.png" width="600" />
+
+### Common Errors
+**During Bundle Install**
+```
+error: use of undeclared identifier 'LZMA_OK'
+```
+Try:
+```
+brew unlink xz
+bundle install
+brew link xz
+```
+
+
 
 [form_460]: http://www.fppc.ca.gov/content/dam/fppc/NS-Documents/TAD/Campaign%20Forms/460.pdf
