@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1799781.6,
+  "total_contributions": 1830511.6,
   "contributions": [
     {
       "Filer_ID": "1310647",
@@ -1103,7 +1103,29 @@
     },
     {
       "Filer_ID": "1310647",
-      "Tran_Emp": null,
+      "Tran_Emp": "Oak Tree Realty",
+      "Tran_Occ": "Broker/Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": "Don",
+      "Tran_NamL": "Askey",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "Sebastes Capital Management",
+      "Tran_Occ": "Self employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": "Jason",
+      "Tran_NamL": "Fish",
+      "Tran_Zip4": "94115"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "N.A.",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 5000.0,
@@ -1114,7 +1136,7 @@
     },
     {
       "Filer_ID": "1310647",
-      "Tran_Emp": null,
+      "Tran_Emp": "N.A.",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 5000.0,
@@ -1125,14 +1147,36 @@
     },
     {
       "Filer_ID": "1310647",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Educator",
+      "Tran_Emp": "Morrison & Foerster",
+      "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 5000.0,
+      "Tran_Amt1": 100.0,
       "Tran_Date": "2018-10-30",
-      "Tran_NamF": "Susan",
-      "Tran_NamL": "Stutzman",
-      "Tran_Zip4": "94618"
+      "Tran_NamF": "Andy",
+      "Tran_NamL": "Serwin",
+      "Tran_Zip4": "92130"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "N.A.",
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": "Terry",
+      "Tran_NamL": "Silver",
+      "Tran_Zip4": "48105"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "N.A.",
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": "Sarajane",
+      "Tran_NamL": "Winkleman",
+      "Tran_Zip4": "48104"
     },
     {
       "Filer_ID": "1310647",
@@ -1144,6 +1188,61 @@
       "Tran_NamF": null,
       "Tran_NamL": "The San Francisco Foundation",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "N.A.",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 180.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": "Jill",
+      "Tran_NamL": "Levin",
+      "Tran_Zip4": "11566"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "CBRE",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": "Keith",
+      "Tran_NamL": "Manson",
+      "Tran_Zip4": "94526"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "CCMS Law",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": "Sharon",
+      "Tran_NamL": "Muir",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "Glassdoor",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": "Brad",
+      "Tran_NamL": "Serwin",
+      "Tran_Zip4": "94941"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": "Susan",
+      "Tran_NamL": "Stutzman",
+      "Tran_Zip4": "94618"
     },
     {
       "Filer_ID": "1310647",
@@ -1166,6 +1265,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Wells Fargo Bank",
       "Tran_Zip4": "20006"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": "Orton Development  Inc.",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2018-11-16",
+      "Tran_NamF": "Julian R.",
+      "Tran_NamL": "Orton",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1310647",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-11-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "360 TOTAL CONCEPT CONSULTING LLC",
+      "Tran_Zip4": "94607"
     }
   ]
 }

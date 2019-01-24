@@ -12,18 +12,18 @@
       "locale": "Out of State"
     },
     {
-      "amount": 52400.0,
+      "amount": 102400.0,
       "locale": "Within California"
     },
     {
-      "amount": 926532.82,
+      "amount": 1079527.82,
       "locale": "Within San Francisco"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 423350.0
+      "amount": 541350.0
     },
     {
       "type": "Individual",
@@ -31,7 +31,7 @@
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 814976.32
+      "amount": 899971.32
     }
   ],
   "opposing_organizations": [
@@ -45,7 +45,7 @@
       "id": "1404060",
       "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
       "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "amount": 189832.02
+      "amount": -11267.98
     },
     {
       "id": "1402995",
@@ -54,5 +54,5 @@
       "amount": 1155.0
     }
   ],
-  "total_contributions": 1363051.3199999998
+  "total_contributions": 1566046.32
 }

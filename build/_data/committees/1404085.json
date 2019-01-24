@@ -1785,8 +1785,8 @@
     },
     {
       "Filer_ID": "1404085",
-      "Tran_Emp": "Susan Greenwald",
-      "Tran_Occ": "Consultant",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-09-24",
@@ -1917,8 +1917,8 @@
     },
     {
       "Filer_ID": "1404085",
-      "Tran_Emp": "Oakland Unified School District",
-      "Tran_Occ": "Counselor",
+      "Tran_Emp": "La Clinica de la Raza",
+      "Tran_Occ": "Social Worker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-09-28",
@@ -2192,7 +2192,7 @@
     },
     {
       "Filer_ID": "1404085",
-      "Tran_Emp": "California Child Care R&R Network",
+      "Tran_Emp": "California Child Care & Network",
       "Tran_Occ": "Parent Voices Lead Chapter Organizer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
@@ -2215,11 +2215,11 @@
     {
       "Filer_ID": "1404085",
       "Tran_Emp": "California State University, Sacramento",
-      "Tran_Occ": "Professor",
+      "Tran_Occ": "Researcher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-10-11",
-      "Tran_NamF": "Frank",
+      "Tran_NamF": "Frank M.",
       "Tran_NamL": "Adamson",
       "Tran_Zip4": "94602"
     },

@@ -1,6 +1,17 @@
 {
-  "total_contributions": 242.45,
+  "total_contributions": 2323.4600000000005,
   "contributions": [
+    {
+      "Filer_ID": "1368984",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1400.0,
+      "Tran_Date": "2015-02-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
+    },
     {
       "Filer_ID": "1368984",
       "Tran_Emp": "Orinda Optometry",
@@ -10,6 +21,39 @@
       "Tran_Date": "2018-08-01",
       "Tran_NamF": "Kristine",
       "Tran_NamL": "Smith",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1368984",
+      "Tran_Emp": "Orinda Optometry",
+      "Tran_Occ": "Optometrist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 242.45,
+      "Tran_Date": "2018-08-01",
+      "Tran_NamF": "Kristine",
+      "Tran_NamL": "Smith",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1368984",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Canindates",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 219.28,
+      "Tran_Date": "2018-11-07",
+      "Tran_NamF": "Aimee",
+      "Tran_NamL": "Eng",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1368984",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Canindates",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 219.28,
+      "Tran_Date": "2018-11-07",
+      "Tran_NamF": "Aimee",
+      "Tran_NamL": "Eng",
       "Tran_Zip4": "94610"
     }
   ]

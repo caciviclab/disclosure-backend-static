@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2018-11-06.md
 candidates:
-- loren-taylor
 - desley-brooks
+- loren-taylor
 - natasha-middleton
 - maria-marlo-rodriguez
 - mya-whitaker

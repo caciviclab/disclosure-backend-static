@@ -4,15 +4,20 @@
     "Out of State": 927.0,
     "Within California": 8366.0
   },
+  "oakland-2014": {
+    "Within California": 44221.45,
+    "Within Oakland": 54538.28,
+    "Out of State": 700.0
+  },
   "oakland-2016": {
-    "Out of State": 10552896.459999999,
     "Within Oakland": 1459663.6900000002,
-    "Within California": 9136516.680000002
+    "Within California": 9136516.680000002,
+    "Out of State": 10552896.459999999
   },
   "oakland-2018": {
-    "Out of State": 974179.03,
-    "Within Oakland": 2317404.59,
-    "Within California": 2784587.0
+    "Within Oakland": 2322907.29,
+    "Within California": 2767211.5500000003,
+    "Out of State": 975559.03
   },
   "oakland-june-2018": {
     "Out of State": 7200.0,
@@ -28,8 +33,8 @@
     "Within San Francisco": 196828.25
   },
   "sf-june-2018": {
-    "Within San Francisco": 6063318.069999999,
-    "Within California": 2138333.7600000002,
-    "Out of State": 14814224.4
+    "Within California": 2261333.7600000002,
+    "Out of State": 14819224.4,
+    "Within San Francisco": 6379458.07
   }
 }

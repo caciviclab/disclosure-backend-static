@@ -18,29 +18,32 @@
   "is_winner": false,
   "filer_id": 1403762,
   "supporting_money": {
-    "contributions_received": 36767.41,
-    "total_contributions": 36767.41,
-    "total_expenditures": 30879.81,
-    "total_loans_received": 34612.41,
+    "contributions_received": 57047.13,
+    "total_contributions": 57047.13,
+    "total_expenditures": 57047.13,
+    "total_loans_received": -3.63797880709171e-12,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 1950.0,
-      "Unitemized": 205.0
+      "Individual": 2950.0,
+      "Unitemized": 340.0,
+      "Self Funding": 53757.13
     },
     "contributions_by_origin": {
       "Out of State": 600.0,
-      "Within Oakland": 650.0,
-      "Within California": 700.0
+      "Within Oakland": 55207.13,
+      "Within California": 900.0
     },
     "expenditures_by_type": {
+      "Print Ads": 2000.0,
+      "Phone Banks": 1388.41,
       "Fundraising Events": 300.0,
-      "Campaign Consultants": 11269.24,
+      "Campaign Consultants": 19915.84,
       "Meetings and Appearances": 555.0,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 6752.59,
+      "Campaign Literature and Mailings": 20836.02,
       "Professional Services (Legal, Accounting)": 300.0,
       "T.V. or Cable Airtime and Production Costs": 10514.0
     },
@@ -55,20 +58,23 @@
 
     ]
   },
-  "contributions_received": 36767.41,
-  "total_contributions": 36767.41,
-  "total_expenditures": 30879.81,
-  "total_loans_received": 34612.41,
+  "contributions_received": 57047.13,
+  "total_contributions": 57047.13,
+  "total_expenditures": 57047.13,
+  "total_loans_received": -3.63797880709171e-12,
   "contributions_by_type": {
-    "Individual": 1950.0,
-    "Unitemized": 205.0
+    "Individual": 2950.0,
+    "Unitemized": 340.0,
+    "Self Funding": 53757.13
   },
   "expenditures_by_type": {
+    "Print Ads": 2000.0,
+    "Phone Banks": 1388.41,
     "Fundraising Events": 300.0,
-    "Campaign Consultants": 11269.24,
+    "Campaign Consultants": 19915.84,
     "Meetings and Appearances": 555.0,
     "Candidate Filing/Ballot Fees": 1000.0,
-    "Campaign Literature and Mailings": 6752.59,
+    "Campaign Literature and Mailings": 20836.02,
     "Professional Services (Legal, Accounting)": 300.0,
     "T.V. or Cable Airtime and Production Costs": 10514.0
   }
