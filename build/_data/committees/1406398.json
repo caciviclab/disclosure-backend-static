@@ -1,5 +1,5 @@
 {
-  "total_contributions": 16441.65,
+  "total_contributions": 19741.65,
   "contributions": [
     {
       "Filer_ID": "1406398",
@@ -267,17 +267,6 @@
     },
     {
       "Filer_ID": "1406398",
-      "Tran_Emp": "Presidio Trust",
-      "Tran_Occ": "Human Resources",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2018-06-29",
-      "Tran_NamF": "Angela",
-      "Tran_NamL": "Johnson",
-      "Tran_Zip4": "94509"
-    },
-    {
-      "Filer_ID": "1406398",
       "Tran_Emp": "Blackberry Soul",
       "Tran_Occ": "Chef",
       "Entity_Cd": "Individual",
@@ -286,6 +275,17 @@
       "Tran_NamF": "Angela",
       "Tran_NamL": "Johnson",
       "Tran_Zip4": "94710"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": "Presidio Trust",
+      "Tran_Occ": "Human Resources",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-06-29",
+      "Tran_NamF": "Angela",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94509"
     },
     {
       "Filer_ID": "1406398",
@@ -1100,6 +1100,94 @@
       "Tran_NamF": "Karen",
       "Tran_NamL": "Jennings",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "CRC Development",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Adeline Grocery Inc.",
+      "Tran_Zip4": "94607-2607"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": "Acts Full Gospel Church",
+      "Tran_Occ": "Pastor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-10-24",
+      "Tran_NamF": "Bob",
+      "Tran_NamL": "Jackson",
+      "Tran_Zip4": "94605-4523"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Niagara Movement Democratic Club",
+      "Tran_Zip4": "94610-4102"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": "J&R Associates",
+      "Tran_Occ": "Commercial Property Management",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-10-24",
+      "Tran_NamF": "William",
+      "Tran_NamL": "Rosetti",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-24",
+      "Tran_NamF": "Madie",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94607-2609"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-10-27",
+      "Tran_NamF": "Cynthia",
+      "Tran_NamL": "Montgomery",
+      "Tran_Zip4": "94531"
+    },
+    {
+      "Filer_ID": "1406398",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-11-06",
+      "Tran_NamF": "Leona",
+      "Tran_NamL": "Bridges",
+      "Tran_Zip4": "94115"
     }
   ]
 }
