@@ -8,15 +8,15 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/area/73/measures/measure/3284?&county=alameda%20county&election_authority_id=1",
   "contributions_by_region": [
     {
-      "amount": 256185.0,
+      "amount": 236100.0,
       "locale": "Out of State"
     },
     {
-      "amount": 357512.33,
+      "amount": 356012.33,
       "locale": "Within California"
     },
     {
-      "amount": 158169.25,
+      "amount": 178254.25,
       "locale": "Within Oakland"
     }
   ],
@@ -27,7 +27,7 @@
     },
     {
       "type": "Individual",
-      "amount": 87948.75
+      "amount": 86448.75
     },
     {
       "type": "Other (includes Businesses)",
@@ -48,5 +48,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 771866.5800000001
+  "total_contributions": 770366.5800000001
 }
