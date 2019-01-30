@@ -1,5 +1,5 @@
 {
-  "total_contributions": 299343.58999999997,
+  "total_contributions": 305973.58999999997,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -795,6 +795,28 @@
     },
     {
       "Filer_ID": "1410941",
+      "Tran_Emp": "New Parnasa Partners",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-22",
+      "Tran_NamF": "Joshua",
+      "Tran_NamL": "Polston",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Americal",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-23",
+      "Tran_NamF": "Andrew",
+      "Tran_NamL": "Estopinal",
+      "Tran_Zip4": "95670"
+    },
+    {
+      "Filer_ID": "1410941",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -820,6 +842,61 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 405.0,
+      "Tran_Date": "2018-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Baran Studio Architecture",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Korn/Ferry International",
+      "Tran_Occ": "Managing Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-10-26",
+      "Tran_NamF": "Arnold T.",
+      "Tran_NamL": "Grisham",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Lynch Consulting",
+      "Tran_Occ": "Non-Profit Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-10-26",
+      "Tran_NamF": "Brenda",
+      "Tran_NamL": "Lynch",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "CB Richard Ellis",
+      "Tran_Occ": "Real Estate Broker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-26",
+      "Tran_NamF": "Ben",
+      "Tran_NamL": "Marcus",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Law Offices of Jack W. Schwartz, Jr.",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-10-26",
+      "Tran_NamF": "Jack W.",
+      "Tran_NamL": "Schwartz",
+      "Tran_Zip4": "94564"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 5000.0,
       "Tran_Date": "2018-10-26",
       "Tran_NamF": null,
@@ -828,8 +905,63 @@
     },
     {
       "Filer_ID": "1410941",
-      "Tran_Emp": "Frederick Lewis",
-      "Tran_Occ": "Real Estate Developer",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "A & P Properties",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-27",
+      "Tran_NamF": "Robert W.",
+      "Tran_NamL": "Cheatham",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Tortoise Community Management",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-27",
+      "Tran_NamF": "Brian",
+      "Tran_NamL": "Murphy",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Richard J. Philips",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-10-27",
+      "Tran_NamF": "Richard J.",
+      "Tran_NamL": "Philips",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Sutter Health California Pacific Medical Center",
+      "Tran_Occ": "Administrator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": "Suzannah",
+      "Tran_NamL": "Cowell",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "California Affordable Housing Group LP",
+      "Tran_Occ": "Managing Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2018-10-29",
@@ -846,7 +978,7 @@
       "Tran_Date": "2018-10-29",
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management, Inc.",
-      "Tran_Zip4": "10022"
+      "Tran_Zip4": "94661"
     },
     {
       "Filer_ID": "1410941",
@@ -872,6 +1004,17 @@
     },
     {
       "Filer_ID": "1410941",
+      "Tran_Emp": "Garrett Riegg",
+      "Tran_Occ": "Investor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-10-31",
+      "Tran_NamF": "Garrett",
+      "Tran_NamL": "Riegg",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410941",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -890,7 +1033,29 @@
       "Tran_Date": "2018-11-01",
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Rental Housing Association PAC",
-      "Tran_Zip4": "94618"
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Loh Realty & Investments",
+      "Tran_Occ": "Sales",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-11-06",
+      "Tran_NamF": "Nathan T.",
+      "Tran_NamL": "Durhamhammer",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-11-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Marr & Associates",
+      "Tran_Zip4": "94602"
     }
   ]
 }

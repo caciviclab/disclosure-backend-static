@@ -18,9 +18,9 @@
   "is_winner": true,
   "filer_id": 1409088,
   "supporting_money": {
-    "contributions_received": 24959.0,
-    "total_contributions": 24959.0,
-    "total_expenditures": 18250.49,
+    "contributions_received": 37333.0,
+    "total_contributions": 37333.0,
+    "total_expenditures": 35831.0,
     "total_loans_received": 5000.0,
     "total_supporting_independent": 150919.49,
     "support_list": [
@@ -33,21 +33,22 @@
     ],
     "contributions_by_type": {
       "Committee": 1600.0,
-      "Individual": 15808.0,
-      "Unitemized": 1151.0,
+      "Individual": 26566.0,
+      "Unitemized": 1867.0,
       "Self Funding": 900.0,
-      "Other (includes Businesses)": 500.0
+      "Other (includes Businesses)": 1400.0
     },
     "contributions_by_origin": {
       "Out of State": 450.0,
-      "Within Oakland": 13300.0,
-      "Within California": 5058.0
+      "Within Oakland": 19650.0,
+      "Within California": 10366.0
     },
     "expenditures_by_type": {
-      "Campaign Consultants": 3804.61,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 10501.1,
-      "Professional Services (Legal, Accounting)": 2734.53
+      "Campaign Consultants": 8496.62,
+      "Candidate Filing/Ballot Fees": 1120.0,
+      "Campaign Literature and Mailings": 22818.83,
+      "Professional Services (Legal, Accounting)": 2734.53,
+      "Information Technology Costs (Internet, E-mail)": 87.0
     },
     "supporting_by_type": {
     }
@@ -60,21 +61,22 @@
 
     ]
   },
-  "contributions_received": 24959.0,
-  "total_contributions": 24959.0,
-  "total_expenditures": 18250.49,
+  "contributions_received": 37333.0,
+  "total_contributions": 37333.0,
+  "total_expenditures": 35831.0,
   "total_loans_received": 5000.0,
   "contributions_by_type": {
     "Committee": 1600.0,
-    "Individual": 15808.0,
-    "Unitemized": 1151.0,
+    "Individual": 26566.0,
+    "Unitemized": 1867.0,
     "Self Funding": 900.0,
-    "Other (includes Businesses)": 500.0
+    "Other (includes Businesses)": 1400.0
   },
   "expenditures_by_type": {
-    "Campaign Consultants": 3804.61,
-    "Candidate Filing/Ballot Fees": 1000.0,
-    "Campaign Literature and Mailings": 10501.1,
-    "Professional Services (Legal, Accounting)": 2734.53
+    "Campaign Consultants": 8496.62,
+    "Candidate Filing/Ballot Fees": 1120.0,
+    "Campaign Literature and Mailings": 22818.83,
+    "Professional Services (Legal, Accounting)": 2734.53,
+    "Information Technology Costs (Internet, E-mail)": 87.0
   }
 }

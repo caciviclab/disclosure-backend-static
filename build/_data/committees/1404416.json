@@ -1,5 +1,5 @@
 {
-  "total_contributions": 8125.0,
+  "total_contributions": 8925.0,
   "contributions": [
     {
       "Filer_ID": "1404416",
@@ -352,6 +352,50 @@
       "Tran_NamF": "Lois",
       "Tran_NamL": "Harris",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": "Tobisha Instuments",
+      "Tran_Occ": "Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-23",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Alcantara",
+      "Tran_Zip4": "92120"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": null,
+      "Tran_Occ": "REtired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": "Maria",
+      "Tran_NamL": "Valen",
+      "Tran_Zip4": "94132"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": "Scott's",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2018-10-31",
+      "Tran_NamF": "Raymond",
+      "Tran_NamL": "Gallagher",
+      "Tran_Zip4": "94597"
+    },
+    {
+      "Filer_ID": "1404416",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-11-25",
+      "Tran_NamF": "Terri",
+      "Tran_NamL": "Whitcomb",
+      "Tran_Zip4": "70001"
     }
   ]
 }
