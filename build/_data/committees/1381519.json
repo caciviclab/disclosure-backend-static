@@ -762,17 +762,6 @@
     },
     {
       "Filer_ID": "1381519",
-      "Tran_Emp": "Charles Schwab & Company,Inc.",
-      "Tran_Occ": "Board Chair, and President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2018-10-11",
-      "Tran_NamF": "Carolyn",
-      "Tran_NamL": "Pomerantz",
-      "Tran_Zip4": "94115"
-    },
-    {
-      "Filer_ID": "1381519",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -781,6 +770,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "San Francisco Association of Realtors",
       "Tran_Zip4": "94102"
+    },
+    {
+      "Filer_ID": "1381519",
+      "Tran_Emp": "Charles Schwab & Company,Inc.",
+      "Tran_Occ": "Board Chair, and President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2018-10-11",
+      "Tran_NamF": "Carolyn",
+      "Tran_NamL": "Schwab-Pomerantz",
+      "Tran_Zip4": "94115"
     },
     {
       "Filer_ID": "1381519",
@@ -817,7 +817,7 @@
     },
     {
       "Filer_ID": "1381519",
-      "Tran_Emp": null,
+      "Tran_Emp": "Retired",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 10000.0,

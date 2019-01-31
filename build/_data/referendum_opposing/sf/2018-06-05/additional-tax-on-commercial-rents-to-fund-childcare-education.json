@@ -8,30 +8,30 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 384118.5,
+      "amount": 383384.49,
       "locale": "Out of State"
     },
     {
-      "amount": 102400.0,
+      "amount": 106975.86,
       "locale": "Within California"
     },
     {
-      "amount": 1079527.82,
+      "amount": 1072854.87,
       "locale": "Within San Francisco"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 541350.0
+      "amount": 541100.0
     },
     {
       "type": "Individual",
-      "amount": 124725.0
+      "amount": 120393.9
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 899971.32
+      "amount": 901721.32
     }
   ],
   "opposing_organizations": [
@@ -39,7 +39,7 @@
       "id": "931558",
       "name": "Edwin M. Lee Democratic Club Political Action Committee",
       "payee": "Edwin M. Lee Democratic Club Political Action Committee",
-      "amount": 228411.62
+      "amount": 269678.76
     },
     {
       "id": "1404060",
@@ -48,5 +48,5 @@
       "amount": -11267.98
     }
   ],
-  "total_contributions": 1566046.32
+  "total_contributions": 1563215.2200000002
 }
