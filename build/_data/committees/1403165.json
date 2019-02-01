@@ -1,5 +1,5 @@
 {
-  "total_contributions": 576609.41,
+  "total_contributions": 581786.9700000001,
   "contributions": [
     {
       "Filer_ID": "1403165",
@@ -693,6 +693,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "The San Francisco Foundation",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1403165",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5177.56,
+      "Tran_Date": "2018-11-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Alliance for a Sustainable Economy",
+      "Tran_Zip4": "94612"
     }
   ]
 }

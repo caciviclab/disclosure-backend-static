@@ -1,5 +1,5 @@
 {
-  "total_contributions": 62736.7,
+  "total_contributions": 64336.7,
   "contributions": [
     {
       "Filer_ID": "1365384",
@@ -1903,6 +1903,28 @@
       "Tran_NamF": "Danny W.",
       "Tran_NamL": "Wan",
       "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1365384",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Nam-To Corporation dba Sun Hop Fat #1",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1365384",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-11-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621"
     }
   ]
 }

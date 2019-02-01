@@ -1,5 +1,5 @@
 {
-  "total_contributions": 113160.0,
+  "total_contributions": 163808.99,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -235,6 +235,39 @@
     {
       "Filer_ID": "1410279",
       "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-22",
+      "Tran_NamF": "EMILY",
+      "Tran_NamL": "ROSENBERG",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "SELF-EMPLOYED;SAME NAME",
+      "Tran_Occ": "WOODWORKER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-23",
+      "Tran_NamF": "DONALD",
+      "Tran_NamL": "DALKE",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "SKYLINE STORE, LLC.",
+      "Tran_Occ": "MANAGER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-23",
+      "Tran_NamF": "HELEN",
+      "Tran_NamL": "THOMPSON",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 5000.0,
@@ -256,6 +289,17 @@
     },
     {
       "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": "DAN",
+      "Tran_NamL": "QUIGLEY",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1410279",
       "Tran_Emp": "PORT OF OAKLAND",
       "Tran_Occ": "GENERAL COUNSEL",
       "Entity_Cd": "Individual",
@@ -264,6 +308,39 @@
       "Tran_NamF": "DANNY W.",
       "Tran_NamL": "WAN",
       "Tran_Zip4": "95037"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "GATAN, INC.",
+      "Tran_Occ": "PHYSICIST",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 999.0,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": "SALVATORE T.",
+      "Tran_NamL": "FAHEY",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "CITY OF OAKLAND",
+      "Tran_Occ": "MAYOR",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 999.99,
+      "Tran_Date": "2018-10-29",
+      "Tran_NamF": "LIBBY",
+      "Tran_NamL": "SCHAAF",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "BRICKLAYERS AND ALLIED CRAFTWORKERS LOCAL NO. 3 POLITICAL ACTION COMMITTEE",
+      "Tran_Zip4": "94577"
     },
     {
       "Filer_ID": "1410279",
@@ -281,8 +358,195 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
-      "Tran_Amt1": 12500.0,
+      "Tran_Amt1": 2500.0,
       "Tran_Date": "2018-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -5000.0,
+      "Tran_Date": "2018-11-05",
+      "Tran_NamF": null,
+      "Tran_NamL": "CANNAROYALTY",
+      "Tran_Zip4": "92618"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-11-05",
+      "Tran_NamF": "J LAWRENCE",
+      "Tran_NamL": "WESTLAND III",
+      "Tran_Zip4": "94303"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2018-11-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "DRIVE COMMITTEE",
+      "Tran_Zip4": "20001"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 17500.0,
+      "Tran_Date": "2018-11-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "SELF-EMPLOYED; SAME NAME",
+      "Tran_Occ": "COLLEGE LECTURER/AUTHOR",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ELAINE",
+      "Tran_NamL": "BROWN",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "KASOWITZ KENSON TORRES, LLP",
+      "Tran_Occ": "ATTORNEY",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "CHARLES",
+      "Tran_NamL": "FREIBERG",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "FARALLON CAPITAL MANAGEMENT, LLC",
+      "Tran_Occ": "CHIEF FINANCIAL OFFICER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ANDREW",
+      "Tran_NamL": "FREMDER",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "MICRO BALANCED PRODUCTS",
+      "Tran_Occ": "MARKETING",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "RON",
+      "Tran_NamL": "GERSHONI",
+      "Tran_Zip4": "07670"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "KIDD",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "KIDD",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "MCD/CLAREMONT GROUP",
+      "Tran_Occ": "DEVELOPMENT AND CONSTRUCTION",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "MICHAEL",
+      "Tran_NamL": "MCDONALD",
+      "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "SELF-EMPLOYED; SAME NAME",
+      "Tran_Occ": "ATTORNEY",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "RAICH",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "SHEPPARD MULLIN RICHTER & HAMPTON LLP",
+      "Tran_Occ": "ATTORNEY",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "JOAN",
+      "Tran_NamL": "STORY",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "WENDEL ROSEN",
+      "Tran_Occ": "LAWYER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "WASSERMAN",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": "WENDEL ROSEN",
+      "Tran_Occ": "LAWYER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-11-19",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "WASSERMAN",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2018-11-26",
       "Tran_NamF": null,
       "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
       "Tran_Zip4": "94618"

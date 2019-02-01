@@ -1,5 +1,5 @@
 {
-  "total_contributions": 22100.0,
+  "total_contributions": 23800.0,
   "contributions": [
     {
       "Filer_ID": "1406153",
@@ -561,6 +561,105 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Hardtke",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Interim Assistant Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-10-21",
+      "Tran_NamF": "Richard",
+      "Tran_NamL": "Battersby",
+      "Tran_Zip4": "94534"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "LAM Engineering",
+      "Tran_Occ": "Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-23",
+      "Tran_NamF": "Salim",
+      "Tran_NamL": "Hanna",
+      "Tran_Zip4": "94566"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Anvil Builders",
+      "Tran_Occ": "Operations Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-10-23",
+      "Tran_NamF": "Gary",
+      "Tran_NamL": "Silveira",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Frederic Neema Photography",
+      "Tran_Occ": "Photographer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -500.0,
+      "Tran_Date": "2018-10-25",
+      "Tran_NamF": "Frederic",
+      "Tran_NamL": "Neema",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2018-10-27",
+      "Tran_NamF": "Nicholas D.",
+      "Tran_NamL": "Stamatakis",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "The McConnell Group",
+      "Tran_Occ": "Executive Vice President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-28",
+      "Tran_NamF": "JR (Greg)",
+      "Tran_NamL": "McConnell",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Magganas Co",
+      "Tran_Occ": "Developer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2018-10-30",
+      "Tran_NamF": "Athan",
+      "Tran_NamL": "Magganas",
+      "Tran_Zip4": "94710"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 350.0,
+      "Tran_Date": "2018-11-01",
+      "Tran_NamF": "Nicholas D.",
+      "Tran_NamL": "Stamatakis",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406153",
+      "Tran_Emp": "Port of Oakland",
+      "Tran_Occ": "Civil Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-11-02",
+      "Tran_NamF": "Henry Joseph",
+      "Tran_NamL": "Trapp",
+      "Tran_Zip4": "94611"
     }
   ]
 }
