@@ -18,29 +18,32 @@
   "is_winner": false,
   "filer_id": 1412686,
   "supporting_money": {
-    "contributions_received": 12738.59,
-    "total_contributions": 12738.59,
-    "total_expenditures": 6159.19,
-    "total_loans_received": 1453.9,
+    "contributions_received": 12254.69,
+    "total_contributions": 12254.69,
+    "total_expenditures": 12036.59,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 8600.01,
-      "Unitemized": 1596.0,
+      "Individual": 9410.01,
+      "Unitemized": 1756.0,
       "Other (includes Businesses)": 1088.68
     },
     "contributions_by_origin": {
-      "Out of State": 3338.68,
-      "Within Oakland": 3550.0,
-      "Within California": 2800.01
+      "Out of State": 3848.68,
+      "Within Oakland": 3750.0,
+      "Within California": 2900.01
     },
     "expenditures_by_type": {
-      "Print Ads": 2885.04,
-      "Fundraising Events": 1516.48,
-      "Campaign Consultants": 512.59,
-      "Campaign Paraphernalia/Misc.": 124.21,
+      "Print Ads": 3631.09,
+      "Phone Banks": 748.0,
+      "Fundraising Events": 1866.11,
+      "Campaign Consultants": 3070.59,
+      "Meetings and Appearances": 150.0,
+      "Campaign Paraphernalia/Misc.": 929.41,
+      "Candidate Travel, Lodging, and Meals": 64.5,
       "Professional Services (Legal, Accounting)": 649.0
     },
     "supporting_by_type": {
@@ -54,20 +57,23 @@
 
     ]
   },
-  "contributions_received": 12738.59,
-  "total_contributions": 12738.59,
-  "total_expenditures": 6159.19,
-  "total_loans_received": 1453.9,
+  "contributions_received": 12254.69,
+  "total_contributions": 12254.69,
+  "total_expenditures": 12036.59,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 8600.01,
-    "Unitemized": 1596.0,
+    "Individual": 9410.01,
+    "Unitemized": 1756.0,
     "Other (includes Businesses)": 1088.68
   },
   "expenditures_by_type": {
-    "Print Ads": 2885.04,
-    "Fundraising Events": 1516.48,
-    "Campaign Consultants": 512.59,
-    "Campaign Paraphernalia/Misc.": 124.21,
+    "Print Ads": 3631.09,
+    "Phone Banks": 748.0,
+    "Fundraising Events": 1866.11,
+    "Campaign Consultants": 3070.59,
+    "Meetings and Appearances": 150.0,
+    "Campaign Paraphernalia/Misc.": 929.41,
+    "Candidate Travel, Lodging, and Meals": 64.5,
     "Professional Services (Legal, Accounting)": 649.0
   }
 }
