@@ -1,5 +1,5 @@
 {
-  "total_contributions": 91228.0,
+  "total_contributions": 90941.0,
   "contributions": [
     {
       "Filer_ID": "1406241",
@@ -3608,6 +3608,50 @@
       "Tran_NamF": "Andrew",
       "Tran_NamL": "Vincent",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1406241",
+      "Tran_Emp": "Geopointe",
+      "Tran_Occ": "Sales",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -112.0,
+      "Tran_Date": "2018-12-31",
+      "Tran_NamF": "Mark",
+      "Tran_NamL": "Baird",
+      "Tran_Zip4": "94954"
+    },
+    {
+      "Filer_ID": "1406241",
+      "Tran_Emp": "Taylor-Connor Partnership",
+      "Tran_Occ": "manage property",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -112.0,
+      "Tran_Date": "2018-12-31",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Connor",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1406241",
+      "Tran_Emp": "BuildZig",
+      "Tran_Occ": "Development Services",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -28.0,
+      "Tran_Date": "2018-12-31",
+      "Tran_NamF": "Carlos",
+      "Tran_NamL": "Plazola",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1406241",
+      "Tran_Emp": "The McConnell Group",
+      "Tran_Occ": "consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -35.0,
+      "Tran_Date": "2018-12-31",
+      "Tran_NamF": "Mimi",
+      "Tran_NamL": "Rohr",
+      "Tran_Zip4": "94611"
     }
   ]
 }
