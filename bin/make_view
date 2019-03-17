@@ -137,7 +137,7 @@ DROP VIEW IF EXISTS independent_candidate_expenditures;
 CREATE VIEW independent_candidate_expenditures AS
   SELECT "FPPC" AS "Cand_ID", "Filer_ID", "Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
   FROM (
-    SELECT "Filer_ID", "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
+    SELECT "Filer_ID"::varchar, "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
     FROM "496"
     UNION ALL
     SELECT "Filer_ID", "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL",
