@@ -1,3 +1,5 @@
+[![Build
+Status](https://travis-ci.org/caciviclab/disclosure-backend-static.svg?branch=master)](https://travis-ci.org/caciviclab/disclosure-backend-static)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/caciviclab/disclosure-backend.png?columns=ready)](https://waffle.io/caciviclab/disclosure-backend?utm_source=badge)
 
 # Disclosure Backend Static
