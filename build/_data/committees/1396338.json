@@ -1,5 +1,5 @@
 {
-  "total_contributions": 942171.96,
+  "total_contributions": 942371.96,
   "contributions": [
     {
       "Filer_ID": "1396338",
@@ -12202,8 +12202,8 @@
     },
     {
       "Filer_ID": "1396338",
-      "Tran_Emp": "City & County of SF",
-      "Tran_Occ": "Government",
+      "Tran_Emp": "City and County of San Francisco Public Utilities Commission",
+      "Tran_Occ": "Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2018-01-01",
@@ -23972,6 +23972,17 @@
     },
     {
       "Filer_ID": "1396338",
+      "Tran_Emp": "Presidio Sport & Medicine",
+      "Tran_Occ": "Physical Therapy aide",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2018-04-11",
+      "Tran_NamF": "Jeffrey",
+      "Tran_NamL": "Thompson",
+      "Tran_Zip4": "94122-1110"
+    },
+    {
+      "Filer_ID": "1396338",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -25183,7 +25194,7 @@
     {
       "Filer_ID": "1396338",
       "Tran_Emp": null,
-      "Tran_Occ": "retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-04-19",
@@ -27272,7 +27283,7 @@
     },
     {
       "Filer_ID": "1396338",
-      "Tran_Emp": "Linda Rude Designs",
+      "Tran_Emp": "Linda Rude Landscape Design",
       "Tran_Occ": "Landscape Designer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -28872,7 +28883,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-05-14",
-      "Tran_NamF": "Davidner",
+      "Tran_NamF": "David",
       "Tran_NamL": "Blake",
       "Tran_Zip4": "94703-1925"
     },
@@ -30143,8 +30154,8 @@
     },
     {
       "Filer_ID": "1396338",
-      "Tran_Emp": "Apollo Stone Imports Inc.",
-      "Tran_Occ": "President",
+      "Tran_Emp": "Apollo Stone Imports",
+      "Tran_Occ": "Importer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2018-05-18",
@@ -30418,12 +30429,12 @@
     },
     {
       "Filer_ID": "1396338",
-      "Tran_Emp": "Dentons US LLP",
-      "Tran_Occ": "Attorney",
+      "Tran_Emp": "Dentons",
+      "Tran_Occ": "Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2018-05-18",
-      "Tran_NamF": "Stan",
+      "Tran_NamF": "Stanley",
       "Tran_NamL": "Landfair",
       "Tran_Zip4": "94105-1313"
     },
