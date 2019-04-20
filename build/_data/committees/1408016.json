@@ -1,5 +1,5 @@
 {
-  "total_contributions": 9240.0,
+  "total_contributions": 12813.6,
   "contributions": [
     {
       "Filer_ID": "1408016",
@@ -253,6 +253,17 @@
       "Tran_NamF": "Rich",
       "Tran_NamL": "Silverstein",
       "Tran_Zip4": "60093"
+    },
+    {
+      "Filer_ID": "1408016",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 3573.6,
+      "Tran_Date": "2018-11-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Public Ethics Commission",
+      "Tran_Zip4": "94612"
     }
   ]
 }
