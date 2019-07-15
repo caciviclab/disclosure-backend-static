@@ -1,5 +1,5 @@
 {
-  "total_contributions": 27200.0,
+  "total_contributions": 27550.0,
   "contributions": [
     {
       "Filer_ID": "1412582",
@@ -80,6 +80,17 @@
     },
     {
       "Filer_ID": "1412582",
+      "Tran_Emp": "St. Mary's Center",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-11-05",
+      "Tran_NamF": "Sharon",
+      "Tran_NamL": "Cornu",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1412582",
       "Tran_Emp": "Gordon & Associates, Inc.",
       "Tran_Occ": "Database Manager",
       "Entity_Cd": "Individual",
@@ -88,6 +99,17 @@
       "Tran_NamF": "Alice",
       "Tran_NamL": "Weber",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1412582",
+      "Tran_Emp": "Tolbert & Associates",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-11-06",
+      "Tran_NamF": "Carol Lee",
+      "Tran_NamL": "Tolbert",
+      "Tran_Zip4": "94608"
     },
     {
       "Filer_ID": "1412582",
