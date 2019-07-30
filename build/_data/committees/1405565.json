@@ -1,5 +1,5 @@
 {
-  "total_contributions": 117300.0,
+  "total_contributions": 117350.0,
   "contributions": [
     {
       "Filer_ID": "1405565",
@@ -3077,6 +3077,17 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2018-11-29",
+      "Tran_NamF": "Dena",
+      "Tran_NamL": "Shupe",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1405565",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Assistant to City Auditor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-12-29",
       "Tran_NamF": "Dena",
       "Tran_NamL": "Shupe",
       "Tran_Zip4": "94619"
