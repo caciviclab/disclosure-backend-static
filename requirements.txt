@@ -19,6 +19,6 @@ pytimeparse==1.1.5
 pytz==2016.10
 regex==2016.12.27
 six==1.10.0
-SQLAlchemy==1.1.4
+SQLAlchemy~=1.3.0
 Unidecode==0.4.19
 xlrd==1.0.0
