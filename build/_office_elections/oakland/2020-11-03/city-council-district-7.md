@@ -4,6 +4,7 @@ candidates:
 - esmeralda-cortez-rosales
 - ken-houston
 - marchon-tatmon
+- marcie-hodge
 - robert-jackson
 - tyrone-stevenson
 - treva-reid
