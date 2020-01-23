@@ -5,4 +5,6 @@ filer_id: '1420085'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Dan Kalb
+occupation: City Council member
+photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png
 ---

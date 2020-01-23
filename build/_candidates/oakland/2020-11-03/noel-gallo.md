@@ -5,4 +5,8 @@ filer_id: ''
 is_accepted_expenditure_ceiling: false
 is_incumbent: true
 name: Noel Gallo
+occupation: City Council member
+party_affiliation: Democrat
+photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png
+twitter_url: noelgallo5
 ---
