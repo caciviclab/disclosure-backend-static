@@ -1,4 +1,5 @@
-require "selenium-webdriver" # load in the webdriver gem to interact with Selenium
+require 'logger'  
+require 'selenium-webdriver' # load in the webdriver gem to interact with Selenium
 include Selenium::WebDriver::Support
 
 
@@ -14,17 +15,24 @@ driver.navigate.to "https://public.netfile.com/pub2/?aid=CSD"
 # find the year select element and select 2020
 select_year_element = driver.find_element(id: 'ctl00_phBody_DateSelect')
 select_year_element.click
-year2019 = driver.find_element(xpath: '//*[@id="ctl00_phBody_DateSelect"]/option[1]')
-year2019.click
+year2020 = driver.find_element(xpath: '//*[@id="ctl00_phBody_DateSelect"]/option[1]')
+year2020.click
 
 # find the Export All link and click it
 export_all_link = driver.find_element(id: 'ctl00_phBody_GetExcel')
 export_all_link.click
 
-wait = Selenium::WebDriver::Wait.new(:timeout => 10)
-wait.until { 
-  download_file = ENV['HOME'] + '/Downloads/2020_CSD.zip'
-  File.exist?(download_file)
-}
+$LOG = Logger.new('log_file.log', 'monthly')  
+
+begin
+  wait = Selenium::WebDriver::Wait.new(:timeout => 10)
+  wait.until { 
+    download_file = ENV['HOME'] + '/Downloads/2020_CSD.zip'
+    File.exist?(download_file)
+  }
+rescue Exception => e  
+  $LOG.error "ERROR: Download failed!: #{e}"  
+  result = nil  
+end
 
 driver.quit
