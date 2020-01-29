@@ -1,6 +1,137 @@
 {
-  "total_contributions": 0,
+  "total_contributions": 3900.0,
   "contributions": [
-
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "DBA Burt Boltuch",
+      "Tran_Occ": "Consultant/Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-01-05",
+      "Tran_NamF": "Burt",
+      "Tran_NamL": "Boltuch",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "DBA Philip Catalfo",
+      "Tran_Occ": "Writer/Editor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-01-05",
+      "Tran_NamF": "Philip",
+      "Tran_NamL": "Catalfo",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Gibson, Dunn & Crutcher LLP",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-01-05",
+      "Tran_NamF": "Joel",
+      "Tran_NamL": "Sanders",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2020-01-05",
+      "Tran_NamF": "Cindy",
+      "Tran_NamL": "Snow",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2020-01-05",
+      "Tran_NamF": "Stephen",
+      "Tran_NamL": "Snow",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-01-05",
+      "Tran_NamF": "Peter",
+      "Tran_NamL": "Trueblood",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Desiree Salas Designs",
+      "Tran_Occ": "Designer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-01-08",
+      "Tran_NamF": "Desiree",
+      "Tran_NamL": "Salas",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Ecole Bilingue de Berkeley",
+      "Tran_Occ": "Director of Development",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-01-09",
+      "Tran_NamF": "Mei-Lin",
+      "Tran_NamL": "Ha Byers",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-01-13",
+      "Tran_NamF": "Gloria",
+      "Tran_NamL": "Harris",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Downs Pham & Kuei",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-01-13",
+      "Tran_NamF": "Tuan",
+      "Tran_NamL": "Pham",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Cox Castle & Nicholson",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-01-17",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Doty",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Golden State Opportunity",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-01-17",
+      "Tran_NamF": "Amy",
+      "Tran_NamL": "Everitt",
+      "Tran_Zip4": "94010"
+    }
   ]
 }

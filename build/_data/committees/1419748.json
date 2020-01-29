@@ -1,6 +1,71 @@
 {
-  "total_contributions": 0,
+  "total_contributions": 2687.5,
   "contributions": [
-
+    {
+      "Filer_ID": "1419748",
+      "Tran_Emp": "Oakland Fire Department",
+      "Tran_Occ": "Firefighter",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2019-07-30",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Chiu",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1419748",
+      "Tran_Emp": "Oakland Fire Department",
+      "Tran_Occ": "Firefighter",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2019-08-15",
+      "Tran_NamF": "George",
+      "Tran_NamL": "Freelen",
+      "Tran_Zip4": "94551"
+    },
+    {
+      "Filer_ID": "1419748",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Firefighter",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2019-09-09",
+      "Tran_NamF": "Pablo",
+      "Tran_NamL": "Cruz",
+      "Tran_Zip4": "90601"
+    },
+    {
+      "Filer_ID": "1419748",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 387.5,
+      "Tran_Date": "2019-09-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1419748",
+      "Tran_Emp": "Oakland Fire Department",
+      "Tran_Occ": "Firefighter",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2019-09-17",
+      "Tran_NamF": "Dewayne Fred",
+      "Tran_NamL": "Gray",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1419748",
+      "Tran_Emp": "Oakland Fire Department",
+      "Tran_Occ": "Firefighter",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2019-09-17",
+      "Tran_NamF": "Jamie",
+      "Tran_NamL": "Knudsen",
+      "Tran_Zip4": "95354"
+    }
   ]
 }

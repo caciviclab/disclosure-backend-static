@@ -7,15 +7,32 @@
   "number": "Q",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 150000.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 300.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 300.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 150000.0
+    }
   ],
   "supporting_organizations": [
-
+    {
+      "id": "1423153",
+      "name": "Yes on Q! Oakland Neighbors for our Parks and People",
+      "payee": "Yes on Q! Oakland Neighbors for our Parks and People",
+      "amount": 0.0
+    }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 150300.0
 }

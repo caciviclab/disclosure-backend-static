@@ -4,8 +4,8 @@ candidates:
 - sheng-thao
 - charlie-michelson
 - pamela-harris
-- joseph-simmons
 - nayeli-maxson
+- joseph-simmons
 - joseph-tanios
 - francis-hummel
 title: City Council District 4

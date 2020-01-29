@@ -1,5 +1,5 @@
 {
-  "total_contributions": 163808.99,
+  "total_contributions": 173808.99,
   "contributions": [
     {
       "Filer_ID": "1410279",
@@ -547,6 +547,17 @@
       "Entity_Cd": "Committee",
       "Tran_Amt1": 20000.0,
       "Tran_Date": "2018-11-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1410279",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2019-05-30",
       "Tran_NamF": null,
       "Tran_NamL": "OAKLAND METROPOLITAN CHAMBER OF COMMERCE (OAKPAC)",
       "Tran_Zip4": "94618"

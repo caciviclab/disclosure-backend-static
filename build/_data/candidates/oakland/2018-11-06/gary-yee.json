@@ -18,10 +18,10 @@
   "is_winner": true,
   "filer_id": 1409088,
   "supporting_money": {
-    "contributions_received": 37333.0,
-    "total_contributions": 37333.0,
-    "total_expenditures": 35831.0,
-    "total_loans_received": 5000.0,
+    "contributions_received": 33876.58,
+    "total_contributions": 33876.58,
+    "total_expenditures": 36576.34,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 149368.03,
     "support_list": [
       {
@@ -35,19 +35,20 @@
       "Committee": 1600.0,
       "Individual": 26566.0,
       "Unitemized": 1867.0,
-      "Self Funding": 900.0,
+      "Self Funding": 2443.58,
       "Other (includes Businesses)": 1400.0
     },
     "contributions_by_origin": {
       "Out of State": 450.0,
-      "Within Oakland": 19650.0,
+      "Within Oakland": 21193.58,
       "Within California": 10366.0
     },
     "expenditures_by_type": {
       "Campaign Consultants": 8496.62,
+      "Meetings and Appearances": 157.01,
       "Candidate Filing/Ballot Fees": 1120.0,
       "Campaign Literature and Mailings": 22818.83,
-      "Professional Services (Legal, Accounting)": 2734.53,
+      "Professional Services (Legal, Accounting)": 3234.53,
       "Information Technology Costs (Internet, E-mail)": 87.0
     },
     "supporting_by_type": {
@@ -61,22 +62,23 @@
 
     ]
   },
-  "contributions_received": 37333.0,
-  "total_contributions": 37333.0,
-  "total_expenditures": 35831.0,
-  "total_loans_received": 5000.0,
+  "contributions_received": 33876.58,
+  "total_contributions": 33876.58,
+  "total_expenditures": 36576.34,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
     "Committee": 1600.0,
     "Individual": 26566.0,
     "Unitemized": 1867.0,
-    "Self Funding": 900.0,
+    "Self Funding": 2443.58,
     "Other (includes Businesses)": 1400.0
   },
   "expenditures_by_type": {
     "Campaign Consultants": 8496.62,
+    "Meetings and Appearances": 157.01,
     "Candidate Filing/Ballot Fees": 1120.0,
     "Campaign Literature and Mailings": 22818.83,
-    "Professional Services (Legal, Accounting)": 2734.53,
+    "Professional Services (Legal, Accounting)": 3234.53,
     "Information Technology Costs (Internet, E-mail)": 87.0
   }
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 27550.0,
+  "total_contributions": 29700.0,
   "contributions": [
     {
       "Filer_ID": "1412582",
@@ -143,6 +143,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Mayor Libby Schaaf 2014 Officeholder Committee",
       "Tran_Zip4": "90017"
+    },
+    {
+      "Filer_ID": "1412582",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2019-01-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Police Officers Association PAC",
+      "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1412582",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2019-04-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Re-elect Dan Kalb Oakland City Council 2016",
+      "Tran_Zip4": "94601"
     }
   ]
 }
