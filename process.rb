@@ -254,7 +254,7 @@ end
 
 build_file('/_data/stats.json') do |f|
   # TODO this should probably be locality-election specific to the date of the bulk data download
-  date_processed = File.mtime('downloads/raw/efile_COAK_2018.zip')
+  date_processed = File.mtime('downloads/raw/efile_COAK_2020.zip')
   f.puts JSON.pretty_generate(
     date_processed: date_processed.to_s
   )
