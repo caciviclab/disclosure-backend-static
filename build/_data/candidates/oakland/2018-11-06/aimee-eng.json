@@ -1,5 +1,5 @@
 {
-  "id": 29,
+  "id": 84,
   "name": "Aimee Eng",
   "photo_url": "Aimee-Eng.png",
   "website_url": null,
@@ -18,19 +18,29 @@
   "is_winner": true,
   "filer_id": 1368984,
   "supporting_money": {
-    "contributions_received": 2323.4600000000005,
-    "total_contributions": 2323.4600000000005,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": -2915.3,
+    "total_contributions": -2915.3,
+    "total_expenditures": 2200.0,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 242.45,
+      "Unitemized": 122.97,
+      "Self Funding": 438.56
     },
     "contributions_by_origin": {
+      "Within Oakland": 219.28,
+      "Within California": 242.45
     },
     "expenditures_by_type": {
+      "Not Stated": 72.0,
+      "Contribution": 2175.0,
+      "Office Expenses": 100.0,
+      "Campaign Workers' Salaries": 3500.0,
+      "Candidate Filing/Ballot Fees": 1340.0
     },
     "supporting_by_type": {
     }
@@ -43,12 +53,20 @@
 
     ]
   },
-  "contributions_received": 2323.4600000000005,
-  "total_contributions": 2323.4600000000005,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": -2915.3,
+  "total_contributions": -2915.3,
+  "total_expenditures": 2200.0,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 242.45,
+    "Unitemized": 122.97,
+    "Self Funding": 438.56
   },
   "expenditures_by_type": {
+    "Not Stated": 72.0,
+    "Contribution": 2175.0,
+    "Office Expenses": 100.0,
+    "Campaign Workers' Salaries": 3500.0,
+    "Candidate Filing/Ballot Fees": 1340.0
   }
 }

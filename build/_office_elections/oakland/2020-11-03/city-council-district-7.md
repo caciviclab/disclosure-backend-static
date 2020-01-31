@@ -6,8 +6,8 @@ candidates:
 - marchon-tatmon
 - marcie-hodge
 - robert-jackson
-- tyrone-stevenson
 - treva-reid
+- tyrone-stevenson
 title: City Council District 7
 label: City Council
 ---

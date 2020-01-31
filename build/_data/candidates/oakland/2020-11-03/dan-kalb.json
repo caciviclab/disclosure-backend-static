@@ -1,5 +1,5 @@
 {
-  "id": 9,
+  "id": 114,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": null,
@@ -38,23 +38,12 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 13241.65,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
       "Independent Expenditure Supporting/Opposing Others": 13241.65
     },
     "opposition_list": [
-      {
-        "Total": 148.12,
-        "Cand_ID": 1420085,
-        "Filer_ID": "1342695",
-        "Filer_NamL": "East Bay Rental Housing Association PAC"
-      },
-      {
-        "Total": 13093.53,
-        "Cand_ID": 1420085,
-        "Filer_ID": "943526",
-        "Filer_NamL": "Oakland Police Officer's Association - Political Action Committee"
-      }
+
     ]
   },
   "contributions_received": 0.0,

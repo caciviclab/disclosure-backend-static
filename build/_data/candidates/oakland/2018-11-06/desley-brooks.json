@@ -1,5 +1,5 @@
 {
-  "id": 37,
+  "id": 88,
   "name": "Desley Brooks",
   "photo_url": "Desley-Brooks.png",
   "website_url": "https://www.desley4d6.com/",
@@ -18,10 +18,10 @@
   "is_winner": false,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 202226.0,
-    "total_contributions": 202226.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 99121.0,
+    "total_contributions": 99121.0,
+    "total_expenditures": 66964.41,
+    "total_loans_received": -2400.0,
     "total_supporting_independent": 46341.22,
     "support_list": [
       {
@@ -38,17 +38,50 @@
       }
     ],
     "contributions_by_type": {
+      "Committee": 8250.0,
+      "Individual": 88113.0,
+      "Unitemized": 1812.0,
+      "Other (includes Businesses)": 7550.0
     },
     "contributions_by_origin": {
+      "Out of State": 2300.0,
+      "Within Oakland": 56754.0,
+      "Within California": 44859.0
     },
     "expenditures_by_type": {
+      "Not Stated": 8620.48,
+      "Phone Banks": 6950.0,
+      "Contribution": 700.0,
+      "Legal Defense": 1000.0,
+      "Civic Donations": 7666.74,
+      "Office Expenses": 14537.72,
+      "Fundraising Events": 2597.61,
+      "Campaign Consultants": 36800.0,
+      "Member Communications": 199.19,
+      "Meetings and Appearances": 2307.7,
+      "Campaign Paraphernalia/Misc.": 4982.21,
+      "Candidate Filing/Ballot Fees": 1250.0,
+      "Campaign Literature and Mailings": 21873.89,
+      "Candidate Travel, Lodging, and Meals": 1909.39,
+      "Postage, Delivery and Messenger Services": 16472.78,
+      "Professional Services (Legal, Accounting)": 6888.01,
+      "T.V. or Cable Airtime and Production Costs": 1000.0,
+      "Information Technology Costs (Internet, E-mail)": 7366.31
     },
     "supporting_by_type": {
+      "MON": 3200.0,
+      "Mailer": 14542.0,
+      "Doorhanger": 17656.0,
+      "Phone Banking \u0026 Field Campaign": 13800.0,
+      "Independent Expenditure Supporting/Opposing Others": 343.22
     }
   },
   "opposing_money": {
     "opposing_expenditures": 320291.34,
     "opposing_by_type": {
+      "IKD": 14908.0,
+      "MON": 135000.0,
+      "Independent Expenditure Supporting/Opposing Others": 320291.34
     },
     "opposition_list": [
       {
@@ -65,12 +98,34 @@
       }
     ]
   },
-  "contributions_received": 202226.0,
-  "total_contributions": 202226.0,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 99121.0,
+  "total_contributions": 99121.0,
+  "total_expenditures": 66964.41,
+  "total_loans_received": -2400.0,
   "contributions_by_type": {
+    "Committee": 8250.0,
+    "Individual": 88113.0,
+    "Unitemized": 1812.0,
+    "Other (includes Businesses)": 7550.0
   },
   "expenditures_by_type": {
+    "Not Stated": 8620.48,
+    "Phone Banks": 6950.0,
+    "Contribution": 700.0,
+    "Legal Defense": 1000.0,
+    "Civic Donations": 7666.74,
+    "Office Expenses": 14537.72,
+    "Fundraising Events": 2597.61,
+    "Campaign Consultants": 36800.0,
+    "Member Communications": 199.19,
+    "Meetings and Appearances": 2307.7,
+    "Campaign Paraphernalia/Misc.": 4982.21,
+    "Candidate Filing/Ballot Fees": 1250.0,
+    "Campaign Literature and Mailings": 21873.89,
+    "Candidate Travel, Lodging, and Meals": 1909.39,
+    "Postage, Delivery and Messenger Services": 16472.78,
+    "Professional Services (Legal, Accounting)": 6888.01,
+    "T.V. or Cable Airtime and Production Costs": 1000.0,
+    "Information Technology Costs (Internet, E-mail)": 7366.31
   }
 }

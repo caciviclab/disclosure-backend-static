@@ -1,5 +1,5 @@
 {
-  "id": 64,
+  "id": 58,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": "https://dankalb.net",
@@ -18,9 +18,9 @@
   "is_winner": null,
   "filer_id": 1382408,
   "supporting_money": {
-    "contributions_received": 113810.66,
-    "total_contributions": 113810.66,
-    "total_expenditures": 149666.65,
+    "contributions_received": 103058.0,
+    "total_contributions": 103058.0,
+    "total_expenditures": null,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -28,15 +28,15 @@
     ],
     "contributions_by_type": {
       "Committee": 11350.0,
-      "Individual": 80751.0,
+      "Individual": 80101.0,
       "Unitemized": 10102.66,
       "Self Funding": 250.0,
       "Other (includes Businesses)": 11357.0
     },
     "contributions_by_origin": {
       "Out of State": 4245.0,
-      "Within Oakland": 47086.0,
-      "Within California": 52377.0
+      "Within Oakland": 46936.0,
+      "Within California": 51877.0
     },
     "expenditures_by_type": {
       "Print Ads": 655.0,
@@ -80,13 +80,13 @@
       }
     ]
   },
-  "contributions_received": 113810.66,
-  "total_contributions": 113810.66,
-  "total_expenditures": 149666.65,
+  "contributions_received": 103058.0,
+  "total_contributions": 103058.0,
+  "total_expenditures": null,
   "total_loans_received": 0.0,
   "contributions_by_type": {
     "Committee": 11350.0,
-    "Individual": 80751.0,
+    "Individual": 80101.0,
     "Unitemized": 10102.66,
     "Self Funding": 250.0,
     "Other (includes Businesses)": 11357.0
