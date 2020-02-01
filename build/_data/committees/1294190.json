@@ -1,5 +1,5 @@
 {
-  "total_contributions": 220550.0,
+  "total_contributions": 223550.0,
   "contributions": [
     {
       "Filer_ID": "1294190",
@@ -539,6 +539,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "PG&E Corporation and Affiliated Entities",
       "Tran_Zip4": "94114"
+    },
+    {
+      "Filer_ID": "1294190",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": null,
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2019-09-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers Local 3 District 20 PAC",
+      "Tran_Zip4": "94502"
+    },
+    {
+      "Filer_ID": "1294190",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2019-09-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers Local Union No 3 District 01, 02, 03 PAC",
+      "Tran_Zip4": "94502"
+    },
+    {
+      "Filer_ID": "1294190",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2019-10-23",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Wieckowski for Secretary of State 2022",
+      "Tran_Zip4": "95864"
     }
   ]
 }

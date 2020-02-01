@@ -18,19 +18,29 @@
   "is_winner": null,
   "filer_id": 1419930,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 25439.31,
+    "total_contributions": 25439.31,
+    "total_expenditures": 2098.01,
+    "total_loans_received": 211.32,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Committee": 1100.0,
+      "Individual": 19852.0,
+      "Unitemized": 4275.99
     },
     "contributions_by_origin": {
+      "Out of State": 2620.0,
+      "Within Oakland": 12492.0,
+      "Within California": 5840.0
     },
     "expenditures_by_type": {
+      "Fundraising Events": 257.52,
+      "Meetings and Appearances": 263.0,
+      "Campaign Literature and Mailings": 433.26,
+      "Professional Services (Legal, Accounting)": 689.32
     },
     "supporting_by_type": {
     }
@@ -43,12 +53,19 @@
 
     ]
   },
-  "contributions_received": 0.0,
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 25439.31,
+  "total_contributions": 25439.31,
+  "total_expenditures": 2098.01,
+  "total_loans_received": 211.32,
   "contributions_by_type": {
+    "Committee": 1100.0,
+    "Individual": 19852.0,
+    "Unitemized": 4275.99
   },
   "expenditures_by_type": {
+    "Fundraising Events": 257.52,
+    "Meetings and Appearances": 263.0,
+    "Campaign Literature and Mailings": 433.26,
+    "Professional Services (Legal, Accounting)": 689.32
   }
 }
