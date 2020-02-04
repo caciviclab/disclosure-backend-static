@@ -18,19 +18,32 @@
   "is_winner": null,
   "filer_id": 1420085,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 31312.03,
+    "total_contributions": 31312.03,
+    "total_expenditures": 9146.48,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Committee": 2063.67,
+      "Individual": 24751.39,
+      "Unitemized": 1946.97,
+      "Self Funding": 200.0,
+      "Other (includes Businesses)": 2350.0
     },
     "contributions_by_origin": {
+      "Out of State": 902.34,
+      "Within Oakland": 12288.01,
+      "Within California": 16174.71
     },
     "expenditures_by_type": {
+      "Not Stated": 100.0,
+      "Fundraising Events": 403.56,
+      "Campaign Paraphernalia/Misc.": 479.27,
+      "Professional Services (Legal, Accounting)": 2715.6,
+      "Information Technology Costs (Internet, E-mail)": 1647.48
     },
     "supporting_by_type": {
       "IKD": 300.0,
@@ -46,12 +59,22 @@
 
     ]
   },
-  "contributions_received": 0.0,
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 31312.03,
+  "total_contributions": 31312.03,
+  "total_expenditures": 9146.48,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Committee": 2063.67,
+    "Individual": 24751.39,
+    "Unitemized": 1946.97,
+    "Self Funding": 200.0,
+    "Other (includes Businesses)": 2350.0
   },
   "expenditures_by_type": {
+    "Not Stated": 100.0,
+    "Fundraising Events": 403.56,
+    "Campaign Paraphernalia/Misc.": 479.27,
+    "Professional Services (Legal, Accounting)": 2715.6,
+    "Information Technology Costs (Internet, E-mail)": 1647.48
   }
 }

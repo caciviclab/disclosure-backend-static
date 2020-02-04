@@ -1,6 +1,50 @@
 {
-  "total_contributions": 150300.0,
+  "total_contributions": 161500.0,
   "contributions": [
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2019-12-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Oakland Fund",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Director of Public Works",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2019-12-20",
+      "Tran_NamF": "Brooke",
+      "Tran_NamL": "Levin",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2019-12-21",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Udkow",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "Jerome And Horner",
+      "Tran_Occ": "Business Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2019-12-23",
+      "Tran_NamF": "Thomas",
+      "Tran_NamL": "LeClair",
+      "Tran_Zip4": "94608"
+    },
     {
       "Filer_ID": "1423153",
       "Tran_Emp": null,

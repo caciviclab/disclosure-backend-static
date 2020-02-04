@@ -18,25 +18,32 @@
   "is_winner": null,
   "filer_id": 1418926,
   "supporting_money": {
-    "contributions_received": 3957.0,
-    "total_contributions": 3957.0,
-    "total_expenditures": 1168.02,
+    "contributions_received": 64059.0,
+    "total_contributions": 64059.0,
+    "total_expenditures": 15002.05,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 3900.0,
-      "Unitemized": 57.0
+      "Individual": 58700.0,
+      "Unitemized": 3634.0,
+      "Other (includes Businesses)": 1725.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 3350.0,
-      "Within California": 550.0
+      "Out of State": 2740.0,
+      "Within Oakland": 25650.0,
+      "Within California": 32035.0
     },
     "expenditures_by_type": {
-      "Office Expenses": 617.12,
-      "Professional Services (Legal, Accounting)": 500.0
+      "Civic Donations": 505.0,
+      "Office Expenses": 2201.63,
+      "Fundraising Events": 1000.0,
+      "Campaign Paraphernalia/Misc.": 1314.28,
+      "Campaign Literature and Mailings": 5250.2,
+      "Postage, Delivery and Messenger Services": 401.53,
+      "Professional Services (Legal, Accounting)": 3500.0
     },
     "supporting_by_type": {
     }
@@ -49,16 +56,22 @@
 
     ]
   },
-  "contributions_received": 3957.0,
-  "total_contributions": 3957.0,
-  "total_expenditures": 1168.02,
+  "contributions_received": 64059.0,
+  "total_contributions": 64059.0,
+  "total_expenditures": 15002.05,
   "total_loans_received": 0.0,
   "contributions_by_type": {
-    "Individual": 3900.0,
-    "Unitemized": 57.0
+    "Individual": 58700.0,
+    "Unitemized": 3634.0,
+    "Other (includes Businesses)": 1725.0
   },
   "expenditures_by_type": {
-    "Office Expenses": 617.12,
-    "Professional Services (Legal, Accounting)": 500.0
+    "Civic Donations": 505.0,
+    "Office Expenses": 2201.63,
+    "Fundraising Events": 1000.0,
+    "Campaign Paraphernalia/Misc.": 1314.28,
+    "Campaign Literature and Mailings": 5250.2,
+    "Postage, Delivery and Messenger Services": 401.53,
+    "Professional Services (Legal, Accounting)": 3500.0
   }
 }

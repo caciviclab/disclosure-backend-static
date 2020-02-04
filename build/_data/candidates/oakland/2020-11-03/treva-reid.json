@@ -18,22 +18,29 @@
   "is_winner": null,
   "filer_id": 1366759,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": 1170.38,
+    "contributions_received": 45899.5,
+    "total_contributions": 45899.5,
+    "total_expenditures": 5504.86,
     "total_loans_received": -50.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Unitemized": 0.0
+      "Committee": 800.0,
+      "Individual": 32986.5,
+      "Unitemized": 1713.0,
+      "Other (includes Businesses)": 10300.0
     },
     "contributions_by_origin": {
+      "Out of State": 3711.5,
+      "Within Oakland": 23425.0,
+      "Within California": 16950.0
     },
     "expenditures_by_type": {
-      "Not Stated": 50.0,
-      "Professional Services (Legal, Accounting)": 4833.28
+      "Not Stated": 100.0,
+      "Fundraising Events": 485.43,
+      "Professional Services (Legal, Accounting)": 5608.78
     },
     "supporting_by_type": {
     }
@@ -46,15 +53,19 @@
 
     ]
   },
-  "contributions_received": 0.0,
-  "total_contributions": 0.0,
-  "total_expenditures": 1170.38,
+  "contributions_received": 45899.5,
+  "total_contributions": 45899.5,
+  "total_expenditures": 5504.86,
   "total_loans_received": -50.0,
   "contributions_by_type": {
-    "Unitemized": 0.0
+    "Committee": 800.0,
+    "Individual": 32986.5,
+    "Unitemized": 1713.0,
+    "Other (includes Businesses)": 10300.0
   },
   "expenditures_by_type": {
-    "Not Stated": 50.0,
-    "Professional Services (Legal, Accounting)": 4833.28
+    "Not Stated": 100.0,
+    "Fundraising Events": 485.43,
+    "Professional Services (Legal, Accounting)": 5608.78
   }
 }
