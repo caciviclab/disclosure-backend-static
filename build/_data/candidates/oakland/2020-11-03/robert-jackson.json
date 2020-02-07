@@ -18,19 +18,25 @@
   "is_winner": null,
   "filer_id": 1421001,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 6800.96,
+    "total_contributions": 6800.96,
+    "total_expenditures": 3248.12,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 6646.5,
+      "Unitemized": 154.46
     },
     "contributions_by_origin": {
+      "Within Oakland": 5855.5,
+      "Within California": 791.0
     },
     "expenditures_by_type": {
+      "Print Ads": 516.64,
+      "Professional Services (Legal, Accounting)": 2585.06
     },
     "supporting_by_type": {
     }
@@ -43,12 +49,16 @@
 
     ]
   },
-  "contributions_received": 0.0,
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null,
+  "contributions_received": 6800.96,
+  "total_contributions": 6800.96,
+  "total_expenditures": 3248.12,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
+    "Individual": 6646.5,
+    "Unitemized": 154.46
   },
   "expenditures_by_type": {
+    "Print Ads": 516.64,
+    "Professional Services (Legal, Accounting)": 2585.06
   }
 }

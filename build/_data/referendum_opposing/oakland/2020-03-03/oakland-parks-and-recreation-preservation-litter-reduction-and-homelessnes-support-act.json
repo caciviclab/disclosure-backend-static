@@ -7,13 +7,24 @@
   "number": "Q",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 36764.0,
+      "locale": "Out of State"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 36764.0
+    }
   ],
   "opposing_organizations": [
-
+    {
+      "id": "1424633",
+      "name": "Oakland Neighbors United, No On Measure Q",
+      "payee": "Oakland Neighbors United, No On Measure Q",
+      "amount": 0.0
+    }
   ],
-  "total_contributions": 0
+  "total_contributions": 36764.0
 }
