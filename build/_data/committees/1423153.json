@@ -1,5 +1,5 @@
 {
-  "total_contributions": 161500.0,
+  "total_contributions": 162500.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -77,6 +77,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "KP Financial SVCS OPS",
       "Tran_Zip4": "91103"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "Shoreline Venture Management",
+      "Tran_Occ": "Venture Capitalist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-02-06",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spears",
+      "Tran_Zip4": "94618"
     }
   ]
 }
