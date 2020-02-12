@@ -1,5 +1,5 @@
 {
-  "total_contributions": 162500.0,
+  "total_contributions": 164500.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -88,6 +88,28 @@
       "Tran_NamF": "Robert",
       "Tran_NamL": "Spears",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "Sci Consulting Group",
+      "Tran_Occ": "Civil Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-02-09",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Bliss",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Mayor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-02-09",
+      "Tran_NamF": "Libby",
+      "Tran_NamL": "Schaaf",
+      "Tran_Zip4": "94602"
     }
   ]
 }
