@@ -1,5 +1,5 @@
 {
-  "total_contributions": 164500.0,
+  "total_contributions": 174500.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -110,6 +110,17 @@
       "Tran_NamF": "Libby",
       "Tran_NamL": "Schaaf",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Flynn Investments",
+      "Tran_Zip4": "94133"
     }
   ]
 }
