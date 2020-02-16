@@ -1,5 +1,5 @@
 {
-  "total_contributions": 36764.0,
+  "total_contributions": 44264.0,
   "contributions": [
     {
       "Filer_ID": "1424633",
@@ -11,6 +11,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "National Association of Realtors",
       "Tran_Zip4": "60611"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-02-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lasalle Keller, LLC",
+      "Tran_Zip4": "94538"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-02-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lee Crest Apartments",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-02-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Palisades Properties, LLC",
+      "Tran_Zip4": "94595"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-02-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Wayne Lake Apartments",
+      "Tran_Zip4": "94606"
     }
   ]
 }
