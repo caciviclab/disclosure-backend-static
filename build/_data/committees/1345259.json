@@ -1,5 +1,5 @@
 {
-  "total_contributions": 235457.09000000003,
+  "total_contributions": 237033.34000000003,
   "contributions": [
     {
       "Filer_ID": "1345259",
@@ -844,6 +844,17 @@
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 1576.25,
       "Tran_Date": "2019-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1345259",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1576.25,
+      "Tran_Date": "2019-12-01",
       "Tran_NamF": null,
       "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
       "Tran_Zip4": "94606"
