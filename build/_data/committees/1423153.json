@@ -14,8 +14,8 @@
     },
     {
       "Filer_ID": "1423153",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Public Works",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2019-12-20",
@@ -32,7 +32,7 @@
       "Tran_Date": "2019-12-21",
       "Tran_NamF": "Michael",
       "Tran_NamL": "Udkow",
-      "Tran_Zip4": "94610"
+      "Tran_Zip4": "94610-2441"
     },
     {
       "Filer_ID": "1423153",
@@ -58,13 +58,13 @@
     },
     {
       "Filer_ID": "1423153",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self-Employed / Same Name",
       "Tran_Occ": "Artist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2020-01-14",
-      "Tran_NamF": "Susan",
-      "Tran_NamL": "Casentini",
+      "Tran_NamF": "Kyle",
+      "Tran_NamL": "Milligan",
       "Tran_Zip4": "94610"
     },
     {
