@@ -16,17 +16,27 @@
       "locale": "Within California"
     },
     {
-      "amount": 4000.0,
+      "amount": 31500.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 27500.0
+    },
     {
       "type": "Other (includes Businesses)",
       "amount": 44264.0
     }
   ],
   "opposing_organizations": [
+    {
+      "id": "782560",
+      "name": "California Association of Realtors Issues Mobilization PAC",
+      "payee": "California Association of Realtors Issues Mobilization PAC",
+      "amount": 40641.0
+    },
     {
       "id": "495189",
       "name": "NATIONAL ASSOCIATION OF REALTORS",
@@ -40,5 +50,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 44264.0
+  "total_contributions": 71764.0
 }

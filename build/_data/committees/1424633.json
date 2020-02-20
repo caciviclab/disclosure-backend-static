@@ -1,5 +1,5 @@
 {
-  "total_contributions": 44264.0,
+  "total_contributions": 71764.0,
   "contributions": [
     {
       "Filer_ID": "1424633",
@@ -55,6 +55,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Wayne Lake Apartments",
       "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 27500.0,
+      "Tran_Date": "2020-02-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association PAC",
+      "Tran_Zip4": "94610"
     }
   ]
 }
