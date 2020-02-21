@@ -1,5 +1,5 @@
 {
-  "total_contributions": 71764.0,
+  "total_contributions": 94264.0,
   "contributions": [
     {
       "Filer_ID": "1424633",
@@ -66,6 +66,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Rental Housing Association PAC",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-02-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lasalle Keller, LLC",
+      "Tran_Zip4": "94538"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2020-02-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management",
+      "Tran_Zip4": "94661"
     }
   ]
 }
