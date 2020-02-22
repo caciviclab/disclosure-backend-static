@@ -8,22 +8,22 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/83-f810b9/address/null/zip/94611/measures/measure/3843?&cty=ca%2falm&date=2020-03-03",
   "contributions_by_region": [
     {
-      "amount": 162500.0,
+      "amount": 162600.0,
       "locale": "Within California"
     },
     {
-      "amount": 14500.0,
+      "amount": 16460.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 10000.0
+      "amount": 10960.0
     },
     {
       "type": "Individual",
-      "amount": 4500.0
+      "amount": 5600.0
     },
     {
       "type": "Other (includes Businesses)",
@@ -38,5 +38,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 177000.0
+  "total_contributions": 179060.0
 }

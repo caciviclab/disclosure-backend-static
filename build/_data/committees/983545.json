@@ -1,5 +1,5 @@
 {
-  "total_contributions": 199050.40999999995,
+  "total_contributions": 203581.98999999993,
   "contributions": [
     {
       "Filer_ID": "983545",
@@ -2343,6 +2343,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company",
       "Tran_Zip4": "19103"
+    },
+    {
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-01-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Verizon Corporate Resources Group",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -468.42,
+      "Tran_Date": "2020-02-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
+      "Tran_Zip4": "94612"
     }
   ]
 }
