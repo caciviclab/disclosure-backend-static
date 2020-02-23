@@ -1,5 +1,5 @@
 {
-  "total_contributions": 179060.0,
+  "total_contributions": 178528.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -72,7 +72,7 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
-      "Tran_Amt1": 960.0,
+      "Tran_Amt1": 428.0,
       "Tran_Date": "2020-01-19",
       "Tran_NamF": null,
       "Tran_NamL": "Save the Bay Action Fund",
@@ -160,6 +160,17 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -10000.0,
+      "Tran_Date": "2020-02-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Flynn Investments",
+      "Tran_Zip4": "94133"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 10000.0,
       "Tran_Date": "2020-02-10",
       "Tran_NamF": null,
@@ -209,6 +220,17 @@
       "Tran_NamF": "Patricia",
       "Tran_NamL": "Hardy",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }
