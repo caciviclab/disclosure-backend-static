@@ -259,3 +259,36 @@ build_file('/_data/stats.json') do |f|
     date_processed: date_processed.to_s
   )
 end
+
+build_file('/_data/independent_expenditures.json') do |f|
+  ie = {}
+  results = ActiveRecord::Base.connection.execute <<-SQL
+    SELECT "Filer_NamL", SUM("Amount"), election_name FROM
+    (
+      SELECT DISTINCT "Filer_NamL", "496"."Tran_ID", "Amount", election_name
+      FROM referendums JOIN "496"
+      on referendums."Measure_number" = "496"."Bal_Num"
+    ) as unique_transactions
+    GROUP BY "Filer_NamL", election_name
+  SQL
+  results.each do |row|
+    election = row['election_name']
+    filer = row['Filer_NamL']
+    sum = row['sum']
+    ie[election] = {} unless ie[election]
+
+    if ie[election][filer]
+      ie[election][filer] += sum.to_i
+    else
+      ie[election][filer] = sum.to_i
+    end
+  end
+
+  sorted_results = {}
+  ie.each do |election, data|
+    sorted_results[election] = data.sort_by { |spender, amount| amount }.reverse 
+  end
+
+  f.puts JSON.pretty_generate(Hash[sorted_results])
+end
+
