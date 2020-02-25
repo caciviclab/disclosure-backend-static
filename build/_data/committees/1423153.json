@@ -1,5 +1,5 @@
 {
-  "total_contributions": 164500.0,
+  "total_contributions": 178528.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -14,8 +14,8 @@
     },
     {
       "Filer_ID": "1423153",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Public Works",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2019-12-20",
@@ -32,7 +32,7 @@
       "Tran_Date": "2019-12-21",
       "Tran_NamF": "Michael",
       "Tran_NamL": "Udkow",
-      "Tran_Zip4": "94610"
+      "Tran_Zip4": "94610-2441"
     },
     {
       "Filer_ID": "1423153",
@@ -58,14 +58,25 @@
     },
     {
       "Filer_ID": "1423153",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self-Employed / Same Name",
       "Tran_Occ": "Artist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2020-01-14",
-      "Tran_NamF": "Susan",
-      "Tran_NamL": "Casentini",
+      "Tran_NamF": "Kyle",
+      "Tran_NamL": "Milligan",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 428.0,
+      "Tran_Date": "2020-01-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Save the Bay Action Fund",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1423153",
@@ -75,8 +86,41 @@
       "Tran_Amt1": 150000.0,
       "Tran_Date": "2020-01-21",
       "Tran_NamF": null,
-      "Tran_NamL": "KP Financial SVCS OPS",
+      "Tran_NamL": "Kaiser Permanente",
       "Tran_Zip4": "91103"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-01-22",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Udkow",
+      "Tran_Zip4": "94610-2441"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "Solutions For Good",
+      "Tran_Occ": "Nonprofit Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-01-23",
+      "Tran_NamF": "Monica",
+      "Tran_NamL": "Marcone",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "Self-Employed / Same Name",
+      "Tran_Occ": "Artist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-01-30",
+      "Tran_NamF": "Kyle",
+      "Tran_NamL": "Milligan",
+      "Tran_Zip4": "94610"
     },
     {
       "Filer_ID": "1423153",
@@ -110,6 +154,83 @@
       "Tran_NamF": "Libby",
       "Tran_NamL": "Schaaf",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -10000.0,
+      "Tran_Date": "2020-02-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Flynn Investments",
+      "Tran_Zip4": "94133"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Flynn Investments",
+      "Tran_Zip4": "94133"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-02-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Trust For Public Land Action Fund",
+      "Tran_Zip4": "94104"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "40th Street Apartments LLC",
+      "Tran_Occ": "Real Estate Owner/Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-12",
+      "Tran_NamF": "Miye",
+      "Tran_NamL": "Takagi",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Firefighter",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-12",
+      "Tran_NamF": "Zac",
+      "Tran_NamL": "Unger",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-13",
+      "Tran_NamF": "Patricia",
+      "Tran_NamL": "Hardy",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

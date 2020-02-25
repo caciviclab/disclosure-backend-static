@@ -1,8 +1,8 @@
 {
   "id": 34,
   "contest_type": "Referendum",
-  "name": null,
-  "title": null,
+  "name": "PENDING",
+  "title": "PENDING",
   "summary": null,
   "number": "PENDING-1",
   "voters_edge_url": null,
@@ -12,8 +12,10 @@
   "contributions_by_type": [
 
   ],
-  "opposing_organizations": [
+  "supporting_organizations": [
 
   ],
-  "total_contributions": 0
+  "total_contributions": [
+
+  ]
 }
