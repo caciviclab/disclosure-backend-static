@@ -259,3 +259,9 @@ build_file('/_data/stats.json') do |f|
     date_processed: date_processed.to_s
   )
 end
+
+build_file('/_data/largest_indpendent_expenditures.json') do |f|
+  f.puts JSON.pretty_generate(Election.all.map do |e|
+    [e.name, e.calculation(:largest_indpendent_expenditures)]
+  end.to_h)
+end
