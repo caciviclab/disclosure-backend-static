@@ -1,17 +1,8 @@
 {
-  "sf-2016": null,
-  "oakland-2016": null,
-  "sf-june-2018": null,
-  "oakland-june-2018": null,
-  "sf-2018": [
-    {
-      "Filer_NamL": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
-      "Total_Amount": 10177.0,
-      "election_name": "sf-2018"
-    }
-  ],
-  "oakland-2018": null,
   "berkeley-2018": null,
+  "oakland-2016": null,
+  "oakland-june-2018": null,
+  "oakland-2018": null,
   "oakland-2020": null,
   "oakland-march-2020": [
     {
@@ -23,6 +14,15 @@
       "Filer_NamL": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
       "Total_Amount": 40641.0,
       "election_name": "oakland-march-2020"
+    }
+  ],
+  "sf-2016": null,
+  "sf-june-2018": null,
+  "sf-2018": [
+    {
+      "Filer_NamL": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+      "Total_Amount": 10177.0,
+      "election_name": "sf-2018"
     }
   ]
 }
