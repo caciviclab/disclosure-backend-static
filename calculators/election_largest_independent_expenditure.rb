@@ -23,7 +23,7 @@ class ElectionLargestIndependentExpenditure
       top_spenders = top_spenders_by_election[election.name]
       next unless top_spenders
 
-      election.save_calculation(:largest_indpendent_expenditures, top_spenders)
+      election.save_calculation(:largest_independent_expenditures, top_spenders)
     end
   end
 end
