@@ -30,10 +30,8 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets download-SFO-2017 download-SFO-2018 \
-	download-COAK-2015 download-COAK-2016 download-COAK-2017 download-COAK-2018 \
-	download-COAK-2019 download-COAK-2020 \
-	download-BRK-2017 download-BRK-2018
+download: download-spreadsheets download-COAK-2017 download-COAK-2018 \
+	download-COAK-2019 download-COAK-2020
 
 download-SFO-%:
 	mkdir -p downloads/raw
