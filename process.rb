@@ -4,10 +4,8 @@ require 'fileutils'
 require 'i18n'
 require 'open-uri'
 
-# map of election_name => { hash including date }
-ELECTIONS = ActiveRecord::Base.connection.execute(<<-SQL).index_by { |row| row['name'] }.transform_values(&:symbolize_keys)
-  SELECT * from elections;
-SQL
+# map of election_name => Election object
+ELECTIONS = Election.all.index_by(&:name)
 
 def build_file(filename, &block)
   filename = File.expand_path('../build', __FILE__) + filename
@@ -215,9 +213,9 @@ Referendum.includes(:calculations).find_each do |referendum|
   end
 
   # /_referendums/oakland/2018-11-06/oakland-childrens-initiative.md
-  build_file("/_referendums/#{locality}/#{election[:date]}/#{title}.md") do |f|
+  build_file("/_referendums/#{locality}/#{election.date}/#{title}.md") do |f|
     f.puts(YAML.dump(
-      'election' => election[:date],
+      'election' => election.date,
       'locality' => locality,
       'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number'],
       'title' => referendum['Short_Title'],
@@ -228,7 +226,7 @@ Referendum.includes(:calculations).find_each do |referendum|
   end
 
   # /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
-  build_file("/_data/referendum_supporting/#{locality}/#{election[:date]}/#{title}.json") do |f|
+  build_file("/_data/referendum_supporting/#{locality}/#{election.date}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       contributions_by_region: referendum.calculation(:supporting_locales) || [],
       contributions_by_type: referendum.calculation(:supporting_type) || [],
@@ -238,7 +236,7 @@ Referendum.includes(:calculations).find_each do |referendum|
   end
 
   # /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
-  build_file("/_data/referendum_opposing/#{locality}/#{election[:date]}/#{title}.json") do |f|
+  build_file("/_data/referendum_opposing/#{locality}/#{election.date}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       contributions_by_region: referendum.calculation(:opposing_locales) || [],
       contributions_by_type: referendum.calculation(:opposing_type) || [],
@@ -249,7 +247,16 @@ Referendum.includes(:calculations).find_each do |referendum|
 end
 
 build_file('/_data/totals.json') do |f|
-  f.puts JSON.pretty_generate(Hash[ContributionsByOrigin.sort])
+  f.puts JSON.pretty_generate(
+    Hash[ELECTIONS.map do |election_name, election|
+      [
+        election_name,
+        ContributionsByOrigin.fetch(election_name, {}).merge(
+          largest_independent_expenditures: election.calculation(:largest_independent_expenditures)
+        )
+      ]
+    end]
+  )
 end
 
 build_file('/_data/stats.json') do |f|
@@ -258,10 +265,4 @@ build_file('/_data/stats.json') do |f|
   f.puts JSON.pretty_generate(
     date_processed: date_processed.to_s
   )
-end
-
-build_file('/_data/largest_indpendent_expenditures.json') do |f|
-  f.puts JSON.pretty_generate(Election.all.map do |e|
-    [e.name, e.calculation(:largest_indpendent_expenditures)]
-  end.to_h)
 end
