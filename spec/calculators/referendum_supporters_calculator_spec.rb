@@ -26,7 +26,7 @@ RSpec.describe ReferendumSupportersCalculator do
         Measure_Number: 'D',
       )
 
-      described_class.new(ballot_measures: [ballot_measure]).fetch
+      described_class.new(ballot_measures: [ballot_measure], committees: Committee.all).fetch
     end
 
     let(:ballot_measure) do
@@ -44,6 +44,44 @@ RSpec.describe ReferendumSupportersCalculator do
 
       calculation = subject[0]
       expect(calculation['amount']).to eq(145_418.42)
+    end
+  end
+
+  describe 'including expenditures from official BMC' do
+    before do
+      import_test_case('spec/fixtures/referendum_expenditures_from_official_bmc_are_included')
+
+      Election.create(
+        name: 'oakland-march-2020',
+        location: 'Oakland',
+        date: '2020-03-05',
+        title: 'Oakland Test Election',
+      )
+      Committee.create(
+        Filer_ID: '1423153',
+        Filer_NamL: 'Yes on Q! Oakland Neighbors for our Parks and People',
+        Ballot_Measure: 'Q',
+        Ballot_Measure_Election: 'oakland-march-2020',
+        Support_Or_Oppose: 'S'
+      )
+
+      described_class.new(ballot_measures: [ballot_measure], committees: Committee.all).fetch
+    end
+
+    let(:ballot_measure) do
+      Referendum.create(
+        election_name: 'oakland-march-2020',
+        Measure_number: 'Q',
+        Short_Title: "Oakland Parks and Recreation Preservation [...] Act",
+      )
+    end
+
+    subject { ballot_measure.calculation(:supporting_organizations) }
+
+    it 'includes the committee in the supporters list' do
+      expect(subject).to_not be_empty
+      expect(subject).to include(hash_including('id' => '1423153'))
+      expect(subject).to include(hash_including('amount' => 83437.4))
     end
   end
 

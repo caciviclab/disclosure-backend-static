@@ -165,7 +165,7 @@ class ReferendumSupportersCalculator
   def ballot_measure_from_num(election_name, bal_num)
     @ballot_measures.detect do |measure|
       measure['election_name'] == election_name &&
-                measure['Measure_number'] == bal_num 
+                measure['Measure_number'] == bal_num
     end
   end
 
