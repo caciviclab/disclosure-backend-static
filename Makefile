@@ -50,7 +50,11 @@ download-COAK-%:
 download-BRK-%:
 	ruby ssconvert.rb downloads/static/efile_BRK_$(subst download-BRK-,,$@).xlsx 'downloads/csv/efile_BRK_$(subst download-BRK-,,$@)_%{sheet}.csv'
 
-import: dropdb createdb do-import-spreadsheets import-data
+import:
+	$(MAKE) dropdb
+	$(MAKE) createdb
+	$(MAKE) do-import-spreadsheets
+	$(MAKE) import-data
 
 import-cached: dropdb createdb
 	cat downloads/cached-db/$(DATABASE_NAME).sql | psql $(DATABASE_NAME)
