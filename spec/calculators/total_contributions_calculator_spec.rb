@@ -4,7 +4,7 @@ require 'spec_helper'
 
 RSpec.describe TotalContributionsCalculator do
   let(:cat_brooks) do
-    OaklandCandidate.create(
+    Candidate.create(
       election_name: 'oakland-2018',
       Candidate: 'Cat Brooks',
       Committee_Name: 'Sheilagh Polk “Cat Brooks” for Mayor 2018',

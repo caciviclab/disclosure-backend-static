@@ -89,7 +89,7 @@ do-import-spreadsheets:
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
 	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
-	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
+	echo 'CREATE TABLE IF NOT EXISTS "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
 

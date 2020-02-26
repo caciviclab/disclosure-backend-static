@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe CandidateSupportingExpenditure do
   describe 'for Huber Trenado' do
     let(:huber_trenado) do
-      OaklandCandidate.create(
+      Candidate.create(
         election_name: 'oakland-2016',
         Candidate: 'Huber Trenado',
         Committee_Name: 'Huber Trenado for OUSD School Board 2016',
@@ -24,7 +24,7 @@ RSpec.describe CandidateSupportingExpenditure do
     subject { huber_trenado.calculation(:total_supporting_independent) }
 
     it 'calculates the correct value' do
-      expect(subject).to eq(99_288.96)
+      expect(subject).to be_within(0.1).of(99_288.96)
     end
   end
 
@@ -32,7 +32,7 @@ RSpec.describe CandidateSupportingExpenditure do
     before do
       import_test_case('spec/fixtures/deduplicate_460_497_within_1_day_of_deadline')
 
-      OaklandCommittee.create(
+      Committee.create(
         Filer_ID: '1331137',
         Filer_NamL: 'FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GREAT OAKLAND PUBLIC SCHOOLS',
       )
@@ -41,7 +41,7 @@ RSpec.describe CandidateSupportingExpenditure do
     end
 
     let(:candidate) do
-      OaklandCandidate.create(
+      Candidate.create(
         election_name: 'oakland-2018',
         Office: 'OUSD District 4',
         Candidate: 'Gary Yee',
@@ -56,7 +56,7 @@ RSpec.describe CandidateSupportingExpenditure do
     subject { candidate.calculation(:support_list).first }
 
     it 'does not duplicate between 460 and 496' do
-      expect(subject['Total']).to eq(56_394.73)
+      expect(subject['Total']).to be_within(0.1).of(56_394.73)
     end
   end
 end

@@ -7,14 +7,20 @@ RSpec.describe ReferendumSupportersCalculator do
     before do
       import_test_case('spec/fixtures/deduplicate_committee_expenses')
 
-      OaklandCommittee.create(
+      Election.create(
+        name: 'oakland-june-2018',
+        location: 'Oakland',
+        date: '2018-06-01',
+        title: 'Oakland Test Election',
+      )
+      Committee.create(
         Filer_ID: '1400467',
         Filer_NamL: 'Protect Oakland Libraries - Yes on D 2018',
         Ballot_Measure: 'D',
         Support_Or_Oppose: 'S'
       )
 
-      OaklandNameToNumber.create(
+      NameToNumber.create(
         election_name: 'oakland-june-2018',
         Measure_Name: 'Supporting a parcel tax measure for the Oakland Public Library on a 2018 ballot.',
         Measure_Number: 'D',
@@ -24,7 +30,7 @@ RSpec.describe ReferendumSupportersCalculator do
     end
 
     let(:ballot_measure) do
-      OaklandReferendum.create(
+      Referendum.create(
         election_name: 'oakland-june-2018',
         Measure_number: 'D',
         Short_Title: 'Library Parcel Tax'
@@ -45,7 +51,13 @@ RSpec.describe ReferendumSupportersCalculator do
     before do
       import_test_case('spec/fixtures/referendum_supporters_without_expenditures_are_included')
 
-      OaklandCommittee.create(
+      Election.create(
+        name: 'oakland-2018',
+        location: 'Oakland',
+        date: '2016-11-06',
+        title: 'Oakland Test Election',
+      )
+      Committee.create(
         Filer_ID: '1410941',
         Filer_NamL: 'Committee for Better Choices, No on Measure AA',
         Ballot_Measure: 'AA',
@@ -57,7 +69,7 @@ RSpec.describe ReferendumSupportersCalculator do
     end
 
     let(:ballot_measure) do
-      OaklandReferendum.create(
+      Referendum.create(
         election_name: 'oakland-2018',
         Measure_number: 'AA',
         Short_Title: "Oakland Children's Initiative",

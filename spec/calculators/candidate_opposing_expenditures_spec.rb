@@ -5,7 +5,7 @@ require 'spec_helper'
 RSpec.describe CandidateOpposingExpenditure do
   describe 'For 2016 candidate Dan Kalb' do
     let(:dan_kalb) do
-      OaklandCandidate.create(
+      Candidate.create(
         election_name: 'oakland-2016',
         Candidate: 'Dan Kalb',
         Committee_Name: 'Re-Elect Dan Kalb Oakland City Council 2016',
