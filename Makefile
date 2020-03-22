@@ -52,9 +52,11 @@ download-COAK-%:
 download-BRK-%:
 	ruby ssconvert.rb downloads/static/efile_BRK_$(subst download-BRK-,,$@).xlsx 'downloads/csv/efile_BRK_$(subst download-BRK-,,$@)_%{sheet}.csv'
 
-import: dropdb createdb do-import-spreadsheets import-data
+import: recreatedb
+	$(MAKE) do-import-spreadsheets
+	$(MAKE) import-data
 
-import-cached: dropdb createdb
+import-cached: recreatedb
 	cat downloads/cached-db/$(DATABASE_NAME).sql | psql $(DATABASE_NAME)
 
 import-spreadsheets: prep-import-spreadsheets do-import-spreadsheets
@@ -93,10 +95,8 @@ import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	./bin/remove_duplicate_transactions
 	./bin/make_view
 
-dropdb:
+recreatedb:
 	dropdb $(DATABASE_NAME) || true
-
-createdb:
 	createdb $(DATABASE_NAME)
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
