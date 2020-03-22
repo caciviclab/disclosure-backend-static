@@ -1,5 +1,5 @@
 {
-  "total_contributions": 94964.0,
+  "total_contributions": 119964.0,
   "contributions": [
     {
       "Filer_ID": "1424633",
@@ -121,6 +121,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management",
       "Tran_Zip4": "94661"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "685 Scofield, LLC",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "685 Scofield, LLC",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1424633",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-02-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Richard J. Philips dba Richard J. Philips",
+      "Tran_Zip4": "94602"
     }
   ]
 }

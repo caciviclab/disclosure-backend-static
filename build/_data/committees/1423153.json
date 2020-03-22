@@ -1,5 +1,5 @@
 {
-  "total_contributions": 178528.0,
+  "total_contributions": 216028.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -231,6 +231,72 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2020-02-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "PG&E Corporation",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 4000.0,
+      "Tran_Date": "2020-02-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "IFPTE Local 21 Issues PAC Fund",
+      "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "University of California, San Francisco",
+      "Tran_Occ": "Professor, Anesthesia",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-02-26",
+      "Tran_NamF": "Judith",
+      "Tran_NamL": "Hellman",
+      "Tran_Zip4": "94104"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Best Bay Apartments Inc.",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "HMI Capital",
+      "Tran_Occ": "Investor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-02-27",
+      "Tran_NamF": "Marco",
+      "Tran_NamL": "Hellman",
+      "Tran_Zip4": "94104"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-02-27",
+      "Tran_NamF": "Susan",
+      "Tran_NamL": "Montauk",
+      "Tran_Zip4": "94618"
     }
   ]
 }

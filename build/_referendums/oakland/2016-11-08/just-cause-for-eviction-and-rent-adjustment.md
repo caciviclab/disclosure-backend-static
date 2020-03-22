@@ -1,5 +1,5 @@
 ---
-election: '2016-11-08'
+election: 2016-11-08
 locality: oakland
 number: JJ
 title: Just Cause for Eviction and Rent Adjustment

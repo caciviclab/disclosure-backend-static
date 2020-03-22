@@ -1,45 +1,71 @@
 {
   "berkeley-2018": {
     "Within Berkeley": 30855.629999999997,
+    "Out of State": 927.0,
     "Within California": 8366.0,
-    "Out of State": 927.0
+    "largest_independent_expenditures": null
   },
   "oakland-2016": {
     "Out of State": 10552796.459999999,
     "Within California": 9123736.680000002,
-    "Within Oakland": 1422868.52
-  },
-  "oakland-2018": {
-    "Within Oakland": 2614783.9099999997,
-    "Out of State": 899596.36,
-    "Within California": 2890253.9
-  },
-  "oakland-2020": {
-    "Out of State": 12973.84,
-    "Within Oakland": 94946.51,
-    "Within California": 88980.70999999999
+    "Within Oakland": 1422868.52,
+    "largest_independent_expenditures": null
   },
   "oakland-june-2018": {
     "Out of State": 7200.0,
     "Within California": 33550.0,
-    "Within Oakland": 110837.72
+    "Within Oakland": 110837.72,
+    "largest_independent_expenditures": null
+  },
+  "oakland-2018": {
+    "Out of State": 899596.36,
+    "Within California": 2890253.9,
+    "Within Oakland": 2614783.9099999997,
+    "largest_independent_expenditures": null
+  },
+  "oakland-2020": {
+    "Out of State": 12973.84,
+    "Within California": 88980.70999999999,
+    "Within Oakland": 94946.51,
+    "largest_independent_expenditures": null
   },
   "oakland-march-2020": {
     "Out of State": 36764.0,
-    "Within California": 169300.0,
-    "Within Oakland": 67428.0
+    "Within California": 195800.0,
+    "Within Oakland": 103428.0,
+    "largest_independent_expenditures": [
+      {
+        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS",
+        "Total_Amount": 184623.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Filer_NamL": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+        "Total_Amount": 40641.0,
+        "election_name": "oakland-march-2020"
+      }
+    ]
   },
   "sf-2016": {
-    "Within California": 100347.02
+    "Within California": 100347.02,
+    "largest_independent_expenditures": null
+  },
+  "sf-june-2018": {
+    "Out of State": 14819989.39,
+    "Within California": 2219438.2399999998,
+    "Within San Francisco": 6248626.529999998,
+    "largest_independent_expenditures": null
   },
   "sf-2018": {
     "Out of State": 52025.0,
     "Within California": 121545.0,
-    "Within San Francisco": 198973.25
-  },
-  "sf-june-2018": {
-    "Within San Francisco": 6248626.529999999,
-    "Within California": 2219438.2399999998,
-    "Out of State": 14819989.39
+    "Within San Francisco": 198973.25,
+    "largest_independent_expenditures": [
+      {
+        "Filer_NamL": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+        "Total_Amount": 10177.0,
+        "election_name": "sf-2018"
+      }
+    ]
   }
 }

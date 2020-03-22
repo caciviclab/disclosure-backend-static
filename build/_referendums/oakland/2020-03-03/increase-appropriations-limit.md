@@ -1,5 +1,5 @@
 ---
-election: '2020-03-03'
+election: 2020-03-03
 locality: oakland
 number: S
 title: Increase Appropriations Limit
