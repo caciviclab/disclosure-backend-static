@@ -1,5 +1,5 @@
 ---
-election: 2016-11-08
+election: '2016-11-08'
 locality: oakland
 number: II
 title: Lease Term for City-Owned or City-Controlled Property

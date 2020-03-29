@@ -1,5 +1,5 @@
 ---
-election: 2018-11-06
+election: '2018-11-06'
 locality: sf
 number: 
 title: EXPANDS LOCAL GOVERNMENTS' AUTHORITY TO ENACT RENT CONTROL ON RESIDENTIAL PROPERTY.
