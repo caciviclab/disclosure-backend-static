@@ -84,7 +84,7 @@ ELECTIONS.each do |election_name, election|
   election_content = YAML.dump(
     'title' => election[:title],
     'locality' => locality,
-    'election' => election[:date],
+    'election' => election[:date].to_s,
     'office_elections' => office_elections_by_label.map do |label, items|
       {
         'label' => label,
@@ -215,7 +215,7 @@ Referendum.includes(:calculations).find_each do |referendum|
   # /_referendums/oakland/2018-11-06/oakland-childrens-initiative.md
   build_file("/_referendums/#{locality}/#{election.date}/#{title}.md") do |f|
     f.puts(YAML.dump(
-      'election' => election.date,
+      'election' => election.date.to_s,
       'locality' => locality,
       'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number'],
       'title' => referendum['Short_Title'],
