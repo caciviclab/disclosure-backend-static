@@ -147,11 +147,18 @@ ELECTIONS.each do |election_name, election|
           .sort_by do |candidate|
             [-1 * (candidate.calculation(:total_contributions) || 0.0), candidate.Candidate]
           end
-          .map { |candidate| candidate.Candidate }
+
+      ContributionsByOrigin[election_name][:race_totals] ||= []
+      ContributionsByOrigin[election_name][:race_totals].append({
+        'title': office_election.title,
+        'type': 'office_election',
+        'slug': slugify(office_election.title),
+        'amount': candidates.sum {|candidate| candidate.calculation(:total_contributions) || 0.0}
+      })
 
       f.puts(YAML.dump({
         'election' => election_path[1..-1],
-        'candidates' => candidates.map { |name| slugify(name) },
+        'candidates' => candidates.map { |candidate| slugify(candidate.Candidate) },
         'title' => office_election.title,
         'label' => office_election.label,
       }.compact))
@@ -244,17 +251,29 @@ Referendum.includes(:calculations).find_each do |referendum|
       total_contributions: referendum.calculation(:opposing_total) || [],
     ))
   end
+
+  supporting_total = referendum.calculation(:supporting_total) || 0
+  opposing_total = referendum.calculation(:opposing_total) || 0
+  ContributionsByOrigin[referendum.election_name][:race_totals] ||= []
+  ContributionsByOrigin[referendum.election_name][:race_totals].append({
+    'title': "Measure #{referendum['Measure_number']}",
+    'type': 'referendum',
+    'slug': title,
+    'amount': supporting_total + opposing_total
+  })
 end
 
 build_file('/_data/totals.json') do |f|
   f.puts JSON.pretty_generate(
     Hash[ELECTIONS.map do |election_name, election|
-      [
-        election_name,
-        ContributionsByOrigin.fetch(election_name, {}).merge(
-          largest_independent_expenditures: election.calculation(:largest_independent_expenditures)
-        )
-      ]
+      totals = ContributionsByOrigin.fetch(election_name, {})
+      totals[:largest_independent_expenditures] = election.calculation(:largest_independent_expenditures)
+
+      # Grab top 3 most expensive races
+      totals[:most_expensive_races] = totals[:race_totals].sort_by {|v| -v[:amount]}[0..2]
+      totals.delete(:race_totals)
+
+      [election_name, totals]
     end]
   )
 end

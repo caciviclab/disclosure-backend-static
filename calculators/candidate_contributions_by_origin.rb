@@ -30,6 +30,8 @@ class CandidateContributionsByOrigin
         ContributionsByOrigin[election] ||= {}
         ContributionsByOrigin[election][result['locale']] ||= 0
         ContributionsByOrigin[election][result['locale']] += result['total']
+        ContributionsByOrigin[election]['Total'] ||= 0
+        ContributionsByOrigin[election]['Total'] += result['total']
       end
     hash.each do |filer_id, contributions_by_local|
       candidate = @candidates_by_filer_id[filer_id.to_i]
