@@ -83,6 +83,7 @@ ELECTIONS.each do |election_name, election|
   office_elections_by_label = office_elections.group_by(&:label)
   election_content = YAML.dump(
     'title' => election[:title],
+    'data_key' => election[:name],
     'locality' => locality,
     'election' => election[:date].to_s,
     'office_elections' => office_elections_by_label.map do |label, items|
