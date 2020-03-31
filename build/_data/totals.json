@@ -66,7 +66,7 @@
       },
       {
         "title": "Mayor",
-        "type": "office_election",
+        "type": "office",
         "slug": "mayor",
         "amount": 2867477.9800000004
       },
@@ -168,13 +168,13 @@
     "most_expensive_races": [
       {
         "title": "City Council District 4",
-        "type": "office_election",
+        "type": "office",
         "slug": "city-council-district-4",
         "amount": 33885.86
       },
       {
         "title": "City Council District 8",
-        "type": "office_election",
+        "type": "office",
         "slug": "city-council-district-8",
         "amount": 2211.27
       },
@@ -195,19 +195,19 @@
     "most_expensive_races": [
       {
         "title": "City Council District 1",
-        "type": "office_election",
+        "type": "office",
         "slug": "city-council-district-1",
         "amount": 95371.03
       },
       {
         "title": "City Council District 7",
-        "type": "office_election",
+        "type": "office",
         "slug": "city-council-district-7",
         "amount": 57920.86
       },
       {
         "title": "City Council At-Large",
-        "type": "office_election",
+        "type": "office",
         "slug": "city-council-at-large",
         "amount": 33174.0
       }

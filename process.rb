@@ -151,7 +151,7 @@ ELECTIONS.each do |election_name, election|
       ContributionsByOrigin[election_name][:race_totals] ||= []
       ContributionsByOrigin[election_name][:race_totals].append({
         'title': office_election.title,
-        'type': 'office_election',
+        'type': 'office',
         'slug': slugify(office_election.title),
         'amount': candidates.sum {|candidate| candidate.calculation(:total_contributions) || 0.0}
       })
