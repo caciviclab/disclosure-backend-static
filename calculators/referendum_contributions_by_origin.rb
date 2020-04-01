@@ -59,6 +59,8 @@ class ReferendumContributionsByOrigin
       ContributionsByOrigin[election] ||= {}
       ContributionsByOrigin[election][row['locale']] ||= 0
       ContributionsByOrigin[election][row['locale']] += row['total']
+      ContributionsByOrigin[election]['Total'] ||= 0
+      ContributionsByOrigin[election]['Total'] += row['total']
     end
 
     [
