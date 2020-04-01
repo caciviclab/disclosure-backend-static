@@ -151,10 +151,10 @@ ELECTIONS.each do |election_name, election|
 
       ContributionsByOrigin[election_name][:race_totals] ||= []
       ContributionsByOrigin[election_name][:race_totals].append({
-        'title': office_election.title,
-        'type': 'office',
-        'slug': slugify(office_election.title),
-        'amount': candidates.sum {|candidate| candidate.calculation(:total_contributions) || 0.0}
+        title: office_election.title,
+        type: 'office',
+        slug: slugify(office_election.title),
+        amount: candidates.sum {|candidate| candidate.calculation(:total_contributions) || 0.0}
       })
 
       f.puts(YAML.dump({
@@ -257,10 +257,10 @@ Referendum.includes(:calculations).find_each do |referendum|
   opposing_total = referendum.calculation(:opposing_total) || 0
   ContributionsByOrigin[referendum.election_name][:race_totals] ||= []
   ContributionsByOrigin[referendum.election_name][:race_totals].append({
-    'title': "Measure #{referendum['Measure_number']}",
-    'type': 'referendum',
-    'slug': title,
-    'amount': supporting_total + opposing_total
+    title: "Measure #{referendum['Measure_number']}",
+    type: 'referendum',
+    slug: title,
+    amount: supporting_total + opposing_total
   })
 end
 
