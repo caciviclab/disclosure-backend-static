@@ -1,26 +1,28 @@
 {
-  "sf-2016": {
-    "Within California": 100347.02,
-    "Total": 100347.02,
+  "berkeley-2018": {
+    "Within Berkeley": 30855.629999999997,
+    "Total": 40148.63,
+    "Out of State": 927.0,
+    "Within California": 8366.0,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
-        "title": "Measure V",
-        "type": "referendum",
-        "slug": "tax-on-distributing-sugar-sweetened-beverages---proposition-v",
-        "amount": 90347.02
+        "title": "City Council District 4",
+        "type": "office",
+        "slug": "city-council-district-4",
+        "amount": 33885.86
       },
       {
-        "title": "Measure N",
-        "type": "referendum",
-        "slug": "non-citizen-voting-in-school-board-measure-n",
-        "amount": 10000.0
+        "title": "City Council District 8",
+        "type": "office",
+        "slug": "city-council-district-8",
+        "amount": 2211.27
       },
       {
-        "title": "Measure A",
+        "title": "Measure PENDING-5",
         "type": "referendum",
-        "slug": "bond-public-health-and-safety-bond-measure",
-        "amount": 0
+        "slug": "berkeley-community-for-police-oversight",
+        "amount": 1805.0
       }
     ]
   },
@@ -51,33 +53,6 @@
       }
     ]
   },
-  "sf-june-2018": {
-    "Out of State": 14819989.39,
-    "Total": 23288054.16,
-    "Within California": 2219438.2399999998,
-    "Within San Francisco": 6248626.529999998,
-    "largest_independent_expenditures": null,
-    "most_expensive_races": [
-      {
-        "title": "Measure E",
-        "type": "referendum",
-        "slug": "uphold-ordinance-banning-the-sale-of-flavored-tobacco-products",
-        "amount": 14245967.27
-      },
-      {
-        "title": "Mayor",
-        "type": "office",
-        "slug": "mayor",
-        "amount": 2867477.9800000004
-      },
-      {
-        "title": "Measure D",
-        "type": "referendum",
-        "slug": "additional-tax-on-commercial-rents-mostly-to-fund-housing-and-homelessness-services",
-        "amount": 2690973.82
-      }
-    ]
-  },
   "oakland-june-2018": {
     "Out of State": 7200.0,
     "Total": 151587.72,
@@ -102,33 +77,6 @@
         "type": "referendum",
         "slug": "alameda-county-sales-tax-for-childcare-and-education",
         "amount": 0
-      }
-    ]
-  },
-  "sf-2018": {
-    "Out of State": 52025.0,
-    "Total": 372543.25,
-    "Within California": 121545.0,
-    "Within San Francisco": 198973.25,
-    "largest_independent_expenditures": [
-      {
-        "Filer_NamL": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
-        "Total_Amount": 10177.0,
-        "election_name": "sf-2018"
-      }
-    ],
-    "most_expensive_races": [
-      {
-        "title": "Measure PENDING-4",
-        "type": "referendum",
-        "slug": "universal-childcare-in-san-francisco",
-        "amount": 328293.25
-      },
-      {
-        "title": "Measure PENDING-10",
-        "type": "referendum",
-        "slug": "expands-local-governments-authority-to-enact-rent-control-on-residential-property-intiative-statute-17-0041-",
-        "amount": 44250.0
       }
     ]
   },
@@ -159,38 +107,11 @@
       }
     ]
   },
-  "berkeley-2018": {
-    "Within Berkeley": 30855.629999999997,
-    "Total": 40148.63,
-    "Out of State": 927.0,
-    "Within California": 8366.0,
-    "largest_independent_expenditures": null,
-    "most_expensive_races": [
-      {
-        "title": "City Council District 4",
-        "type": "office",
-        "slug": "city-council-district-4",
-        "amount": 33885.86
-      },
-      {
-        "title": "City Council District 8",
-        "type": "office",
-        "slug": "city-council-district-8",
-        "amount": 2211.27
-      },
-      {
-        "title": "Measure PENDING-5",
-        "type": "referendum",
-        "slug": "berkeley-community-for-police-oversight",
-        "amount": 1805.0
-      }
-    ]
-  },
   "oakland-2020": {
     "Out of State": 12973.84,
-    "Total": 200388.06,
-    "Within California": 90280.70999999999,
-    "Within Oakland": 97133.51,
+    "Total": 196901.06,
+    "Within California": 88980.70999999999,
+    "Within Oakland": 94946.51,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
@@ -248,6 +169,85 @@
         "type": "referendum",
         "slug": "increase-appropriations-limit",
         "amount": 0
+      }
+    ]
+  },
+  "sf-2016": {
+    "Within California": 100347.02,
+    "Total": 100347.02,
+    "largest_independent_expenditures": null,
+    "most_expensive_races": [
+      {
+        "title": "Measure V",
+        "type": "referendum",
+        "slug": "tax-on-distributing-sugar-sweetened-beverages---proposition-v",
+        "amount": 90347.02
+      },
+      {
+        "title": "Measure N",
+        "type": "referendum",
+        "slug": "non-citizen-voting-in-school-board-measure-n",
+        "amount": 10000.0
+      },
+      {
+        "title": "Measure A",
+        "type": "referendum",
+        "slug": "bond-public-health-and-safety-bond-measure",
+        "amount": 0
+      }
+    ]
+  },
+  "sf-june-2018": {
+    "Out of State": 14819989.39,
+    "Total": 23288054.16,
+    "Within California": 2219438.2399999998,
+    "Within San Francisco": 6248626.529999998,
+    "largest_independent_expenditures": null,
+    "most_expensive_races": [
+      {
+        "title": "Measure E",
+        "type": "referendum",
+        "slug": "uphold-ordinance-banning-the-sale-of-flavored-tobacco-products",
+        "amount": 14245967.27
+      },
+      {
+        "title": "Mayor",
+        "type": "office",
+        "slug": "mayor",
+        "amount": 2867477.9800000004
+      },
+      {
+        "title": "Measure D",
+        "type": "referendum",
+        "slug": "additional-tax-on-commercial-rents-mostly-to-fund-housing-and-homelessness-services",
+        "amount": 2690973.82
+      }
+    ]
+  },
+  "sf-2018": {
+    "Out of State": 52025.0,
+    "Total": 372543.25,
+    "Within California": 121545.0,
+    "Within San Francisco": 198973.25,
+    "largest_independent_expenditures": [
+      {
+        "Filer_NamL": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+        "Total_Amount": 10177.0,
+        "election_name": "sf-2018"
+      }
+    ],
+    "most_expensive_races": [
+      {
+        "title": "Measure PENDING-4",
+        "type": "referendum",
+        "slug": "universal-childcare-in-san-francisco",
+        "amount": 328293.25
+      },
+      {
+        "title": "Measure PENDING-10",
+        "type": "referendum",
+        "slug": "expands-local-governments-authority-to-enact-rent-control-on-residential-property-intiative-statute-17-0041-",
+        "amount": 44250.0
       }
     ]
   }
