@@ -18,7 +18,7 @@ class Candidate < ActiveRecord::Base
   def as_json(options = nil)
     first_name, last_name = self['Candidate'].split(' ', 2) # Probably wrong!
 
-    {
+    round_numbers(
       id: id,
       name: self['Candidate'],
 
@@ -62,12 +62,24 @@ class Candidate < ActiveRecord::Base
       # for backwards compatibility, these should also be exposed at the
       # top-level:
       # TODO: remove once the frontend no longer uses this
-      contributions_received: calculation(:total_contributions).try(:to_f),
       total_contributions: calculation(:total_contributions).try(:to_f),
       total_expenditures: calculation(:total_expenditures).try(:to_f),
       total_loans_received: calculation(:total_loans_received).try(:to_f),
-      contributions_by_type: calculation(:contributions_by_type) || {},
-      expenditures_by_type: calculation(:expenditures_by_type) || {},
-    }
+    )
+  end
+
+  private
+
+  def round_numbers(hash)
+    hash.transform_values do |v|
+      case v
+      when Hash
+        round_numbers(v)
+      when Float
+        v.round(2)
+      else
+        v
+      end
+    end
   end
 end
