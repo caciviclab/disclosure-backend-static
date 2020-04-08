@@ -7,40 +7,15 @@
   "number": "E",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 2110964.08,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 436321.03,
-      "locale": "Within California"
-    },
-    {
-      "amount": 3433.82,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 179283.99
-    },
-    {
-      "type": "Individual",
-      "amount": 1801150.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 570284.94
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "1398847",
-      "name": "Yes on Proposition E San Francisco Kids vs. Big Tobacco",
-      "payee": "Yes on Proposition E San Francisco Kids vs. Big Tobacco",
-      "amount": 2562498.55
-    }
+
   ],
-  "total_contributions": 2550718.93
+  "total_contributions": [
+
+  ]
 }

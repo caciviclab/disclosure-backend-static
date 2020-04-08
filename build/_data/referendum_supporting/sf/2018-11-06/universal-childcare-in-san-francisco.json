@@ -7,44 +7,15 @@
   "number": "PENDING-4",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 52000.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 117150.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 159143.25,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 106000.0
-    },
-    {
-      "type": "Individual",
-      "amount": 29150.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 193000.0
-    },
-    {
-      "type": null,
-      "amount": 143.25
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "1401571",
-      "name": "UNIVERSAL CHILDCARE IN SAN FRANCISCO",
-      "payee": "UNIVERSAL CHILDCARE IN SAN FRANCISCO",
-      "amount": 0.0
-    }
+
   ],
-  "total_contributions": 328293.25
+  "total_contributions": [
+
+  ]
 }

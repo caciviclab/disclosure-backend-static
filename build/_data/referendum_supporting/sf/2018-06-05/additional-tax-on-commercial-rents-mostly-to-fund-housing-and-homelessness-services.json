@@ -7,40 +7,15 @@
   "number": "D",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 2000.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 585250.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 768400.0,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 368000.0
-    },
-    {
-      "type": "Individual",
-      "amount": 220650.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 767000.0
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "1402425",
-      "name": "Affordable Housing for All, Yes on D",
-      "payee": "Affordable Housing for All, Yes on D",
-      "amount": 1460698.46
-    }
+
   ],
-  "total_contributions": 1355650.0
+  "total_contributions": [
+
+  ]
 }

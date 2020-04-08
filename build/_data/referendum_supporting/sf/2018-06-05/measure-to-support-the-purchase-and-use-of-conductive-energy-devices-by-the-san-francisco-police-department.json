@@ -7,36 +7,15 @@
   "number": "H",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 11000.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 348048.13,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 38612.0
-    },
-    {
-      "type": "Individual",
-      "amount": 1000.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 319436.13
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "1400773",
-      "name": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
-      "payee": "Yes on H, Safe Neighborhoods for All, sponsored by the SF Community Alliance for Jobs and Housing and the San Francisco Police Officers Association",
-      "amount": 75786.89
-    }
+
   ],
-  "total_contributions": 359048.13
+  "total_contributions": [
+
+  ]
 }

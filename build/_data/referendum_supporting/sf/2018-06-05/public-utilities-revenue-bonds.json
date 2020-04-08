@@ -7,40 +7,15 @@
   "number": "A",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 97000.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 88572.24,
-      "locale": "Within California"
-    },
-    {
-      "amount": 119394.63,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 51065.49
-    },
-    {
-      "type": "Individual",
-      "amount": 13000.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 240901.38
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "1401632",
-      "name": "Clean, Safe & Affordable Energy",
-      "payee": "Clean, Safe & Affordable Energy",
-      "amount": 0.0
-    }
+
   ],
-  "total_contributions": 304966.87
+  "total_contributions": [
+
+  ]
 }

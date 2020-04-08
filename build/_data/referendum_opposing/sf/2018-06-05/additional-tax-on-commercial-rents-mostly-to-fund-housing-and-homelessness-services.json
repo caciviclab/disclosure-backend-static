@@ -7,40 +7,15 @@
   "number": "D",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 383118.5,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 57000.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 895205.32,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 479000.0
-    },
-    {
-      "type": "Individual",
-      "amount": 54350.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 801973.82
-    }
+
   ],
   "opposing_organizations": [
-    {
-      "id": "1404060",
-      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "amount": 130212.62
-    }
+
   ],
-  "total_contributions": 1335323.8199999998
+  "total_contributions": [
+
+  ]
 }

@@ -18,30 +18,19 @@
   "is_winner": null,
   "filer_id": 1400769,
   "supporting_money": {
-    "contributions_received": 2211.27,
-    "total_contributions": 2211.27,
-    "total_expenditures": 2745.67,
-    "total_loans_received": 0.0,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
+    "total_expenditures": null,
+    "total_loans_received": null,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 850.0,
-      "Unitemized": 1311.27,
-      "Self Funding": 50.0
     },
     "contributions_by_origin": {
-      "Within Berkeley": 450.0,
-      "Within California": 450.0
     },
     "expenditures_by_type": {
-      "Campaign Consultants": 303.0,
-      "Campaign Paraphernalia/Misc.": 1244.09,
-      "Candidate Filing/Ballot Fees": 50.0,
-      "Campaign Literature and Mailings": 222.87,
-      "Professional Services (Legal, Accounting)": 50.0,
-      "Information Technology Costs (Internet, E-mail)": 724.67
     },
     "supporting_by_type": {
     }
@@ -54,7 +43,7 @@
 
     ]
   },
-  "total_contributions": 2211.27,
-  "total_expenditures": 2745.67,
-  "total_loans_received": 0.0
+  "total_contributions": 0.0,
+  "total_expenditures": null,
+  "total_loans_received": null
 }

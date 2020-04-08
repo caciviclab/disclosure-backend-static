@@ -20,18 +20,15 @@
   "supporting_money": {
     "contributions_received": 0.0,
     "total_contributions": 0.0,
-    "total_expenditures": 0.0,
-    "total_loans_received": -3883.1,
+    "total_expenditures": null,
+    "total_loans_received": null,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Unitemized": 0.0,
-      "Self Funding": 3883.1
     },
     "contributions_by_origin": {
-      "Within Berkeley": 3883.1
     },
     "expenditures_by_type": {
     },
@@ -47,6 +44,6 @@
     ]
   },
   "total_contributions": 0.0,
-  "total_expenditures": 0.0,
-  "total_loans_received": -3883.1
+  "total_expenditures": null,
+  "total_loans_received": null
 }

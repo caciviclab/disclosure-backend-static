@@ -7,32 +7,15 @@
   "number": "PENDING-5",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 1405.0,
-      "locale": "Within Berkeley"
-    },
-    {
-      "amount": 400.0,
-      "locale": "Within California"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Individual",
-      "amount": 1755.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 50.0
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "1403502",
-      "name": "Berkeley Community for Police Oversight Committee Supporting Police Commission Oversight Charter Amendment",
-      "payee": "Berkeley Community for Police Oversight Committee Supporting Police Commission Oversight Charter Amendment",
-      "amount": 0.0
-    }
+
   ],
-  "total_contributions": 1805.0
+  "total_contributions": [
+
+  ]
 }

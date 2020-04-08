@@ -18,11 +18,11 @@
   "is_winner": false,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 99121.0,
-    "total_contributions": 99121.0,
-    "total_expenditures": 66964.41,
+    "contributions_received": 138300.0,
+    "total_contributions": 138300.0,
+    "total_expenditures": 85348.15,
     "total_loans_received": -2400.0,
-    "total_supporting_independent": 46341.22,
+    "total_supporting_independent": 47085.67,
     "support_list": [
       {
         "Total": 45998.0,
@@ -35,12 +35,18 @@
         "Cand_ID": 1236617,
         "Filer_ID": "1410279",
         "Filer_NamL": "OAKLANDERS FOR RESPONSIBLE LEADERSHIP, OPPOSING DESLEY BROOKS FOR OAKLAND CITY COUNCIL 2018"
+      },
+      {
+        "Total": 744.45,
+        "Cand_ID": 1236617,
+        "Filer_ID": "1372459",
+        "Filer_NamL": "Oakland Civil Liberties Alliance"
       }
     ],
     "contributions_by_type": {
       "Committee": 8250.0,
       "Individual": 88113.0,
-      "Unitemized": 1812.0,
+      "Unitemized": 2221.0,
       "Other (includes Businesses)": 7550.0
     },
     "contributions_by_origin": {
@@ -49,31 +55,33 @@
       "Within California": 44859.0
     },
     "expenditures_by_type": {
-      "Not Stated": 8620.48,
+      "Print Ads": 1600.0,
+      "Not Stated": 9088.93,
       "Phone Banks": 6950.0,
-      "Contribution": 700.0,
+      "Contribution": 1400.0,
       "Legal Defense": 1000.0,
-      "Civic Donations": 7666.74,
-      "Office Expenses": 14537.72,
-      "Fundraising Events": 2597.61,
-      "Campaign Consultants": 36800.0,
-      "Member Communications": 199.19,
+      "Civic Donations": 8241.74,
+      "Office Expenses": 17027.58,
+      "Fundraising Events": 5327.38,
+      "Campaign Consultants": 40300.0,
+      "Member Communications": 658.19,
       "Meetings and Appearances": 2307.7,
-      "Campaign Paraphernalia/Misc.": 4982.21,
+      "Campaign Workers' Salaries": 6300.0,
+      "Campaign Paraphernalia/Misc.": 6590.63,
       "Candidate Filing/Ballot Fees": 1250.0,
-      "Campaign Literature and Mailings": 21873.89,
-      "Candidate Travel, Lodging, and Meals": 1909.39,
+      "Campaign Literature and Mailings": 44808.23,
+      "Candidate Travel, Lodging, and Meals": 2462.04,
       "Postage, Delivery and Messenger Services": 16472.78,
       "Professional Services (Legal, Accounting)": 6888.01,
       "T.V. or Cable Airtime and Production Costs": 1000.0,
       "Information Technology Costs (Internet, E-mail)": 7366.31
     },
     "supporting_by_type": {
-      "MON": 3200.0,
+      "MON": 10800.0,
       "Mailer": 14542.0,
       "Doorhanger": 17656.0,
       "Phone Banking \u0026 Field Campaign": 13800.0,
-      "Independent Expenditure Supporting/Opposing Others": 343.22
+      "Independent Expenditure Supporting/Opposing Others": 1832.12
     }
   },
   "opposing_money": {
@@ -98,7 +106,7 @@
       }
     ]
   },
-  "total_contributions": 99121.0,
-  "total_expenditures": 66964.41,
+  "total_contributions": 138300.0,
+  "total_expenditures": 85348.15,
   "total_loans_received": -2400.0
 }

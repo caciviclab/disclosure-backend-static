@@ -18,55 +18,21 @@
   "is_winner": null,
   "filer_id": 1395947,
   "supporting_money": {
-    "contributions_received": 175602.59,
-    "total_contributions": 175602.59,
-    "total_expenditures": 322569.35,
-    "total_loans_received": 0.0,
-    "total_supporting_independent": 6563.1,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
+    "total_expenditures": null,
+    "total_loans_received": null,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 6229.57,
-        "Cand_ID": 1395947,
-        "Filer_ID": "842018",
-        "Filer_NamL": "Alice B. Toklas Lesbian and Gay Democratic Club PAC"
-      },
-      {
-        "Total": 333.53,
-        "Cand_ID": 1395947,
-        "Filer_ID": "991525",
-        "Filer_NamL": "SAN FRANCISCO LABOR COUNCIL LABOR \u0026 NEIGHBOR INDEPENDENT EXPENDITURE POLITICAL ACTION COMMITTEE"
-      }
+
     ],
     "contributions_by_type": {
-      "Committee": 3780.2,
-      "Individual": 161335.01,
-      "Unitemized": 9887.38,
-      "Other (includes Businesses)": 600.0
     },
     "contributions_by_origin": {
-      "Out of State": 8804.0,
-      "Within California": 25453.0,
-      "Within San Francisco": 131458.21
     },
     "expenditures_by_type": {
-      "Not Stated": 56531.42,
-      "Office Expenses": 23619.93,
-      "Fundraising Events": 6325.37,
-      "Campaign Consultants": 25375.0,
-      "Meetings and Appearances": 3618.09,
-      "Campaign Workers' Salaries": 76773.89,
-      "Campaign Paraphernalia/Misc.": 51119.24,
-      "Candidate Filing/Ballot Fees": 755.0,
-      "Campaign Literature and Mailings": 9347.32,
-      "Candidate Travel, Lodging, and Meals": 104.57,
-      "Staff/Spouse Travel, Lodging, and Meals": 1949.53,
-      "Postage, Delivery and Messenger Services": 6907.6,
-      "Professional Services (Legal, Accounting)": 37361.95,
-      "Information Technology Costs (Internet, E-mail)": 28737.8
     },
     "supporting_by_type": {
-      "MON": 1999.0,
-      "Independent Expenditure Supporting/Opposing Others": 6563.1
     }
   },
   "opposing_money": {
@@ -77,7 +43,7 @@
 
     ]
   },
-  "total_contributions": 175602.59,
-  "total_expenditures": 322569.35,
-  "total_loans_received": 0.0
+  "total_contributions": 0.0,
+  "total_expenditures": null,
+  "total_loans_received": null
 }

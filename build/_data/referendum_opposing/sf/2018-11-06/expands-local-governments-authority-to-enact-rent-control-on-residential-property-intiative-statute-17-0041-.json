@@ -7,36 +7,15 @@
   "number": "PENDING-10",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 25.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 4395.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 39830.0,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Individual",
-      "amount": 11636.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 32614.0
-    }
+
   ],
   "opposing_organizations": [
-    {
-      "id": "840002",
-      "name": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
-      "payee": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
-      "amount": 178305.88
-    }
+
   ],
-  "total_contributions": 44250.0
+  "total_contributions": [
+
+  ]
 }

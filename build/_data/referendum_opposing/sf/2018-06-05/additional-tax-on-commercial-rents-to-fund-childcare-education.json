@@ -7,46 +7,15 @@
   "number": "C",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 383384.49,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 81754.48,
-      "locale": "Within California"
-    },
-    {
-      "amount": 995669.779999999,
-      "locale": "Within San Francisco"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 482100.0
-    },
-    {
-      "type": "Individual",
-      "amount": 119484.93
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 859223.82
-    }
+
   ],
   "opposing_organizations": [
-    {
-      "id": "931558",
-      "name": "Edwin M. Lee Democratic Club Political Action Committee",
-      "payee": "Edwin M. Lee Democratic Club Political Action Committee",
-      "amount": 269678.76
-    },
-    {
-      "id": "1404060",
-      "name": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "payee": "COMMITTEE FOR AN AFFORDABLE SAN FRANCISCO, NO ON PROPOSITIONS C AND D",
-      "amount": 89282.02
-    }
+
   ],
-  "total_contributions": 1460808.749999999
+  "total_contributions": [
+
+  ]
 }

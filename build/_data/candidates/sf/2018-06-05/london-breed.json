@@ -18,92 +18,21 @@
   "is_winner": null,
   "filer_id": 1401170,
   "supporting_money": {
-    "contributions_received": 1261010.44,
-    "total_contributions": 1261010.44,
-    "total_expenditures": 2290702.58,
-    "total_loans_received": 0.0,
-    "total_supporting_independent": 1187682.58,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
+    "total_expenditures": null,
+    "total_loans_received": null,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 4494.86,
-        "Cand_ID": 1401170,
-        "Filer_ID": "842018",
-        "Filer_NamL": "Alice B. Toklas Lesbian and Gay Democratic Club PAC"
-      },
-      {
-        "Total": 44996.04,
-        "Cand_ID": 1401170,
-        "Filer_ID": "931558",
-        "Filer_NamL": "Edwin M. Lee Democratic Club Political Action Committee"
-      },
-      {
-        "Total": 255366.91,
-        "Cand_ID": 1401170,
-        "Filer_ID": "1401958",
-        "Filer_NamL": "It's Our Time, SF Women Supporting London Breed for Mayor, 2018"
-      },
-      {
-        "Total": 5916.0,
-        "Cand_ID": 1401170,
-        "Filer_ID": "810802",
-        "Filer_NamL": "SAN FRANCISCO FIRE FIGHTERS LOCAL 798 P.A.C."
-      },
-      {
-        "Total": 840549.77,
-        "Cand_ID": 1401170,
-        "Filer_ID": "1402175",
-        "Filer_NamL": "San Francisco for London Breed Mayor 2018, Sponsored by the San Francisco Firefighters Local 798"
-      },
-      {
-        "Total": 4500.0,
-        "Cand_ID": 1401170,
-        "Filer_ID": "1328440",
-        "Filer_NamL": "Tenant Rights Association PAC"
-      },
-      {
-        "Total": 31859.0,
-        "Cand_ID": 1401170,
-        "Filer_ID": "1405967",
-        "Filer_NamL": "United Democrats \u0026 LGBTQ Coalition, Supporting London Breed for Mayor 2018, Sponsored by United Democratic Club of San Francisco"
-      }
+
     ],
     "contributions_by_type": {
-      "Committee": 9499.0,
-      "Individual": 1203835.46,
-      "Unitemized": 30617.0,
-      "Self Funding": 500.0,
-      "Other (includes Businesses)": 16549.0
     },
     "contributions_by_origin": {
-      "Out of State": 43754.0,
-      "Within California": 384286.0,
-      "Within San Francisco": 802343.46
     },
     "expenditures_by_type": {
-      "Print Ads": 29315.52,
-      "Not Stated": 217501.29,
-      "Office Expenses": 60955.81,
-      "Fundraising Events": 38076.68,
-      "Campaign Consultants": 145854.45,
-      "Meetings and Appearances": 25085.42,
-      "Campaign Workers' Salaries": 340818.32,
-      "Polling and Survey Research": 79850.0,
-      "Campaign Paraphernalia/Misc.": 126666.42,
-      "Candidate Filing/Ballot Fees": 6581.0,
-      "Campaign Literature and Mailings": 307307.89,
-      "Radio Airtime and Production Costs": 4612.0,
-      "Candidate Travel, Lodging, and Meals": 450.26,
-      "Staff/Spouse Travel, Lodging, and Meals": 1387.84,
-      "Postage, Delivery and Messenger Services": 3639.79,
-      "Professional Services (Legal, Accounting)": 143399.42,
-      "T.V. or Cable Airtime and Production Costs": 471846.0,
-      "Information Technology Costs (Internet, E-mail)": 271735.08
     },
     "supporting_by_type": {
-      "IKD": 180.0,
-      "MON": 16499.0,
-      "Independent Expenditure Supporting/Opposing Others": 1181766.58,
-      "IND EXP OF BANNER AND WINDOW SIGNS SUPPORTING L BREED FOR MAYOR, SF.": 5916.0
     }
   },
   "opposing_money": {
@@ -114,7 +43,7 @@
 
     ]
   },
-  "total_contributions": 1261010.44,
-  "total_expenditures": 2290702.58,
-  "total_loans_received": 0.0
+  "total_contributions": 0.0,
+  "total_expenditures": null,
+  "total_loans_received": null
 }
