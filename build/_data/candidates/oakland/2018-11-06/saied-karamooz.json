@@ -18,8 +18,8 @@
   "is_winner": false,
   "filer_id": 1401694,
   "supporting_money": {
-    "contributions_received": 9548.60000000001,
-    "total_contributions": 9548.60000000001,
+    "contributions_received": 9548.6,
+    "total_contributions": 9548.6,
     "total_expenditures": 9548.6,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
@@ -55,22 +55,7 @@
 
     ]
   },
-  "contributions_received": 9548.60000000001,
-  "total_contributions": 9548.60000000001,
+  "total_contributions": 9548.6,
   "total_expenditures": 9548.6,
-  "total_loans_received": 0.0,
-  "contributions_by_type": {
-    "Unitemized": 652.0,
-    "Self Funding": 8796.6,
-    "Other (includes Businesses)": 100.0
-  },
-  "expenditures_by_type": {
-    "Print Ads": 3625.0,
-    "Meetings and Appearances": 154.75,
-    "Campaign Paraphernalia/Misc.": 300.0,
-    "Candidate Filing/Ballot Fees": 1000.0,
-    "Campaign Literature and Mailings": 1773.42,
-    "Professional Services (Legal, Accounting)": 2260.0,
-    "Information Technology Costs (Internet, E-mail)": 100.0
-  }
+  "total_loans_received": 0.0
 }

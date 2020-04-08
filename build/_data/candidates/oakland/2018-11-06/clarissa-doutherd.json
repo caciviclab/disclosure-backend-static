@@ -38,7 +38,7 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 8414.869999999999,
+      "Committee": 8414.87,
       "Individual": 38185.25,
       "Unitemized": 7721.0,
       "Other (includes Businesses)": 810.0
@@ -51,7 +51,7 @@
     "expenditures_by_type": {
       "Not Stated": 10190.7,
       "Phone Banks": 400.0,
-      "Office Expenses": 3970.91000000001,
+      "Office Expenses": 3970.91,
       "Fundraising Events": 6789.25,
       "Campaign Consultants": 10000.0,
       "Campaign Paraphernalia/Misc.": 1602.35,
@@ -75,26 +75,7 @@
 
     ]
   },
-  "contributions_received": 28384.77,
   "total_contributions": 28384.77,
   "total_expenditures": 21651.78,
-  "total_loans_received": 0.0,
-  "contributions_by_type": {
-    "Committee": 8414.869999999999,
-    "Individual": 38185.25,
-    "Unitemized": 7721.0,
-    "Other (includes Businesses)": 810.0
-  },
-  "expenditures_by_type": {
-    "Not Stated": 10190.7,
-    "Phone Banks": 400.0,
-    "Office Expenses": 3970.91000000001,
-    "Fundraising Events": 6789.25,
-    "Campaign Consultants": 10000.0,
-    "Campaign Paraphernalia/Misc.": 1602.35,
-    "Candidate Filing/Ballot Fees": 1050.0,
-    "Campaign Literature and Mailings": 9059.17,
-    "Postage, Delivery and Messenger Services": 3705.59,
-    "Professional Services (Legal, Accounting)": 6584.03
-  }
+  "total_loans_received": 0.0
 }
