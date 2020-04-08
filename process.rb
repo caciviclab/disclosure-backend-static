@@ -149,6 +149,7 @@ ELECTIONS.each do |election_name, election|
             [-1 * (candidate.calculation(:total_contributions) || 0.0), candidate.Candidate]
           end
 
+      ContributionsByOrigin[election_name] ||= {}
       ContributionsByOrigin[election_name][:race_totals] ||= []
       ContributionsByOrigin[election_name][:race_totals].append({
         title: office_election.title,
@@ -255,6 +256,7 @@ Referendum.includes(:calculations).find_each do |referendum|
 
   supporting_total = referendum.calculation(:supporting_total) || 0
   opposing_total = referendum.calculation(:opposing_total) || 0
+  ContributionsByOrigin[referendum.election_name] ||= {}
   ContributionsByOrigin[referendum.election_name][:race_totals] ||= []
   ContributionsByOrigin[referendum.election_name][:race_totals].append({
     title: "Measure #{referendum['Measure_number']}",
