@@ -520,17 +520,6 @@
     },
     {
       "Filer_ID": "1366759",
-      "Tran_Emp": "Varo",
-      "Tran_Occ": "Advisor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2019-12-09",
-      "Tran_NamF": "Alice",
-      "Tran_NamL": "Cho",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1366759",
       "Tran_Emp": "Self-employed",
       "Tran_Occ": "Tv Journalist/Author",
       "Entity_Cd": "Individual",
@@ -539,6 +528,17 @@
       "Tran_NamF": "Valerie",
       "Tran_NamL": "(Coleman) Morris",
       "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Varo",
+      "Tran_Occ": "Advisor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2019-12-09",
+      "Tran_NamF": "Alice",
+      "Tran_NamL": "Cho",
+      "Tran_Zip4": "94610"
     },
     {
       "Filer_ID": "1366759",

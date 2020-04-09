@@ -465,6 +465,17 @@
     },
     {
       "Filer_ID": "1388641",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2016-09-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Raphael & associates",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1388641",
       "Tran_Emp": "self",
       "Tran_Occ": "real estate developer",
       "Entity_Cd": "Individual",
@@ -495,17 +506,6 @@
       "Tran_NamF": "robert",
       "Tran_NamL": "raich",
       "Tran_Zip4": "94619"
-    },
-    {
-      "Filer_ID": "1388641",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2016-09-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "Raphael & associates",
-      "Tran_Zip4": "94618"
     },
     {
       "Filer_ID": "1388641",
@@ -610,23 +610,23 @@
       "Filer_ID": "1388641",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2016-10-11",
-      "Tran_NamF": null,
-      "Tran_NamL": "best bay apartments inc",
-      "Tran_Zip4": "94607"
-    },
-    {
-      "Filer_ID": "1388641",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
       "Entity_Cd": "Committee",
       "Tran_Amt1": 1400.0,
       "Tran_Date": "2016-10-11",
       "Tran_NamF": null,
       "Tran_NamL": "California real estate political action committee",
       "Tran_Zip4": "90020"
+    },
+    {
+      "Filer_ID": "1388641",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2016-10-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "best bay apartments inc",
+      "Tran_Zip4": "94607"
     },
     {
       "Filer_ID": "1388641",
@@ -696,17 +696,6 @@
     },
     {
       "Filer_ID": "1388641",
-      "Tran_Emp": "self",
-      "Tran_Occ": "food operation",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2016-10-24",
-      "Tran_NamF": "salvador",
-      "Tran_NamL": "anaya",
-      "Tran_Zip4": "94601"
-    },
-    {
-      "Filer_ID": "1388641",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -741,17 +730,6 @@
     {
       "Filer_ID": "1388641",
       "Tran_Emp": "self",
-      "Tran_Occ": "food operation",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2016-10-24",
-      "Tran_NamF": "roberto",
-      "Tran_NamL": "portilla",
-      "Tran_Zip4": "94606"
-    },
-    {
-      "Filer_ID": "1388641",
-      "Tran_Emp": "self",
       "Tran_Occ": "food service",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
@@ -781,6 +759,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sin-Mex Auto Body Shop",
       "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1388641",
+      "Tran_Emp": "self",
+      "Tran_Occ": "food operation",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2016-10-24",
+      "Tran_NamF": "salvador",
+      "Tran_NamL": "anaya",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1388641",
+      "Tran_Emp": "self",
+      "Tran_Occ": "food operation",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2016-10-24",
+      "Tran_NamF": "roberto",
+      "Tran_NamL": "portilla",
+      "Tran_Zip4": "94606"
     },
     {
       "Filer_ID": "1388641",

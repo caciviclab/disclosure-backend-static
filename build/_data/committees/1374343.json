@@ -61,22 +61,22 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 700.0,
+      "Tran_Amt1": 500.0,
       "Tran_Date": "2015-01-28",
       "Tran_NamF": null,
-      "Tran_NamL": "Schnitzer Steel Industries",
-      "Tran_Zip4": "94607"
+      "Tran_NamL": "SK Builders",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1374343",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
+      "Tran_Amt1": 700.0,
       "Tran_Date": "2015-01-28",
       "Tran_NamF": null,
-      "Tran_NamL": "SK Builders",
-      "Tran_Zip4": "94612"
+      "Tran_NamL": "Schnitzer Steel Industries",
+      "Tran_Zip4": "94607"
     },
     {
       "Filer_ID": "1374343",
@@ -401,23 +401,23 @@
       "Filer_ID": "1374343",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2018-03-17",
-      "Tran_NamF": null,
-      "Tran_NamL": "Laborers' International Union of North America Local 73 PAC",
-      "Tran_Zip4": "95215"
-    },
-    {
-      "Filer_ID": "1374343",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
       "Entity_Cd": null,
       "Tran_Amt1": 700.0,
       "Tran_Date": "2018-03-17",
       "Tran_NamF": null,
       "Tran_NamL": "Laborers Local Union 270 PAC Small Contributor Committee",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1374343",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2018-03-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborers' International Union of North America Local 73 PAC",
+      "Tran_Zip4": "95215"
     },
     {
       "Filer_ID": "1374343",

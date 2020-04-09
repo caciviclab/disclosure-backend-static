@@ -1240,8 +1240,8 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-09-11",
-      "Tran_NamF": "John R.",
-      "Tran_NamL": "Brekke",
+      "Tran_NamF": "Katrina",
+      "Tran_NamL": "Brekke-Miesner",
       "Tran_Zip4": "94601"
     },
     {
@@ -1251,8 +1251,8 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2018-09-11",
-      "Tran_NamF": "Katrina",
-      "Tran_NamL": "Brekke-Miesner",
+      "Tran_NamF": "John R.",
+      "Tran_NamL": "Brekke",
       "Tran_Zip4": "94601"
     },
     {
@@ -2305,22 +2305,22 @@
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 300.0,
+      "Tran_Amt1": 100.0,
       "Tran_Date": "2018-10-15",
-      "Tran_NamF": "Daniel",
-      "Tran_NamL": "Brekke",
-      "Tran_Zip4": "94618"
+      "Tran_NamF": "Paul",
+      "Tran_NamL": "Brekke-Miesner",
+      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1404085",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
+      "Tran_Amt1": 300.0,
       "Tran_Date": "2018-10-15",
-      "Tran_NamF": "Paul",
-      "Tran_NamL": "Brekke-Miesner",
-      "Tran_Zip4": "94601"
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Brekke",
+      "Tran_Zip4": "94618"
     },
     {
       "Filer_ID": "1404085",

@@ -1203,17 +1203,6 @@
     {
       "Filer_ID": "1420085",
       "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2019-12-31",
-      "Tran_NamF": "Jim",
-      "Tran_NamL": "Hanson",
-      "Tran_Zip4": "94805"
-    },
-    {
-      "Filer_ID": "1420085",
-      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 250.0,
@@ -1221,6 +1210,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "HNTB Holdings Ltd. PAC (FEC ID# 00386029)",
       "Tran_Zip4": "64105"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2019-12-31",
+      "Tran_NamF": "Jim",
+      "Tran_NamL": "Hanson",
+      "Tran_Zip4": "94805"
     },
     {
       "Filer_ID": "1420085",

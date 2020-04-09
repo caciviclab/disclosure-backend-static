@@ -642,17 +642,6 @@
     {
       "Filer_ID": "1395580",
       "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 125.0,
-      "Tran_Date": "2017-09-09",
-      "Tran_NamF": "Wise E.",
-      "Tran_NamL": "Allen",
-      "Tran_Zip4": "94707"
-    },
-    {
-      "Filer_ID": "1395580",
-      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 800.0,
@@ -660,6 +649,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "ARAM Electric, Inc.",
       "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1395580",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2017-09-09",
+      "Tran_NamF": "Wise E.",
+      "Tran_NamL": "Allen",
+      "Tran_Zip4": "94707"
     },
     {
       "Filer_ID": "1395580",
@@ -1378,17 +1378,6 @@
     },
     {
       "Filer_ID": "1395580",
-      "Tran_Emp": "CBRE",
-      "Tran_Occ": "Transition Coordinator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2017-11-02",
-      "Tran_NamF": "Jennifer",
-      "Tran_NamL": "Mach",
-      "Tran_Zip4": "92612"
-    },
-    {
-      "Filer_ID": "1395580",
       "Tran_Emp": "Cardio Net",
       "Tran_Occ": "Technician",
       "Entity_Cd": "Individual",
@@ -1397,6 +1386,17 @@
       "Tran_NamF": "Ibana",
       "Tran_NamL": "Mac",
       "Tran_Zip4": "95757"
+    },
+    {
+      "Filer_ID": "1395580",
+      "Tran_Emp": "CBRE",
+      "Tran_Occ": "Transition Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2017-11-02",
+      "Tran_NamF": "Jennifer",
+      "Tran_NamL": "Mach",
+      "Tran_Zip4": "92612"
     },
     {
       "Filer_ID": "1395580",
@@ -3073,17 +3073,6 @@
     {
       "Filer_ID": "1395580",
       "Tran_Emp": null,
-      "Tran_Occ": "Not Employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2018-05-15",
-      "Tran_NamF": "Aisha A.",
-      "Tran_NamL": "Samatar",
-      "Tran_Zip4": "94606"
-    },
-    {
-      "Filer_ID": "1395580",
-      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 300.0,
@@ -3091,6 +3080,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "SWM, Inc., dba Kips Restaurant",
       "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1395580",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-05-15",
+      "Tran_NamF": "Aisha A.",
+      "Tran_NamL": "Samatar",
+      "Tran_Zip4": "94606"
     },
     {
       "Filer_ID": "1395580",
@@ -4194,17 +4194,6 @@
     },
     {
       "Filer_ID": "1395580",
-      "Tran_Emp": "Summer Hill Apartment Communities",
-      "Tran_Occ": "Vice President of Development",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 300.0,
-      "Tran_Date": "2018-06-30",
-      "Tran_NamF": "Jonathan",
-      "Tran_NamL": "Fearn",
-      "Tran_Zip4": "94609"
-    },
-    {
-      "Filer_ID": "1395580",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -4213,6 +4202,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "FPI Management, Inc.",
       "Tran_Zip4": "95630"
+    },
+    {
+      "Filer_ID": "1395580",
+      "Tran_Emp": "Summer Hill Apartment Communities",
+      "Tran_Occ": "Vice President of Development",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-06-30",
+      "Tran_NamF": "Jonathan",
+      "Tran_NamL": "Fearn",
+      "Tran_Zip4": "94609"
     },
     {
       "Filer_ID": "1395580",
@@ -4384,22 +4384,22 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 800.0,
+      "Tran_Amt1": 500.0,
       "Tran_Date": "2018-06-30",
       "Tran_NamF": null,
-      "Tran_NamL": "Pacific Renaissance Plaza/Commercial Condominium Owners Association",
-      "Tran_Zip4": "94607"
+      "Tran_NamL": "PPI",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1395580",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
+      "Tran_Amt1": 800.0,
       "Tran_Date": "2018-06-30",
       "Tran_NamF": null,
-      "Tran_NamL": "PPI",
-      "Tran_Zip4": "94612"
+      "Tran_NamL": "Pacific Renaissance Plaza/Commercial Condominium Owners Association",
+      "Tran_Zip4": "94607"
     },
     {
       "Filer_ID": "1395580",
@@ -5603,22 +5603,22 @@
     {
       "Filer_ID": "1395580",
       "Tran_Emp": "Riaz Capital",
-      "Tran_Occ": "Principal & Founder",
+      "Tran_Occ": "Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2018-10-29",
-      "Tran_NamF": "Alexander Riaz",
+      "Tran_NamF": "A. Russell",
       "Tran_NamL": "Taplin",
       "Tran_Zip4": "94607"
     },
     {
       "Filer_ID": "1395580",
       "Tran_Emp": "Riaz Capital",
-      "Tran_Occ": "Partner",
+      "Tran_Occ": "Principal & Founder",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2018-10-29",
-      "Tran_NamF": "A. Russell",
+      "Tran_NamF": "Alexander Riaz",
       "Tran_NamL": "Taplin",
       "Tran_Zip4": "94607"
     },

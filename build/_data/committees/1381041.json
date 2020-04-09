@@ -1554,17 +1554,6 @@
     },
     {
       "Filer_ID": "1381041",
-      "Tran_Emp": "N.A.",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2016-10-24",
-      "Tran_NamF": "Thomas J.",
-      "Tran_NamL": "Higgins",
-      "Tran_Zip4": "94612"
-    },
-    {
-      "Filer_ID": "1381041",
       "Tran_Emp": "UNIVERSITY OF CALIFORNIA SAN FRANCISCO",
       "Tran_Occ": "PROFESSOR",
       "Entity_Cd": "Individual",
@@ -1573,6 +1562,17 @@
       "Tran_NamF": "DANA",
       "Tran_NamL": "HUGHES",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1381041",
+      "Tran_Emp": "N.A.",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2016-10-24",
+      "Tran_NamF": "Thomas J.",
+      "Tran_NamL": "Higgins",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1381041",

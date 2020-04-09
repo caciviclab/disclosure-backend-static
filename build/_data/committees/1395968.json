@@ -2116,17 +2116,6 @@
     {
       "Filer_ID": "1395968",
       "Tran_Emp": "Volkswagen of Oakland",
-      "Tran_Occ": "General Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2017-06-29",
-      "Tran_NamF": "Chris",
-      "Tran_NamL": "Murphy",
-      "Tran_Zip4": "94597-3107"
-    },
-    {
-      "Filer_ID": "1395968",
-      "Tran_Emp": "Volkswagen of Oakland",
       "Tran_Occ": "Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 800.0,
@@ -2134,6 +2123,17 @@
       "Tran_NamF": "Michael",
       "Tran_NamL": "Murphy, Jr",
       "Tran_Zip4": "94526-1703"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": "Volkswagen of Oakland",
+      "Tran_Occ": "General Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2017-06-29",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Murphy",
+      "Tran_Zip4": "94597-3107"
     },
     {
       "Filer_ID": "1395968",
@@ -2236,6 +2236,17 @@
     },
     {
       "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621-2598"
+    },
+    {
+      "Filer_ID": "1395968",
       "Tran_Emp": "HP Investors",
       "Tran_Occ": "Real Estate",
       "Entity_Cd": "Individual",
@@ -2255,17 +2266,6 @@
       "Tran_NamF": "Puja",
       "Tran_NamL": "Abid",
       "Tran_Zip4": "94611-2533"
-    },
-    {
-      "Filer_ID": "1395968",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2017-06-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "AB&I Foundry",
-      "Tran_Zip4": "94621-2598"
     },
     {
       "Filer_ID": "1395968",
@@ -2478,6 +2478,28 @@
     },
     {
       "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "DMC Real Estate Consulting LLC",
+      "Tran_Zip4": "94705-2716"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": "Judy",
+      "Tran_NamL": "DeVries",
+      "Tran_Zip4": "94618-1115"
+    },
+    {
+      "Filer_ID": "1395968",
       "Tran_Emp": "K to College",
       "Tran_Occ": "Executive Director",
       "Entity_Cd": "Individual",
@@ -2494,31 +2516,9 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2017-06-30",
-      "Tran_NamF": "Judy",
-      "Tran_NamL": "DeVries",
-      "Tran_Zip4": "94618-1115"
-    },
-    {
-      "Filer_ID": "1395968",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2017-06-30",
       "Tran_NamF": "Jeanne",
       "Tran_NamL": "Dinvaut",
       "Tran_Zip4": "94611-5045"
-    },
-    {
-      "Filer_ID": "1395968",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2017-06-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "DMC Real Estate Consulting LLC",
-      "Tran_Zip4": "94705-2716"
     },
     {
       "Filer_ID": "1395968",
@@ -2709,17 +2709,6 @@
     },
     {
       "Filer_ID": "1395968",
-      "Tran_Emp": "Carmel Partners",
-      "Tran_Occ": "Real Estate",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2017-06-30",
-      "Tran_NamF": "Michael",
-      "Tran_NamL": "LaHorgue",
-      "Tran_Zip4": "94904-1026"
-    },
-    {
-      "Filer_ID": "1395968",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -2728,6 +2717,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "La Plazita Preschool III",
       "Tran_Zip4": "94619-1402"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": "Carmel Partners",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "LaHorgue",
+      "Tran_Zip4": "94904-1026"
     },
     {
       "Filer_ID": "1395968",
@@ -2772,6 +2772,28 @@
       "Tran_NamF": "Pelayo A",
       "Tran_NamL": "Llamas Jr",
       "Tran_Zip4": "94602-2003"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "M & M Property Company, LLC",
+      "Tran_Zip4": "94612-3110"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "MT - 1 Properties, LLC",
+      "Tran_Zip4": "94577-5611"
     },
     {
       "Filer_ID": "1395968",
@@ -2830,17 +2852,6 @@
     },
     {
       "Filer_ID": "1395968",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2017-06-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "M & M Property Company, LLC",
-      "Tran_Zip4": "94612-3110"
-    },
-    {
-      "Filer_ID": "1395968",
       "Tran_Emp": "Hamilton",
       "Tran_Occ": "Non-Profit Executive",
       "Entity_Cd": "Individual",
@@ -2849,17 +2860,6 @@
       "Tran_NamF": "Tomiquia",
       "Tran_NamL": "Moss",
       "Tran_Zip4": "94612-2469"
-    },
-    {
-      "Filer_ID": "1395968",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2017-06-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "MT - 1 Properties, LLC",
-      "Tran_Zip4": "94577-5611"
     },
     {
       "Filer_ID": "1395968",
@@ -3127,17 +3127,6 @@
     },
     {
       "Filer_ID": "1395968",
-      "Tran_Emp": "Carmel Partners",
-      "Tran_Occ": "SVP",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2017-06-30",
-      "Tran_NamF": "Aaron",
-      "Tran_NamL": "Stevens",
-      "Tran_Zip4": "94611-3616"
-    },
-    {
-      "Filer_ID": "1395968",
       "Tran_Emp": "Gene St Onge",
       "Tran_Occ": "Consulting Engineer",
       "Entity_Cd": "Individual",
@@ -3146,6 +3135,17 @@
       "Tran_NamF": "Gene",
       "Tran_NamL": "St Onge",
       "Tran_Zip4": "94611-2346"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": "Carmel Partners",
+      "Tran_Occ": "SVP",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2017-06-30",
+      "Tran_NamF": "Aaron",
+      "Tran_NamL": "Stevens",
+      "Tran_Zip4": "94611-3616"
     },
     {
       "Filer_ID": "1395968",
@@ -9045,6 +9045,17 @@
     },
     {
       "Filer_ID": "1395968",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-06-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "HNTB Holdings Ltd. Political Action Committee (FEC ID#C00386029)",
+      "Tran_Zip4": "64105-1310"
+    },
+    {
+      "Filer_ID": "1395968",
       "Tran_Emp": "AMC LLC",
       "Tran_Occ": "Leasing Agent",
       "Entity_Cd": "Individual",
@@ -9075,17 +9086,6 @@
       "Tran_NamF": "Glen",
       "Tran_NamL": "Hentges",
       "Tran_Zip4": "94611-3104"
-    },
-    {
-      "Filer_ID": "1395968",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2018-06-27",
-      "Tran_NamF": null,
-      "Tran_NamL": "HNTB Holdings Ltd. Political Action Committee (FEC ID#C00386029)",
-      "Tran_Zip4": "64105-1310"
     },
     {
       "Filer_ID": "1395968",
@@ -9793,17 +9793,6 @@
     },
     {
       "Filer_ID": "1395968",
-      "Tran_Emp": "Cimac Inc.",
-      "Tran_Occ": "CEO",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2018-07-07",
-      "Tran_NamF": "Yezalaleul",
-      "Tran_NamL": "Abayneh",
-      "Tran_Zip4": "94024-4745"
-    },
-    {
-      "Filer_ID": "1395968",
       "Tran_Emp": "Kaiser Permanente",
       "Tran_Occ": "Registered Nurse",
       "Entity_Cd": "Individual",
@@ -9812,6 +9801,17 @@
       "Tran_NamF": "Semira",
       "Tran_NamL": "Abay",
       "Tran_Zip4": "94547-2002"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": "Cimac Inc.",
+      "Tran_Occ": "CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2018-07-07",
+      "Tran_NamF": "Yezalaleul",
+      "Tran_NamL": "Abayneh",
+      "Tran_Zip4": "94024-4745"
     },
     {
       "Filer_ID": "1395968",
@@ -11267,17 +11267,6 @@
     },
     {
       "Filer_ID": "1395968",
-      "Tran_Emp": "Greene Co., Inc.",
-      "Tran_Occ": "Executive",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 800.0,
-      "Tran_Date": "2018-09-10",
-      "Tran_NamF": "Nonie",
-      "Tran_NamL": "Greene",
-      "Tran_Zip4": "94920-1912"
-    },
-    {
-      "Filer_ID": "1395968",
       "Tran_Emp": null,
       "Tran_Occ": "Not-Employed",
       "Entity_Cd": "Individual",
@@ -11286,6 +11275,17 @@
       "Tran_NamF": "Kathryn",
       "Tran_NamL": "Green",
       "Tran_Zip4": "94118-1307"
+    },
+    {
+      "Filer_ID": "1395968",
+      "Tran_Emp": "Greene Co., Inc.",
+      "Tran_Occ": "Executive",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-09-10",
+      "Tran_NamF": "Nonie",
+      "Tran_NamL": "Greene",
+      "Tran_Zip4": "94920-1912"
     },
     {
       "Filer_ID": "1395968",

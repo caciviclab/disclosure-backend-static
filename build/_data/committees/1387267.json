@@ -949,17 +949,6 @@
     },
     {
       "Filer_ID": "1387267",
-      "Tran_Emp": "The Baughman Company",
-      "Tran_Occ": "President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2016-10-03",
-      "Tran_NamF": "Duane",
-      "Tran_NamL": "Baughman",
-      "Tran_Zip4": "94123"
-    },
-    {
-      "Filer_ID": "1387267",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -968,6 +957,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "B C Realty",
       "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1387267",
+      "Tran_Emp": "The Baughman Company",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2016-10-03",
+      "Tran_NamF": "Duane",
+      "Tran_NamL": "Baughman",
+      "Tran_Zip4": "94123"
     },
     {
       "Filer_ID": "1387267",

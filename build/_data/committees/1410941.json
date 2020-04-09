@@ -201,17 +201,6 @@
     },
     {
       "Filer_ID": "1410941",
-      "Tran_Emp": "Black Oak Properties",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2018-09-28",
-      "Tran_NamF": "Mimi Johnson",
-      "Tran_NamL": "Jacobs",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1410941",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -220,6 +209,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "J.A.M Partnership",
       "Tran_Zip4": "10010"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Black Oak Properties",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-28",
+      "Tran_NamF": "Mimi Johnson",
+      "Tran_NamL": "Jacobs",
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1410941",
