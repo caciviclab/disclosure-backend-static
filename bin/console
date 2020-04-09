@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative '../environment.rb'
+require 'pry'
+
+binding.pry
