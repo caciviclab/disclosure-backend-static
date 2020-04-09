@@ -150,55 +150,39 @@ ELECTIONS.each do |election_name, election|
 end
 
 Referendum.includes(:calculations).find_each do |referendum|
-  locality, _year = referendum.election_name.split('-', 2)
-  election = ELECTIONS[referendum.election_name]
   title = slugify(referendum['Short_Title'])
+  election = referendum.election
 
   if election.nil?
     $stderr.puts "MISSING ELECTION:"
-    $stderr.puts "  Election Name: #{referendum.election_name}"
+    $stderr.puts "  Election Name: #{election.name}"
     $stderr.puts '  Add it to ELECTIONS global in process.rb'
     next
   end
 
   # /_referendums/oakland/2018-11-06/oakland-childrens-initiative.md
-  build_file("/_referendums/#{locality}/#{election.date}/#{title}.md") do |f|
-    f.puts(YAML.dump(
-      'election' => election.date.to_s,
-      'locality' => locality,
-      'number' => referendum['Measure_number'] =~ /PENDING/ ? nil : referendum['Measure_number'],
-      'title' => referendum['Short_Title'],
-      'data_warning' => referendum['data_warning'],
-    ))
+  build_file("/_referendums/#{election.locality}/#{election.date}/#{title}.md") do |f|
+    f.puts(YAML.dump(referendum.metadata))
     f.puts('---')
     f.puts(referendum['Summary'])
   end
 
   # /_data/referendum_supporting/oakland/2018-11-06/oakland-childrens-initiative.json
-  build_file("/_data/referendum_supporting/#{locality}/#{election.date}/#{title}.json") do |f|
-    f.puts JSON.pretty_generate(referendum.as_json.merge(
-      contributions_by_region: referendum.calculation(:supporting_locales) || [],
-      contributions_by_type: referendum.calculation(:supporting_type) || [],
-      supporting_organizations: referendum.calculation(:supporting_organizations) || [],
-      total_contributions: referendum.calculation(:supporting_total) || [],
-    ))
+  build_file("/_data/referendum_supporting/#{election.locality}/#{election.date}/#{title}.json") do |f|
+    f.puts JSON.pretty_generate(referendum.supporting_data)
   end
 
   # /_data/referendum_opposing/oakland/2018-11-06/oakland-childrens-initiative.json
-  build_file("/_data/referendum_opposing/#{locality}/#{election.date}/#{title}.json") do |f|
-    f.puts JSON.pretty_generate(referendum.as_json.merge(
-      contributions_by_region: referendum.calculation(:opposing_locales) || [],
-      contributions_by_type: referendum.calculation(:opposing_type) || [],
-      opposing_organizations: referendum.calculation(:opposing_organizations) || [],
-      total_contributions: referendum.calculation(:opposing_total) || [],
-    ))
+  build_file("/_data/referendum_opposing/#{election.locality}/#{election.date}/#{title}.json") do |f|
+    f.puts JSON.pretty_generate(referendum.opposing_data)
   end
 
+  # TODO: Move this to the election
   supporting_total = referendum.calculation(:supporting_total) || 0
   opposing_total = referendum.calculation(:opposing_total) || 0
-  ContributionsByOrigin[referendum.election_name] ||= {}
-  ContributionsByOrigin[referendum.election_name][:race_totals] ||= []
-  ContributionsByOrigin[referendum.election_name][:race_totals].append({
+  ContributionsByOrigin[election.name] ||= {}
+  ContributionsByOrigin[election.name][:race_totals] ||= []
+  ContributionsByOrigin[election.name][:race_totals].append({
     title: "Measure #{referendum['Measure_number']}",
     type: 'referendum',
     slug: title,
