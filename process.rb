@@ -13,15 +13,6 @@ def build_file(filename, &block)
   File.open(filename, 'w', &block)
 end
 
-# keep this logic in-sync with the frontend (Jekyll's slugify filter)
-# https://github.com/jekyll/jekyll/blob/035ea729ff5668dfc96e7f56a86d214e5a633291/lib/jekyll/utils.rb#L204
-# We add transliteration to convert non-latin characters to ascii, especially
-# for candidate names. e.g. Guillén -> guillen.
-def slugify(word)
-  I18n.transliterate(word || '')
-    .downcase.gsub(/[^a-z0-9-]+/, '-')
-end
-
 # Sort like:
 # 1. Mayor
 # 2. City Council ...
@@ -75,10 +66,8 @@ Dir.glob('calculators/*').each do |calculator_file|
 end
 
 ELECTIONS.each do |election_name, election|
-  election_path = "/_elections/#{election.locality}/#{election.date}.md"
-
   # /_elections/oakland/2018-11-06.md
-  build_file(election_path) do |f|
+  build_file(election.metadata_path) do |f|
     f.puts(YAML.dump(election.metadata))
     f.puts('---')
   end
@@ -130,28 +119,7 @@ ELECTIONS.each do |election_name, election|
   # /_office_elections/oakland/2018-11-06/city-auditor.md
   OfficeElection.where(election_name: election_name).find_each do |office_election|
     build_file("/_office_elections/#{election.locality}/#{election.date}/#{slugify(office_election.title)}.md") do |f|
-      candidates =
-        Candidate
-          .where(Office: office_election.title, election_name: election_name)
-          .sort_by do |candidate|
-            [-1 * (candidate.calculation(:total_contributions) || 0.0), candidate.Candidate]
-          end
-
-      ContributionsByOrigin[election_name] ||= {}
-      ContributionsByOrigin[election_name][:race_totals] ||= []
-      ContributionsByOrigin[election_name][:race_totals].append({
-        title: office_election.title,
-        type: 'office',
-        slug: slugify(office_election.title),
-        amount: candidates.sum {|candidate| candidate.calculation(:total_contributions) || 0.0}
-      })
-
-      f.puts(YAML.dump({
-        'election' => election_path[1..-1],
-        'candidates' => candidates.map { |candidate| slugify(candidate.Candidate) },
-        'title' => office_election.title,
-        'label' => office_election.label,
-      }.compact))
+      f.puts(YAML.dump(office_election.metadata))
       f.puts('---')
     end
   end

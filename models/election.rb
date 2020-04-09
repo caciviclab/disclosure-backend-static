@@ -8,6 +8,10 @@ class Election < ActiveRecord::Base
     name.split('-', 2).first
   end
 
+  def metadata_path
+    "/_elections/#{locality}/#{date}.md"
+  end
+
   def metadata
     {
       'title' => title,
