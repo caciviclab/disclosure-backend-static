@@ -13,21 +13,6 @@ def build_file(filename, &block)
   File.open(filename, 'w', &block)
 end
 
-# Sort like:
-# 1. Mayor
-# 2. City Council ...
-# 3. City ...
-# 4. School Board
-#
-# If multiple offices match the same regex they are sorted alphabetically (i.e.
-# "School Board District 1", then "School Board District 2")
-SORT_PATTERNS = [
-  /mayor/i,
-  /city /i,
-  /city council/i,
-  /ousd/i,
-]
-
 # first, create any missing OfficeElection records for all the offices to assign them IDs
 Candidate.select(:Office, :election_name).order(:Office, :election_name).distinct.each do |office|
   OfficeElection
