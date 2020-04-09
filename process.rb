@@ -74,52 +74,23 @@ Dir.glob('calculators/*').each do |calculator_file|
   end
 end
 
-# /_elections/oakland/2018-11-06.md
 ELECTIONS.each do |election_name, election|
-  locality, _time = election_name.split('-', 2)
-  office_elections = OfficeElection.where(election_name: election_name)
-  referendums = Referendum.where(election_name: election_name).pluck(:Short_Title).uniq
-  election_path = "/_elections/#{locality}/#{election[:date]}.md"
-  office_elections_by_label = office_elections.group_by(&:label)
-  election_content = YAML.dump(
-    'title' => election[:title],
-    'election_id' => election[:name],
-    'locality' => locality,
-    'election' => election[:date].to_s,
-    'office_elections' => office_elections_by_label.map do |label, items|
-      {
-        'label' => label,
-        'items' => items.map do |office_election|
-          "_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md"
-        end
-      }.compact
-    end,
-    'referendums' => referendums.map do |title|
-      "_referendums/#{locality}/#{election[:date]}/#{slugify(title)}.md"
-    end,
-  )
+  election_path = "/_elections/#{election.locality}/#{election.date}.md"
 
+  # /_elections/oakland/2018-11-06.md
   build_file(election_path) do |f|
-    f.puts(election_content)
+    f.puts(YAML.dump(election.metadata))
     f.puts('---')
   end
 
-  build_file("/_data/elections/#{election[:date]}.json") do |f|
-    f.puts election.to_json
+  # /_data/elections/oakland/2018-11-06.json
+  build_file("/_data/elections/#{election.date}.json") do |f|
+    f.puts JSON.pretty_generate(election.data)
   end
 
-  # /_candidates/abel-guillen.md
-  Candidate.where(election_name: election_name).each do |candidate|
-    build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
-      f.puts(YAML.dump(candidate.metadata))
-      f.puts('---')
-    end
-  end
-
-  # /_data/candidates/oakland/2016-11-06/libby-schaaf.json
   Candidate
     .where(election_name: election_name)
-    .includes(:office_election, :calculations)
+    .includes(:office_election, :calculations, :election)
     .find_each do |candidate|
       committee = Committee.where(Filer_ID: candidate.FPPC.to_s).first
       contributions = candidate.calculation(:contributions_by_type)
@@ -142,15 +113,23 @@ ELECTIONS.each do |election_name, election|
       end
 
       filename = slugify(candidate['Candidate'])
-      build_file("/_data/candidates/#{locality}/#{election[:date]}/#{filename}.json") do |f|
+
+      # /_data/candidates/oakland/2016-11-06/libby-schaaf.json
+      build_file("/_data/candidates/#{election.locality}/#{election.date}/#{filename}.json") do |f|
         f.puts JSON.pretty_generate(candidate.data)
       end
-  end
+
+      # /_candidates/abel-guillen.md
+      build_file("/_candidates/#{election.locality}/#{election.date}/#{slugify(candidate.Candidate)}.md") do |f|
+        f.puts(YAML.dump(candidate.metadata))
+        f.puts('---')
+      end
+    end
 
 
   # /_office_elections/oakland/2018-11-06/city-auditor.md
   OfficeElection.where(election_name: election_name).find_each do |office_election|
-    build_file("/_office_elections/#{locality}/#{election[:date]}/#{slugify(office_election.title)}.md") do |f|
+    build_file("/_office_elections/#{election.locality}/#{election.date}/#{slugify(office_election.title)}.md") do |f|
       candidates =
         Candidate
           .where(Office: office_election.title, election_name: election_name)
