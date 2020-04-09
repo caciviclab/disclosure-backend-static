@@ -4,9 +4,6 @@ require 'fileutils'
 require 'i18n'
 require 'open-uri'
 
-# map of election_name => Election object
-ELECTIONS = Election.all.index_by(&:name)
-
 def build_file(filename, &block)
   filename = File.expand_path('../build', __FILE__) + filename
   FileUtils.mkdir_p(File.dirname(filename))
@@ -68,7 +65,7 @@ Committee.includes(:calculations).find_each do |committee|
   end
 end
 
-ELECTIONS.each do |election_name, election|
+Election.find_each do |election|
   # /_elections/oakland/2018-11-06.md
   build_file(election.metadata_path) do |f|
     f.puts(YAML.dump(election.metadata))
@@ -80,8 +77,8 @@ ELECTIONS.each do |election_name, election|
     f.puts JSON.pretty_generate(election.data)
   end
 
-  Candidate
-    .where(election_name: election_name)
+  election
+    .candidates
     .includes(:office_election, :calculations, :election)
     .find_each do |candidate|
       committee = Committee.where(Filer_ID: candidate.FPPC.to_s).first
@@ -93,9 +90,9 @@ ELECTIONS.each do |election_name, election|
         total_small = committee.calculation(:total_small_itemized_contributions) +
           contributions['Unitemized']
         candidate.save_calculation(:total_small_contributions, total_small)
-        ContributionsByOrigin[election_name] ||= {}
-        ContributionsByOrigin[election_name][:small_proportion] ||= []
-        ContributionsByOrigin[election_name][:small_proportion].append({
+        ContributionsByOrigin[election.name] ||= {}
+        ContributionsByOrigin[election.name][:small_proportion] ||= []
+        ContributionsByOrigin[election.name][:small_proportion].append({
           title: election['title'],
           type: 'office',
           slug: slugify(candidate['Candidate']),
@@ -126,7 +123,7 @@ ELECTIONS.each do |election_name, election|
 
 
   # /_office_elections/oakland/2018-11-06/city-auditor.md
-  OfficeElection.where(election_name: election_name).find_each do |office_election|
+  election.office_elections.find_each do |office_election|
     build_file("/_office_elections/#{election.locality}/#{election.date}/#{slugify(office_election.title)}.md") do |f|
       f.puts(YAML.dump(office_election.metadata))
       f.puts('---')
@@ -177,8 +174,8 @@ end
 
 build_file('/_data/totals.json') do |f|
   f.puts JSON.pretty_generate(
-    Hash[ELECTIONS.map do |election_name, election|
-      totals = ContributionsByOrigin.fetch(election_name, {})
+    Hash[Election.find_each.map do |election|
+      totals = ContributionsByOrigin.fetch(election.name, {})
       totals[:largest_independent_expenditures] = election.calculation(:largest_independent_expenditures)
 
       # Grab top 3 most expensive races
@@ -191,7 +188,7 @@ build_file('/_data/totals.json') do |f|
       end
       totals.delete(:small_proportion)
 
-      [election_name, totals]
+      [election.name, totals]
     end]
   )
 end
