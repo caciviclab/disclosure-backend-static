@@ -104,6 +104,10 @@ ELECTIONS.each do |election_name, election|
     f.puts('---')
   end
 
+  build_file("/_data/elections/#{election[:date]}.json") do |f|
+    f.puts election.to_json
+  end
+
   # /_candidates/abel-guillen.md
   Candidate.where(election_name: election_name).each do |candidate|
     build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
