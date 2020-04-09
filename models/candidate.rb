@@ -1,19 +1,7 @@
 class Candidate < ActiveRecord::Base
+  include HasCalculations
+
   belongs_to :office_election, foreign_key: 'Office', primary_key: 'title'
-
-  has_many :calculations, as: :subject
-
-  def calculation(name)
-    @_calculations_cache ||= calculations.index_by(&:name)
-    @_calculations_cache[name.to_s].try(:value)
-  end
-
-  def save_calculation(name, value)
-    calculations
-      .where(name: name)
-      .first_or_create
-      .update_attributes(value: value)
-  end
 
   def as_json(options = nil)
     first_name, last_name = self['Candidate'].split(' ', 2) # Probably wrong!
