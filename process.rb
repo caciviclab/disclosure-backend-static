@@ -65,6 +65,24 @@ Dir.glob('calculators/*').each do |calculator_file|
   end
 end
 
+# This must be before Candidate because candidate also output committee files
+# that can duplicate these.
+Committee.includes(:calculations).find_each do |committee|
+  next if committee['Filer_ID'].nil?
+  next if committee['Filer_ID'] =~ /pending/i
+
+  # /_committees/1386416.md
+  build_file("/_committees/#{committee.Filer_ID}.md") do |f|
+    f.puts(YAML.dump(committee.metadata))
+    f.puts('---')
+  end
+
+  # /_data/committees/1229791.json
+  build_file("/_data/committees/#{committee['Filer_ID']}.json") do |f|
+    f.puts JSON.pretty_generate(committee.data)
+  end
+end
+
 ELECTIONS.each do |election_name, election|
   # /_elections/oakland/2018-11-06.md
   build_file(election.metadata_path) do |f|
@@ -113,6 +131,12 @@ ELECTIONS.each do |election_name, election|
         f.puts(YAML.dump(candidate.metadata))
         f.puts('---')
       end
+
+      # /_committees/123456.md
+      build_file("/_committees/#{candidate.FPPC}.md") do |f|
+        f.puts(YAML.dump(Committee.from_candidate(candidate).metadata))
+        f.puts('---')
+      end
     end
 
 
@@ -122,46 +146,6 @@ ELECTIONS.each do |election_name, election|
       f.puts(YAML.dump(office_election.metadata))
       f.puts('---')
     end
-  end
-end
-
-# /_committees/1386416.md
-Committee.find_each do |committee|
-  build_file("/_committees/#{committee.Filer_ID}.md") do |f|
-    f.puts(YAML.dump(
-      'filer_id' => committee.Filer_ID.to_s,
-      'name' => committee.Filer_NamL,
-      'candidate_controlled_id' => committee.candidate_controlled_id.to_s,
-      'data_warning' => committee.data_warning,
-      'opposing_candidate' => committee.opposing_candidate,
-      'title' => committee.Filer_NamL,
-    ))
-    f.puts('---')
-  end
-end
-Candidate.find_each do |committee|
-  build_file("/_committees/#{committee.FPPC}.md") do |f|
-    f.puts(YAML.dump(
-      'filer_id' => committee.FPPC.to_s,
-      'name' => committee.Committee_Name,
-      'candidate_controlled_id' => '',
-      'title' => committee.Committee_Name,
-      'data_warning' => committee.data_warning,
-    ))
-    f.puts('---')
-  end
-end
-
-# /_data/contributions/1229791.json
-Committee.includes(:calculations).find_each do |committee|
-  next if committee['Filer_ID'].nil?
-  next if committee['Filer_ID'] =~ /pending/i
-
-  build_file("/_data/committees/#{committee['Filer_ID']}.json") do |f|
-    f.puts JSON.pretty_generate(
-      total_contributions: committee.calculation(:total_contributions),
-      contributions: committee.calculation(:contribution_list) || [],
-    )
   end
 end
 
