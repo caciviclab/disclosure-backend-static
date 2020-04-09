@@ -1,6 +1,10 @@
 class Election < ActiveRecord::Base
   include HasCalculations
 
+  def locality
+    name.split('-', 2).first
+  end
+
   def as_json(options = nil)
     {
       'total_contributions_by_source' => {

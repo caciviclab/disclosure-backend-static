@@ -111,22 +111,7 @@ ELECTIONS.each do |election_name, election|
   # /_candidates/abel-guillen.md
   Candidate.where(election_name: election_name).each do |candidate|
     build_file("/_candidates/#{locality}/#{election[:date]}/#{slugify(candidate.Candidate)}.md") do |f|
-      f.puts(YAML.dump({
-        'election' => "_elections/#{locality}/#{election[:date]}.md",
-        'committee_name' => candidate.Committee_Name,
-        'data_warning' => candidate.data_warning,
-        'filer_id' => candidate.FPPC.to_s,
-        'is_accepted_expenditure_ceiling' => candidate.Accepted_expenditure_ceiling,
-        'is_incumbent' => candidate.Incumbent,
-        'name' => candidate.Candidate,
-        'occupation' => candidate.Occupation,
-        'party_affiliation' => candidate.Party_Affiliation,
-        'photo_url' => candidate.Photo,
-        'public_funding_received' => candidate.Public_Funding_Received,
-        'twitter_url' => candidate.Twitter,
-        'votersedge_url' => candidate.VotersEdge,
-        'website_url' => candidate.Website,
-      }.compact))
+      f.puts(YAML.dump(candidate.metadata))
       f.puts('---')
     end
   end
@@ -158,7 +143,7 @@ ELECTIONS.each do |election_name, election|
 
       filename = slugify(candidate['Candidate'])
       build_file("/_data/candidates/#{locality}/#{election[:date]}/#{filename}.json") do |f|
-        f.puts candidate.to_json
+        f.puts JSON.pretty_generate(candidate.data)
       end
   end
 

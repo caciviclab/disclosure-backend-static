@@ -2,8 +2,28 @@ class Candidate < ActiveRecord::Base
   include HasCalculations
 
   belongs_to :office_election, foreign_key: 'Office', primary_key: 'title'
+  belongs_to :election, foreign_key: 'election_name', primary_key: 'name'
 
-  def as_json(options = nil)
+  def metadata
+    {
+      'election' => "_elections/#{election.locality}/#{election.date}.md",
+      'committee_name' => self[:Committee_Name],
+      'data_warning' => self[:data_warning],
+      'filer_id' => self[:FPPC].to_s,
+      'is_accepted_expenditure_ceiling' => self[:Accepted_expenditure_ceiling],
+      'is_incumbent' => self[:Incumbent],
+      'name' => self[:Candidate],
+      'occupation' => self[:Occupation],
+      'party_affiliation' => self[:Party_Affiliation],
+      'photo_url' => self[:Photo],
+      'public_funding_received' => self[:Public_Funding_Received],
+      'twitter_url' => self[:Twitter],
+      'votersedge_url' => self[:VotersEdge],
+      'website_url' => self[:Website],
+    }.compact
+  end
+
+  def data
     first_name, last_name = self['Candidate'].split(' ', 2) # Probably wrong!
 
     round_numbers(
