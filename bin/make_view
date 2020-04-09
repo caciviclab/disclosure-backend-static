@@ -11,21 +11,28 @@ psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 */
 DROP VIEW IF EXISTS "Measure_Expenditures";
 CREATE VIEW "Measure_Expenditures" AS
-  -- Map names to numbers as ballot numbers are often missing
+  -- Get E-Expenditures from committees that report using a non-standard name
+  -- for the ballot measure.
   SELECT
-    cast ("Filer_ID" as character varying),
-    "Filer_NamL",
-    "election_name",
+    cast ("E-Expenditure"."Filer_ID" as character varying),
+    "E-Expenditure"."Filer_NamL",
+    COALESCE(committees."Ballot_Measure_Election", name_to_number."election_name") as "election_name",
     "Bal_Name",
-    "Measure_Number",
+    COALESCE("Bal_Num", name_to_number."Measure_Number") as "Measure_Number",
     "Sup_Opp_Cd",
     "Amount",
     "Expn_Code",
     "Payee_NamL" as "Recipient_Or_Description",
     'E name' as "Form"
   FROM
-    "E-Expenditure", name_to_number
-  WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
+    "E-Expenditure"
+  LEFT OUTER JOIN name_to_number
+    ON LOWER("Bal_Name") = LOWER("Measure_Name")
+  LEFT OUTER JOIN committees
+    ON "E-Expenditure"."Filer_ID"::varchar = committees."Filer_ID"::varchar
+  WHERE
+    name_to_number."election_name" IS NOT NULL
+    OR "E-Expenditure"."Committee_Type" = 'BMC'
   UNION ALL
 
   -- Get IE
@@ -46,7 +53,8 @@ CREATE VIEW "Measure_Expenditures" AS
   AND "Sup_Opp_Cd" IS NOT NULL
   UNION ALL
 
-  -- Get support/oppose information from committee
+  -- Get support/oppose information from committee & name_to_number when
+  -- "Bal_Name" is NULL.
   SELECT
     expend."Filer_ID"::varchar,
     expend."Filer_NamL",
@@ -64,7 +72,8 @@ CREATE VIEW "Measure_Expenditures" AS
       ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
       AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
       AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date")
-  JOIN name_to_number ON "Ballot_Measure" = "Measure_Number"
+  JOIN name_to_number
+    ON "Ballot_Measure" = "Measure_Number"
     AND "Ballot_Measure_Election" = "election_name"
   WHERE "Bal_Name" IS NULL
     AND "Ballot_Measure" IS NOT NULL

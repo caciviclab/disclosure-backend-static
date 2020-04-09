@@ -217,7 +217,7 @@ Referendum.includes(:calculations).find_each do |referendum|
   if election.nil?
     $stderr.puts "MISSING ELECTION:"
     $stderr.puts "  Election Name: #{referendum.election_name}"
-    $stderr.puts '  Add it to ELECTIONS global in process.rb'
+    $stderr.puts '  You might need to run `make download-cached import-spreadsheets`'
     next
   end
 
