@@ -97,7 +97,7 @@ import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 
 recreatedb:
 	dropdb $(DATABASE_NAME) || true
-	createdb $(DATABASE_NAME)
+	createdb $(DATABASE_NAME) --lc-collate=C --template=template0
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
