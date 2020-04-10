@@ -10,7 +10,7 @@ post_pr_diff_to_github() {
 <summary>Build diff from Commit ${pr_head_sha}:</summary>
 
 \`\`\`diff
-$(git diff)
+$(git add -N . && git diff)
 \`\`\`
 </details>
 BODY
