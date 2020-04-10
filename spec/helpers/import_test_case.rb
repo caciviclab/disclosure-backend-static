@@ -5,7 +5,7 @@ def import_test_case(path)
   database_name = 'disclosure-backend-test'
 
   # reset db
-  `env DATABASE_NAME=#{database_name} make dropdb createdb`
+  `env DATABASE_NAME=#{database_name} make recreatedb`
   raise "Test setup failed. You might need to install the `build-essential` package." unless $?.success?
 
   # copy over schema
