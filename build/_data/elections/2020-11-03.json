@@ -1,0 +1,84 @@
+{
+  "total_contributions_by_source": {
+    "From Within Oakland": 0.55,
+    "In-State": 0.055,
+    "Out of State": 0.05
+  },
+  "top_spenders": [
+    {
+      "name": "Jeff Bezos",
+      "total_contributions": 555
+    },
+    {
+      "name": "Elon Musk",
+      "total_contributions": 55
+    },
+    {
+      "name": "Travis Kalanick",
+      "total_contributions": 5
+    }
+  ],
+  "candidates_with_most_small_contributions": [
+    {
+      "name": "Zhao Liu",
+      "slug": "stephanie-dominguez-walton",
+      "office_title": "Mayor of Oakland",
+      "office_slug": "city-council-district-1",
+      "small_contribution_percent": 0.55
+    },
+    {
+      "name": "Sally Trotski",
+      "slug": "stephanie-dominguez-walton",
+      "office_title": "City Council District 1",
+      "office_slug": "city-council-district-1",
+      "small_contribution_percent": 0.55
+    },
+    {
+      "name": "Peter San Marco",
+      "slug": "stephanie-dominguez-walton",
+      "office_title": "City Council District 1",
+      "office_slug": "city-council-district-1",
+      "small_contribution_percent": 0.55
+    }
+  ],
+  "total_contributions": 5555555,
+  "contributions_by_type": {
+    "Committee": 55555.55,
+    "Individual": 5555.55,
+    "Unitemized": 5550.55,
+    "Self Funding": 5500.55,
+    "Other (includes businesses)": 5000.55
+  },
+  "most_expensive_races": [
+    {
+      "title": "Mayor",
+      "type": "office",
+      "slug": "mayor",
+      "amount": 5555555
+    },
+    {
+      "title": "City Council District 2",
+      "type": "office",
+      "slug": "city-council-district-2",
+      "amount": 5555555
+    },
+    {
+      "title": "City Council District 6",
+      "type": "office",
+      "slug": "city-council-district-6",
+      "amount": 555555
+    }
+  ],
+  "largest_independent_expenditures": [
+    {
+      "Filer_NamL": "NATIONAL ASSOCIATION OF FIVERS",
+      "Total_Amount": 555000,
+      "election_name": "oakland-2020"
+    },
+    {
+      "Filer_NamL": "CALIFORNIA ASSOCIATION OF FIVE ISSUES MOBILIZATION PAC",
+      "Total_Amount": 55005,
+      "election_name": "oakland-2020"
+    }
+  ]
+}
