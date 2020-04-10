@@ -1,4 +1,31 @@
 {
+  "oakland-2014": {
+    "Within Oakland": 941602.7699999999,
+    "Total": 1711585.7699999998,
+    "Out of State": 118791.94,
+    "Within California": 651191.06,
+    "largest_independent_expenditures": null,
+    "most_expensive_races": [
+      {
+        "title": "Mayor",
+        "type": "office",
+        "slug": "mayor",
+        "amount": 1091719.8699999999
+      },
+      {
+        "title": "City Council District 2",
+        "type": "office",
+        "slug": "city-council-district-2",
+        "amount": 313038.80000000005
+      },
+      {
+        "title": "City Council District 6",
+        "type": "office",
+        "slug": "city-council-district-6",
+        "amount": 219139.0
+      }
+    ]
+  },
   "berkeley-2018": {
     "largest_independent_expenditures": null,
     "most_expensive_races": [
@@ -77,10 +104,10 @@
     ]
   },
   "oakland-2018": {
-    "Out of State": 899596.36,
-    "Total": 6404634.17,
-    "Within California": 2890253.9,
-    "Within Oakland": 2614783.9099999997,
+    "Out of State": 902946.31,
+    "Total": 6477679.12,
+    "Within California": 2925878.9,
+    "Within Oakland": 2648853.9099999997,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
