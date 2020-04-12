@@ -112,16 +112,6 @@ your calcualtion as SQL, put it in a calcuator file like so:
 5. Your calculation can be retrieved with `candidate.calculation(:your_thing)`.
    You will want to add this into an API response in the `process.rb` file.
 
-## Deploying
-This is hosted on Tom's personal server, accessible with an API root of
-
-http://disclosure-backend-static.f.tdooner.com
-
-(e.g. http://disclosure-backend-static.f.tdooner.com/office_election/35)
-
-This means that unfortuately, only I can deploy it right now.
-
-
 ## Data flow
 
 This is how the data flows through the back end. Finance data is pulled from
@@ -130,7 +120,7 @@ information like candidate names, offices, ballot measures, etc. Once data is
 filtered, aggregated, and transformed, the front end consumes it and builds the
 static HTML front end.
 
-<img alt="Diagram showing how finance data flows through different disclosure components" src="./docs/img/open-disclosure-data-flow.png" width="600" />
+<img alt="Diagram showing how finance data flows through different disclosure components" src="./docs/img/open-disclosure-data-flow.jpg" width="600" />
 
 ### Common Errors
 **During Bundle Install**
