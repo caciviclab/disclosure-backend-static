@@ -41,12 +41,17 @@ class CommitteeContributionListCalculator
       collection.each do |committee|
         filer_id = committee[id].to_s
         sorted = Array(contributions_by_committee[filer_id])
-        total_contributions = sorted.reduce(0) do |total, contribution|
-          total + contribution['Tran_Amt1']
+        total_contributions = 0
+        total_small = 0
+        sorted.each do |contribution|
+          amount = contribution['Tran_Amt1']
+          total_contributions += amount
+          total_small += amount unless amount  >= 100 || amount <= -100
         end
 
         committee.save_calculation(:contribution_list, sorted)
         committee.save_calculation(:total_contributions, total_contributions)
+        committee.save_calculation(:total_small, total_small)
       end
     end
   end
