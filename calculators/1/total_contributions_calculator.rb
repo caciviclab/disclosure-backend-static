@@ -52,4 +52,3 @@ class TotalContributionsCalculator
     end
   end
 end
-

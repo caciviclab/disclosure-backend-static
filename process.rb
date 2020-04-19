@@ -23,7 +23,8 @@ ContributionsByOrigin = {}
 # second, process the contribution data
 #   load calculators dynamically, assume each one defines a class given by its
 #   filename. E.g. calculators/foo_calculator.rb would define "FooCalculator"
-Dir.glob('calculators/*').each do |calculator_file|
+Dir.glob('calculators/{1,2,3,4}/*.rb').each do |calculator_file|
+  puts calculator_file
   basename = File.basename(calculator_file.chomp('.rb'))
   class_name = ActiveSupport::Inflector.classify(basename)
   begin
@@ -73,7 +74,7 @@ Election.find_each do |election|
   end
 
   # /_data/elections/oakland/2018-11-06.json
-  build_file("/_data/elections/#{election.date}.json") do |f|
+  build_file("/_data/elections/#{election.locality}/#{election.date}.json") do |f|
     f.puts JSON.pretty_generate(election.data)
   end
 
@@ -81,26 +82,6 @@ Election.find_each do |election|
     .candidates
     .includes(:office_election, :calculations, :election)
     .find_each do |candidate|
-      committee = Committee.where(Filer_ID: candidate.FPPC.to_s).first
-      contributions = candidate.calculation(:contributions_by_type)
-      total_contributions = candidate.calculation(:total_contributions)
-
-      # Calculate the proprtion of small contributions
-      unless committee.nil? || contributions.nil? || total_contributions == 0
-        total_small = committee.calculation(:total_small_itemized_contributions) +
-          contributions['Unitemized']
-        candidate.save_calculation(:total_small_contributions, total_small)
-        ContributionsByOrigin[election.name] ||= {}
-        ContributionsByOrigin[election.name][:small_proportion] ||= []
-        ContributionsByOrigin[election.name][:small_proportion].append({
-          title: election['title'],
-          type: 'office',
-          slug: slugify(candidate['Candidate']),
-          candidate: candidate['Candidate'],
-          proportion: total_small / candidate.calculation(:total_contributions).to_f
-        })
-      end
-
       filename = slugify(candidate['Candidate'])
 
       # /_data/candidates/oakland/2016-11-06/libby-schaaf.json
@@ -173,24 +154,7 @@ Referendum.includes(:calculations).find_each do |referendum|
 end
 
 build_file('/_data/totals.json') do |f|
-  f.puts JSON.pretty_generate(
-    Hash[Election.find_each.map do |election|
-      totals = ContributionsByOrigin.fetch(election.name, {})
-      totals[:largest_independent_expenditures] = election.calculation(:largest_independent_expenditures)
-
-      # Grab top 3 most expensive races
-      totals[:most_expensive_races] = totals[:race_totals].sort_by {|v| -v[:amount]}[0..2]
-      totals.delete(:race_totals)
-
-      # Get the top 3 small contribution proprtions
-      unless totals[:small_proportion].nil?
-        totals[:largest_small_proportion] = totals[:small_proportion].sort_by {|v| -v[:proportion]}[0..2]
-      end
-      totals.delete(:small_proportion)
-
-      [election.name, totals]
-    end]
-  )
+  f.puts JSON.pretty_generate(Hash[Election.find_each.map { |election| [election.name, election.data] }])
 end
 
 build_file('/_data/stats.json') do |f|
