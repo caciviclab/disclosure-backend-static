@@ -142,14 +142,15 @@ ELECTIONS.each do |election_name, election|
 
       # Calculate the proprtion of small contributions
       unless committee.nil? || contributions.nil? || total_contributions == 0
-        total_small = committee.calculation(:total_small) + contributions['Unitemized']
-        candidate.save_calculation(:small_contributions, total_small)
+        total_small = committee.calculation(:total_small_itemized_contributions) +
+          contributions['Unitemized']
+        candidate.save_calculation(:total_small_contributions, total_small)
         ContributionsByOrigin[election_name] ||= {}
         ContributionsByOrigin[election_name][:small_proportion] ||= []
         ContributionsByOrigin[election_name][:small_proportion].append({
           title: election['title'],
           type: 'office',
-          slug: slugify(election['title']),
+          slug: slugify(candidate['Candidate']),
           candidate: candidate['Candidate'],
           proportion: total_small / candidate.calculation(:total_contributions).to_f
         })
@@ -301,7 +302,7 @@ build_file('/_data/totals.json') do |f|
 
       # Get the top 3 small contribution proprtions
       unless totals[:small_proportion].nil?
-        totals[:largest_small_proprtion] = totals[:small_proportion].sort_by {|v| -v[:proportion]}[0..2]
+        totals[:largest_small_proportion] = totals[:small_proportion].sort_by {|v| -v[:proportion]}[0..2]
       end
       totals.delete(:small_proportion)
 
