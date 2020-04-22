@@ -50,6 +50,7 @@ class Candidate < ActiveRecord::Base
         support_list: round_numbers(calculation(:support_list) || []),
         contributions_by_type: calculation(:contributions_by_type) || {},
         contributions_by_origin: calculation(:contributions_by_origin) || {},
+        total_small_contributions: calculation(:total_small_contributions).try(:to_f),
         expenditures_by_type: calculation(:expenditures_by_type) || {},
         supporting_by_type: calculation(:supporting_by_type) || {},
       },

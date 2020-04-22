@@ -136,6 +136,26 @@ ELECTIONS.each do |election_name, election|
     .where(election_name: election_name)
     .includes(:office_election, :calculations)
     .find_each do |candidate|
+      committee = Committee.where(Filer_ID: candidate.FPPC.to_s).first
+      contributions = candidate.calculation(:contributions_by_type)
+      total_contributions = candidate.calculation(:total_contributions)
+
+      # Calculate the proprtion of small contributions
+      unless committee.nil? || contributions.nil? || total_contributions == 0
+        total_small = committee.calculation(:total_small_itemized_contributions) +
+          contributions['Unitemized']
+        candidate.save_calculation(:total_small_contributions, total_small)
+        ContributionsByOrigin[election_name] ||= {}
+        ContributionsByOrigin[election_name][:small_proportion] ||= []
+        ContributionsByOrigin[election_name][:small_proportion].append({
+          title: election['title'],
+          type: 'office',
+          slug: slugify(candidate['Candidate']),
+          candidate: candidate['Candidate'],
+          proportion: total_small / candidate.calculation(:total_contributions).to_f
+        })
+      end
+
       filename = slugify(candidate['Candidate'])
       build_file("/_data/candidates/#{locality}/#{election[:date]}/#{filename}.json") do |f|
         f.puts candidate.to_json
@@ -279,6 +299,12 @@ build_file('/_data/totals.json') do |f|
       # Grab top 3 most expensive races
       totals[:most_expensive_races] = totals[:race_totals].sort_by {|v| -v[:amount]}[0..2]
       totals.delete(:race_totals)
+
+      # Get the top 3 small contribution proprtions
+      unless totals[:small_proportion].nil?
+        totals[:largest_small_proportion] = totals[:small_proportion].sort_by {|v| -v[:proportion]}[0..2]
+      end
+      totals.delete(:small_proportion)
 
       [election_name, totals]
     end]
