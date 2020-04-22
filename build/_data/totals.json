@@ -24,6 +24,29 @@
         "slug": "city-council-district-6",
         "amount": 219139.0
       }
+    ],
+    "largest_small_proportion": [
+      {
+        "title": "Oakland November 4th Election",
+        "type": "office",
+        "slug": "nina-senn",
+        "candidate": "Nina Senn",
+        "proportion": 0.3983409395973154
+      },
+      {
+        "title": "Oakland November 4th Election",
+        "type": "office",
+        "slug": "renato-almanzor",
+        "candidate": "Renato Almanzor",
+        "proportion": 0.24336392954601835
+      },
+      {
+        "title": "Oakland November 4th Election",
+        "type": "office",
+        "slug": "shanthi-gonzales",
+        "candidate": "Shanthi Gonzales",
+        "proportion": 0.16707099015054414
+      }
     ]
   },
   "berkeley-2018": {
@@ -73,6 +96,29 @@
         "type": "referendum",
         "slug": "infrastructure-and-housing-bonds",
         "amount": 450809.58
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "title": "Oakland November 8th, 2016 Election",
+        "type": "office",
+        "slug": "nancy-sidebotham",
+        "candidate": "Nancy Sidebotham",
+        "proportion": 1.0
+      },
+      {
+        "title": "Oakland November 8th, 2016 Election",
+        "type": "office",
+        "slug": "kharyshi-wiginton",
+        "candidate": "Kharyshi Wiginton",
+        "proportion": 0.27462311557788943
+      },
+      {
+        "title": "Oakland November 8th, 2016 Election",
+        "type": "office",
+        "slug": "chris-jackson",
+        "candidate": "Chris Jackson",
+        "proportion": 0.25406141022369655
       }
     ]
   },
@@ -128,6 +174,29 @@
         "slug": "vacant-property-parcel-tax",
         "amount": 776996.5800000001
       }
+    ],
+    "largest_small_proportion": [
+      {
+        "title": "Oakland November 6th, 2018 Election",
+        "type": "office",
+        "slug": "clarissa-doutherd",
+        "candidate": "Clarissa Doutherd",
+        "proportion": 0.3823599768467386
+      },
+      {
+        "title": "Oakland November 6th, 2018 Election",
+        "type": "office",
+        "slug": "cat-brooks",
+        "candidate": "Cat Brooks",
+        "proportion": 0.3735887090492526
+      },
+      {
+        "title": "Oakland November 6th, 2018 Election",
+        "type": "office",
+        "slug": "marchon-tatmon",
+        "candidate": "Marchon Tatmon",
+        "proportion": 0.3259331478814659
+      }
     ]
   },
   "oakland-2020": {
@@ -154,6 +223,29 @@
         "type": "office",
         "slug": "city-council-at-large",
         "amount": 33174.0
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "title": "Oakland November 3rd, 2020 General Election",
+        "type": "office",
+        "slug": "esmeralda-cortez-rosales",
+        "candidate": "Esmeralda Cortez Rosales",
+        "proportion": 0.30365816636308446
+      },
+      {
+        "title": "Oakland November 3rd, 2020 General Election",
+        "type": "office",
+        "slug": "benjamin-sam-davis",
+        "candidate": "Benjamin \"Sam\" Davis",
+        "proportion": 0.17897458696796412
+      },
+      {
+        "title": "Oakland November 3rd, 2020 General Election",
+        "type": "office",
+        "slug": "rebecca-kaplan",
+        "candidate": "Rebecca Kaplan",
+        "proportion": 0.08271537951407729
       }
     ]
   },
