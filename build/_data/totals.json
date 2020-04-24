@@ -1,9 +1,9 @@
 {
   "oakland-2014": {
-    "Within California": 651191.06,
-    "Total": 1711585.77,
+    "Within Oakland": 941602.7699999999,
+    "Total": 1711585.7699999998,
     "Out of State": 118791.94,
-    "Within Oakland": 941602.77,
+    "Within California": 651191.06,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
@@ -76,7 +76,7 @@
     "Out of State": 10557896.459999999,
     "Total": 21472032.399999995,
     "Within California": 9350484.88,
-    "Within Oakland": 1563651.0600000003,
+    "Within Oakland": 1563651.06,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
@@ -150,10 +150,10 @@
     ]
   },
   "oakland-2018": {
-    "Within Oakland": 2648853.9099999997,
+    "Out of State": 902946.31,
     "Total": 6477679.12,
     "Within California": 2925878.9,
-    "Out of State": 902946.31,
+    "Within Oakland": 2648853.9099999997,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
@@ -202,8 +202,8 @@
   "oakland-2020": {
     "Out of State": 12973.84,
     "Total": 210701.06,
-    "Within Oakland": 99296.51000000001,
     "Within California": 98430.70999999999,
+    "Within Oakland": 99296.51,
     "largest_independent_expenditures": null,
     "most_expensive_races": [
       {
