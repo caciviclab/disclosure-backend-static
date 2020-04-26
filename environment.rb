@@ -6,7 +6,7 @@ require 'json'
 
 Dir.glob('lib/**/*.rb').each { |f| load f }
 Dir.glob('models/*.rb').each { |f| load f }
-Dir.glob('calculators/*/*.rb').each { |f| load f }
+Dir.glob('calculators/**/*.rb').each { |f| load f }
 
 ActiveRecord::Base.establish_connection 'postgresql:///disclosure-backend'
 

@@ -1,5 +1,3 @@
-# depends on:
-#   committee_contribution_list_calculator.rb
 class CandidateContributionsByType
   TYPE_DESCRIPTIONS = {
     'IND' => 'Individual',
@@ -7,6 +5,12 @@ class CandidateContributionsByType
     'OTH' => 'Other (includes Businesses)',
     'SLF' => 'Self Funding'
   }
+
+  def self.dependencies
+    [
+      { model: Committee, calculation: :total_small_itemized_contributions },
+    ]
+  end
 
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates_by_filer_id =

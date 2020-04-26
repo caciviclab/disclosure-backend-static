@@ -7,6 +7,8 @@ module HasCalculations
   end
 
   def save_calculation(name, value)
+    self.class.processed_calculations << name
+
     calculations
       .where(name: name)
       .first_or_create
@@ -15,5 +17,7 @@ module HasCalculations
 
   included do
     has_many :calculations, as: :subject
+
+    cattr_accessor :processed_calculations do Set.new end
   end
 end
