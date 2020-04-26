@@ -1,31 +1,30 @@
 class Committee < ActiveRecord::Base
+  include HasCalculations
 
-  has_many :calculations, as: :subject
-
-  def calculation(name)
-    @_calculations_cache ||= calculations.index_by(&:name)
-    @_calculations_cache[name.to_s].try(:value)
+  def self.from_candidate(candidate)
+    new(
+      Filer_ID: candidate.FPPC,
+      Filer_NamL: candidate.Committee_Name,
+      candidate_controlled_id: '',
+      data_warning: candidate.data_warning,
+    )
   end
 
-  def save_calculation(name, value)
-    calculations
-      .where(name: name)
-      .first_or_create
-      .update_attributes(value: value)
-  end
-
-  def as_json(options = nil)
+  def metadata
     {
-      id: id,
-      filer_id: self['Filer_ID'],
-      name: self['Filer_NamL'],
+      'filer_id' => self[:Filer_ID].to_s,
+      'name' => self[:Filer_NamL],
+      'candidate_controlled_id' => candidate_controlled_id.to_s,
+      'data_warning' => data_warning,
+      'opposing_candidate' => opposing_candidate,
+      'title' => self[:Filer_NamL],
+    }
+  end
 
-      website_url: self['Website'],
-      city: self['City'],
-      committee_type: self['Committee_Type'],
-      description: self['Description'],
-      ballot_measure: self['Ballot Measure'],
-      facebook: self['Facebook'],
+  def data
+    {
+      total_contributions: calculation(:total_contributions),
+      contributions: calculation(:contribution_list) || [],
     }
   end
 end
