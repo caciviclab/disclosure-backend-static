@@ -23,7 +23,7 @@ class CommitteeContributionListCalculator
       ON all_committees."Filer_ID" = all_contributions."Filer_ID"
       AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
       AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
-      ORDER BY "Tran_Date" ASC, CONCAT("Tran_NamL", "Tran_NamF"), "Tran_Amt1" ASC
+      ORDER BY "Tran_Date" ASC, CONCAT("Tran_NamL", "Tran_NamF"), "Tran_Amt1" ASC, "Tran_Emp" ASC
     SQL
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
