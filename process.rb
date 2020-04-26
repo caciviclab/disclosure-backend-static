@@ -23,7 +23,7 @@ ContributionsByOrigin = {}
 # second, process the contribution data
 CalculatorRunner
   .new
-  .load_calculators('calculators/{1,2,3,4}/*')
+  .load_calculators('calculators/*')
   .fetch_all!
 
 # This must be before Candidate because candidate also output committee files

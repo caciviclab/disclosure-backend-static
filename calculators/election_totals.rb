@@ -1,7 +1,15 @@
-# depends on:
-#   candidate_contributions_by_type.rb
 class ElectionTotal
   def initialize(candidates: [], ballot_measures: [], committees: []); end
+
+  def self.dependencies
+    [
+      { model: Candidate, calculation: :total_contributions },
+      { model: Candidate, calculation: :total_small_contributions },
+      { model: Candidate, calculation: :contributions_by_origin },
+      { model: Referendum, calculation: :supporting_total },
+      { model: Referendum, calculation: :opposing_total },
+    ]
+  end
 
   def fetch
     Election.find_each do |election|
