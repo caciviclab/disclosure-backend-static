@@ -21,32 +21,10 @@ end
 ContributionsByOrigin = {}
 
 # second, process the contribution data
-#   load calculators dynamically, assume each one defines a class given by its
-#   filename. E.g. calculators/foo_calculator.rb would define "FooCalculator"
-Dir.glob('calculators/{1,2,3,4}/*.rb').each do |calculator_file|
-  puts calculator_file
-  basename = File.basename(calculator_file.chomp('.rb'))
-  class_name = ActiveSupport::Inflector.classify(basename)
-  begin
-    calculator_class = class_name.constantize
-    calculator_class
-      .new(
-        candidates: Candidate.all,
-        ballot_measures: Referendum.all,
-        committees: Committee.all
-      )
-      .fetch
-  rescue NameError => ex
-    if ex.message =~ /uninitialized constant #{class_name}/
-      $stderr.puts "ERROR: Undefined constant #{class_name}, expected it to be "\
-        "defined in #{calculator_file}"
-      puts ex.message
-      exit 1
-    else
-      raise
-    end
-  end
-end
+CalculatorRunner
+  .new
+  .load_calculators('calculators/{1,2,3,4}/*')
+  .fetch_all!
 
 # This must be before Candidate because candidate also output committee files
 # that can duplicate these.
