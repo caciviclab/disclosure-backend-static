@@ -1,13 +1,12 @@
 # frozen_string_literal: true
 
 require 'active_support/concern'
-require 'active_support/core_ext/hash/compact'
 require 'active_record'
 require 'json'
 
 Dir.glob('lib/**/*.rb').each { |f| load f }
 Dir.glob('models/*.rb').each { |f| load f }
-Dir.glob('calculators/*.rb').each { |f| load f }
+Dir.glob('calculators/*/*.rb').each { |f| load f }
 
 ActiveRecord::Base.establish_connection 'postgresql:///disclosure-backend'
 

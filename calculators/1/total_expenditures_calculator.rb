@@ -32,4 +32,3 @@ class TotalExpendituresCalculator
     end
   end
 end
-

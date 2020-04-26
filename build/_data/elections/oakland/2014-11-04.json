@@ -1,0 +1,74 @@
+{
+  "total_contributions_by_source": {
+    "From Within Oakland": 0.55,
+    "In-State": 0.055,
+    "Out of State": 0.05
+  },
+  "top_spenders": [
+    {
+      "name": "Jeff Bezos",
+      "total_contributions": 555
+    },
+    {
+      "name": "Elon Musk",
+      "total_contributions": 55
+    },
+    {
+      "name": "Travis Kalanick",
+      "total_contributions": 5
+    }
+  ],
+  "largest_small_proportion": [
+    {
+      "slug": "nina-senn",
+      "type": "office",
+      "title": "Oakland November 4th Election",
+      "candidate": "Nina Senn",
+      "proportion": 0.3983409395973154
+    },
+    {
+      "slug": "renato-almanzor",
+      "type": "office",
+      "title": "Oakland November 4th Election",
+      "candidate": "Renato Almanzor",
+      "proportion": 0.24336392954601835
+    },
+    {
+      "slug": "shanthi-gonzales",
+      "type": "office",
+      "title": "Oakland November 4th Election",
+      "candidate": "Shanthi Gonzales",
+      "proportion": 0.16707099015054414
+    }
+  ],
+  "total_contributions": 5555555,
+  "contributions_by_type": {
+    "Committee": 55555.55,
+    "Individual": 5555.55,
+    "Unitemized": 5550.55,
+    "Self Funding": 5500.55,
+    "Other (includes businesses)": 5000.55
+  },
+  "most_expensive_races": [
+    {
+      "title": "Mayor",
+      "type": "office",
+      "slug": "mayor",
+      "amount": 5555555
+    },
+    {
+      "title": "City Council District 2",
+      "type": "office",
+      "slug": "city-council-district-2",
+      "amount": 5555555
+    },
+    {
+      "title": "City Council District 6",
+      "type": "office",
+      "slug": "city-council-district-6",
+      "amount": 555555
+    }
+  ],
+  "largest_independent_expenditures": {
+  }
+}

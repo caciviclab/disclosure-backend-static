@@ -1,3 +1,5 @@
+# depends on:
+#   committee_contribution_list_calculator.rb
 class CandidateContributionsByType
   TYPE_DESCRIPTIONS = {
     'IND' => 'Individual',
@@ -39,6 +41,15 @@ class CandidateContributionsByType
     contributions_by_candidate_by_type.each do |filer_id, contributions_by_type|
       candidate = @candidates_by_filer_id[filer_id.to_i]
       candidate.save_calculation(:contributions_by_type, contributions_by_type)
+
+      committee = Committee.where(Filer_ID: candidate.FPPC.to_s).first
+
+      # Calculate the total of small contributions
+      unless committee.nil?
+        total_small = committee.calculation(:total_small_itemized_contributions) +
+          contributions_by_type['Unitemized']
+        candidate.save_calculation(:total_small_contributions, total_small)
+      end
     end
   end
 

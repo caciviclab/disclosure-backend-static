@@ -10,7 +10,7 @@ module HasCalculations
     calculations
       .where(name: name)
       .first_or_create
-      .update_attributes(value: value)
+      .update(value: value)
   end
 
   included do
