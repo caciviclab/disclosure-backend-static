@@ -1,8 +1,9 @@
 {
+  "total_contributions": 151587.72,
   "total_contributions_by_source": {
-    "From Within Oakland": 0.55,
-    "In-State": 0.055,
-    "Out of State": 0.05
+    "Out of State": 7200.0,
+    "Within Oakland": 110837.72,
+    "Within California": 33550.0
   },
   "top_spenders": [
     {
@@ -21,7 +22,6 @@
   "largest_small_proportion": [
 
   ],
-  "total_contributions": 5555555,
   "contributions_by_type": {
     "Committee": 55555.55,
     "Individual": 5555.55,
@@ -31,22 +31,22 @@
   },
   "most_expensive_races": [
     {
-      "title": "Mayor",
-      "type": "office",
-      "slug": "mayor",
-      "amount": 5555555
+      "slug": "library-parcel-tax",
+      "type": "referendum",
+      "title": "Measure D",
+      "amount": 151587.72
     },
     {
-      "title": "City Council District 2",
-      "type": "office",
-      "slug": "city-council-district-2",
-      "amount": 5555555
+      "slug": "regional-measure-3",
+      "type": "referendum",
+      "title": "Measure 3",
+      "amount": 0
     },
     {
-      "title": "City Council District 6",
-      "type": "office",
-      "slug": "city-council-district-6",
-      "amount": 555555
+      "slug": "alameda-county-sales-tax-for-childcare-and-education",
+      "type": "referendum",
+      "title": "Measure A",
+      "amount": 0
     }
   ],
   "largest_independent_expenditures": {

@@ -1,8 +1,9 @@
 {
+  "total_contributions": 335992.0,
   "total_contributions_by_source": {
-    "From Within Oakland": 0.55,
-    "In-State": 0.055,
-    "Out of State": 0.05
+    "Out of State": 36764.0,
+    "Within Oakland": 103428.0,
+    "Within California": 195800.0
   },
   "top_spenders": [
     {
@@ -21,7 +22,6 @@
   "largest_small_proportion": [
 
   ],
-  "total_contributions": 5555555,
   "contributions_by_type": {
     "Committee": 55555.55,
     "Individual": 5555.55,
@@ -31,22 +31,22 @@
   },
   "most_expensive_races": [
     {
-      "title": "Mayor",
-      "type": "office",
-      "slug": "mayor",
-      "amount": 5555555
+      "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
+      "type": "referendum",
+      "title": "Measure Q",
+      "amount": 335992.0
     },
     {
-      "title": "City Council District 2",
-      "type": "office",
-      "slug": "city-council-district-2",
-      "amount": 5555555
+      "slug": "official-city-newspaper",
+      "type": "referendum",
+      "title": "Measure R",
+      "amount": 0
     },
     {
-      "title": "City Council District 6",
-      "type": "office",
-      "slug": "city-council-district-6",
-      "amount": 555555
+      "slug": "increase-appropriations-limit",
+      "type": "referendum",
+      "title": "Measure S",
+      "amount": 0
     }
   ],
   "largest_independent_expenditures": [

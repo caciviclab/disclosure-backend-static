@@ -1,8 +1,9 @@
 {
+  "total_contributions": 21173984.5,
   "total_contributions_by_source": {
-    "From Within Oakland": 0.55,
-    "In-State": 0.055,
-    "Out of State": 0.05
+    "Out of State": 10557896.459999999,
+    "Within Oakland": 1563651.06,
+    "Within California": 9350484.879999999
   },
   "top_spenders": [
     {
@@ -41,7 +42,6 @@
       "proportion": 0.25406141022369655
     }
   ],
-  "total_contributions": 5555555,
   "contributions_by_type": {
     "Committee": 55555.55,
     "Individual": 5555.55,
@@ -51,22 +51,22 @@
   },
   "most_expensive_races": [
     {
-      "title": "Mayor",
-      "type": "office",
-      "slug": "mayor",
-      "amount": 5555555
+      "slug": "sugar-sweetened-beverage-tax",
+      "type": "referendum",
+      "title": "Measure HH",
+      "amount": 18673836.560000002
     },
     {
-      "title": "City Council District 2",
-      "type": "office",
-      "slug": "city-council-district-2",
-      "amount": 5555555
+      "slug": "just-cause-for-eviction-and-rent-adjustment",
+      "type": "referendum",
+      "title": "Measure JJ",
+      "amount": 850350.55
     },
     {
-      "title": "City Council District 6",
-      "type": "office",
-      "slug": "city-council-district-6",
-      "amount": 555555
+      "slug": "infrastructure-and-housing-bonds",
+      "type": "referendum",
+      "title": "Measure KK",
+      "amount": 450809.58
     }
   ],
   "largest_independent_expenditures": {

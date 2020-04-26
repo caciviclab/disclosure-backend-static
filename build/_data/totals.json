@@ -1,259 +1,456 @@
 {
   "oakland-2014": {
-    "Within Oakland": 941602.7699999999,
-    "Total": 1711585.7699999998,
-    "Out of State": 118791.94,
-    "Within California": 651191.06,
-    "largest_independent_expenditures": null,
-    "most_expensive_races": [
+    "total_contributions": 2020351.7600000002,
+    "total_contributions_by_source": {
+      "Out of State": 118791.94,
+      "Within Oakland": 941602.7700000001,
+      "Within California": 651191.06
+    },
+    "top_spenders": [
       {
-        "title": "Mayor",
-        "type": "office",
-        "slug": "mayor",
-        "amount": 1091719.8699999999
+        "name": "Jeff Bezos",
+        "total_contributions": 555
       },
       {
-        "title": "City Council District 2",
-        "type": "office",
-        "slug": "city-council-district-2",
-        "amount": 313038.80000000005
+        "name": "Elon Musk",
+        "total_contributions": 55
       },
       {
-        "title": "City Council District 6",
-        "type": "office",
-        "slug": "city-council-district-6",
-        "amount": 219139.0
+        "name": "Travis Kalanick",
+        "total_contributions": 5
       }
     ],
     "largest_small_proportion": [
       {
-        "title": "Oakland November 4th Election",
-        "type": "office",
         "slug": "nina-senn",
+        "type": "office",
+        "title": "Oakland November 4th Election",
         "candidate": "Nina Senn",
         "proportion": 0.3983409395973154
       },
       {
-        "title": "Oakland November 4th Election",
-        "type": "office",
         "slug": "renato-almanzor",
+        "type": "office",
+        "title": "Oakland November 4th Election",
         "candidate": "Renato Almanzor",
         "proportion": 0.24336392954601835
       },
       {
-        "title": "Oakland November 4th Election",
-        "type": "office",
         "slug": "shanthi-gonzales",
+        "type": "office",
+        "title": "Oakland November 4th Election",
         "candidate": "Shanthi Gonzales",
         "proportion": 0.16707099015054414
       }
-    ]
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
+    "most_expensive_races": [
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 1091719.87
+      },
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 1091719.87
+      },
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 1079884.87
+      }
+    ],
+    "largest_independent_expenditures": {
+    }
   },
   "berkeley-2018": {
-    "largest_independent_expenditures": null,
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
     "most_expensive_races": [
       {
-        "title": "City Council District 1",
-        "type": "office",
         "slug": "city-council-district-1",
+        "type": "office",
+        "title": "City Council District 1",
         "amount": 0
       },
       {
-        "title": "City Council District 4",
-        "type": "office",
         "slug": "city-council-district-4",
+        "type": "office",
+        "title": "City Council District 4",
         "amount": 0
       },
       {
-        "title": "City Council District 8",
-        "type": "office",
         "slug": "city-council-district-8",
+        "type": "office",
+        "title": "City Council District 8",
         "amount": 0
       }
-    ]
+    ],
+    "largest_independent_expenditures": {
+    }
   },
   "oakland-2016": {
-    "Out of State": 10557896.459999999,
-    "Total": 21472032.399999995,
-    "Within California": 9350484.88,
-    "Within Oakland": 1563651.06,
-    "largest_independent_expenditures": null,
-    "most_expensive_races": [
+    "total_contributions": 21173984.5,
+    "total_contributions_by_source": {
+      "Out of State": 10557896.459999999,
+      "Within Oakland": 1563651.06,
+      "Within California": 9350484.879999999
+    },
+    "top_spenders": [
       {
-        "title": "Measure HH",
-        "type": "referendum",
-        "slug": "sugar-sweetened-beverage-tax",
-        "amount": 18673836.560000002
+        "name": "Jeff Bezos",
+        "total_contributions": 555
       },
       {
-        "title": "Measure JJ",
-        "type": "referendum",
-        "slug": "just-cause-for-eviction-and-rent-adjustment",
-        "amount": 850350.55
+        "name": "Elon Musk",
+        "total_contributions": 55
       },
       {
-        "title": "Measure KK",
-        "type": "referendum",
-        "slug": "infrastructure-and-housing-bonds",
-        "amount": 450809.58
+        "name": "Travis Kalanick",
+        "total_contributions": 5
       }
     ],
     "largest_small_proportion": [
       {
-        "title": "Oakland November 8th, 2016 Election",
-        "type": "office",
         "slug": "nancy-sidebotham",
+        "type": "office",
+        "title": "Oakland November 8th, 2016 Election",
         "candidate": "Nancy Sidebotham",
         "proportion": 1.0
       },
       {
-        "title": "Oakland November 8th, 2016 Election",
-        "type": "office",
         "slug": "kharyshi-wiginton",
+        "type": "office",
+        "title": "Oakland November 8th, 2016 Election",
         "candidate": "Kharyshi Wiginton",
         "proportion": 0.27462311557788943
       },
       {
-        "title": "Oakland November 8th, 2016 Election",
-        "type": "office",
         "slug": "chris-jackson",
+        "type": "office",
+        "title": "Oakland November 8th, 2016 Election",
         "candidate": "Chris Jackson",
         "proportion": 0.25406141022369655
       }
-    ]
-  },
-  "oakland-june-2018": {
-    "Out of State": 7200.0,
-    "Total": 151587.72,
-    "Within California": 33550.0,
-    "Within Oakland": 110837.72,
-    "largest_independent_expenditures": null,
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
     "most_expensive_races": [
       {
-        "title": "Measure D",
+        "slug": "sugar-sweetened-beverage-tax",
         "type": "referendum",
+        "title": "Measure HH",
+        "amount": 18673836.560000002
+      },
+      {
+        "slug": "just-cause-for-eviction-and-rent-adjustment",
+        "type": "referendum",
+        "title": "Measure JJ",
+        "amount": 850350.55
+      },
+      {
+        "slug": "infrastructure-and-housing-bonds",
+        "type": "referendum",
+        "title": "Measure KK",
+        "amount": 450809.58
+      }
+    ],
+    "largest_independent_expenditures": {
+    }
+  },
+  "oakland-june-2018": {
+    "total_contributions": 151587.72,
+    "total_contributions_by_source": {
+      "Out of State": 7200.0,
+      "Within Oakland": 110837.72,
+      "Within California": 33550.0
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
+    "most_expensive_races": [
+      {
         "slug": "library-parcel-tax",
+        "type": "referendum",
+        "title": "Measure D",
         "amount": 151587.72
       },
       {
-        "title": "Measure 3",
-        "type": "referendum",
         "slug": "regional-measure-3",
+        "type": "referendum",
+        "title": "Measure 3",
         "amount": 0
       },
       {
-        "title": "Measure A",
-        "type": "referendum",
         "slug": "alameda-county-sales-tax-for-childcare-and-education",
+        "type": "referendum",
+        "title": "Measure A",
         "amount": 0
       }
-    ]
+    ],
+    "largest_independent_expenditures": {
+    }
   },
   "oakland-2018": {
-    "Out of State": 902946.31,
-    "Total": 6477679.12,
-    "Within California": 2925878.9,
-    "Within Oakland": 2648853.9099999997,
-    "largest_independent_expenditures": null,
-    "most_expensive_races": [
+    "total_contributions": 6339607.17,
+    "total_contributions_by_source": {
+      "Out of State": 902946.31,
+      "Within Oakland": 2648853.9099999997,
+      "Within California": 2925878.9
+    },
+    "top_spenders": [
       {
-        "title": "Measure AA",
-        "type": "referendum",
-        "slug": "oakland-children-s-initiative",
-        "amount": 2136485.19
+        "name": "Jeff Bezos",
+        "total_contributions": 555
       },
       {
-        "title": "Measure Y",
-        "type": "referendum",
-        "slug": "just-cause-eviction-amendments",
-        "amount": 816407.3800000001
+        "name": "Elon Musk",
+        "total_contributions": 55
       },
       {
-        "title": "Measure W",
-        "type": "referendum",
-        "slug": "vacant-property-parcel-tax",
-        "amount": 776996.5800000001
+        "name": "Travis Kalanick",
+        "total_contributions": 5
       }
     ],
     "largest_small_proportion": [
       {
-        "title": "Oakland November 6th, 2018 Election",
-        "type": "office",
         "slug": "clarissa-doutherd",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
         "candidate": "Clarissa Doutherd",
         "proportion": 0.3823599768467386
       },
       {
-        "title": "Oakland November 6th, 2018 Election",
-        "type": "office",
         "slug": "cat-brooks",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
         "candidate": "Cat Brooks",
         "proportion": 0.3735887090492526
       },
       {
-        "title": "Oakland November 6th, 2018 Election",
-        "type": "office",
         "slug": "marchon-tatmon",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
         "candidate": "Marchon Tatmon",
         "proportion": 0.3259331478814659
       }
-    ]
-  },
-  "oakland-2020": {
-    "Out of State": 12973.84,
-    "Total": 210701.06,
-    "Within California": 98430.70999999999,
-    "Within Oakland": 99296.51,
-    "largest_independent_expenditures": null,
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
     "most_expensive_races": [
       {
-        "title": "City Council District 1",
-        "type": "office",
-        "slug": "city-council-district-1",
-        "amount": 95371.03
+        "slug": "oakland-children-s-initiative",
+        "type": "referendum",
+        "title": "Measure AA",
+        "amount": 2136485.19
       },
       {
-        "title": "City Council District 7",
-        "type": "office",
-        "slug": "city-council-district-7",
-        "amount": 71770.86
+        "slug": "just-cause-eviction-amendments",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 816407.3800000001
       },
       {
-        "title": "City Council At-Large",
-        "type": "office",
-        "slug": "city-council-at-large",
-        "amount": 33174.0
+        "slug": "vacant-property-parcel-tax",
+        "type": "referendum",
+        "title": "Measure W",
+        "amount": 776996.5800000001
+      }
+    ],
+    "largest_independent_expenditures": {
+    }
+  },
+  "oakland-2020": {
+    "total_contributions": 226856.2,
+    "total_contributions_by_source": {
+      "Out of State": 12973.84,
+      "Within Oakland": 99296.51000000001,
+      "Within California": 98430.70999999999
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
       }
     ],
     "largest_small_proportion": [
       {
-        "title": "Oakland November 3rd, 2020 General Election",
-        "type": "office",
         "slug": "esmeralda-cortez-rosales",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Esmeralda Cortez Rosales",
         "proportion": 0.30365816636308446
       },
       {
-        "title": "Oakland November 3rd, 2020 General Election",
-        "type": "office",
         "slug": "benjamin-sam-davis",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Benjamin \"Sam\" Davis",
         "proportion": 0.17897458696796412
       },
       {
-        "title": "Oakland November 3rd, 2020 General Election",
-        "type": "office",
         "slug": "rebecca-kaplan",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Rebecca Kaplan",
         "proportion": 0.08271537951407729
       }
-    ]
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
+    "most_expensive_races": [
+      {
+        "slug": "city-council-district-1",
+        "type": "office",
+        "title": "City Council District 1",
+        "amount": 95371.03
+      },
+      {
+        "slug": "city-council-district-1",
+        "type": "office",
+        "title": "City Council District 1",
+        "amount": 95371.03
+      },
+      {
+        "slug": "city-council-district-7",
+        "type": "office",
+        "title": "City Council District 7",
+        "amount": 71770.86
+      }
+    ],
+    "largest_independent_expenditures": {
+    }
   },
   "oakland-march-2020": {
-    "Out of State": 36764.0,
-    "Total": 335992.0,
-    "Within California": 195800.0,
-    "Within Oakland": 103428.0,
+    "total_contributions": 335992.0,
+    "total_contributions_by_source": {
+      "Out of State": 36764.0,
+      "Within Oakland": 103428.0,
+      "Within California": 195800.0
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
+    "most_expensive_races": [
+      {
+        "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
+        "type": "referendum",
+        "title": "Measure Q",
+        "amount": 335992.0
+      },
+      {
+        "slug": "official-city-newspaper",
+        "type": "referendum",
+        "title": "Measure R",
+        "amount": 0
+      },
+      {
+        "slug": "increase-appropriations-limit",
+        "type": "referendum",
+        "title": "Measure S",
+        "amount": 0
+      }
+    ],
     "largest_independent_expenditures": [
       {
         "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS",
@@ -265,89 +462,153 @@
         "Total_Amount": 40641.0,
         "election_name": "oakland-march-2020"
       }
-    ],
-    "most_expensive_races": [
-      {
-        "title": "Measure Q",
-        "type": "referendum",
-        "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
-        "amount": 335992.0
-      },
-      {
-        "title": "Measure R",
-        "type": "referendum",
-        "slug": "official-city-newspaper",
-        "amount": 0
-      },
-      {
-        "title": "Measure S",
-        "type": "referendum",
-        "slug": "increase-appropriations-limit",
-        "amount": 0
-      }
     ]
   },
   "sf-2016": {
-    "largest_independent_expenditures": null,
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
     "most_expensive_races": [
       {
-        "title": "Measure A",
-        "type": "referendum",
         "slug": "bond-public-health-and-safety-bond-measure",
+        "type": "referendum",
+        "title": "Measure A",
         "amount": 0
       },
       {
-        "title": "Measure E",
-        "type": "referendum",
         "slug": "responsibility-for-maintaining-trees-and-surrounding-sidewalks",
+        "type": "referendum",
+        "title": "Measure E",
         "amount": 0
       },
       {
-        "title": "Measure N",
-        "type": "referendum",
         "slug": "non-citizen-voting-in-school-board-measure-n",
+        "type": "referendum",
+        "title": "Measure N",
         "amount": 0
       }
-    ]
+    ],
+    "largest_independent_expenditures": {
+    }
   },
   "sf-june-2018": {
-    "largest_independent_expenditures": null,
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
     "most_expensive_races": [
       {
-        "title": "Mayor",
-        "type": "office",
         "slug": "mayor",
-        "amount": 0
-      },
-      {
-        "title": "Supervisor District 8",
         "type": "office",
-        "slug": "supervisor-district-8",
+        "title": "Mayor",
         "amount": 0
       },
       {
-        "title": "Measure A",
-        "type": "referendum",
-        "slug": "public-utilities-revenue-bonds",
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 0
+      },
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
         "amount": 0
       }
-    ]
+    ],
+    "largest_independent_expenditures": {
+    }
   },
   "sf-2018": {
-    "largest_independent_expenditures": null,
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "top_spenders": [
+      {
+        "name": "Jeff Bezos",
+        "total_contributions": 555
+      },
+      {
+        "name": "Elon Musk",
+        "total_contributions": 55
+      },
+      {
+        "name": "Travis Kalanick",
+        "total_contributions": 5
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 55555.55,
+      "Individual": 5555.55,
+      "Unitemized": 5550.55,
+      "Self Funding": 5500.55,
+      "Other (includes businesses)": 5000.55
+    },
     "most_expensive_races": [
       {
-        "title": "Measure PENDING-10",
-        "type": "referendum",
         "slug": "expands-local-governments-authority-to-enact-rent-control-on-residential-property-intiative-statute-17-0041-",
+        "type": "referendum",
+        "title": "Measure PENDING-10",
         "amount": 0
       },
       {
-        "title": "Measure PENDING-4",
-        "type": "referendum",
         "slug": "universal-childcare-in-san-francisco",
+        "type": "referendum",
+        "title": "Measure PENDING-4",
         "amount": 0
       }
-    ]
+    ],
+    "largest_independent_expenditures": {
+    }
   }
 }

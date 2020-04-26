@@ -1,8 +1,6 @@
 {
+  "total_contributions": 0.0,
   "total_contributions_by_source": {
-    "From Within Oakland": 0.55,
-    "In-State": 0.055,
-    "Out of State": 0.05
   },
   "top_spenders": [
     {
@@ -21,7 +19,6 @@
   "largest_small_proportion": [
 
   ],
-  "total_contributions": 5555555,
   "contributions_by_type": {
     "Committee": 55555.55,
     "Individual": 5555.55,
@@ -31,22 +28,22 @@
   },
   "most_expensive_races": [
     {
-      "title": "Mayor",
-      "type": "office",
-      "slug": "mayor",
-      "amount": 5555555
+      "slug": "bond-public-health-and-safety-bond-measure",
+      "type": "referendum",
+      "title": "Measure A",
+      "amount": 0
     },
     {
-      "title": "City Council District 2",
-      "type": "office",
-      "slug": "city-council-district-2",
-      "amount": 5555555
+      "slug": "responsibility-for-maintaining-trees-and-surrounding-sidewalks",
+      "type": "referendum",
+      "title": "Measure E",
+      "amount": 0
     },
     {
-      "title": "City Council District 6",
-      "type": "office",
-      "slug": "city-council-district-6",
-      "amount": 555555
+      "slug": "non-citizen-voting-in-school-board-measure-n",
+      "type": "referendum",
+      "title": "Measure N",
+      "amount": 0
     }
   ],
   "largest_independent_expenditures": {

@@ -1,8 +1,9 @@
 {
+  "total_contributions": 226856.2,
   "total_contributions_by_source": {
-    "From Within Oakland": 0.55,
-    "In-State": 0.055,
-    "Out of State": 0.05
+    "Out of State": 12973.84,
+    "Within Oakland": 99296.51000000001,
+    "Within California": 98430.70999999999
   },
   "top_spenders": [
     {
@@ -41,7 +42,6 @@
       "proportion": 0.08271537951407729
     }
   ],
-  "total_contributions": 5555555,
   "contributions_by_type": {
     "Committee": 55555.55,
     "Individual": 5555.55,
@@ -51,22 +51,22 @@
   },
   "most_expensive_races": [
     {
-      "title": "Mayor",
+      "slug": "city-council-district-1",
       "type": "office",
-      "slug": "mayor",
-      "amount": 5555555
+      "title": "City Council District 1",
+      "amount": 95371.03
     },
     {
-      "title": "City Council District 2",
+      "slug": "city-council-district-1",
       "type": "office",
-      "slug": "city-council-district-2",
-      "amount": 5555555
+      "title": "City Council District 1",
+      "amount": 95371.03
     },
     {
-      "title": "City Council District 6",
+      "slug": "city-council-district-7",
       "type": "office",
-      "slug": "city-council-district-6",
-      "amount": 555555
+      "title": "City Council District 7",
+      "amount": 71770.86
     }
   ],
   "largest_independent_expenditures": {
