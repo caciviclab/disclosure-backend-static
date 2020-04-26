@@ -12,10 +12,12 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
+    coderay (1.1.2)
     concurrent-ruby (1.1.6)
     diff-lcs (1.3)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     mustermann (1.1.1)
@@ -24,6 +26,9 @@ GEM
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     pg (1.2.3)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (2.2.2)
@@ -68,6 +73,7 @@ DEPENDENCIES
   activesupport
   i18n
   pg
+  pry
   puma
   roo
   rspec

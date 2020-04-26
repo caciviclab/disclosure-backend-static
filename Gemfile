@@ -10,3 +10,7 @@ gem 'rspec'
 gem 'roo'
 gem 'tzinfo'
 gem 'tzinfo-data'
+
+group :development do
+  gem 'pry'
+end
