@@ -13,7 +13,8 @@ clean:
 	rm -rf downloads/raw downloads/csv
 
 process: process.rb
-	rm -rf build && ruby process.rb
+	# todo: remove RUBYOPT variable when activerecord fixes deprecation warnings
+	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" ruby process.rb
 
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
