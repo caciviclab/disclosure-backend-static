@@ -3358,8 +3358,8 @@
     },
     {
       "Filer_ID": "1367270",
-      "Tran_Emp": "Coldwell Banker Real Estate",
-      "Tran_Occ": "Senior Sales Associate",
+      "Tran_Emp": "Caldwell Banker",
+      "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 350.0,
       "Tran_Date": "2014-09-03",
@@ -3369,8 +3369,8 @@
     },
     {
       "Filer_ID": "1367270",
-      "Tran_Emp": "Caldwell Banker",
-      "Tran_Occ": "Realtor",
+      "Tran_Emp": "Coldwell Banker Real Estate",
+      "Tran_Occ": "Senior Sales Associate",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 350.0,
       "Tran_Date": "2014-09-03",
@@ -4392,17 +4392,6 @@
     },
     {
       "Filer_ID": "1367270",
-      "Tran_Emp": "Sotheby's",
-      "Tran_Occ": "Real Estate Agent",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2014-09-19",
-      "Tran_NamF": "America",
-      "Tran_NamL": "Foy",
-      "Tran_Zip4": "94705-2430"
-    },
-    {
-      "Filer_ID": "1367270",
       "Tran_Emp": "East Bay Sotheby's International Realty",
       "Tran_Occ": "Real Estate agent",
       "Entity_Cd": "Individual",
@@ -4411,6 +4400,17 @@
       "Tran_NamF": "America",
       "Tran_NamL": "Foy",
       "Tran_Zip4": "94608-2820"
+    },
+    {
+      "Filer_ID": "1367270",
+      "Tran_Emp": "Sotheby's",
+      "Tran_Occ": "Real Estate Agent",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2014-09-19",
+      "Tran_NamF": "America",
+      "Tran_NamL": "Foy",
+      "Tran_Zip4": "94705-2430"
     },
     {
       "Filer_ID": "1367270",
