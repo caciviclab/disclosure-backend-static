@@ -6,7 +6,7 @@ class CandidateContributionsByOrigin
   end
 
   def fetch
-      monetary_results = ActiveRecord::Base.connection.execute <<-SQL
+    monetary_results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT "Filer_ID",
         CASE
           WHEN TRIM(LOWER("Tran_City")) = LOWER(location) THEN CONCAT('Within ', location)
@@ -17,22 +17,16 @@ class CandidateContributionsByOrigin
         FROM candidate_contributions
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         GROUP BY "Filer_ID", locale
-      SQL
+    SQL
 
-      hash = {}
-      monetary_results.to_a.each do |result|
-        filer_id = result['Filer_ID'].to_s
+    hash = {}
+    monetary_results.to_a.each do |result|
+      filer_id = result['Filer_ID'].to_s
 
-        hash[filer_id] ||= {}
-        hash[filer_id][result['locale']] ||= 0
-        hash[filer_id][result['locale']] += result['total']
-        election = @candidates_by_filer_id[filer_id.to_i].election_name
-        ContributionsByOrigin[election] ||= {}
-        ContributionsByOrigin[election][result['locale']] ||= 0
-        ContributionsByOrigin[election][result['locale']] += result['total']
-        ContributionsByOrigin[election]['Total'] ||= 0
-        ContributionsByOrigin[election]['Total'] += result['total']
-      end
+      hash[filer_id] ||= {}
+      hash[filer_id][result['locale']] ||= 0
+      hash[filer_id][result['locale']] += result['total']
+    end
     hash.each do |filer_id, contributions_by_local|
       candidate = @candidates_by_filer_id[filer_id.to_i]
       candidate.save_calculation(:contributions_by_origin, contributions_by_local)
