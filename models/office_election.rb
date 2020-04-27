@@ -8,16 +8,6 @@ class OfficeElection < ActiveRecord::Base
       [-1 * (candidate.calculation(:total_contributions) || 0.0), candidate.Candidate]
     end
 
-    # TODO: Refactor this to be in its own calculator
-    ContributionsByOrigin[election.name] ||= {}
-    ContributionsByOrigin[election.name][:race_totals] ||= []
-    ContributionsByOrigin[election.name][:race_totals].append({
-      title: title,
-      type: 'office',
-      slug: slugify(title),
-      amount: candidates.sum { |candidate| candidate.calculation(:total_contributions) || 0.0 }
-    })
-
     {
       'election' => election.metadata_path[1..-1],
       'candidates' => sorted_candidates.map { |c| slugify(c.Candidate) },

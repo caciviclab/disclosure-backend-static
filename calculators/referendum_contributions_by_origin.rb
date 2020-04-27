@@ -56,11 +56,6 @@ class ReferendumContributionsByOrigin
       when 'O', 'Oppose'
         oppose[election][measure][row['locale']] = row['total']
       end
-      ContributionsByOrigin[election] ||= {}
-      ContributionsByOrigin[election][row['locale']] ||= 0
-      ContributionsByOrigin[election][row['locale']] += row['total']
-      ContributionsByOrigin[election]['Total'] ||= 0
-      ContributionsByOrigin[election]['Total'] += row['total']
     end
 
     [

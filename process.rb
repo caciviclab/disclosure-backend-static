@@ -17,9 +17,6 @@ Candidate.select(:Office, :election_name).order(:Office, :election_name).distinc
     .first_or_create
 end
 
-# Accumulate totals by orgin while processing Candidate and Referendums
-ContributionsByOrigin = {}
-
 # second, process the contribution data
 CalculatorRunner
   .new
@@ -117,18 +114,6 @@ Referendum.includes(:calculations).find_each do |referendum|
   build_file("/_data/referendum_opposing/#{election.locality}/#{election.date}/#{title}.json") do |f|
     f.puts JSON.pretty_generate(referendum.opposing_data)
   end
-
-  # TODO: Move this to the election
-  supporting_total = referendum.calculation(:supporting_total) || 0
-  opposing_total = referendum.calculation(:opposing_total) || 0
-  ContributionsByOrigin[election.name] ||= {}
-  ContributionsByOrigin[election.name][:race_totals] ||= []
-  ContributionsByOrigin[election.name][:race_totals].append({
-    title: "Measure #{referendum['Measure_number']}",
-    type: 'referendum',
-    slug: title,
-    amount: supporting_total + opposing_total
-  })
 end
 
 build_file('/_data/totals.json') do |f|
