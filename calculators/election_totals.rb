@@ -45,13 +45,13 @@ class ElectionTotal
             by_origin = by_origin.merge(cbo){|key, oldval, newval| oldval + newval}
           end
 
-          race_totals.append({
-            title: office_election.title,
-              type: 'office',
-              slug: slugify(office_election.title),
-              amount: total_contributions
-            })
         end
+        race_totals.append({
+          title: office_election.title,
+            type: 'office',
+            slug: slugify(office_election.title),
+            amount: total_contributions
+          })
         election_total += total_contributions
       end
 
