@@ -36,31 +36,12 @@ class Election < ActiveRecord::Base
   def data
     {
       total_contributions: calculation(:total_contributions).try(:to_f),
-      total_contributions_by_source: calculation(:contributions_by_origin),
-      'top_spenders' => [
-        {
-          'name' => 'Jeff Bezos',
-          'total_contributions' => 555,
-        },
-        {
-          'name' => 'Elon Musk',
-          'total_contributions' => 55,
-        },
-        {
-          'name' => 'Travis Kalanick',
-          'total_contributions' => 5,
-        },
-      ],
-      largest_small_proportion: calculation(:largest_small_proportion) || [],
-      contributions_by_type: {
-        'Committee' => 55_555.55,
-        'Individual' => 5_555.55,
-        'Unitemized' => 5_550.55,
-        'Self Funding' => 5_500.55,
-        'Other (includes businesses)' => 5_000.55,
-      },
+      total_contributions_by_source: calculation(:contributions_by_origin) || {},
+      contributions_by_type: calculation(:contributions_by_type) || {},
       most_expensive_races: calculation(:most_expensive_races) || {},
-      largest_independent_expenditures: calculation(:largest_independent_expenditures) || {}
+      largest_small_proportion: calculation(:largest_small_proportion) || [],
+      largest_independent_expenditures: calculation(:largest_independent_expenditures) || {},
+      top_spenders: calculation(:top_spenders) || {}
     }
   end
 end
