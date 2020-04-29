@@ -58,16 +58,16 @@
         "amount": 1091719.87
       },
       {
-        "slug": "mayor",
+        "slug": "city-council-district-2",
         "type": "office",
-        "title": "Mayor",
-        "amount": 1091719.87
+        "title": "City Council District 2",
+        "amount": 313038.80000000005
       },
       {
-        "slug": "mayor",
+        "slug": "city-council-district-6",
         "type": "office",
-        "title": "Mayor",
-        "amount": 1079884.87
+        "title": "City Council District 6",
+        "amount": 219139.0
       }
     ],
     "largest_independent_expenditures": {
@@ -385,16 +385,16 @@
         "amount": 95371.03
       },
       {
-        "slug": "city-council-district-1",
-        "type": "office",
-        "title": "City Council District 1",
-        "amount": 95371.03
-      },
-      {
         "slug": "city-council-district-7",
         "type": "office",
         "title": "City Council District 7",
         "amount": 71770.86
+      },
+      {
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 33174.0
       }
     ],
     "largest_independent_expenditures": {
@@ -551,15 +551,15 @@
         "amount": 0
       },
       {
-        "slug": "mayor",
+        "slug": "supervisor-district-8",
         "type": "office",
-        "title": "Mayor",
+        "title": "Supervisor District 8",
         "amount": 0
       },
       {
-        "slug": "mayor",
-        "type": "office",
-        "title": "Mayor",
+        "slug": "public-utilities-revenue-bonds",
+        "type": "referendum",
+        "title": "Measure A",
         "amount": 0
       }
     ],
