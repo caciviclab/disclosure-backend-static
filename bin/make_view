@@ -103,7 +103,8 @@ CREATE VIEW  all_contributions AS
 CREATE VIEW candidate_contributions AS
   SELECT "Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-      "Tran_Occ", "Tran_Emp", elections.location, election_name
+      "Tran_Occ", "Tran_Emp", elections.location, election_name,
+      'Office'::VARCHAR as "Type"
 FROM all_contributions
   JOIN candidates
   ON "FPPC"::varchar = all_contributions."Filer_ID"
@@ -115,7 +116,8 @@ FROM all_contributions
 CREATE VIEW measure_contributions AS
   SELECT all_contributions."Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-      "Tran_Occ", "Tran_Emp", elections.location, elections.name AS election_name
+      "Tran_Occ", "Tran_Emp", elections.location, elections.name AS election_name,
+      'Measure'::VARCHAR as "Type"
 FROM all_contributions
   JOIN (
     SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date", "Ballot_Measure_Election"

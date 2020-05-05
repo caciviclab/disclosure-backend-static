@@ -3,26 +3,50 @@ class ElectionTopSpender
 
   def fetch
     election_results = ActiveRecord::Base.connection.execute <<~SQL
-      SELECT "election_name", "Tran_NamL", "Tran_NamF", Sum("Tran_Amt1") as "Total_Amount"
+      SELECT "election_name", "Type", "Tran_NamL", "Tran_NamF", Sum("Tran_Amt1") as "Total_Amount"
       FROM "combined_contributions"
       WHERE "election_name" <> ''
-      GROUP BY "election_name", "Tran_NamL", "Tran_NamF";
+      GROUP BY "election_name", "Type", "Tran_NamL", "Tran_NamF";
     SQL
 
     results_by_election = election_results.each_with_object({}) do |result, hash|
-      hash[result['election_name']] ||= []
-      hash[result['election_name']] << result
+      hash[result['election_name']] ||= {}
+      hash[result['election_name']][result['Type']] ||= []
+      hash[result['election_name']][result['Type']] << result
     end
 
-    top_spenders_by_election = Hash[results_by_election.map do |election_name, spenders|
-      [election_name, spenders.sort_by { |s| s['Total_Amount'] }.reverse.first(3)]
-    end]
+    top_spenders_by_office = {}
+    top_spenders_by_measure = {}
+    results_by_election.each do |election_name, type|
+      unless type['Office'].nil?
+        top_spenders_by_office[election_name]  =
+          type['Office'].sort_by { |s| s['Total_Amount'] }.reverse.first(3)
+      end
+      unless type['Measure'].nil?
+        top_spenders_by_measure[election_name]  =
+          type['Measure'].sort_by { |s| s['Total_Amount'] }.reverse.first(3)
+      end
+    end
+
+    top_spenders_by_election =
+      top_spenders_by_office.merge(top_spenders_by_measure) {
+      |key, oldval, newval| (oldval + newval).sort_by { |s| s['Total_Amount'] }.reverse.      first(3)
+    }
 
     Election.find_each do |election|
       top_spenders = top_spenders_by_election[election.name]
-      next unless top_spenders
+      unless top_spenders.nil?
+        election.save_calculation(:top_spenders, top_spenders)
+      end
 
-      election.save_calculation(:top_spenders, top_spenders)
+      top_spenders = top_spenders_by_office[election.name]
+      unless top_spenders.nil?
+        election.save_calculation(:top_spenders_for_offices, top_spenders)
+      end
+      top_spenders = top_spenders_by_measure[election.name]
+      unless top_spenders.nil?
+        election.save_calculation(:top_spenders_for_measures, top_spenders)
+      end
     end
   end
 end
