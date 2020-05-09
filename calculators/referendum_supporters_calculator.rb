@@ -88,7 +88,7 @@ class ReferendumSupportersCalculator
     # Augment the list of committees that have spent money with the list of
     # committees that have raised money, in case there are some committees that
     # have raised money but not spent it yet.
-    augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name)
+    augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name, summary_other)
 
     [
       # { bal_name => rows }     , calculation name
@@ -115,7 +115,7 @@ class ReferendumSupportersCalculator
 
   private
 
-  def augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name)
+  def augment_lists_with_committees_that_raised_money(supporting_by_measure_name, opposing_by_measure_name, summary_other)
     committees_with_contributions = ActiveRecord::Base.connection.execute(<<-SQL)
     SELECT
       committees."Filer_ID",
@@ -147,7 +147,7 @@ class ReferendumSupportersCalculator
           name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           # start with the other items from the summary page (lines 9 + 10)
-          amount: 0,
+          amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
       when 'O'
         opposing_by_measure_name[[election_name, bal_num]] ||= {}
@@ -156,7 +156,7 @@ class ReferendumSupportersCalculator
           name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           # start with the other items from the summary page (lines 9 + 10)
-          amount: 0,
+          amount: summary_other.fetch(row['Filer_ID'], {})['Summary_Other_Expenditures'] || 0,
         }
       end
     end
