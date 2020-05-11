@@ -41,9 +41,12 @@ class Election < ActiveRecord::Base
       most_expensive_races: calculation(:most_expensive_races) || {},
       largest_small_proportion: calculation(:largest_small_proportion) || [],
       largest_independent_expenditures: calculation(:largest_independent_expenditures) || {},
-      top_contributors: calculation(:top_contributors) || {},
-      top_contributors_for_offices: calculation(:top_contributors_for_offices) || {},
-      top_contributors_for_measures: calculation(:top_contributors_for_measures) || {}
+      top_contributors: calculation(:top_contributors) || [],
+      top_contributors_for_offices: calculation(:top_contributors_for_offices) || [],
+      top_contributors_for_measures: calculation(:top_contributors_for_measures) || [],
+      top_spenders: calculation(:top_spenders) || [],
+      top_spenders_for_offices: calculation(:top_spenders_for_offices) || [],
+      top_spenders_for_measures: calculation(:top_spenders_for_measures) || [],
     }
   end
 end
