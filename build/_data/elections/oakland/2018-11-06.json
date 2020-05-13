@@ -5,18 +5,31 @@
     "Within Oakland": 2648853.9099999997,
     "Within California": 2925878.9
   },
-  "top_spenders": [
+  "contributions_by_type": {
+    "Committee": 969489.14,
+    "Individual": 2739175.5,
+    "Unitemized": 158326.48,
+    "Self Funding": 81959.93999999999,
+    "Other (includes Businesses)": 2687273.8200000003
+  },
+  "most_expensive_races": [
     {
-      "name": "Jeff Bezos",
-      "total_contributions": 555
+      "slug": "oakland-children-s-initiative",
+      "type": "referendum",
+      "title": "Measure AA",
+      "amount": 2136485.19
     },
     {
-      "name": "Elon Musk",
-      "total_contributions": 55
+      "slug": "just-cause-eviction-amendments",
+      "type": "referendum",
+      "title": "Measure Y",
+      "amount": 816407.3800000001
     },
     {
-      "name": "Travis Kalanick",
-      "total_contributions": 5
+      "slug": "vacant-property-parcel-tax",
+      "type": "referendum",
+      "title": "Measure W",
+      "amount": 776996.5800000001
     }
   ],
   "largest_small_proportion": [
@@ -42,33 +55,141 @@
       "proportion": 0.3259331478814659
     }
   ],
-  "contributions_by_type": {
-    "Committee": 55555.55,
-    "Individual": 5555.55,
-    "Unitemized": 5550.55,
-    "Self Funding": 5500.55,
-    "Other (includes businesses)": 5000.55
+  "largest_independent_expenditures": {
   },
-  "most_expensive_races": [
+  "top_contributors": [
     {
-      "slug": "oakland-children-s-initiative",
-      "type": "referendum",
-      "title": "Measure AA",
-      "amount": 2136485.19
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Total_Amount": 500000.0,
+      "election_name": "oakland-2018"
     },
     {
-      "slug": "just-cause-eviction-amendments",
-      "type": "referendum",
-      "title": "Measure Y",
-      "amount": 816407.3800000001
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Rock",
+      "Total_Amount": 250000.0,
+      "election_name": "oakland-2018"
     },
     {
-      "slug": "vacant-property-parcel-tax",
-      "type": "referendum",
-      "title": "Measure W",
-      "amount": 776996.5800000001
+      "Tran_NamF": null,
+      "Tran_NamL": "National Association of Realtors",
+      "Total_Amount": 222500.0,
+      "election_name": "oakland-2018"
     }
   ],
-  "largest_independent_expenditures": {
-  }
+  "top_contributors_for_offices": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Brenda",
+      "Tran_NamL": "Roberts",
+      "Total_Amount": 53757.13,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Charlie",
+      "Tran_NamL": "Michelson",
+      "Total_Amount": 15700.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Saied",
+      "Tran_NamL": "Karamooz",
+      "Total_Amount": 8796.6,
+      "election_name": "oakland-2018"
+    }
+  ],
+  "top_contributors_for_measures": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Total_Amount": 500000.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Rock",
+      "Total_Amount": 250000.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Association of Realtors",
+      "Total_Amount": 222500.0,
+      "election_name": "oakland-2018"
+    }
+  ],
+  "top_spenders": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Total_Amount": 500000.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Rock",
+      "Total_Amount": 250000.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Association of Realtors",
+      "Total_Amount": 222500.0,
+      "election_name": "oakland-2018"
+    }
+  ],
+  "top_spenders_for_offices": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Brenda",
+      "Tran_NamL": "Roberts",
+      "Total_Amount": 53757.13,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Charlie",
+      "Tran_NamL": "Michelson",
+      "Total_Amount": 15700.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Saied",
+      "Tran_NamL": "Karamooz",
+      "Total_Amount": 8796.6,
+      "election_name": "oakland-2018"
+    }
+  ],
+  "top_spenders_for_measures": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Total_Amount": 500000.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Rock",
+      "Total_Amount": 250000.0,
+      "election_name": "oakland-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Association of Realtors",
+      "Total_Amount": 222500.0,
+      "election_name": "oakland-2018"
+    }
+  ]
 }

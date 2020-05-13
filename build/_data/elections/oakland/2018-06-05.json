@@ -5,29 +5,10 @@
     "Within Oakland": 110837.72,
     "Within California": 33550.0
   },
-  "top_spenders": [
-    {
-      "name": "Jeff Bezos",
-      "total_contributions": 555
-    },
-    {
-      "name": "Elon Musk",
-      "total_contributions": 55
-    },
-    {
-      "name": "Travis Kalanick",
-      "total_contributions": 5
-    }
-  ],
-  "largest_small_proportion": [
-
-  ],
   "contributions_by_type": {
-    "Committee": 55555.55,
-    "Individual": 5555.55,
-    "Unitemized": 5550.55,
-    "Self Funding": 5500.55,
-    "Other (includes businesses)": 5000.55
+    "Committee": 21250.0,
+    "Individual": 49547.0,
+    "Other (includes Businesses)": 80790.72
   },
   "most_expensive_races": [
     {
@@ -49,6 +30,104 @@
       "amount": 0
     }
   ],
+  "largest_small_proportion": [
+
+  ],
   "largest_independent_expenditures": {
-  }
+  },
+  "top_contributors": [
+    {
+      "Tran_NamF": null,
+      "Tran_NamL": "The Friends of the Oakland Public Library",
+      "Total_Amount": 33290.72,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Tran_NamF": "Mitchell",
+      "Tran_NamL": "Kapor",
+      "Total_Amount": 15000.0,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Total_Amount": 10000.0,
+      "election_name": "oakland-june-2018"
+    }
+  ],
+  "top_contributors_for_offices": [
+
+  ],
+  "top_contributors_for_measures": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Friends of the Oakland Public Library",
+      "Total_Amount": 33290.72,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": "Mitchell",
+      "Tran_NamL": "Kapor",
+      "Total_Amount": 15000.0,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Total_Amount": 10000.0,
+      "election_name": "oakland-june-2018"
+    }
+  ],
+  "top_spenders": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Friends of the Oakland Public Library",
+      "Total_Amount": 33290.72,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": "Mitchell",
+      "Tran_NamL": "Kapor",
+      "Total_Amount": 15000.0,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Total_Amount": 10000.0,
+      "election_name": "oakland-june-2018"
+    }
+  ],
+  "top_spenders_for_offices": [
+
+  ],
+  "top_spenders_for_measures": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Friends of the Oakland Public Library",
+      "Total_Amount": 33290.72,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": "Mitchell",
+      "Tran_NamL": "Kapor",
+      "Total_Amount": 15000.0,
+      "election_name": "oakland-june-2018"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Total_Amount": 10000.0,
+      "election_name": "oakland-june-2018"
+    }
+  ]
 }

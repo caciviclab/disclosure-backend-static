@@ -6,18 +6,31 @@
       "Within Oakland": 941602.7700000001,
       "Within California": 651191.06
     },
-    "top_spenders": [
+    "contributions_by_type": {
+      "Committee": 89195.35,
+      "Individual": 1345198.4,
+      "Unitemized": 122693.37999999999,
+      "Self Funding": 120324.8,
+      "Other (includes Businesses)": 156867.22
+    },
+    "most_expensive_races": [
       {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 1091719.87
       },
       {
-        "name": "Elon Musk",
-        "total_contributions": 55
+        "slug": "city-council-district-2",
+        "type": "office",
+        "title": "City Council District 2",
+        "amount": 313038.80000000005
       },
       {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
+        "slug": "city-council-district-6",
+        "type": "office",
+        "title": "City Council District 6",
+        "amount": 219139.0
       }
     ],
     "largest_small_proportion": [
@@ -43,63 +56,109 @@
         "proportion": 0.16707099015054414
       }
     ],
-    "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
+    "largest_independent_expenditures": {
     },
-    "most_expensive_races": [
+    "top_contributors": [
       {
-        "slug": "mayor",
-        "type": "office",
-        "title": "Mayor",
-        "amount": 1091719.87
+        "Tran_NamF": "Bryan",
+        "Tran_NamL": "Parker",
+        "Total_Amount": 45000.0,
+        "election_name": "oakland-2014"
       },
       {
-        "slug": "city-council-district-2",
-        "type": "office",
-        "title": "City Council District 2",
-        "amount": 313038.80000000005
+        "Tran_NamF": "Len",
+        "Tran_NamL": "Raphael",
+        "Total_Amount": 31623.69,
+        "election_name": "oakland-2014"
       },
       {
-        "slug": "city-council-district-6",
-        "type": "office",
-        "title": "City Council District 6",
-        "amount": 219139.0
+        "Tran_NamF": "Charles",
+        "Tran_NamL": "Williams",
+        "Total_Amount": 11218.0,
+        "election_name": "oakland-2014"
       }
     ],
-    "largest_independent_expenditures": {
-    }
+    "top_contributors_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Bryan",
+        "Tran_NamL": "Parker",
+        "Total_Amount": 45000.0,
+        "election_name": "oakland-2014"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Len",
+        "Tran_NamL": "Raphael",
+        "Total_Amount": 31623.69,
+        "election_name": "oakland-2014"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Charles",
+        "Tran_NamL": "Williams",
+        "Total_Amount": 11218.0,
+        "election_name": "oakland-2014"
+      }
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Bryan",
+        "Tran_NamL": "Parker",
+        "Total_Amount": 45000.0,
+        "election_name": "oakland-2014"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Len",
+        "Tran_NamL": "Raphael",
+        "Total_Amount": 31623.69,
+        "election_name": "oakland-2014"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Charles",
+        "Tran_NamL": "Williams",
+        "Total_Amount": 11218.0,
+        "election_name": "oakland-2014"
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Bryan",
+        "Tran_NamL": "Parker",
+        "Total_Amount": 45000.0,
+        "election_name": "oakland-2014"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Len",
+        "Tran_NamL": "Raphael",
+        "Total_Amount": 31623.69,
+        "election_name": "oakland-2014"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Charles",
+        "Tran_NamL": "Williams",
+        "Total_Amount": 11218.0,
+        "election_name": "oakland-2014"
+      }
+    ],
+    "top_spenders_for_measures": [
+
+    ]
   },
   "berkeley-2018": {
     "total_contributions": 0.0,
     "total_contributions_by_source": {
     },
-    "top_spenders": [
-      {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
-      },
-      {
-        "name": "Elon Musk",
-        "total_contributions": 55
-      },
-      {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
     "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
     },
     "most_expensive_races": [
       {
@@ -121,8 +180,29 @@
         "amount": 0
       }
     ],
+    "largest_small_proportion": [
+
+    ],
     "largest_independent_expenditures": {
-    }
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
   },
   "oakland-2016": {
     "total_contributions": 21173984.5,
@@ -131,18 +211,31 @@
       "Within Oakland": 1563651.06,
       "Within California": 9350484.879999999
     },
-    "top_spenders": [
+    "contributions_by_type": {
+      "Committee": 9083914.03,
+      "Individual": 10453339.77,
+      "Unitemized": 70132.93,
+      "Self Funding": 92561.14,
+      "Other (includes Businesses)": 1842217.46
+    },
+    "most_expensive_races": [
       {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
+        "slug": "sugar-sweetened-beverage-tax",
+        "type": "referendum",
+        "title": "Measure HH",
+        "amount": 18673836.560000002
       },
       {
-        "name": "Elon Musk",
-        "total_contributions": 55
+        "slug": "just-cause-for-eviction-and-rent-adjustment",
+        "type": "referendum",
+        "title": "Measure JJ",
+        "amount": 850350.55
       },
       {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
+        "slug": "infrastructure-and-housing-bonds",
+        "type": "referendum",
+        "title": "Measure KK",
+        "amount": 450809.58
       }
     ],
     "largest_small_proportion": [
@@ -168,35 +261,143 @@
         "proportion": 0.25406141022369655
       }
     ],
-    "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
+    "largest_independent_expenditures": {
     },
-    "most_expensive_races": [
+    "top_contributors": [
       {
-        "slug": "sugar-sweetened-beverage-tax",
-        "type": "referendum",
-        "title": "Measure HH",
-        "amount": 18673836.560000002
+        "Tran_NamF": "MICHAEL",
+        "Tran_NamL": "BLOOMBERG",
+        "Total_Amount": 9357387.2,
+        "election_name": "oakland-2016"
       },
       {
-        "slug": "just-cause-for-eviction-and-rent-adjustment",
-        "type": "referendum",
-        "title": "Measure JJ",
-        "amount": 850350.55
+        "Tran_NamF": null,
+        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "Total_Amount": 7905502.73,
+        "election_name": "oakland-2016"
       },
       {
-        "slug": "infrastructure-and-housing-bonds",
-        "type": "referendum",
-        "title": "Measure KK",
-        "amount": 450809.58
+        "Tran_NamF": null,
+        "Tran_NamL": "ACTION NOW INITIATIVE",
+        "Total_Amount": 1075000.0,
+        "election_name": "oakland-2016"
       }
     ],
-    "largest_independent_expenditures": {
-    }
+    "top_contributors_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Rebecca D.",
+        "Tran_NamL": "Kaplan",
+        "Total_Amount": 48050.0,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Bruce",
+        "Tran_NamL": "Quan",
+        "Total_Amount": 39366.14,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Transport Oakland",
+        "Total_Amount": 7300.0,
+        "election_name": "oakland-2016"
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": "MICHAEL",
+        "Tran_NamL": "BLOOMBERG",
+        "Total_Amount": 9357387.2,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "Total_Amount": 7905502.73,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "ACTION NOW INITIATIVE",
+        "Total_Amount": 1075000.0,
+        "election_name": "oakland-2016"
+      }
+    ],
+    "top_spenders": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": "MICHAEL",
+        "Tran_NamL": "BLOOMBERG",
+        "Total_Amount": 9357387.2,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "Total_Amount": 7905502.73,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "ACTION NOW INITIATIVE",
+        "Total_Amount": 1075000.0,
+        "election_name": "oakland-2016"
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Rebecca D.",
+        "Tran_NamL": "Kaplan",
+        "Total_Amount": 48050.0,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Bruce",
+        "Tran_NamL": "Quan",
+        "Total_Amount": 39366.14,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Transport Oakland",
+        "Total_Amount": 7300.0,
+        "election_name": "oakland-2016"
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": "MICHAEL",
+        "Tran_NamL": "BLOOMBERG",
+        "Total_Amount": 9357387.2,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "Total_Amount": 7905502.73,
+        "election_name": "oakland-2016"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "ACTION NOW INITIATIVE",
+        "Total_Amount": 1075000.0,
+        "election_name": "oakland-2016"
+      }
+    ]
   },
   "oakland-june-2018": {
     "total_contributions": 151587.72,
@@ -205,29 +406,10 @@
       "Within Oakland": 110837.72,
       "Within California": 33550.0
     },
-    "top_spenders": [
-      {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
-      },
-      {
-        "name": "Elon Musk",
-        "total_contributions": 55
-      },
-      {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
     "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
+      "Committee": 21250.0,
+      "Individual": 49547.0,
+      "Other (includes Businesses)": 80790.72
     },
     "most_expensive_races": [
       {
@@ -249,8 +431,106 @@
         "amount": 0
       }
     ],
+    "largest_small_proportion": [
+
+    ],
     "largest_independent_expenditures": {
-    }
+    },
+    "top_contributors": [
+      {
+        "Tran_NamF": null,
+        "Tran_NamL": "The Friends of the Oakland Public Library",
+        "Total_Amount": 33290.72,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Tran_NamF": "Mitchell",
+        "Tran_NamL": "Kapor",
+        "Total_Amount": 15000.0,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Tran_NamF": null,
+        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+        "Total_Amount": 10000.0,
+        "election_name": "oakland-june-2018"
+      }
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "The Friends of the Oakland Public Library",
+        "Total_Amount": 33290.72,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": "Mitchell",
+        "Tran_NamL": "Kapor",
+        "Total_Amount": 15000.0,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+        "Total_Amount": 10000.0,
+        "election_name": "oakland-june-2018"
+      }
+    ],
+    "top_spenders": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "The Friends of the Oakland Public Library",
+        "Total_Amount": 33290.72,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": "Mitchell",
+        "Tran_NamL": "Kapor",
+        "Total_Amount": 15000.0,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+        "Total_Amount": 10000.0,
+        "election_name": "oakland-june-2018"
+      }
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "The Friends of the Oakland Public Library",
+        "Total_Amount": 33290.72,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": "Mitchell",
+        "Tran_NamL": "Kapor",
+        "Total_Amount": 15000.0,
+        "election_name": "oakland-june-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+        "Total_Amount": 10000.0,
+        "election_name": "oakland-june-2018"
+      }
+    ]
   },
   "oakland-2018": {
     "total_contributions": 6339607.17,
@@ -259,18 +539,31 @@
       "Within Oakland": 2648853.9099999997,
       "Within California": 2925878.9
     },
-    "top_spenders": [
+    "contributions_by_type": {
+      "Committee": 969489.14,
+      "Individual": 2739175.5,
+      "Unitemized": 158326.48,
+      "Self Funding": 81959.93999999999,
+      "Other (includes Businesses)": 2687273.8200000003
+    },
+    "most_expensive_races": [
       {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
+        "slug": "oakland-children-s-initiative",
+        "type": "referendum",
+        "title": "Measure AA",
+        "amount": 2136485.19
       },
       {
-        "name": "Elon Musk",
-        "total_contributions": 55
+        "slug": "just-cause-eviction-amendments",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 816407.3800000001
       },
       {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
+        "slug": "vacant-property-parcel-tax",
+        "type": "referendum",
+        "title": "Measure W",
+        "amount": 776996.5800000001
       }
     ],
     "largest_small_proportion": [
@@ -296,35 +589,143 @@
         "proportion": 0.3259331478814659
       }
     ],
-    "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
+    "largest_independent_expenditures": {
     },
-    "most_expensive_races": [
+    "top_contributors": [
       {
-        "slug": "oakland-children-s-initiative",
-        "type": "referendum",
-        "title": "Measure AA",
-        "amount": 2136485.19
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Community Foundation",
+        "Total_Amount": 500000.0,
+        "election_name": "oakland-2018"
       },
       {
-        "slug": "just-cause-eviction-amendments",
-        "type": "referendum",
-        "title": "Measure Y",
-        "amount": 816407.3800000001
+        "Tran_NamF": "Arthur",
+        "Tran_NamL": "Rock",
+        "Total_Amount": 250000.0,
+        "election_name": "oakland-2018"
       },
       {
-        "slug": "vacant-property-parcel-tax",
-        "type": "referendum",
-        "title": "Measure W",
-        "amount": 776996.5800000001
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 222500.0,
+        "election_name": "oakland-2018"
       }
     ],
-    "largest_independent_expenditures": {
-    }
+    "top_contributors_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Brenda",
+        "Tran_NamL": "Roberts",
+        "Total_Amount": 53757.13,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Charlie",
+        "Tran_NamL": "Michelson",
+        "Total_Amount": 15700.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Total_Amount": 8796.6,
+        "election_name": "oakland-2018"
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Community Foundation",
+        "Total_Amount": 500000.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": "Arthur",
+        "Tran_NamL": "Rock",
+        "Total_Amount": 250000.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 222500.0,
+        "election_name": "oakland-2018"
+      }
+    ],
+    "top_spenders": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Community Foundation",
+        "Total_Amount": 500000.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": "Arthur",
+        "Tran_NamL": "Rock",
+        "Total_Amount": 250000.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 222500.0,
+        "election_name": "oakland-2018"
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": "Brenda",
+        "Tran_NamL": "Roberts",
+        "Total_Amount": 53757.13,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Charlie",
+        "Tran_NamL": "Michelson",
+        "Total_Amount": 15700.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Total_Amount": 8796.6,
+        "election_name": "oakland-2018"
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Community Foundation",
+        "Total_Amount": 500000.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": "Arthur",
+        "Tran_NamL": "Rock",
+        "Total_Amount": 250000.0,
+        "election_name": "oakland-2018"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 222500.0,
+        "election_name": "oakland-2018"
+      }
+    ]
   },
   "oakland-2020": {
     "total_contributions": 226856.2,
@@ -333,18 +734,31 @@
       "Within Oakland": 99296.51000000001,
       "Within California": 98430.70999999999
     },
-    "top_spenders": [
+    "contributions_by_type": {
+      "Committee": 17723.67,
+      "Individual": 171652.39,
+      "Unitemized": 15842.82,
+      "Self Funding": 1300.0,
+      "Other (includes Businesses)": 20025.0
+    },
+    "most_expensive_races": [
       {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
+        "slug": "city-council-district-1",
+        "type": "office",
+        "title": "City Council District 1",
+        "amount": 95371.03
       },
       {
-        "name": "Elon Musk",
-        "total_contributions": 55
+        "slug": "city-council-district-7",
+        "type": "office",
+        "title": "City Council District 7",
+        "amount": 71770.86
       },
       {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 33174.0
       }
     ],
     "largest_small_proportion": [
@@ -370,35 +784,143 @@
         "proportion": 0.08271537951407729
       }
     ],
-    "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
+    "largest_independent_expenditures": {
     },
-    "most_expensive_races": [
+    "top_contributors": [
       {
-        "slug": "city-council-district-1",
-        "type": "office",
-        "title": "City Council District 1",
-        "amount": 95371.03
+        "Tran_NamF": null,
+        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "Total_Amount": 73200.0,
+        "election_name": "oakland-2020"
       },
       {
-        "slug": "city-council-district-7",
-        "type": "office",
-        "title": "City Council District 7",
-        "amount": 71770.86
+        "Tran_NamF": null,
+        "Tran_NamL": "Oakland Police Officers Association General Fund",
+        "Total_Amount": 4192.47,
+        "election_name": "oakland-2020"
       },
       {
-        "slug": "city-council-at-large",
-        "type": "office",
-        "title": "City Council At-Large",
-        "amount": 33174.0
+        "Tran_NamF": null,
+        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
       }
     ],
-    "largest_independent_expenditures": {
-    }
+    "top_contributors_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "Total_Amount": 73200.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Oakland Police Officers Association General Fund",
+        "Total_Amount": 4192.47,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+        "Total_Amount": 1187.0,
+        "election_name": "oakland-2020"
+      }
+    ],
+    "top_spenders": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "Total_Amount": 73200.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Oakland Police Officers Association General Fund",
+        "Total_Amount": 4192.47,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Laborers Local 304 PAC Account Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "Total_Amount": 73200.0,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Oakland Police Officers Association General Fund",
+        "Total_Amount": 4192.47,
+        "election_name": "oakland-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+        "Total_Amount": 1187.0,
+        "election_name": "oakland-2020"
+      }
+    ]
   },
   "oakland-march-2020": {
     "total_contributions": 335992.0,
@@ -407,29 +929,10 @@
       "Within Oakland": 103428.0,
       "Within California": 195800.0
     },
-    "top_spenders": [
-      {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
-      },
-      {
-        "name": "Elon Musk",
-        "total_contributions": 55
-      },
-      {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
     "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
+      "Committee": 51928.0,
+      "Individual": 22200.0,
+      "Other (includes Businesses)": 261864.0
     },
     "most_expensive_races": [
       {
@@ -451,6 +954,9 @@
         "amount": 0
       }
     ],
+    "largest_small_proportion": [
+
+    ],
     "largest_independent_expenditures": [
       {
         "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS",
@@ -462,35 +968,108 @@
         "Total_Amount": 40641.0,
         "election_name": "oakland-march-2020"
       }
+    ],
+    "top_contributors": [
+      {
+        "Tran_NamF": null,
+        "Tran_NamL": "Kaiser Permanente",
+        "Total_Amount": 150000.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 36764.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Rental Housing Association PAC",
+        "Total_Amount": 27500.0,
+        "election_name": "oakland-march-2020"
+      }
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Kaiser Permanente",
+        "Total_Amount": 150000.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 36764.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Rental Housing Association PAC",
+        "Total_Amount": 27500.0,
+        "election_name": "oakland-march-2020"
+      }
+    ],
+    "top_spenders": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Kaiser Permanente",
+        "Total_Amount": 150000.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 36764.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Rental Housing Association PAC",
+        "Total_Amount": 27500.0,
+        "election_name": "oakland-march-2020"
+      }
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "Kaiser Permanente",
+        "Total_Amount": 150000.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "National Association of Realtors",
+        "Total_Amount": 36764.0,
+        "election_name": "oakland-march-2020"
+      },
+      {
+        "Type": "Measure",
+        "Tran_NamF": null,
+        "Tran_NamL": "East Bay Rental Housing Association PAC",
+        "Total_Amount": 27500.0,
+        "election_name": "oakland-march-2020"
+      }
     ]
   },
   "sf-2016": {
     "total_contributions": 0.0,
     "total_contributions_by_source": {
     },
-    "top_spenders": [
-      {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
-      },
-      {
-        "name": "Elon Musk",
-        "total_contributions": 55
-      },
-      {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
     "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
     },
     "most_expensive_races": [
       {
@@ -512,36 +1091,35 @@
         "amount": 0
       }
     ],
+    "largest_small_proportion": [
+
+    ],
     "largest_independent_expenditures": {
-    }
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
   },
   "sf-june-2018": {
     "total_contributions": 0.0,
     "total_contributions_by_source": {
     },
-    "top_spenders": [
-      {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
-      },
-      {
-        "name": "Elon Musk",
-        "total_contributions": 55
-      },
-      {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
     "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
     },
     "most_expensive_races": [
       {
@@ -563,36 +1141,35 @@
         "amount": 0
       }
     ],
+    "largest_small_proportion": [
+
+    ],
     "largest_independent_expenditures": {
-    }
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
   },
   "sf-2018": {
     "total_contributions": 0.0,
     "total_contributions_by_source": {
     },
-    "top_spenders": [
-      {
-        "name": "Jeff Bezos",
-        "total_contributions": 555
-      },
-      {
-        "name": "Elon Musk",
-        "total_contributions": 55
-      },
-      {
-        "name": "Travis Kalanick",
-        "total_contributions": 5
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
     "contributions_by_type": {
-      "Committee": 55555.55,
-      "Individual": 5555.55,
-      "Unitemized": 5550.55,
-      "Self Funding": 5500.55,
-      "Other (includes businesses)": 5000.55
     },
     "most_expensive_races": [
       {
@@ -608,7 +1185,28 @@
         "amount": 0
       }
     ],
+    "largest_small_proportion": [
+
+    ],
     "largest_independent_expenditures": {
-    }
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
   }
 }

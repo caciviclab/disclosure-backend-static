@@ -5,18 +5,31 @@
     "Within Oakland": 1563651.06,
     "Within California": 9350484.879999999
   },
-  "top_spenders": [
+  "contributions_by_type": {
+    "Committee": 9083914.03,
+    "Individual": 10453339.77,
+    "Unitemized": 70132.93,
+    "Self Funding": 92561.14,
+    "Other (includes Businesses)": 1842217.46
+  },
+  "most_expensive_races": [
     {
-      "name": "Jeff Bezos",
-      "total_contributions": 555
+      "slug": "sugar-sweetened-beverage-tax",
+      "type": "referendum",
+      "title": "Measure HH",
+      "amount": 18673836.560000002
     },
     {
-      "name": "Elon Musk",
-      "total_contributions": 55
+      "slug": "just-cause-for-eviction-and-rent-adjustment",
+      "type": "referendum",
+      "title": "Measure JJ",
+      "amount": 850350.55
     },
     {
-      "name": "Travis Kalanick",
-      "total_contributions": 5
+      "slug": "infrastructure-and-housing-bonds",
+      "type": "referendum",
+      "title": "Measure KK",
+      "amount": 450809.58
     }
   ],
   "largest_small_proportion": [
@@ -42,33 +55,141 @@
       "proportion": 0.25406141022369655
     }
   ],
-  "contributions_by_type": {
-    "Committee": 55555.55,
-    "Individual": 5555.55,
-    "Unitemized": 5550.55,
-    "Self Funding": 5500.55,
-    "Other (includes businesses)": 5000.55
+  "largest_independent_expenditures": {
   },
-  "most_expensive_races": [
+  "top_contributors": [
     {
-      "slug": "sugar-sweetened-beverage-tax",
-      "type": "referendum",
-      "title": "Measure HH",
-      "amount": 18673836.560000002
+      "Tran_NamF": "MICHAEL",
+      "Tran_NamL": "BLOOMBERG",
+      "Total_Amount": 9357387.2,
+      "election_name": "oakland-2016"
     },
     {
-      "slug": "just-cause-for-eviction-and-rent-adjustment",
-      "type": "referendum",
-      "title": "Measure JJ",
-      "amount": 850350.55
+      "Tran_NamF": null,
+      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "Total_Amount": 7905502.73,
+      "election_name": "oakland-2016"
     },
     {
-      "slug": "infrastructure-and-housing-bonds",
-      "type": "referendum",
-      "title": "Measure KK",
-      "amount": 450809.58
+      "Tran_NamF": null,
+      "Tran_NamL": "ACTION NOW INITIATIVE",
+      "Total_Amount": 1075000.0,
+      "election_name": "oakland-2016"
     }
   ],
-  "largest_independent_expenditures": {
-  }
+  "top_contributors_for_offices": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Rebecca D.",
+      "Tran_NamL": "Kaplan",
+      "Total_Amount": 48050.0,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Bruce",
+      "Tran_NamL": "Quan",
+      "Total_Amount": 39366.14,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": null,
+      "Tran_NamL": "Transport Oakland",
+      "Total_Amount": 7300.0,
+      "election_name": "oakland-2016"
+    }
+  ],
+  "top_contributors_for_measures": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": "MICHAEL",
+      "Tran_NamL": "BLOOMBERG",
+      "Total_Amount": 9357387.2,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "Total_Amount": 7905502.73,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACTION NOW INITIATIVE",
+      "Total_Amount": 1075000.0,
+      "election_name": "oakland-2016"
+    }
+  ],
+  "top_spenders": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": "MICHAEL",
+      "Tran_NamL": "BLOOMBERG",
+      "Total_Amount": 9357387.2,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "Total_Amount": 7905502.73,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACTION NOW INITIATIVE",
+      "Total_Amount": 1075000.0,
+      "election_name": "oakland-2016"
+    }
+  ],
+  "top_spenders_for_offices": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Rebecca D.",
+      "Tran_NamL": "Kaplan",
+      "Total_Amount": 48050.0,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Bruce",
+      "Tran_NamL": "Quan",
+      "Total_Amount": 39366.14,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": null,
+      "Tran_NamL": "Transport Oakland",
+      "Total_Amount": 7300.0,
+      "election_name": "oakland-2016"
+    }
+  ],
+  "top_spenders_for_measures": [
+    {
+      "Type": "Measure",
+      "Tran_NamF": "MICHAEL",
+      "Tran_NamL": "BLOOMBERG",
+      "Total_Amount": 9357387.2,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "Total_Amount": 7905502.73,
+      "election_name": "oakland-2016"
+    },
+    {
+      "Type": "Measure",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACTION NOW INITIATIVE",
+      "Total_Amount": 1075000.0,
+      "election_name": "oakland-2016"
+    }
+  ]
 }

@@ -5,18 +5,31 @@
     "Within Oakland": 941602.7700000001,
     "Within California": 651191.06
   },
-  "top_spenders": [
+  "contributions_by_type": {
+    "Committee": 89195.35,
+    "Individual": 1345198.4,
+    "Unitemized": 122693.37999999999,
+    "Self Funding": 120324.8,
+    "Other (includes Businesses)": 156867.22
+  },
+  "most_expensive_races": [
     {
-      "name": "Jeff Bezos",
-      "total_contributions": 555
+      "slug": "mayor",
+      "type": "office",
+      "title": "Mayor",
+      "amount": 1091719.87
     },
     {
-      "name": "Elon Musk",
-      "total_contributions": 55
+      "slug": "city-council-district-2",
+      "type": "office",
+      "title": "City Council District 2",
+      "amount": 313038.80000000005
     },
     {
-      "name": "Travis Kalanick",
-      "total_contributions": 5
+      "slug": "city-council-district-6",
+      "type": "office",
+      "title": "City Council District 6",
+      "amount": 219139.0
     }
   ],
   "largest_small_proportion": [
@@ -42,33 +55,101 @@
       "proportion": 0.16707099015054414
     }
   ],
-  "contributions_by_type": {
-    "Committee": 55555.55,
-    "Individual": 5555.55,
-    "Unitemized": 5550.55,
-    "Self Funding": 5500.55,
-    "Other (includes businesses)": 5000.55
+  "largest_independent_expenditures": {
   },
-  "most_expensive_races": [
+  "top_contributors": [
     {
-      "slug": "mayor",
-      "type": "office",
-      "title": "Mayor",
-      "amount": 1091719.87
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Total_Amount": 45000.0,
+      "election_name": "oakland-2014"
     },
     {
-      "slug": "city-council-district-2",
-      "type": "office",
-      "title": "City Council District 2",
-      "amount": 313038.80000000005
+      "Tran_NamF": "Len",
+      "Tran_NamL": "Raphael",
+      "Total_Amount": 31623.69,
+      "election_name": "oakland-2014"
     },
     {
-      "slug": "city-council-district-6",
-      "type": "office",
-      "title": "City Council District 6",
-      "amount": 219139.0
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Williams",
+      "Total_Amount": 11218.0,
+      "election_name": "oakland-2014"
     }
   ],
-  "largest_independent_expenditures": {
-  }
+  "top_contributors_for_offices": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Total_Amount": 45000.0,
+      "election_name": "oakland-2014"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Len",
+      "Tran_NamL": "Raphael",
+      "Total_Amount": 31623.69,
+      "election_name": "oakland-2014"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Williams",
+      "Total_Amount": 11218.0,
+      "election_name": "oakland-2014"
+    }
+  ],
+  "top_contributors_for_measures": [
+
+  ],
+  "top_spenders": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Total_Amount": 45000.0,
+      "election_name": "oakland-2014"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Len",
+      "Tran_NamL": "Raphael",
+      "Total_Amount": 31623.69,
+      "election_name": "oakland-2014"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Williams",
+      "Total_Amount": 11218.0,
+      "election_name": "oakland-2014"
+    }
+  ],
+  "top_spenders_for_offices": [
+    {
+      "Type": "Office",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Total_Amount": 45000.0,
+      "election_name": "oakland-2014"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Len",
+      "Tran_NamL": "Raphael",
+      "Total_Amount": 31623.69,
+      "election_name": "oakland-2014"
+    },
+    {
+      "Type": "Office",
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Williams",
+      "Total_Amount": 11218.0,
+      "election_name": "oakland-2014"
+    }
+  ],
+  "top_spenders_for_measures": [
+
+  ]
 }
