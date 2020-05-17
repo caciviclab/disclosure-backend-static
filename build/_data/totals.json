@@ -3,7 +3,7 @@
     "total_contributions": 2020351.7600000002,
     "total_contributions_by_source": {
       "Out of State": 118791.94,
-      "Within Oakland": 941602.7700000001,
+      "Within Oakland": 941602.7699999999,
       "Within California": 651191.06
     },
     "contributions_by_type": {
@@ -451,7 +451,7 @@
       },
       {
         "Tran_NamF": null,
-        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+        "Tran_NamL": "KP Financial Svcs Ops",
         "Total_Amount": 10000.0,
         "election_name": "oakland-june-2018"
       }
@@ -801,12 +801,19 @@
       },
       {
         "Tran_NamF": null,
-        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
         "Total_Amount": 1700.0,
         "election_name": "oakland-2020"
       }
     ],
     "top_contributors_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Laborers Local 304 PAC Account Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      },
       {
         "Type": "Office",
         "Tran_NamF": null,
@@ -818,13 +825,6 @@
         "Type": "Office",
         "Tran_NamF": null,
         "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
-      },
-      {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
         "Total_Amount": 1700.0,
         "election_name": "oakland-2020"
       }
@@ -870,12 +870,19 @@
       {
         "Type": "Office",
         "Tran_NamF": null,
-        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
+        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
         "Total_Amount": 1700.0,
         "election_name": "oakland-2020"
       }
     ],
     "top_spenders_for_offices": [
+      {
+        "Type": "Office",
+        "Tran_NamF": null,
+        "Tran_NamL": "Laborers Local 304 PAC Account Small Contributor Committee",
+        "Total_Amount": 1700.0,
+        "election_name": "oakland-2020"
+      },
       {
         "Type": "Office",
         "Tran_NamF": null,
@@ -887,13 +894,6 @@
         "Type": "Office",
         "Tran_NamF": null,
         "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
-      },
-      {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
         "Total_Amount": 1700.0,
         "election_name": "oakland-2020"
       }
