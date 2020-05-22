@@ -60,6 +60,36 @@ end
 puts "Indexing #{contributor_data.length} Contributors..."
 index.add_objects(contributor_data)
 
+contributor_data = []
+Candidate.includes(:election, :office_election).find_each do |candidate|
+  committee = Committee.find_by(Filer_ID: candidate.FPPC)
+  if committee.nil?
+    next
+  end
+  list = committee.calculation(:contribution_list).map do |contributor|
+    {
+      type: :contributor,
+      first_name: contributor['Tran_NamF'],
+      last_name: contributor['Tran_NamL'],
+      amount: contributor['Tran_Amt1'],
+      office_label: candidate.office_election.label,
+      office_title: candidate.office_election.title,
+      office_slug: slugify(candidate.office_election.title),
+      slug: slugify(candidate['Candidate']),
+      election_slug: candidate.election.name,
+      election_location: candidate.election.location,
+      election_date: candidate.election.date,
+      election_title: candidate.election.title,
+    }
+  end
+  unless list.nil?
+    contributor_data += list
+  end
+end
+puts "Indexing #{contributor_data.length} Contributors..."
+# only add 100 for now
+index.add_objects(contributor_data.first(100))
+
 referendum_data = Referendum.includes(:election).map do |referendum|
   {
     type: :referendum,
@@ -72,4 +102,4 @@ referendum_data = Referendum.includes(:election).map do |referendum|
   }
 end
 puts "Indexing #{referendum_data.length} Referendums..."
-index.add_objects(referendum_data)
+# index.add_objects(referendum_data)
