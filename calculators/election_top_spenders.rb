@@ -3,16 +3,16 @@ class ElectionTopSpender
 
   def fetch
     election_results = ActiveRecord::Base.connection.execute <<~SQL
-      SELECT "election_name", "Type", "Tran_NamL", "Tran_NamF", Sum("Tran_Amt1") as "Total_Amount"
+      SELECT "election_name", "Type" as type, trim(concat("Tran_NamF",' ', "Tran_NamL")) as name,  Sum("Tran_Amt1") as "total_spending"
       FROM "combined_contributions"
       WHERE "election_name" <> ''
-      GROUP BY "election_name", "Type", "Tran_NamL", "Tran_NamF";
+      GROUP BY "election_name", type, name
     SQL
 
     results_by_election = election_results.each_with_object({}) do |result, hash|
       hash[result['election_name']] ||= {}
-      hash[result['election_name']][result['Type']] ||= []
-      hash[result['election_name']][result['Type']] << result
+      hash[result['election_name']][result['type']] ||= []
+      hash[result['election_name']][result['type']] << result
     end
 
     top_spenders_by_office = {}
@@ -20,17 +20,17 @@ class ElectionTopSpender
     results_by_election.each do |election_name, type|
       unless type['Office'].nil?
         top_spenders_by_office[election_name]  =
-          type['Office'].sort_by { |s| s['Total_Amount'] }.reverse.first(3)
+          type['Office'].sort_by { |s| s['total_spending'] }.reverse.first(3)
       end
       unless type['Measure'].nil?
         top_spenders_by_measure[election_name]  =
-          type['Measure'].sort_by { |s| s['Total_Amount'] }.reverse.first(3)
+          type['Measure'].sort_by { |s| s['total_spending'] }.reverse.first(3)
       end
     end
 
     top_spenders_by_election =
       top_spenders_by_office.merge(top_spenders_by_measure) {
-      |key, oldval, newval| (oldval + newval).sort_by { |s| s['Total_Amount'] }.reverse.      first(3)
+      |key, oldval, newval| (oldval + newval).sort_by { |s| s['total_spending'] }.reverse.      first(3)
     }
 
     Election.find_each do |election|
