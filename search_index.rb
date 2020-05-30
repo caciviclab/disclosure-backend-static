@@ -28,7 +28,7 @@ candidate_data = Candidate.includes(:election, :office_election).map do |candida
   }
 end
 puts "Indexing #{candidate_data.length} Candidates..."
-# index.add_objects(candidate_data)
+index.add_objects(candidate_data)
 
 contributor_data = []
 Candidate.includes(:election, :office_election).find_each do |candidate|
@@ -42,10 +42,11 @@ Candidate.includes(:election, :office_election).find_each do |candidate|
       first_name: contributor['Tran_NamF'],
       last_name: contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
+      name: candidate['Candidate'],
+      candidate_slug: slugify(candidate['Candidate']),
       office_label: candidate.office_election.label,
       office_title: candidate.office_election.title,
       office_slug: slugify(candidate.office_election.title),
-      slug: slugify(candidate['Candidate']),
       election_slug: candidate.election.name,
       election_location: candidate.election.location,
       election_date: candidate.election.date,
@@ -57,8 +58,7 @@ Candidate.includes(:election, :office_election).find_each do |candidate|
   end
 end
 puts "Indexing #{contributor_data.length} Contributors..."
-# only add 100 for now
-index.add_objects(contributor_data.first(100))
+index.add_objects(contributor_data)
 
 referendum_data = Referendum.includes(:election).map do |referendum|
   {
@@ -72,4 +72,4 @@ referendum_data = Referendum.includes(:election).map do |referendum|
   }
 end
 puts "Indexing #{referendum_data.length} Referendums..."
-# index.add_objects(referendum_data)
+index.add_objects(referendum_data)
