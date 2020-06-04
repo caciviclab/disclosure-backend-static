@@ -3,11 +3,11 @@ class ElectionLargestIndependentExpenditure
 
   def fetch
     election_results = ActiveRecord::Base.connection.execute <<~SQL
-      SELECT "election_name","Filer_NamL", Sum("Amount") as "Total_Amount"
+      SELECT "election_name","Filer_NamL" as name, Sum("Amount") as total_spending
       FROM "Measure_Expenditures"
       WHERE "election_name" <> ''
         AND "Expn_Code" = 'IND'
-      GROUP BY "Filer_NamL", "election_name";
+      GROUP BY name, "election_name";
     SQL
 
     results_by_election = election_results.each_with_object({}) do |result, hash|
