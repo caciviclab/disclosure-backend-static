@@ -35,34 +35,31 @@
   ],
   "largest_independent_expenditures": [
     {
-      "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS",
-      "Total_Amount": 184623.0,
-      "election_name": "oakland-march-2020"
+      "name": "NATIONAL ASSOCIATION OF REALTORS",
+      "election_name": "oakland-march-2020",
+      "total_spending": 184623.0
     },
     {
-      "Filer_NamL": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
-      "Total_Amount": 40641.0,
-      "election_name": "oakland-march-2020"
+      "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+      "election_name": "oakland-march-2020",
+      "total_spending": 40641.0
     }
   ],
   "top_contributors": [
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "Kaiser Permanente",
-      "Total_Amount": 150000.0,
-      "election_name": "oakland-march-2020"
+      "name": "Kaiser Permanente",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 150000.0
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 36764.0,
-      "election_name": "oakland-march-2020"
+      "name": "National Association of Realtors",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 36764.0
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association PAC",
-      "Total_Amount": 27500.0,
-      "election_name": "oakland-march-2020"
+      "name": "East Bay Rental Housing Association PAC",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 27500.0
     }
   ],
   "top_contributors_for_offices": [
@@ -70,48 +67,42 @@
   ],
   "top_contributors_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Kaiser Permanente",
-      "Total_Amount": 150000.0,
-      "election_name": "oakland-march-2020"
+      "name": "Kaiser Permanente",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 150000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 36764.0,
-      "election_name": "oakland-march-2020"
+      "name": "National Association of Realtors",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 36764.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association PAC",
-      "Total_Amount": 27500.0,
-      "election_name": "oakland-march-2020"
+      "name": "East Bay Rental Housing Association PAC",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 27500.0
     }
   ],
   "top_spenders": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Kaiser Permanente",
-      "Total_Amount": 150000.0,
-      "election_name": "oakland-march-2020"
+      "name": "Kaiser Permanente",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 150000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 36764.0,
-      "election_name": "oakland-march-2020"
+      "name": "National Association of Realtors",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 36764.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association PAC",
-      "Total_Amount": 27500.0,
-      "election_name": "oakland-march-2020"
+      "name": "East Bay Rental Housing Association PAC",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 27500.0
     }
   ],
   "top_spenders_for_offices": [
@@ -119,25 +110,22 @@
   ],
   "top_spenders_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Kaiser Permanente",
-      "Total_Amount": 150000.0,
-      "election_name": "oakland-march-2020"
+      "name": "Kaiser Permanente",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 150000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 36764.0,
-      "election_name": "oakland-march-2020"
+      "name": "National Association of Realtors",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 36764.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association PAC",
-      "Total_Amount": 27500.0,
-      "election_name": "oakland-march-2020"
+      "name": "East Bay Rental Housing Association PAC",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 27500.0
     }
   ]
 }

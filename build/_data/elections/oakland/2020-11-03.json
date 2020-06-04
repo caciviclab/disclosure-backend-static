@@ -59,137 +59,119 @@
   },
   "top_contributors": [
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-      "Total_Amount": 73200.0,
-      "election_name": "oakland-2020"
+      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "election_name": "oakland-2020",
+      "total_contributions": 73200.0
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Police Officers Association General Fund",
-      "Total_Amount": 4192.47,
-      "election_name": "oakland-2020"
+      "name": "Oakland Police Officers Association General Fund",
+      "election_name": "oakland-2020",
+      "total_contributions": 4192.47
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "election_name": "oakland-2020",
+      "total_contributions": 1700.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 1700.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 1700.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 1700.0
     }
   ],
   "top_contributors_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-      "Total_Amount": 73200.0,
-      "election_name": "oakland-2020"
+      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 73200.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Police Officers Association General Fund",
-      "Total_Amount": 4192.47,
-      "election_name": "oakland-2020"
+      "name": "Oakland Police Officers Association General Fund",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 4192.47
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
-      "Total_Amount": 1187.0,
-      "election_name": "oakland-2020"
+      "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 1187.0
     }
   ],
   "top_spenders": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-      "Total_Amount": 73200.0,
-      "election_name": "oakland-2020"
+      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 73200.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Police Officers Association General Fund",
-      "Total_Amount": 4192.47,
-      "election_name": "oakland-2020"
+      "name": "Oakland Police Officers Association General Fund",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 4192.47
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 1700.0
     }
   ],
   "top_spenders_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 1700.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 1700.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
-      "Total_Amount": 1700.0,
-      "election_name": "oakland-2020"
+      "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 1700.0
     }
   ],
   "top_spenders_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-      "Total_Amount": 73200.0,
-      "election_name": "oakland-2020"
+      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 73200.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Police Officers Association General Fund",
-      "Total_Amount": 4192.47,
-      "election_name": "oakland-2020"
+      "name": "Oakland Police Officers Association General Fund",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 4192.47
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
-      "Total_Amount": 1187.0,
-      "election_name": "oakland-2020"
+      "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 1187.0
     }
   ]
 }

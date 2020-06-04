@@ -60,45 +60,39 @@
     },
     "top_contributors": [
       {
-        "Tran_NamF": "Bryan",
-        "Tran_NamL": "Parker",
-        "Total_Amount": 45000.0,
-        "election_name": "oakland-2014"
+        "name": "Bryan Parker",
+        "election_name": "oakland-2014",
+        "total_contributions": 45000.0
       },
       {
-        "Tran_NamF": "Len",
-        "Tran_NamL": "Raphael",
-        "Total_Amount": 31623.69,
-        "election_name": "oakland-2014"
+        "name": "Len Raphael",
+        "election_name": "oakland-2014",
+        "total_contributions": 31623.69
       },
       {
-        "Tran_NamF": "Charles",
-        "Tran_NamL": "Williams",
-        "Total_Amount": 11218.0,
-        "election_name": "oakland-2014"
+        "name": "Charles Williams",
+        "election_name": "oakland-2014",
+        "total_contributions": 11218.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Bryan",
-        "Tran_NamL": "Parker",
-        "Total_Amount": 45000.0,
-        "election_name": "oakland-2014"
+        "name": "Bryan Parker",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_contributions": 45000.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Len",
-        "Tran_NamL": "Raphael",
-        "Total_Amount": 31623.69,
-        "election_name": "oakland-2014"
+        "name": "Len Raphael",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_contributions": 31623.69
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Charles",
-        "Tran_NamL": "Williams",
-        "Total_Amount": 11218.0,
-        "election_name": "oakland-2014"
+        "name": "Charles Williams",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_contributions": 11218.0
       }
     ],
     "top_contributors_for_measures": [
@@ -106,48 +100,42 @@
     ],
     "top_spenders": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Bryan",
-        "Tran_NamL": "Parker",
-        "Total_Amount": 45000.0,
-        "election_name": "oakland-2014"
+        "name": "Bryan Parker",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 45000.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Len",
-        "Tran_NamL": "Raphael",
-        "Total_Amount": 31623.69,
-        "election_name": "oakland-2014"
+        "name": "Len Raphael",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 31623.69
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Charles",
-        "Tran_NamL": "Williams",
-        "Total_Amount": 11218.0,
-        "election_name": "oakland-2014"
+        "name": "Charles Williams",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 11218.0
       }
     ],
     "top_spenders_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Bryan",
-        "Tran_NamL": "Parker",
-        "Total_Amount": 45000.0,
-        "election_name": "oakland-2014"
+        "name": "Bryan Parker",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 45000.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Len",
-        "Tran_NamL": "Raphael",
-        "Total_Amount": 31623.69,
-        "election_name": "oakland-2014"
+        "name": "Len Raphael",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 31623.69
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Charles",
-        "Tran_NamL": "Williams",
-        "Total_Amount": 11218.0,
-        "election_name": "oakland-2014"
+        "name": "Charles Williams",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 11218.0
       }
     ],
     "top_spenders_for_measures": [
@@ -265,137 +253,119 @@
     },
     "top_contributors": [
       {
-        "Tran_NamF": "MICHAEL",
-        "Tran_NamL": "BLOOMBERG",
-        "Total_Amount": 9357387.2,
-        "election_name": "oakland-2016"
+        "name": "MICHAEL BLOOMBERG",
+        "election_name": "oakland-2016",
+        "total_contributions": 9357387.2
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-        "Total_Amount": 7905502.73,
-        "election_name": "oakland-2016"
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "election_name": "oakland-2016",
+        "total_contributions": 7905502.73
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "ACTION NOW INITIATIVE",
-        "Total_Amount": 1075000.0,
-        "election_name": "oakland-2016"
+        "name": "ACTION NOW INITIATIVE",
+        "election_name": "oakland-2016",
+        "total_contributions": 1075000.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Rebecca D.",
-        "Tran_NamL": "Kaplan",
-        "Total_Amount": 48050.0,
-        "election_name": "oakland-2016"
+        "name": "Rebecca D. Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_contributions": 48050.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Bruce",
-        "Tran_NamL": "Quan",
-        "Total_Amount": 39366.14,
-        "election_name": "oakland-2016"
+        "name": "Bruce Quan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_contributions": 39366.14
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Transport Oakland",
-        "Total_Amount": 7300.0,
-        "election_name": "oakland-2016"
+        "name": "Transport Oakland",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_contributions": 7300.0
       }
     ],
     "top_contributors_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": "MICHAEL",
-        "Tran_NamL": "BLOOMBERG",
-        "Total_Amount": 9357387.2,
-        "election_name": "oakland-2016"
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_contributions": 9357387.2
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-        "Total_Amount": 7905502.73,
-        "election_name": "oakland-2016"
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_contributions": 7905502.73
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "ACTION NOW INITIATIVE",
-        "Total_Amount": 1075000.0,
-        "election_name": "oakland-2016"
+        "name": "ACTION NOW INITIATIVE",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_contributions": 1075000.0
       }
     ],
     "top_spenders": [
       {
-        "Type": "Measure",
-        "Tran_NamF": "MICHAEL",
-        "Tran_NamL": "BLOOMBERG",
-        "Total_Amount": 9357387.2,
-        "election_name": "oakland-2016"
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 9357387.2
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-        "Total_Amount": 7905502.73,
-        "election_name": "oakland-2016"
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 7905502.73
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "ACTION NOW INITIATIVE",
-        "Total_Amount": 1075000.0,
-        "election_name": "oakland-2016"
+        "name": "ACTION NOW INITIATIVE",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 1075000.0
       }
     ],
     "top_spenders_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Rebecca D.",
-        "Tran_NamL": "Kaplan",
-        "Total_Amount": 48050.0,
-        "election_name": "oakland-2016"
+        "name": "Rebecca D. Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_spending": 48050.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Bruce",
-        "Tran_NamL": "Quan",
-        "Total_Amount": 39366.14,
-        "election_name": "oakland-2016"
+        "name": "Bruce Quan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_spending": 39366.14
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Transport Oakland",
-        "Total_Amount": 7300.0,
-        "election_name": "oakland-2016"
+        "name": "Transport Oakland",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_spending": 7300.0
       }
     ],
     "top_spenders_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": "MICHAEL",
-        "Tran_NamL": "BLOOMBERG",
-        "Total_Amount": 9357387.2,
-        "election_name": "oakland-2016"
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 9357387.2
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-        "Total_Amount": 7905502.73,
-        "election_name": "oakland-2016"
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 7905502.73
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "ACTION NOW INITIATIVE",
-        "Total_Amount": 1075000.0,
-        "election_name": "oakland-2016"
+        "name": "ACTION NOW INITIATIVE",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 1075000.0
       }
     ]
   },
@@ -438,22 +408,19 @@
     },
     "top_contributors": [
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "The Friends of the Oakland Public Library",
-        "Total_Amount": 33290.72,
-        "election_name": "oakland-june-2018"
+        "name": "The Friends of the Oakland Public Library",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 33290.72
       },
       {
-        "Tran_NamF": "Mitchell",
-        "Tran_NamL": "Kapor",
-        "Total_Amount": 15000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Mitchell Kapor",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 15000.0
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-        "Total_Amount": 10000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 10000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -461,48 +428,42 @@
     ],
     "top_contributors_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "The Friends of the Oakland Public Library",
-        "Total_Amount": 33290.72,
-        "election_name": "oakland-june-2018"
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 33290.72
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": "Mitchell",
-        "Tran_NamL": "Kapor",
-        "Total_Amount": 15000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 15000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-        "Total_Amount": 10000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 10000.0
       }
     ],
     "top_spenders": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "The Friends of the Oakland Public Library",
-        "Total_Amount": 33290.72,
-        "election_name": "oakland-june-2018"
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 33290.72
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": "Mitchell",
-        "Tran_NamL": "Kapor",
-        "Total_Amount": 15000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 15000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-        "Total_Amount": 10000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 10000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -510,25 +471,22 @@
     ],
     "top_spenders_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "The Friends of the Oakland Public Library",
-        "Total_Amount": 33290.72,
-        "election_name": "oakland-june-2018"
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 33290.72
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": "Mitchell",
-        "Tran_NamL": "Kapor",
-        "Total_Amount": 15000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 15000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-        "Total_Amount": 10000.0,
-        "election_name": "oakland-june-2018"
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 10000.0
       }
     ]
   },
@@ -593,137 +551,119 @@
     },
     "top_contributors": [
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Community Foundation",
-        "Total_Amount": 500000.0,
-        "election_name": "oakland-2018"
+        "name": "East Bay Community Foundation",
+        "election_name": "oakland-2018",
+        "total_contributions": 500000.0
       },
       {
-        "Tran_NamF": "Arthur",
-        "Tran_NamL": "Rock",
-        "Total_Amount": 250000.0,
-        "election_name": "oakland-2018"
+        "name": "Arthur Rock",
+        "election_name": "oakland-2018",
+        "total_contributions": 250000.0
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 222500.0,
-        "election_name": "oakland-2018"
+        "name": "National Association of Realtors",
+        "election_name": "oakland-2018",
+        "total_contributions": 222500.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Brenda",
-        "Tran_NamL": "Roberts",
-        "Total_Amount": 53757.13,
-        "election_name": "oakland-2018"
+        "name": "Brenda Roberts",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 53757.13
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Charlie",
-        "Tran_NamL": "Michelson",
-        "Total_Amount": 15700.0,
-        "election_name": "oakland-2018"
+        "name": "Charlie Michelson",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 15700.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Saied",
-        "Tran_NamL": "Karamooz",
-        "Total_Amount": 8796.6,
-        "election_name": "oakland-2018"
+        "name": "Saied Karamooz",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 8796.6
       }
     ],
     "top_contributors_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Community Foundation",
-        "Total_Amount": 500000.0,
-        "election_name": "oakland-2018"
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_contributions": 500000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": "Arthur",
-        "Tran_NamL": "Rock",
-        "Total_Amount": 250000.0,
-        "election_name": "oakland-2018"
+        "name": "Arthur Rock",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_contributions": 250000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 222500.0,
-        "election_name": "oakland-2018"
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_contributions": 222500.0
       }
     ],
     "top_spenders": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Community Foundation",
-        "Total_Amount": 500000.0,
-        "election_name": "oakland-2018"
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 500000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": "Arthur",
-        "Tran_NamL": "Rock",
-        "Total_Amount": 250000.0,
-        "election_name": "oakland-2018"
+        "name": "Arthur Rock",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 250000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 222500.0,
-        "election_name": "oakland-2018"
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 222500.0
       }
     ],
     "top_spenders_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": "Brenda",
-        "Tran_NamL": "Roberts",
-        "Total_Amount": 53757.13,
-        "election_name": "oakland-2018"
+        "name": "Brenda Roberts",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 53757.13
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Charlie",
-        "Tran_NamL": "Michelson",
-        "Total_Amount": 15700.0,
-        "election_name": "oakland-2018"
+        "name": "Charlie Michelson",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 15700.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": "Saied",
-        "Tran_NamL": "Karamooz",
-        "Total_Amount": 8796.6,
-        "election_name": "oakland-2018"
+        "name": "Saied Karamooz",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 8796.6
       }
     ],
     "top_spenders_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Community Foundation",
-        "Total_Amount": 500000.0,
-        "election_name": "oakland-2018"
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 500000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": "Arthur",
-        "Tran_NamL": "Rock",
-        "Total_Amount": 250000.0,
-        "election_name": "oakland-2018"
+        "name": "Arthur Rock",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 250000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 222500.0,
-        "election_name": "oakland-2018"
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 222500.0
       }
     ]
   },
@@ -788,137 +728,119 @@
     },
     "top_contributors": [
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "Total_Amount": 73200.0,
-        "election_name": "oakland-2020"
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "election_name": "oakland-2020",
+        "total_contributions": 73200.0
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "Oakland Police Officers Association General Fund",
-        "Total_Amount": 4192.47,
-        "election_name": "oakland-2020"
+        "name": "Oakland Police Officers Association General Fund",
+        "election_name": "oakland-2020",
+        "total_contributions": 4192.47
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "election_name": "oakland-2020",
+        "total_contributions": 1700.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 1700.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 1700.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 1700.0
       }
     ],
     "top_contributors_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "Total_Amount": 73200.0,
-        "election_name": "oakland-2020"
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 73200.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Oakland Police Officers Association General Fund",
-        "Total_Amount": 4192.47,
-        "election_name": "oakland-2020"
+        "name": "Oakland Police Officers Association General Fund",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 4192.47
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
-        "Total_Amount": 1187.0,
-        "election_name": "oakland-2020"
+        "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 1187.0
       }
     ],
     "top_spenders": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "Total_Amount": 73200.0,
-        "election_name": "oakland-2020"
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 73200.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Oakland Police Officers Association General Fund",
-        "Total_Amount": 4192.47,
-        "election_name": "oakland-2020"
+        "name": "Oakland Police Officers Association General Fund",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 4192.47
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 1700.0
       }
     ],
     "top_spenders_for_offices": [
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 1700.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 1700.0
       },
       {
-        "Type": "Office",
-        "Tran_NamF": null,
-        "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
-        "Total_Amount": 1700.0,
-        "election_name": "oakland-2020"
+        "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 1700.0
       }
     ],
     "top_spenders_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "Total_Amount": 73200.0,
-        "election_name": "oakland-2020"
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 73200.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Oakland Police Officers Association General Fund",
-        "Total_Amount": 4192.47,
-        "election_name": "oakland-2020"
+        "name": "Oakland Police Officers Association General Fund",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 4192.47
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
-        "Total_Amount": 1187.0,
-        "election_name": "oakland-2020"
+        "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 1187.0
       }
     ]
   },
@@ -959,34 +881,31 @@
     ],
     "largest_independent_expenditures": [
       {
-        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS",
-        "Total_Amount": 184623.0,
-        "election_name": "oakland-march-2020"
+        "name": "NATIONAL ASSOCIATION OF REALTORS",
+        "election_name": "oakland-march-2020",
+        "total_spending": 184623.0
       },
       {
-        "Filer_NamL": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
-        "Total_Amount": 40641.0,
-        "election_name": "oakland-march-2020"
+        "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+        "election_name": "oakland-march-2020",
+        "total_spending": 40641.0
       }
     ],
     "top_contributors": [
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "Kaiser Permanente",
-        "Total_Amount": 150000.0,
-        "election_name": "oakland-march-2020"
+        "name": "Kaiser Permanente",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 150000.0
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 36764.0,
-        "election_name": "oakland-march-2020"
+        "name": "National Association of Realtors",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 36764.0
       },
       {
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Rental Housing Association PAC",
-        "Total_Amount": 27500.0,
-        "election_name": "oakland-march-2020"
+        "name": "East Bay Rental Housing Association PAC",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 27500.0
       }
     ],
     "top_contributors_for_offices": [
@@ -994,48 +913,42 @@
     ],
     "top_contributors_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Kaiser Permanente",
-        "Total_Amount": 150000.0,
-        "election_name": "oakland-march-2020"
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 150000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 36764.0,
-        "election_name": "oakland-march-2020"
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 36764.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Rental Housing Association PAC",
-        "Total_Amount": 27500.0,
-        "election_name": "oakland-march-2020"
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 27500.0
       }
     ],
     "top_spenders": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Kaiser Permanente",
-        "Total_Amount": 150000.0,
-        "election_name": "oakland-march-2020"
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 150000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 36764.0,
-        "election_name": "oakland-march-2020"
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 36764.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Rental Housing Association PAC",
-        "Total_Amount": 27500.0,
-        "election_name": "oakland-march-2020"
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 27500.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1043,25 +956,22 @@
     ],
     "top_spenders_for_measures": [
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "Kaiser Permanente",
-        "Total_Amount": 150000.0,
-        "election_name": "oakland-march-2020"
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 150000.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "National Association of Realtors",
-        "Total_Amount": 36764.0,
-        "election_name": "oakland-march-2020"
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 36764.0
       },
       {
-        "Type": "Measure",
-        "Tran_NamF": null,
-        "Tran_NamL": "East Bay Rental Housing Association PAC",
-        "Total_Amount": 27500.0,
-        "election_name": "oakland-march-2020"
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 27500.0
       }
     ]
   },

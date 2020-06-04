@@ -59,45 +59,39 @@
   },
   "top_contributors": [
     {
-      "Tran_NamF": "Bryan",
-      "Tran_NamL": "Parker",
-      "Total_Amount": 45000.0,
-      "election_name": "oakland-2014"
+      "name": "Bryan Parker",
+      "election_name": "oakland-2014",
+      "total_contributions": 45000.0
     },
     {
-      "Tran_NamF": "Len",
-      "Tran_NamL": "Raphael",
-      "Total_Amount": 31623.69,
-      "election_name": "oakland-2014"
+      "name": "Len Raphael",
+      "election_name": "oakland-2014",
+      "total_contributions": 31623.69
     },
     {
-      "Tran_NamF": "Charles",
-      "Tran_NamL": "Williams",
-      "Total_Amount": 11218.0,
-      "election_name": "oakland-2014"
+      "name": "Charles Williams",
+      "election_name": "oakland-2014",
+      "total_contributions": 11218.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Bryan",
-      "Tran_NamL": "Parker",
-      "Total_Amount": 45000.0,
-      "election_name": "oakland-2014"
+      "name": "Bryan Parker",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 45000.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Len",
-      "Tran_NamL": "Raphael",
-      "Total_Amount": 31623.69,
-      "election_name": "oakland-2014"
+      "name": "Len Raphael",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 31623.69
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Charles",
-      "Tran_NamL": "Williams",
-      "Total_Amount": 11218.0,
-      "election_name": "oakland-2014"
+      "name": "Charles Williams",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 11218.0
     }
   ],
   "top_contributors_for_measures": [
@@ -105,48 +99,42 @@
   ],
   "top_spenders": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Bryan",
-      "Tran_NamL": "Parker",
-      "Total_Amount": 45000.0,
-      "election_name": "oakland-2014"
+      "name": "Bryan Parker",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 45000.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Len",
-      "Tran_NamL": "Raphael",
-      "Total_Amount": 31623.69,
-      "election_name": "oakland-2014"
+      "name": "Len Raphael",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 31623.69
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Charles",
-      "Tran_NamL": "Williams",
-      "Total_Amount": 11218.0,
-      "election_name": "oakland-2014"
+      "name": "Charles Williams",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 11218.0
     }
   ],
   "top_spenders_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Bryan",
-      "Tran_NamL": "Parker",
-      "Total_Amount": 45000.0,
-      "election_name": "oakland-2014"
+      "name": "Bryan Parker",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 45000.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Len",
-      "Tran_NamL": "Raphael",
-      "Total_Amount": 31623.69,
-      "election_name": "oakland-2014"
+      "name": "Len Raphael",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 31623.69
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Charles",
-      "Tran_NamL": "Williams",
-      "Total_Amount": 11218.0,
-      "election_name": "oakland-2014"
+      "name": "Charles Williams",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 11218.0
     }
   ],
   "top_spenders_for_measures": [

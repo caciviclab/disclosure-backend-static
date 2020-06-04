@@ -37,22 +37,19 @@
   },
   "top_contributors": [
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "The Friends of the Oakland Public Library",
-      "Total_Amount": 33290.72,
-      "election_name": "oakland-june-2018"
+      "name": "The Friends of the Oakland Public Library",
+      "election_name": "oakland-june-2018",
+      "total_contributions": 33290.72
     },
     {
-      "Tran_NamF": "Mitchell",
-      "Tran_NamL": "Kapor",
-      "Total_Amount": 15000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Mitchell Kapor",
+      "election_name": "oakland-june-2018",
+      "total_contributions": 15000.0
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-      "Total_Amount": 10000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "election_name": "oakland-june-2018",
+      "total_contributions": 10000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -60,48 +57,42 @@
   ],
   "top_contributors_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "The Friends of the Oakland Public Library",
-      "Total_Amount": 33290.72,
-      "election_name": "oakland-june-2018"
+      "name": "The Friends of the Oakland Public Library",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_contributions": 33290.72
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": "Mitchell",
-      "Tran_NamL": "Kapor",
-      "Total_Amount": 15000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Mitchell Kapor",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_contributions": 15000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-      "Total_Amount": 10000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_contributions": 10000.0
     }
   ],
   "top_spenders": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "The Friends of the Oakland Public Library",
-      "Total_Amount": 33290.72,
-      "election_name": "oakland-june-2018"
+      "name": "The Friends of the Oakland Public Library",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_spending": 33290.72
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": "Mitchell",
-      "Tran_NamL": "Kapor",
-      "Total_Amount": 15000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Mitchell Kapor",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_spending": 15000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-      "Total_Amount": 10000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_spending": 10000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -109,25 +100,22 @@
   ],
   "top_spenders_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "The Friends of the Oakland Public Library",
-      "Total_Amount": 33290.72,
-      "election_name": "oakland-june-2018"
+      "name": "The Friends of the Oakland Public Library",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_spending": 33290.72
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": "Mitchell",
-      "Tran_NamL": "Kapor",
-      "Total_Amount": 15000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Mitchell Kapor",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_spending": 15000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-      "Total_Amount": 10000.0,
-      "election_name": "oakland-june-2018"
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-june-2018",
+      "total_spending": 10000.0
     }
   ]
 }

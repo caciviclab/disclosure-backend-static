@@ -59,137 +59,119 @@
   },
   "top_contributors": [
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Community Foundation",
-      "Total_Amount": 500000.0,
-      "election_name": "oakland-2018"
+      "name": "East Bay Community Foundation",
+      "election_name": "oakland-2018",
+      "total_contributions": 500000.0
     },
     {
-      "Tran_NamF": "Arthur",
-      "Tran_NamL": "Rock",
-      "Total_Amount": 250000.0,
-      "election_name": "oakland-2018"
+      "name": "Arthur Rock",
+      "election_name": "oakland-2018",
+      "total_contributions": 250000.0
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 222500.0,
-      "election_name": "oakland-2018"
+      "name": "National Association of Realtors",
+      "election_name": "oakland-2018",
+      "total_contributions": 222500.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Brenda",
-      "Tran_NamL": "Roberts",
-      "Total_Amount": 53757.13,
-      "election_name": "oakland-2018"
+      "name": "Brenda Roberts",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_contributions": 53757.13
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Charlie",
-      "Tran_NamL": "Michelson",
-      "Total_Amount": 15700.0,
-      "election_name": "oakland-2018"
+      "name": "Charlie Michelson",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_contributions": 15700.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Total_Amount": 8796.6,
-      "election_name": "oakland-2018"
+      "name": "Saied Karamooz",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_contributions": 8796.6
     }
   ],
   "top_contributors_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Community Foundation",
-      "Total_Amount": 500000.0,
-      "election_name": "oakland-2018"
+      "name": "East Bay Community Foundation",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_contributions": 500000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": "Arthur",
-      "Tran_NamL": "Rock",
-      "Total_Amount": 250000.0,
-      "election_name": "oakland-2018"
+      "name": "Arthur Rock",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_contributions": 250000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 222500.0,
-      "election_name": "oakland-2018"
+      "name": "National Association of Realtors",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_contributions": 222500.0
     }
   ],
   "top_spenders": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Community Foundation",
-      "Total_Amount": 500000.0,
-      "election_name": "oakland-2018"
+      "name": "East Bay Community Foundation",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_spending": 500000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": "Arthur",
-      "Tran_NamL": "Rock",
-      "Total_Amount": 250000.0,
-      "election_name": "oakland-2018"
+      "name": "Arthur Rock",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_spending": 250000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 222500.0,
-      "election_name": "oakland-2018"
+      "name": "National Association of Realtors",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_spending": 222500.0
     }
   ],
   "top_spenders_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Brenda",
-      "Tran_NamL": "Roberts",
-      "Total_Amount": 53757.13,
-      "election_name": "oakland-2018"
+      "name": "Brenda Roberts",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_spending": 53757.13
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Charlie",
-      "Tran_NamL": "Michelson",
-      "Total_Amount": 15700.0,
-      "election_name": "oakland-2018"
+      "name": "Charlie Michelson",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_spending": 15700.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Total_Amount": 8796.6,
-      "election_name": "oakland-2018"
+      "name": "Saied Karamooz",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_spending": 8796.6
     }
   ],
   "top_spenders_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Community Foundation",
-      "Total_Amount": 500000.0,
-      "election_name": "oakland-2018"
+      "name": "East Bay Community Foundation",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_spending": 500000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": "Arthur",
-      "Tran_NamL": "Rock",
-      "Total_Amount": 250000.0,
-      "election_name": "oakland-2018"
+      "name": "Arthur Rock",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_spending": 250000.0
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "National Association of Realtors",
-      "Total_Amount": 222500.0,
-      "election_name": "oakland-2018"
+      "name": "National Association of Realtors",
+      "type": "Measure",
+      "election_name": "oakland-2018",
+      "total_spending": 222500.0
     }
   ]
 }

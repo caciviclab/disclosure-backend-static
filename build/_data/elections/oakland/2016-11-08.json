@@ -59,137 +59,119 @@
   },
   "top_contributors": [
     {
-      "Tran_NamF": "MICHAEL",
-      "Tran_NamL": "BLOOMBERG",
-      "Total_Amount": 9357387.2,
-      "election_name": "oakland-2016"
+      "name": "MICHAEL BLOOMBERG",
+      "election_name": "oakland-2016",
+      "total_contributions": 9357387.2
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-      "Total_Amount": 7905502.73,
-      "election_name": "oakland-2016"
+      "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "election_name": "oakland-2016",
+      "total_contributions": 7905502.73
     },
     {
-      "Tran_NamF": null,
-      "Tran_NamL": "ACTION NOW INITIATIVE",
-      "Total_Amount": 1075000.0,
-      "election_name": "oakland-2016"
+      "name": "ACTION NOW INITIATIVE",
+      "election_name": "oakland-2016",
+      "total_contributions": 1075000.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Rebecca D.",
-      "Tran_NamL": "Kaplan",
-      "Total_Amount": 48050.0,
-      "election_name": "oakland-2016"
+      "name": "Rebecca D. Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2016",
+      "total_contributions": 48050.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Bruce",
-      "Tran_NamL": "Quan",
-      "Total_Amount": 39366.14,
-      "election_name": "oakland-2016"
+      "name": "Bruce Quan",
+      "type": "Office",
+      "election_name": "oakland-2016",
+      "total_contributions": 39366.14
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Transport Oakland",
-      "Total_Amount": 7300.0,
-      "election_name": "oakland-2016"
+      "name": "Transport Oakland",
+      "type": "Office",
+      "election_name": "oakland-2016",
+      "total_contributions": 7300.0
     }
   ],
   "top_contributors_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": "MICHAEL",
-      "Tran_NamL": "BLOOMBERG",
-      "Total_Amount": 9357387.2,
-      "election_name": "oakland-2016"
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_contributions": 9357387.2
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-      "Total_Amount": 7905502.73,
-      "election_name": "oakland-2016"
+      "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_contributions": 7905502.73
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "ACTION NOW INITIATIVE",
-      "Total_Amount": 1075000.0,
-      "election_name": "oakland-2016"
+      "name": "ACTION NOW INITIATIVE",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_contributions": 1075000.0
     }
   ],
   "top_spenders": [
     {
-      "Type": "Measure",
-      "Tran_NamF": "MICHAEL",
-      "Tran_NamL": "BLOOMBERG",
-      "Total_Amount": 9357387.2,
-      "election_name": "oakland-2016"
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_spending": 9357387.2
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-      "Total_Amount": 7905502.73,
-      "election_name": "oakland-2016"
+      "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_spending": 7905502.73
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "ACTION NOW INITIATIVE",
-      "Total_Amount": 1075000.0,
-      "election_name": "oakland-2016"
+      "name": "ACTION NOW INITIATIVE",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_spending": 1075000.0
     }
   ],
   "top_spenders_for_offices": [
     {
-      "Type": "Office",
-      "Tran_NamF": "Rebecca D.",
-      "Tran_NamL": "Kaplan",
-      "Total_Amount": 48050.0,
-      "election_name": "oakland-2016"
+      "name": "Rebecca D. Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2016",
+      "total_spending": 48050.0
     },
     {
-      "Type": "Office",
-      "Tran_NamF": "Bruce",
-      "Tran_NamL": "Quan",
-      "Total_Amount": 39366.14,
-      "election_name": "oakland-2016"
+      "name": "Bruce Quan",
+      "type": "Office",
+      "election_name": "oakland-2016",
+      "total_spending": 39366.14
     },
     {
-      "Type": "Office",
-      "Tran_NamF": null,
-      "Tran_NamL": "Transport Oakland",
-      "Total_Amount": 7300.0,
-      "election_name": "oakland-2016"
+      "name": "Transport Oakland",
+      "type": "Office",
+      "election_name": "oakland-2016",
+      "total_spending": 7300.0
     }
   ],
   "top_spenders_for_measures": [
     {
-      "Type": "Measure",
-      "Tran_NamF": "MICHAEL",
-      "Tran_NamL": "BLOOMBERG",
-      "Total_Amount": 9357387.2,
-      "election_name": "oakland-2016"
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_spending": 9357387.2
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
-      "Total_Amount": 7905502.73,
-      "election_name": "oakland-2016"
+      "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_spending": 7905502.73
     },
     {
-      "Type": "Measure",
-      "Tran_NamF": null,
-      "Tran_NamL": "ACTION NOW INITIATIVE",
-      "Total_Amount": 1075000.0,
-      "election_name": "oakland-2016"
+      "name": "ACTION NOW INITIATIVE",
+      "type": "Measure",
+      "election_name": "oakland-2016",
+      "total_spending": 1075000.0
     }
   ]
 }
