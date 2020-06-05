@@ -5,4 +5,5 @@ filer_id: '1421001'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Robert Jackson
+website_url: https://www.jacksonforeastoakland.com/
 ---

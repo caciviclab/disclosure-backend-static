@@ -5,4 +5,6 @@ filer_id: '1421466'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Esmeralda Cortez Rosales
+twitter_url: ECRforoakland
+website_url: http://esmeraldaforoakland.nationbuilder.com/
 ---

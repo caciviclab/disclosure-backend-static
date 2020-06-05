@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2020-11-03.md
-committee_name: Jeremy Gong for Oakland City Council District 1 2020
+committee_name: No committee registered
 filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-name: Jeremy Gong
+name: Van Cedric Williams
 ---
