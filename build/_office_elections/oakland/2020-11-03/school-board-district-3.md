@@ -6,7 +6,6 @@ candidates:
 - maiya-edgerly
 - saran-russell
 - tyron-jordan
-- van-cedric-williams
 title: School Board District 3
 label: Oakland Unified School District
 ---

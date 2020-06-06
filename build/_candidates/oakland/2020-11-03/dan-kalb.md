@@ -7,4 +7,6 @@ is_incumbent: true
 name: Dan Kalb
 occupation: City Council member
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png
+twitter_url: DanKalb
+website_url: https://www.dankalb.net/
 ---

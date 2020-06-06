@@ -9,4 +9,5 @@ occupation: City Council member At-Large
 party_affiliation: Democrat
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png
 twitter_url: kaplan4oakland
+website_url: http://kaplanforoakland.org/
 ---

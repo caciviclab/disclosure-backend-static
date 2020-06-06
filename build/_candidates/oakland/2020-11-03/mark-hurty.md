@@ -5,4 +5,6 @@ filer_id: '1422177'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Mark Hurty
+twitter_url: MarkForOakland
+website_url: https://markforoakland.com/
 ---
