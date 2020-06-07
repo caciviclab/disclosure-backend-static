@@ -6,4 +6,6 @@ filer_id: '1426138'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Tri Ngo
+twitter_url: votetri
+website_url: https://www.votetri.com
 ---
