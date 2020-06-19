@@ -4,6 +4,7 @@ candidates:
 - treva-reid
 - robert-jackson
 - esmeralda-cortez-rosales
+- alex-shapiro
 - marchon-tatmon
 - marcie-hodge
 - tyrone-stevenson
