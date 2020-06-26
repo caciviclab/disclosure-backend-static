@@ -6,4 +6,5 @@ candidates:
 - karl-debro
 - nina-senn
 title: OUSD School Director District 4
+label: Oakland Unified School District
 ---

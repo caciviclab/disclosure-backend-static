@@ -4,4 +4,5 @@ candidates:
 - brenda-roberts
 - len-raphael
 title: City Auditor
+label: City-Wide Office
 ---

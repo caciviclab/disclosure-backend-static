@@ -7,4 +7,5 @@ candidates:
 - james-moore
 - vicente-cruz
 title: City Council District 6
+label: City Council
 ---

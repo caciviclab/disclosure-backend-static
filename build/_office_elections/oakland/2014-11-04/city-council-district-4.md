@@ -6,4 +6,5 @@ candidates:
 - nicolas-heidorn
 - paul-lim
 title: City Council District 4
+label: City Council
 ---

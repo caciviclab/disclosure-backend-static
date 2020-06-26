@@ -4,4 +4,5 @@ candidates:
 - aimee-eng
 - william-bo-ghirardelli
 title: OUSD School Director District 2
+label: Oakland Unified School District
 ---

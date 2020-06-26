@@ -18,4 +18,5 @@ candidates:
 - rebecca-kaplan
 - summuel-washington
 title: Mayor
+label: City-Wide Office
 ---

@@ -7,4 +7,5 @@ candidates:
 - kevin-blackburn
 - ken-maxey
 title: City Council District 2
+label: City Council
 ---

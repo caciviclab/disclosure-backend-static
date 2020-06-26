@@ -1,9 +1,0 @@
----
-election: '2018-11-06'
-locality: sf
-number: 
-title: EXPANDS LOCAL GOVERNMENTS' AUTHORITY TO ENACT RENT CONTROL ON RESIDENTIAL PROPERTY.
-  INTIATIVE STATUTE. (17-0041)
-data_warning: 
----
-
