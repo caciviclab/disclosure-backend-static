@@ -1,8 +1,8 @@
 ---
 election: '2020-11-03'
 locality: oakland
-number: 
-title: PENDING
+number: Not assigned
+title: OUSD Facilities Bond
 data_warning: 
 ---
 
