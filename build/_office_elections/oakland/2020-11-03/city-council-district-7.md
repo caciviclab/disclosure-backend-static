@@ -5,6 +5,8 @@ candidates:
 - robert-jackson
 - esmeralda-cortez-rosales
 - alex-shapiro
+- chaney-turner
+- ken-houston
 - marchon-tatmon
 - marcie-hodge
 - tyrone-stevenson

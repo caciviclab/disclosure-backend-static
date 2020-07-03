@@ -2,6 +2,7 @@
 election: _elections/oakland/2020-11-03.md
 candidates:
 - ay-anna-moody
+- ben-tapscott
 - clifford-thompson
 - kristynloreth-kristina-molina
 - victor-valerio

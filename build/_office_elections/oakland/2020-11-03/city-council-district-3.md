@@ -6,6 +6,7 @@ candidates:
 - carroll-fife
 - faye-taylor
 - jesse-alexander
+- meron-semedar
 - noel-pico
 title: City Council District 3
 label: City Council
