@@ -9,6 +9,7 @@ candidates:
 - ken-houston
 - marchon-tatmon
 - marcie-hodge
+- olivia-rodriguez
 - tyrone-stevenson
 title: City Council District 7
 label: City Council

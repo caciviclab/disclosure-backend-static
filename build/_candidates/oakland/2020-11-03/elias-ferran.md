@@ -5,4 +5,5 @@ filer_id: '1426949'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Elias Ferran
+occupation: Deputy City Attorney
 ---
