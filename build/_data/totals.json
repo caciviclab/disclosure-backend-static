@@ -651,25 +651,25 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 226856.2,
+    "total_contributions": 304651.2,
     "total_contributions_by_source": {
-      "Out of State": 12973.84,
-      "Within Oakland": 99296.51000000001,
-      "Within California": 98430.70999999999
+      "Out of State": 14673.84,
+      "Within Oakland": 132496.51,
+      "Within California": 137393.71
     },
     "contributions_by_type": {
-      "Committee": 17723.67,
-      "Individual": 171652.39,
-      "Unitemized": 15842.82,
+      "Committee": 26723.67,
+      "Individual": 233715.39,
+      "Unitemized": 19774.82,
       "Self Funding": 1300.0,
-      "Other (includes Businesses)": 20025.0
+      "Other (includes Businesses)": 22825.0
     },
     "most_expensive_races": [
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 95371.03
+        "amount": 173166.03
       },
       {
         "slug": "city-council-district-7",
@@ -721,26 +721,26 @@
         "total_contributions": 4192.47
       },
       {
-        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "name": "UA Local 342 PAC Fund",
         "election_name": "oakland-2020",
         "total_contributions": 1700.0
       }
     ],
     "top_contributors_for_offices": [
       {
+        "name": "UA Local 342 PAC Fund",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 1700.0
+      },
+      {
+        "name": "Sprinkler Fitters & Apprentices Local 483 PAC",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 1700.0
+      },
+      {
         "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_contributions": 1700.0
-      },
-      {
-        "name": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_contributions": 1700.0
-      },
-      {
-        "name": "Northern California Carpenters Regional Council Small Contributor Committee",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 1700.0
@@ -780,7 +780,7 @@
         "total_spending": 4192.47
       },
       {
-        "name": "Northern California Carpenters Regional Council Small Contributor Committee",
+        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 1700.0
@@ -788,19 +788,19 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "UA Local 342 PAC Fund",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 1700.0
+      },
+      {
+        "name": "Sprinkler Fitters & Apprentices Local 483 PAC",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 1700.0
+      },
+      {
         "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_spending": 1700.0
-      },
-      {
-        "name": "Operating Engineers Local Union No. 3 District 20 PAC Small Contributor Committee",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_spending": 1700.0
-      },
-      {
-        "name": "Northern California Carpenters Regional Council Small Contributor Committee",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 1700.0
