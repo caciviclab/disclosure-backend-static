@@ -16,4 +16,4 @@ cache:
 addons:
   postgresql: '9.6'
 script:
-  - make clean download -j2 && make import -j2 && make process && ./bin/travis-deploy
+  - make clean download -j2 && make import -j2 && make process && ./bin/travis-deploy && ./bin/travis-reindex
