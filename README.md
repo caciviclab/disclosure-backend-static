@@ -43,19 +43,18 @@ this after you've downloaded new data.
 
     $ make import
 
-Run the calculators.
+Run the calculators. Everything is output into the "build" folder.
 
     $ make process
 
-# everything is output into the "build" folder
-```
+Optionally, reindex the build outputs into Algolia. (Reindexing requires the
+ALGOLIASEARCH_APPLICATION_ID and ALGOLIASEARCH_API_KEY environment variables).
+
+    $ make reindex
 
 If you want to serve the static JSON files via a local web server:
 
-```bash
-make run
-```
-
+    $ make run
 
 ## Developing
 ### Adding a calculator
