@@ -31,42 +31,9 @@ puts "Indexing #{candidate_data.length} Candidates..."
 index.add_objects(candidate_data)
 
 contributor_data = []
-Candidate.includes(:election, :office_election).find_each do |candidate|
-  committee = Committee.find_by(Filer_ID: candidate.FPPC)
-  if committee.nil?
-    next
-  end
-  list = committee.calculation(:contribution_list).map do |contributor|
-    {
-      type: :contributor,
-      first_name: contributor['Tran_NamF'],
-      last_name: contributor['Tran_NamL'],
-      amount: contributor['Tran_Amt1'],
-      name: candidate['Candidate'],
-      candidate_slug: slugify(candidate['Candidate']),
-      office_label: candidate.office_election.label,
-      office_title: candidate.office_election.title,
-      office_slug: slugify(candidate.office_election.title),
-      election_slug: candidate.election.name,
-      election_location: candidate.election.location,
-      election_date: candidate.election.date,
-      election_title: candidate.election.title,
-    }
-  end
-  unless list.nil?
-    contributor_data += list
-  end
-end
-puts "Indexing #{contributor_data.length} Contributors..."
-index.add_objects(contributor_data)
-
-contributor_data = []
-Candidate.includes(:election, :office_election).find_each do |candidate|
-  committee = Committee.find_by(Filer_ID: candidate.FPPC)
-  if committee.nil?
-    next
-  end
-  list = committee.calculation(:contribution_list).map do |contributor|
+Candidate.includes(:election, :committee, :office_election).find_each do |candidate|
+  next if candidate.committee.nil?
+  list = candidate.committee.calculation(:contribution_list).map do |contributor|
     {
       type: :contributor,
       first_name: contributor['Tran_NamF'],

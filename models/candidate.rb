@@ -1,6 +1,7 @@
 class Candidate < ActiveRecord::Base
   include HasCalculations
 
+  has_one :committee, foreign_key: 'Filer_ID', primary_key: 'FPPC'
   belongs_to :office_election, foreign_key: 'Office', primary_key: 'title'
   belongs_to :election, foreign_key: 'election_name', primary_key: 'name'
 
