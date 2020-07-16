@@ -8,6 +8,7 @@ class ElectionTopContributor
         Sum("Tran_Amt1") as total_contributions
       FROM "combined_contributions"
       WHERE "election_name" <> ''
+      AND "Committee_Type" IN ('CAO', 'CTL', 'BMC', 'SMO')
       GROUP BY "election_name", type, name;
     SQL
 
