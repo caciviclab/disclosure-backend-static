@@ -77,12 +77,12 @@ DROP VIEW IF EXISTS all_contributions;
 CREATE VIEW  all_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
     "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-    "Tran_Occ", "Tran_Emp"
+    "Tran_Occ", "Tran_Emp", "Committee_Type"
   FROM "A-Contributions"
   UNION ALL
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
     "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-    "Tran_Occ", "Tran_Emp"
+    "Tran_Occ", "Tran_Emp", "Committee_Type"
   FROM "C-Contributions"
   UNION ALL
   SELECT
@@ -96,7 +96,8 @@ CREATE VIEW  all_contributions AS
     "Enty_ST" as "Tran_State",
     "Enty_Zip4" as "Tran_Zip4",
     "Ctrib_Occ" as "Tran_Occ",
-    "Ctrib_Emp" as "Tran_Emp"
+    "Ctrib_Emp" as "Tran_Emp",
+    "Committee_Type"
   FROM "497"
   WHERE "Form_Type" = 'F497P1';
 
@@ -104,7 +105,7 @@ CREATE VIEW candidate_contributions AS
   SELECT "Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
       "Tran_Occ", "Tran_Emp", elections.location, election_name,
-      'Office'::VARCHAR as "Type"
+      'Office'::VARCHAR as "Type", "Committee_Type"
 FROM all_contributions
   JOIN candidates
   ON "FPPC"::varchar = all_contributions."Filer_ID"
@@ -117,7 +118,7 @@ CREATE VIEW measure_contributions AS
   SELECT all_contributions."Filer_ID", "Entity_Cd", "Tran_Amt1", "Tran_NamF",
       "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
       "Tran_Occ", "Tran_Emp", elections.location, elections.name AS election_name,
-      'Measure'::VARCHAR as "Type"
+      'Measure'::VARCHAR as "Type", "Committee_Type"
 FROM all_contributions
   JOIN (
     SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date", "Ballot_Measure_Election"
