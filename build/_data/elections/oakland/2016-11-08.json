@@ -6,7 +6,7 @@
     "Within California": 9350484.879999999
   },
   "contributions_by_type": {
-    "Committee": 9083914.03,
+    "Committee": 9083914.030000001,
     "Individual": 10453339.77,
     "Unitemized": 70132.93,
     "Self Funding": 92561.14,
@@ -29,7 +29,7 @@
       "slug": "infrastructure-and-housing-bonds",
       "type": "referendum",
       "title": "Measure KK",
-      "amount": 450809.58
+      "amount": 450809.57999999996
     }
   ],
   "largest_small_proportion": [
@@ -38,21 +38,24 @@
       "type": "office",
       "title": "Oakland November 8th, 2016 Election",
       "candidate": "Nancy Sidebotham",
-      "proportion": 1.0
+      "proportion": 1.0,
+      "office_title": "City Council At-Large"
     },
     {
       "slug": "kharyshi-wiginton",
       "type": "office",
       "title": "Oakland November 8th, 2016 Election",
       "candidate": "Kharyshi Wiginton",
-      "proportion": 0.27462311557788943
+      "proportion": 0.27462311557788943,
+      "office_title": "School Board District 3"
     },
     {
       "slug": "chris-jackson",
       "type": "office",
       "title": "Oakland November 8th, 2016 Election",
       "candidate": "Chris Jackson",
-      "proportion": 0.25406141022369655
+      "proportion": 0.25406141022369655,
+      "office_title": "School Board District 7"
     }
   ],
   "largest_independent_expenditures": {

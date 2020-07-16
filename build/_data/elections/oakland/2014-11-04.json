@@ -2,14 +2,14 @@
   "total_contributions": 2020351.7600000002,
   "total_contributions_by_source": {
     "Out of State": 118791.94,
-    "Within Oakland": 941602.77,
+    "Within Oakland": 941602.7699999998,
     "Within California": 651191.06
   },
   "contributions_by_type": {
     "Committee": 89195.35,
     "Individual": 1345198.4,
     "Unitemized": 122693.37999999999,
-    "Self Funding": 120324.79999999999,
+    "Self Funding": 120324.8,
     "Other (includes Businesses)": 156867.22
   },
   "most_expensive_races": [
@@ -38,21 +38,24 @@
       "type": "office",
       "title": "Oakland November 4th Election",
       "candidate": "Nina Senn",
-      "proportion": 0.3983409395973154
+      "proportion": 0.3983409395973154,
+      "office_title": "OUSD School Director District 4"
     },
     {
       "slug": "renato-almanzor",
       "type": "office",
       "title": "Oakland November 4th Election",
       "candidate": "Renato Almanzor",
-      "proportion": 0.24336392954601835
+      "proportion": 0.24336392954601835,
+      "office_title": "OUSD School Director District 6"
     },
     {
       "slug": "shanthi-gonzales",
       "type": "office",
       "title": "Oakland November 4th Election",
       "candidate": "Shanthi Gonzales",
-      "proportion": 0.16707099015054414
+      "proportion": 0.16707099015054414,
+      "office_title": "OUSD School Director District 6"
     }
   ],
   "largest_independent_expenditures": {
@@ -66,7 +69,7 @@
     {
       "name": "Len Raphael",
       "election_name": "oakland-2014",
-      "total_contributions": 31623.69
+      "total_contributions": 31623.690000000002
     },
     {
       "name": "Charles Williams",
@@ -85,7 +88,7 @@
       "name": "Len Raphael",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_contributions": 31623.69
+      "total_contributions": 31623.690000000002
     },
     {
       "name": "Charles Williams",
@@ -108,7 +111,7 @@
       "name": "Len Raphael",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 31623.69
+      "total_spending": 31623.690000000002
     },
     {
       "name": "Charles Williams",
@@ -128,7 +131,7 @@
       "name": "Len Raphael",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 31623.69
+      "total_spending": 31623.690000000002
     },
     {
       "name": "Charles Williams",

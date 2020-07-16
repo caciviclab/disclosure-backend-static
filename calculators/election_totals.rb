@@ -36,6 +36,7 @@ class ElectionTotal
             small_proportion.append({
               title: election['title'],
               type: 'office',
+              office_title: candidate.office_election.title,
               slug: slugify(candidate['Candidate']),
               candidate: candidate['Candidate'],
               proportion: candidate.calculation(:total_small_contributions) / total.to_f
