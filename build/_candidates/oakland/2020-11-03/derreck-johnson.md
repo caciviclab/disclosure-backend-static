@@ -5,4 +5,5 @@ filer_id: '1426780'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Derreck Johnson
+photo_url: derreck-johnson.jpg
 ---
