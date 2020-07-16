@@ -3,14 +3,14 @@
     "total_contributions": 2020351.7600000002,
     "total_contributions_by_source": {
       "Out of State": 118791.94,
-      "Within Oakland": 941602.77,
+      "Within Oakland": 941602.7699999998,
       "Within California": 651191.06
     },
     "contributions_by_type": {
       "Committee": 89195.35,
       "Individual": 1345198.4,
       "Unitemized": 122693.37999999999,
-      "Self Funding": 120324.79999999999,
+      "Self Funding": 120324.8,
       "Other (includes Businesses)": 156867.22
     },
     "most_expensive_races": [
@@ -39,21 +39,24 @@
         "type": "office",
         "title": "Oakland November 4th Election",
         "candidate": "Nina Senn",
-        "proportion": 0.3983409395973154
+        "proportion": 0.3983409395973154,
+        "office_title": "OUSD School Director District 4"
       },
       {
         "slug": "renato-almanzor",
         "type": "office",
         "title": "Oakland November 4th Election",
         "candidate": "Renato Almanzor",
-        "proportion": 0.24336392954601835
+        "proportion": 0.24336392954601835,
+        "office_title": "OUSD School Director District 6"
       },
       {
         "slug": "shanthi-gonzales",
         "type": "office",
         "title": "Oakland November 4th Election",
         "candidate": "Shanthi Gonzales",
-        "proportion": 0.16707099015054414
+        "proportion": 0.16707099015054414,
+        "office_title": "OUSD School Director District 6"
       }
     ],
     "largest_independent_expenditures": {
@@ -67,7 +70,7 @@
       {
         "name": "Len Raphael",
         "election_name": "oakland-2014",
-        "total_contributions": 31623.69
+        "total_contributions": 31623.690000000002
       },
       {
         "name": "Charles Williams",
@@ -86,7 +89,7 @@
         "name": "Len Raphael",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_contributions": 31623.69
+        "total_contributions": 31623.690000000002
       },
       {
         "name": "Charles Williams",
@@ -109,7 +112,7 @@
         "name": "Len Raphael",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 31623.69
+        "total_spending": 31623.690000000002
       },
       {
         "name": "Charles Williams",
@@ -129,7 +132,7 @@
         "name": "Len Raphael",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 31623.69
+        "total_spending": 31623.690000000002
       },
       {
         "name": "Charles Williams",
@@ -183,7 +186,7 @@
       "Within California": 9350484.879999999
     },
     "contributions_by_type": {
-      "Committee": 9083914.03,
+      "Committee": 9083914.030000001,
       "Individual": 10453339.77,
       "Unitemized": 70132.93,
       "Self Funding": 92561.14,
@@ -206,7 +209,7 @@
         "slug": "infrastructure-and-housing-bonds",
         "type": "referendum",
         "title": "Measure KK",
-        "amount": 450809.58
+        "amount": 450809.57999999996
       }
     ],
     "largest_small_proportion": [
@@ -215,21 +218,24 @@
         "type": "office",
         "title": "Oakland November 8th, 2016 Election",
         "candidate": "Nancy Sidebotham",
-        "proportion": 1.0
+        "proportion": 1.0,
+        "office_title": "City Council At-Large"
       },
       {
         "slug": "kharyshi-wiginton",
         "type": "office",
         "title": "Oakland November 8th, 2016 Election",
         "candidate": "Kharyshi Wiginton",
-        "proportion": 0.27462311557788943
+        "proportion": 0.27462311557788943,
+        "office_title": "School Board District 3"
       },
       {
         "slug": "chris-jackson",
         "type": "office",
         "title": "Oakland November 8th, 2016 Election",
         "candidate": "Chris Jackson",
-        "proportion": 0.25406141022369655
+        "proportion": 0.25406141022369655,
+        "office_title": "School Board District 7"
       }
     ],
     "largest_independent_expenditures": {
@@ -401,7 +407,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
       }
@@ -484,7 +490,7 @@
       "Committee": 969489.14,
       "Individual": 2739175.5,
       "Unitemized": 158326.48,
-      "Self Funding": 81959.93999999999,
+      "Self Funding": 81959.94,
       "Other (includes Businesses)": 2687273.8200000003
     },
     "most_expensive_races": [
@@ -504,7 +510,7 @@
         "slug": "vacant-property-parcel-tax",
         "type": "referendum",
         "title": "Measure W",
-        "amount": 776996.5800000001
+        "amount": 776996.58
       }
     ],
     "largest_small_proportion": [
@@ -513,21 +519,24 @@
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
         "candidate": "Clarissa Doutherd",
-        "proportion": 0.3823599768467386
+        "proportion": 0.3823599768467386,
+        "office_title": "OUSD District 4"
       },
       {
         "slug": "cat-brooks",
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
         "candidate": "Cat Brooks",
-        "proportion": 0.3735887090492526
+        "proportion": 0.3735887090492527,
+        "office_title": "Mayor"
       },
       {
         "slug": "marchon-tatmon",
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
         "candidate": "Marchon Tatmon",
-        "proportion": 0.3259331478814659
+        "proportion": 0.3259331478814659,
+        "office_title": "Mayor"
       }
     ],
     "largest_independent_expenditures": {
@@ -554,7 +563,7 @@
         "name": "Brenda Roberts",
         "type": "Office",
         "election_name": "oakland-2018",
-        "total_contributions": 53757.13
+        "total_contributions": 53757.130000000005
       },
       {
         "name": "Charlie Michelson",
@@ -574,7 +583,7 @@
         "name": "East Bay Community Foundation",
         "type": "Measure",
         "election_name": "oakland-2018",
-        "total_contributions": 500000.0
+        "total_contributions": 440000.0
       },
       {
         "name": "Arthur Rock",
@@ -614,7 +623,7 @@
         "name": "Brenda Roberts",
         "type": "Office",
         "election_name": "oakland-2018",
-        "total_spending": 53757.13
+        "total_spending": 53757.130000000005
       },
       {
         "name": "Charlie Michelson",
@@ -655,7 +664,7 @@
     "total_contributions_by_source": {
       "Out of State": 14673.84,
       "Within Oakland": 132496.51,
-      "Within California": 137393.71
+      "Within California": 137393.71000000002
     },
     "contributions_by_type": {
       "Committee": 26723.67,
@@ -690,21 +699,24 @@
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Esmeralda Cortez Rosales",
-        "proportion": 0.30365816636308446
+        "proportion": 0.30365816636308446,
+        "office_title": "City Council District 7"
       },
       {
         "slug": "benjamin-sam-davis",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Benjamin \"Sam\" Davis",
-        "proportion": 0.17897458696796412
+        "proportion": 0.17897458696796412,
+        "office_title": "School Board District 1"
       },
       {
         "slug": "rebecca-kaplan",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Rebecca Kaplan",
-        "proportion": 0.08271537951407729
+        "proportion": 0.08271537951407729,
+        "office_title": "City Council At-Large"
       }
     ],
     "largest_independent_expenditures": {
@@ -721,14 +733,14 @@
         "total_contributions": 4192.47
       },
       {
-        "name": "UA Local 342 PAC Fund",
+        "name": "Ces Butner",
         "election_name": "oakland-2020",
         "total_contributions": 1700.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "name": "UA Local 342 PAC Fund",
+        "name": "Laborers Local 304 PAC Account Small Contributor Committee",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 1700.0
@@ -740,7 +752,7 @@
         "total_contributions": 1700.0
       },
       {
-        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "name": "Northern California Carpenters Regional Council SCC",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 1700.0
@@ -748,22 +760,22 @@
     ],
     "top_contributors_for_measures": [
       {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_contributions": 73200.0
-      },
-      {
-        "name": "Oakland Police Officers Association General Fund",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_contributions": 4192.47
-      },
-      {
         "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_contributions": 1187.0
+      },
+      {
+        "name": "International Association of Firefighters Local 55",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 1050.0
+      },
+      {
+        "name": "Jamie Knudsen",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 500.0
       }
     ],
     "top_spenders": [
@@ -780,7 +792,7 @@
         "total_spending": 4192.47
       },
       {
-        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "name": "Northern California Carpenters Regional Council SCC",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 1700.0
@@ -788,7 +800,7 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "UA Local 342 PAC Fund",
+        "name": "Laborers Local 304 PAC Account Small Contributor Committee",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 1700.0
@@ -800,7 +812,7 @@
         "total_spending": 1700.0
       },
       {
-        "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+        "name": "Northern California Carpenters Regional Council SCC",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 1700.0

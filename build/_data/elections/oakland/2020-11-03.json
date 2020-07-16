@@ -3,7 +3,7 @@
   "total_contributions_by_source": {
     "Out of State": 14673.84,
     "Within Oakland": 132496.51,
-    "Within California": 137393.71
+    "Within California": 137393.71000000002
   },
   "contributions_by_type": {
     "Committee": 26723.67,
@@ -38,21 +38,24 @@
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Esmeralda Cortez Rosales",
-      "proportion": 0.30365816636308446
+      "proportion": 0.30365816636308446,
+      "office_title": "City Council District 7"
     },
     {
       "slug": "benjamin-sam-davis",
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Benjamin \"Sam\" Davis",
-      "proportion": 0.17897458696796412
+      "proportion": 0.17897458696796412,
+      "office_title": "School Board District 1"
     },
     {
       "slug": "rebecca-kaplan",
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Rebecca Kaplan",
-      "proportion": 0.08271537951407729
+      "proportion": 0.08271537951407729,
+      "office_title": "City Council At-Large"
     }
   ],
   "largest_independent_expenditures": {
@@ -69,14 +72,14 @@
       "total_contributions": 4192.47
     },
     {
-      "name": "UA Local 342 PAC Fund",
+      "name": "Ces Butner",
       "election_name": "oakland-2020",
       "total_contributions": 1700.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "name": "UA Local 342 PAC Fund",
+      "name": "Laborers Local 304 PAC Account Small Contributor Committee",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_contributions": 1700.0
@@ -88,7 +91,7 @@
       "total_contributions": 1700.0
     },
     {
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "name": "Northern California Carpenters Regional Council SCC",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_contributions": 1700.0
@@ -96,22 +99,22 @@
   ],
   "top_contributors_for_measures": [
     {
-      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-      "type": "Measure",
-      "election_name": "oakland-2020",
-      "total_contributions": 73200.0
-    },
-    {
-      "name": "Oakland Police Officers Association General Fund",
-      "type": "Measure",
-      "election_name": "oakland-2020",
-      "total_contributions": 4192.47
-    },
-    {
       "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
       "type": "Measure",
       "election_name": "oakland-2020",
       "total_contributions": 1187.0
+    },
+    {
+      "name": "International Association of Firefighters Local 55",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 1050.0
+    },
+    {
+      "name": "Jamie Knudsen",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 500.0
     }
   ],
   "top_spenders": [
@@ -128,7 +131,7 @@
       "total_spending": 4192.47
     },
     {
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "name": "Northern California Carpenters Regional Council SCC",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_spending": 1700.0
@@ -136,7 +139,7 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "UA Local 342 PAC Fund",
+      "name": "Laborers Local 304 PAC Account Small Contributor Committee",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_spending": 1700.0
@@ -148,7 +151,7 @@
       "total_spending": 1700.0
     },
     {
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "name": "Northern California Carpenters Regional Council SCC",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_spending": 1700.0
