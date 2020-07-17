@@ -45,12 +45,11 @@ candidate_data = Candidate.includes(:election, :office_election).map do |candida
   }
 end
 puts "Indexing #{candidate_data.length} Candidates..."
-index.add_objects(candidate_data)
 
+contributor_data = []
 if options[:skip_contributors]
   puts "Skipping contributor indexing..."
 else
-  contributor_data = []
   Candidate.includes(:election, :committee, :office_election).find_each do |candidate|
     next if candidate.committee.nil?
     list = candidate.committee.calculation(:contribution_list).map do |contributor|
@@ -75,7 +74,6 @@ else
     end
   end
   puts "Indexing #{contributor_data.length} Contributors..."
-  index.add_objects(contributor_data)
 end
 
 referendum_data = Referendum.includes(:election).map do |referendum|
@@ -90,4 +88,6 @@ referendum_data = Referendum.includes(:election).map do |referendum|
   }
 end
 puts "Indexing #{referendum_data.length} Referendums..."
-index.add_objects(referendum_data)
+
+puts "total #{referendum_data.concat(contributor_data.concat(candidate_data)).length}"
+index.replace_all_objects(referendum_data.concat(contributor_data.concat(candidate_data)))
