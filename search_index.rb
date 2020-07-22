@@ -37,7 +37,7 @@ candidate_data = Candidate.includes(:election, :office_election).map do |candida
     office_label: candidate.office_election.label,
     office_title: candidate.office_election.title,
     office_slug: slugify(candidate.office_election.title),
-    slug: slugify(candidate['Candidate']),
+    candidate_slug: slugify(candidate['Candidate']),
     election_slug: candidate.election.name,
     election_location: candidate.election.location,
     election_date: candidate.election.date,
