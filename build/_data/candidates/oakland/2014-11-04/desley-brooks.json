@@ -1,5 +1,5 @@
 {
-  "id": 12,
+  "id": 124,
   "name": "Desley Brooks",
   "photo_url": null,
   "website_url": null,
@@ -18,10 +18,10 @@
   "is_winner": null,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 150033.0,
-    "total_contributions": 150033.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 138300.0,
+    "total_contributions": 138300.0,
+    "total_expenditures": 85348.15,
+    "total_loans_received": -2400.0,
     "total_supporting_independent": 47085.67,
     "support_list": [
       {
@@ -44,18 +44,53 @@
       }
     ],
     "contributions_by_type": {
+      "Committee": 10650.0,
+      "Individual": 129233.0,
+      "Unitemized": 2221.0,
+      "Other (includes Businesses)": 10150.0
     },
     "contributions_by_origin": {
+      "Out of State": 2300.0,
+      "Within Oakland": 83174.0,
+      "Within California": 64559.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 3144.0,
     "expenditures_by_type": {
+      "Print Ads": 1600.0,
+      "Not Stated": 9088.93,
+      "Phone Banks": 6950.0,
+      "Contribution": 1400.0,
+      "Legal Defense": 1000.0,
+      "Civic Donations": 8241.74,
+      "Office Expenses": 17027.58,
+      "Fundraising Events": 5327.38,
+      "Campaign Consultants": 40300.0,
+      "Member Communications": 658.19,
+      "Meetings and Appearances": 2307.7,
+      "Campaign Workers' Salaries": 6300.0,
+      "Campaign Paraphernalia/Misc.": 6590.63,
+      "Candidate Filing/Ballot Fees": 1250.0,
+      "Campaign Literature and Mailings": 44808.23,
+      "Candidate Travel, Lodging, and Meals": 2462.04,
+      "Postage, Delivery and Messenger Services": 16472.78,
+      "Professional Services (Legal, Accounting)": 6888.01,
+      "T.V. or Cable Airtime and Production Costs": 1000.0,
+      "Information Technology Costs (Internet, E-mail)": 7366.31
     },
     "supporting_by_type": {
+      "MON": 10800.0,
+      "Mailer": 14542.0,
+      "Doorhanger": 17656.0,
+      "Phone Banking & Field Campaign": 13800.0,
+      "Independent Expenditure Supporting/Opposing Others": 1832.12
     }
   },
   "opposing_money": {
     "opposing_expenditures": 320291.34,
     "opposing_by_type": {
+      "IKD": 14908.0,
+      "MON": 193000.0,
+      "Independent Expenditure Supporting/Opposing Others": 320291.34
     },
     "opposition_list": [
       {
@@ -72,7 +107,7 @@
       }
     ]
   },
-  "total_contributions": 150033.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 138300.0,
+  "total_expenditures": 85348.15,
+  "total_loans_received": -2400.0
 }
