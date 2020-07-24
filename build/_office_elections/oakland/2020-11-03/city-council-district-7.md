@@ -4,6 +4,7 @@ candidates:
 - treva-reid
 - robert-jackson
 - esmeralda-cortez-rosales
+- aaron-clay
 - alex-shapiro
 - chaney-turner
 - ken-houston
