@@ -1,5 +1,5 @@
 {
-  "total_contributions": 20952.0,
+  "total_contributions": 24662.0,
   "contributions": [
     {
       "Filer_ID": "1419930",
@@ -1122,6 +1122,325 @@
       "Tran_NamF": "Roseann",
       "Tran_NamL": "Torres",
       "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "University of California",
+      "Tran_Occ": "IT Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-01-02",
+      "Tran_NamF": "Judy",
+      "Tran_NamL": "Thai",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Siegel, Yee, Brunner, and Mehta",
+      "Tran_Occ": "attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-01-11",
+      "Tran_NamF": "Jane",
+      "Tran_NamL": "Brunner",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Trial Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 120.0,
+      "Tran_Date": "2020-01-23",
+      "Tran_NamF": "Constance",
+      "Tran_NamL": "Bernstein",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "University of California",
+      "Tran_Occ": "attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-01-23",
+      "Tran_NamF": "Anagha",
+      "Tran_NamL": "Clifford",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Albany Unified",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-01-28",
+      "Tran_NamF": "Miriam",
+      "Tran_NamL": "Walden",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Mount Diablo Unified",
+      "Tran_Occ": "Trustee",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-01-29",
+      "Tran_NamF": "Cherise",
+      "Tran_NamL": "Khaund",
+      "Tran_Zip4": "94598"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "photographer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-02-08",
+      "Tran_NamF": "Scott",
+      "Tran_NamL": "Braley",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "UC San Diego",
+      "Tran_Occ": "Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-08",
+      "Tran_NamF": "Peter",
+      "Tran_NamL": "Gourevitch",
+      "Tran_Zip4": "92075"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Diablo Valley College",
+      "Tran_Occ": "Instructor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-20",
+      "Tran_NamF": "Emily",
+      "Tran_NamL": "Fox",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "unemployed",
+      "Tran_Occ": "teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-23",
+      "Tran_NamF": "Jenifer",
+      "Tran_NamL": "Anderson",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "State of California",
+      "Tran_Occ": "safety engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-02-24",
+      "Tran_NamF": "Peter",
+      "Tran_NamL": "Scholz",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Troutman Sanders",
+      "Tran_Occ": "attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 120.0,
+      "Tran_Date": "2020-02-27",
+      "Tran_NamF": "Louise",
+      "Tran_NamL": "Dyble",
+      "Tran_Zip4": "60640"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "San Mateo Foster City School District",
+      "Tran_Occ": "Coordinator of Support for English Learners",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 120.0,
+      "Tran_Date": "2020-02-29",
+      "Tran_NamF": "Dale",
+      "Tran_NamL": "Rogers-Eilers",
+      "Tran_Zip4": "94546"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "American Civil Liberties Union",
+      "Tran_Occ": "attoney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-04-25",
+      "Tran_NamF": "Allyssa",
+      "Tran_NamL": "Victory",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-12",
+      "Tran_NamF": "Ellen",
+      "Tran_NamL": "Brotsky",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Intuit",
+      "Tran_Occ": "Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-06-15",
+      "Tran_NamF": "Kaushik",
+      "Tran_NamL": "Katari",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-06-15",
+      "Tran_NamF": "Katie",
+      "Tran_NamL": "McLane",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Torres Law",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 120.0,
+      "Tran_Date": "2020-06-21",
+      "Tran_NamF": "Roseann",
+      "Tran_NamL": "Torres",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-24",
+      "Tran_NamF": "Katie",
+      "Tran_NamL": "McLane",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-26",
+      "Tran_NamF": "Paul",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94702"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Nurse",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-26",
+      "Tran_NamF": "Catherine",
+      "Tran_NamL": "Lyons",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Self-employed",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2020-06-28",
+      "Tran_NamF": "Becky",
+      "Tran_NamL": "Jaffe",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Susan",
+      "Tran_NamL": "Audap",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Trial Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 60.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Constance",
+      "Tran_NamL": "Bernstein",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Registered Nurse",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 120.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Meg",
+      "Tran_NamL": "Bowerman",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Oakland Unified",
+      "Tran_Occ": "Program Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Simone",
+      "Tran_NamL": "Delucchi",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "City of Berkeley",
+      "Tran_Occ": "City Planner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Justin",
+      "Tran_NamL": "Horner",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Alameda County Office of Education",
+      "Tran_Occ": "retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Sheila",
+      "Tran_NamL": "Jordan",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": "Emervyille Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-06-30",
+      "Tran_NamF": "Katy",
+      "Tran_NamL": "Pieri",
+      "Tran_Zip4": "94609"
     }
   ]
 }

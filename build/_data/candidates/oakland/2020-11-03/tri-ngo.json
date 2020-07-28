@@ -18,20 +18,25 @@
   "is_winner": null,
   "filer_id": 1426138,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 13168.0,
+    "total_contributions": 13168.0,
+    "total_expenditures": 11925.0,
+    "total_loans_received": 10117.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Unitemized": 3051.0
     },
     "contributions_by_origin": {
     },
     "total_small_contributions": null,
     "expenditures_by_type": {
+      "Not Stated": 319.0,
+      "Campaign Consultants": 450.0,
+      "Campaign Workers' Salaries": 8780.0,
+      "Information Technology Costs (Internet, E-mail)": 2034.0
     },
     "supporting_by_type": {
     }
@@ -44,7 +49,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 13168.0,
+  "total_expenditures": 11925.0,
+  "total_loans_received": 10117.0
 }
