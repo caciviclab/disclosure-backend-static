@@ -89,5 +89,6 @@ referendum_data = Referendum.includes(:election).map do |referendum|
 end
 puts "Indexing #{referendum_data.length} Referendums..."
 
-puts "total #{referendum_data.concat(contributor_data.concat(candidate_data)).length}"
-index.replace_all_objects(referendum_data.concat(contributor_data.concat(candidate_data)))
+all_data = referendum_data + contributor_data + candidate_data
+puts "total records: #{all_data.length}"
+index.replace_all_objects(all_data)
