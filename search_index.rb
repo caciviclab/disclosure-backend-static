@@ -76,19 +76,67 @@ else
   puts "Indexing #{contributor_data.length} Contributors..."
 end
 
-referendum_data = Referendum.includes(:election).map do |referendum|
-  {
+referendum_data = []
+ballot_committees = []
+ballot_contrib = []
+Referendum.includes(:election).find_each do |referendum|
+  referendum_data += [{
     type: :referendum,
     title: referendum['Short_Title'],
+    measure: "Measure: " + referendum['Measure_number'],
     slug: slugify(referendum['Short_Title']),
     election_slug: referendum.election.name,
     election_location: referendum.election.location,
     election_date: referendum.election.date,
     election_title: referendum.election.title,
-  }
+  }]
+  [
+    [:supporting_organizations, "Supporting"],
+    [:opposing_organizations, "Opposing"],
+  ].each do |calculation, supporting|
+    list = referendum.calculation(calculation)
+    next if list.nil?
+
+    list.each do |committee|
+      ballot_committees += [{
+        type: :committee,
+        committee_name: committee['name'],
+        committee_id: committee['id'],
+        supporting: supporting,
+        amount: committee['amount'],
+        title: referendum['Short_Title'],
+        measure: "Measure: " + referendum['Measure_number'],
+        slug: slugify(referendum['Short_Title']),
+        election_slug: referendum.election.name,
+        election_location: referendum.election.location,
+        election_date: referendum.election.date,
+        election_title: referendum.election.title,
+      }]
+      contrib = Committee.where(["\"Filer_ID\" = ?", committee['id']]).first
+        .calculation(:contribution_list)
+      next if contrib.nil?
+      ballot_contrib += contrib.map do |contributor|
+        {
+          type: :contributor,
+          first_name: contributor['Tran_NamF'],
+          last_name: contributor['Tran_NamL'],
+          amount: contributor['Tran_Amt1'],
+          committee_name: committee['name'],
+          committee_id: committee['id'],
+          election_slug: referendum.election.name,
+          election_location: referendum.election.location,
+          election_date: referendum.election.date,
+          election_title: referendum.election.title,
+        }
+      end
+    end
+  end
 end
 puts "Indexing #{referendum_data.length} Referendums..."
+puts "Indexing #{ballot_committees.length} Ballot Committees..."
+puts "Indexing #{ballot_contrib.length} Ballot Contributors..."
 
-all_data = referendum_data + contributor_data + candidate_data
+all_data =
+  ballot_contrib + ballot_committees + referendum_data + contributor_data + candidate_data
 puts "total records: #{all_data.length}"
 index.replace_all_objects(all_data)
