@@ -1,13 +1,13 @@
 {
-  "total_contributions": 327192.2,
+  "total_contributions": 387692.2,
   "total_contributions_by_source": {
     "Out of State": 16593.84,
-    "Within Oakland": 136186.51,
-    "Within California": 139543.71
+    "Within Oakland": 145786.51,
+    "Within California": 140443.71
   },
   "contributions_by_type": {
     "Committee": 28123.67,
-    "Individual": 240075.39,
+    "Individual": 250575.39,
     "Unitemized": 24438.82,
     "Self Funding": 1300.0,
     "Other (includes Businesses)": 22825.0
@@ -26,10 +26,10 @@
       "amount": 71770.86
     },
     {
-      "slug": "city-council-at-large",
+      "slug": "city-attorney",
       "type": "office",
-      "title": "City Council At-Large",
-      "amount": 33174.0
+      "title": "City Attorney",
+      "amount": 60500.0
     }
   ],
   "largest_small_proportion": [
@@ -67,14 +67,14 @@
       "total_contributions": 73200.0
     },
     {
-      "name": "Oakland Police Officers Association General Fund",
+      "name": "PG&E Corporation and Affiliated Entities",
       "election_name": "oakland-2020",
-      "total_contributions": 4192.47
+      "total_contributions": 10000.0
     },
     {
-      "name": "UA Local 342 PAC Fund",
+      "name": "United Food and Commerical Workers Local 5 PAC",
       "election_name": "oakland-2020",
-      "total_contributions": 1700.0
+      "total_contributions": 5000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -125,16 +125,16 @@
       "total_spending": 73200.0
     },
     {
-      "name": "Oakland Police Officers Association General Fund",
+      "name": "PG&E Corporation and Affiliated Entities",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_spending": 4192.47
+      "total_spending": 10000.0
     },
     {
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
-      "type": "Office",
+      "name": "United Food and Commerical Workers Local 5 PAC",
+      "type": "Measure",
       "election_name": "oakland-2020",
-      "total_spending": 1700.0
+      "total_spending": 5000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -165,16 +165,16 @@
       "total_spending": 73200.0
     },
     {
-      "name": "Oakland Police Officers Association General Fund",
+      "name": "PG&E Corporation and Affiliated Entities",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_spending": 4192.47
+      "total_spending": 10000.0
     },
     {
-      "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+      "name": "United Food and Commerical Workers Local 5 PAC",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_spending": 1187.0
+      "total_spending": 5000.0
     }
   ]
 }
