@@ -5,6 +5,7 @@ candidates:
 - cherisse-gash
 - deirdre-snyder
 - maiya-edgerly
+- maximo-santana
 - saran-russell
 - tyron-jordan
 - van-cedric-williams

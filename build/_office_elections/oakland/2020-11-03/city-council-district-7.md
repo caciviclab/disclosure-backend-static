@@ -7,7 +7,6 @@ candidates:
 - aaron-clay
 - alex-shapiro
 - chaney-turner
-- ken-houston
 - marchon-tatmon
 - marcie-hodge
 - olivia-rodriguez

@@ -9,6 +9,7 @@ candidates:
 - jesse-alexander
 - meron-semedar
 - noel-pico
+- seneca-scott
 title: City Council District 3
 label: City Council
 ---
