@@ -1,16 +1,16 @@
 {
-  "total_contributions": 387692.2,
+  "total_contributions": 601278.4500000001,
   "total_contributions_by_source": {
-    "Out of State": 16593.84,
-    "Within Oakland": 145786.51,
-    "Within California": 140443.71
+    "Out of State": 34440.69,
+    "Within Oakland": 251727.66,
+    "Within California": 208584.06
   },
   "contributions_by_type": {
-    "Committee": 28123.67,
-    "Individual": 250575.39,
-    "Unitemized": 24438.82,
+    "Committee": 32023.67,
+    "Individual": 427453.74,
+    "Unitemized": 34356.72,
     "Self Funding": 1300.0,
-    "Other (includes Businesses)": 22825.0
+    "Other (includes Businesses)": 33975.0
   },
   "most_expensive_races": [
     {
@@ -20,16 +20,16 @@
       "amount": 186334.03
     },
     {
-      "slug": "city-council-district-7",
+      "slug": "city-council-at-large",
       "type": "office",
-      "title": "City Council District 7",
-      "amount": 71770.86
+      "title": "City Council At-Large",
+      "amount": 147972.0
     },
     {
       "slug": "city-attorney",
       "type": "office",
       "title": "City Attorney",
-      "amount": 60500.0
+      "amount": 96536.37
     }
   ],
   "largest_small_proportion": [
@@ -79,22 +79,22 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "UA Local 342 PAC Fund",
+      "name": "Marianne Dreisbach",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 1700.0
+      "total_contributions": 2132.07
     },
     {
-      "name": "Sprinkler Fitters & Apprentices Local 483 PAC",
+      "name": "Erik Moore",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 1700.0
+      "total_contributions": 2050.0
     },
     {
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "name": "Ed Gerber",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 1700.0
+      "total_contributions": 1955.26
     }
   ],
   "top_contributors_for_measures": [
@@ -139,22 +139,22 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "UA Local 342 PAC Fund",
+      "name": "Marianne Dreisbach",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 1700.0
+      "total_spending": 2132.07
     },
     {
-      "name": "Sprinkler Fitters & Apprentices Local 483 PAC",
+      "name": "Erik Moore",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 1700.0
+      "total_spending": 2050.0
     },
     {
-      "name": "Sheet Metal Workers' International Association Local Union No. 104 PAC",
+      "name": "Ed Gerber",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 1700.0
+      "total_spending": 1955.26
     }
   ],
   "top_spenders_for_measures": [
