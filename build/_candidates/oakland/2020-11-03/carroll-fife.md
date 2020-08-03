@@ -7,5 +7,6 @@ is_incumbent: false
 name: Carroll Fife
 occupation: Director, Alliance of Californians for Community Empowerment
 party_affiliation: Democrat
+photo_url: Carroll_Fife.jpg
 twitter_url: carroll_fife
 ---

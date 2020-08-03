@@ -1,35 +1,35 @@
 {
-  "total_contributions": 601278.4500000001,
+  "total_contributions": 752921.2000000001,
   "total_contributions_by_source": {
-    "Out of State": 34440.69,
-    "Within Oakland": 251727.66,
-    "Within California": 208584.06
+    "Out of State": 44391.69,
+    "Within Oakland": 310657.26,
+    "Within California": 277897.85
   },
   "contributions_by_type": {
-    "Committee": 32023.67,
-    "Individual": 427453.74,
-    "Unitemized": 34356.72,
-    "Self Funding": 1300.0,
-    "Other (includes Businesses)": 33975.0
+    "Committee": 40423.67,
+    "Individual": 548598.13,
+    "Unitemized": 46305.08,
+    "Self Funding": 1500.0,
+    "Other (includes Businesses)": 42425.0
   },
   "most_expensive_races": [
     {
       "slug": "city-council-district-1",
       "type": "office",
       "title": "City Council District 1",
-      "amount": 186334.03
+      "amount": 245003.03
     },
     {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 147972.0
+      "amount": 163827.0
     },
     {
-      "slug": "city-attorney",
+      "slug": "city-council-district-7",
       "type": "office",
-      "title": "City Attorney",
-      "amount": 96536.37
+      "title": "City Council District 7",
+      "amount": 145555.61
     }
   ],
   "largest_small_proportion": [
@@ -50,12 +50,12 @@
       "office_title": "School Board District 1"
     },
     {
-      "slug": "rebecca-kaplan",
+      "slug": "dan-kalb",
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
-      "candidate": "Rebecca Kaplan",
-      "proportion": 0.08271537951407729,
-      "office_title": "City Council At-Large"
+      "candidate": "Dan Kalb",
+      "proportion": 0.08139593423191532,
+      "office_title": "City Council District 1"
     }
   ],
   "largest_independent_expenditures": {
@@ -79,22 +79,22 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Marianne Dreisbach",
+      "name": "Libby Schaaf",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 2132.07
+      "total_contributions": 3600.0
     },
     {
-      "name": "Erik Moore",
+      "name": "Laborers' Local 304",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 2050.0
+      "total_contributions": 3400.0
     },
     {
-      "name": "Ed Gerber",
+      "name": "John Bliss",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 1955.26
+      "total_contributions": 2900.0
     }
   ],
   "top_contributors_for_measures": [
@@ -139,22 +139,22 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Marianne Dreisbach",
+      "name": "Libby Schaaf",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 2132.07
+      "total_spending": 3600.0
     },
     {
-      "name": "Erik Moore",
+      "name": "Laborers' Local 304",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 2050.0
+      "total_spending": 3400.0
     },
     {
-      "name": "Ed Gerber",
+      "name": "John Bliss",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 1955.26
+      "total_spending": 2900.0
     }
   ],
   "top_spenders_for_measures": [

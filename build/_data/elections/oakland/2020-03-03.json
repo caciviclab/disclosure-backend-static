@@ -1,21 +1,21 @@
 {
-  "total_contributions": 335992.0,
+  "total_contributions": 426340.88,
   "total_contributions_by_source": {
     "Out of State": 36764.0,
-    "Within Oakland": 103428.0,
-    "Within California": 195800.0
+    "Within Oakland": 190672.64,
+    "Within California": 198904.24
   },
   "contributions_by_type": {
-    "Committee": 51928.0,
-    "Individual": 22200.0,
-    "Other (includes Businesses)": 261864.0
+    "Committee": 135912.0,
+    "Individual": 28312.72,
+    "Other (includes Businesses)": 262116.16
   },
   "most_expensive_races": [
     {
       "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
       "type": "referendum",
       "title": "Measure Q",
-      "amount": 335992.0
+      "amount": 426340.88
     },
     {
       "slug": "official-city-newspaper",
@@ -52,14 +52,14 @@
       "total_contributions": 150000.0
     },
     {
+      "name": "East Bay Rental Housing Association PAC",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 105000.0
+    },
+    {
       "name": "National Association of Realtors",
       "election_name": "oakland-march-2020",
       "total_contributions": 36764.0
-    },
-    {
-      "name": "East Bay Rental Housing Association PAC",
-      "election_name": "oakland-march-2020",
-      "total_contributions": 27500.0
     }
   ],
   "top_contributors_for_offices": [
@@ -73,16 +73,16 @@
       "total_contributions": 150000.0
     },
     {
+      "name": "East Bay Rental Housing Association PAC",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_contributions": 105000.0
+    },
+    {
       "name": "National Association of Realtors",
       "type": "Measure",
       "election_name": "oakland-march-2020",
       "total_contributions": 36764.0
-    },
-    {
-      "name": "East Bay Rental Housing Association PAC",
-      "type": "Measure",
-      "election_name": "oakland-march-2020",
-      "total_contributions": 27500.0
     }
   ],
   "top_spenders": [
@@ -93,16 +93,16 @@
       "total_spending": 150000.0
     },
     {
+      "name": "East Bay Rental Housing Association PAC",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 105000.0
+    },
+    {
       "name": "National Association of Realtors",
       "type": "Measure",
       "election_name": "oakland-march-2020",
       "total_spending": 36764.0
-    },
-    {
-      "name": "East Bay Rental Housing Association PAC",
-      "type": "Measure",
-      "election_name": "oakland-march-2020",
-      "total_spending": 27500.0
     }
   ],
   "top_spenders_for_offices": [
@@ -116,16 +116,16 @@
       "total_spending": 150000.0
     },
     {
+      "name": "East Bay Rental Housing Association PAC",
+      "type": "Measure",
+      "election_name": "oakland-march-2020",
+      "total_spending": 105000.0
+    },
+    {
       "name": "National Association of Realtors",
       "type": "Measure",
       "election_name": "oakland-march-2020",
       "total_spending": 36764.0
-    },
-    {
-      "name": "East Bay Rental Housing Association PAC",
-      "type": "Measure",
-      "election_name": "oakland-march-2020",
-      "total_spending": 27500.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 216028.0,
+  "total_contributions": 224512.0,
   "contributions": [
     {
       "Filer_ID": "1423153",
@@ -226,6 +226,17 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
+      "Tran_Amt1": 484.0,
+      "Tran_Date": "2020-02-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Save the Bay Action Fund",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
       "Tran_Amt1": 10000.0,
       "Tran_Date": "2020-02-20",
       "Tran_NamF": null,
@@ -267,6 +278,17 @@
     },
     {
       "Filer_ID": "1423153",
+      "Tran_Emp": "Self Employed / Same Name",
+      "Tran_Occ": "Public Health Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-02-26",
+      "Tran_NamF": "Heather",
+      "Tran_NamL": "Kuiper",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -297,6 +319,61 @@
       "Tran_NamF": "Susan",
       "Tran_NamL": "Montauk",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "Roberts Electric",
+      "Tran_Occ": "Electrical Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-02-27",
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Pitcock",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Councilmember",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-03-04",
+      "Tran_NamF": "Loren",
+      "Tran_NamL": "Taylor",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Councilmember",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-03-04",
+      "Tran_NamF": "Loren",
+      "Tran_NamL": "Taylor",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-03-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Re- Elect Nikki F Bas for City Council 2022",
+      "Tran_Zip4": "95661"
+    },
+    {
+      "Filer_ID": "1423153",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-06-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Oakland Fund",
+      "Tran_Zip4": "94607"
     }
   ]
 }
