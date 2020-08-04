@@ -12,9 +12,9 @@ require_relative './environment.rb'
 require 'algoliasearch'
 require 'optparse'
 
-def getContributors(name, id, election)
+def contributors_to_committee(name, id, election)
   contrib = Committee.where(["\"Filer_ID\" = ?", id]).first
-    .calculation(:contribution_list)
+    &.calculation(:contribution_list)
   return nil if contrib.nil?
   return contrib.map do |contributor|
     {
@@ -109,7 +109,7 @@ Candidate.includes(:election, :committee, :office_election).find_each do |candid
           election_date: candidate.election.date,
           election_title: candidate.election.title,
         }]
-      contrib = getContributors(iec['Filer_NamL'], iec['Filer_ID'], candidate.election)
+      contrib = contributors_to_committee(iec['Filer_NamL'], iec['Filer_ID'], candidate.election)
       next if contrib.nil?
       iec_contrib += contrib
     end
@@ -160,7 +160,7 @@ Referendum.includes(:election).find_each do |referendum|
         election_date: referendum.election.date,
         election_title: referendum.election.title,
       }]
-      contrib = getContributors(committee['name'], committee['id'], referendum.election)
+      contrib = contributors_to_committee(committee['name'], committee['id'], referendum.election)
       next if contrib.nil?
       ballot_contrib += contrib
     end
