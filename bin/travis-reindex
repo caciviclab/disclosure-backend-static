@@ -5,13 +5,8 @@ if [ "${TRAVIS_EVENT_TYPE}" = "pull_request" -o ! "${TRAVIS_BRANCH}" = "master" 
   echo "Not reindexing in Algolia because this looks like a Github PR."
   exit
 fi
-if [ "$(date +%A)" != "Monday" ]; then
-  echo "Reindexing only on Monday"
-  exit
-fi
-
-if git diff --exit-code --quiet -- . ':(exclude)build/_data/stats.json'; then
-  echo "No changes to reindex. Exiting."
+if [ "$(date +%A)" != "${INDEX_DAY}" ]; then
+  echo "Reindexing only on ${INDEX_DAY}"
   exit
 fi
 

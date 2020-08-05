@@ -15,5 +15,8 @@ cache:
   - pip
 addons:
   postgresql: '9.6'
+notifications:
+  email:
+    mike.ubell@gmail.com
 script:
   - make clean download -j2 && make import -j2 && make process && ./bin/travis-deploy && ./bin/travis-reindex
