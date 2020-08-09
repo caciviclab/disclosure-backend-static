@@ -6,4 +6,5 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Elias Ferran
 occupation: Deputy City Attorney
+photo_url: Eli_Ferran.jpg
 ---

@@ -6,4 +6,5 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Barbara Parker
 occupation: City Attorney
+photo_url: barbara_parker.png
 ---

@@ -5,6 +5,7 @@ candidates:
 - alicia-johnson
 - austin-dannhaus
 - dia-penning
+- stacy-thomas
 title: School Board District 1
 label: Oakland Unified School District
 ---
