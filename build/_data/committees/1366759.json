@@ -1,5 +1,5 @@
 {
-  "total_contributions": 105232.26999999999,
+  "total_contributions": 106932.26999999999,
   "contributions": [
     {
       "Filer_ID": "1366759",
@@ -3817,6 +3817,17 @@
       "Tran_NamF": "Gordon",
       "Tran_NamL": "Wozniak",
       "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-08-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "IAFF Local 55",
+      "Tran_Zip4": "94612"
     }
   ]
 }

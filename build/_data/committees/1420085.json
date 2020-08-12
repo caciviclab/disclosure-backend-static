@@ -1,5 +1,5 @@
 {
-  "total_contributions": 82275.06,
+  "total_contributions": 86925.06,
   "contributions": [
     {
       "Filer_ID": "1420085",
@@ -3685,6 +3685,39 @@
       "Tran_NamF": "Richard",
       "Tran_NamL": "Zbur",
       "Tran_Zip4": "90038-3406"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-08-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "IAFF Local 55",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-08-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union Of Healthcare Workers Candidate Committee",
+      "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1250.0,
+      "Tran_Date": "2020-08-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unite Here Tip State & Local Fund",
+      "Tran_Zip4": "10001"
     }
   ]
 }
