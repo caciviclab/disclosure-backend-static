@@ -660,16 +660,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 759271.2000000001,
+    "total_contributions": 754000.8,
     "total_contributions_by_source": {
-      "Out of State": 45641.69,
-      "Within Oakland": 314057.26,
-      "Within California": 279597.85
+      "Out of State": 45041.69,
+      "Within Oakland": 312557.26,
+      "Within California": 278027.85
     },
     "contributions_by_type": {
       "Committee": 46773.67,
-      "Individual": 548598.13,
-      "Unitemized": 46305.08,
+      "Individual": 544928.13,
+      "Unitemized": 44704.68,
       "Self Funding": 1500.0,
       "Other (includes Businesses)": 42425.0
     },
@@ -690,18 +690,10 @@
         "slug": "city-council-district-7",
         "type": "office",
         "title": "City Council District 7",
-        "amount": 147255.61
+        "amount": 141985.21
       }
     ],
     "largest_small_proportion": [
-      {
-        "slug": "esmeralda-cortez-rosales",
-        "type": "office",
-        "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Esmeralda Cortez Rosales",
-        "proportion": 0.30365816636308446,
-        "office_title": "City Council District 7"
-      },
       {
         "slug": "benjamin-sam-davis",
         "type": "office",
@@ -717,6 +709,14 @@
         "candidate": "Rebecca Kaplan",
         "proportion": 0.07874931163189133,
         "office_title": "City Council At-Large"
+      },
+      {
+        "slug": "dan-kalb",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Dan Kalb",
+        "proportion": 0.07739628322760515,
+        "office_title": "City Council District 1"
       }
     ],
     "largest_independent_expenditures": {

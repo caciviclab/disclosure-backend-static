@@ -1,7 +1,6 @@
 ---
 election: _elections/oakland/2020-11-03.md
 candidates:
-- ay-anna-moody
 - ben-tapscott
 - bronche-gerard-taylor
 - clifford-thompson
