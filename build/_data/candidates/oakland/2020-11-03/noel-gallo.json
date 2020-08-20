@@ -16,7 +16,7 @@
   "occupation": "City Council member",
   "party_affiliation": "Democrat",
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1429205,
   "supporting_money": {
     "contributions_received": 0.0,
     "total_contributions": 0.0,
@@ -34,11 +34,13 @@
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "MON": 700.0
     }
   },
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 39316.35
     },
     "opposition_list": [
 
