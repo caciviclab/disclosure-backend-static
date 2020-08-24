@@ -1,8 +1,8 @@
 ---
 election: '2020-11-03'
 locality: oakland
-number: Y
-title: OUSD Facilities Bond
+number: 
+title: Strengthen Independence of Police Commission
 data_warning: 
 ---
 
