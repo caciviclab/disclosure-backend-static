@@ -4,5 +4,8 @@ committee_name: No committee registered
 filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-name: Ben Tapscott
+name: Victor Javier Valerio
+occupation: Transportation Project Engineer
+twitter_url: OaklandValerio
+website_url: https://valerioforoakland.nationbuilder.com/
 ---

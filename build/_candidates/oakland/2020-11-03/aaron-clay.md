@@ -5,4 +5,5 @@ filer_id: '1428941'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Aaron Clay
+occupation: Small Business Owner
 ---

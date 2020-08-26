@@ -5,5 +5,6 @@ filer_id: '1427826'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Van Cedric Williams
+occupation: Teacher/Treasurer
 party_affiliation: Democrat
 ---

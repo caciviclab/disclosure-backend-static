@@ -4,7 +4,7 @@ committee_name: Kristina Molina for Oakland School Board 2020
 filer_id: '1426942'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-name: Kristynloreth "Kristina" Molina
-occupation: Latina Program Director, BAWAR
+name: Kristina Molina
+occupation: Communications Coordinator
 website_url: http://votekristinamolina.com/
 ---

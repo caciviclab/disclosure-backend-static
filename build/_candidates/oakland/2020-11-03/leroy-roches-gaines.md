@@ -4,5 +4,6 @@ committee_name: No committee registered
 filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-name: Leroy Gaines
+name: Leroy Roches Gaines
+occupation: Non-profit Director
 ---

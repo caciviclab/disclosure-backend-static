@@ -5,4 +5,5 @@ filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Seneca Scott
+occupation: Small Business Owner
 ---

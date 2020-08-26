@@ -1,39 +1,34 @@
 {
-  "id": 32,
-  "name": "Sheila Lawrence",
+  "id": 34,
+  "name": "Mike Hutchinson",
   "photo_url": null,
   "website_url": null,
   "twitter_url": null,
   "votersedge_url": null,
-  "first_name": "Sheila",
-  "last_name": "Lawrence",
+  "first_name": "Mike",
+  "last_name": "Hutchinson",
   "ballot_item": 17,
   "office_election": 17,
   "bio": null,
-  "committee_name": "Lawrence 4 OUSD School Board 2020; Sheila Pope",
+  "committee_name": "No committee registered",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
-  "occupation": null,
+  "occupation": "Educator",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": 1427317,
+  "filer_id": null,
   "supporting_money": {
-    "contributions_received": 3839.0,
-    "total_contributions": 3839.0,
-    "total_expenditures": 94.66,
-    "total_loans_received": 3000.0,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
+    "total_expenditures": null,
+    "total_loans_received": null,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 700.0,
-      "Unitemized": 139.0
     },
     "contributions_by_origin": {
-      "Out of State": 100.0,
-      "Within Oakland": 300.0,
-      "Within California": 300.0
     },
     "total_small_contributions": null,
     "expenditures_by_type": {
@@ -49,7 +44,7 @@
 
     ]
   },
-  "total_contributions": 3839.0,
-  "total_expenditures": 94.66,
-  "total_loans_received": 3000.0
+  "total_contributions": 0.0,
+  "total_expenditures": null,
+  "total_loans_received": null
 }

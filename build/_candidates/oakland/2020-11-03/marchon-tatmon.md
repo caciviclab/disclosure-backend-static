@@ -5,7 +5,7 @@ filer_id: '1427563'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Marchon Tatmon
-occupation: Housing Professional
+occupation: Government Affairs Manager
 photo_url: marchon-tatmon.png
 twitter_url: therealmtat1
 ---

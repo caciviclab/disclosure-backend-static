@@ -5,5 +5,5 @@ filer_id: '1427679'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Clifford Thompson
-occupation: Principal, Conservatory of Vocal & Instrumental Arts
+occupation: 5th Grade Teacher
 ---

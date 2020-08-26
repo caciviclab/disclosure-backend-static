@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 candidates:
-- stephanie-dominguez-walton
+- steph-dominguez-walton
 - dan-kalb
 - tri-ngo
 title: City Council District 1

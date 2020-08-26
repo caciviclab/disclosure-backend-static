@@ -1,34 +1,39 @@
 {
-  "id": 33,
-  "name": "Leroy Gaines",
+  "id": 32,
+  "name": "Sheila Pope-Lawrence",
   "photo_url": null,
   "website_url": null,
   "twitter_url": null,
   "votersedge_url": null,
-  "first_name": "Leroy",
-  "last_name": "Gaines",
+  "first_name": "Sheila",
+  "last_name": "Pope-Lawrence",
   "ballot_item": 17,
   "office_election": 17,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Lawrence 4 OUSD School Board 2020; Sheila Pope",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
-  "occupation": null,
+  "occupation": "Educator/Administrator",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1427317,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 3839.0,
+    "total_contributions": 3839.0,
+    "total_expenditures": 94.66,
+    "total_loans_received": 3000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 700.0,
+      "Unitemized": 139.0
     },
     "contributions_by_origin": {
+      "Out of State": 100.0,
+      "Within Oakland": 300.0,
+      "Within California": 300.0
     },
     "total_small_contributions": null,
     "expenditures_by_type": {
@@ -44,7 +49,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 3839.0,
+  "total_expenditures": 94.66,
+  "total_loans_received": 3000.0
 }

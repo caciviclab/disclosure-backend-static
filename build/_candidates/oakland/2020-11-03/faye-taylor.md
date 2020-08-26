@@ -5,4 +5,5 @@ filer_id: '1427385'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Faye Taylor
+occupation: Longshoreman
 ---
