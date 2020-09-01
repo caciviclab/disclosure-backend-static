@@ -1,5 +1,5 @@
 {
-  "id": 34,
+  "id": 35,
   "name": "Mike Hutchinson",
   "photo_url": null,
   "website_url": null,
@@ -16,7 +16,7 @@
   "occupation": "Educator",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1429072,
   "supporting_money": {
     "contributions_received": 0.0,
     "total_contributions": 0.0,
@@ -34,6 +34,7 @@
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "IKD": 5924.0
     }
   },
   "opposing_money": {
