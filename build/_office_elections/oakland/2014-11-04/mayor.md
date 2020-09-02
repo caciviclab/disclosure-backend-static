@@ -5,10 +5,10 @@ candidates:
 - dan-siegel
 - jean-quan
 - bryan-parker
-- courtney-ruby
 - joe-tuman
 - charles-williams
 - saied-karamooz
+- courtney-ruby
 - eric-wilson
 - jason-anderson
 - ken-houston

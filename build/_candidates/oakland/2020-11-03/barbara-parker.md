@@ -7,4 +7,5 @@ is_incumbent: true
 name: Barbara Parker
 occupation: City Attorney
 photo_url: barbara_parker.png
+twitter_url: BarbaraJParker1
 ---
