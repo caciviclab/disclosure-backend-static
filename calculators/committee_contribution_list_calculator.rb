@@ -50,7 +50,7 @@ class CommitteeContributionListCalculator
         end
 
         committee.save_calculation(:contribution_list, sorted)
-        committee.save_calculation(:total_contributions, total_contributions)
+        committee.save_calculation(:contribution_list_total, total_contributions)
         committee.save_calculation(:total_small_itemized_contributions, total_small)
       end
     end

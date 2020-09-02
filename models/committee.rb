@@ -21,9 +21,10 @@ class Committee < ActiveRecord::Base
     }
   end
 
+  # Keep this method in-sync with the `committe_data` method in Candidate model.
   def data
     {
-      total_contributions: calculation(:total_contributions),
+      total_contributions: calculation(:contribution_list_total),
       contributions: calculation(:contribution_list) || [],
     }
   end

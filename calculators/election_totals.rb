@@ -28,8 +28,9 @@ class ElectionTotal
           .includes(:office_election, :calculations)
           .find_each do |candidate|
 
-          total = candidate.calculation(:total_contributions)
-          total_contributions += total;
+          total = candidate.calculation(:total_contributions) ||
+            candidate.calculation(:contribution_list_total)
+          total_contributions += total
           total_small = candidate.calculation(:total_small_contributions)
 
           unless total == 0 || total_small.nil?

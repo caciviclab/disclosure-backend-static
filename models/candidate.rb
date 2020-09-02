@@ -51,8 +51,10 @@ class Candidate < ActiveRecord::Base
       # contribution data
       filer_id: self['FPPC'],
       supporting_money: {
-        contributions_received: calculation(:total_contributions).try(:to_f),
-        total_contributions: calculation(:total_contributions).try(:to_f),
+        contributions_received: calculation(:total_contributions).try(:to_f) ||
+          calculation(:contribution_list_total).try(:to_f),
+        total_contributions: calculation(:total_contributions).try(:to_f) ||
+          calculation(:contribution_list_total).try(:to_f),
         total_expenditures: calculation(:total_expenditures).try(:to_f),
         total_loans_received: calculation(:total_loans_received).try(:to_f),
         total_supporting_independent: calculation(:total_supporting_independent).try(:to_f),
@@ -72,10 +74,19 @@ class Candidate < ActiveRecord::Base
       # for backwards compatibility, these should also be exposed at the
       # top-level:
       # TODO: remove once the frontend no longer uses this
-      total_contributions: calculation(:total_contributions).try(:to_f),
+      total_contributions: calculation(:total_contributions).try(:to_f) ||
+        calculation(:contribution_list_total).try(:to_f),
       total_expenditures: calculation(:total_expenditures).try(:to_f),
       total_loans_received: calculation(:total_loans_received).try(:to_f),
     )
+  end
+
+  # Keep this method in-sync with the `data` method in Committee model.
+  def committee_data
+    {
+      total_contributions: calculation(:contribution_list_total),
+      contributions: calculation(:contribution_list) || [],
+    }
   end
 
   private
