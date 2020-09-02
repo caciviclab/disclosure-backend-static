@@ -75,6 +75,11 @@ Election.find_each do |election|
         f.puts(YAML.dump(Committee.from_candidate(candidate).metadata))
         f.puts('---')
       end
+
+      # /_data/committees/1229791.json
+      build_file("/_data/committees/#{candidate.FPPC}.json") do |f|
+        f.puts JSON.pretty_generate(candidate.committee_data)
+      end
     end
 
 
