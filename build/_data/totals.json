@@ -660,15 +660,15 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 754000.8,
+    "total_contributions": 793450.8,
     "total_contributions_by_source": {
-      "Out of State": 45041.69,
-      "Within Oakland": 312557.26,
-      "Within California": 278027.85
+      "Out of State": 45141.69,
+      "Within Oakland": 348357.26,
+      "Within California": 281677.85
     },
     "contributions_by_type": {
-      "Committee": 46773.67,
-      "Individual": 544028.13,
+      "Committee": 55273.67,
+      "Individual": 575078.13,
       "Unitemized": 44704.68,
       "Self Funding": 2400.0,
       "Other (includes Businesses)": 42425.0
@@ -678,7 +678,7 @@
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 249653.03
+        "amount": 250803.03
       },
       {
         "slug": "city-council-at-large",
@@ -715,7 +715,7 @@
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Dan Kalb",
-        "proportion": 0.07739628322760515,
+        "proportion": 0.076467020661607,
         "office_title": "City Council District 1"
       }
     ],
@@ -728,14 +728,14 @@
         "total_contributions": 73200.0
       },
       {
-        "name": "PG&E Corporation and Affiliated Entities",
+        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "election_name": "oakland-2020",
-        "total_contributions": 10000.0
+        "total_contributions": 25000.0
       },
       {
-        "name": "United Food and Commerical Workers Local 5 PAC",
+        "name": "Quinn Delaney",
         "election_name": "oakland-2020",
-        "total_contributions": 5000.0
+        "total_contributions": 25000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -760,6 +760,12 @@
     ],
     "top_contributors_for_measures": [
       {
+        "name": "Quinn Delaney",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 25000.0
+      },
+      {
         "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
         "type": "Measure",
         "election_name": "oakland-2020",
@@ -770,12 +776,6 @@
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_contributions": 1050.0
-      },
-      {
-        "name": "Jamie Knudsen",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_contributions": 500.0
       }
     ],
     "top_spenders": [
@@ -786,16 +786,16 @@
         "total_spending": 73200.0
       },
       {
-        "name": "PG&E Corporation and Affiliated Entities",
+        "name": "Quinn Delaney",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 10000.0
+        "total_spending": 25000.0
       },
       {
-        "name": "United Food and Commerical Workers Local 5 PAC",
+        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 5000.0
+        "total_spending": 25000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -826,16 +826,16 @@
         "total_spending": 73200.0
       },
       {
-        "name": "PG&E Corporation and Affiliated Entities",
+        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 10000.0
+        "total_spending": 25000.0
       },
       {
-        "name": "United Food and Commerical Workers Local 5 PAC",
+        "name": "Quinn Delaney",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 5000.0
+        "total_spending": 25000.0
       }
     ]
   },

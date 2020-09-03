@@ -7,15 +7,24 @@
   "number": "QQ",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 25000.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 25000.0
+    }
   ],
   "supporting_organizations": [
-
+    {
+      "id": "1428755",
+      "name": "Oakland Youth Vote",
+      "payee": "Oakland Youth Vote",
+      "amount": 0
+    }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 25000.0
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 56313.34,
+  "total_contributions": 60113.34,
   "contributions": [
     {
       "Filer_ID": "1421347",
@@ -1661,6 +1661,28 @@
       "Tran_NamF": "Barbara",
       "Tran_NamL": "Williams Hardy",
       "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "EverCharge",
+      "Tran_Occ": "Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2800.0,
+      "Tran_Date": "2020-08-17",
+      "Tran_NamF": "Jason",
+      "Tran_NamL": "Appelbaum",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Boss",
+      "Tran_Occ": "Executive Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-08-20",
+      "Tran_NamF": "Donald",
+      "Tran_NamL": "Frazier",
+      "Tran_Zip4": "94606"
     }
   ]
 }

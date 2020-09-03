@@ -1,5 +1,5 @@
 {
-  "total_contributions": 86925.06,
+  "total_contributions": 88075.06,
   "contributions": [
     {
       "Filer_ID": "1420085",
@@ -107,14 +107,14 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 523.19,
       "Tran_Date": "2019-08-08",
-      "Tran_NamF": "Ed",
+      "Tran_NamF": "Edward",
       "Tran_NamL": "Gerber",
       "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Jbs International",
-      "Tran_Occ": "Librarian",
+      "Tran_Emp": "Iq Solutions",
+      "Tran_Occ": "Information Specialist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 132.34,
       "Tran_Date": "2019-08-08",
@@ -289,8 +289,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Jbs International",
-      "Tran_Occ": "Librarian",
+      "Tran_Emp": "Iq Solutions",
+      "Tran_Occ": "Information Specialist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 180.0,
       "Tran_Date": "2019-10-16",
@@ -311,8 +311,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Travel Square One / Altour",
-      "Tran_Occ": "Owner",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2019-10-31",
@@ -421,7 +421,7 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Margaret Rossoff MFT",
       "Tran_Occ": "Therapist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -454,8 +454,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Rocky Mountain Institute",
-      "Tran_Occ": "Managing Director",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2019-11-18",
@@ -674,8 +674,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": null,
-      "Tran_Occ": "Not Employed",
+      "Tran_Emp": "City Of Oakland, CA",
+      "Tran_Occ": "Special Assistant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2019-12-06",
@@ -784,8 +784,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Bbi Construction",
-      "Tran_Occ": "Contractor",
+      "Tran_Emp": "The Stanhope Company",
+      "Tran_Occ": "Contracting Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2019-12-10",
@@ -839,8 +839,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Self-Employed",
-      "Tran_Occ": "Writer/Editor",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Writer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2019-12-16",
@@ -1076,7 +1076,7 @@
       "Tran_Amt1": 100.0,
       "Tran_Date": "2019-12-26",
       "Tran_NamF": "Ann",
-      "Tran_NamL": "Kalb Kip",
+      "Tran_NamL": "Kalb",
       "Tran_Zip4": "91405"
     },
     {
@@ -1169,8 +1169,8 @@
     },
     {
       "Filer_ID": "1420085",
-      "Tran_Emp": "Jbs International",
-      "Tran_Occ": "Librarian",
+      "Tran_Emp": "Iq Solutions",
+      "Tran_Occ": "Information Specialist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 90.0,
       "Tran_Date": "2019-12-30",
@@ -3718,6 +3718,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unite Here Tip State & Local Fund",
       "Tran_Zip4": "10001"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": "Buttrick Projects A+d",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-08-25",
+      "Tran_NamF": "Jerome",
+      "Tran_NamL": "Buttrick",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": "Buttrick Projects A+d",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-08-25",
+      "Tran_NamF": "Jerome",
+      "Tran_NamL": "Buttrick",
+      "Tran_Zip4": "94618"
     }
   ]
 }

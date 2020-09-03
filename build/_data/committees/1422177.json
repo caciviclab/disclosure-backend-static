@@ -1,5 +1,5 @@
 {
-  "total_contributions": 5150.0,
+  "total_contributions": 6850.0,
   "contributions": [
     {
       "Filer_ID": "1422177",
@@ -198,6 +198,17 @@
       "Tran_NamF": "Steve",
       "Tran_NamL": "Mandel",
       "Tran_Zip4": "06830"
+    },
+    {
+      "Filer_ID": "1422177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-08-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families and Educators for Public Education",
+      "Tran_Zip4": "94607"
     }
   ]
 }
