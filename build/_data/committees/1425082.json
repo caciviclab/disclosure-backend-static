@@ -1,0 +1,38 @@
+{
+  "total_contributions": 1652.0,
+  "contributions": [
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-02-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "OEA",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 802.0,
+      "Tran_Date": "2020-02-25",
+      "Tran_NamF": "Dale",
+      "Tran_NamL": "Baum",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "Mei Fong and Associates",
+      "Tran_Occ": "social worker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2020-02-25",
+      "Tran_NamF": "Seonghee",
+      "Tran_NamL": "Lim",
+      "Tran_Zip4": "94602"
+    }
+  ]
+}

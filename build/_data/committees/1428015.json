@@ -1,5 +1,5 @@
 {
-  "total_contributions": 30000.0,
+  "total_contributions": 60000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -22,6 +22,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Steamfitters Local 342 Political Action Committee",
       "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": null,
+      "Tran_Amt1": 30000.0,
+      "Tran_Date": "2020-09-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

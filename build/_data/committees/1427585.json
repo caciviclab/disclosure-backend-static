@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1700.0,
+  "total_contributions": 4400.0,
   "contributions": [
     {
       "Filer_ID": "1427585",
@@ -11,6 +11,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Association of Fire Fighters Local 55 PAC",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": null,
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters & Apprentices Local 483 PAC",
+      "Tran_Zip4": "94545"
     }
   ]
 }
