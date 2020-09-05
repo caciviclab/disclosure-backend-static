@@ -5,12 +5,24 @@ class CandidateOpposingExpenditure
   end
 
   def fetch
-    # Get the total expenditures against candidates by date.
+    # Get the total expenditures against candidates by committee.
+    # The Filer_NamL can be different in different records for the
+    # same Filer_ID.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Cand_ID", "Filer_ID", "Filer_NamL", SUM("Amount") as "Total"
-      FROM independent_candidate_expenditures
-      WHERE "Sup_Opp_Cd" = 'O'
-      GROUP BY "Cand_ID", "Filer_ID", "Filer_NamL";
+      SELECT "Cand_ID", i."Filer_ID", c."Filer_NamL", "Total"
+      FROM
+      (
+        SELECT "Cand_ID", "Filer_ID", SUM("Amount") as "Total"
+        FROM independent_candidate_expenditures
+        WHERE "Sup_Opp_Cd" = 'O'
+        GROUP BY "Cand_ID", "Filer_ID"
+      ) i
+      JOIN
+      (
+        SELECT DISTINCT ON ("Filer_ID") "Filer_ID", "Filer_NamL"
+        FROM committees
+      ) c
+      ON c."Filer_ID" = i."Filer_ID";
     SQL
 
     total = {}
