@@ -166,6 +166,9 @@ Referendum.includes(:election).find_each do |referendum|
     end
   end
 end
+
+ballot_contrib.uniq!
+
 puts "Indexing #{referendum_data.length} Referendums..."
 puts "Indexing #{ballot_committees.length} Ballot Committees..."
 puts "Indexing #{ballot_contrib.length} Ballot Contributors..."
