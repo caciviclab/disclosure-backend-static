@@ -9,4 +9,5 @@ occupation: Non-profit Director
 party_affiliation: Democrat
 photo_url: Carroll_Fife.jpg
 twitter_url: carroll_fife
+website_url: https://carrollfife.org
 ---
