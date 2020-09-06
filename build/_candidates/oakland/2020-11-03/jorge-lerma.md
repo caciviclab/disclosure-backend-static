@@ -7,5 +7,6 @@ is_incumbent: false
 name: Jorge Lerma
 occupation: Educator
 photo_url: Jorge-Lerma.png
+twitter_url: JorgeforOakland
 website_url: https://www.jorgeforoakland.com/
 ---

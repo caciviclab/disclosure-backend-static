@@ -7,5 +7,6 @@ is_incumbent: false
 name: Marcie Hodge
 occupation: Non-profit Executive Director
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png
+twitter_url: MarcieHodge13
 website_url: http://www.hodge4oakland2020.com
 ---
