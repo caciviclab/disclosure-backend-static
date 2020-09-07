@@ -9,6 +9,7 @@ class CandidateContributionsByType
   def self.dependencies
     [
       { model: Committee, calculation: :total_small_itemized_contributions },
+      { model: Candidate, calculation: :total_small_itemized_contributions },
     ]
   end
 
@@ -46,14 +47,14 @@ class CandidateContributionsByType
       candidate = @candidates_by_filer_id[filer_id.to_i]
       candidate.save_calculation(:contributions_by_type, contributions_by_type)
 
-      committee = Committee.where(Filer_ID: candidate.FPPC.to_s).first
-
-      # Calculate the total of small contributions
-      unless committee.nil?
-        total_small = committee.calculation(:total_small_itemized_contributions) +
-          contributions_by_type['Unitemized']
-        candidate.save_calculation(:total_small_contributions, total_small)
+      if candidate.FPPC == 1427585
+        puts candidate.calculation(:total_small_itemized_contributions)
+        puts contributions_by_type
       end
+      # Calculate the total of small contributions
+      total_small = candidate.calculation(:total_small_itemized_contributions) +
+        (contributions_by_type['Unitemized'] || 0)
+      candidate.save_calculation(:total_small_contributions, total_small)
     end
   end
 
@@ -63,7 +64,7 @@ class CandidateContributionsByType
     @_contributions_by_candidate_by_type ||= {}.tap do |hash|
       # NOTE: We remove duplicate transactions on 497 that are also reported on
       # Schedule A during a preprocssing script. (See
-      # `./../remove_duplicate_transactionts.sh`)
+      # `./../remove_duplicate_transactions.sh`)
       monetary_results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT
           "Filer_ID",
