@@ -2,6 +2,7 @@ class CandidateContributionsByType
   TYPE_DESCRIPTIONS = {
     'IND' => 'Individual',
     'COM' => 'Committee',
+    'SCC' => 'Small Contribution Committee',
     'OTH' => 'Other (includes Businesses)',
     'SLF' => 'Self Funding'
   }
