@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Nancy Sidebotham
 occupation: Tax Preparer
-photo_url: Nancy-Sidebotham.png
+photo_url: nancy_sidebotham_sub.jpg
 twitter_url: nancy6368
 website_url: http://www.nancysidebotham.com
 ---

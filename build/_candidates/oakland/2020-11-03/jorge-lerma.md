@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Jorge Lerma
 occupation: Educator
-photo_url: Jorge-Lerma.png
+photo_url: jorge_lerma_sub.jpg
 twitter_url: JorgeforOakland
 website_url: https://www.jorgeforoakland.com/
 ---

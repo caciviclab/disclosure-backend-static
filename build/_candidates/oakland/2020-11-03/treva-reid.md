@@ -6,6 +6,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Treva Reid
 occupation: Community Engagement Strategist
-photo_url: treva-reid.png
+photo_url: treva_reid_sub.jpg
 website_url: https://www.reidforoakland.com/
 ---

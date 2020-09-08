@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Mark Hurty
 occupation: Project Manager
-photo_url: mark-hurty.png
+photo_url: mark_hurty_sub.jpg
 twitter_url: MarkForOakland
 website_url: https://markforoakland.com/
 ---

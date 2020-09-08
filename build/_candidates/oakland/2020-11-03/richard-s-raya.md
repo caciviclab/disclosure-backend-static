@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Richard S. Raya
 occupation: Legal Educator
-photo_url: richard_raya2.jpg
+photo_url: richard_raya_sub.jpg
 twitter_url: rraya_oakd5
 website_url: https://www.santosraya.com/
 ---

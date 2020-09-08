@@ -6,6 +6,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Sam Davis
 occupation: Education Analyst/Parent
-photo_url: Benjamin-Sam-Davis.png
+photo_url: sam_davis_sub.jpg
 website_url: https://www.samdavisforoaklandschools.org/
 ---

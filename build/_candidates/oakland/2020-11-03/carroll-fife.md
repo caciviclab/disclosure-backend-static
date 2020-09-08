@@ -7,7 +7,7 @@ is_incumbent: false
 name: Carroll Fife
 occupation: Non-profit Director
 party_affiliation: Democrat
-photo_url: Carroll_Fife.jpg
+photo_url: carroll_fife_sub.jpg
 twitter_url: carroll_fife
 website_url: https://carrollfife.org
 ---

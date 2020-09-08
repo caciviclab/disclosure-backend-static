@@ -6,6 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Meron Semedar
 occupation: Educator
+photo_url: meron_semedar_sub.jpg
 twitter_url: MeronSemedar
 website_url: https://meronsemedar.org/
 ---
