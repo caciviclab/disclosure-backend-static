@@ -43,19 +43,19 @@
         "office_title": "OUSD School Director District 4"
       },
       {
+        "slug": "shereda-nosakhare",
+        "type": "office",
+        "title": "Oakland November 4th, 2014 Election",
+        "candidate": "Shereda Nosakhare",
+        "proportion": 0.24561826660234765,
+        "office_title": "City Council District 6"
+      },
+      {
         "slug": "renato-almanzor",
         "type": "office",
         "title": "Oakland November 4th, 2014 Election",
         "candidate": "Renato Almanzor",
         "proportion": 0.24336392954601835,
-        "office_title": "OUSD School Director District 6"
-      },
-      {
-        "slug": "shanthi-gonzales",
-        "type": "office",
-        "title": "Oakland November 4th, 2014 Election",
-        "candidate": "Shanthi Gonzales",
-        "proportion": 0.16707099015054414,
         "office_title": "OUSD School Director District 6"
       }
     ],
@@ -695,6 +695,14 @@
     ],
     "largest_small_proportion": [
       {
+        "slug": "tri-ngo",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Tri Ngo",
+        "proportion": 0.23169805589307413,
+        "office_title": "City Council District 1"
+      },
+      {
         "slug": "sam-davis",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
@@ -703,20 +711,12 @@
         "office_title": "School Board District 1"
       },
       {
-        "slug": "rebecca-kaplan",
+        "slug": "jorge-lerma",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Rebecca Kaplan",
-        "proportion": 0.07874931163189133,
-        "office_title": "City Council At-Large"
-      },
-      {
-        "slug": "dan-kalb",
-        "type": "office",
-        "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Dan Kalb",
-        "proportion": 0.076467020661607,
-        "office_title": "City Council District 1"
+        "candidate": "Jorge Lerma",
+        "proportion": 0.16016796640671865,
+        "office_title": "School Board District 5"
       }
     ],
     "largest_independent_expenditures": {
