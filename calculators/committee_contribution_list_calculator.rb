@@ -48,10 +48,6 @@ class CommitteeContributionListCalculator
           total_contributions += amount
           total_small += amount unless amount  >= 100 || amount <= -100
         end
-        if filer_id === '1427585'
-          puts total_small;
-        end
-
         committee_or_candidate.save_calculation(:contribution_list, sorted)
         committee_or_candidate.save_calculation(:contribution_list_total, total_contributions)
         committee_or_candidate.save_calculation(:total_small_itemized_contributions, total_small)

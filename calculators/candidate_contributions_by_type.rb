@@ -48,10 +48,6 @@ class CandidateContributionsByType
       candidate = @candidates_by_filer_id[filer_id.to_i]
       candidate.save_calculation(:contributions_by_type, contributions_by_type)
 
-      if candidate.FPPC == 1427585
-        puts candidate.calculation(:total_small_itemized_contributions)
-        puts contributions_by_type
-      end
       # Calculate the total of small contributions
       total_small = candidate.calculation(:total_small_itemized_contributions) +
         (contributions_by_type['Unitemized'] || 0)
