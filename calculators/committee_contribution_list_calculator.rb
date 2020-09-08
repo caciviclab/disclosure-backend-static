@@ -38,8 +38,8 @@ class CommitteeContributionListCalculator
       [@committees, 'Filer_ID'],
       [@candidates, 'FPPC']
     ].each do |collection, id |
-      collection.each do |committee|
-        filer_id = committee[id].to_s
+      collection.each do |committee_or_candidate|
+        filer_id = committee_or_candidate[id].to_s
         sorted = Array(contributions_by_committee[filer_id])
         total_contributions = 0
         total_small = 0
@@ -48,10 +48,9 @@ class CommitteeContributionListCalculator
           total_contributions += amount
           total_small += amount unless amount  >= 100 || amount <= -100
         end
-
-        committee.save_calculation(:contribution_list, sorted)
-        committee.save_calculation(:contribution_list_total, total_contributions)
-        committee.save_calculation(:total_small_itemized_contributions, total_small)
+        committee_or_candidate.save_calculation(:contribution_list, sorted)
+        committee_or_candidate.save_calculation(:contribution_list_total, total_contributions)
+        committee_or_candidate.save_calculation(:total_small_itemized_contributions, total_small)
       end
     end
   end
