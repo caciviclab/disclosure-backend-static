@@ -8,5 +8,6 @@ name: Kristina Molina
 occupation: Communications Coordinator
 photo_url: kristina_molina_sub.jpg
 twitter_url: votekmolina
+votersedge_url: https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21298/candidate/151505
 website_url: http://votekristinamolina.com/
 ---

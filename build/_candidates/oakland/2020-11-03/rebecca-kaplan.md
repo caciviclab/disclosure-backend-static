@@ -9,5 +9,6 @@ occupation: Councilmember At-Large
 party_affiliation: Democrat
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png
 twitter_url: kaplan4oakland
+votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21265/candidate/151386?cty=ca%2falm
 website_url: http://kaplanforoakland.org/
 ---

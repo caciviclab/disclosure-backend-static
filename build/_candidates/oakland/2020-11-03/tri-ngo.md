@@ -8,5 +8,6 @@ is_incumbent: false
 name: Tri Ngo
 occupation: Electrical Engineer
 twitter_url: votetri
+votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21266/candidate/151390?cty=ca%2falm
 website_url: https://www.votetri.com
 ---

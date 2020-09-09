@@ -9,4 +9,5 @@ occupation: City Councilmember District 5
 party_affiliation: Democrat
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png
 twitter_url: noelgallo5
+votersedge_url: https://votersedge.org/ca/en/ballot/election/87-9842e0/address/null/zip/94610/contests/contest/21268/candidate/151397
 ---

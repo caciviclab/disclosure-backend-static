@@ -6,4 +6,5 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Leroy Roches Gaines
 occupation: Non-profit Director
+votersedge_url: https://votersedge.org/ca/en/ballot/election/87-9842e0/address/null/zip/94610/contests/contest/21297/candidate/151501?&date=2020-11-03
 ---

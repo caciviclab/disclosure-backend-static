@@ -8,4 +8,5 @@ name: Marchon Tatmon
 occupation: Government Affairs Manager
 photo_url: marchon-tatmon.png
 twitter_url: therealmtat1
+votersedge_url: https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21269/candidate/151404?date=2020-11-03
 ---
