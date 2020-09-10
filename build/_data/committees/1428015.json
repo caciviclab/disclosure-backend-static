@@ -1,5 +1,5 @@
 {
-  "total_contributions": 65000.0,
+  "total_contributions": 71000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -44,6 +44,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL 595 PAC",
       "Tran_Zip4": "94568"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "ESC Local 20 IFPTE Lou Lucivero Legislative Education & Action Program (LEAP)  Sponsored by Engineers & Scientists of California Local 20",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-09-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104 Political Committee",
+      "Tran_Zip4": "94583"
     }
   ]
 }
