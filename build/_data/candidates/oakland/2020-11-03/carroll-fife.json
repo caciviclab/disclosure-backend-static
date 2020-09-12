@@ -22,10 +22,10 @@
     "total_contributions": 6400.0,
     "total_expenditures": null,
     "total_loans_received": null,
-    "total_supporting_independent": 4821.0,
+    "total_supporting_independent": 20215.0,
     "support_list": [
       {
-        "Total": 4821.0,
+        "Total": 20215.0,
         "Cand_ID": 1427585,
         "Filer_ID": "1428015",
         "Filer_NamL": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO"
@@ -42,6 +42,8 @@
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "VIDEO": 650.0,
+      "MAILER": 14744.0,
       "PHONE CALLS": 4821.0
     }
   },
