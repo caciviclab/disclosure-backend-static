@@ -1,5 +1,5 @@
 {
-  "total_contributions": 24662.0,
+  "total_contributions": 26362.0,
   "contributions": [
     {
       "Filer_ID": "1419930",
@@ -1441,6 +1441,17 @@
       "Tran_NamF": "Katy",
       "Tran_NamL": "Pieri",
       "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PACFPPC 1296948",
+      "Tran_Zip4": "95814"
     }
   ]
 }
