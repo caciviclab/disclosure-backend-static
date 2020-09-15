@@ -1,5 +1,5 @@
 {
-  "total_contributions": 71000.0,
+  "total_contributions": 243000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -66,6 +66,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers Local Union 104 Political Committee",
       "Tran_Zip4": "94583"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 82000.0,
+      "Tran_Date": "2020-09-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 90000.0,
+      "Tran_Date": "2020-09-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

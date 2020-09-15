@@ -1,5 +1,5 @@
 {
-  "total_contributions": 45619.0,
+  "total_contributions": 59619.0,
   "contributions": [
     {
       "Filer_ID": "1419466",
@@ -1232,6 +1232,17 @@
       "Tran_NamF": "Phong Ly",
       "Tran_NamL": "Tran",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1419466",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "City Councilmember",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 14000.0,
+      "Tran_Date": "2020-09-12",
+      "Tran_NamF": "Rebecca",
+      "Tran_NamL": "Kaplan",
+      "Tran_Zip4": "94608"
     }
   ]
 }

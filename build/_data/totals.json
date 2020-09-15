@@ -3,7 +3,7 @@
     "total_contributions": 2008800.7299999997,
     "total_contributions_by_source": {
       "Out of State": 124441.89,
-      "Within Oakland": 1032646.0499999998,
+      "Within Oakland": 1032646.05,
       "Within California": 731917.51
     },
     "contributions_by_type": {
@@ -407,7 +407,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "KP Financial Svcs Ops",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
       }
@@ -429,7 +429,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Oakland Athletics Baseball Company",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -660,17 +660,17 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 804250.8,
+    "total_contributions": 818250.8,
     "total_contributions_by_source": {
       "Out of State": 45141.69,
       "Within Oakland": 348357.26,
-      "Within California": 292477.85
+      "Within California": 306477.85
     },
     "contributions_by_type": {
       "Committee": 63373.67,
       "Individual": 576078.13,
       "Unitemized": 44704.68,
-      "Self Funding": 2400.0,
+      "Self Funding": 16400.0,
       "Other (includes Businesses)": 44125.0
     },
     "most_expensive_races": [
@@ -684,7 +684,7 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 163827.0
+        "amount": 177827.0
       },
       {
         "slug": "city-council-district-7",
@@ -723,22 +723,28 @@
     },
     "top_contributors": [
       {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "election_name": "oakland-2020",
+        "total_contributions": 202000.0
+      },
+      {
         "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
         "election_name": "oakland-2020",
         "total_contributions": 73200.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
-        "election_name": "oakland-2020",
-        "total_contributions": 30000.0
-      },
-      {
-        "name": "Quinn Delaney",
+        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "election_name": "oakland-2020",
         "total_contributions": 25000.0
       }
     ],
     "top_contributors_for_offices": [
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 14980.0
+      },
       {
         "name": "Libby Schaaf",
         "type": "Office",
@@ -747,12 +753,6 @@
       },
       {
         "name": "Laborers' Local 304",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_contributions": 3400.0
-      },
-      {
-        "name": "IAFF Local 55",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 3400.0
@@ -780,16 +780,16 @@
     ],
     "top_spenders": [
       {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 202000.0
+      },
+      {
         "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_spending": 73200.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_spending": 30000.0
       },
       {
         "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
@@ -799,6 +799,12 @@
       }
     ],
     "top_spenders_for_offices": [
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 14980.0
+      },
       {
         "name": "Libby Schaaf",
         "type": "Office",
@@ -810,26 +816,20 @@
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 3400.0
-      },
-      {
-        "name": "IAFF Local 55",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_spending": 3400.0
       }
     ],
     "top_spenders_for_measures": [
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 202000.0
+      },
       {
         "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_spending": 73200.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_spending": 30000.0
       },
       {
         "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
