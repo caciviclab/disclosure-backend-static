@@ -1,5 +1,5 @@
 {
-  "total_contributions": 31855.010000000002,
+  "total_contributions": 33555.01,
   "contributions": [
     {
       "Filer_ID": "1426949",
@@ -1166,6 +1166,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers' International Association Local, #140",
       "Tran_Zip4": "94583"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

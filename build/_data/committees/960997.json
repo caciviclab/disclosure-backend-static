@@ -1,5 +1,5 @@
 {
-  "total_contributions": 257500.0,
+  "total_contributions": 266000.0,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -176,6 +176,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Northern California Carpenters Regional Council Issues PAC",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Shah Kawasaki Architects",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-15",
+      "Tran_NamF": "Alan",
+      "Tran_NamL": "Luo",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Rids Brother Company",
+      "Tran_Occ": "CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-15",
+      "Tran_NamF": "Babita",
+      "Tran_NamL": "Sitaula",
+      "Tran_Zip4": "94572"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-09-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
+      "Tran_Zip4": "94545"
     }
   ]
 }

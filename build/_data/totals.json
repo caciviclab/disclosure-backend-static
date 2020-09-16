@@ -660,14 +660,14 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 818250.8,
+    "total_contributions": 823350.8,
     "total_contributions_by_source": {
       "Out of State": 45141.69,
-      "Within Oakland": 348357.26,
-      "Within California": 306477.85
+      "Within Oakland": 350057.26,
+      "Within California": 309877.85
     },
     "contributions_by_type": {
-      "Committee": 63373.67,
+      "Committee": 68473.67,
       "Individual": 576078.13,
       "Unitemized": 44704.68,
       "Self Funding": 16400.0,
@@ -678,7 +678,7 @@
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 250803.03
+        "amount": 252503.03
       },
       {
         "slug": "city-council-at-large",
@@ -725,7 +725,7 @@
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "election_name": "oakland-2020",
-        "total_contributions": 202000.0
+        "total_contributions": 205400.0
       },
       {
         "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
@@ -752,7 +752,7 @@
         "total_contributions": 3600.0
       },
       {
-        "name": "Laborers' Local 304",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 3400.0
@@ -812,7 +812,7 @@
         "total_spending": 3600.0
       },
       {
-        "name": "Laborers' Local 304",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 3400.0
