@@ -21,6 +21,7 @@ CREATE VIEW "Measure_Expenditures" AS
     "Sup_Opp_Cd",
     "Amount",
     "Expn_Code",
+    "Expn_Date" as "Exp_Date",
     "Payee_NamL" as "Recipient_Or_Description",
     'E name' as "Form"
   FROM
@@ -33,16 +34,19 @@ CREATE VIEW "Measure_Expenditures" AS
     "Filer_ID"::varchar,
     "Filer_NamL",
     "election_name",
-    "Bal_Name",
+    "Measure_Name",
     "Measure_Number",
     "Sup_Opp_Cd",
     "Amount",
     'IND' as "Expn_Code",
+    "Exp_Date",
     "Expn_Dscr" as "Recipient_Or_Description",
     '496' as "Form"
   FROM
     "496", name_to_number
-  WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
+  WHERE
+    (LOWER("Bal_Name") = LOWER("Measure_Name")
+    OR "Bal_Num" = "Measure_Number")
   AND "Sup_Opp_Cd" IS NOT NULL
   UNION ALL
 
@@ -56,6 +60,7 @@ CREATE VIEW "Measure_Expenditures" AS
     "Support_Or_Oppose" as "Sup_Opp_Cd",
     "Amount",
     "Expn_Code",
+    "Expn_Date" as "Exp_Date",
     "Payee_NamL" as "Recipient_Or_Description",
     'E number' as "Form"
   FROM
@@ -138,7 +143,7 @@ CREATE VIEW combined_contributions AS
 
 DROP VIEW IF EXISTS independent_candidate_expenditures;
 CREATE VIEW independent_candidate_expenditures AS
-  SELECT "FPPC" AS "Cand_ID", "Filer_ID", "Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
+  SELECT election_name, "FPPC" AS "Cand_ID", all_data."Filer_ID", committee."Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
   FROM (
     SELECT "Filer_ID"::varchar, "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
     FROM "496"
@@ -151,7 +156,13 @@ CREATE VIEW independent_candidate_expenditures AS
   JOIN "candidates"
   ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
     OR LOWER("Aliases") LIKE LOWER(CONCAT('%', TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL")), '%'))
+  JOIN
+  (
+    SELECT DISTINCT ON ("Filer_ID") "Filer_ID", "Filer_NamL"
+    FROM committees
+  ) committee
+  ON committee."Filer_ID" = all_data."Filer_ID"
   WHERE ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
   AND "FPPC" IS NOT NULL
-  AND "Cand_NamL" IS NOT NULL
+  AND "Cand_NamL" IS NOT NULL;
 SQL
