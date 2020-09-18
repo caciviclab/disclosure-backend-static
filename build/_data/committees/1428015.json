@@ -1,5 +1,5 @@
 {
-  "total_contributions": 243000.0,
+  "total_contributions": 293000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -88,6 +88,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2020-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
+      "Tran_Zip4": "94621"
     }
   ]
 }

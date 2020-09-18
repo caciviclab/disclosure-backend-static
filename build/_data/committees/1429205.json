@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1000.0,
+  "total_contributions": 2700.0,
   "contributions": [
     {
       "Filer_ID": "1429205",
@@ -11,6 +11,17 @@
       "Tran_NamF": "Danielle",
       "Tran_NamL": "Barnett",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

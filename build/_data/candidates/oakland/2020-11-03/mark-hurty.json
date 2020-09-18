@@ -1,5 +1,5 @@
 {
-  "id": 28,
+  "id": 27,
   "name": "Mark Hurty",
   "photo_url": "mark_hurty_sub.jpg",
   "website_url": "https://markforoakland.com/",
@@ -22,9 +22,14 @@
     "total_contributions": 7273.0,
     "total_expenditures": 1102.6,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 3000.0,
     "support_list": [
-
+      {
+        "Total": 3000.0,
+        "Cand_ID": 1422177,
+        "Filer_ID": "1331137",
+        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
+      }
     ],
     "contributions_by_type": {
       "Committee": 3100.0,
@@ -43,6 +48,12 @@
       "Campaign Consultants": 950.0
     },
     "supporting_by_type": {
+      "IND EXP OF CAMPAIGN LIT": 516.0,
+      "IND EXP OF TEXT MESSAGING": 1333.0,
+      "IND EXP OF CONSULTING SERVICES": 250.0,
+      "IND EXP OF STAFF TIME (9.1-9.15.20)": 370.0,
+      "IND EXP OF STAFF TIME (8.16-8.31.20)": 371.0,
+      "IND EXP OF WEBSITE DEVELOPMENT SERVICES": 160.0
     }
   },
   "opposing_money": {

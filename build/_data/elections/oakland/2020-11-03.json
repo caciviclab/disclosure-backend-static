@@ -1,12 +1,12 @@
 {
-  "total_contributions": 823350.8,
+  "total_contributions": 825050.8,
   "total_contributions_by_source": {
     "Out of State": 45141.69,
     "Within Oakland": 350057.26,
-    "Within California": 309877.85
+    "Within California": 311577.85
   },
   "contributions_by_type": {
-    "Committee": 68473.67,
+    "Committee": 70173.67,
     "Individual": 576078.13,
     "Unitemized": 44704.68,
     "Self Funding": 16400.0,
@@ -58,23 +58,28 @@
       "office_title": "School Board District 5"
     }
   ],
-  "largest_independent_expenditures": {
-  },
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland Police Officer's Association - Political Action Committee",
+      "election_name": "oakland-2020",
+      "total_spending": 9151.0
+    }
+  ],
   "top_contributors": [
     {
       "name": "Service Employees International Union Local 1021 Candidate PAC",
       "election_name": "oakland-2020",
-      "total_contributions": 205400.0
+      "total_contributions": 207100.0
+    },
+    {
+      "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
+      "election_name": "oakland-2020",
+      "total_contributions": 75000.0
     },
     {
       "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
       "election_name": "oakland-2020",
       "total_contributions": 73200.0
-    },
-    {
-      "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
-      "election_name": "oakland-2020",
-      "total_contributions": 25000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -85,16 +90,16 @@
       "total_contributions": 14980.0
     },
     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 5100.0
+    },
+    {
       "name": "Libby Schaaf",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_contributions": 3600.0
-    },
-    {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
-      "type": "Office",
-      "election_name": "oakland-2020",
-      "total_contributions": 3400.0
     }
   ],
   "top_contributors_for_measures": [
@@ -125,16 +130,16 @@
       "total_spending": 202000.0
     },
     {
+      "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 75000.0
+    },
+    {
       "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
       "type": "Measure",
       "election_name": "oakland-2020",
       "total_spending": 73200.0
-    },
-    {
-      "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
-      "type": "Measure",
-      "election_name": "oakland-2020",
-      "total_spending": 25000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -145,16 +150,16 @@
       "total_spending": 14980.0
     },
     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 5100.0
+    },
+    {
       "name": "Libby Schaaf",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_spending": 3600.0
-    },
-    {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
-      "type": "Office",
-      "election_name": "oakland-2020",
-      "total_spending": 3400.0
     }
   ],
   "top_spenders_for_measures": [
@@ -165,16 +170,16 @@
       "total_spending": 202000.0
     },
     {
+      "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 75000.0
+    },
+    {
       "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
       "type": "Measure",
       "election_name": "oakland-2020",
       "total_spending": 73200.0
-    },
-    {
-      "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
-      "type": "Measure",
-      "election_name": "oakland-2020",
-      "total_spending": 25000.0
     }
   ]
 }
