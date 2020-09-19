@@ -1,5 +1,5 @@
 {
-  "total_contributions": 134288.0,
+  "total_contributions": 135988.0,
   "contributions": [
     {
       "Filer_ID": "1418926",
@@ -5665,6 +5665,17 @@
       "Tran_NamF": "Jill",
       "Tran_NamL": "Yung",
       "Tran_Zip4": "94563"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers Local Union 3 District 20 PAC",
+      "Tran_Zip4": "94502"
     }
   ]
 }

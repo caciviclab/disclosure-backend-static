@@ -1,5 +1,5 @@
 {
-  "total_contributions": 59619.0,
+  "total_contributions": 60619.0,
   "contributions": [
     {
       "Filer_ID": "1419466",
@@ -1243,6 +1243,17 @@
       "Tran_NamF": "Rebecca",
       "Tran_NamL": "Kaplan",
       "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1419466",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815"
     }
   ]
 }
