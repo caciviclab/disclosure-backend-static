@@ -660,17 +660,17 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 828375.8,
+    "total_contributions": 828075.8,
     "total_contributions_by_source": {
-      "Out of State": 45141.69,
-      "Within Oakland": 350682.26,
+      "Out of State": 45041.69,
+      "Within Oakland": 350482.26,
       "Within California": 314277.85
     },
     "contributions_by_type": {
       "Committee": 71173.67,
-      "Individual": 576078.13,
+      "Individual": 575978.13,
       "Unitemized": 44704.68,
-      "Self Funding": 16400.0,
+      "Self Funding": 16200.0,
       "Other (includes Businesses)": 46450.0
     },
     "most_expensive_races": [
@@ -678,7 +678,7 @@
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 254203.03
+        "amount": 253903.03
       },
       {
         "slug": "city-council-at-large",
