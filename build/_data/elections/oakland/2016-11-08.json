@@ -58,8 +58,23 @@
       "office_title": "School Board District 7"
     }
   ],
-  "largest_independent_expenditures": {
-  },
+  "largest_independent_expenditures": [
+    {
+      "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+      "election_name": "oakland-2016",
+      "total_spending": 316696.51
+    },
+    {
+      "name": "Oakland Police Officer’s Association - Political Action Committee",
+      "election_name": "oakland-2016",
+      "total_spending": 50759.88
+    },
+    {
+      "name": "East Bay Rental Housing Association PAC",
+      "election_name": "oakland-2016",
+      "total_spending": 148.12
+    }
+  ],
   "top_contributors": [
     {
       "name": "MICHAEL BLOOMBERG",
