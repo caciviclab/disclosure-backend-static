@@ -1,5 +1,5 @@
 {
-  "total_contributions": 700.0,
+  "total_contributions": 6700.0,
   "contributions": [
     {
       "Filer_ID": "1427317",
@@ -55,6 +55,17 @@
       "Tran_NamF": "Benjamin",
       "Tran_NamL": "Pope",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": "San Lorenzo Unified School District",
+      "Tran_Occ": "Counselor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 6000.0,
+      "Tran_Date": "2020-08-21",
+      "Tran_NamF": "Sheila",
+      "Tran_NamL": "Lawrence",
+      "Tran_Zip4": "94602"
     }
   ]
 }

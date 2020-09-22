@@ -1,5 +1,5 @@
 {
-  "total_contributions": 25000.0,
+  "total_contributions": 27500.0,
   "contributions": [
     {
       "Filer_ID": "1428755",
@@ -11,6 +11,17 @@
       "Tran_NamF": "Quinn",
       "Tran_NamL": "Delaney",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Officer is John Elberling",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Yerba Buena Consortium LLC",
+      "Tran_Zip4": "94103-3117"
     }
   ]
 }

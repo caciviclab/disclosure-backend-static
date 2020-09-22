@@ -1,5 +1,5 @@
 {
-  "total_contributions": 293000.0,
+  "total_contributions": 343000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -99,6 +99,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2020-09-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
+      "Tran_Zip4": "94103"
     }
   ]
 }

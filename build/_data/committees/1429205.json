@@ -1,5 +1,5 @@
 {
-  "total_contributions": 2700.0,
+  "total_contributions": 6100.0,
   "contributions": [
     {
       "Filer_ID": "1429205",
@@ -22,6 +22,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Fire Fighters Local 55",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Federation of Professional and Technical Engineers",
+      "Tran_Zip4": "94103"
     }
   ]
 }
