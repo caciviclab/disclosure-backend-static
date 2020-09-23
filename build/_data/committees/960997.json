@@ -1,5 +1,5 @@
 {
-  "total_contributions": 291000.0,
+  "total_contributions": 301000.0,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -231,6 +231,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Eclipse Electric of California",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Tulum Innovative Engineering",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business Is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Cumming Management Group, Inc",
+      "Tran_Zip4": "92562"
     }
   ]
 }

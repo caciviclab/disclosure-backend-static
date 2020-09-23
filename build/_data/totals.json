@@ -437,7 +437,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "KP Financial Svcs Ops",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
       }
@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -705,25 +705,25 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 845889.8,
+    "total_contributions": 894610.8,
     "total_contributions_by_source": {
-      "Out of State": 45041.69,
-      "Within Oakland": 362332.26,
-      "Within California": 320136.85
+      "Out of State": 48241.69,
+      "Within Oakland": 377981.26,
+      "Within California": 349386.85000000003
     },
     "contributions_by_type": {
-      "Committee": 74573.67,
-      "Individual": 587787.13,
-      "Unitemized": 44809.68,
+      "Committee": 77973.67,
+      "Individual": 630786.13,
+      "Unitemized": 45431.68,
       "Self Funding": 16200.0,
-      "Other (includes Businesses)": 48950.0
+      "Other (includes Businesses)": 50650.0
     },
     "most_expensive_races": [
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 253903.03
+        "amount": 255603.03
       },
       {
         "slug": "city-council-at-large",
@@ -732,10 +732,10 @@
         "amount": 179452.0
       },
       {
-        "slug": "city-council-district-7",
+        "slug": "city-attorney",
         "type": "office",
-        "title": "City Council District 7",
-        "amount": 141985.21
+        "title": "City Attorney",
+        "amount": 150357.37
       }
     ],
     "largest_small_proportion": [
@@ -788,14 +788,14 @@
         "total_contributions": 207100.0
       },
       {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "election_name": "oakland-2020",
+        "total_contributions": 100000.0
+      },
+      {
         "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "election_name": "oakland-2020",
         "total_contributions": 75000.0
-      },
-      {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "election_name": "oakland-2020",
-        "total_contributions": 73200.0
       }
     ],
     "top_contributors_for_offices": [
@@ -820,22 +820,22 @@
     ],
     "top_contributors_for_measures": [
       {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 100000.0
+      },
+      {
         "name": "Quinn Delaney",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_contributions": 25000.0
       },
       {
-        "name": "Yerba Buena Consortium LLC",
+        "name": "Cestra Butner",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_contributions": 2500.0
-      },
-      {
-        "name": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_contributions": 1187.0
+        "total_contributions": 5000.0
       }
     ],
     "top_spenders": [
@@ -846,16 +846,16 @@
         "total_spending": 202000.0
       },
       {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 100000.0
+      },
+      {
         "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_spending": 75000.0
-      },
-      {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_spending": 73200.0
       }
     ],
     "top_spenders_for_offices": [
@@ -886,16 +886,16 @@
         "total_spending": 202000.0
       },
       {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 100000.0
+      },
+      {
         "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_spending": 75000.0
-      },
-      {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_spending": 73200.0
       }
     ]
   },
