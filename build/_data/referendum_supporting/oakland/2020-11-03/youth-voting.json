@@ -12,11 +12,15 @@
       "locale": "Within California"
     },
     {
-      "amount": 25000.0,
+      "amount": 55000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 30000.0
+    },
     {
       "type": "Individual",
       "amount": 25000.0
@@ -34,5 +38,5 @@
       "amount": 0
     }
   ],
-  "total_contributions": 27500.0
+  "total_contributions": 57500.0
 }
