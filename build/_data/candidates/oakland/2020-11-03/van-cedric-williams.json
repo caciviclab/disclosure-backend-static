@@ -18,20 +18,29 @@
   "is_winner": null,
   "filer_id": 1427826,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 10759.0,
+    "total_contributions": 10759.0,
+    "total_expenditures": 4122.04,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 6330.0,
+      "Unitemized": 2729.0,
+      "Other (includes Businesses)": 1700.0
     },
     "contributions_by_origin": {
+      "Out of State": 400.0,
+      "Within Oakland": 1415.0,
+      "Within California": 6215.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 3059.0,
     "expenditures_by_type": {
+      "Phone Banks": 100.0,
+      "Polling and Survey Research": 3400.0,
+      "Campaign Paraphernalia/Misc.": 543.59
     },
     "supporting_by_type": {
     }
@@ -44,7 +53,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 10759.0,
+  "total_expenditures": 4122.04,
+  "total_loans_received": 0.0
 }

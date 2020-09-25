@@ -1,5 +1,5 @@
 {
-  "id": 35,
+  "id": 34,
   "name": "Mike Hutchinson",
   "photo_url": null,
   "website_url": null,
@@ -18,22 +18,29 @@
   "is_winner": null,
   "filer_id": 1429072,
   "supporting_money": {
-    "contributions_received": 1700.0,
-    "total_contributions": 1700.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 14715.0,
+    "total_contributions": 14715.0,
+    "total_expenditures": 5573.92,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 1700.0
+      "Committee": 1900.0,
+      "Individual": 11025.0,
+      "Unitemized": 1675.0,
+      "Other (includes Businesses)": 115.0
     },
     "contributions_by_origin": {
-      "Within California": 1700.0
+      "Out of State": 200.0,
+      "Within Oakland": 8540.0,
+      "Within California": 4300.0
     },
-    "total_small_contributions": 0.0,
+    "total_small_contributions": 1950.0,
     "expenditures_by_type": {
+      "Office Expenses": 462.97,
+      "Campaign Paraphernalia/Misc.": 2644.98
     },
     "supporting_by_type": {
       "IKD": 5924.0
@@ -47,7 +54,7 @@
 
     ]
   },
-  "total_contributions": 1700.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 14715.0,
+  "total_expenditures": 5573.92,
+  "total_loans_received": 0.0
 }

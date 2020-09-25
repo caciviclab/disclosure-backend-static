@@ -265,7 +265,7 @@
         "total_spending": 50759.88
       },
       {
-        "name": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+        "name": "Committee for an Affordable East Bay supporting Derreck Johnson and\nopposing Rebecca Kaplan for Oakland City Council At-Large 2020",
         "election_name": "oakland-2016",
         "total_spending": 16000.0
       }
@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -705,40 +705,56 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 931033.8,
+    "total_contributions": 1547605.57,
     "total_contributions_by_source": {
-      "Out of State": 48741.69,
-      "Within Oakland": 409481.26,
-      "Within California": 351187.85000000003
+      "Out of State": 97206.07,
+      "Within Oakland": 691152.05,
+      "Within California": 559662.05
     },
     "contributions_by_type": {
-      "Committee": 109673.67,
-      "Individual": 634587.13,
-      "Unitemized": 47243.68,
-      "Self Funding": 16200.0,
-      "Other (includes Businesses)": 48950.0
+      "Committee": 130448.67,
+      "Individual": 1126091.5,
+      "Unitemized": 103106.08,
+      "Self Funding": 16665.0,
+      "Other (includes Businesses)": 74815.0
     },
     "most_expensive_races": [
+      {
+        "slug": "city-council-district-3",
+        "type": "office",
+        "title": "City Council District 3",
+        "amount": 320596.32999999996
+      },
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 255603.03
+        "amount": 290183.83999999997
       },
       {
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 179452.0
-      },
-      {
-        "slug": "city-attorney",
-        "type": "office",
-        "title": "City Attorney",
-        "amount": 150357.37
+        "amount": 282254.0
       }
     ],
     "largest_small_proportion": [
+      {
+        "slug": "maiya-edgerly",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Maiya Edgerly",
+        "proportion": 0.5430022771063233,
+        "office_title": "School Board District 3"
+      },
+      {
+        "slug": "van-cedric-williams",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Van Cedric Williams",
+        "proportion": 0.28432010409889397,
+        "office_title": "School Board District 3"
+      },
       {
         "slug": "zoe-lopez-meraz",
         "type": "office",
@@ -746,34 +762,18 @@
         "candidate": "Zoe Lopez-Meraz",
         "proportion": 0.2821111630079402,
         "office_title": "City Council District 5"
-      },
-      {
-        "slug": "tri-ngo",
-        "type": "office",
-        "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Tri Ngo",
-        "proportion": 0.23169805589307413,
-        "office_title": "City Council District 1"
-      },
-      {
-        "slug": "sam-davis",
-        "type": "office",
-        "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Sam Davis",
-        "proportion": 0.18190123320383614,
-        "office_title": "School Board District 1"
       }
     ],
     "largest_independent_expenditures": [
       {
-        "name": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+        "name": "Committee for an Affordable East Bay supporting Derreck Johnson and\nopposing Rebecca Kaplan for Oakland City Council At-Large 2020",
         "election_name": "oakland-2020",
         "total_spending": 80000.0
       },
       {
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2020",
-        "total_spending": 39624.0
+        "total_spending": 45445.6
       },
       {
         "name": "Oakland Police Officer's Association - Political Action Committee",
@@ -783,6 +783,11 @@
     ],
     "top_contributors": [
       {
+        "name": "MICHAEL BLOOMBERG",
+        "election_name": "oakland-2020",
+        "total_contributions": 300000.0
+      },
+      {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "election_name": "oakland-2020",
         "total_contributions": 208800.0
@@ -790,12 +795,7 @@
       {
         "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
         "election_name": "oakland-2020",
-        "total_contributions": 100000.0
-      },
-      {
-        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
-        "election_name": "oakland-2020",
-        "total_contributions": 75000.0
+        "total_contributions": 200000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -803,16 +803,16 @@
         "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_contributions": 14980.0
-      },
-      {
-        "name": "Sheila Lawrence",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_contributions": 6000.0
+        "total_contributions": 15880.0
       },
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 6800.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 5100.0
@@ -823,7 +823,7 @@
         "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_contributions": 100000.0
+        "total_contributions": 200000.0
       },
       {
         "name": "Youth Power PAC, Sponsored by PowerCA Action",
@@ -840,6 +840,12 @@
     ],
     "top_spenders": [
       {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 300000.0
+      },
+      {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Measure",
         "election_name": "oakland-2020",
@@ -849,13 +855,7 @@
         "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 100000.0
-      },
-      {
-        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_spending": 75000.0
+        "total_spending": 200000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -863,7 +863,7 @@
         "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_spending": 14980.0
+        "total_spending": 15880.0
       },
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
@@ -872,13 +872,19 @@
         "total_spending": 6800.0
       },
       {
-        "name": "Sheila Lawrence",
+        "name": "Service Employees International Union Local 1021",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_spending": 6000.0
+        "total_spending": 5100.0
       }
     ],
     "top_spenders_for_measures": [
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 300000.0
+      },
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Measure",
@@ -889,13 +895,7 @@
         "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 100000.0
-      },
-      {
-        "name": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_spending": 75000.0
+        "total_spending": 200000.0
       }
     ]
   },

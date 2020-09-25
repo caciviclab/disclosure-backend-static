@@ -1,5 +1,5 @@
 {
-  "total_contributions": 102750.0,
+  "total_contributions": 119750.0,
   "contributions": [
     {
       "Filer_ID": "1294190",
@@ -165,6 +165,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "United Food and Commerical Workers Local 5 PAC",
       "Tran_Zip4": "95113"
+    },
+    {
+      "Filer_ID": "1294190",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2020-07-28",
+      "Tran_NamF": "Rob",
+      "Tran_NamL": "Bonta for Assembly 2020",
+      "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1294190",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-08-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers Local 3 District 20 PAC",
+      "Tran_Zip4": "94502"
     }
   ]
 }
