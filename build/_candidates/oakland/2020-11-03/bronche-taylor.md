@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 committee_name: Committee to Support Bronché Taylor for OUSD School Board 2020
-filer_id: ''
+filer_id: '1428595'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Bronché Taylor

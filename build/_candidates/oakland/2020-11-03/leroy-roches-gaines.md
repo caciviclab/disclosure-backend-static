@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 committee_name: Leroy Gaines for Oakland School Board 2020
-filer_id: ''
+filer_id: '1431908'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Leroy Roches Gaines

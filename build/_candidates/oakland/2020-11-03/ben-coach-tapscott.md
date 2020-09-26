@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 committee_name: Ben "Coach" Tapscott for Oakland School Board 2020
-filer_id: ''
+filer_id: '1430904'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Ben "Coach" Tapscott

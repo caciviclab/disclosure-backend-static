@@ -1,16 +1,16 @@
 {
-  "total_contributions": 1547605.57,
+  "total_contributions": 1609158.33,
   "total_contributions_by_source": {
-    "Out of State": 97206.07,
-    "Within Oakland": 691152.05,
-    "Within California": 559662.05
+    "Out of State": 104126.07,
+    "Within Oakland": 719147.01,
+    "Within California": 579471.02
   },
   "contributions_by_type": {
-    "Committee": 130448.67,
-    "Individual": 1126091.5,
-    "Unitemized": 103106.08,
-    "Self Funding": 16665.0,
-    "Other (includes Businesses)": 74815.0
+    "Committee": 135148.66999999998,
+    "Individual": 1176215.4300000002,
+    "Unitemized": 107913.91000000002,
+    "Self Funding": 18165.0,
+    "Other (includes Businesses)": 73215.0
   },
   "most_expensive_races": [
     {
@@ -23,13 +23,13 @@
       "slug": "city-council-district-1",
       "type": "office",
       "title": "City Council District 1",
-      "amount": 290183.83999999997
+      "amount": 307179.04000000004
     },
     {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 282254.0
+      "amount": 283254.0
     }
   ],
   "largest_small_proportion": [
@@ -60,19 +60,19 @@
   ],
   "largest_independent_expenditures": [
     {
-      "name": "Committee for an Affordable East Bay supporting Derreck Johnson and\nopposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+      "name": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
       "election_name": "oakland-2020",
       "total_spending": 80000.0
     },
     {
       "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
       "election_name": "oakland-2020",
-      "total_spending": 45445.6
+      "total_spending": 61189.6
     },
     {
-      "name": "Oakland Police Officer's Association - Political Action Committee",
+      "name": "OAKPAC, Oakland Metropolitan Chamber of Commerce",
       "election_name": "oakland-2020",
-      "total_spending": 18302.0
+      "total_spending": 27375.0
     }
   ],
   "top_contributors": [
@@ -87,7 +87,7 @@
       "total_contributions": 208800.0
     },
     {
-      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "name": "Michael R. Bloomberg",
       "election_name": "oakland-2020",
       "total_contributions": 200000.0
     }
@@ -146,7 +146,7 @@
       "total_spending": 202000.0
     },
     {
-      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "name": "Michael R. Bloomberg",
       "type": "Measure",
       "election_name": "oakland-2020",
       "total_spending": 200000.0
@@ -186,7 +186,7 @@
       "total_spending": 202000.0
     },
     {
-      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "name": "Michael R. Bloomberg",
       "type": "Measure",
       "election_name": "oakland-2020",
       "total_spending": 200000.0

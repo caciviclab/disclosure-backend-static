@@ -1,5 +1,5 @@
 {
-  "total_contributions": 472185.33000000025,
+  "total_contributions": 485685.33000000025,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1221,6 +1221,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Cumming Management Group, Inc",
       "Tran_Zip4": "92562"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2020-09-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "CAW Architects, Inc",
+      "Tran_Zip4": "94306"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-09-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Wickman Development and Construction",
+      "Tran_Zip4": "94112"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Zum Services, Inc.",
+      "Tran_Zip4": "94065"
     }
   ]
 }

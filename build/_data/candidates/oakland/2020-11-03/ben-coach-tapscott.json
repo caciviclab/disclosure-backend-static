@@ -16,21 +16,27 @@
   "occupation": "Retired Teacher",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1430904,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 6102.58,
+    "total_contributions": 6102.58,
+    "total_expenditures": 3810.69,
+    "total_loans_received": 2000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Committee": 200.0,
+      "Individual": 3141.08,
+      "Unitemized": 640.5,
+      "Other (includes Businesses)": 100.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 2200.0,
+      "Within California": 1241.08
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 640.5,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
@@ -44,7 +50,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 6102.58,
+  "total_expenditures": 3810.69,
+  "total_loans_received": 2000.0
 }

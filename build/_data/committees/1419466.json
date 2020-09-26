@@ -1,5 +1,5 @@
 {
-  "total_contributions": 88735.0,
+  "total_contributions": 89735.0,
   "contributions": [
     {
       "Filer_ID": "1419466",
@@ -2310,6 +2310,17 @@
       "Tran_NamF": "VanCedric",
       "Tran_NamL": "Williams",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1419466",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Firefighters Association PAC IAFF Local 689",
+      "Tran_Zip4": "94501"
     }
   ]
 }
