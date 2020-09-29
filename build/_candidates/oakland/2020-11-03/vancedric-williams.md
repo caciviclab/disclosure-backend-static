@@ -4,7 +4,7 @@ committee_name: Van Cedric Williams for Oakland School Board Seat 3 2020
 filer_id: '1427826'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-name: Van Cedric Williams
+name: VanCedric Williams
 occupation: Teacher/Treasurer
 party_affiliation: Democrat
 photo_url: vancedric_williams_sub.jpg

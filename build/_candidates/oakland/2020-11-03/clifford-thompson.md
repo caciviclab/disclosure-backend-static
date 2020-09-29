@@ -5,6 +5,6 @@ filer_id: '1427679'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Clifford Thompson
-occupation: 5th Grade Teacher
+occupation: Fifth Grade Teacher
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21298/candidate/151508
 ---

@@ -8,35 +8,35 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4192?cty=ca%2falm",
   "contributions_by_region": [
     {
-      "amount": 2500.0,
+      "amount": 10000.0,
       "locale": "Within California"
     },
     {
-      "amount": 55000.0,
+      "amount": 220000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 30000.0
+      "amount": 120000.0
     },
     {
       "type": "Individual",
-      "amount": 25000.0
+      "amount": 100000.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 2500.0
+      "amount": 10000.0
     }
   ],
   "supporting_organizations": [
     {
       "id": "1428755",
-      "name": "Oakland Youth Vote",
-      "payee": "Oakland Youth Vote",
+      "name": "Yes on QQ, Oakland Youth Vote",
+      "payee": "Yes on QQ, Oakland Youth Vote",
       "amount": 31354.0
     }
   ],
-  "total_contributions": 57500.0
+  "total_contributions": 230000.0
 }

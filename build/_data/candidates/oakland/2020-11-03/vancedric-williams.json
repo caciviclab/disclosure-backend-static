@@ -1,12 +1,12 @@
 {
   "id": 28,
-  "name": "Van Cedric Williams",
+  "name": "VanCedric Williams",
   "photo_url": "vancedric_williams_sub.jpg",
   "website_url": "http://vancedricwilliams.com",
   "twitter_url": "VanCedricforOUSD",
   "votersedge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21296/candidate/151500?&cty=ca%2falm&date=2020-11-03",
-  "first_name": "Van",
-  "last_name": "Cedric Williams",
+  "first_name": "VanCedric",
+  "last_name": "Williams",
   "ballot_item": 16,
   "office_election": 16,
   "bio": null,
@@ -22,9 +22,14 @@
     "total_contributions": 10759.0,
     "total_expenditures": 4122.04,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 9603.0,
     "support_list": [
-
+      {
+        "Total": 9603.0,
+        "Cand_ID": 1427826,
+        "Filer_ID": "1345259",
+        "Filer_NamL": "Oakland Education Association Political Action Committee"
+      }
     ],
     "contributions_by_type": {
       "Individual": 6330.0,
@@ -43,6 +48,10 @@
       "Campaign Paraphernalia/Misc.": 543.59
     },
     "supporting_by_type": {
+      "Live Calls": 7006.0,
+      "Voter Data": 125.0,
+      "Yard Signs": 2328.0,
+      "Sign Design": 144.0
     }
   },
   "opposing_money": {
