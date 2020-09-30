@@ -9,4 +9,5 @@ occupation: Oakland City Attorney
 photo_url: barbara_parker.png
 twitter_url: BarbaraJParker1
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21264/candidate/151384?cty=ca%2falm
+facebook_url: https://www.facebook.com/Oakland-City-Attorney-Barbara-Parker-144046002358818/
 ---

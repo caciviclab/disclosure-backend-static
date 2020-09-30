@@ -11,4 +11,5 @@ photo_url: vancedric_williams_sub.jpg
 twitter_url: VanCedricforOUSD
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21296/candidate/151500?&cty=ca%2falm&date=2020-11-03
 website_url: http://vancedricwilliams.com
+facebook_url: https://www.facebook.com/vancedricforousd
 ---

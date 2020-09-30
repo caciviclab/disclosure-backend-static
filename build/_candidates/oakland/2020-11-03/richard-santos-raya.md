@@ -10,4 +10,6 @@ photo_url: richard_raya_sub.jpg
 twitter_url: rraya_oakd5
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-9842e0/address/null/zip/94610/contests/contest/21268/candidate/151399
 website_url: https://www.santosraya.com/
+facebook_url: https://www.facebook.com/richardsantosraya
+instagram_url: richardsantosraya
 ---
