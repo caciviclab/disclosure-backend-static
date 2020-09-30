@@ -16,7 +16,6 @@ class Committee < ActiveRecord::Base
       'name' => self[:Filer_NamL],
       'candidate_controlled_id' => candidate_controlled_id.to_s,
       'data_warning' => data_warning,
-      'opposing_candidate' => opposing_candidate,
       'title' => self[:Filer_NamL],
     }
   end
