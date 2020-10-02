@@ -1,5 +1,5 @@
 {
-  "total_contributions": 126000.0,
+  "total_contributions": 135999.0,
   "contributions": [
     {
       "Filer_ID": "1428904",
@@ -110,6 +110,17 @@
       "Tran_NamF": "Robert",
       "Tran_NamL": "Spears",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Officer Requested",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 9999.0,
+      "Tran_Date": "2020-09-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Reuben, Junius & Rose LLP",
+      "Tran_Zip4": "94104"
     }
   ]
 }

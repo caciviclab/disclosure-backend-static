@@ -70,14 +70,15 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 16000.0,
+    "opposing_expenditures": 20000.0,
     "opposing_by_type": {
       "Television ads": 16000.0,
+      "Digital advertising": 4000.0,
       "Independent Expenditure Supporting/Opposing Others": 8450.0
     },
     "opposition_list": [
       {
-        "Total": 16000.0,
+        "Total": 20000.0,
         "Cand_ID": 1419466,
         "Filer_ID": "1428904",
         "Filer_NamL": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020"
