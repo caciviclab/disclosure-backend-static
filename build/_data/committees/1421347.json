@@ -1,5 +1,5 @@
 {
-  "total_contributions": 146099.32,
+  "total_contributions": 146599.32,
   "contributions": [
     {
       "Filer_ID": "1421347",
@@ -4609,6 +4609,17 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Silver",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Holland Partner Group",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Wayland",
+      "Tran_Zip4": "94526"
     }
   ]
 }

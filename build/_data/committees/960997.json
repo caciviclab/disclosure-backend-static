@@ -1,5 +1,5 @@
 {
-  "total_contributions": 485685.33000000025,
+  "total_contributions": 505685.33000000025,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1254,6 +1254,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Zum Services, Inc.",
       "Tran_Zip4": "94065"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612"
     }
   ]
 }

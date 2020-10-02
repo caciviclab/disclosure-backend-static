@@ -1,5 +1,5 @@
 {
-  "total_contributions": 109000.0,
+  "total_contributions": 126000.0,
   "contributions": [
     {
       "Filer_ID": "1428904",
@@ -66,6 +66,50 @@
       "Tran_NamF": "Erik",
       "Tran_NamL": "Moore",
       "Tran_Zip4": "94611-2802"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Freiberg",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Roe",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Self Employed/Same Name",
+      "Tran_Occ": "Artist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "Martha",
+      "Tran_NamL": "Siegel",
+      "Tran_Zip4": "94501-3911"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Shoreline Venture Management",
+      "Tran_Occ": "Venture Capitalist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spears",
+      "Tran_Zip4": "94618"
     }
   ]
 }

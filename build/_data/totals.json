@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Oakland Athletics Baseball Company",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -705,16 +705,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 1664990.48,
+    "total_contributions": 1682274.0399999998,
     "total_contributions_by_source": {
-      "Out of State": 105526.07,
-      "Within Oakland": 763001.6599999999,
-      "Within California": 587926.28
+      "Out of State": 105826.07,
+      "Within Oakland": 764751.6599999999,
+      "Within California": 594476.28
     },
     "contributions_by_type": {
-      "Committee": 155148.66999999998,
-      "Individual": 1206775.3400000003,
-      "Unitemized": 110036.15000000002,
+      "Committee": 159548.66999999998,
+      "Individual": 1210975.3400000003,
+      "Unitemized": 114191.71,
       "Self Funding": 20165.0,
       "Other (includes Businesses)": 74365.0
     },
@@ -723,13 +723,13 @@
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 320596.32999999996
+        "amount": 322096.32999999996
       },
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 307179.04000000004
+        "amount": 310670.60000000003
       },
       {
         "slug": "city-council-at-large",
@@ -748,27 +748,27 @@
         "office_title": "School Board District 3"
       },
       {
+        "slug": "tri-ngo",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Tri Ngo",
+        "proportion": 0.39272105625838855,
+        "office_title": "City Council District 1"
+      },
+      {
         "slug": "vancedric-williams",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "VanCedric Williams",
         "proportion": 0.28432010409889397,
         "office_title": "School Board District 3"
-      },
-      {
-        "slug": "zoe-lopez-meraz",
-        "type": "office",
-        "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Zoe Lopez-Meraz",
-        "proportion": 0.2821111630079402,
-        "office_title": "City Council District 5"
       }
     ],
     "largest_independent_expenditures": [
       {
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2020",
-        "total_spending": 85813.6
+        "total_spending": 109506.6
       },
       {
         "name": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
@@ -815,7 +815,7 @@
         "name": "Service Employees International Union Local 1021",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_contributions": 5100.0
+        "total_contributions": 6800.0
       }
     ],
     "top_contributors_for_measures": [
@@ -875,7 +875,7 @@
         "name": "Service Employees International Union Local 1021",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_spending": 5100.0
+        "total_spending": 6800.0
       }
     ],
     "top_spenders_for_measures": [
