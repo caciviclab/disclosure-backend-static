@@ -173,7 +173,32 @@ puts "Indexing #{referendum_data.length} Referendums..."
 puts "Indexing #{ballot_committees.length} Ballot Committees..."
 puts "Indexing #{ballot_contrib.length} Ballot Contributors..."
 
+committee_data = []
+committee_contrib = []
+Committee.where(Make_Active: 'YES').find_each do |committee|
+  next if ballot_committees.any? {|c| c[:committee_id] == committee['Filer_ID'] }
+  next if iec_data.any? {|c| c[:committee_id] == committee['Filer_ID'] }
+  election = Election.where(name: committee['Ballot_Measure_Election']).first
+  committee_data += [{
+    type: :committee,
+    committee_name: committee['Filer_NamL'],
+    committee_id: committee['Filer_ID'],
+    amount: committee.calculation(:contribution_list_total),
+    election_slug: election.name,
+    election_location: election.location,
+    election_date: election.date,
+    election_title: election.title,
+  }]
+  contrib = contributors_to_committee(committee['Filer_NamL'], committee['Filer_ID'], election)
+  next if contrib.nil?
+  committee_contrib += contrib
+end
+puts "Indexing #{committee_data.length} Active Committees..."
+puts "Indexing #{committee_contrib.length} Active Committee Contributors..."
+
+
 all_data = ballot_contrib + ballot_committees + referendum_data +
-  contributor_data + candidate_data + iec_data + iec_contrib
+  contributor_data + candidate_data + iec_data + iec_contrib +
+  committee_data + committee_contrib
 puts "total records: #{all_data.length}"
 index.replace_all_objects(all_data)
