@@ -1,5 +1,5 @@
 {
-  "total_contributions": 349500.0,
+  "total_contributions": 358000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -132,6 +132,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "IBEW 332 Education Fund  sponsored by International Brotherhood of Electrical Workers Local 332",
       "Tran_Zip4": "95125"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815"
     }
   ]
 }

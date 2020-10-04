@@ -1,5 +1,5 @@
 {
-  "total_contributions": 505685.33000000025,
+  "total_contributions": 515685.33000000025,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1265,6 +1265,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kitchell",
+      "Tran_Zip4": "85016"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "School Facility Consultants",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": "Alexander",
+      "Tran_NamL": "Murdoch",
+      "Tran_Zip4": "95618"
     }
   ]
 }

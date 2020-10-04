@@ -1,5 +1,5 @@
 {
-  "total_contributions": 77500.0,
+  "total_contributions": 78500.0,
   "contributions": [
     {
       "Filer_ID": "1428755",
@@ -55,6 +55,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Officer is John Elberling",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Yerba Buena Consortium LLC",
+      "Tran_Zip4": "94103-3117"
     }
   ]
 }
