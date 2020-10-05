@@ -8,41 +8,41 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4192?cty=ca%2falm",
   "contributions_by_region": [
     {
-      "amount": 3500.0,
+      "amount": 14000.0,
       "locale": "Within California"
     },
     {
-      "amount": 75000.0,
+      "amount": 300000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 50000.0
+      "amount": 200000.0
     },
     {
       "type": "Individual",
-      "amount": 25000.0
+      "amount": 100000.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 3500.0
+      "amount": 14000.0
     }
   ],
   "supporting_organizations": [
     {
-      "id": null,
+      "id": "1428755",
       "name": "Youth Power PAC, Sponsored by PowerCA Action",
       "payee": "Youth Power PAC, Sponsored by PowerCA Action",
       "amount": 6000.0
     },
     {
       "id": "1428755",
-      "name": "Yes on QQ, Oakland Youth Vote",
-      "payee": "Yes on QQ, Oakland Youth Vote",
+      "name": "Youth Power PAC, Sponsored by PowerCA Action",
+      "payee": "Youth Power PAC, Sponsored by PowerCA Action",
       "amount": 31354.0
     }
   ],
-  "total_contributions": 78500.0
+  "total_contributions": 314000.0
 }
