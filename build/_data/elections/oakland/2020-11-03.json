@@ -1,16 +1,16 @@
 {
-  "total_contributions": 1919774.0399999998,
+  "total_contributions": 1684274.0399999998,
   "total_contributions_by_source": {
     "Out of State": 105826.07,
-    "Within Oakland": 989751.6599999999,
-    "Within California": 606976.28
+    "Within Oakland": 764751.6599999999,
+    "Within California": 596476.28
   },
   "contributions_by_type": {
-    "Committee": 310548.67,
-    "Individual": 1285975.3400000003,
+    "Committee": 160548.66999999998,
+    "Individual": 1210975.3400000003,
     "Unitemized": 114191.71,
     "Self Funding": 20165.0,
-    "Other (includes Businesses)": 85865.0
+    "Other (includes Businesses)": 75365.0
   },
   "most_expensive_races": [
     {
@@ -20,16 +20,16 @@
       "amount": 322096.32999999996
     },
     {
-      "slug": "youth-voting",
-      "type": "referendum",
-      "title": "Measure QQ",
-      "amount": 314000.0
-    },
-    {
       "slug": "city-council-district-1",
       "type": "office",
       "title": "City Council District 1",
       "amount": 310670.60000000003
+    },
+    {
+      "slug": "city-council-at-large",
+      "type": "office",
+      "title": "City Council At-Large",
+      "amount": 283254.0
     }
   ],
   "largest_small_proportion": [
@@ -123,13 +123,13 @@
       "name": "Youth Power PAC, Sponsored by PowerCA Action",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_contributions": 60000.0
+      "total_contributions": 30000.0
     },
     {
       "name": "Quinn Delaney",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_contributions": 50000.0
+      "total_contributions": 25000.0
     }
   ],
   "top_spenders": [
