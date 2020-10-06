@@ -1,15 +1,15 @@
 {
-  "total_contributions": 1684274.0399999998,
+  "total_contributions": 1704274.0399999998,
   "total_contributions_by_source": {
     "Out of State": 105826.07,
     "Within Oakland": 764751.6599999999,
-    "Within California": 596476.28
+    "Within California": 616476.28
   },
   "contributions_by_type": {
     "Committee": 160548.66999999998,
     "Individual": 1210975.3400000003,
     "Unitemized": 114191.71,
-    "Self Funding": 20165.0,
+    "Self Funding": 40165.0,
     "Other (includes Businesses)": 75365.0
   },
   "most_expensive_races": [
@@ -29,7 +29,7 @@
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 283254.0
+      "amount": 303254.0
     }
   ],
   "largest_small_proportion": [
@@ -67,7 +67,7 @@
     {
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "election_name": "oakland-2020",
-      "total_spending": 140093.6
+      "total_spending": 147302.6
     },
     {
       "name": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
@@ -97,7 +97,7 @@
       "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 15880.0
+      "total_contributions": 35880.0
     },
     {
       "name": "Service Employees International Union Local 1021",
@@ -157,7 +157,7 @@
       "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 15880.0
+      "total_spending": 35880.0
     },
     {
       "name": "Service Employees International Union Local 1021 Candidate PAC",
