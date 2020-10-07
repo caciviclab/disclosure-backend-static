@@ -24,13 +24,19 @@
     "total_contributions": 18457.0,
     "total_expenditures": 16125.85,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 15614.03,
+    "total_supporting_independent": 60193.03,
     "support_list": [
       {
         "Total": 15614.03,
         "Cand_ID": 1427828,
         "Filer_ID": "1331137",
         "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
+      },
+      {
+        "Total": 44579.0,
+        "Cand_ID": 1427828,
+        "Filer_ID": "1431009",
+        "Filer_NamL": "Power2Families, supporting Dannhaus, Edgerly, Gaines and Thompson for Oakland School Board 2020"
       }
     ],
     "contributions_by_type": {
@@ -54,6 +60,9 @@
     },
     "supporting_by_type": {
       "IND EXP OF POLLING": 7333.0,
+      "Mailer (Estimated Costs)": 17246.0,
+      "Survey (Estimated Costs)": 7333.0,
+      "Staff Time (Estimated Costs)": 20000.0,
       "IND EXP OF CAMPAIGN LITERATURE": 357.0,
       "IND EXP OF CONSULTING SERVICES": 800.0,
       "IND EXP OF EST STAFF TIME (10.01.20-10.15.20)": 1169.0,
