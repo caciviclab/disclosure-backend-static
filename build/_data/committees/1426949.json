@@ -1,5 +1,5 @@
 {
-  "total_contributions": 54550.01,
+  "total_contributions": 74550.01000000001,
   "contributions": [
     {
       "Filer_ID": "1426949",
@@ -2442,6 +2442,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Northern Californa Carpenters Regional Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": "City of Oakland, CA",
+      "Tran_Occ": "Deputy City Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2020-10-06",
+      "Tran_NamF": "Elias",
+      "Tran_NamL": "Ferran",
+      "Tran_Zip4": "94605"
     }
   ]
 }

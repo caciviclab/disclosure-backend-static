@@ -1,5 +1,5 @@
 {
-  "total_contributions": 149330.0,
+  "total_contributions": 152030.0,
   "contributions": [
     {
       "Filer_ID": "1427585",
@@ -7238,6 +7238,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Alameda Fire Fighters Association",
       "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "SEIU United Healthcare Workers West PAC",
+      "Tran_Zip4": "90017"
     }
   ]
 }
