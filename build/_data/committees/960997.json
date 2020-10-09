@@ -1,5 +1,5 @@
 {
-  "total_contributions": 520685.33000000025,
+  "total_contributions": 523185.33000000025,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1298,6 +1298,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Construction and General Laborers Local 304",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "Verde Design, Inc.",
+      "Tran_Zip4": "95050"
     }
   ]
 }

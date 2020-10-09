@@ -24,13 +24,19 @@
     "total_contributions": 10759.0,
     "total_expenditures": 4122.04,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 27494.0,
+    "total_supporting_independent": 28498.0,
     "support_list": [
       {
         "Total": 27494.0,
         "Cand_ID": 1427826,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
+      },
+      {
+        "Total": 1004.0,
+        "Cand_ID": 1427826,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
       }
     ],
     "contributions_by_type": {
@@ -50,6 +56,7 @@
       "Campaign Paraphernalia/Misc.": 543.59
     },
     "supporting_by_type": {
+      "MAILER": 1004.0,
       "Mailer": 17891.0,
       "Live Calls": 7006.0,
       "Voter Data": 125.0,

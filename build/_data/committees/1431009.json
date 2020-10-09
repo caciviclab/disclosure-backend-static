@@ -1,5 +1,5 @@
 {
-  "total_contributions": 237500.0,
+  "total_contributions": 312500.0,
   "contributions": [
     {
       "Filer_ID": "1431009",
@@ -22,6 +22,17 @@
       "Tran_NamF": "Arthur",
       "Tran_NamL": "Rock",
       "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Stacy H. Schusterman",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 75000.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": "Stacy H.",
+      "Tran_NamL": "Schusterman",
+      "Tran_Zip4": "74119"
     }
   ]
 }
