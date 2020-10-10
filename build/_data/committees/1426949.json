@@ -1,5 +1,5 @@
 {
-  "total_contributions": 74550.01000000001,
+  "total_contributions": 76250.01000000001,
   "contributions": [
     {
       "Filer_ID": "1426949",
@@ -2453,6 +2453,17 @@
       "Tran_NamF": "Elias",
       "Tran_NamL": "Ferran",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
+      "Tran_Zip4": "94607"
     }
   ]
 }

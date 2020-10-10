@@ -1,5 +1,5 @@
 {
-  "total_contributions": 44276.0,
+  "total_contributions": 45976.0,
   "contributions": [
     {
       "Filer_ID": "1429205",
@@ -792,6 +792,17 @@
       "Tran_NamF": "Gabriel",
       "Tran_NamL": "Valenzuela",
       "Tran_Zip4": "94806"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
+      "Tran_Zip4": "94607"
     }
   ]
 }

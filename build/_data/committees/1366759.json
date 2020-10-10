@@ -1,5 +1,5 @@
 {
-  "total_contributions": 130704.46999999999,
+  "total_contributions": 132404.46999999997,
   "contributions": [
     {
       "Filer_ID": "1366759",
@@ -4939,6 +4939,17 @@
       "Tran_NamF": "Sheryl",
       "Tran_NamL": "Walton",
       "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
+      "Tran_Zip4": "94607"
     }
   ]
 }
