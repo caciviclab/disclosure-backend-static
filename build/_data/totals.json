@@ -1,17 +1,17 @@
 {
   "oakland-2014": {
-    "total_contributions": 2008800.7299999997,
+    "total_contributions": 2008618.7599999998,
     "total_contributions_by_source": {
-      "Out of State": 124441.89,
-      "Within Oakland": 1032646.0499999998,
-      "Within California": 731917.51
+      "Out of State": 121091.94,
+      "Within Oakland": 1024776.7699999998,
+      "Within California": 715750.06
     },
     "contributions_by_type": {
-      "Committee": 101945.35,
-      "Individual": 1496598.7999999998,
-      "Unitemized": 126957.34999999998,
-      "Self Funding": 120763.35999999999,
-      "Other (includes Businesses)": 169917.22
+      "Committee": 99845.35,
+      "Individual": 1474431.4,
+      "Unitemized": 124914.37999999998,
+      "Self Funding": 120324.79999999999,
+      "Other (includes Businesses)": 167017.22
     },
     "most_expensive_races": [
       {
@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -510,18 +510,18 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6351158.2,
+    "total_contributions": 6351340.17,
     "total_contributions_by_source": {
-      "Out of State": 897296.36,
-      "Within Oakland": 2557810.63,
-      "Within California": 2845152.4499999997
+      "Out of State": 900646.31,
+      "Within Oakland": 2565679.9099999997,
+      "Within California": 2861319.9
     },
     "contributions_by_type": {
-      "Committee": 956739.14,
-      "Individual": 2587775.1,
-      "Unitemized": 154312.51,
-      "Self Funding": 81521.38,
-      "Other (includes Businesses)": 2674223.8200000003
+      "Committee": 958839.14,
+      "Individual": 2609942.5,
+      "Unitemized": 156355.48,
+      "Self Funding": 81959.94,
+      "Other (includes Businesses)": 2677123.8200000003
     },
     "most_expensive_races": [
       {
@@ -826,16 +826,16 @@
         "total_contributions": 100000.0
       },
       {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 50000.0
+      },
+      {
         "name": "Youth Power PAC, Sponsored by PowerCA Action",
         "type": "Measure",
         "election_name": "oakland-2020",
         "total_contributions": 30000.0
-      },
-      {
-        "name": "Quinn Delaney",
-        "type": "Measure",
-        "election_name": "oakland-2020",
-        "total_contributions": 25000.0
       }
     ],
     "top_spenders": [
