@@ -1,5 +1,5 @@
 {
-  "total_contributions": 110210.0,
+  "total_contributions": 113103.0,
   "contributions": [
     {
       "Filer_ID": "1419466",
@@ -2376,6 +2376,28 @@
       "Tran_NamF": "Rebecca",
       "Tran_NamL": "Kaplan",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1419466",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1193.0,
+      "Tran_Date": "2020-10-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1419466",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "SEIU United Healthcare Workers West Political Action Committee",
+      "Tran_Zip4": "90017"
     }
   ]
 }

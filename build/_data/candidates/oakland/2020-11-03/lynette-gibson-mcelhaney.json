@@ -24,10 +24,10 @@
     "total_contributions": 157554.86,
     "total_expenditures": 53455.48,
     "total_loans_received": 1.0,
-    "total_supporting_independent": 39558.0,
+    "total_supporting_independent": 49558.0,
     "support_list": [
       {
-        "Total": 39558.0,
+        "Total": 49558.0,
         "Cand_ID": 1421347,
         "Filer_ID": "983545",
         "Filer_NamL": "OAKPAC, Oakland Metropolitan Chamber of Commerce"
@@ -60,7 +60,8 @@
     "supporting_by_type": {
       "MON": 3150.0,
       "Mailer": 29558.0,
-      "Polling": 10000.0
+      "Polling": 10000.0,
+      "Online advertising": 10000.0
     }
   },
   "opposing_money": {
