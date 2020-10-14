@@ -1,5 +1,5 @@
 {
-  "total_contributions": 45976.0,
+  "total_contributions": 50626.0,
   "contributions": [
     {
       "Filer_ID": "1429205",
@@ -803,6 +803,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Construction and General Laborers Local 304",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Steamfitters Local Union #342",
+      "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1250.0,
+      "Tran_Date": "2020-10-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unite Here Tip State and Local Fund",
+      "Tran_Zip4": "10001"
     }
   ]
 }
