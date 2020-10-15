@@ -1,5 +1,5 @@
 {
-  "total_contributions": 137999.0,
+  "total_contributions": 147999.0,
   "contributions": [
     {
       "Filer_ID": "1428904",
@@ -132,6 +132,17 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Roe",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Riaz Capital, LLC",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-13",
+      "Tran_NamF": "Alexander Riaz",
+      "Tran_NamL": "Taplin",
+      "Tran_Zip4": "94601"
     }
   ]
 }
