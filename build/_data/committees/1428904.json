@@ -1,5 +1,5 @@
 {
-  "total_contributions": 147999.0,
+  "total_contributions": 162999.0,
   "contributions": [
     {
       "Filer_ID": "1428904",
@@ -143,6 +143,28 @@
       "Tran_NamF": "Alexander Riaz",
       "Tran_NamL": "Taplin",
       "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Self Employed / Same Name",
+      "Tran_Occ": "Policy Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 8000.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": "Adelin",
+      "Tran_NamL": "Cai",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Law Office of Michael Yang",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 7000.0,
+      "Tran_Date": "2020-10-15",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Yang",
+      "Tran_Zip4": "94618"
     }
   ]
 }

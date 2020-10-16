@@ -1,5 +1,5 @@
 {
-  "total_contributions": 541933.8300000003,
+  "total_contributions": 555626.2500000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1330,6 +1330,50 @@
       "Tran_Date": "2020-10-09",
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Rising Committee",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "CB Management Group, Inc.",
+      "Tran_Zip4": "94607-4399"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Northern CA Chapter, National Electrical Contractors",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Verde Design, Inc.",
+      "Tran_Zip4": "95050"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Baines Group, Inc",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5192.42,
+      "Tran_Date": "2020-10-15",
+      "Tran_NamF": "Elizabeth",
+      "Tran_NamL": "Norris",
       "Tran_Zip4": "94612"
     }
   ]

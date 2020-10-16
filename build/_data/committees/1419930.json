@@ -1,5 +1,5 @@
 {
-  "total_contributions": 40817.0,
+  "total_contributions": 42517.0,
   "contributions": [
     {
       "Filer_ID": "1419930",
@@ -2211,6 +2211,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Laborers Local 304 PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1419930",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "IUPAT Political Action Together Legislative Education Committee",
+      "Tran_Zip4": "21076"
     }
   ]
 }

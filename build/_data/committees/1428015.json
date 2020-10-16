@@ -1,5 +1,5 @@
 {
-  "total_contributions": 389500.0,
+  "total_contributions": 391000.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -187,6 +187,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2020-10-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL 595 PAC",
+      "Tran_Zip4": "94568"
     }
   ]
 }
