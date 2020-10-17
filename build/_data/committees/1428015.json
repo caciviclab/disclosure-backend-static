@@ -1,5 +1,5 @@
 {
-  "total_contributions": 391000.0,
+  "total_contributions": 392500.0,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -198,6 +198,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL 595 PAC",
       "Tran_Zip4": "94568"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers' International Association Local No. 104 Political Action Committee",
+      "Tran_Zip4": "94583"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 76250.01000000001,
+  "total_contributions": 77950.01000000001,
   "contributions": [
     {
       "Filer_ID": "1426949",
@@ -2464,6 +2464,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Union of Painters and Allied Trades",
+      "Tran_Zip4": "21076"
     }
   ]
 }
