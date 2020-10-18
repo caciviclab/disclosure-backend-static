@@ -1,5 +1,5 @@
 {
-  "total_contributions": 151833.0,
+  "total_contributions": 155783.0,
   "contributions": [
     {
       "Filer_ID": "1418926",
@@ -6457,6 +6457,39 @@
       "Tran_NamF": "Jennifer",
       "Tran_NamL": "Lewis",
       "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "IUPAT Political Action Together Legislative Education Committee",
+      "Tran_Zip4": "21076"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "United Food & Commercial Workers Local 5 PAC",
+      "Tran_Zip4": "95113"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1250.0,
+      "Tran_Date": "2020-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "IBEW Local 1245",
+      "Tran_Zip4": "95687"
     }
   ]
 }

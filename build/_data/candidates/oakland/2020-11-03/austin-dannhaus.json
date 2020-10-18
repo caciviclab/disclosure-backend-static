@@ -24,10 +24,16 @@
     "total_contributions": 18457.0,
     "total_expenditures": 16125.85,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 93912.03,
+    "total_supporting_independent": 113994.03,
     "support_list": [
       {
-        "Total": 15614.03,
+        "Total": 18618.0,
+        "Cand_ID": 1427828,
+        "Filer_ID": "1417455",
+        "Filer_NamL": "Committee for California"
+      },
+      {
+        "Total": 17078.03,
         "Cand_ID": 1427828,
         "Filer_ID": "1331137",
         "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
@@ -60,12 +66,15 @@
     },
     "supporting_by_type": {
       "IND EXP OF POLLING": 7333.0,
-      "Mailer (Estimated Costs)": 50965.0,
+      "Mailer (Estimated Costs)": 65510.0,
       "Survey (Estimated Costs)": 7333.0,
       "Staff Time (Estimated Costs)": 20000.0,
+      "Robos Calls (Estimated Costs)": 323.0,
       "IND EXP OF CAMPAIGN LITERATURE": 357.0,
       "IND EXP OF CONSULTING SERVICES": 800.0,
       "IND EXP OF EST STAFF TIME (10.01.20-10.15.20)": 1169.0,
+      "IND EXP OF ESTIMATED STAFF TIME (10.16-10.31.20)": 1464.0,
+      "Consulting for Mailer/Robo Calls (Estimated Costs)": 3750.0,
       "Independent Expenditure Supporting/Opposing Others": 5955.03
     }
   },
