@@ -3458,7 +3458,7 @@
     {
       "Filer_ID": "1426780",
       "Tran_Emp": "Blue Shield Of California",
-      "Tran_Occ": "Vice President, Government Affairs",
+      "Tran_Occ": "Executive",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2020-07-01",
@@ -3975,11 +3975,11 @@
     {
       "Filer_ID": "1426780",
       "Tran_Emp": "School Of Thought",
-      "Tran_Occ": "CEO",
+      "Tran_Occ": "Chief Executive Officer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2020-07-16",
-      "Tran_NamF": "Tom",
+      "Tran_NamF": "Thomas",
       "Tran_NamL": "Geary",
       "Tran_Zip4": "94501"
     },
@@ -4337,8 +4337,8 @@
     },
     {
       "Filer_ID": "1426780",
-      "Tran_Emp": null,
-      "Tran_Occ": "Not Employed",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": null,
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2020-08-08",
@@ -4602,7 +4602,7 @@
     {
       "Filer_ID": "1426780",
       "Tran_Emp": null,
-      "Tran_Occ": "Not Employed",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2020-08-25",
@@ -4799,8 +4799,8 @@
     },
     {
       "Filer_ID": "1426780",
-      "Tran_Emp": "Azul 17/Self Employed",
-      "Tran_Occ": "Integral Leadership Coach and Development Consultant",
+      "Tran_Emp": "Azul 17",
+      "Tran_Occ": "Leadership Coach",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2020-08-28",
@@ -5162,8 +5162,8 @@
     },
     {
       "Filer_ID": "1426780",
-      "Tran_Emp": "Procter & Gamble",
-      "Tran_Occ": "Sales Executive",
+      "Tran_Emp": "P&amp;G",
+      "Tran_Occ": "Sales",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2020-09-09",
@@ -5514,8 +5514,8 @@
     },
     {
       "Filer_ID": "1426780",
-      "Tran_Emp": "Vacasa/ Revenue Officer",
-      "Tran_Occ": "Investor",
+      "Tran_Emp": "Vacasa",
+      "Tran_Occ": "Cro",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2020-09-15",
@@ -5767,7 +5767,7 @@
     },
     {
       "Filer_ID": "1426780",
-      "Tran_Emp": "I Luv Curls",
+      "Tran_Emp": "Self",
       "Tran_Occ": "Founder",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
@@ -5955,7 +5955,7 @@
     {
       "Filer_ID": "1426780",
       "Tran_Emp": "Roan Sisters, LLC",
-      "Tran_Occ": "Organizational Development",
+      "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2020-09-18",
