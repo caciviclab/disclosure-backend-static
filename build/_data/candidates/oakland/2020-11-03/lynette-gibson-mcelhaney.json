@@ -20,14 +20,14 @@
   "is_winner": null,
   "filer_id": 1421347,
   "supporting_money": {
-    "contributions_received": 157554.86,
-    "total_contributions": 157554.86,
+    "contributions_received": 158554.86,
+    "total_contributions": 158554.86,
     "total_expenditures": 53800.96,
     "total_loans_received": 1.0,
-    "total_supporting_independent": 82046.0,
+    "total_supporting_independent": 92046.0,
     "support_list": [
       {
-        "Total": 82046.0,
+        "Total": 92046.0,
         "Cand_ID": 1421347,
         "Filer_ID": "983545",
         "Filer_NamL": "OAKPAC, Oakland Metropolitan Chamber of Commerce"
@@ -35,7 +35,7 @@
     ],
     "contributions_by_type": {
       "Committee": 10900.0,
-      "Individual": 120099.32,
+      "Individual": 121099.32,
       "Unitemized": 5854.54,
       "Self Funding": 900.0,
       "Other (includes Businesses)": 19800.0
@@ -43,7 +43,7 @@
     "contributions_by_origin": {
       "Out of State": 4666.85,
       "Within Oakland": 98131.13,
-      "Within California": 48901.34
+      "Within California": 49901.34
     },
     "total_small_contributions": 6995.19,
     "expenditures_by_type": {
@@ -61,7 +61,8 @@
       "MON": 3150.0,
       "Mailer": 62046.0,
       "Polling": 10000.0,
-      "Online advertising": 10000.0
+      "Online advertising": 10000.0,
+      "Digital Advertising": 10000.0
     }
   },
   "opposing_money": {
@@ -77,7 +78,7 @@
       }
     ]
   },
-  "total_contributions": 157554.86,
+  "total_contributions": 158554.86,
   "total_expenditures": 53800.96,
   "total_loans_received": 1.0
 }

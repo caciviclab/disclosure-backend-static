@@ -1,5 +1,5 @@
 {
-  "total_contributions": 2000.0,
+  "total_contributions": 4500.0,
   "contributions": [
     {
       "Filer_ID": "1401958",
@@ -11,6 +11,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "STEAMFITTERS LOCAL 342 POLITICAL ACTION COMMITTEE",
       "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1401958",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "United Food and Commercial Workers Western States Council Candidate PAC",
+      "Tran_Zip4": "90620"
     }
   ]
 }

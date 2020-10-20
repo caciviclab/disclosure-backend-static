@@ -1,5 +1,5 @@
 {
-  "total_contributions": 155783.0,
+  "total_contributions": 157483.0,
   "contributions": [
     {
       "Filer_ID": "1418926",
@@ -6490,6 +6490,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "IBEW Local 1245",
       "Tran_Zip4": "95687"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "District Council of Iron Workers Political Action League",
+      "Tran_Zip4": "94564"
     }
   ]
 }

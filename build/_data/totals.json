@@ -61,6 +61,11 @@
     ],
     "largest_independent_expenditures": [
       {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "election_name": "oakland-2014",
+        "total_spending": 174766.0
+      },
+      {
         "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
         "election_name": "oakland-2014",
         "total_spending": 129086.79
@@ -69,11 +74,6 @@
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2014",
         "total_spending": 116717.0
-      },
-      {
-        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
-        "election_name": "oakland-2014",
-        "total_spending": 107576.9
       }
     ],
     "top_contributors": [
@@ -260,14 +260,14 @@
         "total_spending": 316696.51
       },
       {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "election_name": "oakland-2016",
+        "total_spending": 174766.0
+      },
+      {
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2016",
         "total_spending": 116717.0
-      },
-      {
-        "name": "OAKPAC, Oakland Metropolitan Chamber of Commerce",
-        "election_name": "oakland-2016",
-        "total_spending": 82046.0
       }
     ],
     "top_contributors": [
@@ -705,37 +705,37 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 1764967.0399999998,
+    "total_contributions": 1811314.0399999998,
     "total_contributions_by_source": {
-      "Out of State": 113426.07,
-      "Within Oakland": 831246.6599999999,
-      "Within California": 602344.28
+      "Out of State": 114573.07,
+      "Within Oakland": 871146.6599999999,
+      "Within California": 607494.28
     },
     "contributions_by_type": {
-      "Committee": 197086.66999999998,
-      "Individual": 1214400.3400000003,
-      "Unitemized": 114921.71,
-      "Self Funding": 60165.0,
-      "Other (includes Businesses)": 75365.0
+      "Committee": 200286.66999999998,
+      "Individual": 1220397.3400000003,
+      "Unitemized": 115071.71,
+      "Self Funding": 96165.0,
+      "Other (includes Businesses)": 76365.0
     },
     "most_expensive_races": [
+      {
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 344572.0
+      },
       {
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 334546.32999999996
+        "amount": 335546.32999999996
       },
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 314620.60000000003
-      },
-      {
-        "slug": "city-council-at-large",
-        "type": "office",
-        "title": "City Council At-Large",
-        "amount": 308572.0
+        "amount": 317320.60000000003
       }
     ],
     "largest_small_proportion": [
@@ -756,15 +756,20 @@
         "office_title": "City Council District 1"
       },
       {
-        "slug": "vancedric-williams",
+        "slug": "zoe-lopez-meraz",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "VanCedric Williams",
-        "proportion": 0.28432010409889397,
-        "office_title": "School Board District 3"
+        "candidate": "Zoe Lopez-Meraz",
+        "proportion": 0.2821111630079402,
+        "office_title": "City Council District 5"
       }
     ],
     "largest_independent_expenditures": [
+      {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "election_name": "oakland-2020",
+        "total_spending": 324628.0
+      },
       {
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2020",
@@ -774,11 +779,6 @@
         "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2020",
         "total_spending": 229697.6
-      },
-      {
-        "name": "Oaklanders for more housing, supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
-        "election_name": "oakland-2020",
-        "total_spending": 122000.0
       }
     ],
     "top_contributors": [
@@ -790,7 +790,7 @@
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "election_name": "oakland-2020",
-        "total_contributions": 233800.0
+        "total_contributions": 236300.0
       },
       {
         "name": "Michael R. Bloomberg",
@@ -803,7 +803,7 @@
         "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_contributions": 35880.0
+        "total_contributions": 71880.0
       },
       {
         "name": "Elias Ferran",
@@ -849,7 +849,7 @@
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 227000.0
+        "total_spending": 229500.0
       },
       {
         "name": "Michael R. Bloomberg",
@@ -863,7 +863,7 @@
         "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_spending": 35880.0
+        "total_spending": 71880.0
       },
       {
         "name": "Elias Ferran",
@@ -889,7 +889,7 @@
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 227000.0
+        "total_spending": 229500.0
       },
       {
         "name": "Michael R. Bloomberg",

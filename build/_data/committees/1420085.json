@@ -1,5 +1,5 @@
 {
-  "total_contributions": 123845.87,
+  "total_contributions": 124845.87,
   "contributions": [
     {
       "Filer_ID": "1420085",
@@ -5368,6 +5368,17 @@
       "Tran_NamF": "Gary",
       "Tran_NamL": "Sirbu",
       "Tran_Zip4": "94602-2003"
+    },
+    {
+      "Filer_ID": "1420085",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }
