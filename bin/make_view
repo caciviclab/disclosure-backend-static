@@ -6,8 +6,8 @@ psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 /*
 ** View to capture all expenditures for ballot measures.
 ** Some committees formed to support/oppose a measure do
-** do not report their expenditures ass supporting/opposing
-** The measure
+** do not report their expenditures as supporting/opposing
+** the measure.
 */
 DROP VIEW IF EXISTS "Measure_Expenditures";
 CREATE VIEW "Measure_Expenditures" AS
@@ -23,11 +23,12 @@ CREATE VIEW "Measure_Expenditures" AS
     "Expn_Code",
     "Expn_Date" as "Exp_Date",
     "Payee_NamL" as "Recipient_Or_Description",
-    'E name' as "Form"
+    'E name' as "Form",
+    "Tran_ID"
   FROM
     "E-Expenditure", name_to_number
   WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-  UNION ALL
+  UNION 
 
   -- Get IE
   SELECT
@@ -41,14 +42,15 @@ CREATE VIEW "Measure_Expenditures" AS
     'IND' as "Expn_Code",
     "Exp_Date",
     "Expn_Dscr" as "Recipient_Or_Description",
-    '496' as "Form"
+    '496' as "Form",
+    "Tran_ID"
   FROM
     "496", name_to_number
   WHERE
     (LOWER("Bal_Name") = LOWER("Measure_Name")
     OR "Bal_Num" = "Measure_Number")
   AND "Sup_Opp_Cd" IS NOT NULL
-  UNION ALL
+  UNION 
 
   -- Get support/oppose information from committee
   SELECT
@@ -62,7 +64,8 @@ CREATE VIEW "Measure_Expenditures" AS
     "Expn_Code",
     "Expn_Date" as "Exp_Date",
     "Payee_NamL" as "Recipient_Or_Description",
-    'E number' as "Form"
+    'E number' as "Form",
+    "Tran_ID"
   FROM
     "E-Expenditure" expend
   JOIN committees committee
@@ -82,14 +85,14 @@ DROP VIEW IF EXISTS all_contributions;
 CREATE VIEW  all_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
     "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-    "Tran_Occ", "Tran_Emp", "Committee_Type"
+    "Tran_Occ", "Tran_Emp", "Committee_Type", "Tran_ID"
   FROM "A-Contributions"
-  UNION ALL
+  UNION
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
     "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-    "Tran_Occ", "Tran_Emp", "Committee_Type"
+    "Tran_Occ", "Tran_Emp", "Committee_Type", "Tran_ID"
   FROM "C-Contributions"
-  UNION ALL
+  UNION
   SELECT
     "Filer_ID"::varchar,
     "Entity_Cd",
@@ -102,7 +105,7 @@ CREATE VIEW  all_contributions AS
     "Enty_Zip4" as "Tran_Zip4",
     "Ctrib_Occ" as "Tran_Occ",
     "Ctrib_Emp" as "Tran_Emp",
-    "Committee_Type"
+    "Committee_Type", "Tran_ID"
   FROM "497"
   WHERE "Form_Type" = 'F497P1';
 
@@ -145,11 +148,11 @@ DROP VIEW IF EXISTS independent_candidate_expenditures;
 CREATE VIEW independent_candidate_expenditures AS
   SELECT election_name, "FPPC" AS "Cand_ID", all_data."Filer_ID", committee."Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
   FROM (
-    SELECT "Filer_ID"::varchar, "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd"
+    SELECT "Filer_ID"::varchar, "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd", "Tran_ID"
     FROM "496"
-    UNION ALL
+    UNION
     SELECT "Filer_ID", "Filer_NamL", "Expn_Date" as "Exp_Date", "Cand_NamF", "Cand_NamL",
-    "Amount", "Sup_Opp_Cd"
+    "Amount", "Sup_Opp_Cd", "Tran_ID"
     FROM "D-Expenditure"
     WHERE "Expn_Code" = 'IND'
   ) AS all_data
