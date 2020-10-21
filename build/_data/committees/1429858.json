@@ -1,5 +1,5 @@
 {
-  "total_contributions": 3801.0,
+  "total_contributions": 5931.66,
   "contributions": [
     {
       "Filer_ID": "1429858",
@@ -209,6 +209,116 @@
       "Tran_NamF": "Alyssa",
       "Tran_NamL": "Mena",
       "Tran_Zip4": "95833"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "not employed",
+      "Tran_Occ": "not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-09-20",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Servias",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "Sagitec",
+      "Tran_Occ": "technical writer/training",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-09-23",
+      "Tran_NamF": "Jeanne",
+      "Tran_NamL": "Oss",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 880.66,
+      "Tran_Date": "2020-09-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "PS Print",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "Philomena",
+      "Tran_Occ": "server",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": "Samantha",
+      "Tran_NamL": "Given-Dennis",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "CALSSA",
+      "Tran_Occ": "membership manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": "Carter",
+      "Tran_NamL": "Lavin",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "UpStart",
+      "Tran_Occ": "director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-09",
+      "Tran_NamF": "Samanatha",
+      "Tran_NamL": "Zellman",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "unemployed",
+      "Tran_Occ": "unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-10",
+      "Tran_NamF": "Isis",
+      "Tran_NamL": "Hockenos",
+      "Tran_Zip4": "90012"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "Google",
+      "Tran_Occ": "support specialist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2020-10-11",
+      "Tran_NamF": "Aaron",
+      "Tran_NamL": "Gonzalez",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "Design Visionaries",
+      "Tran_Occ": "mechanical engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": "Jan",
+      "Tran_NamL": "Kaspar",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1429858",
+      "Tran_Emp": "unemployed",
+      "Tran_Occ": "unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": "Alan",
+      "Tran_NamL": "Millar",
+      "Tran_Zip4": "94601"
     }
   ]
 }

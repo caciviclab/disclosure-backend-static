@@ -1,5 +1,5 @@
 {
-  "total_contributions": 573126.2500000003,
+  "total_contributions": 583126.2500000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -279,13 +279,13 @@
     {
       "Filer_ID": "960997",
       "Tran_Emp": "Baines Group, Inc",
-      "Tran_Occ": "Co-Owner",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 5192.42,
       "Tran_Date": "2020-07-14",
       "Tran_NamF": "Elizabeth",
       "Tran_NamL": "Norris",
-      "Tran_Zip4": "85016"
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "960997",
@@ -1408,6 +1408,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Union of Painters and Allied Trades",
       "Tran_Zip4": "21076"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kaiser Permanente Financial Services",
+      "Tran_Zip4": "91608"
     },
     {
       "Filer_ID": "960997",

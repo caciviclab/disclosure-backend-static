@@ -1,5 +1,5 @@
 {
-  "total_contributions": 3645.0,
+  "total_contributions": 5345.0,
   "contributions": [
     {
       "Filer_ID": "1428671",
@@ -176,6 +176,17 @@
       "Tran_NamF": "Kara",
       "Tran_NamL": "Mitzel",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1428671",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Action Committee Candidate Account",
+      "Tran_Zip4": "95814"
     }
   ]
 }
