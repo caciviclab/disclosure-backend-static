@@ -1,5 +1,5 @@
 {
-  "total_contributions": 22015.0,
+  "total_contributions": 21465.0,
   "contributions": [
     {
       "Filer_ID": "1365766",
@@ -1070,17 +1070,6 @@
     },
     {
       "Filer_ID": "1365766",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-01",
-      "Tran_NamF": "R.O",
-      "Tran_NamL": "BURKE",
-      "Tran_Zip4": "94619"
-    },
-    {
-      "Filer_ID": "1365766",
       "Tran_Emp": "Self",
       "Tran_Occ": "Writer",
       "Entity_Cd": "Individual",
@@ -1088,28 +1077,6 @@
       "Tran_Date": "2014-10-01",
       "Tran_NamF": "Fred",
       "Tran_NamL": "Setterberg",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1365766",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Writer",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2014-10-01",
-      "Tran_NamF": "Fred",
-      "Tran_NamL": "Setterberg",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1365766",
-      "Tran_Emp": "Donahue Fitzgerald LLP",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2014-10-01",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Stein",
       "Tran_Zip4": "94610"
     },
     {
@@ -1133,28 +1100,6 @@
       "Tran_NamF": "Glen",
       "Tran_NamL": "Dahlbacka",
       "Tran_Zip4": "94619"
-    },
-    {
-      "Filer_ID": "1365766",
-      "Tran_Emp": "Lawrence Berkeley Labs",
-      "Tran_Occ": "Physicist",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-10-03",
-      "Tran_NamF": "Glen",
-      "Tran_NamL": "Dahlbacka",
-      "Tran_Zip4": "94619"
-    },
-    {
-      "Filer_ID": "1365766",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2014-10-16",
-      "Tran_NamF": null,
-      "Tran_NamL": "LEAGUE OF CONSERVATION VOTERS OF THE EAST BAY",
-      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1365766",

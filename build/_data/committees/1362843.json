@@ -1,5 +1,5 @@
 {
-  "total_contributions": 102750.0,
+  "total_contributions": 84350.0,
   "contributions": [
     {
       "Filer_ID": "1362843",
@@ -1675,28 +1675,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Oakland Hills Tennis Club",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-07-12",
-      "Tran_NamF": "James",
-      "Tran_NamL": "Thompson",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Marr & Associates",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-07-14",
-      "Tran_NamF": "Michael",
-      "Tran_NamL": "Marr",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Marr & Associates",
       "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
@@ -1724,42 +1702,9 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2014-07-21",
-      "Tran_NamF": "Carla",
-      "Tran_NamL": "Betts",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Betts Service Stations",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-07-21",
       "Tran_NamF": "Ken",
       "Tran_NamL": "Betts",
       "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Betts Service Stations",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-07-21",
-      "Tran_NamF": "Ken",
-      "Tran_NamL": "Betts",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Real Estate",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-07-21",
-      "Tran_NamF": "Mary",
-      "Tran_NamL": "Dresser",
-      "Tran_Zip4": "94619"
     },
     {
       "Filer_ID": "1362843",
@@ -1785,17 +1730,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "The Port",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-07-22",
-      "Tran_NamF": "Sean",
-      "Tran_NamL": "Sullivan",
-      "Tran_Zip4": "94608"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "PIP Holdings",
       "Tran_Occ": "Principal",
       "Entity_Cd": "Individual",
@@ -1804,28 +1738,6 @@
       "Tran_NamF": "Sarosh",
       "Tran_NamL": "Kumana",
       "Tran_Zip4": "94117"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "PIP Holdings",
-      "Tran_Occ": "Principal",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2014-07-25",
-      "Tran_NamF": "Sarosh",
-      "Tran_NamL": "Kumana",
-      "Tran_Zip4": "94117"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Rosenberg & Assoc",
-      "Tran_Occ": "Physician",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-07-28",
-      "Tran_NamF": "Kieth",
-      "Tran_NamL": "Barton",
-      "Tran_Zip4": "94705"
     },
     {
       "Filer_ID": "1362843",
@@ -1852,45 +1764,12 @@
     {
       "Filer_ID": "1362843",
       "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-04",
-      "Tran_NamF": "Martell",
-      "Tran_NamL": "Glommen",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
       "Tran_Occ": "Homemaker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 700.0,
       "Tran_Date": "2014-08-12",
       "Tran_NamF": "Allyson",
       "Tran_NamL": "Lightbody",
-      "Tran_Zip4": "94568"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": "Homemaker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-08-12",
-      "Tran_NamF": "Allyson",
-      "Tran_NamL": "Lightbody",
-      "Tran_Zip4": "94568"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Bridge the Chasm",
-      "Tran_Occ": "Executive Director",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-08-12",
-      "Tran_NamF": "Charlie",
-      "Tran_NamL": "Stimson",
       "Tran_Zip4": "94568"
     },
     {
@@ -1917,17 +1796,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Property Management",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2014-08-13",
-      "Tran_NamF": "Michael",
-      "Tran_NamL": "Ferro",
-      "Tran_Zip4": "94619"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Green Tortoise Hostel",
       "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
@@ -1936,28 +1804,6 @@
       "Tran_NamF": "Gardner",
       "Tran_NamL": "Kent",
       "Tran_Zip4": "94133"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Green Tortoise Hostel",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 300.0,
-      "Tran_Date": "2014-08-13",
-      "Tran_NamF": "Gardner",
-      "Tran_NamL": "Kent",
-      "Tran_Zip4": "94133"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-14",
-      "Tran_NamF": null,
-      "Tran_NamL": "Pastino's Pizza",
-      "Tran_Zip4": "94602"
     },
     {
       "Filer_ID": "1362843",
@@ -1983,17 +1829,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Sylvan Learning Center",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-15",
-      "Tran_NamF": "Jack",
-      "Tran_NamL": "McAboy",
-      "Tran_Zip4": "94563"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -2002,28 +1837,6 @@
       "Tran_NamF": "Patricia",
       "Tran_NamL": "Hardy",
       "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-18",
-      "Tran_NamF": "Patricia",
-      "Tran_NamL": "Hardy",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Realtor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-20",
-      "Tran_NamF": "John",
-      "Tran_NamL": "Dolby",
-      "Tran_Zip4": "94618"
     },
     {
       "Filer_ID": "1362843",
@@ -2049,17 +1862,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Riverbed Technology",
-      "Tran_Occ": "Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-21",
-      "Tran_NamF": "Gerry",
-      "Tran_NamL": "Cohen",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -2068,28 +1870,6 @@
       "Tran_NamF": null,
       "Tran_NamL": "Aquatech",
       "Tran_Zip4": "94501"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-08-23",
-      "Tran_NamF": null,
-      "Tran_NamL": "Aquatech",
-      "Tran_Zip4": "94501"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "BCDC",
-      "Tran_Occ": "Regulatory",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-23",
-      "Tran_NamF": "Brad",
-      "Tran_NamL": "McCrea",
-      "Tran_Zip4": "94610"
     },
     {
       "Filer_ID": "1362843",
@@ -2115,17 +1895,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Oracle",
-      "Tran_Occ": "Lawyer",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-23",
-      "Tran_NamF": "Peter",
-      "Tran_NamL": "O'Rourke",
-      "Tran_Zip4": "94070"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Sola Lucy",
       "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
@@ -2133,28 +1902,6 @@
       "Tran_Date": "2014-08-23",
       "Tran_NamF": "Lucy",
       "Tran_NamL": "Ross",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Sola Lucy",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-23",
-      "Tran_NamF": "Lucy",
-      "Tran_NamL": "Ross",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Online publishing",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-23",
-      "Tran_NamF": "Jennifer",
-      "Tran_NamL": "Whitney",
       "Tran_Zip4": "94611"
     },
     {
@@ -2181,17 +1928,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "UC Berkeley",
-      "Tran_Occ": "Project Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-08-23",
-      "Tran_NamF": "Mary",
-      "Tran_NamL": "Worthington",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Armstrong Development Inc",
       "Tran_Occ": "Agent",
       "Entity_Cd": "Individual",
@@ -2200,28 +1936,6 @@
       "Tran_NamF": "Barbara",
       "Tran_NamL": "Armstrong",
       "Tran_Zip4": "94502"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Armstrong Development Inc",
-      "Tran_Occ": "Agent",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2014-08-26",
-      "Tran_NamF": "Barbara",
-      "Tran_NamL": "Armstrong",
-      "Tran_Zip4": "94502"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2014-09-03",
-      "Tran_NamF": null,
-      "Tran_NamL": "Schnitzer Steele Industries, Inc.",
-      "Tran_Zip4": "94607"
     },
     {
       "Filer_ID": "1362843",
@@ -2247,17 +1961,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Atkinson Andelson",
-      "Tran_Occ": "Lawyer",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-08",
-      "Tran_NamF": "Marleen",
-      "Tran_NamL": "Sacks",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Berkeley Research Group, LLC",
       "Tran_Occ": "Accountant",
       "Entity_Cd": "Individual",
@@ -2265,28 +1968,6 @@
       "Tran_Date": "2014-09-10",
       "Tran_NamF": "Nancy",
       "Tran_NamL": "Levey",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Berkeley Research Group, LLC",
-      "Tran_Occ": "Accountant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-10",
-      "Tran_NamF": "Nancy",
-      "Tran_NamL": "Levey",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Wells & Bennett Realtor",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2014-09-11",
-      "Tran_NamF": "Barry",
-      "Tran_NamL": "Bennett",
       "Tran_Zip4": "94611"
     },
     {
@@ -2313,17 +1994,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Property Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-12",
-      "Tran_NamF": "Bill",
-      "Tran_NamL": "Quan",
-      "Tran_Zip4": "94109"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Independent",
       "Tran_Occ": "Computer Programmer",
       "Entity_Cd": "Individual",
@@ -2332,28 +2002,6 @@
       "Tran_NamF": "Matthew",
       "Tran_NamL": "Fryer",
       "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Independent",
-      "Tran_Occ": "Computer Programmer",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-13",
-      "Tran_NamF": "Matthew",
-      "Tran_NamL": "Fryer",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Milestone Properties",
-      "Tran_Occ": "Housing Provider",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2014-09-13",
-      "Tran_NamF": "Dan",
-      "Tran_NamL": "Lieberman",
-      "Tran_Zip4": "94610"
     },
     {
       "Filer_ID": "1362843",
@@ -2384,41 +2032,8 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 700.0,
       "Tran_Date": "2014-09-14",
-      "Tran_NamF": "James",
-      "Tran_NamL": "Broadhurst",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-09-14",
       "Tran_NamF": "Lida",
       "Tran_NamL": "Broadhurst",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-09-14",
-      "Tran_NamF": "Lida",
-      "Tran_NamL": "Broadhurst",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-15",
-      "Tran_NamF": "Jane",
-      "Tran_NamL": "Leroe",
       "Tran_Zip4": "94611"
     },
     {
@@ -2445,28 +2060,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Aon Hewitt",
-      "Tran_Occ": "Consultant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-19",
-      "Tran_NamF": "Jeffery",
-      "Tran_NamL": "Klonoff",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-09-25",
-      "Tran_NamF": null,
-      "Tran_NamL": "Lasalle Keller, LLC",
-      "Tran_Zip4": "94661"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -2486,28 +2079,6 @@
       "Tran_NamF": "Viola",
       "Tran_NamL": "Gonzales",
       "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Retired Oakland School Board Member/ A New America",
-      "Tran_Occ": "Nonprofit Executive",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-29",
-      "Tran_NamF": "Viola",
-      "Tran_NamL": "Gonzales",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Steven J. Kopff, Inc.",
-      "Tran_Occ": "CPA",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2014-09-29",
-      "Tran_NamF": "Steven",
-      "Tran_NamL": "Kopff",
-      "Tran_Zip4": "94606"
     },
     {
       "Filer_ID": "1362843",
@@ -2535,45 +2106,12 @@
       "Filer_ID": "1362843",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 1400.0,
-      "Tran_Date": "2014-09-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "OakPACOakland Metropolitan Chamber of Commerce",
-      "Tran_Zip4": "94613"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 700.0,
       "Tran_Date": "2014-09-30",
       "Tran_NamF": null,
       "Tran_NamL": "Antioch Street Limited",
       "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "Antioch Street Limited",
-      "Tran_Zip4": "94610"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "University of California, Berkeley",
-      "Tran_Occ": "Professor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "Alex",
-      "Tran_NamL": "Bell",
-      "Tran_Zip4": "94602"
     },
     {
       "Filer_ID": "1362843",
@@ -2599,28 +2137,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "The Burrows Company",
-      "Tran_Occ": "President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "Bruce",
-      "Tran_NamL": "Burrows",
-      "Tran_Zip4": "94563"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "BMWL & Partners",
-      "Tran_Occ": "Production manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "Lisa",
-      "Tran_NamL": "Hanson",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "BMWL & Partners",
       "Tran_Occ": "Production manager",
       "Entity_Cd": "Individual",
@@ -2643,17 +2159,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Donahue Fitzgerald",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "Robert",
-      "Tran_NamL": "Kidd",
-      "Tran_Zip4": "94612"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "mb-m USA",
       "Tran_Occ": "Sales Manager",
       "Entity_Cd": "Individual",
@@ -2661,28 +2166,6 @@
       "Tran_Date": "2014-09-30",
       "Tran_NamF": "Barry",
       "Tran_NamL": "Klezmer",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "mb-m USA",
-      "Tran_Occ": "Sales Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 300.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "Barry",
-      "Tran_NamL": "Klezmer",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Skasol Inc",
-      "Tran_Occ": "President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Marchman",
       "Tran_Zip4": "94611"
     },
     {
@@ -2709,17 +2192,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Madison Park Financial",
-      "Tran_Occ": "Founder",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2014-09-30",
-      "Tran_NamF": "John",
-      "Tran_NamL": "Protopappas",
-      "Tran_Zip4": "94607"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -2728,28 +2200,6 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Denton",
       "Tran_Zip4": "94705"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2014-10-06",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Denton",
-      "Tran_Zip4": "94705"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Jarvis, Fay, Doporto & Gibson",
-      "Tran_Occ": "Lawyer",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-12",
-      "Tran_NamF": "Benjamin",
-      "Tran_NamL": "Fay",
-      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1362843",
@@ -2776,17 +2226,6 @@
     {
       "Filer_ID": "1362843",
       "Tran_Emp": "Self",
-      "Tran_Occ": "Property Management",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-13",
-      "Tran_NamF": "Victor",
-      "Tran_NamL": "Jin",
-      "Tran_Zip4": "94501"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
       "Tran_Occ": "PHYSICIAN",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 450.0,
@@ -2794,28 +2233,6 @@
       "Tran_NamF": "Stephen",
       "Tran_NamL": "Lewis",
       "Tran_Zip4": "94618"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "PHYSICIAN",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 450.0,
-      "Tran_Date": "2014-10-13",
-      "Tran_NamF": "Stephen",
-      "Tran_NamL": "Lewis",
-      "Tran_Zip4": "94618"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Property owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-14",
-      "Tran_NamF": "Franklin",
-      "Tran_NamL": "Cherry",
-      "Tran_Zip4": "94523"
     },
     {
       "Filer_ID": "1362843",
@@ -2841,28 +2258,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Investor/consultant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-14",
-      "Tran_NamF": "William",
-      "Tran_NamL": "Vederman",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Cedar Properties",
-      "Tran_Occ": "Broker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-10-14",
-      "Tran_NamF": "Jonathan",
-      "Tran_NamL": "Weldon",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Cedar Properties",
       "Tran_Occ": "Broker",
       "Entity_Cd": "Individual",
@@ -2885,17 +2280,6 @@
     },
     {
       "Filer_ID": "1362843",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-15",
-      "Tran_NamF": "Art",
-      "Tran_NamL": "Kuhn",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
       "Tran_Emp": "Waste Management of Alameda County",
       "Tran_Occ": "Public Relations",
       "Entity_Cd": "Individual",
@@ -2904,28 +2288,6 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Tucker",
       "Tran_Zip4": "94803"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Waste Management of Alameda County",
-      "Tran_Occ": "Public Relations",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-15",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Tucker",
-      "Tran_Zip4": "94803"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Entrepreneur",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2014-10-16",
-      "Tran_NamF": "Jeffrey",
-      "Tran_NamL": "Lipsett",
-      "Tran_Zip4": "94610"
     },
     {
       "Filer_ID": "1362843",
@@ -2956,28 +2318,6 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 700.0,
       "Tran_Date": "2014-10-17",
-      "Tran_NamF": "Michelle",
-      "Tran_NamL": "Groleau",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Property Management",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-10-17",
-      "Tran_NamF": "Normand",
-      "Tran_NamL": "Groleau",
-      "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "Property Management",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-10-17",
       "Tran_NamF": "Normand",
       "Tran_NamL": "Groleau",
       "Tran_Zip4": "94602"
@@ -2992,28 +2332,6 @@
       "Tran_NamF": "Stephen",
       "Tran_NamL": "Lowe",
       "Tran_Zip4": "94607"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Urbanspace Development",
-      "Tran_Occ": "Project Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2014-10-17",
-      "Tran_NamF": "Stephen",
-      "Tran_NamL": "Lowe",
-      "Tran_Zip4": "94607"
-    },
-    {
-      "Filer_ID": "1362843",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-10-17",
-      "Tran_NamF": "Madeleen",
-      "Tran_NamL": "Rosetti",
-      "Tran_Zip4": "94121"
     },
     {
       "Filer_ID": "1362843",

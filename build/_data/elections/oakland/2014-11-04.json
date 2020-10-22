@@ -2,15 +2,15 @@
   "total_contributions": 2008618.7599999998,
   "total_contributions_by_source": {
     "Out of State": 121091.94,
-    "Within Oakland": 1024776.7699999998,
-    "Within California": 715750.06
+    "Within Oakland": 1010676.7699999998,
+    "Within California": 710900.06
   },
   "contributions_by_type": {
-    "Committee": 99845.35,
-    "Individual": 1474431.4,
+    "Committee": 98445.35,
+    "Individual": 1459231.4,
     "Unitemized": 124914.37999999998,
     "Self Funding": 120324.79999999999,
-    "Other (includes Businesses)": 167017.22
+    "Other (includes Businesses)": 164667.22
   },
   "most_expensive_races": [
     {
@@ -42,20 +42,20 @@
       "office_title": "OUSD School Director District 4"
     },
     {
-      "slug": "shereda-nosakhare",
-      "type": "office",
-      "title": "Oakland November 4th, 2014 Election",
-      "candidate": "Shereda Nosakhare",
-      "proportion": 0.24561826660234765,
-      "office_title": "City Council District 6"
-    },
-    {
       "slug": "renato-almanzor",
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Renato Almanzor",
       "proportion": 0.24336392954601835,
       "office_title": "OUSD School Director District 6"
+    },
+    {
+      "slug": "shereda-nosakhare",
+      "type": "office",
+      "title": "Oakland November 4th, 2014 Election",
+      "candidate": "Shereda Nosakhare",
+      "proportion": 0.24159832770541886,
+      "office_title": "City Council District 6"
     }
   ],
   "largest_independent_expenditures": [

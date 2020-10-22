@@ -1,23 +1,23 @@
 {
-  "total_contributions": 21173984.5,
+  "total_contributions": 20455484.5,
   "total_contributions_by_source": {
-    "Out of State": 10557896.459999999,
-    "Within Oakland": 1563651.06,
-    "Within California": 9350484.879999999
+    "Out of State": 10551246.459999999,
+    "Within Oakland": 1401630.06,
+    "Within California": 8615638.879999999
   },
   "contributions_by_type": {
-    "Committee": 9083914.03,
-    "Individual": 10453339.77,
+    "Committee": 8417114.030000001,
+    "Individual": 10281617.77,
     "Unitemized": 70132.93,
-    "Self Funding": 92561.14,
-    "Other (includes Businesses)": 1842217.46
+    "Self Funding": 91716.14,
+    "Other (includes Businesses)": 1778067.46
   },
   "most_expensive_races": [
     {
       "slug": "sugar-sweetened-beverage-tax",
       "type": "referendum",
       "title": "Measure HH",
-      "amount": 18673836.560000002
+      "amount": 18073836.560000002
     },
     {
       "slug": "just-cause-for-eviction-and-rent-adjustment",
@@ -84,7 +84,7 @@
     {
       "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
       "election_name": "oakland-2016",
-      "total_contributions": 7905502.73
+      "total_contributions": 7305502.73
     },
     {
       "name": "ACTION NOW INITIATIVE",
@@ -106,10 +106,10 @@
       "total_contributions": 39366.14
     },
     {
-      "name": "Transport Oakland",
+      "name": "Libby Schaaf",
       "type": "Office",
       "election_name": "oakland-2016",
-      "total_contributions": 7300.0
+      "total_contributions": 4900.0
     }
   ],
   "top_contributors_for_measures": [
@@ -123,7 +123,7 @@
       "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
       "type": "Measure",
       "election_name": "oakland-2016",
-      "total_contributions": 7905502.73
+      "total_contributions": 7305502.73
     },
     {
       "name": "ACTION NOW INITIATIVE",
@@ -143,7 +143,7 @@
       "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
       "type": "Measure",
       "election_name": "oakland-2016",
-      "total_spending": 7905502.73
+      "total_spending": 7305502.73
     },
     {
       "name": "ACTION NOW INITIATIVE",
@@ -166,10 +166,10 @@
       "total_spending": 39366.14
     },
     {
-      "name": "Transport Oakland",
+      "name": "Libby Schaaf",
       "type": "Office",
       "election_name": "oakland-2016",
-      "total_spending": 7300.0
+      "total_spending": 4900.0
     }
   ],
   "top_spenders_for_measures": [
@@ -183,7 +183,7 @@
       "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
       "type": "Measure",
       "election_name": "oakland-2016",
-      "total_spending": 7905502.73
+      "total_spending": 7305502.73
     },
     {
       "name": "ACTION NOW INITIATIVE",

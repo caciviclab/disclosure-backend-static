@@ -3,15 +3,15 @@
     "total_contributions": 2008618.7599999998,
     "total_contributions_by_source": {
       "Out of State": 121091.94,
-      "Within Oakland": 1024776.7699999998,
-      "Within California": 715750.06
+      "Within Oakland": 1010676.7699999998,
+      "Within California": 710900.06
     },
     "contributions_by_type": {
-      "Committee": 99845.35,
-      "Individual": 1474431.4,
+      "Committee": 98445.35,
+      "Individual": 1459231.4,
       "Unitemized": 124914.37999999998,
       "Self Funding": 120324.79999999999,
-      "Other (includes Businesses)": 167017.22
+      "Other (includes Businesses)": 164667.22
     },
     "most_expensive_races": [
       {
@@ -43,20 +43,20 @@
         "office_title": "OUSD School Director District 4"
       },
       {
-        "slug": "shereda-nosakhare",
-        "type": "office",
-        "title": "Oakland November 4th, 2014 Election",
-        "candidate": "Shereda Nosakhare",
-        "proportion": 0.24561826660234765,
-        "office_title": "City Council District 6"
-      },
-      {
         "slug": "renato-almanzor",
         "type": "office",
         "title": "Oakland November 4th, 2014 Election",
         "candidate": "Renato Almanzor",
         "proportion": 0.24336392954601835,
         "office_title": "OUSD School Director District 6"
+      },
+      {
+        "slug": "shereda-nosakhare",
+        "type": "office",
+        "title": "Oakland November 4th, 2014 Election",
+        "candidate": "Shereda Nosakhare",
+        "proportion": 0.24159832770541886,
+        "office_title": "City Council District 6"
       }
     ],
     "largest_independent_expenditures": [
@@ -194,25 +194,25 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 21173984.5,
+    "total_contributions": 20455484.5,
     "total_contributions_by_source": {
-      "Out of State": 10557896.459999999,
-      "Within Oakland": 1563651.06,
-      "Within California": 9350484.879999999
+      "Out of State": 10551246.459999999,
+      "Within Oakland": 1401630.06,
+      "Within California": 8615638.879999999
     },
     "contributions_by_type": {
-      "Committee": 9083914.03,
-      "Individual": 10453339.77,
+      "Committee": 8417114.030000001,
+      "Individual": 10281617.77,
       "Unitemized": 70132.93,
-      "Self Funding": 92561.14,
-      "Other (includes Businesses)": 1842217.46
+      "Self Funding": 91716.14,
+      "Other (includes Businesses)": 1778067.46
     },
     "most_expensive_races": [
       {
         "slug": "sugar-sweetened-beverage-tax",
         "type": "referendum",
         "title": "Measure HH",
-        "amount": 18673836.560000002
+        "amount": 18073836.560000002
       },
       {
         "slug": "just-cause-for-eviction-and-rent-adjustment",
@@ -279,7 +279,7 @@
       {
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
         "election_name": "oakland-2016",
-        "total_contributions": 7905502.73
+        "total_contributions": 7305502.73
       },
       {
         "name": "ACTION NOW INITIATIVE",
@@ -301,10 +301,10 @@
         "total_contributions": 39366.14
       },
       {
-        "name": "Transport Oakland",
+        "name": "Libby Schaaf",
         "type": "Office",
         "election_name": "oakland-2016",
-        "total_contributions": 7300.0
+        "total_contributions": 4900.0
       }
     ],
     "top_contributors_for_measures": [
@@ -318,7 +318,7 @@
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
         "type": "Measure",
         "election_name": "oakland-2016",
-        "total_contributions": 7905502.73
+        "total_contributions": 7305502.73
       },
       {
         "name": "ACTION NOW INITIATIVE",
@@ -338,7 +338,7 @@
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
         "type": "Measure",
         "election_name": "oakland-2016",
-        "total_spending": 7905502.73
+        "total_spending": 7305502.73
       },
       {
         "name": "ACTION NOW INITIATIVE",
@@ -361,10 +361,10 @@
         "total_spending": 39366.14
       },
       {
-        "name": "Transport Oakland",
+        "name": "Libby Schaaf",
         "type": "Office",
         "election_name": "oakland-2016",
-        "total_spending": 7300.0
+        "total_spending": 4900.0
       }
     ],
     "top_spenders_for_measures": [
@@ -378,7 +378,7 @@
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
         "type": "Measure",
         "election_name": "oakland-2016",
-        "total_spending": 7905502.73
+        "total_spending": 7305502.73
       },
       {
         "name": "ACTION NOW INITIATIVE",
@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Oakland Athletics Baseball Company",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -512,16 +512,16 @@
   "oakland-2018": {
     "total_contributions": 6351340.17,
     "total_contributions_by_source": {
-      "Out of State": 900646.31,
-      "Within Oakland": 2565679.9099999997,
-      "Within California": 2861319.9
+      "Out of State": 898571.31,
+      "Within Oakland": 2553562.9099999997,
+      "Within California": 2850811.9
     },
     "contributions_by_type": {
       "Committee": 958839.14,
-      "Individual": 2609942.5,
+      "Individual": 2588242.5,
       "Unitemized": 156355.48,
       "Self Funding": 81959.94,
-      "Other (includes Businesses)": 2677123.8200000003
+      "Other (includes Businesses)": 2674123.8200000003
     },
     "most_expensive_races": [
       {
@@ -565,7 +565,7 @@
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
         "candidate": "Marchon Tatmon",
-        "proportion": 0.3259331478814659,
+        "proportion": 0.3236969919230047,
         "office_title": "Mayor"
       }
     ],
@@ -708,12 +708,12 @@
     "total_contributions": 1832676.6800000002,
     "total_contributions_by_source": {
       "Out of State": 114573.07,
-      "Within Oakland": 879685.1299999999,
-      "Within California": 618994.28
+      "Within Oakland": 876335.1300000001,
+      "Within California": 618444.28
     },
     "contributions_by_type": {
       "Committee": 201986.66999999998,
-      "Individual": 1236955.1500000001,
+      "Individual": 1233055.1500000001,
       "Unitemized": 116357.09000000001,
       "Self Funding": 96165.0,
       "Other (includes Businesses)": 78145.66
