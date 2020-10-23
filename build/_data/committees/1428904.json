@@ -1,5 +1,5 @@
 {
-  "total_contributions": 180499.0,
+  "total_contributions": 187999.0,
   "contributions": [
     {
       "Filer_ID": "1428904",
@@ -187,6 +187,17 @@
       "Tran_NamF": "Jennifer",
       "Tran_NamL": "Pahlka",
       "Tran_Zip4": "94610-1612"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Related California",
+      "Tran_Occ": "Real Estate Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "William",
+      "Tran_NamL": "Witte",
+      "Tran_Zip4": "92651"
     }
   ]
 }

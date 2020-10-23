@@ -1,5 +1,5 @@
 {
-  "total_contributions": 3250.0,
+  "total_contributions": 6550.0,
   "contributions": [
     {
       "Filer_ID": "1427563",
@@ -99,6 +99,50 @@
       "Tran_NamF": "Eileen",
       "Tran_NamL": "Wilson",
       "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1427563",
+      "Tran_Emp": "not employed",
+      "Tran_Occ": "not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-09-21",
+      "Tran_NamF": "Evita",
+      "Tran_NamL": "Lopez-Bobbitt",
+      "Tran_Zip4": "95215"
+    },
+    {
+      "Filer_ID": "1427563",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Nacirfa Corp",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1427563",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "NUHW Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1427563",
+      "Tran_Emp": "not employed",
+      "Tran_Occ": "not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": "Karim",
+      "Tran_NamL": "Muhammad",
+      "Tran_Zip4": "94518"
     }
   ]
 }

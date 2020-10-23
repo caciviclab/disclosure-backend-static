@@ -1,5 +1,5 @@
 {
-  "total_contributions": 312500.0,
+  "total_contributions": 337500.0,
   "contributions": [
     {
       "Filer_ID": "1431009",
@@ -33,6 +33,17 @@
       "Tran_NamF": "Stacy H.",
       "Tran_NamL": "Schusterman",
       "Tran_Zip4": "74119"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Leadership for Educational Equity",
+      "Tran_Zip4": "10018"
     }
   ]
 }

@@ -20,28 +20,30 @@
   "is_winner": null,
   "filer_id": 1427563,
   "supporting_money": {
-    "contributions_received": 8292.0,
-    "total_contributions": 8292.0,
-    "total_expenditures": 8485.43,
+    "contributions_received": 11692.0,
+    "total_contributions": 11692.0,
+    "total_expenditures": 13571.8,
     "total_loans_received": 4528.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 1700.0,
-      "Individual": 1550.0,
-      "Unitemized": 514.0
+      "Committee": 2700.0,
+      "Individual": 2950.0,
+      "Unitemized": 614.0,
+      "Other (includes Businesses)": 900.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 950.0,
-      "Within California": 2300.0
+      "Within Oakland": 1850.0,
+      "Within California": 4700.0
     },
-    "total_small_contributions": 514.0,
+    "total_small_contributions": 614.0,
     "expenditures_by_type": {
+      "Campaign Consultants": 2500.0,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 1076.86,
-      "Professional Services (Legal, Accounting)": 200.0
+      "Campaign Literature and Mailings": 2294.56,
+      "Professional Services (Legal, Accounting)": 1821.0
     },
     "supporting_by_type": {
     }
@@ -54,7 +56,7 @@
 
     ]
   },
-  "total_contributions": 8292.0,
-  "total_expenditures": 8485.43,
+  "total_contributions": 11692.0,
+  "total_expenditures": 13571.8,
   "total_loans_received": 4528.0
 }

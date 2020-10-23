@@ -705,18 +705,18 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 1832676.6800000002,
+    "total_contributions": 1868980.35,
     "total_contributions_by_source": {
-      "Out of State": 114573.07,
-      "Within Oakland": 876335.1300000001,
-      "Within California": 618444.28
+      "Out of State": 116726.07,
+      "Within Oakland": 888360.1299999999,
+      "Within California": 631544.28
     },
     "contributions_by_type": {
-      "Committee": 201986.66999999998,
-      "Individual": 1233055.1500000001,
-      "Unitemized": 116357.09000000001,
+      "Committee": 207086.66999999998,
+      "Individual": 1254333.1500000001,
+      "Unitemized": 120382.76000000001,
       "Self Funding": 96165.0,
-      "Other (includes Businesses)": 78145.66
+      "Other (includes Businesses)": 79045.66
     },
     "most_expensive_races": [
       {
@@ -729,13 +729,13 @@
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 335546.32999999996
+        "amount": 338946.32999999996
       },
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 317359.39
+        "amount": 323569.39
       }
     ],
     "largest_small_proportion": [
@@ -752,7 +752,7 @@
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Tri Ngo",
-        "proportion": 0.39272105625838855,
+        "proportion": 0.33899034349589585,
         "office_title": "City Council District 1"
       },
       {
@@ -778,7 +778,7 @@
       {
         "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2020",
-        "total_spending": 237065.6
+        "total_spending": 258118.6
       }
     ],
     "top_contributors": [

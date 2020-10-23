@@ -1,5 +1,5 @@
 {
-  "total_contributions": 468126.2500000001,
+  "total_contributions": 478510.78000000014,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1375,6 +1375,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Quattrocchi Kwok Architects Inc.",
       "Tran_Zip4": "95404"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "HMC Architects",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10384.53,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": "Brian",
+      "Tran_NamL": "Meyers",
+      "Tran_Zip4": "91764"
     }
   ]
 }
