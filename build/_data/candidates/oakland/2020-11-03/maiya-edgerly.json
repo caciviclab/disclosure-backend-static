@@ -20,20 +20,20 @@
   "is_winner": null,
   "filer_id": 1430558,
   "supporting_money": {
-    "contributions_received": 5709.0,
-    "total_contributions": 5709.0,
-    "total_expenditures": 3083.14,
+    "contributions_received": 8483.0,
+    "total_contributions": 8483.0,
+    "total_expenditures": 5585.85,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 165521.16,
+    "total_supporting_independent": 181129.97,
     "support_list": [
       {
-        "Total": 19098.0,
+        "Total": 33492.0,
         "Cand_ID": 1430558,
         "Filer_ID": "1417455",
         "Filer_NamL": "Committee for California"
       },
       {
-        "Total": 99831.16,
+        "Total": 101045.97,
         "Cand_ID": 1430558,
         "Filer_ID": "1331137",
         "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
@@ -46,34 +46,30 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 1700.0,
-      "Individual": 909.0,
-      "Unitemized": 3100.0
+      "Committee": 2200.0,
+      "Individual": 2709.0,
+      "Unitemized": 3274.0,
+      "Other (includes Businesses)": 300.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 1900.0,
-      "Within California": 709.0
+      "Within Oakland": 3600.0,
+      "Within California": 1609.0
     },
-    "total_small_contributions": 3100.0,
+    "total_small_contributions": 3274.0,
     "expenditures_by_type": {
-      "Office Expenses": 835.0,
-      "Professional Services (Legal, Accounting)": 1649.28
+      "Office Expenses": 2408.06,
+      "Professional Services (Legal, Accounting)": 2578.93
     },
     "supporting_by_type": {
-      "MON": 1700.0,
-      "IND EXP OF POLLING": 3750.0,
-      "Mailer (Estimated Costs)": 15119.0,
+      "MON": 2200.0,
+      "Mailer (Estimated Costs)": 29366.0,
       "Survey (Estimated Costs)": 7500.0,
-      "Robo Calls (Estimated Costs)": 229.0,
+      "Robo Calls (Estimated Costs)": 376.0,
       "Digital Ads (Estimated Costs)": 33292.0,
-      "IND EXP OF CAMPAIGN LITERATURE": 48734.0,
-      "IND EXP OF CONSULTING SERVICES": 800.0,
       "Staff Time (Estimated through 11/3/20)": 5800.0,
-      "IND EXP OF CAMPAIGN LITERATURE (ESTIMATE)": 38823.0,
-      "IND EXP OF EST STAFF TIME (10.01.20-10.15.20)": 1841.0,
-      "IND EXP OF ESTIMATED STAFF TIME (10.16-10.31.20)": 2130.0,
+      "IND EXP OF CAMPAIGN LITERATURE (ESTIMATE)": 9690.0,
       "Consulting for Mailer/Robo Calls (Estimated Costs)": 3750.0,
-      "Independent Expenditure Supporting/Opposing Others": 3753.16
+      "Independent Expenditure Supporting/Opposing Others": 91355.97
     }
   },
   "opposing_money": {
@@ -84,7 +80,7 @@
 
     ]
   },
-  "total_contributions": 5709.0,
-  "total_expenditures": 3083.14,
+  "total_contributions": 8483.0,
+  "total_expenditures": 5585.85,
   "total_loans_received": 0.0
 }

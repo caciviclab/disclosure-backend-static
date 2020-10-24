@@ -20,43 +20,46 @@
   "is_winner": null,
   "filer_id": 1366759,
   "supporting_money": {
-    "contributions_received": 140942.32,
-    "total_contributions": 140942.32,
-    "total_expenditures": 48467.87,
+    "contributions_received": 156266.06,
+    "total_contributions": 156266.06,
+    "total_expenditures": 113006.57,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 2810.0,
+    "total_supporting_independent": 2810.32,
     "support_list": [
       {
-        "Total": 2810.0,
+        "Total": 2810.32,
         "Cand_ID": 1366759,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
       }
     ],
     "contributions_by_type": {
-      "Committee": 9300.0,
-      "Individual": 110704.47,
-      "Unitemized": 8537.85,
-      "Other (includes Businesses)": 12400.0
+      "Committee": 11649.0,
+      "Individual": 120039.53,
+      "Unitemized": 10377.53,
+      "Other (includes Businesses)": 14200.0
     },
     "contributions_by_origin": {
-      "Out of State": 10462.5,
-      "Within Oakland": 56800.0,
-      "Within California": 65141.97
+      "Out of State": 11279.62,
+      "Within Oakland": 59352.76,
+      "Within California": 75256.15
     },
-    "total_small_contributions": 10508.93,
+    "total_small_contributions": 13045.84,
     "expenditures_by_type": {
-      "Not Stated": 4200.0,
-      "Office Expenses": 411.48,
-      "Fundraising Events": 3246.73,
-      "Campaign Workers' Salaries": 9019.83,
-      "Campaign Paraphernalia/Misc.": 6679.03,
+      "Not Stated": 18200.0,
+      "Office Expenses": 973.23,
+      "Fundraising Events": 3800.25,
+      "Campaign Workers' Salaries": 12898.59,
+      "Campaign Paraphernalia/Misc.": 37823.39,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Professional Services (Legal, Accounting)": 11520.94,
-      "Information Technology Costs (Internet, E-mail)": 3823.86
+      "Campaign Literature and Mailings": 12324.15,
+      "Professional Services (Legal, Accounting)": 12520.94,
+      "T.V. or Cable Airtime and Production Costs": 600.0,
+      "Information Technology Costs (Internet, E-mail)": 4871.78
     },
     "supporting_by_type": {
-      "MAILER": 2810.0
+      "MON": 2500.0,
+      "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
   },
   "opposing_money": {
@@ -67,7 +70,7 @@
 
     ]
   },
-  "total_contributions": 140942.32,
-  "total_expenditures": 48467.87,
+  "total_contributions": 156266.06,
+  "total_expenditures": 113006.57,
   "total_loans_received": 0.0
 }

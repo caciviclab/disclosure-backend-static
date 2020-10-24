@@ -1,5 +1,5 @@
 {
-  "total_contributions": 7875.0,
+  "total_contributions": 11640.0,
   "contributions": [
     {
       "Filer_ID": "1427022",
@@ -418,6 +418,149 @@
       "Tran_NamF": "Gabriel",
       "Tran_NamL": "Valenzuela",
       "Tran_Zip4": "94806"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Business Development",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-09-20",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Apodaca",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Cordoba Corporation",
+      "Tran_Occ": "Executive Vice President & COO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-09-21",
+      "Tran_NamF": "Randall",
+      "Tran_NamL": "Martinez",
+      "Tran_Zip4": "90012"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-09-23",
+      "Tran_NamF": "Onofre Antonio",
+      "Tran_NamL": "Abarca",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-09-23",
+      "Tran_NamF": "Onofre Antonio",
+      "Tran_NamL": "Abarca",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-09-23",
+      "Tran_NamF": "Onofre Antonio",
+      "Tran_NamL": "Abarca",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-09-24",
+      "Tran_NamF": "Eric",
+      "Tran_NamL": "Mayer",
+      "Tran_Zip4": "95363"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "SCI Graphics",
+      "Tran_Occ": "Self-employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 355.0,
+      "Tran_Date": "2020-09-26",
+      "Tran_NamF": "Mariano",
+      "Tran_NamL": "Contreras",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "SCI Graphics",
+      "Tran_Occ": "Self-employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 535.0,
+      "Tran_Date": "2020-09-26",
+      "Tran_NamF": "Mariano",
+      "Tran_NamL": "Contreras",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Haley Law Offices",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-09-27",
+      "Tran_NamF": "Matthew",
+      "Tran_NamL": "Haley",
+      "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-02",
+      "Tran_NamF": "Lorenzo",
+      "Tran_NamL": "Garcia",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "State Farm",
+      "Tran_Occ": "Agent",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": "Fernando",
+      "Tran_NamL": "Valenzuela",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Mayor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": "Libby",
+      "Tran_NamL": "Schaaf",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1427022",
+      "Tran_Emp": "Skadden",
+      "Tran_Occ": "Lawyer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": "Creighton",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "10012"
     }
   ]
 }

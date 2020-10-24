@@ -20,65 +20,66 @@
   "is_winner": null,
   "filer_id": 1421347,
   "supporting_money": {
-    "contributions_received": 161954.86,
-    "total_contributions": 161954.86,
-    "total_expenditures": 53800.96,
+    "contributions_received": 222811.84,
+    "total_contributions": 222811.84,
+    "total_expenditures": 140448.86,
     "total_loans_received": 1.0,
-    "total_supporting_independent": 92046.0,
+    "total_supporting_independent": 91171.0,
     "support_list": [
       {
-        "Total": 92046.0,
+        "Total": 91171.0,
         "Cand_ID": 1421347,
         "Filer_ID": "983545",
         "Filer_NamL": "OAKPAC, Oakland Metropolitan Chamber of Commerce"
       }
     ],
     "contributions_by_type": {
-      "Committee": 14300.0,
-      "Individual": 121099.32,
-      "Unitemized": 5854.54,
+      "Committee": 15200.0,
+      "Individual": 174259.32,
+      "Unitemized": 8551.52,
       "Self Funding": 900.0,
-      "Other (includes Businesses)": 19800.0
+      "Other (includes Businesses)": 23900.0
     },
     "contributions_by_origin": {
-      "Out of State": 4666.85,
-      "Within Oakland": 98131.13,
-      "Within California": 53301.34
+      "Out of State": 6916.85,
+      "Within Oakland": 122181.13,
+      "Within California": 85161.34
     },
-    "total_small_contributions": 6995.19,
+    "total_small_contributions": 10102.17,
     "expenditures_by_type": {
-      "Not Stated": 600.0,
+      "Not Stated": 622.67,
+      "Phone Banks": 1600.14,
       "Civic Donations": 2200.0,
-      "Fundraising Events": 4558.36,
-      "Campaign Consultants": 5000.0,
-      "Campaign Workers' Salaries": 6605.74,
-      "Campaign Paraphernalia/Misc.": 17312.98,
+      "Office Expenses": 294.99,
+      "Fundraising Events": 6087.31,
+      "Campaign Consultants": 10000.0,
+      "Campaign Workers' Salaries": 10589.5,
+      "Campaign Paraphernalia/Misc.": 36150.33,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Professional Services (Legal, Accounting)": 8399.99,
-      "Information Technology Costs (Internet, E-mail)": 4653.55
+      "Campaign Literature and Mailings": 13656.91,
+      "Professional Services (Legal, Accounting)": 10418.49,
+      "Information Technology Costs (Internet, E-mail)": 8117.79
     },
     "supporting_by_type": {
-      "MON": 3150.0,
-      "Mailer": 62046.0,
-      "Polling": 10000.0,
-      "Online advertising": 10000.0,
-      "Digital Advertising": 10000.0
+      "MON": 4850.0,
+      "Digital Advertising": 10000.0,
+      "Independent Expenditure Supporting/Opposing Others": 81171.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 41639.3,
+    "opposing_expenditures": 41640.3,
     "opposing_by_type": {
     },
     "opposition_list": [
       {
-        "Total": 41639.3,
+        "Total": 41640.3,
         "Cand_ID": 1421347,
         "Filer_ID": "1428015",
         "Filer_NamL": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO"
       }
     ]
   },
-  "total_contributions": 161954.86,
-  "total_expenditures": 53800.96,
+  "total_contributions": 222811.84,
+  "total_expenditures": 140448.86,
   "total_loans_received": 1.0
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 3700.0,
+  "total_contributions": 5950.0,
   "contributions": [
     {
       "Filer_ID": "1427317",
@@ -297,6 +297,105 @@
       "Tran_NamF": null,
       "Tran_NamL": "Steamfitters Local 342 PAC",
       "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters & Apprentices Local 483 Local Political Action Committee",
+      "Tran_Zip4": "94545"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": "California State University East Bay",
+      "Tran_Occ": "Lecturer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-09-28",
+      "Tran_NamF": "Alton",
+      "Tran_NamL": "Jelks",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": "Novato Unified School District",
+      "Tran_Occ": "Assistant Superintendent",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-03",
+      "Tran_NamF": "Jonathan",
+      "Tran_NamL": "Ferrer",
+      "Tran_Zip4": "94579"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": "United States Enivornmental Protection Agency",
+      "Tran_Occ": "Librarian",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-10-06",
+      "Tran_NamF": "Deborra",
+      "Tran_NamL": "Cohen",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bricklayers & Allied Craftworkers Local #3",
+      "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Heat & Frost Insulators and Allied Workers #16 PAC",
+      "Tran_Zip4": "94510"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": "Frances",
+      "Tran_NamL": "Purcell",
+      "Tran_Zip4": "20019"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union #104 PAC",
+      "Tran_Zip4": "94583"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-09",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Weissman",
+      "Tran_Zip4": "97213"
     }
   ]
 }

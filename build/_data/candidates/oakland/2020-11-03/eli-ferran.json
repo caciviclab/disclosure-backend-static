@@ -20,10 +20,10 @@
   "is_winner": null,
   "filer_id": 1426949,
   "supporting_money": {
-    "contributions_received": 90718.37,
-    "total_contributions": 90718.37,
-    "total_expenditures": 36927.4,
-    "total_loans_received": 0.0,
+    "contributions_received": 111627.37,
+    "total_contributions": 111627.37,
+    "total_expenditures": 88447.32,
+    "total_loans_received": 20000.0,
     "total_supporting_independent": 105552.0,
     "support_list": [
       {
@@ -34,29 +34,31 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 13450.0,
-      "Individual": 43900.01,
-      "Unitemized": 4028.36,
-      "Self Funding": 20000.0,
-      "Other (includes Businesses)": 600.0
+      "Committee": 14100.0,
+      "Individual": 60275.01,
+      "Unitemized": 5212.36,
+      "Other (includes Businesses)": 3300.0
     },
     "contributions_by_origin": {
-      "Out of State": 8955.0,
-      "Within Oakland": 45075.0,
-      "Within California": 23920.01
+      "Out of State": 12005.0,
+      "Within Oakland": 31900.0,
+      "Within California": 33770.01
     },
-    "total_small_contributions": 4598.36,
+    "total_small_contributions": 6007.36,
     "expenditures_by_type": {
-      "Not Stated": 5759.28,
-      "Fundraising Events": 1412.8,
+      "Not Stated": 18436.15,
+      "Fundraising Events": 1775.61,
       "Campaign Consultants": 2500.0,
-      "Campaign Workers' Salaries": 15798.51,
-      "Campaign Paraphernalia/Misc.": 815.76,
+      "Campaign Workers' Salaries": 22672.53,
+      "Campaign Paraphernalia/Misc.": 1335.98,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Professional Services (Legal, Accounting)": 2672.98,
-      "Information Technology Costs (Internet, E-mail)": 4714.77
+      "Campaign Literature and Mailings": 23007.37,
+      "Professional Services (Legal, Accounting)": 4101.97,
+      "T.V. or Cable Airtime and Production Costs": 1462.0,
+      "Information Technology Costs (Internet, E-mail)": 6052.19
     },
     "supporting_by_type": {
+      "MON": 1700.0,
       "POLLING": 16220.0,
       "ONLINE ADS": 82250.0,
       "VOTER FILE": 7082.0
@@ -70,7 +72,7 @@
 
     ]
   },
-  "total_contributions": 90718.37,
-  "total_expenditures": 36927.4,
-  "total_loans_received": 0.0
+  "total_contributions": 111627.37,
+  "total_expenditures": 88447.32,
+  "total_loans_received": 20000.0
 }

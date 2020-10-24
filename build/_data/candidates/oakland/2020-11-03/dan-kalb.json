@@ -20,51 +20,52 @@
   "is_winner": null,
   "filer_id": 1420085,
   "supporting_money": {
-    "contributions_received": 134500.63,
-    "total_contributions": 134500.63,
-    "total_expenditures": 73430.94,
+    "contributions_received": 152706.39,
+    "total_contributions": 152706.39,
+    "total_expenditures": 106851.77,
     "total_loans_received": 1500.0,
-    "total_supporting_independent": 2810.0,
+    "total_supporting_independent": 2810.32,
     "support_list": [
       {
-        "Total": 2810.0,
+        "Total": 2810.32,
         "Cand_ID": 1420085,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
       }
     ],
     "contributions_by_type": {
-      "Committee": 18538.67,
-      "Individual": 100307.2,
-      "Unitemized": 8115.97,
+      "Committee": 21888.67,
+      "Individual": 113685.2,
+      "Unitemized": 9548.17,
       "Self Funding": 200.0,
       "Other (includes Businesses)": 5800.0
     },
     "contributions_by_origin": {
-      "Out of State": 6817.34,
-      "Within Oakland": 50303.82,
-      "Within California": 67724.71
+      "Out of State": 6942.34,
+      "Within Oakland": 60171.82,
+      "Within California": 74459.71
     },
-    "total_small_contributions": 10351.9,
+    "total_small_contributions": 12289.1,
     "expenditures_by_type": {
-      "Not Stated": 15946.04,
+      "Not Stated": 21332.07,
+      "Contribution": 38.21,
       "Civic Donations": 400.0,
-      "Fundraising Events": 4804.76,
-      "Campaign Consultants": 15500.0,
+      "Fundraising Events": 5735.87,
+      "Campaign Consultants": 21000.0,
       "Meetings and Appearances": 254.63,
-      "Campaign Workers' Salaries": 6605.74,
+      "Campaign Workers' Salaries": 12204.24,
       "Campaign Paraphernalia/Misc.": 4285.61,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 2315.78,
+      "Campaign Literature and Mailings": 15052.26,
       "Postage, Delivery and Messenger Services": 414.25,
-      "Professional Services (Legal, Accounting)": 9770.03,
-      "Information Technology Costs (Internet, E-mail)": 9709.9
+      "Professional Services (Legal, Accounting)": 11088.93,
+      "Information Technology Costs (Internet, E-mail)": 10652.02
     },
     "supporting_by_type": {
       "IKD": 300.0,
-      "MON": 3700.0,
-      "MAILER": 2810.0,
-      "Mailer": 16386.0
+      "MON": 4500.0,
+      "Mailer": 16386.0,
+      "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
   },
   "opposing_money": {
@@ -76,7 +77,7 @@
 
     ]
   },
-  "total_contributions": 134500.63,
-  "total_expenditures": 73430.94,
+  "total_contributions": 152706.39,
+  "total_expenditures": 106851.77,
   "total_loans_received": 1500.0
 }

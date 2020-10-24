@@ -20,31 +20,36 @@
   "is_winner": null,
   "filer_id": 1429104,
   "supporting_money": {
-    "contributions_received": 24035.93,
-    "total_contributions": 24035.93,
-    "total_expenditures": 10370.58,
-    "total_loans_received": 0.0,
+    "contributions_received": 37246.62,
+    "total_contributions": 37246.62,
+    "total_expenditures": 31422.8,
+    "total_loans_received": 8000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 18080.38,
-      "Unitemized": 5955.55
+      "Committee": 1900.0,
+      "Individual": 20406.07,
+      "Unitemized": 6840.55,
+      "Other (includes Businesses)": 100.0
     },
     "contributions_by_origin": {
-      "Out of State": 1689.38,
-      "Within Oakland": 6800.0,
-      "Within California": 9591.0
+      "Out of State": 1959.07,
+      "Within Oakland": 10356.0,
+      "Within California": 10091.0
     },
-    "total_small_contributions": 6094.93,
+    "total_small_contributions": 7154.62,
     "expenditures_by_type": {
+      "Print Ads": 5571.0,
       "Not Stated": 327.26,
       "Office Expenses": 210.09,
-      "Campaign Workers' Salaries": 1000.0,
-      "Campaign Paraphernalia/Misc.": 1291.35,
-      "Campaign Literature and Mailings": 6366.11,
-      "Information Technology Costs (Internet, E-mail)": 799.1
+      "Campaign Workers' Salaries": 4425.0,
+      "Campaign Paraphernalia/Misc.": 6517.87,
+      "Campaign Literature and Mailings": 8322.23,
+      "Candidate Travel, Lodging, and Meals": 347.8,
+      "Staff/Spouse Travel, Lodging, and Meals": 150.0,
+      "Information Technology Costs (Internet, E-mail)": 5070.83
     },
     "supporting_by_type": {
     }
@@ -57,7 +62,7 @@
 
     ]
   },
-  "total_contributions": 24035.93,
-  "total_expenditures": 10370.58,
-  "total_loans_received": 0.0
+  "total_contributions": 37246.62,
+  "total_expenditures": 31422.8,
+  "total_loans_received": 8000.0
 }

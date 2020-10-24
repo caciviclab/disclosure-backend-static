@@ -8,11 +8,15 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4192?cty=ca%2falm",
   "contributions_by_region": [
     {
-      "amount": 3500.0,
+      "amount": 150.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 3900.0,
       "locale": "Within California"
     },
     {
-      "amount": 75000.0,
+      "amount": 77475.0,
       "locale": "Within Oakland"
     }
   ],
@@ -23,7 +27,7 @@
     },
     {
       "type": "Individual",
-      "amount": 25000.0
+      "amount": 28025.0
     },
     {
       "type": "Other (includes Businesses)",
@@ -31,12 +35,6 @@
     }
   ],
   "supporting_organizations": [
-    {
-      "id": "1345259",
-      "name": "Oakland Education Association Political Action Committee",
-      "payee": "Oakland Education Association Political Action Committee",
-      "amount": 12500.0
-    },
     {
       "id": "1433587",
       "name": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
@@ -47,7 +45,7 @@
       "id": "1428755",
       "name": "Yes on QQ, Oakland Youth Vote",
       "payee": "Yes on QQ, Oakland Youth Vote",
-      "amount": 31567.95
+      "amount": 58575.43
     },
     {
       "id": "1332307",
@@ -56,5 +54,5 @@
       "amount": 15000.0
     }
   ],
-  "total_contributions": 78500.0
+  "total_contributions": 81525.0
 }
