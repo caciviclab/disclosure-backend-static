@@ -1,5 +1,5 @@
 {
-  "total_contributions": 20090.0,
+  "total_contributions": 21790.0,
   "contributions": [
     {
       "Filer_ID": "1429072",
@@ -957,6 +957,17 @@
       "Tran_NamF": "Susanna",
       "Tran_NamL": "Hovland",
       "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unity PAC Alameda Labor Council",
+      "Tran_Zip4": "94621"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "total_contributions": 2220685.5700000003,
+  "total_contributions": 2252866.8000000003,
   "total_contributions_by_source": {
     "Out of State": 141299.88,
-    "Within Oakland": 999139.8899999999,
+    "Within Oakland": 1031321.1199999999,
     "Within California": 765761.4600000001
   },
   "contributions_by_type": {
-    "Committee": 228692.66999999998,
+    "Committee": 255473.89999999997,
     "Individual": 1517217.9000000004,
     "Unitemized": 150950.18,
-    "Self Funding": 58120.0,
-    "Other (includes Businesses)": 102170.66
+    "Self Funding": 60120.0,
+    "Other (includes Businesses)": 105570.66
   },
   "most_expensive_races": [
     {
@@ -60,14 +60,14 @@
   ],
   "largest_independent_expenditures": [
     {
+      "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
+      "election_name": "oakland-2020",
+      "total_spending": 346558.89
+    },
+    {
       "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
       "election_name": "oakland-2020",
       "total_spending": 324628.0
-    },
-    {
-      "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
-      "election_name": "oakland-2020",
-      "total_spending": 283844.89
     },
     {
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
@@ -123,7 +123,7 @@
       "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_contributions": 50000.0
+      "total_contributions": 75000.0
     },
     {
       "name": "Youth Power PAC, Sponsored by PowerCA Action",
