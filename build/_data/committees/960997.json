@@ -1,5 +1,5 @@
 {
-  "total_contributions": 479986.0800000002,
+  "total_contributions": 480986.0800000002,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1474,6 +1474,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "MRC Inc.",
       "Tran_Zip4": "08750"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Hattin Construction Management, Inc.",
+      "Tran_Occ": "Construction Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Roosevelt",
+      "Tran_NamL": "Hattin",
+      "Tran_Zip4": "94619"
     }
   ]
 }
