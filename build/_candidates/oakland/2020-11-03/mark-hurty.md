@@ -10,4 +10,5 @@ photo_url: mark_hurty_sub.jpg
 twitter_url: MarkForOakland
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21296/candidate/151498?&cty=ca%2falm&date=2020-11-03
 website_url: https://markforoakland.com/
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154885&since=2019-01-01&until=2020-10-23
 ---

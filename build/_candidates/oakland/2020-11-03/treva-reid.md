@@ -7,7 +7,9 @@ is_incumbent: false
 name: Treva Reid
 occupation: Community Engagement Strategist
 photo_url: treva_reid_sub.jpg
+public_funding_received: '9881'
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21269/candidate/151403?date=2020-11-03
 website_url: https://www.reidforoakland.com/
 facebook_url: https://www.facebook.com/TrevaReidforOaklandCityCouncil
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-153791&since=2019-01-01&until=2020-10-23
 ---

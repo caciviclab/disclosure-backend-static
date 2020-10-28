@@ -8,9 +8,11 @@ name: Carroll Fife
 occupation: Non-profit Director
 party_affiliation: Democrat
 photo_url: carroll_fife_sub.jpg
+public_funding_received: '18320'
 twitter_url: carroll_fife
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21267/candidate/151391?cty=ca%2falm
 website_url: https://carrollfife.org
 facebook_url: https://www.facebook.com/carrollfifeforcouncil/
 instagram_url: carrollforcouncil
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-155178&since=2019-01-01&until=2020-10-23
 ---

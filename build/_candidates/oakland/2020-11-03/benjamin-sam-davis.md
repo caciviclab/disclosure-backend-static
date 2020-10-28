@@ -10,4 +10,5 @@ photo_url: sam_davis_sub.jpg
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21295/candidate/151494?&cty=ca%2falm&date=2020-11-03
 website_url: https://www.samdavisforoaklandschools.org/
 facebook_url: https://www.facebook.com/samdavis510
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-155191&since=2019-01-01&until=2020-10-23
 ---

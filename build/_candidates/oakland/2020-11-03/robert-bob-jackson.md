@@ -8,4 +8,5 @@ name: Robert "Bob" Jackson
 occupation: Pastor
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21269/candidate/151402?date=2020-11-03
 website_url: https://www.jacksonforeastoakland.com/
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154768&since=2019-01-01&until=2020-10-23
 ---

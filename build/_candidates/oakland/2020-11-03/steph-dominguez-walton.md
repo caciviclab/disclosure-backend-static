@@ -7,9 +7,11 @@ is_incumbent: false
 name: Steph Dominguez Walton
 occupation: Business Woman/Mother
 photo_url: Steph_Walton.jpg
+public_funding_received: '21857'
 twitter_url: StephDWalton
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21266/candidate/151388?cty=ca%2falm
 website_url: https://www.stephforoakland.com/
 facebook_url: https://www.facebook.com/stephforoakland/
 instagram_url: stephforoakland
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154865&since=2019-01-01&until=2020-10-23
 ---

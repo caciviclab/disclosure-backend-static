@@ -7,8 +7,10 @@ is_incumbent: true
 name: Dan Kalb
 occupation: Oakland City Council Member
 photo_url: https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png
+public_funding_received: '7883'
 twitter_url: DanKalb
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21266/candidate/151389?cty=ca%2falm
 website_url: https://www.dankalb.net/
 facebook_url: https://www.facebook.com/DanKalbCityCouncil/
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154882&since=2019-01-01&until=2020-10-23
 ---
