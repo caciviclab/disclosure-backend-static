@@ -23,6 +23,7 @@ class Candidate < ActiveRecord::Base
       'website_url' => self[:Website],
       'facebook_url' => self[:Facebook],
       'instagram_url' => self[:Instagram],
+      'map_url' => self[:map_app]
     }.compact
   end
 
@@ -39,6 +40,7 @@ class Candidate < ActiveRecord::Base
       twitter_url: self['Twitter'],
       facebook_url: self['Facebook'],
       instagram_url: self['Instagram'],
+      map_url: self['map_app'],
       votersedge_url: self['VotersEdge'],
       first_name: first_name,
       last_name: last_name,
