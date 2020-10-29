@@ -1,5 +1,5 @@
 {
-  "total_contributions": 106606.23,
+  "total_contributions": 136606.22999999998,
   "contributions": [
     {
       "Filer_ID": "1428755",
@@ -330,6 +330,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "PowerCA Action",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council Unity PAC",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": "Jewish Youth For Community Action",
+      "Tran_Occ": "Director Of Programs",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Rachel",
+      "Tran_NamL": "Gelman",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Katrina",
+      "Tran_NamL": "Schaffer",
+      "Tran_Zip4": "94609"
     }
   ]
 }

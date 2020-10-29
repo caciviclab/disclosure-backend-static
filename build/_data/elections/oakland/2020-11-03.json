@@ -1,16 +1,16 @@
 {
-  "total_contributions": 2255816.8000000003,
+  "total_contributions": 2288016.8000000003,
   "total_contributions_by_source": {
-    "Out of State": 141299.88,
-    "Within Oakland": 1033021.1199999999,
-    "Within California": 767011.4600000001
+    "Out of State": 142499.88,
+    "Within Oakland": 1063021.1199999999,
+    "Within California": 768011.4600000001
   },
   "contributions_by_type": {
-    "Committee": 258423.89999999997,
-    "Individual": 1517217.9000000004,
+    "Committee": 285423.89999999997,
+    "Individual": 1521217.9000000004,
     "Unitemized": 150950.18,
     "Self Funding": 60120.0,
-    "Other (includes Businesses)": 105570.66
+    "Other (includes Businesses)": 106770.66
   },
   "most_expensive_races": [
     {
@@ -34,20 +34,20 @@
   ],
   "largest_small_proportion": [
     {
-      "slug": "maiya-edgerly",
-      "type": "office",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "candidate": "Maiya Edgerly",
-      "proportion": 0.38594836732288107,
-      "office_title": "School Board District 3"
-    },
-    {
       "slug": "tri-ngo",
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Tri Ngo",
       "proportion": 0.33899034349589585,
       "office_title": "City Council District 1"
+    },
+    {
+      "slug": "maiya-edgerly",
+      "type": "office",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "candidate": "Maiya Edgerly",
+      "proportion": 0.33811835175049054,
+      "office_title": "School Board District 3"
     },
     {
       "slug": "zoe-lopez-meraz",
@@ -62,7 +62,7 @@
     {
       "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
       "election_name": "oakland-2020",
-      "total_spending": 346558.89
+      "total_spending": 346855.89
     },
     {
       "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
@@ -84,7 +84,7 @@
     {
       "name": "Service Employees International Union Local 1021 Candidate PAC",
       "election_name": "oakland-2020",
-      "total_contributions": 236300.0
+      "total_contributions": 299300.0
     },
     {
       "name": "Michael R. Bloomberg",
@@ -126,10 +126,10 @@
       "total_contributions": 75000.0
     },
     {
-      "name": "Youth Power PAC, Sponsored by PowerCA Action",
+      "name": "East Bay Community Foundation",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_contributions": 30000.0
+      "total_contributions": 45000.0
     }
   ],
   "top_spenders": [
@@ -143,7 +143,7 @@
       "name": "Service Employees International Union Local 1021 Candidate PAC",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_spending": 229500.0
+      "total_spending": 292500.0
     },
     {
       "name": "Michael R. Bloomberg",
@@ -183,7 +183,7 @@
       "name": "Service Employees International Union Local 1021 Candidate PAC",
       "type": "Measure",
       "election_name": "oakland-2020",
-      "total_spending": 229500.0
+      "total_spending": 292500.0
     },
     {
       "name": "Michael R. Bloomberg",

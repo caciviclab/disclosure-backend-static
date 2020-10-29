@@ -1,5 +1,5 @@
 {
-  "total_contributions": 5209.0,
+  "total_contributions": 6409.0,
   "contributions": [
     {
       "Filer_ID": "1430558",
@@ -121,6 +121,17 @@
       "Tran_NamF": "Libby",
       "Tran_NamL": "Schaaf",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1430558",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Allies for Educational Equity",
+      "Tran_Zip4": "20002"
     }
   ]
 }
