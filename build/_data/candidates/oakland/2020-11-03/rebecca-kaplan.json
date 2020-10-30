@@ -6,7 +6,7 @@
   "twitter_url": "kaplan4oakland",
   "facebook_url": "https://www.facebook.com/Kaplan4Oakland/",
   "instagram_url": null,
-  "map_url": "https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-155160&since=2019-01-01&until=2020-10-23",
+  "map_url": "https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154877&since=2019-01-01&until=2020-10-23",
   "votersedge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21265/candidate/151386?cty=ca%2falm",
   "first_name": "Rebecca",
   "last_name": "Kaplan",
@@ -82,9 +82,10 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 199166.0,
+    "opposing_expenditures": 209766.0,
     "opposing_by_type": {
       "Cable ads": 150000.0,
+      "Slate Mailer": 10600.0,
       "Estimated cost of media production": 24766.0,
       "Independent Expenditure Supporting/Opposing Others": 32850.0
     },
@@ -96,7 +97,7 @@
         "Filer_NamL": "Californians for Independent Work, Sponsored by Lyft, Inc."
       },
       {
-        "Total": 24400.0,
+        "Total": 35000.0,
         "Cand_ID": 1419466,
         "Filer_ID": "1428904",
         "Filer_NamL": "Committee for an Affordable East Bay supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020"

@@ -12,5 +12,5 @@ twitter_url: kaplan4oakland
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/contests/contest/21265/candidate/151386?cty=ca%2falm
 website_url: http://kaplanforoakland.org/
 facebook_url: https://www.facebook.com/Kaplan4Oakland/
-map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-155160&since=2019-01-01&until=2020-10-23
+map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154877&since=2019-01-01&until=2020-10-23
 ---

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 6500.0,
+  "total_contributions": 8500.0,
   "contributions": [
     {
       "Filer_ID": "1401958",
@@ -33,6 +33,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "United Food and Commercial Workers Active Ballot Club",
       "Tran_Zip4": "20006"
+    },
+    {
+      "Filer_ID": "1401958",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers' International Association Local No. 104",
+      "Tran_Zip4": "94583"
     }
   ]
 }

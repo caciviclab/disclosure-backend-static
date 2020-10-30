@@ -1,5 +1,5 @@
 {
-  "total_contributions": 480986.0800000002,
+  "total_contributions": 488486.0800000002,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1485,6 +1485,17 @@
       "Tran_NamF": "Roosevelt",
       "Tran_NamL": "Hattin",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "MKThink",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Nate",
+      "Tran_NamL": "Goore",
+      "Tran_Zip4": "94111"
     }
   ]
 }
