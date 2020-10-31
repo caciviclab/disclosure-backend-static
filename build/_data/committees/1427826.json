@@ -1,5 +1,5 @@
 {
-  "total_contributions": 23345.0,
+  "total_contributions": 26045.0,
   "contributions": [
     {
       "Filer_ID": "1427826",
@@ -1265,6 +1265,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "United PAC Alameda Labor Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bricklayers & Allied Craftworkers Local No. 3",
+      "Tran_Zip4": "94577"
+    },
+    {
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "American Federation of State, County & Municipal Employees, Council 57",
+      "Tran_Zip4": "90802"
+    },
+    {
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bricklayers & Allied Craftworkers Local No. 3",
+      "Tran_Zip4": "94577"
     }
   ]
 }
