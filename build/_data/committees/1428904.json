@@ -1,5 +1,5 @@
 {
-  "total_contributions": 200999.0,
+  "total_contributions": 203999.0,
   "contributions": [
     {
       "Filer_ID": "1428904",
@@ -198,6 +198,17 @@
       "Tran_NamF": "Ron",
       "Tran_NamL": "Conway",
       "Tran_Zip4": "94920"
+    },
+    {
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association PAC",
+      "Tran_Zip4": "94607"
     }
   ]
 }
