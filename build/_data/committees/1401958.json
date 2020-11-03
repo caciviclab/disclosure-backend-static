@@ -1,5 +1,5 @@
 {
-  "total_contributions": 8500.0,
+  "total_contributions": 9500.0,
   "contributions": [
     {
       "Filer_ID": "1401958",
@@ -44,6 +44,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers' International Association Local No. 104",
       "Tran_Zip4": "94583"
+    },
+    {
+      "Filer_ID": "1401958",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters & Apprentices Local 483 Local PAC",
+      "Tran_Zip4": "94545"
     }
   ]
 }

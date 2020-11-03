@@ -705,18 +705,18 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 2294416.8000000003,
+    "total_contributions": 2301216.8000000003,
     "total_contributions_by_source": {
-      "Out of State": 143499.88,
-      "Within Oakland": 1064721.1199999999,
-      "Within California": 771711.4600000001
+      "Out of State": 146899.88,
+      "Within Oakland": 1066421.1199999999,
+      "Within California": 773411.4600000001
     },
     "contributions_by_type": {
-      "Committee": 289123.89999999997,
+      "Committee": 292523.89999999997,
       "Individual": 1521217.9000000004,
       "Unitemized": 150950.18,
       "Self Funding": 60120.0,
-      "Other (includes Businesses)": 109470.66
+      "Other (includes Businesses)": 112870.66
     },
     "most_expensive_races": [
       {
@@ -729,13 +729,13 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 413702.98
+        "amount": 417102.98
       },
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 348782.13
+        "amount": 350482.13
       }
     ],
     "largest_small_proportion": [
@@ -866,16 +866,16 @@
         "total_spending": 51880.0
       },
       {
-        "name": "Oakland Metropolitan Chamber of Commerce",
+        "name": "Unity PAC Alameda Labor Council",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 8500.0
       },
       {
-        "name": "Libby Schaaf",
+        "name": "Oakland Metropolitan Chamber of Commerce",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_spending": 7200.0
+        "total_spending": 8500.0
       }
     ],
     "top_spenders_for_measures": [
