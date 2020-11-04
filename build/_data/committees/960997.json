@@ -1,5 +1,5 @@
 {
-  "total_contributions": 488486.0800000002,
+  "total_contributions": 498653.0800000002,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1496,6 +1496,50 @@
       "Tran_NamF": "Nate",
       "Tran_NamL": "Goore",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Sixth Dimension",
+      "Tran_Occ": "Construction Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Mani",
+      "Tran_NamL": "Subramanian",
+      "Tran_Zip4": "95834"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1667.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "GameTime( Corporation)",
+      "Tran_Zip4": "35967"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unity PAC Alameda Labor Council",
+      "Tran_Zip4": "94621"
     }
   ]
 }

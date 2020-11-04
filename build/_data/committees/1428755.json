@@ -1,5 +1,5 @@
 {
-  "total_contributions": 136606.22999999998,
+  "total_contributions": 138606.22999999998,
   "contributions": [
     {
       "Filer_ID": "1428755",
@@ -374,6 +374,17 @@
       "Tran_NamF": "Katrina",
       "Tran_NamL": "Schaffer",
       "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Californians for Justice Education Fund, Inc.( Corporation)",
+      "Tran_Zip4": "95133"
     }
   ]
 }

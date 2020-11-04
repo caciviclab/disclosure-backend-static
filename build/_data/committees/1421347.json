@@ -1,5 +1,5 @@
 {
-  "total_contributions": 215259.32,
+  "total_contributions": 216959.32,
   "contributions": [
     {
       "Filer_ID": "1421347",
@@ -6248,6 +6248,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Laborers Local 185 PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate PAC",
+      "Tran_Zip4": "90071"
     }
   ]
 }

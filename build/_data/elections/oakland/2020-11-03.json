@@ -1,29 +1,29 @@
 {
-  "total_contributions": 2301216.8000000003,
+  "total_contributions": 2310916.8000000003,
   "total_contributions_by_source": {
-    "Out of State": 146899.88,
-    "Within Oakland": 1066421.1199999999,
-    "Within California": 773411.4600000001
+    "Out of State": 150299.88,
+    "Within Oakland": 1068121.1199999999,
+    "Within California": 778011.4600000001
   },
   "contributions_by_type": {
-    "Committee": 292523.89999999997,
-    "Individual": 1521217.9000000004,
+    "Committee": 300323.89999999997,
+    "Individual": 1521117.9000000004,
     "Unitemized": 150950.18,
     "Self Funding": 60120.0,
-    "Other (includes Businesses)": 112870.66
+    "Other (includes Businesses)": 114870.66
   },
   "most_expensive_races": [
     {
       "slug": "city-council-district-3",
       "type": "office",
       "title": "City Council District 3",
-      "amount": 432412.91000000003
+      "amount": 434112.91000000003
     },
     {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 417102.98
+      "amount": 417002.98
     },
     {
       "slug": "city-council-district-1",
@@ -62,7 +62,7 @@
     {
       "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
       "election_name": "oakland-2020",
-      "total_spending": 364089.89
+      "total_spending": 367771.89
     },
     {
       "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
@@ -100,16 +100,16 @@
       "total_contributions": 51880.0
     },
     {
-      "name": "Oakland Metropolitan Chamber of Commerce",
+      "name": "Unity PAC Alameda Labor Council",
       "type": "Office",
       "election_name": "oakland-2020",
       "total_contributions": 8500.0
     },
     {
-      "name": "Libby Schaaf",
+      "name": "Oakland Metropolitan Chamber of Commerce",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_contributions": 7200.0
+      "total_contributions": 8500.0
     }
   ],
   "top_contributors_for_measures": [
@@ -163,7 +163,7 @@
       "name": "Unity PAC Alameda Labor Council",
       "type": "Office",
       "election_name": "oakland-2020",
-      "total_spending": 8500.0
+      "total_spending": 10200.0
     },
     {
       "name": "Oakland Metropolitan Chamber of Commerce",
