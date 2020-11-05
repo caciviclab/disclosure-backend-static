@@ -1,5 +1,5 @@
 {
-  "total_contributions": 68101.0,
+  "total_contributions": 69101.0,
   "contributions": [
     {
       "Filer_ID": "1429205",
@@ -1276,6 +1276,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unity PAC Alameda Labor Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers' International Association Local NO. 140",
+      "Tran_Zip4": "94583"
     }
   ]
 }

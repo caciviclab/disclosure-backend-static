@@ -1,5 +1,5 @@
 {
-  "total_contributions": 181271.0,
+  "total_contributions": 181771.0,
   "contributions": [
     {
       "Filer_ID": "1427585",
@@ -8844,6 +8844,17 @@
       "Tran_NamF": "Ganice",
       "Tran_NamL": "Morgan Austin",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "United Food & Commercial Workers Local 5 PAC",
+      "Tran_Zip4": "95113"
     }
   ]
 }
