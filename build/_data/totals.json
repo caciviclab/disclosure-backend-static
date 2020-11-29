@@ -705,18 +705,18 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 2313416.8000000003,
+    "total_contributions": 2318657.39,
     "total_contributions_by_source": {
       "Out of State": 150299.88,
-      "Within Oakland": 1069121.1199999999,
-      "Within California": 779511.4600000001
+      "Within Oakland": 1087523.71,
+      "Within California": 781211.4600000001
     },
     "contributions_by_type": {
       "Committee": 301823.89999999997,
       "Individual": 1522117.9000000004,
-      "Unitemized": 150950.18,
-      "Self Funding": 60120.0,
-      "Other (includes Businesses)": 114870.66
+      "Unitemized": 151205.18,
+      "Self Funding": 78522.59,
+      "Other (includes Businesses)": 116570.66
     },
     "most_expensive_races": [
       {
@@ -735,18 +735,10 @@
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 350482.13
+        "amount": 354022.72000000003
       }
     ],
     "largest_small_proportion": [
-      {
-        "slug": "tri-ngo",
-        "type": "office",
-        "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Tri Ngo",
-        "proportion": 0.33899034349589585,
-        "office_title": "City Council District 1"
-      },
       {
         "slug": "maiya-edgerly",
         "type": "office",
@@ -754,6 +746,14 @@
         "candidate": "Maiya Edgerly",
         "proportion": 0.33811835175049054,
         "office_title": "School Board District 3"
+      },
+      {
+        "slug": "tri-ngo",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Tri Ngo",
+        "proportion": 0.3032000954178602,
+        "office_title": "City Council District 1"
       },
       {
         "slug": "zoe-lopez-meraz",
@@ -806,13 +806,13 @@
         "total_contributions": 51880.0
       },
       {
-        "name": "Unity PAC Alameda Labor Council",
+        "name": "Tri Ngo",
         "type": "Office",
         "election_name": "oakland-2020",
-        "total_contributions": 8500.0
+        "total_contributions": 18402.59
       },
       {
-        "name": "Oakland Metropolitan Chamber of Commerce",
+        "name": "Unity PAC Alameda Labor Council",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 8500.0
@@ -866,16 +866,16 @@
         "total_spending": 51880.0
       },
       {
+        "name": "Tri Ngo",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 18402.59
+      },
+      {
         "name": "Unity PAC Alameda Labor Council",
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 10200.0
-      },
-      {
-        "name": "Oakland Metropolitan Chamber of Commerce",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_spending": 8500.0
       }
     ],
     "top_spenders_for_measures": [
