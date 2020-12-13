@@ -1,5 +1,5 @@
 {
-  "total_contributions": 6950.0,
+  "total_contributions": 7950.0,
   "contributions": [
     {
       "Filer_ID": "1427317",
@@ -406,6 +406,17 @@
       "Tran_Date": "2020-10-26",
       "Tran_NamF": null,
       "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1427317",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Construction & General Laborers Local 304 PAC",
       "Tran_Zip4": "95814"
     }
   ]
