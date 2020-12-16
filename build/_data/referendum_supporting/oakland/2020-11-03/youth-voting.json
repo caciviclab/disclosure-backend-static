@@ -12,22 +12,22 @@
       "locale": "Out of State"
     },
     {
-      "amount": 5900.0,
+      "amount": 7350.0,
       "locale": "Within California"
     },
     {
-      "amount": 132556.23,
+      "amount": 134543.17,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 101081.23
+      "amount": 101668.17
     },
     {
       "type": "Individual",
-      "amount": 32025.0
+      "amount": 34875.0
     },
     {
       "type": "Other (includes Businesses)",
@@ -45,7 +45,7 @@
       "id": "1428755",
       "name": "Yes on QQ, Oakland Youth Vote",
       "payee": "Yes on QQ, Oakland Youth Vote",
-      "amount": 63575.43
+      "amount": 137786.61
     },
     {
       "id": "1332307",
@@ -54,5 +54,5 @@
       "amount": 15000.0
     }
   ],
-  "total_contributions": 138606.23
+  "total_contributions": 142043.17
 }
