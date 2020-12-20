@@ -1,5 +1,5 @@
 {
-  "total_contributions": 142043.16999999998,
+  "total_contributions": 142106.88999999998,
   "contributions": [
     {
       "Filer_ID": "1428755",
@@ -569,6 +569,17 @@
       "Entity_Cd": "Committee",
       "Tran_Amt1": 330.0,
       "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "PowerCA Action",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1428755",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 63.72,
+      "Tran_Date": "2020-11-24",
       "Tran_NamF": null,
       "Tran_NamL": "PowerCA Action",
       "Tran_Zip4": "94612"
