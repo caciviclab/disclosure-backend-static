@@ -3249,7 +3249,7 @@
     {
       "Filer_ID": "1367270",
       "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
+      "Tran_Occ": "no occupation",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2014-09-28",
@@ -3260,7 +3260,7 @@
     {
       "Filer_ID": "1367270",
       "Tran_Emp": "Retired",
-      "Tran_Occ": "no occupation",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2014-09-28",
