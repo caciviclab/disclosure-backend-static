@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1419930,
   "supporting_money": {
-    "contributions_received": 62293.31,
-    "total_contributions": 62293.31,
+    "contributions_received": 60593.31,
+    "total_contributions": 60593.31,
     "total_expenditures": 48736.28,
-    "total_loans_received": 211.32,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 63215.0,
     "support_list": [
       {
@@ -41,28 +41,29 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 10950.0,
-      "Individual": 41657.0,
-      "Unitemized": 9474.99
+      "Committee": 11350.0,
+      "Individual": 48611.0,
+      "Unitemized": 10006.99
     },
     "contributions_by_origin": {
-      "Out of State": 5890.0,
-      "Within Oakland": 30967.0,
-      "Within California": 15750.0
+      "Out of State": 8070.0,
+      "Within Oakland": 34571.0,
+      "Within California": 17320.0
     },
-    "total_small_contributions": 10776.99,
+    "total_small_contributions": 11923.99,
     "expenditures_by_type": {
       "Not Stated": 311.93,
-      "Phone Banks": 375.0,
+      "Phone Banks": 595.0,
       "Contribution": 100.0,
+      "Civic Donations": 360.0,
       "Fundraising Events": 257.52,
-      "Campaign Consultants": 15341.14,
+      "Campaign Consultants": 22779.08,
       "Meetings and Appearances": 263.0,
       "Campaign Paraphernalia/Misc.": 319.01,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 9176.49,
-      "Postage, Delivery and Messenger Services": 19327.44,
-      "Professional Services (Legal, Accounting)": 1443.46
+      "Candidate Filing/Ballot Fees": 1050.0,
+      "Campaign Literature and Mailings": 15930.23,
+      "Postage, Delivery and Messenger Services": 23824.89,
+      "Professional Services (Legal, Accounting)": 1882.28
     },
     "supporting_by_type": {
     }
@@ -75,7 +76,7 @@
 
     ]
   },
-  "total_contributions": 62293.31,
+  "total_contributions": 60593.31,
   "total_expenditures": 48736.28,
-  "total_loans_received": 211.32
+  "total_loans_received": 0.0
 }
