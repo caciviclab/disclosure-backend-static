@@ -1,5 +1,5 @@
 {
-  "total_contributions": 8550.0,
+  "total_contributions": 9100.0,
   "contributions": [
     {
       "Filer_ID": "1427563",
@@ -146,14 +146,36 @@
     },
     {
       "Filer_ID": "1427563",
-      "Tran_Emp": "San Francisco Marin Food Bank",
-      "Tran_Occ": "Government Affairs Manager",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 850.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Drive Committee",
+      "Tran_Zip4": "20001-2198"
+    },
+    {
+      "Filer_ID": "1427563",
+      "Tran_Emp": "Not employed",
+      "Tran_Occ": "not employed",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 2000.0,
-      "Tran_Date": "2020-10-22",
-      "Tran_NamF": "Marchon",
-      "Tran_NamL": "Tatmon",
-      "Tran_Zip4": "94603"
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Khalid",
+      "Tran_NamL": "Muhammad",
+      "Tran_Zip4": "94547"
+    },
+    {
+      "Filer_ID": "1427563",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate Political Action Committee",
+      "Tran_Zip4": "90071"
     }
   ]
 }

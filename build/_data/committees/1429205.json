@@ -1,5 +1,5 @@
 {
-  "total_contributions": 70001.0,
+  "total_contributions": 81551.0,
   "contributions": [
     {
       "Filer_ID": "1429205",
@@ -1258,6 +1258,171 @@
     {
       "Filer_ID": "1429205",
       "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-18",
+      "Tran_NamF": "Cheshmeh",
+      "Tran_NamL": "Keshmiri",
+      "Tran_Zip4": "92129-1756"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "University of California Berkeley",
+      "Tran_Occ": "Graduate Student Instructor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Amin",
+      "Tran_NamL": "Ebrahimi Afrouzi",
+      "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Zoe",
+      "Tran_NamL": "Franklin",
+      "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "TechMarch, LLC",
+      "Tran_Occ": "Sales Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Alireza",
+      "Tran_NamL": "Keshmiri",
+      "Tran_Zip4": "94709"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Caroline",
+      "Tran_NamL": "Simon",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "Self Employed / Same Name",
+      "Tran_Occ": "Jewelry Designer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2020-10-23",
+      "Tran_NamF": "Esmeralda",
+      "Tran_NamL": "Cruz",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "Mario Juarez Selling Team",
+      "Tran_Occ": "Real Estate Developer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2020-10-23",
+      "Tran_NamF": "Mario",
+      "Tran_NamL": "Juarez",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Jean",
+      "Tran_NamL": "Quan",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Director Of Education",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-25",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Silver",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local Union 1245",
+      "Tran_Zip4": "95687"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "Computacenter US",
+      "Tran_Occ": "Associate Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Alexander",
+      "Tran_NamL": "Tam",
+      "Tran_Zip4": "94566"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Tire and Tire INC.",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "The Unity Council",
+      "Tran_Occ": "Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 350.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Iglesias",
+      "Tran_Zip4": "94598"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": "Kos Read Group, Inc.",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Isaac",
+      "Tran_NamL": "Kos-Read",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Lupe",
+      "Tran_NamL": "Schoenberger",
+      "Tran_Zip4": "94507"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
       "Tran_Amt1": 1000.0,
@@ -1298,6 +1463,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers' International Association Local NO. 140",
       "Tran_Zip4": "94583"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-11-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Roofers' Political Education and Legislative Fund of Roofers, Waterproofers, & Allied Workers",
+      "Tran_Zip4": "20036"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-16",
+      "Tran_NamF": "Mary",
+      "Tran_NamL": "Vail",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-11-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "League of Conservation Voters of the East Bay",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1429205",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-12-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "District Council of Iron Workers",
+      "Tran_Zip4": "94564"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 184925.0,
+  "total_contributions": 190925.0,
   "contributions": [
     {
       "Filer_ID": "1307016",
@@ -264,6 +264,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "PG&E Corporation",
       "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "1307016",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Office is Daniel Winkler",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Winkler Real Estate Group",
+      "Tran_Zip4": "94706"
+    },
+    {
+      "Filer_ID": "1307016",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Monarq, Inc.( Corporation)",
+      "Tran_Zip4": "94612"
     }
   ]
 }

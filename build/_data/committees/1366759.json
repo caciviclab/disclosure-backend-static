@@ -1,5 +1,5 @@
 {
-  "total_contributions": 149838.52999999985,
+  "total_contributions": 155323.94999999987,
   "contributions": [
     {
       "Filer_ID": "1366759",
@@ -5690,6 +5690,61 @@
     },
     {
       "Filer_ID": "1366759",
+      "Tran_Emp": "San Ramon Regional Medical Center",
+      "Tran_Occ": "Registered Nurse",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Janet",
+      "Tran_NamL": "Stephenson",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Mason Tillman Associates",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": "Eleanor",
+      "Tran_NamL": "Ramsey",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "League of Conservation Voters of the East Bay",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "HNTB Holdings Inc PAC (FEC ID #C00386029)",
+      "Tran_Zip4": "64105"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Morgan Lewis",
+      "Tran_Occ": "Administration",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-10-23",
+      "Tran_NamF": "Tyron",
+      "Tran_NamL": "Jordan",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1366759",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -5703,12 +5758,133 @@
       "Filer_ID": "1366759",
       "Tran_Emp": null,
       "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay For Everyone",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Olivia",
+      "Tran_NamL": "Sears",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 35.42,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Jennifer",
+      "Tran_NamL": "Braun",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Positive Resource Center",
+      "Tran_Occ": "Public Policy",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Christopher",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94015"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Crescendo Bioscience",
+      "Tran_Occ": "Vice President Marketing & Sales",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Erik",
+      "Tran_NamL": "Harris",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Clorox",
+      "Tran_Occ": "Government Affairs",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-28",
+      "Tran_NamF": "Ashley",
+      "Tran_NamL": "Shaw",
+      "Tran_Zip4": "94546"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Angotti & Reilly Inc.",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Reilly",
+      "Tran_Zip4": "94124"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Health Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": "Michele",
+      "Tran_NamL": "Townsend",
+      "Tran_Zip4": "92653"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Gordon",
+      "Tran_NamL": "Baranco",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Lupe",
+      "Tran_NamL": "Schoenberger",
+      "Tran_Zip4": "94507"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Alameda County Board of Supervisors",
+      "Tran_Occ": "Special Assistant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2020-11-02",
       "Tran_NamF": "Erin",
       "Tran_NamL": "Armstrong",
-      "Tran_Zip4": "94619"
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate PAC (CREPAC)",
+      "Tran_Zip4": "90071"
     },
     {
       "Filer_ID": "1366759",
@@ -5720,6 +5896,116 @@
       "Tran_NamF": null,
       "Tran_NamL": "Teamsters Joint Council #7",
       "Tran_Zip4": "20001-2198"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Alameda County Board of Supervisors",
+      "Tran_Occ": "Special Assistant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -1000.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": "Erin",
+      "Tran_NamL": "Armstrong",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Hewlett-Packard Inc",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": "Neysa",
+      "Tran_NamL": "Fligor",
+      "Tran_Zip4": "94022"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Office of California Secretary of State",
+      "Tran_Occ": "Assistant Deputy Secretary of State",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": "Tamara",
+      "Tran_NamL": "Rasberry",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-11-06",
+      "Tran_NamF": "Aisha",
+      "Tran_NamL": "Jordan",
+      "Tran_Zip4": "94132"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Allen Temple Arms",
+      "Tran_Occ": "Resident Services Supervisor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-11-15",
+      "Tran_NamF": "Donna",
+      "Tran_NamL": "Griggsmurphy",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Democracy For America",
+      "Tran_Occ": "Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-16",
+      "Tran_NamF": "Yvette",
+      "Tran_NamL": "Simpson",
+      "Tran_Zip4": "45203"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2020-11-20",
+      "Tran_NamF": "Diana",
+      "Tran_NamL": "Bell",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-11-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Coast Counties Truck & Equipment Company( Corporation)",
+      "Tran_Zip4": "95112-4514"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Alameda Labor Council",
+      "Tran_Occ": "Executive-Secretary Treasurer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-12-20",
+      "Tran_NamF": "Josephine",
+      "Tran_NamL": "Camacho",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Alameda Labor Council",
+      "Tran_Occ": "Executive-Secretary Treasurer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-12-30",
+      "Tran_NamF": "Josephine",
+      "Tran_NamL": "Camacho",
+      "Tran_Zip4": "94619"
     }
   ]
 }

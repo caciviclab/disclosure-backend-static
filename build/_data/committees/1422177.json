@@ -1,5 +1,5 @@
 {
-  "total_contributions": 18156.0,
+  "total_contributions": 18406.0,
   "contributions": [
     {
       "Filer_ID": "1422177",
@@ -506,6 +506,17 @@
       "Tran_NamF": "Libby",
       "Tran_NamL": "Schaaf",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1422177",
+      "Tran_Emp": "Life Matters Financial Group",
+      "Tran_Occ": "Financial Administrator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Tari",
+      "Tran_NamL": "VIckery",
+      "Tran_Zip4": "94303"
     }
   ]
 }

@@ -1,24 +1,18 @@
 {
-  "total_contributions": 1975631.37,
+  "total_contributions": 1885181.0099999998,
   "total_contributions_by_source": {
-    "Out of State": 151579.88,
-    "Within Oakland": 1075353.38,
-    "Within California": 774345.4600000001
+    "Out of State": 156450.93,
+    "Within Oakland": 1098113.12,
+    "Within California": 804030.8800000001
   },
   "contributions_by_type": {
-    "Committee": 303324.56,
-    "Individual": 1502610.9100000001,
-    "Unitemized": 190773.16999999998,
-    "Self Funding": 78522.59,
-    "Other (includes Businesses)": 116820.66
+    "Committee": 311124.56,
+    "Individual": 1544898.07,
+    "Unitemized": 193796.13999999998,
+    "Self Funding": 76550.59,
+    "Other (includes Businesses)": 126021.71
   },
   "most_expensive_races": [
-    {
-      "slug": "city-council-district-1",
-      "type": "office",
-      "title": "City Council District 1",
-      "amount": 354022.72000000003
-    },
     {
       "slug": "city-council-at-large",
       "type": "office",
@@ -29,7 +23,13 @@
       "slug": "city-council-district-7",
       "type": "office",
       "title": "City Council District 7",
-      "amount": 301568.13
+      "amount": 295618.13
+    },
+    {
+      "slug": "city-council-district-1",
+      "type": "office",
+      "title": "City Council District 1",
+      "amount": 287597.36
     }
   ],
   "largest_small_proportion": [

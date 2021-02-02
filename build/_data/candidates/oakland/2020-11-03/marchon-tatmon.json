@@ -21,31 +21,34 @@
   "is_winner": null,
   "filer_id": 1427563,
   "supporting_money": {
-    "contributions_received": 13692.0,
-    "total_contributions": 13692.0,
+    "contributions_received": 11692.0,
+    "total_contributions": 11692.0,
     "total_expenditures": 13571.8,
-    "total_loans_received": 4528.0,
+    "total_loans_received": 11056.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 2700.0,
-      "Individual": 2950.0,
-      "Unitemized": 614.0,
-      "Self Funding": 2000.0,
+      "Committee": 4350.0,
+      "Individual": 3850.0,
+      "Unitemized": 1327.98,
       "Other (includes Businesses)": 900.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 3850.0,
-      "Within California": 4700.0
+      "Out of State": 850.0,
+      "Within Oakland": 1850.0,
+      "Within California": 6400.0
     },
-    "total_small_contributions": 614.0,
+    "total_small_contributions": 1327.98,
     "expenditures_by_type": {
-      "Campaign Consultants": 2500.0,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 2294.56,
-      "Professional Services (Legal, Accounting)": 1821.0
+      "Not Stated": 5500.0,
+      "Phone Banks": 1040.0,
+      "Campaign Consultants": 10700.0,
+      "Campaign Paraphernalia/Misc.": 62.41,
+      "Candidate Filing/Ballot Fees": 2000.0,
+      "Campaign Literature and Mailings": 4811.32,
+      "Professional Services (Legal, Accounting)": 3996.05
     },
     "supporting_by_type": {
     }
@@ -58,7 +61,7 @@
 
     ]
   },
-  "total_contributions": 13692.0,
+  "total_contributions": 11692.0,
   "total_expenditures": 13571.8,
-  "total_loans_received": 4528.0
+  "total_loans_received": 11056.0
 }
