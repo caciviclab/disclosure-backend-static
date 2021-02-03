@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1427826,
   "supporting_money": {
-    "contributions_received": 32049.0,
-    "total_contributions": 32049.0,
+    "contributions_received": 23249.0,
+    "total_contributions": 23249.0,
     "total_expenditures": 14089.01,
     "total_loans_received": 0.0,
     "total_supporting_independent": 71241.48,
@@ -41,29 +41,27 @@
       }
     ],
     "contributions_by_type": {
-      "Individual": 13945.0,
-      "Unitemized": 4304.0,
-      "Other (includes Businesses)": 13800.0
+      "Individual": 14745.0,
+      "Unitemized": 4689.0,
+      "Self Funding": 750.0,
+      "Other (includes Businesses)": 15934.73
     },
     "contributions_by_origin": {
       "Out of State": 1900.0,
-      "Within Oakland": 8900.0,
-      "Within California": 16945.0
+      "Within Oakland": 9650.0,
+      "Within California": 19879.73
     },
-    "total_small_contributions": 4924.0,
+    "total_small_contributions": 5309.0,
     "expenditures_by_type": {
-      "Phone Banks": 100.0,
+      "Phone Banks": 5295.52,
       "Polling and Survey Research": 3400.0,
-      "Campaign Paraphernalia/Misc.": 6331.52,
+      "Campaign Paraphernalia/Misc.": 17920.91,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 3139.04
+      "Campaign Literature and Mailings": 7024.96
     },
     "supporting_by_type": {
       "MON": 400.0,
-      "Mailer": 17284.0,
-      "Live Calls": 7006.0,
-      "Digital Ads": 2500.0,
-      "Independent Expenditure Supporting/Opposing Others": 44451.48
+      "Independent Expenditure Supporting/Opposing Others": 71241.48
     }
   },
   "opposing_money": {
@@ -74,7 +72,7 @@
 
     ]
   },
-  "total_contributions": 32049.0,
+  "total_contributions": 23249.0,
   "total_expenditures": 14089.01,
   "total_loans_received": 0.0
 }

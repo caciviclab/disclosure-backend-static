@@ -1,5 +1,5 @@
 {
-  "total_contributions": 178523.33000000002,
+  "total_contributions": 190623.33000000002,
   "contributions": [
     {
       "Filer_ID": "1421347",
@@ -4612,6 +4612,61 @@
     },
     {
       "Filer_ID": "1421347",
+      "Tran_Emp": "Insight",
+      "Tran_Occ": "Sales Executive",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-18",
+      "Tran_NamF": "Eno",
+      "Tran_NamL": "Essien",
+      "Tran_Zip4": "90305"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Christine",
+      "Tran_NamL": "Brigagliano",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "McConnell",
+      "Tran_Zip4": "94608-3522"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Law Office of Robert Raich",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 450.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Raich",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Mon Arc Group",
+      "Tran_Occ": "Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -1000.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Loren",
+      "Tran_NamL": "Vankirk",
+      "Tran_Zip4": "90212"
+    },
+    {
+      "Filer_ID": "1421347",
       "Tran_Emp": "Mon Arc Group",
       "Tran_Occ": "Chief Executive Officer",
       "Entity_Cd": "Individual",
@@ -4620,6 +4675,83 @@
       "Tran_NamF": "Loren",
       "Tran_NamL": "Vankirk",
       "Tran_Zip4": "90212"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Committee for An Affordable East Bay",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": "Kate",
+      "Tran_NamL": "Steel",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "12th & 13th Webster Street, LLC(Chiu Judy)",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Blue Shield of California",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Goldenland Investment",
+      "Tran_Occ": "Real Estate Broker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "Judy",
+      "Tran_NamL": "Chu",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Holliday Development LLC",
+      "Tran_Occ": "Housing",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "Rick",
+      "Tran_NamL": "Holliday",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Keith Carson for Alameda County Supervisor 2020",
+      "Tran_Zip4": "94604"
     },
     {
       "Filer_ID": "1421347",
@@ -4636,12 +4768,122 @@
       "Filer_ID": "1421347",
       "Tran_Emp": null,
       "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Produce Square(Chen Fuei-ing)",
+      "Tran_Zip4": "94530"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Entity_Cd": "Committee",
       "Tran_Amt1": 1700.0,
       "Tran_Date": "2020-10-21",
       "Tran_NamF": null,
       "Tran_NamL": "San Francisco Laborer's Local 261",
       "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Jack",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94602-2626"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "KTGY Group, Inc.",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Jessica",
+      "Tran_NamL": "Musick",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Tamara",
+      "Tran_NamL": "Wood",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Kate",
+      "Tran_NamL": "Dobbins",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Building Opportunities For Self-Sufficiency",
+      "Tran_Occ": "Deputy Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Melvin",
+      "Tran_NamL": "Cowan",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Vision Quilt",
+      "Tran_Occ": "Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Cathy",
+      "Tran_NamL": "DeForest",
+      "Tran_Zip4": "97520"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay For Everyone( Non-Profit)",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Confluent",
+      "Tran_Occ": "Head Of Lifecycle Marketing",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Christian",
+      "Tran_NamL": "Glason",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Northern California District Council International Longshoremen's and Warehouse Union",
+      "Tran_Zip4": "94109"
     },
     {
       "Filer_ID": "1421347",
@@ -4656,6 +4898,50 @@
     },
     {
       "Filer_ID": "1421347",
+      "Tran_Emp": "Pacific Gas and Electric Company",
+      "Tran_Occ": "Senior Government Relations Representative",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": "Tom",
+      "Tran_NamL": "Guarino",
+      "Tran_Zip4": "94523"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Health Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": "Michele",
+      "Tran_NamL": "Townsend",
+      "Tran_Zip4": "92653"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Prana Mind Center",
+      "Tran_Occ": "Mental Health",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Tony",
+      "Tran_NamL": "Jackson",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Waverly Properties,LLc.",
+      "Tran_Occ": "Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Joe",
+      "Tran_NamL": "Masri",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1421347",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -4664,6 +4950,138 @@
       "Tran_NamF": null,
       "Tran_NamL": "California Real Estate PAC",
       "Tran_Zip4": "90071"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Los Angeles African American Women PAC",
+      "Tran_Zip4": "90016"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Alameda County Transit Authority",
+      "Tran_Occ": "External Affairs Representative",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Chantal",
+      "Tran_NamL": "Reynolds",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Albasiery, Inc./Shoprite Market",
+      "Tran_Occ": "Restauranteur",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-11-04",
+      "Tran_NamF": "Ali",
+      "Tran_NamL": "Ahmad Obad",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Sole Proprietor",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-11-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "LT Liquors( )",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-11-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Pete's Market(Daifullah Yahya)",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2020-11-09",
+      "Tran_NamF": "Erik",
+      "Tran_NamL": "Harris",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-11-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "League of Conservation Voters of the East Bay",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Confluent",
+      "Tran_Occ": "Head Of Lifecycle Marketing",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-11-26",
+      "Tran_NamF": "Christian",
+      "Tran_NamL": "Glason",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Pacific Gas and Electric Company",
+      "Tran_Occ": "Senior Government Relations Representative",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-11-29",
+      "Tran_NamF": "Tom",
+      "Tran_NamL": "Guarino",
+      "Tran_Zip4": "94523"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-12-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "ABC Security Service, Inc. ( Corporation)",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Confluent",
+      "Tran_Occ": "Head Of Lifecycle Marketing",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-12-26",
+      "Tran_NamF": "Christian",
+      "Tran_NamL": "Glason",
+      "Tran_Zip4": "94117"
+    },
+    {
+      "Filer_ID": "1421347",
+      "Tran_Emp": "Pacific Gas and Electric Company",
+      "Tran_Occ": "Senior Government Relations Representative",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-12-29",
+      "Tran_NamF": "Tom",
+      "Tran_NamL": "Guarino",
+      "Tran_Zip4": "94523"
     }
   ]
 }

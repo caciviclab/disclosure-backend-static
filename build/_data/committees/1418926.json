@@ -1,5 +1,5 @@
 {
-  "total_contributions": 158300.0,
+  "total_contributions": 162060.0,
   "contributions": [
     {
       "Filer_ID": "1418926",
@@ -6636,6 +6636,17 @@
     },
     {
       "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-18",
+      "Tran_NamF": "Ken",
+      "Tran_NamL": "Chin",
+      "Tran_Zip4": "94402"
+    },
+    {
+      "Filer_ID": "1418926",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -6647,6 +6658,72 @@
     },
     {
       "Filer_ID": "1418926",
+      "Tran_Emp": "Caribou Biosciences",
+      "Tran_Occ": "Scientist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "Justin",
+      "Tran_NamL": "Skoble",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Christopher",
+      "Tran_NamL": "Lehmann",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Sigovich",
+      "Tran_Zip4": "19050"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Ravinder",
+      "Tran_NamL": "Arora",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Govan Associates",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Jack",
+      "Tran_NamL": "McGillis",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Action PAC",
+      "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1418926",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Small Contribution Committee",
@@ -6655,6 +6732,182 @@
       "Tran_NamF": null,
       "Tran_NamL": "Latino Victory Fund",
       "Tran_Zip4": "20005"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Theresa Nelson & Associates",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Theresa",
+      "Tran_NamL": "Nelson",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Joann",
+      "Tran_NamL": "Philips",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-28",
+      "Tran_NamF": "Mick",
+      "Tran_NamL": "Guzman",
+      "Tran_Zip4": "94112"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "AdvisoryCloud",
+      "Tran_Occ": "DIrector",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Hall",
+      "Tran_Zip4": "95448"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Berkeley School of Rock",
+      "Tran_Occ": "Music Instructor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Richard",
+      "Tran_NamL": "Stuverud",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Helen",
+      "Tran_NamL": "Brainerd",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "DBA Philip Catalfo",
+      "Tran_Occ": "Writer/Editor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Philip",
+      "Tran_NamL": "Catalfo",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Abby",
+      "Tran_NamL": "Pollak",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Georgia W Richardson",
+      "Tran_Occ": "Real Estate Specialist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Georgia",
+      "Tran_NamL": "Richardson",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Representation Matters",
+      "Tran_Occ": "Finance Co Chair",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Dale",
+      "Tran_NamL": "Schroedel",
+      "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Susanna Stromberg Photography",
+      "Tran_Occ": "Photographer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Susanna",
+      "Tran_NamL": "Stromberg",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Deborra",
+      "Tran_NamL": "Cohen",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Frank",
+      "Tran_NamL": "Zeidan",
+      "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Erin",
+      "Tran_NamL": "Armstrong",
+      "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": "Knowable",
+      "Tran_Occ": "Executive Assistant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Doreen",
+      "Tran_NamL": "Henrichsen",
+      "Tran_Zip4": "98037"
+    },
+    {
+      "Filer_ID": "1418926",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 850.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "DRIVE Committee FEC ID# C00032979",
+      "Tran_Zip4": "20001"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 455500.0,
+  "total_contributions": 486102.52,
   "contributions": [
     {
       "Filer_ID": "1428015",
@@ -214,12 +214,45 @@
       "Filer_ID": "1428015",
       "Tran_Emp": null,
       "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 301.26,
+      "Tran_Date": "2020-10-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Workers' Justice Coalition  sponsored by Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Entity_Cd": "Small Contribution Committee",
       "Tran_Amt1": 63000.0,
       "Tran_Date": "2020-10-27",
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 301.26,
+      "Tran_Date": "2020-11-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Workers' Justice Coalition  sponsored by Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1428015",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 30000.0,
+      "Tran_Date": "2020-12-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unity PAC  a Sponsored Committee of the Alameda Labor Council  AFL-CIO",
+      "Tran_Zip4": "94621"
     }
   ]
 }

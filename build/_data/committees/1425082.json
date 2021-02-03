@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1652.0,
+  "total_contributions": 2542.0,
   "contributions": [
     {
       "Filer_ID": "1425082",
@@ -33,6 +33,61 @@
       "Tran_NamF": "Seonghee",
       "Tran_NamL": "Lim",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2020-08-08",
+      "Tran_NamF": "Dale",
+      "Tran_NamL": "Baum",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2020-08-17",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Rubin",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "unknown",
+      "Tran_Occ": "unknwon",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-09-12",
+      "Tran_NamF": "Laurence",
+      "Tran_NamL": "Shoup",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "East Bay Computer Services Inc.,",
+      "Tran_Occ": "Owner, Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2020-12-05",
+      "Tran_NamF": "Don",
+      "Tran_NamL": "Macleay",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "unknown",
+      "Tran_Occ": "unknown",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-12-29",
+      "Tran_NamF": "Matt",
+      "Tran_NamL": "Boyd",
+      "Tran_Zip4": "unknown"
     }
   ]
 }

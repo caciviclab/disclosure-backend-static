@@ -1,5 +1,5 @@
 {
-  "total_contributions": 21790.0,
+  "total_contributions": 23640.0,
   "contributions": [
     {
       "Filer_ID": "1429072",
@@ -961,6 +961,28 @@
     {
       "Filer_ID": "1429072",
       "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": "David",
+      "Tran_NamL": "de Leeuw",
+      "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": "CA State University Sacramento",
+      "Tran_Occ": "Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Frank",
+      "Tran_NamL": "Adamson",
+      "Tran_Zip4": "95628"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
       "Tran_Amt1": 1700.0,
@@ -968,6 +990,94 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unity PAC Alameda Labor Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": "San Jose State University",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-24",
+      "Tran_NamF": "Roxana",
+      "Tran_NamL": "Marachi",
+      "Tran_Zip4": "95112"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": "CA State University Sacramento",
+      "Tran_Occ": "Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": "Frank",
+      "Tran_NamL": "Adamson",
+      "Tran_Zip4": "95628"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": "CSU East Bay",
+      "Tran_Occ": "Project Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": "Susanna",
+      "Tran_NamL": "Hovland",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Christopher",
+      "Tran_NamL": "Fisher",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": "Greg Jobin-Leeds",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Greg",
+      "Tran_NamL": "Jobin-Leeds",
+      "Tran_Zip4": "02138"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Deirdre",
+      "Tran_NamL": "Snyder",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Joy",
+      "Tran_NamL": "Clendenning",
+      "Tran_Zip4": "60615"
+    },
+    {
+      "Filer_ID": "1429072",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Administrator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Andrew",
+      "Tran_NamL": "Park",
+      "Tran_Zip4": "94606"
     }
   ]
 }

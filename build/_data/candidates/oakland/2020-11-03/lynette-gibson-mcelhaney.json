@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1421347,
   "supporting_money": {
-    "contributions_received": 66013.88,
-    "total_contributions": 66013.88,
+    "contributions_received": 58913.88,
+    "total_contributions": 58913.88,
     "total_expenditures": 10648.92,
     "total_loans_received": 1.0,
     "total_supporting_independent": 91171.0,
@@ -35,36 +35,37 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 17000.0,
-      "Individual": 138423.33,
-      "Unitemized": 46887.51,
+      "Committee": 19150.0,
+      "Individual": 143923.33,
+      "Unitemized": 47530.51,
       "Self Funding": 900.0,
-      "Other (includes Businesses)": 22200.0
+      "Other (includes Businesses)": 26650.0
     },
     "contributions_by_origin": {
-      "Out of State": 4366.85,
-      "Within Oakland": 99906.14,
-      "Within California": 74250.34
+      "Out of State": 4466.85,
+      "Within Oakland": 109756.14,
+      "Within California": 76400.34
     },
-    "total_small_contributions": 47952.17,
+    "total_small_contributions": 48895.17,
     "expenditures_by_type": {
-      "Not Stated": 622.67,
-      "Phone Banks": 1600.14,
+      "Not Stated": 19976.19,
+      "Phone Banks": 6100.14,
       "Civic Donations": 2200.0,
       "Office Expenses": 294.99,
-      "Fundraising Events": 6087.31,
+      "Fundraising Events": 6337.16,
       "Campaign Consultants": 10000.0,
-      "Campaign Workers' Salaries": 10589.5,
-      "Campaign Paraphernalia/Misc.": 36150.33,
+      "Meetings and Appearances": 379.0,
+      "Campaign Workers' Salaries": 17835.01,
+      "Campaign Paraphernalia/Misc.": 52885.76,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 13656.91,
-      "Professional Services (Legal, Accounting)": 10418.49,
-      "Information Technology Costs (Internet, E-mail)": 8117.79
+      "Campaign Literature and Mailings": 74582.1,
+      "Professional Services (Legal, Accounting)": 16674.54,
+      "Information Technology Costs (Internet, E-mail)": 50055.24
     },
     "supporting_by_type": {
+      "IKD": 10750.0,
       "MON": 5750.0,
-      "Digital Advertising": 10000.0,
-      "Independent Expenditure Supporting/Opposing Others": 81171.0
+      "Independent Expenditure Supporting/Opposing Others": 91171.0
     }
   },
   "opposing_money": {
@@ -80,7 +81,7 @@
       }
     ]
   },
-  "total_contributions": 66013.88,
+  "total_contributions": 58913.88,
   "total_expenditures": 10648.92,
   "total_loans_received": 1.0
 }

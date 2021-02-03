@@ -1,5 +1,5 @@
 {
-  "total_contributions": 12066.08,
+  "total_contributions": 12466.08,
   "contributions": [
     {
       "Filer_ID": "1430904",
@@ -510,6 +510,39 @@
     {
       "Filer_ID": "1430904",
       "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Linzie L",
+      "Tran_NamL": "Daniel",
+      "Tran_Zip4": "93711"
+    },
+    {
+      "Filer_ID": "1430904",
+      "Tran_Emp": "Marcie L Hodge",
+      "Tran_Occ": "Business Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Marcie L",
+      "Tran_NamL": "Hodge",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1430904",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-30",
+      "Tran_NamF": "Anita",
+      "Tran_NamL": "Moore",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1430904",
+      "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
       "Tran_Amt1": 1700.0,
@@ -517,6 +550,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unity PAC Alameda Labor Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1430904",
+      "Tran_Emp": "Winco",
+      "Tran_Occ": "Cashier",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Chinetta",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "93711"
     }
   ]
 }
