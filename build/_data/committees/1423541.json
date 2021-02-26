@@ -1,5 +1,5 @@
 {
-  "total_contributions": 5300.0,
+  "total_contributions": 14850.0,
   "contributions": [
     {
       "Filer_ID": "1423541",
@@ -308,6 +308,50 @@
       "Tran_NamF": "Damon",
       "Tran_NamL": "Owens",
       "Tran_Zip4": "94513"
+    },
+    {
+      "Filer_ID": "1423541",
+      "Tran_Emp": "Self employed",
+      "Tran_Occ": "Self employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Mark",
+      "Tran_NamL": "Clifton",
+      "Tran_Zip4": "94565"
+    },
+    {
+      "Filer_ID": "1423541",
+      "Tran_Emp": "Henry Adult Program",
+      "Tran_Occ": "Support Counselor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-11-01",
+      "Tran_NamF": "Carla",
+      "Tran_NamL": "Henry",
+      "Tran_Zip4": "94531"
+    },
+    {
+      "Filer_ID": "1423541",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Aaron's Metals",
+      "Tran_Zip4": "94603"
+    },
+    {
+      "Filer_ID": "1423541",
+      "Tran_Emp": "SJBH, Inc",
+      "Tran_Occ": "Executive Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 9000.0,
+      "Tran_Date": "2020-12-18",
+      "Tran_NamF": "Marcie",
+      "Tran_NamL": "Hodge",
+      "Tran_Zip4": "94605"
     }
   ]
 }
