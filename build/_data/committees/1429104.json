@@ -1,5 +1,5 @@
 {
-  "total_contributions": 22406.07,
+  "total_contributions": 45857.759999999995,
   "contributions": [
     {
       "Filer_ID": "1429104",
@@ -1155,6 +1155,138 @@
       "Tran_NamF": "Priya",
       "Tran_NamL": "Patel",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "Tanium",
+      "Tran_Occ": "Systems Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": "Hilary",
+      "Tran_NamL": "Brenum",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Action PAC",
+      "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "Zoho Corp",
+      "Tran_Occ": "Marketing Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 69.69,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "Ana",
+      "Tran_NamL": "Areola",
+      "Tran_Zip4": "89141"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "United States of America",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Joshua",
+      "Tran_NamL": "Wirtschafter",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "EA (Electronic Arts)",
+      "Tran_Occ": "Artist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Tracey",
+      "Tran_NamL": "King",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "owner",
+      "Tran_Occ": "nonprofit",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": "Chris",
+      "Tran_NamL": "Iglesias",
+      "Tran_Zip4": "94598"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "MEDA",
+      "Tran_Occ": "Urban Planner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-10-31",
+      "Tran_NamF": "Luis",
+      "Tran_NamL": "Granado",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "Port of Oakland",
+      "Tran_Occ": "Workforce Development Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-02",
+      "Tran_NamF": "Julina",
+      "Tran_NamL": "Bolina",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 21857.0,
+      "Tran_Date": "2020-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "City of Oakland",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "Self-Employed",
+      "Tran_Occ": "Novelist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-14",
+      "Tran_NamF": "Laila",
+      "Tran_NamL": "Ibrahim",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "Self-Employed",
+      "Tran_Occ": "Novelist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-14",
+      "Tran_NamF": "Laila",
+      "Tran_NamL": "Ibrahim",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1429104",
+      "Tran_Emp": "Not employed",
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2020-11-19",
+      "Tran_NamF": "Lois",
+      "Tran_NamL": "Helmbold",
+      "Tran_Zip4": "94601"
     }
   ]
 }

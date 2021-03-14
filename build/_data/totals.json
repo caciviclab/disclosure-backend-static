@@ -707,16 +707,16 @@
   "oakland-2020": {
     "total_contributions": 1719296.4100000001,
     "total_contributions_by_source": {
-      "Out of State": 162924.93,
-      "Within Oakland": 1140726.12,
-      "Within California": 837956.4099999999
+      "Out of State": 162994.62,
+      "Within Oakland": 1163483.12,
+      "Within California": 838581.4099999999
     },
     "contributions_by_type": {
-      "Committee": 321374.56,
-      "Individual": 1625625.87,
-      "Unitemized": 201094.62999999995,
+      "Committee": 321574.56,
+      "Individual": 1627020.56,
+      "Unitemized": 201516.27999999997,
       "Self Funding": 51500.59,
-      "Other (includes Businesses)": 143106.44
+      "Other (includes Businesses)": 164963.44
     },
     "most_expensive_races": [
       {
@@ -800,6 +800,12 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "City of Oakland",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 21857.0
+      },
+      {
         "name": "Tri Ngo",
         "type": "Office",
         "election_name": "oakland-2020",
@@ -810,12 +816,6 @@
         "type": "Office",
         "election_name": "oakland-2020",
         "total_contributions": 15880.0
-      },
-      {
-        "name": "Unity PAC Alameda Labor Council",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_contributions": 10200.0
       }
     ],
     "top_contributors_for_measures": [
@@ -860,6 +860,12 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "City of Oakland",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 21857.0
+      },
+      {
         "name": "Tri Ngo",
         "type": "Office",
         "election_name": "oakland-2020",
@@ -870,12 +876,6 @@
         "type": "Office",
         "election_name": "oakland-2020",
         "total_spending": 15880.0
-      },
-      {
-        "name": "Unity PAC Alameda Labor Council",
-        "type": "Office",
-        "election_name": "oakland-2020",
-        "total_spending": 10200.0
       }
     ],
     "top_spenders_for_measures": [
