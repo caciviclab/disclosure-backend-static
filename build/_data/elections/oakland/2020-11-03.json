@@ -1,5 +1,5 @@
 {
-  "total_contributions": 2086491.4900000002,
+  "total_contributions": 2903670.7700000005,
   "total_contributions_by_source": {
     "Out of State": 183627.27,
     "Within Oakland": 1298565.6,
@@ -14,39 +14,31 @@
   },
   "most_expensive_races": [
     {
+      "slug": "city-council-at-large",
+      "type": "office",
+      "title": "City Council At-Large",
+      "amount": 488207.78
+    },
+    {
+      "slug": "city-council-district-3",
+      "type": "office",
+      "title": "City Council District 3",
+      "amount": 462961.91
+    },
+    {
       "slug": "ousd-facilities-bond",
       "type": "referendum",
       "title": "Measure Y",
-      "amount": 367195.08
-    },
-    {
-      "slug": "city-council-district-7",
-      "type": "office",
-      "title": "City Council District 7",
-      "amount": 295618.13
-    },
-    {
-      "slug": "city-council-district-1",
-      "type": "office",
-      "title": "City Council District 1",
-      "amount": 284897.36
+      "amount": 367195.07999999996
     }
   ],
   "largest_small_proportion": [
-    {
-      "slug": "lynette-gibson-mcelhaney",
-      "type": "office",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "candidate": "Lynette Gibson McElhaney",
-      "proportion": 0.8299431305492018,
-      "office_title": "City Council District 3"
-    },
     {
       "slug": "stacy-thomas",
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Stacy Thomas",
-      "proportion": 0.75,
+      "proportion": 0.42857142857142855,
       "office_title": "School Board District 1"
     },
     {
@@ -54,8 +46,16 @@
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Tri Ngo",
-      "proportion": 0.3032000954178602,
+      "proportion": 0.30320009541786014,
       "office_title": "City Council District 1"
+    },
+    {
+      "slug": "zoe-lopez-meraz",
+      "type": "office",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "candidate": "Zoe Lopez-Meraz",
+      "proportion": 0.24977214936318667,
+      "office_title": "City Council District 5"
     }
   ],
   "largest_independent_expenditures": [
@@ -67,7 +67,7 @@
     {
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "election_name": "oakland-2020",
-      "total_spending": 340009.22
+      "total_spending": 340009.22000000003
     },
     {
       "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
