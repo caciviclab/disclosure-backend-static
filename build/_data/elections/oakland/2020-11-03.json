@@ -1,16 +1,16 @@
 {
-  "total_contributions": 2903670.7700000005,
+  "total_contributions": 2881813.7700000005,
   "total_contributions_by_source": {
     "Out of State": 183627.27,
-    "Within Oakland": 1298565.6,
-    "Within California": 1050061.3599999999
+    "Within Oakland": 1276708.6,
+    "Within California": 1050261.3599999999
   },
   "contributions_by_type": {
     "Committee": 425323.06,
-    "Individual": 1708266.1400000001,
-    "Unitemized": 201516.27999999997,
+    "Individual": 1708466.1400000001,
+    "Unitemized": 201316.27999999997,
     "Self Funding": 51500.59,
-    "Other (includes Businesses)": 347164.44
+    "Other (includes Businesses)": 325307.44
   },
   "most_expensive_races": [
     {
@@ -23,13 +23,13 @@
       "slug": "city-council-district-3",
       "type": "office",
       "title": "City Council District 3",
-      "amount": 462961.91
+      "amount": 462961.91000000003
     },
     {
       "slug": "ousd-facilities-bond",
       "type": "referendum",
       "title": "Measure Y",
-      "amount": 367195.07999999996
+      "amount": 367195.08
     }
   ],
   "largest_small_proportion": [
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Tri Ngo",
-      "proportion": 0.30320009541786014,
+      "proportion": 0.3032000954178602,
       "office_title": "City Council District 1"
     },
     {
@@ -67,7 +67,7 @@
     {
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "election_name": "oakland-2020",
-      "total_spending": 340009.22000000003
+      "total_spending": 340009.22
     },
     {
       "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
@@ -94,12 +94,6 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "City of Oakland",
-      "type": "Office",
-      "election_name": "oakland-2020",
-      "total_contributions": 21857.0
-    },
-    {
       "name": "Tri Ngo",
       "type": "Office",
       "election_name": "oakland-2020",
@@ -110,6 +104,12 @@
       "type": "Office",
       "election_name": "oakland-2020",
       "total_contributions": 15880.0
+    },
+    {
+      "name": "Unity PAC Alameda Labor Council",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 10200.0
     }
   ],
   "top_contributors_for_measures": [
@@ -154,12 +154,6 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "City of Oakland",
-      "type": "Office",
-      "election_name": "oakland-2020",
-      "total_spending": 21857.0
-    },
-    {
       "name": "Tri Ngo",
       "type": "Office",
       "election_name": "oakland-2020",
@@ -170,6 +164,12 @@
       "type": "Office",
       "election_name": "oakland-2020",
       "total_spending": 15880.0
+    },
+    {
+      "name": "Unity PAC Alameda Labor Council",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 10200.0
     }
   ],
   "top_spenders_for_measures": [

@@ -12,11 +12,11 @@
       "locale": "Out of State"
     },
     {
-      "amount": 211479.94999999998,
+      "amount": 211479.95,
       "locale": "Within California"
     },
     {
-      "amount": 135082.47999999995,
+      "amount": 135082.48,
       "locale": "Within Oakland"
     }
   ],
@@ -27,7 +27,7 @@
     },
     {
       "type": "Individual",
-      "amount": 81245.57999999993
+      "amount": 81245.58
     },
     {
       "type": "Other (includes Businesses)",
@@ -42,5 +42,5 @@
       "amount": 651197.63
     }
   ],
-  "total_contributions": 367195.07999999996
+  "total_contributions": 367195.08
 }
