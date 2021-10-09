@@ -1,16 +1,15 @@
 #!/usr/bin/env ruby
 # Usage:
 #   ruby search_index.rb
-#
-# Or to skip indexing the contributor list (to prevent exhausting our Algolia
-# monthly quota):
-#
-#   ruby search_index.rb --skip-contributors
+# So that the data retured are ordered properly some fields are mapped
+# into common field names. Otherwise the ordering will tend to segragate
+# by record type.
 #
 require_relative './environment.rb'
 
 require 'algoliasearch'
 require 'optparse'
+require 'soda/client'
 
 def contributors_to_committee(name, id, election)
   contrib = Committee.where(["\"Filer_ID\" = ?", id]).first
@@ -19,8 +18,9 @@ def contributors_to_committee(name, id, election)
   return contrib.map do |contributor|
     {
       type: :contributor,
-      first_name: contributor['Tran_NamF'],
-      last_name: contributor['Tran_NamL'],
+      contributor_name: contributor['Tran_NamF'] ?
+          (contributor['Tran_NamF'] + ' ' + contributor['Tran_NamL']).squish
+         : contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
       committee_name: name,
       committee_id: id,
@@ -38,10 +38,39 @@ client = Algolia::Client.new(
 )
 
 if !client.list_indexes()['items'].include?('election')
-  puts "Initializing index: election"
+  puts "Initializing index: "
 end
 
-index = client.init_index('election')
+if ENV['ALGOLIASEARCH_SAMPLE_DATA']
+  puts "contributions"
+  index = client.init_index('contributions')
+else
+  puts "election"
+  index = client.init_index('election')
+end
+
+oak_client = SODA::Client.new({:domain => "data.oklandca.gov", :app_token => "4FYL4zxMOncsLeANaeDzP455z"})
+oak_response = oak_client.get("https://data.oaklandca.gov/resource/f4dq-mk8d").body
+charity_data = oak_response.map do |donation|
+  {
+    type: :donation,
+    name: donation.official,
+    office_title: donation.office,
+    contributor_name: donation.payor,
+    location: donation.payor_city,
+    payee: donation.payee,
+    amount: donation.amount.to_i,
+    # merge this field with the election_date so sorting is more consistent
+    election_date: donation.payment_date[0,10],
+    description: donation.description,
+    url: if donation.url.nil?
+           nil
+         else
+           donation.url["url"].to_s
+         end,
+  }
+end
+puts "Indexing #{charity_data.length} behested donations"
 
 candidate_data = Candidate.includes(:election, :office_election).map do |candidate|
   {
@@ -67,8 +96,9 @@ Candidate.includes(:election, :committee, :office_election).find_each do |candid
   list = candidate.committee.calculation(:contribution_list).map do |contributor|
     {
       type: :contributor,
-      first_name: contributor['Tran_NamF'],
-      last_name: contributor['Tran_NamL'],
+      contributor_name: contributor['Tran_NamF'] ?
+          (contributor['Tran_NamF'] + ' ' + contributor['Tran_NamL']).squish
+         : contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
       name: candidate['Candidate'],
       candidate_slug: slugify(candidate['Candidate']),
@@ -119,6 +149,9 @@ end
 # A committee can support/oppose multiple candidates
 # Delete duplicates, not too efficient but keeps the code simple.
 iec_contrib.uniq!
+
+#temporary till we straighten out Filer_ID reuse
+contributor_data.uniq!
 
 puts "Indexing #{contributor_data.length} Contributors..."
 puts "Indexing #{iec_data.length} Independent Committies..."
@@ -199,6 +232,19 @@ puts "Indexing #{committee_contrib.length} Active Committee Contributors..."
 
 all_data = ballot_contrib + ballot_committees + referendum_data +
   contributor_data + candidate_data + iec_data + iec_contrib +
-  committee_data + committee_contrib
+  committee_data + committee_contrib + charity_data
 puts "total records: #{all_data.length}"
-index.replace_all_objects(all_data)
+# Test code so we don't burn all of our allocation on Aloglia
+if ENV['ALGOLIASEARCH_SAMPLE_DATA']
+  sampled_data = []
+  i = 0
+  all_data.each do |data|
+    i += 1
+    next if i.modulo(4) != 0
+    sampled_data += [data]
+  end
+  puts "sampled records: #{sampled_data.length}"
+  index.replace_all_objects(sampled_data)
+else
+  index.replace_all_objects(all_data)
+end
