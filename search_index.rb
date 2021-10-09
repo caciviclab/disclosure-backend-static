@@ -18,7 +18,7 @@ def contributors_to_committee(name, id, election)
   return contrib.map do |contributor|
     {
       type: :contributor,
-      c_name: contributor['Tran_NamF'] ?
+      contributor_name: contributor['Tran_NamF'] ?
           (contributor['Tran_NamF'] + ' ' + contributor['Tran_NamL']).squish
          : contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
@@ -38,10 +38,16 @@ client = Algolia::Client.new(
 )
 
 if !client.list_indexes()['items'].include?('election')
-  puts "Initializing index: election"
+  puts "Initializing index: "
 end
 
-index = client.init_index('election')
+if ENV['ALGOLIASEARCH_SAMPLE_DATA']
+  puts "contributions"
+  index = client.init_index('contributions')
+else
+  puts "election"
+  index = client.init_index('election')
+end
 
 oak_client = SODA::Client.new({:domain => "data.oklandca.gov", :app_token => "4FYL4zxMOncsLeANaeDzP455z"})
 oak_response = oak_client.get("https://data.oaklandca.gov/resource/f4dq-mk8d").body
@@ -50,7 +56,7 @@ charity_data = oak_response.map do |donation|
     type: :donation,
     name: donation.official,
     office_title: donation.office,
-    c_name: donation.payor,
+    contributor_name: donation.payor,
     location: donation.payor_city,
     payee: donation.payee,
     amount: donation.amount.to_i,
@@ -90,7 +96,7 @@ Candidate.includes(:election, :committee, :office_election).find_each do |candid
   list = candidate.committee.calculation(:contribution_list).map do |contributor|
     {
       type: :contributor,
-      c_name: contributor['Tran_NamF'] ?
+      contributor_name: contributor['Tran_NamF'] ?
           (contributor['Tran_NamF'] + ' ' + contributor['Tran_NamL']).squish
          : contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
@@ -143,6 +149,9 @@ end
 # A committee can support/oppose multiple candidates
 # Delete duplicates, not too efficient but keeps the code simple.
 iec_contrib.uniq!
+
+#temporary till we straighten out Filer_ID reuse
+contributor_data.uniq!
 
 puts "Indexing #{contributor_data.length} Contributors..."
 puts "Indexing #{iec_data.length} Independent Committies..."
@@ -225,7 +234,6 @@ all_data = ballot_contrib + ballot_committees + referendum_data +
   contributor_data + candidate_data + iec_data + iec_contrib +
   committee_data + committee_contrib + charity_data
 puts "total records: #{all_data.length}"
-
 # Test code so we don't burn all of our allocation on Aloglia
 if ENV['ALGOLIASEARCH_SAMPLE_DATA']
   sampled_data = []
