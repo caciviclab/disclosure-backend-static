@@ -1,5 +1,5 @@
 {
-  "id": 88,
+  "id": 89,
   "name": "Marcie Hodge",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Marcie-Hodge.png",
   "website_url": "http://hodge4oaklandcitycouncil.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1388731,
   "supporting_money": {
-    "contributions_received": 3500.0,
-    "total_contributions": 3500.0,
-    "total_expenditures": null,
+    "contributions_received": 24174.0,
+    "total_contributions": 24174.0,
+    "total_expenditures": 27195.7,
     "total_loans_received": 19857.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -32,14 +32,15 @@
     "contributions_by_type": {
       "Individual": 2300.0,
       "Unitemized": 767.0,
+      "Self Funding": 50.0,
       "Other (includes Businesses)": 1200.0
     },
     "contributions_by_origin": {
       "Out of State": 350.0,
-      "Within Oakland": 1950.0,
+      "Within Oakland": 2000.0,
       "Within California": 1200.0
     },
-    "total_small_contributions": 767.0,
+    "total_small_contributions": 817.0,
     "expenditures_by_type": {
       "Print Ads": 1800.0,
       "Not Stated": 435.74,
@@ -59,7 +60,7 @@
 
     ]
   },
-  "total_contributions": 3500.0,
-  "total_expenditures": null,
+  "total_contributions": 24174.0,
+  "total_expenditures": 27195.7,
   "total_loans_received": 19857.0
 }

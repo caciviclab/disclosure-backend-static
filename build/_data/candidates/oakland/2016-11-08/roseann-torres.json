@@ -1,5 +1,5 @@
 {
-  "id": 99,
+  "id": 100,
   "name": "Roseann Torres",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Roseann-Torres.png",
   "website_url": "https://www.facebook.com/torresforschoolboard/home?ref=page_internal",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1379121,
   "supporting_money": {
-    "contributions_received": 21875.01,
-    "total_contributions": 21875.01,
-    "total_expenditures": 30858.19,
+    "contributions_received": 45043.01,
+    "total_contributions": 45043.01,
+    "total_expenditures": 53468.83,
     "total_loans_received": 0.0,
     "total_supporting_independent": 6987.5,
     "support_list": [
@@ -35,15 +35,16 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 5000.0,
-      "Individual": 13925.01,
+      "Committee": 6500.0,
+      "Individual": 17175.01,
       "Unitemized": 3068.0,
-      "Other (includes Businesses)": 1250.0
+      "Self Funding": 9600.0,
+      "Other (includes Businesses)": 6250.0
     },
     "contributions_by_origin": {
       "Out of State": 150.0,
-      "Within Oakland": 9400.0,
-      "Within California": 10625.01
+      "Within Oakland": 25950.0,
+      "Within California": 13425.01
     },
     "total_small_contributions": 3118.0,
     "expenditures_by_type": {
@@ -71,7 +72,7 @@
 
     ]
   },
-  "total_contributions": 21875.01,
-  "total_expenditures": 30858.19,
+  "total_contributions": 45043.01,
+  "total_expenditures": 53468.83,
   "total_loans_received": 0.0
 }

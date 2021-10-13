@@ -1,5 +1,5 @@
 {
-  "total_contributions": 103058.0,
+  "total_contributions": 104408.0,
   "contributions": [
     {
       "Filer_ID": "1382408",
@@ -4048,6 +4048,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021, Candidate PAC, Small Contributors Committee",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1382408",
+      "Tran_Emp": "Choice Realty",
+      "Tran_Occ": "Real Estate Agent",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2017-01-23",
+      "Tran_NamF": "Joseph",
+      "Tran_NamL": "Chavez",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1382408",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2017-02-01",
+      "Tran_NamF": "Janet",
+      "Tran_NamL": "Kranzberg",
+      "Tran_Zip4": "94705-0327"
+    },
+    {
+      "Filer_ID": "1382408",
+      "Tran_Emp": "Townsend & Associates",
+      "Tran_Occ": "Legislative Advocate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2019-07-18",
+      "Tran_NamF": "Niccolo",
+      "Tran_NamL": "Deluca",
+      "Tran_Zip4": "95818"
     }
   ]
 }

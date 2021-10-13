@@ -1,5 +1,5 @@
 {
-  "total_contributions": 35545.0,
+  "total_contributions": 36345.0,
   "contributions": [
     {
       "Filer_ID": "1404347",
@@ -1672,6 +1672,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
       "Tran_Zip4": "94568"
+    },
+    {
+      "Filer_ID": "1404347",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2019-08-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Davis for School Board 2020",
+      "Tran_Zip4": "94608"
     }
   ]
 }

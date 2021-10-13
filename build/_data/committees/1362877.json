@@ -1,5 +1,5 @@
 {
-  "total_contributions": 82879.63,
+  "total_contributions": 84279.63,
   "contributions": [
     {
       "Filer_ID": "1362877",
@@ -3707,6 +3707,17 @@
       "Tran_NamF": "Paul",
       "Tran_NamL": "Matson",
       "Tran_Zip4": "95959"
+    },
+    {
+      "Filer_ID": "1362877",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1400.0,
+      "Tran_Date": "2015-02-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814"
     }
   ]
 }

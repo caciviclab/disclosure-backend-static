@@ -1,45 +1,45 @@
 {
   "oakland-2014": {
-    "total_contributions": 2008800.7299999997,
+    "total_contributions": 3121072.74,
     "total_contributions_by_source": {
-      "Out of State": 124441.89,
-      "Within Oakland": 1018546.0499999998,
-      "Within California": 727067.51
+      "Out of State": 138591.89,
+      "Within Oakland": 1582533.6400000001,
+      "Within California": 969318.01
     },
     "contributions_by_type": {
-      "Committee": 100545.35,
-      "Individual": 1481398.7999999998,
-      "Unitemized": 126957.34999999998,
-      "Self Funding": 120763.35999999999,
-      "Other (includes Businesses)": 167567.22
+      "Committee": 156538.05,
+      "Individual": 1817740.47,
+      "Unitemized": 149245.35,
+      "Self Funding": 468744.9599999999,
+      "Other (includes Businesses)": 247639.34
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1091719.8699999999
+        "amount": 1991429.2
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 313038.80000000005
+        "amount": 398594.60000000003
       },
       {
-        "slug": "city-council-district-6",
+        "slug": "city-council-district-4",
         "type": "office",
-        "title": "City Council District 6",
-        "amount": 207406.0
+        "title": "City Council District 4",
+        "amount": 221648.38
       }
     ],
     "largest_small_proportion": [
       {
-        "slug": "nina-senn",
+        "slug": "karl-debro",
         "type": "office",
         "title": "Oakland November 4th, 2014 Election",
-        "candidate": "Nina Senn",
-        "proportion": 0.3983409395973154,
+        "candidate": "Karl Debro",
+        "proportion": 0.8354777834963116,
         "office_title": "OUSD School Director District 4"
       },
       {
@@ -55,7 +55,7 @@
         "type": "office",
         "title": "Oakland November 4th, 2014 Election",
         "candidate": "Shereda Nosakhare",
-        "proportion": 0.24159832770541886,
+        "proportion": 0.21322423064546628,
         "office_title": "City Council District 6"
       }
     ],
@@ -80,17 +80,17 @@
       {
         "name": "Bryan Parker",
         "election_name": "oakland-2014",
-        "total_contributions": 45000.0
+        "total_contributions": 121200.0
       },
       {
-        "name": "Len Raphael",
+        "name": "Jean Quan",
         "election_name": "oakland-2014",
-        "total_contributions": 31623.69
+        "total_contributions": 101185.73
       },
       {
-        "name": "Charles Williams",
+        "name": "Rebecca Kaplan",
         "election_name": "oakland-2014",
-        "total_contributions": 11218.0
+        "total_contributions": 80000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -98,19 +98,19 @@
         "name": "Bryan Parker",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_contributions": 45000.0
+        "total_contributions": 121200.0
       },
       {
-        "name": "Len Raphael",
+        "name": "Jean Quan",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_contributions": 31623.69
+        "total_contributions": 101185.73
       },
       {
-        "name": "Charles Williams",
+        "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_contributions": 11218.0
+        "total_contributions": 80000.0
       }
     ],
     "top_contributors_for_measures": [
@@ -121,19 +121,19 @@
         "name": "Bryan Parker",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 45000.0
+        "total_spending": 121200.0
       },
       {
-        "name": "Len Raphael",
+        "name": "Jean Quan",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 31623.69
+        "total_spending": 101185.73
       },
       {
-        "name": "Charles Williams",
+        "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 11218.0
+        "total_spending": 80000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -141,19 +141,19 @@
         "name": "Bryan Parker",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 45000.0
+        "total_spending": 121200.0
       },
       {
-        "name": "Len Raphael",
+        "name": "Jean Quan",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 31623.69
+        "total_spending": 101185.73
       },
       {
-        "name": "Charles Williams",
+        "name": "Rebecca Kaplan",
         "type": "Office",
         "election_name": "oakland-2014",
-        "total_spending": 11218.0
+        "total_spending": 80000.0
       }
     ],
     "top_spenders_for_measures": [
@@ -194,18 +194,18 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 20455484.5,
+    "total_contributions": 20934293.01,
     "total_contributions_by_source": {
-      "Out of State": 10551246.459999999,
-      "Within Oakland": 1401630.06,
-      "Within California": 8615638.879999999
+      "Out of State": 10551346.459999999,
+      "Within Oakland": 1456401.7400000002,
+      "Within California": 8630868.879999999
     },
     "contributions_by_type": {
-      "Committee": 8417114.030000001,
-      "Individual": 10281617.77,
+      "Committee": 8422634.030000001,
+      "Individual": 10301872.77,
       "Unitemized": 70402.93,
-      "Self Funding": 91716.14,
-      "Other (includes Businesses)": 1778067.46
+      "Self Funding": 124742.81999999999,
+      "Other (includes Businesses)": 1789367.46
     },
     "most_expensive_races": [
       {
@@ -221,10 +221,10 @@
         "amount": 850350.55
       },
       {
-        "slug": "infrastructure-and-housing-bonds",
-        "type": "referendum",
-        "title": "Measure KK",
-        "amount": 450809.58
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 569233.71
       }
     ],
     "largest_small_proportion": [
@@ -241,16 +241,16 @@
         "type": "office",
         "title": "Oakland November 8th, 2016 Election",
         "candidate": "Kharyshi Wiginton",
-        "proportion": 0.27462311557788943,
+        "proportion": 0.18851328044153157,
         "office_title": "School Board District 3"
       },
       {
-        "slug": "chris-jackson",
+        "slug": "jody-london",
         "type": "office",
         "title": "Oakland November 8th, 2016 Election",
-        "candidate": "Chris Jackson",
-        "proportion": 0.25406141022369655,
-        "office_title": "School Board District 7"
+        "candidate": "Jody London",
+        "proportion": 0.16823308270676693,
+        "office_title": "School Board District 1"
       }
     ],
     "largest_independent_expenditures": [
@@ -292,7 +292,7 @@
         "name": "Rebecca D. Kaplan",
         "type": "Office",
         "election_name": "oakland-2016",
-        "total_contributions": 48050.0
+        "total_contributions": 52050.0
       },
       {
         "name": "Bruce Quan",
@@ -301,10 +301,10 @@
         "total_contributions": 39366.14
       },
       {
-        "name": "Libby Schaaf",
+        "name": "Chris Jackson",
         "type": "Office",
         "election_name": "oakland-2016",
-        "total_contributions": 4900.0
+        "total_contributions": 10900.0
       }
     ],
     "top_contributors_for_measures": [
@@ -352,7 +352,7 @@
         "name": "Rebecca D. Kaplan",
         "type": "Office",
         "election_name": "oakland-2016",
-        "total_spending": 48050.0
+        "total_spending": 52050.0
       },
       {
         "name": "Bruce Quan",
@@ -361,10 +361,10 @@
         "total_spending": 39366.14
       },
       {
-        "name": "Libby Schaaf",
+        "name": "Chris Jackson",
         "type": "Office",
         "election_name": "oakland-2016",
-        "total_spending": 4900.0
+        "total_spending": 10900.0
       }
     ],
     "top_spenders_for_measures": [
@@ -437,7 +437,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
       }
@@ -510,18 +510,18 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6378549.2,
+    "total_contributions": 6857202.890000001,
     "total_contributions_by_source": {
-      "Out of State": 896621.36,
-      "Within Oakland": 2555671.63,
-      "Within California": 2837081.4499999997
+      "Out of State": 898671.36,
+      "Within Oakland": 2621770.65,
+      "Within California": 2893097.3899999997
     },
     "contributions_by_type": {
-      "Committee": 956739.14,
-      "Individual": 2578990.1,
+      "Committee": 969189.14,
+      "Individual": 2672357.71,
       "Unitemized": 154536.51,
-      "Self Funding": 82521.38,
-      "Other (includes Businesses)": 2672123.8200000003
+      "Self Funding": 87218.73000000001,
+      "Other (includes Businesses)": 2685773.8200000003
     },
     "most_expensive_races": [
       {
@@ -531,42 +531,42 @@
         "amount": 2136485.19
       },
       {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 899913.3500000001
+      },
+      {
         "slug": "just-cause-eviction-amendments",
         "type": "referendum",
         "title": "Measure Y",
         "amount": 816407.3800000001
-      },
-      {
-        "slug": "vacant-property-parcel-tax",
-        "type": "referendum",
-        "title": "Measure W",
-        "amount": 776996.5800000001
       }
     ],
     "largest_small_proportion": [
       {
-        "slug": "clarissa-doutherd",
+        "slug": "marchon-tatmon",
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
-        "candidate": "Clarissa Doutherd",
-        "proportion": 0.3823599768467386,
-        "office_title": "OUSD District 4"
+        "candidate": "Marchon Tatmon",
+        "proportion": 0.3183577599099178,
+        "office_title": "Mayor"
       },
       {
         "slug": "cat-brooks",
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
         "candidate": "Cat Brooks",
-        "proportion": 0.3735887090492526,
+        "proportion": 0.2947611899150054,
         "office_title": "Mayor"
       },
       {
-        "slug": "marchon-tatmon",
+        "slug": "clarissa-doutherd",
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
-        "candidate": "Marchon Tatmon",
-        "proportion": 0.3236969919230047,
-        "office_title": "Mayor"
+        "candidate": "Clarissa Doutherd",
+        "proportion": 0.19686159105782725,
+        "office_title": "OUSD District 4"
       }
     ],
     "largest_independent_expenditures": [
@@ -1090,7 +1090,7 @@
         "total_contributions": 3400.0
       },
       {
-        "name": "UNITY PAC sponsored by Alameda Labor Council, AFL-CIO",
+        "name": "International Brotherhood of Electrical Workers Local 595PAC",
         "election_name": "oakland-2022",
         "total_contributions": 1700.0
       },
@@ -1131,13 +1131,13 @@
         "total_spending": 3400.0
       },
       {
-        "name": "UNITY PAC sponsored by Alameda Labor Council, AFL-CIO",
+        "name": "International Brotherhood of Electrical Workers Local 595PAC",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 1700.0
       },
       {
-        "name": "Sprinkler Fitters and Apprentices Local 483 Local Political Action Committee",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 1700.0
@@ -1151,13 +1151,13 @@
         "total_spending": 3400.0
       },
       {
-        "name": "UNITY PAC sponsored by Alameda Labor Council, AFL-CIO",
+        "name": "International Brotherhood of Electrical Workers Local 595PAC",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 1700.0
       },
       {
-        "name": "Sprinkler Fitters and Apprentices Local 483 Local Political Action Committee",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 1700.0

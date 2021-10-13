@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2018-11-06.md
 committee_name: Troupe for Mayor 2018
-filer_id: '1408555'
+filer_id: ''
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Cedric Anthony Troupe

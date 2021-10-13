@@ -1,44 +1,44 @@
 {
-  "total_contributions": 2008800.7299999997,
+  "total_contributions": 3121072.74,
   "total_contributions_by_source": {
-    "Out of State": 124441.89,
-    "Within Oakland": 1018546.0499999998,
-    "Within California": 727067.51
+    "Out of State": 138591.89,
+    "Within Oakland": 1582533.6400000001,
+    "Within California": 969318.01
   },
   "contributions_by_type": {
-    "Committee": 100545.35,
-    "Individual": 1481398.7999999998,
-    "Unitemized": 126957.34999999998,
-    "Self Funding": 120763.35999999999,
-    "Other (includes Businesses)": 167567.22
+    "Committee": 156538.05,
+    "Individual": 1817740.47,
+    "Unitemized": 149245.35,
+    "Self Funding": 468744.9599999999,
+    "Other (includes Businesses)": 247639.34
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1091719.8699999999
+      "amount": 1991429.2
     },
     {
       "slug": "city-council-district-2",
       "type": "office",
       "title": "City Council District 2",
-      "amount": 313038.80000000005
+      "amount": 398594.60000000003
     },
     {
-      "slug": "city-council-district-6",
+      "slug": "city-council-district-4",
       "type": "office",
-      "title": "City Council District 6",
-      "amount": 207406.0
+      "title": "City Council District 4",
+      "amount": 221648.38
     }
   ],
   "largest_small_proportion": [
     {
-      "slug": "nina-senn",
+      "slug": "karl-debro",
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
-      "candidate": "Nina Senn",
-      "proportion": 0.3983409395973154,
+      "candidate": "Karl Debro",
+      "proportion": 0.8354777834963116,
       "office_title": "OUSD School Director District 4"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Shereda Nosakhare",
-      "proportion": 0.24159832770541886,
+      "proportion": 0.21322423064546628,
       "office_title": "City Council District 6"
     }
   ],
@@ -79,17 +79,17 @@
     {
       "name": "Bryan Parker",
       "election_name": "oakland-2014",
-      "total_contributions": 45000.0
+      "total_contributions": 121200.0
     },
     {
-      "name": "Len Raphael",
+      "name": "Jean Quan",
       "election_name": "oakland-2014",
-      "total_contributions": 31623.69
+      "total_contributions": 101185.73
     },
     {
-      "name": "Charles Williams",
+      "name": "Rebecca Kaplan",
       "election_name": "oakland-2014",
-      "total_contributions": 11218.0
+      "total_contributions": 80000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -97,19 +97,19 @@
       "name": "Bryan Parker",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_contributions": 45000.0
+      "total_contributions": 121200.0
     },
     {
-      "name": "Len Raphael",
+      "name": "Jean Quan",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_contributions": 31623.69
+      "total_contributions": 101185.73
     },
     {
-      "name": "Charles Williams",
+      "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_contributions": 11218.0
+      "total_contributions": 80000.0
     }
   ],
   "top_contributors_for_measures": [
@@ -120,19 +120,19 @@
       "name": "Bryan Parker",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 45000.0
+      "total_spending": 121200.0
     },
     {
-      "name": "Len Raphael",
+      "name": "Jean Quan",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 31623.69
+      "total_spending": 101185.73
     },
     {
-      "name": "Charles Williams",
+      "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 11218.0
+      "total_spending": 80000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -140,19 +140,19 @@
       "name": "Bryan Parker",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 45000.0
+      "total_spending": 121200.0
     },
     {
-      "name": "Len Raphael",
+      "name": "Jean Quan",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 31623.69
+      "total_spending": 101185.73
     },
     {
-      "name": "Charles Williams",
+      "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 11218.0
+      "total_spending": 80000.0
     }
   ],
   "top_spenders_for_measures": [

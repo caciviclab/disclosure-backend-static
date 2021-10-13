@@ -1,5 +1,5 @@
 {
-  "total_contributions": 21758.0,
+  "total_contributions": 23301.58,
   "contributions": [
     {
       "Filer_ID": "1409088",
@@ -825,6 +825,17 @@
       "Tran_NamF": "Michael",
       "Tran_NamL": "Yee",
       "Tran_Zip4": "94536"
+    },
+    {
+      "Filer_ID": "1409088",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1543.58,
+      "Tran_Date": "2019-01-07",
+      "Tran_NamF": "Gary",
+      "Tran_NamL": "Yee",
+      "Tran_Zip4": "94619"
     }
   ]
 }

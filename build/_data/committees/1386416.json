@@ -1,5 +1,5 @@
 {
-  "total_contributions": 17188.0,
+  "total_contributions": 17288.0,
   "contributions": [
     {
       "Filer_ID": "1386416",
@@ -594,6 +594,17 @@
       "Tran_NamF": "Lauren",
       "Tran_NamL": "Dutton",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1386416",
+      "Tran_Emp": "Donahue Fitzgerald",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2017-03-21",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Stein",
+      "Tran_Zip4": "94610"
     }
   ]
 }

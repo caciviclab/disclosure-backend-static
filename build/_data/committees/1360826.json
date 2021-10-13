@@ -1,5 +1,5 @@
 {
-  "total_contributions": 17136.0,
+  "total_contributions": 29981.870000000003,
   "contributions": [
     {
       "Filer_ID": "1360826",
@@ -1760,6 +1760,17 @@
       "Tran_NamF": "Vanessa",
       "Tran_NamL": "Winegan",
       "Tran_Zip4": "94605-1011"
+    },
+    {
+      "Filer_ID": "1360826",
+      "Tran_Emp": "Abbott Diabetes Care",
+      "Tran_Occ": "Healthcare Administration",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 12845.87,
+      "Tran_Date": "2015-10-16",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "94619-3714"
     }
   ]
 }

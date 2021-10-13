@@ -1,5 +1,5 @@
 {
-  "total_contributions": 72430.0,
+  "total_contributions": 72806.51,
   "contributions": [
     {
       "Filer_ID": "1387905",
@@ -1243,6 +1243,39 @@
       "Tran_NamF": "Patel",
       "Tran_NamL": "Bhumika",
       "Tran_Zip4": "75217"
+    },
+    {
+      "Filer_ID": "1387905",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2016-12-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Schnitzer Steel Industries",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1387905",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -700.0,
+      "Tran_Date": "2016-12-23",
+      "Tran_NamF": "Denis",
+      "Tran_NamL": "Herrera",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1387905",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 376.51,
+      "Tran_Date": "2017-06-06",
+      "Tran_NamF": "Larry",
+      "Tran_NamL": "Reid",
+      "Tran_Zip4": "94618"
     }
   ]
 }

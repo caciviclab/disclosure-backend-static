@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1382408,
   "supporting_money": {
-    "contributions_received": 103058.0,
-    "total_contributions": 103058.0,
-    "total_expenditures": null,
+    "contributions_received": 114510.66,
+    "total_contributions": 114510.66,
+    "total_expenditures": 150894.41,
     "total_loans_received": 0.0,
     "total_supporting_independent": 35507.32,
     "support_list": [
@@ -42,15 +42,15 @@
     ],
     "contributions_by_type": {
       "Committee": 11350.0,
-      "Individual": 80101.0,
+      "Individual": 81451.0,
       "Unitemized": 10102.66,
       "Self Funding": 250.0,
       "Other (includes Businesses)": 11357.0
     },
     "contributions_by_origin": {
       "Out of State": 4245.0,
-      "Within Oakland": 46936.0,
-      "Within California": 51877.0
+      "Within Oakland": 47086.0,
+      "Within California": 53077.0
     },
     "total_small_contributions": 12667.66,
     "expenditures_by_type": {
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total_contributions": 103058.0,
-  "total_expenditures": null,
+  "total_contributions": 114510.66,
+  "total_expenditures": 150894.41,
   "total_loans_received": 0.0
 }

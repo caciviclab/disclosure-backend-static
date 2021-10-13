@@ -1,5 +1,5 @@
 {
-  "total_contributions": 154324.09000000005,
+  "total_contributions": 230524.09000000005,
   "contributions": [
     {
       "Filer_ID": "1357609",
@@ -3861,6 +3861,50 @@
       "Tran_NamF": "Pamela",
       "Tran_NamL": "Turner",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1357609",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 6200.0,
+      "Tran_Date": "2016-06-30",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1357609",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2016-06-30",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1357609",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2016-06-30",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1357609",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 30000.0,
+      "Tran_Date": "2016-06-30",
+      "Tran_NamF": "Bryan",
+      "Tran_NamL": "Parker",
+      "Tran_Zip4": "94611"
     }
   ]
 }

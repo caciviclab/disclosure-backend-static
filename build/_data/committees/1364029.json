@@ -1,5 +1,5 @@
 {
-  "total_contributions": 88365.22,
+  "total_contributions": 86240.98,
   "contributions": [
     {
       "Filer_ID": "1364029",
@@ -2959,6 +2959,17 @@
       "Tran_NamF": "Shirly",
       "Tran_NamL": "Graham",
       "Tran_Zip4": "94904"
+    },
+    {
+      "Filer_ID": "1364029",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -2124.24,
+      "Tran_Date": "2015-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "City of Oakland",
+      "Tran_Zip4": "94612"
     }
   ]
 }
