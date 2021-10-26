@@ -1,0 +1,77 @@
+{
+  "total_contributions": 360500.0,
+  "contributions": [
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Bloomberg LP Media Production",
+      "Tran_Occ": "Executive",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200000.0,
+      "Tran_Date": "2020-09-11",
+      "Tran_NamF": "Michael R.",
+      "Tran_NamL": "Bloomberg",
+      "Tran_Zip4": "10022",
+      "election_name": "oakland-2020"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Arthur Rock and Company",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 37500.0,
+      "Tran_Date": "2020-09-18",
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Rock",
+      "Tran_Zip4": "94105",
+      "election_name": "oakland-2020"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Stacy H. Schusterman",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 75000.0,
+      "Tran_Date": "2020-10-07",
+      "Tran_NamF": "Stacy H.",
+      "Tran_NamL": "Schusterman",
+      "Tran_Zip4": "74119",
+      "election_name": "oakland-2020"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2020-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Leadership for Educational Equity",
+      "Tran_Zip4": "10018",
+      "election_name": "oakland-2020"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "Charter Public Schools PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2020"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 13000.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Committee for California",
+      "Tran_Zip4": "95815",
+      "election_name": "oakland-2020"
+    }
+  ]
+}

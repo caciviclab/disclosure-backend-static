@@ -9,6 +9,9 @@ class Election < ActiveRecord::Base
     name.split('-', 2).first
   end
 
+  def election_path
+    "/#{locality}/#{date}/"
+  end
   def metadata_path
     "/_elections/#{locality}/#{date}.md"
   end

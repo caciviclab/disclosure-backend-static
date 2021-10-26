@@ -28,8 +28,15 @@ class ElectionTotal
           .includes(:office_election, :calculations)
           .find_each do |candidate|
 
-          total = candidate.calculation(:total_contributions) ||
-            candidate.calculation(:contribution_list_total)
+          total = candidate.calculation(:total_contributions)
+          if total.nil?
+            list_total = candidate.calculation(:contribution_list_total)
+            unless list_total.nil? 
+              total = list_total[candidate.election_name]
+            else
+              total = 0
+            end
+          end
           total_contributions += total
           total_small = candidate.calculation(:total_small_contributions)
 
@@ -40,7 +47,7 @@ class ElectionTotal
               office_title: candidate.office_election.title,
               slug: slugify(candidate['Candidate']),
               candidate: candidate['Candidate'],
-              proportion: candidate.calculation(:total_small_contributions) / total.to_f
+              proportion: total_small / total.to_f
             })
           end
 

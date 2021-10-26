@@ -8,7 +8,7 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4174?cty=ca%2falm",
   "contributions_by_region": [
     {
-      "amount": 20632.65,
+      "amount": 20632.649999999998,
       "locale": "Out of State"
     },
     {
@@ -16,7 +16,7 @@
       "locale": "Within California"
     },
     {
-      "amount": 135082.48,
+      "amount": 135082.47999999998,
       "locale": "Within Oakland"
     }
   ],
@@ -27,7 +27,7 @@
     },
     {
       "type": "Individual",
-      "amount": 81245.58
+      "amount": 81245.57999999994
     },
     {
       "type": "Other (includes Businesses)",
@@ -42,5 +42,5 @@
       "amount": 651197.63
     }
   ],
-  "total_contributions": 367195.08
+  "total_contributions": 367195.07999999996
 }
