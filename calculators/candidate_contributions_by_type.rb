@@ -49,7 +49,9 @@ class CandidateContributionsByType
       candidate.save_calculation(:contributions_by_type, contributions_by_type)
 
       # Calculate the total of small contributions
-      total_small = candidate.calculation(:total_small_itemized_contributions) +
+      smalls = candidate.calculation(:total_small_itemized_contributions)
+      next if smalls.nil?
+      total_small = smalls[candidate.election_name] +
         (contributions_by_type['Unitemized'] || 0)
       candidate.save_calculation(:total_small_contributions, total_small)
     end

@@ -1,49 +1,57 @@
 {
-  "total_contributions": 8896.6,
-  "contributions": [
-    {
-      "Filer_ID": "1401694",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2018-11-07",
-      "Tran_NamF": null,
-      "Tran_NamL": "Green Party",
-      "Tran_Zip4": "94704"
-    },
-    {
-      "Filer_ID": "1401694",
-      "Tran_Emp": "Blue Beautifly",
-      "Tran_Occ": "President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 5.0,
-      "Tran_Date": "2018-11-20",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
-    },
-    {
-      "Filer_ID": "1401694",
-      "Tran_Emp": "Blue Beautifly",
-      "Tran_Occ": "President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2018-11-20",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
-    },
-    {
-      "Filer_ID": "1401694",
-      "Tran_Emp": "Blue Beautifly",
-      "Tran_Occ": "President",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 7791.6,
-      "Tran_Date": "2018-11-20",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
-    }
-  ]
+  "total_contributions": {
+    "oakland-2018": 8896.6
+  },
+  "contributions": {
+    "oakland-2018": [
+      {
+        "Filer_ID": "1401694",
+        "Tran_Emp": null,
+        "Tran_Occ": null,
+        "Entity_Cd": "Other (includes Businesses)",
+        "Tran_Amt1": 100.0,
+        "Tran_Date": "2018-11-07",
+        "Tran_NamF": null,
+        "Tran_NamL": "Green Party",
+        "Tran_Zip4": "94704",
+        "election_name": "oakland-2018"
+      },
+      {
+        "Filer_ID": "1401694",
+        "Tran_Emp": "Blue Beautifly",
+        "Tran_Occ": "President",
+        "Entity_Cd": "Individual",
+        "Tran_Amt1": 5.0,
+        "Tran_Date": "2018-11-20",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Tran_Zip4": "94612",
+        "election_name": "oakland-2018"
+      },
+      {
+        "Filer_ID": "1401694",
+        "Tran_Emp": "Blue Beautifly",
+        "Tran_Occ": "President",
+        "Entity_Cd": "Individual",
+        "Tran_Amt1": 1000.0,
+        "Tran_Date": "2018-11-20",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Tran_Zip4": "94612",
+        "election_name": "oakland-2018"
+      },
+      {
+        "Filer_ID": "1401694",
+        "Tran_Emp": "Blue Beautifly",
+        "Tran_Occ": "President",
+        "Entity_Cd": "Individual",
+        "Tran_Amt1": 7791.6,
+        "Tran_Date": "2018-11-20",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Tran_Zip4": "94612",
+        "election_name": "oakland-2018"
+      }
+    ]
+  }
 }

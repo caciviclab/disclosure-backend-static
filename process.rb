@@ -1,4 +1,5 @@
 require_relative './environment.rb'
+# Office holder accounts don't have an election, skip for now
 
 require 'fileutils'
 require 'i18n'
@@ -35,9 +36,25 @@ Committee.includes(:calculations).find_each do |committee|
     f.puts('---')
   end
 
-  # /_data/committees/1229791.json
-  build_file("/_data/committees/#{committee['Filer_ID']}.json") do |f|
-    f.puts JSON.pretty_generate(committee.data)
+  totals = committee.calculation(:contribution_list_total)
+  next if totals.nil?
+  lists = committee.calculation(:contribution_list)
+  totals.each_pair do | election_name, total |
+    election = Election.where(name: election_name).first()
+    # Office holder accounts don't have an election, skip for now
+    next if election.nil?
+    list = lists[election_name]
+
+    # /_data/committees/oakland/2020-03-03/1229791.json
+    build_file("/_data/committees" + election.election_path + "#{committee['Filer_ID']}.json") do |f|
+      f.puts JSON.pretty_generate(
+        {
+          total_contributions: total,
+          contribution_list: list,
+        }
+      )
+
+    end
   end
 end
 
@@ -76,7 +93,22 @@ Election.find_each do |election|
         f.puts('---')
       end
 
-      # /_data/committees/1229791.json
+      totals = candidate.calculation(:contribution_list_total)
+      next if totals.nil?
+      lists = candidate.calculation(:contribution_list)
+      total = totals[election.name]
+      list = lists[election.name]
+
+      # /_data/committees/oakland/2020-03-03/1229791.json
+      build_file("/_data/committees" + election.election_path + "#{candidate.FPPC}.json") do |f|
+        f.puts JSON.pretty_generate(
+          {
+            total_contributions: total,
+            contribution_list: list,
+          }
+        )
+      end
+
       build_file("/_data/committees/#{candidate.FPPC}.json") do |f|
         f.puts JSON.pretty_generate(candidate.committee_data)
       end

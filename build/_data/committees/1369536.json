@@ -1,38 +1,45 @@
 {
-  "total_contributions": 2609.8999999999996,
-  "contributions": [
-    {
-      "Filer_ID": "1369536",
-      "Tran_Emp": "Blue Beautifly LLC",
-      "Tran_Occ": "Owner-Operator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2014-06-09",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
-    },
-    {
-      "Filer_ID": "1369536",
-      "Tran_Emp": "Blue Beautifly LLC",
-      "Tran_Occ": "Owner-Operator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 464.35,
-      "Tran_Date": "2014-11-06",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
-    },
-    {
-      "Filer_ID": "1369536",
-      "Tran_Emp": "Blue Beautifly LLC",
-      "Tran_Occ": "Owner-Operator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1145.55,
-      "Tran_Date": "2014-11-06",
-      "Tran_NamF": "Saied",
-      "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
-    }
-  ]
+  "total_contributions": {
+    "oakland-2014": 2609.8999999999996
+  },
+  "contributions": {
+    "oakland-2014": [
+      {
+        "Filer_ID": "1369536",
+        "Tran_Emp": "Blue Beautifly LLC",
+        "Tran_Occ": "Owner-Operator",
+        "Entity_Cd": "Individual",
+        "Tran_Amt1": 1000.0,
+        "Tran_Date": "2014-06-09",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Tran_Zip4": "94612",
+        "election_name": "oakland-2014"
+      },
+      {
+        "Filer_ID": "1369536",
+        "Tran_Emp": "Blue Beautifly LLC",
+        "Tran_Occ": "Owner-Operator",
+        "Entity_Cd": "Individual",
+        "Tran_Amt1": 464.35,
+        "Tran_Date": "2014-11-06",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Tran_Zip4": "94612",
+        "election_name": "oakland-2014"
+      },
+      {
+        "Filer_ID": "1369536",
+        "Tran_Emp": "Blue Beautifly LLC",
+        "Tran_Occ": "Owner-Operator",
+        "Entity_Cd": "Individual",
+        "Tran_Amt1": 1145.55,
+        "Tran_Date": "2014-11-06",
+        "Tran_NamF": "Saied",
+        "Tran_NamL": "Karamooz",
+        "Tran_Zip4": "94612",
+        "election_name": "oakland-2014"
+      }
+    ]
+  }
 }
