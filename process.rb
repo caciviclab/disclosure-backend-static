@@ -50,7 +50,7 @@ Committee.includes(:calculations).find_each do |committee|
       f.puts JSON.pretty_generate(
         {
           total_contributions: total,
-          contribution_list: list,
+          contributions: list,
         }
       )
 
@@ -104,7 +104,7 @@ Election.find_each do |election|
         f.puts JSON.pretty_generate(
           {
             total_contributions: total,
-            contribution_list: list,
+            contributions: list,
           }
         )
       end
