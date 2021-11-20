@@ -1,0 +1,64 @@
+{
+  "id": 27,
+  "name": "Aaron Clay",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": "https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-155191&since=2019-01-01&until=2020-10-23",
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21269/candidate/151400?&date=2020-11-03",
+  "first_name": "Aaron",
+  "last_name": "Clay",
+  "ballot_item": 14,
+  "office_election": 14,
+  "bio": null,
+  "committee_name": "Aaron Clay for Oakland City Council 2020",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Small Business Owner",
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1428941,
+  "supporting_money": {
+    "contributions_received": 71517.67,
+    "total_contributions": 71517.67,
+    "total_expenditures": 79616.99,
+    "total_loans_received": 12500.0,
+    "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
+    "contributions_by_type": {
+      "Individual": 55575.0,
+      "Unitemized": 3342.67,
+      "Other (includes Businesses)": 100.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 14275.0,
+      "Within Oakland": 22500.0,
+      "Within California": 18900.0
+    },
+    "total_small_contributions": 3542.67,
+    "expenditures_by_type": {
+      "Office Expenses": 2186.06,
+      "Campaign Consultants": 10462.5,
+      "Campaign Paraphernalia/Misc.": 33320.7,
+      "Postage, Delivery and Messenger Services": 4693.73,
+      "Professional Services (Legal, Accounting)": 28807.5
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 71517.67,
+  "total_expenditures": 79616.99,
+  "total_loans_received": 12500.0
+}

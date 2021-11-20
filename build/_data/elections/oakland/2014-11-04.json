@@ -1,0 +1,161 @@
+{
+  "total_contributions": 3121072.74,
+  "total_contributions_by_source": {
+    "Out of State": 138591.89,
+    "Within Oakland": 1582533.6400000001,
+    "Within California": 969318.01
+  },
+  "contributions_by_type": {
+    "Committee": 156538.05,
+    "Individual": 1817740.47,
+    "Unitemized": 149245.35,
+    "Self Funding": 468744.9599999999,
+    "Other (includes Businesses)": 247639.34
+  },
+  "most_expensive_races": [
+    {
+      "slug": "mayor",
+      "type": "office",
+      "title": "Mayor",
+      "amount": 1991429.2000000002
+    },
+    {
+      "slug": "city-council-district-2",
+      "type": "office",
+      "title": "City Council District 2",
+      "amount": 398594.6
+    },
+    {
+      "slug": "city-council-district-4",
+      "type": "office",
+      "title": "City Council District 4",
+      "amount": 221648.38
+    }
+  ],
+  "largest_small_proportion": [
+    {
+      "slug": "karl-debro",
+      "type": "office",
+      "title": "Oakland November 4th, 2014 Election",
+      "candidate": "Karl Debro",
+      "proportion": 0.8354777834963114,
+      "office_title": "OUSD School Director District 4"
+    },
+    {
+      "slug": "renato-almanzor",
+      "type": "office",
+      "title": "Oakland November 4th, 2014 Election",
+      "candidate": "Renato Almanzor",
+      "proportion": 0.24336392954601835,
+      "office_title": "OUSD School Director District 6"
+    },
+    {
+      "slug": "shereda-nosakhare",
+      "type": "office",
+      "title": "Oakland November 4th, 2014 Election",
+      "candidate": "Shereda Nosakhare",
+      "proportion": 0.21322423064546628,
+      "office_title": "City Council District 6"
+    }
+  ],
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
+      "election_name": "oakland-2014",
+      "total_spending": 224049.49999999997
+    },
+    {
+      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "election_name": "oakland-2014",
+      "total_spending": 174766.0
+    },
+    {
+      "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
+      "election_name": "oakland-2014",
+      "total_spending": 129086.79000000002
+    }
+  ],
+  "top_contributors": [
+    {
+      "name": "Bryan Parker",
+      "election_name": "oakland-2014",
+      "total_contributions": 121200.0
+    },
+    {
+      "name": "Jean Quan",
+      "election_name": "oakland-2014",
+      "total_contributions": 101185.73
+    },
+    {
+      "name": "Rebecca Kaplan",
+      "election_name": "oakland-2014",
+      "total_contributions": 80000.0
+    }
+  ],
+  "top_contributors_for_offices": [
+    {
+      "name": "Bryan Parker",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 121200.0
+    },
+    {
+      "name": "Jean Quan",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 101185.73
+    },
+    {
+      "name": "Rebecca Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 80000.0
+    }
+  ],
+  "top_contributors_for_measures": [
+
+  ],
+  "top_spenders": [
+    {
+      "name": "Bryan Parker",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 121200.0
+    },
+    {
+      "name": "Jean Quan",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 101185.73
+    },
+    {
+      "name": "Rebecca Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 80000.0
+    }
+  ],
+  "top_spenders_for_offices": [
+    {
+      "name": "Bryan Parker",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 121200.0
+    },
+    {
+      "name": "Jean Quan",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 101185.73
+    },
+    {
+      "name": "Rebecca Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 80000.0
+    }
+  ],
+  "top_spenders_for_measures": [
+
+  ]
+}

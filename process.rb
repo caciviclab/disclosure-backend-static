@@ -30,12 +30,6 @@ Committee.includes(:calculations).find_each do |committee|
   next if committee['Filer_ID'].nil?
   next if committee['Filer_ID'] =~ /pending/i
 
-  # /_committees/1386416.md
-  build_file("/_committees/#{committee.Filer_ID}.md") do |f|
-    f.puts(YAML.dump(committee.metadata))
-    f.puts('---')
-  end
-
   totals = committee.calculation(:contribution_list_total)
   next if totals.nil?
   lists = committee.calculation(:contribution_list)
@@ -53,6 +47,14 @@ Committee.includes(:calculations).find_each do |committee|
           contributions: list,
         }
       )
+    # /_committees/oakland/2020-03-03/1386416.md
+    build_file("/_committees" + election.election_path + "/#{committee.Filer_ID}.md") do |f|
+      f.puts(YAML.dump(committee.metadata))
+      f.puts(
+        "election: _elections" + election.election_path
+      )
+      f.puts('---')
+    end
 
     end
   end
@@ -87,9 +89,12 @@ Election.find_each do |election|
         f.puts('---')
       end
 
-      # /_committees/123456.md
-      build_file("/_committees/#{candidate.FPPC}.md") do |f|
+      # /_committees/oakland/2020-03-03/1386416.md
+      build_file("/_committees" + election.election_path + "/#{candidate.FPPC}.md") do |f|
         f.puts(YAML.dump(Committee.from_candidate(candidate).metadata))
+        f.puts(
+          "election: _elections" + election.election_path
+        )
         f.puts('---')
       end
 
@@ -107,10 +112,6 @@ Election.find_each do |election|
             contributions: list,
           }
         )
-      end
-
-      build_file("/_data/committees/#{candidate.FPPC}.json") do |f|
-        f.puts JSON.pretty_generate(candidate.committee_data)
       end
     end
 
