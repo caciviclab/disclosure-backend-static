@@ -47,6 +47,7 @@ Committee.includes(:calculations).find_each do |committee|
           contributions: list,
         }
       )
+    end
     # /_committees/oakland/2020-03-03/1386416.md
     build_file("/_committees" + election.election_path + "/#{committee.Filer_ID}.md") do |f|
       f.puts(YAML.dump(committee.metadata))
@@ -55,6 +56,25 @@ Committee.includes(:calculations).find_each do |committee|
       )
       f.puts('---')
     end
+  end
+
+  totals = committee.calculation(:contribution_list_total)
+  next if totals.nil?
+  lists = committee.calculation(:contribution_list)
+  totals.each_pair do | election_name, total |
+    election = Election.where(name: election_name).first()
+    # Office holder accounts don't have an election, skip for now
+    next if election.nil?
+    list = lists[election_name]
+
+    # /_data/committees/oakland/2020-03-03/1229791.json
+    build_file("/_data/committees" + election.election_path + "#{committee['Filer_ID']}.json") do |f|
+      f.puts JSON.pretty_generate(
+        {
+          total_contributions: total,
+          contributions: list,
+        }
+      )
 
     end
   end
@@ -114,7 +134,6 @@ Election.find_each do |election|
         )
       end
     end
-
 
   # /_office_elections/oakland/2018-11-06/city-auditor.md
   election.office_elections.find_each do |office_election|
