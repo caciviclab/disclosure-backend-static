@@ -4,7 +4,7 @@ committee_name: Re-elect Nikki F Bas for City Council 2022
 filer_id: '1423821'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
-name: Nikki F Bas
+name: Nikki Fortunato Bas
 occupation: Oakland City Council Member
 photo_url: nikki_fortunato_bas.png
 twitter_url: nikki4oakland

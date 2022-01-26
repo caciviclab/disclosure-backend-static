@@ -6,6 +6,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Derreck Johnson
 occupation: Small Business Owner
-website_url: www.JohnsonForOakland.com
+website_url: https://www.johnsonforoakland.com/
 facebook_url: https://www.facebook.com/dedrickformayor/
 ---

@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2022-11-08.md
 committee_name: Janani Ramachandran for Oakland City Council, District 4
-filer_id: ''
+filer_id: '1442792'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Janani Ramachandran
