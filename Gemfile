@@ -9,6 +9,7 @@ gem 'pg'
 gem 'puma'
 gem 'rspec'
 gem 'roo'
+gem 'soda-ruby', :require => 'soda'
 gem 'tzinfo'
 gem 'tzinfo-data'
 
