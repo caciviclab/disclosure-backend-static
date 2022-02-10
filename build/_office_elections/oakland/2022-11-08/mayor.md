@@ -6,6 +6,7 @@ candidates:
 - derrick-soo
 - gregory-hodge
 - ignacio-de-la-fuente
+- john-marks
 - john-reimann
 - loren-taylor
 - peter-liu

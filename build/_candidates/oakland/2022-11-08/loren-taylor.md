@@ -6,5 +6,5 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Loren Taylor
 occupation: Oakland City Council Member
-photo_url: Loren_Taylor.png
+photo_url: loren-taylor.jpg
 ---
