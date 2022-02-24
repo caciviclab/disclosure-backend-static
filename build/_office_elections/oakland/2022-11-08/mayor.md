@@ -4,6 +4,7 @@ candidates:
 - allyssa-victory-villanueva
 - derreck-johnson
 - derrick-soo
+- elbert-owens
 - gregory-hodge
 - ignacio-de-la-fuente
 - john-marks

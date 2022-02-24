@@ -5,4 +5,8 @@ filer_id: '1444317'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Seneca Scott
+photo_url: seneca-scott.jpg
+twitter_url: Seneca4Mayor
+website_url: https://senecaforoaklandmayor2022.com/
+facebook_url: https://www.facebook.com/seneca4oaklandmayor
 ---

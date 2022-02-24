@@ -6,7 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Nikki Fortunato Bas
 occupation: Oakland City Council Member
-photo_url: Nikki_Fortunato_Bas.jpg
+photo_url: Nikki_Fortunato_Bas-2022.jpg
 twitter_url: nikki4oakland
 website_url: http://www.nikki4oakland.com
 facebook_url: https://www.facebook.com/Nikki4Oakland/

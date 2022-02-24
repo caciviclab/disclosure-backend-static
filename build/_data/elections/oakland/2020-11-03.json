@@ -1,18 +1,24 @@
 {
-  "total_contributions": 2881813.7700000005,
+  "total_contributions": 3249008.8500000006,
   "total_contributions_by_source": {
-    "Out of State": 183627.27,
-    "Within Oakland": 1276708.6,
-    "Within California": 1050261.3599999999
+    "Out of State": 204259.91999999998,
+    "Within Oakland": 1411791.08,
+    "Within California": 1261741.31
   },
   "contributions_by_type": {
-    "Committee": 425323.06,
-    "Individual": 1708466.1400000001,
+    "Committee": 529071.5599999999,
+    "Individual": 1789711.72,
     "Unitemized": 201316.27999999997,
     "Self Funding": 51500.59,
-    "Other (includes Businesses)": 325307.44
+    "Other (includes Businesses)": 507508.44
   },
   "most_expensive_races": [
+    {
+      "slug": "ousd-facilities-bond",
+      "type": "referendum",
+      "title": "Measure Y",
+      "amount": 734390.16
+    },
     {
       "slug": "city-council-at-large",
       "type": "office",
@@ -24,12 +30,6 @@
       "type": "office",
       "title": "City Council District 3",
       "amount": 462961.91000000003
-    },
-    {
-      "slug": "ousd-facilities-bond",
-      "type": "referendum",
-      "title": "Measure Y",
-      "amount": 367195.08
     }
   ],
   "largest_small_proportion": [
@@ -65,7 +65,7 @@
       "total_spending": 395215.85
     },
     {
-      "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+      "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
       "election_name": "oakland-2020",
       "total_spending": 340009.22
     },

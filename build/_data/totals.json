@@ -194,18 +194,18 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 20934293.01,
+    "total_contributions": 21101793.01,
     "total_contributions_by_source": {
       "Out of State": 10551346.459999999,
-      "Within Oakland": 1456401.7400000002,
-      "Within California": 8630868.879999999
+      "Within Oakland": 1536901.7400000002,
+      "Within California": 8717868.879999999
     },
     "contributions_by_type": {
-      "Committee": 8422634.030000001,
-      "Individual": 10301872.77,
+      "Committee": 8510634.030000001,
+      "Individual": 10307372.77,
       "Unitemized": 70402.93,
       "Self Funding": 124742.81999999999,
-      "Other (includes Businesses)": 1789367.46
+      "Other (includes Businesses)": 1863367.46
     },
     "most_expensive_races": [
       {
@@ -255,7 +255,7 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
         "election_name": "oakland-2016",
         "total_spending": 316696.51
       },
@@ -479,7 +479,7 @@
         "total_spending": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_spending": 10000.0
@@ -502,7 +502,7 @@
         "total_spending": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_spending": 10000.0
@@ -520,7 +520,7 @@
       "Committee": 969189.14,
       "Individual": 2672357.71,
       "Unitemized": 154536.51,
-      "Self Funding": 87218.73000000001,
+      "Self Funding": 87218.73,
       "Other (includes Businesses)": 2685773.8200000003
     },
     "most_expensive_races": [
@@ -571,7 +571,7 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
         "election_name": "oakland-2018",
         "total_spending": 149368.03
       },
@@ -705,20 +705,26 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 2881813.7700000005,
+    "total_contributions": 3249008.8500000006,
     "total_contributions_by_source": {
-      "Out of State": 183627.27,
-      "Within Oakland": 1276708.6,
-      "Within California": 1050261.3599999999
+      "Out of State": 204259.91999999998,
+      "Within Oakland": 1411791.08,
+      "Within California": 1261741.31
     },
     "contributions_by_type": {
-      "Committee": 425323.06,
-      "Individual": 1708466.1400000001,
+      "Committee": 529071.5599999999,
+      "Individual": 1789711.72,
       "Unitemized": 201316.27999999997,
       "Self Funding": 51500.59,
-      "Other (includes Businesses)": 325307.44
+      "Other (includes Businesses)": 507508.44
     },
     "most_expensive_races": [
+      {
+        "slug": "ousd-facilities-bond",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 734390.16
+      },
       {
         "slug": "city-council-at-large",
         "type": "office",
@@ -730,12 +736,6 @@
         "type": "office",
         "title": "City Council District 3",
         "amount": 462961.91000000003
-      },
-      {
-        "slug": "ousd-facilities-bond",
-        "type": "referendum",
-        "title": "Measure Y",
-        "amount": 367195.08
       }
     ],
     "largest_small_proportion": [
@@ -771,7 +771,7 @@
         "total_spending": 395215.85
       },
       {
-        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
         "election_name": "oakland-2020",
         "total_spending": 340009.22
       },
@@ -1085,19 +1085,19 @@
     },
     "top_contributors": [
       {
-        "name": "Sheet Metal Workers' International Association Local 104 PAC",
+        "name": "MICHAEL BLOOMBERG",
         "election_name": "oakland-2022",
-        "total_contributions": 3400.0
+        "total_contributions": 720000.0
       },
       {
-        "name": "International Brotherhood of Electrical Workers Local 595PAC",
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
         "election_name": "oakland-2022",
-        "total_contributions": 1700.0
+        "total_contributions": 311602.0
       },
       {
-        "name": "Sprinkler Fitters and Apprentices Local 483 Local Political Action Committee",
+        "name": "Michael R. Bloomberg",
         "election_name": "oakland-2022",
-        "total_contributions": 1700.0
+        "total_contributions": 200000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1121,26 +1121,43 @@
       }
     ],
     "top_contributors_for_measures": [
-
+      {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 100000.0
+      },
+      {
+        "name": "CALIFORNIA CHARTER SCHOOLS ASSOCIATIONADVOCATES ISSUES COMMITTEE",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 70000.0
+      },
+      {
+        "name": "GO Public Schools Advocates",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 49000.0
+      }
     ],
     "top_spenders": [
       {
-        "name": "Sheet Metal Workers' International Association Local 104 PAC",
-        "type": "Office",
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 3400.0
+        "total_spending": 720000.0
       },
       {
-        "name": "International Brotherhood of Electrical Workers Local 595PAC",
-        "type": "Office",
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 1700.0
+        "total_spending": 311602.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
-        "type": "Office",
+        "name": "Michael R. Bloomberg",
+        "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 1700.0
+        "total_spending": 200000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1164,7 +1181,24 @@
       }
     ],
     "top_spenders_for_measures": [
-
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 720000.0
+      },
+      {
+        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 311602.0
+      },
+      {
+        "name": "Michael R. Bloomberg",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 200000.0
+      }
     ]
   },
   "sf-2016": {
