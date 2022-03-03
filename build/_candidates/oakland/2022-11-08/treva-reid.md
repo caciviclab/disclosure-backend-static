@@ -5,6 +5,7 @@ filer_id: '1442079'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Treva Reid
+occupation: Oakland City Council Member
 photo_url: treva-reid.png
 website_url: https://www.reidforoakland.com/
 ---
