@@ -1,5 +1,5 @@
 {
-  "id": 76,
+  "id": 78,
   "name": "Loren Taylor",
   "photo_url": "Loren_Taylor.png",
   "website_url": "https://www.lorentaylor.org/",
@@ -21,24 +21,24 @@
   "is_winner": true,
   "filer_id": 1401499,
   "supporting_money": {
-    "contributions_received": 168432.26,
-    "total_contributions": 168432.26,
-    "total_expenditures": 171893.41,
+    "contributions_received": 141041.26,
+    "total_contributions": 141041.26,
+    "total_expenditures": 95964.07,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 150400.26,
+      "Individual": 139122.26,
       "Unitemized": 12482.0,
-      "Self Funding": 2000.0,
-      "Other (includes Businesses)": 4550.0
+      "Self Funding": 1000.0,
+      "Other (includes Businesses)": 3650.0
     },
     "contributions_by_origin": {
-      "Out of State": 10265.0,
-      "Within Oakland": 100653.26,
-      "Within California": 45032.0
+      "Out of State": 8865.0,
+      "Within Oakland": 91473.26,
+      "Within California": 43434.0
     },
     "total_small_contributions": 14094.32,
     "expenditures_by_type": {
@@ -59,7 +59,7 @@
       "Information Technology Costs (Internet, E-mail)": 5915.83
     },
     "supporting_by_type": {
-      "MON": 1600.0
+      "MON": 800.0
     }
   },
   "opposing_money": {
@@ -70,7 +70,7 @@
 
     ]
   },
-  "total_contributions": 168432.26,
-  "total_expenditures": 171893.41,
+  "total_contributions": 141041.26,
+  "total_expenditures": 95964.07,
   "total_loans_received": 0.0
 }

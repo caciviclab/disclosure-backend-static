@@ -12,6 +12,7 @@ candidates:
 - loren-taylor
 - peter-liu
 - seneca-scott
+- sheng-thao
 - stephen-schear
 - treva-reid
 - tyron-jordan

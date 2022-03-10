@@ -1,28 +1,28 @@
 {
-  "id": 13,
+  "id": 12,
   "name": "Loren Taylor",
   "photo_url": "loren-taylor-2022.jpg",
-  "website_url": null,
-  "twitter_url": null,
-  "facebook_url": null,
-  "instagram_url": null,
+  "website_url": "https://www.lorentaylor.org/",
+  "twitter_url": "lorenmtaylor",
+  "facebook_url": "https://www.facebook.com/Loren4Oakland",
+  "instagram_url": "loren.taylor",
   "map_url": null,
   "votersedge_url": null,
   "first_name": "Loren",
   "last_name": "Taylor",
-  "ballot_item": 5,
-  "office_election": 5,
+  "ballot_item": 1,
+  "office_election": 1,
   "bio": null,
-  "committee_name": "Loren Taylor for Oakland City Council 2022",
+  "committee_name": "Loren Taylor for Oakland Mayor 2022",
   "is_accepted_expenditure_ceiling": true,
-  "is_incumbent": true,
+  "is_incumbent": false,
   "occupation": "Oakland City Council Member",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": 1401499,
+  "filer_id": 1441375,
   "supporting_money": {
-    "contributions_received": 155950.26,
-    "total_contributions": 155950.26,
+    "contributions_received": 0.0,
+    "total_contributions": 0.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "total_supporting_independent": 0.0,
@@ -37,6 +37,7 @@
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "MON": 800.0
     }
   },
   "opposing_money": {
@@ -47,7 +48,7 @@
 
     ]
   },
-  "total_contributions": 155950.26,
+  "total_contributions": 0.0,
   "total_expenditures": null,
   "total_loans_received": null
 }

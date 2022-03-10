@@ -510,18 +510,18 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6857202.890000001,
+    "total_contributions": 6829811.890000001,
     "total_contributions_by_source": {
-      "Out of State": 898671.36,
-      "Within Oakland": 2621770.65,
-      "Within California": 2893097.3899999997
+      "Out of State": 897271.36,
+      "Within Oakland": 2612590.65,
+      "Within California": 2891499.3899999997
     },
     "contributions_by_type": {
       "Committee": 969189.14,
-      "Individual": 2672357.71,
+      "Individual": 2661079.71,
       "Unitemized": 154536.51,
-      "Self Funding": 87218.73,
-      "Other (includes Businesses)": 2685773.8200000003
+      "Self Funding": 86218.73,
+      "Other (includes Businesses)": 2684873.8200000003
     },
     "most_expensive_races": [
       {
@@ -1031,36 +1031,35 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 181040.26,
+    "total_contributions": 11290.0,
     "total_contributions_by_source": {
-      "Out of State": 900.0,
-      "Within Oakland": 9050.0,
-      "Within California": 14400.0
+      "Out of State": 100.0,
+      "Within Oakland": 4800.0,
+      "Within California": 5800.0
     },
     "contributions_by_type": {
-      "Committee": 14750.0,
-      "Individual": 8000.0,
-      "Unitemized": 640.0,
-      "Other (includes Businesses)": 1600.0
+      "Committee": 5350.0,
+      "Individual": 5350.0,
+      "Unitemized": 590.0
     },
     "most_expensive_races": [
-      {
-        "slug": "city-council-district-6",
-        "type": "office",
-        "title": "City Council District 6",
-        "amount": 155950.26
-      },
-      {
-        "slug": "city-council-district-4",
-        "type": "office",
-        "title": "City Council District 4",
-        "amount": 13800.0
-      },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
         "amount": 11290.0
+      },
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 0
+      },
+      {
+        "slug": "city-auditor",
+        "type": "office",
+        "title": "City Auditor",
+        "amount": 0
       }
     ],
     "largest_small_proportion": [
@@ -1071,14 +1070,6 @@
         "candidate": "Nikki Fortunato Bas",
         "proportion": 0.05225863596102746,
         "office_title": "City Council District 2"
-      },
-      {
-        "slug": "sheng-thao",
-        "type": "office",
-        "title": "Oakland November 8th, 2022 General Election",
-        "candidate": "Sheng Thao",
-        "proportion": 0.0036231884057971015,
-        "office_title": "City Council District 4"
       }
     ],
     "largest_independent_expenditures": {
@@ -1105,16 +1096,16 @@
         "name": "Sheet Metal Workers' International Association Local 104 PAC",
         "type": "Office",
         "election_name": "oakland-2022",
-        "total_contributions": 3400.0
+        "total_contributions": 1700.0
       },
       {
-        "name": "UNITY PAC sponsored by Alameda Labor Council, AFL-CIO",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 1700.0
       },
       {
-        "name": "Sprinkler Fitters and Apprentices Local 483 Local Political Action Committee",
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 1700.0
@@ -1162,19 +1153,19 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Sheet Metal Workers' International Association Local 104 PAC",
-        "type": "Office",
-        "election_name": "oakland-2022",
-        "total_spending": 3400.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595PAC",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 1700.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 1700.0
+      },
+      {
+        "name": "Sheet Metal Workers' International Association Local 104 PAC",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 1700.0
