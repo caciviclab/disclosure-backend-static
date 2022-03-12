@@ -40,8 +40,23 @@
       "office_title": "City Council District 2"
     }
   ],
-  "largest_independent_expenditures": {
-  },
+  "largest_independent_expenditures": [
+    {
+      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "election_name": "oakland-2022",
+      "total_spending": 174628.0
+    },
+    {
+      "name": "Committee for an Affordable East Bay supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+      "election_name": "oakland-2022",
+      "total_spending": 133700.0
+    },
+    {
+      "name": "East Bay Working Families, a coalition of unions and community groups",
+      "election_name": "oakland-2022",
+      "total_spending": 113018.0
+    }
+  ],
   "top_contributors": [
     {
       "name": "MICHAEL BLOOMBERG",

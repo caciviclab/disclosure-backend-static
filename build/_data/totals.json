@@ -9,8 +9,8 @@
     "contributions_by_type": {
       "Committee": 156538.05,
       "Individual": 1817740.47,
-      "Unitemized": 149245.35,
-      "Self Funding": 468744.9599999999,
+      "Unitemized": 149245.34999999998,
+      "Self Funding": 468744.95999999996,
       "Other (includes Businesses)": 247639.34
     },
     "most_expensive_races": [
@@ -18,7 +18,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1991429.2
+        "amount": 1991429.2000000002
       },
       {
         "slug": "city-council-district-2",
@@ -520,7 +520,7 @@
       "Committee": 969189.14,
       "Individual": 2661079.71,
       "Unitemized": 154536.51,
-      "Self Funding": 86218.73,
+      "Self Funding": 86218.73000000001,
       "Other (includes Businesses)": 2684873.8200000003
     },
     "most_expensive_races": [
@@ -1072,8 +1072,23 @@
         "office_title": "City Council District 2"
       }
     ],
-    "largest_independent_expenditures": {
-    },
+    "largest_independent_expenditures": [
+      {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "election_name": "oakland-2022",
+        "total_spending": 174628.0
+      },
+      {
+        "name": "Committee for an Affordable East Bay supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+        "election_name": "oakland-2022",
+        "total_spending": 133700.0
+      },
+      {
+        "name": "East Bay Working Families, a coalition of unions and community groups",
+        "election_name": "oakland-2022",
+        "total_spending": 113018.0
+      }
+    ],
     "top_contributors": [
       {
         "name": "MICHAEL BLOOMBERG",
@@ -1200,6 +1215,44 @@
     },
     "most_expensive_races": [
 
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "oakland-june-2022": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+      {
+        "slug": "library-services-retention-and-enhancement-act",
+        "type": "referendum",
+        "title": "Measure TBD",
+        "amount": 0
+      }
     ],
     "largest_small_proportion": [
 
