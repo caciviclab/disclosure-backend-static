@@ -3,7 +3,7 @@
     "total_contributions": 3121072.74,
     "total_contributions_by_source": {
       "Out of State": 138591.89,
-      "Within Oakland": 1582533.64,
+      "Within Oakland": 1582533.6400000001,
       "Within California": 969318.01
     },
     "contributions_by_type": {
@@ -24,7 +24,7 @@
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 398594.6
+        "amount": 398594.60000000003
       },
       {
         "slug": "city-council-district-4",
@@ -39,7 +39,7 @@
         "type": "office",
         "title": "Oakland November 4th, 2014 Election",
         "candidate": "Karl Debro",
-        "proportion": 0.8354777834963121,
+        "proportion": 0.8354777834963116,
         "office_title": "OUSD School Director District 4"
       },
       {
@@ -73,7 +73,7 @@
       {
         "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
         "election_name": "oakland-2014",
-        "total_spending": 129086.79000000004
+        "total_spending": 129086.79
       }
     ],
     "top_contributors": [
@@ -197,7 +197,7 @@
     "total_contributions": 21104143.01,
     "total_contributions_by_source": {
       "Out of State": 10551346.459999999,
-      "Within Oakland": 1536901.7399999998,
+      "Within Oakland": 1536901.7400000002,
       "Within California": 8720168.879999999
     },
     "contributions_by_type": {
@@ -218,7 +218,7 @@
         "slug": "just-cause-for-eviction-and-rent-adjustment",
         "type": "referendum",
         "title": "Measure JJ",
-        "amount": 850350.5499999999
+        "amount": 850350.55
       },
       {
         "slug": "city-council-at-large",
@@ -257,12 +257,12 @@
       {
         "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
         "election_name": "oakland-2016",
-        "total_spending": 316696.5099999999
+        "total_spending": 316696.51
       },
       {
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2016",
-        "total_spending": 224049.49999999997
+        "total_spending": 224049.5
       },
       {
         "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
@@ -479,7 +479,7 @@
         "total_spending": 15000.0
       },
       {
-        "name": "KP Financial Svcs Ops",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_spending": 10000.0
@@ -502,7 +502,7 @@
         "total_spending": 15000.0
       },
       {
-        "name": "KP Financial Svcs Ops",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_spending": 10000.0
@@ -565,7 +565,7 @@
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
         "candidate": "Clarissa Doutherd",
-        "proportion": 0.19686159105782727,
+        "proportion": 0.19686159105782725,
         "office_title": "OUSD District 4"
       }
     ],
@@ -583,7 +583,7 @@
       {
         "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
         "election_name": "oakland-2018",
-        "total_spending": 129086.79000000001
+        "total_spending": 129086.79
       }
     ],
     "top_contributors": [
@@ -608,7 +608,7 @@
         "name": "Brenda Roberts",
         "type": "Office",
         "election_name": "oakland-2018",
-        "total_contributions": 53757.130000000005
+        "total_contributions": 53757.13
       },
       {
         "name": "Charlie Michelson",
@@ -668,7 +668,7 @@
         "name": "Brenda Roberts",
         "type": "Office",
         "election_name": "oakland-2018",
-        "total_spending": 53757.130000000005
+        "total_spending": 53757.13
       },
       {
         "name": "Charlie Michelson",
@@ -705,7 +705,7 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3337428.1700000004,
+    "total_contributions": 3337428.170000001,
     "total_contributions_by_source": {
       "Out of State": 205759.91999999998,
       "Within Oakland": 1511661.77,
@@ -713,7 +713,7 @@
     },
     "contributions_by_type": {
       "Committee": 541271.5599999999,
-      "Individual": 1844636.3600000003,
+      "Individual": 1844636.36,
       "Unitemized": 205458.65999999995,
       "Self Funding": 134166.64,
       "Other (includes Businesses)": 509508.44
@@ -723,7 +723,7 @@
         "slug": "ousd-facilities-bond",
         "type": "referendum",
         "title": "Measure Y",
-        "amount": 734390.1599999999
+        "amount": 734390.16
       },
       {
         "slug": "city-council-at-large",
@@ -735,7 +735,7 @@
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 489944.91
+        "amount": 489944.91000000003
       }
     ],
     "largest_small_proportion": [
@@ -752,7 +752,7 @@
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Tri Ngo",
-        "proportion": 0.30320009541786014,
+        "proportion": 0.3032000954178602,
         "office_title": "City Council District 1"
       },
       {
@@ -768,12 +768,12 @@
       {
         "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2020",
-        "total_spending": 395215.8499999999
+        "total_spending": 395215.85
       },
       {
         "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
         "election_name": "oakland-2020",
-        "total_spending": 340009.22000000003
+        "total_spending": 340009.22
       },
       {
         "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
@@ -900,10 +900,10 @@
     ]
   },
   "oakland-march-2020": {
-    "total_contributions": 435340.87999999995,
+    "total_contributions": 435340.88,
     "total_contributions_by_source": {
       "Out of State": 36764.0,
-      "Within Oakland": 199672.63999999996,
+      "Within Oakland": 199672.64,
       "Within California": 198904.24
     },
     "contributions_by_type": {
@@ -916,7 +916,7 @@
         "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
         "type": "referendum",
         "title": "Measure Q",
-        "amount": 435340.87999999995
+        "amount": 435340.88
       },
       {
         "slug": "official-city-newspaper",
@@ -1040,7 +1040,7 @@
     "contributions_by_type": {
       "PTY": 15900.0,
       "Committee": 30050.0,
-      "Individual": 542252.5000000002,
+      "Individual": 542252.5,
       "Unitemized": 25101.95,
       "Self Funding": 1530.0,
       "Other (includes Businesses)": 12700.0
@@ -1133,13 +1133,13 @@
         "total_contributions": 2950.0
       },
       {
-        "name": "Houman Hosseini",
+        "name": "Pourya Behmardikalantari",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 2700.0
       },
       {
-        "name": "Pourya Behmardikalantari",
+        "name": "Houman Hosseini",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 2700.0
