@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1442594,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 128408.47,
+    "total_contributions": 128408.47,
+    "total_expenditures": 3169.99,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 115667.16,
     "support_list": [
       {
@@ -47,11 +47,21 @@
       }
     ],
     "contributions_by_type": {
+      "PTY": 15900.0,
+      "Committee": 6400.0,
+      "Individual": 98265.47,
+      "Unitemized": 4793.0,
+      "Other (includes Businesses)": 3050.0
     },
     "contributions_by_origin": {
+      "Out of State": 8600.0,
+      "Within Oakland": 32644.0,
+      "Within California": 82371.47
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 5566.0,
     "expenditures_by_type": {
+      "Campaign Literature and Mailings": 794.24,
+      "Information Technology Costs (Internet, E-mail)": 1259.08
     },
     "supporting_by_type": {
       "MON": 5300.0,
@@ -67,7 +77,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 128408.47,
+  "total_expenditures": 3169.99,
+  "total_loans_received": 0.0
 }

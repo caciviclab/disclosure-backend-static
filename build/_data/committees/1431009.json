@@ -1,5 +1,5 @@
 {
-  "total_contributions": 360500.0,
+  "total_contributions": 360800.0,
   "contributions": [
     {
       "Filer_ID": "1431009",
@@ -66,6 +66,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Committee for California",
       "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Salesforce.com, Inc.",
+      "Tran_Occ": "Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2021-12-11",
+      "Tran_NamF": "S. Jason",
+      "Tran_NamL": "Salfen",
+      "Tran_Zip4": "94134"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Families in Action for Quality Education",
+      "Tran_Occ": "Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2021-12-12",
+      "Tran_NamF": "Kimi",
+      "Tran_NamL": "Kean",
+      "Tran_Zip4": "94602"
     }
   ]
 }

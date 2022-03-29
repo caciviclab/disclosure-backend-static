@@ -1,5 +1,5 @@
 {
-  "total_contributions": 74549.0,
+  "total_contributions": 75449.0,
   "contributions": [
     {
       "Filer_ID": "1427469",
@@ -1837,6 +1837,17 @@
       "Tran_NamF": "William",
       "Tran_NamL": "Patterson",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1427469",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2021-06-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborers Local 304",
+      "Tran_Zip4": "94544"
     }
   ]
 }

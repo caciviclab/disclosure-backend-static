@@ -1,5 +1,5 @@
 {
-  "total_contributions": 55675.0,
+  "total_contributions": 68175.0,
   "contributions": [
     {
       "Filer_ID": "1428941",
@@ -2266,6 +2266,28 @@
       "Tran_NamF": "Steve",
       "Tran_NamL": "Grevious",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1428941",
+      "Tran_Emp": "Sunswarm Community Solar",
+      "Tran_Occ": "CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 3500.0,
+      "Tran_Date": "2021-06-28",
+      "Tran_NamF": "Aaron",
+      "Tran_NamL": "Clay",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1428941",
+      "Tran_Emp": "Sunswarm Community Solar",
+      "Tran_Occ": "CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 9000.0,
+      "Tran_Date": "2021-06-28",
+      "Tran_NamF": "Aaron",
+      "Tran_NamL": "Clay",
+      "Tran_Zip4": "94605"
     }
   ]
 }

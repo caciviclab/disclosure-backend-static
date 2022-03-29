@@ -1,43 +1,62 @@
 {
-  "total_contributions": 11290.0,
+  "total_contributions": 627534.45,
   "total_contributions_by_source": {
-    "Out of State": 100.0,
-    "Within Oakland": 4800.0,
-    "Within California": 5800.0
+    "Out of State": 53129.59,
+    "Within Oakland": 259609.93,
+    "Within California": 289692.98
   },
   "contributions_by_type": {
-    "Committee": 5350.0,
-    "Individual": 5350.0,
-    "Unitemized": 590.0
+    "PTY": 15900.0,
+    "Committee": 30050.0,
+    "Individual": 542252.5000000002,
+    "Unitemized": 25101.95,
+    "Self Funding": 1530.0,
+    "Other (includes Businesses)": 12700.0
   },
   "most_expensive_races": [
-    {
-      "slug": "city-council-district-2",
-      "type": "office",
-      "title": "City Council District 2",
-      "amount": 11290.0
-    },
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 0
+      "amount": 513804.45
     },
     {
-      "slug": "city-auditor",
+      "slug": "city-council-district-2",
       "type": "office",
-      "title": "City Auditor",
-      "amount": 0
+      "title": "City Council District 2",
+      "amount": 99086.0
+    },
+    {
+      "slug": "city-council-district-6",
+      "type": "office",
+      "title": "City Council District 6",
+      "amount": 14544.0
     }
   ],
   "largest_small_proportion": [
     {
-      "slug": "nikki-fortunato-bas",
+      "slug": "allyssa-victory-villanueva",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Nikki Fortunato Bas",
-      "proportion": 0.05225863596102746,
-      "office_title": "City Council District 2"
+      "candidate": "Allyssa Victory Villanueva",
+      "proportion": 0.1766022949902043,
+      "office_title": "Mayor"
+    },
+    {
+      "slug": "paulina-gonzalez",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Paulina Gonzalez",
+      "proportion": 0.12266226622662266,
+      "office_title": "City Council District 6"
+    },
+    {
+      "slug": "loren-taylor",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Loren Taylor",
+      "proportion": 0.06071785101150736,
+      "office_title": "Mayor"
     }
   ],
   "largest_independent_expenditures": [
@@ -76,22 +95,22 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Sheet Metal Workers' International Association Local 104 PAC",
+      "name": "Robert Wasserman",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 1700.0
+      "total_contributions": 2950.0
     },
     {
-      "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+      "name": "Houman Hosseini",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 1700.0
+      "total_contributions": 2700.0
     },
     {
-      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "name": "Pourya Behmardikalantari",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 1700.0
+      "total_contributions": 2700.0
     }
   ],
   "top_contributors_for_measures": [
@@ -136,22 +155,22 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+      "name": "Robert Wasserman",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 1700.0
+      "total_spending": 2950.0
     },
     {
-      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "name": "Pourya Behmardikalantari",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 1700.0
+      "total_spending": 2700.0
     },
     {
-      "name": "Sheet Metal Workers' International Association Local 104 PAC",
+      "name": "Houman Hosseini",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 1700.0
+      "total_spending": 2700.0
     }
   ],
   "top_spenders_for_measures": [

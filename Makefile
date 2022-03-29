@@ -36,6 +36,7 @@ download: download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
+	download-COAK-2021 download-COAK-2022 \
 
 download-SFO-%:
 	mkdir -p downloads/raw

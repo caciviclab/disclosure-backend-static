@@ -1,5 +1,5 @@
 {
-  "total_contributions": 92670.01000000001,
+  "total_contributions": 112820.07,
   "contributions": [
     {
       "Filer_ID": "1426949",
@@ -3630,6 +3630,72 @@
       "Tran_NamF": "Cozbia",
       "Tran_NamL": "Smith",
       "Tran_Zip4": "38304"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": "City Of Oakland, CA",
+      "Tran_Occ": "Constituent Liaison",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 898.64,
+      "Tran_Date": "2021-01-13",
+      "Tran_NamF": "Victor",
+      "Tran_NamL": "Flores",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2021-01-13",
+      "Tran_NamF": "Christina",
+      "Tran_NamL": "Sanchez",
+      "Tran_Zip4": "94601-4170"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": "City of Oakland, CA",
+      "Tran_Occ": "Deputy City Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2021-01-27",
+      "Tran_NamF": "Elias",
+      "Tran_NamL": "Ferran",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": "Safeway",
+      "Tran_Occ": "Deli Clerk",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 850.0,
+      "Tran_Date": "2021-01-27",
+      "Tran_NamF": "Socorro",
+      "Tran_NamL": "Quinones",
+      "Tran_Zip4": "94601-3671"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": "Orleans Criminal District Court",
+      "Tran_Occ": "Executive Assistant to the Clerk",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2021-03-15",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Flemings",
+      "Tran_Zip4": "70131"
+    },
+    {
+      "Filer_ID": "1426949",
+      "Tran_Emp": "City of Oakland, CA",
+      "Tran_Occ": "Deputy City Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 16601.42,
+      "Tran_Date": "2021-03-17",
+      "Tran_NamF": "Elias",
+      "Tran_NamL": "Ferran",
+      "Tran_Zip4": "94605"
     }
   ]
 }

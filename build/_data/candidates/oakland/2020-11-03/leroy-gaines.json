@@ -23,7 +23,7 @@
   "supporting_money": {
     "contributions_received": 48671.7,
     "total_contributions": 48671.7,
-    "total_expenditures": 47494.94,
+    "total_expenditures": 50171.7,
     "total_loans_received": 0.0,
     "total_supporting_independent": 180582.13,
     "support_list": [
@@ -61,6 +61,9 @@
     "expenditures_by_type": {
       "Print Ads": 600.0,
       "Phone Banks": 3000.0,
+      "Civic Donations": 345.21,
+      "Office Expenses": 384.05,
+      "Campaign Consultants": 1947.5,
       "Campaign Workers' Salaries": 11000.0,
       "Polling and Survey Research": 1787.9,
       "Campaign Paraphernalia/Misc.": 4422.49,
@@ -88,6 +91,6 @@
     ]
   },
   "total_contributions": 48671.7,
-  "total_expenditures": 47494.94,
+  "total_expenditures": 50171.7,
   "total_loans_received": 0.0
 }

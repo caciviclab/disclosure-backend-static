@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1426949,
   "supporting_money": {
-    "contributions_received": 123688.79,
-    "total_contributions": 123688.79,
-    "total_expenditures": 127449.79,
-    "total_loans_received": 16601.42,
+    "contributions_received": 127237.43,
+    "total_contributions": 127237.43,
+    "total_expenditures": 127464.43,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 105552.0,
     "support_list": [
       {
@@ -36,18 +36,19 @@
     ],
     "contributions_by_type": {
       "Committee": 16550.0,
-      "Individual": 67420.01,
+      "Individual": 70318.65,
       "Unitemized": 5677.36,
+      "Self Funding": 17251.42,
       "Other (includes Businesses)": 8700.0
     },
     "contributions_by_origin": {
-      "Out of State": 13075.0,
-      "Within Oakland": 36525.0,
+      "Out of State": 13325.0,
+      "Within Oakland": 56425.06,
       "Within California": 43070.01
     },
     "total_small_contributions": 6617.36,
     "expenditures_by_type": {
-      "Not Stated": 23799.44,
+      "Not Stated": 27580.44,
       "Phone Banks": 395.67,
       "Fundraising Events": 3292.09,
       "Campaign Consultants": 15000.0,
@@ -74,7 +75,7 @@
 
     ]
   },
-  "total_contributions": 123688.79,
-  "total_expenditures": 127449.79,
-  "total_loans_received": 16601.42
+  "total_contributions": 127237.43,
+  "total_expenditures": 127464.43,
+  "total_loans_received": 0.0
 }

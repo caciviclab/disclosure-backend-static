@@ -1,20 +1,20 @@
 ---
 election: _elections/oakland/2022-11-08.md
 candidates:
-- allyssa-victory-villanueva
+- loren-taylor
+- sheng-thao
+- treva-reid
 - derreck-johnson
+- gregory-hodge
+- allyssa-victory-villanueva
 - derrick-soo
 - elbert-owens
-- gregory-hodge
 - ignacio-de-la-fuente
 - john-marks
 - john-reimann
-- loren-taylor
 - peter-liu
 - seneca-scott
-- sheng-thao
 - stephen-schear
-- treva-reid
 - tyron-jordan
 title: Mayor
 label: City-Wide Office

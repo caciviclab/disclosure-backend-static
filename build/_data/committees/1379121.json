@@ -1,5 +1,5 @@
 {
-  "total_contributions": 39525.01,
+  "total_contributions": 40025.01,
   "contributions": [
     {
       "Filer_ID": "1379121",
@@ -1298,6 +1298,17 @@
       "Tran_NamF": "Martin",
       "Tran_NamL": "Caraves",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1379121",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2021-02-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Valle for Alameda County Supervisor 2022",
+      "Tran_Zip4": "94587"
     }
   ]
 }

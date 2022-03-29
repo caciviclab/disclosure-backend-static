@@ -1,5 +1,5 @@
 {
-  "total_contributions": 2542.0,
+  "total_contributions": 3542.0,
   "contributions": [
     {
       "Filer_ID": "1425082",
@@ -88,6 +88,39 @@
       "Tran_NamF": "Matt",
       "Tran_NamL": "Boyd",
       "Tran_Zip4": "unknown"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "East Bay Computer Services Inc.,",
+      "Tran_Occ": "Owner, Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2021-05-30",
+      "Tran_NamF": "Don",
+      "Tran_NamL": "Macleay",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "unknown",
+      "Tran_Occ": "unknown",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2021-09-30",
+      "Tran_NamF": "Matt",
+      "Tran_NamL": "Boyd",
+      "Tran_Zip4": "unknown"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "East Bay Computer Services Inc.,",
+      "Tran_Occ": "Owner, Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2021-12-08",
+      "Tran_NamF": "Don",
+      "Tran_NamL": "Macleay",
+      "Tran_Zip4": "94609"
     }
   ]
 }

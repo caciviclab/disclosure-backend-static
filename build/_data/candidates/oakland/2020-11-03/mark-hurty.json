@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1422177,
   "supporting_money": {
-    "contributions_received": 19224.0,
-    "total_contributions": 19224.0,
-    "total_expenditures": 19276.44,
-    "total_loans_received": 115.0,
+    "contributions_received": 19109.0,
+    "total_contributions": 19109.0,
+    "total_expenditures": 19639.81,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 40444.65,
     "support_list": [
       {
@@ -48,9 +48,10 @@
     },
     "total_small_contributions": 703.0,
     "expenditures_by_type": {
+      "Civic Donations": 263.37,
       "Office Expenses": 195.0,
       "Campaign Consultants": 950.0,
-      "Candidate Filing/Ballot Fees": 1000.0,
+      "Candidate Filing/Ballot Fees": 1100.0,
       "Campaign Literature and Mailings": 16340.85,
       "Professional Services (Legal, Accounting)": 250.0
     },
@@ -67,7 +68,7 @@
 
     ]
   },
-  "total_contributions": 19224.0,
-  "total_expenditures": 19276.44,
-  "total_loans_received": 115.0
+  "total_contributions": 19109.0,
+  "total_expenditures": 19639.81,
+  "total_loans_received": 0.0
 }

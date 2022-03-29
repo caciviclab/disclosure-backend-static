@@ -1,5 +1,5 @@
 {
-  "total_contributions": 155323.94999999987,
+  "total_contributions": 154873.94999999987,
   "contributions": [
     {
       "Filer_ID": "1366759",
@@ -6006,6 +6006,61 @@
       "Tran_NamF": "Josephine",
       "Tran_NamL": "Camacho",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Alameda Labor Council",
+      "Tran_Occ": "Executive-Secretary Treasurer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -100.0,
+      "Tran_Date": "2021-01-01",
+      "Tran_NamF": "Josephine",
+      "Tran_NamL": "Camacho",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Self-Employed",
+      "Tran_Occ": "Writer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -800.0,
+      "Tran_Date": "2021-02-16",
+      "Tran_NamF": "Elaine",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Aspire Public Schools",
+      "Tran_Occ": "Middle School Mathematics Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2021-04-29",
+      "Tran_NamF": "Mary",
+      "Tran_NamL": "Prime-Lawrence",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Sutter Health",
+      "Tran_Occ": "Counsel",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2021-07-06",
+      "Tran_NamF": "Koren",
+      "Tran_NamL": "Stevenson",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2021-07-06",
+      "Tran_NamF": "Gordon",
+      "Tran_NamL": "Wozniak",
+      "Tran_Zip4": "94705"
     }
   ]
 }

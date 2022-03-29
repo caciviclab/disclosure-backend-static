@@ -1,5 +1,5 @@
 {
-  "total_contributions": 31429.73,
+  "total_contributions": 31529.73,
   "contributions": [
     {
       "Filer_ID": "1427826",
@@ -1419,6 +1419,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Education Association",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1427826",
+      "Tran_Emp": "San Francisco USD",
+      "Tran_Occ": "teahcer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2021-07-20",
+      "Tran_NamF": "VanCedric",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94611"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 72806.51,
+  "total_contributions": 74606.51,
   "contributions": [
     {
       "Filer_ID": "1387905",
@@ -1276,6 +1276,28 @@
       "Tran_NamF": "Larry",
       "Tran_NamL": "Reid",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1387905",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2021-02-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "AMG & Associates, LLC(Gevorgian Alexis)",
+      "Tran_Zip4": "91436"
+    },
+    {
+      "Filer_ID": "1387905",
+      "Tran_Emp": "CJ Land Consultants, LLC",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2021-02-22",
+      "Tran_NamF": "Cameron",
+      "Tran_NamL": "Johnson",
+      "Tran_Zip4": "91301-3561"
     }
   ]
 }

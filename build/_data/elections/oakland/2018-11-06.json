@@ -1,16 +1,16 @@
 {
-  "total_contributions": 6829811.890000001,
+  "total_contributions": 6902498.73,
   "total_contributions_by_source": {
-    "Out of State": 897271.36,
-    "Within Oakland": 2612590.65,
-    "Within California": 2891499.3899999997
+    "Out of State": 898521.36,
+    "Within Oakland": 2655740.65,
+    "Within California": 2919101.8299999996
   },
   "contributions_by_type": {
-    "Committee": 969189.14,
-    "Individual": 2661079.71,
-    "Unitemized": 154536.51,
+    "Committee": 976689.14,
+    "Individual": 2723929.71,
+    "Unitemized": 157108.78,
     "Self Funding": 86218.73000000001,
-    "Other (includes Businesses)": 2684873.8200000003
+    "Other (includes Businesses)": 2686526.2600000002
   },
   "most_expensive_races": [
     {
@@ -23,7 +23,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 899913.3500000001
+      "amount": 943155.79
     },
     {
       "slug": "just-cause-eviction-amendments",
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Clarissa Doutherd",
-      "proportion": 0.19686159105782725,
+      "proportion": 0.19686159105782727,
       "office_title": "OUSD District 4"
     }
   ],
@@ -72,7 +72,7 @@
     {
       "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
       "election_name": "oakland-2018",
-      "total_spending": 129086.79
+      "total_spending": 129086.79000000001
     }
   ],
   "top_contributors": [
@@ -97,7 +97,7 @@
       "name": "Brenda Roberts",
       "type": "Office",
       "election_name": "oakland-2018",
-      "total_contributions": 53757.13
+      "total_contributions": 53757.130000000005
     },
     {
       "name": "Charlie Michelson",
@@ -157,7 +157,7 @@
       "name": "Brenda Roberts",
       "type": "Office",
       "election_name": "oakland-2018",
-      "total_spending": 53757.13
+      "total_spending": 53757.130000000005
     },
     {
       "name": "Charlie Michelson",
