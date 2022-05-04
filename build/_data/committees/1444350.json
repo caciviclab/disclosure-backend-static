@@ -1,6 +1,27 @@
 {
-  "total_contributions": 0,
+  "total_contributions": 202500.0,
   "contributions": [
-
+    {
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-03-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Firefighter Local 55 Political Action, Sponsored by: Int'l Assoc. of Firefighter Local 55",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 200000.0,
+      "Tran_Date": "2022-03-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Tran_Zip4": "95814"
+    }
   ]
 }
