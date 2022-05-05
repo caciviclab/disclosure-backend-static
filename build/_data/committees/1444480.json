@@ -1,6 +1,27 @@
 {
-  "total_contributions": 0,
+  "total_contributions": 200000.0,
   "contributions": [
-
+    {
+      "Filer_ID": "1444480",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2022-01-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1444480",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2022-03-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+      "Tran_Zip4": "94605"
+    }
   ]
 }
