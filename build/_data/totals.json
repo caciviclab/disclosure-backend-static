@@ -1,10 +1,10 @@
 {
   "oakland-2014": {
-    "total_contributions": 3121072.74,
+    "total_contributions": 3121072.7399999998,
     "total_contributions_by_source": {
       "Out of State": 138591.89,
       "Within Oakland": 1582533.6400000001,
-      "Within California": 969318.01
+      "Within California": 969318.0099999999
     },
     "contributions_by_type": {
       "Committee": 156538.05,
@@ -18,13 +18,13 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1991429.2000000002
+        "amount": 1991429.1999999997
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 398594.60000000003
+        "amount": 398594.6
       },
       {
         "slug": "city-council-district-4",
@@ -1041,7 +1041,7 @@
       "PTY": 15900.0,
       "Committee": 30050.0,
       "Individual": 542252.5,
-      "Unitemized": 25101.95,
+      "Unitemized": 25101.949999999997,
       "Self Funding": 1530.0,
       "Other (includes Businesses)": 12700.0
     },
@@ -1050,7 +1050,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 513804.45
+        "amount": 513804.44999999995
       },
       {
         "slug": "city-council-district-2",
