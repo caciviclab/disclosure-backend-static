@@ -5,6 +5,7 @@ filer_id: '1442792'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Janani Ramachandran
+occupation: Attorney
 photo_url: Janani_Ramachandran.png
 twitter_url: Janani4Oakland
 website_url: https://jananiforoakland.com/

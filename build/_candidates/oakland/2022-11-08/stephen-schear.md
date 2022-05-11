@@ -4,5 +4,6 @@ filer_id: ''
 is_incumbent: false
 name: Stephen Schear
 occupation: Attorney
+photo_url: stephen-schear-sm.png
 website_url: https://stephenschear.com/
 ---

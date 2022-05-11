@@ -6,6 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Tyron Jordan
 occupation: Department of Justice legal analyst
+photo_url: TyronJordan-sm.png
 twitter_url: TyronJordan13
 website_url: https://www.tyronjordanforoakland.com/
 ---

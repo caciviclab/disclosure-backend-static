@@ -1,5 +1,5 @@
 {
-  "total_contributions": 12949.25,
+  "total_contributions": 22949.25,
   "contributions": [
     {
       "Filer_ID": "1425443",
@@ -748,6 +748,17 @@
       "Tran_NamF": "John",
       "Tran_NamL": "LaCroix",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1425443",
+      "Tran_Emp": "One Fair Wage",
+      "Tran_Occ": "President of @onefairwage",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-02-01",
+      "Tran_NamF": "Saru",
+      "Tran_NamL": "Jayaraman",
+      "Tran_Zip4": "94605"
     }
   ]
 }
