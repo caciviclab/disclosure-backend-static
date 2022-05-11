@@ -1,7 +1,7 @@
 ---
 election: '2022-06-07'
 locality: oakland
-number: TBD
+number: C
 title: Library Services Retention and Enhancement Act
 data_warning: 
 ---

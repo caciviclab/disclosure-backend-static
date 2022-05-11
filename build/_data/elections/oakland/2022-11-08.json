@@ -1,17 +1,17 @@
 {
-  "total_contributions": 628534.45,
+  "total_contributions": 1317034.45,
   "total_contributions_by_source": {
-    "Out of State": 53129.59,
-    "Within Oakland": 259609.93,
-    "Within California": 290692.98
+    "Out of State": 68129.59,
+    "Within Oakland": 548109.9299999999,
+    "Within California": 675692.98
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 30050.0,
+    "Committee": 232550.0,
     "Individual": 543252.5,
     "Unitemized": 25101.949999999997,
     "Self Funding": 1530.0,
-    "Other (includes Businesses)": 12700.0
+    "Other (includes Businesses)": 498700.0
   },
   "most_expensive_races": [
     {
@@ -21,16 +21,16 @@
       "amount": 514804.44999999995
     },
     {
-      "slug": "city-council-district-2",
-      "type": "office",
-      "title": "City Council District 2",
-      "amount": 99086.0
+      "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
+      "type": "referendum",
+      "title": "Measure TBD3",
+      "amount": 286000.0
     },
     {
-      "slug": "city-council-district-6",
-      "type": "office",
-      "title": "City Council District 6",
-      "amount": 14544.0
+      "slug": "invest-in-our-oakland-small-business-tax-relief-act",
+      "type": "referendum",
+      "title": "Measure TBD1",
+      "amount": 202500.0
     }
   ],
   "largest_small_proportion": [
@@ -66,7 +66,7 @@
       "total_spending": 174628.0
     },
     {
-      "name": "Committee for an Affordable East Bay supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+      "name": "Committee for an Affordable East Bay",
       "election_name": "oakland-2022",
       "total_spending": 133700.0
     },

@@ -255,7 +255,7 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2016",
         "total_spending": 316696.51
       },
@@ -510,7 +510,7 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6902498.73,
+    "total_contributions": 6902498.7299999995,
     "total_contributions_by_source": {
       "Out of State": 898521.36,
       "Within Oakland": 2655740.65,
@@ -571,7 +571,7 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2018",
         "total_spending": 149368.03
       },
@@ -771,7 +771,7 @@
         "total_spending": 395215.85
       },
       {
-        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2020",
         "total_spending": 340009.22
       },
@@ -1031,19 +1031,19 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 628534.45,
+    "total_contributions": 1317034.45,
     "total_contributions_by_source": {
-      "Out of State": 53129.59,
-      "Within Oakland": 259609.93,
-      "Within California": 290692.98
+      "Out of State": 68129.59,
+      "Within Oakland": 548109.9299999999,
+      "Within California": 675692.98
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 30050.0,
+      "Committee": 232550.0,
       "Individual": 543252.5,
       "Unitemized": 25101.949999999997,
       "Self Funding": 1530.0,
-      "Other (includes Businesses)": 12700.0
+      "Other (includes Businesses)": 498700.0
     },
     "most_expensive_races": [
       {
@@ -1053,16 +1053,16 @@
         "amount": 514804.44999999995
       },
       {
-        "slug": "city-council-district-2",
-        "type": "office",
-        "title": "City Council District 2",
-        "amount": 99086.0
+        "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
+        "type": "referendum",
+        "title": "Measure TBD3",
+        "amount": 286000.0
       },
       {
-        "slug": "city-council-district-6",
-        "type": "office",
-        "title": "City Council District 6",
-        "amount": 14544.0
+        "slug": "invest-in-our-oakland-small-business-tax-relief-act",
+        "type": "referendum",
+        "title": "Measure TBD1",
+        "amount": 202500.0
       }
     ],
     "largest_small_proportion": [
@@ -1098,7 +1098,7 @@
         "total_spending": 174628.0
       },
       {
-        "name": "Committee for an Affordable East Bay supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020",
+        "name": "Committee for an Affordable East Bay",
         "election_name": "oakland-2022",
         "total_spending": 133700.0
       },
@@ -1260,17 +1260,23 @@
     ]
   },
   "oakland-june-2022": {
-    "total_contributions": 0.0,
+    "total_contributions": 54550.0,
     "total_contributions_by_source": {
+      "Out of State": 700.0,
+      "Within Oakland": 48750.0,
+      "Within California": 5100.0
     },
     "contributions_by_type": {
+      "Committee": 1000.0,
+      "Individual": 7850.0,
+      "Other (includes Businesses)": 45700.0
     },
     "most_expensive_races": [
       {
         "slug": "library-services-retention-and-enhancement-act",
         "type": "referendum",
-        "title": "Measure TBD",
-        "amount": 0
+        "title": "Measure C",
+        "amount": 54550.0
       }
     ],
     "largest_small_proportion": [
@@ -1279,22 +1285,87 @@
     "largest_independent_expenditures": {
     },
     "top_contributors": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 40000.0
+      },
+      {
+        "name": "Jamie Turbak",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 5000.0
+      },
+      {
+        "name": "Friends of the Rockridge Library",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 2500.0
+      }
     ],
     "top_contributors_for_offices": [
 
     ],
     "top_contributors_for_measures": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 40000.0
+      },
+      {
+        "name": "Jamie Turbak",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 5000.0
+      },
+      {
+        "name": "Friends of the Rockridge Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 2500.0
+      }
     ],
     "top_spenders": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 40000.0
+      },
+      {
+        "name": "Jamie Turbak",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 5000.0
+      },
+      {
+        "name": "Friends of the Rockridge Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 2500.0
+      }
     ],
     "top_spenders_for_offices": [
 
     ],
     "top_spenders_for_measures": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 40000.0
+      },
+      {
+        "name": "Jamie Turbak",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 5000.0
+      },
+      {
+        "name": "Friends of the Rockridge Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 2500.0
+      }
     ]
   },
   "sf-june-2018": {

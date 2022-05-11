@@ -1,0 +1,38 @@
+{
+  "id": 5,
+  "contest_type": "Referendum",
+  "name": "Progressive and Equitable Oakland Gross Receipts Tax",
+  "title": "Progressive and Equitable Oakland Gross Receipts Tax",
+  "summary": null,
+  "number": "TBD3",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 15000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 185000.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 86000.0,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 286000.0
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1445852",
+      "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
+      "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
+      "amount": 8263.71
+    }
+  ],
+  "total_contributions": 286000.0
+}
