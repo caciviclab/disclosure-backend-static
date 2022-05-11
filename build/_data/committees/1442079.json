@@ -1,5 +1,5 @@
 {
-  "total_contributions": 106253.59000000001,
+  "total_contributions": 107253.59000000001,
   "contributions": [
     {
       "Filer_ID": "1442079",
@@ -2717,6 +2717,17 @@
       "Tran_NamF": "Courtney",
       "Tran_NamL": "Welch",
       "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1442079",
+      "Tran_Emp": "Karla Jurvetson",
+      "Tran_Occ": "Physician",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-05-07",
+      "Tran_NamF": "Karla",
+      "Tran_NamL": "Jurvetson",
+      "Tran_Zip4": "94022"
     }
   ]
 }
