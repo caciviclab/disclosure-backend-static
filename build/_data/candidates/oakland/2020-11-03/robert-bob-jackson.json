@@ -21,34 +21,37 @@
   "is_winner": null,
   "filer_id": 1421001,
   "supporting_money": {
-    "contributions_received": 81876.14,
-    "total_contributions": 81876.14,
-    "total_expenditures": 58626.71,
+    "contributions_received": 171614.83,
+    "total_contributions": 171614.83,
+    "total_expenditures": 152818.24,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 70464.84,
-      "Unitemized": 5161.3,
-      "Self Funding": 2000.0,
-      "Other (includes Businesses)": 4250.0
+      "Committee": 7793.87,
+      "Individual": 76086.67,
+      "Unitemized": 10316.99,
+      "Self Funding": 2300.0,
+      "Other (includes Businesses)": 5048.96
     },
     "contributions_by_origin": {
       "Out of State": 2000.0,
-      "Within Oakland": 50111.56,
-      "Within California": 24603.28
+      "Within Oakland": 60657.53,
+      "Within California": 28571.97
     },
-    "total_small_contributions": 5632.0,
+    "total_small_contributions": 11280.19,
     "expenditures_by_type": {
-      "Print Ads": 10716.86,
-      "Not Stated": 2750.0,
-      "Office Expenses": 5458.38,
-      "Campaign Paraphernalia/Misc.": 22598.03,
-      "Campaign Literature and Mailings": 6513.42,
-      "Professional Services (Legal, Accounting)": 3985.06,
-      "Information Technology Costs (Internet, E-mail)": 6359.8
+      "Print Ads": 20917.08,
+      "Not Stated": 15163.2,
+      "Phone Banks": 366.24,
+      "Office Expenses": 11072.41,
+      "Campaign Consultants": 2000.0,
+      "Campaign Paraphernalia/Misc.": 45293.05,
+      "Campaign Literature and Mailings": 39628.25,
+      "Professional Services (Legal, Accounting)": 5385.06,
+      "Information Technology Costs (Internet, E-mail)": 12719.6
     },
     "supporting_by_type": {
     }
@@ -61,7 +64,7 @@
 
     ]
   },
-  "total_contributions": 81876.14,
-  "total_expenditures": 58626.71,
+  "total_contributions": 171614.83,
+  "total_expenditures": 152818.24,
   "total_loans_received": 0.0
 }

@@ -8,7 +8,7 @@
   "contributions_by_type": {
     "PTY": 15900.0,
     "Committee": 232550.0,
-    "Individual": 543252.5,
+    "Individual": 543252.5000000005,
     "Unitemized": 25101.949999999997,
     "Self Funding": 1530.0,
     "Other (includes Businesses)": 498700.0
@@ -88,9 +88,9 @@
       "total_contributions": 311602.0
     },
     {
-      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
       "election_name": "oakland-2022",
-      "total_contributions": 212000.0
+      "total_contributions": 250000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -115,6 +115,12 @@
   ],
   "top_contributors_for_measures": [
     {
+      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+      "type": "Measure",
+      "election_name": "oakland-2022",
+      "total_contributions": 250000.0
+    },
+    {
       "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "type": "Measure",
       "election_name": "oakland-2022",
@@ -125,12 +131,6 @@
       "type": "Measure",
       "election_name": "oakland-2022",
       "total_contributions": 200000.0
-    },
-    {
-      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
-      "type": "Measure",
-      "election_name": "oakland-2022",
-      "total_contributions": 100000.0
     }
   ],
   "top_spenders": [
@@ -147,10 +147,10 @@
       "total_spending": 311602.0
     },
     {
-      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 212000.0
+      "total_spending": 250000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -187,10 +187,10 @@
       "total_spending": 311602.0
     },
     {
-      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 212000.0
+      "total_spending": 250000.0
     }
   ]
 }

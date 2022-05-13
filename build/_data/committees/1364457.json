@@ -1,5 +1,5 @@
 {
-  "total_contributions": 67143.6,
+  "total_contributions": 67218.6,
   "contributions": [
     {
       "Filer_ID": "1364457",
@@ -3249,6 +3249,17 @@
     {
       "Filer_ID": "1364457",
       "Tran_Emp": null,
+      "Tran_Occ": "Homemaker/Mom",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2018-03-16",
+      "Tran_NamF": "Ineke",
+      "Tran_NamL": "Gentner",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1364457",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": -800.0,
@@ -3300,6 +3311,17 @@
       "Tran_NamF": "Eleanore",
       "Tran_NamL": "Stovall",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1364457",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2018-03-20",
+      "Tran_NamF": "Meyer",
+      "Tran_NamL": "Bethany",
+      "Tran_Zip4": "94605"
     }
   ]
 }

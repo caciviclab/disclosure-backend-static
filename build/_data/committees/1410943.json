@@ -1,5 +1,5 @@
 {
-  "total_contributions": 471022.99,
+  "total_contributions": 471472.99,
   "contributions": [
     {
       "Filer_ID": "1410943",
@@ -432,6 +432,17 @@
     },
     {
       "Filer_ID": "1410943",
+      "Tran_Emp": "Thomas A. Rubin",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-16",
+      "Tran_NamF": "Thomas A.",
+      "Tran_NamL": "Rubin",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1410943",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -440,6 +451,17 @@
       "Tran_NamF": "Ronald",
       "Tran_NamL": "Stansbury",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410943",
+      "Tran_Emp": "Morrison Foerster",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 350.0,
+      "Tran_Date": "2018-10-17",
+      "Tran_NamF": "Paul",
+      "Tran_NamL": "Friedman",
+      "Tran_Zip4": "94618"
     },
     {
       "Filer_ID": "1410943",
