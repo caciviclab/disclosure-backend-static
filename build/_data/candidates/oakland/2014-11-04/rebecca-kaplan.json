@@ -25,7 +25,7 @@
     "total_contributions": 473113.36,
     "total_expenditures": 468570.83,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 244194.56,
+    "total_supporting_independent": 244160.56,
     "support_list": [
       {
         "Total": 10000.0,
@@ -46,7 +46,7 @@
         "Filer_NamL": "Oakland Civil Liberties Alliance"
       },
       {
-        "Total": 9400.61,
+        "Total": 9366.61,
         "Cand_ID": 1367270,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund"
@@ -88,9 +88,8 @@
     "supporting_by_type": {
       "IKD": 507.0,
       "MON": 10593.0,
-      "Voter guide": 5944.0,
-      "Mailing list": 315.0,
-      "Estimate design cost": 336.0,
+      "Voter guide printing (actual cost)": 5944.0,
+      "Actual cost of voter guide design and mailing list": 617.0,
       "Independent Expenditure Supporting/Opposing Others": 238229.56
     }
   },
