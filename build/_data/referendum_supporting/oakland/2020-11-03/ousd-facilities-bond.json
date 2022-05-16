@@ -8,15 +8,15 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4174?cty=ca%2falm",
   "contributions_by_region": [
     {
-      "amount": 41265.3,
+      "amount": 41265.299999999996,
       "locale": "Out of State"
     },
     {
-      "amount": 422959.9,
+      "amount": 422959.9000000001,
       "locale": "Within California"
     },
     {
-      "amount": 270164.96,
+      "amount": 270164.95999999996,
       "locale": "Within Oakland"
     }
   ],
@@ -27,7 +27,7 @@
     },
     {
       "type": "Individual",
-      "amount": 162491.16
+      "amount": 162491.15999999992
     },
     {
       "type": "Other (includes Businesses)",
@@ -39,7 +39,7 @@
       "id": "960997",
       "name": "Friends of Oakland Public Schools - Yes on Measure Y",
       "payee": "Friends of Oakland Public Schools - Yes on Measure Y",
-      "amount": 655298.03
+      "amount": 719988.21
     }
   ],
   "total_contributions": 734390.16

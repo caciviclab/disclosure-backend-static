@@ -1,5 +1,5 @@
 {
-  "total_contributions": 305973.58999999997,
+  "total_contributions": 328293.58999999997,
   "contributions": [
     {
       "Filer_ID": "1410941",
@@ -69,6 +69,17 @@
     },
     {
       "Filer_ID": "1410941",
+      "Tran_Emp": "Irina Gelfenbeyn",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": "Irina",
+      "Tran_NamL": "Gelfenbeyn",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1410941",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -105,11 +116,44 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Ma Properties Duel Brae Apts",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 135.0,
       "Tran_Date": "2018-09-24",
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management, Inc.",
       "Tran_Zip4": "94661"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 135.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management, Inc.",
+      "Tran_Zip4": "10022"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 19950.0,
+      "Tran_Date": "2018-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Morse Management, Inc.",
+      "Tran_Zip4": "10022"
     },
     {
       "Filer_ID": "1410941",
@@ -396,6 +440,17 @@
       "Tran_NamF": "Vanessa",
       "Tran_NamL": "Washington",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2018-10-06",
+      "Tran_NamF": "Carlton",
+      "Tran_NamL": "Jones",
+      "Tran_Zip4": "94705"
     },
     {
       "Filer_ID": "1410941",
@@ -748,6 +803,17 @@
       "Tran_NamF": "John J.",
       "Tran_NamL": "Mapel",
       "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1410941",
+      "Tran_Emp": "Garrett Riegg",
+      "Tran_Occ": "Investor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2018-10-19",
+      "Tran_NamF": "Garrett",
+      "Tran_NamL": "Riegg",
+      "Tran_Zip4": "94606"
     },
     {
       "Filer_ID": "1410941",
