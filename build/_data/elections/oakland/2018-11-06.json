@@ -1,5 +1,5 @@
 {
-  "total_contributions": 6976083.830000001,
+  "total_contributions": 6976083.83,
   "total_contributions_by_source": {
     "Out of State": 958776.36,
     "Within Oakland": 2659345.65,
@@ -10,7 +10,7 @@
     "Individual": 2730034.71,
     "Unitemized": 157801.78,
     "Self Funding": 86218.73000000001,
-    "Other (includes Businesses)": 2748781.26
+    "Other (includes Businesses)": 2748781.2600000002
   },
   "most_expensive_races": [
     {
@@ -23,13 +23,13 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 943155.7900000002
+      "amount": 943155.79
     },
     {
       "slug": "just-cause-eviction-amendments",
       "type": "referendum",
       "title": "Measure Y",
-      "amount": 839177.38
+      "amount": 839177.3800000001
     }
   ],
   "largest_small_proportion": [
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Clarissa Doutherd",
-      "proportion": 0.19686159105782727,
+      "proportion": 0.19686159105782725,
       "office_title": "OUSD District 4"
     }
   ],
@@ -97,7 +97,7 @@
       "name": "Brenda Roberts",
       "type": "Office",
       "election_name": "oakland-2018",
-      "total_contributions": 53757.130000000005
+      "total_contributions": 53757.13
     },
     {
       "name": "Charlie Michelson",
@@ -157,7 +157,7 @@
       "name": "Brenda Roberts",
       "type": "Office",
       "election_name": "oakland-2018",
-      "total_spending": 53757.130000000005
+      "total_spending": 53757.13
     },
     {
       "name": "Charlie Michelson",
