@@ -1260,15 +1260,15 @@
     ]
   },
   "oakland-june-2022": {
-    "total_contributions": 54550.0,
+    "total_contributions": 71550.0,
     "total_contributions_by_source": {
       "Out of State": 700.0,
-      "Within Oakland": 48750.0,
-      "Within California": 5100.0
+      "Within Oakland": 50750.0,
+      "Within California": 20100.0
     },
     "contributions_by_type": {
-      "Committee": 1000.0,
-      "Individual": 7850.0,
+      "Committee": 16000.0,
+      "Individual": 9850.0,
       "Other (includes Businesses)": 45700.0
     },
     "most_expensive_races": [
@@ -1276,7 +1276,7 @@
         "slug": "library-services-retention-and-enhancement-act",
         "type": "referendum",
         "title": "Measure C",
-        "amount": 54550.0
+        "amount": 71550.0
       }
     ],
     "largest_small_proportion": [
@@ -1291,14 +1291,14 @@
         "total_contributions": 40000.0
       },
       {
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 10000.0
+      },
+      {
         "name": "Jamie Turbak",
         "election_name": "oakland-june-2022",
         "total_contributions": 5000.0
-      },
-      {
-        "name": "Friends of the Rockridge Library",
-        "election_name": "oakland-june-2022",
-        "total_contributions": 2500.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1312,16 +1312,16 @@
         "total_contributions": 40000.0
       },
       {
-        "name": "Jamie Turbak",
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 10000.0
+      },
+      {
+        "name": "Oakland Police Officer's Association PAC",
         "type": "Measure",
         "election_name": "oakland-june-2022",
         "total_contributions": 5000.0
-      },
-      {
-        "name": "Friends of the Rockridge Library",
-        "type": "Measure",
-        "election_name": "oakland-june-2022",
-        "total_contributions": 2500.0
       }
     ],
     "top_spenders": [
@@ -1332,16 +1332,16 @@
         "total_spending": 40000.0
       },
       {
-        "name": "Jamie Turbak",
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 10000.0
+      },
+      {
+        "name": "Oakland Police Officer's Association PAC",
         "type": "Measure",
         "election_name": "oakland-june-2022",
         "total_spending": 5000.0
-      },
-      {
-        "name": "Friends of the Rockridge Library",
-        "type": "Measure",
-        "election_name": "oakland-june-2022",
-        "total_spending": 2500.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1355,16 +1355,16 @@
         "total_spending": 40000.0
       },
       {
-        "name": "Jamie Turbak",
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 10000.0
+      },
+      {
+        "name": "Oakland Police Officer's Association PAC",
         "type": "Measure",
         "election_name": "oakland-june-2022",
         "total_spending": 5000.0
-      },
-      {
-        "name": "Friends of the Rockridge Library",
-        "type": "Measure",
-        "election_name": "oakland-june-2022",
-        "total_spending": 2500.0
       }
     ]
   },

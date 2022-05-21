@@ -1,5 +1,5 @@
 {
-  "total_contributions": 54550.0,
+  "total_contributions": 71550.0,
   "contributions": [
     {
       "Filer_ID": "1445857",
@@ -231,6 +231,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "The Friends of the Montclair Library",
       "Tran_Zip4": "94611-2257"
+    },
+    {
+      "Filer_ID": "1445857",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-05-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Police Officer's Association PAC",
+      "Tran_Zip4": "95815"
+    },
+    {
+      "Filer_ID": "1445857",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-05-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local #1021 Issues PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1445857",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Policy Analyst",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-05-18",
+      "Tran_NamF": "Caleb",
+      "Tran_NamL": "Smith",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1445857",
+      "Tran_Emp": "David Smith",
+      "Tran_Occ": "Program Evaluation/Design Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-05-18",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Smith",
+      "Tran_Zip4": "94602"
     }
   ]
 }
