@@ -21,29 +21,24 @@
   "is_winner": null,
   "filer_id": 1423821,
   "supporting_money": {
-    "contributions_received": 99086.0,
-    "total_contributions": 99086.0,
-    "total_expenditures": 28477.51,
+    "contributions_received": 87796.0,
+    "total_contributions": 87796.0,
+    "total_expenditures": 24619.26,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 113018.0,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 113018.0,
-        "Cand_ID": 1423821,
-        "Filer_ID": "1390351",
-        "Filer_NamL": "East Bay Working Families, a coalition of unions and community groups"
-      }
+
     ],
     "contributions_by_type": {
-      "Committee": 21850.0,
-      "Individual": 72239.0,
+      "Committee": 16500.0,
+      "Individual": 66889.0,
       "Unitemized": 3797.0,
       "Other (includes Businesses)": 1200.0
     },
     "contributions_by_origin": {
-      "Out of State": 4550.0,
-      "Within Oakland": 52129.0,
-      "Within California": 38610.0
+      "Out of State": 4450.0,
+      "Within Oakland": 47329.0,
+      "Within California": 32810.0
     },
     "total_small_contributions": 4917.0,
     "expenditures_by_type": {
@@ -71,7 +66,7 @@
 
     ]
   },
-  "total_contributions": 99086.0,
-  "total_expenditures": 28477.51,
+  "total_contributions": 87796.0,
+  "total_expenditures": 24619.26,
   "total_loans_received": 0.0
 }
