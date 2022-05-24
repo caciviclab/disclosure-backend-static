@@ -61,16 +61,6 @@
   ],
   "largest_independent_expenditures": [
     {
-      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
-      "election_name": "oakland-2022",
-      "total_spending": 174628.0
-    },
-    {
-      "name": "Committee for an Affordable East Bay",
-      "election_name": "oakland-2022",
-      "total_spending": 133700.0
-    },
-    {
       "name": "East Bay Working Families, a coalition of unions and community groups",
       "election_name": "oakland-2022",
       "total_spending": 113018.0
@@ -78,19 +68,19 @@
   ],
   "top_contributors": [
     {
-      "name": "MICHAEL BLOOMBERG",
+      "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "election_name": "oakland-2022",
-      "total_contributions": 720000.0
+      "total_contributions": 200000.0
     },
     {
-      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "election_name": "oakland-2022",
-      "total_contributions": 311602.0
+      "total_contributions": 200000.0
     },
     {
-      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+      "name": "International Association of Firefighters Local 55 - General Fund",
       "election_name": "oakland-2022",
-      "total_contributions": 250000.0
+      "total_contributions": 105779.06
     }
   ],
   "top_contributors_for_offices": [
@@ -115,12 +105,6 @@
   ],
   "top_contributors_for_measures": [
     {
-      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
-      "type": "Measure",
-      "election_name": "oakland-2022",
-      "total_contributions": 250000.0
-    },
-    {
       "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2022",
@@ -131,26 +115,32 @@
       "type": "Measure",
       "election_name": "oakland-2022",
       "total_contributions": 200000.0
+    },
+    {
+      "name": "TMG Partners",
+      "type": "Measure",
+      "election_name": "oakland-2022",
+      "total_contributions": 75000.0
     }
   ],
   "top_spenders": [
     {
-      "name": "MICHAEL BLOOMBERG",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 720000.0
+      "total_spending": 200000.0
     },
     {
-      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 311602.0
+      "total_spending": 200000.0
     },
     {
-      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+      "name": "International Association of Firefighters Local 55 - General Fund",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 250000.0
+      "total_spending": 105779.06
     }
   ],
   "top_spenders_for_offices": [
@@ -175,22 +165,22 @@
   ],
   "top_spenders_for_measures": [
     {
-      "name": "MICHAEL BLOOMBERG",
+      "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 720000.0
+      "total_spending": 200000.0
     },
     {
-      "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 311602.0
+      "total_spending": 200000.0
     },
     {
-      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+      "name": "International Association of Firefighters Local 55 - General Fund",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 250000.0
+      "total_spending": 105779.06
     }
   ]
 }

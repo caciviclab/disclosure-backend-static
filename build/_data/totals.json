@@ -194,25 +194,25 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 21126177.01,
+    "total_contributions": 20940460.82,
     "total_contributions_by_source": {
-      "Out of State": 10551346.459999999,
-      "Within Oakland": 1536501.7400000002,
-      "Within California": 8720168.879999999
+      "Out of State": 10533130.27,
+      "Within Oakland": 1456001.7400000002,
+      "Within California": 8633168.879999999
     },
     "contributions_by_type": {
-      "Committee": 8511134.030000001,
-      "Individual": 10307872.77,
+      "Committee": 8423134.030000001,
+      "Individual": 10284156.58,
       "Unitemized": 70529.93,
       "Self Funding": 124742.81999999999,
-      "Other (includes Businesses)": 1864267.46
+      "Other (includes Businesses)": 1790267.46
     },
     "most_expensive_races": [
       {
         "slug": "sugar-sweetened-beverage-tax",
         "type": "referendum",
         "title": "Measure HH",
-        "amount": 18073836.560000002
+        "amount": 18055620.37
       },
       {
         "slug": "just-cause-for-eviction-and-rent-adjustment",
@@ -274,7 +274,7 @@
       {
         "name": "MICHAEL BLOOMBERG",
         "election_name": "oakland-2016",
-        "total_contributions": 9357387.2
+        "total_contributions": 9339171.01
       },
       {
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
@@ -312,7 +312,7 @@
         "name": "MICHAEL BLOOMBERG",
         "type": "Measure",
         "election_name": "oakland-2016",
-        "total_contributions": 9357387.2
+        "total_contributions": 9339171.01
       },
       {
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
@@ -332,7 +332,7 @@
         "name": "MICHAEL BLOOMBERG",
         "type": "Measure",
         "election_name": "oakland-2016",
-        "total_spending": 9357387.2
+        "total_spending": 9339171.01
       },
       {
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
@@ -372,7 +372,7 @@
         "name": "MICHAEL BLOOMBERG",
         "type": "Measure",
         "election_name": "oakland-2016",
-        "total_spending": 9357387.2
+        "total_spending": 9339171.01
       },
       {
         "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
@@ -705,26 +705,20 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3427166.860000001,
+    "total_contributions": 3059971.7800000007,
     "total_contributions_by_source": {
-      "Out of State": 205759.91999999998,
-      "Within Oakland": 1522207.7400000002,
-      "Within California": 1316130.0
+      "Out of State": 185127.27,
+      "Within Oakland": 1387125.2600000002,
+      "Within California": 1104650.0499999998
     },
     "contributions_by_type": {
-      "Committee": 549065.4299999999,
-      "Individual": 1850258.19,
+      "Committee": 445316.93,
+      "Individual": 1769012.61,
       "Unitemized": 210614.34999999995,
       "Self Funding": 134466.64,
-      "Other (includes Businesses)": 510307.4
+      "Other (includes Businesses)": 328106.4
     },
     "most_expensive_races": [
-      {
-        "slug": "ousd-facilities-bond",
-        "type": "referendum",
-        "title": "Measure Y",
-        "amount": 734390.16
-      },
       {
         "slug": "city-council-at-large",
         "type": "office",
@@ -736,6 +730,12 @@
         "type": "office",
         "title": "City Council District 3",
         "amount": 489944.91000000003
+      },
+      {
+        "slug": "city-council-district-7",
+        "type": "office",
+        "title": "City Council District 7",
+        "amount": 452164.32999999996
       }
     ],
     "largest_small_proportion": [
@@ -785,7 +785,7 @@
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "election_name": "oakland-2020",
-        "total_contributions": 356300.0
+        "total_contributions": 349300.0
       },
       {
         "name": "MICHAEL BLOOMBERG",
@@ -843,7 +843,7 @@
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 349500.0
+        "total_spending": 342500.0
       },
       {
         "name": "MICHAEL BLOOMBERG",
@@ -883,7 +883,7 @@
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Measure",
         "election_name": "oakland-2020",
-        "total_spending": 349500.0
+        "total_spending": 342500.0
       },
       {
         "name": "MICHAEL BLOOMBERG",
@@ -1093,16 +1093,6 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
-        "election_name": "oakland-2022",
-        "total_spending": 174628.0
-      },
-      {
-        "name": "Committee for an Affordable East Bay",
-        "election_name": "oakland-2022",
-        "total_spending": 133700.0
-      },
-      {
         "name": "East Bay Working Families, a coalition of unions and community groups",
         "election_name": "oakland-2022",
         "total_spending": 113018.0
@@ -1110,19 +1100,19 @@
     ],
     "top_contributors": [
       {
-        "name": "MICHAEL BLOOMBERG",
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "election_name": "oakland-2022",
-        "total_contributions": 720000.0
+        "total_contributions": 200000.0
       },
       {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "election_name": "oakland-2022",
-        "total_contributions": 311602.0
+        "total_contributions": 200000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+        "name": "International Association of Firefighters Local 55 - General Fund",
         "election_name": "oakland-2022",
-        "total_contributions": 250000.0
+        "total_contributions": 105779.06
       }
     ],
     "top_contributors_for_offices": [
@@ -1147,12 +1137,6 @@
     ],
     "top_contributors_for_measures": [
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
-        "type": "Measure",
-        "election_name": "oakland-2022",
-        "total_contributions": 250000.0
-      },
-      {
         "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
@@ -1163,26 +1147,32 @@
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_contributions": 200000.0
+      },
+      {
+        "name": "TMG Partners",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 75000.0
       }
     ],
     "top_spenders": [
       {
-        "name": "MICHAEL BLOOMBERG",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 720000.0
+        "total_spending": 200000.0
       },
       {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 311602.0
+        "total_spending": 200000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+        "name": "International Association of Firefighters Local 55 - General Fund",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 250000.0
+        "total_spending": 105779.06
       }
     ],
     "top_spenders_for_offices": [
@@ -1207,22 +1197,22 @@
     ],
     "top_spenders_for_measures": [
       {
-        "name": "MICHAEL BLOOMBERG",
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 720000.0
+        "total_spending": 200000.0
       },
       {
-        "name": "Union Members' Dues of less than $100/member per year.  Oakland POA is the intermediary for all contributions.,",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 311602.0
+        "total_spending": 200000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
+        "name": "International Association of Firefighters Local 55 - General Fund",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 250000.0
+        "total_spending": 105779.06
       }
     ]
   },
