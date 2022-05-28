@@ -510,14 +510,14 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6832317.24,
+    "total_contributions": 6835644.14,
     "total_contributions_by_source": {
       "Out of State": 948176.36,
       "Within Oakland": 2594515.93,
-      "Within California": 2875997.96
+      "Within California": 2879324.86
     },
     "contributions_by_type": {
-      "Committee": 946169.27,
+      "Committee": 949496.17,
       "Individual": 2647180.99,
       "Unitemized": 157801.78,
       "Self Funding": 86218.73000000001,
@@ -534,7 +534,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 943155.79
+        "amount": 946482.69
       },
       {
         "slug": "just-cause-eviction-amendments",
@@ -1118,13 +1118,13 @@
         "total_contributions": 2950.0
       },
       {
-        "name": "Houman Hosseini",
+        "name": "Pourya Behmardikalantari",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 2700.0
       },
       {
-        "name": "Pourya Behmardikalantari",
+        "name": "Houman Hosseini",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 2700.0
@@ -1132,13 +1132,13 @@
     ],
     "top_contributors_for_measures": [
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_contributions": 200000.0
       },
       {
-        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_contributions": 200000.0
@@ -1245,15 +1245,15 @@
     ]
   },
   "oakland-june-2022": {
-    "total_contributions": 71550.0,
+    "total_contributions": 74825.0,
     "total_contributions_by_source": {
-      "Out of State": 700.0,
-      "Within Oakland": 50750.0,
-      "Within California": 20100.0
+      "Out of State": 900.0,
+      "Within Oakland": 52925.0,
+      "Within California": 21000.0
     },
     "contributions_by_type": {
       "Committee": 16000.0,
-      "Individual": 9850.0,
+      "Individual": 13125.0,
       "Other (includes Businesses)": 45700.0
     },
     "most_expensive_races": [
@@ -1261,7 +1261,7 @@
         "slug": "library-services-retention-and-enhancement-act",
         "type": "referendum",
         "title": "Measure C",
-        "amount": 71550.0
+        "amount": 74825.0
       }
     ],
     "largest_small_proportion": [
