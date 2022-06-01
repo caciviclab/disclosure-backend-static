@@ -2,7 +2,7 @@ dist: bionic
 env:
   global:
     - TZ=America/Los_Angeles
-pyton:
+python:
   - '2.7'
 services:
   - postgresql
@@ -20,4 +20,4 @@ notifications:
   email:
     - mike.ubell@gmail.com
 script:
-  - make clean && make download -j2 && make import -j2 && make process && ./bin/travis-deploy && ./bin/travis-reindex
+  - make clean && make download && make import -j2 && make process && ./bin/travis-deploy && ./bin/travis-reindex
