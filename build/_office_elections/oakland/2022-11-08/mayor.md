@@ -12,6 +12,7 @@ candidates:
 - ignacio-de-la-fuente
 - john-marks
 - john-reimann
+- moesha-carter
 - peter-liu
 - seneca-scott
 - stephen-schear

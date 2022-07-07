@@ -1198,7 +1198,7 @@
       "Tran_Date": "2020-07-15",
       "Tran_NamF": "Jonathan",
       "Tran_NamL": "Williams",
-      "Tran_Zip4": "94603"
+      "Tran_Zip4": "94602"
     },
     {
       "Filer_ID": "1421001",
@@ -1209,7 +1209,7 @@
       "Tran_Date": "2020-07-15",
       "Tran_NamF": "Jonathan",
       "Tran_NamL": "Williams",
-      "Tran_Zip4": "94602"
+      "Tran_Zip4": "94603"
     },
     {
       "Filer_ID": "1421001",
@@ -1500,17 +1500,6 @@
     {
       "Filer_ID": "1421001",
       "Tran_Emp": "Jordan Custom Builders",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2020-07-21",
-      "Tran_NamF": "Billy",
-      "Tran_NamL": "Jordan",
-      "Tran_Zip4": "75204"
-    },
-    {
-      "Filer_ID": "1421001",
-      "Tran_Emp": "Jordan Custom Builders",
       "Tran_Occ": "Operations Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
@@ -1518,6 +1507,17 @@
       "Tran_NamF": "Billy",
       "Tran_NamL": "Jordan",
       "Tran_Zip4": "75154"
+    },
+    {
+      "Filer_ID": "1421001",
+      "Tran_Emp": "Jordan Custom Builders",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2020-07-21",
+      "Tran_NamF": "Billy",
+      "Tran_NamL": "Jordan",
+      "Tran_Zip4": "75204"
     },
     {
       "Filer_ID": "1421001",
