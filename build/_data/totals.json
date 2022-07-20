@@ -1,14 +1,14 @@
 {
   "oakland-2014": {
-    "total_contributions": 2998359.74,
+    "total_contributions": 2998359.7399999998,
     "total_contributions_by_source": {
       "Out of State": 138591.89,
       "Within Oakland": 1581483.6400000001,
-      "Within California": 969129.01
+      "Within California": 969129.0099999999
     },
     "contributions_by_type": {
       "Committee": 156538.05,
-      "Individual": 1816501.47,
+      "Individual": 1816501.4699999997,
       "Unitemized": 143224.35,
       "Self Funding": 468744.95999999996,
       "Other (includes Businesses)": 247639.34
@@ -18,13 +18,13 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1865761.2000000002
+        "amount": 1865761.1999999997
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 398594.60000000003
+        "amount": 398594.6
       },
       {
         "slug": "city-council-district-6",
@@ -520,7 +520,7 @@
       "Committee": 949496.17,
       "Individual": 2647180.99,
       "Unitemized": 157801.78,
-      "Self Funding": 86218.73000000001,
+      "Self Funding": 86218.73,
       "Other (includes Businesses)": 2739121.2600000002
     },
     "most_expensive_races": [
@@ -534,7 +534,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 946482.69
+        "amount": 946482.6900000001
       },
       {
         "slug": "just-cause-eviction-amendments",
@@ -708,7 +708,7 @@
     "total_contributions": 3059971.7800000007,
     "total_contributions_by_source": {
       "Out of State": 185127.27,
-      "Within Oakland": 1387125.2600000002,
+      "Within Oakland": 1387125.2599999998,
       "Within California": 1104650.0499999998
     },
     "contributions_by_type": {

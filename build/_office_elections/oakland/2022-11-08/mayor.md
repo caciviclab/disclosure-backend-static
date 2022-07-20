@@ -10,7 +10,7 @@ candidates:
 - derrick-soo
 - elbert-owens
 - ignacio-de-la-fuente
-- john-marks
+- john-mimosa-marks
 - john-reimann
 - moesha-carter
 - peter-liu
