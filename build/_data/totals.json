@@ -1031,10 +1031,10 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 1317034.45,
+    "total_contributions": 1517034.45,
     "total_contributions_by_source": {
       "Out of State": 68254.59,
-      "Within Oakland": 548775.9299999999,
+      "Within Oakland": 748775.9299999999,
       "Within California": 676794.98
     },
     "contributions_by_type": {
@@ -1043,7 +1043,7 @@
       "Individual": 545145.5000000009,
       "Unitemized": 23208.95,
       "Self Funding": 1530.0,
-      "Other (includes Businesses)": 498700.0
+      "Other (includes Businesses)": 698700.0
     },
     "most_expensive_races": [
       {
@@ -1053,16 +1053,16 @@
         "amount": 514804.44999999995
       },
       {
+        "slug": "oakland-zoo-animal-care-education-and-improvement",
+        "type": "referendum",
+        "title": "Measure TBD2",
+        "amount": 400000.0
+      },
+      {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
         "type": "referendum",
         "title": "Measure TBD3",
         "amount": 286000.0
-      },
-      {
-        "slug": "invest-in-our-oakland-small-business-tax-relief-act",
-        "type": "referendum",
-        "title": "Measure TBD1",
-        "amount": 202500.0
       }
     ],
     "largest_small_proportion": [
@@ -1097,7 +1097,7 @@
       {
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "election_name": "oakland-2022",
-        "total_contributions": 200000.0
+        "total_contributions": 400000.0
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -1132,13 +1132,13 @@
     ],
     "top_contributors_for_measures": [
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_contributions": 200000.0
+        "total_contributions": 400000.0
       },
       {
-        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_contributions": 200000.0
@@ -1152,13 +1152,13 @@
     ],
     "top_spenders": [
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 200000.0
+        "total_spending": 400000.0
       },
       {
-        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_spending": 200000.0
@@ -1195,7 +1195,7 @@
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 200000.0
+        "total_spending": 400000.0
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",

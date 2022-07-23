@@ -8,14 +8,14 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 200000.0,
+      "amount": 400000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Other (includes Businesses)",
-      "amount": 200000.0
+      "amount": 400000.0
     }
   ],
   "supporting_organizations": [
@@ -23,8 +23,8 @@
       "id": "1444480",
       "name": "Oaklanders for the Oakland Zoo, Major Funding by the Conservation Society of California",
       "payee": "Oaklanders for the Oakland Zoo, Major Funding by the Conservation Society of California",
-      "amount": 196928.89
+      "amount": 347532.33
     }
   ],
-  "total_contributions": 200000.0
+  "total_contributions": 400000.0
 }
