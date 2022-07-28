@@ -6,4 +6,6 @@ is_incumbent: false
 name: Ignacio De La Fuente
 occupation: Former City Council President
 photo_url: Ignacio De La Fuente.jpg
+twitter_url: IgnacioforMayor
+facebook_url: https://www.facebook.com/ignacio.delafuente.9250
 ---
