@@ -6,5 +6,6 @@ is_incumbent: false
 name: Stephen Schear
 occupation: Attorney
 photo_url: stephen-schear-sm.png
+twitter_url: TaxAnnRep
 website_url: https://stephenschear.com/
 ---

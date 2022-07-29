@@ -5,5 +5,6 @@ filer_id: ''
 is_incumbent: false
 name: Nancy Sidebotham
 photo_url: nancy_sidebotham_sub.jpg
+twitter_url: nancy6368
 website_url: https://nancysidebotham.com/
 ---

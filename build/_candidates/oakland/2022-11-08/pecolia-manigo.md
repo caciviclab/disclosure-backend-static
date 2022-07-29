@@ -4,4 +4,5 @@ committee_name: Committee to Support Pecolia Manigo for Oakland School Director 
 filer_id: '1448946'
 is_incumbent: false
 name: Pecolia Manigo
+twitter_url: SistahPecolia
 ---

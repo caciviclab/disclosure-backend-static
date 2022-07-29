@@ -4,4 +4,5 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Moesha Carter
+twitter_url: MJC4OAK
 ---
