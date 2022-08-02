@@ -1,5 +1,5 @@
 {
-  "total_contributions": 3542.0,
+  "total_contributions": 4142.0,
   "contributions": [
     {
       "Filer_ID": "1425082",
@@ -118,6 +118,17 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2021-12-08",
+      "Tran_NamF": "Don",
+      "Tran_NamL": "Macleay",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1425082",
+      "Tran_Emp": "East Bay Computer Services Inc.,",
+      "Tran_Occ": "Owner, Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2022-06-01",
       "Tran_NamF": "Don",
       "Tran_NamL": "Macleay",
       "Tran_Zip4": "94609"

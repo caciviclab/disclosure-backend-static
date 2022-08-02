@@ -6,6 +6,7 @@ candidates:
 - treva-reid
 - derreck-johnson
 - gregory-hodge
+- seneca-scott
 - allyssa-victory-villanueva
 - derrick-soo
 - elbert-owens
@@ -14,7 +15,6 @@ candidates:
 - john-reimann
 - moesha-carter
 - peter-liu
-- seneca-scott
 - stephen-schear
 - tyron-jordan
 title: Mayor

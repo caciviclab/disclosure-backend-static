@@ -1,24 +1,24 @@
 {
-  "total_contributions": 1560307.45,
+  "total_contributions": 1597716.22,
   "total_contributions_by_source": {
-    "Out of State": 72419.59,
-    "Within Oakland": 768525.9299999999,
-    "Within California": 691244.98
+    "Out of State": 78069.59,
+    "Within Oakland": 789862.9299999999,
+    "Within California": 699671.98
   },
   "contributions_by_type": {
     "PTY": 15900.0,
     "Committee": 233350.0,
-    "Individual": 582410.5,
-    "Unitemized": 27116.95,
+    "Individual": 616224.5,
+    "Unitemized": 29111.72,
     "Self Funding": 1830.0,
-    "Other (includes Businesses)": 698700.0
+    "Other (includes Businesses)": 700300.0
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 514804.44999999995
+      "amount": 552213.22
     },
     {
       "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -39,7 +39,7 @@
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Allyssa Victory Villanueva",
-      "proportion": 0.1766022949902043,
+      "proportion": 0.24415632986349187,
       "office_title": "Mayor"
     },
     {
@@ -86,13 +86,13 @@
       "total_contributions": 2950.0
     },
     {
-      "name": "Houman Hosseini",
+      "name": "John Protopappas",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 2700.0
     },
     {
-      "name": "Pourya Behmardikalantari",
+      "name": "Houman Hosseini",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 2700.0
@@ -152,7 +152,7 @@
       "total_spending": 2700.0
     },
     {
-      "name": "Houman Hosseini",
+      "name": "John Protopappas",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_spending": 2700.0
