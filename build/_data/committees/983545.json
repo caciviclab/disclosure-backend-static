@@ -1,5 +1,5 @@
 {
-  "total_contributions": 864524.0399999998,
+  "total_contributions": 864774.0399999998,
   "contributions": [
     {
       "Filer_ID": "983545",
@@ -5214,6 +5214,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Mettler-Toledo Rainin, LLC(Mark Richards)",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-05-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Wilson Associates, LLC(Anthony Wilson)",
+      "Tran_Zip4": "94618"
     }
   ]
 }

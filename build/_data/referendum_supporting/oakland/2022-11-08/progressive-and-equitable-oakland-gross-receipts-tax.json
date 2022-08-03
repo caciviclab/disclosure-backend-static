@@ -8,22 +8,26 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 15000.0,
+      "amount": 107250.0,
       "locale": "Out of State"
     },
     {
-      "amount": 185000.0,
+      "amount": 354750.0,
       "locale": "Within California"
     },
     {
-      "amount": 86000.0,
+      "amount": 146000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Individual",
+      "amount": 3500.0
+    },
+    {
       "type": "Other (includes Businesses)",
-      "amount": 286000.0
+      "amount": 604500.0
     }
   ],
   "supporting_organizations": [
@@ -31,8 +35,8 @@
       "id": "1445852",
       "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
       "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
-      "amount": 8263.71
+      "amount": 1199.95
     }
   ],
-  "total_contributions": 286000.0
+  "total_contributions": 608000.0
 }

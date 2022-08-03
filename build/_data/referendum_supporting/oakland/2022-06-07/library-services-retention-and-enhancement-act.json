@@ -8,30 +8,30 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 900.0,
+      "amount": 6400.0,
       "locale": "Out of State"
     },
     {
-      "amount": 21000.0,
+      "amount": 28250.0,
       "locale": "Within California"
     },
     {
-      "amount": 53925.0,
+      "amount": 54925.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 17000.0
+      "amount": 22000.0
     },
     {
       "type": "Individual",
-      "amount": 13125.0
+      "amount": 16375.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 45700.0
+      "amount": 51200.0
     }
   ],
   "supporting_organizations": [
@@ -39,8 +39,8 @@
       "id": "1445857",
       "name": "Neighbors for the Oakland Library - Yes on C!",
       "payee": "Neighbors for the Oakland Library - Yes on C!",
-      "amount": 11025.41
+      "amount": 11243.6
     }
   ],
-  "total_contributions": 75825.0
+  "total_contributions": 89575.0
 }

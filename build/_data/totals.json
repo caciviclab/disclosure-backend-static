@@ -8,7 +8,7 @@
     },
     "contributions_by_type": {
       "Committee": 156538.05,
-      "Individual": 1816501.4700000002,
+      "Individual": 1816501.4699999997,
       "Unitemized": 143224.35,
       "Self Funding": 468744.95999999996,
       "Other (includes Businesses)": 247639.34
@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -510,15 +510,15 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6835644.140000001,
+    "total_contributions": 6840044.140000001,
     "total_contributions_by_source": {
       "Out of State": 948176.36,
-      "Within Oakland": 2594515.93,
-      "Within California": 2879324.86
+      "Within Oakland": 2595315.93,
+      "Within California": 2882924.86
     },
     "contributions_by_type": {
-      "Committee": 949496.17,
-      "Individual": 2647180.99,
+      "Committee": 953096.17,
+      "Individual": 2647980.99,
       "Unitemized": 157801.78,
       "Self Funding": 86218.73,
       "Other (includes Businesses)": 2739121.2600000002
@@ -705,16 +705,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3059971.7800000007,
+    "total_contributions": 3066696.7800000007,
     "total_contributions_by_source": {
       "Out of State": 185127.27,
-      "Within Oakland": 1387125.2599999998,
-      "Within California": 1104650.0499999998
+      "Within Oakland": 1392025.2599999998,
+      "Within California": 1105525.0499999998
     },
     "contributions_by_type": {
       "Committee": 445316.93,
-      "Individual": 1769012.61,
-      "Unitemized": 210614.34999999995,
+      "Individual": 1774787.61,
+      "Unitemized": 211564.34999999995,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 328106.4
     },
@@ -729,7 +729,7 @@
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 489944.91000000003
+        "amount": 496669.91000000003
       },
       {
         "slug": "city-council-district-7",
@@ -1031,38 +1031,38 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 1597716.22,
+    "total_contributions": 2688999.5199999996,
     "total_contributions_by_source": {
-      "Out of State": 78069.59,
-      "Within Oakland": 789862.9299999999,
-      "Within California": 699671.98
+      "Out of State": 266115.26,
+      "Within Oakland": 1097820.73,
+      "Within California": 1263746.28
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 233350.0,
-      "Individual": 616224.5,
-      "Unitemized": 29111.72,
-      "Self Funding": 1830.0,
-      "Other (includes Businesses)": 700300.0
+      "Committee": 347240.96,
+      "Individual": 1209152.26,
+      "Unitemized": 60817.24999999999,
+      "Self Funding": 3730.0,
+      "Other (includes Businesses)": 1051659.05
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 552213.22
+        "amount": 1083964.1199999999
+      },
+      {
+        "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
+        "type": "referendum",
+        "title": "Measure TBD3",
+        "amount": 608000.0
       },
       {
         "slug": "oakland-zoo-animal-care-education-and-improvement",
         "type": "referendum",
         "title": "Measure TBD2",
         "amount": 400000.0
-      },
-      {
-        "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
-        "type": "referendum",
-        "title": "Measure TBD3",
-        "amount": 286000.0
       }
     ],
     "largest_small_proportion": [
@@ -1083,12 +1083,12 @@
         "office_title": "City Council District 6"
       },
       {
-        "slug": "nick-resnick",
+        "slug": "janani-ramachandran",
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
-        "candidate": "Nick Resnick",
-        "proportion": 0.08960229995208434,
-        "office_title": "OUSD District 4"
+        "candidate": "Janani Ramachandran",
+        "proportion": 0.1115597700357569,
+        "office_title": "City Council District 4"
       }
     ],
     "largest_independent_expenditures": {
@@ -1112,22 +1112,22 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Robert Wasserman",
+        "name": "John Bliss",
         "type": "Office",
         "election_name": "oakland-2022",
-        "total_contributions": 2950.0
+        "total_contributions": 3600.0
       },
       {
         "name": "John Protopappas",
         "type": "Office",
         "election_name": "oakland-2022",
-        "total_contributions": 2700.0
+        "total_contributions": 3600.0
       },
       {
-        "name": "Houman Hosseini",
+        "name": "Riaz Taplin",
         "type": "Office",
         "election_name": "oakland-2022",
-        "total_contributions": 2700.0
+        "total_contributions": 3600.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1144,7 +1144,7 @@
         "total_contributions": 200000.0
       },
       {
-        "name": "TMG Partners",
+        "name": "Tidewater Capital LLC and affiliated entities(Craig Young)",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_contributions": 75000.0
@@ -1172,22 +1172,22 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Robert Wasserman",
-        "type": "Office",
-        "election_name": "oakland-2022",
-        "total_spending": 2950.0
-      },
-      {
-        "name": "Pourya Behmardikalantari",
-        "type": "Office",
-        "election_name": "oakland-2022",
-        "total_spending": 2700.0
-      },
-      {
         "name": "John Protopappas",
         "type": "Office",
         "election_name": "oakland-2022",
-        "total_spending": 2700.0
+        "total_spending": 3600.0
+      },
+      {
+        "name": "Riaz Taplin",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 3600.0
+      },
+      {
+        "name": "John Bliss",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 3600.0
       }
     ],
     "top_spenders_for_measures": [
@@ -1245,23 +1245,23 @@
     ]
   },
   "oakland-june-2022": {
-    "total_contributions": 75825.0,
+    "total_contributions": 89575.0,
     "total_contributions_by_source": {
-      "Out of State": 900.0,
-      "Within Oakland": 53925.0,
-      "Within California": 21000.0
+      "Out of State": 6400.0,
+      "Within Oakland": 54925.0,
+      "Within California": 28250.0
     },
     "contributions_by_type": {
-      "Committee": 17000.0,
-      "Individual": 13125.0,
-      "Other (includes Businesses)": 45700.0
+      "Committee": 22000.0,
+      "Individual": 16375.0,
+      "Other (includes Businesses)": 51200.0
     },
     "most_expensive_races": [
       {
         "slug": "library-services-retention-and-enhancement-act",
         "type": "referendum",
         "title": "Measure C",
-        "amount": 75825.0
+        "amount": 89575.0
       }
     ],
     "largest_small_proportion": [
@@ -1281,7 +1281,7 @@
         "total_contributions": 10000.0
       },
       {
-        "name": "Jamie Turbak",
+        "name": "International Federation of Professional and Technical Engineers Local 21 Issues PAC",
         "election_name": "oakland-june-2022",
         "total_contributions": 5000.0
       }

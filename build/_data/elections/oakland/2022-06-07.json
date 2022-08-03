@@ -1,21 +1,21 @@
 {
-  "total_contributions": 75825.0,
+  "total_contributions": 89575.0,
   "total_contributions_by_source": {
-    "Out of State": 900.0,
-    "Within Oakland": 53925.0,
-    "Within California": 21000.0
+    "Out of State": 6400.0,
+    "Within Oakland": 54925.0,
+    "Within California": 28250.0
   },
   "contributions_by_type": {
-    "Committee": 17000.0,
-    "Individual": 13125.0,
-    "Other (includes Businesses)": 45700.0
+    "Committee": 22000.0,
+    "Individual": 16375.0,
+    "Other (includes Businesses)": 51200.0
   },
   "most_expensive_races": [
     {
       "slug": "library-services-retention-and-enhancement-act",
       "type": "referendum",
       "title": "Measure C",
-      "amount": 75825.0
+      "amount": 89575.0
     }
   ],
   "largest_small_proportion": [
@@ -35,7 +35,7 @@
       "total_contributions": 10000.0
     },
     {
-      "name": "Jamie Turbak",
+      "name": "International Federation of Professional and Technical Engineers Local 21 Issues PAC",
       "election_name": "oakland-june-2022",
       "total_contributions": 5000.0
     }

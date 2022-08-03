@@ -21,29 +21,35 @@
   "is_winner": null,
   "filer_id": 1442227,
   "supporting_money": {
-    "contributions_received": 37417.0,
-    "total_contributions": 37417.0,
-    "total_expenditures": 5748.68,
+    "contributions_received": 121764.0,
+    "total_contributions": 121764.0,
+    "total_expenditures": 68295.75,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 35600.0,
-      "Unitemized": 1307.0,
-      "Self Funding": 510.0
+      "Committee": 650.0,
+      "Individual": 113855.0,
+      "Unitemized": 4349.0,
+      "Self Funding": 1410.0,
+      "Other (includes Businesses)": 1500.0
     },
     "contributions_by_origin": {
-      "Out of State": 7900.0,
-      "Within Oakland": 17360.0,
-      "Within California": 10850.0
+      "Out of State": 32995.0,
+      "Within Oakland": 46495.0,
+      "Within California": 37925.0
     },
-    "total_small_contributions": 1767.0,
+    "total_small_contributions": 7179.0,
     "expenditures_by_type": {
-      "Office Expenses": 629.79,
-      "Campaign Literature and Mailings": 2083.39,
-      "Information Technology Costs (Internet, E-mail)": 1947.5
+      "Not Stated": 100.0,
+      "Office Expenses": 3342.01,
+      "Campaign Consultants": 20275.0,
+      "Meetings and Appearances": 2500.0,
+      "Campaign Paraphernalia/Misc.": 7228.75,
+      "Campaign Literature and Mailings": 3167.37,
+      "Information Technology Costs (Internet, E-mail)": 3110.5
     },
     "supporting_by_type": {
     }
@@ -56,7 +62,7 @@
 
     ]
   },
-  "total_contributions": 37417.0,
-  "total_expenditures": 5748.68,
+  "total_contributions": 121764.0,
+  "total_expenditures": 68295.75,
   "total_loans_received": 0.0
 }

@@ -4,13 +4,13 @@ candidates:
 - loren-taylor
 - sheng-thao
 - treva-reid
-- derreck-johnson
 - gregory-hodge
+- derreck-johnson
 - seneca-scott
+- ignacio-de-la-fuente
 - allyssa-victory-villanueva
 - derrick-soo
 - elbert-owens
-- ignacio-de-la-fuente
 - john-mimosa-marks
 - john-reimann
 - moesha-carter
