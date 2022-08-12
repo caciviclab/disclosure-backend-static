@@ -8,7 +8,7 @@ name: Loren Taylor
 occupation: Oakland City Council Member
 photo_url: loren-taylor-2022.jpg
 twitter_url: lorenmtaylor
-website_url: https://www.lorentaylor.org/
+website_url: https://lorenforoakland.com/
 facebook_url: https://www.facebook.com/Loren4Oakland
 instagram_url: loren.taylor
 ---
