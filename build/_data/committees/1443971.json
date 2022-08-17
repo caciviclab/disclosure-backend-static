@@ -1,5 +1,5 @@
 {
-  "total_contributions": 31475.0,
+  "total_contributions": 33275.0,
   "contributions": [
     {
       "Filer_ID": "1443971",
@@ -913,6 +913,17 @@
       "Tran_NamF": "Tiffany",
       "Tran_NamL": "Wilson",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-08-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers Local 549 PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }
