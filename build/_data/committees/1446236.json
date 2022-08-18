@@ -1,5 +1,5 @@
 {
-  "total_contributions": 20632.0,
+  "total_contributions": 23332.0,
   "contributions": [
     {
       "Filer_ID": "1446236",
@@ -53,8 +53,30 @@
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-06-13",
       "Tran_NamF": null,
+      "Tran_NamL": "Roberto's Truck Repair",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1446236",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-06-13",
+      "Tran_NamF": null,
       "Tran_NamL": "Tacos Guadalajara",
       "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1446236",
+      "Tran_Emp": "Jack Anderson Realty",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-06-16",
+      "Tran_NamF": "Jack",
+      "Tran_NamL": "Adamson",
+      "Tran_Zip4": "94606"
     },
     {
       "Filer_ID": "1446236",
@@ -275,6 +297,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Summit Bank",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1446236",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-06-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621"
     },
     {
       "Filer_ID": "1446236",
