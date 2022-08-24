@@ -13,7 +13,7 @@ candidates:
 - elbert-owens
 - john-mimosa-marks
 - john-reimann
-- moesha-carter
+- monesha-carter
 - peter-liu
 - stephen-schear
 - tyron-jordan
