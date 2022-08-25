@@ -91,7 +91,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Self/Francis Hummel",
       "Tran_Occ": "Handyman",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -135,6 +135,17 @@
     },
     {
       "Filer_ID": "1442792",
+      "Tran_Emp": "Social Security",
+      "Tran_Occ": "Government Employee/Union Rep",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-01-21",
+      "Tran_NamF": "Howard",
+      "Tran_NamL": "Agerman",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1442792",
       "Tran_Emp": "USCG",
       "Tran_Occ": "Analyst",
       "Entity_Cd": "Individual",
@@ -157,17 +168,6 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Sa",
-      "Tran_Occ": "Cr",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2022-01-21",
-      "Tran_NamF": "Howard",
-      "Tran_NamL": "egerman",
-      "Tran_Zip4": "94601"
-    },
-    {
-      "Filer_ID": "1442792",
       "Tran_Emp": "SpringML",
       "Tran_Occ": "Technical Project Manager",
       "Entity_Cd": "Individual",
@@ -179,8 +179,8 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self employed",
-      "Tran_Occ": "Self employed",
+      "Tran_Emp": "Self Employed/Decentology",
+      "Tran_Occ": "Technology & Entepreneur Educator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-01-24",
@@ -377,7 +377,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Shobana Ramamurthi",
       "Tran_Occ": "Senior Business Analyst",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -388,7 +388,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Stephen Texeira Photography",
       "Tran_Occ": "Photographer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -465,7 +465,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Energy & Resources Group-Berkeley",
       "Tran_Occ": "Energy Analyst",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -597,7 +597,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "LLNL",
+      "Tran_Emp": "Lawrence Livermore Natl Lab",
       "Tran_Occ": "Software Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
@@ -608,7 +608,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/ADZ Law LLP",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -641,7 +641,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Yoga Alliance",
       "Tran_Occ": "Yoga Instructor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -719,13 +719,13 @@
     {
       "Filer_ID": "1442792",
       "Tran_Emp": "SDS",
-      "Tran_Occ": "Provider",
+      "Tran_Occ": "Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-02-18",
       "Tran_NamF": "Lesa",
       "Tran_NamL": "Mellion",
-      "Tran_Zip4": "95378"
+      "Tran_Zip4": "95304"
     },
     {
       "Filer_ID": "1442792",
@@ -751,7 +751,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/The Corcoran Group",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 10.0,
@@ -1026,7 +1026,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Valya Ragu Legacy Real Estate & Assoc",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
@@ -1059,7 +1059,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "California",
+      "Tran_Emp": "University of California",
       "Tran_Occ": "Lawyer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -1081,8 +1081,8 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "UNKNOWN",
-      "Tran_Occ": "UNKNOWN",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retrired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-03-08",
@@ -1323,7 +1323,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/The Corcoran Group",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -1383,9 +1383,9 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-04-09",
-      "Tran_NamF": "Darrell and Lisa",
+      "Tran_NamF": "Lesa",
       "Tran_NamL": "Mellion",
-      "Tran_Zip4": "95378"
+      "Tran_Zip4": "95304"
     },
     {
       "Filer_ID": "1442792",
@@ -1400,7 +1400,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Pingitore David PHD",
       "Tran_Occ": "Psychologist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -1499,7 +1499,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Jeff Stranger",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -1510,7 +1510,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "CCSF",
+      "Tran_Emp": "City & County of San Francisco",
       "Tran_Occ": "Epidemiologist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
@@ -1521,7 +1521,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Debra Watanuki, Attorney At Law",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -1625,9 +1625,9 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-05-12",
-      "Tran_NamF": "cody",
+      "Tran_NamF": "Cody",
       "Tran_NamL": "Leff",
-      "Tran_Zip4": "94309"
+      "Tran_Zip4": "81435"
     },
     {
       "Filer_ID": "1442792",
@@ -1814,7 +1814,7 @@
       "Tran_Date": "2022-05-16",
       "Tran_NamF": "Lindsay",
       "Tran_NamL": "Funk",
-      "Tran_Zip4": "8822"
+      "Tran_Zip4": "08822"
     },
     {
       "Filer_ID": "1442792",
@@ -1924,7 +1924,7 @@
       "Tran_Date": "2022-05-24",
       "Tran_NamF": "Mustafa",
       "Tran_NamL": "Alshugaa",
-      "Tran_Zip4": "CA"
+      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1442792",
@@ -1947,6 +1947,17 @@
       "Tran_NamF": "Michael",
       "Tran_NamL": "Tigges",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Social Security",
+      "Tran_Occ": "Government Employee/Union Rep",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-05-26",
+      "Tran_NamF": "Howard",
+      "Tran_NamL": "Agerman",
+      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1442792",
@@ -1991,17 +2002,6 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Pippenger",
       "Tran_Zip4": "94131"
-    },
-    {
-      "Filer_ID": "1442792",
-      "Tran_Emp": "Sa",
-      "Tran_Occ": "Cr",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2022-05-26",
-      "Tran_NamF": "Howard",
-      "Tran_NamL": "egerman",
-      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1442792",
@@ -2093,7 +2093,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "CCSF",
+      "Tran_Emp": "City & County of San Francisco",
       "Tran_Occ": "Epidemiologist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -2137,7 +2137,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Energy & Resources Group-Berkeley",
       "Tran_Occ": "Energy Analyst",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -2241,9 +2241,9 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-06-07",
-      "Tran_NamF": "cody",
+      "Tran_NamF": "Cody",
       "Tran_NamL": "Leff",
-      "Tran_Zip4": "94309"
+      "Tran_Zip4": "81435"
     },
     {
       "Filer_ID": "1442792",
@@ -2384,9 +2384,9 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-06-12",
-      "Tran_NamF": "cody",
+      "Tran_NamF": "Cody",
       "Tran_NamL": "Leff",
-      "Tran_Zip4": "94309"
+      "Tran_Zip4": "81435"
     },
     {
       "Filer_ID": "1442792",
@@ -2573,7 +2573,7 @@
       "Tran_Date": "2022-06-16",
       "Tran_NamF": "Karthik",
       "Tran_NamL": "Sankaralingam",
-      "Tran_Zip4": "7974"
+      "Tran_Zip4": "07974"
     },
     {
       "Filer_ID": "1442792",
@@ -2661,7 +2661,7 @@
       "Tran_Date": "2022-06-18",
       "Tran_NamF": "Balaji",
       "Tran_NamL": "Modhagala",
-      "Tran_Zip4": "7031"
+      "Tran_Zip4": "07031"
     },
     {
       "Filer_ID": "1442792",
@@ -2753,7 +2753,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Keller Williams",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -2775,7 +2775,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/The Corcoran Group",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -2940,7 +2940,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "SELC",
+      "Tran_Emp": "Sustainable Economic Law Center",
       "Tran_Occ": "Lawyer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -3017,7 +3017,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "UNKNOWN",
+      "Tran_Emp": "Meltwater",
       "Tran_Occ": "Account Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -3028,7 +3028,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Keshmiri",
       "Tran_Occ": "Rug Wholesale",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
@@ -3046,11 +3046,11 @@
       "Tran_Date": "2022-06-28",
       "Tran_NamF": "Cheshmeh",
       "Tran_NamL": "Keshmiri",
-      "Tran_Zip4": "92037`"
+      "Tran_Zip4": "92037"
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self-Employed",
+      "Tran_Emp": "Self-Employed/MC Connell Group",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
@@ -3178,7 +3178,7 @@
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Heidi",
       "Tran_NamL": "Alletzhauser",
-      "Tran_Zip4": "94131-3162"
+      "Tran_Zip4": "94131"
     },
     {
       "Filer_ID": "1442792",
@@ -3281,7 +3281,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/The Corcoran Group",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -3292,7 +3292,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/ReThink Food",
       "Tran_Occ": "Investor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -3314,7 +3314,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Elihu M Harris,Esq(Of Counsel )",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -3435,7 +3435,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "LOH",
+      "Tran_Emp": "LOH Realty & Investments",
       "Tran_Occ": "Real Estate",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -3458,13 +3458,13 @@
     {
       "Filer_ID": "1442792",
       "Tran_Emp": "SDS",
-      "Tran_Occ": "Provider",
+      "Tran_Occ": "Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Lesa",
       "Tran_NamL": "Mellion",
-      "Tran_Zip4": "95378"
+      "Tran_Zip4": "95304"
     },
     {
       "Filer_ID": "1442792",
@@ -3490,7 +3490,7 @@
     },
     {
       "Filer_ID": "1442792",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self Employed/Shobana Ramamurthi",
       "Tran_Occ": "Senior Business Analyst",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,

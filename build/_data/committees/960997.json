@@ -1,5 +1,5 @@
 {
-  "total_contributions": 509695.0800000002,
+  "total_contributions": 512195.0800000002,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1639,6 +1639,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "sofSurfaces USA Inc.",
       "Tran_Zip4": "92337"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-08-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "Wickman Development and Construction",
+      "Tran_Zip4": "94112"
     }
   ]
 }
