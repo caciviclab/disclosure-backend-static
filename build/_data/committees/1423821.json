@@ -1,5 +1,5 @@
 {
-  "total_contributions": 125694.0,
+  "total_contributions": 127494.0,
   "contributions": [
     {
       "Filer_ID": "1423821",
@@ -4059,6 +4059,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "California Nurses Association PAC (CNA-PAC)",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1423821",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-08-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union United Service Workers West Candidate PAC",
+      "Tran_Zip4": "90015"
     }
   ]
 }
