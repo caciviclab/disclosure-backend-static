@@ -1,5 +1,5 @@
 {
-  "total_contributions": 512195.0800000002,
+  "total_contributions": 513195.0800000002,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1650,6 +1650,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Wickman Development and Construction",
       "Tran_Zip4": "94112"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-08-25",
+      "Tran_NamF": "Louise",
+      "Tran_NamL": "Waters",
+      "Tran_Zip4": "94619"
     }
   ]
 }
