@@ -1,8 +1,8 @@
 ---
 election: '2022-11-08'
 locality: oakland
-number: TBD8
+number: R
 title: Charter Amendment Regarding Non-Gendered Language
 data_warning: 
 ---
-This measure would Amend The City Charter In Its Entirety To: (1) Replace Gender-Specific Language With Gender-Inclusive Language, In Recognition That Women And Non-Binary Persons As Well As Men, Hold Positions As City Officers And City Staff; And (2) Delete Articles XIV And XV Pertaining To Obsolete Retirement Systems For Police Officers And Firefighters, Respectively
+Shall the measure to amend the City Charter to replace gender-specific language with gender neutral language, such as replacing words like "fireman" with "firefighters" and using gender-neutral pronouns in referring to City officers and staff, recognizing that women and non-binary persons as well as men are qualified for and hold such positions, and to avoid gender stereotyping and discrimination, and promote inclusivity be adopted?

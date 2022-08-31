@@ -1,5 +1,5 @@
 {
-  "id": 55,
+  "id": 29,
   "name": "Noel Gallo",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/Noel-Gallo.png",
   "website_url": null,
@@ -18,7 +18,7 @@
   "is_incumbent": true,
   "occupation": "City Councilmember District 5",
   "party_affiliation": "Democrat",
-  "is_winner": null,
+  "is_winner": true,
   "filer_id": 1429205,
   "supporting_money": {
     "contributions_received": 82077.0,

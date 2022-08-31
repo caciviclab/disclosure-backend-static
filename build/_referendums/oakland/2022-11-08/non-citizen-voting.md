@@ -1,8 +1,8 @@
 ---
 election: '2022-11-08'
 locality: oakland
-number: TBD9
+number: S
 title: Non-Citizen Voting
 data_warning: 
 ---
-This measure is An Amendment To Article XI (Elections) Of The Charter Of The City Of Oakland To Add Section 1107 To Provide For Voting By Noncitizen Residents Who Are The Parents, Legal Guardians, Or Legally Recognized Caregivers Of A Child Residing In Oakland To Vote For The Office Of School Board Director On The Oakland Unified School District Board
+Shall the measure to amend the City Charter to allow the City Council by adopting an ordinance, to authorize voting by noncitizen residents, who are the parents, legal guardians, or legally recognized caregivers of a child, for the Office of Oakland School Board Director if they are otherwise eligible to vote under state and local law be adopted?

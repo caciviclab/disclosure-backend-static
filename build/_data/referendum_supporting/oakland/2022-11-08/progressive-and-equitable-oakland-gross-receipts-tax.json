@@ -1,10 +1,10 @@
 {
-  "id": 4,
+  "id": 9,
   "contest_type": "Referendum",
   "name": "Progressive and Equitable Oakland Gross Receipts Tax",
   "title": "Progressive and Equitable Oakland Gross Receipts Tax",
-  "summary": "This measure would eliminate Oakland’s flat tax rate on businesses and replace it with a progressive tiered tax rate structure.",
-  "number": "TBD3",
+  "summary": "Shall the measure amending Oakland's business tax rates to create a progressive rate structure that would (1) impose the highest rates on the highest grossing businesses, (2) increase Oakland's annual tax revenue by an estimated $20,900,000, and (3) generate approximately $124,000,000 in total annual revenue for municipal services by imposing business tax rates of .05% to .55% of gross receipts, and other rates as stated in the measure, be adopted?",
+  "number": "T",
   "voters_edge_url": null,
   "contributions_by_region": [
     {
@@ -12,15 +12,19 @@
       "locale": "Out of State"
     },
     {
-      "amount": 354750.0,
+      "amount": 626998.46,
       "locale": "Within California"
     },
     {
-      "amount": 146000.0,
+      "amount": 148500.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 274748.46
+    },
     {
       "type": "Individual",
       "amount": 3500.0
@@ -32,11 +36,17 @@
   ],
   "supporting_organizations": [
     {
+      "id": "1444350",
+      "name": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
+      "payee": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
+      "amount": 69095.0
+    },
+    {
       "id": "1445852",
       "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
       "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
       "amount": 1199.95
     }
   ],
-  "total_contributions": 608000.0
+  "total_contributions": 882748.46
 }

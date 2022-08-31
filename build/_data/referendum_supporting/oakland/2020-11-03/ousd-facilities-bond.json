@@ -1,5 +1,5 @@
 {
-  "id": 15,
+  "id": 18,
   "contest_type": "Referendum",
   "name": "OUSD Facilities Bond",
   "title": "OUSD Facilities Bond",
@@ -8,39 +8,39 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4174?cty=ca%2falm",
   "contributions_by_region": [
     {
-      "amount": 20632.65,
+      "amount": 41265.3,
       "locale": "Out of State"
     },
     {
-      "amount": 211479.95,
+      "amount": 422959.9,
       "locale": "Within California"
     },
     {
-      "amount": 135082.48,
+      "amount": 270164.96,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 103748.5
+      "amount": 207497.0
     },
     {
       "type": "Individual",
-      "amount": 81245.58
+      "amount": 162491.16
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 182201.0
+      "amount": 364402.0
     }
   ],
   "supporting_organizations": [
     {
       "id": "960997",
-      "name": "Friends of Oakland Public Schools - Yes on Measure Y",
-      "payee": "Friends of Oakland Public Schools - Yes on Measure Y",
+      "name": "Friends of Oakland Public Schools Yes on G1 2016",
+      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
       "amount": 718560.81
     }
   ],
-  "total_contributions": 367195.08
+  "total_contributions": 734390.16
 }

@@ -1,5 +1,5 @@
 {
-  "id": 46,
+  "id": 48,
   "name": "Tri Ngo",
   "photo_url": null,
   "website_url": "https://www.votetri.com",
@@ -18,7 +18,7 @@
   "is_incumbent": false,
   "occupation": "Electrical Engineer",
   "party_affiliation": null,
-  "is_winner": null,
+  "is_winner": false,
   "filer_id": 1426138,
   "supporting_money": {
     "contributions_received": 26410.15,

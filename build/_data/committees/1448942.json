@@ -1,0 +1,38 @@
+{
+  "total_contributions": 150000.0,
+  "contributions": [
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": "Akonadi Foundation",
+      "Tran_Occ": "Founder/Chair",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-08-12",
+      "Tran_NamF": "Quinn",
+      "Tran_NamL": "Delaney",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": "Voters Right to Know",
+      "Tran_Occ": "Chairman",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-08-18",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Heerwagen",
+      "Tran_Zip4": "94965"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2022-08-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "id": 72,
+  "id": 23,
   "name": "Leroy Gaines",
   "photo_url": null,
   "website_url": null,
@@ -18,7 +18,7 @@
   "is_incumbent": false,
   "occupation": "Non-profit Director",
   "party_affiliation": null,
-  "is_winner": null,
+  "is_winner": false,
   "filer_id": 1431908,
   "supporting_money": {
     "contributions_received": 48671.7,
@@ -43,7 +43,7 @@
         "Total": 17488.97,
         "Cand_ID": 1431908,
         "Filer_ID": "1431009",
-        "Filer_NamL": "Power2Families, supporting Dannhaus, Edgerly, Gaines and Thompson for Oakland School Board 2020"
+        "Filer_NamL": "Families in Action for Justice Fund"
       }
     ],
     "contributions_by_type": {
