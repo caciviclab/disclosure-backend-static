@@ -8,41 +8,41 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 174000.0,
+      "amount": 87000.0,
       "locale": "Within California"
     },
     {
-      "amount": 136000.0,
+      "amount": 80500.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 176000.0
+      "amount": 88000.0
     },
     {
       "type": "Individual",
-      "amount": 11000.0
+      "amount": 5500.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 123000.0
+      "amount": 74000.0
     }
   ],
   "supporting_organizations": [
     {
       "id": "960997",
-      "name": "Friends of Oakland Public Schools Yes on G1 2016",
-      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
+      "name": "Friends of Oakland Public Schools - Yes on Measure H",
+      "payee": "Friends of Oakland Public Schools - Yes on Measure H",
       "amount": 157606.91
     },
     {
       "id": "1391632",
-      "name": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
-      "payee": "YES ON G1, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES",
+      "name": "GO PUBLIC SCHOOLS ADVOCATES COMMUNITY-POWERED BALLOTT MEASURES COMMITTEE",
+      "payee": "GO PUBLIC SCHOOLS ADVOCATES COMMUNITY-POWERED BALLOTT MEASURES COMMITTEE",
       "amount": 9147.02
     }
   ],
-  "total_contributions": 310000.0
+  "total_contributions": 167500.0
 }

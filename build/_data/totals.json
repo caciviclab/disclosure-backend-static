@@ -194,18 +194,18 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 21082960.82,
+    "total_contributions": 20940460.82,
     "total_contributions_by_source": {
       "Out of State": 10533130.27,
-      "Within Oakland": 1511501.7400000002,
-      "Within California": 8720168.879999999
+      "Within Oakland": 1456001.7400000002,
+      "Within California": 8633168.879999999
     },
     "contributions_by_type": {
-      "Committee": 8511134.030000001,
-      "Individual": 10289656.58,
+      "Committee": 8423134.030000001,
+      "Individual": 10284156.58,
       "Unitemized": 70529.93,
       "Self Funding": 124742.81999999999,
-      "Other (includes Businesses)": 1839267.46
+      "Other (includes Businesses)": 1790267.46
     },
     "most_expensive_races": [
       {
@@ -576,7 +576,7 @@
         "total_spending": 149368.03
       },
       {
-        "name": "East Bay Working Families, a coalition of unions and community groups",
+        "name": "East Bay Working Families",
         "election_name": "oakland-2018",
         "total_spending": 140824.0
       },
@@ -705,26 +705,20 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3346267.2600000007,
+    "total_contributions": 2979072.1800000006,
     "total_contributions_by_source": {
-      "Out of State": 205409.91999999998,
-      "Within Oakland": 1511212.7400000002,
-      "Within California": 1302105.0
+      "Out of State": 184777.27,
+      "Within Oakland": 1376130.2600000002,
+      "Within California": 1090625.0499999998
     },
     "contributions_by_type": {
-      "Committee": 547115.4299999999,
-      "Individual": 1826838.19,
+      "Committee": 443366.93,
+      "Individual": 1745592.61,
       "Unitemized": 211564.34999999995,
       "Self Funding": 134466.64,
-      "Other (includes Businesses)": 510307.4
+      "Other (includes Businesses)": 328106.4
     },
     "most_expensive_races": [
-      {
-        "slug": "ousd-facilities-bond",
-        "type": "referendum",
-        "title": "Measure Y",
-        "amount": 734390.16
-      },
       {
         "slug": "city-council-at-large",
         "type": "office",
@@ -736,6 +730,12 @@
         "type": "office",
         "title": "City Council District 7",
         "amount": 452164.32999999996
+      },
+      {
+        "slug": "city-council-district-3",
+        "type": "office",
+        "title": "City Council District 3",
+        "amount": 409045.31
       }
     ],
     "largest_small_proportion": [
@@ -1031,27 +1031,21 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 4363507.22,
+    "total_contributions": 3055049.52,
     "total_contributions_by_source": {
-      "Out of State": 557930.56,
-      "Within Oakland": 1733953.23,
-      "Within California": 2010306.1800000002
+      "Out of State": 266665.26,
+      "Within Oakland": 1326470.73,
+      "Within California": 1400596.28
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 873020.77,
-      "Individual": 1440843.42,
+      "Committee": 452640.96,
+      "Individual": 1265502.26,
       "Unitemized": 60817.25,
       "Self Funding": 3730.0,
-      "Other (includes Businesses)": 1968695.78
+      "Other (includes Businesses)": 1255959.05
     },
     "most_expensive_races": [
-      {
-        "slug": "oakland-usd-parcel-tax-renewal",
-        "type": "referendum",
-        "title": "Measure H",
-        "amount": 1316957.7
-      },
       {
         "slug": "mayor",
         "type": "office",
@@ -1063,6 +1057,12 @@
         "type": "referendum",
         "title": "Measure T",
         "amount": 882748.46
+      },
+      {
+        "slug": "oakland-zoo-animal-care-education-and-improvement",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 600000.0
       }
     ],
     "largest_small_proportion": [
@@ -1110,14 +1110,14 @@
         "total_contributions": 600000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
-        "election_name": "oakland-2022",
-        "total_contributions": 250000.0
-      },
-      {
         "name": "Service Employees International Union Local 1021 Issues PAC",
         "election_name": "oakland-2022",
-        "total_contributions": 205000.0
+        "total_contributions": 200000.0
+      },
+      {
+        "name": "International Association of Firefighters Local 55 - General Fund",
+        "election_name": "oakland-2022",
+        "total_contributions": 105779.06
       }
     ],
     "top_contributors_for_offices": [
@@ -1148,16 +1148,16 @@
         "total_contributions": 600000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
-        "type": "Measure",
-        "election_name": "oakland-2022",
-        "total_contributions": 250000.0
-      },
-      {
         "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_contributions": 200000.0
+      },
+      {
+        "name": "Tidewater Capital LLC and affiliated entities(Craig Young)",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 75000.0
       }
     ],
     "top_spenders": [
@@ -1168,16 +1168,16 @@
         "total_spending": 600000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
-        "type": "Measure",
-        "election_name": "oakland-2022",
-        "total_spending": 250000.0
-      },
-      {
         "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 205000.0
+        "total_spending": 200000.0
+      },
+      {
+        "name": "International Association of Firefighters Local 55 - General Fund",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 105779.06
       }
     ],
     "top_spenders_for_offices": [
@@ -1208,16 +1208,16 @@
         "total_spending": 600000.0
       },
       {
-        "name": "THE ATLANTIC ADVOCACY FUND  INC.",
-        "type": "Measure",
-        "election_name": "oakland-2022",
-        "total_spending": 250000.0
-      },
-      {
         "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 205000.0
+        "total_spending": 200000.0
+      },
+      {
+        "name": "International Association of Firefighters Local 55 - General Fund",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 105779.06
       }
     ]
   },

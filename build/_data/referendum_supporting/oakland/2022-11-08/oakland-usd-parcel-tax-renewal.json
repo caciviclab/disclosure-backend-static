@@ -8,39 +8,31 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 291265.3,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 617209.9,
+      "amount": 7500.0,
       "locale": "Within California"
     },
     {
-      "amount": 408482.5,
+      "amount": 1000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
-      "type": "Committee",
-      "amount": 420379.81
-    },
-    {
       "type": "Individual",
-      "amount": 181341.16
+      "amount": 6000.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 715236.73
+      "amount": 2500.0
     }
   ],
   "supporting_organizations": [
     {
       "id": "960997",
-      "name": "Friends of Oakland Public Schools Yes on G1 2016",
-      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
-      "amount": 441125.44
+      "name": "Friends of Oakland Public Schools - Yes on Measure H",
+      "payee": "Friends of Oakland Public Schools - Yes on Measure H",
+      "amount": 91754.87
     }
   ],
-  "total_contributions": 1316957.7
+  "total_contributions": 8500.0
 }
