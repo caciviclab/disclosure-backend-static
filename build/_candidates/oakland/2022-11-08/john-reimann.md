@@ -4,6 +4,7 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: John Reimann
+occupation: Retired Carpenter
 photo_url: John-Reimann-sm.png
 facebook_url: https://www.facebook.com/people/John-Reimann-for-Oakland-Mayor/100077571033709/?_rdr
 ---

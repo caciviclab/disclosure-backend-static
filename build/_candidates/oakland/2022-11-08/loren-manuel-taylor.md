@@ -4,8 +4,8 @@ committee_name: Loren Taylor for Oakland Mayor 2022
 filer_id: '1441375'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
-name: Loren Taylor
-occupation: Oakland City Council Member
+name: Loren Manuel Taylor
+occupation: Councilmember/Small Businessperson
 photo_url: loren-taylor-2022.jpg
 twitter_url: lorenmtaylor
 website_url: https://lorenforoakland.com/

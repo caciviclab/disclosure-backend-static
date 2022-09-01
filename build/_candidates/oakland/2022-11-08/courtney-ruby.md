@@ -4,4 +4,5 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: true
 name: Courtney Ruby
+occupation: Oakland City Auditor
 ---

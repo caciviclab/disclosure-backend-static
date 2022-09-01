@@ -4,4 +4,5 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Harold Lowe
+occupation: Financial Planner/Consultant
 ---

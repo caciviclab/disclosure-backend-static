@@ -5,9 +5,9 @@ candidates:
 - paulina-gonzalez
 - desmond-i-jeffries
 - jesse-tapia-juarez
-- kenneth-session
+- kenny-session
 - nancy-sidebotham
-- yakpasua-m-zazaboi
+- yakpasua-michael-gbagba-zazaboi
 title: City Council District 6
 label: City Council
 ---

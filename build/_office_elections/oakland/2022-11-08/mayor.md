@@ -1,9 +1,9 @@
 ---
 election: _elections/oakland/2022-11-08.md
 candidates:
-- loren-taylor
+- loren-manuel-taylor
 - sheng-thao
-- treva-reid
+- treva-d-reid
 - gregory-hodge
 - derreck-johnson
 - seneca-scott
@@ -14,9 +14,9 @@ candidates:
 - john-mimosa-marks
 - john-reimann
 - monesha-carter
-- peter-liu
+- peter-y-liu
 - stephen-schear
-- tyron-jordan
+- tyron-c-jordan
 title: Mayor
 label: City-Wide Office
 ---

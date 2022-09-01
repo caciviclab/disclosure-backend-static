@@ -4,6 +4,7 @@ committee_name: Nick Resnick for Oakland School Board 2022 District 4
 filer_id: '1446325'
 is_incumbent: false
 name: Nick Resnick
+occupation: CEO/Credentialed Teacher
 photo_url: Nick-Resnick-sm.png
 twitter_url: nickrezz
 website_url: https://www.nickforoaklandschools.com/
