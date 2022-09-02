@@ -5,4 +5,5 @@ filer_id: '1446906'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: John Mimosa Marks
+occupation: Not qualified for ballot
 ---

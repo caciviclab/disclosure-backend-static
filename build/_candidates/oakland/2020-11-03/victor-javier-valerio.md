@@ -9,5 +9,4 @@ occupation: Transportation Project Engineer
 twitter_url: OaklandValerio
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-5d0d6d/address/null/zip/94605/contests/contest/21298/candidate/151509
 website_url: https://valerioforoakland.nationbuilder.com/
-map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154900&since=2019-01-01&until=2020-10-23
 ---

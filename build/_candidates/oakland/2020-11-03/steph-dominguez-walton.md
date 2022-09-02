@@ -13,5 +13,4 @@ votersedge_url: https://votersedge.org/ca/en/ballot/election/87-f810b9/address/n
 website_url: https://www.stephforoakland.com/
 facebook_url: https://www.facebook.com/stephforoakland/
 instagram_url: stephforoakland
-map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154865&since=2019-01-01&until=2020-10-23
 ---

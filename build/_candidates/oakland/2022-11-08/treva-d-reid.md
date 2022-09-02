@@ -8,4 +8,5 @@ name: Treva D. Reid
 occupation: Councilmember/Senior Caregiver
 photo_url: treva-reid.png
 website_url: https://www.reidforoakland.com/
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442079&since=2020-02-22&until=2022-06-30
 ---

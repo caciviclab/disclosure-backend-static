@@ -11,4 +11,5 @@ twitter_url: hodge4oakland22
 website_url: https://www.hodgeforoakland.com/
 facebook_url: https://www.facebook.com/hodgeforoakland2022/
 instagram_url: hodgeforoakland
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442227&since=2020-02-22&until=2022-06-30
 ---

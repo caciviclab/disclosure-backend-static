@@ -11,4 +11,5 @@ twitter_url: Janani4Oakland
 website_url: https://jananiforoakland.com/
 facebook_url: https://www.facebook.com/jananiforoakland
 instagram_url: janani4oakland
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442792&since=2020-02-22&until=2022-06-30
 ---

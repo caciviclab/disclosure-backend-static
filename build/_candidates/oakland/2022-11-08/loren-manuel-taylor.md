@@ -11,4 +11,5 @@ twitter_url: lorenmtaylor
 website_url: https://lorenforoakland.com/
 facebook_url: https://www.facebook.com/Loren4Oakland
 instagram_url: loren.taylor
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1441375&since=2020-02-22&until=2022-06-30
 ---

@@ -12,5 +12,4 @@ public_funding_received: '21857'
 twitter_url: noelgallo5
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-9842e0/address/null/zip/94610/contests/contest/21268/candidate/151397
 facebook_url: https://www.facebook.com/noelgallodistrict5
-map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-155199&since=2019-01-01&until=2020-10-23
 ---

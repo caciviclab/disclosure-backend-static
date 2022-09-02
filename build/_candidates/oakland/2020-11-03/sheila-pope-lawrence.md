@@ -7,5 +7,4 @@ is_incumbent: false
 name: Sheila Pope Lawrence
 occupation: Educator/Administrator
 votersedge_url: https://votersedge.org/ca/en/ballot/election/87-9842e0/address/null/zip/94610/contests/contest/21297/candidate/151504?date=2020-11-03
-map_url: https://data.oaklandca.gov/campaign_finance/?electionYear=2020&candidates=COAK-154944&since=2019-01-01&until=2020-10-23
 ---

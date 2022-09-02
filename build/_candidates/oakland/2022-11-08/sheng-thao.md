@@ -11,4 +11,5 @@ twitter_url: shengforoakland
 website_url: https://www.shengforoakland.com/
 facebook_url: https://www.facebook.com/ShengforOakland
 instagram_url: shengforoakland
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442594&since=2020-02-22&until=2022-06-30
 ---
