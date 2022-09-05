@@ -32,7 +32,7 @@ class CandidateSupportingExpenditure
       candidate.save_calculation(:total_supporting_independent, total.fetch(filer_id, 0).round(2))
 
       sorted =
-        Array(expenditure_for_candidate[filer_id]).sort_by { |row| [row['Filer_NamL'], row['Exp_Date']] }
+        Array(expenditure_for_candidate[filer_id]).sort_by { |row| [row['Filer_NamL'], row['Expn_Date']] }
 
       candidate.save_calculation(:support_list, sorted)
     end

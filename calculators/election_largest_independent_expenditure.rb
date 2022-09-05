@@ -9,12 +9,12 @@ class ElectionLargestIndependentExpenditure
       SELECT election_name, name, Sum("Amount") as total_spending
       FROM
       (
-        SELECT "election_name", "Filer_NamL" as name, "Amount", "Exp_Date"
+        SELECT "election_name", "Filer_NamL" as name, "Amount", "Expn_Date"
         FROM "Measure_Expenditures"
         WHERE "election_name" <> ''
           AND "Expn_Code" = 'IND'
         UNION ALL
-        SELECT DISTINCT "election_name", "Filer_NamL" as name, "Amount", "Exp_Date"
+        SELECT DISTINCT "election_name", "Filer_NamL" as name, "Amount", "Expn_Date"
         FROM "independent_candidate_expenditures"
         WHERE "election_name" <> ''
       ) as u
