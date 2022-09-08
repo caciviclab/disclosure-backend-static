@@ -1,5 +1,5 @@
 {
-  "total_contributions": 518195.0800000002,
+  "total_contributions": 520753.0200000002,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1672,6 +1672,28 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Arntz",
       "Tran_Zip4": "94952"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Argent Materials",
+      "Tran_Occ": "President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1557.94,
+      "Tran_Date": "2022-09-06",
+      "Tran_NamF": "William",
+      "Tran_NamL": "Crotinger",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-09-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Unity PAC Alameda Labor Council",
+      "Tran_Zip4": "94621"
     }
   ]
 }

@@ -12,14 +12,18 @@
       "locale": "Within California"
     },
     {
-      "amount": 1000.0,
+      "amount": 3557.94,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 1000.0
+    },
+    {
       "type": "Individual",
-      "amount": 6000.0
+      "amount": 7557.94
     },
     {
       "type": "Other (includes Businesses)",
@@ -29,10 +33,10 @@
   "supporting_organizations": [
     {
       "id": "960997",
-      "name": "Friends of Oakland Public Schools - Yes on Measure H",
-      "payee": "Friends of Oakland Public Schools - Yes on Measure H",
+      "name": "Friends of Oakland Public Schools Yes on Measure Y",
+      "payee": "Friends of Oakland Public Schools Yes on Measure Y",
       "amount": 91754.87
     }
   ],
-  "total_contributions": 8500.0
+  "total_contributions": 11057.94
 }

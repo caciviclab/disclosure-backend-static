@@ -8,7 +8,7 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 125000.0,
+      "amount": 135000.0,
       "locale": "Within California"
     },
     {
@@ -23,10 +23,16 @@
     },
     {
       "type": "Individual",
-      "amount": 50000.0
+      "amount": 60000.0
     }
   ],
   "supporting_organizations": [
+    {
+      "id": "1332115",
+      "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "amount": 0
+    },
     {
       "id": "1448942",
       "name": "Yes on W, Oakland Fair Elections, Sponsored by Civic Advocacy Organizations",
@@ -34,5 +40,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 150000.0
+  "total_contributions": 160000.0
 }

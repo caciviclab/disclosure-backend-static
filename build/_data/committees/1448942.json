@@ -1,5 +1,5 @@
 {
-  "total_contributions": 150000.0,
+  "total_contributions": 160000.0,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -33,6 +33,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "ACLU of Northern California Issues Committee",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-09-06",
+      "Tran_NamF": "Karen",
+      "Tran_NamL": "Grove",
+      "Tran_Zip4": "94025-6210"
     }
   ]
 }
