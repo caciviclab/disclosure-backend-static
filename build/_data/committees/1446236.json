@@ -1,5 +1,5 @@
 {
-  "total_contributions": 23332.0,
+  "total_contributions": 25132.0,
   "contributions": [
     {
       "Filer_ID": "1446236",
@@ -385,6 +385,17 @@
       "Tran_NamF": "John",
       "Tran_NamL": "Protopappas",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1446236",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-09-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association PAC",
+      "Tran_Zip4": "94607"
     }
   ]
 }
