@@ -11,71 +11,96 @@ psql ${DATABASE_NAME:-"disclosure-backend"} << SQL
 */
 DROP VIEW IF EXISTS "Measure_Expenditures";
 CREATE VIEW "Measure_Expenditures" AS
+  -- Map Expenduitures to the correct measure in the correct election.
+-- The forms rarely have the election date field filled out.
+WITH all_expend AS
+  (
+  SELECT
+  "Filer_ID",
+  "Filer_NamL",
+  "Bal_Name",
+  "Bal_Num",
+  "Sup_Opp_Cd",
+  "Amount",
+  "Expn_Code",
+  "Expn_Date",
+  "Payee_NamL" as "Recipient_Or_Description",
+  'E name' as "Form",
+  "Tran_ID"
+  FROM
+  "E-Expenditure"
+  UNION
+
+  SELECT
+  "Filer_ID",
+  "Filer_NamL",
+  "Bal_Name",
+  "Bal_Num",
+  "Sup_Opp_Cd",
+  "Amount",
+  'IND' as "Expn_Code",
+  "Exp_Date" as "Expn_Date",
+  "Expn_Dscr" as "Recipient_Or_Description",
+  '496' as "Form",
+  "Tran_ID"
+  FROM
+  "496"
+  )
   -- Map names to numbers as ballot numbers are often missing
-  SELECT
-    cast ("Filer_ID" as character varying),
-    "Filer_NamL",
-    "election_name",
-    "Bal_Name",
-    "Measure_Number",
-    "Sup_Opp_Cd",
-    "Amount",
-    "Expn_Code",
-    "Expn_Date" as "Exp_Date",
-    "Payee_NamL" as "Recipient_Or_Description",
-    'E name' as "Form",
-    "Tran_ID"
-  FROM
-    "E-Expenditure", name_to_number
-  WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
-  UNION 
-
-  -- Get IE
-  SELECT
-    "Filer_ID"::varchar,
-    "Filer_NamL",
-    "election_name",
-    "Measure_Name",
-    "Measure_Number",
-    "Sup_Opp_Cd",
-    "Amount",
-    'IND' as "Expn_Code",
-    "Exp_Date",
-    "Expn_Dscr" as "Recipient_Or_Description",
-    '496' as "Form",
-    "Tran_ID"
-  FROM
-    "496", name_to_number
-  WHERE
-    (LOWER("Bal_Name") = LOWER("Measure_Name")
-    OR "Bal_Num" = "Measure_Number")
-  AND "Sup_Opp_Cd" IS NOT NULL
-  UNION 
-
-  -- Get support/oppose information from committee
-  SELECT
-    expend."Filer_ID"::varchar,
-    expend."Filer_NamL",
-    "election_name",
-    "Measure_Name" as "Bal_Name",
-    "Ballot_Measure" as "Measure_Number",
-    "Support_Or_Oppose" as "Sup_Opp_Cd",
-    "Amount",
-    "Expn_Code",
-    "Expn_Date" as "Exp_Date",
-    "Payee_NamL" as "Recipient_Or_Description",
-    'E number' as "Form",
-    "Tran_ID"
-  FROM
-    "E-Expenditure" expend
+SELECT
+  cast (expend."Filer_ID" as character varying),
+  expend."Filer_NamL",
+  election_name,
+  "Bal_Name",
+  "Measure_Number",
+  "Sup_Opp_Cd",
+  "Amount",
+  "Expn_Code",
+  "Expn_Date",
+  "Recipient_Or_Description",
+  "Form",
+  "Tran_ID"
+from all_expend  expend
   JOIN committees committee
       ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
       AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
       AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date")
-  JOIN name_to_number ON "Ballot_Measure" = "Measure_Number"
-    AND "Ballot_Measure_Election" = "election_name"
-  WHERE "Bal_Name" IS NULL
-    AND "Ballot_Measure" IS NOT NULL
+  JOIN name_to_number
+      ON LOWER("Bal_Name") = LOWER("Measure_Name")
+      AND election_name = "Ballot_Measure_Election"
+  WHERE "Bal_Num" is NULL
+UNION ALL
+  -- If we have the number, still map to correct election and lookup name if needed.
+SELECT
+  cast (expend."Filer_ID" as character varying),
+  expend."Filer_NamL",
+  election_name,
+  CASE
+    WHEN "Bal_Name" IS NULL THEN "Measure_Name"
+    ELSE "Bal_Name"
+    END AS "Bal_Name",
+  "Measure_Number",
+  "Sup_Opp_Cd",
+  "Amount",
+  "Expn_Code",
+  "Expn_Date",
+  "Recipient_Or_Description",
+  "Form",
+  "Tran_ID"
+from all_expend expend
+  JOIN committees committee
+      ON expend."Filer_ID"::varchar = committee."Filer_ID"::varchar
+      AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
+      AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date")
+  JOIN (
+    SELECT election_name, "Measure_Number", MAX("Measure_Name") as "Measure_Name"
+    FROM name_to_number
+    GROUP BY election_name, "Measure_Number"
+  ) measure
+    ON "Ballot_Measure_Election" = election_name
+    AND "Bal_Num" = "Measure_Number"
+    WHERE "Bal_Num" IS NOT NULL
+    ;
 ;
 
 DROP VIEW IF EXISTS combined_contributions;
@@ -146,7 +171,7 @@ CREATE VIEW combined_contributions AS
 
 DROP VIEW IF EXISTS independent_candidate_expenditures;
 CREATE VIEW independent_candidate_expenditures AS
-  SELECT election_name, "FPPC" AS "Cand_ID", all_data."Filer_ID", committee."Filer_NamL", "Exp_Date", "Sup_Opp_Cd", "Amount"
+  SELECT election_name, "FPPC" AS "Cand_ID", all_data."Filer_ID", committee."Filer_NamL", "Exp_Date" AS "Expn_Date", "Sup_Opp_Cd", "Amount"
   FROM (
     SELECT "Filer_ID"::varchar, "Filer_NamL", "Exp_Date", "Cand_NamF", "Cand_NamL", "Amount", "Sup_Opp_Cd", "Tran_ID"
     FROM "496"
