@@ -1,5 +1,5 @@
 {
-  "total_contributions": 160000.0,
+  "total_contributions": 162500.0,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -44,6 +44,17 @@
       "Tran_NamF": "Karen",
       "Tran_NamL": "Grove",
       "Tran_Zip4": "94025-6210"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-09-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee Supporting Measures T & W Sponsored by CEP",
+      "Tran_Zip4": "94612"
     }
   ]
 }
