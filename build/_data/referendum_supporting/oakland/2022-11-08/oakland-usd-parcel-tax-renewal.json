@@ -8,11 +8,11 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 7500.0,
+      "amount": 210000.0,
       "locale": "Within California"
     },
     {
-      "amount": 3557.94,
+      "amount": 4662.09,
       "locale": "Within Oakland"
     }
   ],
@@ -23,11 +23,11 @@
     },
     {
       "type": "Individual",
-      "amount": 7557.94
+      "amount": 207662.09
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 2500.0
+      "amount": 6000.0
     }
   ],
   "supporting_organizations": [
@@ -38,5 +38,5 @@
       "amount": 91754.87
     }
   ],
-  "total_contributions": 11057.94
+  "total_contributions": 214662.09
 }

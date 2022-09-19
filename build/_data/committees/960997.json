@@ -1,5 +1,5 @@
 {
-  "total_contributions": 520753.0200000002,
+  "total_contributions": 724357.1700000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1694,6 +1694,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unity PAC Alameda Labor Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-09-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "360 Total Concept LLC(Shonda Scott)",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Arthur Rock & Co.",
+      "Tran_Occ": "Financial Advisor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200000.0,
+      "Tran_Date": "2022-09-15",
+      "Tran_NamF": "Arthur",
+      "Tran_NamL": "Rock",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-09-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Thompson Builders Corporation",
+      "Tran_Zip4": "94945"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Katharina Nunez-Adler",
+      "Tran_Occ": "Community Organizer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 104.15,
+      "Tran_Date": "2022-09-16",
+      "Tran_NamF": "Katharina",
+      "Tran_NamL": "Nunez-Adler",
+      "Tran_Zip4": "94610"
     }
   ]
 }

@@ -1031,19 +1031,19 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 3154607.46,
+    "total_contributions": 3359911.61,
     "total_contributions_by_source": {
       "Out of State": 262865.26,
-      "Within Oakland": 1324943.67,
-      "Within California": 1477662.2799999998
+      "Within Oakland": 1327747.82,
+      "Within California": 1680162.2799999998
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 540090.96,
-      "Individual": 1251611.200000001,
+      "Committee": 541790.96,
+      "Individual": 1451715.350000001,
       "Unitemized": 60817.25,
       "Self Funding": 1910.0,
-      "Other (includes Businesses)": 1255959.05
+      "Other (includes Businesses)": 1259459.05
     },
     "most_expensive_races": [
       {
@@ -1087,12 +1087,22 @@
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Janani Ramachandran",
-        "proportion": 0.1000634712227505,
+        "proportion": 0.09806916871812751,
         "office_title": "City Council District 4"
       }
     ],
-    "largest_independent_expenditures": {
-    },
+    "largest_independent_expenditures": [
+      {
+        "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
+        "election_name": "oakland-2022",
+        "total_spending": 115400.0
+      },
+      {
+        "name": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2022",
+        "total_spending": 1840.0
+      }
+    ],
     "top_contributors": [
       {
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
@@ -1100,14 +1110,14 @@
         "total_contributions": 600000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Arthur Rock",
         "election_name": "oakland-2022",
         "total_contributions": 200000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21, AFL-CIO",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "election_name": "oakland-2022",
-        "total_contributions": 147248.46
+        "total_contributions": 200000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1158,16 +1168,16 @@
         "total_spending": 600000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Arthur Rock",
         "type": "Measure",
         "election_name": "oakland-2022",
         "total_spending": 200000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21, AFL-CIO",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 147248.46
+        "total_spending": 200000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1204,10 +1214,10 @@
         "total_spending": 200000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21, AFL-CIO",
+        "name": "Arthur Rock",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 147248.46
+        "total_spending": 200000.0
       }
     ]
   },
