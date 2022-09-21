@@ -1031,19 +1031,19 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 3359911.61,
+    "total_contributions": 3409911.61,
     "total_contributions_by_source": {
       "Out of State": 262865.26,
-      "Within Oakland": 1327747.82,
+      "Within Oakland": 1377747.82,
       "Within California": 1680162.2799999998
     },
     "contributions_by_type": {
       "PTY": 15900.0,
       "Committee": 541790.96,
-      "Individual": 1451715.350000001,
+      "Individual": 1451715.35,
       "Unitemized": 60817.25,
       "Self Funding": 1910.0,
-      "Other (includes Businesses)": 1259459.05
+      "Other (includes Businesses)": 1309459.05
     },
     "most_expensive_races": [
       {
@@ -1056,7 +1056,7 @@
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
         "type": "referendum",
         "title": "Measure T",
-        "amount": 957748.46
+        "amount": 1007748.46
       },
       {
         "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -1122,13 +1122,13 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Riaz Taplin",
+        "name": "John Protopappas",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 3600.0
       },
       {
-        "name": "John Protopappas",
+        "name": "Riaz Taplin",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 3600.0
@@ -1313,7 +1313,7 @@
         "total_contributions": 10000.0
       },
       {
-        "name": "Schnitzer Steel Industries, Inc.",
+        "name": "Oakland Police Officer's Association PAC",
         "type": "Measure",
         "election_name": "oakland-june-2022",
         "total_contributions": 5000.0

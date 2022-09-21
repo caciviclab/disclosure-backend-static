@@ -1,5 +1,5 @@
 {
-  "total_contributions": 50000.0,
+  "total_contributions": 120000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -11,6 +11,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Federation of Professional and Technical Engineers (IFPTE) Local 21 TJ Anthony PAC Fund",
       "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 45000.0,
+      "Tran_Date": "2022-09-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Fire Fighters Local 55 PAC",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-09-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104 PAC",
+      "Tran_Zip4": "94551"
     }
   ]
 }
