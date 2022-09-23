@@ -1,5 +1,5 @@
 {
-  "total_contributions": 120000.0,
+  "total_contributions": 185000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -33,6 +33,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers Local Union 104 PAC",
       "Tran_Zip4": "94551"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 40000.0,
+      "Tran_Date": "2022-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "State Building and Construction Trades Council of California Independent Expenditure PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Steamfitters Local 342 Political Action Committee",
+      "Tran_Zip4": "94518"
     }
   ]
 }

@@ -571,6 +571,11 @@
     ],
     "largest_independent_expenditures": [
       {
+        "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
+        "election_name": "oakland-2018",
+        "total_spending": 175337.0
+      },
+      {
         "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2018",
         "total_spending": 149368.03
@@ -579,11 +584,6 @@
         "name": "East Bay Working Families, a coalition of unions and community groups",
         "election_name": "oakland-2018",
         "total_spending": 140824.0
-      },
-      {
-        "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
-        "election_name": "oakland-2018",
-        "total_spending": 129086.79
       }
     ],
     "top_contributors": [
@@ -1031,15 +1031,15 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 3409911.61,
+    "total_contributions": 3409011.61,
     "total_contributions_by_source": {
       "Out of State": 262865.26,
       "Within Oakland": 1377747.82,
-      "Within California": 1680162.2799999998
+      "Within California": 1679262.2799999998
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 541790.96,
+      "Committee": 540890.96,
       "Individual": 1451715.35,
       "Unitemized": 60817.25,
       "Self Funding": 1910.0,
@@ -1050,7 +1050,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1087914.12
+        "amount": 1087014.12
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -1095,7 +1095,7 @@
       {
         "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
         "election_name": "oakland-2022",
-        "total_spending": 115400.0
+        "total_spending": 175337.0
       },
       {
         "name": "Oakland Education Association Political Action Committee",
