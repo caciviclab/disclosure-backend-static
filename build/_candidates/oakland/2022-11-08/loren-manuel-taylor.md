@@ -8,6 +8,7 @@ name: Loren Manuel Taylor
 occupation: Councilmember/Small Businessperson
 photo_url: loren-taylor-2022.jpg
 twitter_url: lorenmtaylor
+votersedge_url: https://votersedge.org/ca/en/ballot/election/104-c6a989/address/null/zip/94611/contests/contest/24183/candidate/158504?&cty=ca%2falm&date=2022-11-08
 website_url: https://lorenforoakland.com/
 facebook_url: https://www.facebook.com/Loren4Oakland
 instagram_url: loren.taylor
