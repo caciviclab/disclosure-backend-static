@@ -8,5 +8,6 @@ name: Nancy Sidebotham
 occupation: Tax Preparer
 photo_url: nancy_sidebotham_sub.jpg
 twitter_url: nancy6368
+votersedge_url: https://votersedge.org/ca/en/election/2022-11-08/alameda-county/city-council-city-of-oakland-district-6/nancy-sidebotham
 website_url: https://nancysidebotham.com/
 ---

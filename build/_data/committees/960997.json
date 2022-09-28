@@ -1,5 +1,5 @@
 {
-  "total_contributions": 724357.1700000003,
+  "total_contributions": 735357.1700000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1738,6 +1738,28 @@
       "Tran_NamF": "Katharina",
       "Tran_NamL": "Nunez-Adler",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-09-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Justice",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-09-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Cahill Contractors, LLC(Greg Gangitano)",
+      "Tran_Zip4": "94104"
     }
   ]
 }

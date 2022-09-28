@@ -7,15 +7,24 @@
   "number": "U",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 50000.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 50000.0
+    }
   ],
   "supporting_organizations": [
-
+    {
+      "id": "1452659",
+      "name": "Oakland Neighbors for Affordable Housing and Safe Street, Yes on U 2022",
+      "payee": "Oakland Neighbors for Affordable Housing and Safe Street, Yes on U 2022",
+      "amount": 0
+    }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 50000.0
 }

@@ -8,6 +8,7 @@ name: Nikki Fortunato Bas
 occupation: District Councilmember
 photo_url: Nikki_Fortunato_Bas-2022.jpg
 twitter_url: nikki4oakland
+votersedge_url: https://votersedge.org/ca/en/election/2022-11-08/alameda-county/city-council-city-of-oakland-district-2/nikki-fortunato-bas
 website_url: http://www.nikki4oakland.com
 facebook_url: https://www.facebook.com/Nikki4Oakland/
 instagram_url: nikki4oakland

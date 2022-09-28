@@ -1,5 +1,5 @@
 {
-  "total_contributions": 185000.0,
+  "total_contributions": 275000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -55,6 +55,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Steamfitters Local 342 Political Action Committee",
       "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-09-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "SEIU United Healthcare Workers West PAC",
+      "Tran_Zip4": "90017"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 80000.0,
+      "Tran_Date": "2022-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607"
     }
   ]
 }

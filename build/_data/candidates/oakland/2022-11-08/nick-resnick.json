@@ -1,5 +1,5 @@
 {
-  "id": 37,
+  "id": 36,
   "name": "Nick Resnick",
   "photo_url": "Nick-Resnick-sm.png",
   "website_url": "https://www.nickforoaklandschools.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1446325,
   "supporting_money": {
-    "contributions_received": 33392.0,
-    "total_contributions": 33392.0,
-    "total_expenditures": 2343.64,
+    "contributions_received": 48465.0,
+    "total_contributions": 48465.0,
+    "total_expenditures": 11995.76,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,19 +31,23 @@
     ],
     "contributions_by_type": {
       "Committee": 800.0,
-      "Individual": 29415.0,
-      "Unitemized": 2877.0,
+      "Individual": 43470.0,
+      "Unitemized": 3895.0,
       "Self Funding": 300.0
     },
     "contributions_by_origin": {
-      "Out of State": 3965.0,
-      "Within Oakland": 16400.0,
-      "Within California": 10150.0
+      "Out of State": 7895.0,
+      "Within Oakland": 24450.0,
+      "Within California": 12225.0
     },
-    "total_small_contributions": 2992.0,
+    "total_small_contributions": 4715.0,
     "expenditures_by_type": {
-      "Campaign Paraphernalia/Misc.": 1078.97,
-      "Professional Services (Legal, Accounting)": 888.19
+      "Contribution": 210.0,
+      "Civic Donations": 360.0,
+      "Campaign Paraphernalia/Misc.": 4976.27,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Professional Services (Legal, Accounting)": 4882.17,
+      "Information Technology Costs (Internet, E-mail)": 84.0
     },
     "supporting_by_type": {
     }
@@ -56,7 +60,7 @@
 
     ]
   },
-  "total_contributions": 33392.0,
-  "total_expenditures": 2343.64,
+  "total_contributions": 48465.0,
+  "total_expenditures": 11995.76,
   "total_loans_received": 0.0
 }

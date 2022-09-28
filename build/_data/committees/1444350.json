@@ -1,5 +1,5 @@
 {
-  "total_contributions": 399748.46,
+  "total_contributions": 403169.35000000003,
   "contributions": [
     {
       "Filer_ID": "1444350",
@@ -66,6 +66,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612-2005"
+    },
+    {
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3420.89,
+      "Tran_Date": "2022-09-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612"
     }
   ]
 }
