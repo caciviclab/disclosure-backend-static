@@ -9,13 +9,17 @@
   "contributions_by_region": [
     {
       "amount": 50000.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 50000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Other (includes Businesses)",
-      "amount": 50000.0
+      "amount": 100000.0
     }
   ],
   "supporting_organizations": [
@@ -26,5 +30,5 @@
       "amount": 0
     }
   ],
-  "total_contributions": 50000.0
+  "total_contributions": 100000.0
 }
