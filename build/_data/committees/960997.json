@@ -1,5 +1,5 @@
 {
-  "total_contributions": 735357.1700000003,
+  "total_contributions": 750112.9500000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -1642,6 +1642,61 @@
     },
     {
       "Filer_ID": "960997",
+      "Tran_Emp": "Benjamin Davis",
+      "Tran_Occ": "Technology Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-08-10",
+      "Tran_NamF": "Benjamin",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2022-08-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Justice",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 104.15,
+      "Tran_Date": "2022-08-12",
+      "Tran_NamF": "Emiliano",
+      "Tran_NamL": "Sanchez",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-08-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-08-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "McGuire and Hester",
+      "Tran_Zip4": "94502"
+    },
+    {
+      "Filer_ID": "960997",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -1675,6 +1730,39 @@
     },
     {
       "Filer_ID": "960997",
+      "Tran_Emp": "Roseville City School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 104.15,
+      "Tran_Date": "2022-08-26",
+      "Tran_NamF": "Janis",
+      "Tran_NamL": "Pope",
+      "Tran_Zip4": "95747"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-08-29",
+      "Tran_NamF": "Karen",
+      "Tran_NamL": "Meryash",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-09-02",
+      "Tran_NamF": "Gary",
+      "Tran_NamL": "Yee",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "960997",
       "Tran_Emp": "Argent Materials",
       "Tran_Occ": "President",
       "Entity_Cd": "Individual",
@@ -1694,6 +1782,61 @@
       "Tran_NamF": null,
       "Tran_NamL": "Unity PAC Alameda Labor Council",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "SCI Consulting Group",
+      "Tran_Occ": "Civil Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-07",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Bliss",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Marin Health Medical",
+      "Tran_Occ": "Nurse Midwife",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 104.15,
+      "Tran_Date": "2022-09-08",
+      "Tran_NamF": "Rachel",
+      "Tran_NamL": "Latta",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Pantheon",
+      "Tran_Occ": "Marketing Executive",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-09-12",
+      "Tran_NamF": "Francine",
+      "Tran_NamL": "Anthony",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 156.07,
+      "Tran_Date": "2022-09-12",
+      "Tran_NamF": "Janet",
+      "Tran_NamL": "Macher",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Alameda County Community. Development Agency",
+      "Tran_Occ": "Manager, Housing and Community Development",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 519.52,
+      "Tran_Date": "2022-09-12",
+      "Tran_NamF": "Hilde",
+      "Tran_NamL": "Myall",
+      "Tran_Zip4": "94608"
     },
     {
       "Filer_ID": "960997",
@@ -1743,12 +1886,155 @@
       "Filer_ID": "960997",
       "Tran_Emp": null,
       "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 613.41,
+      "Tran_Date": "2022-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Education Association PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Riverrock Real Estate Group",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 414.97,
+      "Tran_Date": "2022-09-18",
+      "Tran_NamF": "Michelle",
+      "Tran_NamL": "Cox",
+      "Tran_Zip4": "94622"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Aspire",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-18",
+      "Tran_NamF": "Tommy",
+      "Tran_NamL": "Gonzalez",
+      "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Contra Costa County",
+      "Tran_Occ": "Sustainability Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 259.92,
+      "Tran_Date": "2022-09-18",
+      "Tran_NamF": "Jody",
+      "Tran_NamL": "London",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Berkshire Hathaway Homestate Companies",
+      "Tran_Occ": "First Report Specialist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-18",
+      "Tran_NamF": "Tien",
+      "Tran_NamL": "Nguyen",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-18",
+      "Tran_NamF": "Kelechi",
+      "Tran_NamL": "Osemele",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "ParaFi",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 259.92,
+      "Tran_Date": "2022-09-18",
+      "Tran_NamF": "Lilly",
+      "Tran_NamL": "Palmer",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 519.52,
+      "Tran_Date": "2022-09-19",
+      "Tran_NamF": "Sherri",
+      "Tran_NamL": "Heller",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-19",
+      "Tran_NamF": "Travis",
+      "Tran_NamL": "Ritchie",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Jacquie Anderson",
+      "Tran_Occ": "Independent Evaluation Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-22",
+      "Tran_NamF": "Jacquie",
+      "Tran_NamL": "Anderson",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Benjamin Davis",
+      "Tran_Occ": "Technology Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-09-22",
+      "Tran_NamF": "Benjamin",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "University Of California San Diego",
+      "Tran_Occ": "Director Of Mental Health Services",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-09-22",
+      "Tran_NamF": "Celia",
+      "Tran_NamL": "Falicov",
+      "Tran_Zip4": "92103"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2022-09-23",
       "Tran_NamF": null,
       "Tran_NamL": "Families in Action for Justice",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Amazon",
+      "Tran_Occ": "Program Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-09-24",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Ausman",
+      "Tran_Zip4": "94110"
     },
     {
       "Filer_ID": "960997",

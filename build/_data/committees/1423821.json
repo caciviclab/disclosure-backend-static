@@ -1,5 +1,5 @@
 {
-  "total_contributions": 127494.0,
+  "total_contributions": 128494.0,
   "contributions": [
     {
       "Filer_ID": "1423821",
@@ -4070,6 +4070,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union United Service Workers West Candidate PAC",
       "Tran_Zip4": "90015"
+    },
+    {
+      "Filer_ID": "1423821",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-09-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Transport Workers Union",
+      "Tran_Zip4": "20001"
     }
   ]
 }
