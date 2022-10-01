@@ -8,30 +8,30 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 25000.0,
+      "amount": 150000.0,
       "locale": "Out of State"
     },
     {
-      "amount": 142062.5,
+      "amount": 144709.16,
       "locale": "Within California"
     },
     {
-      "amount": 31445.65,
+      "amount": 31483.65,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 106445.65
+      "amount": 107192.31
     },
     {
       "type": "Individual",
-      "amount": 60000.0
+      "amount": 60288.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 32062.5
+      "amount": 158712.5
     }
   ],
   "supporting_organizations": [
@@ -45,8 +45,8 @@
       "id": "1448942",
       "name": "Yes on W, Oakland Fair Elections, Sponsored by Civic Advocacy Organizations",
       "payee": "Yes on W, Oakland Fair Elections, Sponsored by Civic Advocacy Organizations",
-      "amount": 0.0
+      "amount": 0
     }
   ],
-  "total_contributions": 198508.15
+  "total_contributions": 326192.81000000006
 }

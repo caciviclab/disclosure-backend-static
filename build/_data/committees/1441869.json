@@ -1,5 +1,5 @@
 {
-  "total_contributions": 65525.0,
+  "total_contributions": 65725.0,
   "contributions": [
     {
       "Filer_ID": "1441869",
@@ -1889,6 +1889,39 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-06-11",
+      "Tran_NamF": "Eileen",
+      "Tran_NamL": "Pippins",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1441869",
+      "Tran_Emp": "Target",
+      "Tran_Occ": "Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-07-03",
+      "Tran_NamF": "Frederic",
+      "Tran_NamL": "Roots",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1441869",
+      "Tran_Emp": "San Mateo Community College District",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-07-11",
+      "Tran_NamF": "Eileen",
+      "Tran_NamL": "Pippins",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1441869",
+      "Tran_Emp": "San Mateo Community College District",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-08-11",
       "Tran_NamF": "Eileen",
       "Tran_NamL": "Pippins",
       "Tran_Zip4": "94608"

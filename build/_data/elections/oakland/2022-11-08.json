@@ -1,30 +1,30 @@
 {
-  "total_contributions": 3592919.43,
+  "total_contributions": 4287638.88,
   "total_contributions_by_source": {
-    "Out of State": 292295.26,
-    "Within Oakland": 1453496.51,
-    "Within California": 1756973.4099999997
+    "Out of State": 456963.37,
+    "Within Oakland": 1732163.720000001,
+    "Within California": 1976786.02
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 551370.91,
-    "Individual": 1472762.720000001,
-    "Unitemized": 61835.25,
-    "Self Funding": 1910.0,
-    "Other (includes Businesses)": 1460821.55
+    "Committee": 583981.57,
+    "Individual": 1935242.290000001,
+    "Unitemized": 91171.81,
+    "Self Funding": 2611.0,
+    "Other (includes Businesses)": 1628178.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1088314.12
+      "amount": 1515086.53
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
       "type": "referendum",
       "title": "Measure T",
-      "amount": 1011169.35
+      "amount": 1007671.35
     },
     {
       "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -39,36 +39,36 @@
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Allyssa Victory Villanueva",
-      "proportion": 0.24415632986349187,
+      "proportion": 0.22669882252801815,
       "office_title": "Mayor"
     },
     {
-      "slug": "paulina-gonzalez",
+      "slug": "valarie-bachelor",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Paulina Gonzalez",
-      "proportion": 0.1278271918678526,
-      "office_title": "City Council District 6"
+      "candidate": "Valarie Bachelor",
+      "proportion": 0.16538281736727553,
+      "office_title": "OUSD District 6"
     },
     {
-      "slug": "janani-ramachandran",
+      "slug": "pecolia-manigo",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Janani Ramachandran",
-      "proportion": 0.09806916871812751,
-      "office_title": "City Council District 4"
+      "candidate": "Pecolia Manigo",
+      "proportion": 0.16353665272626844,
+      "office_title": "OUSD District 4"
     }
   ],
   "largest_independent_expenditures": [
     {
       "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
       "election_name": "oakland-2022",
-      "total_spending": 189723.0
+      "total_spending": 189722.68
     },
     {
       "name": "Oakland Education Association Political Action Committee",
       "election_name": "oakland-2022",
-      "total_spending": 1840.0
+      "total_spending": 1840.24
     }
   ],
   "top_contributors": [
@@ -93,16 +93,16 @@
       "name": "John Bliss",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 3600.0
+      "total_contributions": 3850.0
     },
     {
-      "name": "John Protopappas",
+      "name": "Suzanne Skugstad",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 3600.0
     },
     {
-      "name": "Riaz Taplin",
+      "name": "Sabrina Foster",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 3600.0
@@ -125,7 +125,7 @@
       "name": "International Federation of Professional and Technical Engineers Local 21, AFL-CIO",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_contributions": 147248.46
+      "total_contributions": 168662.46
     }
   ],
   "top_spenders": [
@@ -150,6 +150,12 @@
   ],
   "top_spenders_for_offices": [
     {
+      "name": "John Bliss",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_spending": 3850.0
+    },
+    {
       "name": "John Protopappas",
       "type": "Office",
       "election_name": "oakland-2022",
@@ -157,12 +163,6 @@
     },
     {
       "name": "Riaz Taplin",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_spending": 3600.0
-    },
-    {
-      "name": "John Bliss",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_spending": 3600.0

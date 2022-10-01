@@ -12,47 +12,47 @@
       "locale": "Out of State"
     },
     {
-      "amount": 701998.46,
+      "amount": 698462.46,
       "locale": "Within California"
     },
     {
-      "amount": 201920.89,
+      "amount": 201958.89,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 353169.35
+      "amount": 374583.35
     },
     {
       "type": "Individual",
-      "amount": 3500.0
+      "amount": 3588.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 654500.0
+      "amount": 629500.0
     }
   ],
   "supporting_organizations": [
     {
-      "id": "1332115",
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "payee": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "amount": 0
+      "id": "1445852",
+      "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
+      "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
+      "amount": 468745.76
     },
     {
       "id": "1444350",
       "name": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
       "payee": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
-      "amount": 69095.0
+      "amount": 110629.09
     },
     {
-      "id": "1445852",
-      "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
-      "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
-      "amount": 1199.95
+      "id": "1332115",
+      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "payee": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "amount": 0
     }
   ],
-  "total_contributions": 1011169.35
+  "total_contributions": 1007671.35
 }

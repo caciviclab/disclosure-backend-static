@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1442594,
   "supporting_money": {
-    "contributions_received": 306422.47,
-    "total_contributions": 306422.47,
-    "total_expenditures": 95486.85,
+    "contributions_received": 370608.47,
+    "total_contributions": 370608.47,
+    "total_expenditures": 213011.54,
     "total_loans_received": -500.0,
-    "total_supporting_independent": 189723.0,
+    "total_supporting_independent": 189722.68,
     "support_list": [
       {
-        "Total": 189723.0,
+        "Total": 189722.68,
         "Cand_ID": 1442594,
         "Filer_ID": "1452920",
         "Filer_NamL": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022"
@@ -36,39 +36,38 @@
     ],
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 30500.0,
-      "Individual": 232772.47,
-      "Unitemized": 11920.0,
-      "Other (includes Businesses)": 15830.0
+      "Committee": 31400.0,
+      "Individual": 281673.47,
+      "Unitemized": 16905.0,
+      "Other (includes Businesses)": 25230.0
     },
     "contributions_by_origin": {
-      "Out of State": 28937.0,
-      "Within Oakland": 73809.0,
-      "Within California": 192256.47
+      "Out of State": 30537.0,
+      "Within Oakland": 93885.0,
+      "Within California": 229781.47
     },
-    "total_small_contributions": 14233.0,
+    "total_small_contributions": 21569.0,
     "expenditures_by_type": {
-      "Fundraising Events": 13034.0,
-      "Campaign Consultants": 39367.66,
-      "Meetings and Appearances": 116.2,
-      "Campaign Paraphernalia/Misc.": 12125.0,
-      "Candidate Filing/Ballot Fees": 109.16,
-      "Campaign Literature and Mailings": 15555.22,
-      "Candidate Travel, Lodging, and Meals": 1981.27,
-      "Staff/Spouse Travel, Lodging, and Meals": 2900.87,
-      "Professional Services (Legal, Accounting)": 390.0,
-      "Information Technology Costs (Internet, E-mail)": 4400.78,
+      "Office Expenses": 2633.76,
+      "Fundraising Events": 21956.12,
+      "Campaign Consultants": 100798.96,
+      "Meetings and Appearances": 828.6,
+      "Campaign Paraphernalia/Misc.": 24080.77,
+      "Candidate Filing/Ballot Fees": 1109.16,
+      "Campaign Literature and Mailings": 16637.15,
+      "Candidate Travel, Lodging, and Meals": 2558.43,
+      "Staff/Spouse Travel, Lodging, and Meals": 4064.25,
+      "Professional Services (Legal, Accounting)": 890.0,
+      "T.V. or Cable Airtime and Production Costs": 22527.0,
+      "Information Technology Costs (Internet, E-mail)": 7609.78,
       "Transfer Between Committees of the Same Candidate/sponsor": 3600.0
     },
     "supporting_by_type": {
       "MON": 5300.0,
-      "Mailer": 82440.0,
-      "Polling": 45000.0,
-      "Consulting": 20000.0,
-      "Digital Media": 50400.0,
+      "Mailer": 22503.0,
       "Phone and canvass campaign": 140344.0,
       "Phone and canvassing campaign": 33357.0,
-      "Independent Expenditure Supporting/Opposing Others": 107550.16
+      "Independent Expenditure Supporting/Opposing Others": 282886.84
     }
   },
   "opposing_money": {
@@ -79,7 +78,7 @@
 
     ]
   },
-  "total_contributions": 306422.47,
-  "total_expenditures": 95486.85,
+  "total_contributions": 370608.47,
+  "total_expenditures": 213011.54,
   "total_loans_received": -500.0
 }

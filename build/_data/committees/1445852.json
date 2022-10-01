@@ -1,5 +1,5 @@
 {
-  "total_contributions": 608000.0,
+  "total_contributions": 583000.0,
   "contributions": [
     {
       "Filer_ID": "1445852",
@@ -371,6 +371,17 @@
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 25000.0,
       "Tran_Date": "2022-05-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kaiser Permanente",
+      "Tran_Zip4": "91103"
+    },
+    {
+      "Filer_ID": "1445852",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -25000.0,
+      "Tran_Date": "2022-09-24",
       "Tran_NamF": null,
       "Tran_NamL": "Kaiser Permanente",
       "Tran_Zip4": "91103"

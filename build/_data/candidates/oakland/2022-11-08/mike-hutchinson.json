@@ -21,20 +21,29 @@
   "is_winner": null,
   "filer_id": 1449393,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 7751.0,
+    "total_contributions": 7751.0,
+    "total_expenditures": 6362.08,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 5600.0,
+      "Unitemized": 1151.0,
+      "Other (includes Businesses)": 900.0
     },
     "contributions_by_origin": {
+      "Out of State": 950.0,
+      "Within Oakland": 4250.0,
+      "Within California": 1300.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 1201.0,
     "expenditures_by_type": {
+      "Office Expenses": 356.63,
+      "Campaign Paraphernalia/Misc.": 3981.46,
+      "Professional Services (Legal, Accounting)": 429.03
     },
     "supporting_by_type": {
       "IKD": 5924.0,
@@ -50,7 +59,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 7751.0,
+  "total_expenditures": 6362.08,
+  "total_loans_received": 0.0
 }

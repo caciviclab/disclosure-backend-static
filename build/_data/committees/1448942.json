@@ -1,6 +1,39 @@
 {
-  "total_contributions": 198508.15,
+  "total_contributions": 326104.81,
   "contributions": [
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-07-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Stand Up America",
+      "Tran_Zip4": "10003"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1650.0,
+      "Tran_Date": "2022-07-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Proteus Action League",
+      "Tran_Zip4": "01002"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 75000.0,
+      "Tran_Date": "2022-08-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Voqal",
+      "Tran_Zip4": "80501"
+    },
     {
       "Filer_ID": "1448942",
       "Tran_Emp": "Akonadi Foundation",
@@ -11,6 +44,17 @@
       "Tran_NamF": "Quinn",
       "Tran_NamL": "Delaney",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-08-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "End Citizens United/Let America Vote Action Fund",
+      "Tran_Zip4": "20003"
     },
     {
       "Filer_ID": "1448942",
@@ -44,6 +88,17 @@
       "Tran_NamF": "Karen",
       "Tran_NamL": "Grove",
       "Tran_Zip4": "94025-6210"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": "MapLight",
+      "Tran_Occ": "Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-09-06",
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Newman",
+      "Tran_Zip4": "94707"
     },
     {
       "Filer_ID": "1448942",
@@ -99,6 +154,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Rising Ballot Committee Supporting Measures T & W Sponsored by CEP",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 746.66,
+      "Tran_Date": "2022-09-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
     }
   ]
 }
