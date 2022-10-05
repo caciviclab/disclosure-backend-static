@@ -1,5 +1,5 @@
 {
-  "total_contributions": 453001.1,
+  "total_contributions": 478001.1,
   "contributions": [
     {
       "Filer_ID": "1332115",
@@ -4752,6 +4752,17 @@
       "Tran_NamF": "Edie",
       "Tran_NamL": "Irons",
       "Tran_Zip4": "94601-4318"
+    },
+    {
+      "Filer_ID": "1332115",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612-2005"
     }
   ]
 }

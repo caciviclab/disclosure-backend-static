@@ -1,17 +1,17 @@
 {
-  "total_contributions": 4292638.88,
+  "total_contributions": 4423000.9,
   "total_contributions_by_source": {
-    "Out of State": 456963.37,
-    "Within Oakland": 1732163.720000001,
-    "Within California": 1981786.02
+    "Out of State": 457413.37,
+    "Within Oakland": 1803256.990000001,
+    "Within California": 2037854.77
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 588981.57,
-    "Individual": 1935242.290000001,
-    "Unitemized": 91171.81,
+    "Committee": 598509.32,
+    "Individual": 1962836.560000001,
+    "Unitemized": 91921.81,
     "Self Funding": 2611.0,
-    "Other (includes Businesses)": 1628178.25
+    "Other (includes Businesses)": 1718668.25
   },
   "most_expensive_races": [
     {
@@ -24,7 +24,7 @@
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
       "type": "referendum",
       "title": "Measure T",
-      "amount": 1007671.35
+      "amount": 1032671.35
     },
     {
       "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -93,16 +93,16 @@
       "name": "John Bliss",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 3850.0
+      "total_contributions": 4750.0
+    },
+    {
+      "name": "Robert Wasserman",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_contributions": 4500.0
     },
     {
       "name": "Suzanne Skugstad",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_contributions": 3600.0
-    },
-    {
-      "name": "Sabrina Foster",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 3600.0
@@ -153,16 +153,16 @@
       "name": "John Bliss",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 3850.0
+      "total_spending": 4750.0
+    },
+    {
+      "name": "Robert Wasserman",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_spending": 4500.0
     },
     {
       "name": "John Protopappas",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_spending": 3600.0
-    },
-    {
-      "name": "Riaz Taplin",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_spending": 3600.0

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 105000.0,
+  "total_contributions": 112500.0,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -33,6 +33,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Resources for Community Development",
       "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2022-10-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Worker's International Association Local Union No. 104 Local Issues Committee",
+      "Tran_Zip4": "94551"
     }
   ]
 }
