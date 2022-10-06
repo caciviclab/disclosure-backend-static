@@ -6,4 +6,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Joel Velasquez
 occupation: Safety Engineer
+facebook_url: https://www.facebook.com/joelvelasquezforOakland
+instagram_url: joelvelasquezforoakland
 ---
