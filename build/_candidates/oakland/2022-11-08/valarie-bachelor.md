@@ -6,6 +6,7 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Valarie Bachelor
 occupation: Education Union Organizer
+photo_url: Valarie Bachelor.jpg
 twitter_url: Val4OUSDschools
 website_url: https://www.val4oakland.com/
 facebook_url: https://www.facebook.com/Val4OUSDSchools
