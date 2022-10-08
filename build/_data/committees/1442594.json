@@ -1,5 +1,5 @@
 {
-  "total_contributions": 354203.47,
+  "total_contributions": 355203.47,
   "contributions": [
     {
       "Filer_ID": "1442594",
@@ -11484,6 +11484,17 @@
       "Tran_NamF": "Judy",
       "Tran_NamL": "Young",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1442594",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Berkeley Firefighters Association Local 1227 Political Action Committee All Purpose AccountCommittee ID# 960450",
+      "Tran_Zip4": "90802"
     }
   ]
 }
