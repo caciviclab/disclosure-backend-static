@@ -1,5 +1,5 @@
 {
-  "total_contributions": 112500.0,
+  "total_contributions": 162500.0,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -44,6 +44,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Worker's International Association Local Union No. 104 Local Issues Committee",
       "Tran_Zip4": "94551"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2022-10-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Related Companies of Calif LLC",
+      "Tran_Zip4": "92612"
     }
   ]
 }
