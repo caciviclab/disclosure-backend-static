@@ -1,5 +1,5 @@
 {
-  "total_contributions": 275000.0,
+  "total_contributions": 300000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -77,6 +77,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Dignity CA SEIU Local 2015",
+      "Tran_Zip4": "90057"
     }
   ]
 }
