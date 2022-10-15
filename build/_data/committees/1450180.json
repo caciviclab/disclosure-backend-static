@@ -1,6 +1,17 @@
 {
-  "total_contributions": 27594.27,
+  "total_contributions": 32044.27,
   "contributions": [
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Visa Corp",
+      "Tran_Occ": "Program Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-07-27",
+      "Tran_NamF": "Valerie",
+      "Tran_NamL": "Michael",
+      "Tran_Zip4": "94580"
+    },
     {
       "Filer_ID": "1450180",
       "Tran_Emp": "CEO",
@@ -14,8 +25,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Apple",
+      "Tran_Occ": "Software Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-07-31",
@@ -25,8 +36,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Uknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Three Sirens, LLC",
+      "Tran_Occ": "Member/Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-07-31",
@@ -36,8 +47,19 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Uknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Hayward Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-08-01",
+      "Tran_NamF": "Alex",
+      "Tran_NamL": "Kopel",
+      "Tran_Zip4": "94706"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-08-01",
@@ -47,8 +69,19 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Saigon",
+      "Tran_Occ": "Printer/Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2022-08-01",
+      "Tran_NamF": "Anna",
+      "Tran_NamL": "Wong",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "RBA Creative",
+      "Tran_Occ": "Co-Owner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-08-04",
@@ -58,8 +91,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Consultant",
+      "Tran_Occ": "Anthropoligist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-08-06",
@@ -69,13 +102,57 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Miami VA",
+      "Tran_Occ": "HR Assistant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-08-06",
+      "Tran_NamF": "Tammy",
+      "Tran_NamL": "Terrell",
+      "Tran_Zip4": "33139"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-08-07",
+      "Tran_NamF": "Steve",
+      "Tran_NamL": "Berley",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Physicist",
+      "Tran_Occ": "Ametek, Inc.",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-08-07",
       "Tran_NamF": "Salvatore",
       "Tran_NamL": "Fahey",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-08-07",
+      "Tran_NamF": "Cynthia",
+      "Tran_NamL": "Kopec",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Mayor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-08-07",
+      "Tran_NamF": "Libby",
+      "Tran_NamL": "Schaaf",
       "Tran_Zip4": "94602"
     },
     {
@@ -113,10 +190,10 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
+      "Tran_Amt1": 100.0,
       "Tran_Date": "2022-08-21",
       "Tran_NamF": "Brendalynn",
       "Tran_NamL": "Goodall",
@@ -124,14 +201,25 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-08-21",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Hinds",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Joyce Gordon Gallery",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
-      "Tran_Date": "2022-08-21",
-      "Tran_NamF": "Brendalynn",
-      "Tran_NamL": "Goodall",
-      "Tran_Zip4": "94605"
+      "Tran_Date": "2022-08-23",
+      "Tran_NamF": "Joyce",
+      "Tran_NamL": "Gordon",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1450180",
@@ -164,7 +252,7 @@
       "Tran_Date": "2022-08-30",
       "Tran_NamF": "Rose",
       "Tran_NamL": "Cabral",
-      "Tran_Zip4": "95617"
+      "Tran_Zip4": "95818"
     },
     {
       "Filer_ID": "1450180",
@@ -190,7 +278,7 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": null,
+      "Tran_Emp": "Port Commissioner",
       "Tran_Occ": "Port Commissioner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
@@ -201,8 +289,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-09-01",
@@ -220,6 +308,17 @@
       "Tran_NamF": "Mildred",
       "Tran_NamL": "Swafford",
       "Tran_Zip4": "94611-1452"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-09-02",
+      "Tran_NamF": "Carolyn",
+      "Tran_NamL": "Burgess",
+      "Tran_Zip4": "94705"
     },
     {
       "Filer_ID": "1450180",
@@ -289,6 +388,17 @@
     },
     {
       "Filer_ID": "1450180",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Community Volunteer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-09-07",
+      "Tran_NamF": "Ed",
+      "Tran_NamL": "Gerber",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1450180",
       "Tran_Emp": "Aurice Guyton Events",
       "Tran_Occ": "Event Planner",
       "Entity_Cd": "Individual",
@@ -329,18 +439,7 @@
       "Tran_Date": "2022-09-07",
       "Tran_NamF": "Anne",
       "Tran_NamL": "Washington",
-      "Tran_Zip4": "94611"
-    },
-    {
-      "Filer_ID": "1450180",
-      "Tran_Emp": null,
-      "Tran_Occ": "Former Oakland City Councilmember, District 4",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 900.0,
-      "Tran_Date": "2022-09-07",
-      "Tran_NamF": "Anne",
-      "Tran_NamL": "Washington",
-      "Tran_Zip4": "94611"
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1450180",
@@ -355,8 +454,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-09-08",
@@ -388,8 +487,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-09-08",
@@ -432,8 +531,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Best Bay Apartments",
+      "Tran_Occ": "Chief Product Officer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-09-08",
@@ -454,8 +553,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Best Bay Apartments",
+      "Tran_Occ": "CEO",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-09-08",
@@ -465,8 +564,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-09-08",
@@ -476,8 +575,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-09-08",
@@ -487,8 +586,8 @@
     },
     {
       "Filer_ID": "1450180",
-      "Tran_Emp": "Unknown",
-      "Tran_Occ": "Unknown",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-09-08",
@@ -571,7 +670,7 @@
       "Tran_Date": "2022-09-10",
       "Tran_NamF": "Oliver",
       "Tran_NamL": "Cacananta",
-      "Tran_Zip4": "94501"
+      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1450180",
@@ -605,17 +704,6 @@
       "Tran_NamF": "Lisa",
       "Tran_NamL": "Williams",
       "Tran_Zip4": "94501"
-    },
-    {
-      "Filer_ID": "1450180",
-      "Tran_Emp": "Feelmore",
-      "Tran_Occ": "Business Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-12",
-      "Tran_NamF": "Lanenna",
-      "Tran_NamL": "Joiner",
-      "Tran_Zip4": "94619"
     },
     {
       "Filer_ID": "1450180",
@@ -726,6 +814,28 @@
       "Tran_NamF": "Alicia",
       "Tran_NamL": "McCauley",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-21",
+      "Tran_NamF": "Marlene",
+      "Tran_NamL": "Stevens",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": "California State",
+      "Tran_Occ": "Assemblymember",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-09-22",
+      "Tran_NamF": "Mia",
+      "Tran_NamL": "Bonta",
+      "Tran_Zip4": "95815"
     },
     {
       "Filer_ID": "1450180",

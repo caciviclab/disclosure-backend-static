@@ -1,5 +1,5 @@
 {
-  "id": 36,
+  "id": 37,
   "name": "Pecolia Manigo",
   "photo_url": "Pecolia-Manigo.png",
   "website_url": "https://www.pecoliaforoakland.com/",
@@ -25,10 +25,10 @@
     "total_contributions": 25346.0,
     "total_expenditures": 12473.02,
     "total_loans_received": 3000.0,
-    "total_supporting_independent": 1840.24,
+    "total_supporting_independent": 15745.24,
     "support_list": [
       {
-        "Total": 1840.24,
+        "Total": 15745.24,
         "Cand_ID": 1448946,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
@@ -59,6 +59,7 @@
     },
     "supporting_by_type": {
       "MON": 1800.0,
+      "Mailer": 13905.0,
       "Independent Expenditure Supporting/Opposing Others": 1840.24
     }
   },

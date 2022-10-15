@@ -1,5 +1,5 @@
 {
-  "id": 33,
+  "id": 34,
   "name": "Jennifer Brouhard",
   "photo_url": "Jennifer Brouhard.jpg",
   "website_url": "https://www.brouhard4ousd.com/",
@@ -13,30 +13,47 @@
   "ballot_item": 24,
   "office_election": 24,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Committee to Elect Jennifer Brouhard for Oakland School Board District 2, 2022",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
   "occupation": "Public School Teacher",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1452949,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
-    "total_supporting_independent": 0.0,
+    "contributions_received": 8962.0,
+    "total_contributions": 8962.0,
+    "total_expenditures": 2045.56,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 11321.24,
     "support_list": [
-
+      {
+        "Total": 11321.24,
+        "Cand_ID": 1452949,
+        "Filer_ID": "1345259",
+        "Filer_NamL": "Oakland Education Association Political Action Committee"
+      }
     ],
     "contributions_by_type": {
+      "Committee": 3600.0,
+      "Individual": 2750.0,
+      "Unitemized": 1012.0,
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 2050.0,
+      "Within California": 5900.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 1012.0,
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 271.56,
+      "Professional Services (Legal, Accounting)": 1500.0,
+      "Information Technology Costs (Internet, E-mail)": 179.0
     },
     "supporting_by_type": {
+      "MON": 1800.0,
+      "Mailer": 9481.0,
+      "Independent Expenditure Supporting/Opposing Others": 1840.24
     }
   },
   "opposing_money": {
@@ -47,7 +64,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 8962.0,
+  "total_expenditures": 2045.56,
+  "total_loans_received": 0.0
 }

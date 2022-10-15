@@ -1,7 +1,8 @@
 ---
 election: _elections/oakland/2022-11-08.md
-committee_name: No committee registered
-filer_id: ''
+committee_name: Committee to Elect Jennifer Brouhard for Oakland School Board District
+  2, 2022
+filer_id: '1452949'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Jennifer Brouhard

@@ -21,18 +21,23 @@
   "is_winner": null,
   "filer_id": 1446236,
   "supporting_money": {
-    "contributions_received": 188923.0,
-    "total_contributions": 188923.0,
+    "contributions_received": 189022.0,
+    "total_contributions": 189022.0,
     "total_expenditures": 58306.07,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 116646.0,
     "support_list": [
-
+      {
+        "Total": 116646.0,
+        "Cand_ID": 1446236,
+        "Filer_ID": "1452451",
+        "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
+      }
     ],
     "contributions_by_type": {
       "Committee": 3850.0,
       "Individual": 142685.0,
-      "Unitemized": 1046.0,
+      "Unitemized": 1145.0,
       "Other (includes Businesses)": 41342.0
     },
     "contributions_by_origin": {
@@ -40,7 +45,7 @@
       "Within Oakland": 77927.0,
       "Within California": 97800.0
     },
-    "total_small_contributions": 1046.0,
+    "total_small_contributions": 1145.0,
     "expenditures_by_type": {
       "Office Expenses": 9010.23,
       "Fundraising Events": 2324.56,
@@ -68,7 +73,7 @@
 
     ]
   },
-  "total_contributions": 188923.0,
+  "total_contributions": 189022.0,
   "total_expenditures": 58306.07,
   "total_loans_received": 0.0
 }

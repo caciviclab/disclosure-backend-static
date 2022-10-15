@@ -1,30 +1,30 @@
 {
-  "total_contributions": 4669351.65,
+  "total_contributions": 4702629.9399999995,
   "total_contributions_by_source": {
-    "Out of State": 457413.37,
-    "Within Oakland": 1960002.04,
-    "Within California": 2127460.4699999997
+    "Out of State": 462913.37,
+    "Within Oakland": 1972374.6800000009,
+    "Within California": 2141560.4699999997
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 644860.07,
-    "Individual": 1962836.560000001,
-    "Unitemized": 91921.81,
+    "Committee": 661132.7100000001,
+    "Individual": 1976036.560000002,
+    "Unitemized": 93207.81,
     "Self Funding": 2611.0,
-    "Other (includes Businesses)": 1918668.25
+    "Other (includes Businesses)": 1921168.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1516086.53
+      "amount": 1516185.53
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
       "type": "referendum",
       "title": "Measure T",
-      "amount": 1032671.35
+      "amount": 1038543.99
     },
     {
       "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -66,14 +66,14 @@
       "total_spending": 377336.68
     },
     {
-      "name": "Oakland Police Officer’s Association - Political Action Committee",
+      "name": "East and South Bay Working Families United sponsored by labor organizations",
       "election_name": "oakland-2022",
-      "total_spending": 15140.0
+      "total_spending": 173701.0
     },
     {
-      "name": "Oakland Education Association Political Action Committee",
+      "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
       "election_name": "oakland-2022",
-      "total_spending": 1840.24
+      "total_spending": 116646.0
     }
   ],
   "top_contributors": [
@@ -83,14 +83,14 @@
       "total_contributions": 750000.0
     },
     {
+      "name": "Jonathan Brooks",
+      "election_name": "oakland-2022",
+      "total_contributions": 300000.0
+    },
+    {
       "name": "Service Employees International Union Local 1021 Issues PAC",
       "election_name": "oakland-2022",
       "total_contributions": 210000.0
-    },
-    {
-      "name": "Arthur Rock",
-      "election_name": "oakland-2022",
-      "total_contributions": 200000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -107,7 +107,7 @@
       "total_contributions": 4500.0
     },
     {
-      "name": "Riaz Taplin",
+      "name": "Suzanne Skugstad",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 3600.0
@@ -141,16 +141,16 @@
       "total_spending": 750000.0
     },
     {
+      "name": "Jonathan Brooks",
+      "type": "Measure",
+      "election_name": "oakland-2022",
+      "total_spending": 300000.0
+    },
+    {
       "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2022",
       "total_spending": 210000.0
-    },
-    {
-      "name": "Arthur Rock",
-      "type": "Measure",
-      "election_name": "oakland-2022",
-      "total_spending": 200000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -181,16 +181,16 @@
       "total_spending": 750000.0
     },
     {
+      "name": "Jonathan Brooks",
+      "type": "Measure",
+      "election_name": "oakland-2022",
+      "total_spending": 300000.0
+    },
+    {
       "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2022",
       "total_spending": 210000.0
-    },
-    {
-      "name": "Arthur Rock",
-      "type": "Measure",
-      "election_name": "oakland-2022",
-      "total_spending": 200000.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": 34,
+  "id": 35,
   "name": "Max Orozco",
   "photo_url": "Max Orozco.jpg",
   "website_url": "https://maxorozcod2.com/",
@@ -13,28 +13,36 @@
   "ballot_item": 24,
   "office_election": 24,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "MAX OROZCO SCHOOL BOARD DIRECTOR DISTRICT 2 2022",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
   "occupation": "Father/Tradesman",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1454035,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 1994.65,
+    "total_contributions": 1994.65,
+    "total_expenditures": 1835.59,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 1000.0,
+      "Unitemized": 75.0,
+      "Other (includes Businesses)": 900.0
     },
     "contributions_by_origin": {
+      "Out of State": 400.0,
+      "Within Oakland": 1150.0,
+      "Within California": 350.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 75.0,
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 721.47,
+      "Candidate Filing/Ballot Fees": 1053.9
     },
     "supporting_by_type": {
     }
@@ -47,7 +55,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 1994.65,
+  "total_expenditures": 1835.59,
+  "total_loans_received": 0.0
 }

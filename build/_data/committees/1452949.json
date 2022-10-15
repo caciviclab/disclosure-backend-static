@@ -1,5 +1,5 @@
 {
-  "total_contributions": 6150.0,
+  "total_contributions": 7950.0,
   "contributions": [
     {
       "Filer_ID": "1452949",
@@ -231,6 +231,17 @@
       "Tran_NamF": "Bethany",
       "Tran_NamL": "Meyer",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "American Federation of State, County, & Municipal Employees - Council 57 All Purpose PAC",
+      "Tran_Zip4": "90802"
     }
   ]
 }
