@@ -1,5 +1,5 @@
 {
-  "total_contributions": 162500.0,
+  "total_contributions": 165000.0,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -55,6 +55,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "The Related Companies of Calif LLC",
       "Tran_Zip4": "92612"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired School Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": "Barbara",
+      "Tran_NamL": "De Luca",
+      "Tran_Zip4": "95818"
     }
   ]
 }

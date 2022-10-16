@@ -1,24 +1,24 @@
 {
-  "total_contributions": 4702629.9399999995,
+  "total_contributions": 4717833.9399999995,
   "total_contributions_by_source": {
-    "Out of State": 462913.37,
-    "Within Oakland": 1972374.6800000009,
-    "Within California": 2141560.4699999997
+    "Out of State": 462613.37,
+    "Within Oakland": 1973293.000000001,
+    "Within California": 2156146.15
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 661132.7100000001,
-    "Individual": 1976036.560000002,
+    "Committee": 666532.7100000001,
+    "Individual": 1978536.560000001,
     "Unitemized": 93207.81,
     "Self Funding": 2611.0,
-    "Other (includes Businesses)": 1921168.25
+    "Other (includes Businesses)": 1928472.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1516185.53
+      "amount": 1519785.53
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -43,19 +43,19 @@
       "office_title": "Mayor"
     },
     {
-      "slug": "valarie-bachelor",
-      "type": "office",
-      "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Valarie Bachelor",
-      "proportion": 0.16538281736727553,
-      "office_title": "OUSD District 6"
-    },
-    {
       "slug": "pecolia-manigo",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Pecolia Manigo",
       "proportion": 0.16353665272626844,
+      "office_title": "OUSD District 4"
+    },
+    {
+      "slug": "mike-hutchinson",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Mike Hutchinson",
+      "proportion": 0.15494774867758998,
       "office_title": "OUSD District 4"
     }
   ],
@@ -107,7 +107,7 @@
       "total_contributions": 4500.0
     },
     {
-      "name": "Suzanne Skugstad",
+      "name": "Riaz Taplin",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 3600.0

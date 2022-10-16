@@ -8,7 +8,7 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 112500.0,
+      "amount": 115000.0,
       "locale": "Within California"
     },
     {
@@ -20,6 +20,10 @@
     {
       "type": "Committee",
       "amount": 12500.0
+    },
+    {
+      "type": "Individual",
+      "amount": 2500.0
     },
     {
       "type": "Other (includes Businesses)",
@@ -34,5 +38,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 162500.0
+  "total_contributions": 165000.0
 }

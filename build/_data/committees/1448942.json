@@ -1,5 +1,5 @@
 {
-  "total_contributions": 400473.31,
+  "total_contributions": 407777.31,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -253,6 +253,17 @@
       "Tran_NamF": "Daniel",
       "Tran_NamL": "McMillan",
       "Tran_Zip4": "10025"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 7304.0,
+      "Tran_Date": "2022-10-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "ReThink Media",
+      "Tran_Zip4": "94704"
     }
   ]
 }

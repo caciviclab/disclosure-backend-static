@@ -1,5 +1,5 @@
 {
-  "total_contributions": 18615.42,
+  "total_contributions": 20415.42,
   "contributions": [
     {
       "Filer_ID": "1451532",
@@ -979,6 +979,17 @@
       "Tran_NamF": "Anne",
       "Tran_NamL": "Weills",
       "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1451532",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "American Federation of State, County & Municipal Employees - Council 57 PAC All Purposes Account",
+      "Tran_Zip4": "90802"
     }
   ]
 }
