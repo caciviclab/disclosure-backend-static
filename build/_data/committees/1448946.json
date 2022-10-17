@@ -1,5 +1,5 @@
 {
-  "total_contributions": 18806.0,
+  "total_contributions": 18846.0,
   "contributions": [
     {
       "Filer_ID": "1448946",
@@ -14,8 +14,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-06-29",
@@ -69,7 +69,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Loryn Hudson",
       "Tran_Occ": "Educational Therapist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -80,8 +80,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-06-30",
@@ -124,7 +124,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
+      "Tran_Emp": "California State Polytechnic University",
       "Tran_Occ": "Graduate Student",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -142,7 +142,7 @@
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Neva",
       "Tran_NamL": "Walker",
-      "Tran_Zip4": "94609"
+      "Tran_Zip4": "94605"
     },
     {
       "Filer_ID": "1448946",
@@ -234,19 +234,19 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "self",
+      "Tran_Emp": "Gregory Hodge",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-07-29",
       "Tran_NamF": "Gregory",
       "Tran_NamL": "Hodge",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94607"
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "DBA",
+      "Tran_Emp": "Jillian Karjian",
+      "Tran_Occ": "Database Administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-07-29",
@@ -256,8 +256,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-07-30",
@@ -267,8 +267,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-08-01",
@@ -388,7 +388,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "self",
+      "Tran_Emp": "Sandra Rodriguez",
       "Tran_Occ": "Social Worker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -410,7 +410,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Page Tomblin",
       "Tran_Occ": "consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -476,7 +476,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "Self employed",
+      "Tran_Emp": "Sona Sinton-Clark",
       "Tran_Occ": "artist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -520,8 +520,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-09-01",
@@ -561,6 +561,17 @@
       "Tran_NamF": "Linda",
       "Tran_NamL": "Dittes",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1448946",
+      "Tran_Emp": "Oakland Unified",
+      "Tran_Occ": "Academic Mentor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2022-09-02",
+      "Tran_NamF": "Jane",
+      "Tran_NamL": "Nylund",
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1448946",
@@ -685,8 +696,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-09-10",
@@ -751,7 +762,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Loryn Hudson",
       "Tran_Occ": "Educational Therapist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -762,12 +773,12 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
+      "Tran_Emp": "Not Employed",
       "Tran_Occ": "Homemaker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-09-21",
-      "Tran_NamF": "Rbecca",
+      "Tran_NamF": "Rebecca",
       "Tran_NamL": "Lai",
       "Tran_Zip4": "94611"
     },
@@ -784,7 +795,7 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
+      "Tran_Emp": "retired",
       "Tran_Occ": "retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -872,8 +883,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-09-23",
@@ -960,8 +971,8 @@
     },
     {
       "Filer_ID": "1448946",
-      "Tran_Emp": "Self",
-      "Tran_Occ": "DBA",
+      "Tran_Emp": "Jillian Karjian",
+      "Tran_Occ": "Database Administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-09-24",

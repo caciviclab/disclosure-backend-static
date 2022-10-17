@@ -1,15 +1,15 @@
 {
-  "total_contributions": 4717833.9399999995,
+  "total_contributions": 4717973.9399999995,
   "total_contributions_by_source": {
     "Out of State": 462613.37,
-    "Within Oakland": 1973293.000000001,
+    "Within Oakland": 1973333.000000001,
     "Within California": 2156146.15
   },
   "contributions_by_type": {
     "PTY": 15900.0,
     "Committee": 666532.7100000001,
-    "Individual": 1978536.560000001,
-    "Unitemized": 93207.81,
+    "Individual": 1978576.560000001,
+    "Unitemized": 93307.81,
     "Self Funding": 2611.0,
     "Other (includes Businesses)": 1928472.25
   },
@@ -47,7 +47,7 @@
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Pecolia Manigo",
-      "proportion": 0.16353665272626844,
+      "proportion": 0.1681315231892019,
       "office_title": "OUSD District 4"
     },
     {
@@ -66,14 +66,14 @@
       "total_spending": 377336.68
     },
     {
+      "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
+      "election_name": "oakland-2022",
+      "total_spending": 180646.0
+    },
+    {
       "name": "East and South Bay Working Families United sponsored by labor organizations",
       "election_name": "oakland-2022",
       "total_spending": 173701.0
-    },
-    {
-      "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
-      "election_name": "oakland-2022",
-      "total_spending": 116646.0
     }
   ],
   "top_contributors": [
@@ -107,7 +107,7 @@
       "total_contributions": 4500.0
     },
     {
-      "name": "Riaz Taplin",
+      "name": "Suzanne Skugstad",
       "type": "Office",
       "election_name": "oakland-2022",
       "total_contributions": 3600.0
