@@ -13,27 +13,32 @@
   "ballot_item": 5,
   "office_election": 5,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Kenny Session for City Council District 6 2022",
   "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
   "occupation": "Real Estate Broker",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1453834,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 4830.0,
+    "total_contributions": 4830.0,
+    "total_expenditures": 0.0,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 4150.0,
+      "Unitemized": 580.0,
+      "Self Funding": 100.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 1250.0,
+      "Within California": 3000.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 580.0,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
@@ -47,7 +52,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 4830.0,
+  "total_expenditures": 0.0,
+  "total_loans_received": 0.0
 }

@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2022-11-08.md
-committee_name: No committee registered
-filer_id: ''
+committee_name: Kenny Session for City Council District 6 2022
+filer_id: '1453834'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Kenny Session

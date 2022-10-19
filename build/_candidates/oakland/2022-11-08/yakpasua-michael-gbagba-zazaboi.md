@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2022-11-08.md
-committee_name: No committee registered
-filer_id: ''
+committee_name: Yakpasua Zazaboi for Oakland City Council District 6 2022
+filer_id: '1449857'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Yakpasua Michael Gbagba Zazaboi

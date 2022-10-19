@@ -1,5 +1,5 @@
 {
-  "total_contributions": 407777.31,
+  "total_contributions": 409277.31,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -264,6 +264,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "ReThink Media",
       "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Proteus Action League",
+      "Tran_Zip4": "01002"
     }
   ]
 }

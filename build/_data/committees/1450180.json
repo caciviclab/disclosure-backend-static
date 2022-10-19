@@ -1,5 +1,5 @@
 {
-  "total_contributions": 32044.27,
+  "total_contributions": 37344.270000000004,
   "contributions": [
     {
       "Filer_ID": "1450180",
@@ -968,6 +968,39 @@
       "Tran_NamF": "Dan",
       "Tran_NamL": "Pitcock",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate Political Action Committee (CREPAC)",
+      "Tran_Zip4": "90071"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce (OAKPAC)",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1450180",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers Local Union No. 3 District 20 PAC",
+      "Tran_Zip4": "94502"
     }
   ]
 }

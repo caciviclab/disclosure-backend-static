@@ -13,28 +13,35 @@
   "ballot_item": 5,
   "office_election": 5,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Yakpasua Zazaboi for Oakland City Council District 6 2022",
   "is_accepted_expenditure_ceiling": false,
   "is_incumbent": false,
   "occupation": "Small Businessperson/Father",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1449857,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 7980.0,
+    "total_contributions": 7980.0,
+    "total_expenditures": 2232.9,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 7900.0,
+      "Unitemized": 80.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 7900.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 80.0,
     "expenditures_by_type": {
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Campaign Literature and Mailings": 151.72,
+      "Professional Services (Legal, Accounting)": 800.0,
+      "Information Technology Costs (Internet, E-mail)": 144.0
     },
     "supporting_by_type": {
     }
@@ -47,7 +54,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 7980.0,
+  "total_expenditures": 2232.9,
+  "total_loans_received": 0.0
 }

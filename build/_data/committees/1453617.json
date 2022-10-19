@@ -1,5 +1,5 @@
 {
-  "total_contributions": 27150.0,
+  "total_contributions": 34450.0,
   "contributions": [
     {
       "Filer_ID": "1453617",
@@ -110,6 +110,39 @@
       "Tran_NamF": "CHARLES",
       "Tran_NamL": "SHALVOY",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": "PURPPLE WINE COMPANY, LLC",
+      "Tran_Occ": "CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2400.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": "DEREK",
+      "Tran_NamL": "BENHAM",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2400.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": "RACHEL",
+      "Tran_NamL": "BENHAM",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "EGAN",
+      "Tran_Zip4": "94610"
     }
   ]
 }
