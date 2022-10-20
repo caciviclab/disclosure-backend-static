@@ -1031,19 +1031,19 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 4755826.9399999995,
+    "total_contributions": 4862656.31,
     "total_contributions_by_source": {
-      "Out of State": 464513.37,
+      "Out of State": 474513.37,
       "Within Oakland": 1995733.000000001,
-      "Within California": 2167846.15
+      "Within California": 2264675.52
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 673632.7100000001,
+      "Committee": 675462.08,
       "Individual": 2004976.560000001,
       "Unitemized": 95160.81,
       "Self Funding": 2711.0,
-      "Other (includes Businesses)": 1930872.25
+      "Other (includes Businesses)": 2035872.25
     },
     "most_expensive_races": [
       {
@@ -1056,7 +1056,7 @@
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
         "type": "referendum",
         "title": "Measure T",
-        "amount": 1038543.99
+        "amount": 1063543.99
       },
       {
         "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -1100,7 +1100,7 @@
       {
         "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
         "election_name": "oakland-2022",
-        "total_spending": 180646.0
+        "total_spending": 238772.0
       },
       {
         "name": "East and South Bay Working Families United sponsored by labor organizations",

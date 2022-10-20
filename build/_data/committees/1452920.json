@@ -1,5 +1,5 @@
 {
-  "total_contributions": 325000.0,
+  "total_contributions": 350000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -99,6 +99,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Operating Engineers Local Union No. 3 Statewide PAC",
       "Tran_Zip4": "94502"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Federation of Professional and Technical Engineers (IFPTE) Local 21 TJ Anthony PAC Fund",
+      "Tran_Zip4": "94103"
     }
   ]
 }

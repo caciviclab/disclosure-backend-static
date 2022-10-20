@@ -1,5 +1,5 @@
 {
-  "total_contributions": 409277.31,
+  "total_contributions": 411106.68000000005,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -275,6 +275,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "Proteus Action League",
       "Tran_Zip4": "01002"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 192.84,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 438.27,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1198.26,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
     }
   ]
 }

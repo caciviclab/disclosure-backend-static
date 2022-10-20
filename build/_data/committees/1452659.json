@@ -1,5 +1,5 @@
 {
-  "total_contributions": 165000.0,
+  "total_contributions": 175000.0,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -66,6 +66,17 @@
       "Tran_NamF": "Barbara",
       "Tran_NamL": "De Luca",
       "Tran_Zip4": "95818"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Mercy Housing Inc.",
+      "Tran_Zip4": "80202"
     }
   ]
 }

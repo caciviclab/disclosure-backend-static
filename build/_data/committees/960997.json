@@ -1,5 +1,5 @@
 {
-  "total_contributions": 790112.9500000003,
+  "total_contributions": 860112.9500000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -2090,6 +2090,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Pacific Gas & Electric Corporation",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2022-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Salesforce, Inc.",
+      "Tran_Zip4": "94105"
     }
   ]
 }
