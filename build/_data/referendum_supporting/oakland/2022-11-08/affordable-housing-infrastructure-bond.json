@@ -8,11 +8,11 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 10000.0,
+      "amount": 15000.0,
       "locale": "Out of State"
     },
     {
-      "amount": 115000.0,
+      "amount": 140000.0,
       "locale": "Within California"
     },
     {
@@ -23,7 +23,7 @@
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 12500.0
+      "amount": 37500.0
     },
     {
       "type": "Individual",
@@ -31,7 +31,7 @@
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 160000.0
+      "amount": 165000.0
     }
   ],
   "supporting_organizations": [
@@ -42,5 +42,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 175000.0
+  "total_contributions": 205000.0
 }

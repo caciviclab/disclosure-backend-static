@@ -1,5 +1,5 @@
 {
-  "total_contributions": 34450.0,
+  "total_contributions": 41250.0,
   "contributions": [
     {
       "Filer_ID": "1453617",
@@ -143,6 +143,50 @@
       "Tran_NamF": "ROBERT",
       "Tran_NamL": "EGAN",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": "PURPPLE WINE COMPANY, LLC",
+      "Tran_Occ": "CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2400.0,
+      "Tran_Date": "2022-10-18",
+      "Tran_NamF": "DEREK",
+      "Tran_NamL": "BENHAM",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2400.0,
+      "Tran_Date": "2022-10-18",
+      "Tran_NamF": "RACHEL",
+      "Tran_NamL": "BENHAM",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-19",
+      "Tran_NamF": "ROBERT",
+      "Tran_NamL": "TOWNSEND",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": "SELF-EMPLOYED - PAMELA TURNER",
+      "Tran_Occ": "FREELANCE WRITER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-19",
+      "Tran_NamF": "PAMELA",
+      "Tran_NamL": "TURNER",
+      "Tran_Zip4": "94618"
     }
   ]
 }
