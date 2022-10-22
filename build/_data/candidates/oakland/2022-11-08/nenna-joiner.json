@@ -25,8 +25,14 @@
     "total_contributions": 40194.27,
     "total_expenditures": 8851.53,
     "total_loans_received": 2000.0,
-    "total_supporting_independent": 15140.0,
+    "total_supporting_independent": 42703.0,
     "support_list": [
+      {
+        "Total": 27563.0,
+        "Cand_ID": 1450180,
+        "Filer_ID": "1344093",
+        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)"
+      },
       {
         "Total": 15140.0,
         "Cand_ID": 1450180,
@@ -54,6 +60,9 @@
       "Professional Services (Legal, Accounting)": 715.19
     },
     "supporting_by_type": {
+      "ONLINE ADS": 25000.0,
+      "STAFF TIME": 300.0,
+      "VOTER FILE": 2263.0,
       "Brochure (Estimated Costs)": 15140.0
     }
   },

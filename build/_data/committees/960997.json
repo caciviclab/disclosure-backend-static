@@ -1,5 +1,5 @@
 {
-  "total_contributions": 860112.9500000003,
+  "total_contributions": 867612.9500000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -2112,6 +2112,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Salesforce, Inc.",
       "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2022-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "GO Public Schools Advocates",
+      "Tran_Zip4": "95822"
     }
   ]
 }

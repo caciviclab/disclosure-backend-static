@@ -1,5 +1,5 @@
 {
-  "total_contributions": 41250.0,
+  "total_contributions": 73250.0,
   "contributions": [
     {
       "Filer_ID": "1453617",
@@ -186,6 +186,28 @@
       "Tran_Date": "2022-10-19",
       "Tran_NamF": "PAMELA",
       "Tran_NamL": "TURNER",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 30000.0,
+      "Tran_Date": "2022-10-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "HOLLAND RESIDENTIAL (CALIFORNIA), INC.",
+      "Tran_Zip4": "98660"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "TECHNOLOGY PARTNERSHIPS",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2022-10-20",
+      "Tran_NamF": "CARL",
+      "Tran_NamL": "WASHINGTON",
       "Tran_Zip4": "94618"
     }
   ]
