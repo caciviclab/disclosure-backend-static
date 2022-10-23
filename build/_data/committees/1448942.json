@@ -1,5 +1,5 @@
 {
-  "total_contributions": 411106.68000000005,
+  "total_contributions": 411113.4600000001,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -305,6 +305,17 @@
       "Entity_Cd": "Committee",
       "Tran_Amt1": 1198.26,
       "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 6.78,
+      "Tran_Date": "2022-10-18",
       "Tran_NamF": null,
       "Tran_NamL": "ACLU of Northern California Issues Committee",
       "Tran_Zip4": "94111"
