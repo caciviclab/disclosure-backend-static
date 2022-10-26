@@ -573,7 +573,7 @@
       {
         "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
         "election_name": "oakland-2018",
-        "total_spending": 425943.68
+        "total_spending": 475325.68
       },
       {
         "name": "East and South Bay Working Families United sponsored by labor organizations",
@@ -1031,38 +1031,38 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 4903763.09,
+    "total_contributions": 5123695.58,
     "total_contributions_by_source": {
-      "Out of State": 481313.37,
-      "Within Oakland": 1995733.000000001,
-      "Within California": 2298982.3
+      "Out of State": 484913.37,
+      "Within Oakland": 2169080.460000001,
+      "Within California": 2341967.33
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 704068.86,
+      "Committee": 729001.35,
       "Individual": 2004976.560000001,
       "Unitemized": 95160.81,
       "Self Funding": 2711.0,
-      "Other (includes Businesses)": 2048372.25
+      "Other (includes Businesses)": 2243372.25
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1521585.5300000003
+        "amount": 1523385.5300000003
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
         "type": "referendum",
         "title": "Measure T",
-        "amount": 1063543.99
+        "amount": 1068360.35
       },
       {
         "slug": "oakland-zoo-animal-care-education-and-improvement",
         "type": "referendum",
         "title": "Measure Y",
-        "amount": 750000.0
+        "amount": 900000.0
       }
     ],
     "largest_small_proportion": [
@@ -1095,7 +1095,7 @@
       {
         "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
         "election_name": "oakland-2022",
-        "total_spending": 425943.68
+        "total_spending": 475325.68
       },
       {
         "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
@@ -1112,12 +1112,12 @@
       {
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "election_name": "oakland-2022",
-        "total_contributions": 750000.0
+        "total_contributions": 900000.0
       },
       {
         "name": "Jonathan Brooks",
         "election_name": "oakland-2022",
-        "total_contributions": 300000.0
+        "total_contributions": 550000.0
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -1150,7 +1150,7 @@
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_contributions": 750000.0
+        "total_contributions": 900000.0
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -1170,13 +1170,13 @@
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 750000.0
+        "total_spending": 900000.0
       },
       {
         "name": "Jonathan Brooks",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 300000.0
+        "total_spending": 550000.0
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -1186,6 +1186,12 @@
       }
     ],
     "top_spenders_for_offices": [
+      {
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 5300.0
+      },
       {
         "name": "John Bliss",
         "type": "Office",
@@ -1197,12 +1203,6 @@
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 4500.0
-      },
-      {
-        "name": "Robert Wasserman",
-        "type": "Office",
-        "election_name": "oakland-2022",
-        "total_spending": 4500.0
       }
     ],
     "top_spenders_for_measures": [
@@ -1210,13 +1210,13 @@
         "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 750000.0
+        "total_spending": 900000.0
       },
       {
         "name": "Jonathan Brooks",
         "type": "Measure",
         "election_name": "oakland-2022",
-        "total_spending": 300000.0
+        "total_spending": 550000.0
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",

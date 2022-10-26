@@ -1,5 +1,5 @@
 {
-  "total_contributions": 431250.0,
+  "total_contributions": 691250.0,
   "contributions": [
     {
       "Filer_ID": "1452451",
@@ -121,6 +121,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Silverado Contractors, Inc.",
       "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1452451",
+      "Tran_Emp": "JMB Partners",
+      "Tran_Occ": "General Partner/Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250000.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "Jonathan",
+      "Tran_NamL": "Brooks",
+      "Tran_Zip4": "90036"
+    },
+    {
+      "Filer_ID": "1452451",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Holland Residential (California), Inc.",
+      "Tran_Zip4": "98660"
     }
   ]
 }

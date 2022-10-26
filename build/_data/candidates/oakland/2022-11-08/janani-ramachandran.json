@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1442792,
   "supporting_money": {
-    "contributions_received": 120394.94,
-    "total_contributions": 120394.94,
+    "contributions_received": 122194.94,
+    "total_contributions": 122194.94,
     "total_expenditures": 49180.01,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
@@ -30,7 +30,7 @@
 
     ],
     "contributions_by_type": {
-      "Committee": 16342.5,
+      "Committee": 18142.5,
       "Individual": 68003.0,
       "Unitemized": 8092.0,
       "Other (includes Businesses)": 138.44
@@ -38,7 +38,7 @@
     "contributions_by_origin": {
       "Out of State": 15980.0,
       "Within Oakland": 21771.0,
-      "Within California": 46732.94
+      "Within California": 48532.94
     },
     "total_small_contributions": 13001.0,
     "expenditures_by_type": {
@@ -56,6 +56,9 @@
       "Information Technology Costs (Internet, E-mail)": 1559.54
     },
     "supporting_by_type": {
+      "Digital Ads Estimate $1,038.41": 1000.0,
+      "Voter Guide Digital Ads Estimate $1,038.41": 6.0,
+      "Voter Guide Design and Production: Staff Time & Costs $1,038.41": 32.0
     }
   },
   "opposing_money": {
@@ -66,7 +69,7 @@
 
     ]
   },
-  "total_contributions": 120394.94,
+  "total_contributions": 122194.94,
   "total_expenditures": 49180.01,
   "total_loans_received": 0.0
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 360603.47,
+  "total_contributions": 362403.47,
   "contributions": [
     {
       "Filer_ID": "1442594",
@@ -11528,6 +11528,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Jane Fonda Climate PAC",
       "Tran_Zip4": "0003"
+    },
+    {
+      "Filer_ID": "1442594",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "IBEW 332 Education Fund/All Purpose Acct",
+      "Tran_Zip4": "95125"
     }
   ]
 }

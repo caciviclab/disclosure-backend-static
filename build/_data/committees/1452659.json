@@ -1,5 +1,5 @@
 {
-  "total_contributions": 205000.0,
+  "total_contributions": 250000.0,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -99,6 +99,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "WSP USA Inc.",
       "Tran_Zip4": "10119"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "BBI Construction, Inc.",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Eden Housing Inc.",
+      "Tran_Zip4": "94541"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Plumbers & Steamfitters Local Union 342",
+      "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Satellite Affordable Housing Associates Property Management (SAHA PM)",
+      "Tran_Zip4": "94703"
     }
   ]
 }

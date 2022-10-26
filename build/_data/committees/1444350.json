@@ -1,5 +1,5 @@
 {
-  "total_contributions": 455455.99000000005,
+  "total_contributions": 460272.35000000003,
   "contributions": [
     {
       "Filer_ID": "1444350",
@@ -110,6 +110,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "The San Francisco Foundation",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 4816.36,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612"
     }
   ]
 }

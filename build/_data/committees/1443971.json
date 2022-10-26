@@ -1,5 +1,5 @@
 {
-  "total_contributions": 43975.0,
+  "total_contributions": 52875.0,
   "contributions": [
     {
       "Filer_ID": "1443971",
@@ -1243,6 +1243,61 @@
       "Tran_NamF": null,
       "Tran_NamL": "Teranomic",
       "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1700.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Firefighters Local 55 PAC",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Federation of Professional and Technical Engineers Local 21",
+      "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "Jane Fonda Climate PAC",
+      "Tran_Zip4": "20003"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Metropolitan Chamber of Commerce",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104",
+      "Tran_Zip4": "94551"
     }
   ]
 }
