@@ -1,5 +1,5 @@
 {
-  "id": 32,
+  "id": 33,
   "name": "David Kakishiba",
   "photo_url": "David Kakishiba.png",
   "website_url": "https://www.kakishiba4oaklandschoolboard.com/",
@@ -7,33 +7,38 @@
   "facebook_url": null,
   "instagram_url": null,
   "map_url": null,
-  "votersedge_url": null,
+  "votersedge_url": "https://votersedge.org/ca/en/election/2022-11-08/alameda-county/school-director-oakland-unified-school-district-trustee-area-2/david-kakishiba",
   "first_name": "David",
   "last_name": "Kakishiba",
   "ballot_item": 24,
   "office_election": 24,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "David Kakishiba for Oakland City Council 2022",
   "is_accepted_expenditure_ceiling": false,
   "is_incumbent": false,
   "occupation": "Non-profit Executive Director",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1453879,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 24060.0,
+    "total_contributions": 24060.0,
+    "total_expenditures": 0.0,
+    "total_loans_received": 20000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 4050.0,
+      "Unitemized": 10.0
     },
     "contributions_by_origin": {
+      "Out of State": 200.0,
+      "Within Oakland": 2800.0,
+      "Within California": 1050.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 10.0,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
@@ -47,7 +52,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 24060.0,
+  "total_expenditures": 0.0,
+  "total_loans_received": 20000.0
 }

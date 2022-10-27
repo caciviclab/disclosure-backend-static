@@ -8,6 +8,7 @@ name: Kyra Mungia
 occupation: Appointed Board Director
 photo_url: kyra-mungia.jpeg
 twitter_url: MsMungia
+votersedge_url: https://votersedge.org/ca/en/election/2022-11-08/alameda-county/school-director-oakland-unified-school-district-trustee-area-6/kyra-mungia
 facebook_url: https://www.facebook.com/Kyra4OaklandStudents
 map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1448165&since=2020-02-22&until=2022-06-30
 ---
