@@ -1,24 +1,24 @@
 {
-  "total_contributions": 5172111.99,
+  "total_contributions": 5245037.4,
   "total_contributions_by_source": {
-    "Out of State": 485113.37,
-    "Within Oakland": 2171880.460000001,
-    "Within California": 2367373.7399999998
+    "Out of State": 485363.37,
+    "Within Oakland": 2200680.460000001,
+    "Within California": 2410579.15
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 753357.76,
-    "Individual": 2009026.560000001,
-    "Unitemized": 95170.81,
+    "Committee": 778314.17,
+    "Individual": 2016025.560000001,
+    "Unitemized": 95840.81,
     "Self Funding": 2711.0,
-    "Other (includes Businesses)": 2243372.25
+    "Other (includes Businesses)": 2283672.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1523385.5300000003
+      "amount": 1526404.5300000003
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -39,7 +39,7 @@
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Allyssa Victory Villanueva",
-      "proportion": 0.22669882252801815,
+      "proportion": 0.2260614085905818,
       "office_title": "Mayor"
     },
     {

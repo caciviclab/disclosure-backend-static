@@ -1,5 +1,5 @@
 {
-  "total_contributions": 1900.0,
+  "total_contributions": 2200.0,
   "contributions": [
     {
       "Filer_ID": "1454035",
@@ -77,6 +77,17 @@
       "Tran_NamF": "henry",
       "Tran_NamL": "hitz",
       "Tran_Zip4": "unknown"
+    },
+    {
+      "Filer_ID": "1454035",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bay Rising Action Committee sponsored by Center for Empower Politics",
+      "Tran_Zip4": "94612"
     }
   ]
 }

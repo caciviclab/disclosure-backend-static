@@ -21,30 +21,36 @@
   "is_winner": null,
   "filer_id": 1454035,
   "supporting_money": {
-    "contributions_received": 1994.65,
-    "total_contributions": 1994.65,
-    "total_expenditures": 1835.59,
+    "contributions_received": 2294.65,
+    "total_contributions": 2294.65,
+    "total_expenditures": 3144.95,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 1532.0,
     "support_list": [
-
+      {
+        "Total": 1532.0,
+        "Cand_ID": 1454035,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+      }
     ],
     "contributions_by_type": {
       "Individual": 1000.0,
       "Unitemized": 75.0,
-      "Other (includes Businesses)": 900.0
+      "Other (includes Businesses)": 1200.0
     },
     "contributions_by_origin": {
       "Out of State": 400.0,
-      "Within Oakland": 1150.0,
+      "Within Oakland": 1450.0,
       "Within California": 350.0
     },
     "total_small_contributions": 75.0,
     "expenditures_by_type": {
-      "Campaign Paraphernalia/Misc.": 721.47,
+      "Campaign Paraphernalia/Misc.": 1980.37,
       "Candidate Filing/Ballot Fees": 1053.9
     },
     "supporting_by_type": {
+      "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0
     }
   },
   "opposing_money": {
@@ -55,7 +61,7 @@
 
     ]
   },
-  "total_contributions": 1994.65,
-  "total_expenditures": 1835.59,
+  "total_contributions": 2294.65,
+  "total_expenditures": 3144.95,
   "total_loans_received": 0.0
 }

@@ -25,9 +25,14 @@
     "total_contributions": 54084.0,
     "total_expenditures": 32039.1,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 2043.0,
     "support_list": [
-
+      {
+        "Total": 2043.0,
+        "Cand_ID": 1443971,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+      }
     ],
     "contributions_by_type": {
       "Committee": 18850.0,
@@ -50,6 +55,7 @@
       "Information Technology Costs (Internet, E-mail)": 1040.0
     },
     "supporting_by_type": {
+      "Voter Guide Design, Printing & Mailing $2,043.15": 2043.0
     }
   },
   "opposing_money": {

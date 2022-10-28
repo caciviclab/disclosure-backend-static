@@ -25,13 +25,19 @@
     "total_contributions": 23918.38,
     "total_expenditures": 2496.26,
     "total_loans_received": 100.0,
-    "total_supporting_independent": 10877.24,
+    "total_supporting_independent": 12409.24,
     "support_list": [
       {
         "Total": 10877.24,
         "Cand_ID": 1451532,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
+      },
+      {
+        "Total": 1532.0,
+        "Cand_ID": 1451532,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       }
     ],
     "contributions_by_type": {
@@ -56,6 +62,7 @@
     "supporting_by_type": {
       "MON": 1800.0,
       "Mailer": 9037.0,
+      "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
       "Independent Expenditure Supporting/Opposing Others": 1840.24
     }
   },

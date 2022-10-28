@@ -25,13 +25,19 @@
     "total_contributions": 378808.47,
     "total_expenditures": 213011.54,
     "total_loans_received": -500.0,
-    "total_supporting_independent": 663412.68,
+    "total_supporting_independent": 665455.68,
     "support_list": [
       {
         "Total": 173701.0,
         "Cand_ID": 1442594,
         "Filer_ID": "1451915",
         "Filer_NamL": "East and South Bay Working Families United sponsored by labor organizations"
+      },
+      {
+        "Total": 2043.0,
+        "Cand_ID": 1442594,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       },
       {
         "Total": 489711.68,
@@ -78,6 +84,7 @@
       "Texting Campaign": 6406.0,
       "Phone and canvass campaign": 140344.0,
       "Phone and canvassing campaign": 33357.0,
+      "Voter Guide Design, Printing & Mailing $2,043.15": 2043.0,
       "Independent Expenditure Supporting/Opposing Others": 282886.84,
       "Mailers supporting candidate-graphics, translation, voter data, print, postage, consulting": 49767.0
     }
