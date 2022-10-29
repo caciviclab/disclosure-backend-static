@@ -12,26 +12,26 @@
       "locale": "Out of State"
     },
     {
-      "amount": 747818.87,
+      "amount": 802868.87,
       "locale": "Within California"
     },
     {
-      "amount": 237647.89,
+      "amount": 173830.77,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 409628.76
+      "amount": 420663.64
     },
     {
       "type": "Individual",
-      "amount": 3588.0
+      "amount": 3786.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 679500.0
+      "amount": 659500.0
     }
   ],
   "supporting_organizations": [
@@ -39,13 +39,13 @@
       "id": "1445852",
       "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
       "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
-      "amount": 468745.76
+      "amount": 472345.76
     },
     {
       "id": "1444350",
       "name": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
       "payee": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
-      "amount": 110629.09
+      "amount": 205718.06
     },
     {
       "id": "1332115",
@@ -54,5 +54,5 @@
       "amount": 0
     }
   ],
-  "total_contributions": 1092716.76
+  "total_contributions": 1083949.64
 }

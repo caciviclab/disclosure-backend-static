@@ -1,5 +1,5 @@
 {
-  "total_contributions": 314356.41,
+  "total_contributions": 319606.41,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -33,6 +33,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Resources for Community Development",
       "Tran_Zip4": "94704"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": "Community Arts Stabilization Trust",
+      "Tran_Occ": "Advisor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": "Joshua",
+      "Tran_NamL": "Simon",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1452659",
@@ -176,6 +187,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Ray's Electric",
       "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "HNTB Corporation",
+      "Tran_Zip4": "64105"
     }
   ]
 }

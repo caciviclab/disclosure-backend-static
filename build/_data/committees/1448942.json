@@ -1,5 +1,5 @@
 {
-  "total_contributions": 416929.59,
+  "total_contributions": 419793.02,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -212,13 +212,35 @@
     },
     {
       "Filer_ID": "1448942",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 214.44,
+      "Tran_Date": "2022-10-05",
+      "Tran_NamF": "Jon",
+      "Tran_NamL": "DeVaan",
+      "Tran_Zip4": "98122"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 8.0,
+      "Tran_Date": "2022-10-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bay Rising Ballot Committee Sponsored by Center for Empowered Politics",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1448942",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
       "Tran_Amt1": 560.0,
       "Tran_Date": "2022-10-07",
       "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Ballot Committee Supporting Measures T & W Sponsored by CEP",
+      "Tran_NamL": "Bay Rising Ballot Committee Sponsored by Center for Empowered Politics",
       "Tran_Zip4": "94612"
     },
     {
@@ -278,6 +300,17 @@
     },
     {
       "Filer_ID": "1448942",
+      "Tran_Emp": "Unemployed",
+      "Tran_Occ": "Unemployed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": "Jose",
+      "Tran_NamL": "Del Rio III",
+      "Tran_Zip4": "90640"
+    },
+    {
+      "Filer_ID": "1448942",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -333,6 +366,17 @@
     },
     {
       "Filer_ID": "1448942",
+      "Tran_Emp": "USDA",
+      "Tran_Occ": "Administrative Review Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-10-18",
+      "Tran_NamF": "Richard",
+      "Tran_NamL": "Proulx",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1448942",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -363,6 +407,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "ACLU of Northern California Issues Committee",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1940.99,
+      "Tran_Date": "2022-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee Supporting Measures T & W Sponsored by CEP",
+      "Tran_Zip4": "94612"
     }
   ]
 }

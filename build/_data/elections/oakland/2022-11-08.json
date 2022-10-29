@@ -1,30 +1,30 @@
 {
-  "total_contributions": 5245037.4,
+  "total_contributions": 5575247.789999999,
   "total_contributions_by_source": {
-    "Out of State": 485363.37,
-    "Within Oakland": 2200680.460000001,
-    "Within California": 2410579.15
+    "Out of State": 508051.79,
+    "Within Oakland": 2305618.000000001,
+    "Within California": 2595808.78
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 778314.17,
-    "Individual": 2016025.560000001,
-    "Unitemized": 95840.81,
+    "Committee": 819639.2100000001,
+    "Individual": 2303987.540000002,
+    "Unitemized": 116195.61,
     "Self Funding": 2711.0,
-    "Other (includes Businesses)": 2283672.25
+    "Other (includes Businesses)": 2267240.8200000003
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1526404.5300000003
+      "amount": 1734555.62
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
       "type": "referendum",
       "title": "Measure T",
-      "amount": 1092716.76
+      "amount": 1083949.64
     },
     {
       "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -43,19 +43,19 @@
       "office_title": "Mayor"
     },
     {
+      "slug": "valarie-bachelor",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Valarie Bachelor",
+      "proportion": 0.17812486440084976,
+      "office_title": "OUSD District 6"
+    },
+    {
       "slug": "pecolia-manigo",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Pecolia Manigo",
-      "proportion": 0.1681315231892019,
-      "office_title": "OUSD District 4"
-    },
-    {
-      "slug": "mike-hutchinson",
-      "type": "office",
-      "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Mike Hutchinson",
-      "proportion": 0.15494774867758998,
+      "proportion": 0.17528904565941603,
       "office_title": "OUSD District 4"
     }
   ],
@@ -63,12 +63,12 @@
     {
       "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
       "election_name": "oakland-2022",
-      "total_spending": 489711.68
+      "total_spending": 489710.91
     },
     {
       "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
       "election_name": "oakland-2022",
-      "total_spending": 374692.0
+      "total_spending": 388817.01
     },
     {
       "name": "East and South Bay Working Families United sponsored by labor organizations",
@@ -95,22 +95,22 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "John Bliss",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_contributions": 4750.0
-    },
-    {
-      "name": "Robert Wasserman",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_contributions": 4500.0
-    },
-    {
       "name": "Riaz Taplin",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 4500.0
+      "total_contributions": 6300.0
+    },
+    {
+      "name": "Griffin Tischler",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_contributions": 6300.0
+    },
+    {
+      "name": "Russ Taplin",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_contributions": 5400.0
     }
   ],
   "top_contributors_for_measures": [
@@ -155,22 +155,22 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_spending": 5300.0
-    },
-    {
-      "name": "John Bliss",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_spending": 4750.0
-    },
-    {
       "name": "Riaz Taplin",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 4500.0
+      "total_spending": 6300.0
+    },
+    {
+      "name": "Griffin Tischler",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_spending": 6300.0
+    },
+    {
+      "name": "John Protopappas",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_spending": 5400.0
     }
   ],
   "top_spenders_for_measures": [

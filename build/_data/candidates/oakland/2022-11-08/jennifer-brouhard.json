@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1452949,
   "supporting_money": {
-    "contributions_received": 8962.0,
-    "total_contributions": 8962.0,
-    "total_expenditures": 2045.56,
+    "contributions_received": 17099.0,
+    "total_contributions": 17099.0,
+    "total_expenditures": 8683.37,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 13786.24,
+    "total_supporting_independent": 14603.82,
     "support_list": [
       {
-        "Total": 12254.24,
+        "Total": 13071.82,
         "Cand_ID": 1452949,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
@@ -42,25 +42,27 @@
     ],
     "contributions_by_type": {
       "Committee": 3600.0,
-      "Individual": 2750.0,
-      "Unitemized": 1012.0,
-      "Other (includes Businesses)": 1600.0
+      "Individual": 8230.0,
+      "Unitemized": 2669.0,
+      "Other (includes Businesses)": 2600.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 2050.0,
-      "Within California": 5900.0
+      "Out of State": 200.0,
+      "Within Oakland": 5230.0,
+      "Within California": 9000.0
     },
-    "total_small_contributions": 1012.0,
+    "total_small_contributions": 2719.0,
     "expenditures_by_type": {
-      "Campaign Paraphernalia/Misc.": 271.56,
-      "Professional Services (Legal, Accounting)": 1500.0,
+      "Not Stated": 1561.0,
+      "Campaign Workers' Salaries": 500.0,
+      "Campaign Paraphernalia/Misc.": 2498.37,
+      "Professional Services (Legal, Accounting)": 3850.0,
       "Information Technology Costs (Internet, E-mail)": 179.0
     },
     "supporting_by_type": {
       "MON": 1800.0,
-      "Mailer": 10414.0,
       "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
-      "Independent Expenditure Supporting/Opposing Others": 1840.24
+      "Independent Expenditure Supporting/Opposing Others": 13071.82
     }
   },
   "opposing_money": {
@@ -71,7 +73,7 @@
 
     ]
   },
-  "total_contributions": 8962.0,
-  "total_expenditures": 2045.56,
+  "total_contributions": 17099.0,
+  "total_expenditures": 8683.37,
   "total_loans_received": 0.0
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 7950.0,
+  "total_contributions": 14430.0,
   "contributions": [
     {
       "Filer_ID": "1452949",
@@ -234,6 +234,303 @@
     },
     {
       "Filer_ID": "1452949",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-26",
+      "Tran_NamF": "Mary",
+      "Tran_NamL": "Loeser",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-27",
+      "Tran_NamF": "Irwin",
+      "Tran_NamL": "Lum",
+      "Tran_Zip4": "94109"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "CHSSP",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-28",
+      "Tran_NamF": "Tuyen",
+      "Tran_NamL": "Tran",
+      "Tran_Zip4": "95757"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Program Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Shane",
+      "Tran_NamL": "Carter",
+      "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Elizabeth",
+      "Tran_NamL": "Erlich",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Litt",
+      "Tran_Zip4": "94702"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 130.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": "Keith",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": "Helen",
+      "Tran_NamL": "Duffy",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Amyris",
+      "Tran_Occ": "Automation Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": "Don",
+      "Tran_NamL": "Misumi",
+      "Tran_Zip4": "94118"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": "Marnie",
+      "Tran_NamL": "St. Clair",
+      "Tran_Zip4": "95628"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Emily",
+      "Tran_NamL": "Filloy",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "CSU Office of the Chancellor",
+      "Tran_Occ": "Educational Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Alice",
+      "Tran_NamL": "Kawazoe",
+      "Tran_Zip4": "94070"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Janet",
+      "Tran_NamL": "Malvin",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Alison",
+      "Tran_NamL": "McDonald",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Jackie",
+      "Tran_NamL": "Shonerd",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Renee",
+      "Tran_NamL": "Swsyne",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Rochelle",
+      "Tran_NamL": "Weintraub",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-01",
+      "Tran_NamF": "Thomas",
+      "Tran_NamL": "Witte",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Salesforce",
+      "Tran_Occ": "Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-03",
+      "Tran_NamF": "Julian",
+      "Tran_NamL": "James",
+      "Tran_Zip4": "94530"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "San Francisco State University",
+      "Tran_Occ": "Archivist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-03",
+      "Tran_NamF": "Eva",
+      "Tran_NamL": "Martinez",
+      "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-05",
+      "Tran_NamF": "Joan",
+      "Tran_NamL": "Jahelka",
+      "Tran_Zip4": "80919"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-06",
+      "Tran_NamF": "Stan",
+      "Tran_NamL": "Yogi",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "Carol",
+      "Tran_NamL": "Canter",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "Amy",
+      "Tran_NamL": "Haruyama",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "San Francisco Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-10",
+      "Tran_NamF": "Van Cedric",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "California Teachers Association",
+      "Tran_Occ": "Organizer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-11",
+      "Tran_NamF": "Muni",
+      "Tran_NamL": "Citrin",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Photo Editor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2022-10-11",
+      "Tran_NamF": "Lucy",
+      "Tran_NamL": "Clarke",
+      "Tran_Zip4": "94923"
+    },
+    {
+      "Filer_ID": "1452949",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -242,6 +539,116 @@
       "Tran_NamF": null,
       "Tran_NamL": "American Federation of State, County, & Municipal Employees - Council 57 All Purpose PAC",
       "Tran_Zip4": "90802"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "UNKNOWN",
+      "Tran_Occ": "UNKNOWN",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-12",
+      "Tran_NamF": "Amanda",
+      "Tran_NamL": "Auyang",
+      "Tran_Zip4": "60618"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-12",
+      "Tran_NamF": "Pamela",
+      "Tran_NamL": "Tau Lee",
+      "Tran_Zip4": "94118"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Federation of Teachers COPE Small Contributor Committee",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Twitter",
+      "Tran_Occ": "Product Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-13",
+      "Tran_NamF": "Lisa",
+      "Tran_NamL": "Young",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": "Kampala",
+      "Tran_NamL": "Taiz-Rancifer",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Holy Names University",
+      "Tran_Occ": "Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-16",
+      "Tran_NamF": "Kathryn",
+      "Tran_NamL": "Epstein",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "LW OFFICES OF PARVIZ DARABI",
+      "Tran_Occ": "Legal Assistant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-16",
+      "Tran_NamF": "Theresa",
+      "Tran_NamL": "Harvey",
+      "Tran_Zip4": "94509"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "California Federation of Teachers",
+      "Tran_Occ": "Union Organizer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": "Valarie",
+      "Tran_NamL": "Bachelor",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Castro Valley Teachers PAC",
+      "Tran_Zip4": "94587"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Academic Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "Devin",
+      "Tran_NamL": "Hess",
+      "Tran_Zip4": "94602"
     }
   ]
 }

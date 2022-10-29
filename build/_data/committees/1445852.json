@@ -1,5 +1,5 @@
 {
-  "total_contributions": 583000.0,
+  "total_contributions": 542093.89,
   "contributions": [
     {
       "Filer_ID": "1445852",
@@ -385,6 +385,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Kaiser Permanente",
       "Tran_Zip4": "91103"
+    },
+    {
+      "Filer_ID": "1445852",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": -40906.11,
+      "Tran_Date": "2022-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "OAKPAC, Oakland Metropolitan Chamber of Commerce",
+      "Tran_Zip4": "94612"
     }
   ]
 }

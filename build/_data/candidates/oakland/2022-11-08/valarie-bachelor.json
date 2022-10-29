@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1451532,
   "supporting_money": {
-    "contributions_received": 23918.38,
-    "total_contributions": 23918.38,
-    "total_expenditures": 2496.26,
+    "contributions_received": 32955.59,
+    "total_contributions": 32955.59,
+    "total_expenditures": 10741.5,
     "total_loans_received": 100.0,
-    "total_supporting_independent": 12409.24,
+    "total_supporting_independent": 13227.11,
     "support_list": [
       {
-        "Total": 10877.24,
+        "Total": 11695.11,
         "Cand_ID": 1451532,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
@@ -41,29 +41,29 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 5100.0,
-      "Individual": 15014.42,
-      "Unitemized": 3368.0,
+      "Committee": 6000.0,
+      "Individual": 20869.63,
+      "Unitemized": 5050.0,
       "Self Funding": 101.0,
-      "Other (includes Businesses)": 200.0
+      "Other (includes Businesses)": 800.0
     },
     "contributions_by_origin": {
-      "Out of State": 5674.42,
-      "Within Oakland": 6591.0,
-      "Within California": 8150.0
+      "Out of State": 8296.42,
+      "Within Oakland": 9274.21,
+      "Within California": 10200.0
     },
-    "total_small_contributions": 3658.0,
+    "total_small_contributions": 5870.21,
     "expenditures_by_type": {
-      "Not Stated": 582.55,
+      "Not Stated": 3282.55,
       "Fundraising Events": 525.0,
-      "Professional Services (Legal, Accounting)": 543.13,
+      "Campaign Literature and Mailings": 4578.34,
+      "Professional Services (Legal, Accounting)": 1393.13,
       "Information Technology Costs (Internet, E-mail)": 179.0
     },
     "supporting_by_type": {
       "MON": 1800.0,
-      "Mailer": 9037.0,
       "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
-      "Independent Expenditure Supporting/Opposing Others": 1840.24
+      "Independent Expenditure Supporting/Opposing Others": 11695.11
     }
   },
   "opposing_money": {
@@ -74,7 +74,7 @@
 
     ]
   },
-  "total_contributions": 23918.38,
-  "total_expenditures": 2496.26,
+  "total_contributions": 32955.59,
+  "total_expenditures": 10741.5,
   "total_loans_received": 100.0
 }

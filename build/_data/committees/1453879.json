@@ -1,5 +1,5 @@
 {
-  "total_contributions": 4050.0,
+  "total_contributions": 10300.0,
   "contributions": [
     {
       "Filer_ID": "1453879",
@@ -143,6 +143,182 @@
       "Tran_NamF": "Gary",
       "Tran_NamL": "Yee",
       "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Self-Employed",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2022-09-25",
+      "Tran_NamF": "Benjamin (Sam)",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Mujeres Unidas Activas",
+      "Tran_Occ": "Development Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2022-09-25",
+      "Tran_NamF": "Yael",
+      "Tran_NamL": "Falicov",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-25",
+      "Tran_NamF": "Lora Jo",
+      "Tran_NamL": "Foo",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Community School Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2022-09-25",
+      "Tran_NamF": "Brenda",
+      "Tran_NamL": "Saechao",
+      "Tran_Zip4": "94578"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Bureaucrat",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-27",
+      "Tran_NamF": "Andrew",
+      "Tran_NamL": "Nelson",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-09-27",
+      "Tran_NamF": "Louise",
+      "Tran_NamL": "Waters",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "EBAYC",
+      "Tran_Occ": "Deputy E.D.",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Gianna",
+      "Tran_NamL": "Tran",
+      "Tran_Zip4": "94582"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Salesforce",
+      "Tran_Occ": "Data Scientist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Brandon",
+      "Tran_NamL": "Wall",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-04",
+      "Tran_NamF": "Rachel",
+      "Tran_NamL": "Richman",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 450.0,
+      "Tran_Date": "2022-10-07",
+      "Tran_NamF": "Isabel",
+      "Tran_NamL": "Toscano",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "East Bay Community Foundation",
+      "Tran_Occ": "Vice President",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-10-11",
+      "Tran_NamF": "Amy",
+      "Tran_NamL": "Fitzgerald",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Self-Employed",
+      "Tran_Occ": "Economist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-11",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spencer",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-13",
+      "Tran_NamF": "Alfred",
+      "Tran_NamL": "Kakishiba",
+      "Tran_Zip4": "95822"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Common Counsel Foundation",
+      "Tran_Occ": "E.D.",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-10-14",
+      "Tran_NamF": "Peggy",
+      "Tran_NamL": "Saika",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-20",
+      "Tran_NamF": "Edward",
+      "Tran_NamL": "Hannemann",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1453879",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Director of Education",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Silver",
+      "Tran_Zip4": "94602"
     }
   ]
 }

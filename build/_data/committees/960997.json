@@ -1,5 +1,5 @@
 {
-  "total_contributions": 867612.9500000003,
+  "total_contributions": 880332.4700000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -2049,6 +2049,17 @@
     },
     {
       "Filer_ID": "960997",
+      "Tran_Emp": "Stantec Consulting Services",
+      "Tran_Occ": "Engineering Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-27",
+      "Tran_NamF": "Sally",
+      "Tran_NamL": "Van Etten",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "960997",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -2057,6 +2068,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Asian Youth Center",
       "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Kaiser",
+      "Tran_Occ": "Executive Director, Consumer Experience & Marketing Vendor M",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Falk",
+      "Tran_Zip4": "94602"
     },
     {
       "Filer_ID": "960997",
@@ -2123,6 +2145,61 @@
       "Tran_NamF": null,
       "Tran_NamL": "GO Public Schools Advocates",
       "Tran_Zip4": "95822"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Urban Economics",
+      "Tran_Occ": "Economist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 519.52,
+      "Tran_Date": "2022-10-20",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spencer",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 Issues PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Education Association PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Plumbers & Steamfitters Local Union 342",
+      "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
+      "Tran_Zip4": "94545"
     }
   ]
 }

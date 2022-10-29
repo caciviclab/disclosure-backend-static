@@ -1,5 +1,5 @@
 {
-  "total_contributions": 385000.0,
+  "total_contributions": 435000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -132,6 +132,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Brotherhood of Electrical Workers Local 595",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "SEIU United Healthcare Workers West PAC",
+      "Tran_Zip4": "90017"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "United Food and Commercial Workers International Union Active Ballot Club",
+      "Tran_Zip4": "20006"
     }
   ]
 }

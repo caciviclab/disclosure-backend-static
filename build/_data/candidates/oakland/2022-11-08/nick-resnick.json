@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1446325,
   "supporting_money": {
-    "contributions_received": 48315.0,
-    "total_contributions": 48315.0,
-    "total_expenditures": 11995.76,
+    "contributions_received": 59820.0,
+    "total_contributions": 59820.0,
+    "total_expenditures": 36187.36,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,28 +31,29 @@
     ],
     "contributions_by_type": {
       "Committee": 800.0,
-      "Individual": 43320.0,
-      "Unitemized": 3895.0,
-      "Self Funding": 300.0
+      "Individual": 49985.0,
+      "Unitemized": 4385.0,
+      "Self Funding": 300.0,
+      "Other (includes Businesses)": 4350.0
     },
     "contributions_by_origin": {
-      "Out of State": 7395.0,
-      "Within Oakland": 24850.0,
-      "Within California": 12175.0
+      "Out of State": 8360.0,
+      "Within Oakland": 28050.0,
+      "Within California": 19025.0
     },
-    "total_small_contributions": 4665.0,
+    "total_small_contributions": 5470.0,
     "expenditures_by_type": {
       "Contribution": 210.0,
       "Civic Donations": 360.0,
-      "Campaign Paraphernalia/Misc.": 4976.27,
+      "Campaign Paraphernalia/Misc.": 28792.87,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Professional Services (Legal, Accounting)": 4882.17,
-      "Information Technology Costs (Internet, E-mail)": 84.0
+      "Professional Services (Legal, Accounting)": 5229.17,
+      "Information Technology Costs (Internet, E-mail)": 112.0
     },
     "supporting_by_type": {
-      "Mailer (Estimated Costs)": 42000.0,
-      "Survey (Estimated Costs)": 6500.0,
-      "Consulting (Estimated Costs)": 10000.0
+      "Mailer (Estimated Costs)": 27900.0,
+      "Consulting (Estimated Costs)": 5000.0,
+      "Independent Expenditure Supporting/Opposing Others": 25600.0
     }
   },
   "opposing_money": {
@@ -63,7 +64,7 @@
 
     ]
   },
-  "total_contributions": 48315.0,
-  "total_expenditures": 11995.76,
+  "total_contributions": 59820.0,
+  "total_expenditures": 36187.36,
   "total_loans_received": 0.0
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 80750.0,
+  "total_contributions": 81500.0,
   "contributions": [
     {
       "Filer_ID": "1453617",
@@ -99,6 +99,17 @@
       "Tran_NamF": "LINDA",
       "Tran_NamL": "GRAEBNER",
       "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": "SALESIAN COLLEGE PREPARATIONS HIGH SCHOOL",
+      "Tran_Occ": "PRESIDENT",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-13",
+      "Tran_NamF": "STEPHEN",
+      "Tran_NamL": "PEZZOLA",
+      "Tran_Zip4": "94618"
     },
     {
       "Filer_ID": "1453617",
@@ -208,6 +219,17 @@
       "Tran_Date": "2022-10-20",
       "Tran_NamF": "CARL",
       "Tran_NamL": "WASHINGTON",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "PAUL",
+      "Tran_NamL": "ASH",
       "Tran_Zip4": "94618"
     },
     {

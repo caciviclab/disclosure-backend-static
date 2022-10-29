@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1443971,
   "supporting_money": {
-    "contributions_received": 54084.0,
-    "total_contributions": 54084.0,
-    "total_expenditures": 32039.1,
+    "contributions_received": 61284.0,
+    "total_contributions": 61284.0,
+    "total_expenditures": 52699.8,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2043.0,
     "support_list": [
@@ -35,26 +35,31 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 18850.0,
-      "Individual": 30025.0,
-      "Unitemized": 1209.0,
+      "Committee": 21000.0,
+      "Individual": 34075.0,
+      "Unitemized": 1309.0,
       "Self Funding": 100.0,
-      "Other (includes Businesses)": 3900.0
+      "Other (includes Businesses)": 4800.0
     },
     "contributions_by_origin": {
       "Out of State": 4600.0,
-      "Within Oakland": 19275.0,
-      "Within California": 29000.0
+      "Within Oakland": 20975.0,
+      "Within California": 34400.0
     },
-    "total_small_contributions": 1809.0,
+    "total_small_contributions": 2109.0,
     "expenditures_by_type": {
-      "Office Expenses": 1331.45,
-      "Campaign Literature and Mailings": 9631.6,
+      "Not Stated": 3165.32,
+      "Contribution": 1700.0,
+      "Office Expenses": 1511.65,
+      "Campaign Consultants": 8000.0,
+      "Campaign Paraphernalia/Misc.": 1351.71,
+      "Campaign Literature and Mailings": 12460.51,
       "Postage, Delivery and Messenger Services": 7868.4,
-      "Professional Services (Legal, Accounting)": 1137.03,
-      "Information Technology Costs (Internet, E-mail)": 1040.0
+      "Professional Services (Legal, Accounting)": 2102.21,
+      "Information Technology Costs (Internet, E-mail)": 1490.0
     },
     "supporting_by_type": {
+      "MON": 1800.0,
       "Voter Guide Design, Printing & Mailing $2,043.15": 2043.0
     }
   },
@@ -66,7 +71,7 @@
 
     ]
   },
-  "total_contributions": 54084.0,
-  "total_expenditures": 32039.1,
+  "total_contributions": 61284.0,
+  "total_expenditures": 52699.8,
   "total_loans_received": 0.0
 }
