@@ -1,5 +1,5 @@
 {
-  "total_contributions": 691350.0,
+  "total_contributions": 697350.0,
   "contributions": [
     {
       "Filer_ID": "1452451",
@@ -154,6 +154,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Holland Residential (California), Inc.",
       "Tran_Zip4": "98660"
+    },
+    {
+      "Filer_ID": "1452451",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Martin Group of Companies, LLC(Justin Osler)",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1452451",
+      "Tran_Emp": null,
+      "Tran_Occ": "Student",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": "Griffin",
+      "Tran_NamL": "Tischler",
+      "Tran_Zip4": "94110"
     }
   ]
 }

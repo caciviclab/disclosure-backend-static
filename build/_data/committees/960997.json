@@ -1,5 +1,5 @@
 {
-  "total_contributions": 880332.4700000003,
+  "total_contributions": 905332.4700000003,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -2200,6 +2200,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
       "Tran_Zip4": "94545"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": "Office Of Kat Taylor",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": "Kat",
+      "Tran_NamL": "Taylor",
+      "Tran_Zip4": "94065"
     }
   ]
 }

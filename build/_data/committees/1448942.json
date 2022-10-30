@@ -1,5 +1,5 @@
 {
-  "total_contributions": 419793.02,
+  "total_contributions": 420787.88,
   "contributions": [
     {
       "Filer_ID": "1448942",
@@ -413,11 +413,33 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
+      "Tran_Amt1": 44.49,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
       "Tran_Amt1": 1940.99,
       "Tran_Date": "2022-10-25",
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Rising Ballot Committee Supporting Measures T & W Sponsored by CEP",
       "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1448942",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 950.37,
+      "Tran_Date": "2022-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "ACLU of Northern California Issues Committee",
+      "Tran_Zip4": "94111"
     }
   ]
 }

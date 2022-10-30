@@ -1,5 +1,5 @@
 {
-  "total_contributions": 81500.0,
+  "total_contributions": 91300.0,
   "contributions": [
     {
       "Filer_ID": "1453617",
@@ -253,6 +253,28 @@
       "Tran_NamF": "MICHAEL",
       "Tran_NamL": "UBELL",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 4800.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": "KAREN",
+      "Tran_NamL": "BANKS",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1453617",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "FOSTER INTERSTATE MEDIA, INC.",
+      "Tran_Zip4": "94607"
     }
   ]
 }
