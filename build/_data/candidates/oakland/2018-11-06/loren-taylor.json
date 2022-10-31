@@ -72,11 +72,18 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 9066.0,
     "opposing_by_type": {
+      "Mailer": 3521.0,
+      "Polling": 5545.0
     },
     "opposition_list": [
-
+      {
+        "Total": 9066.0,
+        "Cand_ID": 1401499,
+        "Filer_ID": "1452451",
+        "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
+      }
     ]
   },
   "total_contributions": 141041.26,
