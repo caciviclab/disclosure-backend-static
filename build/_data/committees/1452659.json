@@ -1,5 +1,5 @@
 {
-  "total_contributions": 319606.41,
+  "total_contributions": 330606.41,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -198,6 +198,39 @@
       "Tran_NamF": null,
       "Tran_NamL": "HNTB Corporation",
       "Tran_Zip4": "64105"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": "J.H. Fitzmaurice Inc.",
+      "Tran_Occ": "President/CEO",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": "Mohammad",
+      "Tran_NamL": "Hakimi",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "IFPTE LOCAL 21 Issues PAC Fund",
+      "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 Issues PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

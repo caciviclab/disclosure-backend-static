@@ -459,7 +459,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -1031,16 +1031,16 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 5601242.649999999,
+    "total_contributions": 5638042.649999999,
     "total_contributions_by_source": {
       "Out of State": 508051.79,
-      "Within Oakland": 2305618.000000001,
-      "Within California": 2621803.6399999997
+      "Within Oakland": 2330617.9999999995,
+      "Within California": 2633603.6399999997
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 820634.0700000001,
-      "Individual": 2328987.540000001,
+      "Committee": 856434.0700000001,
+      "Individual": 2329987.540000001,
       "Unitemized": 116195.61,
       "Self Funding": 2711.0,
       "Other (includes Businesses)": 2267240.8200000003
@@ -1056,7 +1056,7 @@
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
         "type": "referendum",
         "title": "Measure T",
-        "amount": 1083949.64
+        "amount": 1095949.64
       },
       {
         "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -1075,20 +1075,20 @@
         "office_title": "Mayor"
       },
       {
-        "slug": "valarie-bachelor",
-        "type": "office",
-        "title": "Oakland November 8th, 2022 General Election",
-        "candidate": "Valarie Bachelor",
-        "proportion": 0.17812486440084976,
-        "office_title": "OUSD District 6"
-      },
-      {
         "slug": "pecolia-manigo",
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Pecolia Manigo",
         "proportion": 0.17528904565941603,
         "office_title": "OUSD District 4"
+      },
+      {
+        "slug": "valarie-bachelor",
+        "type": "office",
+        "title": "Oakland November 8th, 2022 General Election",
+        "candidate": "Valarie Bachelor",
+        "proportion": 0.16889973670422515,
+        "office_title": "OUSD District 6"
       }
     ],
     "largest_independent_expenditures": [
@@ -1139,7 +1139,7 @@
         "total_contributions": 6300.0
       },
       {
-        "name": "Russ Taplin",
+        "name": "John Protopappas",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 5400.0
@@ -1318,7 +1318,7 @@
         "total_contributions": 10000.0
       },
       {
-        "name": "Schnitzer Steel Industries, Inc.",
+        "name": "Oakland Police Officer's Association PAC",
         "type": "Measure",
         "election_name": "oakland-june-2022",
         "total_contributions": 5000.0

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 27770.629999999997,
+  "total_contributions": 29570.629999999997,
   "contributions": [
     {
       "Filer_ID": "1451532",
@@ -1463,6 +1463,17 @@
       "Tran_NamF": "Richard",
       "Tran_NamL": "Marcantonio",
       "Tran_Zip4": "94708"
+    },
+    {
+      "Filer_ID": "1451532",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Conference Board Amalgamated Transit Union Small Contributor Committee",
+      "Tran_Zip4": "95008"
     }
   ]
 }

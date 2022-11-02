@@ -1,5 +1,5 @@
 {
-  "total_contributions": 697350.0,
+  "total_contributions": 699350.0,
   "contributions": [
     {
       "Filer_ID": "1452451",
@@ -176,6 +176,17 @@
       "Tran_NamF": "Griffin",
       "Tran_NamL": "Tischler",
       "Tran_Zip4": "94110"
+    },
+    {
+      "Filer_ID": "1452451",
+      "Tran_Emp": "Flynn Investments",
+      "Tran_Occ": "Real Estate Investor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2022-10-28",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Flynn",
+      "Tran_Zip4": "94118"
     }
   ]
 }
