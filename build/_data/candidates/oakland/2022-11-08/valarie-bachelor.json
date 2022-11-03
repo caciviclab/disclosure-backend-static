@@ -1,5 +1,5 @@
 {
-  "id": 41,
+  "id": 14,
   "name": "Valarie Bachelor",
   "photo_url": "Valarie Bachelor.jpg",
   "website_url": "https://www.val4oakland.com/",
@@ -25,10 +25,10 @@
     "total_contributions": 34755.59,
     "total_expenditures": 10741.5,
     "total_loans_received": 100.0,
-    "total_supporting_independent": 13227.11,
+    "total_supporting_independent": 29148.11,
     "support_list": [
       {
-        "Total": 11695.11,
+        "Total": 27616.11,
         "Cand_ID": 1451532,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
@@ -62,6 +62,9 @@
     },
     "supporting_by_type": {
       "MON": 1800.0,
+      "Mailer": 4139.0,
+      "Canvasser": 782.0,
+      "Digital Ads": 11000.0,
       "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
       "Independent Expenditure Supporting/Opposing Others": 11695.11
     }

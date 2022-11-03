@@ -1,5 +1,5 @@
 {
-  "total_contributions": 330606.41,
+  "total_contributions": 340606.41,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -231,6 +231,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 Issues PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "EAH Inc",
+      "Tran_Zip4": "94901"
     }
   ]
 }

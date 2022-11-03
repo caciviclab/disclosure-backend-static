@@ -1,5 +1,5 @@
 {
-  "id": 34,
+  "id": 13,
   "name": "Jennifer Brouhard",
   "photo_url": "Jennifer Brouhard.jpg",
   "website_url": "https://www.brouhard4ousd.com/",
@@ -25,10 +25,10 @@
     "total_contributions": 17099.0,
     "total_expenditures": 8683.37,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 14603.82,
+    "total_supporting_independent": 31153.82,
     "support_list": [
       {
-        "Total": 13071.82,
+        "Total": 29621.82,
         "Cand_ID": 1452949,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
@@ -61,6 +61,9 @@
     },
     "supporting_by_type": {
       "MON": 1800.0,
+      "Mailer": 4768.0,
+      "Canvasser": 782.0,
+      "Digital Ads": 11000.0,
       "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
       "Independent Expenditure Supporting/Opposing Others": 13071.82
     }
