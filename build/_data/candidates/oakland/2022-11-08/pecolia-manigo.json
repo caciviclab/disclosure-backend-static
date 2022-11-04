@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1448946,
   "supporting_money": {
-    "contributions_received": 30618.0,
-    "total_contributions": 30618.0,
+    "contributions_received": 31418.0,
+    "total_contributions": 31418.0,
     "total_expenditures": 26046.84,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 38205.4,
+    "total_supporting_independent": 63734.4,
     "support_list": [
       {
-        "Total": 36673.4,
+        "Total": 62202.4,
         "Cand_ID": 1448946,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
@@ -41,13 +41,13 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 4600.0,
+      "Committee": 5400.0,
       "Individual": 21421.0,
       "Unitemized": 4597.0
     },
     "contributions_by_origin": {
       "Out of State": 200.0,
-      "Within Oakland": 17756.0,
+      "Within Oakland": 18556.0,
       "Within California": 8065.0
     },
     "total_small_contributions": 5367.0,
@@ -66,9 +66,10 @@
     },
     "supporting_by_type": {
       "MON": 1800.0,
-      "Mailer": 6969.0,
+      "Mailer": 30960.0,
       "Canvasser": 782.0,
       "Digital Ads": 11000.0,
+      "Text Messaging/Robo Calls": 1538.0,
       "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
       "Independent Expenditure Supporting/Opposing Others": 17922.4
     }
@@ -81,7 +82,7 @@
 
     ]
   },
-  "total_contributions": 30618.0,
+  "total_contributions": 31418.0,
   "total_expenditures": 26046.84,
   "total_loans_received": 0.0
 }
