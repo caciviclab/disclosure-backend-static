@@ -12,4 +12,5 @@ votersedge_url: https://votersedge.org/ca/en/ballot/election/104-c6a989/address/
 website_url: https://www.joinerforoakland.com/
 facebook_url: https://www.facebook.com/ForJoiner/
 instagram_url: nennajoiner
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1450180&since=2020-02-22&until=2022-06-30
 ---

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 699350.0,
+  "total_contributions": 701850.0,
   "contributions": [
     {
       "Filer_ID": "1452451",
@@ -187,6 +187,17 @@
       "Tran_NamF": "Sara",
       "Tran_NamL": "Flynn",
       "Tran_Zip4": "94118"
+    },
+    {
+      "Filer_ID": "1452451",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Discovery Builders, Inc.",
+      "Tran_Zip4": "94520"
     }
   ]
 }

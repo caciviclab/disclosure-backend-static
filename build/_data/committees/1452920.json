@@ -1,5 +1,5 @@
 {
-  "total_contributions": 435000.0,
+  "total_contributions": 455000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -165,6 +165,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "United Food and Commercial Workers International Union Active Ballot Club",
       "Tran_Zip4": "20006"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2022-11-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Drive Committee - FEC ID#C00032979",
+      "Tran_Zip4": "20001-2198"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": 16,
+  "id": 41,
   "name": "Yakpasua Michael Gbagba Zazaboi",
   "photo_url": null,
   "website_url": null,
@@ -21,27 +21,31 @@
   "is_winner": null,
   "filer_id": 1449857,
   "supporting_money": {
-    "contributions_received": 7980.0,
-    "total_contributions": 7980.0,
-    "total_expenditures": 2232.9,
-    "total_loans_received": 0.0,
+    "contributions_received": 17211.81,
+    "total_contributions": 17211.81,
+    "total_expenditures": 16508.26,
+    "total_loans_received": 6991.81,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 7900.0,
-      "Unitemized": 80.0
+      "Individual": 10050.0,
+      "Unitemized": 170.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 7900.0
+      "Out of State": 750.0,
+      "Within Oakland": 8650.0,
+      "Within California": 650.0
     },
-    "total_small_contributions": 80.0,
+    "total_small_contributions": 170.0,
     "expenditures_by_type": {
+      "Polling and Survey Research": 1156.95,
+      "Campaign Paraphernalia/Misc.": 3155.36,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 151.72,
+      "Campaign Literature and Mailings": 9901.47,
       "Professional Services (Legal, Accounting)": 800.0,
-      "Information Technology Costs (Internet, E-mail)": 144.0
+      "Information Technology Costs (Internet, E-mail)": 323.0
     },
     "supporting_by_type": {
     }
@@ -54,7 +58,7 @@
 
     ]
   },
-  "total_contributions": 7980.0,
-  "total_expenditures": 2232.9,
-  "total_loans_received": 0.0
+  "total_contributions": 17211.81,
+  "total_expenditures": 16508.26,
+  "total_loans_received": 6991.81
 }

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 340606.41,
+  "total_contributions": 400606.41,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -242,6 +242,50 @@
       "Tran_NamF": null,
       "Tran_NamL": "EAH Inc",
       "Tran_Zip4": "94901"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 7000.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Community Economics, Inc",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 40000.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "MidPen Housing Corporationc/o MidPen Housing",
+      "Tran_Zip4": "94404"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "NIBBI Bros. Associates, Inc, General Contractor",
+      "Tran_Zip4": "94103"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Northern CA Chapter, National Electrical Contractors Assn PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }
