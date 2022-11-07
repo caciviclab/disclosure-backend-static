@@ -1,5 +1,5 @@
 {
-  "total_contributions": 455000.0,
+  "total_contributions": 565000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -176,6 +176,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Drive Committee - FEC ID#C00032979",
       "Tran_Zip4": "20001-2198"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-11-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Foster Interstate Media, Inc.",
+      "Tran_Zip4": "94607-4175"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2022-11-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
     }
   ]
 }

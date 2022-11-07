@@ -1,5 +1,5 @@
 {
-  "total_contributions": 214578.84000000003,
+  "total_contributions": 214001.71000000002,
   "contributions": [
     {
       "Filer_ID": "1442079",
@@ -5734,8 +5734,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-07-17",
@@ -5786,17 +5786,6 @@
       "Tran_NamF": "Sarah",
       "Tran_NamL": "Yoell",
       "Tran_Zip4": "94526"
-    },
-    {
-      "Filer_ID": "1442079",
-      "Tran_Emp": "S. Chavez Consulting",
-      "Tran_Occ": "Principal",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 577.13,
-      "Tran_Date": "2022-07-20",
-      "Tran_NamF": "Sarah",
-      "Tran_NamL": "Chavez-Yoell",
-      "Tran_Zip4": "94621"
     },
     {
       "Filer_ID": "1442079",
@@ -5932,8 +5921,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-07-21",
@@ -5943,7 +5932,7 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": "Noli-Porter Associates",
+      "Tran_Emp": "Noli-Porte",
       "Tran_Occ": "Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -6020,8 +6009,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-07-29",
@@ -6032,7 +6021,7 @@
     {
       "Filer_ID": "1442079",
       "Tran_Emp": "County Of Alameda",
-      "Tran_Occ": "Human Resouces Division Manager, Benefits",
+      "Tran_Occ": "Hr Division Manager, Benefits",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-07-29",
@@ -6043,7 +6032,7 @@
     {
       "Filer_ID": "1442079",
       "Tran_Emp": "Hispanic Services",
-      "Tran_Occ": "Office Services",
+      "Tran_Occ": "Office",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-07-30",
@@ -6086,7 +6075,7 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": "Noli-Porter Associates",
+      "Tran_Emp": "Noli-Porte",
       "Tran_Occ": "Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
@@ -6218,8 +6207,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-08-17",
@@ -6284,8 +6273,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-08-21",
@@ -6317,7 +6306,7 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": "Noli-Porter Associates",
+      "Tran_Emp": "Noli-Porte",
       "Tran_Occ": "Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -6416,8 +6405,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-08-29",
@@ -6428,7 +6417,7 @@
     {
       "Filer_ID": "1442079",
       "Tran_Emp": "County Of Alameda",
-      "Tran_Occ": "Human Resouces Division Manager, Benefits",
+      "Tran_Occ": "Hr Division Manager, Benefits",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-08-29",
@@ -6439,7 +6428,7 @@
     {
       "Filer_ID": "1442079",
       "Tran_Emp": "Hispanic Services",
-      "Tran_Occ": "Office Services",
+      "Tran_Occ": "Office",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-08-30",
@@ -6548,8 +6537,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-09-17",
@@ -6592,8 +6581,8 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Dna",
+      "Tran_Occ": "Retired Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-09-21",
@@ -6614,7 +6603,7 @@
     },
     {
       "Filer_ID": "1442079",
-      "Tran_Emp": "Noli-Porter Associates",
+      "Tran_Emp": "Noli-Porte",
       "Tran_Occ": "Partner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
