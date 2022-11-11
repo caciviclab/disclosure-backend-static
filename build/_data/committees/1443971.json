@@ -1,5 +1,5 @@
 {
-  "total_contributions": 59975.0,
+  "total_contributions": 60975.0,
   "contributions": [
     {
       "Filer_ID": "1443971",
@@ -1507,6 +1507,17 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Silver",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1443971",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-11-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee Sponsored by Center for Empowered Politics",
+      "Tran_Zip4": "94612"
     }
   ]
 }

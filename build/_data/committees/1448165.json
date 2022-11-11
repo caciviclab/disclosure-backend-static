@@ -1,5 +1,5 @@
 {
-  "total_contributions": 62775.0,
+  "total_contributions": 66375.0,
   "contributions": [
     {
       "Filer_ID": "1448165",
@@ -2134,6 +2134,28 @@
       "Tran_NamF": "Stephen",
       "Tran_NamL": "Walrod",
       "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1448165",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-11-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborers' Local 304 PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1448165",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-11-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104",
+      "Tran_Zip4": "94551"
     }
   ]
 }
