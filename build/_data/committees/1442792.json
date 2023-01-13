@@ -1,5 +1,5 @@
 {
-  "total_contributions": 102770.94,
+  "total_contributions": 105240.94,
   "contributions": [
     {
       "Filer_ID": "1442792",
@@ -4656,6 +4656,17 @@
     },
     {
       "Filer_ID": "1442792",
+      "Tran_Emp": "Lovana ins services",
+      "Tran_Occ": "Insurance agent",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "Lovana",
+      "Tran_NamL": "Gee",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1442792",
       "Tran_Emp": "Self Employed/The Corcoran Group",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
@@ -4664,17 +4675,6 @@
       "Tran_NamF": "Shirley",
       "Tran_NamL": "Golub",
       "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1442792",
-      "Tran_Emp": null,
-      "Tran_Occ": "Not employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2022-10-21",
-      "Tran_NamF": "Charlton",
-      "Tran_NamL": "Holland",
-      "Tran_Zip4": "94510"
     },
     {
       "Filer_ID": "1442792",
@@ -4711,6 +4711,17 @@
     },
     {
       "Filer_ID": "1442792",
+      "Tran_Emp": "Fortress construction",
+      "Tran_Occ": "Project manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "JianHao",
+      "Tran_NamL": "Tan",
+      "Tran_Zip4": "94546"
+    },
+    {
+      "Filer_ID": "1442792",
       "Tran_Emp": "Valva Realty Co",
       "Tran_Occ": "Realtor",
       "Entity_Cd": "Individual",
@@ -4719,6 +4730,28 @@
       "Tran_NamF": "Phong (Frank)",
       "Tran_NamL": "Tran",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Health Researcher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Opie",
+      "Tran_NamL": "Bellas",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Betsy Cotton",
+      "Tran_Occ": "nonprofit management",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Betsy",
+      "Tran_NamL": "Cotton",
+      "Tran_Zip4": "94705"
     },
     {
       "Filer_ID": "1442792",
@@ -4733,6 +4766,50 @@
     },
     {
       "Filer_ID": "1442792",
+      "Tran_Emp": "comity",
+      "Tran_Occ": "software engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Haydn",
+      "Tran_NamL": "Dufrene",
+      "Tran_Zip4": "87514"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Kristin",
+      "Tran_NamL": "Germeroth",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Wenjun Li",
+      "Tran_Occ": "Business",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Wenjun",
+      "Tran_NamL": "Li",
+      "Tran_Zip4": "94112"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Intrigo Systems Inc",
+      "Tran_Occ": "Software Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Santhosh",
+      "Tran_NamL": "Manayilakath",
+      "Tran_Zip4": "94303"
+    },
+    {
+      "Filer_ID": "1442792",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -4741,6 +4818,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "Re-Elect Fiona Ma for State Treasurer 2022",
       "Tran_Zip4": "95864"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Movement strategy center",
+      "Tran_Occ": "Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Jessamyn",
+      "Tran_NamL": "Sabbag",
+      "Tran_Zip4": "94619"
+    },
+    {
+      "Filer_ID": "1442792",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Jonah",
+      "Tran_NamL": "Schwartz",
+      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1442792",

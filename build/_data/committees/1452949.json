@@ -234,7 +234,7 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Mary Loeser",
       "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -278,14 +278,14 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Elizabeth Erlich",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-09-29",
       "Tran_NamF": "Elizabeth",
       "Tran_NamL": "Erlich",
-      "Tran_Zip4": "94619"
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1452949",
@@ -405,8 +405,8 @@
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-10-01",
       "Tran_NamF": "Renee",
-      "Tran_NamL": "Swsyne",
-      "Tran_Zip4": "94619"
+      "Tran_NamL": "Swayne",
+      "Tran_Zip4": "94601"
     },
     {
       "Filer_ID": "1452949",
@@ -454,7 +454,7 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Joan Jahelka",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -465,7 +465,7 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Stan Yogi",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -520,7 +520,7 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Lucy Clarke",
       "Tran_Occ": "Photo Editor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
@@ -542,8 +542,8 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "UNKNOWN",
-      "Tran_Occ": "UNKNOWN",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-10-12",
@@ -553,7 +553,7 @@
     },
     {
       "Filer_ID": "1452949",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Pamela Tau Lee",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
