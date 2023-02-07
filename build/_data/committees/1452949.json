@@ -1,5 +1,5 @@
 {
-  "total_contributions": 14430.0,
+  "total_contributions": 20630.0,
   "contributions": [
     {
       "Filer_ID": "1452949",
@@ -649,6 +649,116 @@
       "Tran_NamF": "Devin",
       "Tran_NamL": "Hess",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Berkeley Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-23",
+      "Tran_NamF": "Elizabeth",
+      "Tran_NamL": "Scarboro",
+      "Tran_Zip4": "94707"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "University of California",
+      "Tran_Occ": "Lab Technician",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": "Ethan",
+      "Tran_NamL": "Gardner",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Democratic Socialists of America",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": "Nancy",
+      "Tran_NamL": "Lum",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "UA Local 342 PAC Fund",
+      "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising sponsored by Center for Empowerment Politics",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-11-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "Albany Teachers Association PAC",
+      "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2022-11-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Conference Board Amalgamated Transit Union Small Contributor Committee",
+      "Tran_Zip4": "95008"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-11-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Darabi Consulting Services",
+      "Tran_Zip4": "94010"
+    },
+    {
+      "Filer_ID": "1452949",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2022-12-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers' Union Local 104",
+      "Tran_Zip4": "94551"
     }
   ]
 }

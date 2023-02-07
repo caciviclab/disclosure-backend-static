@@ -1,5 +1,5 @@
 {
-  "total_contributions": 145.0,
+  "total_contributions": 195.0,
   "contributions": [
     {
       "Filer_ID": "790500",
@@ -33,6 +33,17 @@
       "Tran_NamF": "Laurie",
       "Tran_NamL": "Earp",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "790500",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-08-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "voters for Affirmative Action, Inc",
+      "Tran_Zip4": "unknown"
     }
   ]
 }

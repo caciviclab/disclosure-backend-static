@@ -21,38 +21,39 @@
   "is_winner": null,
   "filer_id": 1439739,
   "supporting_money": {
-    "contributions_received": 24166.0,
-    "total_contributions": 24166.0,
-    "total_expenditures": 23144.54,
+    "contributions_received": 34452.0,
+    "total_contributions": 34452.0,
+    "total_expenditures": 37240.91,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 2728.0,
+    "total_supporting_independent": 2798.92,
     "support_list": [
       {
-        "Total": 2728.0,
+        "Total": 2798.92,
         "Cand_ID": 1439739,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       }
     ],
     "contributions_by_type": {
-      "Committee": 600.0,
-      "Individual": 22687.0,
-      "Unitemized": 179.0,
+      "Committee": 1900.0,
+      "Individual": 23554.0,
+      "Unitemized": 454.0,
       "Self Funding": 700.0
     },
     "contributions_by_origin": {
-      "Out of State": 1325.0,
-      "Within Oakland": 9233.0,
-      "Within California": 13429.0
+      "Out of State": 1825.0,
+      "Within Oakland": 10708.0,
+      "Within California": 13621.0
     },
-    "total_small_contributions": 5463.0,
+    "total_small_contributions": 6205.0,
     "expenditures_by_type": {
+      "Office Expenses": 23.85,
       "Fundraising Events": 501.91,
-      "Campaign Consultants": 13000.0,
-      "Campaign Paraphernalia/Misc.": 640.0,
-      "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 2181.29,
-      "Professional Services (Legal, Accounting)": 5235.0
+      "Campaign Consultants": 19000.0,
+      "Campaign Paraphernalia/Misc.": 1280.0,
+      "Candidate Filing/Ballot Fees": 1950.0,
+      "Campaign Literature and Mailings": 4868.32,
+      "Professional Services (Legal, Accounting)": 8535.0
     },
     "supporting_by_type": {
     }
@@ -65,7 +66,7 @@
 
     ]
   },
-  "total_contributions": 24166.0,
-  "total_expenditures": 23144.54,
+  "total_contributions": 34452.0,
+  "total_expenditures": 37240.91,
   "total_loans_received": 0.0
 }

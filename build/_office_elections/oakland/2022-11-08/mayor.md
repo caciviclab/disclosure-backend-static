@@ -6,8 +6,8 @@ candidates:
 - ignacio-de-la-fuente
 - treva-d-reid
 - gregory-hodge
-- derreck-johnson
 - seneca-scott
+- derreck-johnson
 - allyssa-victory-villanueva
 - derrick-soo
 - elbert-owens

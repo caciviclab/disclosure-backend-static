@@ -1,5 +1,5 @@
 {
-  "total_contributions": 50000.0,
+  "total_contributions": 60000.0,
   "contributions": [
     {
       "Filer_ID": "1443977",
@@ -33,6 +33,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Nate Miley for Supervisor 2024",
       "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1443977",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-12-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "21227 Foothill LLC(Soufyan AbouAhmed)",
+      "Tran_Zip4": "94541"
     }
   ]
 }

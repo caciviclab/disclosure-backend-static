@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1442594,
   "supporting_money": {
-    "contributions_received": 417053.47,
-    "total_contributions": 417053.47,
-    "total_expenditures": 360979.03,
+    "contributions_received": 548862.47,
+    "total_contributions": 548862.47,
+    "total_expenditures": 718247.9,
     "total_loans_received": -500.0,
-    "total_supporting_independent": 747039.91,
+    "total_supporting_independent": 747110.92,
     "support_list": [
       {
         "Total": 173701.0,
@@ -34,13 +34,13 @@
         "Filer_NamL": "East and South Bay Working Families United sponsored by labor organizations"
       },
       {
-        "Total": 2728.0,
+        "Total": 2798.92,
         "Cand_ID": 1442594,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       },
       {
-        "Total": 570610.91,
+        "Total": 570611.0,
         "Cand_ID": 1442594,
         "Filer_ID": "1452920",
         "Filer_NamL": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022"
@@ -48,62 +48,60 @@
     ],
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 46000.0,
-      "Individual": 307851.47,
-      "Unitemized": 19272.0,
-      "Other (includes Businesses)": 28530.0
+      "Committee": 55100.0,
+      "Individual": 326660.47,
+      "Unitemized": 27843.0,
+      "Other (includes Businesses)": 29580.0
     },
     "contributions_by_origin": {
-      "Out of State": 33607.0,
-      "Within Oakland": 108918.0,
-      "Within California": 255756.47
+      "Out of State": 39782.0,
+      "Within Oakland": 114107.0,
+      "Within California": 273351.47
     },
-    "total_small_contributions": 24951.0,
+    "total_small_contributions": 34206.0,
     "expenditures_by_type": {
-      "Contribution": 2500.0,
-      "Office Expenses": 2994.72,
-      "Fundraising Events": 25100.53,
-      "Campaign Consultants": 106798.96,
-      "Meetings and Appearances": 828.6,
-      "Campaign Paraphernalia/Misc.": 30346.4,
-      "Candidate Filing/Ballot Fees": 1109.16,
-      "Campaign Literature and Mailings": 79496.6,
-      "Candidate Travel, Lodging, and Meals": 2855.63,
-      "Staff/Spouse Travel, Lodging, and Meals": 4064.25,
-      "Postage, Delivery and Messenger Services": 36165.12,
-      "Professional Services (Legal, Accounting)": 890.0,
-      "T.V. or Cable Airtime and Production Costs": 45054.0,
-      "Information Technology Costs (Internet, E-mail)": 8565.18,
+      "Print Ads": 500.0,
+      "Not Stated": 4015.0,
+      "Phone Banks": 125.52,
+      "Contribution": 5500.0,
+      "Office Expenses": 9525.87,
+      "Fundraising Events": 46288.15,
+      "Campaign Consultants": 179404.2,
+      "Meetings and Appearances": 2685.84,
+      "Campaign Paraphernalia/Misc.": 48575.59,
+      "Candidate Filing/Ballot Fees": 2109.16,
+      "Campaign Literature and Mailings": 241899.15,
+      "Candidate Travel, Lodging, and Meals": 5042.28,
+      "Staff/Spouse Travel, Lodging, and Meals": 5974.74,
+      "Postage, Delivery and Messenger Services": 36235.67,
+      "Professional Services (Legal, Accounting)": 1390.0,
+      "T.V. or Cable Airtime and Production Costs": 92758.0,
+      "Information Technology Costs (Internet, E-mail)": 17654.88,
       "Transfer Between Committees of the Same Candidate/sponsor": 3600.0
     },
     "supporting_by_type": {
-      "MON": 5300.0,
-      "Mailer": 76803.0,
-      "LIT $2,728.17": 685.0,
-      "Phone banking": 9600.0,
+      "MON": 6300.0,
+      "Mailer": 8117.0,
       "Phone and canvass campaign": 140344.0,
       "Phone and canvassing campaign": 33357.0,
-      "Voter Guide Design, Printing & Mailing $2,043.15": 2043.0,
-      "Independent Expenditure Supporting/Opposing Others": 599875.07,
-      "Mailers supporting candidate-graphics, translation, voter data, print, postage, consulting": 49767.0
+      "Independent Expenditure Supporting/Opposing Others": 730727.08
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 9066.0,
+    "opposing_expenditures": 3520.67,
     "opposing_by_type": {
-      "Mailer": 3521.0,
-      "Polling": 5545.0
+      "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
       {
-        "Total": 9066.0,
+        "Total": 3520.67,
         "Cand_ID": 1442594,
         "Filer_ID": "1452451",
         "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
       }
     ]
   },
-  "total_contributions": 417053.47,
-  "total_expenditures": 360979.03,
+  "total_contributions": 548862.47,
+  "total_expenditures": 718247.9,
   "total_loans_received": -500.0
 }

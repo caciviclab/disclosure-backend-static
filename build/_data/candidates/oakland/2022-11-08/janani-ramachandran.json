@@ -21,49 +21,50 @@
   "is_winner": null,
   "filer_id": 1442792,
   "supporting_money": {
-    "contributions_received": 142091.94,
-    "total_contributions": 142091.94,
-    "total_expenditures": 103575.7,
-    "total_loans_received": 0.0,
-    "total_supporting_independent": 2043.0,
+    "contributions_received": 155178.94,
+    "total_contributions": 155178.94,
+    "total_expenditures": 191334.79,
+    "total_loans_received": 5000.0,
+    "total_supporting_independent": 2113.9,
     "support_list": [
       {
-        "Total": 2043.0,
+        "Total": 2113.9,
         "Cand_ID": 1442792,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       }
     ],
     "contributions_by_type": {
-      "Committee": 23442.5,
-      "Individual": 80760.0,
-      "Unitemized": 9032.0,
+      "Committee": 26092.5,
+      "Individual": 85658.0,
+      "Unitemized": 9571.0,
       "Other (includes Businesses)": 1038.44
     },
     "contributions_by_origin": {
       "Out of State": 17410.0,
-      "Within Oakland": 30068.0,
-      "Within California": 57762.94
+      "Within Oakland": 33413.0,
+      "Within California": 61965.94
     },
-    "total_small_contributions": 14498.0,
+    "total_small_contributions": 15635.0,
     "expenditures_by_type": {
-      "Phone Banks": 134.94,
+      "Not Stated": 212.6,
+      "Phone Banks": 16380.8,
       "Contribution": 100.0,
-      "Office Expenses": 4538.43,
+      "Office Expenses": 5352.91,
       "Fundraising Events": 465.92,
       "Campaign Consultants": 20000.0,
       "Meetings and Appearances": 260.0,
-      "Campaign Workers' Salaries": 5000.0,
+      "Campaign Workers' Salaries": 9480.0,
       "Campaign Paraphernalia/Misc.": 14369.67,
       "Candidate Filing/Ballot Fees": 1415.91,
-      "Campaign Literature and Mailings": 29958.16,
-      "Professional Services (Legal, Accounting)": 5450.0,
-      "Information Technology Costs (Internet, E-mail)": 21559.54
+      "Campaign Literature and Mailings": 64252.81,
+      "Professional Services (Legal, Accounting)": 17201.5,
+      "Information Technology Costs (Internet, E-mail)": 31559.54
     },
     "supporting_by_type": {
       "Digital Ads Estimate $1,038.41": 1000.0,
       "Voter Guide Digital Ads Estimate $1,038.41": 6.0,
-      "Voter Guide Design, Printing & Mailing $2,043.15": 2043.0,
+      "Independent Expenditure Supporting/Opposing Others": 2113.9,
       "Voter Guide Design and Production: Staff Time & Costs $1,038.41": 32.0
     }
   },
@@ -75,7 +76,7 @@
 
     ]
   },
-  "total_contributions": 142091.94,
-  "total_expenditures": 103575.7,
-  "total_loans_received": 0.0
+  "total_contributions": 155178.94,
+  "total_expenditures": 191334.79,
+  "total_loans_received": 5000.0
 }
