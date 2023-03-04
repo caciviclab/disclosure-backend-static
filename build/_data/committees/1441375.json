@@ -1,5 +1,5 @@
 {
-  "total_contributions": 578623.2400000002,
+  "total_contributions": 577030.0500000003,
   "contributions": [
     {
       "Filer_ID": "1441375",
@@ -5437,19 +5437,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 22.0,
-      "Tran_Date": "2022-01-06",
-      "Tran_NamF": "Thomas",
-      "Tran_NamL": "Donovan",
-      "Tran_Zip4": "94602-3019"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "AT&T",
-      "Tran_Occ": "Technical Sales Consultant",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.0,
       "Tran_Date": "2022-01-06",
@@ -5487,7 +5476,7 @@
       "Tran_Amt1": 20.0,
       "Tran_Date": "2022-01-11",
       "Tran_NamF": "Chris",
-      "Tran_NamL": "Urkofsky",
+      "Tran_NamL": "Urkefsky",
       "Tran_Zip4": "94611-2425"
     },
     {
@@ -5653,18 +5642,18 @@
       "Tran_Date": "2022-01-22",
       "Tran_NamF": "Steven",
       "Tran_NamL": "Tidrick",
-      "Tran_Zip4": "94612-1427"
+      "Tran_Zip4": "94618-2124"
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "O'Brien-Cheney, Inc.",
-      "Tran_Occ": "self",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-01-23",
-      "Tran_NamF": "gerald",
-      "Tran_NamL": "cheney",
-      "Tran_Zip4": "94611-2802"
+      "Tran_NamF": "Gerald",
+      "Tran_NamL": "Cheney",
+      "Tran_Zip4": "94611-1110"
     },
     {
       "Filer_ID": "1441375",
@@ -5690,8 +5679,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Accountant",
+      "Tran_Emp": "Self-Employed - Same Name",
+      "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-01-27",
@@ -5734,8 +5723,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-01-31",
@@ -5745,8 +5734,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Communications",
+      "Tran_Emp": "Samuel Merritt University",
+      "Tran_Occ": "Associate Director of Media Relations",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-01-31",
@@ -5818,7 +5807,7 @@
       "Tran_Date": "2022-02-01",
       "Tran_NamF": "Gordon",
       "Tran_NamL": "Greenwood",
-      "Tran_Zip4": "94545-1340"
+      "Tran_Zip4": "94607-3858"
     },
     {
       "Filer_ID": "1441375",
@@ -5851,7 +5840,7 @@
       "Tran_Date": "2022-02-02",
       "Tran_NamF": "Gordon",
       "Tran_NamL": "Greenwood",
-      "Tran_Zip4": "94545-1340"
+      "Tran_Zip4": "94607-3858"
     },
     {
       "Filer_ID": "1441375",
@@ -5867,29 +5856,29 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Betty's Children's Academy",
-      "Tran_Occ": "Administrator",
+      "Tran_Occ": "Childcare/ Education",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-02-03",
-      "Tran_NamF": "Betty Zaidan",
+      "Tran_NamF": "Betty",
       "Tran_NamL": "McGhee",
       "Tran_Zip4": "94605-5716"
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Akonadi",
-      "Tran_Occ": "President",
+      "Tran_Emp": "BART",
+      "Tran_Occ": "Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 258.32,
       "Tran_Date": "2022-02-03",
       "Tran_NamF": "Lateefah",
       "Tran_NamL": "Simon",
-      "Tran_Zip4": "94609-2999"
+      "Tran_Zip4": "94608-2167"
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
-      "Tran_Occ": "Social Worker",
+      "Tran_Emp": "Kim Sherman, LCSW",
+      "Tran_Occ": "Psychotherapist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 102.42,
       "Tran_Date": "2022-02-04",
@@ -5899,7 +5888,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Not Employed",
+      "Tran_Emp": "Retired",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
@@ -5910,7 +5899,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
@@ -5943,25 +5932,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "East Bay Pediatrics",
-      "Tran_Occ": "Physician",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-02-11",
       "Tran_NamF": "Myles",
       "Tran_NamL": "Abbott",
       "Tran_Zip4": "94611-3212"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-02-11",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
     },
     {
       "Filer_ID": "1441375",
@@ -5988,12 +5966,12 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Genentech",
-      "Tran_Occ": "Director",
+      "Tran_Occ": "Healthcare Market Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-02-13",
       "Tran_NamF": "Joseph",
-      "Tran_NamL": "OLeary",
+      "Tran_NamL": "O'Leary",
       "Tran_Zip4": "94010-3603"
     },
     {
@@ -6009,14 +5987,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "retired",
-      "Tran_Occ": "Banker",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-02-14",
       "Tran_NamF": "Barbara",
       "Tran_NamL": "Goldenberg",
-      "Tran_Zip4": "94611-2305"
+      "Tran_Zip4": "94611-4815"
     },
     {
       "Filer_ID": "1441375",
@@ -6042,7 +6020,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "KIRK MILLER AFFILIATES",
+      "Tran_Emp": "Kirk Miller Affiliates",
       "Tran_Occ": "Architect",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -6153,7 +6131,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "AT&T",
-      "Tran_Occ": "Technical Sales Consultant",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.0,
       "Tran_Date": "2022-02-18",
@@ -6196,6 +6174,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "Ullman-Bell Partners",
+      "Tran_Occ": "Impact Financial Adviser",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-02-20",
+      "Tran_NamF": "Stephen",
+      "Tran_NamL": "Hicks",
+      "Tran_Zip4": null
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": "Rti international",
       "Tran_Occ": "Researcher",
       "Entity_Cd": "Individual",
@@ -6219,7 +6208,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "CDA Consulting Group",
-      "Tran_Occ": "Event Planner",
+      "Tran_Occ": "Event planner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-02-22",
@@ -6295,17 +6284,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Sabre Foods",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2022-02-24",
-      "Tran_NamF": "Monica",
-      "Tran_NamL": "Marcone",
-      "Tran_Zip4": "94618-2246"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "PricewaterhouseCoopers",
       "Tran_Occ": "Manager",
       "Entity_Cd": "Individual",
@@ -6314,6 +6292,17 @@
       "Tran_NamF": "Jill",
       "Tran_NamL": "Robinson",
       "Tran_Zip4": "94606-1641"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "Sabre Foods",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2022-02-24",
+      "Tran_NamF": "monica",
+      "Tran_NamL": "marcone",
+      "Tran_Zip4": "94618-2246"
     },
     {
       "Filer_ID": "1441375",
@@ -6336,6 +6325,17 @@
       "Tran_NamF": "Stanley",
       "Tran_NamL": "Cooper",
       "Tran_Zip4": "94602-3375"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "Chop Bar",
+      "Tran_Occ": "Owner/Restaurateur",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2022-02-25",
+      "Tran_NamF": "Christopher",
+      "Tran_NamL": "Pastena",
+      "Tran_Zip4": "94612-2338"
     },
     {
       "Filer_ID": "1441375",
@@ -6372,17 +6372,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Chop Bar",
-      "Tran_Occ": "Owner/Restaurateur",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2022-02-25",
-      "Tran_NamF": "jana",
-      "Tran_NamL": "pastena",
-      "Tran_Zip4": "94612-2338"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Bristol Myers Squibb",
       "Tran_Occ": "Phamaceuticals",
       "Entity_Cd": "Individual",
@@ -6416,8 +6405,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-02-27",
@@ -6460,25 +6449,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Communications",
+      "Tran_Emp": "Samuel Merritt University",
+      "Tran_Occ": "Associate Director of Media Relations",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-02-28",
       "Tran_NamF": "Justin",
       "Tran_NamL": "Berton",
       "Tran_Zip4": "94619-2247"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "TauTona Group",
-      "Tran_Occ": "COO",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-02-28",
-      "Tran_NamF": "Michael",
-      "Tran_NamL": "Blanchette",
-      "Tran_Zip4": "94306-4539"
     },
     {
       "Filer_ID": "1441375",
@@ -6523,6 +6501,17 @@
       "Tran_NamF": "John",
       "Tran_NamL": "Eckhouse",
       "Tran_Zip4": "94611-2935"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "California Charter School Association",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15.0,
+      "Tran_Date": "2022-02-28",
+      "Tran_NamF": "Jumoke",
+      "Tran_NamL": "Hinton",
+      "Tran_Zip4": "94607-2813"
     },
     {
       "Filer_ID": "1441375",
@@ -6592,17 +6581,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-02-28",
-      "Tran_NamF": "Antonia",
-      "Tran_NamL": "Veglia",
-      "Tran_Zip4": "94619-2619"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Altman Solon",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
@@ -6620,7 +6598,7 @@
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-03-01",
       "Tran_NamF": "Yanira",
-      "Tran_NamL": "Canizales",
+      "Tran_NamL": "Conzales",
       "Tran_Zip4": "94513-7216"
     },
     {
@@ -6647,8 +6625,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Not Employed",
-      "Tran_Occ": "Not Employed",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 99.0,
       "Tran_Date": "2022-03-03",
@@ -6779,19 +6757,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-03-06",
-      "Tran_NamF": "Norma",
-      "Tran_NamL": "Murphy",
-      "Tran_Zip4": "94602-2629"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "AT&T",
-      "Tran_Occ": "Technical Sales Consultant",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.0,
       "Tran_Date": "2022-03-06",
@@ -6828,7 +6795,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-03-07",
-      "Tran_NamF": "Eric",
+      "Tran_NamF": "Erica",
       "Tran_NamL": "Dillie",
       "Tran_Zip4": "94550-2005"
     },
@@ -6839,8 +6806,8 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-03-07",
-      "Tran_NamF": "ADAM",
-      "Tran_NamL": "LITLE",
+      "Tran_NamF": "Adam",
+      "Tran_NamL": "Little",
       "Tran_Zip4": "94610-1612"
     },
     {
@@ -6864,6 +6831,17 @@
       "Tran_NamF": "Nicole",
       "Tran_NamL": "Sorondo",
       "Tran_Zip4": "94118-2415"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "Mills Northeastern University, Oakland",
+      "Tran_Occ": "Adjunct Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-03-07",
+      "Tran_NamF": "Veronica",
+      "Tran_NamL": "Ufoegbune",
+      "Tran_Zip4": "94605-4211"
     },
     {
       "Filer_ID": "1441375",
@@ -6900,8 +6878,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Bridge Bank",
-      "Tran_Occ": "Banker",
+      "Tran_Emp": "Torrey Pines Bank",
+      "Tran_Occ": "Vice President Private Banker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-03-10",
@@ -6994,7 +6972,7 @@
       "Tran_Amt1": 200.0,
       "Tran_Date": "2022-03-12",
       "Tran_NamF": "Elizabeth",
-      "Tran_NamL": "Van Benschoten",
+      "Tran_NamL": "Van Benscholen",
       "Tran_Zip4": "94618-2734"
     },
     {
@@ -7006,7 +6984,7 @@
       "Tran_Date": "2022-03-12",
       "Tran_NamF": "Kaiwei",
       "Tran_NamL": "Wang",
-      "Tran_Zip4": "94501-8031"
+      "Tran_Zip4": "94563-2800"
     },
     {
       "Filer_ID": "1441375",
@@ -7033,7 +7011,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Donahue Fitzgerald",
-      "Tran_Occ": "Attorney",
+      "Tran_Occ": "attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-03-13",
@@ -7054,7 +7032,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Not Employed",
+      "Tran_Emp": "Amanda Feinstein Consulting",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 516.45,
@@ -7186,6 +7164,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "MillerKnoll",
+      "Tran_Occ": "Business Development",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2022-03-23",
+      "Tran_NamF": "Korri",
+      "Tran_NamL": "Aiken",
+      "Tran_Zip4": "94610-2326"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": "Walmart Inc",
       "Tran_Occ": "Executive",
       "Entity_Cd": "Individual",
@@ -7220,7 +7209,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "GreenBiz Group",
-      "Tran_Occ": "Media",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-03-23",
@@ -7263,24 +7252,13 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "MillerKnoll",
-      "Tran_Occ": "Business Development",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 900.0,
-      "Tran_Date": "2022-03-23",
-      "Tran_NamF": "Korri",
-      "Tran_NamL": "O'Connor",
-      "Tran_Zip4": "94610-2326"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "40th Street Apartments LLC",
       "Tran_Occ": "Real Estate Owner/Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-03-23",
       "Tran_NamF": "Miye",
-      "Tran_NamL": "Takagi",
+      "Tran_NamL": "Tagaki",
       "Tran_Zip4": "94611-3816"
     },
     {
@@ -7351,7 +7329,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Bernida Reagan Consulting",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -7495,7 +7473,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Retired",
-      "Tran_Occ": "Oakland NAACP 2nd Vice President",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-03-31",
@@ -7505,7 +7483,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 102.42,
@@ -7538,8 +7516,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Communications",
+      "Tran_Emp": "Samuel Merritt University",
+      "Tran_Occ": "Associate Director of Media Relations",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-03-31",
@@ -7568,17 +7546,6 @@
       "Tran_NamF": "Rowena",
       "Tran_NamL": "Brown",
       "Tran_Zip4": "94610-8023"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 22.0,
-      "Tran_Date": "2022-03-31",
-      "Tran_NamF": "Thomas",
-      "Tran_NamL": "Donovan",
-      "Tran_Zip4": "94602-3019"
     },
     {
       "Filer_ID": "1441375",
@@ -7626,7 +7593,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "KIRK MILLER AFFILIATES",
+      "Tran_Emp": "Kirk Miller Affiliates",
       "Tran_Occ": "Architect",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
@@ -7642,20 +7609,20 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-03-31",
-      "Tran_NamF": "Rick and Allyson",
+      "Tran_NamF": "Rick",
       "Tran_NamL": "Rickard",
       "Tran_Zip4": "94602-2634"
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Pet Food Express",
-      "Tran_Occ": "Owner",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 516.45,
       "Tran_Date": "2022-03-31",
       "Tran_NamF": "Mark",
       "Tran_NamL": "Witriol",
-      "Tran_Zip4": "94621-1304"
+      "Tran_Zip4": "94705-1707"
     },
     {
       "Filer_ID": "1441375",
@@ -7676,8 +7643,8 @@
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-04-01",
       "Tran_NamF": "Laurel",
-      "Tran_NamL": "Allen-Thomas",
-      "Tran_Zip4": "12203-2529"
+      "Tran_NamL": "Allen",
+      "Tran_Zip4": "94610-2610"
     },
     {
       "Filer_ID": "1441375",
@@ -7714,18 +7681,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "retired software exec",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-04-01",
-      "Tran_NamF": "Nancy",
-      "Tran_NamL": "Reier",
-      "Tran_Zip4": "94610-5036"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Breaux Benefit Consultants",
+      "Tran_Emp": "Barry E. Breaux, MD",
       "Tran_Occ": "Physician",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
@@ -7733,6 +7689,17 @@
       "Tran_NamF": "Barry E.",
       "Tran_NamL": "Breaux",
       "Tran_Zip4": "94608-1009"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "California Charter School Association",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15.0,
+      "Tran_Date": "2022-04-02",
+      "Tran_NamF": "Jumoke",
+      "Tran_NamL": "Hinton",
+      "Tran_Zip4": "94607-2813"
     },
     {
       "Filer_ID": "1441375",
@@ -7748,7 +7715,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Retired",
-      "Tran_Occ": "Oakland NAACP 2nd Vice President",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-04-08",
@@ -7780,6 +7747,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 160.0,
+      "Tran_Date": "2022-04-08",
+      "Tran_NamF": "Joanne",
+      "Tran_NamL": "Casey",
+      "Tran_Zip4": "94618-2302"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": null,
       "Tran_Occ": "retired",
       "Entity_Cd": "Individual",
@@ -7792,7 +7770,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "AT&T",
-      "Tran_Occ": "Technical Sales Consultant",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-04-08",
@@ -7835,17 +7813,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 160.0,
-      "Tran_Date": "2022-04-08",
-      "Tran_NamF": "joanne",
-      "Tran_NamL": "casey",
-      "Tran_Zip4": "94618-2302"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Kumon",
       "Tran_Occ": "Educator",
       "Entity_Cd": "Individual",
@@ -7868,7 +7835,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self-Employed - Same Name",
       "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 160.0,
@@ -7876,17 +7843,6 @@
       "Tran_NamF": "Terese",
       "Tran_NamL": "Tricamo",
       "Tran_Zip4": "94619-3512"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 16.0,
-      "Tran_Date": "2022-04-09",
-      "Tran_NamF": "Antonia",
-      "Tran_NamL": "Veglia",
-      "Tran_Zip4": "94619-2619"
     },
     {
       "Filer_ID": "1441375",
@@ -7912,8 +7868,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired University Administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-04-11",
@@ -7950,8 +7906,8 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-04-11",
-      "Tran_NamF": "Wladimir",
-      "Tran_NamL": "Wlassowsky",
+      "Tran_NamF": "wladimir",
+      "Tran_NamL": "wlassowsky",
       "Tran_Zip4": "94610-1522"
     },
     {
@@ -7968,7 +7924,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Jessica Eastman Stewart, LLC",
-      "Tran_Occ": "Self-Employed",
+      "Tran_Occ": "Founder",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-04-12",
@@ -7989,14 +7945,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "John muir health",
-      "Tran_Occ": "Medical physicist",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 450.0,
       "Tran_Date": "2022-04-13",
       "Tran_NamF": "Rebecca",
       "Tran_NamL": "Graciano",
-      "Tran_Zip4": "94618-1835"
+      "Tran_Zip4": "94618-2033"
     },
     {
       "Filer_ID": "1441375",
@@ -8011,8 +7967,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "League of Women Voters of Oakland",
+      "Tran_Occ": "President",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 258.32,
       "Tran_Date": "2022-04-13",
@@ -8121,7 +8077,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Civitech PBC",
+      "Tran_Emp": "Civitech",
       "Tran_Occ": "COO",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
@@ -8177,24 +8133,13 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Retired",
-      "Tran_Occ": "Oakland NAACP 2nd Vice President",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-04-22",
       "Tran_NamF": "Cynthia",
       "Tran_NamL": "Adams",
       "Tran_Zip4": "94577-4147"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-04-22",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
     },
     {
       "Filer_ID": "1441375",
@@ -8220,7 +8165,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "TekPartners",
+      "Tran_Emp": "Tcs",
       "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 77.64,
@@ -8254,7 +8199,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "National Institute for Criminal Justice Reform",
-      "Tran_Occ": "Executive Director",
+      "Tran_Occ": "Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2022-04-23",
@@ -8276,7 +8221,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "UCSF",
-      "Tran_Occ": "Scientist",
+      "Tran_Occ": "Doctor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 516.45,
       "Tran_Date": "2022-04-25",
@@ -8294,6 +8239,17 @@
       "Tran_NamF": "Kim",
       "Tran_NamL": "Rhoads",
       "Tran_Zip4": "94618-1841"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "California Charter School Association",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15.0,
+      "Tran_Date": "2022-04-28",
+      "Tran_NamF": "Jumoke",
+      "Tran_NamL": "Hinton",
+      "Tran_Zip4": "94607-2813"
     },
     {
       "Filer_ID": "1441375",
@@ -8330,8 +8286,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Communications",
+      "Tran_Emp": "Samuel Merritt University",
+      "Tran_Occ": "Associate Director of Media Relations",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-04-30",
@@ -8357,7 +8313,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2022-04-30",
-      "Tran_NamF": "Terrence",
+      "Tran_NamF": "Rev. Terrence",
       "Tran_NamL": "Dwyer",
       "Tran_Zip4": "94610-2318"
     },
@@ -8440,13 +8396,13 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
+      "Tran_Emp": "Retired",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-05-01",
-      "Tran_NamF": "Sharon",
-      "Tran_NamL": "Wicher",
+      "Tran_NamF": "sharon",
+      "Tran_NamL": "wicher",
       "Tran_Zip4": "94611-3214"
     },
     {
@@ -8506,25 +8462,25 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "Include Ventures",
+      "Tran_Occ": "General Partner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-05-07",
+      "Tran_NamF": "Keith",
+      "Tran_NamL": "Spears",
+      "Tran_Zip4": "94611-1708"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": "Coinbase",
       "Tran_Occ": "Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 258.32,
       "Tran_Date": "2022-05-07",
-      "Tran_NamF": "Katie",
-      "Tran_NamL": "Streu",
+      "Tran_NamF": "Katie & Mike",
+      "Tran_NamL": "Stern",
       "Tran_Zip4": "94611-1556"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
-      "Tran_Occ": "Self Employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2022-05-07",
-      "Tran_NamF": "keith",
-      "Tran_NamL": "spears",
-      "Tran_Zip4": "94611-1708"
     },
     {
       "Filer_ID": "1441375",
@@ -8558,17 +8514,6 @@
       "Tran_NamF": "Karen",
       "Tran_NamL": "Bradley",
       "Tran_Zip4": "94619-3505"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 99.0,
-      "Tran_Date": "2022-05-15",
-      "Tran_NamF": "Carol",
-      "Tran_NamL": "Beck",
-      "Tran_Zip4": "94611-1725"
     },
     {
       "Filer_ID": "1441375",
@@ -8770,8 +8715,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Kaine Nicholas",
-      "Tran_Occ": "Non Profit",
+      "Tran_Emp": "YWCA USA",
+      "Tran_Occ": "Interim Chief Financial Officer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 258.32,
       "Tran_Date": "2022-05-22",
@@ -8798,7 +8743,7 @@
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-05-22",
       "Tran_NamF": "Chris",
-      "Tran_NamL": "Urkofsky",
+      "Tran_NamL": "Urkefsky",
       "Tran_Zip4": "94611-2425"
     },
     {
@@ -8821,22 +8766,11 @@
       "Tran_Date": "2022-05-23",
       "Tran_NamF": "Claire",
       "Tran_NamL": "Chessen",
-      "Tran_Zip4": "94611-2169"
+      "Tran_Zip4": "94611"
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Student",
-      "Tran_Occ": "Student",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-05-23",
-      "Tran_NamF": "Sarena",
-      "Tran_NamL": "Kennedy",
-      "Tran_Zip4": "90066-2031"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Kaiser",
+      "Tran_Emp": "Kaiser Permanente - TPMG",
       "Tran_Occ": "Physician",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
@@ -8869,14 +8803,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-05-27",
       "Tran_NamF": "Catherine",
       "Tran_NamL": "McLane",
-      "Tran_Zip4": "94611-2532"
+      "Tran_Zip4": "94611-2533"
     },
     {
       "Filer_ID": "1441375",
@@ -8924,8 +8858,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Communications",
+      "Tran_Emp": "Samuel Merritt University",
+      "Tran_Occ": "Associate Director of Media Relations",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-05-31",
@@ -8963,7 +8897,7 @@
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-05-31",
       "Tran_NamF": "Mario",
-      "Tran_NamL": "Reyea",
+      "Tran_NamL": "Reyes",
       "Tran_Zip4": "94605"
     },
     {
@@ -9041,7 +8975,7 @@
       "Tran_Date": "2022-06-06",
       "Tran_NamF": "David",
       "Tran_NamL": "Harris",
-      "Tran_Zip4": "94552-5442"
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1441375",
@@ -9079,22 +9013,11 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-06-09",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
       "Tran_Occ": "Homemaker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-06-09",
-      "Tran_NamF": "Margaret",
+      "Tran_NamF": "Drew & Molly",
       "Tran_NamL": "Robarts",
       "Tran_Zip4": "94618-1734"
     },
@@ -9108,6 +9031,17 @@
       "Tran_NamF": "Eric",
       "Tran_NamL": "Medrano",
       "Tran_Zip4": "94605-1302"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-06-12",
+      "Tran_NamF": "Joanne",
+      "Tran_NamL": "Casey",
+      "Tran_Zip4": "94618-2302"
     },
     {
       "Filer_ID": "1441375",
@@ -9152,17 +9086,6 @@
       "Tran_NamF": "Steven",
       "Tran_NamL": "Stept",
       "Tran_Zip4": "94619-1514"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2022-06-12",
-      "Tran_NamF": "joanne",
-      "Tran_NamL": "casey",
-      "Tran_Zip4": "94618-2302"
     },
     {
       "Filer_ID": "1441375",
@@ -9254,6 +9177,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "Kyndryl",
+      "Tran_Occ": "Architect",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2022-06-16",
+      "Tran_NamF": "Abraham",
+      "Tran_NamL": "Svoboda",
+      "Tran_Zip4": "94606-3811"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": null,
       "Tran_Occ": "retired",
       "Entity_Cd": "Individual",
@@ -9292,8 +9226,8 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-06-17",
-      "Tran_NamF": "DORIAN",
-      "Tran_NamL": "WEBB",
+      "Tran_NamF": "Dorian",
+      "Tran_NamL": "Webb",
       "Tran_Zip4": "94611-1708"
     },
     {
@@ -9327,7 +9261,7 @@
       "Tran_Date": "2022-06-18",
       "Tran_NamF": "Yakpasua",
       "Tran_NamL": "Zazaboi",
-      "Tran_Zip4": "94605-1104"
+      "Tran_Zip4": "94605"
     },
     {
       "Filer_ID": "1441375",
@@ -9353,17 +9287,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-06-21",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Retired",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -9380,7 +9303,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2022-06-21",
-      "Tran_NamF": "Pauline",
+      "Tran_NamF": "Pawline",
       "Tran_NamL": "Waathiq",
       "Tran_Zip4": "94602"
     },
@@ -9420,7 +9343,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "CDA Consulting Group",
-      "Tran_Occ": "Event Planner",
+      "Tran_Occ": "Event planner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-06-23",
@@ -9452,8 +9375,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Horizon Beverage Company",
+      "Tran_Occ": "President & CEO",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-06-23",
@@ -9463,14 +9386,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "retired",
-      "Tran_Occ": "Banker",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-06-23",
       "Tran_NamF": "Barbara",
       "Tran_NamL": "Goldenberg",
-      "Tran_Zip4": "94611-2305"
+      "Tran_Zip4": "94611-4815"
     },
     {
       "Filer_ID": "1441375",
@@ -9552,7 +9475,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "TAG",
-      "Tran_Occ": "Director",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 102.42,
       "Tran_Date": "2022-06-24",
@@ -9573,8 +9496,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Port of Oakland",
-      "Tran_Occ": "Director, Governmental Affairs",
+      "Tran_Emp": "PORT OF OAKLAND",
+      "Tran_Occ": "Director of Governmental Affairs",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-06-25",
@@ -9815,7 +9738,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -9837,8 +9760,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Not Employed",
-      "Tran_Occ": "Not Employed",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
       "Tran_Date": "2022-06-28",
@@ -9848,8 +9771,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Curbside Trucking LLC",
-      "Tran_Occ": "Owner",
+      "Tran_Emp": "East bay municipal utility District",
+      "Tran_Occ": "Heavy equipment Operator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 500.0,
       "Tran_Date": "2022-06-28",
@@ -9881,36 +9804,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "East Bay Municipal Utility District",
-      "Tran_Occ": "Human Resources",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-06-28",
-      "Tran_NamF": "Andrew",
-      "Tran_NamL": "Dadko",
-      "Tran_Zip4": "94605-2339"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "SLB Capital Advisors",
-      "Tran_Occ": "Real Estate Finance",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 516.45,
       "Tran_Date": "2022-06-28",
       "Tran_NamF": "Malik",
       "Tran_NamL": "Franklin",
       "Tran_Zip4": "94803-3362"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-06-28",
-      "Tran_NamF": "Elaine",
-      "Tran_NamL": "Ginnold",
-      "Tran_Zip4": "94619-3511"
     },
     {
       "Filer_ID": "1441375",
@@ -9921,7 +9822,7 @@
       "Tran_Date": "2022-06-28",
       "Tran_NamF": "Kiana",
       "Tran_NamL": "Gums",
-      "Tran_Zip4": "94619-3371"
+      "Tran_Zip4": "94619"
     },
     {
       "Filer_ID": "1441375",
@@ -9936,7 +9837,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self-Employed - Same Name",
       "Tran_Occ": "Artist",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
@@ -9947,7 +9848,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
+      "Tran_Emp": "Self-Employed - Same Name",
       "Tran_Occ": "Landscape Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
@@ -9991,8 +9892,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Ventas, Inc.",
-      "Tran_Occ": "Executive",
+      "Tran_Emp": "Ventas",
+      "Tran_Occ": "Real estate",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 103.45,
       "Tran_Date": "2022-06-28",
@@ -10003,7 +9904,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "TAG",
-      "Tran_Occ": "Director",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 155.08,
       "Tran_Date": "2022-06-28",
@@ -10035,7 +9936,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "TekPartners",
+      "Tran_Emp": "Tcs",
       "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 40.0,
@@ -10053,7 +9954,7 @@
       "Tran_Date": "2022-06-28",
       "Tran_NamF": "BYRON",
       "Tran_NamL": "WILLIAMS",
-      "Tran_Zip4": "60605-2023"
+      "Tran_Zip4": "60653-2526"
     },
     {
       "Filer_ID": "1441375",
@@ -10101,6 +10002,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "Goldenland investment",
+      "Tran_Occ": "Real estate broker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-06-29",
+      "Tran_NamF": "Judy",
+      "Tran_NamL": "Chu",
+      "Tran_Zip4": "94619-3532"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": "Jackie Downing/Focus Philanthropy Advisors",
       "Tran_Occ": "Philanthropy Professional",
       "Entity_Cd": "Individual",
@@ -10112,12 +10024,12 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self",
+      "Tran_Emp": "Self-Employed - Same Name",
       "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 103.45,
       "Tran_Date": "2022-06-29",
-      "Tran_NamF": "Kathy",
+      "Tran_NamF": "Katharine",
       "Tran_NamL": "Dwyer",
       "Tran_Zip4": "94610-2318"
     },
@@ -10134,14 +10046,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Law offices of Haregu Gaime",
-      "Tran_Occ": "Self",
+      "Tran_Emp": "Self-Employed - Same Name",
+      "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-06-29",
       "Tran_NamF": "Haregu",
       "Tran_NamL": "Gaime",
-      "Tran_Zip4": "94605-4206"
+      "Tran_Zip4": "94610-5022"
     },
     {
       "Filer_ID": "1441375",
@@ -10178,7 +10090,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "KIRK MILLER AFFILIATES",
+      "Tran_Emp": "Kirk Miller Affiliates",
       "Tran_Occ": "Architect",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -10223,7 +10135,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "AT&T",
-      "Tran_Occ": "Technical Sales Consultant",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.0,
       "Tran_Date": "2022-06-29",
@@ -10244,7 +10156,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed Mario L Starc, MSW, PhD LCSW",
+      "Tran_Emp": "Self Employed - Mario L Starc, MSW, PhD LCSW",
       "Tran_Occ": "Social Worker",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 103.45,
@@ -10263,17 +10175,6 @@
       "Tran_NamF": "Sam",
       "Tran_NamL": "Sweet",
       "Tran_Zip4": "94611-2420"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Goldenland Investment",
-      "Tran_Occ": "Real Estate Broker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2022-06-29",
-      "Tran_NamF": "judy",
-      "Tran_NamL": "chu",
-      "Tran_Zip4": "94619-3532"
     },
     {
       "Filer_ID": "1441375",
@@ -10339,7 +10240,7 @@
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Francine",
       "Tran_NamL": "Anthony",
-      "Tran_Zip4": "94611-4215"
+      "Tran_Zip4": "94609-1741"
     },
     {
       "Filer_ID": "1441375",
@@ -10354,7 +10255,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Kittelson & Associates, Inc.",
+      "Tran_Emp": "Kittelson & Associates",
       "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 103.45,
@@ -10365,8 +10266,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2022-06-30",
@@ -10409,17 +10310,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 36.0,
-      "Tran_Date": "2022-06-30",
-      "Tran_NamF": "Janet",
-      "Tran_NamL": "Batiste",
-      "Tran_Zip4": "98034-2418"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Elite security",
       "Tran_Occ": "People Handler",
       "Entity_Cd": "Individual",
@@ -10442,8 +10332,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Director of Communications",
+      "Tran_Emp": "Samuel Merritt University",
+      "Tran_Occ": "Associate Director of Media Relations",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-06-30",
@@ -10481,7 +10371,7 @@
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Amanda",
-      "Tran_NamL": "Brown Stevens",
+      "Tran_NamL": "Brown-Stevens",
       "Tran_Zip4": "94610-2734"
     },
     {
@@ -10564,7 +10454,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Eagle Partners LLC",
-      "Tran_Occ": "Self Employed - financial advisory",
+      "Tran_Occ": "Financial Advisor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 103.45,
       "Tran_Date": "2022-06-30",
@@ -10579,7 +10469,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-06-30",
-      "Tran_NamF": "Terrence",
+      "Tran_NamF": "Rev. Terrence",
       "Tran_NamL": "Dwyer",
       "Tran_Zip4": "94610-2318"
     },
@@ -10613,7 +10503,7 @@
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Salvatore",
-      "Tran_NamL": "Fahey",
+      "Tran_NamL": "Farley",
       "Tran_Zip4": "94602-1856"
     },
     {
@@ -10696,7 +10586,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Hickman Strategies LLC",
-      "Tran_Occ": "Consultant",
+      "Tran_Occ": "Healthcare Strategy",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 129.26,
       "Tran_Date": "2022-06-30",
@@ -10725,6 +10615,17 @@
       "Tran_NamF": "Kimberly",
       "Tran_NamL": "Johnson",
       "Tran_Zip4": "94564-2131"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "BWOPA",
+      "Tran_Occ": "Executive Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2022-06-30",
+      "Tran_NamF": "LaNiece",
+      "Tran_NamL": "Jones",
+      "Tran_Zip4": "94605-3868"
     },
     {
       "Filer_ID": "1441375",
@@ -10865,7 +10766,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-06-30",
-      "Tran_NamF": "Rick and Allyson",
+      "Tran_NamF": "Rick",
       "Tran_NamL": "Rickard",
       "Tran_Zip4": "94602-2634"
     },
@@ -10883,7 +10784,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "TAG",
-      "Tran_Occ": "Director",
+      "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 142.5,
       "Tran_Date": "2022-06-30",
@@ -10955,12 +10856,12 @@
       "Tran_Date": "2022-06-30",
       "Tran_NamF": "Reesa",
       "Tran_NamL": "Tansey",
-      "Tran_Zip4": "94618"
+      "Tran_Zip4": "94618-1823"
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "KAiser",
-      "Tran_Occ": "Doctor",
+      "Tran_Emp": "Kaiser",
+      "Tran_Occ": "Physician",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 900.0,
       "Tran_Date": "2022-06-30",
@@ -11014,8 +10915,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Mills College",
-      "Tran_Occ": "Professor",
+      "Tran_Emp": "Mills Northeastern University, Oakland",
+      "Tran_Occ": "Adjunct Professor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 102.42,
       "Tran_Date": "2022-06-30",
@@ -11124,17 +11025,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Peralta Colleges Foundation",
-      "Tran_Occ": "Administrator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2022-06-30",
-      "Tran_NamF": "laniece",
-      "Tran_NamL": "a jones",
-      "Tran_Zip4": "94605-3868"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Genentech",
       "Tran_Occ": "Pharmacist",
       "Entity_Cd": "Individual",
@@ -11223,17 +11113,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 31.18,
-      "Tran_Date": "2022-07-01",
-      "Tran_NamF": "Susan",
-      "Tran_NamL": "ansley",
-      "Tran_Zip4": "94610-1154"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Genentech",
       "Tran_Occ": "Strategy",
       "Entity_Cd": "Individual",
@@ -11268,13 +11147,13 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "We Lead Ours",
-      "Tran_Occ": "Owner",
+      "Tran_Occ": "Executive Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-07-06",
       "Tran_NamF": "Dwayne",
       "Tran_NamL": "Aikens",
-      "Tran_Zip4": "94609-2346"
+      "Tran_Zip4": "94610-1320"
     },
     {
       "Filer_ID": "1441375",
@@ -11443,7 +11322,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "retired",
+      "Tran_Emp": null,
       "Tran_Occ": "retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -11521,24 +11400,13 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "We Lead Ours",
-      "Tran_Occ": "Owner",
+      "Tran_Occ": "Executive Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.0,
       "Tran_Date": "2022-07-17",
       "Tran_NamF": "Dwayne",
       "Tran_NamL": "Aikens",
-      "Tran_Zip4": "94609-2346"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Foundation Medicine Inc.",
-      "Tran_Occ": "Operations",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-07-17",
-      "Tran_NamF": "Amit",
-      "Tran_NamL": "Bhatia",
-      "Tran_Zip4": "92127-6154"
+      "Tran_Zip4": "94610-1320"
     },
     {
       "Filer_ID": "1441375",
@@ -11553,19 +11421,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "CSAA",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-07-17",
-      "Tran_NamF": "George",
-      "Tran_NamL": "Holland",
-      "Tran_Zip4": "94612-2298"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 15.69,
       "Tran_Date": "2022-07-17",
@@ -11586,7 +11443,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "retired",
+      "Tran_Emp": null,
       "Tran_Occ": "retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
@@ -11642,7 +11499,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "San Francisco Symphony",
-      "Tran_Occ": "Artist",
+      "Tran_Occ": "Musician",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-07-22",
@@ -11839,17 +11696,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 46.66,
-      "Tran_Date": "2022-07-28",
-      "Tran_NamF": "Susan",
-      "Tran_NamL": "ansley",
-      "Tran_Zip4": "94610-1154"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Retired",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -11905,8 +11751,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.85,
       "Tran_Date": "2022-07-30",
@@ -12092,8 +11938,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Self-Employed -Same Name",
+      "Tran_Occ": "Graphic Design",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 22.92,
       "Tran_Date": "2022-08-03",
@@ -12120,7 +11966,7 @@
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-08-04",
       "Tran_NamF": "Tina",
-      "Tran_NamL": "Monaco Glynn",
+      "Tran_NamL": "Monaco",
       "Tran_Zip4": "94610-3716"
     },
     {
@@ -12137,13 +11983,13 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "We Lead Ours",
-      "Tran_Occ": "Owner",
+      "Tran_Occ": "Executive Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-08-06",
       "Tran_NamF": "Dwayne",
       "Tran_NamL": "Aikens",
-      "Tran_Zip4": "94609-2346"
+      "Tran_Zip4": "94610-1320"
     },
     {
       "Filer_ID": "1441375",
@@ -12199,17 +12045,6 @@
       "Tran_NamF": "Dave",
       "Tran_NamL": "Neumann",
       "Tran_Zip4": "94618-2138"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Homemaker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 45.0,
-      "Tran_Date": "2022-08-08",
-      "Tran_NamF": "Kevin",
-      "Tran_NamL": "Patterson",
-      "Tran_Zip4": "94619-3704"
     },
     {
       "Filer_ID": "1441375",
@@ -12309,17 +12144,6 @@
       "Tran_NamF": "wladimir",
       "Tran_NamL": "wlassowsky",
       "Tran_Zip4": "94610-1522"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-08-12",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
     },
     {
       "Filer_ID": "1441375",
@@ -12444,8 +12268,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 15.69,
       "Tran_Date": "2022-08-17",
@@ -12499,8 +12323,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "retired",
-      "Tran_Occ": "retired",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 125.0,
       "Tran_Date": "2022-08-18",
@@ -12521,17 +12345,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "PwC",
-      "Tran_Occ": "Consultant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 15.0,
-      "Tran_Date": "2022-08-18",
-      "Tran_NamF": "Richard",
-      "Tran_NamL": "Judy",
-      "Tran_Zip4": "94618-2545"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Retired",
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -12543,7 +12356,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
@@ -12562,17 +12375,6 @@
       "Tran_NamF": "Sandra",
       "Tran_NamL": "Martyn",
       "Tran_Zip4": "94619-2624"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": null,
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 15.69,
-      "Tran_Date": "2022-08-18",
-      "Tran_NamF": "Midori",
-      "Tran_NamL": "Tabata",
-      "Tran_Zip4": "94605-2629"
     },
     {
       "Filer_ID": "1441375",
@@ -12682,7 +12484,7 @@
       "Tran_Date": "2022-08-19",
       "Tran_NamF": "Kimberly",
       "Tran_NamL": "Murphy",
-      "Tran_Zip4": "94605-4233"
+      "Tran_Zip4": "94619-3626"
     },
     {
       "Filer_ID": "1441375",
@@ -12730,17 +12532,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-08-21",
-      "Tran_NamF": "Ogbai",
-      "Tran_NamL": "Hagos",
-      "Tran_Zip4": "94803-3046"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Self Employed - Same Name",
       "Tran_Occ": "Wardrobe Stylist",
       "Entity_Cd": "Individual",
@@ -12775,7 +12566,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Workday",
-      "Tran_Occ": "Employee Communications",
+      "Tran_Occ": "Sr. Manager",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 600.0,
       "Tran_Date": "2022-08-22",
@@ -12807,19 +12598,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-08-23",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Self-Employed -Same Name",
+      "Tran_Occ": "Graphic Design",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 15.0,
       "Tran_Date": "2022-08-23",
@@ -13445,8 +13225,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 10.53,
       "Tran_Date": "2022-09-02",
@@ -13852,17 +13632,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-09-12",
-      "Tran_NamF": "Joseph",
-      "Tran_NamL": "Karwat",
-      "Tran_Zip4": "94611-2605"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Kessler & Kessler",
       "Tran_Occ": "Property Manager",
       "Entity_Cd": "Individual",
@@ -13882,17 +13651,6 @@
       "Tran_NamF": "Alison",
       "Tran_NamL": "McDonald",
       "Tran_Zip4": "94619-2624"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2022-09-12",
-      "Tran_NamF": "Mark",
-      "Tran_NamL": "Reisman",
-      "Tran_Zip4": "94610-1860"
     },
     {
       "Filer_ID": "1441375",
@@ -13929,8 +13687,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "CA Office of the Attorney General",
-      "Tran_Occ": "Attorney",
+      "Tran_Emp": "CA Attorney General",
+      "Tran_Occ": "Deputy Attorney General",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-09-13",
@@ -13948,17 +13706,6 @@
       "Tran_NamF": "Gregor",
       "Tran_NamL": "Dodson",
       "Tran_Zip4": "94611-1518"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Absci",
-      "Tran_Occ": "Director",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-09-13",
-      "Tran_NamF": "Jessica",
-      "Tran_NamL": "Murphy",
-      "Tran_Zip4": "37763-4686"
     },
     {
       "Filer_ID": "1441375",
@@ -13984,7 +13731,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Nova module",
+      "Tran_Emp": "Nova Module",
       "Tran_Occ": "Sales",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -14094,7 +13841,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "TekPartners",
+      "Tran_Emp": "Tcs",
       "Tran_Occ": "Engineer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 10.53,
@@ -14271,7 +14018,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Civitech",
-      "Tran_Occ": "Attorney",
+      "Tran_Occ": "COO",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-09-17",
@@ -14281,25 +14028,14 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 258.0,
       "Tran_Date": "2022-09-17",
       "Tran_NamF": "Catherine",
       "Tran_NamL": "McLane",
       "Tran_Zip4": "94611-2533"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-17",
-      "Tran_NamF": "Ernest",
-      "Tran_NamL": "Montague",
-      "Tran_Zip4": "94602-3220"
     },
     {
       "Filer_ID": "1441375",
@@ -14336,8 +14072,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Alameda Health Systems",
-      "Tran_Occ": "Labor Relations",
+      "Tran_Emp": "Self-Employed - Same Name",
+      "Tran_Occ": "Labor Relations Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2022-09-17",
@@ -14370,7 +14106,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "City Cottages Contractors",
-      "Tran_Occ": "Owner",
+      "Tran_Occ": "Contractor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 103.45,
       "Tran_Date": "2022-09-17",
@@ -14413,8 +14149,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
+      "Tran_Emp": "Self-Employed -Same Name",
+      "Tran_Occ": "Graphic Design",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 23.0,
       "Tran_Date": "2022-09-18",
@@ -14457,7 +14193,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 53.89,
@@ -14695,7 +14431,7 @@
       "Tran_Date": "2022-09-20",
       "Tran_NamF": "Kimberly",
       "Tran_NamL": "Murphy",
-      "Tran_Zip4": "94605-4233"
+      "Tran_Zip4": "94619-3626"
     },
     {
       "Filer_ID": "1441375",
@@ -14707,17 +14443,6 @@
       "Tran_NamF": "John",
       "Tran_NamL": "Nagle",
       "Tran_Zip4": "94611-3161"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Homemaker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-20",
-      "Tran_NamF": "Kevin",
-      "Tran_NamL": "Patterson",
-      "Tran_Zip4": "94619-3704"
     },
     {
       "Filer_ID": "1441375",
@@ -14886,17 +14611,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Embarcadero Financial Group",
-      "Tran_Occ": "Financial Advisor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-22",
-      "Tran_NamF": "John",
-      "Tran_NamL": "McKenna",
-      "Tran_Zip4": "94611-2335"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Tides Center",
       "Tran_Occ": "Executive",
       "Entity_Cd": "Individual",
@@ -14916,17 +14630,6 @@
       "Tran_NamF": "Omondi",
       "Tran_NamL": "Nyong'o",
       "Tran_Zip4": "94110-4829"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "UCSF",
-      "Tran_Occ": "Physician",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 99.0,
-      "Tran_Date": "2022-09-22",
-      "Tran_NamF": "Christopher",
-      "Tran_NamL": "Peabody",
-      "Tran_Zip4": "94610-1618"
     },
     {
       "Filer_ID": "1441375",
@@ -14986,13 +14689,13 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "We Lead Ours",
-      "Tran_Occ": "Owner",
+      "Tran_Occ": "Executive Director",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 51.83,
       "Tran_Date": "2022-09-23",
       "Tran_NamF": "Dwayne",
       "Tran_NamL": "Aikens",
-      "Tran_Zip4": "94609-2346"
+      "Tran_Zip4": "94610-1320"
     },
     {
       "Filer_ID": "1441375",
@@ -15048,17 +14751,6 @@
       "Tran_NamF": "Janet",
       "Tran_NamL": "Batiste",
       "Tran_Zip4": "98034-2418"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-09-23",
-      "Tran_NamF": "Ellen",
-      "Tran_NamL": "Becherer",
-      "Tran_Zip4": "94611-2426"
     },
     {
       "Filer_ID": "1441375",
@@ -15216,17 +14908,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Not Employed",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 99.0,
-      "Tran_Date": "2022-09-23",
-      "Tran_NamF": "Sylvia",
-      "Tran_NamL": "Harris",
-      "Tran_Zip4": "94611-3134"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "American Express",
       "Tran_Occ": "Executive",
       "Entity_Cd": "Individual",
@@ -15246,17 +14927,6 @@
       "Tran_NamF": "Kena",
       "Tran_NamL": "Jones",
       "Tran_Zip4": "94611-1436"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "PwC",
-      "Tran_Occ": "Consultant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": -15.0,
-      "Tran_Date": "2022-09-23",
-      "Tran_NamF": "Richard",
-      "Tran_NamL": "Judy",
-      "Tran_Zip4": "94618-2545"
     },
     {
       "Filer_ID": "1441375",
@@ -15288,7 +14958,7 @@
       "Tran_Amt1": 50.0,
       "Tran_Date": "2022-09-23",
       "Tran_NamF": "Tina",
-      "Tran_NamL": "Monaco Glynn",
+      "Tran_NamL": "Monaco",
       "Tran_Zip4": "94610-3716"
     },
     {
@@ -15311,7 +14981,7 @@
       "Tran_Date": "2022-09-23",
       "Tran_NamF": "Kimberly",
       "Tran_NamL": "Murphy",
-      "Tran_Zip4": "94605-4233"
+      "Tran_Zip4": "94619-3626"
     },
     {
       "Filer_ID": "1441375",
@@ -15345,17 +15015,6 @@
       "Tran_NamF": "Denise",
       "Tran_NamL": "Pinkston",
       "Tran_Zip4": "94705-2331"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": -250.0,
-      "Tran_Date": "2022-09-23",
-      "Tran_NamF": "Mark",
-      "Tran_NamL": "Reisman",
-      "Tran_Zip4": "94610-1860"
     },
     {
       "Filer_ID": "1441375",
@@ -15414,6 +15073,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "AT&T",
+      "Tran_Occ": "Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-09-23",
+      "Tran_NamF": "AL",
+      "Tran_NamL": "THOMPSON",
+      "Tran_Zip4": "94608-3783"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": "Kaiser",
       "Tran_Occ": "Physician",
       "Entity_Cd": "Individual",
@@ -15447,17 +15117,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "AT&T",
-      "Tran_Occ": "Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2022-09-23",
-      "Tran_NamF": "Al",
-      "Tran_NamL": "Thompson",
-      "Tran_Zip4": "94608-3783"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "TMG Partners",
       "Tran_Occ": "Executive",
       "Entity_Cd": "Individual",
@@ -15466,17 +15125,6 @@
       "Tran_NamF": "Zoa",
       "Tran_NamL": "Town",
       "Tran_Zip4": "94611-3406"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Self-Employed - Same Name",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-09-23",
-      "Tran_NamF": "Ilona",
-      "Tran_NamL": "Turner",
-      "Tran_Zip4": "94605-2126"
     },
     {
       "Filer_ID": "1441375",
@@ -15613,7 +15261,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "City of Oakland",
-      "Tran_Occ": "Communications Aide",
+      "Tran_Occ": "Communications",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 150.0,
       "Tran_Date": "2022-09-24",
@@ -15678,17 +15326,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired Social Worker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10.0,
-      "Tran_Date": "2022-09-24",
-      "Tran_NamF": "Elise",
-      "Tran_NamL": "Bernstein",
-      "Tran_Zip4": "94605-3054"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Umpqua Bank",
       "Tran_Occ": "Banker",
       "Entity_Cd": "Individual",
@@ -15730,17 +15367,6 @@
       "Tran_NamF": "Jim",
       "Tran_NamL": "Bonde",
       "Tran_Zip4": "94708-2037"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "PoundBizness",
-      "Tran_Occ": "Entrepreneur",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-24",
-      "Tran_NamF": "Reggie",
-      "Tran_NamL": "Borders",
-      "Tran_Zip4": "94565-7911"
     },
     {
       "Filer_ID": "1441375",
@@ -15843,17 +15469,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Yoga Instructor",
-      "Tran_Occ": "Corporate Wellness Yoga Instructor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 51.83,
-      "Tran_Date": "2022-09-24",
-      "Tran_NamF": "Veronica",
-      "Tran_NamL": "Castro Jarantilla",
-      "Tran_Zip4": "94596-6014"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "TPMG",
       "Tran_Occ": "Doctor",
       "Entity_Cd": "Individual",
@@ -15953,17 +15568,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Piedmont unified",
-      "Tran_Occ": "Administrator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-24",
-      "Tran_NamF": "Francesca",
-      "Tran_NamL": "Davies",
-      "Tran_Zip4": "94610-2317"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Kaiser",
       "Tran_Occ": "Physician",
       "Entity_Cd": "Individual",
@@ -15994,17 +15598,6 @@
       "Tran_NamF": "Katharine",
       "Tran_NamL": "Dwyer",
       "Tran_Zip4": "94610-2318"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "The County of Alameda, California",
-      "Tran_Occ": "Director",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-24",
-      "Tran_NamF": "Larissa",
-      "Tran_NamL": "Estes White",
-      "Tran_Zip4": "94619-2318"
     },
     {
       "Filer_ID": "1441375",
@@ -16174,7 +15767,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Hickman Strategies LLC",
-      "Tran_Occ": "Consultant",
+      "Tran_Occ": "Healthcare Strategy",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 129.26,
       "Tran_Date": "2022-09-24",
@@ -16591,8 +16184,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Coty of Oakland",
-      "Tran_Occ": "Director of Education",
+      "Tran_Emp": "Director of Education",
+      "Tran_Occ": "City of Oakland",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-09-24",
@@ -16602,7 +16195,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Self-Employed - Same Name",
+      "Tran_Emp": "Attorney",
       "Tran_Occ": "Attorney",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
@@ -16668,8 +16261,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Mills College, Oakland California",
-      "Tran_Occ": "Adjunct Associate Professor",
+      "Tran_Emp": "Mills Northeastern University, Oakland",
+      "Tran_Occ": "Adjunct Professor",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 5.0,
       "Tran_Date": "2022-09-24",
@@ -16679,7 +16272,7 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "retired",
+      "Tran_Emp": null,
       "Tran_Occ": "retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
@@ -16841,17 +16434,6 @@
       "Tran_NamF": "Ned",
       "Tran_NamL": "Zlatarev",
       "Tran_Zip4": "94609-1971"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-09-24",
-      "Tran_NamF": "Rebecca",
-      "Tran_NamL": "deVille",
-      "Tran_Zip4": "96816-4746"
     },
     {
       "Filer_ID": "1441375",
@@ -17061,17 +16643,6 @@
       "Tran_NamF": "Peter",
       "Tran_NamL": "Turner",
       "Tran_Zip4": "94610-2520"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "TPMG",
-      "Tran_Occ": "physician",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 26.01,
-      "Tran_Date": "2022-09-25",
-      "Tran_NamF": "Mor",
-      "Tran_NamL": "Tzadik",
-      "Tran_Zip4": "94611-1533"
     },
     {
       "Filer_ID": "1441375",
@@ -17545,17 +17116,6 @@
       "Tran_NamF": "Katrina",
       "Tran_NamL": "Saba",
       "Tran_Zip4": "94618-2037"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Ground Floor Public Affairs",
-      "Tran_Occ": "Public Affairs",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 900.0,
-      "Tran_Date": "2022-09-28",
-      "Tran_NamF": "Alex",
-      "Tran_NamL": "Tourk",
-      "Tran_Zip4": "94941-2005"
     },
     {
       "Filer_ID": "1441375",
@@ -18263,8 +17823,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 258.0,
       "Tran_Date": "2022-10-04",
@@ -18847,7 +18407,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Self-Employed - Same Name",
-      "Tran_Occ": "Attorney",
+      "Tran_Occ": "Arbitrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 516.45,
       "Tran_Date": "2022-10-10",
@@ -19451,6 +19011,17 @@
     },
     {
       "Filer_ID": "1441375",
+      "Tran_Emp": "Self-Employed - Same Name",
+      "Tran_Occ": "Doctor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2022-10-15",
+      "Tran_NamF": "Warren",
+      "Tran_NamL": "Strudwick",
+      "Tran_Zip4": "94608-2008"
+    },
+    {
+      "Filer_ID": "1441375",
       "Tran_Emp": "Self-Employed -  Unseen Energy",
       "Tran_Occ": "Therapist",
       "Entity_Cd": "Individual",
@@ -19459,17 +19030,6 @@
       "Tran_NamF": "Vinitha",
       "Tran_NamL": "Watson",
       "Tran_Zip4": "94618-1808"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Self Employed",
-      "Tran_Occ": "Doctor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2022-10-15",
-      "Tran_NamF": "warren",
-      "Tran_NamL": "strudwick",
-      "Tran_Zip4": "94608-2008"
     },
     {
       "Filer_ID": "1441375",
@@ -19671,8 +19231,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "1375 Sunnyhills Rd",
-      "Tran_Occ": "arbitrator",
+      "Tran_Emp": "Self-Employed - Same Name",
+      "Tran_Occ": "Arbitrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2022-10-17",
@@ -20075,17 +19635,6 @@
       "Tran_NamF": "Josh",
       "Tran_NamL": "Polston",
       "Tran_Zip4": "94609-1925"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "RAPSON LAW OFFICES",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-10-19",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Rapson",
-      "Tran_Zip4": "94611-4119"
     },
     {
       "Filer_ID": "1441375",
@@ -20573,17 +20122,6 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Student",
-      "Tran_Occ": "Student",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 26.01,
-      "Tran_Date": "2022-10-21",
-      "Tran_NamF": "Kevin",
-      "Tran_NamL": "Anderson",
-      "Tran_Zip4": "94305-3003"
-    },
-    {
-      "Filer_ID": "1441375",
       "Tran_Emp": "Not Employed",
       "Tran_Occ": "Homemaker",
       "Entity_Cd": "Individual",
@@ -20900,17 +20438,6 @@
       "Tran_NamF": "Candace",
       "Tran_NamL": "Wilcher",
       "Tran_Zip4": "94605-2174"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "La clinica de la raza",
-      "Tran_Occ": "Pediatrician",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-10-21",
-      "Tran_NamF": "Rachel",
-      "Tran_NamL": "kreps-falk",
-      "Tran_Zip4": "94702-2110"
     },
     {
       "Filer_ID": "1441375",
@@ -21256,7 +20783,7 @@
     {
       "Filer_ID": "1441375",
       "Tran_Emp": "Proxima Partners",
-      "Tran_Occ": "Self Employed",
+      "Tran_Occ": "Consultant",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 516.45,
       "Tran_Date": "2022-10-22",
@@ -21365,8 +20892,8 @@
     },
     {
       "Filer_ID": "1441375",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "retired substitute administrator",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Retired substitute administrator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": -225.06,
       "Tran_Date": "2022-10-22",
@@ -21593,17 +21120,6 @@
       "Tran_NamF": "Perry",
       "Tran_NamL": "Timmons",
       "Tran_Zip4": "94602-1911"
-    },
-    {
-      "Filer_ID": "1441375",
-      "Tran_Emp": "Ground Floor Public Affairs",
-      "Tran_Occ": "Public Affairs",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": -900.0,
-      "Tran_Date": "2022-10-22",
-      "Tran_NamF": "Alex",
-      "Tran_NamL": "Tourk",
-      "Tran_Zip4": "94941-2005"
     },
     {
       "Filer_ID": "1441375",

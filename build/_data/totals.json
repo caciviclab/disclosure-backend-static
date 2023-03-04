@@ -1031,17 +1031,17 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 6462544.51,
+    "total_contributions": 6463134.51,
     "total_contributions_by_source": {
-      "Out of State": 521235.18000000005,
-      "Within Oakland": 2625347.3900000006,
-      "Within California": 2992586.8699999996
+      "Out of State": 520797.35,
+      "Within Oakland": 2624046.9300000006,
+      "Within California": 2992731.97
     },
     "contributions_by_type": {
       "PTY": 15900.0,
       "Committee": 993901.14,
-      "Individual": 2490674.060000002,
-      "Unitemized": 132128.06,
+      "Individual": 2489080.870000002,
+      "Unitemized": 134011.25,
       "Self Funding": 2711.0,
       "Other (includes Businesses)": 2635983.24
     },
@@ -1050,7 +1050,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1998991.05
+        "amount": 1999281.05
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
