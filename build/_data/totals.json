@@ -1,6 +1,39 @@
 {
+  "berkeley-2018": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
   "oakland-2014": {
-    "total_contributions": 2998359.74,
+    "total_contributions": 2998359.7399999998,
     "total_contributions_by_source": {
       "Out of State": 138591.89,
       "Within Oakland": 1581483.6400000001,
@@ -8,7 +41,7 @@
     },
     "contributions_by_type": {
       "Committee": 156538.05,
-      "Individual": 1816501.4699999997,
+      "Individual": 1816501.47,
       "Unitemized": 143224.34999999998,
       "Self Funding": 468744.9599999999,
       "Other (includes Businesses)": 247639.34
@@ -18,7 +51,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1865761.2000000004
+        "amount": 1865761.2
       },
       {
         "slug": "city-council-district-2",
@@ -155,39 +188,6 @@
         "election_name": "oakland-2014",
         "total_spending": 80000.0
       }
-    ],
-    "top_spenders_for_measures": [
-
-    ]
-  },
-  "berkeley-2018": {
-    "total_contributions": 0.0,
-    "total_contributions_by_source": {
-    },
-    "contributions_by_type": {
-    },
-    "most_expensive_races": [
-
-    ],
-    "largest_small_proportion": [
-
-    ],
-    "largest_independent_expenditures": {
-    },
-    "top_contributors": [
-
-    ],
-    "top_contributors_for_offices": [
-
-    ],
-    "top_contributors_for_measures": [
-
-    ],
-    "top_spenders": [
-
-    ],
-    "top_spenders_for_offices": [
-
     ],
     "top_spenders_for_measures": [
 
@@ -388,127 +388,6 @@
       }
     ]
   },
-  "oakland-june-2018": {
-    "total_contributions": 151587.72,
-    "total_contributions_by_source": {
-      "Out of State": 7200.0,
-      "Within Oakland": 110837.72,
-      "Within California": 33550.0
-    },
-    "contributions_by_type": {
-      "Committee": 21250.0,
-      "Individual": 49547.0,
-      "Other (includes Businesses)": 80790.72
-    },
-    "most_expensive_races": [
-      {
-        "slug": "library-parcel-tax",
-        "type": "referendum",
-        "title": "Measure D",
-        "amount": 151587.72
-      },
-      {
-        "slug": "regional-measure-3",
-        "type": "referendum",
-        "title": "Measure 3",
-        "amount": 0
-      },
-      {
-        "slug": "alameda-county-sales-tax-for-childcare-and-education",
-        "type": "referendum",
-        "title": "Measure A",
-        "amount": 0
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
-    "largest_independent_expenditures": {
-    },
-    "top_contributors": [
-      {
-        "name": "The Friends of the Oakland Public Library",
-        "election_name": "oakland-june-2018",
-        "total_contributions": 33290.72
-      },
-      {
-        "name": "Mitchell Kapor",
-        "election_name": "oakland-june-2018",
-        "total_contributions": 15000.0
-      },
-      {
-        "name": "Oakland Athletics Baseball Company",
-        "election_name": "oakland-june-2018",
-        "total_contributions": 10000.0
-      }
-    ],
-    "top_contributors_for_offices": [
-
-    ],
-    "top_contributors_for_measures": [
-      {
-        "name": "The Friends of the Oakland Public Library",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_contributions": 33290.72
-      },
-      {
-        "name": "Mitchell Kapor",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_contributions": 15000.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_contributions": 10000.0
-      }
-    ],
-    "top_spenders": [
-      {
-        "name": "The Friends of the Oakland Public Library",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_spending": 33290.72
-      },
-      {
-        "name": "Mitchell Kapor",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_spending": 15000.0
-      },
-      {
-        "name": "Oakland Athletics Baseball Company",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_spending": 10000.0
-      }
-    ],
-    "top_spenders_for_offices": [
-
-    ],
-    "top_spenders_for_measures": [
-      {
-        "name": "The Friends of the Oakland Public Library",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_spending": 33290.72
-      },
-      {
-        "name": "Mitchell Kapor",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_spending": 15000.0
-      },
-      {
-        "name": "Oakland Athletics Baseball Company",
-        "type": "Measure",
-        "election_name": "oakland-june-2018",
-        "total_spending": 10000.0
-      }
-    ]
-  },
   "oakland-2018": {
     "total_contributions": 6842454.140000001,
     "total_contributions_by_source": {
@@ -520,7 +399,7 @@
       "Committee": 954896.17,
       "Individual": 2648580.99,
       "Unitemized": 157811.78,
-      "Self Funding": 86218.73,
+      "Self Funding": 86218.73000000001,
       "Other (includes Businesses)": 2739121.2600000002
     },
     "most_expensive_races": [
@@ -899,137 +778,6 @@
       }
     ]
   },
-  "oakland-march-2020": {
-    "total_contributions": 435340.88,
-    "total_contributions_by_source": {
-      "Out of State": 36764.0,
-      "Within Oakland": 199672.64,
-      "Within California": 198904.24
-    },
-    "contributions_by_type": {
-      "Committee": 144912.0,
-      "Individual": 28312.72,
-      "Other (includes Businesses)": 262116.16
-    },
-    "most_expensive_races": [
-      {
-        "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
-        "type": "referendum",
-        "title": "Measure Q",
-        "amount": 435340.88
-      },
-      {
-        "slug": "official-city-newspaper",
-        "type": "referendum",
-        "title": "Measure R",
-        "amount": 0
-      },
-      {
-        "slug": "increase-appropriations-limit",
-        "type": "referendum",
-        "title": "Measure S",
-        "amount": 0
-      }
-    ],
-    "largest_small_proportion": [
-
-    ],
-    "largest_independent_expenditures": [
-      {
-        "name": "NATIONAL ASSOCIATION OF REALTORS",
-        "election_name": "oakland-march-2020",
-        "total_spending": 184623.0
-      },
-      {
-        "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
-        "election_name": "oakland-march-2020",
-        "total_spending": 40641.0
-      }
-    ],
-    "top_contributors": [
-      {
-        "name": "Kaiser Permanente",
-        "election_name": "oakland-march-2020",
-        "total_contributions": 150000.0
-      },
-      {
-        "name": "East Bay Rental Housing Association PAC",
-        "election_name": "oakland-march-2020",
-        "total_contributions": 114000.0
-      },
-      {
-        "name": "National Association of Realtors",
-        "election_name": "oakland-march-2020",
-        "total_contributions": 36764.0
-      }
-    ],
-    "top_contributors_for_offices": [
-
-    ],
-    "top_contributors_for_measures": [
-      {
-        "name": "Kaiser Permanente",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_contributions": 150000.0
-      },
-      {
-        "name": "East Bay Rental Housing Association PAC",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_contributions": 114000.0
-      },
-      {
-        "name": "National Association of Realtors",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_contributions": 36764.0
-      }
-    ],
-    "top_spenders": [
-      {
-        "name": "Kaiser Permanente",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_spending": 150000.0
-      },
-      {
-        "name": "East Bay Rental Housing Association PAC",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_spending": 114000.0
-      },
-      {
-        "name": "National Association of Realtors",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_spending": 36764.0
-      }
-    ],
-    "top_spenders_for_offices": [
-
-    ],
-    "top_spenders_for_measures": [
-      {
-        "name": "Kaiser Permanente",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_spending": 150000.0
-      },
-      {
-        "name": "East Bay Rental Housing Association PAC",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_spending": 114000.0
-      },
-      {
-        "name": "National Association of Realtors",
-        "type": "Measure",
-        "election_name": "oakland-march-2020",
-        "total_spending": 36764.0
-      }
-    ]
-  },
   "oakland-2022": {
     "total_contributions": 6463134.51,
     "total_contributions_by_source": {
@@ -1226,14 +974,37 @@
       }
     ]
   },
-  "sf-2016": {
-    "total_contributions": 0.0,
+  "oakland-june-2018": {
+    "total_contributions": 151587.72,
     "total_contributions_by_source": {
+      "Out of State": 7200.0,
+      "Within Oakland": 110837.72,
+      "Within California": 33550.0
     },
     "contributions_by_type": {
+      "Committee": 21250.0,
+      "Individual": 49547.0,
+      "Other (includes Businesses)": 80790.72
     },
     "most_expensive_races": [
-
+      {
+        "slug": "library-parcel-tax",
+        "type": "referendum",
+        "title": "Measure D",
+        "amount": 151587.72
+      },
+      {
+        "slug": "regional-measure-3",
+        "type": "referendum",
+        "title": "Measure 3",
+        "amount": 0
+      },
+      {
+        "slug": "alameda-county-sales-tax-for-childcare-and-education",
+        "type": "referendum",
+        "title": "Measure A",
+        "amount": 0
+      }
     ],
     "largest_small_proportion": [
 
@@ -1241,22 +1012,87 @@
     "largest_independent_expenditures": {
     },
     "top_contributors": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 15000.0
+      },
+      {
+        "name": "Oakland Athletics Baseball Company",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 10000.0
+      }
     ],
     "top_contributors_for_offices": [
 
     ],
     "top_contributors_for_measures": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 15000.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 10000.0
+      }
     ],
     "top_spenders": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 15000.0
+      },
+      {
+        "name": "Oakland Athletics Baseball Company",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 10000.0
+      }
     ],
     "top_spenders_for_offices": [
 
     ],
     "top_spenders_for_measures": [
-
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 15000.0
+      },
+      {
+        "name": "Oakland Athletics Baseball Company",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 10000.0
+      }
     ]
   },
   "oakland-june-2022": {
@@ -1368,7 +1204,319 @@
       }
     ]
   },
-  "sf-june-2018": {
+  "oakland-march-2020": {
+    "total_contributions": 435340.88,
+    "total_contributions_by_source": {
+      "Out of State": 36764.0,
+      "Within Oakland": 199672.64,
+      "Within California": 198904.24
+    },
+    "contributions_by_type": {
+      "Committee": 144912.0,
+      "Individual": 28312.72,
+      "Other (includes Businesses)": 262116.16
+    },
+    "most_expensive_races": [
+      {
+        "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
+        "type": "referendum",
+        "title": "Measure Q",
+        "amount": 435340.88
+      },
+      {
+        "slug": "official-city-newspaper",
+        "type": "referendum",
+        "title": "Measure R",
+        "amount": 0
+      },
+      {
+        "slug": "increase-appropriations-limit",
+        "type": "referendum",
+        "title": "Measure S",
+        "amount": 0
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "NATIONAL ASSOCIATION OF REALTORS",
+        "election_name": "oakland-march-2020",
+        "total_spending": 184623.0
+      },
+      {
+        "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+        "election_name": "oakland-march-2020",
+        "total_spending": 40641.0
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "Kaiser Permanente",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 36764.0
+      }
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 36764.0
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 36764.0
+      }
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 36764.0
+      }
+    ]
+  },
+  "oakland-2023": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+      {
+        "slug": "school-board-district-5",
+        "type": "office",
+        "title": "School Board District 5",
+        "amount": 0
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "oakland-2024": {
+    "total_contributions": 12359.49,
+    "total_contributions_by_source": {
+      "Out of State": 3700.0,
+      "Within Oakland": 3800.0,
+      "Within California": 3448.49
+    },
+    "contributions_by_type": {
+      "Committee": 500.0,
+      "Individual": 10448.49,
+      "Unitemized": 1361.0
+    },
+    "most_expensive_races": [
+      {
+        "slug": "city-council-district-7",
+        "type": "office",
+        "title": "City Council District 7",
+        "amount": 12359.49
+      },
+      {
+        "slug": "city-attorney",
+        "type": "office",
+        "title": "City Attorney",
+        "amount": 0
+      },
+      {
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 0
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "treva-reid",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Treva Reid",
+        "proportion": 0.11011781230455302,
+        "office_title": "City Council District 7"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022",
+        "election_name": "oakland-2024",
+        "total_spending": 20625.89
+      },
+      {
+        "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
+        "election_name": "oakland-2024",
+        "total_spending": 3520.67
+      },
+      {
+        "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2024",
+        "total_spending": 2810.32
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "Dow Terry",
+        "election_name": "oakland-2024",
+        "total_contributions": 900.0
+      },
+      {
+        "name": "Weylin White",
+        "election_name": "oakland-2024",
+        "total_contributions": 900.0
+      },
+      {
+        "name": "Brandon Baranco",
+        "election_name": "oakland-2024",
+        "total_contributions": 900.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Weylin White",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 900.0
+      },
+      {
+        "name": "Todd Scanlin",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 900.0
+      },
+      {
+        "name": "Jacob Zonn",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 900.0
+      }
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+      {
+        "name": "Todd Scanlin",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 900.0
+      },
+      {
+        "name": "Dow Terry",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 900.0
+      },
+      {
+        "name": "Brooke Levin",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 900.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Todd Scanlin",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 900.0
+      },
+      {
+        "name": "Dow Terry",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 900.0
+      },
+      {
+        "name": "Brooke Levin",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 900.0
+      }
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "sf-2016": {
     "total_contributions": 0.0,
     "total_contributions_by_source": {
     },
@@ -1402,6 +1550,39 @@
     ]
   },
   "sf-2018": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "sf-june-2018": {
     "total_contributions": 0.0,
     "total_contributions_by_source": {
     },
