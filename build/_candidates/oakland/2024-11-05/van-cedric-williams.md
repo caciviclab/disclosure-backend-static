@@ -1,5 +1,5 @@
 ---
-election: _elections/oakland/2023-11-05.md
+election: _elections/oakland/2024-11-05.md
 filer_id: ''
 is_incumbent: true
 name: Van Cedric Williams
