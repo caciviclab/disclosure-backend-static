@@ -5,7 +5,7 @@
     "workspaceFolder": "/workspace",
     "remoteUser": "vscode",
     "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
-    "forwardPorts": [8000, 5432],
+    "forwardPorts": [4567, 5432],
     "extensions": [
         "ms-python.python",
         "mtxr.sqltools",
@@ -18,7 +18,7 @@
             "previewLimit": 50,
             "server": "localhost",
             "port": 5432,
-            "database": "app",
+            "database": "disclosure-backend",
             "username": "app_user",
             "password": "app_password"
         }],
