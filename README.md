@@ -38,15 +38,15 @@ This repository is set up to work in a container under Codespaces.  In other wor
 1. Go to the page displaying the repository code: https://github.com/caciviclab/disclosure-backend-static
 2. Change the branch to the branch that you're interested in running and editing.
 3. Click on the `Code` button and click the `Codespaces` tab in the dropdown
-4. Click on the button the start a new codespace
+4. Click on the button to start a new codespace
 5. Wait for the container to be set up and a terminal prompt at `/workspace` to be presented in the web page, which will look familiar if you've worked with VS Code before
 6. In the terminal, you can start running the commands from the next section, such as `make download`
 7. There will be a running Postgres database started on localhost and you can simply type `psql` in the terminal to connect to the server
 8. The `make import` command will populate the Postgres database
 9. Click on the cylinder icon on the left to access the SQL Tools extension, which will allow you to connect to Postgres and view its schema as well as query the data that you imported
 10. The container has Python 3.9 and a current version of Ruby installed, along with all the required packages
-11. When will try to get the container to match the environment for Travis CI, including trying to get the same Ruby version installed
-12. This same setup allows anyone to run the same container on your local machine is VS Code using the Dev Containers extension, but we are mainly focused on enabling Codespaces right now and making sure that we can harden the setup for Codespaces first. (We'll be adding instructions for Dev Containers once this is solid)
+11. We will try to get the container to match the environment for Travis CI, including trying to get the same Ruby version installed
+12. This same setup allows anyone to run the same container on their local machine in VS Code using the Dev Containers extension, but we are mainly focused on enabling Codespaces right now and making sure that we can harden the setup for Codespaces first. (We'll be adding instructions for Dev Containers once this is solid)
 
 ## Running
 
