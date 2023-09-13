@@ -3,7 +3,7 @@ env:
   global:
     - TZ=America/Los_Angeles
 python:
-  - '2.7'
+  - '3.9'
 services:
   - postgresql
 sudo: required
