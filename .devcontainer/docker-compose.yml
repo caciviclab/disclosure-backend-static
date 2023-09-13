@@ -29,12 +29,12 @@ services:
     image: postgres:latest
     restart: unless-stopped
     volumes:
-      #- postgres-data:/var/lib/postgresql/data
-      - ../pgdata:/var/lib/postgresql/data
+      - postgres-data:/var/lib/postgresql/data
+      #- ../pgdata:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: app_user
       POSTGRES_DB: "disclosure-backend"
       POSTGRES_PASSWORD: app_password
 
-#volumes:
-#  postgres-data:
+volumes:
+  postgres-data:
