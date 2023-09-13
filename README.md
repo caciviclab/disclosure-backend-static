@@ -47,6 +47,7 @@ This repository is set up to work in a container under Codespaces.  In other wor
 10. The container has Python 3.9 and a current version of Ruby installed, along with all the required packages
 11. We will try to get the container to match the environment for Travis CI, including trying to get the same Ruby version installed
 12. This same setup allows anyone to run the same container on their local machine in VS Code using the Dev Containers extension, but we are mainly focused on enabling Codespaces right now and making sure that we can harden the setup for Codespaces first. (We'll be adding instructions for Dev Containers once this is solid)
+13. If you make changes in your Codespaces environment, don't forget to push it after committing it with Git.  It is like another machine, so it won't end up in the GitHub repository if don't do a `git push`
 
 ## Running
 
