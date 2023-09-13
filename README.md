@@ -35,7 +35,7 @@ bundle install
 
 This repository is set up to work in a container under Codespaces.  In other words, you can start up an environment that is already set up without having to do any of the installation steps required to set up a local environment.  This can be used as a way to trouble-shoot code before it is committed to the production pipeline.  The following information may be helpful to get started using Codespaces:
 
-1. Go to the page display the repository code: https://github.com/caciviclab/disclosure-backend-static
+1. Go to the page displaying the repository code: https://github.com/caciviclab/disclosure-backend-static
 2. Change the branch to the branch that you're interested in running and editing.
 3. Click on the `Code` button and click the `Codespaces` tab in the dropdown
 4. Click on the button the start a new codespace
