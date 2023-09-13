@@ -4,7 +4,7 @@
     "service": "app",
     "workspaceFolder": "/workspace",
     "remoteUser": "vscode",
-    "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+    "postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
     "forwardPorts": [4567, 5432],
     "extensions": [
         "ms-python.python",
