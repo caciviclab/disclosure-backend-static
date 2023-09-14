@@ -1,36 +1,36 @@
 {
-  "total_contributions": 5911461.75,
+  "total_contributions": 6463134.51,
   "total_contributions_by_source": {
-    "Out of State": 509023.29,
-    "Within Oakland": 2369783.290000001,
-    "Within California": 2859804.14
+    "Out of State": 520797.35,
+    "Within Oakland": 2624046.9300000006,
+    "Within California": 2992731.97
   },
   "contributions_by_type": {
     "PTY": 15900.0,
-    "Committee": 962384.57,
-    "Individual": 2336752.830000002,
-    "Unitemized": 116285.61,
+    "Committee": 993901.14,
+    "Individual": 2489080.870000002,
+    "Unitemized": 134011.25,
     "Self Funding": 2711.0,
-    "Other (includes Businesses)": 2420862.3200000003
+    "Other (includes Businesses)": 2635983.24
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1735978.49
+      "amount": 1999281.05
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
       "type": "referendum",
       "title": "Measure T",
-      "amount": 1122806.05
+      "amount": 1124066.1400000001
     },
     {
       "slug": "oakland-zoo-animal-care-education-and-improvement",
       "type": "referendum",
       "title": "Measure Y",
-      "amount": 900000.0
+      "amount": 1054162.67
     }
   ],
   "largest_small_proportion": [
@@ -39,36 +39,36 @@
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Allyssa Victory Villanueva",
-      "proportion": 0.2260614085905818,
+      "proportion": 0.18010565424358527,
       "office_title": "Mayor"
-    },
-    {
-      "slug": "pecolia-manigo",
-      "type": "office",
-      "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Pecolia Manigo",
-      "proportion": 0.17082564135209116,
-      "office_title": "OUSD District 4"
     },
     {
       "slug": "valarie-bachelor",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Valarie Bachelor",
-      "proportion": 0.16889973670422515,
+      "proportion": 0.17098657950537433,
       "office_title": "OUSD District 6"
+    },
+    {
+      "slug": "pecolia-manigo",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Pecolia Manigo",
+      "proportion": 0.16723627831054888,
+      "office_title": "OUSD District 4"
     }
   ],
   "largest_independent_expenditures": [
     {
       "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
       "election_name": "oakland-2022",
-      "total_spending": 665192.19
+      "total_spending": 677153.5
     },
     {
       "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
       "election_name": "oakland-2022",
-      "total_spending": 570610.91
+      "total_spending": 570611.0
     },
     {
       "name": "East and South Bay Working Families United sponsored by labor organizations",
@@ -80,12 +80,12 @@
     {
       "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "election_name": "oakland-2022",
-      "total_contributions": 900000.0
+      "total_contributions": 1054162.67
     },
     {
       "name": "Jonathan Brooks",
       "election_name": "oakland-2022",
-      "total_contributions": 550000.0
+      "total_contributions": 550900.0
     },
     {
       "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -118,7 +118,7 @@
       "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_contributions": 900000.0
+      "total_contributions": 1054162.67
     },
     {
       "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -138,7 +138,7 @@
       "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 900000.0
+      "total_spending": 1054162.67
     },
     {
       "name": "Jonathan Brooks",
@@ -178,7 +178,7 @@
       "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
       "type": "Measure",
       "election_name": "oakland-2022",
-      "total_spending": 900000.0
+      "total_spending": 1054162.67
     },
     {
       "name": "Jonathan Brooks",

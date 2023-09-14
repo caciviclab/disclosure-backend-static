@@ -1,5 +1,5 @@
 {
-  "total_contributions": 931044.9000000004,
+  "total_contributions": 941044.9000000004,
   "contributions": [
     {
       "Filer_ID": "960997",
@@ -2071,8 +2071,8 @@
     },
     {
       "Filer_ID": "960997",
-      "Tran_Emp": "Kaiser",
-      "Tran_Occ": "Executive Director, Consumer Experience & Marketing Vendor M",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2022-09-29",
@@ -2244,6 +2244,17 @@
       "Tran_NamF": "Isaac",
       "Tran_NamL": "Kos-Read",
       "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-12-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kaiser Permanente Financial Services",
+      "Tran_Zip4": "91608"
     }
   ]
 }

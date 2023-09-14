@@ -1,5 +1,5 @@
 {
-  "total_contributions": 8510.0,
+  "total_contributions": 8810.0,
   "contributions": [
     {
       "Filer_ID": "1449393",
@@ -407,6 +407,61 @@
       "Tran_NamF": "Sharon",
       "Tran_NamL": "Rose",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1449393",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2022-10-23",
+      "Tran_NamF": "Pamela",
+      "Tran_NamL": "Chinn-Scoffern",
+      "Tran_Zip4": "94501"
+    },
+    {
+      "Filer_ID": "1449393",
+      "Tran_Emp": "City Of San Jose",
+      "Tran_Occ": "City Worker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-10-25",
+      "Tran_NamF": "Zachary",
+      "Tran_NamL": "Struyk",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1449393",
+      "Tran_Emp": "Eileen Brown",
+      "Tran_Occ": "Psychotherapist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": "Eileen",
+      "Tran_NamL": "Brown",
+      "Tran_Zip4": "94960"
+    },
+    {
+      "Filer_ID": "1449393",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Elected Official",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-11-01",
+      "Tran_NamF": "Carroll",
+      "Tran_NamL": "Fife",
+      "Tran_Zip4": "94607"
+    },
+    {
+      "Filer_ID": "1449393",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2022-11-23",
+      "Tran_NamF": "Pamela",
+      "Tran_NamL": "Chinn-Scoffern",
+      "Tran_Zip4": "94501"
     }
   ]
 }

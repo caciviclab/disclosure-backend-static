@@ -1,21 +1,21 @@
 {
-  "total_contributions": 89575.0,
+  "total_contributions": 104075.01999999999,
   "total_contributions_by_source": {
     "Out of State": 6400.0,
-    "Within Oakland": 54925.0,
-    "Within California": 28250.0
+    "Within Oakland": 64425.02,
+    "Within California": 33250.0
   },
   "contributions_by_type": {
     "Committee": 22000.0,
     "Individual": 16375.0,
-    "Other (includes Businesses)": 51200.0
+    "Other (includes Businesses)": 65700.02
   },
   "most_expensive_races": [
     {
       "slug": "library-services-retention-and-enhancement-act",
       "type": "referendum",
       "title": "Measure C",
-      "amount": 89575.0
+      "amount": 104075.01999999999
     }
   ],
   "largest_small_proportion": [
@@ -35,9 +35,9 @@
       "total_contributions": 10000.0
     },
     {
-      "name": "International Federation of Professional and Technical Engineers Local 21 Issues PAC",
+      "name": "CliffordMoss.",
       "election_name": "oakland-june-2022",
-      "total_contributions": 5000.0
+      "total_contributions": 9500.02
     }
   ],
   "top_contributors_for_offices": [
@@ -57,10 +57,10 @@
       "total_contributions": 10000.0
     },
     {
-      "name": "Schnitzer Steel Industries, Inc.",
+      "name": "CliffordMoss.",
       "type": "Measure",
       "election_name": "oakland-june-2022",
-      "total_contributions": 5000.0
+      "total_contributions": 9500.02
     }
   ],
   "top_spenders": [
@@ -77,10 +77,10 @@
       "total_spending": 10000.0
     },
     {
-      "name": "Oakland Police Officer's Association PAC",
+      "name": "CliffordMoss.",
       "type": "Measure",
       "election_name": "oakland-june-2022",
-      "total_spending": 5000.0
+      "total_spending": 9500.02
     }
   ],
   "top_spenders_for_offices": [
@@ -100,10 +100,10 @@
       "total_spending": 10000.0
     },
     {
-      "name": "Oakland Police Officer's Association PAC",
+      "name": "CliffordMoss.",
       "type": "Measure",
       "election_name": "oakland-june-2022",
-      "total_spending": 5000.0
+      "total_spending": 9500.02
     }
   ]
 }

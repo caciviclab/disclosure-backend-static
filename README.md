@@ -31,6 +31,24 @@ gem install pg bundler
 bundle install
 ```
 
+### Codespaces
+
+This repository is set up to work in a container under Codespaces.  In other words, you can start up an environment that is already set up without having to do any of the installation steps required to set up a local environment.  This can be used as a way to trouble-shoot code before it is committed to the production pipeline.  The following information may be helpful to get started using Codespaces:
+
+1. Go to the page displaying the repository code: https://github.com/caciviclab/disclosure-backend-static
+2. Change the branch to the branch that you're interested in running and editing.
+3. Click on the `Code` button and click the `Codespaces` tab in the dropdown
+4. Click on the button to start a new codespace
+5. Wait for the container to be set up and a terminal prompt at `/workspace` to be presented in the web page, which will look familiar if you've worked with VS Code before
+6. In the terminal, you can start running the commands from the next section, such as `make download`
+7. There will be a running Postgres database started on localhost and you can simply type `psql` in the terminal to connect to the server
+8. The `make import` command will populate the Postgres database
+9. Click on the cylinder icon on the left to access the SQL Tools extension, which will allow you to connect to Postgres and view its schema as well as query the data that you imported
+10. The container has Python 3.9 and a current version of Ruby installed, along with all the required packages
+11. We will try to get the container to match the environment for Travis CI, including trying to get the same Ruby version installed
+12. This same setup allows anyone to run the same container on their local machine in VS Code using the Dev Containers extension, but we are mainly focused on enabling Codespaces right now and making sure that we can harden the setup for Codespaces first. (We'll be adding instructions for Dev Containers once this is solid)
+13. If you make changes in your Codespaces environment, don't forget to push it after committing it with Git.  It is like another machine, so it won't end up in the GitHub repository if don't do a `git push`
+
 ## Running
 
 Download the raw data files. You only need to run this once in a while to get

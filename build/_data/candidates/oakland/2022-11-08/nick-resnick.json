@@ -1,5 +1,5 @@
 {
-  "id": 29,
+  "id": 43,
   "name": "Nick Resnick",
   "photo_url": "Nick-Resnick-sm.png",
   "website_url": "https://www.nickforoaklandschools.com/",
@@ -21,39 +21,42 @@
   "is_winner": null,
   "filer_id": 1446325,
   "supporting_money": {
-    "contributions_received": 59820.0,
-    "total_contributions": 59820.0,
-    "total_expenditures": 36187.36,
+    "contributions_received": 61255.0,
+    "total_contributions": 61255.0,
+    "total_expenditures": 56556.73,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 4400.0,
-      "Individual": 49985.0,
-      "Unitemized": 4385.0,
+      "Committee": 4840.0,
+      "Individual": 50905.0,
+      "Unitemized": 4460.0,
       "Self Funding": 300.0,
       "Other (includes Businesses)": 750.0
     },
     "contributions_by_origin": {
-      "Out of State": 8360.0,
-      "Within Oakland": 28050.0,
-      "Within California": 19025.0
+      "Out of State": 8870.0,
+      "Within Oakland": 28875.0,
+      "Within California": 19050.0
     },
-    "total_small_contributions": 5470.0,
+    "total_small_contributions": 5815.0,
     "expenditures_by_type": {
       "Contribution": 210.0,
       "Civic Donations": 360.0,
-      "Campaign Paraphernalia/Misc.": 28792.87,
+      "Office Expenses": 106.0,
+      "Campaign Consultants": 6000.0,
+      "Polling and Survey Research": 184.45,
+      "Campaign Paraphernalia/Misc.": 37438.42,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Professional Services (Legal, Accounting)": 5229.17,
-      "Information Technology Costs (Internet, E-mail)": 112.0
+      "Campaign Literature and Mailings": 3000.0,
+      "Staff/Spouse Travel, Lodging, and Meals": 237.98,
+      "Professional Services (Legal, Accounting)": 7245.56,
+      "Information Technology Costs (Internet, E-mail)": 196.0
     },
     "supporting_by_type": {
-      "Mailer (Estimated Costs)": 42600.0,
-      "Consulting (Estimated Costs)": 5000.0,
-      "Independent Expenditure Supporting/Opposing Others": 25600.0
+      "Independent Expenditure Supporting/Opposing Others": 73200.0
     }
   },
   "opposing_money": {
@@ -64,7 +67,7 @@
 
     ]
   },
-  "total_contributions": 59820.0,
-  "total_expenditures": 36187.36,
+  "total_contributions": 61255.0,
+  "total_expenditures": 56556.73,
   "total_loans_received": 0.0
 }

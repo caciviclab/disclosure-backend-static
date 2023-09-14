@@ -1,5 +1,5 @@
 {
-  "total_contributions": 89575.0,
+  "total_contributions": 104075.02,
   "contributions": [
     {
       "Filer_ID": "1445857",
@@ -561,6 +561,28 @@
       "Tran_NamF": "Lou",
       "Tran_NamL": "Flavio",
       "Tran_Zip4": "60527"
+    },
+    {
+      "Filer_ID": "1445857",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-08-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Pacific Gas & Electric Corporation",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "1445857",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 9500.02,
+      "Tran_Date": "2022-08-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "CliffordMoss.",
+      "Tran_Zip4": "94609"
     }
   ]
 }

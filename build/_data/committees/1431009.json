@@ -1,5 +1,5 @@
 {
-  "total_contributions": 361100.0,
+  "total_contributions": 364076.0,
   "contributions": [
     {
       "Filer_ID": "1431009",
@@ -102,6 +102,17 @@
     },
     {
       "Filer_ID": "1431009",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2916.0,
+      "Tran_Date": "2022-02-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Quality Education",
+      "Tran_Zip4": "94621"
+    },
+    {
+      "Filer_ID": "1431009",
       "Tran_Emp": "Families in Action for Quality Education",
       "Tran_Occ": "Chief Executive Officer",
       "Entity_Cd": "Individual",
@@ -121,6 +132,72 @@
       "Tran_NamF": "Kimi",
       "Tran_NamL": "Kean",
       "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Rogers Family Foundation",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-07-08",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Rogers Family Foundation",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-08-08",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Rogers Family Foundation",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-09-08",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Rogers Family Foundation",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-10-08",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Rogers Family Foundation",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-11-08",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1431009",
+      "Tran_Emp": "Rogers Family Foundation",
+      "Tran_Occ": "Philanthropist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-12-08",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94610"
     }
   ]
 }

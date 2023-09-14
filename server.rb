@@ -7,6 +7,14 @@ get '/' do
   "<a href='#{url}'>View list of API endpoints</a>"
 end
 
+get '/check' do
+  file = File.expand_path('../build/_data/candidates/oakland/2023-11-07/jorge-c-lerma.json', __FILE__)
+  headers(
+    'Access-Control-Allow-Origin' => '*',
+  )
+  send_file(file)
+end
+
 get '*' do |path|
   file = File.expand_path('../build' + path + '/index.json', __FILE__)
   headers(
@@ -14,3 +22,4 @@ get '*' do |path|
   )
   send_file(file)
 end
+

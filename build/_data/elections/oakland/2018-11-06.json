@@ -1,15 +1,15 @@
 {
-  "total_contributions": 6803893.140000001,
+  "total_contributions": 6842454.140000001,
   "total_contributions_by_source": {
     "Out of State": 948176.36,
-    "Within Oakland": 2595315.93,
+    "Within Oakland": 2597715.93,
     "Within California": 2882924.86
   },
   "contributions_by_type": {
-    "Committee": 953096.17,
-    "Individual": 2647980.99,
-    "Unitemized": 157801.78,
-    "Self Funding": 86218.73,
+    "Committee": 954896.17,
+    "Individual": 2648580.99,
+    "Unitemized": 157811.78,
+    "Self Funding": 86218.73000000001,
     "Other (includes Businesses)": 2739121.2600000002
   },
   "most_expensive_races": [
@@ -23,7 +23,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 946482.69
+      "amount": 946492.69
     },
     {
       "slug": "just-cause-eviction-amendments",
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Nikki Fortunato Bas",
-      "proportion": 11.768333333333333,
+      "proportion": 0.5581671102210746,
       "office_title": "City Council District 2"
     },
     {
@@ -62,7 +62,7 @@
     {
       "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
       "election_name": "oakland-2018",
-      "total_spending": 570610.91
+      "total_spending": 570611.0
     },
     {
       "name": "East and South Bay Working Families United sponsored by labor organizations",

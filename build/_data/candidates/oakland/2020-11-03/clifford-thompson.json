@@ -1,5 +1,5 @@
 {
-  "id": 80,
+  "id": 91,
   "name": "Clifford Thompson",
   "photo_url": null,
   "website_url": null,
@@ -25,19 +25,13 @@
     "total_contributions": 19102.0,
     "total_expenditures": 19152.0,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 183218.99,
+    "total_supporting_independent": 156545.99,
     "support_list": [
       {
         "Total": 108840.0,
         "Cand_ID": 1427679,
         "Filer_ID": "1302433",
         "Filer_NamL": "Charter Public Schools Political Action Committee, sponsored by California Charter Schools Association Advocates"
-      },
-      {
-        "Total": 26673.0,
-        "Cand_ID": 1427679,
-        "Filer_ID": "1417455",
-        "Filer_NamL": "Committee for California"
       },
       {
         "Total": 33214.74,
@@ -76,12 +70,7 @@
     },
     "supporting_by_type": {
       "MON": 2200.0,
-      "Mailer (Estimated Costs)": 20011.0,
-      "Robo Calls (Estimated Costs)": 662.0,
-      "Email Blast (Estimated Costs)": 750.0,
-      "Consulting for Mailer/Robo Calls (Estimated Costs)": 3750.0,
-      "Independent Expenditure Supporting/Opposing Others": 47705.99,
-      "Research for Mailer/Robo Calls/Emails (Estimated Costs)": 1500.0
+      "Independent Expenditure Supporting/Opposing Others": 47705.99
     }
   },
   "opposing_money": {

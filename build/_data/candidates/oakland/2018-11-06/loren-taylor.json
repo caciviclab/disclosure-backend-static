@@ -1,5 +1,5 @@
 {
-  "id": 100,
+  "id": 109,
   "name": "Loren Taylor",
   "photo_url": "Loren_Taylor.png",
   "website_url": "https://www.lorentaylor.org/",
@@ -25,10 +25,10 @@
     "total_contributions": 141041.26,
     "total_expenditures": 95964.07,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 20625.0,
+    "total_supporting_independent": 20625.89,
     "support_list": [
       {
-        "Total": 20625.0,
+        "Total": 20625.89,
         "Cand_ID": 1401499,
         "Filer_ID": "1453617",
         "Filer_NamL": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022"
@@ -66,20 +66,17 @@
     },
     "supporting_by_type": {
       "MON": 800.0,
-      "DATA": 308.0,
-      "MAILER": 14446.0,
-      "POSTAGE": 5871.0
+      "Independent Expenditure Supporting/Opposing Others": 20625.89
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 9066.0,
+    "opposing_expenditures": 3520.67,
     "opposing_by_type": {
-      "Mailer": 3521.0,
-      "Polling": 5545.0
+      "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
       {
-        "Total": 9066.0,
+        "Total": 3520.67,
         "Cand_ID": 1401499,
         "Filer_ID": "1452451",
         "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
