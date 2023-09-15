@@ -1,7 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activerecord (3.2.14)
+    activemodel (6.1.7.5)
+      activesupport (= 6.1.7.5)
+    activerecord (6.1.7.5)
+      activemodel (= 6.1.7.5)
+      activesupport (= 6.1.7.5)
     activesupport (6.1.7.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
