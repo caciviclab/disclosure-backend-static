@@ -1,5 +1,5 @@
 {
-  "id": 12,
+  "id": 27,
   "name": "Jennifer Brouhard",
   "photo_url": "Jennifer Brouhard.jpg",
   "website_url": "https://www.brouhard4ousd.com/",
@@ -21,20 +21,20 @@
   "is_winner": null,
   "filer_id": 1452949,
   "supporting_money": {
-    "contributions_received": 17099.0,
-    "total_contributions": 17099.0,
-    "total_expenditures": 8683.37,
+    "contributions_received": 23349.0,
+    "total_contributions": 23349.0,
+    "total_expenditures": 12733.37,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 54710.82,
+    "total_supporting_independent": 54764.18,
     "support_list": [
       {
-        "Total": 53178.82,
+        "Total": 53178.75,
         "Cand_ID": 1452949,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
       },
       {
-        "Total": 1532.0,
+        "Total": 1585.43,
         "Cand_ID": 1452949,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
@@ -42,33 +42,28 @@
     ],
     "contributions_by_type": {
       "Committee": 3600.0,
-      "Individual": 8230.0,
-      "Unitemized": 2669.0,
-      "Other (includes Businesses)": 2600.0
+      "Individual": 8780.0,
+      "Unitemized": 2719.0,
+      "Other (includes Businesses)": 8250.0
     },
     "contributions_by_origin": {
       "Out of State": 200.0,
-      "Within Oakland": 5230.0,
-      "Within California": 9000.0
+      "Within Oakland": 7280.0,
+      "Within California": 13150.0
     },
-    "total_small_contributions": 2719.0,
+    "total_small_contributions": 2769.0,
     "expenditures_by_type": {
       "Not Stated": 1561.0,
-      "Campaign Workers' Salaries": 500.0,
+      "Campaign Consultants": 3650.0,
+      "Campaign Workers' Salaries": 900.0,
       "Campaign Paraphernalia/Misc.": 2498.37,
       "Professional Services (Legal, Accounting)": 3850.0,
       "Information Technology Costs (Internet, E-mail)": 179.0
     },
     "supporting_by_type": {
-      "MON": 1800.0,
-      "Mailer": 20598.0,
-      "Canvasser": 782.0,
-      "Robo Calls": 3109.0,
-      "Digital Ads": 14000.0,
-      "Text Messaging/Robo Calls": 923.0,
-      "Robo Calls and Text Messages": 695.0,
-      "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
-      "Independent Expenditure Supporting/Opposing Others": 13071.82
+      "IKD": 20.17,
+      "MON": 2600.0,
+      "Independent Expenditure Supporting/Opposing Others": 54764.18
     }
   },
   "opposing_money": {
@@ -79,7 +74,7 @@
 
     ]
   },
-  "total_contributions": 17099.0,
-  "total_expenditures": 8683.37,
+  "total_contributions": 23349.0,
+  "total_expenditures": 12733.37,
   "total_loans_received": 0.0
 }

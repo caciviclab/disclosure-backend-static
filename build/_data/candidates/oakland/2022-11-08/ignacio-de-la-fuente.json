@@ -1,5 +1,5 @@
 {
-  "id": 10,
+  "id": 25,
   "name": "Ignacio De La Fuente",
   "photo_url": "Ignacio De La Fuente.jpg",
   "website_url": null,
@@ -21,26 +21,26 @@
   "is_winner": null,
   "filer_id": 1446236,
   "supporting_money": {
-    "contributions_received": 223739.57,
-    "total_contributions": 223739.57,
-    "total_expenditures": 180641.9,
+    "contributions_received": 257034.57,
+    "total_contributions": 257034.57,
+    "total_expenditures": 253992.35,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 809013.33,
+    "total_supporting_independent": 826681.94,
     "support_list": [
       {
-        "Total": 660996.19,
+        "Total": 677632.83,
         "Cand_ID": 1446236,
         "Filer_ID": "1452451",
         "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
       },
       {
-        "Total": 20625.0,
+        "Total": 20625.91,
         "Cand_ID": 1446236,
         "Filer_ID": "1453617",
         "Filer_NamL": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022"
       },
       {
-        "Total": 23964.14,
+        "Total": 24995.2,
         "Cand_ID": 1446236,
         "Filer_ID": "1443977",
         "Filer_NamL": "Citizens for a Sane & Responsible Oakland (CSRO), Sponsored by Supervisor Nate Miley"
@@ -54,55 +54,39 @@
     ],
     "contributions_by_type": {
       "Committee": 4100.0,
-      "Individual": 173584.0,
-      "Unitemized": 1395.0,
-      "Other (includes Businesses)": 44660.57
+      "Individual": 196834.0,
+      "Unitemized": 1540.0,
+      "Other (includes Businesses)": 54560.57
     },
     "contributions_by_origin": {
-      "Out of State": 13400.0,
-      "Within Oakland": 93394.57,
-      "Within California": 115550.0
+      "Out of State": 13850.0,
+      "Within Oakland": 108944.57,
+      "Within California": 132700.0
     },
-    "total_small_contributions": 1494.0,
+    "total_small_contributions": 1739.0,
     "expenditures_by_type": {
-      "Office Expenses": 10825.81,
+      "Office Expenses": 12785.31,
       "Fundraising Events": 2324.56,
       "Campaign Consultants": 7000.0,
       "Meetings and Appearances": 500.0,
       "Campaign Workers' Salaries": 22000.0,
-      "Campaign Paraphernalia/Misc.": 5536.08,
+      "Campaign Paraphernalia/Misc.": 8590.38,
       "Candidate Filing/Ballot Fees": 1195.0,
-      "Campaign Literature and Mailings": 45413.03,
+      "Campaign Literature and Mailings": 72011.97,
       "Radio Airtime and Production Costs": 25450.0,
-      "Postage, Delivery and Messenger Services": 195.0,
-      "Professional Services (Legal, Accounting)": 6350.0,
-      "T.V. or Cable Airtime and Production Costs": 33420.0,
-      "Information Technology Costs (Internet, E-mail)": 17123.99
+      "Postage, Delivery and Messenger Services": 30058.78,
+      "Professional Services (Legal, Accounting)": 11900.0,
+      "T.V. or Cable Airtime and Production Costs": 35420.0,
+      "Information Technology Costs (Internet, E-mail)": 21423.94
     },
     "supporting_by_type": {
       "MON": 1800.0,
-      "DATA": 308.0,
-      "Rally": 1174.0,
-      "MAILER": 57915.0,
-      "Mailer": 52810.0,
-      "POSTAGE": 5871.0,
-      "Polling": 5545.0,
-      "Canvassing": 681.0,
-      "Consulting": 45500.0,
+      "MAILER": 43469.0,
       "ONLINE ADS": 50000.0,
-      "Online ads": 12000.0,
       "STAFF TIME": 300.0,
       "VOTER FILE": 4552.0,
-      "Digital ads": 27500.0,
-      "Newspaper ads": 8000.0,
-      "Phone Banking": 4971.0,
-      "Phone banking": 41609.0,
       "TEXT MESSAGES": 5107.0,
-      "Media coverage": 2500.0,
-      "Television ads": 93250.0,
-      "Photography Services": 1450.0,
-      "Photography services": 4500.0,
-      "Independent Expenditure Supporting/Opposing Others": 383470.33
+      "Independent Expenditure Supporting/Opposing Others": 723253.94
     }
   },
   "opposing_money": {
@@ -113,7 +97,7 @@
 
     ]
   },
-  "total_contributions": 223739.57,
-  "total_expenditures": 180641.9,
+  "total_contributions": 257034.57,
+  "total_expenditures": 253992.35,
   "total_loans_received": 0.0
 }

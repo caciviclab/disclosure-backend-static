@@ -1,5 +1,5 @@
 {
-  "id": 38,
+  "id": 51,
   "name": "Treva D. Reid",
   "photo_url": "treva-reid.png",
   "website_url": "https://www.reidforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442079,
   "supporting_money": {
-    "contributions_received": 223619.79,
-    "total_contributions": 223619.79,
-    "total_expenditures": 168129.59,
+    "contributions_received": 237849.79,
+    "total_contributions": 237849.79,
+    "total_expenditures": 217307.17,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,28 +31,30 @@
     ],
     "contributions_by_type": {
       "Committee": 1800.0,
-      "Individual": 202851.71,
-      "Unitemized": 9618.08,
-      "Other (includes Businesses)": 9350.0
+      "Individual": 211016.71,
+      "Unitemized": 10033.08,
+      "Other (includes Businesses)": 15000.0
     },
     "contributions_by_origin": {
-      "Out of State": 23799.0,
-      "Within Oakland": 85171.5,
-      "Within California": 105031.21
+      "Out of State": 25249.0,
+      "Within Oakland": 91821.5,
+      "Within California": 110746.21
     },
-    "total_small_contributions": 13267.08,
+    "total_small_contributions": 14397.08,
     "expenditures_by_type": {
-      "Not Stated": 80572.43,
+      "Print Ads": 2500.0,
+      "Not Stated": 100823.08,
+      "Phone Banks": 1065.29,
       "Civic Donations": 125.0,
-      "Office Expenses": 5354.52,
-      "Fundraising Events": 5545.54,
-      "Campaign Consultants": 10000.0,
-      "Meetings and Appearances": 8836.41,
-      "Campaign Paraphernalia/Misc.": 10841.38,
+      "Office Expenses": 5434.52,
+      "Fundraising Events": 5891.28,
+      "Campaign Consultants": 15000.0,
+      "Meetings and Appearances": 9281.31,
+      "Campaign Paraphernalia/Misc.": 21983.17,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 20530.53,
-      "Professional Services (Legal, Accounting)": 17322.44,
-      "Information Technology Costs (Internet, E-mail)": 7175.0
+      "Professional Services (Legal, Accounting)": 20034.9,
+      "Information Technology Costs (Internet, E-mail)": 9716.75
     },
     "supporting_by_type": {
     }
@@ -65,7 +67,7 @@
 
     ]
   },
-  "total_contributions": 223619.79,
-  "total_expenditures": 168129.59,
+  "total_contributions": 237849.79,
+  "total_expenditures": 217307.17,
   "total_loans_received": 0.0
 }

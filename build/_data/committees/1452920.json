@@ -1,5 +1,5 @@
 {
-  "total_contributions": 565000.0,
+  "total_contributions": 600000.0,
   "contributions": [
     {
       "Filer_ID": "1452920",
@@ -198,6 +198,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452920",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 35000.0,
+      "Tran_Date": "2022-12-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Federation of Professional and Technical Engineers (IFPTE) Local 21 TJ Anthony PAC Fund",
+      "Tran_Zip4": "94103"
     }
   ]
 }

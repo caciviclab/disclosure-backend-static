@@ -1,5 +1,5 @@
 {
-  "id": 24,
+  "id": 38,
   "name": "Max Orozco",
   "photo_url": "Max Orozco.jpg",
   "website_url": "https://maxorozcod2.com/",
@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1454035,
   "supporting_money": {
-    "contributions_received": 2294.65,
-    "total_contributions": 2294.65,
-    "total_expenditures": 3144.95,
+    "contributions_received": 2594.65,
+    "total_contributions": 2594.65,
+    "total_expenditures": 4638.44,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 1532.0,
+    "total_supporting_independent": 1585.43,
     "support_list": [
       {
-        "Total": 1532.0,
+        "Total": 1585.43,
         "Cand_ID": 1454035,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
@@ -46,11 +46,14 @@
     },
     "total_small_contributions": 75.0,
     "expenditures_by_type": {
-      "Campaign Paraphernalia/Misc.": 1980.37,
+      "Not Stated": 611.34,
+      "Campaign Paraphernalia/Misc.": 2812.06,
       "Candidate Filing/Ballot Fees": 1053.9
     },
     "supporting_by_type": {
-      "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0
+      "IKD": 20.17,
+      "MON": 800.0,
+      "Independent Expenditure Supporting/Opposing Others": 1585.43
     }
   },
   "opposing_money": {
@@ -61,7 +64,7 @@
 
     ]
   },
-  "total_contributions": 2294.65,
-  "total_expenditures": 3144.95,
+  "total_contributions": 2594.65,
+  "total_expenditures": 4638.44,
   "total_loans_received": 0.0
 }

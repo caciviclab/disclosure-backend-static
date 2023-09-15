@@ -1,5 +1,5 @@
 {
-  "total_contributions": 531629.49,
+  "total_contributions": 564729.5,
   "contributions": [
     {
       "Filer_ID": "1452659",
@@ -190,6 +190,17 @@
     },
     {
       "Filer_ID": "1452659",
+      "Tran_Emp": "East Bay Housing Organizations",
+      "Tran_Occ": "Executive Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": "Gloria",
+      "Tran_NamL": "Bruce",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1452659",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -231,6 +242,17 @@
       "Tran_NamF": null,
       "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 Issues PAC",
       "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 0.01,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Local Initiatives Support Corporation",
+      "Tran_Zip4": "94612"
     },
     {
       "Filer_ID": "1452659",
@@ -363,6 +385,61 @@
       "Tran_NamF": null,
       "Tran_NamL": "The San Francisco Foundation",
       "Tran_Zip4": "94111"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-11-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Construction & General Laborers Local Union 304 Issues Committee",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-11-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Asian Local Development Corporation",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-12-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "Local Initiatives Support Corporation",
+      "Tran_Zip4": "94612"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2022-12-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "PG&E Corporation Major Donor Account",
+      "Tran_Zip4": "94105"
+    },
+    {
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2022-12-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "C4C Oakland Action, Inc.",
+      "Tran_Zip4": "94607"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": 40,
+  "id": 53,
   "name": "Valarie Bachelor",
   "photo_url": "Valarie Bachelor.jpg",
   "website_url": "https://www.val4oakland.com/",
@@ -21,20 +21,20 @@
   "is_winner": null,
   "filer_id": 1451532,
   "supporting_money": {
-    "contributions_received": 34755.59,
-    "total_contributions": 34755.59,
-    "total_expenditures": 10741.5,
+    "contributions_received": 39185.59,
+    "total_contributions": 39185.59,
+    "total_expenditures": 27624.6,
     "total_loans_received": 100.0,
-    "total_supporting_independent": 50737.11,
+    "total_supporting_independent": 50790.25,
     "support_list": [
       {
-        "Total": 49205.11,
+        "Total": 49204.82,
         "Cand_ID": 1451532,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee"
       },
       {
-        "Total": 1532.0,
+        "Total": 1585.43,
         "Cand_ID": 1451532,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
@@ -42,34 +42,30 @@
     ],
     "contributions_by_type": {
       "Committee": 7800.0,
-      "Individual": 20869.63,
-      "Unitemized": 5050.0,
+      "Individual": 23819.63,
+      "Unitemized": 5730.0,
       "Self Funding": 101.0,
-      "Other (includes Businesses)": 800.0
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
-      "Out of State": 5497.0,
-      "Within Oakland": 11773.63,
-      "Within California": 12300.0
+      "Out of State": 6047.0,
+      "Within Oakland": 14473.63,
+      "Within California": 12800.0
     },
-    "total_small_contributions": 5870.21,
+    "total_small_contributions": 6700.21,
     "expenditures_by_type": {
-      "Not Stated": 3282.55,
+      "Not Stated": 7438.59,
       "Fundraising Events": 525.0,
-      "Campaign Literature and Mailings": 4578.34,
-      "Professional Services (Legal, Accounting)": 1393.13,
+      "Campaign Consultants": 3500.0,
+      "Campaign Workers' Salaries": 1000.0,
+      "Campaign Literature and Mailings": 6992.49,
+      "Professional Services (Legal, Accounting)": 7213.29,
       "Information Technology Costs (Internet, E-mail)": 179.0
     },
     "supporting_by_type": {
-      "MON": 1800.0,
-      "Mailer": 18238.0,
-      "Canvasser": 782.0,
-      "Robo Calls": 2907.0,
-      "Digital Ads": 14000.0,
-      "Text Messaging/Robo Calls": 904.0,
-      "Robo Calls and Text Messages": 679.0,
-      "Voter Guide Design, Printing & Mailing $1,532.36": 1532.0,
-      "Independent Expenditure Supporting/Opposing Others": 11695.11
+      "IKD": 20.17,
+      "MON": 2600.0,
+      "Independent Expenditure Supporting/Opposing Others": 50790.25
     }
   },
   "opposing_money": {
@@ -80,7 +76,7 @@
 
     ]
   },
-  "total_contributions": 34755.59,
-  "total_expenditures": 10741.5,
+  "total_contributions": 39185.59,
+  "total_expenditures": 27624.6,
   "total_loans_received": 100.0
 }

@@ -8,7 +8,7 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 380843.64,
+      "amount": 390843.64,
       "locale": "Within California"
     },
     {
@@ -27,16 +27,10 @@
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 121500.0
+      "amount": 131500.0
     }
   ],
   "supporting_organizations": [
-    {
-      "id": "1345259",
-      "name": "Oakland Education Association Political Action Committee",
-      "payee": "Oakland Education Association Political Action Committee",
-      "amount": 15876.0
-    },
     {
       "id": "960997",
       "name": "Friends of Oakland Public Schools - Yes on Measure H",
@@ -44,5 +38,5 @@
       "amount": 91754.87
     }
   ],
-  "total_contributions": 421349.82
+  "total_contributions": 431349.82
 }
