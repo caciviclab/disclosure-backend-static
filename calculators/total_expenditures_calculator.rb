@@ -28,7 +28,7 @@ class TotalExpendituresCalculator
 
     (results.to_a + late_expenditures.to_a).each do |result|
       candidate = @candidates_by_filer_id[result['Filer_ID'].to_i]
-      candidate.save_calculation(:total_expenditures, result['Amount_A'])
+      candidate.save_calculation(:total_expenditures, result['Amount_A'].round(2))
     end
   end
 end

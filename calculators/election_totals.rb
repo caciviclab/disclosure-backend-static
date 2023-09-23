@@ -116,7 +116,7 @@ class ElectionTotal
 
       election.save_calculation(:contributions_by_origin, by_origin)
       election.save_calculation(:contributions_by_type, by_type)
-      election.save_calculation(:total_contributions, election_total)
+      election.save_calculation(:total_contributions, election_total.round(2))
     end
   end
 end

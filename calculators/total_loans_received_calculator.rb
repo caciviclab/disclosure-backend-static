@@ -17,7 +17,7 @@ class TotalLoansReceivedCalculator
 
     @results.each do |row|
       candidate = @candidates_by_filer_id[row['Filer_ID'].to_i]
-      candidate.save_calculation(:total_loans_received, row['Amount_A'].to_f)
+      candidate.save_calculation(:total_loans_received, row['Amount_A'].round(2))
     end
   end
 end

@@ -18,15 +18,15 @@
       "amount": 12359.49
     },
     {
-      "slug": "city-attorney",
-      "type": "office",
-      "title": "City Attorney",
-      "amount": 0
-    },
-    {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
+      "amount": 0
+    },
+    {
+      "slug": "city-council-district-1",
+      "type": "office",
+      "title": "City Council District 1",
       "amount": 0
     }
   ],
@@ -40,29 +40,9 @@
       "office_title": "City Council District 7"
     }
   ],
-  "largest_independent_expenditures": [
-    {
-      "name": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022",
-      "election_name": "oakland-2024",
-      "total_spending": 20625.89
-    },
-    {
-      "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
-      "election_name": "oakland-2024",
-      "total_spending": 3520.67
-    },
-    {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "election_name": "oakland-2024",
-      "total_spending": 2810.32
-    }
-  ],
+  "largest_independent_expenditures": {
+  },
   "top_contributors": [
-    {
-      "name": "Dow Terry",
-      "election_name": "oakland-2024",
-      "total_contributions": 900.0
-    },
     {
       "name": "Weylin White",
       "election_name": "oakland-2024",
@@ -72,17 +52,22 @@
       "name": "Brandon Baranco",
       "election_name": "oakland-2024",
       "total_contributions": 900.0
+    },
+    {
+      "name": "Brooke Levin",
+      "election_name": "oakland-2024",
+      "total_contributions": 900.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Weylin White",
+      "name": "Gilberto Estrada Sr",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 900.0
     },
     {
-      "name": "Todd Scanlin",
+      "name": "Weylin White",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 900.0
@@ -99,19 +84,19 @@
   ],
   "top_spenders": [
     {
-      "name": "Todd Scanlin",
+      "name": "Gilberto Estrada Sr",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 900.0
     },
     {
-      "name": "Dow Terry",
+      "name": "Weylin White",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 900.0
     },
     {
-      "name": "Brooke Levin",
+      "name": "Jacob Zonn",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 900.0
@@ -119,19 +104,19 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Todd Scanlin",
+      "name": "Gilberto Estrada Sr",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 900.0
     },
     {
-      "name": "Dow Terry",
+      "name": "Weylin White",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 900.0
     },
     {
-      "name": "Brooke Levin",
+      "name": "Jacob Zonn",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 900.0

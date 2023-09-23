@@ -74,7 +74,7 @@ class ReferendumContributionsByOrigin
               amount: amount,
             }
           end
-          ballot_measure.save_calculation(total_name, total)
+          ballot_measure.save_calculation(total_name, total.round(2))
           ballot_measure.save_calculation(calculation_name, result)
         end
       end
