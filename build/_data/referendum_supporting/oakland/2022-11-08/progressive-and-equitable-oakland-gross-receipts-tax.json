@@ -12,7 +12,7 @@
       "locale": "Out of State"
     },
     {
-      "amount": 829357.13,
+      "amount": 829357.1300000001,
       "locale": "Within California"
     },
     {
@@ -27,11 +27,11 @@
     },
     {
       "type": "Individual",
-      "amount": 7164.06
+      "amount": 7164.0599999999995
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 661531.85
+      "amount": 661531.8500000001
     }
   ],
   "supporting_organizations": [
@@ -54,5 +54,5 @@
       "amount": 0
     }
   ],
-  "total_contributions": 1124066.1400000001
+  "total_contributions": 1124066.14
 }
