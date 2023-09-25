@@ -121,8 +121,23 @@ Referendum.includes(:calculations).find_each do |referendum|
   end
 end
 
+def filter_races(election)
+  if election.key?("most_expensive_races")
+    election["most_expensive_races"] = election["most_expensive_races"].reject { |race| race["amount"] == 0 }
+  end
+  election
+end
+
 build_file('/_data/totals.json') do |f|
-  f.puts JSON.pretty_generate(Hash[Election.find_each.map { |election| [election.name, election.data] }])
+  data = Hash[Election.find_each.map { |election| 
+    election_data = election.data
+    # filter out "most_expensive_races" with "amount: 0"
+    if election_data[:most_expensive_races]
+      election_data[:most_expensive_races].reject! { |race| race["amount"] == 0 }
+    end
+    [election.name, election_data]
+  }]
+  f.puts JSON.pretty_generate(data)
 end
 
 build_file('/_data/stats.json') do |f|
