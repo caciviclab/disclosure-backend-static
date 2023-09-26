@@ -129,16 +129,9 @@ def filter_races(election)
 end
 
 build_file('/_data/totals.json') do |f|
-  data = Hash[Election.find_each.map { |election| 
-    election_data = election.data
-    # filter out "most_expensive_races" with "amount: 0"
-    if election_data[:most_expensive_races]
-      election_data[:most_expensive_races].reject! { |race| race["amount"] == 0 }
-    end
-    [election.name, election_data]
-  }]
-  f.puts JSON.pretty_generate(data)
+  f.puts JSON.pretty_generate(Hash[Election.find_each.map { |election| [election.name, election.data] }])
 end
+
 
 build_file('/_data/stats.json') do |f|
   # TODO this should probably be locality-election specific to the date of the bulk data download
