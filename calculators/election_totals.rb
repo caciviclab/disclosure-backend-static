@@ -111,7 +111,8 @@ class ElectionTotal
       largest = small_proportion.sort_by {|v| -v[:proportion]}[0..2]
       election.save_calculation(:largest_small_proportion, largest)
 
-      largest = race_totals.sort_by {|v| -v[:amount]}[0..2]
+      races_with_contributions = race_totals.reject { |race| race[:amount] == 0 }
+      largest = races_with_contributions.sort_by { |v| -v[:amount] }[0..2]
       election.save_calculation(:most_expensive_races, largest)
 
       election.save_calculation(:contributions_by_origin, by_origin)
