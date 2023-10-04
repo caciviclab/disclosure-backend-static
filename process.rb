@@ -121,9 +121,17 @@ Referendum.includes(:calculations).find_each do |referendum|
   end
 end
 
+def filter_races(election)
+  if election.key?("most_expensive_races")
+    election["most_expensive_races"] = election["most_expensive_races"].reject { |race| race["amount"] == 0 }
+  end
+  election
+end
+
 build_file('/_data/totals.json') do |f|
   f.puts JSON.pretty_generate(Hash[Election.find_each.map { |election| [election.name, election.data] }])
 end
+
 
 build_file('/_data/stats.json') do |f|
   # TODO this should probably be locality-election specific to the date of the bulk data download

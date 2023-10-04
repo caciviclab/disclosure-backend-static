@@ -992,18 +992,6 @@
         "type": "referendum",
         "title": "Measure D",
         "amount": 151587.72
-      },
-      {
-        "slug": "regional-measure-3",
-        "type": "referendum",
-        "title": "Measure 3",
-        "amount": 0
-      },
-      {
-        "slug": "alameda-county-sales-tax-for-childcare-and-education",
-        "type": "referendum",
-        "title": "Measure A",
-        "amount": 0
       }
     ],
     "largest_small_proportion": [
@@ -1222,18 +1210,6 @@
         "type": "referendum",
         "title": "Measure Q",
         "amount": 435340.88
-      },
-      {
-        "slug": "official-city-newspaper",
-        "type": "referendum",
-        "title": "Measure R",
-        "amount": 0
-      },
-      {
-        "slug": "increase-appropriations-limit",
-        "type": "referendum",
-        "title": "Measure S",
-        "amount": 0
       }
     ],
     "largest_small_proportion": [
@@ -1342,12 +1318,7 @@
     "contributions_by_type": {
     },
     "most_expensive_races": [
-      {
-        "slug": "school-board-district-5",
-        "type": "office",
-        "title": "School Board District 5",
-        "amount": 0
-      }
+
     ],
     "largest_small_proportion": [
 
@@ -1391,18 +1362,7 @@
         "type": "office",
         "title": "City Council District 7",
         "amount": 12359.49
-      },
-      {
-        "slug": "city-council-at-large",
-        "type": "office",
-        "title": "City Council At-Large",
-        "amount": 0
-      },
-      {
-        "slug": "city-council-district-1",
-        "type": "office",
-        "title": "City Council District 1",
-        "amount": 0
+
       }
     ],
     "largest_small_proportion": [
