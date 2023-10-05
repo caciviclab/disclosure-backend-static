@@ -1,0 +1,17 @@
+name: "Check Google Drive Access"
+on:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      REPO_OWNER: ${{ github.repository_owner}}
+      REPO_BRANCH: ${{ github.ref_name }}
+      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+    steps:
+    - uses: actions/checkout@v3
+    - run: 'echo "hello"'
+      #- run: "pip install -r requirements.txt"
+      #- run: "python test_pull_from_gdrive.py"
+
