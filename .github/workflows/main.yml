@@ -14,4 +14,9 @@ jobs:
     - run: 'echo "hello"'
     - run: "pip install -r gdrive_requirements.txt"
     - run: "python test_pull_from_gdrive.py"
+    - name: Archive pulled files
+      uses: actions/upload-artifact@v2
+      with:
+        name: redacted-netfile-files
+        path: .local/netfile_redacted
 
