@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: 'echo "hello"'
-      #- run: "pip install -r requirements.txt"
+    - run: "pip install -r gdrive_requirements.txt"
     - run: "python test_pull_from_gdrive.py"
 
