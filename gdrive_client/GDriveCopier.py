@@ -1,8 +1,8 @@
 import os
 import json
 from oauth2client.service_account import ServiceAccountCredentials
-from pydrive.auth import GoogleAuth 
-from pydrive.drive import GoogleDrive
+from pydrive2.auth import GoogleAuth 
+from pydrive2.drive import GoogleDrive
 
 class GDriveCopier:
     '''This copier class supports uploading and downloading files between a local folder
