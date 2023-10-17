@@ -1,5 +1,6 @@
 ---
 election: _elections/oakland/2023-11-07.md
+committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Christian Miguel Martinez
