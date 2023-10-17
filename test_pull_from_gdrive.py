@@ -1,5 +1,5 @@
 import os
-from gdrive_client.GDriveCopier import GDriveCopier
+from gdrive_datastore.gdrive import GDriveCopier
 
 REPO_BRANCH = os.getenv('REPO_BRANCH','_LOCAL_')
 GDRIVE_FOLDER = os.getenv('GDRIVE_FOLDER','netfile_redacted') or 'netfile_redacted'
