@@ -194,7 +194,7 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 20940460.82,
+    "total_contributions": 20940510.82,
     "total_contributions_by_source": {
       "Out of State": 10533130.27,
       "Within Oakland": 1456001.7400000002,
@@ -389,17 +389,17 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6842454.140000001,
+    "total_contributions": 6844360.830000001,
     "total_contributions_by_source": {
       "Out of State": 948176.36,
-      "Within Oakland": 2597715.93,
+      "Within Oakland": 2600422.6199999996,
       "Within California": 2882924.86
     },
     "contributions_by_type": {
       "Committee": 954896.17,
-      "Individual": 2648580.99,
+      "Individual": 2649041.44,
       "Unitemized": 157811.78,
-      "Self Funding": 86218.73000000001,
+      "Self Funding": 88464.97,
       "Other (includes Businesses)": 2739121.2600000002
     },
     "most_expensive_races": [
@@ -413,7 +413,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 946492.69
+        "amount": 947742.69
       },
       {
         "slug": "just-cause-eviction-amendments",
@@ -584,16 +584,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 2975047.1800000006,
+    "total_contributions": 2975892.1800000006,
     "total_contributions_by_source": {
       "Out of State": 184777.27,
       "Within Oakland": 1376130.2600000002,
-      "Within California": 1090625.0499999998
+      "Within California": 1091470.0499999998
     },
     "contributions_by_type": {
       "Committee": 443366.93,
-      "Individual": 1745592.61,
-      "Unitemized": 211649.34999999995,
+      "Individual": 1746437.61,
+      "Unitemized": 212144.34999999995,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 328106.4
     },
@@ -608,7 +608,7 @@
         "slug": "city-council-district-7",
         "type": "office",
         "title": "City Council District 7",
-        "amount": 452164.32999999996
+        "amount": 453009.32999999996
       },
       {
         "slug": "city-council-district-3",
@@ -779,26 +779,26 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 6463134.51,
+    "total_contributions": 6476065.890000001,
     "total_contributions_by_source": {
-      "Out of State": 520797.35,
-      "Within Oakland": 2624046.9300000006,
-      "Within California": 2992731.97
+      "Out of State": 521147.35,
+      "Within Oakland": 2632398.1800000006,
+      "Within California": 3006531.1199999996
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 993901.14,
-      "Individual": 2489080.870000002,
-      "Unitemized": 134011.25,
+      "Committee": 995101.14,
+      "Individual": 2507910.870000001,
+      "Unitemized": 135828.3,
       "Self Funding": 2711.0,
-      "Other (includes Businesses)": 2635983.24
+      "Other (includes Businesses)": 2638453.6399999997
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1999281.05
+        "amount": 2014300.25
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -819,7 +819,7 @@
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Allyssa Victory Villanueva",
-        "proportion": 0.18010565424358527,
+        "proportion": 0.1822939885711639,
         "office_title": "Mayor"
       },
       {
@@ -827,7 +827,7 @@
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Valarie Bachelor",
-        "proportion": 0.17098657950537433,
+        "proportion": 0.17107883651708103,
         "office_title": "OUSD District 6"
       },
       {
@@ -1193,14 +1193,14 @@
     ]
   },
   "oakland-march-2020": {
-    "total_contributions": 435340.88,
+    "total_contributions": 438840.88,
     "total_contributions_by_source": {
       "Out of State": 36764.0,
       "Within Oakland": 199672.64,
-      "Within California": 198904.24
+      "Within California": 202404.24
     },
     "contributions_by_type": {
-      "Committee": 144912.0,
+      "Committee": 148412.0,
       "Individual": 28312.72,
       "Other (includes Businesses)": 262116.16
     },
@@ -1209,7 +1209,7 @@
         "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
         "type": "referendum",
         "title": "Measure Q",
-        "amount": 435340.88
+        "amount": 438840.88
       }
     ],
     "largest_small_proportion": [
@@ -1312,56 +1312,147 @@
     ]
   },
   "oakland-2023": {
-    "total_contributions": 0.0,
+    "total_contributions": 8008.0,
     "total_contributions_by_source": {
+      "Within Oakland": 5846.0,
+      "Within California": 1076.0
     },
     "contributions_by_type": {
+      "Individual": 6922.0,
+      "Unitemized": 1086.0
     },
     "most_expensive_races": [
-
+      {
+        "slug": "school-board-district-5",
+        "type": "office",
+        "title": "School Board District 5",
+        "amount": 8008.0
+      }
     ],
     "largest_small_proportion": [
-
+      {
+        "slug": "alexandra-ritzie-hernandez",
+        "type": "office",
+        "title": "Oakland November 7th, 2023 Special Election",
+        "candidate": "Alexandra Ritzie-Hernandez",
+        "proportion": 0.1525974025974026,
+        "office_title": "School Board District 5"
+      }
     ],
-    "largest_independent_expenditures": {
-    },
+    "largest_independent_expenditures": [
+      {
+        "name": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2023",
+        "total_spending": 9034.33
+      },
+      {
+        "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2023",
+        "total_spending": 4180.0
+      }
+    ],
     "top_contributors": [
-
+      {
+        "name": "Shaniah Ritzie-Hernandez",
+        "election_name": "oakland-2023",
+        "total_contributions": 461.0
+      },
+      {
+        "name": "Elizabeth Pauw",
+        "election_name": "oakland-2023",
+        "total_contributions": 420.0
+      },
+      {
+        "name": "Kampala Taiz-Rancifer",
+        "election_name": "oakland-2023",
+        "total_contributions": 300.0
+      }
     ],
     "top_contributors_for_offices": [
-
+      {
+        "name": "Shaniah Ritzie-Hernandez",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 461.0
+      },
+      {
+        "name": "Elizabeth Pauw",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 420.0
+      },
+      {
+        "name": "Rosie Torres",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 300.0
+      }
     ],
     "top_contributors_for_measures": [
 
     ],
     "top_spenders": [
-
+      {
+        "name": "Shaniah Ritzie-Hernandez",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 461.0
+      },
+      {
+        "name": "Elizabeth Pauw",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 420.0
+      },
+      {
+        "name": "Rosie Torres",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 300.0
+      }
     ],
     "top_spenders_for_offices": [
-
+      {
+        "name": "Shaniah Ritzie-Hernandez",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 461.0
+      },
+      {
+        "name": "Elizabeth Pauw",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 420.0
+      },
+      {
+        "name": "Rosie Torres",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 300.0
+      }
     ],
     "top_spenders_for_measures": [
 
     ]
   },
   "oakland-2024": {
-    "total_contributions": 12359.49,
+    "total_contributions": 21397.5,
     "total_contributions_by_source": {
-      "Out of State": 3700.0,
-      "Within Oakland": 3800.0,
-      "Within California": 3448.49
+      "Out of State": 7400.0,
+      "Within Oakland": 5100.0,
+      "Within California": 6349.5
     },
     "contributions_by_type": {
       "Committee": 500.0,
-      "Individual": 10448.49,
-      "Unitemized": 1361.0
+      "Individual": 18349.5,
+      "Unitemized": 2498.0
     },
     "most_expensive_races": [
       {
         "slug": "city-council-district-7",
         "type": "office",
         "title": "City Council District 7",
-        "amount": 12359.49
+        "amount": 21397.5
       }
     ],
     "largest_small_proportion": [
@@ -1370,7 +1461,7 @@
         "type": "office",
         "title": "Oakland November 5th, 2024 General Election",
         "candidate": "Treva Reid",
-        "proportion": 0.11011781230455302,
+        "proportion": 0.11674261011800444,
         "office_title": "City Council District 7"
       }
     ],
@@ -1390,17 +1481,17 @@
       {
         "name": "Dow Terry",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
         "name": "Weylin White",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
-        "name": "Brandon Baranco",
+        "name": "Jacob Zonn",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1408,19 +1499,19 @@
         "name": "Weylin White",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
         "name": "Jacob Zonn",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1431,19 +1522,19 @@
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Dow Terry",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Brooke Levin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1451,19 +1542,19 @@
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Dow Terry",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Brooke Levin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       }
     ],
     "top_spenders_for_measures": [

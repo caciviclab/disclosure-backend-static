@@ -9,4 +9,5 @@ photo_url: Alexandra-Ritzie-Hernandez.png
 website_url: https://www.sasharitziehernandez.com/
 facebook_url: https://www.facebook.com/sasha4oakland
 instagram_url: sasha4oakland
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2023&candidates=1460829&since=2023-05-26&until=2023-06-30
 ---

@@ -1,5 +1,5 @@
 {
-  "total_contributions": 167511.0,
+  "total_contributions": 167910.15,
   "contributions": [
     {
       "Filer_ID": "1442227",
@@ -8162,6 +8162,17 @@
       "Tran_NamF": "Kim",
       "Tran_NamL": "Rhoads",
       "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1442227",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 399.15,
+      "Tran_Date": "2023-03-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "PVL Accounting Services",
+      "Tran_Zip4": "94104"
     }
   ]
 }

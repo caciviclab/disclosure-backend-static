@@ -1,5 +1,5 @@
 {
-  "total_contributions": 154873.94999999987,
+  "total_contributions": 155718.94999999987,
   "contributions": [
     {
       "Filer_ID": "1366759",
@@ -6061,6 +6061,39 @@
       "Tran_NamF": "Gordon",
       "Tran_NamL": "Wozniak",
       "Tran_Zip4": "94705"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2023-01-18",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Cervantes",
+      "Tran_Zip4": "94549"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": "Amg & Associates, LLC",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 245.0,
+      "Tran_Date": "2023-01-18",
+      "Tran_NamF": "Alexis",
+      "Tran_NamL": "Gevorgian",
+      "Tran_Zip4": "91436"
+    },
+    {
+      "Filer_ID": "1366759",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -50.0,
+      "Tran_Date": "2023-06-30",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Cervantes",
+      "Tran_Zip4": "94549"
     }
   ]
 }

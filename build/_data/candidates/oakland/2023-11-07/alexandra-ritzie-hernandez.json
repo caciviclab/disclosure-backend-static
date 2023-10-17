@@ -6,7 +6,7 @@
   "twitter_url": null,
   "facebook_url": "https://www.facebook.com/sasha4oakland",
   "instagram_url": "sasha4oakland",
-  "map_url": null,
+  "map_url": "https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2023&candidates=1460829&since=2023-05-26&until=2023-06-30",
   "votersedge_url": null,
   "first_name": "Alexandra",
   "last_name": "Ritzie-Hernandez",
@@ -21,20 +21,40 @@
   "is_winner": null,
   "filer_id": 1460829,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
-    "total_supporting_independent": 0.0,
+    "contributions_received": 8008.0,
+    "total_contributions": 8008.0,
+    "total_expenditures": 7006.77,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 13214.33,
     "support_list": [
-
+      {
+        "Total": 9034.33,
+        "Cand_ID": 1460829,
+        "Filer_ID": "1345259",
+        "Filer_NamL": "Oakland Education Association Political Action Committee"
+      },
+      {
+        "Total": 4180.0,
+        "Cand_ID": 1460829,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+      }
     ],
     "contributions_by_type": {
+      "Individual": 6922.0,
+      "Unitemized": 1086.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 5846.0,
+      "Within California": 1076.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 1222.0,
     "expenditures_by_type": {
+      "Campaign Consultants": 2200.0,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 1896.59,
+      "Postage, Delivery and Messenger Services": 103.96,
+      "Information Technology Costs (Internet, E-mail)": 1481.81
     },
     "supporting_by_type": {
     }
@@ -47,7 +67,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 8008.0,
+  "total_expenditures": 7006.77,
+  "total_loans_received": 0.0
 }

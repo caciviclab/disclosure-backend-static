@@ -1,31 +1,122 @@
 {
-  "total_contributions": 0.0,
+  "total_contributions": 8008.0,
   "total_contributions_by_source": {
+    "Within Oakland": 5846.0,
+    "Within California": 1076.0
   },
   "contributions_by_type": {
+    "Individual": 6922.0,
+    "Unitemized": 1086.0
   },
   "most_expensive_races": [
-
+    {
+      "slug": "school-board-district-5",
+      "type": "office",
+      "title": "School Board District 5",
+      "amount": 8008.0
+    }
   ],
   "largest_small_proportion": [
-
+    {
+      "slug": "alexandra-ritzie-hernandez",
+      "type": "office",
+      "title": "Oakland November 7th, 2023 Special Election",
+      "candidate": "Alexandra Ritzie-Hernandez",
+      "proportion": 0.1525974025974026,
+      "office_title": "School Board District 5"
+    }
   ],
-  "largest_independent_expenditures": {
-  },
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland Education Association Political Action Committee",
+      "election_name": "oakland-2023",
+      "total_spending": 9034.33
+    },
+    {
+      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "election_name": "oakland-2023",
+      "total_spending": 4180.0
+    }
+  ],
   "top_contributors": [
-
+    {
+      "name": "Shaniah Ritzie-Hernandez",
+      "election_name": "oakland-2023",
+      "total_contributions": 461.0
+    },
+    {
+      "name": "Elizabeth Pauw",
+      "election_name": "oakland-2023",
+      "total_contributions": 420.0
+    },
+    {
+      "name": "Kampala Taiz-Rancifer",
+      "election_name": "oakland-2023",
+      "total_contributions": 300.0
+    }
   ],
   "top_contributors_for_offices": [
-
+    {
+      "name": "Shaniah Ritzie-Hernandez",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 461.0
+    },
+    {
+      "name": "Elizabeth Pauw",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 420.0
+    },
+    {
+      "name": "Rosie Torres",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 300.0
+    }
   ],
   "top_contributors_for_measures": [
 
   ],
   "top_spenders": [
-
+    {
+      "name": "Shaniah Ritzie-Hernandez",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 461.0
+    },
+    {
+      "name": "Elizabeth Pauw",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 420.0
+    },
+    {
+      "name": "Rosie Torres",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 300.0
+    }
   ],
   "top_spenders_for_offices": [
-
+    {
+      "name": "Shaniah Ritzie-Hernandez",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 461.0
+    },
+    {
+      "name": "Elizabeth Pauw",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 420.0
+    },
+    {
+      "name": "Rosie Torres",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 300.0
+    }
   ],
   "top_spenders_for_measures": [
 
