@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2023-11-07.md
 committee_name: Jorge Lerma for Oakland School Board 2023
-filer_id: ''
+filer_id: '1463520'
 is_incumbent: false
 name: Jorge C. Lerma
 occupation: Educator, Administrator, Community Activist
