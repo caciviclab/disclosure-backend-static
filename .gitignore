@@ -2,3 +2,5 @@ downloads/csv
 downloads/raw
 downloads/cached-db
 inputs
+.local
+**/__pycache__
