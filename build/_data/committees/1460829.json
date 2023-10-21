@@ -1,5 +1,5 @@
 {
-  "total_contributions": 6922.0,
+  "total_contributions": 10522.0,
   "contributions": [
     {
       "Filer_ID": "1460829",
@@ -583,6 +583,39 @@
       "Tran_NamF": "Linda",
       "Tran_NamL": "Selph",
       "Tran_Zip4": "94610"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2023-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborers Local 304",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2023-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2023-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "UA Local 342",
+      "Tran_Zip4": "94518"
     }
   ]
 }

@@ -584,16 +584,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 2975892.1800000006,
+    "total_contributions": 2990758.1800000006,
     "total_contributions_by_source": {
       "Out of State": 184777.27,
-      "Within Oakland": 1376130.2600000002,
-      "Within California": 1091470.0499999998
+      "Within Oakland": 1385860.2600000002,
+      "Within California": 1095620.0499999998
     },
     "contributions_by_type": {
       "Committee": 443366.93,
-      "Individual": 1746437.61,
-      "Unitemized": 212144.34999999995,
+      "Individual": 1760317.61,
+      "Unitemized": 213130.34999999995,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 328106.4
     },
@@ -1312,12 +1312,13 @@
     ]
   },
   "oakland-2023": {
-    "total_contributions": 8008.0,
+    "total_contributions": 11608.0,
     "total_contributions_by_source": {
       "Within Oakland": 5846.0,
-      "Within California": 1076.0
+      "Within California": 4676.0
     },
     "contributions_by_type": {
+      "Committee": 3600.0,
       "Individual": 6922.0,
       "Unitemized": 1086.0
     },
@@ -1326,7 +1327,7 @@
         "slug": "school-board-district-5",
         "type": "office",
         "title": "School Board District 5",
-        "amount": 8008.0
+        "amount": 11608.0
       }
     ],
     "largest_small_proportion": [
@@ -1335,7 +1336,7 @@
         "type": "office",
         "title": "Oakland November 7th, 2023 Special Election",
         "candidate": "Alexandra Ritzie-Hernandez",
-        "proportion": 0.1525974025974026,
+        "proportion": 0.10527222605099931,
         "office_title": "School Board District 5"
       }
     ],
@@ -1353,19 +1354,19 @@
     ],
     "top_contributors": [
       {
-        "name": "Shaniah Ritzie-Hernandez",
+        "name": "UA Local 342",
         "election_name": "oakland-2023",
-        "total_contributions": 461.0
+        "total_contributions": 1200.0
       },
       {
-        "name": "Elizabeth Pauw",
+        "name": "Laborers Local 304",
         "election_name": "oakland-2023",
-        "total_contributions": 420.0
+        "total_contributions": 1200.0
       },
       {
-        "name": "Kampala Taiz-Rancifer",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "election_name": "oakland-2023",
-        "total_contributions": 300.0
+        "total_contributions": 1200.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1393,42 +1394,42 @@
     ],
     "top_spenders": [
       {
-        "name": "Shaniah Ritzie-Hernandez",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
-        "total_spending": 461.0
+        "total_spending": 1200.0
       },
       {
-        "name": "Elizabeth Pauw",
+        "name": "Laborers Local 304",
         "type": "Office",
         "election_name": "oakland-2023",
-        "total_spending": 420.0
+        "total_spending": 1200.0
       },
       {
-        "name": "Rosie Torres",
+        "name": "UA Local 342",
         "type": "Office",
         "election_name": "oakland-2023",
-        "total_spending": 300.0
+        "total_spending": 1200.0
       }
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Shaniah Ritzie-Hernandez",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
-        "total_spending": 461.0
+        "total_spending": 1200.0
       },
       {
-        "name": "Elizabeth Pauw",
+        "name": "Laborers Local 304",
         "type": "Office",
         "election_name": "oakland-2023",
-        "total_spending": 420.0
+        "total_spending": 1200.0
       },
       {
-        "name": "Rosie Torres",
+        "name": "UA Local 342",
         "type": "Office",
         "election_name": "oakland-2023",
-        "total_spending": 300.0
+        "total_spending": 1200.0
       }
     ],
     "top_spenders_for_measures": [
