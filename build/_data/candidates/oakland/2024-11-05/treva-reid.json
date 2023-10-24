@@ -21,34 +21,29 @@
   "is_winner": null,
   "filer_id": 1439424,
   "supporting_money": {
-    "contributions_received": 21397.5,
-    "total_contributions": 21397.5,
-    "total_expenditures": 12637.66,
+    "contributions_received": 12359.49,
+    "total_contributions": 12359.49,
+    "total_expenditures": 12359.49,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 20625.89,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 20625.89,
-        "Cand_ID": 1439424,
-        "Filer_ID": "1453617",
-        "Filer_NamL": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022"
-      }
+
     ],
     "contributions_by_type": {
       "Committee": 500.0,
-      "Individual": 18349.5,
-      "Unitemized": 2498.0
+      "Individual": 10448.49,
+      "Unitemized": 1361.0
     },
     "contributions_by_origin": {
-      "Out of State": 7400.0,
-      "Within Oakland": 5100.0,
-      "Within California": 6349.5
+      "Out of State": 3700.0,
+      "Within Oakland": 3800.0,
+      "Within California": 3448.49
     },
-    "total_small_contributions": 2498.0,
+    "total_small_contributions": 1361.0,
     "expenditures_by_type": {
       "Fundraising Events": 354.63,
       "Professional Services (Legal, Accounting)": 2971.99,
-      "Information Technology Costs (Internet, E-mail)": 459.95,
+      "Information Technology Costs (Internet, E-mail)": 231.78,
       "Transfer Between Committees of the Same Candidate/sponsor": 8701.09
     },
     "supporting_by_type": {
@@ -57,20 +52,15 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 3520.67,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
       "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
-      {
-        "Total": 3520.67,
-        "Cand_ID": 1439424,
-        "Filer_ID": "1452451",
-        "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
-      }
+
     ]
   },
-  "total_contributions": 21397.5,
-  "total_expenditures": 12637.66,
+  "total_contributions": 12359.49,
+  "total_expenditures": 12359.49,
   "total_loans_received": 0.0
 }

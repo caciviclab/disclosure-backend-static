@@ -21,29 +21,24 @@
   "is_winner": false,
   "filer_id": 1407729,
   "supporting_money": {
-    "contributions_received": 108582.9,
-    "total_contributions": 108582.9,
-    "total_expenditures": 113488.51,
+    "contributions_received": 107332.9,
+    "total_contributions": 107332.9,
+    "total_expenditures": 112966.71,
     "total_loans_received": 34500.0,
-    "total_supporting_independent": 6923.54,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 6923.54,
-        "Cand_ID": 1407729,
-        "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
-      }
+
     ],
     "contributions_by_type": {
       "Committee": 6476.9,
       "Individual": 56929.0,
       "Unitemized": 5302.0,
-      "Self Funding": 1375.0,
+      "Self Funding": 125.0,
       "Other (includes Businesses)": 4000.0
     },
     "contributions_by_origin": {
       "Out of State": 2350.0,
-      "Within Oakland": 33590.0,
+      "Within Oakland": 32340.0,
       "Within California": 32840.9
     },
     "total_small_contributions": 5961.0,
@@ -56,7 +51,7 @@
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 9979.27,
       "Postage, Delivery and Messenger Services": 487.47,
-      "Professional Services (Legal, Accounting)": 57871.5,
+      "Professional Services (Legal, Accounting)": 56621.5,
       "Information Technology Costs (Internet, E-mail)": 2019.74
     },
     "supporting_by_type": {
@@ -66,15 +61,20 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 2500.0,
     "opposing_by_type": {
       "Independent Expenditure Supporting/Opposing Others": 2500.0
     },
     "opposition_list": [
-
+      {
+        "Total": 2500.0,
+        "Cand_ID": 1407729,
+        "Filer_ID": "943526",
+        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee"
+      }
     ]
   },
-  "total_contributions": 108582.9,
-  "total_expenditures": 113488.51,
+  "total_contributions": 107332.9,
+  "total_expenditures": 112966.71,
   "total_loans_received": 34500.0
 }
