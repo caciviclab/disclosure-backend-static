@@ -1,5 +1,5 @@
 {
-  "id": 50,
+  "id": 49,
   "name": "Sheng Thao",
   "photo_url": "Sheng-Thao-2022.jpg",
   "website_url": "https://www.shengforoakland.com/",
@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1442594,
   "supporting_money": {
-    "contributions_received": 562332.47,
-    "total_contributions": 562332.47,
-    "total_expenditures": 728568.52,
-    "total_loans_received": 500.0,
+    "contributions_received": 548862.47,
+    "total_contributions": 548862.47,
+    "total_expenditures": 718247.9,
+    "total_loans_received": -500.0,
     "total_supporting_independent": 747110.92,
     "support_list": [
       {
@@ -48,35 +48,35 @@
     ],
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 56300.0,
-      "Individual": 336060.47,
-      "Unitemized": 28113.0,
-      "Other (includes Businesses)": 31180.0
+      "Committee": 55100.0,
+      "Individual": 326660.47,
+      "Unitemized": 27843.0,
+      "Other (includes Businesses)": 29580.0
     },
     "contributions_by_origin": {
-      "Out of State": 39882.0,
-      "Within Oakland": 116107.0,
-      "Within California": 283451.47
+      "Out of State": 39782.0,
+      "Within Oakland": 114107.0,
+      "Within California": 273351.47
     },
-    "total_small_contributions": 34476.0,
+    "total_small_contributions": 34206.0,
     "expenditures_by_type": {
       "Print Ads": 500.0,
-      "Not Stated": 5904.75,
+      "Not Stated": 4015.0,
       "Phone Banks": 125.52,
       "Contribution": 5500.0,
-      "Office Expenses": 10545.78,
+      "Office Expenses": 9525.87,
       "Fundraising Events": 46288.15,
-      "Campaign Consultants": 182279.16,
+      "Campaign Consultants": 179404.2,
       "Meetings and Appearances": 2685.84,
-      "Campaign Paraphernalia/Misc.": 53290.21,
+      "Campaign Paraphernalia/Misc.": 48575.59,
       "Candidate Filing/Ballot Fees": 2109.16,
       "Campaign Literature and Mailings": 241899.15,
-      "Candidate Travel, Lodging, and Meals": 7014.28,
+      "Candidate Travel, Lodging, and Meals": 5042.28,
       "Staff/Spouse Travel, Lodging, and Meals": 5974.74,
       "Postage, Delivery and Messenger Services": 36235.67,
       "Professional Services (Legal, Accounting)": 1390.0,
       "T.V. or Cable Airtime and Production Costs": 92758.0,
-      "Information Technology Costs (Internet, E-mail)": 18184.88,
+      "Information Technology Costs (Internet, E-mail)": 17654.88,
       "Transfer Between Committees of the Same Candidate/sponsor": 3600.0
     },
     "supporting_by_type": {
@@ -101,7 +101,7 @@
       }
     ]
   },
-  "total_contributions": 562332.47,
-  "total_expenditures": 728568.52,
-  "total_loans_received": 500.0
+  "total_contributions": 548862.47,
+  "total_expenditures": 718247.9,
+  "total_loans_received": -500.0
 }

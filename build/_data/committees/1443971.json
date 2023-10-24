@@ -1,5 +1,5 @@
 {
-  "total_contributions": 67975.0,
+  "total_contributions": 66125.0,
   "contributions": [
     {
       "Filer_ID": "1443971",
@@ -1661,50 +1661,6 @@
       "Tran_NamF": "Derek",
       "Tran_NamL": "Smith",
       "Tran_Zip4": "94602"
-    },
-    {
-      "Filer_ID": "1443971",
-      "Tran_Emp": "Sunbber, Inc.",
-      "Tran_Occ": "Contractor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 600.0,
-      "Tran_Date": "2023-05-26",
-      "Tran_NamF": "Man",
-      "Tran_NamL": "Hao Chen",
-      "Tran_Zip4": "94134"
-    },
-    {
-      "Filer_ID": "1443971",
-      "Tran_Emp": "Stewart Chen",
-      "Tran_Occ": "Chiropractor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2023-05-29",
-      "Tran_NamF": "Stewart",
-      "Tran_NamL": "Chen",
-      "Tran_Zip4": "94501"
-    },
-    {
-      "Filer_ID": "1443971",
-      "Tran_Emp": null,
-      "Tran_Occ": "Not Employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2023-06-05",
-      "Tran_NamF": "Yi Ju",
-      "Tran_NamL": "Chen",
-      "Tran_Zip4": "94619"
-    },
-    {
-      "Filer_ID": "1443971",
-      "Tran_Emp": "Berry Creek Holdings LLC",
-      "Tran_Occ": "Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2023-06-05",
-      "Tran_NamF": "Kevin",
-      "Tran_NamL": "Lieu",
-      "Tran_Zip4": "94610"
     }
   ]
 }

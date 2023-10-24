@@ -1,123 +1,31 @@
 {
-  "total_contributions": 11608.0,
+  "total_contributions": 0.0,
   "total_contributions_by_source": {
-    "Within Oakland": 5846.0,
-    "Within California": 4676.0
   },
   "contributions_by_type": {
-    "Committee": 3600.0,
-    "Individual": 6922.0,
-    "Unitemized": 1086.0
   },
   "most_expensive_races": [
-    {
-      "slug": "school-board-district-5",
-      "type": "office",
-      "title": "School Board District 5",
-      "amount": 11608.0
-    }
+
   ],
   "largest_small_proportion": [
-    {
-      "slug": "alexandra-ritzie-hernandez",
-      "type": "office",
-      "title": "Oakland November 7th, 2023 Special Election",
-      "candidate": "Alexandra Ritzie-Hernandez",
-      "proportion": 0.10527222605099931,
-      "office_title": "School Board District 5"
-    }
+
   ],
-  "largest_independent_expenditures": [
-    {
-      "name": "Oakland Education Association Political Action Committee",
-      "election_name": "oakland-2023",
-      "total_spending": 18109.33
-    },
-    {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "election_name": "oakland-2023",
-      "total_spending": 4180.0
-    }
-  ],
+  "largest_independent_expenditures": {
+  },
   "top_contributors": [
-    {
-      "name": "UA Local 342",
-      "election_name": "oakland-2023",
-      "total_contributions": 1200.0
-    },
-    {
-      "name": "Laborers Local 304",
-      "election_name": "oakland-2023",
-      "total_contributions": 1200.0
-    },
-    {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
-      "election_name": "oakland-2023",
-      "total_contributions": 1200.0
-    }
+
   ],
   "top_contributors_for_offices": [
-    {
-      "name": "Shaniah Ritzie-Hernandez",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_contributions": 461.0
-    },
-    {
-      "name": "Elizabeth Pauw",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_contributions": 420.0
-    },
-    {
-      "name": "Rosie Torres",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_contributions": 300.0
-    }
+
   ],
   "top_contributors_for_measures": [
 
   ],
   "top_spenders": [
-    {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_spending": 1200.0
-    },
-    {
-      "name": "Laborers Local 304",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_spending": 1200.0
-    },
-    {
-      "name": "UA Local 342",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_spending": 1200.0
-    }
+
   ],
   "top_spenders_for_offices": [
-    {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_spending": 1200.0
-    },
-    {
-      "name": "Laborers Local 304",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_spending": 1200.0
-    },
-    {
-      "name": "UA Local 342",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_spending": 1200.0
-    }
+
   ],
   "top_spenders_for_measures": [
 

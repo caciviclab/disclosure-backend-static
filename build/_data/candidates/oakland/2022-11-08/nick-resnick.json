@@ -1,5 +1,5 @@
 {
-  "id": 42,
+  "id": 43,
   "name": "Nick Resnick",
   "photo_url": "Nick-Resnick-sm.png",
   "website_url": "https://www.nickforoaklandschools.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1446325,
   "supporting_money": {
-    "contributions_received": 61495.0,
-    "total_contributions": 61495.0,
-    "total_expenditures": 57640.07,
+    "contributions_received": 61255.0,
+    "total_contributions": 61255.0,
+    "total_expenditures": 56556.73,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,27 +31,27 @@
     ],
     "contributions_by_type": {
       "Committee": 4840.0,
-      "Individual": 51055.0,
-      "Unitemized": 4550.0,
+      "Individual": 50905.0,
+      "Unitemized": 4460.0,
       "Self Funding": 300.0,
       "Other (includes Businesses)": 750.0
     },
     "contributions_by_origin": {
       "Out of State": 8870.0,
-      "Within Oakland": 29025.0,
+      "Within Oakland": 28875.0,
       "Within California": 19050.0
     },
-    "total_small_contributions": 6055.0,
+    "total_small_contributions": 5815.0,
     "expenditures_by_type": {
       "Contribution": 210.0,
       "Civic Donations": 360.0,
-      "Office Expenses": 234.98,
-      "Campaign Consultants": 6500.0,
+      "Office Expenses": 106.0,
+      "Campaign Consultants": 6000.0,
       "Polling and Survey Research": 184.45,
-      "Campaign Paraphernalia/Misc.": 37645.42,
+      "Campaign Paraphernalia/Misc.": 37438.42,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 3000.0,
-      "Staff/Spouse Travel, Lodging, and Meals": 364.98,
+      "Staff/Spouse Travel, Lodging, and Meals": 237.98,
       "Professional Services (Legal, Accounting)": 7245.56,
       "Information Technology Costs (Internet, E-mail)": 196.0
     },
@@ -67,7 +67,7 @@
 
     ]
   },
-  "total_contributions": 61495.0,
-  "total_expenditures": 57640.07,
+  "total_contributions": 61255.0,
+  "total_expenditures": 56556.73,
   "total_loans_received": 0.0
 }
