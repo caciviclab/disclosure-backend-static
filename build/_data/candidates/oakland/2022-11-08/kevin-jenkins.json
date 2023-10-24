@@ -1,5 +1,5 @@
 {
-  "id": 34,
+  "id": 33,
   "name": "Kevin Jenkins",
   "photo_url": "Kevin-Jenkins-sm.png",
   "website_url": "https://www.jenkinsforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1443971,
   "supporting_money": {
-    "contributions_received": 67464.0,
-    "total_contributions": 67464.0,
-    "total_expenditures": 82479.63,
+    "contributions_received": 69314.0,
+    "total_contributions": 69314.0,
+    "total_expenditures": 85743.65,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -36,27 +36,28 @@
     ],
     "contributions_by_type": {
       "Committee": 22000.0,
-      "Individual": 38225.0,
+      "Individual": 40075.0,
       "Unitemized": 1339.0,
       "Self Funding": 100.0,
       "Other (includes Businesses)": 5800.0
     },
     "contributions_by_origin": {
       "Out of State": 4600.0,
-      "Within Oakland": 24125.0,
-      "Within California": 37400.0
+      "Within Oakland": 24875.0,
+      "Within California": 38500.0
     },
     "total_small_contributions": 2189.0,
     "expenditures_by_type": {
-      "Not Stated": 3165.32,
+      "Not Stated": 3867.84,
       "Phone Banks": 2500.0,
       "Contribution": 1700.0,
+      "Civic Donations": 1800.0,
       "Office Expenses": 1612.15,
       "Campaign Consultants": 10000.0,
       "Campaign Paraphernalia/Misc.": 1351.71,
       "Campaign Literature and Mailings": 28442.12,
       "Postage, Delivery and Messenger Services": 19136.79,
-      "Professional Services (Legal, Accounting)": 2933.27,
+      "Professional Services (Legal, Accounting)": 3660.44,
       "Information Technology Costs (Internet, E-mail)": 11490.0
     },
     "supporting_by_type": {
@@ -72,7 +73,7 @@
 
     ]
   },
-  "total_contributions": 67464.0,
-  "total_expenditures": 82479.63,
+  "total_contributions": 69314.0,
+  "total_expenditures": 85743.65,
   "total_loans_received": 0.0
 }

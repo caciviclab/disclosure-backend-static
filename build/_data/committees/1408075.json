@@ -1,5 +1,5 @@
 {
-  "total_contributions": 48456.89,
+  "total_contributions": 48717.34,
   "contributions": [
     {
       "Filer_ID": "1408075",
@@ -1955,6 +1955,17 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
       "Tran_Date": "2022-03-11",
+      "Tran_NamF": "Courtney A.",
+      "Tran_NamL": "Ruby",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1408075",
+      "Tran_Emp": "Candidate",
+      "Tran_Occ": "Candidate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 260.45,
+      "Tran_Date": "2023-04-24",
       "Tran_NamF": "Courtney A.",
       "Tran_NamL": "Ruby",
       "Tran_Zip4": "94605"
