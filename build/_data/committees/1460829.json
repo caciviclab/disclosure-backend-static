@@ -1,5 +1,5 @@
 {
-  "total_contributions": 10522.0,
+  "total_contributions": 15972.0,
   "contributions": [
     {
       "Filer_ID": "1460829",
@@ -586,6 +586,204 @@
     },
     {
       "Filer_ID": "1460829",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2023-09-26",
+      "Tran_NamF": "Emily",
+      "Tran_NamL": "Filloy",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-09-27",
+      "Tran_NamF": "Ismael",
+      "Tran_NamL": "Armendariz",
+      "Tran_Zip4": "95811"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-09-28",
+      "Tran_NamF": "Ingrid",
+      "Tran_NamL": "Perry-Houts",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "University of San Francisco",
+      "Tran_Occ": "Faculty",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2023-09-29",
+      "Tran_NamF": "Nirali",
+      "Tran_NamL": "Jani",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "ACCE",
+      "Tran_Occ": "Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2023-09-30",
+      "Tran_NamF": "Valarie",
+      "Tran_NamL": "Bachelor",
+      "Tran_Zip4": "94605"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Entertainer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-09-30",
+      "Tran_NamF": "Grace",
+      "Tran_NamL": "Brakerman",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Cargosense",
+      "Tran_Occ": "Software Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-09-30",
+      "Tran_NamF": "Daniel",
+      "Tran_NamL": "Drexler",
+      "Tran_Zip4": "94710"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Kaiser",
+      "Tran_Occ": "Nurse Practitioner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-09-30",
+      "Tran_NamF": "Toni",
+      "Tran_NamL": "Raffetto",
+      "Tran_Zip4": "94602"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "UC Berkeley",
+      "Tran_Occ": "Lab Tech",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2023-10-01",
+      "Tran_NamF": "Ethan",
+      "Tran_NamL": "Gardner",
+      "Tran_Zip4": "94123"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-04",
+      "Tran_NamF": "Jerry",
+      "Tran_NamL": "Wolfe",
+      "Tran_Zip4": "94611"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired Public School Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-06",
+      "Tran_NamF": "Jennifer",
+      "Tran_NamL": "Brouhard",
+      "Tran_Zip4": "94606"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-07",
+      "Tran_NamF": "Joanna",
+      "Tran_NamL": "Davis",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "OTTP-SF",
+      "Tran_Occ": "Social Worker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-09",
+      "Tran_NamF": "Michelle",
+      "Tran_NamL": "Lessans",
+      "Tran_Zip4": "94703"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "BUSD",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-10",
+      "Tran_NamF": "Regina",
+      "Tran_NamL": "Chagolla",
+      "Tran_Zip4": "94608"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Lake Merritt Healthcare Center",
+      "Tran_Occ": "CNA",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-11",
+      "Tran_NamF": "Sylvie",
+      "Tran_NamL": "Burkholder",
+      "Tran_Zip4": "94609"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-13",
+      "Tran_NamF": "Rochelle",
+      "Tran_NamL": "Weintraub",
+      "Tran_Zip4": "94618"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "Apple",
+      "Tran_Occ": "Engineering Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-14",
+      "Tran_NamF": "Devin",
+      "Tran_NamL": "Chalmers",
+      "Tran_Zip4": "94601"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": "MTEA",
+      "Tran_Occ": "Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2023-10-17",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Ward",
+      "Tran_Zip4": "53211"
+    },
+    {
+      "Filer_ID": "1460829",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
@@ -616,6 +814,28 @@
       "Tran_NamF": null,
       "Tran_NamL": "UA Local 342",
       "Tran_Zip4": "94518"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2023-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Education Association PAC",
+      "Tran_Zip4": "95814"
+    },
+    {
+      "Filer_ID": "1460829",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2023-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Peralta Federation of Teachers COPE",
+      "Tran_Zip4": "94606"
     }
   ]
 }
