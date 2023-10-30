@@ -11,28 +11,33 @@ from model.election import Elections
 from model.filing import Filings
 from model.transaction import Transactions
 
+@pytest.fixture(name='data_dir')
+def define_data_dir():
+    """ Set data dir """
+    return '.local/downloads'
+
 @pytest.fixture(name='transactions')
-def load_transactions():
+def load_transactions(data_dir):
     """ load transactions from json """
-    with open('data/transactions.json', encoding='utf8') as f:
+    with open(f'{data_dir}/transactions.json', encoding='utf8') as f:
         yield Transactions(json.loads(f.read())).df
 
 @pytest.fixture(name='filings')
-def load_filings():
+def load_filings(data_dir):
     """ load filings from json """
-    with open('data/filings.json', encoding='utf8') as f:
+    with open(f'{data_dir}/filings.json', encoding='utf8') as f:
         yield Filings(json.loads(f.read())).df
 
 @pytest.fixture(name='elections')
-def load_elections():
+def load_elections(data_dir):
     """ load elections from json """
-    with open('data/elections.json', encoding='utf8') as f:
+    with open(f'{data_dir}/elections.json', encoding='utf8') as f:
         yield Elections(json.loads(f.read())).df
 
 @pytest.fixture(name='committees')
-def load_committees(elections):
+def load_committees(data_dir, elections):
     """ load committees from json """
-    with open('data/filers.json', encoding='utf8') as f:
+    with open(f'{data_dir}/filers.json', encoding='utf8') as f:
         yield Committees.from_filers(json.loads(f.read()), elections).df
 
 def test_a_contributions_has_expected_fields(
