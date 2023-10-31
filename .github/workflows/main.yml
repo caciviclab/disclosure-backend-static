@@ -12,11 +12,6 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - run: "pip install -r gdrive_requirements.txt"
-    - run: "python test_pull_from_gdrive.py"
-    - name: Archive pulled files
-      uses: actions/upload-artifact@v2
-      with:
-        name: redacted-netfile-files
-        path: .local/downloads
+    - run: "pip install -r download/requirements.txt"
+    - run: "python download/main.py"
 
