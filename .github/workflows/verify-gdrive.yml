@@ -21,13 +21,11 @@ jobs:
       run: |
         docker build ./.devcontainer --tag ghcr.io/caciviclab/disclosure-backend-static:latest
         docker push ghcr.io/caciviclab/disclosure-backend-static:latest
-    - name: Build action container
-      uses: ./.devcontainer
     - name: Test pull from gdrive
-      uses: ./.devcontainer
+      uses: ./.github
       with:
         entrypoint: bash
-        args: ./.devcontainer/post-action-command.sh
+        args: ./.github/post-action-command.sh
     - name: Archive pulled files
       uses: actions/upload-artifact@v3
       with:
