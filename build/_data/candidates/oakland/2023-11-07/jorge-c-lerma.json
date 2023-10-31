@@ -21,20 +21,27 @@
   "is_winner": null,
   "filer_id": 1463520,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 5885.0,
+    "total_contributions": 5885.0,
+    "total_expenditures": 678.1,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 5600.0,
+      "Unitemized": 285.0
     },
     "contributions_by_origin": {
+      "Out of State": 1200.0,
+      "Within Oakland": 3500.0,
+      "Within California": 900.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 285.0,
     "expenditures_by_type": {
+      "Polling and Survey Research": 195.0,
+      "Information Technology Costs (Internet, E-mail)": 444.75
     },
     "supporting_by_type": {
     }
@@ -47,7 +54,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 5885.0,
+  "total_expenditures": 678.1,
+  "total_loans_received": 0.0
 }
