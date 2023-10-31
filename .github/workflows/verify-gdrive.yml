@@ -11,11 +11,12 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
+    - name: Build dev container
+      uses: ./.devcontainer
     - name: Test pull from gdrive
       uses: ./.devcontainer
       with:
-        entrypoint: python
-        args: test_pull_from_gdrive.py
+        entrypoint: ./.devcontainer/post-action-command.sh
     - name: Archive pulled files
       uses: actions/upload-artifact@v3
       with:
