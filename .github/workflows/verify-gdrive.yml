@@ -1,4 +1,4 @@
-name: "Check Google Drive Access"
+name: "New Check Google Drive Access"
 on:
   workflow_dispatch:
 jobs:
