@@ -11,6 +11,12 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          devcontainer:
+            - '.devcontainer/**'
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v1
       with:
@@ -18,15 +24,18 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
     - name: Build dev container
+      if: steps.filter.outputs.devcontainer == 'true'
       run: |
         docker build ./.devcontainer --tag ghcr.io/caciviclab/disclosure-backend-static:latest
         docker push ghcr.io/caciviclab/disclosure-backend-static:latest
     - name: Test pull from gdrive
+      if: steps.filter.outputs.devcontainer != 'true'
       uses: ./.github
       with:
         entrypoint: bash
         args: ./.github/post-action-command.sh
     - name: Archive pulled files
+      if: steps.filter.outputs.devcontainer != 'true'
       uses: actions/upload-artifact@v3
       with:
         name: redacted-netfile-files
