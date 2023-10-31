@@ -17,9 +17,4 @@ jobs:
     - uses: actions/checkout@v3
     - run: pip install -r download/requirements.txt
     - run: python download/main.py
-    - name: Archive pulled files
-      uses: actions/upload-artifact@v3
-      with:
-        name: redacted-netfile-files
-        path: .local/downloads
 
