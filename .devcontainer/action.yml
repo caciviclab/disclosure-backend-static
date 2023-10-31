@@ -1,0 +1,5 @@
+name: "Repo Dev Container Action"
+description: "Action using devcontainer for repository"
+runs:
+  using: "docker"
+  image: "./Dockerfile"
