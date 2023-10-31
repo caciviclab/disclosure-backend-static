@@ -1,5 +1,5 @@
 {
-  "id": 133,
+  "id": 136,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": "https://dankalb.net",
@@ -25,20 +25,9 @@
     "total_contributions": 114510.66,
     "total_expenditures": 150894.41,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 35507.32,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 32697.0,
-        "Cand_ID": 1382408,
-        "Filer_ID": "1433122",
-        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021"
-      },
-      {
-        "Total": 2810.32,
-        "Cand_ID": 1382408,
-        "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
-      }
+
     ],
     "contributions_by_type": {
       "Committee": 11350.0,

@@ -181,16 +181,20 @@ CREATE VIEW independent_candidate_expenditures AS
     FROM "D-Expenditure"
     WHERE "Expn_Code" = 'IND'
   ) AS all_data
-  JOIN "candidates"
+  JOIN "candidates" c
   ON LOWER(TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL"))) = LOWER("Candidate")
     OR LOWER("Aliases") LIKE LOWER(CONCAT('%', TRIM(CONCAT("Cand_NamF", ' ', "Cand_NamL")), '%'))
+  JOIN elections e
+  ON c.election_name = e.name
   JOIN
   (
     SELECT DISTINCT ON ("Filer_ID") "Filer_ID", "Filer_NamL"
     FROM committees
   ) committee
   ON committee."Filer_ID" = all_data."Filer_ID"
-  WHERE ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
+  WHERE (e."Start_Date" IS NULL OR "Exp_Date" >= e."Start_Date")
+  AND (e."End_Date" IS NULL OR "Exp_Date" <= e."End_Date")
+  AND "FPPC" IS NOT NULL
   AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
 SQL

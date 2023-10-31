@@ -49,8 +49,8 @@ class CommitteeContributionListCalculator
           total_small += amount unless amount  >= 100 || amount <= -100
         end
         committee_or_candidate.save_calculation(:contribution_list, sorted)
-        committee_or_candidate.save_calculation(:contribution_list_total, total_contributions)
-        committee_or_candidate.save_calculation(:total_small_itemized_contributions, total_small)
+        committee_or_candidate.save_calculation(:contribution_list_total, total_contributions.round(2))
+        committee_or_candidate.save_calculation(:total_small_itemized_contributions, total_small.round(2))
       end
     end
   end

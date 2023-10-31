@@ -1,5 +1,5 @@
 {
-  "total_contributions": 577030.0500000003,
+  "total_contributions": 577530.05,
   "contributions": [
     {
       "Filer_ID": "1441375",
@@ -23452,6 +23452,17 @@
       "Tran_NamF": "Alze",
       "Tran_NamL": "Roberts",
       "Tran_Zip4": "94619-2606"
+    },
+    {
+      "Filer_ID": "1441375",
+      "Tran_Emp": "Davillier-Sloan, Inc.",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2023-01-31",
+      "Tran_NamF": "Jake",
+      "Tran_NamL": "Sloan",
+      "Tran_Zip4": "94607-1404"
     }
   ]
 }

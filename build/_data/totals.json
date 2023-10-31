@@ -33,7 +33,7 @@
     ]
   },
   "oakland-2014": {
-    "total_contributions": 2998359.7399999998,
+    "total_contributions": 2998359.74,
     "total_contributions_by_source": {
       "Out of State": 138591.89,
       "Within Oakland": 1581483.6400000001,
@@ -51,7 +51,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1865761.2
+        "amount": 1865761.2000000002
       },
       {
         "slug": "city-council-district-2",
@@ -94,19 +94,19 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
+        "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2014",
-        "total_spending": 224049.5
+        "total_spending": 107576.9
       },
       {
-        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "name": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO",
         "election_name": "oakland-2014",
-        "total_spending": 174766.0
+        "total_spending": 89243.48
       },
       {
-        "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
+        "name": "OAKPAC, Oakland Metropolitan Chamber of Commerce",
         "election_name": "oakland-2014",
-        "total_spending": 129086.79
+        "total_spending": 10446.26
       }
     ],
     "top_contributors": [
@@ -194,7 +194,7 @@
     ]
   },
   "oakland-2016": {
-    "total_contributions": 20940460.82,
+    "total_contributions": 20940510.82,
     "total_contributions_by_source": {
       "Out of State": 10533130.27,
       "Within Oakland": 1456001.7400000002,
@@ -260,14 +260,14 @@
         "total_spending": 486753.01
       },
       {
-        "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
+        "name": "Oakland Police Officer’s Association - Political Action Committee",
         "election_name": "oakland-2016",
-        "total_spending": 224049.5
+        "total_spending": 50759.88
       },
       {
-        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "name": "East Bay Rental Housing Association PAC",
         "election_name": "oakland-2016",
-        "total_spending": 174766.0
+        "total_spending": 148.12
       }
     ],
     "top_contributors": [
@@ -389,17 +389,17 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6842454.140000001,
+    "total_contributions": 6844360.83,
     "total_contributions_by_source": {
       "Out of State": 948176.36,
-      "Within Oakland": 2597715.93,
+      "Within Oakland": 2600422.6199999996,
       "Within California": 2882924.86
     },
     "contributions_by_type": {
       "Committee": 954896.17,
-      "Individual": 2648580.99,
+      "Individual": 2649041.44,
       "Unitemized": 157811.78,
-      "Self Funding": 86218.73000000001,
+      "Self Funding": 88464.97,
       "Other (includes Businesses)": 2739121.2600000002
     },
     "most_expensive_races": [
@@ -413,13 +413,13 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 946492.69
+        "amount": 947742.69
       },
       {
         "slug": "just-cause-eviction-amendments",
         "type": "referendum",
         "title": "Measure Y",
-        "amount": 839177.3800000001
+        "amount": 839177.38
       }
     ],
     "largest_small_proportion": [
@@ -450,19 +450,19 @@
     ],
     "largest_independent_expenditures": [
       {
-        "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
-        "election_name": "oakland-2018",
-        "total_spending": 570611.0
-      },
-      {
-        "name": "East and South Bay Working Families United sponsored by labor organizations",
-        "election_name": "oakland-2018",
-        "total_spending": 173701.0
-      },
-      {
         "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
         "election_name": "oakland-2018",
         "total_spending": 149368.03
+      },
+      {
+        "name": "East Bay Working Families",
+        "election_name": "oakland-2018",
+        "total_spending": 140824.0
+      },
+      {
+        "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
+        "election_name": "oakland-2018",
+        "total_spending": 129086.79
       }
     ],
     "top_contributors": [
@@ -584,16 +584,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 2975047.1800000006,
+    "total_contributions": 2992603.18,
     "total_contributions_by_source": {
       "Out of State": 184777.27,
-      "Within Oakland": 1376130.2600000002,
-      "Within California": 1090625.0499999998
+      "Within Oakland": 1387330.2600000002,
+      "Within California": 1095820.0499999998
     },
     "contributions_by_type": {
       "Committee": 443366.93,
-      "Individual": 1745592.61,
-      "Unitemized": 211649.34999999995,
+      "Individual": 1761987.61,
+      "Unitemized": 213305.34999999995,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 328106.4
     },
@@ -608,7 +608,7 @@
         "slug": "city-council-district-7",
         "type": "office",
         "title": "City Council District 7",
-        "amount": 452164.32999999996
+        "amount": 453009.32999999996
       },
       {
         "slug": "city-council-district-3",
@@ -779,32 +779,32 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 6463134.51,
+    "total_contributions": 6476065.89,
     "total_contributions_by_source": {
-      "Out of State": 520797.35,
-      "Within Oakland": 2624046.9300000006,
-      "Within California": 2992731.97
+      "Out of State": 521147.35,
+      "Within Oakland": 2632398.1800000006,
+      "Within California": 3006531.1199999996
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 993901.14,
-      "Individual": 2489080.870000002,
-      "Unitemized": 134011.25,
+      "Committee": 995101.14,
+      "Individual": 2507910.870000002,
+      "Unitemized": 135828.3,
       "Self Funding": 2711.0,
-      "Other (includes Businesses)": 2635983.24
+      "Other (includes Businesses)": 2638453.6399999997
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1999281.05
+        "amount": 2014300.25
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
         "type": "referendum",
         "title": "Measure T",
-        "amount": 1124066.1400000001
+        "amount": 1124066.14
       },
       {
         "slug": "oakland-zoo-animal-care-education-and-improvement",
@@ -819,7 +819,7 @@
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Allyssa Victory Villanueva",
-        "proportion": 0.18010565424358527,
+        "proportion": 0.1822939885711639,
         "office_title": "Mayor"
       },
       {
@@ -827,7 +827,7 @@
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Valarie Bachelor",
-        "proportion": 0.17098657950537433,
+        "proportion": 0.17107883651708103,
         "office_title": "OUSD District 6"
       },
       {
@@ -992,18 +992,6 @@
         "type": "referendum",
         "title": "Measure D",
         "amount": 151587.72
-      },
-      {
-        "slug": "regional-measure-3",
-        "type": "referendum",
-        "title": "Measure 3",
-        "amount": 0
-      },
-      {
-        "slug": "alameda-county-sales-tax-for-childcare-and-education",
-        "type": "referendum",
-        "title": "Measure A",
-        "amount": 0
       }
     ],
     "largest_small_proportion": [
@@ -1096,7 +1084,7 @@
     ]
   },
   "oakland-june-2022": {
-    "total_contributions": 104075.01999999999,
+    "total_contributions": 104075.02,
     "total_contributions_by_source": {
       "Out of State": 6400.0,
       "Within Oakland": 64425.02,
@@ -1112,7 +1100,7 @@
         "slug": "library-services-retention-and-enhancement-act",
         "type": "referendum",
         "title": "Measure C",
-        "amount": 104075.01999999999
+        "amount": 104075.02
       }
     ],
     "largest_small_proportion": [
@@ -1205,14 +1193,14 @@
     ]
   },
   "oakland-march-2020": {
-    "total_contributions": 435340.88,
+    "total_contributions": 438840.88,
     "total_contributions_by_source": {
       "Out of State": 36764.0,
       "Within Oakland": 199672.64,
-      "Within California": 198904.24
+      "Within California": 202404.24
     },
     "contributions_by_type": {
-      "Committee": 144912.0,
+      "Committee": 148412.0,
       "Individual": 28312.72,
       "Other (includes Businesses)": 262116.16
     },
@@ -1221,19 +1209,7 @@
         "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
         "type": "referendum",
         "title": "Measure Q",
-        "amount": 435340.88
-      },
-      {
-        "slug": "official-city-newspaper",
-        "type": "referendum",
-        "title": "Measure R",
-        "amount": 0
-      },
-      {
-        "slug": "increase-appropriations-limit",
-        "type": "referendum",
-        "title": "Measure S",
-        "amount": 0
+        "amount": 438840.88
       }
     ],
     "largest_small_proportion": [
@@ -1336,73 +1312,154 @@
     ]
   },
   "oakland-2023": {
-    "total_contributions": 0.0,
+    "total_contributions": 17530.0,
     "total_contributions_by_source": {
+      "Out of State": 100.0,
+      "Within Oakland": 8896.0,
+      "Within California": 6976.0
     },
     "contributions_by_type": {
+      "Committee": 6000.0,
+      "Individual": 9972.0,
+      "Unitemized": 1558.0
     },
     "most_expensive_races": [
       {
         "slug": "school-board-district-5",
         "type": "office",
         "title": "School Board District 5",
-        "amount": 0
+        "amount": 17530.0
       }
     ],
     "largest_small_proportion": [
-
+      {
+        "slug": "alexandra-ritzie-hernandez",
+        "type": "office",
+        "title": "Oakland November 7th, 2023 Special Election",
+        "candidate": "Alexandra Ritzie-Hernandez",
+        "proportion": 0.0966343411294923,
+        "office_title": "School Board District 5"
+      }
     ],
-    "largest_independent_expenditures": {
-    },
+    "largest_independent_expenditures": [
+      {
+        "name": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2023",
+        "total_spending": 30192.57
+      },
+      {
+        "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "election_name": "oakland-2023",
+        "total_spending": 15800.0
+      },
+      {
+        "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2023",
+        "total_spending": 4179.94
+      }
+    ],
     "top_contributors": [
-
+      {
+        "name": "UA Local 342",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Laborers Local 304",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      }
     ],
     "top_contributors_for_offices": [
-
+      {
+        "name": "UA Local 342",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Laborers Local 304",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      }
     ],
     "top_contributors_for_measures": [
 
     ],
     "top_spenders": [
-
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      }
     ],
     "top_spenders_for_offices": [
-
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      }
     ],
     "top_spenders_for_measures": [
 
     ]
   },
   "oakland-2024": {
-    "total_contributions": 12359.49,
+    "total_contributions": 21397.5,
     "total_contributions_by_source": {
-      "Out of State": 3700.0,
-      "Within Oakland": 3800.0,
-      "Within California": 3448.49
+      "Out of State": 7400.0,
+      "Within Oakland": 5100.0,
+      "Within California": 6349.5
     },
     "contributions_by_type": {
       "Committee": 500.0,
-      "Individual": 10448.49,
-      "Unitemized": 1361.0
+      "Individual": 18349.5,
+      "Unitemized": 2498.0
     },
     "most_expensive_races": [
       {
         "slug": "city-council-district-7",
         "type": "office",
         "title": "City Council District 7",
-        "amount": 12359.49
-      },
-      {
-        "slug": "city-attorney",
-        "type": "office",
-        "title": "City Attorney",
-        "amount": 0
-      },
-      {
-        "slug": "city-council-at-large",
-        "type": "office",
-        "title": "City Council At-Large",
-        "amount": 0
+        "amount": 21397.5
       }
     ],
     "largest_small_proportion": [
@@ -1411,42 +1468,27 @@
         "type": "office",
         "title": "Oakland November 5th, 2024 General Election",
         "candidate": "Treva Reid",
-        "proportion": 0.11011781230455302,
+        "proportion": 0.11674261011800444,
         "office_title": "City Council District 7"
       }
     ],
-    "largest_independent_expenditures": [
-      {
-        "name": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022",
-        "election_name": "oakland-2024",
-        "total_spending": 20625.89
-      },
-      {
-        "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
-        "election_name": "oakland-2024",
-        "total_spending": 3520.67
-      },
-      {
-        "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-        "election_name": "oakland-2024",
-        "total_spending": 2810.32
-      }
-    ],
+    "largest_independent_expenditures": {
+    },
     "top_contributors": [
       {
         "name": "Dow Terry",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
         "name": "Weylin White",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
-        "name": "Brandon Baranco",
+        "name": "Jacob Zonn",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1454,19 +1496,19 @@
         "name": "Weylin White",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       },
       {
         "name": "Jacob Zonn",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 900.0
+        "total_contributions": 1800.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1477,19 +1519,19 @@
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Dow Terry",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Brooke Levin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1497,19 +1539,19 @@
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Dow Terry",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       },
       {
         "name": "Brooke Levin",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 900.0
+        "total_spending": 1800.0
       }
     ],
     "top_spenders_for_measures": [
