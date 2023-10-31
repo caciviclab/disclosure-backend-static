@@ -2,7 +2,7 @@
 # The verify-gdrive.yml workflow file will be renamed to this one
 # We have to introduce this change in steps because GitHub gets confused until
 # we add the new workflow file to the master branch
-name: "Check Google Drive Access"
+name: "Generate Website Data"
 on:
   workflow_dispatch:
 jobs:
