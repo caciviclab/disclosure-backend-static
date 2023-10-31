@@ -27,7 +27,7 @@ jobs:
       if: steps.filter.outputs.devcontainer == 'true'
       run: |
         ls -al
-        docker build ./.devcontainer --tag ghcr.io/caciviclab/disclosure-backend-static:latest
+        docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static:latest ./.devcontainer
         docker push ghcr.io/caciviclab/disclosure-backend-static:latest
     - name: Test pull from gdrive
       if: steps.filter.outputs.devcontainer != 'true'
