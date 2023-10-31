@@ -16,7 +16,8 @@ jobs:
     - name: Test pull from gdrive
       uses: ./.devcontainer
       with:
-        entrypoint: ./.devcontainer/post-action-command.sh
+        entrypoint: bash
+        args: ./.devcontainer/post-action-command.sh
     - name: Archive pulled files
       uses: actions/upload-artifact@v3
       with:
