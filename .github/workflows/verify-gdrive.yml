@@ -1,12 +1,8 @@
-# This workflow will later be replaced with logic to "Generate Website Data"
-# The verify-gdrive.yml workflow file will be renamed to this one
-# We have to introduce this change in steps because GitHub gets confused until
-# we add the new workflow file to the master branch
-name: "Check Google Drive Access"
+name: "New Check Google Drive Access"
 on:
   workflow_dispatch:
 jobs:
-  generate:
+  check:
     runs-on: ubuntu-latest
     env:
       REPO_OWNER: ${{ github.repository_owner}}
