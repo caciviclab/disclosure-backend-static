@@ -10,7 +10,7 @@ from model.election import Elections
 from model.filing import Filings
 from model.transaction import Transactions
 
-from gdrive_datastore.gdrive import test_data_pull
+from gdrive_datastore.gdrive import pull_data
 
 def get_last_status(status_list):
     """
@@ -30,7 +30,7 @@ def main():
     data_dir_path = '.local/downloads'
 
     # pull data from gdrive and put it in .local/downloads
-    test_data_pull(default_folder='OpenDisclosure')
+    pull_data(subfolder='main', default_folder='OpenDisclosure')
 
     #engine = create_engine('postgresql+psycopg2://localhost/disclosure-backend-v2', echo=True)
 
