@@ -1,7 +1,3 @@
-# This workflow will later be replaced with logic to "Generate Website Data"
-# The verify-gdrive.yml workflow file will be renamed to this one
-# We have to introduce this change in steps because GitHub gets confused until
-# we add the new workflow file to the master branch
 name: "Generate Website Data"
 on:
   workflow_dispatch:
@@ -9,7 +5,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
+    outputs:
+      devcontainer: ${{ steps.filter.outputs.devcontainer }}
+      noncontainer: ${{ steps.filter.outputs.noncontainer }}
     steps:
     - uses: actions/checkout@v3
     - name: Get changed files
@@ -37,7 +35,7 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
     - name: Build dev container
-      if: steps.filter.outputs.devcontainer == 'true'
+      if: (steps.filter.outputs.devcontainer == 'true') && (github.event_name == 'push')
       run: |
         docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest -f ./.devcontainer/Dockerfile .
         docker push ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
@@ -47,6 +45,7 @@ jobs:
         echo "TODO: run test to verify that code changes are good"
   generate:
     needs: build
+    if: (needs.build.outputs.noncontainer == 'true') || (github.event_name != 'push')
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
