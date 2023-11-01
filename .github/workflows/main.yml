@@ -47,7 +47,13 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - name: Test pull from gdrive
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{github.actor}}
+        password: ${{secrets.GITHUB_TOKEN}}    
+    - name: Create csv files
       uses: ./.github
       with:
         entrypoint: python
