@@ -81,7 +81,7 @@ jobs:
         echo "c1,c2" > test.csv
         echo "a,b" >> test.csv
         cat test.csv
-        csvsql -v --doublequote --db postgresql:///disclosure-backend --insert test.csv
+        csvsql -v --doublequote --db postgresql:///disclosure-backend --insert < test.csv
         echo "List tables"
         psql -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
 
