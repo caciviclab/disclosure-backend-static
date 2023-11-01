@@ -52,6 +52,9 @@ jobs:
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.github_token }}
+    services:
+      postgres:
+        image: postgres:latest
     if: github.event_name != 'push'
     env:
       REPO_OWNER: ${{ github.repository_owner}}
