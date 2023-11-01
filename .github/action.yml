@@ -1,5 +1,0 @@
-name: "Repo Dev Container Action"
-description: "Action using repository's dev container"
-runs:
-  using: "docker"
-  image: "./Dockerfile"
