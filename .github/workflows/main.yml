@@ -17,21 +17,20 @@ jobs:
       id: filter
       run: |
         devcontainer=false
-        noncontainer=false
+        noncontainer=true
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
-          if [[ $file = .devcontainer* ]]; then
-            devcontainer=true
-          elif [[ $file = *requirements.txt* ]]; then
-            devcontainer=true
-            noncontainer=true
-          elif [[ $file = Gemfile* ]]; then
-            devcontainer=true
-            noncontainer=true
-          else
-            noncontainer=true
+          if [[ ${{github.event_name}} = push ]]; then
+            if [[ $file = .devcontainer* ]]; then
+              devcontainer=true
+            elif [[ $file = *requirements.txt* ]]; then
+              devcontainer=true
+            elif [[ $file = Gemfile* ]]; then
+              devcontainer=true
+            fi
           fi
         done
+        
         echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
         echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
     - name: Login to GitHub Container Registry
