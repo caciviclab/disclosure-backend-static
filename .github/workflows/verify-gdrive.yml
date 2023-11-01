@@ -18,13 +18,18 @@ jobs:
     # NOTE: `since_last_remote_commit: true` is implied by default and falls back to the previous local commit.
 
     - name: List all changed files
+      id: filter
       run: |
+        echo "::set-output name=devcontainer::false"
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
+          if [[ $file = .devcontainer* ]]; then
+            echo "::set-output name=devcontainer::true"
+          fi
         done
-        
+
     - uses: dorny/paths-filter@v2
-      id: filter
+      id: old-filter
       with:
         base: ${{ github.ref }}
         ref: ${{ github.ref }}
