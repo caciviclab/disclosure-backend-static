@@ -22,6 +22,12 @@ jobs:
           echo "$file was changed"
           if [[ $file = .devcontainer* ]]; then
             devcontainer=true
+          elif [[ $file = *requirements.txt* ]]; then
+            devcontainer=true
+            noncontainer=true
+          elif [[ $file = Gemfile* ]]; then
+            devcontainer=true
+            noncontainer=true
           else
             noncontainer=true
           fi
