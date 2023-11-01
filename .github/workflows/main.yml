@@ -63,7 +63,11 @@ jobs:
     services:
       postgres:
         image: postgres:latest
-    if: github.event_name != 'push'
+        env:
+          POSTGRES_USER: app_user
+          POSTGRES_DB: "disclosure-backend"
+          POSTGRES_PASSWORD: app_password
+      if: github.event_name != 'push'
     steps:
     - uses: actions/checkout@v3
     - name: Create csv files
