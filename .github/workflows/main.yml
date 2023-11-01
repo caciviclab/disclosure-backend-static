@@ -40,7 +40,7 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
     - name: Build dev container
-      if: (steps.filter.outputs.devcontainer == 'true') && (github.event_name == 'push')
+      if: steps.filter.outputs.devcontainer == 'true'
       run: |
         docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest -f ./.devcontainer/Dockerfile .
         docker push ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
@@ -50,7 +50,7 @@ jobs:
         echo "TODO: run test to verify that code changes are good"
   generate:
     needs: build
-    if: (needs.build.outputs.noncontainer == 'true') || (github.event_name != 'push')
+    if: needs.build.outputs.noncontainer == 'true'
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
@@ -84,6 +84,11 @@ jobs:
         make download
         make import
         make process
+    - name: Summarize results
+      run: |
+        psql --query "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
+    - name: Create new netfile csv files
+      run: |
         # move the following up to download section when it's working
         python download/main.py
-
+ 
