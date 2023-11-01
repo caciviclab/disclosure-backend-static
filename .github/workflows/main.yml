@@ -5,9 +5,16 @@
 name: "Generate Website Data"
 on:
   workflow_dispatch:
+  push:
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - run: echo "Running"
   generate:
     runs-on: ubuntu-latest
+    if: github.event_name != 'push'
     env:
       REPO_OWNER: ${{ github.repository_owner}}
       REPO_BRANCH: ${{ github.ref_name }}
