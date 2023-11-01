@@ -11,6 +11,17 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v40
+
+    # NOTE: `since_last_remote_commit: true` is implied by default and falls back to the previous local commit.
+
+    - name: List all changed files
+      run: |
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          echo "$file was changed"
+        done
     - uses: dorny/paths-filter@v2
       id: filter
       with:
