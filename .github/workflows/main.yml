@@ -71,7 +71,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Check setup
-      run: psql -l
+      run: |
+        psql -l
+        pip show sqlalchemy
     - name: Create csv files
       run: |
         make download
