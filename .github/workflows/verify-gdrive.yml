@@ -22,6 +22,7 @@ jobs:
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
         done
+        
     - uses: dorny/paths-filter@v2
       id: filter
       with:
