@@ -27,15 +27,6 @@ jobs:
             echo "::set-output name=devcontainer::true"
           fi
         done
-
-    - uses: dorny/paths-filter@v2
-      id: old-filter
-      with:
-        base: ${{ github.ref }}
-        ref: ${{ github.ref }}
-        filters: |
-          devcontainer:
-            - '.devcontainer/**'
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v1
       with:
