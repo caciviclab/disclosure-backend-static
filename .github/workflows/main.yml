@@ -52,15 +52,18 @@ jobs:
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.github_token }}
+      env:
+        REPO_OWNER: ${{ github.repository_owner}}
+        REPO_BRANCH: ${{ github.ref_name }}
+        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+        GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+        PGHOST: postgres
+        PGDATABASE: disclosure-backend
+        PGUSER: app_user
     services:
       postgres:
         image: postgres:latest
     if: github.event_name != 'push'
-    env:
-      REPO_OWNER: ${{ github.repository_owner}}
-      REPO_BRANCH: ${{ github.ref_name }}
-      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
     - name: Create csv files
