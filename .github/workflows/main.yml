@@ -60,17 +60,19 @@ jobs:
         PGHOST: postgres
         PGDATABASE: disclosure-backend
         PGUSER: app_user
+        PGPASSWORD: app_password
     services:
       postgres:
         image: postgres:latest
         env:
           POSTGRES_USER: app_user
-          POSTGRES_DB: "disclosure-backend"
+          POSTGRES_DB: disclosure-backend
           POSTGRES_PASSWORD: app_password
     steps:
     - uses: actions/checkout@v3
     - name: Create csv files
       run: |
+        psql -l
         make download
         make import
         python download/main.py
