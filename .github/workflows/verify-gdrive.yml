@@ -26,15 +26,14 @@ jobs:
     - name: Build dev container
       if: steps.filter.outputs.devcontainer == 'true'
       run: |
-        ls -al
         docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static:latest -f ./.devcontainer/Dockerfile .
         docker push ghcr.io/caciviclab/disclosure-backend-static:latest
     - name: Test pull from gdrive
       if: steps.filter.outputs.devcontainer != 'true'
       uses: ./.github
       with:
-        entrypoint: bash
-        args: ./.github/post-action-command.sh
+        entrypoint: python
+        args: test_pull_from_gdrive.py
     - name: Archive pulled files
       if: steps.filter.outputs.devcontainer != 'true'
       uses: actions/upload-artifact@v3
