@@ -19,13 +19,17 @@ jobs:
       id: filter
       run: |
         devcontainer=false
+        noncontainer=false
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
           if [[ $file = .devcontainer* ]]; then
             devcontainer=true
+          else
+            noncontainer=true
           fi
         done
         echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
+        echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v1
       with:
@@ -35,8 +39,12 @@ jobs:
     - name: Build dev container
       if: steps.filter.outputs.devcontainer == 'true'
       run: |
-        docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static:latest -f ./.devcontainer/Dockerfile .
-        docker push ghcr.io/caciviclab/disclosure-backend-static:latest
+        docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest -f ./.devcontainer/Dockerfile .
+        docker push ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+    - name: Check code changes
+      if: steps.filter.outputs.noncontainer == 'true'
+      run: |
+        echo "TODO: run test to verify that code changes are good"
   generate:
     runs-on: ubuntu-latest
     if: github.event_name != 'push'

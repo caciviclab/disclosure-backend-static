@@ -4,6 +4,8 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
     env:
       REPO_OWNER: ${{ github.repository_owner}}
       REPO_BRANCH: ${{ github.ref_name }}
@@ -11,17 +13,8 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - name: Login to GitHub Container Registry
-      uses: docker/login-action@v1
-      with:
-        registry: ghcr.io
-        username: ${{github.actor}}
-        password: ${{secrets.GITHUB_TOKEN}}
     - name: Test pull from gdrive
-      uses: ./.github
-      with:
-        entrypoint: python
-        args: test_pull_from_gdrive.py
+      run: python test_pull_from_gdrive.py
     - name: Archive pulled files
       uses: actions/upload-artifact@v3
       with:
