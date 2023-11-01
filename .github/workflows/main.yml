@@ -46,6 +46,7 @@ jobs:
       run: |
         echo "TODO: run test to verify that code changes are good"
   generate:
+    needs: build
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
@@ -70,9 +71,10 @@ jobs:
           POSTGRES_PASSWORD: app_password
     steps:
     - uses: actions/checkout@v3
+    - name: Check setup
+      run: psql -l
     - name: Create csv files
       run: |
-        psql -l
         make download
         make import
         python download/main.py
