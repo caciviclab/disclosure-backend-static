@@ -14,19 +14,17 @@ jobs:
     - name: Get changed files
       id: changed-files
       uses: tj-actions/changed-files@v40
-
-    # NOTE: `since_last_remote_commit: true` is implied by default and falls back to the previous local commit.
-
     - name: List all changed files
       id: filter
       run: |
-        echo "::set-output name=devcontainer::false"
+        devcontainer=false
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
           if [[ $file = .devcontainer* ]]; then
-            echo "::set-output name=devcontainer::true"
+            devcontainer=true
           fi
         done
+        echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v1
       with:
