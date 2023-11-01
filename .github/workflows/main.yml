@@ -78,6 +78,11 @@ jobs:
     - name: Check setup
       run: |
         psql -l
+        echo "c1,c2" > test.csv
+        echo "a,b" >> test.csv
+        csvsql --doublequote --db postgresql:///disclosure-backend --insert test.csv
+        psql --query "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
+
         pip show sqlalchemy
     - name: Create csv files
       run: |
