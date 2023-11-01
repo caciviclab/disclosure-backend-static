@@ -61,5 +61,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Create csv files
-      run: python download/main.py
+      run: |
+        make download
+        make import
+        python download/main.py
 
