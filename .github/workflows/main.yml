@@ -11,17 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
     steps:
-      - run: echo "Running"
-  generate:
-    runs-on: ubuntu-latest
-    if: github.event_name != 'push'
-    env:
-      REPO_OWNER: ${{ github.repository_owner}}
-      REPO_BRANCH: ${{ github.ref_name }}
-      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
-    steps:
-    - uses: actions/checkout@v3
+    - run: echo "Running"
     - name: Get changed files
       id: changed-files
       uses: tj-actions/changed-files@v40
@@ -47,8 +37,17 @@ jobs:
       run: |
         docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static:latest -f ./.devcontainer/Dockerfile .
         docker push ghcr.io/caciviclab/disclosure-backend-static:latest
+  generate:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'push'
+    env:
+      REPO_OWNER: ${{ github.repository_owner}}
+      REPO_BRANCH: ${{ github.ref_name }}
+      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+    steps:
+    - uses: actions/checkout@v3
     - name: Test pull from gdrive
-      if: steps.filter.outputs.devcontainer != 'true'
       uses: ./.github
       with:
         entrypoint: python
