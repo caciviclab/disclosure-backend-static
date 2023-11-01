@@ -81,6 +81,7 @@ jobs:
         pip show sqlalchemy
     - name: Create csv files
       run: |
+        make clean
         make download
         make import
         make process
