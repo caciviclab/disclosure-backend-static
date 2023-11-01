@@ -47,6 +47,11 @@ jobs:
         echo "TODO: run test to verify that code changes are good"
   generate:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
     if: github.event_name != 'push'
     env:
       REPO_OWNER: ${{ github.repository_owner}}
@@ -55,15 +60,6 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - name: Login to GitHub Container Registry
-      uses: docker/login-action@v1
-      with:
-        registry: ghcr.io
-        username: ${{github.actor}}
-        password: ${{secrets.GITHUB_TOKEN}}    
     - name: Create csv files
-      uses: ./.github
-      with:
-        entrypoint: python
-        args: download/main.py
+      run: python download/main.py
 
