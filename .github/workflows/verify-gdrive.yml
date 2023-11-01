@@ -11,39 +11,18 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - name: Get changed files
-      id: changed-files
-      uses: tj-actions/changed-files@v40
-    - name: List all changed files
-      id: filter
-      run: |
-        devcontainer=false
-        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-          echo "$file was changed"
-          if [[ $file = .devcontainer* ]]; then
-            devcontainer=true
-          fi
-        done
-        echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v1
       with:
         registry: ghcr.io
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
-    - name: Build dev container
-      if: steps.filter.outputs.devcontainer == 'true'
-      run: |
-        docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static:latest -f ./.devcontainer/Dockerfile .
-        docker push ghcr.io/caciviclab/disclosure-backend-static:latest
     - name: Test pull from gdrive
-      if: steps.filter.outputs.devcontainer != 'true'
       uses: ./.github
       with:
         entrypoint: python
         args: test_pull_from_gdrive.py
     - name: Archive pulled files
-      if: steps.filter.outputs.devcontainer != 'true'
       uses: actions/upload-artifact@v3
       with:
         name: redacted-netfile-files
