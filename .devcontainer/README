@@ -1,3 +1,4 @@
 # Dev Container Help
 
 The dev container can be used to work on the project in a consistent environment independent of what machine you are working on.  When working in the dev container, you will have a postgres instance running.  You can access the postgres instance just by running psql.
+
