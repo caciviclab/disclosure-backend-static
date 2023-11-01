@@ -14,7 +14,8 @@ jobs:
     - uses: dorny/paths-filter@v2
       id: filter
       with:
-        base: ${{ github.sha }}
+        base: ${{ github.ref }}
+        ref: ${{ github.ref }}
         filters: |
           devcontainer:
             - '.devcontainer/**'
