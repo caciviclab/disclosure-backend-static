@@ -15,13 +15,20 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - uses: dorny/paths-filter@v2
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v40
+    - name: List all changed files
       id: filter
-      with:
-        base: ${{ github.sha }}
-        filters: |
-          devcontainer:
-            - '.devcontainer/**'
+      run: |
+        devcontainer=false
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          echo "$file was changed"
+          if [[ $file = .devcontainer* ]]; then
+            devcontainer=true
+          fi
+        done
+        echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v1
       with:
