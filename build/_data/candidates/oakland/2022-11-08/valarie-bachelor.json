@@ -1,5 +1,5 @@
 {
-  "id": 53,
+  "id": 57,
   "name": "Valarie Bachelor",
   "photo_url": "Valarie Bachelor.jpg",
   "website_url": "https://www.val4oakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1451532,
   "supporting_money": {
-    "contributions_received": 39185.59,
-    "total_contributions": 39185.59,
-    "total_expenditures": 27624.6,
+    "contributions_received": 39310.59,
+    "total_contributions": 39310.59,
+    "total_expenditures": 29197.44,
     "total_loans_received": 100.0,
     "total_supporting_independent": 50790.25,
     "support_list": [
@@ -42,25 +42,25 @@
     ],
     "contributions_by_type": {
       "Committee": 7800.0,
-      "Individual": 23819.63,
-      "Unitemized": 5730.0,
+      "Individual": 23919.63,
+      "Unitemized": 5755.0,
       "Self Funding": 101.0,
       "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
-      "Out of State": 6047.0,
+      "Out of State": 6147.0,
       "Within Oakland": 14473.63,
       "Within California": 12800.0
     },
-    "total_small_contributions": 6700.21,
+    "total_small_contributions": 6725.21,
     "expenditures_by_type": {
-      "Not Stated": 7438.59,
+      "Not Stated": 7690.43,
       "Fundraising Events": 525.0,
       "Campaign Consultants": 3500.0,
       "Campaign Workers' Salaries": 1000.0,
       "Campaign Literature and Mailings": 6992.49,
       "Professional Services (Legal, Accounting)": 7213.29,
-      "Information Technology Costs (Internet, E-mail)": 179.0
+      "Information Technology Costs (Internet, E-mail)": 1074.0
     },
     "supporting_by_type": {
       "IKD": 20.17,
@@ -76,7 +76,7 @@
 
     ]
   },
-  "total_contributions": 39185.59,
-  "total_expenditures": 27624.6,
+  "total_contributions": 39310.59,
+  "total_expenditures": 29197.44,
   "total_loans_received": 100.0
 }

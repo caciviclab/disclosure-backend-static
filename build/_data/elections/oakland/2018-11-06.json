@@ -1,15 +1,15 @@
 {
-  "total_contributions": 6842454.140000001,
+  "total_contributions": 6844360.83,
   "total_contributions_by_source": {
     "Out of State": 948176.36,
-    "Within Oakland": 2597715.93,
+    "Within Oakland": 2600422.6199999996,
     "Within California": 2882924.86
   },
   "contributions_by_type": {
     "Committee": 954896.17,
-    "Individual": 2648580.99,
+    "Individual": 2649041.44,
     "Unitemized": 157811.78,
-    "Self Funding": 86218.73000000001,
+    "Self Funding": 88464.97,
     "Other (includes Businesses)": 2739121.2600000002
   },
   "most_expensive_races": [
@@ -23,13 +23,13 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 946492.69
+      "amount": 947742.69
     },
     {
       "slug": "just-cause-eviction-amendments",
       "type": "referendum",
       "title": "Measure Y",
-      "amount": 839177.3800000001
+      "amount": 839177.38
     }
   ],
   "largest_small_proportion": [
@@ -60,19 +60,19 @@
   ],
   "largest_independent_expenditures": [
     {
-      "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
-      "election_name": "oakland-2018",
-      "total_spending": 570611.0
-    },
-    {
-      "name": "East and South Bay Working Families United sponsored by labor organizations",
-      "election_name": "oakland-2018",
-      "total_spending": 173701.0
-    },
-    {
       "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
       "election_name": "oakland-2018",
       "total_spending": 149368.03
+    },
+    {
+      "name": "East Bay Working Families",
+      "election_name": "oakland-2018",
+      "total_spending": 140824.0
+    },
+    {
+      "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
+      "election_name": "oakland-2018",
+      "total_spending": 129086.79
     }
   ],
   "top_contributors": [

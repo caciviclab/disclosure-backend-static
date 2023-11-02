@@ -1,5 +1,5 @@
 {
-  "id": 18,
+  "id": 21,
   "name": "David Kakishiba",
   "photo_url": "David Kakishiba.png",
   "website_url": "https://www.kakishiba4oaklandschoolboard.com/",
@@ -21,30 +21,31 @@
   "is_winner": null,
   "filer_id": 1453879,
   "supporting_money": {
-    "contributions_received": 66685.0,
-    "total_contributions": 66685.0,
-    "total_expenditures": 59502.51,
-    "total_loans_received": 40000.0,
+    "contributions_received": 61154.65,
+    "total_contributions": 61154.65,
+    "total_expenditures": 59733.62,
+    "total_loans_received": 33919.65,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 23750.0,
-      "Unitemized": 635.0,
+      "Individual": 24250.0,
+      "Unitemized": 685.0,
       "Other (includes Businesses)": 2300.0
     },
     "contributions_by_origin": {
       "Out of State": 200.0,
-      "Within Oakland": 15450.0,
+      "Within Oakland": 15950.0,
       "Within California": 10400.0
     },
-    "total_small_contributions": 735.0,
+    "total_small_contributions": 785.0,
     "expenditures_by_type": {
       "Office Expenses": 133.43,
       "Campaign Consultants": 17891.0,
       "Campaign Literature and Mailings": 38189.19,
       "Postage, Delivery and Messenger Services": 1788.89,
+      "Professional Services (Legal, Accounting)": 231.11,
       "Information Technology Costs (Internet, E-mail)": 1500.0
     },
     "supporting_by_type": {
@@ -58,7 +59,7 @@
 
     ]
   },
-  "total_contributions": 66685.0,
-  "total_expenditures": 59502.51,
-  "total_loans_received": 40000.0
+  "total_contributions": 61154.65,
+  "total_expenditures": 59733.62,
+  "total_loans_received": 33919.65
 }

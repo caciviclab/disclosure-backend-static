@@ -1,5 +1,5 @@
 {
-  "id": 131,
+  "id": 134,
   "name": "Rebecca Kaplan",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/rebecca-kaplan.png",
   "website_url": "http://kaplanforoakland.org/",
@@ -25,20 +25,9 @@
     "total_contributions": 174571.99,
     "total_expenditures": 179166.79,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 233778.65,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 224049.5,
-        "Cand_ID": 1381183,
-        "Filer_ID": "1428015",
-        "Filer_NamL": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO"
-      },
-      {
-        "Total": 9729.15,
-        "Cand_ID": 1381183,
-        "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
-      }
+
     ],
     "contributions_by_type": {
       "Committee": 19320.0,
@@ -76,7 +65,7 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 209766.0,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
       "MON": 1500.0,
       "Cable ads": 150000.0,
@@ -84,18 +73,7 @@
       "Independent Expenditure Supporting/Opposing Others": 43450.0
     },
     "opposition_list": [
-      {
-        "Total": 174766.0,
-        "Cand_ID": 1381183,
-        "Filer_ID": "1425090",
-        "Filer_NamL": "Californians for Independent Work, Sponsored by Lyft, Inc."
-      },
-      {
-        "Total": 35000.0,
-        "Cand_ID": 1381183,
-        "Filer_ID": "1428904",
-        "Filer_NamL": "Committee for an Affordable East Bay supporting Derreck Johnson and opposing Rebecca Kaplan for Oakland City Council At-Large 2020"
-      }
+
     ]
   },
   "total_contributions": 174571.99,
