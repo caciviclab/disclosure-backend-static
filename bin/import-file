@@ -38,6 +38,7 @@ if ls $filename_glob 2>/dev/null >/dev/null; then
   if [ "$table_exists" = '' ]; then
     echo "Creating $table_name using $DBSCHEMA_FILEPATH"
     psql -f $DBSCHEMA_FILEPATH
+    psql -c "\d '$table_name'"
     table_exists=true
   fi
   csvstack $filename_glob 2> /dev/null | \
