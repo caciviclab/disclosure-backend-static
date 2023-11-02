@@ -74,22 +74,99 @@ prep-import-spreadsheets:
 
 do-import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS candidates;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/candidates.csv
+	table_name=candidates
+	# create schema file if it's not there
+  	DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+  	if [ ! -f $DBSCHEMA_FILEPATH ]; then
+    		echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+    		csvstack $filename_glob 2> /dev/null | \
+      		  csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+  	fi
+  	# create table
+    	echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+    	psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+    	#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/candidates.csv --no-create
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/referendums.csv
+	table_name=referendums
+	# create schema file if it's not there
+  	DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+  	if [ ! -f $DBSCHEMA_FILEPATH ]; then
+    		echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+    		csvstack $filename_glob 2> /dev/null | \
+      		  csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+  	fi
+  	# create table
+    	echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+    	psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+    	#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/referendums.csv --no-create
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/name_to_number.csv
+	table_name=name_to_number
+	# create schema file if it's not there
+  	DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+  	if [ ! -f $DBSCHEMA_FILEPATH ]; then
+    		echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+    		csvstack $filename_glob 2> /dev/null | \
+      		  csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+  	fi
+  	# create table
+    	echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+    	psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+    	#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/name_to_number.csv --no-create
+
 	echo 'DROP TABLE IF EXISTS committees;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/committees.csv
+	table_name=committees
+	# create schema file if it's not there
+  	DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+  	if [ ! -f $DBSCHEMA_FILEPATH ]; then
+    		echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+    		csvstack $filename_glob 2> /dev/null | \
+      		  csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+  	fi
+  	# create table
+    	echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+    	psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+    	#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/committees.csv --no-create
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
+	table_name=office_elections
+	# create schema file if it's not there
+  	DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+  	if [ ! -f $DBSCHEMA_FILEPATH ]; then
+    		echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+    		csvstack $filename_glob 2> /dev/null | \
+      		  csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+  	fi
+  	# create table
+    	echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+    	psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+    	#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv --no-create
 	echo 'ALTER TABLE "office_elections" ALTER COLUMN title TYPE varchar(50);' | psql $(DATABASE_NAME)
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS elections;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/elections.csv
+	table_name=elections
+	# create schema file if it's not there
+  	DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+  	if [ ! -f $DBSCHEMA_FILEPATH ]; then
+    		echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+    		csvstack $filename_glob 2> /dev/null | \
+      		  csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+  	fi
+  	# create table
+    	echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+    	psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+    	#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
+	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/elections.csv --no-create
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
