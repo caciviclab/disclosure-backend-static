@@ -30,7 +30,7 @@ def main():
     data_dir_path = '.local/downloads'
 
     # pull data from gdrive and put it in .local/downloads
-    pull_data(subfolder='main',default_folder='OpenDisclosure')
+    pull_data(subfolder='main', default_folder='OpenDisclosure')
 
     #engine = create_engine('postgresql+psycopg2://localhost/disclosure-backend-v2', echo=True)
 
