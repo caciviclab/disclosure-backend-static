@@ -90,14 +90,13 @@ jobs:
     - name: Create csv files
       run: |
         make clean
+        # Create new netfile csv files
+        python download/main.py
         make download
         make import
         make process
     - name: Summarize results
       run: |
-        psql --query "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
-    - name: Create new netfile csv files
-      run: |
-        # move the following up to download section when it's working
-        python download/main.py
+        echo "List tables"
+        psql -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
  
