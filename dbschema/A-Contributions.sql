@@ -10,7 +10,7 @@ CREATE TABLE "A-Contributions" (
 	"tblCover_Office_Cd" VARCHAR(32), 
 	"tblCover_Offic_Dscr" VARCHAR(32), 
 	"Rec_Type" VARCHAR(4) NOT NULL, 
-	"Form_Type" TIME WITHOUT TIME ZONE NOT NULL, 
+	"Form_Type" VARCHAR(1) NOT NULL, 
 	"Tran_ID" VARCHAR(12) NOT NULL, 
 	"Entity_Cd" VARCHAR(3) NOT NULL, 
 	"Tran_NamL" VARCHAR(199) NOT NULL, 

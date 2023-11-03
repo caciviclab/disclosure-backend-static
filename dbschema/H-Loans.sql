@@ -28,7 +28,7 @@ CREATE TABLE "H-Loans" (
 	"Loan_Amt2" FLOAT NOT NULL, 
 	"Loan_Amt3" FLOAT NOT NULL, 
 	"Loan_Amt4" FLOAT NOT NULL, 
-	"Loan_Rate" INTEGER, 
+	"Loan_Rate" FLOAT, 
 	"Loan_EMP" VARCHAR(32), 
 	"Loan_OCC" VARCHAR(32), 
 	"Loan_Self" BOOLEAN NOT NULL, 

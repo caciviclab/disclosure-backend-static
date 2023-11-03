@@ -28,7 +28,11 @@ class TotalExpendituresCalculator
 
     (results.to_a + late_expenditures.to_a).each do |result|
       candidate = @candidates_by_filer_id[result['Filer_ID'].to_i]
-      candidate.save_calculation(:total_expenditures, result['Amount_A'].round(2))
+      if candidate.nil?
+        puts 'WARN no candidate object: ' + result.inspect
+      else
+        candidate.save_calculation(:total_expenditures, result['Amount_A'].round(2))
+      end
     end
   end
 end
