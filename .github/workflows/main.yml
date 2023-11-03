@@ -68,7 +68,8 @@ jobs:
         PGPASSWORD: app_password
     services:
       postgres:
-        image: postgres:9.6-bullseye
+        #image: postgres:9.6-bullseye
+        image: postgres:16.0-bullseye
         env:
           POSTGRES_USER: app_user
           POSTGRES_DB: disclosure-backend
