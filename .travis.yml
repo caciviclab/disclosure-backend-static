@@ -11,6 +11,7 @@ install:
   - pip install 'urllib3[secure]'
   - sudo pip install -r requirements.txt
   - bundle install
+  - pip show csvkit
 cache:
   - bundler
   - pip
