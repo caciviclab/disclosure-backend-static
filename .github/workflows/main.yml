@@ -90,8 +90,6 @@ jobs:
     - name: Create csv files
       run: |
         make clean
-        # Create new netfile csv files
-        python download/main.py
         make download
         make import
         make process

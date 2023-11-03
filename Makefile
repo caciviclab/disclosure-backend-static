@@ -17,6 +17,9 @@ process: process.rb
 	echo 'delete from calculations;'| psql $(DATABASE_NAME)
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
 
+download-netfile-v2: 
+	python download/main.py
+
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
 	downloads/csv/office_elections.csv downloads/csv/elections.csv
@@ -32,7 +35,8 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets \
+download: download-netfile-v2 \
+	download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
