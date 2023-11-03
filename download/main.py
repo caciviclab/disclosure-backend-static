@@ -84,7 +84,7 @@ def main():
         ]).sample(n=20))
 
     to_csv_dirpath = 'downloads/csv'
-    os.makedirs(to_csv_dirpath, exists_ok=True)
+    os.makedirs(to_csv_dirpath, exist_ok=True)
     elections.df.to_csv(f'{to_csv_dirpath}/elections_v2.csv', index=False)
     committees.df.to_csv(f'{to_csv_dirpath}/committees_v2.csv', index=False)
     a_contributions.df.to_csv(f'{to_csv_dirpath}/a_contributions_v2.csv', index=False)
