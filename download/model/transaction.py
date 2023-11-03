@@ -1,6 +1,8 @@
 """ Transactions """
 from .base import BaseModel
 
+import logging
+
 class Transactions(BaseModel):
     """ A collection of transactions """
     def __init__(self, transactions):
@@ -73,8 +75,12 @@ class Transactions(BaseModel):
                 'Tres_Zip': tran['tresZip4'],
                 'XRef_SchNm': tran['xrefSchNum'],
                 'XRef_Match': tran['xrefMatch']
-            } for t in transactions
+            } for t in transactions if t['transaction']
         ])
+
+        missing_transactions = [t for t in transactions if t['transaction'] is None]
+        if len(missing_transactions) > 0:
+            logging.warn(f'{len(missing_transactions)} records missing transactions')
 
         self._dtypes = {
             'filing_nid': 'string',

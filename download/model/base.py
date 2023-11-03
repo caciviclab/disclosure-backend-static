@@ -20,7 +20,10 @@ class BaseModel:
     def df(self):
         """ Get a dataframe of the data """
         if self._df is None or self._df.empty:
-            self._df = pd.DataFrame(self._data).astype(self._dtypes)
+            if len(self._data) > 0:
+                self._df = pd.DataFrame(self._data).astype(self._dtypes)
+            else:
+                self._df = pd.DataFrame(columns=self._dtypes.keys())
 
         return self._df
     
