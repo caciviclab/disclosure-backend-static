@@ -48,7 +48,12 @@ class TotalContributionsCalculator
 
     contributions_by_filer_id.each do |filer_id, total_contributions|
       candidate = @candidates_by_filer_id[filer_id]
-      candidate.save_calculation(:total_contributions, total_contributions.round(2))
+      if candidate.nil?
+        puts 'WARN no candidate object: ' + filer_id.inspect + ', ' + total_contributions.inspect
+        puts @candidates_by_filer_id.inspect
+      else
+        candidate.save_calculation(:total_contributions, total_contributions.round(2))
+      end
     end
   end
 end

@@ -74,22 +74,33 @@ prep-import-spreadsheets:
 
 do-import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS candidates;' | psql $(DATABASE_NAME)
-	csvsql --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/candidates.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) candidates
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/candidates.csv
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
-	csvsql --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/referendums.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/referendums.csv
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
-	csvsql --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/name_to_number.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/name_to_number.csv
+
 	echo 'DROP TABLE IF EXISTS committees;' | psql $(DATABASE_NAME)
-	csvsql --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/committees.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) committees
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/committees.csv
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
-	csvsql --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) office_elections
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/office_elections.csv
 	echo 'ALTER TABLE "office_elections" ALTER COLUMN title TYPE varchar(50);' | psql $(DATABASE_NAME)
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS elections;' | psql $(DATABASE_NAME)
-	csvsql --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/elections.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) elections
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/elections.csv
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
