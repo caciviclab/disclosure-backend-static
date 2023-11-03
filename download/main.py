@@ -82,9 +82,11 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.df.to_csv('downloads/csv/elections_v2.csv', index=False)
-    committees.df.to_csv('downloads/csv/committees_v2.csv', index=False)
-    a_contributions.df.to_csv('downloads/csv/a_contributions_v2.csv', index=False)
+    to_csv_dirpath = 'downloads/csv'
+    os.makedirs(to_csv_dirpath, exists_ok=True)
+    elections.df.to_csv(f'{to_csv_dirpath}/elections_v2.csv', index=False)
+    committees.df.to_csv(f'{to_csv_dirpath}/committees_v2.csv', index=False)
+    a_contributions.df.to_csv(f'{to_csv_dirpath}/a_contributions_v2.csv', index=False)
 
     '''
     with engine.connect() as conn:
