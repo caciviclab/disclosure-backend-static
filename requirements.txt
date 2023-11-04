@@ -18,7 +18,7 @@ pandas~=2.0.3
 parsedatetime==2.1
 psycopg2-binary==2.7.4; python_version < '3.0'
 psycopg2-binary==2.8.6; python_version >= '3.0'
-python-dateutil==2.2
+python-dateutil==2.8.2
 pytimeparse==1.1.5
 pytz==2016.10
 regex==2016.12.27
