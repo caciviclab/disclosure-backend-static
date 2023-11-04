@@ -1,0 +1,60 @@
+import os
+import json
+import hashlib
+import logging
+
+logging.basicConfig(encoding='utf-8', level=logging.INFO)
+
+def round_floats(data):
+    if type(data) == list:
+        for i in range(len(data)):
+            round_floats(data[i])
+    else:
+        for key in data:
+            the_type = type(data[key])
+            if the_type == dict:
+                round_floats(data[key])
+            elif the_type == list:
+                round_floats(data[key])
+            elif the_type == float:
+                data[key] = round(data[key],2)
+
+def collect_digests(digests, subdir, exclude=[]):
+    filenames = os.listdir(subdir)
+    for filename in filenames:
+        filepath = f'{subdir}/{filename}'
+        if filepath in exclude:
+            logging.info(f'Skipping {filepath}')
+        elif os.path.isdir(filepath):
+            collect_digests(digests,filepath)
+        elif filename.endswith('.json'):
+            with open(filepath, 'r', encoding='utf-8') as fp:
+                logging.info(filepath)
+                data = json.load(fp)
+                round_floats(data)
+                if type(data) == dict:
+                    for key in data:
+                        sub_data = data[key]
+                        datastr = json.dumps(sub_data, sort_keys=True).encode('utf-8') 
+
+                        digest = hashlib.md5(datastr).hexdigest()
+                        if filepath not in digests:
+                            digests[filepath] = {}
+                        digests[filepath][key] = digest
+                else:
+                    datastr = json.dumps(data, sort_keys=True).encode('utf-8') 
+
+                    digest = hashlib.md5(datastr).hexdigest()
+                    if filepath not in digests:
+                        digests[filepath] = {}
+                    digests[filepath] = digest.hexdigest()
+
+def main():
+    digests = {}
+    #for filepath in ['build/_data/totals.json','new_totals.json']:
+    collect_digests(digests, 'build', exclude=['build/digests.json'])
+    with open('build/digests.json', 'w') as fp:
+        json.dump(digests, fp, indent=1, sort_keys=True)
+
+if __name__ == '__main__':
+    main()
