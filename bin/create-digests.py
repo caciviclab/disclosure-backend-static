@@ -51,7 +51,6 @@ def collect_digests(digests, subdir, exclude=[]):
 
 def main():
     digests = {}
-    #for filepath in ['build/_data/totals.json','new_totals.json']:
     collect_digests(digests, 'build', exclude=['build/digests.json'])
     with open('build/digests.json', 'w') as fp:
         json.dump(digests, fp, indent=1, sort_keys=True)
