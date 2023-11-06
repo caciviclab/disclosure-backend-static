@@ -31,7 +31,9 @@ def collect_digests(digests, subdir, exclude=[]):
             with open(filepath, 'r', encoding='utf-8') as fp:
                 logging.info(filepath)
                 data = json.load(fp)
+                # clean data before generating digests
                 round_floats(data)
+                # generate digests
                 if type(data) == dict:
                     for key in data:
                         sub_data = data[key]
