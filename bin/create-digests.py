@@ -34,6 +34,10 @@ def sort_arrays(data):
             elif the_type == list:
                 sort_arrays(data[key])
 
+def redact(data):
+    if type(data) == dict:
+        if 'date_processed' in data:
+            data['date_processed'] = '***'
 def collect_digests(digests, subdir, exclude=[]):
     filenames = os.listdir(subdir)
     for filename in filenames:
@@ -47,6 +51,7 @@ def collect_digests(digests, subdir, exclude=[]):
                 logging.info(filepath)
                 data = json.load(fp)
                 # clean data before generating digests
+                redact(data)
                 round_floats(data)
                 sort_arrays(data)
                 # generate digests
