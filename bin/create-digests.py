@@ -56,9 +56,7 @@ def collect_digests(digests, subdir, exclude=[]):
                         datastr = json.dumps(sub_data, sort_keys=True).encode('utf-8') 
 
                         digest = hashlib.md5(datastr).hexdigest()
-                        if filepath not in digests:
-                            digests[filepath] = {}
-                        digests[filepath][key] = digest
+                        digests[f'{filepath}:{key}'] = digest
                 else:
                     datastr = json.dumps(data, sort_keys=True).encode('utf-8') 
 
