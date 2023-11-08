@@ -19,6 +19,21 @@ def round_floats(data):
             elif the_type == float:
                 data[key] = round(data[key],2)
 
+def sort_arrays(data):
+    if type(data) == list:
+        if len(data) > 0:
+            if type(data[0]) == dict:
+                data.sort(key=lambda x: tuple([str(x[key]) for key in x.keys()]))
+            else:
+                data.sort()
+    else:
+        for key in data:
+            the_type = type(data[key])
+            if the_type == dict:
+                sort_arrays(data[key])
+            elif the_type == list:
+                sort_arrays(data[key])
+
 def collect_digests(digests, subdir, exclude=[]):
     filenames = os.listdir(subdir)
     for filename in filenames:
@@ -33,6 +48,7 @@ def collect_digests(digests, subdir, exclude=[]):
                 data = json.load(fp)
                 # clean data before generating digests
                 round_floats(data)
+                sort_arrays(data)
                 # generate digests
                 if type(data) == dict:
                     for key in data:
@@ -53,8 +69,11 @@ def collect_digests(digests, subdir, exclude=[]):
 
 def main():
     digests = {}
-    collect_digests(digests, 'build', exclude=['build/digests.json'])
-    with open('build/digests.json', 'w') as fp:
+    build_dir = 'build'
+    filepath = f'{build_dir}/digests.json'
+    collect_digests(digests, build_dir, exclude=[filepath])
+    print(f'Saving {filepath}')
+    with open(filepath, 'w') as fp:
         json.dump(digests, fp, indent=1, sort_keys=True)
 
 if __name__ == '__main__':
