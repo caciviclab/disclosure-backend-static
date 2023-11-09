@@ -5,6 +5,7 @@
     "workspaceFolder": "/workspace",
     "remoteUser": "vscode",
     "postCreateCommand": "bash ./.devcontainer/post-create-command.sh",
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
     "forwardPorts": [4567, 5432],
     "extensions": [
         "ms-python.python",
