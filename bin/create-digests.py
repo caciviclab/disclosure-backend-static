@@ -38,6 +38,37 @@ def redact(data):
     if type(data) == dict:
         if 'date_processed' in data:
             data['date_processed'] = '***'
+        else:
+            for key in data.keys():
+                if key.startswith('top_') :
+                    # Redact names for items with duplicate amounts and last item in case the next
+                    # was duplicated.  We have to do this now because the ordering for these lists
+                    # are undefined by the amounts are the same
+                    last_item = None
+                    for item in data[key]:
+                        if 'name' in item:
+                            if 'total_contributions' in item:
+                                amount_key = 'total_contributions'
+                            elif 'total_spending' in item:
+                                amount_key = 'total_spending'
+                            else:
+                                continue
+
+                            amount = item[amount_key]
+                            if last_item is not None:
+                                last_amount = last_item[amount_key]
+                                if amount == last_amount:
+                                    last_item['name'] = '***'
+                                    item['name'] = '***'
+                        last_item = item
+                    if (last_item is not None) and ('name' in last_item):
+                        last_item['name'] = '***'
+                elif type(data[key]) == list:
+                    for item in data[key]:
+                        redact(item)
+                else:
+                    redact(data[key])
+                        
 def collect_digests(digests, subdir, exclude=[]):
     filenames = os.listdir(subdir)
     for filename in filenames:
