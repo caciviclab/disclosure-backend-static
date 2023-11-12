@@ -16,7 +16,7 @@ process: process.rb
 	# todo: remove RUBYOPT variable when activerecord fixes deprecation warnings
 	echo 'delete from calculations;'| psql $(DATABASE_NAME)
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
-	bin/create-digests
+	./bin/create-digests
 
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
