@@ -3,7 +3,7 @@ import json
 import hashlib
 import logging
 
-logging.basicConfig(encoding='utf-8', level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 def round_floats(data):
     if type(data) == list:
