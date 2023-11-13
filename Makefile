@@ -80,11 +80,13 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/candidates.csv
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Candidate
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Committee_Name
 
 	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/referendums.csv
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	./bin/remove-whitespace $(DATABASE_NAME) referendums Short_Title
 
 	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
@@ -94,6 +96,7 @@ do-import-spreadsheets:
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) committees
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/committees.csv
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	./bin/remove-whitespace $(DATABASE_NAME) committees Filer_NamL
 
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) office_elections
