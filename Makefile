@@ -17,7 +17,7 @@ process: process.rb
 	echo 'delete from calculations;'| psql $(DATABASE_NAME)
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
 	python bin/create-digests.py
-	git diff build/digests.json
+	git --no-pager diff build/digests.json
 
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
@@ -79,6 +79,7 @@ do-import-spreadsheets:
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) candidates
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/candidates.csv
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Candidate
 
 	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
