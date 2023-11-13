@@ -75,6 +75,21 @@ If you want to serve the static JSON files via a local web server:
     $ make run
 
 ## Developing
+
+### Checking output data changes
+
+This repository is used to generate data files that are used by the website.  After `make process` is run, a `build` directory is generated containing the data files.  This directory is checked in to the repository and later checked out when generating the website.  After making code changes, it is important to compare the generated `build` directory against the `build` directory generated before the code changes and verify that changes from the code changes are as expected.
+
+Because a strict comparison of all contents of the `build` directory will always include changes that occur independent of any code change, every developer has to know about these expected changes in order to perform this check.  To remove the need for this, a specify file, `build/digests.json`, generate digests for JSON data in the `build` directory after excluding these expected changes.  To look for changes that exclude these expected changes, simply look for a change in the `build/digests.json` file.
+
+Currently, these are the expected changes that occur independent of any code change:
+* timestamps change for each run
+* top contributors lists contain undefined ordering of contributors with the same contribution
+* top spenders lists contain undefined ordering of spenders with the same spending
+* rounding differences for floats
+
+The expected changes are excluded before generating digests for data in the `build` directory.  The logic for this can be found in the function `clean_data`, found in the file `bin/create-digests`.  After the code is modified such that an expected change no longer exists, the exclusion of that change can be removed from `clean_data`.  For example, the rounding of floats are not consistently the same each time `make process` is run, due to differences in the environment.  When the code is fixed so that the rounding of floats is the same as long as the data hasn't changed, the `round_float` call in `clean_data` can be removed.
+
 ### Adding a calculator
 
 Each metric about a candidate is calculated independently. A metric might be

@@ -3,7 +3,7 @@ import json
 import hashlib
 import logging
 
-logging.basicConfig(encoding='utf-8', level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 def round_floats(data):
     if type(data) == list:
@@ -37,23 +37,35 @@ def sort_arrays(data):
 def redact(data):
     if type(data) == dict:
         if 'date_processed' in data:
+            # redact timestamps
             data['date_processed'] = '***'
         else:
             for key in data.keys():
                 if key.startswith('top_') :
-                    # Redact names for items with duplicate amounts and last item in case the next
-                    # was duplicated.  We have to do this now because the ordering for these lists
-                    # are undefined by the amounts are the same
+                    # For top contributors or top spenders lists, items with
+                    # the same amount can be the same except for the name.  The ordering of these items
+                    # with the same amount are undefined.  By ignoring the name when comparing
+                    # these lists, we hide the differences caused by the undefined ordering for
+                    # items with the same amount.  We ignore the name in this special case
+                    # by redacting the name for items with duplicate amounts.
+                    # Because the last item in the list has the potential to be a duplicate 
+                    # of the next item that did not make the list, we also always redact the name
+                    # of the last item.
                     last_item = None
                     for item in data[key]:
                         if 'name' in item:
+                            # potentially redact the name of there's a name for an item
                             if 'total_contributions' in item:
+                                # for top contributors, this key is used for the amount
                                 amount_key = 'total_contributions'
                             elif 'total_spending' in item:
+                                # for top spenders, this key is used for the amount
                                 amount_key = 'total_spending'
                             else:
                                 continue
 
+                            # If there's a previous item, compare its amount with the
+                            # current item and if they are the same, redact the name
                             amount = item[amount_key]
                             if last_item is not None:
                                 last_amount = last_item[amount_key]
@@ -61,6 +73,7 @@ def redact(data):
                                     last_item['name'] = '***'
                                     item['name'] = '***'
                         last_item = item
+                    # always redact the name for the last item
                     if (last_item is not None) and ('name' in last_item):
                         last_item['name'] = '***'
                 elif type(data[key]) == list:
@@ -69,6 +82,11 @@ def redact(data):
                 else:
                     redact(data[key])
                         
+def clean_data(data):
+    redact(data)
+    round_floats(data)
+    sort_arrays(data)
+
 def collect_digests(digests, subdir, exclude=[]):
     filenames = os.listdir(subdir)
     for filename in filenames:
@@ -82,9 +100,7 @@ def collect_digests(digests, subdir, exclude=[]):
                 logging.info(filepath)
                 data = json.load(fp)
                 # clean data before generating digests
-                redact(data)
-                round_floats(data)
-                sort_arrays(data)
+                clean_data(data)
                 # generate digests
                 if type(data) == dict:
                     for key in data:
