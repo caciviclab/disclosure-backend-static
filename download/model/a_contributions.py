@@ -33,8 +33,6 @@ class A_Contributions(BaseModel):
             }
         )
 
-        committees_sans_filings = committee_filings[committee_filings['filing_nid'].isna()]
-
         f460a = committee_filings.merge(f460a_trans,
             how='inner',
             on='filing_nid'
