@@ -1,0 +1,3114 @@
+[
+    {
+        "addressList": [
+            {
+                "addressTypes": "Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Antelope",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Nikki F Bas for City Council 2018 Officeholder",
+        "filerNid": "166380764",
+        "isTerminated": true,
+        "nameHistory": [
+            "Nikki Fortunato Bas for Oakland City Council 2018"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Antelope",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Johnson, Chelsea",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            },
+            {
+                "number": "***",
+                "phoneType": "Home"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1400325"
+        },
+        "statusItemList": [
+            {
+                "date": "2017-11-28T08:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2023-07-31T19:21:23.4996479+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Sacramento",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Thompson, Clifford",
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": null,
+                "committeeEntityId": "192237543",
+                "committeeName": "Families in Action for Justice Fund",
+                "doesSupport": true,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": "192237607",
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "192237541",
+                "influenceNid": "193238494",
+                "isPublic": false,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            },
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": null,
+                "committeeEntityId": "192237543",
+                "committeeName": "Families in Action for Justice Fund",
+                "doesSupport": true,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": "192237607",
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "192237541",
+                "influenceNid": "193238481",
+                "isPublic": false,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            },
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": null,
+                "committeeEntityId": "192237543",
+                "committeeName": "Families in Action for Justice Fund",
+                "doesSupport": true,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": "192237607",
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "192237541",
+                "influenceNid": "193238320",
+                "isPublic": false,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            },
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": null,
+                "committeeEntityId": "192237543",
+                "committeeName": "Families in Action for Justice Fund",
+                "doesSupport": true,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": "192237607",
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "192237541",
+                "influenceNid": "193238352",
+                "isPublic": false,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            },
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": null,
+                "committeeEntityId": "192237543",
+                "committeeName": "Families in Action for Justice Fund",
+                "doesSupport": false,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": "192237607",
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "192237541",
+                "influenceNid": "192237609",
+                "isPublic": false,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Families in Action for Justice Fund",
+        "filerNid": "192237541",
+        "isTerminated": true,
+        "nameHistory": [
+            "Power2Families",
+            "Power2Families, supporting Dannhaus, Edgerly, Gaines, and Thompson for Oakland School Board 2020",
+            "Power2Families"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Kean, Kimi",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Lutz, Kim",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Thomas, Hae-Sin",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Thomas, Hae-Sin",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1431009"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-08-28T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2022-12-29T18:11:34.1070277+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Unspecified",
+                "city": "Irvine",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "filerNid": "122966045",
+        "isTerminated": false,
+        "nameHistory": [
+            "Oakland Rising Committee sponsored by MSC Action Fund",
+            "Oakland Rising Committee sponsored by Movement Strategy Center Action Fund"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Valdiviezo, Victor",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Wang, Ken",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1332115"
+        },
+        "statusItemList": [
+            {
+                "date": "2011-06-22T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Business",
+                "city": "OAKLAND",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": "0",
+                "committeeEntityId": "123004057",
+                "committeeName": "Friends of Oakland Public Schools - Yes on Measure Y",
+                "doesSupport": true,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "123004056",
+                "influenceNid": "192119392",
+                "isPublic": true,
+                "measure": {
+                    "electionNid": "165189423",
+                    "measureDescription": "Election: 11/3/2020 - School Facilities Bond-Y",
+                    "measureNid": "192118625",
+                    "measureNumber": "Y"
+                },
+                "measureNid": "192118625",
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            },
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": "0",
+                "committeeEntityId": "123004057",
+                "committeeName": "Friends of Oakland Public Schools - Yes on Measure H",
+                "doesSupport": true,
+                "electionCandidateNid": "",
+                "electionCaption": "11/8/2022 - General",
+                "electionCodes": "General",
+                "electionDate": "2022-11-08",
+                "electionItemReferenceId": null,
+                "electionNid": "178981824",
+                "endDate": null,
+                "filerNid": "123004056",
+                "influenceNid": "204459934",
+                "isPublic": true,
+                "measure": {
+                    "electionNid": "178981824",
+                    "measureDescription": "Election: 11/8/2022 - Oakland Unified School District parcel tax renewal-H",
+                    "measureNid": "204459921",
+                    "measureNumber": "H"
+                },
+                "measureNid": "204459921",
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2022-06-08"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Friends of Oakland Public Schools - Yes on Measure H",
+        "filerNid": "123004056",
+        "isTerminated": false,
+        "nameHistory": [
+            "Friends of Oakland Public Schools for Measure N",
+            "Friends of Oakland Public Schools for Measure G",
+            "Friends of Oakland Public Schools",
+            "Friends of Oakland Public Schools For Measure J",
+            "Friends of Oakland Public Schools For Measure N",
+            "Friends of Oakland Public Schools Yes on G1 2016",
+            "Friends of Oakland Public Schools",
+            "Friends of Oakland Public Schools - Yes on Measure Y",
+            "Friends of Oakland Public Schools"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Piedmont",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Bloom, Nancy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Piedmont",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Bloom, Nancy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Other"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "960997"
+        },
+        "statusItemList": [
+            {
+                "date": "2011-06-23T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            },
+            {
+                "address": "***",
+                "emailType": "Other"
+            }
+        ],
+        "filerName": "Sheng Thao for Oakland City Council 2022",
+        "filerNid": "178982204",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Piedmont",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Caskey, Julie",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing, Home",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Thao, Sheng",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1417608"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-04-05T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2022-02-23T00:48:10.8005388+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing, Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Lopez-Meraz, Zoe",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Lopez-Meraz, Zoe",
+                    "candidateNid": "191671583",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "185118005"
+                },
+                "candidateNid": "191671583",
+                "committeeEntityId": "191671606",
+                "committeeName": "Zoe Lopez-Meraz for City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "191671586",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "191671604",
+                "influenceNid": "191671616",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 5",
+                    "seatCaption": "City Council - City of Oakland - 5",
+                    "seatNid": "185118005",
+                    "seatOfficeNid": "121709440"
+                },
+                "seatNid": "185118005",
+                "seatOfficeNid": "121709440",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Zoe Lopez-Meraz for City Council 2020",
+        "filerNid": "191671604",
+        "isTerminated": true,
+        "nameHistory": [
+            "Lopez-Meraz, Zoe"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Morgan, Alexis",
+                "phone": null,
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Home"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1429858"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-08-04T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-10-20T16:52:58.0712974+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Gallo, Noel",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Gallo, Noel",
+                    "candidateNid": "121710635",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "185118005"
+                },
+                "candidateNid": "121710635",
+                "committeeEntityId": "191590064",
+                "committeeName": "Re-Elect Noel Gallo for Oakland City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "185118018",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "191590062",
+                "influenceNid": "191590125",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 5",
+                    "seatCaption": "City Council - City of Oakland - 5",
+                    "seatNid": "185118005",
+                    "seatOfficeNid": "121709440"
+                },
+                "seatNid": "185118005",
+                "seatOfficeNid": "121709440",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Re-Elect Noel Gallo for Oakland City Council 2020",
+        "filerNid": "191590062",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Sullivan, Peter",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1429205"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-08-03T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-04-01T17:19:38.8365773+00:00",
+                "status": "TERMINATED"
+            },
+            {
+                "date": "2021-04-01T17:20:55.6936882+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing, Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Dannhaus, Austin",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Dannhaus, Austin",
+                    "candidateNid": "191295895",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "180842880"
+                },
+                "candidateNid": "191295895",
+                "committeeEntityId": "191295911",
+                "committeeName": "Austin Dannhaus for Oakland School Board 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "191295898",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "191295909",
+                "influenceNid": "191295923",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "Director - Oakland Unified School District - 1",
+                    "seatCaption": "Director - Oakland Unified School District - 1",
+                    "seatNid": "180842880",
+                    "seatOfficeNid": "121709529"
+                },
+                "seatNid": "180842880",
+                "seatOfficeNid": "121709529",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            },
+            {
+                "address": "***",
+                "emailType": "Other"
+            }
+        ],
+        "filerName": "Austin Dannhaus for Oakland School Board 2020",
+        "filerNid": "191295909",
+        "isTerminated": true,
+        "nameHistory": [
+            "Dannhaus, Austin"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Home",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Dannhaus, Austin",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Morris, Melinda",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Home"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1427828"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-07-23T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-10-04T21:20:31.2921341+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Clay, Aaron",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Clay, Aaron",
+                    "candidateNid": "191295425",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "165189453"
+                },
+                "candidateNid": "191295425",
+                "committeeEntityId": "191295441",
+                "committeeName": "Aaron Clay for Oakland City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "191295428",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "191295439",
+                "influenceNid": "191295453",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 7",
+                    "seatCaption": "City Council - City of Oakland - 7",
+                    "seatNid": "165189453",
+                    "seatOfficeNid": "121709476"
+                },
+                "seatNid": "165189453",
+                "seatOfficeNid": "121709476",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            },
+            {
+                "address": "***",
+                "emailType": "Other"
+            }
+        ],
+        "filerName": "Aaron Clay for Oakland City Council 2020",
+        "filerNid": "191295439",
+        "isTerminated": true,
+        "nameHistory": [
+            "Clay, Aaron"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Concord",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Robertson, Larry",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Home"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1428941"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-07-23T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-08-24T17:53:59.3493525+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Antelope",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Fife, Carroll",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Fife, Carroll",
+                    "candidateNid": "161700164",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "179056849"
+                },
+                "candidateNid": "161700164",
+                "committeeEntityId": "190792448",
+                "committeeName": "Carroll Fife for City Council 2020 Officeholder",
+                "doesSupport": true,
+                "electionCandidateNid": "190792400",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "190792446",
+                "influenceNid": "190792461",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 3",
+                    "seatCaption": "City Council - City of Oakland - 3",
+                    "seatNid": "179056849",
+                    "seatOfficeNid": "121709414"
+                },
+                "seatNid": "179056849",
+                "seatOfficeNid": "121709414",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Carroll Fife for City Council 2020 Officeholder",
+        "filerNid": "190792446",
+        "isTerminated": false,
+        "nameHistory": [
+            "Fife, Carroll",
+            "Carroll Fife for City Council 2020"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Antelope",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Johnson, Chelsea",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Home"
+            },
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1427585"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-06-26T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Molina, Kristina",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Molina, Kristina",
+                    "candidateNid": "166628948",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "104",
+                    "partyAffiliationName": "Democratic Party",
+                    "seatNid": "172302093"
+                },
+                "candidateNid": "166628948",
+                "committeeEntityId": "189890896",
+                "committeeName": "Kristina Molina for Oakland School Board 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "172302117",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "189890894",
+                "influenceNid": "189890955",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "Director - Oakland Unified School District - 7",
+                    "seatCaption": "Director - Oakland Unified School District - 7",
+                    "seatNid": "172302093",
+                    "seatOfficeNid": "121709575"
+                },
+                "seatNid": "172302093",
+                "seatOfficeNid": "121709575",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Kristina Molina for Oakland School Board 2020",
+        "filerNid": "189890894",
+        "isTerminated": false,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Dorado, Jose",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Molina, Kristina",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Other"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1426952"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-05-12T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "Primarily Formed Measure"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Lift up Oakland. Sponsored by Service Employees International Union SEIU Local 1021",
+        "filerNid": "189480849",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Park, Yeon",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Saika Chen, Maya",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Sullivan, Peter",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1426259"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-04-20T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2020-11-13T19:33:45.9755089+00:00",
+                "status": "TERMINATED"
+            },
+            {
+                "date": "2020-11-13T19:34:28.7658228+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": null,
+                "candidateNid": null,
+                "committeeEntityId": "187905401",
+                "committeeName": "Oakland Not For Sale",
+                "doesSupport": false,
+                "electionCandidateNid": "",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": "187905462",
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "187905399",
+                "influenceNid": "187905464",
+                "isPublic": false,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Oakland Not For Sale",
+        "filerNid": "187905399",
+        "isTerminated": false,
+        "nameHistory": [
+            "Oakland Not For Sale A"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Korber, Melissa",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Louden, Michael",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Other"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1425443"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-03-05T08:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Antelope",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Hutchinson, Michael",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Hutchinson, Michael",
+                    "candidateNid": "133174509",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "186525998"
+                },
+                "candidateNid": "133174509",
+                "committeeEntityId": "187606041",
+                "committeeName": "Mike Hutchinson for Oakland School Board 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "187605956",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "187606039",
+                "influenceNid": "187606053",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "Director - Oakland Unified School District - 5",
+                    "seatCaption": "Director - Oakland Unified School District - 5",
+                    "seatNid": "186525998",
+                    "seatOfficeNid": "121710529"
+                },
+                "seatNid": "186525998",
+                "seatOfficeNid": "121710529",
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Mike Hutchinson for Oakland School Board 2020",
+        "filerNid": "187606039",
+        "isTerminated": false,
+        "nameHistory": [
+            "Hutchinson, Michael"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Mailing",
+                        "city": "Antelope",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Johnson, Chelsea",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Home"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1429072"
+        },
+        "statusItemList": [
+            {
+                "date": "2020-02-28T08:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing, Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Ngo, Tri",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Ngo, Tri",
+                    "candidateNid": "183836254",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "180940134"
+                },
+                "candidateNid": "183836254",
+                "committeeEntityId": "183836274",
+                "committeeName": "Tri Ngo Election Committee Oakland District 1 Councilmember Campaign 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "183836257",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "183836272",
+                "influenceNid": "183836285",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 1",
+                    "seatCaption": "City Council - City of Oakland - 1",
+                    "seatNid": "180940134",
+                    "seatOfficeNid": "121709393"
+                },
+                "seatNid": "180940134",
+                "seatOfficeNid": "121709393",
+                "startDate": "2018-11-07"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Tri Ngo Election Committee Oakland District 1 Councilmember Campaign 2020",
+        "filerNid": "183836272",
+        "isTerminated": true,
+        "nameHistory": [
+            "Ngo, Tri"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Seattle",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "WA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Cook, Philip",
+                "phone": null,
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Home",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Ngo, Tri",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Home"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1426138"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-11-20T08:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2020-11-27T19:20:52.4603783+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Gibson McElhaney, Lynette",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Gibson McElhaney, Lynette",
+                    "candidateNid": "127149321",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "179056849"
+                },
+                "candidateNid": "127149321",
+                "committeeEntityId": "183005096",
+                "committeeName": "Re-Elect Lynette Gibson-McElhaney for City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "183005088",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "183005094",
+                "influenceNid": "183005152",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 3",
+                    "seatCaption": "City Council - City of Oakland - 3",
+                    "seatNid": "179056849",
+                    "seatOfficeNid": "121709414"
+                },
+                "seatNid": "179056849",
+                "seatOfficeNid": "121709414",
+                "startDate": "2018-11-07"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Re-Elect Lynette Gibson-McElhaney for City Council 2020",
+        "filerNid": "183005094",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Sullivan, Peter",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1421347"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-09-27T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-02-25T18:50:16.9233664+00:00",
+                "status": "TERMINATED"
+            },
+            {
+                "date": "2021-02-25T18:51:11.0059403+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Kalb, Dan",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Kalb, Dan",
+                    "candidateNid": "129453919",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "180940134"
+                },
+                "candidateNid": "129453919",
+                "committeeEntityId": "182101263",
+                "committeeName": "Re-Elect Dan Kalb Oakand City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "181923234",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "182101261",
+                "influenceNid": "182101319",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 1",
+                    "seatCaption": "City Council - City of Oakland - 1",
+                    "seatNid": "180940134",
+                    "seatOfficeNid": "121709393"
+                },
+                "seatNid": "180940134",
+                "seatOfficeNid": "121709393",
+                "startDate": "2018-11-07"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            },
+            {
+                "address": "***",
+                "emailType": "Other"
+            }
+        ],
+        "filerName": "Re-Elect Dan Kalb Oakand City Council 2020",
+        "filerNid": "182101261",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Sullivan, Peter",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1420085"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-08-02T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-09-08T20:52:20.9049738+00:00",
+                "status": "TERMINATED"
+            },
+            {
+                "date": "2021-09-08T20:52:55.1519108+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Unspecified",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Sacramento",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Kaplan, Rebecca",
+                    "candidateNid": "121706448",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "181463558"
+                },
+                "candidateNid": "121706448",
+                "committeeEntityId": "181463576",
+                "committeeName": "Re-Elect Rebecca Kaplan for City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "181463564",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "181463574",
+                "influenceNid": "181463633",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": null,
+                "seatNid": null,
+                "seatOfficeNid": null,
+                "startDate": "2020-03-04"
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Re-Elect Rebecca Kaplan for City Council 2020",
+        "filerNid": "181463574",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Deane, Shawnda",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Kaplan, Rebecca",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1419466"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-07-10T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2022-01-31T23:06:43.7615373+00:00",
+                "status": "TERMINATED"
+            },
+            {
+                "date": "2022-02-01T00:49:44.4058724+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Dominguez Walton, Stephanie",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Dominguez Walton, Stephanie",
+                    "candidateNid": "180940148",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "180940134"
+                },
+                "candidateNid": "180940148",
+                "committeeEntityId": "180940180",
+                "committeeName": "Dominguez Walton for City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "180940151",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "180940178",
+                "influenceNid": "180940236",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 1",
+                    "seatCaption": "City Council - City of Oakland - 1",
+                    "seatNid": "180940134",
+                    "seatOfficeNid": "121709393"
+                },
+                "seatNid": "180940134",
+                "seatOfficeNid": "121709393",
+                "startDate": null
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Dominguez Walton for City Council 2020",
+        "filerNid": "180940178",
+        "isTerminated": true,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Seattle",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "WA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Olsen, Josie",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Seattle",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "WA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Petterson, Jay",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1418926"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-06-05T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-02-01T14:03:18.15339+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Home",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Jackson, Robert",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [
+            {
+                "adsid": 163882,
+                "aid": "COAK",
+                "candidate": {
+                    "candidateName": "Jackson, Robert",
+                    "candidateNid": "178045887",
+                    "isIncumbent": false,
+                    "isWinner": false,
+                    "partyAffiliationId": "0",
+                    "partyAffiliationName": "",
+                    "seatNid": "165189453"
+                },
+                "candidateNid": "178045887",
+                "committeeEntityId": "178046034",
+                "committeeName": "Bob Jackson for Oakland City Council 2020",
+                "doesSupport": true,
+                "electionCandidateNid": "178045890",
+                "electionCaption": "11/3/2020 - General",
+                "electionCodes": "General",
+                "electionDate": "2020-11-03",
+                "electionItemReferenceId": null,
+                "electionNid": "165189423",
+                "endDate": null,
+                "filerNid": "178046032",
+                "influenceNid": "178046044",
+                "isPublic": true,
+                "measure": null,
+                "measureNid": null,
+                "seat": {
+                    "electionNid": "165189423",
+                    "officeName": "City Council - City of Oakland - 7",
+                    "seatCaption": "City Council - City of Oakland - 7",
+                    "seatNid": "165189453",
+                    "seatOfficeNid": "121709476"
+                },
+                "seatNid": "165189453",
+                "seatOfficeNid": "121709476",
+                "startDate": null
+            }
+        ],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Other"
+            },
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Bob Jackson for Oakland City Council 2020",
+        "filerNid": "178046032",
+        "isTerminated": true,
+        "nameHistory": [
+            "Jackson, Robert L."
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Burney, Eric",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Other"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1421001"
+        },
+        "statusItemList": [
+            {
+                "date": "2019-03-19T07:00:00+00:00",
+                "status": "ACTIVE"
+            },
+            {
+                "date": "2021-02-09T04:00:22.7198702+00:00",
+                "status": "TERMINATED"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Reid, Treva",
+        "committeeTypes": [
+            "Candidate or Officeholder"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Treva Reid for Oakland City Council 2020 Officeholder Committee",
+        "filerNid": "151524257",
+        "isTerminated": false,
+        "nameHistory": [
+            "Treva Reid for Oakland City Council 2016",
+            "Treva Reid for Oakland City Council 2020"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Sullivan, Peter",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Other"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1366759"
+        },
+        "statusItemList": [
+            {
+                "date": "2014-06-02T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Other"
+            },
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "Oakland Education Association Political Action Committee",
+        "filerNid": "135910755",
+        "isTerminated": false,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Armendariz, Ismael",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Stephen, Laura Ann",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Urbano, Kimberly",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Other"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1345259"
+        },
+        "statusItemList": [
+            {
+                "date": "2012-10-16T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "Oakland",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": null,
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "East Bay Rental Housing Association PAC",
+        "filerNid": "127736146",
+        "isTerminated": false,
+        "nameHistory": [],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": {
+                    "address": "***",
+                    "emailType": "Notification"
+                },
+                "officerName": "Owens, Stacy",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Phillips, Rick",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Rowland, Wayne",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Oakland",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Sullivan, Peter",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1342695"
+        },
+        "statusItemList": [
+            {
+                "date": "2011-12-21T08:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    },
+    {
+        "addressList": [
+            {
+                "addressTypes": "Unspecified",
+                "city": "Sacramento",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            },
+            {
+                "addressTypes": "Disclosure, Mailing",
+                "city": "San Francisco",
+                "line1": "***",
+                "line2": "***",
+                "state": "CA",
+                "zip": "***"
+            }
+        ],
+        "adsid": 163882,
+        "aid": "COAK",
+        "candidateName": "Hodge, Jumoke Hinton",
+        "committeeTypes": [
+            "General Purpose"
+        ],
+        "electionInfluences": [],
+        "emailList": [
+            {
+                "address": "***",
+                "emailType": "Notification"
+            }
+        ],
+        "filerName": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "filerNid": "122962572",
+        "isTerminated": false,
+        "nameHistory": [
+            "Go- PAC Sponsored by Great Oakland Public Schools",
+            "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GREAT OAKLAND PUBLIC SCHOOLS IN SUPPORT OF ROSIE TORRES, JAMES HARRIS AND JUMOKE HINTON-HODGE FOR SCHOOL BOARD 2012",
+            "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GREAT OAKLAND PUBLIC SCHOOLS",
+            "FAMILIES AND EDUCATORS FOR PUBLIC EDUCATION, SPONSORED BY GO PUBLIC SCHOOLS ADVOCATES"
+        ],
+        "officers": [
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Gonzalez, Maribel",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Gonzalez, Maribel",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "San Francisco",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Mar, Patricia",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Assistant Treasurer"
+            },
+            {
+                "addressList": [
+                    {
+                        "addressTypes": "Disclosure, Mailing",
+                        "city": "Sacramento",
+                        "line1": "***",
+                        "line2": "***",
+                        "state": "CA",
+                        "zip": "***"
+                    }
+                ],
+                "email": null,
+                "officerName": "Steele`, Vincent",
+                "phone": {
+                    "number": "***",
+                    "phoneType": "Main"
+                },
+                "position": "Officer"
+            }
+        ],
+        "phoneList": [
+            {
+                "number": "***",
+                "phoneType": "Work"
+            }
+        ],
+        "registrations": {
+            "CA SOS": "1331137"
+        },
+        "statusItemList": [
+            {
+                "date": "2011-06-22T07:00:00+00:00",
+                "status": "ACTIVE"
+            }
+        ],
+        "visibilityLevel": "Staff"
+    }
+]
