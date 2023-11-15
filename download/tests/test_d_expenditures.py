@@ -33,4 +33,12 @@ def load_test_data() -> Dict[str, List[dict]]:
 
 def test_d_expenditures_does_not_raise(test_data):
     ''' Just test that it doesn't error out '''
-    DExpenditures(test_data['transactions'], test_data['filings'], test_data['committees'])
+    d_expends = DExpenditures(
+        test_data['transactions'],
+        test_data['filings'],
+        test_data['committees']
+    )
+
+    df = d_expends.df
+
+    assert df.shape[0] > 0
