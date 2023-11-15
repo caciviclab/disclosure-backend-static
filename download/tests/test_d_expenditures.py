@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Dict, List
 import polars
 import pytest
-from model.d_expenditures import D_Expenditures
+from model.d_expenditures import DExpenditures
 from model import election, transaction, filing, committee
 
 
@@ -33,4 +33,4 @@ def load_test_data() -> Dict[str, List[dict]]:
 
 def test_d_expenditures_does_not_raise(test_data):
     ''' Just test that it doesn't error out '''
-    D_Expenditures(test_data['transactions'], test_data['filings'], test_data['committees'])
+    DExpenditures(test_data['transactions'], test_data['filings'], test_data['committees'])
