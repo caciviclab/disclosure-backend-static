@@ -9,7 +9,7 @@ class Committees(base.BaseModel):
     def __init__(self, data:List[dict]):
         super().__init__(data)
         self._dtypes = {
-            'filer_nid': int,
+            'filer_nid': 'string',
             'Ballot_Measure_Election': 'string',
             'Filer_ID': 'string',
             'Filer_NamL': 'string',
@@ -65,7 +65,11 @@ class Committees(base.BaseModel):
         return cls([
             {
                 'filer_nid': f['filerNid'],
-                'Ballot_Measure_Election': [ *elections[elections['date'] == infl['electionDate']]['name'].array, None ][0],
+                'Ballot_Measure_Election': [
+                    *elections[
+                        elections['date'] == infl['electionDate']
+                    ]['name'].array
+                ][0],
                 'Filer_ID': f['registrations'].get('CA SOS'),
                 'Filer_NamL': infl.get('committeeName', f['filerName']),
                 '_Status': 'INACTIVE' if f['isTerminated'] else 'ACTIVE',
