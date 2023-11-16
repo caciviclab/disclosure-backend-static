@@ -102,7 +102,20 @@ class ScheduleBase:
             transactions.lazy().filter(pl.col('cal_tran_type') == form_id),
             on='filing_nid',
             how='inner'
-        ).drop([ 'filing_nid' ])
+        ).drop([
+            'filing_nid', # TODO: Figure out which df's these cols come from and drop them before join
+            'filer_nid',
+            'data_warning',
+            'candidate_controlled_id',
+            'cal_tran_type',
+            '_Status',
+            'Support_Or_Oppose',
+            'Start_Date',
+            'Make_Active',
+            'End_Date',
+            'Ballot_Measure',
+            'Ballot_Measure_Election'
+        ])
 
         self._lazy = schedule
 

@@ -17,7 +17,7 @@ class Filings(BaseModel):
 
         self._dtypes = {
             'filing_nid': 'string',
-            'filer_nid': 'string',
+            'filer_nid': int,
             'Report_Num': 'Int64',
             'Rpt_Date': 'string',
             'From_Date': 'string',
