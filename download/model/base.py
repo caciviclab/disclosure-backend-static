@@ -1,12 +1,15 @@
 """ This is the base model, upon all others shall be based """
 import pandas as pd
+import polars as pl
 
 class BaseModel:
     """ Base model other models inherit from """
     def __init__(self, data):
         self._data = data
         self._df = None
+        self._pl = None
         self._dtypes = []
+        self._pl_dtypes = []
         self._sql_dtypes = []
         self._sql_cols = []
         self._sql_table_name = ''
@@ -15,6 +18,14 @@ class BaseModel:
     def data(self):
         """ Just return the data """
         return self._data
+    
+    @property
+    def pl(self):
+        ''' Return a Polars dataframe '''
+        if not self._pl:
+            self._pl = pl.DataFrame(self._data, schema=self._pl_dtypes)
+
+        return self._pl
     
     @property
     def df(self):
