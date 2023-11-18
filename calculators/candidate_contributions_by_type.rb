@@ -16,7 +16,7 @@ class CandidateContributionsByType
 
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates_by_filer_id =
-      candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.FPPC }
+      candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.election_name c.FPPC }
   end
 
   def fetch
@@ -29,29 +29,37 @@ class CandidateContributionsByType
     end
 
     # normalization: fetch unitemized totals and add it as a bucket too
-    unitemized_contributions_by_candidate.each do |filer_id, unitemized_contributions|
-      contributions_by_candidate_by_type[filer_id] ||= {}
-      contributions_by_candidate_by_type[filer_id]['Unitemized'] = unitemized_contributions.to_f
+    unitemized_contributions_by_candidate.each do |election_name, values |
+      contributions_by_candidate_by_type[election_name] || = {}
+      values.each do |filer_id, unitemized_contributions|
+        contributions_by_candidate_by_type[election_name][filer_id] ||= {}
+        contributions_by_candidate_by_type[election_name][filer_id]['Unitemized']
+          = unitemized_contributions.to_f
+      end
     end
 
     # normalization: replace three-letter names with TYPE_DESCRIPTIONS
     TYPE_DESCRIPTIONS.each do |short_name, human_name|
-      contributions_by_candidate_by_type.each do |filer_id, contributions_by_type|
-        if value = contributions_by_type.delete(short_name)
-          contributions_by_type[human_name] = value
+      contributions_by_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, contributions_by_type|
+          if value = contributions_by_type.delete(short_name)
+            contributions_by_type[human_name] = value
+          end
         end
       end
     end
 
     # save!
-    contributions_by_candidate_by_type.each do |filer_id, contributions_by_type|
-      candidate = @candidates_by_filer_id[filer_id.to_i]
-      candidate.save_calculation(:contributions_by_type, contributions_by_type)
+    contributions_by_candidate_by_type.each do |election_name, values|
+      values.each do |filer_id, contributions_by_type|
+        candidate = @candidates_by_filer_id[election_name filer_id.to_i]
+        candidate.save_calculation(:contributions_by_type, contributions_by_type)
 
-      # Calculate the total of small contributions
-      total_small = candidate.calculation(:total_small_itemized_contributions) +
-        (contributions_by_type['Unitemized'] || 0)
-      candidate.save_calculation(:total_small_contributions, total_small)
+        # Calculate the total of small contributions
+        total_small = candidate.calculation(:total_small_itemized_contributions) +
+          (contributions_by_type['Unitemized'] || 0)
+        candidate.save_calculation(:total_small_contributions, total_small)
+      end
     end
   end
 
@@ -64,13 +72,14 @@ class CandidateContributionsByType
       # `./../remove_duplicate_transactions.sh`)
       monetary_results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT
+          c.election_name,
           "Filer_ID",
           CASE
             WHEN "FPPC" IS NULL THEN "Entity_Cd"
             ELSE 'SLF'
           END AS "Cd",
           SUM("Tran_Amt1") AS "Total"
-        FROM candidate_contributions
+        FROM candidate_contributions c
         LEFT OUTER JOIN "candidates"
           ON "FPPC"::varchar = "Filer_ID"
           AND (
@@ -82,16 +91,17 @@ class CandidateContributionsByType
             OR LOWER("Aliases") LIKE LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%'))
           )
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Cd", "Filer_ID"
-        ORDER BY "Cd", "Filer_ID";
+        GROUP BY c.election_name, "Filer_ID", "Cd"
+        ORDER BY c.election_name, "Filer_ID", "Cd"
       SQL
 
       monetary_results.to_a.each do |result|
         filer_id = result['Filer_ID'].to_s
 
-        hash[filer_id] ||= {}
-        hash[filer_id][result['Cd']] ||= 0
-        hash[filer_id][result['Cd']] += result['Total']
+        hash[result['election_name'] ||= {}
+        hash[result['election_name'][filer_id] ||= {}
+        hash[result['election_name'][filer_id][result['Cd']] ||= 0
+        hash[result['election_name'][filer_id][result['Cd']] += result['Total']
       end
     end
   end
@@ -99,14 +109,14 @@ class CandidateContributionsByType
   def unitemized_contributions_by_candidate
     @_unitemized_contributions_by_candidate ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "Summary"
+        SELECT election_name, "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "candidate_summary"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND "Form_Type" = 'A' AND "Line_Item" = '2'
-        GROUP BY "Filer_ID"
-        ORDER BY "Filer_ID"
+        GROUP BY election_name, "Filer_ID"
+        ORDER BY election_name, "Filer_ID"
       SQL
 
-      hash.merge!(Hash[results.map { |row| row.values_at('Filer_ID', 'Amount_A') }])
+      hash.merge!(Hash[results.map { |row| row['election_name'], Hash[row.values_at('Filer_ID', 'Amount_A')] }])
     end
   end
 end
