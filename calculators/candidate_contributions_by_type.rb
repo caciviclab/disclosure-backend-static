@@ -91,7 +91,6 @@ class CandidateContributionsByType
       SQL
 
       monetary_results.to_a.each do |result|
-        #filer_id = result['Filer_ID'].to_s
         filer_id_election = "#{result['Filer_ID']}.#{result['election_name']}"
 
         hash[filer_id_election] ||= {}
