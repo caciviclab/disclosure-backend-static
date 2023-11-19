@@ -103,12 +103,7 @@ class CandidateContributionsByType
   def unitemized_contributions_by_candidate
     @_unitemized_contributions_by_candidate ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID" || '.' || election_name AS filer_id_election, SUM("Amount_A") AS "Amount_A" FROM "Summary"
-        JOIN candidates
-          ON "FPPC"::varchar = "Filer_ID"
-        JOIN elections
-          ON name = election_name
-          AND EXTRACT('Year' FROM date) = EXTRACT('Year' FROM "Thru_Date")
+        SELECT "Filer_ID" || '.' || election_name AS filer_id_election, SUM("Amount_A") AS "Amount_A" FROM "candidate_summary"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND "Form_Type" = 'A' AND "Line_Item" = '2'
         GROUP BY "Filer_ID", election_name

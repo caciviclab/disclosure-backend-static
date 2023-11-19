@@ -197,4 +197,13 @@ CREATE VIEW independent_candidate_expenditures AS
   AND "FPPC" IS NOT NULL
   AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
+
+DROP VIEW IF EXISTS candidate_summary;
+CREATE VIEW candidate_summary AS
+  SELECT election_name, "Candidate", s.*
+  FROM "Summary" s, candidates c
+  WHERE cast ("FPPC" as character varying) = "Filer_ID"
+  AND ("Start_Date" IS NULL OR "From_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Thru_Date" <= "End_Date");
+
 SQL

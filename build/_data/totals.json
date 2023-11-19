@@ -42,7 +42,7 @@
     "contributions_by_type": {
       "Committee": 148288.05,
       "Individual": 1728146.02,
-      "Unitemized": 136474.25999999998,
+      "Unitemized": 141289.38,
       "Self Funding": 468306.3999999999,
       "Other (includes Businesses)": 240089.34
     },
@@ -203,7 +203,7 @@
     "contributions_by_type": {
       "Committee": 8423134.030000001,
       "Individual": 10284156.58,
-      "Unitemized": 58020.0,
+      "Unitemized": 70529.93,
       "Self Funding": 124742.81999999999,
       "Other (includes Businesses)": 1790267.46
     },
@@ -398,7 +398,7 @@
     "contributions_by_type": {
       "Committee": 963146.17,
       "Individual": 2737396.8899999997,
-      "Unitemized": 144719.47999999998,
+      "Unitemized": 140451.47999999998,
       "Self Funding": 88684.25000000001,
       "Other (includes Businesses)": 2746671.2600000002
     },
@@ -424,14 +424,6 @@
     ],
     "largest_small_proportion": [
       {
-        "slug": "nikki-fortunato-bas",
-        "type": "office",
-        "title": "Oakland November 6th, 2018 Election",
-        "candidate": "Nikki Fortunato Bas",
-        "proportion": 0.3490553608600564,
-        "office_title": "City Council District 2"
-      },
-      {
         "slug": "marchon-tatmon",
         "type": "office",
         "title": "Oakland November 6th, 2018 Election",
@@ -446,6 +438,14 @@
         "candidate": "Cat Brooks",
         "proportion": 0.2947611899150054,
         "office_title": "Mayor"
+      },
+      {
+        "slug": "clarissa-doutherd",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
+        "candidate": "Clarissa Doutherd",
+        "proportion": 0.19686159105782725,
+        "office_title": "OUSD District 4"
       }
     ],
     "largest_independent_expenditures": [
@@ -593,7 +593,7 @@
     "contributions_by_type": {
       "Committee": 443366.93,
       "Individual": 1761987.61,
-      "Unitemized": 192286.55000000002,
+      "Unitemized": 179326.51999999996,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 328106.4
     },
@@ -635,11 +635,11 @@
         "office_title": "City Council District 1"
       },
       {
-        "slug": "zoe-lopez-meraz",
+        "slug": "richard-santos-raya",
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
-        "candidate": "Zoe Lopez-Meraz",
-        "proportion": 0.24977214936318667,
+        "candidate": "Richard Santos Raya",
+        "proportion": 0.23698879458053446,
         "office_title": "City Council District 5"
       }
     ],
@@ -789,7 +789,7 @@
       "PTY": 15900.0,
       "Committee": 995101.14,
       "Individual": 2507910.869999998,
-      "Unitemized": 110802.3,
+      "Unitemized": 101537.35,
       "Self Funding": 2711.0,
       "Other (includes Businesses)": 2638453.6399999997
     },
@@ -819,24 +819,24 @@
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Allyssa Victory Villanueva",
-        "proportion": 0.17962494427429207,
+        "proportion": 0.1822939885711639,
         "office_title": "Mayor"
-      },
-      {
-        "slug": "valarie-bachelor",
-        "type": "office",
-        "title": "Oakland November 8th, 2022 General Election",
-        "candidate": "Valarie Bachelor",
-        "proportion": 0.17044287557118834,
-        "office_title": "OUSD District 6"
       },
       {
         "slug": "pecolia-manigo",
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
         "candidate": "Pecolia Manigo",
-        "proportion": 0.16723627831054888,
+        "proportion": 0.15575902876963885,
         "office_title": "OUSD District 4"
+      },
+      {
+        "slug": "seneca-scott",
+        "type": "office",
+        "title": "Oakland November 8th, 2022 General Election",
+        "candidate": "Seneca Scott",
+        "proportion": 0.09635402954042228,
+        "office_title": "Mayor"
       }
     ],
     "largest_independent_expenditures": [
@@ -1321,7 +1321,7 @@
     "contributions_by_type": {
       "Committee": 6000.0,
       "Individual": 15572.0,
-      "Unitemized": 1843.0
+      "Unitemized": 1373.0
     },
     "most_expensive_races": [
       {
@@ -1337,7 +1337,7 @@
         "type": "office",
         "title": "Oakland November 7th, 2023 Special Election",
         "candidate": "Alexandra Ritzie-Hernandez",
-        "proportion": 0.0966343411294923,
+        "proportion": 0.06982316029663434,
         "office_title": "School Board District 5"
       },
       {
@@ -1459,7 +1459,8 @@
     },
     "contributions_by_type": {
       "Committee": 500.0,
-      "Individual": 18349.5
+      "Individual": 18349.5,
+      "Unitemized": 1137.0
     },
     "most_expensive_races": [
       {
@@ -1475,7 +1476,7 @@
         "type": "office",
         "title": "Oakland November 5th, 2024 General Election",
         "candidate": "Treva Reid",
-        "proportion": 0.0,
+        "proportion": 0.05313704872064493,
         "office_title": "City Council District 7"
       }
     ],
