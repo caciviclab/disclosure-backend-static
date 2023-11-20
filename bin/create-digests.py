@@ -117,11 +117,23 @@ def collect_digests(digests, subdir, exclude=[]):
                         digests[filepath] = {}
                     digests[filepath] = digest.hexdigest()
 
+def add_totals(digests, filepath='build/_data/totals.json'):
+    with open(filepath, 'r', encoding='utf-8') as fp:
+        logging.info(filepath)
+        data = json.load(fp)
+        total_contributions = 0
+        for key in data.keys():
+            election = data[key]
+            election_total_contributions = election['total_contributions']
+            total_contributions += election_total_contributions
+        digests['_total_contributions'] = round(total_contributions,2)
+
 def main():
     digests = {}
     build_dir = 'build'
     filepath = f'{build_dir}/digests.json'
     collect_digests(digests, build_dir, exclude=[filepath])
+    add_totals(digests)
     print(f'Saving {filepath}')
     with open(filepath, 'w') as fp:
         json.dump(digests, fp, indent=1, sort_keys=True)
