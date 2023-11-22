@@ -1,13 +1,47 @@
 """ This is the Committee model """
 from typing import List
 import pandas as pd
+from polars import Utf8
 from sqlalchemy.types import String
 from . import base
 
 class Committees(base.BaseModel):
     """ A collection of committees """
-    def __init__(self, data:List[dict]):
-        super().__init__(data)
+    def __init__(self, filers:List[dict], elections:pd.DataFrame):
+        empty_election_influence = {
+            'electionDate': None,
+            'measure': None,
+            'candidate': None,
+            'doesSupport': None,
+            'startDate': None,
+            'endDate': None
+        }
+
+        super().__init__([
+            {
+                'filer_nid': int(f['filerNid']),
+                'Ballot_Measure_Election': [ *elections[elections['date'] == infl['electionDate']]['name'].array, None ][0],
+                'Filer_ID': f['registrations'].get('CA SOS'),
+                'Filer_NamL': infl.get('committeeName', f['filerName']),
+                '_Status': 'INACTIVE' if f['isTerminated'] else 'ACTIVE',
+                '_Committee_Type': (f['committeeTypes'][0]
+                                    if len(f['committeeTypes']) == 1
+                                    else 'Multiple Types'),
+                'Ballot_Measure': infl['measure'].get('measureNumber') if infl['measure'] else None,
+                'Support_Or_Oppose': self.support_or_oppose(infl),
+                'candidate_controlled_id': None, # TODO: link to candidates if candidate committee
+                'Start_Date': infl['startDate'],
+                'End_Date': infl['endDate'],
+                'data_warning': None,
+                'Make_Active': None
+            } for f in filers
+            for infl in (
+                f['electionInfluences']
+                if f['electionInfluences']
+                else [ empty_election_influence ]
+            )
+            if f['registrations'].get('CA SOS')
+        ])
         self._dtypes = {
             'filer_nid': int,
             'Ballot_Measure_Election': 'string',
@@ -22,6 +56,21 @@ class Committees(base.BaseModel):
             'End_Date': 'string',
             'data_warning': 'string',
             'Make_Active': 'string'
+        }
+        self._pl_dtypes = {
+            'filer_nid': int,
+            'Ballot_Measure_Election': Utf8,
+            'Filer_ID': Utf8,
+            'Filer_NamL': Utf8,
+            '_Status': Utf8,
+            '_Committee_Type': Utf8,
+            'Ballot_Measure': Utf8,
+            'Support_Or_Oppose': Utf8,
+            'candidate_controlled_id': Utf8,
+            'Start_Date': Utf8,
+            'End_Date': Utf8,
+            'data_warning': Utf8,
+            'Make_Active': Utf8
         }
         self._sql_dtypes = {
             'Ballot_Measure_Election': String,
@@ -50,40 +99,3 @@ class Committees(base.BaseModel):
 
         if (influence['measure'] is not None or influence['candidate'] and sup_opp_cd == 'O'):
             return sup_opp_cd
-
-    @classmethod
-    def from_filers(cls, filer_records:List[dict], elections:pd.DataFrame):
-        """ Reshape NetFile filer records """
-        empty_election_influence = {
-            'electionDate': None,
-            'measure': None,
-            'candidate': None,
-            'doesSupport': None,
-            'startDate': None,
-            'endDate': None
-        }
-        return cls([
-            {
-                'filer_nid': f['filerNid'],
-                'Ballot_Measure_Election': [ *elections[elections['date'] == infl['electionDate']]['name'].array, None ][0],
-                'Filer_ID': f['registrations'].get('CA SOS'),
-                'Filer_NamL': infl.get('committeeName', f['filerName']),
-                '_Status': 'INACTIVE' if f['isTerminated'] else 'ACTIVE',
-                '_Committee_Type': (f['committeeTypes'][0]
-                                    if len(f['committeeTypes']) == 1
-                                    else 'Multiple Types'),
-                'Ballot_Measure': infl['measure'].get('measureNumber') if infl['measure'] else None,
-                'Support_Or_Oppose': cls.support_or_oppose(infl),
-                'candidate_controlled_id': None, # TODO: link to candidates if candidate committee
-                'Start_Date': infl['startDate'],
-                'End_Date': infl['endDate'],
-                'data_warning': None,
-                'Make_Active': None
-            } for f in filer_records
-            for infl in (
-                f['electionInfluences']
-                if f['electionInfluences']
-                else [ empty_election_influence ]
-            )
-            if f['registrations'].get('CA SOS')
-        ])

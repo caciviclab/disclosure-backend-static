@@ -40,7 +40,7 @@ def load_elections(data_dir):
 def load_committees(data_dir, elections):
     """ load committees from json """
     with open(f'{data_dir}/filers.json', encoding='utf8') as f:
-        return pl.from_pandas(Committees.from_filers(json.loads(f.read()), elections).df)
+        return pl.from_pandas(Committees(json.loads(f.read()), elections).df)
 
 def test_a_contributions_has_expected_fields(
     transactions,
