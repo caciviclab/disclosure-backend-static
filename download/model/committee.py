@@ -36,6 +36,9 @@ class Committees(base.BaseModel):
                 'Make_Active': None
             } for f in filers
             for infl in (
+                # TODO: This is slightly effed because some filers have duplicate electionInfluences
+                # See: filer with filerName "Families in Action For Justice Fund"
+                # I guess we have to dedupe electionInfluences blurg
                 f['electionInfluences']
                 if f['electionInfluences']
                 else [ empty_election_influence ]
