@@ -97,7 +97,7 @@ def collect_digests(digests, subdir, exclude=[]):
             collect_digests(digests,filepath)
         elif filename.endswith('.json'):
             with open(filepath, 'r', encoding='utf-8') as fp:
-                logging.info(filepath)
+                #logging.info(filepath)
                 data = json.load(fp)
                 # clean data before generating digests
                 clean_data(data)
@@ -117,23 +117,82 @@ def collect_digests(digests, subdir, exclude=[]):
                         digests[filepath] = {}
                     digests[filepath] = digest.hexdigest()
 
-def add_totals(digests, filepath='build/_data/totals.json'):
+def add_totals(digests, total_key='total_contributions', filepath='build/_data/totals.json'):
+    if not '_totals' in digests:
+        digests['_totals'] = {}
     with open(filepath, 'r', encoding='utf-8') as fp:
-        logging.info(filepath)
+        #logging.info(filepath)
         data = json.load(fp)
-        total_contributions = 0
-        for key in data.keys():
-            election = data[key]
-            election_total_contributions = election['total_contributions']
-            total_contributions += election_total_contributions
-        digests['_total_contributions'] = round(total_contributions,2)
+        total = 0
+        for election_name in data.keys():
+            election = data[election_name]
+            if not election_name in digests['_totals']:
+                digests['_totals'][election_name] = {}
+            election_info = election[total_key]
+            election_total = 0
+            if type(election_info) == dict:
+                for key in election_info:
+                    election_total += election_info[key]
+            else:
+                election_total = election_info
+            digests['_totals'][election_name][f'_{total_key}_from_totals'] = round(election_total,2)
+            total += election_total
+        digests['_totals']['_{total_key}_from_totals'] = round(total,2)
+
+def add_candidates_total(digests, total_key='total_contributions', dirpath='build/_data/candidates'):
+    total = 0
+    regions = os.listdir(dirpath)
+    for region in regions:
+        elections = os.listdir(f'{dirpath}/{region}')
+        for election in elections:
+            election_year = election.split('-')[0]
+            election_name = f'{region}-{election_year}'
+            if not election_name in digests['_totals']:
+                digests['_totals'][election_name] = {}
+            election_total = 0
+            filenames = os.listdir(f'{dirpath}/{region}/{election}')
+            for filename in filenames:
+                if filename.endswith('.json'):
+                    filepath = f'{dirpath}/{region}/{election}/{filename}'
+                    with open(filepath, 'r', encoding='utf-8') as fp:
+                        data = json.load(fp)
+                        candidate_total = data.get(total_key,0) or 0
+                        election_total += candidate_total
+                        total += candidate_total
+            digests['_totals'][election_name][f'_{total_key}_from_candidates'] = round(election_total,2)
+    digests['_totals'][f'_{total_key}_from_candidates'] = round(total,2)
+
+def add_elections_total(digests, total_key='total_contributions', dirpath='build/_data/elections'):
+    total = 0
+    regions = os.listdir(dirpath)
+    for region in regions:
+        filenames = os.listdir(f'{dirpath}/{region}')
+        for filename in filenames:
+            if filename.endswith('.json'):
+                election = filename.replace('.json','')
+                election_year = election.split('-')[0]
+                election_name = f'{region}-{election_year}'
+                if not election_name in digests['_totals']:
+                    digests['_totals'][election_name] = {}
+                filepath = f'{dirpath}/{region}/{filename}'
+                with open(filepath, 'r', encoding='utf-8') as fp:
+                    data = json.load(fp)
+                    election_total = data.get(total_key,0) or 0
+                    total += election_total
+                    digests['_totals'][election_name][f'_{total_key}_from_elections'] = round(election_total,2)
+    digests['_totals'][f'_{total_key}_from_elections'] = round(total,2)
 
 def main():
     digests = {}
     build_dir = 'build'
     filepath = f'{build_dir}/digests.json'
     collect_digests(digests, build_dir, exclude=[filepath])
-    add_totals(digests)
+    add_totals(digests, total_key='total_contributions')
+    add_totals(digests, total_key='contributions_by_type')
+    add_totals(digests, total_key='total_contributions_by_source')
+    add_candidates_total(digests, total_key='total_contributions')
+    add_candidates_total(digests, total_key='total_expenditures')
+    add_elections_total(digests, total_key='total_contributions')
     print(f'Saving {filepath}')
     with open(filepath, 'w') as fp:
         json.dump(digests, fp, indent=1, sort_keys=True)
