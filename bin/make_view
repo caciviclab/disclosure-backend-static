@@ -206,4 +206,12 @@ CREATE VIEW candidate_summary AS
   AND ("Start_Date" IS NULL OR "From_Date" >= "Start_Date")
   AND ("End_Date" IS NULL OR "Thru_Date" <= "End_Date");
 
+DROP VIEW IF EXISTS candidate_497;
+CREATE VIEW candidate_497 AS
+  SELECT election_name, "Candidate", l.*
+  FROM "497" l, candidates c
+  WHERE cast ("FPPC" as character varying) = "Filer_ID"
+  AND ("Start_Date" IS NULL OR "Ctrib_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Ctrib_Date" <= "End_Date");
+
 SQL
