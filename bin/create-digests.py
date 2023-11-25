@@ -122,11 +122,21 @@ def add_totals(digests, filepath='build/_data/totals.json'):
         logging.info(filepath)
         data = json.load(fp)
         total_contributions = 0
+        total_contributions_by_type = 0
+        total_contributions_by_source = 0
         for key in data.keys():
             election = data[key]
             election_total_contributions = election['total_contributions']
             total_contributions += election_total_contributions
+            election_total_contributions_by_type = election['contributions_by_type']
+            for key in election_total_contributions_by_type:
+                total_contributions_by_type += election_total_contributions_by_type[key]
+            election_total_contributions_by_source = election['total_contributions_by_source']
+            for key in election_total_contributions_by_source:
+                total_contributions_by_source += election_total_contributions_by_source[key]
         digests['_total_contributions'] = round(total_contributions,2)
+        digests['_total_contributions_by_type'] = round(total_contributions_by_type,2)
+        digests['_total_contributions_by_source'] = round(total_contributions_by_source,2)
 
 def main():
     digests = {}
