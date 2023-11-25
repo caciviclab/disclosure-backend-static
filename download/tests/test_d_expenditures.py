@@ -26,7 +26,7 @@ def load_test_data() -> Dict[str, List[dict]]:
         'transactions': polars.from_pandas(transaction.Transactions(load_data('transactions')).df),
         'filings': polars.from_pandas(filing.Filings(load_data('filings')).df),
         'committees': polars.from_pandas(
-            committee.Committees.from_filers(load_data('filers'), elections).df
+            committee.Committees(load_data('filers'), elections).df
         )
     }
 
