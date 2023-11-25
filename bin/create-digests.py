@@ -137,9 +137,10 @@ def add_totals(digests, total_key='total_contributions', filepath='build/_data/t
                 election_total = election_info
             digests['_totals'][election_name][f'_{total_key}_from_totals'] = round(election_total,2)
             total += election_total
-        digests['_totals']['_{total_key}_from_totals'] = round(total,2)
+        digests['_totals'][f'_{total_key}_from_totals'] = round(total,2)
 
-def add_candidates_total(digests, total_key='total_contributions', dirpath='build/_data/candidates'):
+def add_tickets_total(digests, ticket_type='candidates', total_key='total_contributions'):
+    dirpath=f'build/_data/{ticket_type}'
     total = 0
     regions = os.listdir(dirpath)
     for region in regions:
@@ -156,11 +157,11 @@ def add_candidates_total(digests, total_key='total_contributions', dirpath='buil
                     filepath = f'{dirpath}/{region}/{election}/{filename}'
                     with open(filepath, 'r', encoding='utf-8') as fp:
                         data = json.load(fp)
-                        candidate_total = data.get(total_key,0) or 0
-                        election_total += candidate_total
-                        total += candidate_total
-            digests['_totals'][election_name][f'_{total_key}_from_candidates'] = round(election_total,2)
-    digests['_totals'][f'_{total_key}_from_candidates'] = round(total,2)
+                        ticket_total = data.get(total_key,0) or 0
+                        election_total += ticket_total
+                        total += ticket_total
+            digests['_totals'][election_name][f'_{total_key}_from_{ticket_type}'] = round(election_total,2)
+    digests['_totals'][f'_{total_key}_from_{ticket_type}'] = round(total,2)
 
 def add_elections_total(digests, total_key='total_contributions', dirpath='build/_data/elections'):
     total = 0
@@ -182,6 +183,24 @@ def add_elections_total(digests, total_key='total_contributions', dirpath='build
                     digests['_totals'][election_name][f'_{total_key}_from_elections'] = round(election_total,2)
     digests['_totals'][f'_{total_key}_from_elections'] = round(total,2)
 
+def add_combined_tickets_total(digests, total_key='total_contributions'):
+    total = 0
+    digest_totals = digests['_totals']
+    total_from_tickets = 0
+    for ticket_type in ['candidates','referendum_opposing','referendum_supporting']:
+        total_from_ticket = digest_totals[f'_{total_key}_from_{ticket_type}']
+        total_from_tickets += total_from_ticket
+    digest_totals[f'_{total_key}_from_tickets'] = round(total_from_tickets,2)
+
+    for election_name in digest_totals.keys():
+        if not election_name.startswith('_'):
+            election_total_from_tickets = 0
+            for ticket_type in ['candidates','referendum_opposing','referendum_supporting']:
+                full_total_key = f'_{total_key}_from_{ticket_type}'
+                election_total_from_ticket = digest_totals[election_name].get(full_total_key,0) or 0
+                election_total_from_tickets += election_total_from_ticket
+            digest_totals[election_name][f'_{total_key}_from_tickets'] = round(election_total_from_tickets,2)
+
 def main():
     digests = {}
     build_dir = 'build'
@@ -190,8 +209,11 @@ def main():
     add_totals(digests, total_key='total_contributions')
     add_totals(digests, total_key='contributions_by_type')
     add_totals(digests, total_key='total_contributions_by_source')
-    add_candidates_total(digests, total_key='total_contributions')
-    add_candidates_total(digests, total_key='total_expenditures')
+    add_tickets_total(digests, ticket_type='candidates', total_key='total_contributions')
+    add_tickets_total(digests, ticket_type='candidates', total_key='total_expenditures')
+    add_tickets_total(digests, ticket_type='referendum_opposing', total_key='total_contributions')
+    add_tickets_total(digests, ticket_type='referendum_supporting', total_key='total_contributions')
+    add_combined_tickets_total(digests, total_key='total_contributions')
     add_elections_total(digests, total_key='total_contributions')
     print(f'Saving {filepath}')
     with open(filepath, 'w') as fp:
