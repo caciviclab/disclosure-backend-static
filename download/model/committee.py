@@ -1,7 +1,7 @@
 """ This is the Committee model """
 from typing import List
 import pandas as pd
-from polars import Utf8
+from polars import UInt64, Utf8
 from sqlalchemy.types import String
 from . import base
 
@@ -61,7 +61,7 @@ class Committees(base.BaseModel):
             'Make_Active': 'string'
         }
         self._pl_dtypes = {
-            'filer_nid': int,
+            'filer_nid': UInt64,
             'Ballot_Measure_Election': Utf8,
             'Filer_ID': Utf8,
             'Filer_NamL': Utf8,

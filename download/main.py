@@ -12,11 +12,8 @@ from model.transaction import Transactions
 
 from gdrive_datastore.gdrive import pull_data
 
-def get_last_status(status_list):
-    """
-    Return a tuple of index, status_item
-    for max value of status_item['startDate']
-    """
+DATA_DIR_PATH = '.local/downloads'
+OUTPUT_DIR = '.local'
 
 def unique_statuses(filers):
     """ What are the unique values for status? """
@@ -27,22 +24,18 @@ def unique_statuses(filers):
 
 def main():
     """ Do everyting """
-    data_dir_path = '.local/downloads'
-
     # pull data from gdrive and put it in .local/downloads
     pull_data(subfolder='main', default_folder='OpenDisclosure')
 
-    #engine = create_engine('postgresql+psycopg2://localhost/disclosure-backend-v2', echo=True)
-
-    with open(f'{data_dir_path}/elections.json', encoding='utf8') as f:
+    with open(f'{DATA_DIR_PATH}/elections.json', encoding='utf8') as f:
         elections_json = json.loads(f.read())
 
     elections = Elections(elections_json)
 
-    with open(f'{data_dir_path}/filers.json', encoding='utf8') as f:
+    with open(f'{DATA_DIR_PATH}/filers.json', encoding='utf8') as f:
         filers = json.loads(f.read())
 
-    committees = Committees.from_filers(filers, elections.df)
+    committees = Committees(filers, elections.df)
 
     # A-Contribs:
     # join filers + filings + elections + transactions
@@ -50,16 +43,16 @@ def main():
     #   filings.filer_nid -> committees.filer_nid
     #     committees.Ballot_Measure_Election -> elections.Ballot_Measure_Election
     # where trans['transaction']['calTransactionType'] == 'F460A'
-    with open(f'{data_dir_path}/filings.json', encoding='utf8') as f:
-        filings = Filings(json.loads(f.read())).df
+    with open(f'{DATA_DIR_PATH}/filings.json', encoding='utf8') as f:
+        filings = Filings(json.loads(f.read())).pl
 
-    with open(f'{data_dir_path}/transactions.json', encoding='utf8') as f:
+    with open(f'{DATA_DIR_PATH}/transactions.json', encoding='utf8') as f:
         records = json.loads(f.read())
-        transactions = Transactions(records).df
+        transactions = Transactions(records).pl
 
-    a_contributions = A_Contributions(transactions, filings, committees.df)
+    a_contributions = A_Contributions(transactions, filings, committees.pl)
     a_contribs_df = a_contributions.df
-    if not a_contribs_df.empty:
+    if not a_contribs_df.is_empty:
         print(a_contribs_df.drop(columns=[
             'BakRef_TID',
             'Bal_Name',
@@ -82,16 +75,9 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.df.to_csv('.local/elections.csv', index=False)
-    committees.df.to_csv('.local/committees.csv', index=False)
-    a_contributions.df.to_csv('.local/a_contributions.csv', index=False)
-
-    '''
-    with engine.connect() as conn:
-        elections.to_sql(conn)
-        committees.to_sql(conn)
-        a_contributions.to_sql(conn)
-    '''
+    elections.pl.write_csv(f'{OUTPUT_DIR}/elections.csv')
+    committees.pl.write_csv(f'{OUTPUT_DIR}/committees.csv')
+    a_contributions.df.write_csv(f'{OUTPUT_DIR}/a_contributions.csv')
 
 if __name__ == '__main__':
     main()
