@@ -5,8 +5,6 @@ import pytest
 from model.committee import Committees
 from model.election import Elections
 
-from pprint import PrettyPrinter
-
 @pytest.fixture(name='test_data_dir')
 def declare_test_dir():
     ''' Return default test data dir '''
@@ -17,7 +15,7 @@ def load_filers_json(test_data_dir):
     ''' load filer records JSON '''
     with open(f'{test_data_dir}/filers.json', encoding='utf8') as f:
         return json.load(f)
-    
+
 @pytest.fixture(name='elections_df')
 def load_elections_df(test_data_dir):
     ''' load elections as Pandas DataFrame '''

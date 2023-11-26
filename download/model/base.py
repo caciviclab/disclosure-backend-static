@@ -22,7 +22,7 @@ class BaseModel:
     @property
     def pl(self):
         ''' Return a Polars dataframe '''
-        if not self._pl:
+        if self._pl is None or self._pl.is_empty():
             self._pl = pl.DataFrame(self._data, schema=self._pl_dtypes)
 
         return self._pl
