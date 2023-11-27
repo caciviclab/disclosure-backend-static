@@ -1,57 +1,21 @@
 """
 Test that A_Contributions model is complete
 """
-import json
 from pathlib import Path
 from pprint import PrettyPrinter
 import pandas as pd
-import polars as pl
-import pytest
 from model.a_contributions import A_Contributions
-from model.committee import Committees
-from model.election import Elections
-from model.filing import Filings
-from model.transaction import Transactions
-
-@pytest.fixture(name='data_dir')
-def define_data_dir():
-    """ Set data dir """
-    return '.local/downloads'
-
-@pytest.fixture(name='transactions')
-def load_transactions(data_dir):
-    """ load transactions from json """
-    with open(f'{data_dir}/transactions.json', encoding='utf8') as f:
-        return pl.from_pandas(Transactions(json.loads(f.read())).df)
-
-@pytest.fixture(name='filings')
-def load_filings(data_dir):
-    """ load filings from json """
-    with open(f'{data_dir}/filings.json', encoding='utf8') as f:
-        return pl.from_pandas(Filings(json.loads(f.read())).df)
-
-@pytest.fixture(name='elections')
-def load_elections(data_dir):
-    """ load elections from json """
-    with open(f'{data_dir}/elections.json', encoding='utf8') as f:
-        return Elections(json.loads(f.read())).df
-
-@pytest.fixture(name='committees')
-def load_committees(data_dir, elections):
-    """ load committees from json """
-    with open(f'{data_dir}/filers.json', encoding='utf8') as f:
-        return pl.from_pandas(Committees(json.loads(f.read()), elections).df)
 
 def test_a_contributions_has_expected_fields(
-    transactions,
-    filings,
-    committees
+    transactions_df,
+    filings_df,
+    committees_df
 ):
     """
     Test that A_Contributions has expect fields
     based on "\d A-Contributions" dumped from Postgres database disclosure-backend
     """
-    a_contributions = A_Contributions(transactions, filings, committees).df
+    a_contributions = A_Contributions(transactions_df, filings_df, committees_df).df
 
     expect_columns = pd.read_table(str(Path(__file__).parent / 'A-Contributions.schema.txt'),
         sep='|', header=1, skipinitialspace=True
