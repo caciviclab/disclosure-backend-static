@@ -20,7 +20,7 @@ def load_filers_json(test_data_dir):
 def load_elections_df(test_data_dir):
     ''' load elections as Pandas DataFrame '''
     with open(f'{test_data_dir}/elections.json', encoding='utf8') as f:
-        return Elections(json.load(f)).df
+        return Elections(json.load(f)).pl
 
 def test_committees_does_not_raise(filers_json, elections_df):
     ''' Just test that Committees model does not error '''

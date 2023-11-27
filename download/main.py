@@ -35,7 +35,7 @@ def main():
     with open(f'{DATA_DIR_PATH}/filers.json', encoding='utf8') as f:
         filers = json.loads(f.read())
 
-    committees = Committees(filers, elections.df)
+    committees = Committees(filers, elections.pl)
 
     # A-Contribs:
     # join filers + filings + elections + transactions
