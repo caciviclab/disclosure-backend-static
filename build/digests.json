@@ -1,6 +1,16 @@
 {
- "_totals": {
+ "_total_contributions": {
+  "_contributions_by_origin_from_candidates": 10419491.78,
+  "_contributions_by_region_from_referendum_opposing": 9496422.51,
+  "_contributions_by_region_from_referendum_supporting": 19390044.33,
+  "_contributions_by_type_from_candidates": 11144751.77,
+  "_contributions_by_type_from_elections": 40031218.61,
+  "_contributions_by_type_from_referendum_opposing": 9496422.51,
+  "_contributions_by_type_from_referendum_supporting": 19390044.33,
+  "_contributions_by_type_from_tickets": 40031218.61,
   "_contributions_by_type_from_totals": 40031218.61,
+  "_total_contributions_by_source_from_elections": 39305958.62,
+  "_total_contributions_by_source_from_tickets": 39305958.62,
   "_total_contributions_by_source_from_totals": 39305958.62,
   "_total_contributions_from_candidates": 12104749.74,
   "_total_contributions_from_elections": 40991216.58,
@@ -8,25 +18,45 @@
   "_total_contributions_from_referendum_supporting": 19390044.33,
   "_total_contributions_from_tickets": 40991216.58,
   "_total_contributions_from_totals": 40991216.58,
-  "_total_expenditures_from_candidates": 13384343.41,
+  "_total_small_contributions_from_candidates": 878117.6,
   "berkeley-2018": {
+   "_contributions_by_type_from_elections": 0,
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 0,
+   "_total_contributions_by_source_from_elections": 0,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 0,
    "_total_contributions_from_elections": 0,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 0.0
   },
   "oakland-2014": {
+   "_contributions_by_origin_from_candidates": 2689204.54,
+   "_contributions_by_type_from_candidates": 2832648.17,
+   "_contributions_by_type_from_elections": 2832648.17,
+   "_contributions_by_type_from_tickets": 2832648.17,
    "_contributions_by_type_from_totals": 2832648.17,
+   "_total_contributions_by_source_from_elections": 2689204.54,
+   "_total_contributions_by_source_from_tickets": 2689204.54,
    "_total_contributions_by_source_from_totals": 2689204.54,
    "_total_contributions_from_candidates": 2998359.74,
    "_total_contributions_from_elections": 2998359.74,
    "_total_contributions_from_tickets": 2998359.74,
    "_total_contributions_from_totals": 2998359.74,
-   "_total_expenditures_from_candidates": 3779528.01
+   "_total_small_contributions_from_candidates": 173113.93
   },
   "oakland-2016": {
+   "_contributions_by_origin_from_candidates": 1069614.89,
+   "_contributions_by_region_from_referendum_opposing": 7357766.88,
+   "_contributions_by_region_from_referendum_supporting": 12194919.12,
+   "_contributions_by_type_from_candidates": 1140144.82,
+   "_contributions_by_type_from_elections": 20692830.82,
+   "_contributions_by_type_from_referendum_opposing": 7357766.88,
+   "_contributions_by_type_from_referendum_supporting": 12194919.12,
+   "_contributions_by_type_from_tickets": 20692830.82,
    "_contributions_by_type_from_totals": 20692830.82,
+   "_total_contributions_by_source_from_elections": 20622300.89,
+   "_total_contributions_by_source_from_tickets": 20622300.89,
    "_total_contributions_by_source_from_totals": 20622300.89,
    "_total_contributions_from_candidates": 1387824.82,
    "_total_contributions_from_elections": 20940510.82,
@@ -34,10 +64,20 @@
    "_total_contributions_from_referendum_supporting": 12194919.12,
    "_total_contributions_from_tickets": 20940510.82,
    "_total_contributions_from_totals": 20940510.82,
-   "_total_expenditures_from_candidates": 1642917.31
+   "_total_small_contributions_from_candidates": 76246.97
   },
   "oakland-2018": {
+   "_contributions_by_origin_from_candidates": 1921414.7,
+   "_contributions_by_region_from_referendum_opposing": 1927826.75,
+   "_contributions_by_region_from_referendum_supporting": 2582282.39,
+   "_contributions_by_type_from_candidates": 2079226.48,
+   "_contributions_by_type_from_elections": 6589335.62,
+   "_contributions_by_type_from_referendum_opposing": 1927826.75,
+   "_contributions_by_type_from_referendum_supporting": 2582282.39,
+   "_contributions_by_type_from_tickets": 6589335.62,
    "_contributions_by_type_from_totals": 6589335.62,
+   "_total_contributions_by_source_from_elections": 6431523.84,
+   "_total_contributions_by_source_from_tickets": 6431523.84,
    "_total_contributions_by_source_from_totals": 6431523.84,
    "_total_contributions_from_candidates": 2334251.69,
    "_total_contributions_from_elections": 6844360.83,
@@ -45,10 +85,20 @@
    "_total_contributions_from_referendum_supporting": 2582282.39,
    "_total_contributions_from_tickets": 6844360.83,
    "_total_contributions_from_totals": 6844360.83,
-   "_total_expenditures_from_candidates": 2276693.25
+   "_total_small_contributions_from_candidates": 193126.91
   },
   "oakland-2020": {
+   "_contributions_by_origin_from_candidates": 2158625.61,
+   "_contributions_by_region_from_referendum_opposing": 0,
+   "_contributions_by_region_from_referendum_supporting": 509301.97,
+   "_contributions_by_type_from_candidates": 2371930.96,
+   "_contributions_by_type_from_elections": 2881232.93,
+   "_contributions_by_type_from_referendum_opposing": 0,
+   "_contributions_by_type_from_referendum_supporting": 509301.97,
+   "_contributions_by_type_from_tickets": 2881232.93,
    "_contributions_by_type_from_totals": 2881232.93,
+   "_total_contributions_by_source_from_elections": 2667927.58,
+   "_total_contributions_by_source_from_tickets": 2667927.58,
    "_total_contributions_by_source_from_totals": 2667927.58,
    "_total_contributions_from_candidates": 2483301.21,
    "_total_contributions_from_elections": 2992603.18,
@@ -56,10 +106,20 @@
    "_total_contributions_from_referendum_supporting": 509301.97,
    "_total_contributions_from_tickets": 2992603.18,
    "_total_contributions_from_totals": 2992603.18,
-   "_total_expenditures_from_candidates": 2527271.02
+   "_total_small_contributions_from_candidates": 241934.81
   },
   "oakland-2022": {
+   "_contributions_by_origin_from_candidates": 2540210.54,
+   "_contributions_by_region_from_referendum_opposing": 0,
+   "_contributions_by_region_from_referendum_supporting": 3619866.11,
+   "_contributions_by_type_from_candidates": 2676038.84,
+   "_contributions_by_type_from_elections": 6295904.95,
+   "_contributions_by_type_from_referendum_opposing": 0,
+   "_contributions_by_type_from_referendum_supporting": 3619866.11,
+   "_contributions_by_type_from_tickets": 6295904.95,
    "_contributions_by_type_from_totals": 6295904.95,
+   "_total_contributions_by_source_from_elections": 6160076.65,
+   "_total_contributions_by_source_from_tickets": 6160076.65,
    "_total_contributions_by_source_from_totals": 6160076.65,
    "_total_contributions_from_candidates": 2856199.78,
    "_total_contributions_from_elections": 6476065.89,
@@ -67,63 +127,163 @@
    "_total_contributions_from_referendum_supporting": 3619866.11,
    "_total_contributions_from_tickets": 6476065.89,
    "_total_contributions_from_totals": 6476065.89,
-   "_total_expenditures_from_candidates": 3134899.72
+   "_total_small_contributions_from_candidates": 189217.98
   },
   "oakland-2023": {
+   "_contributions_by_origin_from_candidates": 21572.0,
+   "_contributions_by_type_from_candidates": 23415.0,
+   "_contributions_by_type_from_elections": 23415.0,
+   "_contributions_by_type_from_tickets": 23415.0,
    "_contributions_by_type_from_totals": 23415.0,
+   "_total_contributions_by_source_from_elections": 21572.0,
+   "_total_contributions_by_source_from_tickets": 21572.0,
    "_total_contributions_by_source_from_totals": 21572.0,
    "_total_contributions_from_candidates": 23415.0,
    "_total_contributions_from_elections": 23415.0,
    "_total_contributions_from_tickets": 23415.0,
    "_total_contributions_from_totals": 23415.0,
-   "_total_expenditures_from_candidates": 10396.44
+   "_total_small_contributions_from_candidates": 1979.0
   },
   "oakland-2024": {
+   "_contributions_by_origin_from_candidates": 18849.5,
+   "_contributions_by_type_from_candidates": 21347.5,
+   "_contributions_by_type_from_elections": 21347.5,
+   "_contributions_by_type_from_tickets": 21347.5,
    "_contributions_by_type_from_totals": 21347.5,
+   "_total_contributions_by_source_from_elections": 18849.5,
+   "_total_contributions_by_source_from_tickets": 18849.5,
    "_total_contributions_by_source_from_totals": 18849.5,
    "_total_contributions_from_candidates": 21397.5,
    "_total_contributions_from_elections": 21397.5,
    "_total_contributions_from_tickets": 21397.5,
    "_total_contributions_from_totals": 21397.5,
-   "_total_expenditures_from_candidates": 12637.66
+   "_total_small_contributions_from_candidates": 2498.0
   },
   "oakland-june-2018": {
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 151587.72,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 151587.72,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 151587.72
   },
   "oakland-june-2022": {
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 104075.02,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 104075.02,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 104075.02
   },
   "oakland-march-2020": {
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 438840.88,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 438840.88,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 438840.88
   },
   "sf-2016": {
+   "_contributions_by_type_from_elections": 0,
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 0,
+   "_total_contributions_by_source_from_elections": 0,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 0,
    "_total_contributions_from_elections": 0,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 0.0
   },
   "sf-2018": {
+   "_contributions_by_type_from_elections": 0,
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 0,
+   "_total_contributions_by_source_from_elections": 0,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 0,
    "_total_contributions_from_elections": 0,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 0.0
   },
   "sf-june-2018": {
+   "_contributions_by_type_from_tickets": 0,
    "_contributions_by_type_from_totals": 0,
+   "_total_contributions_by_source_from_tickets": 0,
    "_total_contributions_by_source_from_totals": 0,
    "_total_contributions_from_tickets": 0,
    "_total_contributions_from_totals": 0.0
+  }
+ },
+ "_total_expenditures": {
+  "_expenditures_by_type_from_candidates": 13464780.29,
+  "_total_expenditures_from_candidates": 13384343.41,
+  "_total_opposing_from_candidates": 0,
+  "_total_supporting_from_candidates": 0,
+  "oakland-2014": {
+   "_expenditures_by_type_from_candidates": 3691354.44,
+   "_total_expenditures_from_candidates": 3779528.01,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2016": {
+   "_expenditures_by_type_from_candidates": 1471934.55,
+   "_total_expenditures_from_candidates": 1642917.31,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2018": {
+   "_expenditures_by_type_from_candidates": 2511822.92,
+   "_total_expenditures_from_candidates": 2276693.25,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2020": {
+   "_expenditures_by_type_from_candidates": 2702893.83,
+   "_total_expenditures_from_candidates": 2527271.02,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2022": {
+   "_expenditures_by_type_from_candidates": 3064375.35,
+   "_total_expenditures_from_candidates": 3134899.72,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2023": {
+   "_expenditures_by_type_from_candidates": 9911.54,
+   "_total_expenditures_from_candidates": 10396.44,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2024": {
+   "_expenditures_by_type_from_candidates": 12487.66,
+   "_total_expenditures_from_candidates": 12637.66,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  }
+ },
+ "_total_loans_received": {
+  "_total_loans_received_from_candidates": 429951.41,
+  "oakland-2014": {
+   "_total_loans_received_from_candidates": 143337.07
+  },
+  "oakland-2016": {
+   "_total_loans_received_from_candidates": 61238.83
+  },
+  "oakland-2018": {
+   "_total_loans_received_from_candidates": 93391.1
+  },
+  "oakland-2020": {
+   "_total_loans_received_from_candidates": 82259.67
+  },
+  "oakland-2022": {
+   "_total_loans_received_from_candidates": 49724.74
+  },
+  "oakland-2023": {
+   "_total_loans_received_from_candidates": 0
+  },
+  "oakland-2024": {
+   "_total_loans_received_from_candidates": 0
   }
  },
  "build/_data/candidates/oakland/2014-11-04/abel-guillen.json:ballot_item": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
