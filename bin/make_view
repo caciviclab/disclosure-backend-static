@@ -214,4 +214,28 @@ CREATE VIEW candidate_497 AS
   AND ("Start_Date" IS NULL OR "Ctrib_Date" >= "Start_Date")
   AND ("End_Date" IS NULL OR "Ctrib_Date" <= "End_Date");
 
+DROP VIEW IF EXISTS candidate_e_expenditure;
+CREATE VIEW candidate_e_expenditure AS
+  SELECT election_name, expend.*
+  FROM "E-Expenditure" expend, candidates c
+  WHERE expend."Filer_ID"::varchar = c."FPPC"::varchar
+  AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date");
+
+DROP VIEW IF EXISTS candidate_d_expenditure;
+CREATE VIEW candidate_d_expenditure AS
+  SELECT election_name, expend.*
+  FROM "D-Expenditure" expend, candidates c
+  WHERE expend."Filer_ID"::varchar = c."FPPC"::varchar
+  AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date");
+
+DROP VIEW IF EXISTS candidate_496;
+CREATE VIEW candidate_496 AS
+  SELECT election_name, expend.*
+  FROM "496" expend, candidates c
+  WHERE expend."Filer_ID"::varchar = c."FPPC"::varchar
+  AND ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Exp_Date" <= "End_Date");
+
 SQL

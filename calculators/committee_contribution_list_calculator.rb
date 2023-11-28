@@ -8,15 +8,15 @@ class CommitteeContributionListCalculator
     descriptions = CandidateContributionsByType::TYPE_DESCRIPTIONS
     results = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH all_committees AS (
-        SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date"
+        SELECT DISTINCT '' AS election_name, "Filer_ID", "Start_Date", "End_Date"
         FROM committees
         WHERE NOT EXISTS (SELECT * FROM candidates
                           WHERE "FPPC"::varchar = "Filer_ID")
         UNION ALL
-        SELECT "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
+        SELECT election_name, "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
         FROM candidates
       )
-      SELECT all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
+      SELECT all_committees.election_name, all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
         "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd"
       FROM all_contributions
       JOIN all_committees
@@ -27,11 +27,13 @@ class CommitteeContributionListCalculator
     SQL
 
     contributions_by_committee = results.each_with_object({}) do |row, hash|
+      election_name = row['election_name']
       filer_id = row['Filer_ID'].to_s
       row['Entity_Cd'] = descriptions[row['Entity_Cd']]
 
-      hash[filer_id] ||= []
-      hash[filer_id] << row
+      hash[election_name] ||= {}
+      hash[election_name][filer_id] ||= []
+      hash[election_name][filer_id] << row
     end
 
     [
@@ -39,8 +41,9 @@ class CommitteeContributionListCalculator
       [@candidates, 'FPPC']
     ].each do |collection, id |
       collection.each do |committee_or_candidate|
+        election_name = committee_or_candidate['election_name'] || ''
         filer_id = committee_or_candidate[id].to_s
-        sorted = Array(contributions_by_committee[filer_id])
+        sorted = Array(contributions_by_committee[election_name][filer_id])
         total_contributions = 0
         total_small = 0
         sorted.each do |contribution|

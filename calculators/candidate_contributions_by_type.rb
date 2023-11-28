@@ -97,8 +97,8 @@ class CandidateContributionsByType
             OR LOWER("Aliases") LIKE LOWER(CONCAT('%', "Tran_NamF", ' ', "Tran_NamL", '%'))
           )
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Cd", "Filer_ID", cc.election_name
-        ORDER BY "Cd", "Filer_ID", cc.election_name;
+        GROUP BY cc.election_name, "Cd", "Filer_ID"
+        ORDER BY cc.election_name, "Cd", "Filer_ID";
       SQL
 
       monetary_results.to_a.each do |result|
