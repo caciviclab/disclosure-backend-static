@@ -5,23 +5,6 @@ import pytest
 from model.committee import Committees
 from model.election import Elections
 
-@pytest.fixture(name='test_data_dir')
-def declare_test_dir():
-    ''' Return default test data dir '''
-    return str(Path(__file__).parent / 'test_data') # TODO: Make this a reusable fixture
-
-@pytest.fixture(name='filers_json')
-def load_filers_json(test_data_dir):
-    ''' load filer records JSON '''
-    with open(f'{test_data_dir}/filers.json', encoding='utf8') as f:
-        return json.load(f)
-
-@pytest.fixture(name='elections_df')
-def load_elections_df(test_data_dir):
-    ''' load elections as Pandas DataFrame '''
-    with open(f'{test_data_dir}/elections.json', encoding='utf8') as f:
-        return Elections(json.load(f)).pl
-
 def test_committees_does_not_raise(filers_json, elections_df):
     ''' Just test that Committees model does not error '''
     Committees(filers_json, elections_df)
