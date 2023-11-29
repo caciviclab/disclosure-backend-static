@@ -1,9 +1,5 @@
 """ main, to run everything """
-from collections import Counter
-from datetime import datetime
 import json
-import pandas as pd
-from sqlalchemy import create_engine
 from model.a_contributions import A_Contributions
 from model.committee import Committees
 from model.election import Elections
