@@ -2,7 +2,6 @@
 Test that A_Contributions model is complete
 """
 from pathlib import Path
-from pprint import PrettyPrinter
 import pandas as pd
 from model.a_contributions import A_Contributions
 
@@ -24,9 +23,6 @@ def test_a_contributions_has_expected_fields(
         expect_columns.columns[1]: 'column'
     })['column'].apply(lambda x: x.strip()).loc[1:].to_list()
 
-    pp = PrettyPrinter()
-    print('LEFT')
-    pp.pprint(sorted(a_contributions.columns))
-    print('RIGHT')
-    pp.pprint(sorted(expect_columns))
     assert sorted(a_contributions.columns) == sorted(expect_columns)
+
+    assert len(a_contributions) > 0
