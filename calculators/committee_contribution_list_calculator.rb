@@ -8,15 +8,15 @@ class CommitteeContributionListCalculator
     descriptions = CandidateContributionsByType::TYPE_DESCRIPTIONS
     results = ActiveRecord::Base.connection.execute(<<-SQL)
       WITH all_committees AS (
-        SELECT DISTINCT "Filer_ID", "Start_Date", "End_Date"
+        SELECT DISTINCT "Ballot_Measure_Election" as election_name, "Filer_ID", "Start_Date", "End_Date"
         FROM committees
         WHERE NOT EXISTS (SELECT * FROM candidates
                           WHERE "FPPC"::varchar = "Filer_ID")
         UNION ALL
-        SELECT "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
+        SELECT election_name, "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
         FROM candidates
       )
-      SELECT all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
+      SELECT election_name, all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
         "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd"
       FROM all_contributions
       JOIN all_committees
