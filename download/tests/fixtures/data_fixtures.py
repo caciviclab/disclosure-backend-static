@@ -11,6 +11,21 @@ def load_data(filename) -> List[dict]:
         (Path(__file__).parent.parent / f'test_data/{filename}.json').read_text()
     )
 
+@pytest.fixture(name='elections_json')
+def load_elections_json() -> List[dict]:
+    ''' Load elections JSON from disk '''
+    return load_data('elections')
+
+@pytest.fixture(name='filers_json')
+def load_filers_json() -> List[dict]:
+    ''' Load filers JSON from disk '''
+    return load_data('filers')
+
+@pytest.fixture(name='filings_json')
+def load_filings_json() -> List[dict]:
+    ''' Load filings JSON from disk '''
+    return load_data('filings')
+
 @pytest.fixture(name='transactions_json')
 def load_transactions_json() -> List[dict]:
     ''' Load transactions JSON from disk '''
