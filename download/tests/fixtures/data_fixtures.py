@@ -11,6 +11,11 @@ def load_data(filename) -> List[dict]:
         (Path(__file__).parent.parent / f'test_data/{filename}.json').read_text()
     )
 
+@pytest.fixture(name='transactions_json')
+def load_transactions_json() -> List[dict]:
+    ''' Load transactions JSON from disk '''
+    return load_data('transactions')
+
 @pytest.fixture(name='elections_df')
 def load_elections_df() -> pl.DataFrame:
     ''' Get elections dataframe '''
@@ -30,6 +35,6 @@ def load_filings_df() -> pl.DataFrame:
     return filing.Filings(load_data('filings')).pl
 
 @pytest.fixture(name='transactions_df')
-def load_transactions_df() -> pl.DataFrame:
+def load_transactions_df(transactions_json) -> pl.DataFrame:
     ''' Get transactions dataframe '''
-    return transaction.Transactions(load_data('transactions')).pl
+    return transaction.Transactions(transactions_json).pl
