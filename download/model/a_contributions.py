@@ -2,7 +2,6 @@
 Schedule A, Contributions
 Hopefully this can be joined with other Schedule classes into a single Transaction class
 """
-import pandas as pd
 from .schedule import ScheduleBase
 
 class A_Contributions(ScheduleBase):
