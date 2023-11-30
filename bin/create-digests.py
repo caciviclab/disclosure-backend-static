@@ -118,6 +118,15 @@ def collect_digests(digests, subdir, exclude=[]):
                     digests[filepath] = digest.hexdigest()
 
 def add_totals(digests, total_key='total_contributions', total_group_key=None, filepath='build/_data/totals.json'):
+    ''' Sum totals from build/_data/totals.json and add to build/digests.json
+    
+    This method will look for values for the key specified by `total_key` in the
+    totals.json file, which contains totals for all elections, and add them
+    all together to get an overall total and save it to build/digests.json.  The
+    totals for each election are also saved.  All the numbers are grouped in
+    build/digests.json under the `total_group_key` key if specified.  Otherwise,
+    the numbers are groupd in build/digests.json under the `total_key` key.
+    '''
     if total_group_key is None:
         total_group_key = total_key
     if not f'_{total_group_key}' in digests:
@@ -142,6 +151,16 @@ def add_totals(digests, total_key='total_contributions', total_group_key=None, f
         digests[f'_{total_group_key}'][f'_{total_key}_from_totals'] = round(total,2)
 
 def add_tickets_total(digests, ticket_type='candidates', total_key='total_contributions', total_group_key=None):
+    ''' Sum totals from JSON files under build/_data/<ticket_type> and add to build/digests.json
+    
+    This method will look for values for the key specified by `total_key` in the
+    JSON files, which contain totals per instance (ie per candidate), and add them
+    all together to get an overall total and save it to build/digests.json.  The
+    totals for each election are also saved.  All the numbers are grouped in
+    build/digests.json under the `total_group_key` key if specified.  Otherwise,
+    the numbers are groupd in build/digests.json under the `total_key` key.
+    '''
+
     if total_group_key is None:
         total_group_key = total_key
     if not f'_{total_group_key}' in digests:
@@ -184,6 +203,15 @@ def add_tickets_total(digests, ticket_type='candidates', total_key='total_contri
     digests[f'_{total_group_key}'][f'_{total_key}_from_{ticket_type}'] = round(total,2)
 
 def add_elections_total(digests, total_key='total_contributions', total_group_key=None, dirpath='build/_data/elections'):
+    ''' Sum totals from JSON files under build/_data/elections and add to build/digests.json
+    
+    This method will look for values for the key specified by `total_key` in the
+    JSON files, which contain totals per election, and add them
+    all together to get an overall total and save it to build/digests.json.  The
+    totals for each election are also saved.  All the numbers are grouped in
+    build/digests.json under the `total_group_key` key if specified.  Otherwise,
+    the numbers are groupd in build/digests.json under the `total_key` key.
+    '''
     if total_group_key is None:
         total_group_key = total_key
     if not f'_{total_group_key}' in digests:
@@ -218,6 +246,15 @@ def add_elections_total(digests, total_key='total_contributions', total_group_ke
     digests[f'_{total_group_key}'][f'_{total_key}_from_elections'] = round(total,2)
 
 def add_combined_tickets_total(digests, total_keys=['total_contributions'], total_group_key=None):
+    ''' Combine the totals for candidates and referendums in build/digests.json as `ticket` totals
+    
+    This method will look for values for the key specified by `total_key` build/digests.json
+    that were totaled from candidates and referendums.  Candidate and referendum totals are
+    combined for a total from `tickets`, which can then be compared to the other totals coming from
+    elections.  In other words, the totals from election JSON files include both candidates
+    and referendums, so we are trying to match those numbers.
+    '''
+
     total_key = total_keys[0]
     if total_group_key is None:
         total_group_key = total_key
