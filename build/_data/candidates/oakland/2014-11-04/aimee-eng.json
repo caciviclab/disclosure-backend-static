@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1368984,
   "supporting_money": {
-    "contributions_received": 30829.65,
-    "total_contributions": 30829.65,
+    "contributions_received": 33744.95,
+    "total_contributions": 33744.95,
     "total_expenditures": 31569.65,
     "total_loans_received": 0.0,
     "total_supporting_independent": 50.63,
@@ -42,8 +42,8 @@
     },
     "contributions_by_origin": {
       "Out of State": 3349.95,
-      "Within Oakland": 7869.28,
-      "Within California": 17567.45
+      "Within Oakland": 7650.0,
+      "Within California": 17325.0
     },
     "total_small_contributions": 2020.0,
     "expenditures_by_type": {
@@ -75,7 +75,9 @@
 
     ]
   },
-  "total_contributions": 30829.65,
+  "total_contributions": 33744.95,
+  "test_totals": 33744.95,
+  "list_total": 28786.68,
   "total_expenditures": 31569.65,
   "total_loans_received": 0.0
 }

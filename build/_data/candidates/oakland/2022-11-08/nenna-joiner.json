@@ -49,7 +49,7 @@
     "contributions_by_type": {
       "Committee": 5300.0,
       "Individual": 52009.36,
-      "Unitemized": 1799.0,
+      "Unitemized": 2129.0,
       "Other (includes Businesses)": 500.0
     },
     "contributions_by_origin": {
@@ -57,7 +57,7 @@
       "Within Oakland": 42108.36,
       "Within California": 14701.0
     },
-    "total_small_contributions": 1934.09,
+    "total_small_contributions": 2264.09,
     "expenditures_by_type": {
       "Phone Banks": 483.54,
       "Civic Donations": 500.0,
@@ -92,6 +92,8 @@
     ]
   },
   "total_contributions": 59938.36,
+  "test_totals": 59938.36,
+  "list_total": 57809.36,
   "total_expenditures": 96706.49,
   "total_loans_received": 0.0
 }

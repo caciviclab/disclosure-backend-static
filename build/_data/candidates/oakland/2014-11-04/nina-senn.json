@@ -37,7 +37,7 @@
     "contributions_by_type": {
       "Committee": 1400.0,
       "Individual": 11800.0,
-      "Unitemized": 1105.0,
+      "Unitemized": 1157.12,
       "Self Funding": 476.7,
       "Other (includes Businesses)": 9400.0
     },
@@ -46,7 +46,7 @@
       "Within Oakland": 9851.7,
       "Within California": 12525.0
     },
-    "total_small_contributions": 1431.7,
+    "total_small_contributions": 1483.82,
     "expenditures_by_type": {
       "Not Stated": 2705.87,
       "Contribution": 118.48,
@@ -74,6 +74,8 @@
     ]
   },
   "total_contributions": 24233.82,
+  "test_totals": 24233.82,
+  "list_total": 23076.7,
   "total_expenditures": 24231.57,
   "total_loans_received": 0.0
 }

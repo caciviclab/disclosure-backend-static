@@ -31,7 +31,7 @@
     ],
     "contributions_by_type": {
       "Individual": 2300.0,
-      "Unitemized": 707.0,
+      "Unitemized": 1584.0,
       "Self Funding": 50.0,
       "Other (includes Businesses)": 1200.0
     },
@@ -40,7 +40,7 @@
       "Within Oakland": 2000.0,
       "Within California": 1200.0
     },
-    "total_small_contributions": 757.0,
+    "total_small_contributions": 1634.0,
     "expenditures_by_type": {
       "Print Ads": 3600.0,
       "Not Stated": 1307.22,
@@ -61,6 +61,8 @@
     ]
   },
   "total_contributions": 49348.0,
+  "test_totals": 49348.0,
+  "list_total": 3550.0,
   "total_expenditures": 56858.54,
   "total_loans_received": 40714.0
 }

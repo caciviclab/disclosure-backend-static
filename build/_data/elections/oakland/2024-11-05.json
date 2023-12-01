@@ -1,5 +1,5 @@
 {
-  "total_contributions": 21397.5,
+  "total_contributions": 9088.01,
   "total_contributions_by_source": {
     "Out of State": 7400.0,
     "Within Oakland": 5100.0,
@@ -7,14 +7,15 @@
   },
   "contributions_by_type": {
     "Committee": 500.0,
-    "Individual": 18349.5
+    "Individual": 18349.5,
+    "Unitemized": 1137.0
   },
   "most_expensive_races": [
     {
       "slug": "city-council-district-7",
       "type": "office",
       "title": "City Council District 7",
-      "amount": 21397.5
+      "amount": 9088.01
     }
   ],
   "largest_small_proportion": [
@@ -23,7 +24,7 @@
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Treva Reid",
-      "proportion": 0.0,
+      "proportion": 0.1251098975463275,
       "office_title": "City Council District 7"
     }
   ],

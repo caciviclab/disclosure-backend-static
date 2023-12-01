@@ -31,7 +31,7 @@
     ],
     "contributions_by_type": {
       "Individual": 6950.0,
-      "Unitemized": 836.0,
+      "Unitemized": 896.0,
       "Self Funding": 700.0
     },
     "contributions_by_origin": {
@@ -39,7 +39,7 @@
       "Within Oakland": 1850.0,
       "Within California": 4300.0
     },
-    "total_small_contributions": 836.0,
+    "total_small_contributions": 896.0,
     "expenditures_by_type": {
       "Civic Donations": 4907.33,
       "Office Expenses": 506.71,
@@ -58,6 +58,8 @@
     ]
   },
   "total_contributions": 8546.0,
+  "test_totals": 8546.0,
+  "list_total": 7650.0,
   "total_expenditures": 8554.69,
   "total_loans_received": 0.0
 }
