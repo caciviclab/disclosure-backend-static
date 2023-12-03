@@ -16,13 +16,15 @@ class CommitteeContributionListCalculator
         SELECT election_name, "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
         FROM candidates
       )
-      SELECT election_name, all_contributions."Filer_ID", "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
+      SELECT election_name, title, all_contributions."Filer_ID",
+        "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
         "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd"
       FROM all_contributions
       JOIN all_committees
       ON all_committees."Filer_ID" = all_contributions."Filer_ID"
       AND ("Start_Date" IS NULL OR "Tran_Date" >= "Start_Date")
       AND ("End_Date" IS NULL OR "Tran_Date" <= "End_Date")
+      JOIN elections ON election_name = name
       ORDER BY "Tran_Date" ASC, CONCAT("Tran_NamL", "Tran_NamF"), "Tran_Amt1" ASC, "Tran_Emp" ASC
     SQL
 
