@@ -2,6 +2,7 @@
 Schedule A, Contributions
 Hopefully this can be joined with other Schedule classes into a single Transaction class
 """
+import polars as pl
 from .schedule import ScheduleBase
 
 class A_Contributions(ScheduleBase):
@@ -10,9 +11,9 @@ class A_Contributions(ScheduleBase):
     """
     def __init__(
         self,
-        transactions:pd.DataFrame,
-        filings:pd.DataFrame,
-        committees:pd.DataFrame
+        transactions:pl.DataFrame,
+        filings:pl.DataFrame,
+        committees:pl.DataFrame
     ):
         self._form_id = 'F460A'
         super().__init__(
