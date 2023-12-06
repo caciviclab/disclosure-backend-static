@@ -403,6 +403,9 @@ def main():
     add_elections_total(digests, total_key='total_contributions')
     add_combined_tickets_total(digests, total_keys=['total_contributions'])
 
+    # loans received totals
+    add_tickets_total(digests, ticket_type='candidates', total_key='total_loans_received', total_group_key='total_contributions')
+
     # contributions by type totals
     add_totals(digests, total_key='contributions_by_type', total_group_key='total_contributions')
     add_tickets_total(digests, ticket_type='candidates', total_key='contributions_by_type', total_group_key='total_contributions')
@@ -410,6 +413,9 @@ def main():
     add_tickets_total(digests, ticket_type='referendum_supporting', total_key='contributions_by_type', total_group_key='total_contributions')
     add_elections_total(digests, total_key='contributions_by_type', total_group_key='total_contributions')
     add_combined_tickets_total(digests, total_keys=['contributions_by_type'], total_group_key='total_contributions')
+    add_combined_total(digests, full_total_keys=['_contributions_by_type_from_tickets','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_type_with_loans_from_tickets')
+    add_combined_total(digests, full_total_keys=['_contributions_by_type_from_elections','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_type_with_loans_from_elections')
+    add_combined_total(digests, full_total_keys=['_contributions_by_type_from_totals','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_type_with_loans_from_totals')
 
     # unitemized totals
     add_totals(digests, total_key='contributions_by_type', total_group_key='total_contributions', total_subkey='Unitemized')
@@ -429,9 +435,9 @@ def main():
     add_tickets_total(digests, ticket_type='referendum_supporting', total_key='contributions_by_region', total_group_key='total_contributions')
     add_elections_total(digests, total_key='total_contributions_by_source', total_group_key='total_contributions')
     add_combined_tickets_total(digests, total_keys=['total_contributions_by_source','contributions_by_origin','contributions_by_region'], total_group_key='total_contributions')
-    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_tickets','_contributions_by_type_Unitemized_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_tickets')
-    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_elections','_contributions_by_type_Unitemized_from_elections'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_elections')
-    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_totals','_contributions_by_type_Unitemized_from_totals'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_totals')
+    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_tickets','_contributions_by_type_Unitemized_from_candidates','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_tickets')
+    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_elections','_contributions_by_type_Unitemized_from_elections','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_elections')
+    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_totals','_contributions_by_type_Unitemized_from_totals','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_totals')
 
 
     # expenditure totals
@@ -444,9 +450,6 @@ def main():
     add_tickets_total(digests, ticket_type='candidates',total_key='total_opposing', total_group_key='total_expenditures')
     add_tickets_total(digests, ticket_type='candidates',total_key='total_supporting', total_group_key='total_expenditures')
 
-    # loans received totals
-    add_tickets_total(digests, ticket_type='candidates', total_key='total_loans_received')
-
     # remove unused totals
     remove_total(digests, full_total_keys=[
         '_contributions_by_origin_from_candidates'
@@ -458,10 +461,14 @@ def main():
         ,'_contributions_by_type_from_candidates'
         ,'_contributions_by_type_from_referendum_opposing'
         ,'_contributions_by_type_from_referendum_supporting'
+        ,'_contributions_by_type_from_tickets'
+        ,'_contributions_by_type_from_elections'
+        ,'_contributions_by_type_from_totals'
         ,'_total_contributions_from_candidates'
         ,'_total_contributions_from_referendum_opposing'
         ,'_total_contributions_from_referendum_supporting'
         ,'_total_small_contributions_from_candidates'
+        ,'_total_loans_received_from_candidates'
         ], total_group_key='total_contributions')
     remove_total(digests, full_total_keys=['_total_contributions_by_source_from_tickets','_contributions_by_type_Unitemized_from_tickets'], total_group_key='total_contributions')
     remove_total(digests, full_total_keys=['_total_contributions_by_source_from_elections','_contributions_by_type_Unitemized_from_elections'], total_group_key='total_contributions')
