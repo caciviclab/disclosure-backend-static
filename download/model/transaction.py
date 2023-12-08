@@ -153,4 +153,4 @@ class Transactions(BaseModel):
             } for t in transactions
         ])
 
-        self._pl_dtypes = DTYPES
+        self._dtypes = DTYPES

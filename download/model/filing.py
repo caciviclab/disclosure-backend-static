@@ -17,15 +17,6 @@ class Filings(BaseModel):
         ])
 
         self._dtypes = {
-            'filing_nid': 'string',
-            'filer_nid': int,
-            'Report_Num': 'Int64',
-            'Rpt_Date': 'string',
-            'From_Date': 'string',
-            'Thru_Date': 'string'
-        }
-
-        self._pl_dtypes = {
             'filing_nid': Utf8,
             'filer_nid': UInt64,
             'Report_Num': UInt64,
