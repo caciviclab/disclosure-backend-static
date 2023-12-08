@@ -2,7 +2,8 @@
 import json
 from model.a_contributions import A_Contributions
 from model.committee import Committees
-from model.election import Elections
+# Next line ingored because Pylint reports cannot find election in model
+from model.election import Elections # pylint: disable=import-error,no-name-in-module
 from model.filing import Filings
 from model.transaction import Transactions
 
@@ -31,7 +32,7 @@ def main():
     with open(f'{DATA_DIR_PATH}/filers.json', encoding='utf8') as f:
         filers = json.loads(f.read())
 
-    committees = Committees(filers, elections.pl)
+    committees = Committees(filers, elections)
 
     # A-Contribs:
     # join filers + filings + elections + transactions
@@ -40,13 +41,13 @@ def main():
     #     committees.Ballot_Measure_Election -> elections.Ballot_Measure_Election
     # where trans['transaction']['calTransactionType'] == 'F460A'
     with open(f'{DATA_DIR_PATH}/filings.json', encoding='utf8') as f:
-        filings = Filings(json.loads(f.read())).pl
+        filings = Filings(json.loads(f.read()))
 
     with open(f'{DATA_DIR_PATH}/transactions.json', encoding='utf8') as f:
         records = json.loads(f.read())
-        transactions = Transactions(records).pl
+        transactions = Transactions(records)
 
-    a_contributions = A_Contributions(transactions, filings, committees.pl)
+    a_contributions = A_Contributions(transactions, filings, committees)
     a_contribs_df = a_contributions.df
     if not a_contribs_df.is_empty:
         print(a_contribs_df.drop(columns=[
@@ -71,8 +72,8 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.pl.write_csv(f'{OUTPUT_DIR}/elections.csv')
-    committees.pl.write_csv(f'{OUTPUT_DIR}/committees.csv')
+    elections.df.write_csv(f'{OUTPUT_DIR}/elections.csv')
+    committees.df.write_csv(f'{OUTPUT_DIR}/committees.csv')
     a_contributions.df.write_csv(f'{OUTPUT_DIR}/a_contributions.csv')
 
 if __name__ == '__main__':

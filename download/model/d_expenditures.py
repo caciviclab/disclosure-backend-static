@@ -1,7 +1,9 @@
 '''
 FPPC Form 460, Schedule D, Expenditures
 '''
-import polars as pl
+from .committee import Committees
+from .filing import Filings
+from .transaction import Transactions
 from .schedule import ScheduleBase
 
 class DExpenditures(ScheduleBase):
@@ -10,9 +12,9 @@ class DExpenditures(ScheduleBase):
     '''
     def __init__(
         self,
-        transactions: pl.DataFrame,
-        filings: pl.DataFrame,
-        committees: pl.DataFrame
+        transactions:Transactions,
+        filings:Filings,
+        committees:Committees
     ):
         self._form_id = 'F460D'
         super().__init__(

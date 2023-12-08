@@ -3,7 +3,8 @@ from pathlib import Path
 from typing import List
 import polars as pl
 import pytest
-from model import committee, election, filing, transaction
+# Next line ingored because Pylint reports cannot find election in model
+from model import committee, election, filing, transaction # pylint: disable=no-name-in-module
 
 def load_data(filename) -> List[dict]:
     ''' Load data by filename from JSON in test_data dir '''
@@ -31,25 +32,25 @@ def load_transactions_json() -> List[dict]:
     ''' Load transactions JSON from disk '''
     return load_data('transactions')
 
-@pytest.fixture(name='elections_df')
-def load_elections_df() -> pl.DataFrame:
+@pytest.fixture(name='elections')
+def load_elections_df() -> election.Elections:
     ''' Get elections dataframe '''
-    return election.Elections(load_data('elections')).pl
+    return election.Elections(load_data('elections'))
 
-@pytest.fixture(name='committees_df')
-def load_committees_df(elections_df) -> pl.DataFrame:
+@pytest.fixture(name='committees')
+def load_committees_df(elections) -> committee.Committees:
     ''' Get committees dataframe '''
     return committee.Committees(
         load_data('filers'),
-        elections_df
-    ).pl
+        elections
+    )
 
-@pytest.fixture(name='filings_df')
-def load_filings_df() -> pl.DataFrame:
+@pytest.fixture(name='filings')
+def load_filings_df() -> filing.Filings:
     ''' Get filings dataframe '''
-    return filing.Filings(load_data('filings')).pl
+    return filing.Filings(load_data('filings'))
 
-@pytest.fixture(name='transactions_df')
-def load_transactions_df(transactions_json) -> pl.DataFrame:
+@pytest.fixture(name='transactions')
+def load_transactions_df(transactions_json) -> transaction.Transactions:
     ''' Get transactions dataframe '''
-    return transaction.Transactions(transactions_json).pl
+    return transaction.Transactions(transactions_json)
