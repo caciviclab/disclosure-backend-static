@@ -1,23 +1,22 @@
-"""
-Schedule A, Contributions
-Hopefully this can be joined with other Schedule classes into a single Transaction class
-"""
+'''
+FPPC Form 460, Schedule D, Expenditures
+'''
 from .committee import Committees
 from .filing import Filings
 from .transaction import Transactions
 from .schedule import ScheduleBase
 
-class A_Contributions(ScheduleBase):
-    """
-    Each record represents Schedule A - Contributions from form 460
-    """
+class DExpenditures(ScheduleBase):
+    '''
+    Schedule D - Expenditures from FPPC Form 460
+    '''
     def __init__(
         self,
         transactions:Transactions,
         filings:Filings,
         committees:Committees
     ):
-        self._form_id = 'F460A'
+        self._form_id = 'F460D'
         super().__init__(
             self._form_id,
             transactions,
