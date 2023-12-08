@@ -1,7 +1,10 @@
+'''
+Herein are a bunch of reusable data fixtures.
+They will be autoloaded in every test according to the `plugins` properity in conftest.py
+'''
 import json
 from pathlib import Path
 from typing import List
-import polars as pl
 import pytest
 # Next line ingored because Pylint reports cannot find election in model
 from model import committee, election, filing, transaction # pylint: disable=no-name-in-module
