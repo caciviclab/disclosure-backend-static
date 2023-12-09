@@ -1,0 +1,60 @@
+{
+  "total_contributions": 4089.79,
+  "contributions": [
+    {
+      "Filer_ID": "1406223",
+      "Tran_Emp": "Kaplan Psychology",
+      "Tran_Occ": "Psychologist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-31",
+      "Tran_NamF": "Faith Kindler",
+      "Tran_NamL": "Kaplan",
+      "Tran_Zip4": "29439"
+    },
+    {
+      "Filer_ID": "1406223",
+      "Tran_Emp": "Ronald Kaplan",
+      "Tran_Occ": "Psychologist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2018-05-31",
+      "Tran_NamF": "Ronald D.",
+      "Tran_NamL": "Kaplan",
+      "Tran_Zip4": "29439"
+    },
+    {
+      "Filer_ID": "1406223",
+      "Tran_Emp": "Sandre Swanson",
+      "Tran_Occ": "Non-Profit Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2018-06-02",
+      "Tran_NamF": "Sandre",
+      "Tran_NamL": "Swanson",
+      "Tran_Zip4": "94502"
+    },
+    {
+      "Filer_ID": "1406223",
+      "Tran_Emp": "Sandre Swanson",
+      "Tran_Occ": "Non-Profit Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -300.0,
+      "Tran_Date": "2018-06-30",
+      "Tran_NamF": "Sandre",
+      "Tran_NamL": "Swanson",
+      "Tran_Zip4": "94502"
+    },
+    {
+      "Filer_ID": "1406223",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "City Councilmember",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2489.79,
+      "Tran_Date": "2018-09-22",
+      "Tran_NamF": "Rebecca",
+      "Tran_NamL": "Kaplan",
+      "Tran_Zip4": "94608"
+    }
+  ]
+}

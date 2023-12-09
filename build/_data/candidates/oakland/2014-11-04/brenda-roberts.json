@@ -1,0 +1,71 @@
+{
+  "id": 157,
+  "name": "Brenda Roberts",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": null,
+  "first_name": "Brenda",
+  "last_name": "Roberts",
+  "ballot_item": 2,
+  "office_election": 2,
+  "bio": null,
+  "committee_name": "Brenda Roberts for Oakland City Auditor 2014",
+  "is_accepted_expenditure_ceiling": null,
+  "is_incumbent": false,
+  "occupation": null,
+  "party_affiliation": null,
+  "is_winner": true,
+  "filer_id": 136810,
+  "supporting_money": {
+    "contributions_received": 69175.0,
+    "total_contributions": 69175.0,
+    "total_expenditures": 69170.0,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
+    "contributions_by_type": {
+      "Individual": 2350.0,
+      "Unitemized": 275.0,
+      "Self Funding": 62000.0,
+      "Other (includes Businesses)": 4550.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 350.0,
+      "Within Oakland": 67300.0,
+      "Within California": 1250.0
+    },
+    "total_small_contributions": 275.0,
+    "expenditures_by_type": {
+      "Print Ads": 9483.0,
+      "Phone Banks": 1625.47,
+      "Office Expenses": 589.98,
+      "Campaign Consultants": 11447.9,
+      "Meetings and Appearances": 150.0,
+      "Campaign Paraphernalia/Misc.": 2520.62,
+      "Candidate Filing/Ballot Fees": 500.0,
+      "Campaign Literature and Mailings": 37284.94,
+      "Professional Services (Legal, Accounting)": 1880.0,
+      "Information Technology Costs (Internet, E-mail)": 3500.0
+    },
+    "supporting_by_type": {
+      "MON": 3800.0
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 69175.0,
+  "total_expenditures": 69170.0,
+  "total_loans_received": 0.0
+}

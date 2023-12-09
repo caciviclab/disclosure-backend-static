@@ -1,0 +1,68 @@
+{
+  "id": 169,
+  "name": "Michael Johnson",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": null,
+  "first_name": "Michael",
+  "last_name": "Johnson",
+  "ballot_item": 5,
+  "office_election": 5,
+  "bio": null,
+  "committee_name": "Committee to Elect Michael V. Johnson",
+  "is_accepted_expenditure_ceiling": null,
+  "is_incumbent": false,
+  "occupation": null,
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1360826,
+  "supporting_money": {
+    "contributions_received": 34487.87,
+    "total_contributions": 34487.87,
+    "total_expenditures": 35886.83,
+    "total_loans_received": -205.0,
+    "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 200.0,
+      "Individual": 16936.0,
+      "Unitemized": 4711.0,
+      "Self Funding": 12845.87
+    },
+    "contributions_by_origin": {
+      "Out of State": 1950.0,
+      "Within Oakland": 21968.87,
+      "Within California": 6063.0
+    },
+    "total_small_contributions": 6539.0,
+    "expenditures_by_type": {
+      "Not Stated": 18947.11,
+      "Office Expenses": 991.96,
+      "Meetings and Appearances": 1291.03,
+      "Campaign Paraphernalia/Misc.": 422.25,
+      "Candidate Filing/Ballot Fees": 119.0,
+      "Campaign Literature and Mailings": 10293.5,
+      "Candidate Travel, Lodging, and Meals": 228.87,
+      "Information Technology Costs (Internet, E-mail)": 1300.0
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 34487.87,
+  "total_expenditures": 35886.83,
+  "total_loans_received": -205.0
+}
