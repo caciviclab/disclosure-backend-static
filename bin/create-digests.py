@@ -388,12 +388,17 @@ def remove_election_totals(digests, election_keys=['_total_contributions_from_to
     for election_key in election_keys:
         digest_totals.pop(election_key,None)
 
+def collect_totals(digests, build_dir):
+    ''' Add totals to digests object to check calculations
 
-def main():
-    digests = {}
-    build_dir = 'build'
-    filepath = f'{build_dir}/digests.json'
-    collect_digests(digests, build_dir, exclude=[filepath])
+    This method adds overall totals calculated from elections and candidates output data
+    as a way to watch that calculations aren't broken when code is changed.  There are a lot
+    of intermediary calculations that are made and added to digests in order to reach
+    the desired final calculations. These intermediary calculations are removed at the end
+    so that only a few key overall totals remain to be recorded in digests.json.  If
+    there is an intended change recorded in digests.json, it should be checked in so that
+    differences can be captured.
+    '''
 
     # contribution totals
     add_totals(digests, total_key='total_contributions')
@@ -474,7 +479,7 @@ def main():
     remove_total(digests, full_total_keys=['_total_contributions_by_source_from_elections','_contributions_by_type_Unitemized_from_elections'], total_group_key='total_contributions')
     remove_total(digests, full_total_keys=['_total_contributions_by_source_from_totals','_contributions_by_type_Unitemized_from_totals'], total_group_key='total_contributions')
 
-    # remove election totals
+    # remove old election totals
     remove_election_totals(digests, election_keys=[
         'oakland-2014'
         ,'oakland-2016'
@@ -485,6 +490,14 @@ def main():
         ,'sf-2018'
         ,'sf-june-2018'
     ], total_group_key='total_contributions')
+
+
+def main():
+    digests = {}
+    build_dir = 'build'
+    filepath = f'{build_dir}/digests.json'
+    collect_digests(digests, build_dir, exclude=[filepath])
+    collect_totals(digests, build_dir)
 
     print(f'Saving {filepath}')
     with open(filepath, 'w') as fp:
