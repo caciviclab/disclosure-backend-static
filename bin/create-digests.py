@@ -117,7 +117,7 @@ def collect_digests(digests, subdir, exclude=[]):
                         digests[filepath] = {}
                     digests[filepath] = digest.hexdigest()
 
-def add_totals(digests, total_key='total_contributions', total_group_key=None, filepath='build/_data/totals.json'):
+def add_totals(digests, total_key='total_contributions', total_group_key=None, total_subkey=None, filepath='build/_data/totals.json'):
     ''' Sum totals from build/_data/totals.json and add to build/digests.json
     
     This method will look for values for the key specified by `total_key` in the
@@ -127,10 +127,17 @@ def add_totals(digests, total_key='total_contributions', total_group_key=None, f
     build/digests.json under the `total_group_key` key if specified.  Otherwise,
     the numbers are groupd in build/digests.json under the `total_key` key.
     '''
+
+    # prepare location to save totals
+    if total_subkey is None:
+        full_total_key = f'_{total_key}_from_totals'
+    else:
+        full_total_key = f'_{total_key}_{total_subkey}_from_totals'
     if total_group_key is None:
         total_group_key = total_key
     if not f'_{total_group_key}' in digests:
         digests[f'_{total_group_key}'] = {}
+    # sum totals and save to digests
     with open(filepath, 'r', encoding='utf-8') as fp:
         #logging.info(filepath)
         data = json.load(fp)
@@ -142,15 +149,18 @@ def add_totals(digests, total_key='total_contributions', total_group_key=None, f
             election_info = election[total_key]
             election_total = 0
             if type(election_info) == dict:
-                for key in election_info:
-                    election_total += election_info[key]
+                if total_subkey is None:
+                    for key in election_info:
+                        election_total += election_info[key]
+                else:
+                    election_total += election_info.get(total_subkey,0) or 0
             else:
                 election_total = election_info
-            digests[f'_{total_group_key}'][election_name][f'_{total_key}_from_totals'] = round(election_total,2)
+            digests[f'_{total_group_key}'][election_name][full_total_key] = round(election_total,2)
             total += election_total
-        digests[f'_{total_group_key}'][f'_{total_key}_from_totals'] = round(total,2)
+        digests[f'_{total_group_key}'][full_total_key] = round(total,2)
 
-def add_tickets_total(digests, ticket_type='candidates', total_key='total_contributions', total_group_key=None):
+def add_tickets_total(digests, ticket_type='candidates', total_key='total_contributions', total_group_key=None, total_subkey=None):
     ''' Sum totals from JSON files under build/_data/<ticket_type> and add to build/digests.json
     
     This method will look for values for the key specified by `total_key` in the
@@ -161,10 +171,16 @@ def add_tickets_total(digests, ticket_type='candidates', total_key='total_contri
     the numbers are groupd in build/digests.json under the `total_key` key.
     '''
 
+    # prepare location to save totals
+    if total_subkey is None:
+        full_total_key = f'_{total_key}_from_{ticket_type}'
+    else:
+        full_total_key = f'_{total_key}_{total_subkey}_from_{ticket_type}'
     if total_group_key is None:
         total_group_key = total_key
     if not f'_{total_group_key}' in digests:
         digests[f'_{total_group_key}'] = {}
+    # sum totals and save to digests
     dirpath=f'build/_data/{ticket_type}'
     total = 0
     regions = os.listdir(dirpath)
@@ -190,8 +206,12 @@ def add_tickets_total(digests, ticket_type='candidates', total_key='total_contri
                             ticket_info = data.get(total_key,0) or 0
                         ticket_total = 0
                         if type(ticket_info) == dict:
-                            for key in ticket_info:
-                                ticket_total += ticket_info[key]
+                            # determine if we are pulling from one subkey or all subkeys
+                            if total_subkey is None:
+                                for key in ticket_info:
+                                    ticket_total += ticket_info[key]
+                            else:
+                                ticket_total += ticket_info[total_subkey]
                         elif type(ticket_info) == list:
                             for item in ticket_info:
                                 ticket_total += item.get('amount',0) or 0
@@ -199,10 +219,10 @@ def add_tickets_total(digests, ticket_type='candidates', total_key='total_contri
                             ticket_total = ticket_info
                         election_total += ticket_total
                         total += ticket_total
-            digests[f'_{total_group_key}'][election_name][f'_{total_key}_from_{ticket_type}'] = round(election_total,2)
-    digests[f'_{total_group_key}'][f'_{total_key}_from_{ticket_type}'] = round(total,2)
+            digests[f'_{total_group_key}'][election_name][full_total_key] = round(election_total,2)
+    digests[f'_{total_group_key}'][full_total_key] = round(total,2)
 
-def add_elections_total(digests, total_key='total_contributions', total_group_key=None, dirpath='build/_data/elections'):
+def add_elections_total(digests, total_key='total_contributions', total_group_key=None, total_subkey=None, dirpath='build/_data/elections'):
     ''' Sum totals from JSON files under build/_data/elections and add to build/digests.json
     
     This method will look for values for the key specified by `total_key` in the
@@ -212,10 +232,17 @@ def add_elections_total(digests, total_key='total_contributions', total_group_ke
     build/digests.json under the `total_group_key` key if specified.  Otherwise,
     the numbers are groupd in build/digests.json under the `total_key` key.
     '''
+
+    # prepare location to save totals
+    if total_subkey is None:
+        full_total_key = f'_{total_key}_from_elections'
+    else:
+        full_total_key = f'_{total_key}_{total_subkey}_from_elections'
     if total_group_key is None:
         total_group_key = total_key
     if not f'_{total_group_key}' in digests:
         digests[f'_{total_group_key}'] = {}
+    # sum totals and save to digests
     total = 0
     regions = os.listdir(dirpath)
     for region in regions:
@@ -233,71 +260,175 @@ def add_elections_total(digests, total_key='total_contributions', total_group_ke
                     election_info = data.get(total_key,0) or 0
                     election_total = 0
                     if type(election_info) == dict:
-                        for key in election_info:
-                            election_total += election_info[key]
+                        if total_subkey is None:
+                            for key in election_info:
+                                election_total += election_info[key]
+                        else:
+                            election_total += election_info.get(total_subkey,0) or 0
                     elif type(election_info) == list:
                         for item in election_info:
                             election_total += item.get('amount',0) or 0
                     else:
                         election_total = election_info
                     total += election_total
-                    digests[f'_{total_group_key}'][election_name][f'_{total_key}_from_elections'] = round(election_total,2)
+                    digests[f'_{total_group_key}'][election_name][full_total_key] = round(election_total,2)
     
-    digests[f'_{total_group_key}'][f'_{total_key}_from_elections'] = round(total,2)
+    digests[f'_{total_group_key}'][full_total_key] = round(total,2)
 
-def add_combined_tickets_total(digests, total_keys=['total_contributions'], total_group_key=None):
+def add_combined_tickets_total(digests, total_keys=['total_contributions'], total_group_key=None, total_subkey=None):
     ''' Combine the totals for candidates and referendums in build/digests.json as `ticket` totals
     
-    This method will look for values for the key specified by `total_key` build/digests.json
+    This method will look for values for the keys specified by `total_keys` build/digests.json
     that were totaled from candidates and referendums.  Candidate and referendum totals are
     combined for a total from `tickets`, which can then be compared to the other totals coming from
     elections.  In other words, the totals from election JSON files include both candidates
     and referendums, so we are trying to match those numbers.
     '''
 
+    # prepare location to save totals
     total_key = total_keys[0]
+    if total_subkey is None:
+        full_total_key = f'_{total_key}_from_tickets'
+    else:
+        full_total_key = f'_{total_key}_{total_subkey}_from_tickets'
     if total_group_key is None:
         total_group_key = total_key
-    total = 0
     digest_totals = digests[f'_{total_group_key}']
+    # sum totals and save to digests
     total_from_tickets = 0
     for ticket_type in ['candidates','referendum_opposing','referendum_supporting']:
         for alt_total_key in total_keys:
-            total_from_ticket = digest_totals.get(f'_{alt_total_key}_from_{ticket_type}',0) or 0
+            if total_subkey is None:
+                full_alt_total_key = f'_{alt_total_key}_from_{ticket_type}'
+            else:
+                full_alt_total_key = f'_{alt_total_key}_{total_subkey}_from_{ticket_type}'
+            total_from_ticket = digest_totals.get(full_alt_total_key,0) or 0
             total_from_tickets += total_from_ticket
-    digest_totals[f'_{total_key}_from_tickets'] = round(total_from_tickets,2)
+    digest_totals[full_total_key] = round(total_from_tickets,2)
 
     for election_name in digest_totals.keys():
         if not election_name.startswith('_'):
             election_total_from_tickets = 0
             for ticket_type in ['candidates','referendum_opposing','referendum_supporting']:
                 for alt_total_key in total_keys:
-                    full_total_key = f'_{alt_total_key}_from_{ticket_type}'
-                    election_total_from_ticket = digest_totals[election_name].get(full_total_key,0) or 0
+                    if total_subkey is None:
+                        full_alt_total_key = f'_{alt_total_key}_from_{ticket_type}'
+                    else:
+                        full_alt_total_key = f'_{alt_total_key}_{total_subkey}_from_{ticket_type}'
+                    election_total_from_ticket = digest_totals[election_name].get(full_alt_total_key,0) or 0
                     election_total_from_tickets += election_total_from_ticket
-            digest_totals[election_name][f'_{total_key}_from_tickets'] = round(election_total_from_tickets,2)
+            digest_totals[election_name][full_total_key] = round(election_total_from_tickets,2)
 
-def main():
-    digests = {}
-    build_dir = 'build'
-    filepath = f'{build_dir}/digests.json'
-    collect_digests(digests, build_dir, exclude=[filepath])
+def add_combined_total(digests, full_total_keys=['_total_contributions_from_totals'], total_group_key=None, total_final_key=None):
+    ''' Combine the totals in build/digests.json as new totals
+    
+    This method will look for values for the keys specified by `full_total_keys` in build/digests.json
+    that were totaled earlier.  The totals are combined for a new total, which can then be compared 
+    to the other totals that are expected to match.
+    '''
+
+    # prepare location to save totals
+    if total_final_key is None:
+        total_final_key = full_total_keys[0]
+    if total_group_key is None:
+        total_group_key = total_final_key
+    digest_totals = digests[f'_{total_group_key}']
+
+    # sum totals and save to digests
+    combined_total = 0
+    for full_alt_total_key in full_total_keys:
+        one_total = digest_totals.get(full_alt_total_key,0) or 0
+        combined_total += one_total
+    digest_totals[f'_{total_final_key}'] = round(combined_total,2)
+
+    # sum totals for elections and save to digests
+    for election_name in digest_totals.keys():
+        if not election_name.startswith('_'):
+            combined_election_total = 0
+            for full_alt_total_key in full_total_keys:
+                one_election_total = digest_totals[election_name].get(full_alt_total_key,0) or 0
+                combined_election_total += one_election_total
+            digest_totals[election_name][f'_{total_final_key}'] = round(combined_election_total,2)
+
+def remove_total(digests, full_total_keys=['_total_contributions_from_totals'], total_group_key=None):
+    ''' Remove the totals in build/digests.json that were only used to combine totals
+    
+    This method will look for the keys specified by `full_total_keys` in build/digests.json.  
+    These totals are removed since they are not used for comparison.
+    '''
+
+    # prepare location to remove totals
+    total_final_key = full_total_keys[0]
+    if total_group_key is None:
+        total_group_key = total_final_key
+    digest_totals = digests[f'_{total_group_key}']
+
+    # remove totals from digests
+    combined_total = 0
+    for full_alt_total_key in full_total_keys:
+        digest_totals.pop(full_alt_total_key,None)
+
+    # remove totals from elections in digests
+    for election_name in digest_totals.keys():
+        if not election_name.startswith('_'):
+            for full_alt_total_key in full_total_keys:
+                digest_totals[election_name].pop(full_alt_total_key,None)
+
+def remove_election_totals(digests, election_keys=['_total_contributions_from_totals'], total_group_key=None):
+    ''' Remove the election totals in build/digests.json for a group
+    
+    This method will look for the keys specified by `election_keys` in build/digests.json.  
+    These election totals are removed to reduce noise.
+    '''
+
+    # prepare location to remove totals
+    digest_totals = digests[f'_{total_group_key}']
+
+    # remove election totals from digests
+    for election_key in election_keys:
+        digest_totals.pop(election_key,None)
+
+def collect_totals(digests, build_dir):
+    ''' Add totals to digests object to check calculations
+
+    This method adds overall totals calculated from elections and candidates output data
+    as a way to watch that calculations aren't broken when code is changed.  There are a lot
+    of intermediary calculations that are made and added to digests in order to reach
+    the desired final calculations. These intermediary calculations are removed at the end
+    so that only a few key overall totals remain to be recorded in digests.json.  If
+    there is an intended change recorded in digests.json, it should be checked in so that
+    differences can be captured.
+    '''
 
     # contribution totals
     add_totals(digests, total_key='total_contributions')
     add_tickets_total(digests, ticket_type='candidates', total_key='total_contributions')
     add_tickets_total(digests, ticket_type='referendum_opposing', total_key='total_contributions')
     add_tickets_total(digests, ticket_type='referendum_supporting', total_key='total_contributions')
-    add_combined_tickets_total(digests, total_keys=['total_contributions'])
     add_elections_total(digests, total_key='total_contributions')
+    add_combined_tickets_total(digests, total_keys=['total_contributions'])
+
+    # loans received totals
+    add_tickets_total(digests, ticket_type='candidates', total_key='total_loans_received', total_group_key='total_contributions')
 
     # contributions by type totals
     add_totals(digests, total_key='contributions_by_type', total_group_key='total_contributions')
     add_tickets_total(digests, ticket_type='candidates', total_key='contributions_by_type', total_group_key='total_contributions')
     add_tickets_total(digests, ticket_type='referendum_opposing', total_key='contributions_by_type', total_group_key='total_contributions')
     add_tickets_total(digests, ticket_type='referendum_supporting', total_key='contributions_by_type', total_group_key='total_contributions')
-    add_combined_tickets_total(digests, total_keys=['contributions_by_type'], total_group_key='total_contributions')
     add_elections_total(digests, total_key='contributions_by_type', total_group_key='total_contributions')
+    add_combined_tickets_total(digests, total_keys=['contributions_by_type'], total_group_key='total_contributions')
+    add_combined_total(digests, full_total_keys=['_contributions_by_type_from_tickets','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_type_with_loans_from_tickets')
+    add_combined_total(digests, full_total_keys=['_contributions_by_type_from_elections','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_type_with_loans_from_elections')
+    add_combined_total(digests, full_total_keys=['_contributions_by_type_from_totals','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_type_with_loans_from_totals')
+
+    # unitemized totals
+    add_totals(digests, total_key='contributions_by_type', total_group_key='total_contributions', total_subkey='Unitemized')
+    add_tickets_total(digests, ticket_type='candidates', total_key='contributions_by_type', total_group_key='total_contributions', total_subkey='Unitemized')
+    add_tickets_total(digests, ticket_type='referendum_opposing', total_key='contributions_by_type', total_group_key='total_contributions', total_subkey='Unitemized')
+    add_tickets_total(digests, ticket_type='referendum_supporting', total_key='contributions_by_type', total_group_key='total_contributions', total_subkey='Unitemized')
+    add_elections_total(digests, total_key='contributions_by_type', total_group_key='total_contributions', total_subkey='Unitemized')
+    add_combined_tickets_total(digests, total_keys=['contributions_by_type'], total_group_key='total_contributions', total_subkey='Unitemized')
 
     # small contributions totals
     add_tickets_total(digests, ticket_type='candidates', total_key='total_small_contributions', total_group_key='total_contributions')
@@ -307,8 +438,12 @@ def main():
     add_tickets_total(digests, ticket_type='candidates', total_key='contributions_by_origin', total_group_key='total_contributions')
     add_tickets_total(digests, ticket_type='referendum_opposing', total_key='contributions_by_region', total_group_key='total_contributions')
     add_tickets_total(digests, ticket_type='referendum_supporting', total_key='contributions_by_region', total_group_key='total_contributions')
-    add_combined_tickets_total(digests, total_keys=['total_contributions_by_source','contributions_by_origin','contributions_by_region'], total_group_key='total_contributions')
     add_elections_total(digests, total_key='total_contributions_by_source', total_group_key='total_contributions')
+    add_combined_tickets_total(digests, total_keys=['total_contributions_by_source','contributions_by_origin','contributions_by_region'], total_group_key='total_contributions')
+    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_tickets','_contributions_by_type_Unitemized_from_candidates','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_tickets')
+    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_elections','_contributions_by_type_Unitemized_from_elections','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_elections')
+    add_combined_total(digests, full_total_keys=['_total_contributions_by_source_from_totals','_contributions_by_type_Unitemized_from_totals','_total_loans_received_from_candidates'], total_group_key='total_contributions', total_final_key='total_contributions_by_source_with_unitemized_from_totals')
+
 
     # expenditure totals
     add_tickets_total(digests, ticket_type='candidates', total_key='total_expenditures')
@@ -320,8 +455,49 @@ def main():
     add_tickets_total(digests, ticket_type='candidates',total_key='total_opposing', total_group_key='total_expenditures')
     add_tickets_total(digests, ticket_type='candidates',total_key='total_supporting', total_group_key='total_expenditures')
 
-    # loans received totals
-    add_tickets_total(digests, ticket_type='candidates', total_key='total_loans_received')
+    # remove unused totals
+    remove_total(digests, full_total_keys=[
+        '_contributions_by_origin_from_candidates'
+        ,'_contributions_by_region_from_referendum_opposing'
+        ,'_contributions_by_region_from_referendum_supporting'
+        ,'_contributions_by_type_Unitemized_from_candidates'
+        ,'_contributions_by_type_Unitemized_from_referendum_opposing'
+        ,'_contributions_by_type_Unitemized_from_referendum_supporting'
+        ,'_contributions_by_type_from_candidates'
+        ,'_contributions_by_type_from_referendum_opposing'
+        ,'_contributions_by_type_from_referendum_supporting'
+        ,'_contributions_by_type_from_tickets'
+        ,'_contributions_by_type_from_elections'
+        ,'_contributions_by_type_from_totals'
+        ,'_total_contributions_from_candidates'
+        ,'_total_contributions_from_referendum_opposing'
+        ,'_total_contributions_from_referendum_supporting'
+        ,'_total_small_contributions_from_candidates'
+        ,'_total_loans_received_from_candidates'
+        ], total_group_key='total_contributions')
+    remove_total(digests, full_total_keys=['_total_contributions_by_source_from_tickets','_contributions_by_type_Unitemized_from_tickets'], total_group_key='total_contributions')
+    remove_total(digests, full_total_keys=['_total_contributions_by_source_from_elections','_contributions_by_type_Unitemized_from_elections'], total_group_key='total_contributions')
+    remove_total(digests, full_total_keys=['_total_contributions_by_source_from_totals','_contributions_by_type_Unitemized_from_totals'], total_group_key='total_contributions')
+
+    # remove old election totals
+    remove_election_totals(digests, election_keys=[
+        'oakland-2014'
+        ,'oakland-2016'
+        ,'oakland-2018'
+        ,'oakland-2020'
+        ,'berkeley-2018'
+        ,'sf-2016'
+        ,'sf-2018'
+        ,'sf-june-2018'
+    ], total_group_key='total_contributions')
+
+
+def main():
+    digests = {}
+    build_dir = 'build'
+    filepath = f'{build_dir}/digests.json'
+    collect_digests(digests, build_dir, exclude=[filepath])
+    collect_totals(digests, build_dir)
 
     print(f'Saving {filepath}')
     with open(filepath, 'w') as fp:
