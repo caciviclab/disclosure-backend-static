@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2020-11-03.md
 candidates:
-- ben-coach-tapscott
 - clifford-thompson
+- ben-coach-tapscott
 - bronche-taylor
 - kristina-molina
 - victor-javier-valerio

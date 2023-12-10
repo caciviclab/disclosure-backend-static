@@ -1,5 +1,5 @@
 {
-  "total_contributions": 2652678.94,
+  "total_contributions": 2992603.18,
   "total_contributions_by_source": {
     "Out of State": 184777.27,
     "Within Oakland": 1387330.2600000002,
@@ -8,11 +8,17 @@
   "contributions_by_type": {
     "Committee": 443366.93,
     "Individual": 1761987.61,
-    "Unitemized": 179326.51999999996,
+    "Unitemized": 213305.34999999995,
     "Self Funding": 134466.64,
     "Other (includes Businesses)": 328106.4
   },
   "most_expensive_races": [
+    {
+      "slug": "city-council-at-large",
+      "type": "office",
+      "title": "City Council At-Large",
+      "amount": 520635.41
+    },
     {
       "slug": "city-council-district-7",
       "type": "office",
@@ -20,16 +26,10 @@
       "amount": 453009.32999999996
     },
     {
-      "slug": "city-council-at-large",
+      "slug": "city-council-district-3",
       "type": "office",
-      "title": "City Council At-Large",
-      "amount": 405212.41000000003
-    },
-    {
-      "slug": "ousd-facilities-bond",
-      "type": "referendum",
-      "title": "Measure Y",
-      "amount": 367195.08
+      "title": "City Council District 3",
+      "amount": 409045.31
     }
   ],
   "largest_small_proportion": [
@@ -50,11 +50,11 @@
       "office_title": "City Council District 1"
     },
     {
-      "slug": "richard-santos-raya",
+      "slug": "zoe-lopez-meraz",
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
-      "candidate": "Richard Santos Raya",
-      "proportion": 0.23698879458053446,
+      "candidate": "Zoe Lopez-Meraz",
+      "proportion": 0.24977214936318667,
       "office_title": "City Council District 5"
     }
   ],
