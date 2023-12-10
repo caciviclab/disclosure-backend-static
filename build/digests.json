@@ -1,4 +1,126 @@
 {
+ "_total_contributions": {
+  "_total_contributions_by_source_with_unitemized_from_elections": 40460950.74,
+  "_total_contributions_by_source_with_unitemized_from_tickets": 40460950.74,
+  "_total_contributions_by_source_with_unitemized_from_totals": 40460950.74,
+  "_total_contributions_by_type_with_loans_from_elections": 40461170.02,
+  "_total_contributions_by_type_with_loans_from_tickets": 40461170.02,
+  "_total_contributions_by_type_with_loans_from_totals": 40461170.02,
+  "_total_contributions_from_elections": 40991216.58,
+  "_total_contributions_from_tickets": 40991216.58,
+  "_total_contributions_from_totals": 40991216.58,
+  "oakland-2022": {
+   "_total_contributions_by_source_with_unitemized_from_elections": 6345629.69,
+   "_total_contributions_by_source_with_unitemized_from_tickets": 6345629.69,
+   "_total_contributions_by_source_with_unitemized_from_totals": 6345629.69,
+   "_total_contributions_by_type_with_loans_from_elections": 6345629.69,
+   "_total_contributions_by_type_with_loans_from_tickets": 6345629.69,
+   "_total_contributions_by_type_with_loans_from_totals": 6345629.69,
+   "_total_contributions_from_elections": 6476065.89,
+   "_total_contributions_from_tickets": 6476065.89,
+   "_total_contributions_from_totals": 6476065.89
+  },
+  "oakland-2023": {
+   "_total_contributions_by_source_with_unitemized_from_elections": 23415.0,
+   "_total_contributions_by_source_with_unitemized_from_tickets": 23415.0,
+   "_total_contributions_by_source_with_unitemized_from_totals": 23415.0,
+   "_total_contributions_by_type_with_loans_from_elections": 23415.0,
+   "_total_contributions_by_type_with_loans_from_tickets": 23415.0,
+   "_total_contributions_by_type_with_loans_from_totals": 23415.0,
+   "_total_contributions_from_elections": 23415.0,
+   "_total_contributions_from_tickets": 23415.0,
+   "_total_contributions_from_totals": 23415.0
+  },
+  "oakland-2024": {
+   "_total_contributions_by_source_with_unitemized_from_elections": 21347.5,
+   "_total_contributions_by_source_with_unitemized_from_tickets": 21347.5,
+   "_total_contributions_by_source_with_unitemized_from_totals": 21347.5,
+   "_total_contributions_by_type_with_loans_from_elections": 21347.5,
+   "_total_contributions_by_type_with_loans_from_tickets": 21347.5,
+   "_total_contributions_by_type_with_loans_from_totals": 21347.5,
+   "_total_contributions_from_elections": 21397.5,
+   "_total_contributions_from_tickets": 21397.5,
+   "_total_contributions_from_totals": 21397.5
+  },
+  "oakland-june-2018": {
+   "_total_contributions_by_source_with_unitemized_from_elections": 0,
+   "_total_contributions_by_source_with_unitemized_from_tickets": 0,
+   "_total_contributions_by_source_with_unitemized_from_totals": 151587.72,
+   "_total_contributions_by_type_with_loans_from_elections": 0,
+   "_total_contributions_by_type_with_loans_from_tickets": 0,
+   "_total_contributions_by_type_with_loans_from_totals": 151587.72,
+   "_total_contributions_from_tickets": 0,
+   "_total_contributions_from_totals": 151587.72
+  },
+  "oakland-june-2022": {
+   "_total_contributions_by_source_with_unitemized_from_elections": 0,
+   "_total_contributions_by_source_with_unitemized_from_tickets": 0,
+   "_total_contributions_by_source_with_unitemized_from_totals": 104075.02,
+   "_total_contributions_by_type_with_loans_from_elections": 0,
+   "_total_contributions_by_type_with_loans_from_tickets": 0,
+   "_total_contributions_by_type_with_loans_from_totals": 104075.02,
+   "_total_contributions_from_tickets": 0,
+   "_total_contributions_from_totals": 104075.02
+  },
+  "oakland-march-2020": {
+   "_total_contributions_by_source_with_unitemized_from_elections": 0,
+   "_total_contributions_by_source_with_unitemized_from_tickets": 0,
+   "_total_contributions_by_source_with_unitemized_from_totals": 438840.88,
+   "_total_contributions_by_type_with_loans_from_elections": 0,
+   "_total_contributions_by_type_with_loans_from_tickets": 0,
+   "_total_contributions_by_type_with_loans_from_totals": 438840.88,
+   "_total_contributions_from_tickets": 0,
+   "_total_contributions_from_totals": 438840.88
+  }
+ },
+ "_total_expenditures": {
+  "_expenditures_by_type_from_candidates": 13464780.29,
+  "_total_expenditures_from_candidates": 13384343.41,
+  "_total_opposing_from_candidates": 0,
+  "_total_supporting_from_candidates": 0,
+  "oakland-2014": {
+   "_expenditures_by_type_from_candidates": 3691354.44,
+   "_total_expenditures_from_candidates": 3779528.01,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2016": {
+   "_expenditures_by_type_from_candidates": 1471934.55,
+   "_total_expenditures_from_candidates": 1642917.31,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2018": {
+   "_expenditures_by_type_from_candidates": 2511822.92,
+   "_total_expenditures_from_candidates": 2276693.25,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2020": {
+   "_expenditures_by_type_from_candidates": 2702893.83,
+   "_total_expenditures_from_candidates": 2527271.02,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2022": {
+   "_expenditures_by_type_from_candidates": 3064375.35,
+   "_total_expenditures_from_candidates": 3134899.72,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2023": {
+   "_expenditures_by_type_from_candidates": 9911.54,
+   "_total_expenditures_from_candidates": 10396.44,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  },
+  "oakland-2024": {
+   "_expenditures_by_type_from_candidates": 12487.66,
+   "_total_expenditures_from_candidates": 12637.66,
+   "_total_opposing_from_candidates": 0,
+   "_total_supporting_from_candidates": 0
+  }
+ },
  "build/_data/candidates/oakland/2014-11-04/abel-guillen.json:ballot_item": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
  "build/_data/candidates/oakland/2014-11-04/abel-guillen.json:bio": "37a6259cc0c1dae299a7866489dff0bd",
  "build/_data/candidates/oakland/2014-11-04/abel-guillen.json:committee_name": "ea153153465a8c620a955a64fb611b06",
