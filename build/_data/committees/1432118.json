@@ -1,7 +1,9 @@
 {
+  "iec": false,
   "total_contributions": 100.0,
   "contributions": [
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1432118",
       "Tran_Emp": "self",
       "Tran_Occ": "consulting",
@@ -10,7 +12,8 @@
       "Tran_Date": "2020-10-26",
       "Tran_NamF": "dia",
       "Tran_NamL": "penning",
-      "Tran_Zip4": "94608"
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2020"
     }
   ]
 }
