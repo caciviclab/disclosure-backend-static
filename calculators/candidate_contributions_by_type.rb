@@ -120,8 +120,8 @@ class CandidateContributionsByType
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND ( "Form_Type" = 'A' OR "Form_Type" = 'C')
           AND "Line_Item" = '2'
-        GROUP BY "Filer_ID"
-        ORDER BY "Filer_ID"
+        GROUP BY election_name, "Filer_ID"
+        ORDER BY election_name, "Filer_ID"
       SQL
 
       hash.merge!(results.group_by { |row| row['election_name'].itself }.transform_values do |values|
