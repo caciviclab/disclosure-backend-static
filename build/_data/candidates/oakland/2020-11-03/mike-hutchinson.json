@@ -1,0 +1,81 @@
+{
+  "id": 90,
+  "name": "Mike Hutchinson",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
+  "facebook_url": "https://www.facebook.com/MikeHutchinson4SchoolBoard",
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/87-9842e0/address/null/zip/94610/contests/contest/21297/candidate/151502?date=2020-11-03",
+  "first_name": "Mike",
+  "last_name": "Hutchinson",
+  "ballot_item": 17,
+  "office_election": 17,
+  "bio": null,
+  "committee_name": "Mike Hutchinson for Oakland School Board 2020",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Educator",
+  "party_affiliation": null,
+  "is_winner": true,
+  "filer_id": 1429072,
+  "supporting_money": {
+    "contributions_received": 27381.49,
+    "total_contributions": 27381.49,
+    "total_expenditures": 17255.5,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 65808.79,
+    "support_list": [
+      {
+        "Total": 63625.6,
+        "Cand_ID": 1429072,
+        "Filer_ID": "1345259",
+        "Filer_NamL": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2020"
+      },
+      {
+        "Total": 2183.19,
+        "Cand_ID": 1429072,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2020"
+      }
+    ],
+    "contributions_by_type": {
+      "Committee": 5800.0,
+      "Individual": 17725.0,
+      "Unitemized": 3720.0,
+      "Other (includes Businesses)": 115.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 1150.0,
+      "Within Oakland": 14490.0,
+      "Within California": 8000.0
+    },
+    "total_small_contributions": 4420.0,
+    "expenditures_by_type": {
+      "CMP": 2644.98,
+      "CTB": 1295.0,
+      "FIL": 950.0,
+      "LIT": 5194.77,
+      "OFC": 4191.63,
+      "PHO": 500.0,
+      "PRO": 1750.65,
+      "PRT": 325.0
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 27381.49,
+  "total_expenditures": 17255.5,
+  "total_loans_received": 0.0
+}

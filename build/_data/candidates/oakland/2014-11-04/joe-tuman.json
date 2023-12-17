@@ -1,0 +1,81 @@
+{
+  "id": 178,
+  "name": "Joe Tuman",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": null,
+  "first_name": "Joe",
+  "last_name": "Tuman",
+  "ballot_item": 1,
+  "office_election": 1,
+  "bio": null,
+  "committee_name": "Joe Tuman for Mayor 2014",
+  "is_accepted_expenditure_ceiling": null,
+  "is_incumbent": false,
+  "occupation": null,
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1359017,
+  "supporting_money": {
+    "contributions_received": 115502.98,
+    "total_contributions": 115502.98,
+    "total_expenditures": 250571.9,
+    "total_loans_received": -4211.02,
+    "total_supporting_independent": 8450.0,
+    "support_list": [
+      {
+        "Total": 8450.0,
+        "Cand_ID": 1359017,
+        "Filer_ID": "1370519",
+        "Filer_NamL": "Citizens for Oakland",
+        "election_name": "oakland-2014"
+      }
+    ],
+    "contributions_by_type": {
+      "Individual": 102747.0,
+      "Unitemized": 8487.0,
+      "Self Funding": 4360.0,
+      "Other (includes Businesses)": 4120.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 1050.0,
+      "Within Oakland": 80755.0,
+      "Within California": 29422.0
+    },
+    "total_small_contributions": 10042.0,
+    "expenditures_by_type": {
+      "": 1143.76,
+      "CMP": 6305.45,
+      "CNS": 84120.0,
+      "CVC": 726.75,
+      "FIL": 500.0,
+      "FND": 589.63,
+      "LIT": 59144.47,
+      "MTG": 105.0,
+      "OFC": 18758.01,
+      "PHO": 1086.75,
+      "POS": 34371.2,
+      "PRO": 3382.76,
+      "PRT": 420.0,
+      "TEL": 28884.7,
+      "WEB": 5850.13
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 115502.98,
+  "total_expenditures": 250571.9,
+  "total_loans_received": -4211.02
+}

@@ -1,0 +1,52 @@
+{
+  "id": 20,
+  "contest_type": "Referendum",
+  "name": "Youth Voting",
+  "title": "Youth Voting",
+  "summary": "Shall a measure amending the City of Oakland Charter to authorize the City Council, by adoption of an ordinance, to authorize persons aged 16 and above, who are otherwise eligible to vote under state and local law, to vote for the Office of School Board Director, be adopted?",
+  "number": "QQ",
+  "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/87-f810b9/address/null/zip/94611/measures/measure/4192?cty=ca%2falm",
+  "contributions_by_region": [
+    {
+      "amount": 150.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 7350.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 134606.89,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 101731.89
+    },
+    {
+      "type": "Individual",
+      "amount": 34875.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 5500.0
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1433587",
+      "name": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
+      "payee": "Tenants and Owners Development Corporation and its affiliated entity Yerba Buena Neighborhood Consortium LLC",
+      "amount": 1800.0
+    },
+    {
+      "id": "1428755",
+      "name": "Yes on QQ, Oakland Youth Vote",
+      "payee": "Yes on QQ, Oakland Youth Vote",
+      "amount": 137850.33
+    }
+  ],
+  "total_contributions": 142106.89
+}

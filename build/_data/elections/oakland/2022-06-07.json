@@ -1,0 +1,109 @@
+{
+  "total_contributions": 104075.02,
+  "total_contributions_by_source": {
+    "Out of State": 6400.0,
+    "Within Oakland": 64425.020000000004,
+    "Within California": 33250.0
+  },
+  "contributions_by_type": {
+    "Committee": 22000.0,
+    "Individual": 16375.0,
+    "Other (includes Businesses)": 65700.02
+  },
+  "most_expensive_races": [
+    {
+      "slug": "library-services-retention-and-enhancement-act",
+      "type": "referendum",
+      "title": "Measure C",
+      "amount": 104075.02
+    }
+  ],
+  "largest_small_proportion": [
+
+  ],
+  "largest_independent_expenditures": {
+  },
+  "top_contributors": [
+    {
+      "name": "The Friends of the Oakland Public Library",
+      "election_name": "oakland-june-2022",
+      "total_contributions": 40000.0
+    },
+    {
+      "name": "Service Employees International Union Local #1021 Issues PAC",
+      "election_name": "oakland-june-2022",
+      "total_contributions": 10000.0
+    },
+    {
+      "name": "CliffordMoss.",
+      "election_name": "oakland-june-2022",
+      "total_contributions": 9500.02
+    }
+  ],
+  "top_contributors_for_offices": [
+
+  ],
+  "top_contributors_for_measures": [
+    {
+      "name": "The Friends of the Oakland Public Library",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_contributions": 40000.0
+    },
+    {
+      "name": "Service Employees International Union Local #1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_contributions": 10000.0
+    },
+    {
+      "name": "CliffordMoss.",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_contributions": 9500.02
+    }
+  ],
+  "top_spenders": [
+    {
+      "name": "The Friends of the Oakland Public Library",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_spending": 40000.0
+    },
+    {
+      "name": "Service Employees International Union Local #1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_spending": 10000.0
+    },
+    {
+      "name": "CliffordMoss.",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_spending": 9500.02
+    }
+  ],
+  "top_spenders_for_offices": [
+
+  ],
+  "top_spenders_for_measures": [
+    {
+      "name": "The Friends of the Oakland Public Library",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_spending": 40000.0
+    },
+    {
+      "name": "Service Employees International Union Local #1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_spending": 10000.0
+    },
+    {
+      "name": "CliffordMoss.",
+      "type": "Measure",
+      "election_name": "oakland-june-2022",
+      "total_spending": 9500.02
+    }
+  ]
+}
