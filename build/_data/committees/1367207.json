@@ -1,7 +1,9 @@
 {
+  "iec": false,
   "total_contributions": 11800.0,
   "contributions": [
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1367207",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -10,9 +12,11 @@
       "Tran_Date": "2014-05-21",
       "Tran_NamF": "Lemel",
       "Tran_NamL": "Williams",
-      "Tran_Zip4": "94531"
+      "Tran_Zip4": "94531",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1367207",
       "Tran_Emp": "City and County of San Francisco",
       "Tran_Occ": "Administration",
@@ -21,9 +25,11 @@
       "Tran_Date": "2014-05-27",
       "Tran_NamF": "Charles",
       "Tran_NamL": "Williams",
-      "Tran_Zip4": "94608"
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1367207",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -32,9 +38,11 @@
       "Tran_Date": "2014-06-11",
       "Tran_NamF": null,
       "Tran_NamL": "Local 39",
-      "Tran_Zip4": "94103"
+      "Tran_Zip4": "94103",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1367207",
       "Tran_Emp": "unknown",
       "Tran_Occ": "Auto Transport",
@@ -43,9 +51,11 @@
       "Tran_Date": "2014-07-09",
       "Tran_NamF": "Patrick",
       "Tran_NamL": "Neal",
-      "Tran_Zip4": "85719"
+      "Tran_Zip4": "85719",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1367207",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -54,9 +64,11 @@
       "Tran_Date": "2014-08-04",
       "Tran_NamF": null,
       "Tran_NamL": "Donation Box",
-      "Tran_Zip4": "94607"
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1367207",
       "Tran_Emp": "City and County of San Francisco",
       "Tran_Occ": "Administration",
@@ -65,7 +77,8 @@
       "Tran_Date": "2014-09-29",
       "Tran_NamF": "Charles",
       "Tran_NamL": "Williams",
-      "Tran_Zip4": "94608"
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2014"
     }
   ]
 }

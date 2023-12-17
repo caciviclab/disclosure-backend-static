@@ -1,38 +1,7 @@
 {
-  "total_contributions": 2100.0,
+  "iec": true,
+  "total_contributions": 0,
   "contributions": [
-    {
-      "Filer_ID": "1342185",
-      "Tran_Emp": "County of Los Angeles",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-01-03",
-      "Tran_NamF": "Jodi",
-      "Tran_NamL": "Kravetz",
-      "Tran_Zip4": "90024"
-    },
-    {
-      "Filer_ID": "1342185",
-      "Tran_Emp": "Michelman & Robinson",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-01-03",
-      "Tran_NamF": "Todd",
-      "Tran_NamL": "Stitt",
-      "Tran_Zip4": "92627"
-    },
-    {
-      "Filer_ID": "1342185",
-      "Tran_Emp": "Michelman & Robinson, LLP",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 700.0,
-      "Tran_Date": "2014-01-13",
-      "Tran_NamF": "Andrew",
-      "Tran_NamL": "Selesnick",
-      "Tran_Zip4": "91307"
-    }
+
   ]
 }
