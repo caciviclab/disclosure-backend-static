@@ -41,19 +41,17 @@
     },
     "total_small_contributions": 1093.0,
     "expenditures_by_type": {
-      "Not Stated": 180.0,
-      "Fundraising Events": 128.05,
-      "Meetings and Appearances": 114.67,
-      "Campaign Workers' Salaries": 150.0,
-      "Campaign Paraphernalia/Misc.": 870.17,
-      "Candidate Filing/Ballot Fees": 1140.0,
-      "Campaign Literature and Mailings": 1187.01,
-      "Professional Services (Legal, Accounting)": 500.0,
-      "Information Technology Costs (Internet, E-mail)": 381.89
+      "": 180.0,
+      "CMP": 870.17,
+      "FIL": 1140.0,
+      "FND": 128.05,
+      "LIT": 1187.01,
+      "MTG": 114.67,
+      "PRO": 500.0,
+      "SAL": 150.0,
+      "WEB": 381.89
     },
     "supporting_by_type": {
-      "IKD": 5924.0,
-      "MON": 250.0
     }
   },
   "opposing_money": {

@@ -42,19 +42,18 @@
     },
     "total_small_contributions": 275.0,
     "expenditures_by_type": {
-      "Print Ads": 9483.0,
-      "Phone Banks": 1625.47,
-      "Office Expenses": 589.98,
-      "Campaign Consultants": 11447.9,
-      "Meetings and Appearances": 150.0,
-      "Campaign Paraphernalia/Misc.": 2520.62,
-      "Candidate Filing/Ballot Fees": 500.0,
-      "Campaign Literature and Mailings": 37284.94,
-      "Professional Services (Legal, Accounting)": 1880.0,
-      "Information Technology Costs (Internet, E-mail)": 3500.0
+      "CMP": 2520.62,
+      "CNS": 11447.9,
+      "FIL": 500.0,
+      "LIT": 37284.94,
+      "MTG": 150.0,
+      "OFC": 589.98,
+      "PHO": 1625.47,
+      "PRO": 1880.0,
+      "PRT": 9483.0,
+      "WEB": 3500.0
     },
     "supporting_by_type": {
-      "MON": 3800.0
     }
   },
   "opposing_money": {

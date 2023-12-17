@@ -31,7 +31,8 @@
         "Total": 1576.52,
         "Cand_ID": 1404347,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2018"
       }
     ],
     "contributions_by_type": {
@@ -48,15 +49,14 @@
     },
     "total_small_contributions": 5363.0,
     "expenditures_by_type": {
-      "Contribution": 15722.89,
-      "Campaign Consultants": 30368.0,
-      "Campaign Workers' Salaries": 3413.6,
-      "Campaign Literature and Mailings": 4163.78,
-      "Postage, Delivery and Messenger Services": 3162.36,
-      "Professional Services (Legal, Accounting)": 457.51
+      "CNS": 30368.0,
+      "CTB": 15722.89,
+      "LIT": 4163.78,
+      "POS": 3162.36,
+      "PRO": 457.51,
+      "SAL": 3413.6
     },
     "supporting_by_type": {
-      "MON": 250.0
     }
   },
   "opposing_money": {

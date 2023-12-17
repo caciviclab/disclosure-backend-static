@@ -42,28 +42,26 @@
     },
     "total_small_contributions": 576.0,
     "expenditures_by_type": {
-      "Print Ads": 1500.0,
-      "Not Stated": 19420.59,
-      "Phone Banks": 718.02,
-      "Civic Donations": 15561.08,
-      "Office Expenses": 3097.64,
-      "Fundraising Events": 1329.5,
-      "Meetings and Appearances": 128.31,
-      "Campaign Paraphernalia/Misc.": 12592.11,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 29387.81,
-      "Postage, Delivery and Messenger Services": 115.5,
-      "Professional Services (Legal, Accounting)": 10101.9,
-      "Information Technology Costs (Internet, E-mail)": 7373.84
+      "": 19420.59,
+      "CMP": 12592.11,
+      "CVC": 15561.08,
+      "FIL": 1000.0,
+      "FND": 1329.5,
+      "LIT": 29387.81,
+      "MTG": 128.31,
+      "OFC": 3097.64,
+      "PHO": 718.02,
+      "POS": 115.5,
+      "PRO": 10101.9,
+      "PRT": 1500.0,
+      "WEB": 7373.84
     },
     "supporting_by_type": {
-      "MON": 4100.0
     }
   },
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 39316.35
     },
     "opposition_list": [
 

@@ -41,19 +41,19 @@
     },
     "total_small_contributions": 839.5,
     "expenditures_by_type": {
-      "Not Stated": 809.02,
-      "Civic Donations": 261.86,
-      "Office Expenses": 1981.28,
-      "Fundraising Events": 147.81,
-      "Voter Registration": 156.15,
-      "Petition Circulating": 29.28,
-      "Meetings and Appearances": 24.86,
-      "Campaign Paraphernalia/Misc.": 1629.6,
-      "Candidate Filing/Ballot Fees": 440.0,
-      "Campaign Literature and Mailings": 541.33,
-      "Staff/Spouse Travel, Lodging, and Meals": 320.14,
-      "Professional Services (Legal, Accounting)": 372.42,
-      "Information Technology Costs (Internet, E-mail)": 100.0
+      "": 809.02,
+      "CMP": 1629.6,
+      "CVC": 261.86,
+      "FIL": 440.0,
+      "FND": 147.81,
+      "LIT": 541.33,
+      "MTG": 24.86,
+      "OFC": 1981.28,
+      "PET": 29.28,
+      "PRO": 372.42,
+      "TRS": 320.14,
+      "VOT": 156.15,
+      "WEB": 100.0
     },
     "supporting_by_type": {
     }

@@ -43,20 +43,19 @@
     },
     "total_small_contributions": 8602.01,
     "expenditures_by_type": {
-      "Not Stated": 16872.35,
-      "Contribution": 1400.0,
-      "Office Expenses": 589.25,
-      "Fundraising Events": 1618.95,
-      "Polling and Survey Research": 3137.48,
-      "Campaign Paraphernalia/Misc.": 14274.08,
-      "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 21352.34,
-      "Staff/Spouse Travel, Lodging, and Meals": 248.06,
-      "Postage, Delivery and Messenger Services": 4662.11,
-      "Professional Services (Legal, Accounting)": 6361.08
+      "": 16872.35,
+      "CMP": 14274.08,
+      "CTB": 1400.0,
+      "FIL": 300.0,
+      "FND": 1618.95,
+      "LIT": 21352.34,
+      "OFC": 589.25,
+      "POL": 3137.48,
+      "POS": 4662.11,
+      "PRO": 6361.08,
+      "TRS": 248.06
     },
     "supporting_by_type": {
-      "MON": 250.0
     }
   },
   "opposing_money": {

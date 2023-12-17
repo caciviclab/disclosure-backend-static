@@ -42,20 +42,19 @@
     },
     "total_small_contributions": 2041.0,
     "expenditures_by_type": {
-      "Print Ads": 5670.0,
-      "Not Stated": 2312.19,
-      "Civic Donations": 500.0,
-      "Campaign Consultants": 16225.78,
-      "Campaign Paraphernalia/Misc.": 29757.02,
-      "Candidate Filing/Ballot Fees": 650.0,
-      "Campaign Literature and Mailings": 64678.24,
-      "Candidate Travel, Lodging, and Meals": 374.19,
-      "Postage, Delivery and Messenger Services": 364.28,
-      "Professional Services (Legal, Accounting)": 1500.0,
-      "Information Technology Costs (Internet, E-mail)": 1302.07
+      "": 2312.19,
+      "CMP": 29757.02,
+      "CNS": 16225.78,
+      "CVC": 500.0,
+      "FIL": 650.0,
+      "LIT": 64678.24,
+      "POS": 364.28,
+      "PRO": 1500.0,
+      "PRT": 5670.0,
+      "TRC": 374.19,
+      "WEB": 1302.07
     },
     "supporting_by_type": {
-      "MON": 2800.0
     }
   },
   "opposing_money": {

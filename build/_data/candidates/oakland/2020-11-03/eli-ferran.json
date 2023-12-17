@@ -21,9 +21,9 @@
   "is_winner": false,
   "filer_id": 1426949,
   "supporting_money": {
-    "contributions_received": 127237.43,
-    "total_contributions": 127237.43,
-    "total_expenditures": 127464.43,
+    "contributions_received": 91201.06,
+    "total_contributions": 91201.06,
+    "total_expenditures": 124526.28,
     "total_loans_received": 0.0,
     "total_supporting_independent": 105552.0,
     "support_list": [
@@ -31,13 +31,14 @@
         "Total": 105552.0,
         "Cand_ID": 1426949,
         "Filer_ID": "1344093",
-        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)"
+        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)",
+        "election_name": "oakland-2020"
       }
     ],
     "contributions_by_type": {
       "Committee": 16550.0,
       "Individual": 70318.65,
-      "Unitemized": 5677.36,
+      "Unitemized": 3436.0,
       "Self Funding": 17251.42,
       "Other (includes Businesses)": 8700.0
     },
@@ -46,25 +47,21 @@
       "Within Oakland": 56425.06,
       "Within California": 43070.01
     },
-    "total_small_contributions": 6617.36,
+    "total_small_contributions": 4376.0,
     "expenditures_by_type": {
-      "Not Stated": 27580.44,
-      "Phone Banks": 395.67,
-      "Fundraising Events": 3292.09,
-      "Campaign Consultants": 15000.0,
-      "Campaign Workers' Salaries": 29191.82,
-      "Campaign Paraphernalia/Misc.": 2813.21,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 28577.82,
-      "Professional Services (Legal, Accounting)": 9657.29,
-      "T.V. or Cable Airtime and Production Costs": 1462.0,
-      "Information Technology Costs (Internet, E-mail)": 7328.03
+      "": 27580.44,
+      "CMP": 2813.21,
+      "CNS": 15000.0,
+      "FIL": 1000.0,
+      "FND": 3292.09,
+      "LIT": 28577.82,
+      "PHO": 395.67,
+      "PRO": 9657.29,
+      "SAL": 29191.82,
+      "TEL": 1462.0,
+      "WEB": 7328.03
     },
     "supporting_by_type": {
-      "MON": 1700.0,
-      "POLLING": 16220.0,
-      "ONLINE ADS": 82250.0,
-      "VOTER FILE": 7082.0
     }
   },
   "opposing_money": {
@@ -75,7 +72,7 @@
 
     ]
   },
-  "total_contributions": 127237.43,
-  "total_expenditures": 127464.43,
+  "total_contributions": 91201.06,
+  "total_expenditures": 124526.28,
   "total_loans_received": 0.0
 }

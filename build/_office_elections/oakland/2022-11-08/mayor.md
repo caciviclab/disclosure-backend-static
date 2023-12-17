@@ -1,14 +1,14 @@
 ---
 election: _elections/oakland/2022-11-08.md
 candidates:
-- loren-manuel-taylor
 - sheng-thao
+- loren-manuel-taylor
 - ignacio-de-la-fuente
-- treva-d-reid
 - gregory-hodge
+- treva-d-reid
 - seneca-scott
-- derreck-johnson
 - allyssa-victory-villanueva
+- derreck-johnson
 - derrick-soo
 - elbert-owens
 - john-mimosa-marks
