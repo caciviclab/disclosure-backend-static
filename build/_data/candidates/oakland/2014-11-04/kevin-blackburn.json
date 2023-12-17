@@ -43,19 +43,19 @@
     },
     "total_small_contributions": 5597.0,
     "expenditures_by_type": {
-      "Not Stated": 19750.55,
-      "Office Expenses": 920.95,
-      "Fundraising Events": 1952.4,
-      "Campaign Consultants": 22085.96,
-      "Petition Circulating": 795.47,
-      "Meetings and Appearances": 1205.64,
-      "Campaign Workers' Salaries": 3600.0,
-      "Campaign Paraphernalia/Misc.": 23736.21,
-      "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 114.18,
-      "Candidate Travel, Lodging, and Meals": 1000.0,
-      "Postage, Delivery and Messenger Services": 98.0,
-      "Professional Services (Legal, Accounting)": 2588.19
+      "": 19750.55,
+      "CMP": 23736.21,
+      "CNS": 22085.96,
+      "FIL": 300.0,
+      "FND": 1952.4,
+      "LIT": 114.18,
+      "MTG": 1205.64,
+      "OFC": 920.95,
+      "PET": 795.47,
+      "POS": 98.0,
+      "PRO": 2588.19,
+      "SAL": 3600.0,
+      "TRC": 1000.0
     },
     "supporting_by_type": {
     }

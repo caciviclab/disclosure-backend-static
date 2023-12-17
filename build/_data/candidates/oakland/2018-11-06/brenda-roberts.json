@@ -41,18 +41,17 @@
     },
     "total_small_contributions": 340.0,
     "expenditures_by_type": {
-      "Print Ads": 2000.0,
-      "Phone Banks": 1388.41,
-      "Fundraising Events": 300.0,
-      "Campaign Consultants": 19915.84,
-      "Meetings and Appearances": 555.0,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 20836.02,
-      "Professional Services (Legal, Accounting)": 300.0,
-      "T.V. or Cable Airtime and Production Costs": 10514.0
+      "CNS": 19915.84,
+      "FIL": 1000.0,
+      "FND": 300.0,
+      "LIT": 20836.02,
+      "MTG": 555.0,
+      "PHO": 1388.41,
+      "PRO": 300.0,
+      "PRT": 2000.0,
+      "TEL": 10514.0
     },
     "supporting_by_type": {
-      "MON": 3800.0
     }
   },
   "opposing_money": {

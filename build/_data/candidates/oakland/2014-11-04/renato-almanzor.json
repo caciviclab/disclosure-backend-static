@@ -31,7 +31,8 @@
         "Total": 63894.42,
         "Cand_ID": 1365454,
         "Filer_ID": "1331137",
-        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
+        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+        "election_name": "oakland-2014"
       }
     ],
     "contributions_by_type": {
@@ -46,18 +47,16 @@
     },
     "total_small_contributions": 2943.0,
     "expenditures_by_type": {
-      "Campaign Consultants": 4750.0,
-      "Meetings and Appearances": 55.86,
-      "Polling and Survey Research": 449.0,
-      "Campaign Paraphernalia/Misc.": 1217.88,
-      "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 3383.36,
-      "Professional Services (Legal, Accounting)": 160.0,
-      "Information Technology Costs (Internet, E-mail)": 29.0
+      "CMP": 1217.88,
+      "CNS": 4750.0,
+      "FIL": 300.0,
+      "LIT": 3383.36,
+      "MTG": 55.86,
+      "POL": 449.0,
+      "PRO": 160.0,
+      "WEB": 29.0
     },
     "supporting_by_type": {
-      "MON": 1400.0,
-      "Independent Expenditure Supporting/Opposing Others": 63894.42
     }
   },
   "opposing_money": {

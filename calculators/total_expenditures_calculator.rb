@@ -11,12 +11,9 @@ class TotalExpendituresCalculator
   def fetch
     results = ActiveRecord::Base.connection.execute <<-SQL
       SELECT election_name, "Filer_ID", SUM("Amount_A") AS "Amount_A"
-      FROM "Summary", candidates
-      WHERE "Filer_ID" = "FPPC"::varchar
-      AND "Form_Type" = 'F460'
+      FROM candidate_summary
+      WHERE "Form_Type" = 'F460'
       AND "Line_Item" = '11'
-      AND ("Start_Date" IS NULL OR "Rpt_Date" >= "Start_Date")
-      AND ("End_Date" IS NULL OR "Rpt_Date" <= "End_Date")
       GROUP BY election_name, "Filer_ID"
       ORDER BY election_name, "Filer_ID"
     SQL

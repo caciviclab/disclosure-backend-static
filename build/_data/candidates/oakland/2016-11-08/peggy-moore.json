@@ -43,20 +43,19 @@
     },
     "total_small_contributions": 20133.44,
     "expenditures_by_type": {
-      "Office Expenses": 14393.29,
-      "Fundraising Events": 2073.75,
-      "Campaign Consultants": 20900.16,
-      "Meetings and Appearances": 5327.46,
-      "Polling and Survey Research": 41081.9,
-      "Campaign Paraphernalia/Misc.": 2923.65,
-      "Campaign Literature and Mailings": 34711.66,
-      "Postage, Delivery and Messenger Services": 138.8,
-      "Professional Services (Legal, Accounting)": 25072.65,
-      "T.V. or Cable Airtime and Production Costs": 135000.0,
-      "Information Technology Costs (Internet, E-mail)": 9961.9
+      "CMP": 2923.65,
+      "CNS": 20900.16,
+      "FND": 2073.75,
+      "LIT": 34711.66,
+      "MTG": 5327.46,
+      "OFC": 14393.29,
+      "POL": 41081.9,
+      "POS": 138.8,
+      "PRO": 25072.65,
+      "TEL": 135000.0,
+      "WEB": 9961.9
     },
     "supporting_by_type": {
-      "MON": 1400.0
     }
   },
   "opposing_money": {

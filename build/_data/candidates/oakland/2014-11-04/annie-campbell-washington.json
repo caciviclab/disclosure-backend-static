@@ -31,7 +31,8 @@
         "Total": 89243.48,
         "Cand_ID": 1365610,
         "Filer_ID": "1294190",
-        "Filer_NamL": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO"
+        "Filer_NamL": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO",
+        "election_name": "oakland-2014"
       }
     ],
     "contributions_by_type": {
@@ -47,27 +48,25 @@
     },
     "total_small_contributions": 6664.0,
     "expenditures_by_type": {
-      "Print Ads": 100.0,
-      "Not Stated": 5900.0,
-      "Phone Banks": 478.16,
-      "Contribution": 500.0,
-      "Civic Donations": 4300.0,
-      "Office Expenses": 8204.11,
-      "Fundraising Events": 2930.15,
-      "Campaign Consultants": 20000.0,
-      "Meetings and Appearances": 220.0,
-      "Campaign Workers' Salaries": 9750.0,
-      "Campaign Paraphernalia/Misc.": 5194.28,
-      "Candidate Filing/Ballot Fees": 600.0,
-      "Campaign Literature and Mailings": 62478.8,
-      "Staff/Spouse Travel, Lodging, and Meals": 928.62,
-      "Postage, Delivery and Messenger Services": 147.0,
-      "Professional Services (Legal, Accounting)": 6049.1,
-      "Information Technology Costs (Internet, E-mail)": 5853.67
+      "": 5900.0,
+      "CMP": 5194.28,
+      "CNS": 20000.0,
+      "CTB": 500.0,
+      "CVC": 4300.0,
+      "FIL": 600.0,
+      "FND": 2930.15,
+      "LIT": 62478.8,
+      "MTG": 220.0,
+      "OFC": 8204.11,
+      "PHO": 478.16,
+      "POS": 147.0,
+      "PRO": 6049.1,
+      "PRT": 100.0,
+      "SAL": 9750.0,
+      "TRS": 928.62,
+      "WEB": 5853.67
     },
     "supporting_by_type": {
-      "MON": 700.0,
-      "Independent Expenditure Supporting/Opposing Others": 89243.48
     }
   },
   "opposing_money": {

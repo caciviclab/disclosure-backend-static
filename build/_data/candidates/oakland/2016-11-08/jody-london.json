@@ -23,7 +23,7 @@
   "supporting_money": {
     "contributions_received": 22344.0,
     "total_contributions": 22344.0,
-    "total_expenditures": 23941.0,
+    "total_expenditures": 23891.0,
     "total_loans_received": 0.0,
     "total_supporting_independent": 5780.41,
     "support_list": [
@@ -31,7 +31,8 @@
         "Total": 5780.41,
         "Cand_ID": 1303019,
         "Filer_ID": "1331137",
-        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
+        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+        "election_name": "oakland-2016"
       }
     ],
     "contributions_by_type": {
@@ -47,16 +48,15 @@
     },
     "total_small_contributions": 3759.0,
     "expenditures_by_type": {
-      "Office Expenses": 248.2,
-      "Fundraising Events": 2338.58,
-      "Campaign Consultants": 1000.0,
-      "Meetings and Appearances": 437.32,
-      "Campaign Paraphernalia/Misc.": 3755.99,
-      "Candidate Filing/Ballot Fees": 300.0,
-      "Campaign Literature and Mailings": 15150.0
+      "CMP": 3755.99,
+      "CNS": 1000.0,
+      "FIL": 300.0,
+      "FND": 2338.58,
+      "LIT": 15150.0,
+      "MTG": 437.32,
+      "OFC": 248.2
     },
     "supporting_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 5780.41
     }
   },
   "opposing_money": {
@@ -68,6 +68,6 @@
     ]
   },
   "total_contributions": 22344.0,
-  "total_expenditures": 23941.0,
+  "total_expenditures": 23891.0,
   "total_loans_received": 0.0
 }

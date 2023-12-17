@@ -40,12 +40,12 @@
     },
     "total_small_contributions": 170.0,
     "expenditures_by_type": {
-      "Polling and Survey Research": 1156.95,
-      "Campaign Paraphernalia/Misc.": 3155.36,
-      "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 9901.47,
-      "Professional Services (Legal, Accounting)": 800.0,
-      "Information Technology Costs (Internet, E-mail)": 323.0
+      "CMP": 3155.36,
+      "FIL": 950.0,
+      "LIT": 9901.47,
+      "POL": 1156.95,
+      "PRO": 800.0,
+      "WEB": 323.0
     },
     "supporting_by_type": {
     }

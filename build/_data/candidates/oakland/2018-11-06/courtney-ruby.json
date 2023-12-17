@@ -42,20 +42,19 @@
     },
     "total_small_contributions": 3685.0,
     "expenditures_by_type": {
-      "Contribution": 150.0,
-      "Civic Donations": 275.0,
-      "Office Expenses": 1816.21,
-      "Fundraising Events": 359.96,
-      "Campaign Consultants": 5600.0,
-      "Campaign Workers' Salaries": 1524.9,
-      "Campaign Paraphernalia/Misc.": 1790.55,
-      "Campaign Literature and Mailings": 18467.46,
-      "Postage, Delivery and Messenger Services": 13510.78,
-      "Professional Services (Legal, Accounting)": 6086.56,
-      "Information Technology Costs (Internet, E-mail)": 835.95
+      "CMP": 1790.55,
+      "CNS": 5600.0,
+      "CTB": 150.0,
+      "CVC": 275.0,
+      "FND": 359.96,
+      "LIT": 18467.46,
+      "OFC": 1816.21,
+      "POS": 13510.78,
+      "PRO": 6086.56,
+      "SAL": 1524.9,
+      "WEB": 835.95
     },
     "supporting_by_type": {
-      "MON": 2200.0
     }
   },
   "opposing_money": {
