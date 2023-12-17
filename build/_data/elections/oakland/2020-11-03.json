@@ -1,0 +1,195 @@
+{
+  "total_contributions": 2652678.94,
+  "total_contributions_by_source": {
+    "Out of State": 184777.27,
+    "Within Oakland": 1387330.2600000002,
+    "Within California": 1095820.0499999998
+  },
+  "contributions_by_type": {
+    "Committee": 443366.93,
+    "Individual": 1761987.61,
+    "Unitemized": 179326.51999999996,
+    "Self Funding": 134466.64,
+    "Other (includes Businesses)": 328106.4
+  },
+  "most_expensive_races": [
+    {
+      "slug": "city-council-district-7",
+      "type": "office",
+      "title": "City Council District 7",
+      "amount": 453009.32999999996
+    },
+    {
+      "slug": "city-council-at-large",
+      "type": "office",
+      "title": "City Council At-Large",
+      "amount": 405212.41000000003
+    },
+    {
+      "slug": "ousd-facilities-bond",
+      "type": "referendum",
+      "title": "Measure Y",
+      "amount": 367195.08
+    }
+  ],
+  "largest_small_proportion": [
+    {
+      "slug": "stacy-thomas",
+      "type": "office",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "candidate": "Stacy Thomas",
+      "proportion": 0.42857142857142855,
+      "office_title": "School Board District 1"
+    },
+    {
+      "slug": "tri-ngo",
+      "type": "office",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "candidate": "Tri Ngo",
+      "proportion": 0.30320009541786014,
+      "office_title": "City Council District 1"
+    },
+    {
+      "slug": "richard-santos-raya",
+      "type": "office",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "candidate": "Richard Santos Raya",
+      "proportion": 0.23698879458053446,
+      "office_title": "City Council District 5"
+    }
+  ],
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
+      "election_name": "oakland-2020",
+      "total_spending": 395215.8500000001
+    },
+    {
+      "name": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+      "election_name": "oakland-2020",
+      "total_spending": 340009.22000000003
+    },
+    {
+      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "election_name": "oakland-2020",
+      "total_spending": 324628.0
+    }
+  ],
+  "top_contributors": [
+    {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "election_name": "oakland-2020",
+      "total_contributions": 346800.0
+    },
+    {
+      "name": "MICHAEL BLOOMBERG",
+      "election_name": "oakland-2020",
+      "total_contributions": 300000.0
+    },
+    {
+      "name": "Michael R. Bloomberg",
+      "election_name": "oakland-2020",
+      "total_contributions": 200000.0
+    }
+  ],
+  "top_contributors_for_offices": [
+    {
+      "name": "Rebecca Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 68694.63
+    },
+    {
+      "name": "Tri Ngo",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 18402.59
+    },
+    {
+      "name": "Elias Ferran",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_contributions": 17251.42
+    }
+  ],
+  "top_contributors_for_measures": [
+    {
+      "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 100000.0
+    },
+    {
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 75000.0
+    },
+    {
+      "name": "East Bay Community Foundation",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_contributions": 45000.0
+    }
+  ],
+  "top_spenders": [
+    {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 340000.0
+    },
+    {
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 300000.0
+    },
+    {
+      "name": "Michael R. Bloomberg",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 200000.0
+    }
+  ],
+  "top_spenders_for_offices": [
+    {
+      "name": "Rebecca Kaplan",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 68694.63
+    },
+    {
+      "name": "Tri Ngo",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 18402.59
+    },
+    {
+      "name": "Elias Ferran",
+      "type": "Office",
+      "election_name": "oakland-2020",
+      "total_spending": 17251.42
+    }
+  ],
+  "top_spenders_for_measures": [
+    {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 340000.0
+    },
+    {
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 300000.0
+    },
+    {
+      "name": "Michael R. Bloomberg",
+      "type": "Measure",
+      "election_name": "oakland-2020",
+      "total_spending": 200000.0
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 155,
+  "name": "Chris Jackson",
+  "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/chris-jackson.png",
+  "website_url": "http://www.chrisjacksonforoakland.org/",
+  "twitter_url": "cj4oakland",
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": "http://votersedge.org/ca/en/ballot/election/area/42/contests/contest/13219/candidate/130704?&county=Alameda%20County&election_authority_id=1",
+  "first_name": "Chris",
+  "last_name": "Jackson",
+  "ballot_item": 18,
+  "office_election": 18,
+  "bio": "Chris Jackson is a social worker who works with the formerly incarcerated on parole or probation. He is a father of a kindergartener who is going into an OUSD school. \n\nSource: http://postnewsgroup.com/blog/2016/08/19/incumbents-run-four-seats-oakland-school-board/ and http://www.chrisjacksonforoakland.org/",
+  "committee_name": "Chris Jackson for School Board 2016",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Social Worker",
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1384926,
+  "supporting_money": {
+    "contributions_received": 25462.0,
+    "total_contributions": 25462.0,
+    "total_expenditures": 36954.85,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 5900.0,
+      "Individual": 5900.0,
+      "Unitemized": 2762.0,
+      "Self Funding": 10900.0
+    },
+    "contributions_by_origin": {
+      "Within Oakland": 17250.0,
+      "Within California": 5450.0
+    },
+    "total_small_contributions": 2987.0,
+    "expenditures_by_type": {
+      "": 2033.0,
+      "CMP": 1167.25,
+      "CNS": 5150.0,
+      "LIT": 1054.74,
+      "OFC": 1900.34,
+      "PRO": 3057.23
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 6987.5,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+      {
+        "Total": 6987.5,
+        "Cand_ID": 1384926,
+        "Filer_ID": "1331137",
+        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates",
+        "election_name": "oakland-2016"
+      }
+    ]
+  },
+  "total_contributions": 25462.0,
+  "total_expenditures": 36954.85,
+  "total_loans_received": 0.0
+}

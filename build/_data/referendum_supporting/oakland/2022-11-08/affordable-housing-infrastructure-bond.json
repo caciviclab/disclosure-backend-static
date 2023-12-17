@@ -1,0 +1,46 @@
+{
+  "id": 12,
+  "contest_type": "Referendum",
+  "name": "Affordable Housing Infrastructure Bond",
+  "title": "Affordable Housing Infrastructure Bond",
+  "summary": "Shall the measure to improve public safety and invest in Oakland by creating affordable housing for Oaklanders, increasing housing for homeless Oaklanders, repaving streets to remove potholes, improving traffic/pedestrian safety, and updating fire stations and other public facilities, by issuing $850,000,000 in general obligation bonds, raising approximately $85,000,000 annually while bonds are outstanding at the rate of $0.071 per $100 ($71 per $100,000) of assessed value, with independent oversight and annual audits be adopted?",
+  "number": "U",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 20000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 423379.48999999993,
+      "locale": "Within California"
+    },
+    {
+      "amount": 121350.01000000001,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 130879.49
+    },
+    {
+      "type": "Individual",
+      "amount": 4250.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 429600.01
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1452659",
+      "name": "Oakland Neighbors for Affordable Housing and Safe Street, Yes on U 2022",
+      "payee": "Oakland Neighbors for Affordable Housing and Safe Street, Yes on U 2022",
+      "amount": 538413.25
+    }
+  ],
+  "total_contributions": 564729.5
+}

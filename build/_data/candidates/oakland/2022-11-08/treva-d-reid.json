@@ -1,0 +1,74 @@
+{
+  "id": 55,
+  "name": "Treva D. Reid",
+  "photo_url": "treva-reid.png",
+  "website_url": "https://www.reidforoakland.com/",
+  "twitter_url": null,
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": "https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442079&since=2020-02-22&until=2022-06-30",
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/104-c6a989/address/null/zip/94611/contests/contest/24183/candidate/158501?&cty=ca%2falm&date=2022-11-08",
+  "first_name": "Treva",
+  "last_name": "D. Reid",
+  "ballot_item": 1,
+  "office_election": 1,
+  "bio": null,
+  "committee_name": "Treva Reid for Oakland Mayor 2022",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Councilmember/Senior Caregiver",
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1442079,
+  "supporting_money": {
+    "contributions_received": 128040.12,
+    "total_contributions": 128040.12,
+    "total_expenditures": 225877.37,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
+    "contributions_by_type": {
+      "Committee": 1800.0,
+      "Individual": 211016.71,
+      "Unitemized": 6477.0,
+      "Other (includes Businesses)": 15000.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 25249.0,
+      "Within Oakland": 91821.5,
+      "Within California": 110746.21
+    },
+    "total_small_contributions": 10841.0,
+    "expenditures_by_type": {
+      "": 103823.08,
+      "CMP": 22291.3,
+      "CNS": 15000.0,
+      "CVC": 125.0,
+      "FIL": 1000.0,
+      "FND": 5891.28,
+      "LIT": 20530.53,
+      "MTG": 9281.31,
+      "OFC": 5434.52,
+      "PHO": 1065.29,
+      "PRO": 23251.35,
+      "PRT": 2500.0,
+      "TSF": 9038.01,
+      "WEB": 11007.75
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 128040.12,
+  "total_expenditures": 225877.37,
+  "total_loans_received": 0.0
+}
