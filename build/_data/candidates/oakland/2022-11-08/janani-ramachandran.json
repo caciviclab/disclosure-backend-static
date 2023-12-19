@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442792,
   "supporting_money": {
-    "contributions_received": 160483.19,
-    "total_contributions": 160483.19,
-    "total_expenditures": 195241.75,
+    "contributions_received": 160583.19,
+    "total_contributions": 160583.19,
+    "total_expenditures": 195281.2,
     "total_loans_received": 5000.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -35,17 +35,18 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 26092.5,
-      "Individual": 89788.0,
+      "Committee": 26742.5,
+      "Individual": 116157.0,
       "Unitemized": 10274.0,
+      "Self Funding": 900.0,
       "Other (includes Businesses)": 1509.69
     },
     "contributions_by_origin": {
-      "Out of State": 17560.0,
-      "Within Oakland": 36364.25,
-      "Within California": 63465.94
+      "Out of State": 21360.0,
+      "Within Oakland": 44749.25,
+      "Within California": 79199.94
     },
-    "total_small_contributions": 16768.0,
+    "total_small_contributions": 17439.0,
     "expenditures_by_type": {
       "Not Stated": 10172.6,
       "Phone Banks": 16380.8,
@@ -76,7 +77,7 @@
 
     ]
   },
-  "total_contributions": 160483.19,
-  "total_expenditures": 195241.75,
+  "total_contributions": 160583.19,
+  "total_expenditures": 195281.2,
   "total_loans_received": 5000.0
 }
