@@ -639,7 +639,7 @@
         "type": "office",
         "title": "Oakland November 3rd, 2020 General Election",
         "candidate": "Richard Santos Raya",
-        "proportion": 0.23698879458053446,
+        "proportion": 0.23698879458053448,
         "office_title": "City Council District 5"
       }
     ],
@@ -779,18 +779,18 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 5809307.59,
+    "total_contributions": 5920064.53,
     "total_contributions_by_source": {
-      "Out of State": 521147.35,
-      "Within Oakland": 2632398.180000001,
-      "Within California": 3006531.1199999996
+      "Out of State": 524947.35,
+      "Within Oakland": 2640883.180000001,
+      "Within California": 3022265.1199999996
     },
     "contributions_by_type": {
       "PTY": 15900.0,
-      "Committee": 995101.14,
-      "Individual": 2507910.8700000015,
-      "Unitemized": 101537.35,
-      "Self Funding": 2711.0,
+      "Committee": 995751.14,
+      "Individual": 2534379.8700000024,
+      "Unitemized": 108969.35,
+      "Self Funding": 3611.0,
       "Other (includes Businesses)": 2638453.6399999997
     },
     "most_expensive_races": [
@@ -798,7 +798,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1628904.27
+        "amount": 1639623.27
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -815,14 +815,6 @@
     ],
     "largest_small_proportion": [
       {
-        "slug": "allyssa-victory-villanueva",
-        "type": "office",
-        "title": "Oakland November 8th, 2022 General Election",
-        "candidate": "Allyssa Victory Villanueva",
-        "proportion": 0.26430837936302737,
-        "office_title": "Mayor"
-      },
-      {
         "slug": "valarie-bachelor",
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
@@ -831,11 +823,19 @@
         "office_title": "OUSD District 6"
       },
       {
-        "slug": "mike-hutchinson",
+        "slug": "allyssa-victory-villanueva",
         "type": "office",
         "title": "Oakland November 8th, 2022 General Election",
-        "candidate": "Mike Hutchinson",
-        "proportion": 0.1907514450867052,
+        "candidate": "Allyssa Victory Villanueva",
+        "proportion": 0.1822939885711639,
+        "office_title": "Mayor"
+      },
+      {
+        "slug": "pecolia-manigo",
+        "type": "office",
+        "title": "Oakland November 8th, 2022 General Election",
+        "candidate": "Pecolia Manigo",
+        "proportion": 0.17748779353638688,
         "office_title": "OUSD District 4"
       }
     ],

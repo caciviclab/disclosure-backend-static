@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442792,
   "supporting_money": {
-    "contributions_received": 79586.25,
-    "total_contributions": 79586.25,
-    "total_expenditures": 177742.49,
+    "contributions_received": 160583.19,
+    "total_contributions": 160583.19,
+    "total_expenditures": 195281.2,
     "total_loans_received": 5000.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -36,17 +36,18 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 26092.5,
-      "Individual": 89788.0,
-      "Unitemized": 4583.0,
+      "Committee": 26742.5,
+      "Individual": 116157.0,
+      "Unitemized": 10274.0,
+      "Self Funding": 900.0,
       "Other (includes Businesses)": 1509.69
     },
     "contributions_by_origin": {
-      "Out of State": 17560.0,
-      "Within Oakland": 36364.25,
-      "Within California": 63465.94
+      "Out of State": 21360.0,
+      "Within Oakland": 44749.25,
+      "Within California": 79199.94
     },
-    "total_small_contributions": 11077.0,
+    "total_small_contributions": 17439.0,
     "expenditures_by_type": {
       "": 10172.6,
       "CMP": 14369.67,
@@ -56,11 +57,11 @@
       "FND": 465.92,
       "LIT": 64252.81,
       "MTG": 1014.68,
-      "OFC": 5255.03,
+      "OFC": 5352.91,
       "PHO": 16380.8,
       "PRO": 20251.5,
       "SAL": 9480.0,
-      "WEB": 30732.15
+      "WEB": 31559.54
     },
     "supporting_by_type": {
     }
@@ -73,7 +74,7 @@
 
     ]
   },
-  "total_contributions": 79586.25,
-  "total_expenditures": 177742.49,
+  "total_contributions": 160583.19,
+  "total_expenditures": 195281.2,
   "total_loans_received": 5000.0
 }

@@ -1,7 +1,20 @@
 {
   "iec": false,
-  "total_contributions": 8810.0,
+  "total_contributions": 8910.0,
   "contributions": [
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1449393",
+      "Tran_Emp": "Oakland USD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2022-07-13",
+      "Tran_NamF": "Kathleen",
+      "Tran_NamL": "Hunter",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2022"
+    },
     {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1449393",
