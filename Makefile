@@ -17,6 +17,7 @@ process: process.rb
 	echo 'delete from calculations;'| psql $(DATABASE_NAME)
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
 	python bin/create-digests.py
+	python bin/report-candidates.py
 	git --no-pager diff build/digests.json
 
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
