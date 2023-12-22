@@ -2,6 +2,7 @@ dist: bionic
 env:
   global:
     - TZ=America/Los_Angeles
+language: python
 python:
   - '3.9'
 services:
