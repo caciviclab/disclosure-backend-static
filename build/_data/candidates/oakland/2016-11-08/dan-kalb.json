@@ -43,43 +43,46 @@
     },
     "total_small_contributions": 12667.66,
     "expenditures_by_type": {
-      "": 2696.93,
-      "CMP": 22654.34,
-      "CNS": 37769.07,
-      "CTB": 1035.0,
-      "CVC": 2200.0,
-      "FIL": 50.0,
-      "FND": 12301.23,
-      "IND": 400.0,
-      "LIT": 36770.03,
-      "MTG": 150.0,
-      "PRO": 11882.76,
-      "PRT": 655.0,
-      "SAL": 3500.0,
-      "TSF": 13900.0,
-      "WEB": 4275.01
+      "Print Ads": 655.0,
+      "Not Stated": 2696.93,
+      "Contribution": 1035.0,
+      "Civic Donations": 2200.0,
+      "Fundraising Events": 12301.23,
+      "Campaign Consultants": 37769.07,
+      "Meetings and Appearances": 150.0,
+      "Campaign Workers' Salaries": 3500.0,
+      "Campaign Paraphernalia/Misc.": 22654.34,
+      "Candidate Filing/Ballot Fees": 50.0,
+      "Campaign Literature and Mailings": 36770.03,
+      "Professional Services (Legal, Accounting)": 11882.76,
+      "Information Technology Costs (Internet, E-mail)": 4275.01,
+      "Independent Expenditure Supporting/Opposing Others": 400.0,
+      "Transfer Between Committees of the Same Candidate/sponsor": 13900.0
     },
     "supporting_by_type": {
+      "IKD": 300.0,
+      "MON": 6200.0,
+      "Mailer": 32697.0,
+      "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
   },
   "opposing_money": {
     "opposing_expenditures": 13241.65,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 13241.65
     },
     "opposition_list": [
       {
         "Total": 148.12,
         "Cand_ID": 1382408,
         "Filer_ID": "1342695",
-        "Filer_NamL": "East Bay Rental Housing Association PAC",
-        "election_name": "oakland-2016"
+        "Filer_NamL": "East Bay Rental Housing Association PAC"
       },
       {
         "Total": 13093.53,
         "Cand_ID": 1382408,
         "Filer_ID": "943526",
-        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee",
-        "election_name": "oakland-2016"
+        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee"
       }
     ]
   },

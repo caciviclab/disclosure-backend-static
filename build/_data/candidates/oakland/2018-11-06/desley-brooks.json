@@ -21,55 +21,37 @@
   "is_winner": false,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 105825.0,
-    "total_contributions": 105825.0,
-    "total_expenditures": 128402.07,
-    "total_loans_received": 100.0,
-    "total_supporting_independent": 23170.61,
+    "contributions_received": 144433.0,
+    "total_contributions": 144433.0,
+    "total_expenditures": null,
+    "total_loans_received": null,
+    "total_supporting_independent": 23600.06,
     "support_list": [
       {
         "Total": 22999.0,
         "Cand_ID": 1236617,
         "Filer_ID": "1390351",
-        "Filer_NamL": "East Bay Working Families",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "East Bay Working Families"
+      },
+      {
+        "Total": 429.45,
+        "Cand_ID": 1236617,
+        "Filer_ID": "1372459",
+        "Filer_NamL": "Oakland Civil Liberties Alliance"
       },
       {
         "Total": 171.61,
         "Cand_ID": 1236617,
         "Filer_ID": "1410279",
-        "Filer_NamL": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018"
       }
     ],
     "contributions_by_type": {
-      "Committee": 8250.0,
-      "Individual": 88113.0,
-      "Unitemized": 1812.0,
-      "Other (includes Businesses)": 7550.0
     },
     "contributions_by_origin": {
-      "Out of State": 2300.0,
-      "Within Oakland": 56754.0,
-      "Within California": 44859.0
     },
-    "total_small_contributions": 2735.0,
+    "total_small_contributions": null,
     "expenditures_by_type": {
-      "": 1635.0,
-      "CMP": 4982.21,
-      "CNS": 34300.0,
-      "CVC": 6041.74,
-      "FIL": 1000.0,
-      "FND": 1281.93,
-      "LIT": 21873.89,
-      "MTG": 2307.7,
-      "OFC": 12576.18,
-      "PHO": 6950.0,
-      "POS": 16370.78,
-      "PRO": 6888.01,
-      "TEL": 1000.0,
-      "TRC": 1279.43,
-      "WEB": 7366.31
     },
     "supporting_by_type": {
     }
@@ -83,19 +65,17 @@
         "Total": 31230.49,
         "Cand_ID": 1236617,
         "Filer_ID": "1413388",
-        "Filer_NamL": "Citizens for a United Oakland, Opposing Desley Brooks for City Council",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "Citizens for a United Oakland, Opposing Desley Brooks for City Council"
       },
       {
         "Total": 128915.18,
         "Cand_ID": 1236617,
         "Filer_ID": "1410279",
-        "Filer_NamL": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018"
       }
     ]
   },
-  "total_contributions": 105825.0,
-  "total_expenditures": 128402.07,
-  "total_loans_received": 100.0
+  "total_contributions": 144433.0,
+  "total_expenditures": null,
+  "total_loans_received": null
 }

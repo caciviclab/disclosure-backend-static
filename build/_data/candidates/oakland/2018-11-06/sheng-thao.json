@@ -31,22 +31,19 @@
         "Total": 8117.0,
         "Cand_ID": 1405456,
         "Filer_ID": "892160",
-        "Filer_NamL": "International Association of Firefighter Local 55 Political Action, sponsored by: Int'l Assoc. of Firefighter Local 55",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "International Association of Firefighter Local 55 Political Action, sponsored by: Int'l Assoc. of Firefighter Local 55"
       },
       {
         "Total": 1576.52,
         "Cand_ID": 1405456,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       },
       {
         "Total": 105973.64,
         "Cand_ID": 1405456,
         "Filer_ID": "1294190",
-        "Filer_NamL": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO"
       }
     ],
     "contributions_by_type": {
@@ -63,30 +60,36 @@
     },
     "total_small_contributions": 3837.95,
     "expenditures_by_type": {
-      "": 1850.38,
-      "CMP": 7332.58,
-      "CNS": 38043.77,
-      "CTB": 450.0,
-      "CVC": 6793.74,
-      "FIL": 1000.0,
-      "FND": 2389.43,
-      "LIT": 62177.03,
-      "MTG": 4138.13,
-      "OFC": 576.02,
-      "PHO": 443.0,
-      "POS": 389.0,
-      "PRO": 5400.0,
-      "PRT": 215.0,
-      "TRC": 1784.01,
-      "TRS": 321.72,
-      "WEB": 10200.93
+      "Print Ads": 215.0,
+      "Not Stated": 1850.38,
+      "Phone Banks": 443.0,
+      "Contribution": 450.0,
+      "Civic Donations": 6793.74,
+      "Office Expenses": 576.02,
+      "Fundraising Events": 2389.43,
+      "Campaign Consultants": 38043.77,
+      "Meetings and Appearances": 4138.13,
+      "Campaign Paraphernalia/Misc.": 7332.58,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 62177.03,
+      "Candidate Travel, Lodging, and Meals": 1784.01,
+      "Staff/Spouse Travel, Lodging, and Meals": 321.72,
+      "Postage, Delivery and Messenger Services": 389.0,
+      "Professional Services (Legal, Accounting)": 5400.0,
+      "Information Technology Costs (Internet, E-mail)": 10200.93
     },
     "supporting_by_type": {
+      "MON": 6300.0,
+      "Mailer": 8117.0,
+      "Phone and canvass campaign": 140344.0,
+      "Phone and canvassing campaign": 33357.0,
+      "Independent Expenditure Supporting/Opposing Others": 730727.08
     }
   },
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
 

@@ -31,15 +31,13 @@
         "Total": 10000.0,
         "Cand_ID": 1367270,
         "Filer_ID": "COAK-1538",
-        "Filer_NamL": "Gay and Lesbian Victory Fund Committee To Support Rebecca Kaplan for City of Oakland Mayor 2014",
-        "election_name": "oakland-2014"
+        "Filer_NamL": "Gay and Lesbian Victory Fund Committee To Support Rebecca Kaplan for City of Oakland Mayor 2014"
       },
       {
         "Total": 744.45,
         "Cand_ID": 1367270,
         "Filer_ID": "1372459",
-        "Filer_NamL": "Oakland Civil Liberties Alliance",
-        "election_name": "oakland-2014"
+        "Filer_NamL": "Oakland Civil Liberties Alliance"
       }
     ],
     "contributions_by_type": {
@@ -56,39 +54,45 @@
     },
     "total_small_contributions": 18274.0,
     "expenditures_by_type": {
-      "CMP": 11065.73,
-      "CNS": 122092.03,
-      "FIL": 300.0,
-      "FND": 3648.97,
-      "LEG": 4430.25,
-      "LIT": 93872.21,
-      "MTG": 2606.94,
-      "OFC": 23828.46,
-      "PHO": 13919.92,
-      "POS": 2704.45,
-      "PRO": 1200.0,
-      "PRT": 763.04,
-      "RAD": 4085.0,
-      "RFD": 4995.0,
-      "TEL": 39327.6,
-      "TRC": 115.19,
-      "TRS": 224.42,
-      "WEB": 19393.37
+      "Print Ads": 763.04,
+      "Phone Banks": 13919.92,
+      "Legal Defense": 4430.25,
+      "Office Expenses": 23828.46,
+      "Fundraising Events": 3648.97,
+      "Campaign Consultants": 122092.03,
+      "Returned Contributions": 4995.0,
+      "Meetings and Appearances": 2606.94,
+      "Campaign Paraphernalia/Misc.": 11065.73,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 93872.21,
+      "Radio Airtime and Production Costs": 4085.0,
+      "Candidate Travel, Lodging, and Meals": 115.19,
+      "Staff/Spouse Travel, Lodging, and Meals": 224.42,
+      "Postage, Delivery and Messenger Services": 2704.45,
+      "Professional Services (Legal, Accounting)": 1200.0,
+      "T.V. or Cable Airtime and Production Costs": 39327.6,
+      "Information Technology Costs (Internet, E-mail)": 19393.37
     },
     "supporting_by_type": {
+      "IKD": 3676.7,
+      "MON": 20493.0,
+      "Independent Expenditure Supporting/Opposing Others": 245153.1
     }
   },
   "opposing_money": {
     "opposing_expenditures": 8450.0,
     "opposing_by_type": {
+      "MON": 1500.0,
+      "Cable ads": 150000.0,
+      "Estimated cost of media production": 24766.0,
+      "Independent Expenditure Supporting/Opposing Others": 43450.0
     },
     "opposition_list": [
       {
         "Total": 8450.0,
         "Cand_ID": 1367270,
         "Filer_ID": "1370519",
-        "Filer_NamL": "Citizens for Oakland",
-        "election_name": "oakland-2014"
+        "Filer_NamL": "Citizens for Oakland"
       }
     ]
   },

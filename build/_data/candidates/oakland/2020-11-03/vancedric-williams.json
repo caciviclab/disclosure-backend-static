@@ -31,15 +31,13 @@
         "Total": 70237.13,
         "Cand_ID": 1427826,
         "Filer_ID": "1345259",
-        "Filer_NamL": "Oakland Education Association Political Action Committee",
-        "election_name": "oakland-2020"
+        "Filer_NamL": "Oakland Education Association Political Action Committee"
       },
       {
         "Total": 1004.35,
         "Cand_ID": 1427826,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-        "election_name": "oakland-2020"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       }
     ],
     "contributions_by_type": {
@@ -55,13 +53,15 @@
     },
     "total_small_contributions": 5309.0,
     "expenditures_by_type": {
-      "CMP": 18202.67,
-      "FIL": 950.0,
-      "LIT": 7024.96,
-      "PHO": 6545.52,
-      "POL": 3400.0
+      "Phone Banks": 6545.52,
+      "Polling and Survey Research": 3400.0,
+      "Campaign Paraphernalia/Misc.": 18202.67,
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Campaign Literature and Mailings": 7024.96
     },
     "supporting_by_type": {
+      "MON": 400.0,
+      "Independent Expenditure Supporting/Opposing Others": 71241.48
     }
   },
   "opposing_money": {

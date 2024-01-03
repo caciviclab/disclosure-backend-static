@@ -31,8 +31,7 @@
         "Total": 2183.19,
         "Cand_ID": 1428671,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-        "election_name": "oakland-2020"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
       }
     ],
     "contributions_by_type": {
@@ -46,9 +45,11 @@
     },
     "total_small_contributions": 580.0,
     "expenditures_by_type": {
-      "FIL": 1000.0
+      "Candidate Filing/Ballot Fees": 1000.0
     },
     "supporting_by_type": {
+      "MON": 1700.0,
+      "Independent Expenditure Supporting/Opposing Others": 2183.19
     }
   },
   "opposing_money": {

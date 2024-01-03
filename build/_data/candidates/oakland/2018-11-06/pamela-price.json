@@ -21,10 +21,10 @@
   "is_winner": false,
   "filer_id": 1407729,
   "supporting_money": {
-    "contributions_received": 51564.9,
-    "total_contributions": 51564.9,
-    "total_expenditures": 89644.52,
-    "total_loans_received": 9500.0,
+    "contributions_received": 108582.9,
+    "total_contributions": 108582.9,
+    "total_expenditures": 113768.41,
+    "total_loans_received": 34500.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
@@ -32,7 +32,7 @@
     "contributions_by_type": {
       "Committee": 6476.9,
       "Individual": 56929.0,
-      "Unitemized": 3544.0,
+      "Unitemized": 5302.0,
       "Self Funding": 1375.0,
       "Other (includes Businesses)": 4000.0
     },
@@ -41,37 +41,40 @@
       "Within Oakland": 33590.0,
       "Within California": 32840.9
     },
-    "total_small_contributions": 4203.0,
+    "total_small_contributions": 5961.0,
     "expenditures_by_type": {
-      "CMP": 14189.31,
-      "CNS": 20500.0,
-      "CTB": 100.0,
-      "FIL": 1000.0,
-      "LIT": 9979.27,
-      "MTG": 107.62,
-      "OFC": 3000.0,
-      "POS": 487.47,
-      "PRO": 57871.5,
-      "WEB": 2019.74
+      "Contribution": 100.0,
+      "Office Expenses": 3000.0,
+      "Campaign Consultants": 20500.0,
+      "Meetings and Appearances": 107.62,
+      "Campaign Paraphernalia/Misc.": 14189.31,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 9979.27,
+      "Postage, Delivery and Messenger Services": 487.47,
+      "Professional Services (Legal, Accounting)": 57871.5,
+      "Information Technology Costs (Internet, E-mail)": 2019.74
     },
     "supporting_by_type": {
+      "IKD": 4540.21,
+      "MON": 9800.0,
+      "Independent Expenditure Supporting/Opposing Others": 6923.54
     }
   },
   "opposing_money": {
     "opposing_expenditures": 2500.0,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 2500.0
     },
     "opposition_list": [
       {
         "Total": 2500.0,
         "Cand_ID": 1407729,
         "Filer_ID": "943526",
-        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee",
-        "election_name": "oakland-2018"
+        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee"
       }
     ]
   },
-  "total_contributions": 51564.9,
-  "total_expenditures": 89644.52,
-  "total_loans_received": 9500.0
+  "total_contributions": 108582.9,
+  "total_expenditures": 113768.41,
+  "total_loans_received": 34500.0
 }

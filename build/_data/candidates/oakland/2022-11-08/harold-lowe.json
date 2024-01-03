@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1453436,
   "supporting_money": {
-    "contributions_received": 18839.0,
-    "total_contributions": 18839.0,
-    "total_expenditures": 15319.8,
+    "contributions_received": 35282.0,
+    "total_contributions": 35282.0,
+    "total_expenditures": 25625.16,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,7 +31,7 @@
     ],
     "contributions_by_type": {
       "Individual": 31600.0,
-      "Unitemized": 689.0,
+      "Unitemized": 1882.0,
       "Other (includes Businesses)": 1800.0
     },
     "contributions_by_origin": {
@@ -39,17 +39,18 @@
       "Within Oakland": 27300.0,
       "Within California": 5600.0
     },
-    "total_small_contributions": 689.0,
+    "total_small_contributions": 1882.0,
     "expenditures_by_type": {
-      "CMP": 3477.33,
-      "FIL": 1000.0,
-      "FND": 235.45,
-      "LIT": 6931.09,
-      "PRO": 250.0,
-      "PRT": 1135.19,
-      "WEB": 12332.87
+      "Print Ads": 1135.19,
+      "Fundraising Events": 235.45,
+      "Campaign Paraphernalia/Misc.": 3477.33,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 6931.09,
+      "Professional Services (Legal, Accounting)": 250.0,
+      "Information Technology Costs (Internet, E-mail)": 12332.87
     },
     "supporting_by_type": {
+      "MON": 1800.0
     }
   },
   "opposing_money": {
@@ -60,7 +61,7 @@
 
     ]
   },
-  "total_contributions": 18839.0,
-  "total_expenditures": 15319.8,
+  "total_contributions": 35282.0,
+  "total_expenditures": 25625.16,
   "total_loans_received": 0.0
 }
