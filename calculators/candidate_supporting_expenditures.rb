@@ -2,10 +2,6 @@
 class CandidateSupportingExpenditure
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates = candidates
-    @candidates_by_election_filer_id =
-      candidates.where('"FPPC" IS NOT NULL').group_by { |row| row.election_name }.transform_values do |values|
-        values.index_by { |c| c.FPPC.to_s }
-      end
   end
 
   def fetch
@@ -34,17 +30,18 @@ class CandidateSupportingExpenditure
       hash[election_name][filer_id] << row
     end
 
-    @candidates_by_election_filer_id.each do |election_name, election_candidates|
-      election_candidates.each do |filer_id, candidate|
-        election_total = total[election_name]
-        if !election_total.nil?
-          candidate.save_calculation(:total_supporting_independent, total[election_name].fetch(filer_id, 0).round(2))
+    @candidates.each do |candidate|
+      election_name = candidate['election_name']
+      filer_id = candidate['FPPC'].to_s
+      election_total = total[election_name]
+      if !election_total.nil?
+        total_supporting_independent = election_total.fetch(filer_id, 0)
+        candidate.save_calculation(:total_supporting_independent, total_supporting_independent.round(2))
 
-          sorted =
-            Array(expenditure_for_candidate[election_name][filer_id]).sort_by { |row| [row['Filer_NamL'], row['Expn_Date']] }
+        sorted =
+          Array(expenditure_for_candidate[election_name][filer_id]).sort_by { |row| [row['Filer_NamL'], row['Expn_Date']] }
 
-          candidate.save_calculation(:support_list, sorted)
-        end
+        candidate.save_calculation(:support_list, sorted)
       end
     end
   end
