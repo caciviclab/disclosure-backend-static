@@ -60,11 +60,16 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 13900.0
     },
     "supporting_by_type": {
+      "IKD": 300.0,
+      "MON": 6200.0,
+      "Mailer": 32697.0,
+      "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
   },
   "opposing_money": {
     "opposing_expenditures": 13241.65,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 13241.65
     },
     "opposition_list": [
       {

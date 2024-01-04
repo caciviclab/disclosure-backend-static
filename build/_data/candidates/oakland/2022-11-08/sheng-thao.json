@@ -83,11 +83,16 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 3600.0
     },
     "supporting_by_type": {
+      "MON": 1000.0,
+      "Phone and canvass campaign": 140344.0,
+      "Phone and canvassing campaign": 33357.0,
+      "Independent Expenditure Supporting/Opposing Others": 623176.92
     }
   },
   "opposing_money": {
     "opposing_expenditures": 3520.67,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
       {
