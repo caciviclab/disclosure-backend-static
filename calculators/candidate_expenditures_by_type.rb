@@ -42,19 +42,25 @@ class CandidateExpendituresByType
   def fetch
     # normalization: replace three-letter names with TYPE_DESCRIPTIONS
     TYPE_DESCRIPTIONS.each do |short_name, human_name|
-      expenditures_by_candidate_by_type.each do |filer_id, expenditures_by_type|
-        if value = expenditures_by_type.delete(short_name)
-          expenditures_by_type[human_name] = value
+      expenditures_by_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, expenditures_by_type|
+          if value = expenditures_by_type.delete(short_name)
+            expenditures_by_type[human_name] = value
+          end
         end
       end
-      supporting_candidate_by_type.each do |filer_id, expenditures_by_type|
-        if value = expenditures_by_type.delete(short_name)
-          expenditures_by_type[human_name] = value
+      supporting_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, expenditures_by_type|
+          if value = expenditures_by_type.delete(short_name)
+            expenditures_by_type[human_name] = value
+          end
         end
       end
-      opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
-        if value = expenditures_by_type.delete(short_name)
-          expenditures_by_type[human_name] = value
+      opposing_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, expenditures_by_type|
+          if value = expenditures_by_type.delete(short_name)
+            expenditures_by_type[human_name] = value
+          end
         end
       end
     end

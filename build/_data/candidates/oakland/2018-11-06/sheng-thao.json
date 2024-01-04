@@ -31,19 +31,22 @@
         "Total": 8117.0,
         "Cand_ID": 1405456,
         "Filer_ID": "892160",
-        "Filer_NamL": "International Association of Firefighter Local 55 Political Action, sponsored by: Int'l Assoc. of Firefighter Local 55"
+        "Filer_NamL": "International Association of Firefighter Local 55 Political Action, sponsored by: Int'l Assoc. of Firefighter Local 55",
+        "election_name": "oakland-2018"
       },
       {
         "Total": 1576.52,
         "Cand_ID": 1405456,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2018"
       },
       {
         "Total": 105973.64,
         "Cand_ID": 1405456,
         "Filer_ID": "1294190",
-        "Filer_NamL": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO"
+        "Filer_NamL": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO",
+        "election_name": "oakland-2018"
       }
     ],
     "contributions_by_type": {
@@ -79,17 +82,11 @@
       "Information Technology Costs (Internet, E-mail)": 10200.93
     },
     "supporting_by_type": {
-      "MON": 6300.0,
-      "Mailer": 8117.0,
-      "Phone and canvass campaign": 140344.0,
-      "Phone and canvassing campaign": 33357.0,
-      "Independent Expenditure Supporting/Opposing Others": 730727.08
     }
   },
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
 

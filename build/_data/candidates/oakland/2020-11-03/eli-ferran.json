@@ -21,9 +21,9 @@
   "is_winner": false,
   "filer_id": 1426949,
   "supporting_money": {
-    "contributions_received": 127237.43,
-    "total_contributions": 127237.43,
-    "total_expenditures": 127464.43,
+    "contributions_received": 91201.06,
+    "total_contributions": 91201.06,
+    "total_expenditures": 124526.28,
     "total_loans_received": 0.0,
     "total_supporting_independent": 105552.0,
     "support_list": [
@@ -31,13 +31,14 @@
         "Total": 105552.0,
         "Cand_ID": 1426949,
         "Filer_ID": "1344093",
-        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)"
+        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)",
+        "election_name": "oakland-2020"
       }
     ],
     "contributions_by_type": {
       "Committee": 16550.0,
       "Individual": 70318.65,
-      "Unitemized": 5677.36,
+      "Unitemized": 3436.0,
       "Self Funding": 17251.42,
       "Other (includes Businesses)": 8700.0
     },
@@ -46,7 +47,7 @@
       "Within Oakland": 56425.06,
       "Within California": 43070.01
     },
-    "total_small_contributions": 6617.36,
+    "total_small_contributions": 4376.0,
     "expenditures_by_type": {
       "Not Stated": 27580.44,
       "Phone Banks": 395.67,
@@ -61,10 +62,6 @@
       "Information Technology Costs (Internet, E-mail)": 7328.03
     },
     "supporting_by_type": {
-      "MON": 1700.0,
-      "POLLING": 16220.0,
-      "ONLINE ADS": 82250.0,
-      "VOTER FILE": 7082.0
     }
   },
   "opposing_money": {
@@ -75,7 +72,7 @@
 
     ]
   },
-  "total_contributions": 127237.43,
-  "total_expenditures": 127464.43,
+  "total_contributions": 91201.06,
+  "total_expenditures": 124526.28,
   "total_loans_received": 0.0
 }

@@ -52,20 +52,19 @@
       "Information Technology Costs (Internet, E-mail)": 3400.0
     },
     "supporting_by_type": {
-      "MON": 1400.0
     }
   },
   "opposing_money": {
     "opposing_expenditures": 8450.0,
     "opposing_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 8450.0
     },
     "opposition_list": [
       {
         "Total": 8450.0,
         "Cand_ID": 1354678,
         "Filer_ID": "1370519",
-        "Filer_NamL": "Citizens for Oakland"
+        "Filer_NamL": "Citizens for Oakland",
+        "election_name": "oakland-2014"
       }
     ]
   },

@@ -21,25 +21,27 @@
   "is_winner": true,
   "filer_id": 1368984,
   "supporting_money": {
-    "contributions_received": 28786.68,
-    "total_contributions": 28786.68,
-    "total_expenditures": null,
-    "total_loans_received": null,
-    "total_supporting_independent": 50.63,
+    "contributions_received": -3014.3,
+    "total_contributions": -3014.3,
+    "total_expenditures": 2000.0,
+    "total_loans_received": -3500.0,
+    "total_supporting_independent": 0.0,
     "support_list": [
-      {
-        "Total": 50.63,
-        "Cand_ID": 1368984,
-        "Filer_ID": "1331137",
-        "Filer_NamL": "Families and Educators for Public Education, Sponsored by Go Public Schools Advocates"
-      }
+
     ],
     "contributions_by_type": {
+      "Individual": 242.45,
+      "Unitemized": 23.97,
+      "Self Funding": 219.28
     },
     "contributions_by_origin": {
+      "Within Oakland": 219.28,
+      "Within California": 242.45
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 123.97,
     "expenditures_by_type": {
+      "Contribution": 1000.0,
+      "Candidate Filing/Ballot Fees": 1000.0
     },
     "supporting_by_type": {
     }
@@ -52,7 +54,7 @@
 
     ]
   },
-  "total_contributions": 28786.68,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": -3014.3,
+  "total_expenditures": 2000.0,
+  "total_loans_received": -3500.0
 }
