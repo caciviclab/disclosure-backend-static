@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 581781.7,
+  "total_contributions": 646932.68,
   "contributions": [
     {
       "title": "Oakland November 8th, 2016 Election",
@@ -5608,6 +5608,45 @@
     {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1345259",
+      "Tran_Emp": "California Teachers Association",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "John",
+      "Tran_NamL": "Green",
+      "Tran_Zip4": "94568",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Maria",
+      "Tran_NamL": "Lapointe",
+      "Tran_Zip4": "94549",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-09-29",
+      "Tran_NamF": "Rachel",
+      "Tran_NamL": "Mann",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
       "Tran_Emp": "Oakland Unified School District",
       "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
@@ -5725,6 +5764,58 @@
     {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Barbuto",
+      "Tran_Zip4": "94620",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "Sylviane",
+      "Tran_NamL": "Cohn",
+      "Tran_Zip4": "94705",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "Allison",
+      "Tran_NamL": "Grill",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "Micaela",
+      "Tran_NamL": "Morse",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
       "Tran_Emp": "Castro Valley Unified School District",
       "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
@@ -5733,6 +5824,19 @@
       "Tran_NamF": "Anne",
       "Tran_NamL": "Parris",
       "Tran_Zip4": "94610",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2022-10-09",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Taylor",
+      "Tran_Zip4": "94609",
       "election_name": "oakland-2022"
     },
     {
@@ -5785,6 +5889,58 @@
       "Tran_NamF": "Keith",
       "Tran_NamL": "Brown",
       "Tran_Zip4": "94601",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 65000.0,
+      "Tran_Date": "2022-10-20",
+      "Tran_NamF": "Oakland Education Association",
+      "Tran_NamL": "Intermediary for contributions less than $100",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "Mayra",
+      "Tran_NamL": "Alvarado",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": "Jennifer",
+      "Tran_NamL": "Brouhard",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "1345259",
+      "Tran_Emp": "Oakland Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.98,
+      "Tran_Date": "2022-10-22",
+      "Tran_NamF": "Jeremy",
+      "Tran_NamL": "Wolff",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2022"
     },
     {
