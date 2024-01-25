@@ -43,14 +43,14 @@ download: download-spreadsheets \
 
 download-SFO-%:
 	mkdir -p downloads/raw
-	$(WGET) http://nf4.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip -O \
+	$(WGET) http://public.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip -O \
 		downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip
 	unzip -p downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip > downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx 'downloads/csv/efile_SFO_$(subst download-SFO-,,$@)_%{sheet}.csv'
 
 download-COAK-%:
 	mkdir -p downloads/raw
-	$(WGET) http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_newest_COAK_$(subst download-COAK-,,$@).zip -O \
+	$(WGET) http://public.netfile.com/pub2/excel/COAKBrowsable/efile_newest_COAK_$(subst download-COAK-,,$@).zip -O \
 		downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip
 	unzip -p downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip > downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-COAK-,,$@)_%{sheet}.csv'
