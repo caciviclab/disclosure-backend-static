@@ -4,7 +4,7 @@ DATABASE_NAME?=disclosure-backend
 CSV_PATH?=downloads/csv
 
 CD := $(shell pwd)
-WGET=bin/wget-wrapper --no-verbose --tries=3
+WGET=bin/wget-wrapper -S --tries=3
 
 clean-spreadsheets:
 	rm -rf downloads/csv/*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
