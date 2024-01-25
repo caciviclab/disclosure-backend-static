@@ -39,7 +39,7 @@ download: download-spreadsheets \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
 	download-COAK-2021 download-COAK-2022 \
-	download-COAK-2023
+	download-COAK-2023 download-COAK-2023
 
 download-SFO-%:
 	mkdir -p downloads/raw
