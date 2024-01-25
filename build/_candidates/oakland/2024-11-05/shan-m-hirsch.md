@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2024-11-05.md
 committee_name: Committee to Elect Shan Hirsch for City Council
-filer_id: ''
+filer_id: '1464290'
 is_incumbent: false
 name: Shan M. Hirsch
 ---
