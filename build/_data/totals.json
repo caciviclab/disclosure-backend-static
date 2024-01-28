@@ -782,12 +782,12 @@
     "total_contributions": 6483626.28,
     "total_contributions_by_source": {
       "Out of State": 525989.5900000001,
-      "Within Oakland": 2643630.1100000013,
+      "Within Oakland": 2643630.1099999994,
       "Within California": 3025088.3400000003
     },
     "contributions_by_type": {
       "Committee": 1015899.7200000001,
-      "Individual": 2538178.870000002,
+      "Individual": 2538178.869999998,
       "Unitemized": 136588.3,
       "Self Funding": 3735.4,
       "Other (includes Businesses)": 2636894.05
@@ -886,7 +886,7 @@
         "total_contributions": 5549.0
       },
       {
-        "name": "Riaz Taplin",
+        "name": "John Protopappas",
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 5400.0
@@ -1032,7 +1032,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -1384,12 +1384,6 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "UA Local 342",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
-      },
-      {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
@@ -1397,6 +1391,12 @@
       },
       {
         "name": "Laborers Local 304",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "UA Local 342",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1516,19 +1516,19 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Weylin White",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_contributions": 1800.0
-      },
-      {
         "name": "Todd Scanlin",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 1800.0
       },
       {
-        "name": "Jacob Zonn",
+        "name": "Dow Terry",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 1800.0
+      },
+      {
+        "name": "Brooke Levin",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 1800.0
