@@ -1,16 +1,16 @@
 {
-  "total_contributions": 2998359.74,
+  "total_contributions": 2895450.04,
   "total_contributions_by_source": {
-    "Out of State": 138591.89,
-    "Within Oakland": 1581483.6400000001,
-    "Within California": 969129.01
+    "Out of State": 136291.89,
+    "Within Oakland": 1524510.36,
+    "Within California": 924027.56
   },
   "contributions_by_type": {
-    "Committee": 156538.05,
-    "Individual": 1816501.47,
-    "Unitemized": 143224.34999999998,
-    "Self Funding": 468744.9599999999,
-    "Other (includes Businesses)": 247639.34
+    "Committee": 148288.05,
+    "Individual": 1728146.02,
+    "Unitemized": 141289.38,
+    "Self Funding": 468306.3999999999,
+    "Other (includes Businesses)": 240089.34
   },
   "most_expensive_races": [
     {
@@ -26,10 +26,10 @@
       "amount": 398594.60000000003
     },
     {
-      "slug": "city-council-district-6",
+      "slug": "city-council-district-4",
       "type": "office",
-      "title": "City Council District 6",
-      "amount": 222101.16
+      "title": "City Council District 4",
+      "amount": 221648.38
     }
   ],
   "largest_small_proportion": [
@@ -62,12 +62,12 @@
     {
       "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
       "election_name": "oakland-2014",
-      "total_spending": 107576.9
+      "total_spending": 107576.90000000004
     },
     {
       "name": "Unity PAC, a sponsored committee of the Alameda Labor Council, AFL-CIO",
       "election_name": "oakland-2014",
-      "total_spending": 89243.48
+      "total_spending": 89243.48000000001
     },
     {
       "name": "OAK PAC, Oakland Metropolitan Chamber of Commerce",
