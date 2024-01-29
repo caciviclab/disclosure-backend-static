@@ -1,0 +1,75 @@
+{
+  "id": 26,
+  "name": "Derreck Johnson",
+  "photo_url": "Derreck_Johnson2022.jpg",
+  "website_url": "https://www.johnsonforoakland.com/",
+  "twitter_url": null,
+  "facebook_url": "https://www.facebook.com/dedrickformayor/",
+  "instagram_url": null,
+  "map_url": "https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1441869&since=2020-02-22&until=2022-06-30",
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/104-c6a989/address/null/zip/94611/contests/contest/24183?&cty=ca%2falm&date=2022-11-08",
+  "first_name": "Derreck",
+  "last_name": "Johnson",
+  "ballot_item": 1,
+  "office_election": 1,
+  "bio": null,
+  "committee_name": "Johnson Oakland Mayor 2022",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Not qualified for ballot",
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1441869,
+  "supporting_money": {
+    "contributions_received": 66829.0,
+    "total_contributions": 66829.0,
+    "total_expenditures": 91647.32,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 0.0,
+    "support_list": [
+
+    ],
+    "contributions_by_type": {
+      "Individual": 62525.0,
+      "Unitemized": 1104.0,
+      "Other (includes Businesses)": 3200.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 10800.0,
+      "Within Oakland": 27575.0,
+      "Within California": 27350.0
+    },
+    "total_small_contributions": 1554.0,
+    "expenditures_by_type": {
+      "Not Stated": 9023.61,
+      "Office Expenses": 102.89,
+      "Fundraising Events": 20295.52,
+      "Campaign Consultants": 13000.0,
+      "Meetings and Appearances": 5349.55,
+      "Campaign Paraphernalia/Misc.": 2542.69,
+      "Candidate Travel, Lodging, and Meals": 3345.25,
+      "Staff/Spouse Travel, Lodging, and Meals": 1359.23,
+      "Professional Services (Legal, Accounting)": 6398.03,
+      "Information Technology Costs (Internet, E-mail)": 6260.35
+    },
+    "supporting_by_type": {
+      "MON": 4100.0,
+      "Mailer": 99862.0,
+      "Cable ads": 50000.0,
+      "Estimated cost of media production": 24766.0,
+      "Independent Expenditure Supporting/Opposing Others": 133700.0
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 22991.74
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 66829.0,
+  "total_expenditures": 91647.32,
+  "total_loans_received": 0.0
+}

@@ -1,0 +1,78 @@
+{
+  "id": 165,
+  "name": "Dana King",
+  "photo_url": null,
+  "website_url": null,
+  "twitter_url": null,
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": null,
+  "first_name": "Dana",
+  "last_name": "King",
+  "ballot_item": 3,
+  "office_election": 3,
+  "bio": null,
+  "committee_name": null,
+  "is_accepted_expenditure_ceiling": null,
+  "is_incumbent": false,
+  "occupation": null,
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1364029,
+  "supporting_money": {
+    "contributions_received": 91487.96,
+    "total_contributions": 91487.96,
+    "total_expenditures": 109745.36,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 429.45,
+    "support_list": [
+      {
+        "Total": 429.45,
+        "Cand_ID": 1364029,
+        "Filer_ID": "1372459",
+        "Filer_NamL": "Oakland Civil Liberties Alliance"
+      }
+    ],
+    "contributions_by_type": {
+      "Committee": 4950.0,
+      "Individual": 73675.0,
+      "Unitemized": 5246.98,
+      "Other (includes Businesses)": 7615.98
+    },
+    "contributions_by_origin": {
+      "Out of State": 1385.0,
+      "Within Oakland": 47885.76,
+      "Within California": 36970.22
+    },
+    "total_small_contributions": 5651.98,
+    "expenditures_by_type": {
+      "Not Stated": 22060.79,
+      "Civic Donations": 8726.94,
+      "Office Expenses": 5951.14,
+      "Fundraising Events": 148.98,
+      "Campaign Consultants": 29282.98,
+      "Campaign Workers' Salaries": 6550.0,
+      "Campaign Paraphernalia/Misc.": 12098.77,
+      "Candidate Filing/Ballot Fees": 250.0,
+      "Campaign Literature and Mailings": 20507.12,
+      "Candidate Travel, Lodging, and Meals": 1423.03,
+      "Postage, Delivery and Messenger Services": 2040.85
+    },
+    "supporting_by_type": {
+      "MON": 4200.0,
+      "Independent Expenditure Supporting/Opposing Others": 744.45
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 91487.96,
+  "total_expenditures": 109745.36,
+  "total_loans_received": 0.0
+}
