@@ -1,23 +1,23 @@
 {
-  "total_contributions": 6483626.28,
+  "total_contributions": 6528234.02,
   "total_contributions_by_source": {
-    "Out of State": 525989.5900000001,
-    "Within Oakland": 2643630.1099999994,
-    "Within California": 3025088.3400000003
+    "Out of State": 529589.5900000001,
+    "Within Oakland": 2667576.8500000006,
+    "Within California": 3048797.3400000003
   },
   "contributions_by_type": {
-    "Committee": 1015899.7200000001,
-    "Individual": 2538178.869999998,
-    "Unitemized": 136588.3,
-    "Self Funding": 3735.4,
-    "Other (includes Businesses)": 2636894.05
+    "Committee": 1028199.7200000001,
+    "Individual": 2569307.870000001,
+    "Unitemized": 137459.3,
+    "Self Funding": 11162.14,
+    "Other (includes Businesses)": 2637294.05
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 2007919.6500000001
+      "amount": 2019777.3900000001
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -97,19 +97,19 @@
       "name": "Laborers' Local 304 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 6500.0
+      "total_contributions": 7700.0
+    },
+    {
+      "name": "Seneca Scott",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_contributions": 7426.74
     },
     {
       "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 5549.0
-    },
-    {
-      "name": "John Protopappas",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_contributions": 5400.0
+      "total_contributions": 6749.0
     }
   ],
   "top_contributors_for_measures": [
@@ -157,19 +157,19 @@
       "name": "Laborers' Local 304 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 6500.0
+      "total_spending": 7700.0
+    },
+    {
+      "name": "Seneca Scott",
+      "type": "Office",
+      "election_name": "oakland-2022",
+      "total_spending": 7426.74
     },
     {
       "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 5549.0
-    },
-    {
-      "name": "John Protopappas",
-      "type": "Office",
-      "election_name": "oakland-2022",
-      "total_spending": 5400.0
+      "total_spending": 6749.0
     }
   ],
   "top_spenders_for_measures": [

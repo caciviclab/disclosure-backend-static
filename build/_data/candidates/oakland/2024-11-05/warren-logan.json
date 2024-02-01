@@ -1,5 +1,5 @@
 {
-  "id": 14,
+  "id": 15,
   "name": "Warren Logan",
   "photo_url": null,
   "website_url": null,
@@ -21,20 +21,32 @@
   "is_winner": null,
   "filer_id": 1463590,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 46973.0,
+    "total_contributions": 46973.0,
+    "total_expenditures": 14785.89,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 41425.0,
+      "Unitemized": 5548.0
     },
     "contributions_by_origin": {
+      "Out of State": 5750.0,
+      "Within Oakland": 13550.0,
+      "Within California": 22125.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 6148.0,
     "expenditures_by_type": {
+      "Office Expenses": 701.48,
+      "Fundraising Events": 1430.0,
+      "Campaign Consultants": 3000.0,
+      "Campaign Paraphernalia/Misc.": 3000.0,
+      "Campaign Literature and Mailings": 1773.96,
+      "Professional Services (Legal, Accounting)": 1335.0,
+      "Information Technology Costs (Internet, E-mail)": 3500.0
     },
     "supporting_by_type": {
     }
@@ -47,7 +59,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 46973.0,
+  "total_expenditures": 14785.89,
+  "total_loans_received": 0.0
 }
