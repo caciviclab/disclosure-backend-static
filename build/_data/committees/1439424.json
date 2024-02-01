@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 18849.5,
+  "total_contributions": 19849.5,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -559,6 +559,19 @@
       "Tran_NamF": "Jacob",
       "Tran_NamL": "Zonn",
       "Tran_Zip4": "94704",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Filer_ID": "1439424",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2023-12-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Teamsters Local No. 853 PAC",
+      "Tran_Zip4": "94577",
       "election_name": "oakland-2024"
     }
   ]
