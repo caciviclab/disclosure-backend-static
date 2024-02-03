@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1452949,
   "supporting_money": {
-    "contributions_received": 23448.0,
-    "total_contributions": 23448.0,
-    "total_expenditures": 12733.37,
+    "contributions_received": 16286.0,
+    "total_contributions": 16286.0,
+    "total_expenditures": 10687.81,
     "total_loans_received": 0.0,
     "total_supporting_independent": 59238.83,
     "support_list": [
@@ -31,19 +31,21 @@
         "Total": 57653.4,
         "Cand_ID": 1452949,
         "Filer_ID": "1345259",
-        "Filer_NamL": "Oakland Education Association Political Action Committee"
+        "Filer_NamL": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2022"
       },
       {
         "Total": 1585.43,
         "Cand_ID": 1452949,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2022"
       }
     ],
     "contributions_by_type": {
       "Committee": 3600.0,
       "Individual": 8780.0,
-      "Unitemized": 2818.0,
+      "Unitemized": 1806.0,
       "Other (includes Businesses)": 8250.0
     },
     "contributions_by_origin": {
@@ -51,7 +53,7 @@
       "Within Oakland": 7280.0,
       "Within California": 13150.0
     },
-    "total_small_contributions": 2868.0,
+    "total_small_contributions": 1856.0,
     "expenditures_by_type": {
       "Not Stated": 1561.0,
       "Campaign Consultants": 3650.0,
@@ -74,7 +76,7 @@
 
     ]
   },
-  "total_contributions": 23448.0,
-  "total_expenditures": 12733.37,
+  "total_contributions": 16286.0,
+  "total_expenditures": 10687.81,
   "total_loans_received": 0.0
 }
