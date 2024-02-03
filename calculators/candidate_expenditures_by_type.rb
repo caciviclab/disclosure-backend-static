@@ -42,19 +42,25 @@ class CandidateExpendituresByType
   def fetch
     # normalization: replace three-letter names with TYPE_DESCRIPTIONS
     TYPE_DESCRIPTIONS.each do |short_name, human_name|
-      expenditures_by_candidate_by_type.each do |filer_id, expenditures_by_type|
-        if value = expenditures_by_type.delete(short_name)
-          expenditures_by_type[human_name] = value
+      expenditures_by_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, expenditures_by_type|
+          if value = expenditures_by_type.delete(short_name)
+            expenditures_by_type[human_name] = value
+          end
         end
       end
-      supporting_candidate_by_type.each do |filer_id, expenditures_by_type|
-        if value = expenditures_by_type.delete(short_name)
-          expenditures_by_type[human_name] = value
+      supporting_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, expenditures_by_type|
+          if value = expenditures_by_type.delete(short_name)
+            expenditures_by_type[human_name] = value
+          end
         end
       end
-      opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
-        if value = expenditures_by_type.delete(short_name)
-          expenditures_by_type[human_name] = value
+      opposing_candidate_by_type.each do |election_name, values|
+        values.each do |filer_id, expenditures_by_type|
+          if value = expenditures_by_type.delete(short_name)
+            expenditures_by_type[human_name] = value
+          end
         end
       end
     end
@@ -67,15 +73,15 @@ class CandidateExpendituresByType
       end
     end
     supporting_candidate_by_type.each do |election_name, values|
-      values.each do |filer_id, expenditures_by_type|
+      values.each do |filer_id, supporting_by_type|
         candidate = @candidates_by_election_filer_id[election_name][filer_id]
-        candidate.save_calculation(:supporting_by_type, expenditures_by_type)
+        candidate.save_calculation(:supporting_by_type, supporting_by_type)
       end
     end
     opposing_candidate_by_type.each do |election_name, values|
-      values.each do |filer_id, expenditures_by_type|
+      values.each do |filer_id, opposing_by_type|
         candidate = @candidates_by_election_filer_id[election_name][filer_id]
-        candidate.save_calculation(:opposing_by_type, expenditures_by_type)
+        candidate.save_calculation(:opposing_by_type, opposing_by_type)
       end
     end
   end
@@ -129,30 +135,29 @@ class CandidateExpendituresByType
       results = ActiveRecord::Base.connection.execute <<-SQL
         WITH combined_expenditures AS (
           SELECT
-            expend.election_name,
+            election_name,
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Code",
             "Amount"
-          FROM candidate_e_expenditure expend, "candidates" c
+          FROM candidate_d_expenditure
           WHERE "Sup_Opp_Cd" = 'S'
-            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
             AND expend.election_name = c.election_name
           UNION ALL
           SELECT
-            "outer".election_name,
+            election_name,
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Dscr" AS "Expn_Code",
             "Amount"
-          FROM "candidate_496" AS "outer", "candidates" AS c
+          FROM "candidate_496" AS "outer"
           WHERE "Sup_Opp_Cd" = 'S'
-            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND NOT EXISTS (
-              SELECT 1 from "D-Expenditure" AS "inner"
+              SELECT 1 from candidate_d_expenditure AS "inner"
               WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
                 AND "outer"."Exp_Date" = "inner"."Expn_Date"
                 AND "outer"."Amount" = "inner"."Amount"
                 AND "outer"."Cand_NamL" = "inner"."Cand_NamL"
+                AND "outer".election_name = "inner".election_name
             )
             AND "outer".election_name = c.election_name
           )
@@ -182,30 +187,29 @@ class CandidateExpendituresByType
       results = ActiveRecord::Base.connection.execute <<-SQL
         WITH combined_opposing_expenditures AS (
           SELECT
-            expend.election_name,
+            election_name,
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Code",
             "Amount"
-          FROM candidate_d_expenditure expend, "candidates" c
+          FROM candidate_d_expenditure expend
           WHERE "Sup_Opp_Cd" = 'O'
-            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
             AND expend.election_name = c.election_name
           UNION ALL
           SELECT
-            "outer".election_name,
+            election_name,
             "FPPC"::varchar AS "Filer_ID",
             "Expn_Dscr" AS "Expn_Code",
             "Amount"
-          FROM "candidate_496" AS "outer", "candidates" AS c
+          FROM "candidate_496" AS "outer"
           WHERE "Sup_Opp_Cd" = 'O'
-            AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
             AND NOT EXISTS (
-              SELECT 1 FROM "D-Expenditure" AS "inner"
+              SELECT 1 FROM candidate_d_expenditure AS "inner"
               WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
               AND "outer"."Exp_Date" = "inner"."Expn_Date"
               AND "outer"."Amount" = "inner"."Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL"
+              AND "outer".election_name = "inner".election_name
             )
             AND "outer".election_name = c.election_name
           )
