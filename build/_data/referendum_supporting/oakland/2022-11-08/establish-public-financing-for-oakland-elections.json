@@ -1,0 +1,52 @@
+{
+  "id": 11,
+  "contest_type": "Referendum",
+  "name": "Establish Public Financing for Oakland Elections",
+  "title": "Establish Public Financing for Oakland Elections",
+  "summary": "Shall the Measure amending the Oakland Municipal Code and City Charter to establish resident public financing for candidate election campaigns, increase transparency regarding independent spending in City elections, further restrict former city officials from acting as lobbyists, and provide additional resources to the Public Ethics Commission for implementation be adopted?",
+  "number": "W",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 156370.89,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 228792.23,
+      "locale": "Within California"
+    },
+    {
+      "amount": 60634.85,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 159824.67
+    },
+    {
+      "type": "Individual",
+      "amount": 69778.5
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 216194.8
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1332115",
+      "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "amount": 0
+    },
+    {
+      "id": "1448942",
+      "name": "Yes on W, Oakland Fair Elections, Sponsored by Civic Advocacy Organizations",
+      "payee": "Yes on W, Oakland Fair Elections, Sponsored by Civic Advocacy Organizations",
+      "amount": 0
+    }
+  ],
+  "total_contributions": 445797.97
+}

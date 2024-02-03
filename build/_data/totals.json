@@ -1,0 +1,1697 @@
+{
+  "berkeley-2018": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "oakland-2014": {
+    "total_contributions": 2895450.04,
+    "total_contributions_by_source": {
+      "Out of State": 136291.89,
+      "Within Oakland": 1524510.36,
+      "Within California": 924027.56
+    },
+    "contributions_by_type": {
+      "Committee": 148288.05,
+      "Individual": 1728146.02,
+      "Unitemized": 141289.38,
+      "Self Funding": 468306.3999999999,
+      "Other (includes Businesses)": 240089.34
+    },
+    "most_expensive_races": [
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 1865761.2000000002
+      },
+      {
+        "slug": "city-council-district-2",
+        "type": "office",
+        "title": "City Council District 2",
+        "amount": 398594.60000000003
+      },
+      {
+        "slug": "city-council-district-4",
+        "type": "office",
+        "title": "City Council District 4",
+        "amount": 221648.38
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "karl-debro",
+        "type": "office",
+        "title": "Oakland November 4th, 2014 Election",
+        "candidate": "Karl Debro",
+        "proportion": 0.8354777834963116,
+        "office_title": "OUSD School Director District 4"
+      },
+      {
+        "slug": "renato-almanzor",
+        "type": "office",
+        "title": "Oakland November 4th, 2014 Election",
+        "candidate": "Renato Almanzor",
+        "proportion": 0.24336392954601835,
+        "office_title": "OUSD School Director District 6"
+      },
+      {
+        "slug": "shereda-nosakhare",
+        "type": "office",
+        "title": "Oakland November 4th, 2014 Election",
+        "candidate": "Shereda Nosakhare",
+        "proportion": 0.2200833157215558,
+        "office_title": "City Council District 6"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "election_name": "oakland-2014",
+        "total_spending": 107576.9
+      },
+      {
+        "name": "Unity PAC, a sponsored committee of the Alameda Labor Council, AFL-CIO",
+        "election_name": "oakland-2014",
+        "total_spending": 89243.48
+      },
+      {
+        "name": "OAK PAC, Oakland Metropolitan Chamber of Commerce",
+        "election_name": "oakland-2014",
+        "total_spending": 10446.26
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "Bryan Parker",
+        "election_name": "oakland-2014",
+        "total_contributions": 121200.0
+      },
+      {
+        "name": "Jean Quan",
+        "election_name": "oakland-2014",
+        "total_contributions": 101185.73
+      },
+      {
+        "name": "Rebecca Kaplan",
+        "election_name": "oakland-2014",
+        "total_contributions": 80000.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Bryan Parker",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_contributions": 121200.0
+      },
+      {
+        "name": "Jean Quan",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_contributions": 101185.73
+      },
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_contributions": 80000.0
+      }
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+      {
+        "name": "Bryan Parker",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 121200.0
+      },
+      {
+        "name": "Jean Quan",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 101185.73
+      },
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 80000.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Bryan Parker",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 121200.0
+      },
+      {
+        "name": "Jean Quan",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 101185.73
+      },
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2014",
+        "total_spending": 80000.0
+      }
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "oakland-2016": {
+    "total_contributions": 20942119.02,
+    "total_contributions_by_source": {
+      "Out of State": 10533130.27,
+      "Within Oakland": 1457009.9400000002,
+      "Within California": 8633768.879999999
+    },
+    "contributions_by_type": {
+      "Committee": 8423734.030000001,
+      "Individual": 10284156.58,
+      "Unitemized": 70529.93,
+      "Self Funding": 124742.81999999999,
+      "Other (includes Businesses)": 1791275.66
+    },
+    "most_expensive_races": [
+      {
+        "slug": "sugar-sweetened-beverage-tax",
+        "type": "referendum",
+        "title": "Measure HH",
+        "amount": 18055620.37
+      },
+      {
+        "slug": "just-cause-for-eviction-and-rent-adjustment",
+        "type": "referendum",
+        "title": "Measure JJ",
+        "amount": 850350.55
+      },
+      {
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 569233.71
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "nancy-sidebotham",
+        "type": "office",
+        "title": "Oakland November 8th, 2016 Election",
+        "candidate": "Nancy Sidebotham",
+        "proportion": 1.0,
+        "office_title": "City Council At-Large"
+      },
+      {
+        "slug": "kharyshi-wiginton",
+        "type": "office",
+        "title": "Oakland November 8th, 2016 Election",
+        "candidate": "Kharyshi Wiginton",
+        "proportion": 0.18851328044153157,
+        "office_title": "School Board District 3"
+      },
+      {
+        "slug": "jody-london",
+        "type": "office",
+        "title": "Oakland November 8th, 2016 Election",
+        "candidate": "Jody London",
+        "proportion": 0.16823308270676693,
+        "office_title": "School Board District 1"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "election_name": "oakland-2016",
+        "total_spending": 486753.01
+      },
+      {
+        "name": "Oakland Police Officer’s Association - Political Action Committee",
+        "election_name": "oakland-2016",
+        "total_spending": 50759.88
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "election_name": "oakland-2016",
+        "total_spending": 148.12
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "election_name": "oakland-2016",
+        "total_contributions": 9339171.01
+      },
+      {
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "election_name": "oakland-2016",
+        "total_contributions": 7305502.73
+      },
+      {
+        "name": "ACTION NOW INITIATIVE",
+        "election_name": "oakland-2016",
+        "total_contributions": 1075000.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Rebecca D. Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_contributions": 52050.0
+      },
+      {
+        "name": "Bruce Quan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_contributions": 39366.14
+      },
+      {
+        "name": "Chris Jackson",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_contributions": 10900.0
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_contributions": 9339171.01
+      },
+      {
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_contributions": 7305502.73
+      },
+      {
+        "name": "ACTION NOW INITIATIVE",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_contributions": 1075000.0
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 9339171.01
+      },
+      {
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 7305502.73
+      },
+      {
+        "name": "ACTION NOW INITIATIVE",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 1075000.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Rebecca D. Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_spending": 52050.0
+      },
+      {
+        "name": "Bruce Quan",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_spending": 39366.14
+      },
+      {
+        "name": "Chris Jackson",
+        "type": "Office",
+        "election_name": "oakland-2016",
+        "total_spending": 10900.0
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 9339171.01
+      },
+      {
+        "name": "AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC (NON-PROFIT 501(C)(6))",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 7305502.73
+      },
+      {
+        "name": "ACTION NOW INITIATIVE",
+        "type": "Measure",
+        "election_name": "oakland-2016",
+        "total_spending": 1075000.0
+      }
+    ]
+  },
+  "oakland-2018": {
+    "total_contributions": 6735481.85,
+    "total_contributions_by_source": {
+      "Out of State": 950476.36,
+      "Within Oakland": 2657395.9,
+      "Within California": 2929226.3099999996
+    },
+    "contributions_by_type": {
+      "Committee": 964346.17,
+      "Individual": 2737396.8899999997,
+      "Unitemized": 140451.47999999998,
+      "Self Funding": 88684.25,
+      "Other (includes Businesses)": 2746671.2600000002
+    },
+    "most_expensive_races": [
+      {
+        "slug": "oakland-children-s-initiative",
+        "type": "referendum",
+        "title": "Measure AA",
+        "amount": 2158805.19
+      },
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 891924.69
+      },
+      {
+        "slug": "just-cause-eviction-amendments",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 839177.38
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "marchon-tatmon",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
+        "candidate": "Marchon Tatmon",
+        "proportion": 0.3183577599099178,
+        "office_title": "Mayor"
+      },
+      {
+        "slug": "cat-brooks",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
+        "candidate": "Cat Brooks",
+        "proportion": 0.2947611899150054,
+        "office_title": "Mayor"
+      },
+      {
+        "slug": "clarissa-doutherd",
+        "type": "office",
+        "title": "Oakland November 6th, 2018 Election",
+        "candidate": "Clarissa Doutherd",
+        "proportion": 0.19686159105782725,
+        "office_title": "OUSD District 4"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "election_name": "oakland-2018",
+        "total_spending": 149368.03
+      },
+      {
+        "name": "East Bay Working Families",
+        "election_name": "oakland-2018",
+        "total_spending": 140824.0
+      },
+      {
+        "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
+        "election_name": "oakland-2018",
+        "total_spending": 129086.79
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "East Bay Community Foundation",
+        "election_name": "oakland-2018",
+        "total_contributions": 500000.0
+      },
+      {
+        "name": "Arthur Rock",
+        "election_name": "oakland-2018",
+        "total_contributions": 250000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "election_name": "oakland-2018",
+        "total_contributions": 222500.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Brenda Roberts",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 53757.13
+      },
+      {
+        "name": "Charlie Michelson",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 15700.0
+      },
+      {
+        "name": "Saied Karamooz",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 8796.6
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_contributions": 440000.0
+      },
+      {
+        "name": "Arthur Rock",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_contributions": 250000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_contributions": 222500.0
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 500000.0
+      },
+      {
+        "name": "Arthur Rock",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 250000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 222500.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Brenda Roberts",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 53757.13
+      },
+      {
+        "name": "Charlie Michelson",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 15700.0
+      },
+      {
+        "name": "Saied Karamooz",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 8796.6
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 500000.0
+      },
+      {
+        "name": "Arthur Rock",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 250000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-2018",
+        "total_spending": 222500.0
+      }
+    ]
+  },
+  "oakland-2020": {
+    "total_contributions": 2669389.94,
+    "total_contributions_by_source": {
+      "Out of State": 184777.27,
+      "Within Oakland": 1387330.2600000002,
+      "Within California": 1095820.0499999998
+    },
+    "contributions_by_type": {
+      "Committee": 443366.93,
+      "Individual": 1761987.61,
+      "Unitemized": 180487.51999999996,
+      "Self Funding": 134466.64,
+      "Other (includes Businesses)": 328106.4
+    },
+    "most_expensive_races": [
+      {
+        "slug": "city-council-district-7",
+        "type": "office",
+        "title": "City Council District 7",
+        "amount": 453009.32999999996
+      },
+      {
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 405212.41000000003
+      },
+      {
+        "slug": "ousd-facilities-bond",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 367195.08
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "stacy-thomas",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Stacy Thomas",
+        "proportion": 0.42857142857142855,
+        "office_title": "School Board District 1"
+      },
+      {
+        "slug": "tri-ngo",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Tri Ngo",
+        "proportion": 0.3032000954178602,
+        "office_title": "City Council District 1"
+      },
+      {
+        "slug": "richard-santos-raya",
+        "type": "office",
+        "title": "Oakland November 3rd, 2020 General Election",
+        "candidate": "Richard Santos Raya",
+        "proportion": 0.23698879458053446,
+        "office_title": "City Council District 5"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "Oakland 2020 Committee to Replace Lynette Gibson McElhaney And Elect Carroll Fife and Rebecca Kaplan to the Oakland City Council, sponsored by Alameda Labor Council, AFL-CIO",
+        "election_name": "oakland-2020",
+        "total_spending": 395215.85
+      },
+      {
+        "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
+        "election_name": "oakland-2020",
+        "total_spending": 340009.22
+      },
+      {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "election_name": "oakland-2020",
+        "total_spending": 324628.0
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "election_name": "oakland-2020",
+        "total_contributions": 346800.0
+      },
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "election_name": "oakland-2020",
+        "total_contributions": 300000.0
+      },
+      {
+        "name": "Michael R. Bloomberg",
+        "election_name": "oakland-2020",
+        "total_contributions": 200000.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 68694.63
+      },
+      {
+        "name": "Tri Ngo",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 18402.59
+      },
+      {
+        "name": "Elias Ferran",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_contributions": 17251.42
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 100000.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 75000.0
+      },
+      {
+        "name": "East Bay Community Foundation",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_contributions": 45000.0
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 340000.0
+      },
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 300000.0
+      },
+      {
+        "name": "Michael R. Bloomberg",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 200000.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Rebecca Kaplan",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 68694.63
+      },
+      {
+        "name": "Tri Ngo",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 18402.59
+      },
+      {
+        "name": "Elias Ferran",
+        "type": "Office",
+        "election_name": "oakland-2020",
+        "total_spending": 17251.42
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 340000.0
+      },
+      {
+        "name": "MICHAEL BLOOMBERG",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 300000.0
+      },
+      {
+        "name": "Michael R. Bloomberg",
+        "type": "Measure",
+        "election_name": "oakland-2020",
+        "total_spending": 200000.0
+      }
+    ]
+  },
+  "oakland-2022": {
+    "total_contributions": 5975849.66,
+    "total_contributions_by_source": {
+      "Out of State": 529589.5900000001,
+      "Within Oakland": 2667576.8500000006,
+      "Within California": 3048797.3400000003
+    },
+    "contributions_by_type": {
+      "Committee": 1028199.7200000001,
+      "Individual": 2569307.870000001,
+      "Unitemized": 110754.35,
+      "Self Funding": 11162.14,
+      "Other (includes Businesses)": 2637294.05
+    },
+    "most_expensive_races": [
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 1648905.4100000001
+      },
+      {
+        "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
+        "type": "referendum",
+        "title": "Measure T",
+        "amount": 1124066.14
+      },
+      {
+        "slug": "oakland-zoo-animal-care-education-and-improvement",
+        "type": "referendum",
+        "title": "Measure Y",
+        "amount": 1054162.67
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "valarie-bachelor",
+        "type": "office",
+        "title": "Oakland November 8th, 2022 General Election",
+        "candidate": "Valarie Bachelor",
+        "proportion": 0.19641754928122226,
+        "office_title": "OUSD District 6"
+      },
+      {
+        "slug": "allyssa-victory-villanueva",
+        "type": "office",
+        "title": "Oakland November 8th, 2022 General Election",
+        "candidate": "Allyssa Victory Villanueva",
+        "proportion": 0.1822939885711639,
+        "office_title": "Mayor"
+      },
+      {
+        "slug": "pecolia-manigo",
+        "type": "office",
+        "title": "Oakland November 8th, 2022 General Election",
+        "candidate": "Pecolia Manigo",
+        "proportion": 0.17748779353638688,
+        "office_title": "OUSD District 4"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
+        "election_name": "oakland-2022",
+        "total_spending": 677153.5
+      },
+      {
+        "name": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
+        "election_name": "oakland-2022",
+        "total_spending": 570611.0
+      },
+      {
+        "name": "East and South Bay Working Families United sponsored by labor organizations",
+        "election_name": "oakland-2022",
+        "total_spending": 173701.0
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "election_name": "oakland-2022",
+        "total_contributions": 1054162.67
+      },
+      {
+        "name": "Jonathan Brooks",
+        "election_name": "oakland-2022",
+        "total_contributions": 550900.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "election_name": "oakland-2022",
+        "total_contributions": 210000.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Laborers' Local 304 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_contributions": 7700.0
+      },
+      {
+        "name": "Seneca Scott",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_contributions": 7426.74
+      },
+      {
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_contributions": 6749.0
+      }
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 1054162.67
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 200000.0
+      },
+      {
+        "name": "International Federation of Professional and Technical Engineers Local 21, AFL-CIO",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_contributions": 168662.46
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 1054162.67
+      },
+      {
+        "name": "Jonathan Brooks",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 550000.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 210000.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Laborers' Local 304 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 7700.0
+      },
+      {
+        "name": "Seneca Scott",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 7426.74
+      },
+      {
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 6749.0
+      }
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "THE CONSERVATION SOCIETY OF CALIFORNIA (DBA THE OAKLAND ZOO)",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 1054162.67
+      },
+      {
+        "name": "Jonathan Brooks",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 550000.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2022",
+        "total_spending": 210000.0
+      }
+    ]
+  },
+  "oakland-june-2018": {
+    "total_contributions": 151587.72,
+    "total_contributions_by_source": {
+      "Out of State": 7200.0,
+      "Within Oakland": 110837.72,
+      "Within California": 33550.0
+    },
+    "contributions_by_type": {
+      "Committee": 21250.0,
+      "Individual": 49547.0,
+      "Other (includes Businesses)": 80790.72
+    },
+    "most_expensive_races": [
+      {
+        "slug": "library-parcel-tax",
+        "type": "referendum",
+        "title": "Measure D",
+        "amount": 151587.72
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 15000.0
+      },
+      {
+        "name": "Oakland Athletics Baseball Company",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 10000.0
+      }
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 15000.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_contributions": 10000.0
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 15000.0
+      },
+      {
+        "name": "Oakland Athletics Baseball Company",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 10000.0
+      }
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 33290.72
+      },
+      {
+        "name": "Mitchell Kapor",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 15000.0
+      },
+      {
+        "name": "Oakland Athletics Baseball Company",
+        "type": "Measure",
+        "election_name": "oakland-june-2018",
+        "total_spending": 10000.0
+      }
+    ]
+  },
+  "oakland-june-2022": {
+    "total_contributions": 104075.02,
+    "total_contributions_by_source": {
+      "Out of State": 6400.0,
+      "Within Oakland": 64425.02,
+      "Within California": 33250.0
+    },
+    "contributions_by_type": {
+      "Committee": 22000.0,
+      "Individual": 16375.0,
+      "Other (includes Businesses)": 65700.02
+    },
+    "most_expensive_races": [
+      {
+        "slug": "library-services-retention-and-enhancement-act",
+        "type": "referendum",
+        "title": "Measure C",
+        "amount": 104075.02
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 40000.0
+      },
+      {
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 10000.0
+      },
+      {
+        "name": "CliffordMoss.",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 9500.02
+      }
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 40000.0
+      },
+      {
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 10000.0
+      },
+      {
+        "name": "CliffordMoss.",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_contributions": 9500.02
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 40000.0
+      },
+      {
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 10000.0
+      },
+      {
+        "name": "CliffordMoss.",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 9500.02
+      }
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "The Friends of the Oakland Public Library",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 40000.0
+      },
+      {
+        "name": "Service Employees International Union Local #1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 10000.0
+      },
+      {
+        "name": "CliffordMoss.",
+        "type": "Measure",
+        "election_name": "oakland-june-2022",
+        "total_spending": 9500.02
+      }
+    ]
+  },
+  "oakland-march-2020": {
+    "total_contributions": 438840.88,
+    "total_contributions_by_source": {
+      "Out of State": 36764.0,
+      "Within Oakland": 199672.64,
+      "Within California": 202404.24
+    },
+    "contributions_by_type": {
+      "Committee": 148412.0,
+      "Individual": 28312.72,
+      "Other (includes Businesses)": 262116.16
+    },
+    "most_expensive_races": [
+      {
+        "slug": "oakland-parks-and-recreation-preservation-litter-reduction-and-homelessness-support-act",
+        "type": "referendum",
+        "title": "Measure Q",
+        "amount": 438840.88
+      }
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "NATIONAL ASSOCIATION OF REALTORS",
+        "election_name": "oakland-march-2020",
+        "total_spending": 184623.0
+      },
+      {
+        "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+        "election_name": "oakland-march-2020",
+        "total_spending": 40641.0
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "Kaiser Permanente",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 36764.0
+      }
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+      {
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_contributions": 36764.0
+      }
+    ],
+    "top_spenders": [
+      {
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 36764.0
+      }
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+      {
+        "name": "Kaiser Permanente",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 150000.0
+      },
+      {
+        "name": "East Bay Rental Housing Association PAC",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 114000.0
+      },
+      {
+        "name": "National Association of Realtors",
+        "type": "Measure",
+        "election_name": "oakland-march-2020",
+        "total_spending": 36764.0
+      }
+    ]
+  },
+  "oakland-2023": {
+    "total_contributions": 35003.0,
+    "total_contributions_by_source": {
+      "Out of State": 3600.0,
+      "Within Oakland": 19334.0,
+      "Within California": 10326.0
+    },
+    "contributions_by_type": {
+      "Committee": 6000.0,
+      "Individual": 27260.0,
+      "Unitemized": 2531.0
+    },
+    "most_expensive_races": [
+      {
+        "slug": "school-board-district-5",
+        "type": "office",
+        "title": "School Board District 5",
+        "amount": 35003.0
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "jorge-c-lerma",
+        "type": "office",
+        "title": "Oakland November 7th, 2023 Special Election",
+        "candidate": "Jorge C. Lerma",
+        "proportion": 0.09090909090909091,
+        "office_title": "School Board District 5"
+      },
+      {
+        "slug": "alexandra-ritzie-hernandez",
+        "type": "office",
+        "title": "Oakland November 7th, 2023 Special Election",
+        "candidate": "Alexandra Ritzie-Hernandez",
+        "proportion": 0.08352221993268769,
+        "office_title": "School Board District 5"
+      }
+    ],
+    "largest_independent_expenditures": [
+      {
+        "name": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2023",
+        "total_spending": 44068.81
+      },
+      {
+        "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "election_name": "oakland-2023",
+        "total_spending": 23700.0
+      },
+      {
+        "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2023",
+        "total_spending": 4179.94
+      }
+    ],
+    "top_contributors": [
+      {
+        "name": "Kimi Kean",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "UA Local 342",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Laborers Local 304",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "UA Local 342",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      }
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      }
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "oakland-2024": {
+    "total_contributions": 209290.56,
+    "total_contributions_by_source": {
+      "Out of State": 23725.0,
+      "Within Oakland": 61742.0,
+      "Within California": 126645.05
+    },
+    "contributions_by_type": {
+      "Committee": 44450.0,
+      "Individual": 165761.05,
+      "Unitemized": 8077.0,
+      "Self Funding": 101.0,
+      "Other (includes Businesses)": 1800.0
+    },
+    "most_expensive_races": [
+      {
+        "slug": "city-council-district-1",
+        "type": "office",
+        "title": "City Council District 1",
+        "amount": 121251.55
+      },
+      {
+        "slug": "city-council-district-3",
+        "type": "office",
+        "title": "City Council District 3",
+        "amount": 48173.0
+      },
+      {
+        "slug": "city-attorney",
+        "type": "office",
+        "title": "City Attorney",
+        "amount": 25186.0
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "sam-davis",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Sam Davis",
+        "proportion": 0.15918989547038329,
+        "office_title": "School Board District 1"
+      },
+      {
+        "slug": "warren-logan",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Warren Logan",
+        "proportion": 0.1308836991463181,
+        "office_title": "City Council District 3"
+      },
+      {
+        "slug": "treva-reid",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Treva Reid",
+        "proportion": 0.11270805639566178,
+        "office_title": "City Council District 7"
+      }
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+      {
+        "name": "International Association of Firefighters Local 55",
+        "election_name": "oakland-2024",
+        "total_contributions": 2400.0
+      },
+      {
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "election_name": "oakland-2024",
+        "total_contributions": 2400.0
+      },
+      {
+        "name": "Firefighters for Better Government",
+        "election_name": "oakland-2024",
+        "total_contributions": 2000.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 2400.0
+      },
+      {
+        "name": "International Association of Firefighters Local 55",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 2400.0
+      },
+      {
+        "name": "Firefighters for Better Government",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 2000.0
+      }
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+      {
+        "name": "International Association of Firefighters Local 55",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 2400.0
+      },
+      {
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 2400.0
+      },
+      {
+        "name": "Firefighters for Better Government",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 2000.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "International Association of Firefighters Local 55",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 2400.0
+      },
+      {
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 2400.0
+      },
+      {
+        "name": "Firefighters for Better Government",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 2000.0
+      }
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "sf-2016": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "sf-2018": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "sf-june-2018": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  }
+}

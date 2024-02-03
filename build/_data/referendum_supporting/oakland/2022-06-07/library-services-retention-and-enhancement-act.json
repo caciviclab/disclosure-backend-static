@@ -1,0 +1,46 @@
+{
+  "id": 4,
+  "contest_type": "Referendum",
+  "name": "Library Services Retention and Enhancement Act",
+  "title": "Library Services Retention and Enhancement Act",
+  "summary": "This measure would reauthorize the Act for a period of 30 years until June 30, 2052. The Act does not increase the current tax rate except to allow for annual percentages authorized by City Council that are up to the greater of Consumer Price Index (CPI) or California per capita personal income. The Act provides an additional exemption for low-income seniors and residents. This legislation updates the minimum General Purpose Fund (GPF) commitment for library services to the FY 2021-2022 appropriation level and eliminates the “Reserve Fund Requirement.”",
+  "number": "C",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 6400.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 33250.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 64425.02,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 22000.0
+    },
+    {
+      "type": "Individual",
+      "amount": 16375.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 65700.02
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1445857",
+      "name": "Neighbors for the Oakland Library - Yes on C!",
+      "payee": "Neighbors for the Oakland Library - Yes on C!",
+      "amount": 105875.02
+    }
+  ],
+  "total_contributions": 104075.02
+}

@@ -1,0 +1,58 @@
+{
+  "id": 9,
+  "contest_type": "Referendum",
+  "name": "Progressive and Equitable Oakland Gross Receipts Tax",
+  "title": "Progressive and Equitable Oakland Gross Receipts Tax",
+  "summary": "Shall the measure amending Oakland's business tax rates to create a progressive rate structure that would (1) impose the highest rates on the highest grossing businesses, (2) increase Oakland's annual tax revenue by an estimated $20,900,000, and (3) generate approximately $124,000,000 in total annual revenue for municipal services by imposing business tax rates of .05% to .55% of gross receipts, and other rates as stated in the measure, be adopted?",
+  "number": "T",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 107250.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 829357.13,
+      "locale": "Within California"
+    },
+    {
+      "amount": 187459.01,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 455370.23
+    },
+    {
+      "type": "Individual",
+      "amount": 7164.06
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 661531.85
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1445852",
+      "name": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
+      "payee": "Oaklanders Together, a coalition of small and large businesses, business-serving organizations, and the Oakland Metropolitan Chamber of Commerce",
+      "amount": 472345.76
+    },
+    {
+      "id": "1444350",
+      "name": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
+      "payee": "Yes on T - Invest In Our Oakland 2022, Sponsored by SEIU Local 1021 and IFPTE Local 21",
+      "amount": 295406.64
+    },
+    {
+      "id": "1332115",
+      "name": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "payee": "Oakland Rising Committee Sponsored by Movement Strategy Center Action Fund",
+      "amount": 0
+    }
+  ],
+  "total_contributions": 1124066.14
+}
