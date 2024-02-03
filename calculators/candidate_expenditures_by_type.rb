@@ -142,7 +142,6 @@ class CandidateExpendituresByType
           FROM candidate_d_expenditure
           WHERE "Sup_Opp_Cd" = 'S'
             AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
-            AND expend.election_name = c.election_name
           UNION ALL
           SELECT
             election_name,
@@ -159,7 +158,6 @@ class CandidateExpendituresByType
                 AND "outer"."Cand_NamL" = "inner"."Cand_NamL"
                 AND "outer".election_name = "inner".election_name
             )
-            AND "outer".election_name = c.election_name
           )
         SELECT election_name, "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
         FROM combined_expenditures
@@ -194,7 +192,6 @@ class CandidateExpendituresByType
           FROM candidate_d_expenditure expend
           WHERE "Sup_Opp_Cd" = 'O'
             AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
-            AND expend.election_name = c.election_name
           UNION ALL
           SELECT
             election_name,
@@ -211,7 +208,6 @@ class CandidateExpendituresByType
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL"
               AND "outer".election_name = "inner".election_name
             )
-            AND "outer".election_name = c.election_name
           )
         SELECT election_name, "Filer_ID", COALESCE("Expn_Code", '') as "Expn_Code", SUM("Amount") AS "Total"
         FROM combined_opposing_expenditures
