@@ -1,5 +1,5 @@
 {
-  "total_contributions": 6528234.02,
+  "total_contributions": 5975849.66,
   "total_contributions_by_source": {
     "Out of State": 529589.5900000001,
     "Within Oakland": 2667576.8500000006,
@@ -7,8 +7,8 @@
   },
   "contributions_by_type": {
     "Committee": 1028199.7200000001,
-    "Individual": 2569307.870000001,
-    "Unitemized": 137459.3,
+    "Individual": 2569307.8700000006,
+    "Unitemized": 110754.35,
     "Self Funding": 11162.14,
     "Other (includes Businesses)": 2637294.05
   },
@@ -17,7 +17,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 2019777.3900000001
+      "amount": 1648905.4100000001
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -34,6 +34,14 @@
   ],
   "largest_small_proportion": [
     {
+      "slug": "valarie-bachelor",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Valarie Bachelor",
+      "proportion": 0.19641754928122226,
+      "office_title": "OUSD District 6"
+    },
+    {
       "slug": "allyssa-victory-villanueva",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
@@ -42,19 +50,11 @@
       "office_title": "Mayor"
     },
     {
-      "slug": "valarie-bachelor",
-      "type": "office",
-      "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Valarie Bachelor",
-      "proportion": 0.1715151442505711,
-      "office_title": "OUSD District 6"
-    },
-    {
       "slug": "pecolia-manigo",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Pecolia Manigo",
-      "proportion": 0.16723627831054888,
+      "proportion": 0.17748779353638688,
       "office_title": "OUSD District 4"
     }
   ],

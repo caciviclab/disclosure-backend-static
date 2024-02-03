@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1441869,
   "supporting_money": {
-    "contributions_received": 66849.0,
-    "total_contributions": 66849.0,
-    "total_expenditures": 92016.61,
+    "contributions_received": 23645.0,
+    "total_contributions": 23645.0,
+    "total_expenditures": 50659.84,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,7 +31,7 @@
     ],
     "contributions_by_type": {
       "Individual": 62525.0,
-      "Unitemized": 1124.0,
+      "Unitemized": 1045.0,
       "Other (includes Businesses)": 3200.0
     },
     "contributions_by_origin": {
@@ -39,7 +39,7 @@
       "Within Oakland": 27575.0,
       "Within California": 27350.0
     },
-    "total_small_contributions": 1574.0,
+    "total_small_contributions": 1495.0,
     "expenditures_by_type": {
       "Not Stated": 9023.61,
       "Office Expenses": 102.89,
@@ -53,23 +53,17 @@
       "Information Technology Costs (Internet, E-mail)": 6289.64
     },
     "supporting_by_type": {
-      "MON": 4100.0,
-      "Mailer": 99862.0,
-      "Cable ads": 50000.0,
-      "Estimated cost of media production": 24766.0,
-      "Independent Expenditure Supporting/Opposing Others": 133700.0
     }
   },
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 22991.74
     },
     "opposition_list": [
 
     ]
   },
-  "total_contributions": 66849.0,
-  "total_expenditures": 92016.61,
+  "total_contributions": 23645.0,
+  "total_expenditures": 50659.84,
   "total_loans_received": 0.0
 }

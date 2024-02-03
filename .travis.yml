@@ -2,6 +2,7 @@ dist: bionic
 env:
   global:
     - TZ=America/Los_Angeles
+language: python
 python:
   - '3.9'
 services:
@@ -9,7 +10,7 @@ services:
 sudo: required
 install:
   - pip install 'urllib3[secure]'
-  - sudo pip install -r requirements.txt
+  - pip install -r requirements.txt
   - bundle install
 cache:
   - bundler

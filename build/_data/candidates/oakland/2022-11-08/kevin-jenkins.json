@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1443971,
   "supporting_money": {
-    "contributions_received": 84514.0,
-    "total_contributions": 84514.0,
-    "total_expenditures": 90150.07,
+    "contributions_received": 52204.0,
+    "total_contributions": 52204.0,
+    "total_expenditures": 87092.21,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -31,13 +31,14 @@
         "Total": 2113.9,
         "Cand_ID": 1443971,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2022"
       }
     ],
     "contributions_by_type": {
       "Committee": 30900.0,
       "Individual": 46325.0,
-      "Unitemized": 1389.0,
+      "Unitemized": 554.0,
       "Self Funding": 100.0,
       "Other (includes Businesses)": 5800.0
     },
@@ -46,7 +47,7 @@
       "Within Oakland": 29675.0,
       "Within California": 48250.0
     },
-    "total_small_contributions": 2239.0,
+    "total_small_contributions": 1404.0,
     "expenditures_by_type": {
       "Not Stated": 5307.89,
       "Phone Banks": 2500.0,
@@ -73,7 +74,7 @@
 
     ]
   },
-  "total_contributions": 84514.0,
-  "total_expenditures": 90150.07,
+  "total_contributions": 52204.0,
+  "total_expenditures": 87092.21,
   "total_loans_received": 0.0
 }

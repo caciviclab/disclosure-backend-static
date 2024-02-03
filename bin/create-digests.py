@@ -211,7 +211,7 @@ def add_tickets_total(digests, ticket_type='candidates', total_key='total_contri
                                 for key in ticket_info:
                                     ticket_total += ticket_info[key]
                             else:
-                                ticket_total += ticket_info[total_subkey]
+                                ticket_total += ticket_info.get(total_subkey,0)
                         elif type(ticket_info) == list:
                             for item in ticket_info:
                                 ticket_total += item.get('amount',0) or 0
