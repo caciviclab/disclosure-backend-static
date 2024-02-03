@@ -2356,19 +2356,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20.83,
-      "Tran_Date": "2019-01-15",
-      "Tran_NamF": null,
-      "Tran_NamL": "Hilton Oakland Airport",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -2380,6 +2367,19 @@
       "Tran_NamL": "Hilton Oakland Airport",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20.83,
+      "Tran_Date": "2019-01-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Hilton Oakland Airport",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2408,19 +2408,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2019-01-19",
-      "Tran_NamF": null,
-      "Tran_NamL": "Sutter Health",
-      "Tran_Zip4": "94705",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -2432,6 +2419,19 @@
       "Tran_NamL": "Sutter Health",
       "Tran_Zip4": "94705",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2019-01-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sutter Health",
+      "Tran_Zip4": "94705",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2460,19 +2460,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1500.0,
-      "Tran_Date": "2019-01-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "The Clorox Company",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -2491,11 +2478,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2019-01-30",
+      "Tran_Amt1": 1500.0,
+      "Tran_Date": "2019-01-28",
       "Tran_NamF": null,
-      "Tran_NamL": "The Kos Read Group, Inc.",
-      "Tran_Zip4": "94606-1124",
+      "Tran_NamL": "The Clorox Company",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2020"
     },
     {
@@ -2517,12 +2504,25 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2019-01-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "The Kos Read Group, Inc.",
+      "Tran_Zip4": "94606-1124",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2019-01-31",
       "Tran_NamF": null,
       "Tran_NamL": "TMG Partners",
       "Tran_Zip4": "94104",
-      "election_name": "oakland-2020"
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2551,7 +2551,7 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -2561,20 +2561,7 @@
       "Tran_NamF": null,
       "Tran_NamL": "TMG Partners",
       "Tran_Zip4": "94104",
-      "election_name": "oakland-2022"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 750.0,
-      "Tran_Date": "2019-02-07",
-      "Tran_NamF": null,
-      "Tran_NamL": "Arup",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2588,6 +2575,19 @@
       "Tran_NamL": "Arup",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2019-02-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "Arup",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -2642,6 +2642,19 @@
       "election_name": "oakland-2020"
     },
     {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2019-02-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lane Partners",
+      "Tran_Zip4": "94025",
+      "election_name": "oakland-2020"
+    },
+    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -2653,32 +2666,6 @@
       "Tran_NamL": "Lane Partners",
       "Tran_Zip4": "94025",
       "election_name": "oakland-2022"
-    },
-    {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 200.0,
-      "Tran_Date": "2019-02-22",
-      "Tran_NamF": null,
-      "Tran_NamL": "Lane Partners",
-      "Tran_Zip4": "94025",
-      "election_name": "oakland-2020"
-    },
-    {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20.83,
-      "Tran_Date": "2019-03-12",
-      "Tran_NamF": null,
-      "Tran_NamL": "Hilton Oakland Airport",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -2694,17 +2681,17 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2019-03-14",
+      "Tran_Amt1": 20.83,
+      "Tran_Date": "2019-03-12",
       "Tran_NamF": null,
-      "Tran_NamL": "Fremont Bank",
-      "Tran_Zip4": "55344",
-      "election_name": "oakland-2022"
+      "Tran_NamL": "Hilton Oakland Airport",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2718,6 +2705,19 @@
       "Tran_NamL": "Fremont Bank",
       "Tran_Zip4": "55344",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2019-03-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Fremont Bank",
+      "Tran_Zip4": "55344",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2798,19 +2798,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2019-04-26",
-      "Tran_NamF": null,
-      "Tran_NamL": "Argent Materials, Inc.",
-      "Tran_Zip4": "94608",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -2829,11 +2816,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
+      "Tran_Amt1": 150.0,
       "Tran_Date": "2019-04-26",
       "Tran_NamF": null,
-      "Tran_NamL": "Holland Partner Group",
-      "Tran_Zip4": "94612",
+      "Tran_NamL": "Argent Materials, Inc.",
+      "Tran_Zip4": "94608",
       "election_name": "oakland-2020"
     },
     {
@@ -2848,6 +2835,19 @@
       "Tran_NamL": "Holland Partner Group",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2019-04-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Holland Partner Group",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -2876,19 +2876,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 109.3,
-      "Tran_Date": "2019-05-10",
-      "Tran_NamF": null,
-      "Tran_NamL": "Donahue Fitzgerald LLP",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -2907,11 +2894,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 126.6,
+      "Tran_Amt1": 109.3,
       "Tran_Date": "2019-05-10",
       "Tran_NamF": null,
-      "Tran_NamL": "Waterfront Plaza Hotel",
-      "Tran_Zip4": "94607",
+      "Tran_NamL": "Donahue Fitzgerald LLP",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2020"
     },
     {
@@ -2933,11 +2920,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2019-05-20",
+      "Tran_Amt1": 126.6,
+      "Tran_Date": "2019-05-10",
       "Tran_NamF": null,
-      "Tran_NamL": "Wilson Meany LP AAF / 11 West Ninth Street Property Owner LP",
-      "Tran_Zip4": "94111",
+      "Tran_NamL": "Waterfront Plaza Hotel",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2020"
     },
     {
@@ -2959,11 +2946,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20.84,
-      "Tran_Date": "2019-05-23",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2019-05-20",
       "Tran_NamF": null,
-      "Tran_NamL": "Hilton Oakland Airport",
-      "Tran_Zip4": "94621",
+      "Tran_NamL": "Wilson Meany LP AAF / 11 West Ninth Street Property Owner LP",
+      "Tran_Zip4": "94111",
       "election_name": "oakland-2020"
     },
     {
@@ -2978,6 +2965,19 @@
       "Tran_NamL": "Hilton Oakland Airport",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20.84,
+      "Tran_Date": "2019-05-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "Hilton Oakland Airport",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -3058,19 +3058,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2019-07-02",
-      "Tran_NamF": null,
-      "Tran_NamL": "Foster Interstate Media, Inc. and Affiliated Entities",
-      "Tran_Zip4": "94105",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3084,17 +3071,17 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20.83,
+      "Tran_Amt1": 5000.0,
       "Tran_Date": "2019-07-02",
       "Tran_NamF": null,
-      "Tran_NamL": "Hilton Oakland Airport",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2022"
+      "Tran_NamL": "Foster Interstate Media, Inc. and Affiliated Entities",
+      "Tran_Zip4": "94105",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3108,6 +3095,19 @@
       "Tran_NamL": "Hilton Oakland Airport",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20.83,
+      "Tran_Date": "2019-07-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Hilton Oakland Airport",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3214,19 +3214,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 143.14,
-      "Tran_Date": "2019-07-17",
-      "Tran_NamF": null,
-      "Tran_NamL": "Coliseum Lexus of Oakland",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3240,17 +3227,17 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 527.8,
+      "Tran_Amt1": 143.14,
       "Tran_Date": "2019-07-17",
       "Tran_NamF": null,
-      "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company",
-      "Tran_Zip4": "80112",
-      "election_name": "oakland-2020"
+      "Tran_NamL": "Coliseum Lexus of Oakland",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -3264,6 +3251,19 @@
       "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company",
       "Tran_Zip4": "80112",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 527.8,
+      "Tran_Date": "2019-07-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company",
+      "Tran_Zip4": "80112",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -3318,19 +3318,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2019-07-22",
-      "Tran_NamF": null,
-      "Tran_NamL": "Clear Channel Outdoor",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3349,10 +3336,10 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 118.9,
-      "Tran_Date": "2019-07-26",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2019-07-22",
       "Tran_NamF": null,
-      "Tran_NamL": "Creative Hospitality Corp.",
+      "Tran_NamL": "Clear Channel Outdoor",
       "Tran_Zip4": "94607",
       "election_name": "oakland-2020"
     },
@@ -3368,6 +3355,19 @@
       "Tran_NamL": "Creative Hospitality Corp.",
       "Tran_Zip4": "94607",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 118.9,
+      "Tran_Date": "2019-07-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Creative Hospitality Corp.",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3396,19 +3396,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2019-07-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "AB&I Foundry",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3420,6 +3407,19 @@
       "Tran_NamL": "AB&I Foundry",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2019-07-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3500,19 +3500,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 750.0,
-      "Tran_Date": "2019-08-09",
-      "Tran_NamF": null,
-      "Tran_NamL": "Signature Development Group, Inc.",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3524,6 +3511,19 @@
       "Tran_NamL": "Signature Development Group, Inc.",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 750.0,
+      "Tran_Date": "2019-08-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Signature Development Group, Inc.",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3578,19 +3578,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20.84,
-      "Tran_Date": "2019-08-19",
-      "Tran_NamF": null,
-      "Tran_NamL": "Hilton Oakland Airport",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3602,6 +3589,19 @@
       "Tran_NamL": "Hilton Oakland Airport",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20.84,
+      "Tran_Date": "2019-08-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Hilton Oakland Airport",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3656,19 +3656,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 105.5,
-      "Tran_Date": "2019-10-17",
-      "Tran_NamF": null,
-      "Tran_NamL": "ABC Security Service, Inc.",
-      "Tran_Zip4": "94606",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3680,6 +3667,19 @@
       "Tran_NamL": "ABC Security Service, Inc.",
       "Tran_Zip4": "94606",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 105.5,
+      "Tran_Date": "2019-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "ABC Security Service, Inc.",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -3786,19 +3786,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20.84,
-      "Tran_Date": "2019-12-12",
-      "Tran_NamF": null,
-      "Tran_NamL": "Hilton Oakland Airport",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3817,11 +3804,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2019-12-16",
+      "Tran_Amt1": 20.84,
+      "Tran_Date": "2019-12-12",
       "Tran_NamF": null,
-      "Tran_NamL": "Balco Properties Ltd. LLC",
-      "Tran_Zip4": "94612",
+      "Tran_NamL": "Hilton Oakland Airport",
+      "Tran_Zip4": "94621",
       "election_name": "oakland-2020"
     },
     {
@@ -3836,6 +3823,19 @@
       "Tran_NamL": "Balco Properties Ltd. LLC",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2019-12-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Balco Properties Ltd. LLC",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3890,19 +3890,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2020-01-08",
-      "Tran_NamF": null,
-      "Tran_NamL": "St Regis Properties",
-      "Tran_Zip4": "94104",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -3916,17 +3903,17 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 153.2,
+      "Tran_Amt1": 250.0,
       "Tran_Date": "2020-01-08",
       "Tran_NamF": null,
-      "Tran_NamL": "SunCal",
-      "Tran_Zip4": "92614",
-      "election_name": "oakland-2020"
+      "Tran_NamL": "St Regis Properties",
+      "Tran_Zip4": "94104",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -3940,6 +3927,19 @@
       "Tran_NamL": "SunCal",
       "Tran_Zip4": "92614",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 153.2,
+      "Tran_Date": "2020-01-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "SunCal",
+      "Tran_Zip4": "92614",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -3994,19 +3994,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2020-01-24",
-      "Tran_NamF": null,
-      "Tran_NamL": "Claremont Resort & Spa",
-      "Tran_Zip4": "94705",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4025,11 +4012,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 250.0,
+      "Tran_Amt1": 500.0,
       "Tran_Date": "2020-01-24",
       "Tran_NamF": null,
-      "Tran_NamL": "Lane Partners",
-      "Tran_Zip4": "94025",
+      "Tran_NamL": "Claremont Resort & Spa",
+      "Tran_Zip4": "94705",
       "election_name": "oakland-2020"
     },
     {
@@ -4051,11 +4038,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 153.2,
+      "Tran_Amt1": 250.0,
       "Tran_Date": "2020-01-24",
       "Tran_NamF": null,
-      "Tran_NamL": "Mettler-Toledo Rainin, LLC",
-      "Tran_Zip4": "94621",
+      "Tran_NamL": "Lane Partners",
+      "Tran_Zip4": "94025",
       "election_name": "oakland-2020"
     },
     {
@@ -4070,6 +4057,19 @@
       "Tran_NamL": "Mettler-Toledo Rainin, LLC",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 153.2,
+      "Tran_Date": "2020-01-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Mettler-Toledo Rainin, LLC",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4202,32 +4202,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2020-02-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "AB&I Foundry",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2020"
-    },
-    {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2020-02-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "AB&I Foundry",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4239,6 +4213,32 @@
       "Tran_NamL": "AB&I Foundry",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-02-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-02-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "AB&I Foundry",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -4332,19 +4332,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2020-03-16",
-      "Tran_NamF": null,
-      "Tran_NamL": "Argent Materials, Inc.",
-      "Tran_Zip4": "94608",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4363,11 +4350,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 10000.0,
+      "Tran_Amt1": 5000.0,
       "Tran_Date": "2020-03-16",
       "Tran_NamF": null,
-      "Tran_NamL": "Best Bay Apartments, Inc.",
-      "Tran_Zip4": "94103",
+      "Tran_NamL": "Argent Materials, Inc.",
+      "Tran_Zip4": "94608",
       "election_name": "oakland-2020"
     },
     {
@@ -4384,17 +4371,17 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 5000.0,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
       "Tran_Date": "2020-03-16",
       "Tran_NamF": null,
-      "Tran_NamL": "HNTB Holdings Ltd. PAC FEC ID #C00386029",
-      "Tran_Zip4": null,
-      "election_name": "oakland-2022"
+      "Tran_NamL": "Best Bay Apartments, Inc.",
+      "Tran_Zip4": "94103",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4408,6 +4395,19 @@
       "Tran_NamL": "HNTB Holdings Ltd. PAC FEC ID #C00386029",
       "Tran_Zip4": null,
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-03-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "HNTB Holdings Ltd. PAC FEC ID #C00386029",
+      "Tran_Zip4": null,
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4540,19 +4540,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2020-05-21",
-      "Tran_NamF": null,
-      "Tran_NamL": "Lennar Multifamily Communities, LLC - West",
-      "Tran_Zip4": "92656",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4569,13 +4556,13 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
-      "Tran_Occ": "Responsible Officer is Steven Douglas",
+      "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 125.0,
-      "Tran_Date": "2020-07-16",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-05-21",
       "Tran_NamF": null,
-      "Tran_NamL": "Douglas Parking LLC",
-      "Tran_Zip4": "94612-3411",
+      "Tran_NamL": "Lennar Multifamily Communities, LLC - West",
+      "Tran_Zip4": "92656",
       "election_name": "oakland-2020"
     },
     {
@@ -4590,6 +4577,19 @@
       "Tran_NamL": "Douglas Parking LLC",
       "Tran_Zip4": "94612-3411",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Officer is Steven Douglas",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2020-07-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Douglas Parking LLC",
+      "Tran_Zip4": "94612-3411",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4644,19 +4644,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": "Non-Profit Organization",
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 158.3,
-      "Tran_Date": "2020-07-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "Bishop O'Dowd High School",
-      "Tran_Zip4": "94605",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4668,6 +4655,19 @@
       "Tran_NamL": "Bishop O'Dowd High School",
       "Tran_Zip4": "94605",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": "Non-Profit Organization",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 158.3,
+      "Tran_Date": "2020-07-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bishop O'Dowd High School",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -4748,19 +4748,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": "Public Utility/Government Organization",
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2020-08-25",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Municipal Utility District",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4774,17 +4761,17 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
-      "Tran_Occ": "Business is a corporation",
+      "Tran_Occ": "Public Utility/Government Organization",
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2020-09-15",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2020-08-25",
       "Tran_NamF": null,
-      "Tran_NamL": "CASS, Inc",
+      "Tran_NamL": "East Bay Municipal Utility District",
       "Tran_Zip4": "94607",
-      "election_name": "oakland-2022"
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4798,6 +4785,19 @@
       "Tran_NamL": "CASS, Inc",
       "Tran_Zip4": "94607",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-09-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "CASS, Inc",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4826,19 +4826,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2020-09-23",
-      "Tran_NamF": null,
-      "Tran_NamL": "California Metals Coalition PAC",
-      "Tran_Zip4": "95762",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4850,6 +4837,19 @@
       "Tran_NamL": "California Metals Coalition PAC",
       "Tran_Zip4": "95762",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-09-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Metals Coalition PAC",
+      "Tran_Zip4": "95762",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4878,19 +4878,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": "Responsible Officer is Cestra Butner",
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 145.7,
-      "Tran_Date": "2020-09-24",
-      "Tran_NamF": null,
-      "Tran_NamL": "Horizon Beverage Company",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4902,6 +4889,19 @@
       "Tran_NamL": "Horizon Beverage Company",
       "Tran_Zip4": "94607",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Officer is Cestra Butner",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 145.7,
+      "Tran_Date": "2020-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Horizon Beverage Company",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -4930,19 +4930,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 9999.0,
-      "Tran_Date": "2020-10-13",
-      "Tran_NamF": "Goolshan",
-      "Tran_NamL": "Chinoy",
-      "Tran_Zip4": "94115",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -4959,13 +4946,13 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
-      "Tran_Occ": "Business is a Corporation",
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 10000.0,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 9999.0,
       "Tran_Date": "2020-10-13",
-      "Tran_NamF": null,
-      "Tran_NamL": "Silverado Contractors, Inc.",
-      "Tran_Zip4": "94608",
+      "Tran_NamF": "Goolshan",
+      "Tran_NamL": "Chinoy",
+      "Tran_Zip4": "94115",
       "election_name": "oakland-2020"
     },
     {
@@ -4987,11 +4974,11 @@
       "Tran_Emp": null,
       "Tran_Occ": "Business is a Corporation",
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2020-10-14",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-13",
       "Tran_NamF": null,
-      "Tran_NamL": "ABC Security Service, Inc.",
-      "Tran_Zip4": "94606",
+      "Tran_NamL": "Silverado Contractors, Inc.",
+      "Tran_Zip4": "94608",
       "election_name": "oakland-2020"
     },
     {
@@ -5010,14 +4997,14 @@
     {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
-      "Tran_Emp": "Inside Straight Strategies",
-      "Tran_Occ": "Principal",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 9999.0,
+      "Tran_Emp": null,
+      "Tran_Occ": "Business is a Corporation",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
       "Tran_Date": "2020-10-14",
-      "Tran_NamF": "Carl",
-      "Tran_NamL": "Pope",
-      "Tran_Zip4": "94133",
+      "Tran_NamF": null,
+      "Tran_NamL": "ABC Security Service, Inc.",
+      "Tran_Zip4": "94606",
       "election_name": "oakland-2020"
     },
     {
@@ -5032,6 +5019,32 @@
       "Tran_NamL": "Pope",
       "Tran_Zip4": "94133",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": "Inside Straight Strategies",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 9999.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": "Carl",
+      "Tran_NamL": "Pope",
+      "Tran_Zip4": "94133",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Ernst Development Partners, Inc.( Corporation)",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -5047,17 +5060,17 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2020-10-19",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2020-10-20",
       "Tran_NamF": null,
-      "Tran_NamL": "Ernst Development Partners, Inc.( Corporation)",
-      "Tran_Zip4": "94606",
-      "election_name": "oakland-2020"
+      "Tran_NamL": "Hanover R.S. Limited Partnership(Scott Youdall)",
+      "Tran_Zip4": "77056",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -5073,32 +5086,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2020-10-20",
-      "Tran_NamF": null,
-      "Tran_NamL": "Hanover R.S. Limited Partnership(Scott Youdall)",
-      "Tran_Zip4": "77056",
-      "election_name": "oakland-2022"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2020-10-21",
-      "Tran_NamF": null,
-      "Tran_NamL": "Lighthouse Public Affairs, LLC(Andrew Hayward)",
-      "Tran_Zip4": "94133",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -5110,6 +5097,32 @@
       "Tran_NamL": "Lighthouse Public Affairs, LLC(Andrew Hayward)",
       "Tran_Zip4": "94133",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lighthouse Public Affairs, LLC(Andrew Hayward)",
+      "Tran_Zip4": "94133",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": "Best Bay Apartments",
+      "Tran_Occ": "Chief Portfolio Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 9999.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Maxim",
+      "Tran_NamL": "Reshulskiy",
+      "Tran_Zip4": "94123",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -5127,14 +5140,14 @@
     {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
-      "Tran_Emp": "Best Bay Apartments",
-      "Tran_Occ": "Chief Portfolio Officer",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 9999.0,
-      "Tran_Date": "2020-10-22",
-      "Tran_NamF": "Maxim",
-      "Tran_NamL": "Reshulskiy",
-      "Tran_Zip4": "94123",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate PAC",
+      "Tran_Zip4": "90071",
       "election_name": "oakland-2022"
     },
     {
@@ -5149,19 +5162,6 @@
       "Tran_NamL": "California Real Estate PAC",
       "Tran_Zip4": "90071",
       "election_name": "oakland-2020"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 20000.0,
-      "Tran_Date": "2020-10-26",
-      "Tran_NamF": null,
-      "Tran_NamL": "California Real Estate PAC",
-      "Tran_Zip4": "90071",
-      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -5190,6 +5190,19 @@
       "election_name": "oakland-2022"
     },
     {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": "Kay & Merkle, LLP",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-26",
+      "Tran_NamF": "Steven",
+      "Tran_NamL": "Kay",
+      "Tran_Zip4": "94105",
+      "election_name": "oakland-2022"
+    },
+    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": "Kay & Merkle, LLP",
@@ -5201,32 +5214,6 @@
       "Tran_NamL": "Kay",
       "Tran_Zip4": "94105",
       "election_name": "oakland-2020"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": "Kay & Merkle, LLP",
-      "Tran_Occ": "Attorney",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2020-10-26",
-      "Tran_NamF": "Steven",
-      "Tran_NamL": "Kay",
-      "Tran_Zip4": "94105",
-      "election_name": "oakland-2022"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 50000.0,
-      "Tran_Date": "2020-10-27",
-      "Tran_NamF": null,
-      "Tran_NamL": "Californians for Independent Work, Sponsored by Lyft Inc.",
-      "Tran_Zip4": "94965",
-      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -5246,12 +5233,12 @@
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 10000.0,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
       "Tran_Date": "2020-10-27",
       "Tran_NamF": null,
-      "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company( Corporation)",
-      "Tran_Zip4": "19103",
+      "Tran_NamL": "Californians for Independent Work, Sponsored by Lyft Inc.",
+      "Tran_Zip4": "94965",
       "election_name": "oakland-2022"
     },
     {
@@ -5266,6 +5253,19 @@
       "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company( Corporation)",
       "Tran_Zip4": "19103",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Comcast Financial Agency Corporation, A Comcast Cable Communications Group Company( Corporation)",
+      "Tran_Zip4": "19103",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -5320,19 +5320,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 4500.0,
-      "Tran_Date": "2020-11-16",
-      "Tran_NamF": null,
-      "Tran_NamL": "TMG Partners(Michael Covarrubias)",
-      "Tran_Zip4": "94104",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -5346,17 +5333,17 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
+      "Tran_Amt1": 4500.0,
       "Tran_Date": "2020-11-16",
       "Tran_NamF": null,
-      "Tran_NamL": "Wellington/CMA, LLC(Rick DaSilva)",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
+      "Tran_NamL": "TMG Partners(Michael Covarrubias)",
+      "Tran_Zip4": "94104",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -5370,6 +5357,19 @@
       "Tran_NamL": "Wellington/CMA, LLC(Rick DaSilva)",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-11-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "Wellington/CMA, LLC(Rick DaSilva)",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -5398,19 +5398,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Filer_ID": "983545",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 145.7,
-      "Tran_Date": "2020-12-07",
-      "Tran_NamF": null,
-      "Tran_NamL": "Clear Channel Outdoor( Corporation)",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
@@ -5429,11 +5416,11 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 105.5,
-      "Tran_Date": "2020-12-21",
+      "Tran_Amt1": 145.7,
+      "Tran_Date": "2020-12-07",
       "Tran_NamF": null,
-      "Tran_NamL": "ABC Security Service, Inc.( Corporation)",
-      "Tran_Zip4": "94606",
+      "Tran_NamL": "Clear Channel Outdoor( Corporation)",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2022"
     },
     {
@@ -5450,17 +5437,17 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "983545",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 153.2,
-      "Tran_Date": "2020-12-28",
+      "Tran_Amt1": 105.5,
+      "Tran_Date": "2020-12-21",
       "Tran_NamF": null,
-      "Tran_NamL": "Gallagher & Burk, Inc.( Corporation)",
-      "Tran_Zip4": "94601",
-      "election_name": "oakland-2020"
+      "Tran_NamL": "ABC Security Service, Inc.( Corporation)",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -5474,6 +5461,19 @@
       "Tran_NamL": "Gallagher & Burk, Inc.( Corporation)",
       "Tran_Zip4": "94601",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Filer_ID": "983545",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 153.2,
+      "Tran_Date": "2020-12-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Gallagher & Burk, Inc.( Corporation)",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",

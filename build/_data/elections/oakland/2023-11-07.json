@@ -1,5 +1,5 @@
 {
-  "total_contributions": 54741.0,
+  "total_contributions": 35003.0,
   "total_contributions_by_source": {
     "Out of State": 3600.0,
     "Within Oakland": 19334.0,
@@ -8,31 +8,31 @@
   "contributions_by_type": {
     "Committee": 6000.0,
     "Individual": 27260.0,
-    "Unitemized": 4470.0
+    "Unitemized": 2531.0
   },
   "most_expensive_races": [
     {
       "slug": "school-board-district-5",
       "type": "office",
       "title": "School Board District 5",
-      "amount": 54741.0
+      "amount": 35003.0
     }
   ],
   "largest_small_proportion": [
-    {
-      "slug": "alexandra-ritzie-hernandez",
-      "type": "office",
-      "title": "Oakland November 7th, 2023 Special Election",
-      "candidate": "Alexandra Ritzie-Hernandez",
-      "proportion": 0.09227638398677224,
-      "office_title": "School Board District 5"
-    },
     {
       "slug": "jorge-c-lerma",
       "type": "office",
       "title": "Oakland November 7th, 2023 Special Election",
       "candidate": "Jorge C. Lerma",
-      "proportion": 0.08603812467800102,
+      "proportion": 0.09090909090909091,
+      "office_title": "School Board District 5"
+    },
+    {
+      "slug": "alexandra-ritzie-hernandez",
+      "type": "office",
+      "title": "Oakland November 7th, 2023 Special Election",
+      "candidate": "Alexandra Ritzie-Hernandez",
+      "proportion": 0.08352221993268769,
       "office_title": "School Board District 5"
     }
   ],
@@ -60,31 +60,31 @@
       "total_contributions": 1200.0
     },
     {
-      "name": "UA Local 342",
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
     },
     {
-      "name": "Laborers Local 304",
+      "name": "Oakland Education Association PAC",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
     }
   ],
   "top_contributors_for_offices": [
     {
+      "name": "Laborers Local 304",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
+      "name": "Kimi Kean",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
       "name": "UA Local 342",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_contributions": 1200.0
-    },
-    {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
-      "type": "Office",
-      "election_name": "oakland-2023",
-      "total_contributions": 1200.0
-    },
-    {
-      "name": "Peralta Federation of Teachers COPE",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
@@ -95,19 +95,19 @@
   ],
   "top_spenders": [
     {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "name": "Laborers Local 304",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
     },
     {
-      "name": "Oakland Education Association PAC",
+      "name": "Kimi Kean",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
     },
     {
-      "name": "Peralta Federation of Teachers COPE",
+      "name": "UA Local 342",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
@@ -115,19 +115,19 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "name": "Laborers Local 304",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
     },
     {
-      "name": "Oakland Education Association PAC",
+      "name": "Kimi Kean",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
     },
     {
-      "name": "Peralta Federation of Teachers COPE",
+      "name": "UA Local 342",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
