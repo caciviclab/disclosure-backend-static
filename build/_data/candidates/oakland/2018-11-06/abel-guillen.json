@@ -1,0 +1,83 @@
+{
+  "id": 105,
+  "name": "Abel Guillén",
+  "photo_url": "abel_guillen.png",
+  "website_url": "http://www.voteabelguillen.com/",
+  "twitter_url": "abelguillen",
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17339/candidate/139754?&county=alameda%20county&election_authority_id=1",
+  "first_name": "Abel",
+  "last_name": "Guillén",
+  "ballot_item": 3,
+  "office_election": 3,
+  "bio": null,
+  "committee_name": "Abel Guillen for City Council 2018",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": true,
+  "occupation": "Councilmember",
+  "party_affiliation": null,
+  "is_winner": false,
+  "filer_id": 1395580,
+  "supporting_money": {
+    "contributions_received": 200652.0,
+    "total_contributions": 200652.0,
+    "total_expenditures": 219364.19,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 47523.0,
+    "support_list": [
+      {
+        "Total": 47523.0,
+        "Cand_ID": 1395580,
+        "Filer_ID": "892160",
+        "Filer_NamL": "International Association of Firefighter Local 55 Political Action, sponsored by: Int'l Assoc. of Firefighter Local 55"
+      }
+    ],
+    "contributions_by_type": {
+      "Committee": 30553.0,
+      "Individual": 135845.0,
+      "Unitemized": 4554.0,
+      "Other (includes Businesses)": 29700.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 5925.0,
+      "Within Oakland": 111180.0,
+      "Within California": 78993.0
+    },
+    "total_small_contributions": 5123.0,
+    "expenditures_by_type": {
+      "Print Ads": 1562.5,
+      "Not Stated": 41663.97,
+      "Contribution": 5150.0,
+      "Civic Donations": 12050.0,
+      "Office Expenses": 17955.28,
+      "Fundraising Events": 23346.36,
+      "Campaign Consultants": 20500.0,
+      "Campaign Paraphernalia/Misc.": 452.28,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 56122.52,
+      "Postage, Delivery and Messenger Services": 25168.12,
+      "Professional Services (Legal, Accounting)": 12338.03,
+      "Information Technology Costs (Internet, E-mail)": 153.32
+    },
+    "supporting_by_type": {
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 4807.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+      {
+        "Total": 4807.0,
+        "Cand_ID": 1395580,
+        "Filer_ID": "1390351",
+        "Filer_NamL": "East Bay Working Families"
+      }
+    ]
+  },
+  "total_contributions": 200652.0,
+  "total_expenditures": 219364.19,
+  "total_loans_received": 0.0
+}
