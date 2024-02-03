@@ -2,10 +2,6 @@
 class CandidateSupportingExpenditure
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates = candidates
-    @candidates_by_election_filer_id =
-      candidates.where('"FPPC" IS NOT NULL').group_by { |row| row.election_name }.transform_values do |values|
-        values.index_by { |c| c.FPPC.to_s }
-      end
   end
 
   def fetch
