@@ -5,6 +5,8 @@ env:
 language: python
 python:
   - '3.9'
+ruby:
+  - '2.7.1'
 services:
   - postgresql
 sudo: required
