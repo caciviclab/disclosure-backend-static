@@ -782,7 +782,7 @@
     "total_contributions": 5975849.66,
     "total_contributions_by_source": {
       "Out of State": 529589.5900000001,
-      "Within Oakland": 2667576.8500000006,
+      "Within Oakland": 2667576.8499999996,
       "Within California": 3048797.3400000003
     },
     "contributions_by_type": {
@@ -1032,7 +1032,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -1384,13 +1384,13 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "UA Local 342",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1443,6 +1443,121 @@
         "type": "Office",
         "election_name": "oakland-2023",
         "total_spending": 1200.0
+      }
+    ],
+    "top_spenders_for_measures": [
+
+    ]
+  },
+  "oakland-march-2024": {
+    "total_contributions": 17045.0,
+    "total_contributions_by_source": {
+      "Out of State": 500.0,
+      "Within Oakland": 1100.0,
+      "Within California": 5050.0
+    },
+    "contributions_by_type": {
+      "Individual": 6650.0,
+      "Unitemized": 395.0
+    },
+    "most_expensive_races": [
+      {
+        "slug": "city-auditor",
+        "type": "office",
+        "title": "City Auditor",
+        "amount": 17045.0
+      }
+    ],
+    "largest_small_proportion": [
+      {
+        "slug": "michael-houston",
+        "type": "office",
+        "title": "Oakland March 5th, 2024 Special Election",
+        "candidate": "Michael Houston",
+        "proportion": 0.029040774420651217,
+        "office_title": "City Auditor"
+      }
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+      {
+        "name": "Monique C Houston",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      },
+      {
+        "name": "Mary Preston",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      },
+      {
+        "name": "Araina Lynn Hennen",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      }
+    ],
+    "top_contributors_for_offices": [
+      {
+        "name": "Monique C Houston",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      },
+      {
+        "name": "Mary Preston",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      },
+      {
+        "name": "Araina Lynn Hennen",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      }
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+      {
+        "name": "Monique C Houston",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      },
+      {
+        "name": "Mary Preston",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      },
+      {
+        "name": "Araina Lynn Hennen",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      }
+    ],
+    "top_spenders_for_offices": [
+      {
+        "name": "Monique C Houston",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      },
+      {
+        "name": "Mary Preston",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      },
+      {
+        "name": "Araina Lynn Hennen",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
       }
     ],
     "top_spenders_for_measures": [
@@ -1530,13 +1645,13 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "name": "International Association of Firefighters Local 55",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
       },
       {
-        "name": "International Association of Firefighters Local 55",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
