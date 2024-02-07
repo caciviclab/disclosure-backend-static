@@ -9,6 +9,7 @@ services:
   - postgresql
 sudo: required
 install:
+  - rvm install 2.7.1
   - pip install 'urllib3[secure]'
   - pip install -r requirements.txt
   - bundle install
@@ -20,7 +21,5 @@ addons:
 notifications:
   email:
     - mike.ubell@gmail.com
-before-script:
-  rvm install 2.7.1
 script:
   - make clean && make download -j2 && make import -j2 && make process && ./bin/travis-deploy && ./bin/travis-reindex
