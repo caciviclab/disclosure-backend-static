@@ -4,4 +4,5 @@ committee_name: Warren Logan for Oakland City Council District 3 2024
 filer_id: '1463590'
 is_incumbent: false
 name: Warren Logan
+website_url: https://warrenforoakland.com/
 ---

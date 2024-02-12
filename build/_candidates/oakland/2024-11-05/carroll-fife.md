@@ -4,4 +4,5 @@ committee_name: Carroll Fife for City Council 2024
 filer_id: '1463441'
 is_incumbent: true
 name: Carroll Fife
+website_url: https://www.carrollfife.org/
 ---

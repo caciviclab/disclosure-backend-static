@@ -4,4 +4,5 @@ committee_name: Len Raphael for Oakland City Council 2024
 filer_id: '1462967'
 is_incumbent: false
 name: Len Raphael
+twitter_url: lenraphaelcpa
 ---
