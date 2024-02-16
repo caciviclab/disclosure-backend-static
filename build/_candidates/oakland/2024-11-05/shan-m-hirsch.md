@@ -4,4 +4,5 @@ committee_name: Committee to Elect Shan Hirsch for City Council
 filer_id: '1464290'
 is_incumbent: false
 name: Shan M. Hirsch
+photo_url: Shan-Hirsch
 ---

@@ -4,5 +4,6 @@ committee_name: Ryan Richardson for Oakland City Attorney 2024
 filer_id: '1462429'
 is_incumbent: false
 name: Ryan Richardson
+photo_url: Ryan-Richardson
 website_url: https://www.ryanforoakland.com/
 ---
