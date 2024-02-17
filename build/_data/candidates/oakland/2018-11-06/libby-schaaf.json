@@ -1,0 +1,81 @@
+{
+  "id": 129,
+  "name": "Libby Schaaf",
+  "photo_url": "libby_schaaf.png",
+  "website_url": "https://libbyformayor.wordpress.com/",
+  "twitter_url": "LibbySchaaf",
+  "facebook_url": null,
+  "instagram_url": null,
+  "map_url": null,
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17342/candidate/139773?&county=alameda%20county&election_authority_id=1",
+  "first_name": "Libby",
+  "last_name": "Schaaf",
+  "ballot_item": 1,
+  "office_election": 1,
+  "bio": null,
+  "committee_name": "Libby Schaaf for Mayor 2018",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": true,
+  "occupation": "Mayor",
+  "party_affiliation": null,
+  "is_winner": true,
+  "filer_id": 1395968,
+  "supporting_money": {
+    "contributions_received": 615686.6,
+    "total_contributions": 615686.6,
+    "total_expenditures": 620650.38,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 7672.0,
+    "support_list": [
+      {
+        "Total": 7672.0,
+        "Cand_ID": 1395968,
+        "Filer_ID": "1253609",
+        "Filer_NamL": "OUTFRONT MEDIA LLC",
+        "election_name": "oakland-2018"
+      }
+    ],
+    "contributions_by_type": {
+      "Committee": 25650.0,
+      "Individual": 544885.68,
+      "Unitemized": 8669.18,
+      "Other (includes Businesses)": 36402.44
+    },
+    "contributions_by_origin": {
+      "Out of State": 17650.0,
+      "Within Oakland": 288695.0,
+      "Within California": 300593.12
+    },
+    "total_small_contributions": 10159.2,
+    "expenditures_by_type": {
+      "Print Ads": 3951.0,
+      "Not Stated": 22708.4,
+      "Contribution": 1750.0,
+      "Civic Donations": 7020.59,
+      "Office Expenses": 712.7,
+      "Fundraising Events": 4632.75,
+      "Campaign Consultants": 2750.0,
+      "Meetings and Appearances": 75875.56,
+      "Campaign Paraphernalia/Misc.": 1114.0,
+      "Campaign Literature and Mailings": 2155.0,
+      "Postage, Delivery and Messenger Services": 58.0,
+      "Professional Services (Legal, Accounting)": 29045.95,
+      "Information Technology Costs (Internet, E-mail)": 6400.5
+    },
+    "supporting_by_type": {
+      "MON": 900.0,
+      "BILLBOARDS 10/18 - 11/6": 7672.0
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 615686.6,
+  "total_expenditures": 620650.38,
+  "total_loans_received": 0.0
+}
