@@ -36,7 +36,7 @@ This is an automated update by travis-ci at
   # Push to the same branch instead of master
   git push \
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
-    HEAD \
+    HEAD:${TRAVIS_BRANCH} \
     | sed -e "s/$GITHUB_AUTH_TOKEN/[removed]/"
 
   if [ "${TRAVIS_BRANCH}" = "master" -a ! "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
