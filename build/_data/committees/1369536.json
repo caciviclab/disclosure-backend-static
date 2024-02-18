@@ -1,7 +1,9 @@
 {
+  "iec": false,
   "total_contributions": 2609.9,
   "contributions": [
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1369536",
       "Tran_Emp": "Blue Beautifly LLC",
       "Tran_Occ": "Owner-Operator",
@@ -10,9 +12,11 @@
       "Tran_Date": "2014-06-09",
       "Tran_NamF": "Saied",
       "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1369536",
       "Tran_Emp": "Blue Beautifly LLC",
       "Tran_Occ": "Owner-Operator",
@@ -21,9 +25,11 @@
       "Tran_Date": "2014-11-06",
       "Tran_NamF": "Saied",
       "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2014"
     },
     {
+      "title": "Oakland November 4th, 2014 Election",
       "Filer_ID": "1369536",
       "Tran_Emp": "Blue Beautifly LLC",
       "Tran_Occ": "Owner-Operator",
@@ -32,7 +38,8 @@
       "Tran_Date": "2014-11-06",
       "Tran_NamF": "Saied",
       "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2014"
     }
   ]
 }

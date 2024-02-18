@@ -1,4 +1,4 @@
 import os
-from gdrive_datastore.gdrive import test_data_pull
+from gdrive_datastore.gdrive import pull_data
 
-test_data_pull(default_folder='OpenDisclosure')
+pull_data(subfolder='main', default_folder='OpenDisclosure')

@@ -1,22 +1,100 @@
-name: "Check Google Drive Access"
+name: "Generate Website Data"
 on:
   workflow_dispatch:
+  push:
 jobs:
-  check:
+  build:
     runs-on: ubuntu-latest
-    env:
-      REPO_OWNER: ${{ github.repository_owner}}
-      REPO_BRANCH: ${{ github.ref_name }}
-      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+    outputs:
+      devcontainer: ${{ steps.filter.outputs.devcontainer }}
+      noncontainer: ${{ steps.filter.outputs.noncontainer }}
     steps:
     - uses: actions/checkout@v3
-    - run: 'echo "hello"'
-    - run: "pip install -r gdrive_requirements.txt"
-    - run: "python test_pull_from_gdrive.py"
-    - name: Archive pulled files
-      uses: actions/upload-artifact@v2
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v40
+    - name: List all changed files
+      id: filter
+      run: |
+        devcontainer=false
+        noncontainer=true
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          echo "$file was changed"
+          if [[ ${{github.event_name}} = push ]]; then
+            if [[ $file = .devcontainer* ]]; then
+              devcontainer=true
+            elif [[ $file = *requirements.txt* ]]; then
+              devcontainer=true
+            elif [[ $file = Gemfile* ]]; then
+              devcontainer=true
+            fi
+          fi
+        done
+        
+        echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
+        echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v3
       with:
-        name: redacted-netfile-files
-        path: .local/downloads
+        registry: ghcr.io
+        username: ${{github.actor}}
+        password: ${{secrets.GITHUB_TOKEN}}
+    - name: Build dev container
+      if: steps.filter.outputs.devcontainer == 'true'
+      run: |
+        docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest -f ./.devcontainer/Dockerfile .
+        docker push ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+    - name: Check code changes
+      if: steps.filter.outputs.noncontainer == 'true'
+      run: |
+        echo "TODO: run test to verify that code changes are good"
+  generate:
+    needs: build
+    if: needs.build.outputs.noncontainer == 'true'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
+      env:
+        REPO_OWNER: ${{ github.repository_owner}}
+        REPO_BRANCH: ${{ github.ref_name }}
+        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+        GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+        PGHOST: postgres
+        PGDATABASE: disclosure-backend
+        PGUSER: app_user
+        PGPASSWORD: app_password
+    services:
+      postgres:
+        #image: postgres:9.6-bullseye
+        image: postgres:16.0-bullseye
+        env:
+          POSTGRES_USER: app_user
+          POSTGRES_DB: disclosure-backend
+          POSTGRES_PASSWORD: app_password
+    steps:
+    - uses: actions/checkout@v3
+    - name: Check setup
+      run: |
+        psql -l
+        echo "c1,c2" > test.csv
+        echo "a,b" >> test.csv
+        cat test.csv
+        csvsql -v --db postgresql:///disclosure-backend --insert test.csv
+        echo "List tables"
+        psql -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
 
+        pip show sqlalchemy
+    - name: Create csv files
+      run: |
+        make clean
+        make download
+        make import
+        make process
+    - name: Summarize results
+      run: |
+        echo "List tables"
+        psql -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
+ 

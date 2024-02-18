@@ -1,7 +1,9 @@
 {
+  "iec": true,
   "total_contributions": 3079.2,
   "contributions": [
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1400908",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -10,9 +12,11 @@
       "Tran_Date": "2022-10-28",
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1400908",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -21,9 +25,11 @@
       "Tran_Date": "2022-12-05",
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1400908",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -32,7 +38,8 @@
       "Tran_Date": "2022-12-19",
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     }
   ]
 }

@@ -1,0 +1,22 @@
+#!/bin/bash
+# Usage: ./bin/fix-pending [database name] [table name]
+#        ./bin/fix-pending disclosure-backend A-Contributions
+set -euo pipefail
+
+if [ $# -ne 2 ]; then
+  echo 'Usage: ./bin/fix-pending [database name] [table name]'
+  exit 1
+fi
+
+database_name=$1
+table_name=$2
+
+cat <<-QUERY | psql ${database_name}
+  \\set ON_ERROR_STOP on
+  UPDATE "$table_name" t SET "Filer_ID" = "FPPC"
+  from candidates
+  WHERE lower(t."Filer_ID"::varchar(9)) = 'pending'
+  AND t."Filer_NamL" = "Committee_Name"
+  AND has_pending;
+
+QUERY

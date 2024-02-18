@@ -1,5 +1,5 @@
 {
-  "id": 136,
+  "id": 146,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": "https://dankalb.net",
@@ -76,13 +76,15 @@
         "Total": 148.12,
         "Cand_ID": 1382408,
         "Filer_ID": "1342695",
-        "Filer_NamL": "East Bay Rental Housing Association PAC"
+        "Filer_NamL": "East Bay Rental Housing Association PAC",
+        "election_name": "oakland-2016"
       },
       {
         "Total": 13093.53,
         "Cand_ID": 1382408,
         "Filer_ID": "943526",
-        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee"
+        "Filer_NamL": "Oakland Police Officer’s Association - Political Action Committee",
+        "election_name": "oakland-2016"
       }
     ]
   },

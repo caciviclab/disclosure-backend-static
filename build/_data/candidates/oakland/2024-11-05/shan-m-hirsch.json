@@ -1,7 +1,7 @@
 {
-  "id": 9,
+  "id": 14,
   "name": "Shan M. Hirsch",
-  "photo_url": null,
+  "photo_url": "Shan-Hirsch",
   "website_url": null,
   "twitter_url": null,
   "facebook_url": null,
@@ -19,13 +19,13 @@
   "occupation": null,
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1464290,
   "supporting_money": {
     "contributions_received": 0.0,
     "total_contributions": 0.0,
     "total_expenditures": null,
     "total_loans_received": null,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": null,
     "support_list": [
 
     ],
@@ -40,7 +40,7 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": null,
     "opposing_by_type": {
     },
     "opposition_list": [

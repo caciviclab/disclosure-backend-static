@@ -1,7 +1,9 @@
 {
+  "iec": true,
   "total_contributions": 75000.0,
   "contributions": [
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1426259",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -10,9 +12,11 @@
       "Tran_Date": "2020-05-05",
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-      "Tran_Zip4": "95814"
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2020"
     },
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1426259",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -21,7 +25,8 @@
       "Tran_Date": "2020-07-07",
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
-      "Tran_Zip4": "95814"
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2020"
     }
   ]
 }

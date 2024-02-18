@@ -1,8 +1,8 @@
 {
-  "id": 12,
+  "id": 7,
   "name": "Tyron Jordan",
-  "photo_url": null,
-  "website_url": null,
+  "photo_url": "Tyron-Jordan",
+  "website_url": "https://www.tyronjordanforoakland.com/",
   "twitter_url": null,
   "facebook_url": null,
   "instagram_url": null,
@@ -25,7 +25,7 @@
     "total_contributions": 0.0,
     "total_expenditures": 0.0,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": null,
     "support_list": [
 
     ],
@@ -41,7 +41,7 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": null,
     "opposing_by_type": {
     },
     "opposition_list": [

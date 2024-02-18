@@ -1,7 +1,9 @@
 {
+  "iec": false,
   "total_contributions": 8896.6,
   "contributions": [
     {
+      "title": "Oakland November 6th, 2018 Election",
       "Filer_ID": "1401694",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -10,9 +12,11 @@
       "Tran_Date": "2018-11-07",
       "Tran_NamF": null,
       "Tran_NamL": "Green Party",
-      "Tran_Zip4": "94704"
+      "Tran_Zip4": "94704",
+      "election_name": "oakland-2018"
     },
     {
+      "title": "Oakland November 6th, 2018 Election",
       "Filer_ID": "1401694",
       "Tran_Emp": "Blue Beautifly",
       "Tran_Occ": "President",
@@ -21,9 +25,11 @@
       "Tran_Date": "2018-11-20",
       "Tran_NamF": "Saied",
       "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2018"
     },
     {
+      "title": "Oakland November 6th, 2018 Election",
       "Filer_ID": "1401694",
       "Tran_Emp": "Blue Beautifly",
       "Tran_Occ": "President",
@@ -32,9 +38,11 @@
       "Tran_Date": "2018-11-20",
       "Tran_NamF": "Saied",
       "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2018"
     },
     {
+      "title": "Oakland November 6th, 2018 Election",
       "Filer_ID": "1401694",
       "Tran_Emp": "Blue Beautifly",
       "Tran_Occ": "President",
@@ -43,7 +51,8 @@
       "Tran_Date": "2018-11-20",
       "Tran_NamF": "Saied",
       "Tran_NamL": "Karamooz",
-      "Tran_Zip4": "94612"
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2018"
     }
   ]
 }

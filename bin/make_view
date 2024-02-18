@@ -197,4 +197,45 @@ CREATE VIEW independent_candidate_expenditures AS
   AND "FPPC" IS NOT NULL
   AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
+
+DROP VIEW IF EXISTS candidate_summary;
+CREATE VIEW candidate_summary AS
+  SELECT election_name, "Candidate", s.*
+  FROM "Summary" s, candidates c
+  WHERE cast ("FPPC" as character varying) = "Filer_ID"
+  AND ("Start_Date" IS NULL OR "From_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Thru_Date" <= "End_Date");
+
+DROP VIEW IF EXISTS candidate_497;
+CREATE VIEW candidate_497 AS
+  SELECT election_name, "Candidate", l.*
+  FROM "497" l, candidates c
+  WHERE cast ("FPPC" as character varying) = "Filer_ID"
+  AND ("Start_Date" IS NULL OR "Ctrib_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Ctrib_Date" <= "End_Date");
+
+DROP VIEW IF EXISTS candidate_e_expenditure;
+CREATE VIEW candidate_e_expenditure AS
+  SELECT election_name, expend.*
+  FROM "E-Expenditure" expend, candidates c
+  WHERE expend."Filer_ID"::varchar = c."FPPC"::varchar
+  AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date");
+
+DROP VIEW IF EXISTS candidate_d_expenditure;
+CREATE VIEW candidate_d_expenditure AS
+  SELECT c.election_name, c."FPPC", expend.*
+  FROM "D-Expenditure" expend, candidates c
+  WHERE lower(c."Candidate") = lower(trim(concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))
+  AND ("Start_Date" IS NULL OR "Expn_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Expn_Date" <= "End_Date");
+
+DROP VIEW IF EXISTS candidate_496;
+CREATE VIEW candidate_496 AS
+  SELECT c.election_name, c."FPPC", expend.*
+  FROM "496" expend, candidates c
+  WHERE lower(c."Candidate") = lower(trim(concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))
+  AND ("Start_Date" IS NULL OR "Exp_Date" >= "Start_Date")
+  AND ("End_Date" IS NULL OR "Exp_Date" <= "End_Date");
+
 SQL

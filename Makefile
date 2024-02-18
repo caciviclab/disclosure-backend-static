@@ -16,6 +16,12 @@ process: process.rb
 	# todo: remove RUBYOPT variable when activerecord fixes deprecation warnings
 	echo 'delete from calculations;'| psql $(DATABASE_NAME)
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
+	python bin/create-digests.py
+	python bin/report-candidates.py
+	git --no-pager diff build/digests.json
+
+download-netfile-v2: 
+	python download/main.py
 
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
@@ -32,23 +38,24 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets \
+download: download-netfile-v2 \
+	download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
 	download-COAK-2021 download-COAK-2022 \
-	download-COAK-2023
+	download-COAK-2023 download-COAK-2024
 
 download-SFO-%:
 	mkdir -p downloads/raw
-	$(WGET) http://nf4.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip -O \
+	$(WGET) http://public.netfile.com/pub2/excel/SFOBrowsable/efile_SFO_$(subst download-SFO-,,$@).zip -O \
 		downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip
 	unzip -p downloads/raw/efile_SFO_$(subst download-SFO-,,$@).zip > downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_SFO_$(subst download-SFO-,,$@).xlsx 'downloads/csv/efile_SFO_$(subst download-SFO-,,$@)_%{sheet}.csv'
 
 download-COAK-%:
 	mkdir -p downloads/raw
-	$(WGET) http://nf4.netfile.com/pub2/excel/COAKBrowsable/efile_newest_COAK_$(subst download-COAK-,,$@).zip -O \
+	$(WGET) http://public.netfile.com/pub2/excel/COAKBrowsable/efile_newest_COAK_$(subst download-COAK-,,$@).zip -O \
 		downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip
 	unzip -p downloads/raw/efile_COAK_$(subst download-COAK-,,$@).zip > downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx
 	ruby ssconvert.rb downloads/raw/efile_COAK_$(subst download-COAK-,,$@).xlsx 'downloads/csv/efile_COAK_$(subst download-COAK-,,$@)_%{sheet}.csv'
@@ -74,27 +81,42 @@ prep-import-spreadsheets:
 
 do-import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS candidates;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/candidates.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) candidates
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/candidates.csv
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Candidate
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Committee_Name
+
 	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/referendums.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/referendums.csv
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	./bin/remove-whitespace $(DATABASE_NAME) referendums Short_Title
+
 	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/name_to_number.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/name_to_number.csv
+
 	echo 'DROP TABLE IF EXISTS committees;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert $(CSV_PATH)/committees.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) committees
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/committees.csv
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+	./bin/remove-whitespace $(DATABASE_NAME) committees Filer_NamL
+
 	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/office_elections.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) office_elections
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/office_elections.csv
 	echo 'ALTER TABLE "office_elections" ALTER COLUMN title TYPE varchar(50);' | psql $(DATABASE_NAME)
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
+
 	echo 'DROP TABLE IF EXISTS elections;' | psql $(DATABASE_NAME)
-	csvsql --doublequote --db postgresql:///$(DATABASE_NAME) --insert downloads/csv/elections.csv
+	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) elections
+	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/elections.csv
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary elections_v2 committees_v2 a_contributions_v2
 	echo 'CREATE TABLE IF NOT EXISTS "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
@@ -108,6 +130,9 @@ reindex:
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
+
+elections_v2 committees_v2 a_contributions_v2:
+	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@ 0
 
 downloads/csv/candidates.csv:
 	mkdir -p downloads/csv downloads/raw

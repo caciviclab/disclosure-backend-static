@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2020-11-03.md
 candidates:
-- leroy-gaines
 - jorge-c-lerma
+- leroy-gaines
 - mike-hutchinson
 - sheila-pope-lawrence
 title: School Board District 5
