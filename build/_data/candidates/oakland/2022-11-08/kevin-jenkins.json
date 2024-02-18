@@ -1,5 +1,5 @@
 {
-  "id": 36,
+  "id": 43,
   "name": "Kevin Jenkins",
   "photo_url": "Kevin-Jenkins-sm.png",
   "website_url": "https://www.jenkinsforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1443971,
   "supporting_money": {
-    "contributions_received": 69314.0,
-    "total_contributions": 69314.0,
-    "total_expenditures": 85743.65,
+    "contributions_received": 52204.0,
+    "total_contributions": 52204.0,
+    "total_expenditures": 87092.21,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -31,33 +31,34 @@
         "Total": 2113.9,
         "Cand_ID": 1443971,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2022"
       }
     ],
     "contributions_by_type": {
-      "Committee": 22000.0,
-      "Individual": 40075.0,
-      "Unitemized": 1339.0,
+      "Committee": 30900.0,
+      "Individual": 46325.0,
+      "Unitemized": 554.0,
       "Self Funding": 100.0,
       "Other (includes Businesses)": 5800.0
     },
     "contributions_by_origin": {
-      "Out of State": 4600.0,
-      "Within Oakland": 24875.0,
-      "Within California": 38500.0
+      "Out of State": 5200.0,
+      "Within Oakland": 29675.0,
+      "Within California": 48250.0
     },
-    "total_small_contributions": 2189.0,
+    "total_small_contributions": 1404.0,
     "expenditures_by_type": {
-      "Not Stated": 3867.84,
+      "Not Stated": 5307.89,
       "Phone Banks": 2500.0,
-      "Contribution": 1700.0,
-      "Civic Donations": 1800.0,
-      "Office Expenses": 1612.15,
+      "Contribution": 2200.0,
+      "Civic Donations": 2800.0,
+      "Office Expenses": 1910.61,
       "Campaign Consultants": 10000.0,
-      "Campaign Paraphernalia/Misc.": 1351.71,
+      "Campaign Paraphernalia/Misc.": 1656.71,
       "Campaign Literature and Mailings": 28442.12,
       "Postage, Delivery and Messenger Services": 19136.79,
-      "Professional Services (Legal, Accounting)": 3660.44,
+      "Professional Services (Legal, Accounting)": 4523.35,
       "Information Technology Costs (Internet, E-mail)": 11490.0
     },
     "supporting_by_type": {
@@ -73,7 +74,7 @@
 
     ]
   },
-  "total_contributions": 69314.0,
-  "total_expenditures": 85743.65,
+  "total_contributions": 52204.0,
+  "total_expenditures": 87092.21,
   "total_loans_received": 0.0
 }

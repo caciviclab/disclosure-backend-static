@@ -1,5 +1,5 @@
 {
-  "id": 28,
+  "id": 35,
   "name": "Ignacio De La Fuente",
   "photo_url": "Ignacio De La Fuente.jpg",
   "website_url": null,
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1446236,
   "supporting_money": {
-    "contributions_received": 257034.57,
-    "total_contributions": 257034.57,
-    "total_expenditures": 259702.34,
+    "contributions_received": 257158.97,
+    "total_contributions": 257158.97,
+    "total_expenditures": 260821.78,
     "total_loans_received": 0.0,
     "total_supporting_independent": 826681.94,
     "support_list": [
@@ -31,41 +31,46 @@
         "Total": 677632.83,
         "Cand_ID": 1446236,
         "Filer_ID": "1452451",
-        "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022"
+        "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
+        "election_name": "oakland-2022"
       },
       {
         "Total": 20625.91,
         "Cand_ID": 1446236,
         "Filer_ID": "1453617",
-        "Filer_NamL": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022"
+        "Filer_NamL": "Citizens for Impactful Voting in Oakland supporting Loren Taylor, Ignatio de la Fuente and Treva Reid for Mayor 2022",
+        "election_name": "oakland-2022"
       },
       {
         "Total": 24995.2,
         "Cand_ID": 1446236,
         "Filer_ID": "1443977",
-        "Filer_NamL": "Citizens for a Sane & Responsible Oakland (CSRO), Sponsored by Supervisor Nate Miley"
+        "Filer_NamL": "Citizens for a Sane & Responsible Oakland (CSRO), Sponsored by Supervisor Nate Miley",
+        "election_name": "oakland-2022"
       },
       {
         "Total": 103428.0,
         "Cand_ID": 1446236,
         "Filer_ID": "1344093",
-        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)"
+        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)",
+        "election_name": "oakland-2022"
       }
     ],
     "contributions_by_type": {
       "Committee": 4100.0,
       "Individual": 196834.0,
       "Unitemized": 1540.0,
+      "Self Funding": 124.4,
       "Other (includes Businesses)": 54560.57
     },
     "contributions_by_origin": {
       "Out of State": 13850.0,
-      "Within Oakland": 108944.57,
+      "Within Oakland": 109068.97,
       "Within California": 132700.0
     },
     "total_small_contributions": 1739.0,
     "expenditures_by_type": {
-      "Office Expenses": 14078.11,
+      "Office Expenses": 15010.76,
       "Fundraising Events": 2324.56,
       "Campaign Consultants": 7253.25,
       "Meetings and Appearances": 500.0,
@@ -97,7 +102,7 @@
 
     ]
   },
-  "total_contributions": 257034.57,
-  "total_expenditures": 259702.34,
+  "total_contributions": 257158.97,
+  "total_expenditures": 260821.78,
   "total_loans_received": 0.0
 }

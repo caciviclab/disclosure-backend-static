@@ -1,7 +1,9 @@
 {
+  "iec": false,
   "total_contributions": 2250.0,
   "contributions": [
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1427385",
       "Tran_Emp": "Pacific Maritime Association",
       "Tran_Occ": "Longshoreman",
@@ -10,9 +12,11 @@
       "Tran_Date": "2020-08-03",
       "Tran_NamF": "Allyna",
       "Tran_NamL": "Jones",
-      "Tran_Zip4": "unknown"
+      "Tran_Zip4": "unknown",
+      "election_name": "oakland-2020"
     },
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1427385",
       "Tran_Emp": "Pacific Maritime Association",
       "Tran_Occ": "Longshoreman",
@@ -21,9 +25,11 @@
       "Tran_Date": "2020-08-03",
       "Tran_NamF": "Tess",
       "Tran_NamL": "Kennedy",
-      "Tran_Zip4": "unknown"
+      "Tran_Zip4": "unknown",
+      "election_name": "oakland-2020"
     },
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1427385",
       "Tran_Emp": "Retired",
       "Tran_Occ": "Retired longshoreman",
@@ -32,9 +38,11 @@
       "Tran_Date": "2020-09-13",
       "Tran_NamF": "Richard",
       "Tran_NamL": "Mead",
-      "Tran_Zip4": "unknown"
+      "Tran_Zip4": "unknown",
+      "election_name": "oakland-2020"
     },
     {
+      "title": "Oakland November 3rd, 2020 General Election",
       "Filer_ID": "1427385",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -43,7 +51,8 @@
       "Tran_Date": "2020-09-14",
       "Tran_NamF": "Faye",
       "Tran_NamL": "Taylor",
-      "Tran_Zip4": "94608"
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2020"
     }
   ]
 }

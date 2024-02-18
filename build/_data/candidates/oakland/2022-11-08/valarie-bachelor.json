@@ -1,5 +1,5 @@
 {
-  "id": 57,
+  "id": 63,
   "name": "Valarie Bachelor",
   "photo_url": "Valarie Bachelor.jpg",
   "website_url": "https://www.val4oakland.com/",
@@ -21,51 +21,53 @@
   "is_winner": null,
   "filer_id": 1451532,
   "supporting_money": {
-    "contributions_received": 39310.59,
-    "total_contributions": 39310.59,
-    "total_expenditures": 29197.44,
-    "total_loans_received": 100.0,
-    "total_supporting_independent": 50790.25,
+    "contributions_received": 17092.21,
+    "total_contributions": 17092.21,
+    "total_expenditures": 35434.92,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 52569.85,
     "support_list": [
       {
-        "Total": 49204.82,
+        "Total": 50984.42,
         "Cand_ID": 1451532,
         "Filer_ID": "1345259",
-        "Filer_NamL": "Oakland Education Association Political Action Committee"
+        "Filer_NamL": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2022"
       },
       {
         "Total": 1585.43,
         "Cand_ID": 1451532,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2022"
       }
     ],
     "contributions_by_type": {
       "Committee": 7800.0,
-      "Individual": 23919.63,
-      "Unitemized": 5755.0,
+      "Individual": 23819.63,
+      "Unitemized": 2387.0,
       "Self Funding": 101.0,
       "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
-      "Out of State": 6147.0,
+      "Out of State": 6047.0,
       "Within Oakland": 14473.63,
       "Within California": 12800.0
     },
-    "total_small_contributions": 6725.21,
+    "total_small_contributions": 3357.21,
     "expenditures_by_type": {
-      "Not Stated": 7690.43,
+      "Not Stated": 8122.49,
       "Fundraising Events": 525.0,
-      "Campaign Consultants": 3500.0,
+      "Campaign Consultants": 5200.0,
       "Campaign Workers' Salaries": 1000.0,
       "Campaign Literature and Mailings": 6992.49,
-      "Professional Services (Legal, Accounting)": 7213.29,
-      "Information Technology Costs (Internet, E-mail)": 1074.0
+      "Professional Services (Legal, Accounting)": 13202.32,
+      "Information Technology Costs (Internet, E-mail)": 1611.0
     },
     "supporting_by_type": {
       "IKD": 20.17,
       "MON": 2600.0,
-      "Independent Expenditure Supporting/Opposing Others": 50790.25
+      "Independent Expenditure Supporting/Opposing Others": 52569.85
     }
   },
   "opposing_money": {
@@ -76,7 +78,7 @@
 
     ]
   },
-  "total_contributions": 39310.59,
-  "total_expenditures": 29197.44,
-  "total_loans_received": 100.0
+  "total_contributions": 17092.21,
+  "total_expenditures": 35434.92,
+  "total_loans_received": 0.0
 }

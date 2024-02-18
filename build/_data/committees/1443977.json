@@ -1,7 +1,9 @@
 {
+  "iec": true,
   "total_contributions": 60000.0,
   "contributions": [
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1443977",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -10,9 +12,11 @@
       "Tran_Date": "2022-04-09",
       "Tran_NamF": null,
       "Tran_NamL": "21227 Foothill LLC(Soufyan AbouAhmed)",
-      "Tran_Zip4": "94541"
+      "Tran_Zip4": "94541",
+      "election_name": "oakland-2022"
     },
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1443977",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -21,9 +25,11 @@
       "Tran_Date": "2022-09-28",
       "Tran_NamF": null,
       "Tran_NamL": "Haubert for Supervisor 2024",
-      "Tran_Zip4": "95746"
+      "Tran_Zip4": "95746",
+      "election_name": "oakland-2022"
     },
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1443977",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -32,9 +38,11 @@
       "Tran_Date": "2022-10-18",
       "Tran_NamF": null,
       "Tran_NamL": "Nate Miley for Supervisor 2024",
-      "Tran_Zip4": "94607"
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2022"
     },
     {
+      "title": "Oakland November 8th, 2022 General Election",
       "Filer_ID": "1443977",
       "Tran_Emp": null,
       "Tran_Occ": null,
@@ -43,7 +51,8 @@
       "Tran_Date": "2022-12-16",
       "Tran_NamF": null,
       "Tran_NamL": "21227 Foothill LLC(Soufyan AbouAhmed)",
-      "Tran_Zip4": "94541"
+      "Tran_Zip4": "94541",
+      "election_name": "oakland-2022"
     }
   ]
 }

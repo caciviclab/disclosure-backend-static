@@ -23,6 +23,7 @@ class Committee < ActiveRecord::Base
   # Keep this method in-sync with the `committe_data` method in Candidate model.
   def data
     {
+      iec: true,
       total_contributions: calculation(:contribution_list_total),
       contributions: calculation(:contribution_list) || [],
     }

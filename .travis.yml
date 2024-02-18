@@ -2,6 +2,7 @@ dist: bionic
 env:
   global:
     - TZ=America/Los_Angeles
+language: python
 python:
   - '3.9'
 services:
@@ -9,6 +10,7 @@ services:
 sudo: required
 install:
   - python --version
+  - rvm install 2.7.1
   - pip install 'urllib3[secure]'
   - pip install -r requirements.txt
   - bundle install

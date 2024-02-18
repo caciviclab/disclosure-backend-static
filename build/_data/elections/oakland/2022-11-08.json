@@ -1,24 +1,23 @@
 {
-  "total_contributions": 6476065.89,
+  "total_contributions": 5976299.66,
   "total_contributions_by_source": {
-    "Out of State": 521147.35,
-    "Within Oakland": 2632398.180000001,
-    "Within California": 3006531.1199999996
+    "Out of State": 529589.5900000001,
+    "Within Oakland": 2667876.8500000006,
+    "Within California": 3048897.3400000003
   },
   "contributions_by_type": {
-    "PTY": 15900.0,
-    "Committee": 995101.14,
-    "Individual": 2507910.869999998,
-    "Unitemized": 135828.3,
-    "Self Funding": 2711.0,
-    "Other (includes Businesses)": 2638453.6399999997
+    "Committee": 1028199.7200000001,
+    "Individual": 2569707.8700000006,
+    "Unitemized": 110804.35,
+    "Self Funding": 11162.14,
+    "Other (includes Businesses)": 2637294.05
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 2014300.25
+      "amount": 1648905.4100000001
     },
     {
       "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -35,6 +34,14 @@
   ],
   "largest_small_proportion": [
     {
+      "slug": "valarie-bachelor",
+      "type": "office",
+      "title": "Oakland November 8th, 2022 General Election",
+      "candidate": "Valarie Bachelor",
+      "proportion": 0.19641754928122226,
+      "office_title": "OUSD District 6"
+    },
+    {
       "slug": "allyssa-victory-villanueva",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
@@ -43,19 +50,11 @@
       "office_title": "Mayor"
     },
     {
-      "slug": "valarie-bachelor",
-      "type": "office",
-      "title": "Oakland November 8th, 2022 General Election",
-      "candidate": "Valarie Bachelor",
-      "proportion": 0.17107883651708103,
-      "office_title": "OUSD District 6"
-    },
-    {
       "slug": "pecolia-manigo",
       "type": "office",
       "title": "Oakland November 8th, 2022 General Election",
       "candidate": "Pecolia Manigo",
-      "proportion": 0.16723627831054888,
+      "proportion": 0.17663090251879052,
       "office_title": "OUSD District 4"
     }
   ],
@@ -95,22 +94,22 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Griffin Tischler",
+      "name": "Laborers' Local 304 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 6300.0
+      "total_contributions": 7700.0
     },
     {
-      "name": "Riaz Taplin",
+      "name": "Seneca Scott",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 6300.0
+      "total_contributions": 7426.74
     },
     {
-      "name": "Goolshan Chinoy",
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_contributions": 5400.0
+      "total_contributions": 6749.0
     }
   ],
   "top_contributors_for_measures": [
@@ -155,22 +154,22 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Griffin Tischler",
+      "name": "Laborers' Local 304 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 6300.0
+      "total_spending": 7700.0
     },
     {
-      "name": "Riaz Taplin",
+      "name": "Seneca Scott",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 6300.0
+      "total_spending": 7426.74
     },
     {
-      "name": "Goolshan Chinoy",
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2022",
-      "total_spending": 5400.0
+      "total_spending": 6749.0
     }
   ],
   "top_spenders_for_measures": [

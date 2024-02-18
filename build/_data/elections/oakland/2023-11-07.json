@@ -1,38 +1,38 @@
 {
-  "total_contributions": 23415.0,
+  "total_contributions": 35003.0,
   "total_contributions_by_source": {
-    "Out of State": 1300.0,
-    "Within Oakland": 12396.0,
-    "Within California": 7876.0
+    "Out of State": 3600.0,
+    "Within Oakland": 19334.0,
+    "Within California": 10326.0
   },
   "contributions_by_type": {
     "Committee": 6000.0,
-    "Individual": 15572.0,
-    "Unitemized": 1843.0
+    "Individual": 27260.0,
+    "Unitemized": 2531.0
   },
   "most_expensive_races": [
     {
       "slug": "school-board-district-5",
       "type": "office",
       "title": "School Board District 5",
-      "amount": 23415.0
+      "amount": 35003.0
     }
   ],
   "largest_small_proportion": [
-    {
-      "slug": "alexandra-ritzie-hernandez",
-      "type": "office",
-      "title": "Oakland November 7th, 2023 Special Election",
-      "candidate": "Alexandra Ritzie-Hernandez",
-      "proportion": 0.0966343411294923,
-      "office_title": "School Board District 5"
-    },
     {
       "slug": "jorge-c-lerma",
       "type": "office",
       "title": "Oakland November 7th, 2023 Special Election",
       "candidate": "Jorge C. Lerma",
-      "proportion": 0.048428207306711976,
+      "proportion": 0.09090909090909091,
+      "office_title": "School Board District 5"
+    },
+    {
+      "slug": "alexandra-ritzie-hernandez",
+      "type": "office",
+      "title": "Oakland November 7th, 2023 Special Election",
+      "candidate": "Alexandra Ritzie-Hernandez",
+      "proportion": 0.08352221993268769,
       "office_title": "School Board District 5"
     }
   ],
@@ -40,7 +40,7 @@
     {
       "name": "Oakland Education Association Political Action Committee",
       "election_name": "oakland-2023",
-      "total_spending": 43186.57000000001
+      "total_spending": 44068.81
     },
     {
       "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
@@ -55,17 +55,17 @@
   ],
   "top_contributors": [
     {
+      "name": "Kimi Kean",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
       "name": "Service Employees International Union Local 1021 Candidate PAC",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
     },
     {
       "name": "Oakland Education Association PAC",
-      "election_name": "oakland-2023",
-      "total_contributions": 1200.0
-    },
-    {
-      "name": "UA Local 342",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
     }
@@ -78,13 +78,13 @@
       "total_contributions": 1200.0
     },
     {
-      "name": "UA Local 342",
+      "name": "Kimi Kean",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
     },
     {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "name": "UA Local 342",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_contributions": 1200.0
@@ -101,13 +101,13 @@
       "total_spending": 1200.0
     },
     {
-      "name": "UA Local 342",
+      "name": "Kimi Kean",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
     },
     {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "name": "UA Local 342",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
@@ -121,13 +121,13 @@
       "total_spending": 1200.0
     },
     {
-      "name": "UA Local 342",
+      "name": "Kimi Kean",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0
     },
     {
-      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "name": "UA Local 342",
       "type": "Office",
       "election_name": "oakland-2023",
       "total_spending": 1200.0

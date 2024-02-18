@@ -1,5 +1,5 @@
 {
-  "id": 48,
+  "id": 54,
   "name": "Paulina Gonzalez",
   "photo_url": "paulina-gonzalez.png",
   "website_url": "https://paulinaforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442804,
   "supporting_money": {
-    "contributions_received": 19675.0,
-    "total_contributions": 19675.0,
-    "total_expenditures": 19675.0,
+    "contributions_received": 5131.0,
+    "total_contributions": 5131.0,
+    "total_expenditures": 19632.62,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,14 +31,14 @@
     ],
     "contributions_by_type": {
       "Individual": 17360.0,
-      "Unitemized": 2315.0
+      "Unitemized": 631.0
     },
     "contributions_by_origin": {
       "Out of State": 1458.0,
       "Within Oakland": 1850.0,
       "Within California": 14052.0
     },
-    "total_small_contributions": 2515.0,
+    "total_small_contributions": 831.0,
     "expenditures_by_type": {
       "Phone Banks": 671.0,
       "Office Expenses": 558.32,
@@ -57,7 +57,7 @@
 
     ]
   },
-  "total_contributions": 19675.0,
-  "total_expenditures": 19675.0,
+  "total_contributions": 5131.0,
+  "total_expenditures": 19632.62,
   "total_loans_received": 0.0
 }

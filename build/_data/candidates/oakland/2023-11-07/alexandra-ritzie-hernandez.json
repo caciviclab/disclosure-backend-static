@@ -1,5 +1,5 @@
 {
-  "id": 18,
+  "id": 24,
   "name": "Alexandra Ritzie-Hernandez",
   "photo_url": "Alexandra-Ritzie-Hernandez.png",
   "website_url": "https://www.sasharitziehernandez.com/",
@@ -21,64 +21,70 @@
   "is_winner": null,
   "filer_id": 1460829,
   "supporting_money": {
-    "contributions_received": 17530.0,
-    "total_contributions": 17530.0,
-    "total_expenditures": 9718.34,
+    "contributions_received": 29118.0,
+    "total_contributions": 29118.0,
+    "total_expenditures": 28674.6,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 71066.51,
+    "total_supporting_independent": 71948.75,
     "support_list": [
       {
         "Total": 23700.0,
         "Cand_ID": 1460829,
         "Filer_ID": "1433122",
-        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021"
+        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "election_name": "oakland-2023"
       },
       {
-        "Total": 43186.57,
+        "Total": 44068.81,
         "Cand_ID": 1460829,
         "Filer_ID": "1345259",
-        "Filer_NamL": "Oakland Education Association Political Action Committee"
+        "Filer_NamL": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2023"
       },
       {
         "Total": 4179.94,
         "Cand_ID": 1460829,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2023"
       }
     ],
     "contributions_by_type": {
       "Committee": 6000.0,
-      "Individual": 9972.0,
-      "Unitemized": 1558.0
+      "Individual": 11322.0,
+      "Unitemized": 2246.0
     },
     "contributions_by_origin": {
-      "Out of State": 100.0,
-      "Within Oakland": 8896.0,
-      "Within California": 6976.0
+      "Out of State": 200.0,
+      "Within Oakland": 9796.0,
+      "Within California": 7326.0
     },
-    "total_small_contributions": 1694.0,
+    "total_small_contributions": 2432.0,
     "expenditures_by_type": {
-      "Campaign Consultants": 3400.0,
-      "Campaign Paraphernalia/Misc.": 400.29,
-      "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 1896.59,
-      "Candidate Travel, Lodging, and Meals": 140.3,
-      "Postage, Delivery and Messenger Services": 528.96,
-      "Professional Services (Legal, Accounting)": 100.0,
-      "Information Technology Costs (Internet, E-mail)": 1805.65
+      "Not Stated": 29.0,
+      "Office Expenses": 428.32,
+      "Campaign Consultants": 13200.0,
+      "Meetings and Appearances": 956.53,
+      "Campaign Paraphernalia/Misc.": 1070.33,
+      "Candidate Filing/Ballot Fees": 2000.0,
+      "Campaign Literature and Mailings": 4334.13,
+      "Candidate Travel, Lodging, and Meals": 280.6,
+      "Postage, Delivery and Messenger Services": 953.32,
+      "Professional Services (Legal, Accounting)": 200.0,
+      "Information Technology Costs (Internet, E-mail)": 3975.31
     },
     "supporting_by_type": {
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": null,
     "opposing_by_type": {
     },
     "opposition_list": [
 
     ]
   },
-  "total_contributions": 17530.0,
-  "total_expenditures": 9718.34,
+  "total_contributions": 29118.0,
+  "total_expenditures": 28674.6,
   "total_loans_received": 0.0
 }

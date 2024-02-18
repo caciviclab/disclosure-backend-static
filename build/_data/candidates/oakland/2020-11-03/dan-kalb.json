@@ -1,5 +1,5 @@
 {
-  "id": 65,
+  "id": 73,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": "https://www.dankalb.net/",
@@ -31,13 +31,15 @@
         "Total": 32697.0,
         "Cand_ID": 1420085,
         "Filer_ID": "1433122",
-        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021"
+        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "election_name": "oakland-2020"
       },
       {
         "Total": 2810.32,
         "Cand_ID": 1420085,
         "Filer_ID": "1332115",
-        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics"
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2020"
       }
     ],
     "contributions_by_type": {
@@ -72,8 +74,7 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 11824.51
     },
     "supporting_by_type": {
-      "IKD": 300.0,
-      "MON": 6200.0,
+      "MON": 2500.0,
       "Mailer": 32697.0,
       "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
@@ -81,7 +82,6 @@
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 13241.65
     },
     "opposition_list": [
 

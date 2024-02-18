@@ -1,6 +1,19 @@
 {
-  "total_contributions": 0,
+  "iec": false,
+  "total_contributions": 1200.0,
   "contributions": [
-
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Filer_ID": "1463441",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2023-12-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815",
+      "election_name": "oakland-2024"
+    }
   ]
 }
