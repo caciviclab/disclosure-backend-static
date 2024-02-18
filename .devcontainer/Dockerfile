@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.9-bullseye
+#FROM mcr.microsoft.com/vscode/devcontainers/python:3.9-bullseye
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.9-bookworm
 
 RUN curl -fsSL https://aka.ms/install-azd.sh | bash
 
