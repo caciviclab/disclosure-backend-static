@@ -1,7 +1,7 @@
 CREATE TABLE committees (
 	"Ballot_Measure_Election" VARCHAR(18), 
 	"Filer_ID" VARCHAR(32) NOT NULL, 
-	"Filer_NamL" VARCHAR(255) NOT NULL, 
+	"Filer_NamL" VARCHAR(173) NOT NULL, 
 	"_Status" VARCHAR(19), 
 	"_Committee_Type" VARCHAR(11), 
 	"Ballot_Measure" VARCHAR(10), 
