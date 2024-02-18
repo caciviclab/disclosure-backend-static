@@ -28,12 +28,21 @@ This is an automated update by travis-ci at
 '"$(date)"'
 
 [skip ci]'
+  #git push \
+  #  "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
+  #  HEAD:master \
+  #  | sed -e "s/$GITHUB_AUTH_TOKEN/[removed]/"
+  
+  # Push to the same branch instead of master
   git push \
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
-    HEAD:master \
+    HEAD \
     | sed -e "s/$GITHUB_AUTH_TOKEN/[removed]/"
 
-  make upload-cache
+  if [ "${TRAVIS_BRANCH}" = "master" -a ! "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
+    # only upload cache if we're merging onto the main branch
+    make upload-cache
+  fi
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
