@@ -46,7 +46,9 @@ elif [ ! -d "build" ]; then
   echo "The 'build' directory is missing. Bailing!"
 elif git diff --exit-code --quiet; then
   echo "No changes to deploy!"
-else
-  echo "Deploying build on all branches when build directory changed"
+elif [ ! "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
+  echo "Deploying build on all branches when build directory changed and not pull request build"
   deploy
+else
+  echo "Not deploying build on pull requests"
 fi
