@@ -7,7 +7,7 @@ is_incumbent: true
 name: Shanthi Gonzales
 occupation: School Board Director
 photo_url: Shanthi-Gonzales.png
-twitter_url: 'ShanthiGonzales '
+twitter_url: ShanthiGonzales
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17850?&county=alameda%20county&election_authority_id=1
 website_url: http://gonzalesforschools.nationbuilder.com/
 ---
