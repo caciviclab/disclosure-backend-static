@@ -1,5 +1,5 @@
 CREATE TABLE office_elections (
-	election_name VARCHAR(12) NOT NULL, 
+	election_name VARCHAR(18) NOT NULL, 
 	title VARCHAR(31) NOT NULL, 
 	label VARCHAR(31) NOT NULL
 );
