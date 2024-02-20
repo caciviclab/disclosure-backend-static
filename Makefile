@@ -93,6 +93,7 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/referendums.csv
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) referendums Short_Title
+	./bin/remove-whitespace $(DATABASE_NAME) referendums Summary
 
 	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
