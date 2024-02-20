@@ -83,6 +83,10 @@ do-import-spreadsheets:
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Candidate
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Committee_Name
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Facebook
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Instagram
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Twitter
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Bio
 
 	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
