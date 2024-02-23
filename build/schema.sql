@@ -921,7 +921,7 @@ CREATE TABLE public."G-Expenditure" (
     "Expn_ChkNo" character varying(4),
     "Expn_Code" character varying(4),
     "Expn_Dscr" character varying(171),
-    "Agent_NamL" character varying(58) NOT NULL,
+    "Agent_NamL" character varying(67) NOT NULL,
     "Agent_NamF" character varying(14),
     "Agent_NamT" character varying(4),
     "Agent_NamS" character varying(32),
