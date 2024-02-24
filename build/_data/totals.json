@@ -782,12 +782,12 @@
     "total_contributions": 5976299.66,
     "total_contributions_by_source": {
       "Out of State": 529589.5900000001,
-      "Within Oakland": 2667876.8500000006,
+      "Within Oakland": 2667876.8499999996,
       "Within California": 3048897.3400000003
     },
     "contributions_by_type": {
       "Committee": 1028199.7200000001,
-      "Individual": 2569707.870000002,
+      "Individual": 2569707.870000001,
       "Unitemized": 110863.59,
       "Self Funding": 11162.14,
       "Other (includes Businesses)": 2637294.05
@@ -1032,7 +1032,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -1311,23 +1311,24 @@
     ]
   },
   "oakland-2023": {
-    "total_contributions": 35003.0,
+    "total_contributions": 45925.0,
     "total_contributions_by_source": {
-      "Out of State": 3600.0,
-      "Within Oakland": 19334.0,
-      "Within California": 10326.0
+      "Out of State": 1400.0,
+      "Within Oakland": 19934.0,
+      "Within California": 11326.0
     },
     "contributions_by_type": {
       "Committee": 6000.0,
-      "Individual": 27260.0,
-      "Unitemized": 2531.0
+      "Individual": 26160.0,
+      "Unitemized": 3715.0,
+      "Other (includes Businesses)": 500.0
     },
     "most_expensive_races": [
       {
         "slug": "school-board-district-5",
         "type": "office",
         "title": "School Board District 5",
-        "amount": 35003.0
+        "amount": 45925.0
       }
     ],
     "largest_small_proportion": [
@@ -1336,7 +1337,7 @@
         "type": "office",
         "title": "Oakland November 7th, 2023 Special Election",
         "candidate": "Jorge C. Lerma",
-        "proportion": 0.09090909090909091,
+        "proportion": 0.10227881239959541,
         "office_title": "School Board District 5"
       },
       {
@@ -1367,11 +1368,6 @@
     ],
     "top_contributors": [
       {
-        "name": "Kimi Kean",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
-      },
-      {
         "name": "UA Local 342",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1380,17 +1376,22 @@
         "name": "Laborers Local 304",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "name": "UA Local 342",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1450,14 +1451,14 @@
     ]
   },
   "oakland-march-2024": {
-    "total_contributions": 17045.0,
+    "total_contributions": 17745.0,
     "total_contributions_by_source": {
       "Out of State": 500.0,
       "Within Oakland": 1100.0,
-      "Within California": 5050.0
+      "Within California": 5750.0
     },
     "contributions_by_type": {
-      "Individual": 6650.0,
+      "Individual": 7350.0,
       "Unitemized": 395.0
     },
     "most_expensive_races": [
@@ -1465,7 +1466,7 @@
         "slug": "city-auditor",
         "type": "office",
         "title": "City Auditor",
-        "amount": 17045.0
+        "amount": 17745.0
       }
     ],
     "largest_small_proportion": [
@@ -1474,7 +1475,7 @@
         "type": "office",
         "title": "Oakland March 5th, 2024 Special Election",
         "candidate": "Michael Houston",
-        "proportion": 0.029040774420651217,
+        "proportion": 0.027895181741335588,
         "office_title": "City Auditor"
       }
     ],
@@ -1487,12 +1488,12 @@
         "total_contributions": 600.0
       },
       {
-        "name": "Mary Preston",
+        "name": "Steven Von Stade",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
       },
       {
-        "name": "Araina Lynn Hennen",
+        "name": "Mary Preston",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
       }
@@ -1505,13 +1506,13 @@
         "total_contributions": 600.0
       },
       {
-        "name": "Mary Preston",
+        "name": "Steven Von Stade",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
       },
       {
-        "name": "Araina Lynn Hennen",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1528,13 +1529,13 @@
         "total_spending": 600.0
       },
       {
-        "name": "Mary Preston",
+        "name": "Steven Von Stade",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
       },
       {
-        "name": "Araina Lynn Hennen",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
@@ -1548,13 +1549,13 @@
         "total_spending": 600.0
       },
       {
-        "name": "Mary Preston",
+        "name": "Steven Von Stade",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
       },
       {
-        "name": "Araina Lynn Hennen",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
@@ -1645,13 +1646,13 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "name": "International Association of Firefighters Local 55",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
       },
       {
-        "name": "International Association of Firefighters Local 55",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
