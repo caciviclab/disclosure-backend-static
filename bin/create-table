@@ -22,5 +22,4 @@ fi
 # create table
 echo "Creating $table_name using $DBSCHEMA_FILEPATH"
 psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
-#psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
 
