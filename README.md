@@ -31,6 +31,19 @@ gem install pg bundler
 bundle install
 ```
 
+**Note:** It appears there is a problem on Macintosh systems using the Apple Chips.
+If, when running ```make import``` you get:
+```
+ImportError: You don't appear to have the necessary database backend installed for connection string you're trying to use. Available backends include:
+
+PostgreSQL:	pip install psycopg2
+```
+Try the following:
+```
+pip uninstall psycopg2-binary
+pip install psycopg2-binary --no-cache-dir
+```
+
 ### Codespaces
 
 This repository is set up to work in a container under Codespaces.  In other words, you can start up an environment that is already set up without having to do any of the installation steps required to set up a local environment.  This can be used as a way to trouble-shoot code before it is committed to the production pipeline.  The following information may be helpful to get started using Codespaces:
