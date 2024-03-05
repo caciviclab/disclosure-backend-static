@@ -27,22 +27,11 @@ if psql disclosure-backend -c '\d "'${table_name}'"' >/dev/null 2>&1; then
 fi
 
 if ls $filename_glob 2>/dev/null >/dev/null; then
-  # create schema file if it's not there
-  DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
-  if [ ! -f $DBSCHEMA_FILEPATH ]; then
-    echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
-    csvstack $filename_glob 2> /dev/null | \
-      csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
-  fi
-  # create table if it's not there
-  if [ "$table_exists" = '' ]; then
-    echo "Creating $table_name using $DBSCHEMA_FILEPATH"
-    psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
-    #psql --dbname $DATABASE_NAME -c '\d "'$table_name'"'
-    table_exists=true
-  fi
+  ./bin/create-table $DATABASE_NAME $csv_path $table_name
+
+  # insert data
   csvstack $filename_glob 2> /dev/null | \
-    csvsql --db postgresql:///$DATABASE_NAME --tables $table_name --insert --no-inference ${table_exists:+--no-create}
+    csvsql --db postgresql:///$DATABASE_NAME --tables $table_name --insert --no-inference --no-create
   echo -n '  Removing empty Tran_Date... '
   ./bin/clean "$DATABASE_NAME" "$table_name"
   echo
