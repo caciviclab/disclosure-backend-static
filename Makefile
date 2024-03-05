@@ -78,6 +78,7 @@ prep-import-spreadsheets:
 
 do-import-spreadsheets:
 	echo 'DROP TABLE IF EXISTS candidates;' | psql $(DATABASE_NAME)
+	# TODO: modify create-table to always stack a glob of csv files *{table_name}.csv in a dir and use that pattern for single file here.
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) candidates
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/candidates.csv
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
