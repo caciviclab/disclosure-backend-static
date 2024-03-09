@@ -1,0 +1,140 @@
+{
+  "total_contributions": 45925.0,
+  "total_contributions_by_source": {
+    "Out of State": 1400.0,
+    "Within Oakland": 19934.0,
+    "Within California": 11326.0
+  },
+  "contributions_by_type": {
+    "Committee": 6000.0,
+    "Individual": 26160.0,
+    "Unitemized": 3715.0,
+    "Other (includes Businesses)": 500.0
+  },
+  "most_expensive_races": [
+    {
+      "slug": "school-board-district-5",
+      "type": "office",
+      "title": "School Board District 5",
+      "amount": 45925.0
+    }
+  ],
+  "largest_small_proportion": [
+    {
+      "slug": "jorge-c-lerma",
+      "type": "office",
+      "title": "Oakland November 7th, 2023 Special Election",
+      "candidate": "Jorge C. Lerma",
+      "proportion": 0.10227881239959541,
+      "office_title": "School Board District 5"
+    },
+    {
+      "slug": "alexandra-ritzie-hernandez",
+      "type": "office",
+      "title": "Oakland November 7th, 2023 Special Election",
+      "candidate": "Alexandra Ritzie-Hernandez",
+      "proportion": 0.08352221993268769,
+      "office_title": "School Board District 5"
+    }
+  ],
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland Education Association Political Action Committee",
+      "election_name": "oakland-2023",
+      "total_spending": 44068.81
+    },
+    {
+      "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+      "election_name": "oakland-2023",
+      "total_spending": 23700.0
+    },
+    {
+      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "election_name": "oakland-2023",
+      "total_spending": 4179.94
+    }
+  ],
+  "top_contributors": [
+    {
+      "name": "UA Local 342",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
+      "name": "Laborers Local 304",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
+      "name": "Peralta Federation of Teachers COPE",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    }
+  ],
+  "top_contributors_for_offices": [
+    {
+      "name": "UA Local 342",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    },
+    {
+      "name": "Peralta Federation of Teachers COPE",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_contributions": 1200.0
+    }
+  ],
+  "top_contributors_for_measures": [
+
+  ],
+  "top_spenders": [
+    {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 1200.0
+    },
+    {
+      "name": "Oakland Education Association PAC",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 1200.0
+    },
+    {
+      "name": "Peralta Federation of Teachers COPE",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 1200.0
+    }
+  ],
+  "top_spenders_for_offices": [
+    {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 1200.0
+    },
+    {
+      "name": "Oakland Education Association PAC",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 1200.0
+    },
+    {
+      "name": "Peralta Federation of Teachers COPE",
+      "type": "Office",
+      "election_name": "oakland-2023",
+      "total_spending": 1200.0
+    }
+  ],
+  "top_spenders_for_measures": [
+
+  ]
+}
