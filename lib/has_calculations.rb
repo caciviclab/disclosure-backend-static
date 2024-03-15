@@ -20,4 +20,17 @@ module HasCalculations
 
     cattr_accessor :processed_calculations do Set.new end
   end
+
+  def round_numbers(obj)
+    case obj
+    when Hash
+      obj.transform_values { |v| round_numbers(v) }
+    when Array
+      obj.map { |v| round_numbers(v) }
+    when Float
+      obj.round(2)
+    else
+      obj
+    end
+  end
 end
