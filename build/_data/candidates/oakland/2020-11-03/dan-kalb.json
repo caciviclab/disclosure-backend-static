@@ -1,5 +1,5 @@
 {
-  "id": 73,
+  "id": 107,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": "https://www.dankalb.net/",
@@ -74,7 +74,8 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 11824.51
     },
     "supporting_by_type": {
-      "MON": 2500.0,
+      "IKD": 300.0,
+      "MON": 6200.0,
       "Mailer": 32697.0,
       "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
@@ -82,6 +83,7 @@
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 13241.65
     },
     "opposition_list": [
 

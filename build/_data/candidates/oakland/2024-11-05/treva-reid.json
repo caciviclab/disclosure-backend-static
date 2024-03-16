@@ -1,5 +1,5 @@
 {
-  "id": 17,
+  "id": 182,
   "name": "Treva Reid",
   "photo_url": "Treva-Reid",
   "website_url": null,
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1439424,
   "supporting_money": {
-    "contributions_received": 10088.01,
-    "total_contributions": 10088.01,
-    "total_expenditures": 1696.67,
+    "contributions_received": 22397.5,
+    "total_contributions": 22397.5,
+    "total_expenditures": 14006.16,
     "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
@@ -32,14 +32,14 @@
     "contributions_by_type": {
       "Committee": 1500.0,
       "Individual": 18349.5,
-      "Unitemized": 1187.0
+      "Unitemized": 2548.0
     },
     "contributions_by_origin": {
       "Out of State": 7400.0,
       "Within Oakland": 5100.0,
       "Within California": 7349.5
     },
-    "total_small_contributions": 1187.0,
+    "total_small_contributions": 2548.0,
     "expenditures_by_type": {
       "Not Stated": 50.0,
       "Fundraising Events": 354.63,
@@ -48,7 +48,8 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 8701.09
     },
     "supporting_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 20625.89
+      "MON": 2500.0,
+      "Independent Expenditure Supporting/Opposing Others": 23436.21
     }
   },
   "opposing_money": {
@@ -60,7 +61,7 @@
 
     ]
   },
-  "total_contributions": 10088.01,
-  "total_expenditures": 1696.67,
+  "total_contributions": 22397.5,
+  "total_expenditures": 14006.16,
   "total_loans_received": 0.0
 }

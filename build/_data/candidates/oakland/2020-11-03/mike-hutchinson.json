@@ -1,5 +1,5 @@
 {
-  "id": 96,
+  "id": 127,
   "name": "Mike Hutchinson",
   "photo_url": null,
   "website_url": null,
@@ -23,7 +23,7 @@
   "supporting_money": {
     "contributions_received": 27381.49,
     "total_contributions": 27381.49,
-    "total_expenditures": 17255.5,
+    "total_expenditures": 20903.85,
     "total_loans_received": 0.0,
     "total_supporting_independent": 65808.79,
     "support_list": [
@@ -58,15 +58,16 @@
       "Print Ads": 325.0,
       "Phone Banks": 500.0,
       "Contribution": 1295.0,
-      "Office Expenses": 4191.63,
+      "Office Expenses": 4239.63,
       "Campaign Paraphernalia/Misc.": 2644.98,
       "Candidate Filing/Ballot Fees": 950.0,
       "Campaign Literature and Mailings": 5194.77,
-      "Professional Services (Legal, Accounting)": 1750.65
+      "Professional Services (Legal, Accounting)": 5008.05
     },
     "supporting_by_type": {
-      "MON": 3400.0,
-      "Independent Expenditure Supporting/Opposing Others": 65808.79
+      "IKD": 5944.18,
+      "MON": 5100.0,
+      "Independent Expenditure Supporting/Opposing Others": 67394.22
     }
   },
   "opposing_money": {
@@ -78,6 +79,6 @@
     ]
   },
   "total_contributions": 27381.49,
-  "total_expenditures": 17255.5,
+  "total_expenditures": 20903.85,
   "total_loans_received": 0.0
 }

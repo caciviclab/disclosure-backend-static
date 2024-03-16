@@ -3,13 +3,13 @@
   "total_contributions_by_source": {
     "Out of State": 136291.89,
     "Within Oakland": 1524510.36,
-    "Within California": 924027.56
+    "Within California": 924027.5599999999
   },
   "contributions_by_type": {
     "Committee": 148288.05,
-    "Individual": 1728146.02,
+    "Individual": 1728146.0200000003,
     "Unitemized": 141983.16,
-    "Self Funding": 468306.3999999999,
+    "Self Funding": 468306.39999999997,
     "Other (includes Businesses)": 240089.34
   },
   "most_expensive_races": [
@@ -17,13 +17,13 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1865761.2000000002
+      "amount": 1865761.1999999997
     },
     {
       "slug": "city-council-district-2",
       "type": "office",
       "title": "City Council District 2",
-      "amount": 398594.60000000003
+      "amount": 398594.6
     },
     {
       "slug": "city-council-district-4",
