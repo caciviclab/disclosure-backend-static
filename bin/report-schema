@@ -10,6 +10,5 @@ fi
 
 DATABASE_NAME=$1
 
-FIRST_COPY_LINE="$(pg_dump ${DATABASE_NAME} | grep 'COPY' | head -n 1)"
-pg_dump $DATABASE_NAME | grep -i -B 5000 "$FIRST_COPY_LINE" | head -n -5 > build/schema.sql
+pg_dump --schema-only $DATABASE_NAME > build/schema.sql
 
