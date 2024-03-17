@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2014-11-04.md
 candidates:
-- libby-schaaf
 - rebecca-kaplan
+- libby-schaaf
 - dan-siegel
 - jean-quan
 - bryan-parker
