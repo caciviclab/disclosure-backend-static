@@ -1,15 +1,15 @@
 {
-  "total_contributions": 2673481.65,
+  "total_contributions": 2649446.65,
   "total_contributions_by_source": {
     "Out of State": 130591.89,
-    "Within Oakland": 1395872.1300000004,
-    "Within California": 839215.3999999999
+    "Within Oakland": 1395872.13,
+    "Within California": 839215.4
   },
   "contributions_by_type": {
     "Committee": 103895.35,
-    "Individual": 1586431.3300000003,
-    "Unitemized": 138725.16,
-    "Self Funding": 468306.39999999997,
+    "Individual": 1586431.33,
+    "Unitemized": 136890.16,
+    "Self Funding": 468306.4,
     "Other (includes Businesses)": 207046.34
   },
   "most_expensive_races": [
@@ -29,7 +29,7 @@
       "slug": "city-council-district-4",
       "type": "office",
       "title": "City Council District 4",
-      "amount": 201865.84999999998
+      "amount": 182895.85
     }
   ],
   "largest_small_proportion": [
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Karl Debro",
-      "proportion": 0.8354777834963116,
+      "proportion": 0.84,
       "office_title": "OUSD School Director District 4"
     },
     {
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Renato Almanzor",
-      "proportion": 0.24336392954601835,
+      "proportion": 0.24,
       "office_title": "OUSD School Director District 6"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Shereda Nosakhare",
-      "proportion": 0.2200833157215558,
+      "proportion": 0.21,
       "office_title": "City Council District 6"
     }
   ],

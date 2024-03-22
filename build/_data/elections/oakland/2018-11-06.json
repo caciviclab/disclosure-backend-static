@@ -1,16 +1,16 @@
 {
-  "total_contributions": 6946242.44,
+  "total_contributions": 6930441.34,
   "total_contributions_by_source": {
     "Out of State": 962276.36,
-    "Within Oakland": 2724177.6200000006,
-    "Within California": 2987941.1799999997
+    "Within Oakland": 2724177.62,
+    "Within California": 2987941.18
   },
   "contributions_by_type": {
     "Committee": 1007966.04,
     "Individual": 2820913.61,
-    "Unitemized": 157802.18,
+    "Unitemized": 155830.18,
     "Self Funding": 89184.25,
-    "Other (includes Businesses)": 2756331.2600000002
+    "Other (includes Businesses)": 2756331.26
   },
   "most_expensive_races": [
     {
@@ -23,7 +23,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 948942.6900000001
+      "amount": 948942.69
     },
     {
       "slug": "just-cause-eviction-amendments",
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Marchon Tatmon",
-      "proportion": 0.3183577599099178,
+      "proportion": 0.32,
       "office_title": "Mayor"
     },
     {
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Cat Brooks",
-      "proportion": 0.2948657980114942,
+      "proportion": 0.29,
       "office_title": "Mayor"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Clarissa Doutherd",
-      "proportion": 0.19686159105782725,
+      "proportion": 0.2,
       "office_title": "OUSD District 4"
     }
   ],
