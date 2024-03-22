@@ -1,0 +1,110 @@
+{
+  "id": 148,
+  "name": "Sheng Thao",
+  "photo_url": "Sheng-Thao-2022.jpg",
+  "website_url": "https://www.shengforoakland.com/",
+  "twitter_url": "shengforoakland",
+  "facebook_url": "https://www.facebook.com/ShengforOakland",
+  "instagram_url": "shengforoakland",
+  "map_url": "https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442594&since=2020-02-22&until=2022-06-30",
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/104-c6a989/address/null/zip/94611/contests/contest/24183/candidate/158505?&cty=ca%2falm&date=2022-11-08",
+  "first_name": "Sheng",
+  "last_name": "Thao",
+  "ballot_item": 1,
+  "office_election": 1,
+  "bio": null,
+  "committee_name": "Sheng Thao for Oakland Mayor 2022",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Oakland City Councilmember",
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1442594,
+  "supporting_money": {
+    "contributions_received": 574120.47,
+    "total_contributions": 574120.47,
+    "total_expenditures": 733258.06,
+    "total_loans_received": 500.0,
+    "total_supporting_independent": 747110.92,
+    "support_list": [
+      {
+        "Total": 173701.0,
+        "Cand_ID": 1442594,
+        "Filer_ID": "1451915",
+        "Filer_NamL": "East and South Bay Working Families United sponsored by labor organizations",
+        "election_name": "oakland-2022"
+      },
+      {
+        "Total": 2798.92,
+        "Cand_ID": 1442594,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2022"
+      },
+      {
+        "Total": 570611.0,
+        "Cand_ID": 1442594,
+        "Filer_ID": "1452920",
+        "Filer_NamL": "Working Families for a Better Oakland supporting Sheng Thao for Oakland Mayor 2022",
+        "election_name": "oakland-2022"
+      }
+    ],
+    "contributions_by_type": {
+      "Committee": 72200.0,
+      "Individual": 347670.47,
+      "Unitemized": 28291.0,
+      "Other (includes Businesses)": 31180.0
+    },
+    "contributions_by_origin": {
+      "Out of State": 42282.0,
+      "Within Oakland": 120357.0,
+      "Within California": 288411.47
+    },
+    "total_small_contributions": 34714.0,
+    "expenditures_by_type": {
+      "Print Ads": 500.0,
+      "Not Stated": 5904.75,
+      "Phone Banks": 125.52,
+      "Contribution": 5500.0,
+      "Office Expenses": 11013.49,
+      "Fundraising Events": 46288.15,
+      "Campaign Consultants": 186279.16,
+      "Meetings and Appearances": 2685.84,
+      "Campaign Paraphernalia/Misc.": 53290.21,
+      "Candidate Filing/Ballot Fees": 2109.16,
+      "Campaign Literature and Mailings": 241899.15,
+      "Candidate Travel, Lodging, and Meals": 7014.28,
+      "Staff/Spouse Travel, Lodging, and Meals": 5974.74,
+      "Postage, Delivery and Messenger Services": 36235.67,
+      "Professional Services (Legal, Accounting)": 3497.5,
+      "T.V. or Cable Airtime and Production Costs": 92758.0,
+      "Information Technology Costs (Internet, E-mail)": 20170.88,
+      "Transfer Between Committees of the Same Candidate/sponsor": 3600.0
+    },
+    "supporting_by_type": {
+      "MON": 6300.0,
+      "Mailer": 8117.0,
+      "Phone and canvass campaign": 140344.0,
+      "Phone and canvassing campaign": 33357.0,
+      "Independent Expenditure Supporting/Opposing Others": 730727.08
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 3520.67,
+    "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 3520.67
+    },
+    "opposition_list": [
+      {
+        "Total": 3520.67,
+        "Cand_ID": 1442594,
+        "Filer_ID": "1452451",
+        "Filer_NamL": "Californians for Safer Streets Supporting Ignacio De La Fuente for Mayor of Oakland 2022",
+        "election_name": "oakland-2022"
+      }
+    ]
+  },
+  "total_contributions": 574120.47,
+  "total_expenditures": 733258.06,
+  "total_loans_received": 500.0
+}

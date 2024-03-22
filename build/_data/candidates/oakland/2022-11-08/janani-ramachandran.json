@@ -1,0 +1,84 @@
+{
+  "id": 149,
+  "name": "Janani Ramachandran",
+  "photo_url": "Janani_Ramachandran.png",
+  "website_url": "https://jananiforoakland.com/",
+  "twitter_url": "Janani4Oakland",
+  "facebook_url": "https://www.facebook.com/jananiforoakland",
+  "instagram_url": "janani4oakland",
+  "map_url": "https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2022&candidates=1442792&since=2020-02-22&until=2022-06-30",
+  "votersedge_url": "https://votersedge.org/ca/en/ballot/election/104-c6a989/address/null/zip/94611/contests/contest/24181/candidate/158492?&cty=ca%2falm&date=2022-11-08",
+  "first_name": "Janani",
+  "last_name": "Ramachandran",
+  "ballot_item": 4,
+  "office_election": 4,
+  "bio": null,
+  "committee_name": "Janani Ramachandran for Oakland City Council, District 4",
+  "is_accepted_expenditure_ceiling": true,
+  "is_incumbent": false,
+  "occupation": "Public Interest Attorney",
+  "party_affiliation": null,
+  "is_winner": null,
+  "filer_id": 1442792,
+  "supporting_money": {
+    "contributions_received": 178133.19,
+    "total_contributions": 178133.19,
+    "total_expenditures": 196345.82,
+    "total_loans_received": 5000.0,
+    "total_supporting_independent": 2113.9,
+    "support_list": [
+      {
+        "Total": 2113.9,
+        "Cand_ID": 1442792,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2022"
+      }
+    ],
+    "contributions_by_type": {
+      "Committee": 30142.5,
+      "Individual": 129326.0,
+      "Unitemized": 10855.0,
+      "Self Funding": 900.0,
+      "Other (includes Businesses)": 1909.69
+    },
+    "contributions_by_origin": {
+      "Out of State": 21960.0,
+      "Within Oakland": 52169.25,
+      "Within California": 88148.94
+    },
+    "total_small_contributions": 18540.0,
+    "expenditures_by_type": {
+      "Not Stated": 10172.6,
+      "Phone Banks": 16380.8,
+      "Contribution": 100.0,
+      "Office Expenses": 5817.53,
+      "Fundraising Events": 465.92,
+      "Campaign Consultants": 20000.0,
+      "Meetings and Appearances": 1014.68,
+      "Campaign Workers' Salaries": 9480.0,
+      "Campaign Paraphernalia/Misc.": 14369.67,
+      "Candidate Filing/Ballot Fees": 1415.91,
+      "Campaign Literature and Mailings": 64252.81,
+      "Professional Services (Legal, Accounting)": 20851.5,
+      "Information Technology Costs (Internet, E-mail)": 31559.54
+    },
+    "supporting_by_type": {
+      "Digital Ads Estimate $1,038.41": 1000.0,
+      "Voter Guide Digital Ads Estimate $1,038.41": 6.0,
+      "Independent Expenditure Supporting/Opposing Others": 2113.9,
+      "Voter Guide Design and Production: Staff Time & Costs $1,038.41": 32.0
+    }
+  },
+  "opposing_money": {
+    "opposing_expenditures": 0.0,
+    "opposing_by_type": {
+    },
+    "opposition_list": [
+
+    ]
+  },
+  "total_contributions": 178133.19,
+  "total_expenditures": 196345.82,
+  "total_loans_received": 5000.0
+}
