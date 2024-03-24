@@ -146,7 +146,7 @@ CREATE TABLE public."A-Contributions" (
     "tblCover_Office_Cd" character varying(32),
     "tblCover_Offic_Dscr" character varying(32),
     "Rec_Type" character varying(4) NOT NULL,
-    "Form_Type" time without time zone NOT NULL,
+    "Form_Type" character varying(1) NOT NULL,
     "Tran_ID" character varying(12) NOT NULL,
     "Entity_Cd" character varying(3) NOT NULL,
     "Tran_NamL" character varying(199) NOT NULL,
@@ -921,7 +921,7 @@ CREATE TABLE public."G-Expenditure" (
     "Expn_ChkNo" character varying(4),
     "Expn_Code" character varying(4),
     "Expn_Dscr" character varying(171),
-    "Agent_NamL" character varying(67) NOT NULL,
+    "Agent_NamL" character varying(128) NOT NULL,
     "Agent_NamF" character varying(14),
     "Agent_NamT" character varying(4),
     "Agent_NamS" character varying(32),
@@ -994,7 +994,7 @@ CREATE TABLE public."H-Loans" (
     "Loan_Amt2" double precision NOT NULL,
     "Loan_Amt3" double precision NOT NULL,
     "Loan_Amt4" double precision NOT NULL,
-    "Loan_Rate" integer,
+    "Loan_Rate" double precision,
     "Loan_EMP" character varying(32),
     "Loan_OCC" character varying(32),
     "Loan_Self" boolean NOT NULL,
@@ -1123,7 +1123,7 @@ ALTER TABLE public."I-Contributions" OWNER TO travis;
 CREATE TABLE public.committees (
     "Ballot_Measure_Election" character varying(18),
     "Filer_ID" character varying(32) NOT NULL,
-    "Filer_NamL" character varying(173) NOT NULL,
+    "Filer_NamL" character varying(255) NOT NULL,
     "_Status" character varying(19),
     "_Committee_Type" character varying(11),
     "Ballot_Measure" character varying(10),
@@ -2009,4 +2009,56 @@ ALTER TABLE ONLY public.office_elections ALTER COLUMN id SET DEFAULT nextval('pu
 
 ALTER TABLE ONLY public.referendums ALTER COLUMN id SET DEFAULT nextval('public.referendums_id_seq'::regclass);
 
+
+--
+-- Name: calculations calculations_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+--
+
+ALTER TABLE ONLY public.calculations
+    ADD CONSTRAINT calculations_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: candidates candidates_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+--
+
+ALTER TABLE ONLY public.candidates
+    ADD CONSTRAINT candidates_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: committees committees_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+--
+
+ALTER TABLE ONLY public.committees
+    ADD CONSTRAINT committees_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: elections elections_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+--
+
+ALTER TABLE ONLY public.elections
+    ADD CONSTRAINT elections_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: office_elections office_elections_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+--
+
+ALTER TABLE ONLY public.office_elections
+    ADD CONSTRAINT office_elections_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: referendums referendums_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+--
+
+ALTER TABLE ONLY public.referendums
+    ADD CONSTRAINT referendums_pkey PRIMARY KEY (id);
+
+
+--
+-- PostgreSQL database dump complete
+--
 

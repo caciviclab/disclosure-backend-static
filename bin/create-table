@@ -1,0 +1,32 @@
+#!/bin/bash
+# Usage: ./bin/create-table [database name] [csv path] [table name]
+#        ./bin/create-table disclosure-backend downloads/csv A-Contributions
+set -euo pipefail
+
+if [ $# -ne 3 ]; then
+  echo 'Usage: ./bin/create-table [database name] [csv path] [table name]'
+  exit 1
+fi
+
+DATABASE_NAME=$1
+csv_path=$2
+table_name=$3
+filename_glob=$csv_path'/*'${table_name}'.csv'
+
+# create schema file if it's not there
+DBSCHEMA_FILEPATH="dbschema/$table_name.sql"
+if [ ! -f $DBSCHEMA_FILEPATH ]; then
+  echo "Creating db schema file $DBSCHEMA_FILEPATH for table $table_name"
+  csvstack $filename_glob 2> /dev/null | \
+    csvsql -i postgresql --tables $table_name > $DBSCHEMA_FILEPATH
+fi
+
+# create table if it's not there
+if psql $DATABASE_NAME -c '\d "'${table_name}'"' >/dev/null 2>&1; then
+  echo "Table $table_name exists, so no need to create"
+else
+  echo "Creating $table_name using $DBSCHEMA_FILEPATH"
+  psql --dbname $DATABASE_NAME -f $DBSCHEMA_FILEPATH
+fi
+
+  

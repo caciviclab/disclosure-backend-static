@@ -9,10 +9,12 @@ services:
   - postgresql
 sudo: required
 install:
+  - python --version
   - rvm install 2.7.1
   - pip install 'urllib3[secure]'
   - pip install -r requirements.txt
   - bundle install
+  - pip show csvkit
 cache:
   - bundler
   - pip

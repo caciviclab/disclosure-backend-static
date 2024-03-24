@@ -1,0 +1,20 @@
+#!/bin/bash
+# Usage: ./bin/remove-whitespace [database name] [table name] [column name]
+#        ./bin/remove-whitespace disclosure-backend candidates Candidate
+set -euo pipefail
+
+if [ $# -ne 3 ]; then
+  echo 'Usage: ./bin/remove-whitespace [database name] [table name] [column name]'
+  exit 1
+fi
+
+database_name=$1
+table_name=$2
+column_name=$3
+
+# trim leading and trailing white spaces
+cat <<-QUERY | psql ${database_name}
+  \\set ON_ERROR_STOP on
+  UPDATE "$table_name" t SET "$column_name" = REGEXP_REPLACE(REGEXP_REPLACE("$column_name", '^\s+', ''), '\s+$', '');
+
+QUERY
