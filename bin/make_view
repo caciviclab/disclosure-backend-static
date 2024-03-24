@@ -198,7 +198,8 @@ CREATE VIEW independent_candidate_expenditures AS
   AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
 
-DROP VIEW IF EXISTS clean_summary;
+-- Remove summary data that is covered by a report that includes that time period
+DROP VIEW IF EXISTS clean_summary CASCADE;
 CREATE VIEW clean_summary AS
   SELECT * from "Summary" s
   WHERE
@@ -209,7 +210,6 @@ CREATE VIEW clean_summary AS
     )
 ;
 
-## Remove summary data that is covered by a report that includes that time period
 DROP VIEW IF EXISTS candidate_summary;
 CREATE VIEW candidate_summary AS
   SELECT election_name, "Candidate", s.*
