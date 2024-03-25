@@ -29,19 +29,23 @@ class Referendum < ActiveRecord::Base
 
   def supporting_data
     data.merge(
-      contributions_by_region: calculation(:supporting_locales) || [],
-      contributions_by_type: calculation(:supporting_type) || [],
-      supporting_organizations: calculation(:supporting_organizations) || [],
-      total_contributions: calculation(:supporting_total) || [],
+      round_numbers(
+        contributions_by_region: calculation(:supporting_locales) || [],
+        contributions_by_type: calculation(:supporting_type) || [],
+        supporting_organizations: calculation(:supporting_organizations) || [],
+        total_contributions: calculation(:supporting_total) || [],
+      )
     )
   end
 
   def opposing_data
     data.merge(
-      contributions_by_region: calculation(:opposing_locales) || [],
-      contributions_by_type: calculation(:opposing_type) || [],
-      opposing_organizations: calculation(:opposing_organizations) || [],
-      total_contributions: calculation(:opposing_total) || [],
+      round_numbers(
+        contributions_by_region: calculation(:opposing_locales) || [],
+        contributions_by_type: calculation(:opposing_type) || [],
+        opposing_organizations: calculation(:opposing_organizations) || [],
+        total_contributions: calculation(:opposing_total) || [],
+      )
     )
   end
 end

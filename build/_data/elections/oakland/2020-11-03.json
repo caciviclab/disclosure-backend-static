@@ -1,14 +1,14 @@
 {
-  "total_contributions": 3109552.78,
+  "total_contributions": 3002117.6,
   "total_contributions_by_source": {
     "Out of State": 191042.27,
-    "Within Oakland": 1410190.2599999998,
+    "Within Oakland": 1410190.26,
     "Within California": 1114826.05
   },
   "contributions_by_type": {
     "Committee": 446516.93,
-    "Individual": 1806968.6099999999,
-    "Unitemized": 215166.18999999994,
+    "Individual": 1806968.61,
+    "Unitemized": 208327.35,
     "Self Funding": 134466.64,
     "Other (includes Businesses)": 328106.4
   },
@@ -23,13 +23,13 @@
       "slug": "city-council-district-3",
       "type": "office",
       "title": "City Council District 3",
-      "amount": 505811.91000000003
+      "amount": 505811.91
     },
     {
-      "slug": "city-council-district-7",
-      "type": "office",
-      "title": "City Council District 7",
-      "amount": 452456.32999999996
+      "slug": "ousd-facilities-bond",
+      "type": "referendum",
+      "title": "Measure Y",
+      "amount": 367195.08
     }
   ],
   "largest_small_proportion": [
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Stacy Thomas",
-      "proportion": 0.42857142857142855,
+      "proportion": 0.43,
       "office_title": "School Board District 1"
     },
     {
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Tri Ngo",
-      "proportion": 0.3032000954178602,
+      "proportion": 0.3,
       "office_title": "City Council District 1"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 3rd, 2020 General Election",
       "candidate": "Zoe Lopez-Meraz",
-      "proportion": 0.24977214936318667,
+      "proportion": 0.25,
       "office_title": "City Council District 5"
     }
   ],

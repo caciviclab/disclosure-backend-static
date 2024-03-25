@@ -95,19 +95,4 @@ class Candidate < ActiveRecord::Base
       contributions: calculation(:contribution_list) || [],
     }
   end
-
-  private
-
-  def round_numbers(obj)
-    case obj
-    when Hash
-      obj.transform_values { |v| round_numbers(v) }
-    when Array
-      obj.map { |v| round_numbers(v) }
-    when Float
-      obj.round(2)
-    else
-      obj
-    end
-  end
 end
