@@ -1,14 +1,14 @@
 {
-  "total_contributions": 226999.05,
+  "total_contributions": 226398.05,
   "total_contributions_by_source": {
     "Out of State": 23725.0,
     "Within Oakland": 61842.0,
-    "Within California": 127995.05
+    "Within California": 127395.05
   },
   "contributions_by_type": {
-    "Committee": 44450.0,
-    "Individual": 167211.05,
-    "Unitemized": 13437.0,
+    "Committee": 47050.0,
+    "Individual": 164011.05,
+    "Unitemized": 13436.0,
     "Self Funding": 101.0,
     "Other (includes Businesses)": 1800.0
   },
@@ -17,7 +17,7 @@
       "slug": "city-council-district-1",
       "type": "office",
       "title": "City Council District 1",
-      "amount": 126650.55
+      "amount": 126049.55
     },
     {
       "slug": "city-council-district-3",
@@ -72,9 +72,9 @@
       "total_contributions": 2400.0
     },
     {
-      "name": "Firefighters for Better Government",
+      "name": "Dow Terry",
       "election_name": "oakland-2024",
-      "total_contributions": 2000.0
+      "total_contributions": 1800.0
     }
   ],
   "top_contributors_for_offices": [
@@ -91,10 +91,10 @@
       "total_contributions": 2400.0
     },
     {
-      "name": "Firefighters for Better Government",
+      "name": "Todd Scanlin",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_contributions": 2000.0
+      "total_contributions": 1800.0
     }
   ],
   "top_contributors_for_measures": [
@@ -114,10 +114,10 @@
       "total_spending": 2400.0
     },
     {
-      "name": "Firefighters for Better Government",
+      "name": "Todd Scanlin",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_spending": 2000.0
+      "total_spending": 1800.0
     }
   ],
   "top_spenders_for_offices": [
@@ -134,10 +134,10 @@
       "total_spending": 2400.0
     },
     {
-      "name": "Firefighters for Better Government",
+      "name": "Todd Scanlin",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_spending": 2000.0
+      "total_spending": 1800.0
     }
   ],
   "top_spenders_for_measures": [
