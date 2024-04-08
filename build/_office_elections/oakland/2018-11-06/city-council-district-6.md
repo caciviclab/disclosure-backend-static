@@ -4,8 +4,8 @@ candidates:
 - loren-taylor
 - desley-brooks
 - natasha-middleton
-- mya-whitaker
 - maria-marlo-rodriguez
+- mya-whitaker
 title: City Council District 6
 label: City Council
 ---

@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2020-11-03.md
 candidates:
-- robert-bob-jackson
 - treva-reid
+- robert-bob-jackson
 - aaron-clay
 - marchon-tatmon
 - marcie-hodge

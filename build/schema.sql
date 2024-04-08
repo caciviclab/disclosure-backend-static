@@ -1684,6 +1684,35 @@ CREATE VIEW public.candidate_e_expenditure AS
 ALTER TABLE public.candidate_e_expenditure OWNER TO travis;
 
 --
+-- Name: clean_summary; Type: VIEW; Schema: public; Owner: travis
+--
+
+CREATE VIEW public.clean_summary AS
+ SELECT s."Filer_ID",
+    s."Filer_NamL",
+    s."Report_Num",
+    s."Committee_Type",
+    s."Rpt_Date",
+    s."From_Date",
+    s."Thru_Date",
+    s."Elect_Date",
+    s."tblCover_Office_Cd",
+    s."tblCover_Offic_Dscr",
+    s."Rec_Type",
+    s."Form_Type",
+    s."Line_Item",
+    s."Amount_A",
+    s."Amount_B",
+    s."Amount_C"
+   FROM public."Summary" s
+  WHERE (NOT (EXISTS ( SELECT t."Rpt_Date"
+           FROM public."Summary" t
+          WHERE (((s."Filer_ID")::text = (t."Filer_ID")::text) AND (t."From_Date" <= s."From_Date") AND (s."Thru_Date" <= t."Thru_Date") AND ((t."From_Date" <> s."From_Date") OR (s."Thru_Date" <> t."Thru_Date"))))));
+
+
+ALTER TABLE public.clean_summary OWNER TO travis;
+
+--
 -- Name: candidate_summary; Type: VIEW; Schema: public; Owner: travis
 --
 
@@ -1706,7 +1735,7 @@ CREATE VIEW public.candidate_summary AS
     s."Amount_A",
     s."Amount_B",
     s."Amount_C"
-   FROM public."Summary" s,
+   FROM public.clean_summary s,
     public.candidates c
   WHERE ((((c."FPPC")::character varying)::text = (s."Filer_ID")::text) AND ((c."Start_Date" IS NULL) OR (s."From_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (s."Thru_Date" <= c."End_Date")));
 

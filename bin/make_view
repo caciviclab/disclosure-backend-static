@@ -198,10 +198,22 @@ CREATE VIEW independent_candidate_expenditures AS
   AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
 
+-- Remove summary data that is covered by a report that includes that time period
+DROP VIEW IF EXISTS clean_summary CASCADE;
+CREATE VIEW clean_summary AS
+  SELECT * from "Summary" s
+  WHERE
+  NOT EXISTS
+    (select t."Rpt_Date" from "Summary" t where s."Filer_ID" = t."Filer_ID"
+    and t."From_Date" <= s."From_Date" and s."Thru_Date" <= t."Thru_Date"
+    and (t."From_Date" <> s."From_Date" or s."Thru_Date" <> t."Thru_Date")
+    )
+;
+
 DROP VIEW IF EXISTS candidate_summary;
 CREATE VIEW candidate_summary AS
   SELECT election_name, "Candidate", s.*
-  FROM "Summary" s, candidates c
+  FROM clean_summary s, candidates c
   WHERE cast ("FPPC" as character varying) = "Filer_ID"
   AND ("Start_Date" IS NULL OR "From_Date" >= "Start_Date")
   AND ("End_Date" IS NULL OR "Thru_Date" <= "End_Date");
