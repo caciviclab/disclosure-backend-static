@@ -25,8 +25,15 @@
     "total_contributions": 347445.36,
     "total_expenditures": 349939.31,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 744.45,
+    "total_supporting_independent": 10744.45,
     "support_list": [
+      {
+        "Total": 10000.0,
+        "Cand_ID": 1367270,
+        "Filer_ID": "COAK-1538",
+        "Filer_NamL": "Gay and Lesbian Victory Fund Committee To Support Rebecca Kaplan for City of Oakland Mayor 2014",
+        "election_name": "oakland-2014"
+      },
       {
         "Total": 744.45,
         "Cand_ID": 1367270,
@@ -75,7 +82,7 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 8450.0,
     "opposing_by_type": {
       "MON": 1500.0,
       "Cable ads": 150000.0,
@@ -83,7 +90,13 @@
       "Independent Expenditure Supporting/Opposing Others": 43450.0
     },
     "opposition_list": [
-
+      {
+        "Total": 8450.0,
+        "Cand_ID": 1367270,
+        "Filer_ID": "1370519",
+        "Filer_NamL": "Citizens for Oakland",
+        "election_name": "oakland-2014"
+      }
     ]
   },
   "total_contributions": 347445.36,
