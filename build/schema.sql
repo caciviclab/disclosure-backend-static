@@ -1913,9 +1913,14 @@ CREATE VIEW public.independent_candidate_expenditures AS
           WHERE (("D-Expenditure"."Expn_Code")::text = 'IND'::text)) all_data
      JOIN public.candidates c ON (((lower(btrim(concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL"))) = lower((c."Candidate")::text)) OR (lower((c."Aliases")::text) ~~ lower(concat('%', btrim(concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL")), '%'))))))
      JOIN public.elections e ON (((c.election_name)::text = (e.name)::text)))
-     JOIN ( SELECT DISTINCT ON (committees."Filer_ID") committees."Filer_ID",
-            committees."Filer_NamL"
-           FROM public.committees) committee ON (((committee."Filer_ID")::text = (all_data."Filer_ID")::text)))
+     JOIN ( SELECT c_1."Filer_ID",
+            c_1."Filer_NamL"
+           FROM ( SELECT committees."Filer_ID",
+                    committees."Filer_NamL",
+                    row_number() OVER (PARTITION BY committees."Filer_ID" ORDER BY committees."Ballot_Measure_Election" DESC NULLS LAST) AS rn
+                   FROM public.committees
+                  WHERE (committees."Ballot_Measure_Election" IS NOT NULL)) c_1
+          WHERE (c_1.rn = 1)) committee ON (((committee."Filer_ID")::text = (all_data."Filer_ID")::text)))
   WHERE (((e."Start_Date" IS NULL) OR (all_data."Exp_Date" >= e."Start_Date")) AND ((e."End_Date" IS NULL) OR (all_data."Exp_Date" <= e."End_Date")) AND (c."FPPC" IS NOT NULL) AND (c."FPPC" IS NOT NULL) AND (all_data."Cand_NamL" IS NOT NULL));
 
 
