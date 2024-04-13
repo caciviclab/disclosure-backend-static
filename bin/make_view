@@ -188,8 +188,14 @@ CREATE VIEW independent_candidate_expenditures AS
   ON c.election_name = e.name
   JOIN
   (
-    SELECT DISTINCT ON ("Filer_ID") "Filer_ID", "Filer_NamL"
-    FROM committees
+    -- TODO: possible join on "Ballot_Measure_Election"
+    SELECT "Filer_ID", "Filer_NamL" 
+    FROM (
+      SELECT "Filer_ID", "Filer_NamL", ROW_NUMBER() OVER (PARTITION BY "Filer_ID" ORDER BY "Ballot_Measure_Election" DESC NULLS LAST) AS rn
+      FROM committees
+      WHERE "Ballot_Measure_Election" IS NOT NULL
+    ) AS c 
+    WHERE rn=1
   ) committee
   ON committee."Filer_ID" = all_data."Filer_ID"
   WHERE (e."Start_Date" IS NULL OR "Exp_Date" >= e."Start_Date")
