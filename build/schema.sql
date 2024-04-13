@@ -1918,8 +1918,7 @@ CREATE VIEW public.independent_candidate_expenditures AS
            FROM ( SELECT committees."Filer_ID",
                     committees."Filer_NamL",
                     row_number() OVER (PARTITION BY committees."Filer_ID" ORDER BY committees."Ballot_Measure_Election" DESC NULLS LAST) AS rn
-                   FROM public.committees
-                  WHERE (committees."Ballot_Measure_Election" IS NOT NULL)) c_1
+                   FROM public.committees) c_1
           WHERE (c_1.rn = 1)) committee ON (((committee."Filer_ID")::text = (all_data."Filer_ID")::text)))
   WHERE (((e."Start_Date" IS NULL) OR (all_data."Exp_Date" >= e."Start_Date")) AND ((e."End_Date" IS NULL) OR (all_data."Exp_Date" <= e."End_Date")) AND (c."FPPC" IS NOT NULL) AND (c."FPPC" IS NOT NULL) AND (all_data."Cand_NamL" IS NOT NULL));
 

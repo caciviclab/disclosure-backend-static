@@ -25,9 +25,15 @@
     "total_contributions": 115502.98,
     "total_expenditures": 250571.9,
     "total_loans_received": -4211.02,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 8450.0,
     "support_list": [
-
+      {
+        "Total": 8450.0,
+        "Cand_ID": 1359017,
+        "Filer_ID": "1370519",
+        "Filer_NamL": "Citizens for Oakland",
+        "election_name": "oakland-2014"
+      }
     ],
     "contributions_by_type": {
       "Individual": 102747.0,
@@ -64,7 +70,7 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
     },
     "opposition_list": [
