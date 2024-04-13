@@ -193,7 +193,6 @@ CREATE VIEW independent_candidate_expenditures AS
     FROM (
       SELECT "Filer_ID", "Filer_NamL", ROW_NUMBER() OVER (PARTITION BY "Filer_ID" ORDER BY "Ballot_Measure_Election" DESC NULLS LAST) AS rn
       FROM committees
-      WHERE "Ballot_Measure_Election" IS NOT NULL
     ) AS c 
     WHERE rn=1
   ) committee
