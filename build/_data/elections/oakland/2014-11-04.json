@@ -1,35 +1,35 @@
 {
-  "total_contributions": 2895450.04,
+  "total_contributions": 2649446.65,
   "total_contributions_by_source": {
-    "Out of State": 136291.89,
-    "Within Oakland": 1524510.36,
-    "Within California": 924027.56
+    "Out of State": 130591.89,
+    "Within Oakland": 1395872.13,
+    "Within California": 839215.4
   },
   "contributions_by_type": {
-    "Committee": 148288.05,
-    "Individual": 1728146.02,
-    "Unitemized": 141289.38,
-    "Self Funding": 468306.3999999999,
-    "Other (includes Businesses)": 240089.34
+    "Committee": 103895.35,
+    "Individual": 1586431.33,
+    "Unitemized": 136890.16,
+    "Self Funding": 468306.4,
+    "Other (includes Businesses)": 207046.34
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1865761.2000000002
+      "amount": 1737849.04
     },
     {
       "slug": "city-council-district-2",
       "type": "office",
       "title": "City Council District 2",
-      "amount": 398594.60000000003
+      "amount": 332045.9
     },
     {
       "slug": "city-council-district-4",
       "type": "office",
       "title": "City Council District 4",
-      "amount": 221648.38
+      "amount": 182895.85
     }
   ],
   "largest_small_proportion": [
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Karl Debro",
-      "proportion": 0.8354777834963116,
+      "proportion": 0.84,
       "office_title": "OUSD School Director District 4"
     },
     {
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Renato Almanzor",
-      "proportion": 0.24336392954601835,
+      "proportion": 0.24,
       "office_title": "OUSD School Director District 6"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Shereda Nosakhare",
-      "proportion": 0.2200833157215558,
+      "proportion": 0.21,
       "office_title": "City Council District 6"
     }
   ],
@@ -62,7 +62,7 @@
     {
       "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
       "election_name": "oakland-2014",
-      "total_spending": 107576.90000000002
+      "total_spending": 107576.9
     },
     {
       "name": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO",
@@ -70,7 +70,7 @@
       "total_spending": 89243.48
     },
     {
-      "name": "OAKPAC, Oakland Metropolitan Chamber of Commerce",
+      "name": "OAK PAC, Oakland Metropolitan Chamber of Commerce",
       "election_name": "oakland-2014",
       "total_spending": 10446.26
     }

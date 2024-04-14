@@ -28,7 +28,7 @@ CREATE TABLE "G-Expenditure" (
 	"Expn_ChkNo" VARCHAR(4), 
 	"Expn_Code" VARCHAR(4), 
 	"Expn_Dscr" VARCHAR(171), 
-	"Agent_NamL" VARCHAR(58) NOT NULL, 
+	"Agent_NamL" VARCHAR(128) NOT NULL, 
 	"Agent_NamF" VARCHAR(14), 
 	"Agent_NamT" VARCHAR(4), 
 	"Agent_NamS" VARCHAR(32), 

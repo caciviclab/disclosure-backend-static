@@ -1,12 +1,12 @@
 {
-  "total_contributions": 17045.0,
+  "total_contributions": 17745.0,
   "total_contributions_by_source": {
     "Out of State": 500.0,
     "Within Oakland": 1100.0,
-    "Within California": 5050.0
+    "Within California": 5750.0
   },
   "contributions_by_type": {
-    "Individual": 6650.0,
+    "Individual": 7350.0,
     "Unitemized": 395.0
   },
   "most_expensive_races": [
@@ -14,7 +14,7 @@
       "slug": "city-auditor",
       "type": "office",
       "title": "City Auditor",
-      "amount": 17045.0
+      "amount": 17745.0
     }
   ],
   "largest_small_proportion": [
@@ -23,7 +23,7 @@
       "type": "office",
       "title": "Oakland March 5th, 2024 Special Election",
       "candidate": "Michael Houston",
-      "proportion": 0.029040774420651217,
+      "proportion": 0.03,
       "office_title": "City Auditor"
     }
   ],
@@ -31,30 +31,30 @@
   },
   "top_contributors": [
     {
-      "name": "Mary Preston",
-      "election_name": "oakland-march-2024",
-      "total_contributions": 600.0
-    },
-    {
       "name": "Monique C Houston",
       "election_name": "oakland-march-2024",
       "total_contributions": 600.0
     },
     {
-      "name": "Araina Lynn Hennen",
+      "name": "Steven Von Stade",
+      "election_name": "oakland-march-2024",
+      "total_contributions": 600.0
+    },
+    {
+      "name": "Mary Preston",
       "election_name": "oakland-march-2024",
       "total_contributions": 600.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Araina Lynn Hennen",
+      "name": "Monique C Houston",
       "type": "Office",
       "election_name": "oakland-march-2024",
       "total_contributions": 600.0
     },
     {
-      "name": "Monique C Houston",
+      "name": "Steven Von Stade",
       "type": "Office",
       "election_name": "oakland-march-2024",
       "total_contributions": 600.0
@@ -71,13 +71,13 @@
   ],
   "top_spenders": [
     {
-      "name": "Araina Lynn Hennen",
+      "name": "Monique C Houston",
       "type": "Office",
       "election_name": "oakland-march-2024",
       "total_spending": 600.0
     },
     {
-      "name": "Monique C Houston",
+      "name": "Steven Von Stade",
       "type": "Office",
       "election_name": "oakland-march-2024",
       "total_spending": 600.0
@@ -91,13 +91,13 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Araina Lynn Hennen",
+      "name": "Monique C Houston",
       "type": "Office",
       "election_name": "oakland-march-2024",
       "total_spending": 600.0
     },
     {
-      "name": "Monique C Houston",
+      "name": "Steven Von Stade",
       "type": "Office",
       "election_name": "oakland-march-2024",
       "total_spending": 600.0

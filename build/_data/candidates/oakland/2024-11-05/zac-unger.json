@@ -1,5 +1,5 @@
 {
-  "id": 11,
+  "id": 185,
   "name": "Zac Unger",
   "photo_url": "Zac-Unger",
   "website_url": "https://www.zac4oakland.com/",
@@ -21,31 +21,32 @@
   "is_winner": null,
   "filer_id": 1462377,
   "supporting_money": {
-    "contributions_received": 120280.55,
-    "total_contributions": 120280.55,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 125078.55,
+    "total_contributions": 125078.55,
+    "total_expenditures": 12304.02,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 40550.0,
-      "Individual": 78530.55,
+      "Committee": 43150.0,
+      "Individual": 76780.55,
+      "Unitemized": 3948.0,
       "Other (includes Businesses)": 1200.0
     },
     "contributions_by_origin": {
       "Out of State": 5200.0,
-      "Within Oakland": 31870.0,
-      "Within California": 83210.55
+      "Within Oakland": 31970.0,
+      "Within California": 83960.55
     },
-    "total_small_contributions": 525.0,
+    "total_small_contributions": 4473.0,
     "expenditures_by_type": {
-      "Office Expenses": 4053.51,
+      "Office Expenses": 4079.13,
       "Campaign Consultants": 3000.0,
       "Candidate Filing/Ballot Fees": 100.0,
       "Campaign Literature and Mailings": 1994.5,
-      "Professional Services (Legal, Accounting)": 1200.39
+      "Professional Services (Legal, Accounting)": 3100.39
     },
     "supporting_by_type": {
     }
@@ -58,7 +59,7 @@
 
     ]
   },
-  "total_contributions": 120280.55,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 125078.55,
+  "total_expenditures": 12304.02,
+  "total_loans_received": 0.0
 }

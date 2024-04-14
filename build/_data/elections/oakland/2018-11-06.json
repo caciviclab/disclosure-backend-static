@@ -1,16 +1,16 @@
 {
-  "total_contributions": 6735481.85,
+  "total_contributions": 6930441.34,
   "total_contributions_by_source": {
-    "Out of State": 950476.36,
-    "Within Oakland": 2657395.9,
-    "Within California": 2929226.3099999996
+    "Out of State": 962276.36,
+    "Within Oakland": 2724177.62,
+    "Within California": 2987941.18
   },
   "contributions_by_type": {
-    "Committee": 964346.17,
-    "Individual": 2737396.8899999997,
-    "Unitemized": 140451.48,
-    "Self Funding": 88684.25000000001,
-    "Other (includes Businesses)": 2746671.26
+    "Committee": 1007966.04,
+    "Individual": 2820913.61,
+    "Unitemized": 155830.18,
+    "Self Funding": 89184.25,
+    "Other (includes Businesses)": 2756331.26
   },
   "most_expensive_races": [
     {
@@ -23,7 +23,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 891924.69
+      "amount": 948942.69
     },
     {
       "slug": "just-cause-eviction-amendments",
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Marchon Tatmon",
-      "proportion": 0.3183577599099178,
+      "proportion": 0.32,
       "office_title": "Mayor"
     },
     {
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Cat Brooks",
-      "proportion": 0.2947611899150054,
+      "proportion": 0.29,
       "office_title": "Mayor"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 6th, 2018 Election",
       "candidate": "Clarissa Doutherd",
-      "proportion": 0.19686159105782725,
+      "proportion": 0.2,
       "office_title": "OUSD District 4"
     }
   ],
@@ -65,14 +65,14 @@
       "total_spending": 149368.03
     },
     {
-      "name": "East Bay Working Families, a coalition of unions and community groups",
+      "name": "East Bay Working Families",
       "election_name": "oakland-2018",
       "total_spending": 140824.0
     },
     {
       "name": "Oaklanders for Responsible Leadership, Opposing Desley Brooks for Oakland City Council 2018",
       "election_name": "oakland-2018",
-      "total_spending": 129086.79000000001
+      "total_spending": 129086.79
     }
   ],
   "top_contributors": [
@@ -97,7 +97,7 @@
       "name": "Brenda Roberts",
       "type": "Office",
       "election_name": "oakland-2018",
-      "total_contributions": 53757.130000000005
+      "total_contributions": 53757.13
     },
     {
       "name": "Charlie Michelson",
@@ -157,7 +157,7 @@
       "name": "Brenda Roberts",
       "type": "Office",
       "election_name": "oakland-2018",
-      "total_spending": 53757.130000000005
+      "total_spending": 53757.13
     },
     {
       "name": "Charlie Michelson",

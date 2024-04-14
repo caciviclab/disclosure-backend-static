@@ -1,0 +1,14 @@
+#!/bin/bash
+# Usage: ./bin/report-schema [database name]
+#        ./bin/report-schema disclosure-backend
+set -e
+
+if [ $# -ne 1 ]; then
+  echo 'Usage: ./bin/report-schema [database name]'
+  exit 1
+fi
+
+DATABASE_NAME=$1
+
+pg_dump --schema-only $DATABASE_NAME > build/schema.sql
+

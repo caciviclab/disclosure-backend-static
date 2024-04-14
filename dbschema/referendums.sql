@@ -4,8 +4,8 @@ CREATE TABLE referendums (
 	"Short_Title" VARCHAR(89) NOT NULL, 
 	"Full_Title" VARCHAR(332), 
 	"Summary" VARCHAR(1272), 
-	"VotersEdge" VARCHAR(155), 
+	"VotersEdge" VARCHAR(129), 
 	"Internal_notes" VARCHAR(104), 
-	data_warning VARCHAR(112), 
-	is_approved VARCHAR(81)
+	data_warning VARCHAR(32), 
+	is_approved BOOLEAN
 );

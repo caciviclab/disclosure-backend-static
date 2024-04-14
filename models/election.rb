@@ -34,7 +34,7 @@ class Election < ActiveRecord::Base
   end
 
   def data
-    {
+      round_numbers(
       total_contributions: calculation(:total_contributions).try(:to_f),
       total_contributions_by_source: calculation(:contributions_by_origin) || {},
       contributions_by_type: calculation(:contributions_by_type) || {},
@@ -47,6 +47,6 @@ class Election < ActiveRecord::Base
       top_spenders: calculation(:top_spenders) || [],
       top_spenders_for_offices: calculation(:top_spenders_for_offices) || [],
       top_spenders_for_measures: calculation(:top_spenders_for_measures) || [],
-    }
+      )
   end
 end

@@ -118,7 +118,8 @@ class CandidateContributionsByType
       results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT election_name, "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "candidate_summary"
         WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-          AND "Form_Type" = 'A' AND "Line_Item" = '2'
+          AND ( "Form_Type" = 'A' OR "Form_Type" = 'C')
+          AND "Line_Item" = '2'
         GROUP BY election_name, "Filer_ID"
         ORDER BY election_name, "Filer_ID"
       SQL

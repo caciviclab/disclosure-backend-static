@@ -26,7 +26,9 @@ services:
     network_mode: service:db
 
   db:
-    image: postgres:16.0-bullseye
+    #image: postgres:16.0-bullseye
+    #image: postgres:latest
+    image: postgres:15.4
     restart: unless-stopped
     volumes:
       - postgres-data:/var/lib/postgresql/data

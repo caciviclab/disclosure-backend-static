@@ -16,8 +16,9 @@ process: process.rb
 	# todo: remove RUBYOPT variable when activerecord fixes deprecation warnings
 	echo 'delete from calculations;'| psql $(DATABASE_NAME)
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
-	python bin/create-digests.py
-	python bin/report-candidates.py
+	bin/report-schema $(DATABASE_NAME)
+	bin/create-digests
+	bin/report-candidates
 	git --no-pager diff build/digests.json
 
 download-netfile-v2: 
@@ -70,46 +71,45 @@ import: recreatedb
 import-cached: recreatedb
 	cat downloads/cached-db/$(DATABASE_NAME).sql | psql $(DATABASE_NAME)
 
-import-spreadsheets: prep-import-spreadsheets do-import-spreadsheets
+import-spreadsheets: do-import-spreadsheets
 	./bin/make_view
 
-prep-import-spreadsheets:
-	echo 'DROP VIEW "Measure_Expenditures";' | psql $(DATABASE_NAME)
-	echo 'DROP VIEW "all_contributions" CASCADE;' | psql $(DATABASE_NAME)
-	echo 'DROP VIEW "independent_candidate_expenditures";' | psql $(DATABASE_NAME)
-
-
 do-import-spreadsheets:
-	echo 'DROP TABLE IF EXISTS candidates;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS candidates CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) candidates
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/candidates.csv
 	echo 'ALTER TABLE "candidates" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Candidate
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Committee_Name
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Facebook
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Instagram
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Twitter
+	./bin/remove-whitespace $(DATABASE_NAME) candidates Bio
 
-	echo 'DROP TABLE IF EXISTS referendums;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS referendums CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/referendums.csv
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) referendums Short_Title
+	./bin/remove-whitespace $(DATABASE_NAME) referendums Summary
 
-	echo 'DROP TABLE IF EXISTS name_to_number;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS name_to_number CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/name_to_number.csv
 
-	echo 'DROP TABLE IF EXISTS committees;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS committees CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) committees
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/committees.csv
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) committees Filer_NamL
 
-	echo 'DROP TABLE IF EXISTS office_elections;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS office_elections CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) office_elections
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/office_elections.csv
 	echo 'ALTER TABLE "office_elections" ALTER COLUMN title TYPE varchar(50);' | psql $(DATABASE_NAME)
 	echo 'ALTER TABLE "office_elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
-	echo 'DROP TABLE IF EXISTS elections;' | psql $(DATABASE_NAME)
+	echo 'DROP TABLE IF EXISTS elections CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) elections
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/elections.csv
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)

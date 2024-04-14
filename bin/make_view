@@ -188,8 +188,13 @@ CREATE VIEW independent_candidate_expenditures AS
   ON c.election_name = e.name
   JOIN
   (
-    SELECT DISTINCT ON ("Filer_ID") "Filer_ID", "Filer_NamL"
-    FROM committees
+    -- TODO: possible join on "Ballot_Measure_Election"
+    SELECT "Filer_ID", "Filer_NamL" 
+    FROM (
+      SELECT "Filer_ID", "Filer_NamL", ROW_NUMBER() OVER (PARTITION BY "Filer_ID" ORDER BY "Ballot_Measure_Election" DESC NULLS LAST) AS rn
+      FROM committees
+    ) AS c 
+    WHERE rn=1
   ) committee
   ON committee."Filer_ID" = all_data."Filer_ID"
   WHERE (e."Start_Date" IS NULL OR "Exp_Date" >= e."Start_Date")
@@ -198,10 +203,22 @@ CREATE VIEW independent_candidate_expenditures AS
   AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
 
+-- Remove summary data that is covered by a report that includes that time period
+DROP VIEW IF EXISTS clean_summary CASCADE;
+CREATE VIEW clean_summary AS
+  SELECT * from "Summary" s
+  WHERE
+  NOT EXISTS
+    (select t."Rpt_Date" from "Summary" t where s."Filer_ID" = t."Filer_ID"
+    and t."From_Date" <= s."From_Date" and s."Thru_Date" <= t."Thru_Date"
+    and (t."From_Date" <> s."From_Date" or s."Thru_Date" <> t."Thru_Date")
+    )
+;
+
 DROP VIEW IF EXISTS candidate_summary;
 CREATE VIEW candidate_summary AS
   SELECT election_name, "Candidate", s.*
-  FROM "Summary" s, candidates c
+  FROM clean_summary s, candidates c
   WHERE cast ("FPPC" as character varying) = "Filer_ID"
   AND ("Start_Date" IS NULL OR "From_Date" >= "Start_Date")
   AND ("End_Date" IS NULL OR "Thru_Date" <= "End_Date");

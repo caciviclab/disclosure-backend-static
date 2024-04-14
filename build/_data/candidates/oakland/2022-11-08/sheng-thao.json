@@ -1,5 +1,5 @@
 {
-  "id": 59,
+  "id": 148,
   "name": "Sheng Thao",
   "photo_url": "Sheng-Thao-2022.jpg",
   "website_url": "https://www.shengforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442594,
   "supporting_money": {
-    "contributions_received": 574120.47,
-    "total_contributions": 574120.47,
-    "total_expenditures": 733258.06,
+    "contributions_received": 465989.47,
+    "total_contributions": 465989.47,
+    "total_expenditures": 467765.88,
     "total_loans_received": 500.0,
     "total_supporting_independent": 747110.92,
     "support_list": [
@@ -52,7 +52,7 @@
     "contributions_by_type": {
       "Committee": 72200.0,
       "Individual": 347670.47,
-      "Unitemized": 28291.0,
+      "Unitemized": 20939.0,
       "Other (includes Businesses)": 31180.0
     },
     "contributions_by_origin": {
@@ -60,7 +60,7 @@
       "Within Oakland": 120357.0,
       "Within California": 288411.47
     },
-    "total_small_contributions": 34714.0,
+    "total_small_contributions": 27362.0,
     "expenditures_by_type": {
       "Print Ads": 500.0,
       "Not Stated": 5904.75,
@@ -82,10 +82,11 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 3600.0
     },
     "supporting_by_type": {
-      "MON": 1000.0,
+      "MON": 6300.0,
+      "Mailer": 8117.0,
       "Phone and canvass campaign": 140344.0,
       "Phone and canvassing campaign": 33357.0,
-      "Independent Expenditure Supporting/Opposing Others": 623176.92
+      "Independent Expenditure Supporting/Opposing Others": 730727.08
     }
   },
   "opposing_money": {
@@ -103,7 +104,7 @@
       }
     ]
   },
-  "total_contributions": 574120.47,
-  "total_expenditures": 733258.06,
+  "total_contributions": 465989.47,
+  "total_expenditures": 467765.88,
   "total_loans_received": 500.0
 }

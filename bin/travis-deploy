@@ -28,12 +28,16 @@ This is an automated update by travis-ci at
 '"$(date)"'
 
 [skip ci]'
+  # Push to the same branch instead of master
   git push \
     "https://$GITHUB_AUTH_TOKEN@github.com/caciviclab/disclosure-backend-static.git" \
-    HEAD:master \
+    HEAD:${TRAVIS_BRANCH} \
     | sed -e "s/$GITHUB_AUTH_TOKEN/[removed]/"
 
-  make upload-cache
+  if [ "${TRAVIS_BRANCH}" = "master" -a ! "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
+    # only upload cache if we're merging onto the main branch
+    make upload-cache
+  fi
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
@@ -42,8 +46,9 @@ elif [ ! -d "build" ]; then
   echo "The 'build' directory is missing. Bailing!"
 elif git diff --exit-code --quiet; then
   echo "No changes to deploy!"
-elif [ "${TRAVIS_BRANCH}" = "master" -a ! "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
+elif [ ! "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
+  echo "Deploying build on all branches when build directory changed and not pull request build"
   deploy
 else
-  echo "Not deploying since not a build on master branch"
+  echo "Not deploying build on pull requests"
 fi

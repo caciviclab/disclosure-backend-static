@@ -1,5 +1,5 @@
 {
-  "id": 105,
+  "id": 101,
   "name": "Treva Reid",
   "photo_url": "treva_reid_sub.jpg",
   "website_url": "https://www.reidforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1366759,
   "supporting_money": {
-    "contributions_received": 166664.47,
-    "total_contributions": 166664.47,
-    "total_expenditures": 164411.21,
+    "contributions_received": 166111.47,
+    "total_contributions": 166111.47,
+    "total_expenditures": 147254.0,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2810.32,
     "support_list": [
@@ -37,48 +37,45 @@
     ],
     "contributions_by_type": {
       "Committee": 15849.0,
-      "Individual": 124669.95,
-      "Unitemized": 10945.52,
+      "Individual": 124274.95,
+      "Unitemized": 10787.52,
       "Other (includes Businesses)": 15200.0
     },
     "contributions_by_origin": {
       "Out of State": 13329.62,
-      "Within Oakland": 60527.76,
-      "Within California": 81861.57
+      "Within Oakland": 61227.76,
+      "Within California": 80766.57
     },
-    "total_small_contributions": 13699.25,
+    "total_small_contributions": 13591.25,
     "expenditures_by_type": {
       "Print Ads": 3000.0,
       "Not Stated": 27157.2,
       "Phone Banks": 1500.0,
-      "Contribution": 1100.0,
-      "Office Expenses": 2333.82,
+      "Office Expenses": 1557.34,
       "Fundraising Events": 3946.14,
-      "Meetings and Appearances": 956.05,
-      "Campaign Workers' Salaries": 16906.91,
-      "Campaign Paraphernalia/Misc.": 41034.05,
+      "Meetings and Appearances": 224.48,
+      "Campaign Workers' Salaries": 16777.35,
+      "Campaign Paraphernalia/Misc.": 40584.05,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 24720.56,
-      "Candidate Travel, Lodging, and Meals": 662.4,
-      "Professional Services (Legal, Accounting)": 26315.39,
+      "Professional Services (Legal, Accounting)": 15139.84,
       "T.V. or Cable Airtime and Production Costs": 600.0,
-      "Information Technology Costs (Internet, E-mail)": 8236.12
+      "Information Technology Costs (Internet, E-mail)": 5819.86
     },
     "supporting_by_type": {
       "MON": 2500.0,
-      "Independent Expenditure Supporting/Opposing Others": 23436.21
+      "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
   },
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
-      "Independent Expenditure Supporting/Opposing Others": 3520.67
     },
     "opposition_list": [
 
     ]
   },
-  "total_contributions": 166664.47,
-  "total_expenditures": 164411.21,
+  "total_contributions": 166111.47,
+  "total_expenditures": 147254.0,
   "total_loans_received": 0.0
 }

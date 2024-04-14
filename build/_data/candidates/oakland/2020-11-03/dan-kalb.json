@@ -1,5 +1,5 @@
 {
-  "id": 73,
+  "id": 107,
   "name": "Dan Kalb",
   "photo_url": "https://s3-us-west-1.amazonaws.com/odca-candidate-photos/dan-kalb2.png",
   "website_url": "https://www.dankalb.net/",
@@ -45,7 +45,7 @@
     "contributions_by_type": {
       "Committee": 28988.67,
       "Individual": 117395.2,
-      "Unitemized": 10688.17,
+      "Unitemized": 10772.52,
       "Self Funding": 228.0,
       "Other (includes Businesses)": 7500.0
     },
@@ -54,7 +54,7 @@
       "Within Oakland": 63409.82,
       "Within California": 82059.71
     },
-    "total_small_contributions": 13707.1,
+    "total_small_contributions": 13791.45,
     "expenditures_by_type": {
       "Print Ads": 385.0,
       "Not Stated": 39424.51,
@@ -74,7 +74,8 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 11824.51
     },
     "supporting_by_type": {
-      "MON": 2500.0,
+      "IKD": 300.0,
+      "MON": 6200.0,
       "Mailer": 32697.0,
       "Independent Expenditure Supporting/Opposing Others": 2810.32
     }
@@ -82,6 +83,7 @@
   "opposing_money": {
     "opposing_expenditures": 0.0,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 13241.65
     },
     "opposition_list": [
 

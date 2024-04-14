@@ -2,9 +2,9 @@
 election: _elections/oakland/2022-11-08.md
 candidates:
 - kevin-jenkins
-- yakpasua-michael-gbagba-zazaboi
-- kenny-session
 - paulina-gonzalez
+- kenny-session
+- yakpasua-michael-gbagba-zazaboi
 - desmond-i-jeffries
 - jesse-tapia-juarez
 - nancy-sidebotham

@@ -1,5 +1,5 @@
 {
-  "id": 101,
+  "id": 121,
   "name": "Clifford Thompson",
   "photo_url": null,
   "website_url": null,
@@ -21,9 +21,9 @@
   "is_winner": false,
   "filer_id": 1427679,
   "supporting_money": {
-    "contributions_received": 8261.0,
-    "total_contributions": 8261.0,
-    "total_expenditures": 16289.21,
+    "contributions_received": 19102.0,
+    "total_contributions": 19102.0,
+    "total_expenditures": 19152.0,
     "total_loans_received": 0.0,
     "total_supporting_independent": 156545.99,
     "support_list": [
@@ -35,24 +35,24 @@
         "election_name": "oakland-2020"
       },
       {
+        "Total": 14491.25,
+        "Cand_ID": 1427679,
+        "Filer_ID": "1431009",
+        "Filer_NamL": "Families in Action for Justice Fund",
+        "election_name": "oakland-2020"
+      },
+      {
         "Total": 33214.74,
         "Cand_ID": 1427679,
         "Filer_ID": "1331137",
         "Filer_NamL": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
-        "election_name": "oakland-2020"
-      },
-      {
-        "Total": 14491.25,
-        "Cand_ID": 1427679,
-        "Filer_ID": "1431009",
-        "Filer_NamL": "Power2Families, supporting Dannhaus, Edgerly, Gaines and Thompson for Oakland School Board 2020",
         "election_name": "oakland-2020"
       }
     ],
     "contributions_by_type": {
       "Committee": 2750.0,
       "Individual": 13830.0,
-      "Unitemized": 340.0,
+      "Unitemized": 1872.0,
       "Other (includes Businesses)": 650.0
     },
     "contributions_by_origin": {
@@ -60,7 +60,7 @@
       "Within Oakland": 8800.0,
       "Within California": 6684.0
     },
-    "total_small_contributions": 340.0,
+    "total_small_contributions": 1872.0,
     "expenditures_by_type": {
       "Not Stated": 6000.0,
       "Civic Donations": 1852.59,
@@ -84,7 +84,7 @@
 
     ]
   },
-  "total_contributions": 8261.0,
-  "total_expenditures": 16289.21,
+  "total_contributions": 19102.0,
+  "total_expenditures": 19152.0,
   "total_loans_received": 0.0
 }

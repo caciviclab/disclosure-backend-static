@@ -1,15 +1,15 @@
 {
-  "total_contributions": 20942119.02,
+  "total_contributions": 20718348.3,
   "total_contributions_by_source": {
     "Out of State": 10533130.27,
-    "Within Oakland": 1457009.94,
-    "Within California": 8633768.879999999
+    "Within Oakland": 1456859.94,
+    "Within California": 8632568.88
   },
   "contributions_by_type": {
-    "Committee": 8423734.030000001,
-    "Individual": 10284156.58,
-    "Unitemized": 70529.93,
-    "Self Funding": 124742.81999999999,
+    "Committee": 8423734.03,
+    "Individual": 10282806.58,
+    "Unitemized": 58539.38,
+    "Self Funding": 124742.82,
     "Other (includes Businesses)": 1791275.66
   },
   "most_expensive_races": [
@@ -26,10 +26,10 @@
       "amount": 850350.55
     },
     {
-      "slug": "city-council-at-large",
-      "type": "office",
-      "title": "City Council At-Large",
-      "amount": 569233.71
+      "slug": "infrastructure-and-housing-bonds",
+      "type": "referendum",
+      "title": "Measure KK",
+      "amount": 450809.58
     }
   ],
   "largest_small_proportion": [
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland November 8th, 2016 Election",
       "candidate": "Kharyshi Wiginton",
-      "proportion": 0.18851328044153157,
+      "proportion": 0.19,
       "office_title": "School Board District 3"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 8th, 2016 Election",
       "candidate": "Jody London",
-      "proportion": 0.16823308270676693,
+      "proportion": 0.17,
       "office_title": "School Board District 1"
     }
   ],
@@ -62,12 +62,12 @@
     {
       "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
       "election_name": "oakland-2016",
-      "total_spending": 486753.00999999995
+      "total_spending": 486753.01
     },
     {
-      "name": "Oakland Police Officer’s Association - Political Action Committee",
+      "name": "Oakland Police Officer's Association - Political Action Committee",
       "election_name": "oakland-2016",
-      "total_spending": 50759.880000000005
+      "total_spending": 50759.88
     },
     {
       "name": "East Bay Rental Housing Association PAC",
