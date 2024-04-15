@@ -91,7 +91,7 @@ If you want to serve the static JSON files via a local web server:
 
 ### Maintaining database schema
 
-When `make import` is run, a number of postgres tables are created for importing the downloaded data.  The schema of these tables are explicitly defined in the `dbschema` directory.  Columns that hold string data may not be sized large enough for future data.  For example, if a name columns accepts names of at most 20 characters and in the future, we have data where the name is 21 characters long, the data import will fail.  When this occurs, we will have to update the corresponding schema file in `dbschema` to support more characters.  Simple make the change and re-run `make import` to verify that it succeeds.
+When `make import` is run, a number of postgres tables are created for importing the downloaded data.  The schema of these tables are explicitly defined in the `dbschema` directory and may have to be updated in the future to accommodate future data.  Columns that hold string data may not be sized large enough for future data.  For example, if a name column accepts names of at most 20 characters and in the future, we have data where the name is 21 characters long, the data import will fail.  When this occurs, we will have to update the corresponding schema file in `dbschema` to support more characters.  Simply make the change and re-run `make import` to verify that it succeeds.
 
 ### Checking output data changes
 
@@ -109,7 +109,7 @@ The expected changes are excluded before generating digests for data in the `bui
 
 An additional script has been created to generate a report that enables comparing the totals for candidates.  The script is `bin/report-candidates.py` and it generates `build/candidates.csv` and `build/candidates.xlsx`. The reports include a list of all the candidates and totals calculated multiple ways that should add up to the same number.
 
-To ensure that database schema changes are visible in pull requests, the complete postgres schema is also save to a `schema.sql` file in the `build` directory.  Because the `build` is automatically re-built for each branch in a PR and committed, any change to the schema caused by a code change will be shown a difference in the `schema.sql` file when reviewing the PR.
+To ensure that database schema changes are visible in pull requests, the complete postgres schema is also saved to a `schema.sql` file in the `build` directory.  Because the `build` directory is automatically re-built for each branch in a PR and committed to the repository, any change to the schema caused by a code change will be shown a difference in the `schema.sql` file when reviewing the PR.
 
 ### Adding a calculator
 
