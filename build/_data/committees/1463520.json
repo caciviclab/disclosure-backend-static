@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 15338.0,
+  "total_contributions": 15938.0,
   "contributions": [
     {
       "title": "Oakland November 7th, 2023 Special Election",
@@ -720,13 +720,26 @@
     {
       "title": "Oakland November 7th, 2023 Special Election",
       "Filer_ID": "1463520",
-      "Tran_Emp": "Families in Action for Justice",
-      "Tran_Occ": "Chief Executive Officer",
-      "Entity_Cd": "Individual",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 600.0,
       "Tran_Date": "2023-11-13",
-      "Tran_NamF": "Kimi",
-      "Tran_NamL": "Kean",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Justice",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2023"
+    },
+    {
+      "title": "Oakland November 7th, 2023 Special Election",
+      "Filer_ID": "1463520",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2023-11-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Justice",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2023"
     },
