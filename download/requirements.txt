@@ -1,4 +1,4 @@
-# The following version causes csvsql to fail:
-#SQLAlchemy~=2.0.20
-# Do we need to upgrade the following?
-#psycopg2~=2.9.7
+pandas~=2.0.3
+SQLAlchemy~=2.0.20
+psycopg2~=2.9.7
+gdrive-datastore==0.0.1.5

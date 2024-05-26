@@ -3,8 +3,7 @@ from collections import Counter
 from datetime import datetime
 import json
 import pandas as pd
-import os
-#from sqlalchemy import create_engine
+from sqlalchemy import create_engine
 from model.a_contributions import A_Contributions
 from model.committee import Committees
 from model.election import Elections
@@ -83,11 +82,9 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    to_csv_dirpath = 'downloads/csv'
-    os.makedirs(to_csv_dirpath, exist_ok=True)
-    elections.df.to_csv(f'{to_csv_dirpath}/elections_v2.csv', index=False)
-    committees.df.to_csv(f'{to_csv_dirpath}/committees_v2.csv', index=False)
-    a_contributions.df.to_csv(f'{to_csv_dirpath}/a_contributions_v2.csv', index=False)
+    elections.df.to_csv('.local/elections.csv', index=False)
+    committees.df.to_csv('.local/committees.csv', index=False)
+    a_contributions.df.to_csv('.local/a_contributions.csv', index=False)
 
     '''
     with engine.connect() as conn:
