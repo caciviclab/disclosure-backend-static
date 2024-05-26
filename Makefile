@@ -21,6 +21,9 @@ process: process.rb
 	bin/report-candidates
 	git --no-pager diff build/digests.json
 
+download-netfile-v2: 
+	python download/main.py
+
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
 	downloads/csv/office_elections.csv downloads/csv/elections.csv
@@ -36,7 +39,8 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets \
+download: download-netfile-v2 \
+	download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
@@ -112,7 +116,7 @@ do-import-spreadsheets:
 
 import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary elections_v2 committees_v2 a_contributions_v2
 	echo 'CREATE TABLE IF NOT EXISTS "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
@@ -126,6 +130,9 @@ reindex:
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
+
+elections_v2 committees_v2 a_contributions_v2:
+	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@ 0
 
 downloads/csv/candidates.csv:
 	mkdir -p downloads/csv downloads/raw
