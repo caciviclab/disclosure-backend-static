@@ -19,6 +19,9 @@ process: process.rb
 	bin/report-schema $(DATABASE_NAME)
 	bin/create-digests
 	bin/report-candidates
+	pwd
+	ls -al
+	git -v
 	git --no-pager diff build/digests.json
 
 download-netfile-v2: 

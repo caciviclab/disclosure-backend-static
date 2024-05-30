@@ -79,7 +79,8 @@ jobs:
     - name: Check setup
       run: |
         git -v
-        ls -al .git
+        pwd
+        ls -al
         psql -l
         echo "c1,c2" > test.csv
         echo "a,b" >> test.csv
