@@ -81,7 +81,7 @@ jobs:
         git -v
         pwd
         ls -al
-	git --no-pager diff build/digests.json
+        git --no-pager diff build/digests.json
         psql -l
         echo "c1,c2" > test.csv
         echo "a,b" >> test.csv
