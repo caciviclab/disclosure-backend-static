@@ -79,10 +79,8 @@ jobs:
     - name: Check setup
       run: |
         git -v
-        pwd
-        ls -al
+        # This keeps git from thinking that the current dir is not a repo even though a .git dir exists
         git config --global --add safe.directory "$GITHUB_WORKSPACE"
-        git --no-pager diff build/digests.json
         psql -l
         echo "c1,c2" > test.csv
         echo "a,b" >> test.csv
