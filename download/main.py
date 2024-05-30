@@ -1,6 +1,7 @@
 """ main, to run everything """
 from collections import Counter
 from datetime import datetime
+import os
 import json
 import pandas as pd
 from sqlalchemy import create_engine
@@ -28,8 +29,11 @@ def unique_statuses(filers):
 def main():
     """ Do everyting """
     data_dir_path = '.local/downloads'
+    csv_data_dir_path = '.local/csv'
+    os.makedirs(data_dir_path, exist_ok=True)
+    os.makedirs(csv_data_dir_path, exist_ok=True)
 
-    # pull data from gdrive and put it in .local/downloads
+    # pull data from gdrive and put it in .local/downloads/raw
     pull_data(subfolder='main', default_folder='OpenDisclosure')
 
     #engine = create_engine('postgresql+psycopg2://localhost/disclosure-backend-v2', echo=True)
@@ -82,9 +86,9 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.df.to_csv('.local/elections.csv', index=False)
-    committees.df.to_csv('.local/committees.csv', index=False)
-    a_contributions.df.to_csv('.local/a_contributions.csv', index=False)
+    elections.df.to_csv(f'{csv_data_dir_path}/elections.csv', index=False)
+    committees.df.to_csv(f'{csv_data_dir_path}/committees.csv', index=False)
+    a_contributions.df.to_csv(f'{csv_data_dir_path}/a_contributions.csv', index=False)
 
     '''
     with engine.connect() as conn:

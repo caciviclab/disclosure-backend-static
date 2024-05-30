@@ -10,7 +10,7 @@ clean-spreadsheets:
 	rm -rf downloads/csv/*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
 
 clean:
-	rm -rf downloads/raw downloads/csv
+	rm -rf downloads/raw downloads/csv .local/downloads .local/csv
 	git --version
 	python --version
 	ruby --version
@@ -118,9 +118,7 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/elections.csv
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
-import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
-	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary elections_v2 committees_v2 a_contributions_v2
+import-data: import-old-data import-new-data
 	echo 'CREATE TABLE IF NOT EXISTS "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
@@ -131,6 +129,13 @@ recreatedb:
 
 reindex:
 	ruby search_index.rb
+
+import-new-data:
+	echo 'TODO: add new data to import'
+
+import-old-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
+	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
+	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary elections_v2 committees_v2 a_contributions_v2
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
