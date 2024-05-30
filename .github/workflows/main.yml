@@ -78,6 +78,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Check setup
       run: |
+        git -v
         psql -l
         echo "c1,c2" > test.csv
         echo "a,b" >> test.csv
