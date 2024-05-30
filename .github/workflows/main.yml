@@ -75,10 +75,11 @@ jobs:
           POSTGRES_DB: disclosure-backend
           POSTGRES_PASSWORD: app_password
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Check setup
       run: |
         git -v
+        ls -al .git
         psql -l
         echo "c1,c2" > test.csv
         echo "a,b" >> test.csv
