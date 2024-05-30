@@ -11,6 +11,10 @@ clean-spreadsheets:
 
 clean:
 	rm -rf downloads/raw downloads/csv
+	git --version
+	python --version
+	ruby --version
+	psql --version
 
 process: process.rb
 	# todo: remove RUBYOPT variable when activerecord fixes deprecation warnings
@@ -19,9 +23,6 @@ process: process.rb
 	bin/report-schema $(DATABASE_NAME)
 	bin/create-digests
 	bin/report-candidates
-	pwd
-	ls -al
-	git -v
 	git --no-pager diff build/digests.json
 
 download-netfile-v2: 
