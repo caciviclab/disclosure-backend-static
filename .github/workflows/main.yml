@@ -2,7 +2,6 @@ name: "Generate Website Data"
 on:
   workflow_dispatch:
   push:
-  create:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,23 +18,26 @@ jobs:
       run: |
         echo ${{github.event_name}}
         devcontainer=false
-        noncontainer=true
+        if docker pull ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest; then
+          noncontainer=true
+        else
+          noncontainer=false
+        fi
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
           if [[ ${{github.event_name}} = push ]]; then
             if [[ $file = .devcontainer* ]]; then
               devcontainer=true
+              noncontainer=true
             elif [[ $file = *requirements.txt* ]]; then
               devcontainer=true
+              noncontainer=true
             elif [[ $file = Gemfile* ]]; then
               devcontainer=true
+              noncontainer=true
             fi
           fi
         done
-        if [[ ${{github.event_name}} = create ]]; then
-          devcontainer=true
-          noncontainer=false
-        fi
         
         echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
         echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
