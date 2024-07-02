@@ -1,6 +1,6 @@
 CREATE TABLE "H-Loans" (
 	"Filer_ID" INTEGER NOT NULL, 
-	"Filer_NamL" VARCHAR(47) NOT NULL, 
+	"Filer_NamL" VARCHAR(60) NOT NULL, 
 	"Report_Num" VARCHAR(3) NOT NULL, 
 	"Committee_Type" VARCHAR(3) NOT NULL, 
 	"Rpt_Date" DATE NOT NULL, 
