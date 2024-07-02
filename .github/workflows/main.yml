@@ -2,6 +2,7 @@ name: "Generate Website Data"
 on:
   workflow_dispatch:
   push:
+  create:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,6 +17,7 @@ jobs:
     - name: List all changed files
       id: filter
       run: |
+        echo ${{github.event_name}}
         devcontainer=false
         noncontainer=true
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
@@ -30,6 +32,10 @@ jobs:
             fi
           fi
         done
+        if [[ ${{github.event_name}} = create ]]; then
+          devcontainer=true
+          noncontainer=false
+        fi
         
         echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
         echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
