@@ -9,6 +9,12 @@ jobs:
       devcontainer: ${{ steps.filter.outputs.devcontainer }}
       noncontainer: ${{ steps.filter.outputs.noncontainer }}
     steps:
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{github.actor}}
+        password: ${{secrets.GITHUB_TOKEN}}
     - uses: actions/checkout@v3
     - name: Get changed files
       id: changed-files
@@ -41,12 +47,6 @@ jobs:
         
         echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
         echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
-    - name: Login to GitHub Container Registry
-      uses: docker/login-action@v3
-      with:
-        registry: ghcr.io
-        username: ${{github.actor}}
-        password: ${{secrets.GITHUB_TOKEN}}
     - name: Build dev container
       if: steps.filter.outputs.devcontainer == 'true'
       run: |
