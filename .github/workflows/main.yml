@@ -23,24 +23,21 @@ jobs:
       id: filter
       run: |
         echo ${{github.event_name}}
-        devcontainer=false
+        noncontainer=true
         if docker pull ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest; then
-          noncontainer=true
+          devcontainer=false
         else
-          noncontainer=false
+          devcontainer=true
         fi
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           echo "$file was changed"
           if [[ ${{github.event_name}} = push ]]; then
             if [[ $file = .devcontainer* ]]; then
               devcontainer=true
-              noncontainer=true
             elif [[ $file = *requirements.txt* ]]; then
               devcontainer=true
-              noncontainer=true
             elif [[ $file = Gemfile* ]]; then
               devcontainer=true
-              noncontainer=true
             fi
           fi
         done
