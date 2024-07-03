@@ -10,7 +10,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 COPY ./.devcontainer/post-create-command.sh /scripts/
 COPY ./requirements.txt requirements.txt
-COPY ./download/requirements.txt download/requirements.txt
 COPY ./Gemfile Gemfile
 COPY ./Gemfile.lock Gemfile.lock
 RUN bash /scripts/post-create-command.sh
