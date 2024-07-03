@@ -80,9 +80,9 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.df.to_csv(f'{csv_data_dir_path}/elections.csv', index=False)
-    committees.df.to_csv(f'{csv_data_dir_path}/committees.csv', index=False)
-    a_contributions.df.to_csv(f'{csv_data_dir_path}/a_contributions.csv', index=False)
+    elections.df.write_csv(f'{csv_data_dir_path}/elections.csv')
+    committees.df.write_csv(f'{csv_data_dir_path}/committees.csv')
+    a_contributions.df.write_csv(f'{csv_data_dir_path}/a_contributions.csv')
 
 if __name__ == '__main__':
     main()
