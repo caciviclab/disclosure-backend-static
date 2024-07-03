@@ -8,7 +8,6 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends postgresql-client ruby-full
 
-RUN pwd
 COPY ./.devcontainer/post-create-command.sh /scripts/
 COPY ./requirements.txt requirements.txt
 COPY ./download/requirements.txt download/requirements.txt
