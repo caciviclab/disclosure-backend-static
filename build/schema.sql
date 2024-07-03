@@ -966,7 +966,7 @@ ALTER TABLE public."G-Expenditure" OWNER TO travis;
 
 CREATE TABLE public."H-Loans" (
     "Filer_ID" integer NOT NULL,
-    "Filer_NamL" character varying(47) NOT NULL,
+    "Filer_NamL" character varying(60) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
     "Rpt_Date" date NOT NULL,
@@ -998,7 +998,7 @@ CREATE TABLE public."H-Loans" (
     "Loan_EMP" character varying(32),
     "Loan_OCC" character varying(32),
     "Loan_Self" boolean NOT NULL,
-    "Cmte_ID" integer NOT NULL,
+    "Cmte_ID" integer,
     "Tres_NamL" character varying(32),
     "Tres_NamF" character varying(32),
     "Tres_NamT" character varying(32),
