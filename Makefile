@@ -130,12 +130,12 @@ recreatedb:
 reindex:
 	ruby search_index.rb
 
-import-new-data:
+import-new-data: elections_v2 committees_v2 a_contributions_v2
 	echo 'TODO: add new data to import'
 
 import-old-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary elections_v2 committees_v2 a_contributions_v2
+	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
 
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
