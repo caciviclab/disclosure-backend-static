@@ -2,6 +2,10 @@ name: "Generate Website Data"
 on:
   workflow_dispatch:
   push:
+env:
+  POSTGRES_USER: app_user
+  POSTGRES_DB: disclosure-backend
+  POSTGRES_PASSWORD: app_password
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -68,17 +72,17 @@ jobs:
         SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
         GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
         PGHOST: postgres
-        PGDATABASE: disclosure-backend
-        PGUSER: app_user
-        PGPASSWORD: app_password
+        PGDATABASE: ${{ env.POSTGRES_DB }}
+        PGUSER: ${{ env.POSTGRES_USER }}
+        PGPASSWORD: ${{ env.POSTGRES_PASSWORD }}
     services:
       postgres:
         #image: postgres:9.6-bullseye
         image: postgres:15.6-bullseye
         env:
-          POSTGRES_USER: app_user
-          POSTGRES_DB: disclosure-backend
-          POSTGRES_PASSWORD: app_password
+          POSTGRES_USER: ${{ env.POSTGRES_USER }}
+          POSTGRES_DB: ${{ env.POSTGRES_DB }}
+          POSTGRES_PASSWORD: ${{ env.POSTGRES_PASSWORD }}
     steps:
     - uses: actions/checkout@v4
     - name: Check setup
