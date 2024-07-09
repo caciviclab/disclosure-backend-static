@@ -1,6 +1,6 @@
 CREATE TABLE "H-Loans" (
 	"Filer_ID" INTEGER NOT NULL, 
-	"Filer_NamL" VARCHAR(47) NOT NULL, 
+	"Filer_NamL" VARCHAR(183) NOT NULL, 
 	"Report_Num" VARCHAR(3) NOT NULL, 
 	"Committee_Type" VARCHAR(3) NOT NULL, 
 	"Rpt_Date" DATE NOT NULL, 
@@ -32,7 +32,7 @@ CREATE TABLE "H-Loans" (
 	"Loan_EMP" VARCHAR(32), 
 	"Loan_OCC" VARCHAR(32), 
 	"Loan_Self" BOOLEAN NOT NULL, 
-	"Cmte_ID" INTEGER NOT NULL, 
+	"Cmte_ID" INTEGER, 
 	"Tres_NamL" VARCHAR(32), 
 	"Tres_NamF" VARCHAR(32), 
 	"Tres_NamT" VARCHAR(32), 

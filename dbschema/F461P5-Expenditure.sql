@@ -1,6 +1,6 @@
 CREATE TABLE "F461P5-Expenditure" (
 	"Filer_ID" VARCHAR(9), 
-	"Filer_NamL" VARCHAR(60) NOT NULL, 
+	"Filer_NamL" VARCHAR(183) NOT NULL, 
 	"Report_Num" VARCHAR(3) NOT NULL, 
 	"Committee_Type" VARCHAR(3) NOT NULL, 
 	"Rpt_Date" DATE NOT NULL, 
