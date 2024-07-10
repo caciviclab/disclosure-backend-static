@@ -221,7 +221,7 @@ ALTER TABLE public."A-Contributions" OWNER TO travis;
 
 CREATE TABLE public."B1-Loans" (
     "Filer_ID" character varying(7) NOT NULL,
-    "Filer_NamL" character varying(104) NOT NULL,
+    "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
     "Rpt_Date" date NOT NULL,
@@ -292,7 +292,7 @@ ALTER TABLE public."B1-Loans" OWNER TO travis;
 
 CREATE TABLE public."B2-Loans" (
     "Filer_ID" character varying(32) NOT NULL,
-    "Filer_NamL" character varying(32) NOT NULL,
+    "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(32) NOT NULL,
     "Committee_Type" character varying(32) NOT NULL,
     "Rpt_Date" character varying(32) NOT NULL,
@@ -648,7 +648,7 @@ ALTER TABLE public."F-Expenses" OWNER TO travis;
 
 CREATE TABLE public."F461P5-Expenditure" (
     "Filer_ID" character varying(9),
-    "Filer_NamL" character varying(60) NOT NULL,
+    "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
     "Rpt_Date" date NOT NULL,
@@ -808,7 +808,7 @@ ALTER TABLE public."F465P3-Expenditure" OWNER TO travis;
 
 CREATE TABLE public."F496P3-Contributions" (
     "Filer_ID" character varying(7) NOT NULL,
-    "Filer_NamL" character varying(172) NOT NULL,
+    "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(4),
     "Rpt_Date" date NOT NULL,
@@ -966,7 +966,7 @@ ALTER TABLE public."G-Expenditure" OWNER TO travis;
 
 CREATE TABLE public."H-Loans" (
     "Filer_ID" integer NOT NULL,
-    "Filer_NamL" character varying(47) NOT NULL,
+    "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
     "Rpt_Date" date NOT NULL,
@@ -998,7 +998,7 @@ CREATE TABLE public."H-Loans" (
     "Loan_EMP" character varying(32),
     "Loan_OCC" character varying(32),
     "Loan_Self" boolean NOT NULL,
-    "Cmte_ID" integer NOT NULL,
+    "Cmte_ID" integer,
     "Tres_NamL" character varying(32),
     "Tres_NamF" character varying(32),
     "Tres_NamT" character varying(32),
@@ -1037,7 +1037,7 @@ ALTER TABLE public."H-Loans" OWNER TO travis;
 
 CREATE TABLE public."I-Contributions" (
     "Filer_ID" character varying(7) NOT NULL,
-    "Filer_NamL" character varying(144) NOT NULL,
+    "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
     "Rpt_Date" date NOT NULL,

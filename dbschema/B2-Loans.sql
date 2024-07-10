@@ -1,6 +1,6 @@
 CREATE TABLE "B2-Loans" (
 	"Filer_ID" VARCHAR(32) NOT NULL, 
-	"Filer_NamL" VARCHAR(32) NOT NULL, 
+	"Filer_NamL" VARCHAR(183) NOT NULL, 
 	"Report_Num" VARCHAR(32) NOT NULL, 
 	"Committee_Type" VARCHAR(32) NOT NULL, 
 	"Rpt_Date" VARCHAR(32) NOT NULL, 
