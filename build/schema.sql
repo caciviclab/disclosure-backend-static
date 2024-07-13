@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.6.24
--- Dumped by pg_dump version 9.6.24
+-- Dumped from database version 15.3 (Ubuntu 15.3-1.pgdg18.04+1)
+-- Dumped by pg_dump version 15.3 (Ubuntu 15.3-1.pgdg18.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -16,23 +16,9 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
---
--- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
---
-
-CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
-
-
---
--- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
---
-
-COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
-
-
 SET default_tablespace = '';
 
-SET default_with_oids = false;
+SET default_table_access_method = heap;
 
 --
 -- Name: 496; Type: TABLE; Schema: public; Owner: travis
@@ -1328,6 +1314,7 @@ ALTER TABLE public.calculations OWNER TO travis;
 --
 
 CREATE SEQUENCE public.calculations_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1422,7 +1409,7 @@ CREATE VIEW public.candidate_496 AS
     expend."Rpt_ID_Num"
    FROM public."496" expend,
     public.candidates c
-  WHERE ((lower((c."Candidate")::text) = lower(btrim(concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Exp_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Exp_Date" <= c."End_Date")));
+  WHERE ((lower((c."Candidate")::text) = lower(TRIM(BOTH FROM concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Exp_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Exp_Date" <= c."End_Date")));
 
 
 ALTER TABLE public.candidate_496 OWNER TO travis;
@@ -1602,7 +1589,7 @@ CREATE VIEW public.candidate_d_expenditure AS
     expend."XRef_Match"
    FROM public."D-Expenditure" expend,
     public.candidates c
-  WHERE ((lower((c."Candidate")::text) = lower(btrim(concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Expn_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Expn_Date" <= c."End_Date")));
+  WHERE ((lower((c."Candidate")::text) = lower(TRIM(BOTH FROM concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Expn_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Expn_Date" <= c."End_Date")));
 
 
 ALTER TABLE public.candidate_d_expenditure OWNER TO travis;
@@ -1747,6 +1734,7 @@ ALTER TABLE public.candidate_summary OWNER TO travis;
 --
 
 CREATE SEQUENCE public.candidates_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1842,6 +1830,7 @@ ALTER TABLE public.combined_contributions OWNER TO travis;
 --
 
 CREATE SEQUENCE public.committees_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1863,6 +1852,7 @@ ALTER SEQUENCE public.committees_id_seq OWNED BY public.committees.id;
 --
 
 CREATE SEQUENCE public.elections_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1911,7 +1901,7 @@ CREATE VIEW public.independent_candidate_expenditures AS
             "D-Expenditure"."Tran_ID"
            FROM public."D-Expenditure"
           WHERE (("D-Expenditure"."Expn_Code")::text = 'IND'::text)) all_data
-     JOIN public.candidates c ON (((lower(btrim(concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL"))) = lower((c."Candidate")::text)) OR (lower((c."Aliases")::text) ~~ lower(concat('%', btrim(concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL")), '%'))))))
+     JOIN public.candidates c ON (((lower(TRIM(BOTH FROM concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL"))) = lower((c."Candidate")::text)) OR (lower((c."Aliases")::text) ~~ lower(concat('%', TRIM(BOTH FROM concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL")), '%'))))))
      JOIN public.elections e ON (((c.election_name)::text = (e.name)::text)))
      JOIN ( SELECT c_1."Filer_ID",
             c_1."Filer_NamL"
@@ -1944,6 +1934,7 @@ ALTER TABLE public.office_elections OWNER TO travis;
 --
 
 CREATE SEQUENCE public.office_elections_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1985,6 +1976,7 @@ ALTER TABLE public.referendums OWNER TO travis;
 --
 
 CREATE SEQUENCE public.referendums_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
