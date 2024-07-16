@@ -36,7 +36,8 @@ class ElectionTopContributor
         Sum("Tran_Amt1") as total_contributions
       FROM "combined_contributions"
       WHERE "election_name" <> ''
-      GROUP BY "election_name", name;
+      GROUP BY "election_name", name
+      ORDER BY "election_name", name;
     SQL
 
     results_by_election = election_results.each_with_object({}) do |result, hash|

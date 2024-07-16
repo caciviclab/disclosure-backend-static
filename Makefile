@@ -89,6 +89,7 @@ do-import-spreadsheets:
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Instagram
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Twitter
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Bio
+	./bin/make-null-empty $(DATABASE_NAME) candidates data_warning
 
 	echo 'DROP TABLE IF EXISTS referendums CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
