@@ -9,7 +9,8 @@ class ElectionTopContributor
       FROM "combined_contributions"
       WHERE "election_name" <> ''
       AND "Committee_Type" IN ('CAO', 'CTL', 'BMC', 'SMO')
-      GROUP BY "election_name", type, name;
+      GROUP BY "election_name", type, name
+      ORDER BY "election_name", type, name;
     SQL
 
     results_by_election = election_results.each_with_object({}) do |result, hash|

@@ -90,6 +90,7 @@ do-import-spreadsheets:
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Twitter
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Bio
 	./bin/make-null-empty $(DATABASE_NAME) candidates data_warning
+	./bin/make-null-empty $(DATABASE_NAME) candidates Committee_Name
 
 	echo 'DROP TABLE IF EXISTS referendums CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
@@ -108,6 +109,7 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/committees.csv
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) committees Filer_NamL
+	./bin/make-null-empty $(DATABASE_NAME) committees Filer_NamL
 	./bin/make-null-empty $(DATABASE_NAME) committees data_warning
 
 	echo 'DROP TABLE IF EXISTS office_elections CASCADE;' | psql $(DATABASE_NAME)
