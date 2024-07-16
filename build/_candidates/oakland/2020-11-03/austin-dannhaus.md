@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 committee_name: Austin Dannhaus for Oakland School Board 2020
+data_warning: ''
 filer_id: '1427828'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
