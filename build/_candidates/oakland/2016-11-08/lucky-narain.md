@@ -1,5 +1,6 @@
 ---
 election: _elections/oakland/2016-11-08.md
+committee_name: ''
 data_warning: ''
 filer_id: ''
 is_incumbent: false
