@@ -96,7 +96,7 @@ do-import-spreadsheets:
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) referendums Short_Title
 	./bin/remove-whitespace $(DATABASE_NAME) referendums Summary
-	./bin/remove-whitespace $(DATABASE_NAME) referendums data_warning
+	./bin/make-null-empty $(DATABASE_NAME) referendums data_warning
 
 	echo 'DROP TABLE IF EXISTS name_to_number CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
