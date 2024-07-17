@@ -62,6 +62,20 @@ This repository is set up to work in a container under Codespaces.  In other wor
 12. This same setup allows anyone to run the same container on their local machine in VS Code using the Dev Containers extension, but we are mainly focused on enabling Codespaces right now and making sure that we can harden the setup for Codespaces first. (We'll be adding instructions for Dev Containers once this is solid)
 13. If you make changes in your Codespaces environment, don't forget to push it after committing it with Git.  It is like another machine, so it won't end up in the GitHub repository if don't do a `git push`
 
+### Docker
+
+This repository is also configured to run within a Docker container. This is similar to Codespaces except you can use whatever IDE and local setup that you prefer. Here's how to get started using Docker with [VSCode](https://code.visualstudio.com/):
+
+1. Download [Docker](https://www.docker.com/products/docker-desktop/) and launch Docker Desktop.
+   - Version 4.32.0 (157355) has been verified to work with this repository.
+2. Install the VSCode [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
+   - Version v0.375.1 has been confirmed to be compatible with this repository.
+   - Note: VSCode may suggest installing the Docker extension as well, but you only need the Dev Containers extension for this setup.
+3. In VSCode, navigate to [.devcontainer/Dockerfile](.devcontainer/Dockerfile) or restart VSCode. The Dev Containers extension should prompt you to reopen the repository in a container. Proceed with this option.
+4. Once the container environment is loaded, complete the setup by following the commands below.
+
+
+
 ## Running
 
 Download the raw data files. You only need to run this once in a while to get
