@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.6.24
--- Dumped by pg_dump version 9.6.24
+-- Dumped from database version 15.3 (Debian 15.3-1.pgdg120+1)
+-- Dumped by pg_dump version 15.6 (Debian 15.6-0+deb12u1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -16,26 +16,12 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
---
--- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
---
-
-CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
-
-
---
--- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
---
-
-COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
-
-
 SET default_tablespace = '';
 
-SET default_with_oids = false;
+SET default_table_access_method = heap;
 
 --
--- Name: 496; Type: TABLE; Schema: public; Owner: travis
+-- Name: 496; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."496" (
@@ -73,10 +59,10 @@ CREATE TABLE public."496" (
 );
 
 
-ALTER TABLE public."496" OWNER TO travis;
+ALTER TABLE public."496" OWNER TO app_user;
 
 --
--- Name: 497; Type: TABLE; Schema: public; Owner: travis
+-- Name: 497; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."497" (
@@ -128,10 +114,10 @@ CREATE TABLE public."497" (
 );
 
 
-ALTER TABLE public."497" OWNER TO travis;
+ALTER TABLE public."497" OWNER TO app_user;
 
 --
--- Name: A-Contributions; Type: TABLE; Schema: public; Owner: travis
+-- Name: A-Contributions; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."A-Contributions" (
@@ -213,10 +199,10 @@ CREATE TABLE public."A-Contributions" (
 );
 
 
-ALTER TABLE public."A-Contributions" OWNER TO travis;
+ALTER TABLE public."A-Contributions" OWNER TO app_user;
 
 --
--- Name: B1-Loans; Type: TABLE; Schema: public; Owner: travis
+-- Name: B1-Loans; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."B1-Loans" (
@@ -284,10 +270,10 @@ CREATE TABLE public."B1-Loans" (
 );
 
 
-ALTER TABLE public."B1-Loans" OWNER TO travis;
+ALTER TABLE public."B1-Loans" OWNER TO app_user;
 
 --
--- Name: B2-Loans; Type: TABLE; Schema: public; Owner: travis
+-- Name: B2-Loans; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."B2-Loans" (
@@ -355,10 +341,10 @@ CREATE TABLE public."B2-Loans" (
 );
 
 
-ALTER TABLE public."B2-Loans" OWNER TO travis;
+ALTER TABLE public."B2-Loans" OWNER TO app_user;
 
 --
--- Name: C-Contributions; Type: TABLE; Schema: public; Owner: travis
+-- Name: C-Contributions; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."C-Contributions" (
@@ -440,10 +426,10 @@ CREATE TABLE public."C-Contributions" (
 );
 
 
-ALTER TABLE public."C-Contributions" OWNER TO travis;
+ALTER TABLE public."C-Contributions" OWNER TO app_user;
 
 --
--- Name: D-Expenditure; Type: TABLE; Schema: public; Owner: travis
+-- Name: D-Expenditure; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."D-Expenditure" (
@@ -513,10 +499,10 @@ CREATE TABLE public."D-Expenditure" (
 );
 
 
-ALTER TABLE public."D-Expenditure" OWNER TO travis;
+ALTER TABLE public."D-Expenditure" OWNER TO app_user;
 
 --
--- Name: E-Expenditure; Type: TABLE; Schema: public; Owner: travis
+-- Name: E-Expenditure; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."E-Expenditure" (
@@ -586,10 +572,10 @@ CREATE TABLE public."E-Expenditure" (
 );
 
 
-ALTER TABLE public."E-Expenditure" OWNER TO travis;
+ALTER TABLE public."E-Expenditure" OWNER TO app_user;
 
 --
--- Name: F-Expenses; Type: TABLE; Schema: public; Owner: travis
+-- Name: F-Expenses; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."F-Expenses" (
@@ -640,10 +626,10 @@ CREATE TABLE public."F-Expenses" (
 );
 
 
-ALTER TABLE public."F-Expenses" OWNER TO travis;
+ALTER TABLE public."F-Expenses" OWNER TO app_user;
 
 --
--- Name: F461P5-Expenditure; Type: TABLE; Schema: public; Owner: travis
+-- Name: F461P5-Expenditure; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."F461P5-Expenditure" (
@@ -727,10 +713,10 @@ CREATE TABLE public."F461P5-Expenditure" (
 );
 
 
-ALTER TABLE public."F461P5-Expenditure" OWNER TO travis;
+ALTER TABLE public."F461P5-Expenditure" OWNER TO app_user;
 
 --
--- Name: F465P3-Expenditure; Type: TABLE; Schema: public; Owner: travis
+-- Name: F465P3-Expenditure; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."F465P3-Expenditure" (
@@ -800,10 +786,10 @@ CREATE TABLE public."F465P3-Expenditure" (
 );
 
 
-ALTER TABLE public."F465P3-Expenditure" OWNER TO travis;
+ALTER TABLE public."F465P3-Expenditure" OWNER TO app_user;
 
 --
--- Name: F496P3-Contributions; Type: TABLE; Schema: public; Owner: travis
+-- Name: F496P3-Contributions; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."F496P3-Contributions" (
@@ -885,10 +871,10 @@ CREATE TABLE public."F496P3-Contributions" (
 );
 
 
-ALTER TABLE public."F496P3-Contributions" OWNER TO travis;
+ALTER TABLE public."F496P3-Contributions" OWNER TO app_user;
 
 --
--- Name: G-Expenditure; Type: TABLE; Schema: public; Owner: travis
+-- Name: G-Expenditure; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."G-Expenditure" (
@@ -958,10 +944,10 @@ CREATE TABLE public."G-Expenditure" (
 );
 
 
-ALTER TABLE public."G-Expenditure" OWNER TO travis;
+ALTER TABLE public."G-Expenditure" OWNER TO app_user;
 
 --
--- Name: H-Loans; Type: TABLE; Schema: public; Owner: travis
+-- Name: H-Loans; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."H-Loans" (
@@ -1029,10 +1015,10 @@ CREATE TABLE public."H-Loans" (
 );
 
 
-ALTER TABLE public."H-Loans" OWNER TO travis;
+ALTER TABLE public."H-Loans" OWNER TO app_user;
 
 --
--- Name: I-Contributions; Type: TABLE; Schema: public; Owner: travis
+-- Name: I-Contributions; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."I-Contributions" (
@@ -1114,10 +1100,10 @@ CREATE TABLE public."I-Contributions" (
 );
 
 
-ALTER TABLE public."I-Contributions" OWNER TO travis;
+ALTER TABLE public."I-Contributions" OWNER TO app_user;
 
 --
--- Name: committees; Type: TABLE; Schema: public; Owner: travis
+-- Name: committees; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.committees (
@@ -1137,10 +1123,10 @@ CREATE TABLE public.committees (
 );
 
 
-ALTER TABLE public.committees OWNER TO travis;
+ALTER TABLE public.committees OWNER TO app_user;
 
 --
--- Name: name_to_number; Type: TABLE; Schema: public; Owner: travis
+-- Name: name_to_number; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.name_to_number (
@@ -1150,10 +1136,10 @@ CREATE TABLE public.name_to_number (
 );
 
 
-ALTER TABLE public.name_to_number OWNER TO travis;
+ALTER TABLE public.name_to_number OWNER TO app_user;
 
 --
--- Name: Measure_Expenditures; Type: VIEW; Schema: public; Owner: travis
+-- Name: Measure_Expenditures; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public."Measure_Expenditures" AS
@@ -1226,10 +1212,10 @@ UNION ALL
   WHERE (expend."Bal_Num" IS NOT NULL);
 
 
-ALTER TABLE public."Measure_Expenditures" OWNER TO travis;
+ALTER TABLE public."Measure_Expenditures" OWNER TO app_user;
 
 --
--- Name: Summary; Type: TABLE; Schema: public; Owner: travis
+-- Name: Summary; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public."Summary" (
@@ -1252,10 +1238,10 @@ CREATE TABLE public."Summary" (
 );
 
 
-ALTER TABLE public."Summary" OWNER TO travis;
+ALTER TABLE public."Summary" OWNER TO app_user;
 
 --
--- Name: all_contributions; Type: VIEW; Schema: public; Owner: travis
+-- Name: all_contributions; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.all_contributions AS
@@ -1306,10 +1292,10 @@ UNION
   WHERE (("497"."Form_Type")::text = 'F497P1'::text);
 
 
-ALTER TABLE public.all_contributions OWNER TO travis;
+ALTER TABLE public.all_contributions OWNER TO app_user;
 
 --
--- Name: calculations; Type: TABLE; Schema: public; Owner: travis
+-- Name: calculations; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.calculations (
@@ -1321,13 +1307,14 @@ CREATE TABLE public.calculations (
 );
 
 
-ALTER TABLE public.calculations OWNER TO travis;
+ALTER TABLE public.calculations OWNER TO app_user;
 
 --
--- Name: calculations_id_seq; Type: SEQUENCE; Schema: public; Owner: travis
+-- Name: calculations_id_seq; Type: SEQUENCE; Schema: public; Owner: app_user
 --
 
 CREATE SEQUENCE public.calculations_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1335,17 +1322,17 @@ CREATE SEQUENCE public.calculations_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.calculations_id_seq OWNER TO travis;
+ALTER TABLE public.calculations_id_seq OWNER TO app_user;
 
 --
--- Name: calculations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: travis
+-- Name: calculations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: app_user
 --
 
 ALTER SEQUENCE public.calculations_id_seq OWNED BY public.calculations.id;
 
 
 --
--- Name: candidates; Type: TABLE; Schema: public; Owner: travis
+-- Name: candidates; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.candidates (
@@ -1380,10 +1367,10 @@ CREATE TABLE public.candidates (
 );
 
 
-ALTER TABLE public.candidates OWNER TO travis;
+ALTER TABLE public.candidates OWNER TO app_user;
 
 --
--- Name: candidate_496; Type: VIEW; Schema: public; Owner: travis
+-- Name: candidate_496; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.candidate_496 AS
@@ -1422,13 +1409,13 @@ CREATE VIEW public.candidate_496 AS
     expend."Rpt_ID_Num"
    FROM public."496" expend,
     public.candidates c
-  WHERE ((lower((c."Candidate")::text) = lower(btrim(concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Exp_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Exp_Date" <= c."End_Date")));
+  WHERE ((lower((c."Candidate")::text) = lower(TRIM(BOTH FROM concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Exp_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Exp_Date" <= c."End_Date")));
 
 
-ALTER TABLE public.candidate_496 OWNER TO travis;
+ALTER TABLE public.candidate_496 OWNER TO app_user;
 
 --
--- Name: candidate_497; Type: VIEW; Schema: public; Owner: travis
+-- Name: candidate_497; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.candidate_497 AS
@@ -1484,10 +1471,10 @@ CREATE VIEW public.candidate_497 AS
   WHERE ((((c."FPPC")::character varying)::text = (l."Filer_ID")::text) AND ((c."Start_Date" IS NULL) OR (l."Ctrib_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (l."Ctrib_Date" <= c."End_Date")));
 
 
-ALTER TABLE public.candidate_497 OWNER TO travis;
+ALTER TABLE public.candidate_497 OWNER TO app_user;
 
 --
--- Name: elections; Type: TABLE; Schema: public; Owner: travis
+-- Name: elections; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.elections (
@@ -1501,10 +1488,10 @@ CREATE TABLE public.elections (
 );
 
 
-ALTER TABLE public.elections OWNER TO travis;
+ALTER TABLE public.elections OWNER TO app_user;
 
 --
--- Name: candidate_contributions; Type: VIEW; Schema: public; Owner: travis
+-- Name: candidate_contributions; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.candidate_contributions AS
@@ -1528,10 +1515,10 @@ CREATE VIEW public.candidate_contributions AS
      JOIN public.elections ON (((candidates.election_name)::text = (elections.name)::text)));
 
 
-ALTER TABLE public.candidate_contributions OWNER TO travis;
+ALTER TABLE public.candidate_contributions OWNER TO app_user;
 
 --
--- Name: candidate_d_expenditure; Type: VIEW; Schema: public; Owner: travis
+-- Name: candidate_d_expenditure; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.candidate_d_expenditure AS
@@ -1602,13 +1589,13 @@ CREATE VIEW public.candidate_d_expenditure AS
     expend."XRef_Match"
    FROM public."D-Expenditure" expend,
     public.candidates c
-  WHERE ((lower((c."Candidate")::text) = lower(btrim(concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Expn_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Expn_Date" <= c."End_Date")));
+  WHERE ((lower((c."Candidate")::text) = lower(TRIM(BOTH FROM concat(expend."Cand_NamF", ' ', expend."Cand_NamL")))) AND ((c."Start_Date" IS NULL) OR (expend."Expn_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Expn_Date" <= c."End_Date")));
 
 
-ALTER TABLE public.candidate_d_expenditure OWNER TO travis;
+ALTER TABLE public.candidate_d_expenditure OWNER TO app_user;
 
 --
--- Name: candidate_e_expenditure; Type: VIEW; Schema: public; Owner: travis
+-- Name: candidate_e_expenditure; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.candidate_e_expenditure AS
@@ -1681,10 +1668,10 @@ CREATE VIEW public.candidate_e_expenditure AS
   WHERE ((((expend."Filer_ID")::character varying)::text = ((c."FPPC")::character varying)::text) AND ((c."Start_Date" IS NULL) OR (expend."Expn_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (expend."Expn_Date" <= c."End_Date")));
 
 
-ALTER TABLE public.candidate_e_expenditure OWNER TO travis;
+ALTER TABLE public.candidate_e_expenditure OWNER TO app_user;
 
 --
--- Name: clean_summary; Type: VIEW; Schema: public; Owner: travis
+-- Name: clean_summary; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.clean_summary AS
@@ -1710,10 +1697,10 @@ CREATE VIEW public.clean_summary AS
           WHERE (((s."Filer_ID")::text = (t."Filer_ID")::text) AND (t."From_Date" <= s."From_Date") AND (s."Thru_Date" <= t."Thru_Date") AND ((t."From_Date" <> s."From_Date") OR (s."Thru_Date" <> t."Thru_Date"))))));
 
 
-ALTER TABLE public.clean_summary OWNER TO travis;
+ALTER TABLE public.clean_summary OWNER TO app_user;
 
 --
--- Name: candidate_summary; Type: VIEW; Schema: public; Owner: travis
+-- Name: candidate_summary; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.candidate_summary AS
@@ -1740,13 +1727,14 @@ CREATE VIEW public.candidate_summary AS
   WHERE ((((c."FPPC")::character varying)::text = (s."Filer_ID")::text) AND ((c."Start_Date" IS NULL) OR (s."From_Date" >= c."Start_Date")) AND ((c."End_Date" IS NULL) OR (s."Thru_Date" <= c."End_Date")));
 
 
-ALTER TABLE public.candidate_summary OWNER TO travis;
+ALTER TABLE public.candidate_summary OWNER TO app_user;
 
 --
--- Name: candidates_id_seq; Type: SEQUENCE; Schema: public; Owner: travis
+-- Name: candidates_id_seq; Type: SEQUENCE; Schema: public; Owner: app_user
 --
 
 CREATE SEQUENCE public.candidates_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1754,17 +1742,17 @@ CREATE SEQUENCE public.candidates_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.candidates_id_seq OWNER TO travis;
+ALTER TABLE public.candidates_id_seq OWNER TO app_user;
 
 --
--- Name: candidates_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: travis
+-- Name: candidates_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: app_user
 --
 
 ALTER SEQUENCE public.candidates_id_seq OWNED BY public.candidates.id;
 
 
 --
--- Name: measure_contributions; Type: VIEW; Schema: public; Owner: travis
+-- Name: measure_contributions; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.measure_contributions AS
@@ -1793,10 +1781,10 @@ CREATE VIEW public.measure_contributions AS
      JOIN public.elections ON (((committees."Ballot_Measure_Election")::text = (elections.name)::text)));
 
 
-ALTER TABLE public.measure_contributions OWNER TO travis;
+ALTER TABLE public.measure_contributions OWNER TO app_user;
 
 --
--- Name: combined_contributions; Type: VIEW; Schema: public; Owner: travis
+-- Name: combined_contributions; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.combined_contributions AS
@@ -1835,13 +1823,14 @@ UNION ALL
    FROM public.measure_contributions;
 
 
-ALTER TABLE public.combined_contributions OWNER TO travis;
+ALTER TABLE public.combined_contributions OWNER TO app_user;
 
 --
--- Name: committees_id_seq; Type: SEQUENCE; Schema: public; Owner: travis
+-- Name: committees_id_seq; Type: SEQUENCE; Schema: public; Owner: app_user
 --
 
 CREATE SEQUENCE public.committees_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1849,20 +1838,21 @@ CREATE SEQUENCE public.committees_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.committees_id_seq OWNER TO travis;
+ALTER TABLE public.committees_id_seq OWNER TO app_user;
 
 --
--- Name: committees_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: travis
+-- Name: committees_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: app_user
 --
 
 ALTER SEQUENCE public.committees_id_seq OWNED BY public.committees.id;
 
 
 --
--- Name: elections_id_seq; Type: SEQUENCE; Schema: public; Owner: travis
+-- Name: elections_id_seq; Type: SEQUENCE; Schema: public; Owner: app_user
 --
 
 CREATE SEQUENCE public.elections_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1870,17 +1860,17 @@ CREATE SEQUENCE public.elections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.elections_id_seq OWNER TO travis;
+ALTER TABLE public.elections_id_seq OWNER TO app_user;
 
 --
--- Name: elections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: travis
+-- Name: elections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: app_user
 --
 
 ALTER SEQUENCE public.elections_id_seq OWNED BY public.elections.id;
 
 
 --
--- Name: independent_candidate_expenditures; Type: VIEW; Schema: public; Owner: travis
+-- Name: independent_candidate_expenditures; Type: VIEW; Schema: public; Owner: app_user
 --
 
 CREATE VIEW public.independent_candidate_expenditures AS
@@ -1911,7 +1901,7 @@ CREATE VIEW public.independent_candidate_expenditures AS
             "D-Expenditure"."Tran_ID"
            FROM public."D-Expenditure"
           WHERE (("D-Expenditure"."Expn_Code")::text = 'IND'::text)) all_data
-     JOIN public.candidates c ON (((lower(btrim(concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL"))) = lower((c."Candidate")::text)) OR (lower((c."Aliases")::text) ~~ lower(concat('%', btrim(concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL")), '%'))))))
+     JOIN public.candidates c ON (((lower(TRIM(BOTH FROM concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL"))) = lower((c."Candidate")::text)) OR (lower((c."Aliases")::text) ~~ lower(concat('%', TRIM(BOTH FROM concat(all_data."Cand_NamF", ' ', all_data."Cand_NamL")), '%'))))))
      JOIN public.elections e ON (((c.election_name)::text = (e.name)::text)))
      JOIN ( SELECT c_1."Filer_ID",
             c_1."Filer_NamL"
@@ -1923,10 +1913,10 @@ CREATE VIEW public.independent_candidate_expenditures AS
   WHERE (((e."Start_Date" IS NULL) OR (all_data."Exp_Date" >= e."Start_Date")) AND ((e."End_Date" IS NULL) OR (all_data."Exp_Date" <= e."End_Date")) AND (c."FPPC" IS NOT NULL) AND (c."FPPC" IS NOT NULL) AND (all_data."Cand_NamL" IS NOT NULL));
 
 
-ALTER TABLE public.independent_candidate_expenditures OWNER TO travis;
+ALTER TABLE public.independent_candidate_expenditures OWNER TO app_user;
 
 --
--- Name: office_elections; Type: TABLE; Schema: public; Owner: travis
+-- Name: office_elections; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.office_elections (
@@ -1937,13 +1927,14 @@ CREATE TABLE public.office_elections (
 );
 
 
-ALTER TABLE public.office_elections OWNER TO travis;
+ALTER TABLE public.office_elections OWNER TO app_user;
 
 --
--- Name: office_elections_id_seq; Type: SEQUENCE; Schema: public; Owner: travis
+-- Name: office_elections_id_seq; Type: SEQUENCE; Schema: public; Owner: app_user
 --
 
 CREATE SEQUENCE public.office_elections_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1951,17 +1942,17 @@ CREATE SEQUENCE public.office_elections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.office_elections_id_seq OWNER TO travis;
+ALTER TABLE public.office_elections_id_seq OWNER TO app_user;
 
 --
--- Name: office_elections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: travis
+-- Name: office_elections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: app_user
 --
 
 ALTER SEQUENCE public.office_elections_id_seq OWNED BY public.office_elections.id;
 
 
 --
--- Name: referendums; Type: TABLE; Schema: public; Owner: travis
+-- Name: referendums; Type: TABLE; Schema: public; Owner: app_user
 --
 
 CREATE TABLE public.referendums (
@@ -1978,13 +1969,14 @@ CREATE TABLE public.referendums (
 );
 
 
-ALTER TABLE public.referendums OWNER TO travis;
+ALTER TABLE public.referendums OWNER TO app_user;
 
 --
--- Name: referendums_id_seq; Type: SEQUENCE; Schema: public; Owner: travis
+-- Name: referendums_id_seq; Type: SEQUENCE; Schema: public; Owner: app_user
 --
 
 CREATE SEQUENCE public.referendums_id_seq
+    AS integer
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -1992,59 +1984,59 @@ CREATE SEQUENCE public.referendums_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.referendums_id_seq OWNER TO travis;
+ALTER TABLE public.referendums_id_seq OWNER TO app_user;
 
 --
--- Name: referendums_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: travis
+-- Name: referendums_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: app_user
 --
 
 ALTER SEQUENCE public.referendums_id_seq OWNED BY public.referendums.id;
 
 
 --
--- Name: calculations id; Type: DEFAULT; Schema: public; Owner: travis
+-- Name: calculations id; Type: DEFAULT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.calculations ALTER COLUMN id SET DEFAULT nextval('public.calculations_id_seq'::regclass);
 
 
 --
--- Name: candidates id; Type: DEFAULT; Schema: public; Owner: travis
+-- Name: candidates id; Type: DEFAULT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.candidates ALTER COLUMN id SET DEFAULT nextval('public.candidates_id_seq'::regclass);
 
 
 --
--- Name: committees id; Type: DEFAULT; Schema: public; Owner: travis
+-- Name: committees id; Type: DEFAULT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.committees ALTER COLUMN id SET DEFAULT nextval('public.committees_id_seq'::regclass);
 
 
 --
--- Name: elections id; Type: DEFAULT; Schema: public; Owner: travis
+-- Name: elections id; Type: DEFAULT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.elections ALTER COLUMN id SET DEFAULT nextval('public.elections_id_seq'::regclass);
 
 
 --
--- Name: office_elections id; Type: DEFAULT; Schema: public; Owner: travis
+-- Name: office_elections id; Type: DEFAULT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.office_elections ALTER COLUMN id SET DEFAULT nextval('public.office_elections_id_seq'::regclass);
 
 
 --
--- Name: referendums id; Type: DEFAULT; Schema: public; Owner: travis
+-- Name: referendums id; Type: DEFAULT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.referendums ALTER COLUMN id SET DEFAULT nextval('public.referendums_id_seq'::regclass);
 
 
 --
--- Name: calculations calculations_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+-- Name: calculations calculations_pkey; Type: CONSTRAINT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.calculations
@@ -2052,7 +2044,7 @@ ALTER TABLE ONLY public.calculations
 
 
 --
--- Name: candidates candidates_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+-- Name: candidates candidates_pkey; Type: CONSTRAINT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.candidates
@@ -2060,7 +2052,7 @@ ALTER TABLE ONLY public.candidates
 
 
 --
--- Name: committees committees_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+-- Name: committees committees_pkey; Type: CONSTRAINT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.committees
@@ -2068,7 +2060,7 @@ ALTER TABLE ONLY public.committees
 
 
 --
--- Name: elections elections_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+-- Name: elections elections_pkey; Type: CONSTRAINT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.elections
@@ -2076,7 +2068,7 @@ ALTER TABLE ONLY public.elections
 
 
 --
--- Name: office_elections office_elections_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+-- Name: office_elections office_elections_pkey; Type: CONSTRAINT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.office_elections
@@ -2084,7 +2076,7 @@ ALTER TABLE ONLY public.office_elections
 
 
 --
--- Name: referendums referendums_pkey; Type: CONSTRAINT; Schema: public; Owner: travis
+-- Name: referendums referendums_pkey; Type: CONSTRAINT; Schema: public; Owner: app_user
 --
 
 ALTER TABLE ONLY public.referendums

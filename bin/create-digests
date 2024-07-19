@@ -188,8 +188,9 @@ def add_tickets_total(digests, ticket_type='candidates', total_key='total_contri
     for region in regions:
         elections = os.listdir(f'{dirpath}/{region}')
         for election in elections:
-            election_year = election.split('-')[0]
-            election_name = f'{region}-{election_year}'
+            election_year = election.split('-')[0] # TODO: remove this when no longer required
+            # We have to use the full date for the election name since there can be more than one election in a year
+            election_name = f'{region}-{election}'
             if not election_name in digests[f'_{total_group_key}']:
                 digests[f'_{total_group_key}'][election_name] = {}
             election_total = 0.0
@@ -253,8 +254,9 @@ def add_elections_total(digests, total_key='total_contributions', total_group_ke
         for filename in filenames:
             if filename.endswith('.json'):
                 election = filename.replace('.json','')
-                election_year = election.split('-')[0]
-                election_name = f'{region}-{election_year}'
+                election_year = election.split('-')[0]  # TODO: remove later if we don't need it
+                # We have to use the full date instead of the year for the name to support multiple elections in a year
+                election_name = f'{region}-{election}'
                 if not election_name in digests[f'_{total_group_key}']:
                     digests[f'_{total_group_key}'][election_name] = {}
                 filepath = f'{dirpath}/{region}/{filename}'
@@ -282,8 +284,6 @@ def add_elections_total(digests, total_key='total_contributions', total_group_ke
                     total += election_total
 
                     digests[f'_{total_group_key}'][election_name][full_total_key] = round(election_total,2)
-                    if election_name == 'oakland-2024':
-                        digests[f'_{total_group_key}'][election_name][f'{full_total_key}_numbers'] = election_total_numbers
     
     digests[f'_{total_group_key}'][full_total_key] = round(total,2)
 
