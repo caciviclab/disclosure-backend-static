@@ -5,6 +5,7 @@ data_warning: ''
 filer_id: '1462377'
 is_incumbent: false
 name: Zac Unger
+occupation: Firefighter and paramedic
 photo_url: Zac-Unger
 website_url: https://www.zac4oakland.com/
 ---

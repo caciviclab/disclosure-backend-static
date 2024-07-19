@@ -5,4 +5,7 @@ data_warning: ''
 filer_id: ''
 is_incumbent: false
 name: Faye Taylor
+occupation: Longshoreman
+website_url: 'https://fayetaylorfordistrict3.com/ '
+facebook_url: MissFayeTaylor
 ---

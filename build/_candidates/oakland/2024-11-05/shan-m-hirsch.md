@@ -6,4 +6,5 @@ filer_id: '1464290'
 is_incumbent: false
 name: Shan M. Hirsch
 photo_url: Shan-Hirsch
+website_url: 'https://www.shan4d3.org/ '
 ---

@@ -5,4 +5,5 @@ data_warning: ''
 filer_id: ''
 is_incumbent: false
 name: Debra Sherman
+website_url: 'https://www.debrashermanforcitycouncil.com/ '
 ---

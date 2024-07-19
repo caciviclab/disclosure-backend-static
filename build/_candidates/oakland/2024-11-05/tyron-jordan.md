@@ -5,6 +5,8 @@ data_warning: ''
 filer_id: '1456590'
 is_incumbent: false
 name: Tyron Jordan
+occupation: Legal Assistant
 photo_url: Tyron-Jordan
+twitter_url: TyronJordan13
 website_url: https://www.tyronjordanforoakland.com/
 ---

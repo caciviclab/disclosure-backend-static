@@ -1362,7 +1362,7 @@ CREATE TABLE public.candidates (
     "Website" character varying(68),
     "Twitter" character varying(17),
     "Facebook" character varying(91),
-    "Instagram" character varying(23),
+    "Instagram" character varying(91),
     "Party_Affiliation" character varying(11),
     "Occupation" character varying(78),
     "Bio" character varying(1295),
