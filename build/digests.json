@@ -32,6 +32,18 @@
    "_total_contributions_from_totals": 36057.0
   },
   "oakland-2024": {
+   "_contributions_by_type_Unitemized_from_elections_numbers": [
+    395.0
+   ],
+   "_contributions_by_type_from_elections_numbers": [
+    7350.0,
+    395.0
+   ],
+   "_total_contributions_by_source_from_elections_numbers": [
+    500.0,
+    1100.0,
+    5750.0
+   ],
    "_total_contributions_by_source_with_unitemized_from_elections": 17745.0,
    "_total_contributions_by_source_with_unitemized_from_tickets": 17745.0,
    "_total_contributions_by_source_with_unitemized_from_totals": 236398.05,
@@ -39,6 +51,9 @@
    "_total_contributions_by_type_with_loans_from_tickets": 17745.0,
    "_total_contributions_by_type_with_loans_from_totals": 236398.05,
    "_total_contributions_from_elections": 17745.0,
+   "_total_contributions_from_elections_numbers": [
+    17745.0
+   ],
    "_total_contributions_from_tickets": 17745.0,
    "_total_contributions_from_totals": 226398.05
   },
