@@ -4,5 +4,5 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Edward C. Frank
-party_affiliation: Independent
+party_affiliation: 'Independent '
 ---
