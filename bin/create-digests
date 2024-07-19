@@ -262,21 +262,28 @@ def add_elections_total(digests, total_key='total_contributions', total_group_ke
                     data = json.load(fp)
                     election_info = data.get(total_key,0.0)
                     election_total = 0.0
+                    election_total_numbers = []
                     if type(election_info) == dict:
                         if total_subkey is None:
                             for key in election_info:
                                 election_total += float(election_info[key])
+                                election_total_numbers.append(float(election_info[key]))
                         else:
                             election_total += float(election_info.get(total_subkey,0.0))
+                            election_total_numbers.append(float(election_info.get(total_subkey,0.0)))
                     elif type(election_info) == list:
                         for item in election_info:
                             election_total += float(item.get('amount',0.0))
+                            election_total_numbers.append(float(item.get('amount',0.0)))
                     else:
                         election_total = float(election_info)
+                        election_total_numbers.append(float(election_info))
 
                     total += election_total
 
                     digests[f'_{total_group_key}'][election_name][full_total_key] = round(election_total,2)
+                    if election_name == 'oakland-2024':
+                        digests[f'_{total_group_key}'][election_name][f'{full_total_key}_numbers'] = election_total_numbers
     
     digests[f'_{total_group_key}'][full_total_key] = round(total,2)
 
