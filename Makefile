@@ -6,6 +6,14 @@ CSV_PATH?=downloads/csv
 CD := $(shell pwd)
 WGET=bin/wget-wrapper --no-verbose --tries=3
 
+ifdef SERVICE_ACCOUNT_KEY_JSON
+	NETFILE_V2_DOWNLOAD=download-netfile-v2
+	NETFILE_V2_IMPORT=import-new-data
+else ifneq ("$(wildcard .local/SERVICE_ACCOUNT_KEY_JSON.json)","")
+	NETFILE_V2_DOWNLOAD=download-netfile-v2
+	NETFILE_V2_IMPORT=import-new-data
+endif
+
 clean-spreadsheets:
 	rm -rf downloads/csv/*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
 
@@ -43,7 +51,7 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-netfile-v2 \
+download: $(NETFILE_V2_DOWNLOAD) \
 	download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
@@ -123,7 +131,7 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/elections.csv
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
-import-data: import-old-data import-new-data
+import-data: import-old-data $(NETFILE_V2_IMPORT)
 	echo 'CREATE TABLE IF NOT EXISTS "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
@@ -136,7 +144,6 @@ reindex:
 	ruby search_index.rb
 
 import-new-data: elections_v2 committees_v2 a_contributions_v2
-	echo 'TODO: add new data to import'
 
 import-old-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
 	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
