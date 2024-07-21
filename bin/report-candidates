@@ -59,6 +59,7 @@ def main():
     candidates=[]
     add_candidates(candidates)
     df = pl.DataFrame(candidates)
+    df = df.sort(['election','filename'])
     #df.to_csv('build/candidates.csv', index=False)
     df.write_csv('build/candidates.csv')
     #df.to_excel("build/candidates.xlsx", sheet_name="Totals Per Candidates", index=False)

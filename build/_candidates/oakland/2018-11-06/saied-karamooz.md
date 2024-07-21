@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2018-11-06.md
 committee_name: Saied Karamooz for Oakland Mayor 2018
+data_warning: ''
 filer_id: '1401694'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false

@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2022-11-08.md
 committee_name: Loren Taylor for Oakland Mayor 2022
+data_warning: ''
 filer_id: '1441375'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false

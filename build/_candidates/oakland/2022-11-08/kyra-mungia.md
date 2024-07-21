@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2022-11-08.md
 committee_name: Kyra Mungia for Oakland Unified School Board 2022
+data_warning: ''
 filer_id: '1448165'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true

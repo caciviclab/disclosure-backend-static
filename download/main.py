@@ -1,4 +1,7 @@
 """ main, to run everything """
+from collections import Counter
+from datetime import datetime
+import os
 import json
 from model.a_contributions import A_Contributions
 from model.committee import Committees
@@ -21,7 +24,12 @@ def unique_statuses(filers):
 
 def main():
     """ Do everyting """
-    # pull data from gdrive and put it in .local/downloads
+    data_dir_path = '.local/downloads'
+    csv_data_dir_path = '.local/csv'
+    os.makedirs(data_dir_path, exist_ok=True)
+    os.makedirs(csv_data_dir_path, exist_ok=True)
+
+    # pull data from gdrive and put it in .local/downloads/raw
     pull_data(subfolder='main', default_folder='OpenDisclosure')
 
     with open(f'{DATA_DIR_PATH}/elections.json', encoding='utf8') as f:
@@ -72,9 +80,9 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.df.write_csv(f'{OUTPUT_DIR}/elections.csv')
-    committees.df.write_csv(f'{OUTPUT_DIR}/committees.csv')
-    a_contributions.df.write_csv(f'{OUTPUT_DIR}/a_contributions.csv')
+    elections.df.write_csv(f'{csv_data_dir_path}/elections.csv')
+    committees.df.write_csv(f'{csv_data_dir_path}/committees.csv')
+    a_contributions.df.write_csv(f'{csv_data_dir_path}/a_contributions.csv')
 
 if __name__ == '__main__':
     main()
