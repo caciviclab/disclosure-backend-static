@@ -77,7 +77,6 @@ jobs:
         PGPASSWORD: ${{ env.POSTGRES_PASSWORD }}
     services:
       postgres:
-        #image: postgres:9.6-bullseye
         image: postgres:15.6-bullseye
         env:
           POSTGRES_USER: ${{ env.POSTGRES_USER }}
