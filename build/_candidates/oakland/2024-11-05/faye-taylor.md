@@ -6,5 +6,5 @@ is_incumbent: false
 name: Faye Taylor
 occupation: Longshoreman
 website_url: 'https://fayetaylorfordistrict3.com/ '
-facebook_url: MissFayeTaylor
+facebook_url: https://www.facebook.com/MissFayeTaylor
 ---

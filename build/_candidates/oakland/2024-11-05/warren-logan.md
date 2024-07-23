@@ -7,6 +7,6 @@ name: Warren Logan
 photo_url: Warren-Logan
 twitter_url: warrenforoak
 website_url: https://warrenforoakland.com/
-facebook_url: WarrenForOakland
+facebook_url: https://www.facebook.com/WarrenForOakland
 instagram_url: warrenforoakland
 ---
