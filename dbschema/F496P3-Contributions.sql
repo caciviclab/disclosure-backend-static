@@ -73,5 +73,5 @@ CREATE TABLE "F496P3-Contributions" (
 	"XRef_SchNm" VARCHAR(32), 
 	"XRef_Match" VARCHAR(32), 
 	"Loan_Rate" FLOAT, 
-	"Int_CmteId" VARCHAR(4)
+	"Int_CmteId" VARCHAR(16)
 );

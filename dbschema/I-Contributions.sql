@@ -73,5 +73,5 @@ CREATE TABLE "I-Contributions" (
 	"XRef_SchNm" VARCHAR(32), 
 	"XRef_Match" VARCHAR(32), 
 	"Loan_Rate" VARCHAR(32), 
-	"Int_CmteId" VARCHAR(4)
+	"Int_CmteId" VARCHAR(16)
 );
