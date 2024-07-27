@@ -195,7 +195,7 @@ CREATE TABLE public."A-Contributions" (
     "XRef_SchNm" character varying(32),
     "XRef_Match" character varying(32),
     "Loan_Rate" character varying(32),
-    "Int_CmteId" integer
+    "Int_CmteId" character varying(16)
 );
 
 
@@ -422,7 +422,7 @@ CREATE TABLE public."C-Contributions" (
     "XRef_SchNm" character varying(32),
     "XRef_Match" character varying(32),
     "Loan_Rate" character varying(32),
-    "Int_CmteId" character varying(4)
+    "Int_CmteId" character varying(16)
 );
 
 
@@ -540,8 +540,8 @@ CREATE TABLE public."E-Expenditure" (
     "Agent_NamT" character varying(32),
     "Agent_NamS" character varying(32),
     "Cmte_ID" character varying(9),
-    "Tres_NamL" character varying(19),
-    "Tres_NamF" character varying(6),
+    "Tres_NamL" character varying(32),
+    "Tres_NamF" character varying(32),
     "Tres_NamT" character varying(32),
     "Tres_NamS" character varying(32),
     "Tres_Adr1" character varying(32),
@@ -867,7 +867,7 @@ CREATE TABLE public."F496P3-Contributions" (
     "XRef_SchNm" character varying(32),
     "XRef_Match" character varying(32),
     "Loan_Rate" double precision,
-    "Int_CmteId" character varying(4)
+    "Int_CmteId" character varying(16)
 );
 
 
@@ -1096,7 +1096,7 @@ CREATE TABLE public."I-Contributions" (
     "XRef_SchNm" character varying(32),
     "XRef_Match" character varying(32),
     "Loan_Rate" character varying(32),
-    "Int_CmteId" character varying(4)
+    "Int_CmteId" character varying(16)
 );
 
 

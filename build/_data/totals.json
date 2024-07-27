@@ -1385,12 +1385,6 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Laborers Local 304",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
-      },
-      {
         "name": "UA Local 342",
         "type": "Office",
         "election_name": "oakland-2023",
@@ -1398,6 +1392,12 @@
       },
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1500,7 +1500,7 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Araina Lynn Hennen",
+        "name": "Steven Von Stade",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1512,7 +1512,7 @@
         "total_contributions": 600.0
       },
       {
-        "name": "Steven Von Stade",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1566,17 +1566,17 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 226398.05,
+    "total_contributions": 251095.76,
     "total_contributions_by_source": {
-      "Out of State": 23725.0,
-      "Within Oakland": 61842.0,
-      "Within California": 127395.05
+      "Out of State": 25925.0,
+      "Within Oakland": 76429.71,
+      "Within California": 132295.05
     },
     "contributions_by_type": {
       "Committee": 47050.0,
-      "Individual": 164011.05,
-      "Unitemized": 13436.0,
-      "Self Funding": 101.0,
+      "Individual": 185193.05,
+      "Unitemized": 16446.0,
+      "Self Funding": 606.71,
       "Other (includes Businesses)": 1800.0
     },
     "most_expensive_races": [
@@ -1601,11 +1601,19 @@
     ],
     "largest_small_proportion": [
       {
+        "slug": "tonya-love",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Tonya Love",
+        "proportion": 0.2,
+        "office_title": "City Council At-Large"
+      },
+      {
         "slug": "sam-davis",
         "type": "office",
         "title": "Oakland November 5th, 2024 General Election",
         "candidate": "Sam Davis",
-        "proportion": 0.16,
+        "proportion": 0.18,
         "office_title": "School Board District 1"
       },
       {
@@ -1615,14 +1623,6 @@
         "candidate": "Warren Logan",
         "proportion": 0.13,
         "office_title": "City Council District 3"
-      },
-      {
-        "slug": "treva-reid",
-        "type": "office",
-        "title": "Oakland November 5th, 2024 General Election",
-        "candidate": "Treva Reid",
-        "proportion": 0.11,
-        "office_title": "City Council District 7"
       }
     ],
     "largest_independent_expenditures": {
@@ -1658,7 +1658,7 @@
         "total_contributions": 2400.0
       },
       {
-        "name": "Courtney Dykstra",
+        "name": "Weylin White",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 1800.0
