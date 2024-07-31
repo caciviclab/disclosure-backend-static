@@ -1,7 +1,7 @@
 CREATE TABLE candidates (
 	election_name VARCHAR(18) NOT NULL, 
 	"Candidate" VARCHAR(31) NOT NULL, 
-	"FPPC" VARCHAR(16), 
+	"FPPC" INTEGER, 
 	"Committee_Name" VARCHAR(78), 
 	"Aliases" VARCHAR(64), 
 	"Office" VARCHAR(64) NOT NULL, 
