@@ -5,6 +5,7 @@ candidates:
 - len-raphael
 - debra-sherman
 - edward-c-frank
+- samuel-a-gondelman
 title: City Council District 1
 label: City Council
 ---

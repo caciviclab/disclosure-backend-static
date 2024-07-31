@@ -1,5 +1,5 @@
 {
-  "id": 9,
+  "id": 31,
   "name": "Warren Logan",
   "photo_url": "Warren-Logan",
   "website_url": "https://warrenforoakland.com/",
@@ -21,32 +21,36 @@
   "is_winner": null,
   "filer_id": 1463590,
   "supporting_money": {
-    "contributions_received": 46973.0,
-    "total_contributions": 46973.0,
-    "total_expenditures": 14785.89,
+    "contributions_received": 100164.27,
+    "total_contributions": 100164.27,
+    "total_expenditures": 46156.11,
     "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 41425.0,
-      "Unitemized": 5548.0
+      "Individual": 88004.0,
+      "Unitemized": 12160.27
     },
     "contributions_by_origin": {
-      "Out of State": 5750.0,
-      "Within Oakland": 13550.0,
-      "Within California": 22125.0
+      "Out of State": 8825.0,
+      "Within Oakland": 37404.0,
+      "Within California": 41775.0
     },
-    "total_small_contributions": 6148.0,
+    "total_small_contributions": 15113.27,
     "expenditures_by_type": {
-      "Office Expenses": 701.48,
+      "Office Expenses": 3146.53,
       "Fundraising Events": 1430.0,
-      "Campaign Consultants": 3000.0,
-      "Campaign Paraphernalia/Misc.": 3000.0,
+      "Campaign Consultants": 15000.0,
+      "Meetings and Appearances": 408.72,
+      "Campaign Paraphernalia/Misc.": 5652.33,
       "Campaign Literature and Mailings": 1773.96,
-      "Professional Services (Legal, Accounting)": 1335.0,
-      "Information Technology Costs (Internet, E-mail)": 3500.0
+      "Candidate Travel, Lodging, and Meals": 286.02,
+      "Staff/Spouse Travel, Lodging, and Meals": 70.3,
+      "Postage, Delivery and Messenger Services": 184.8,
+      "Professional Services (Legal, Accounting)": 10905.0,
+      "Information Technology Costs (Internet, E-mail)": 7150.0
     },
     "supporting_by_type": {
     }
@@ -59,7 +63,7 @@
 
     ]
   },
-  "total_contributions": 46973.0,
-  "total_expenditures": 14785.89,
+  "total_contributions": 100164.27,
+  "total_expenditures": 46156.11,
   "total_loans_received": 0.0
 }

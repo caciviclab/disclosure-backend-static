@@ -1385,6 +1385,12 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "Laborers Local 304",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
         "name": "UA Local 342",
         "type": "Office",
         "election_name": "oakland-2023",
@@ -1392,12 +1398,6 @@
       },
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
-      },
-      {
-        "name": "Peralta Federation of Teachers COPE",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1500,7 +1500,7 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Steven Von Stade",
+        "name": "Araina Lynn Hennen",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1512,7 +1512,7 @@
         "total_contributions": 600.0
       },
       {
-        "name": "Mary Preston",
+        "name": "Steven Von Stade",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1566,18 +1566,18 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 251095.76,
+    "total_contributions": 397094.99,
     "total_contributions_by_source": {
-      "Out of State": 25925.0,
-      "Within Oakland": 76429.71,
-      "Within California": 132295.05
+      "Out of State": 33240.0,
+      "Within Oakland": 134160.67,
+      "Within California": 175584.05
     },
     "contributions_by_type": {
-      "Committee": 47050.0,
-      "Individual": 185193.05,
-      "Unitemized": 16446.0,
-      "Self Funding": 606.71,
-      "Other (includes Businesses)": 1800.0
+      "Committee": 48550.0,
+      "Individual": 284218.01,
+      "Unitemized": 29110.27,
+      "Self Funding": 6801.71,
+      "Other (includes Businesses)": 3415.0
     },
     "most_expensive_races": [
       {
@@ -1590,16 +1590,24 @@
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 48173.0
+        "amount": 101364.27
       },
       {
-        "slug": "city-attorney",
+        "slug": "city-council-at-large",
         "type": "office",
-        "title": "City Attorney",
-        "amount": 25186.0
+        "title": "City Council At-Large",
+        "amount": 75237.71
       }
     ],
     "largest_small_proportion": [
+      {
+        "slug": "mindy-pechenuk",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Mindy Pechenuk",
+        "proportion": 0.23,
+        "office_title": "City Council At-Large"
+      },
       {
         "slug": "tonya-love",
         "type": "office",
@@ -1615,20 +1623,17 @@
         "candidate": "Sam Davis",
         "proportion": 0.18,
         "office_title": "School Board District 1"
-      },
-      {
-        "slug": "warren-logan",
-        "type": "office",
-        "title": "Oakland November 5th, 2024 General Election",
-        "candidate": "Warren Logan",
-        "proportion": 0.13,
-        "office_title": "City Council District 3"
       }
     ],
     "largest_independent_expenditures": {
     },
     "top_contributors": [
       {
+        "name": "Ryan Richardson",
+        "election_name": "oakland-2024",
+        "total_contributions": 6000.0
+      },
+      {
         "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
@@ -1637,15 +1642,16 @@
         "name": "International Association of Firefighters Local 55",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
-      },
-      {
-        "name": "Dow Terry",
-        "election_name": "oakland-2024",
-        "total_contributions": 1800.0
       }
     ],
     "top_contributors_for_offices": [
       {
+        "name": "Ryan Richardson",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 6000.0
+      },
+      {
         "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
@@ -1656,12 +1662,6 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
-      },
-      {
-        "name": "Weylin White",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_contributions": 1800.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1669,6 +1669,12 @@
     ],
     "top_spenders": [
       {
+        "name": "Ryan Richardson",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 6000.0
+      },
+      {
         "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
@@ -1679,16 +1685,16 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 2400.0
-      },
-      {
-        "name": "Courtney Dykstra",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_spending": 1800.0
       }
     ],
     "top_spenders_for_offices": [
       {
+        "name": "Ryan Richardson",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 6000.0
+      },
+      {
         "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
@@ -1699,12 +1705,6 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 2400.0
-      },
-      {
-        "name": "Courtney Dykstra",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_spending": 1800.0
       }
     ],
     "top_spenders_for_measures": [
