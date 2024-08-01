@@ -50,7 +50,7 @@ CREATE TABLE "F465P3-Expenditure" (
 	"Offic_Dscr" VARCHAR(12), 
 	"Juris_Cd" VARCHAR(4), 
 	"Juris_Dscr" VARCHAR(31), 
-	"Dist_No" INTEGER, 
+	"Dist_No" VARCHAR(4), 
 	"Off_S_H_Cd" VARCHAR(32), 
 	"Bal_Name" VARCHAR(122), 
 	"Bal_Num" VARCHAR(4), 

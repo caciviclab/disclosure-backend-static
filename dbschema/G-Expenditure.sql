@@ -50,7 +50,7 @@ CREATE TABLE "G-Expenditure" (
 	"Offic_Dscr" VARCHAR(34), 
 	"Juris_Cd" VARCHAR(4), 
 	"Juris_Dscr" VARCHAR(19), 
-	"Dist_No" INTEGER, 
+	"Dist_No" VARCHAR(4), 
 	"Off_S_H_Cd" VARCHAR(32), 
 	"Bal_Name" VARCHAR(188), 
 	"Bal_Num" VARCHAR(4), 

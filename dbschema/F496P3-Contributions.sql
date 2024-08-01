@@ -61,7 +61,7 @@ CREATE TABLE "F496P3-Contributions" (
 	"tblDetlTran_Offic_Dscr" VARCHAR(5), 
 	"Juris_Cd" VARCHAR(4), 
 	"Juris_Dscr" VARCHAR(11), 
-	"Dist_No" INTEGER, 
+	"Dist_No" VARCHAR(4), 
 	"Off_S_H_Cd" VARCHAR(32), 
 	"Bal_Name" VARCHAR(32), 
 	"Bal_Num" VARCHAR(32), 
