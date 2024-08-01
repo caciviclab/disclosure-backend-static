@@ -1,5 +1,5 @@
 {
-  "id": 30,
+  "id": 25,
   "name": "Carroll Fife",
   "photo_url": "Carroll-Fife",
   "website_url": "https://www.carrollfife.org/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1463441,
   "supporting_money": {
-    "contributions_received": 1200.0,
-    "total_contributions": 1200.0,
-    "total_expenditures": 357.0,
+    "contributions_received": 13416.0,
+    "total_contributions": 13416.0,
+    "total_expenditures": 9356.79,
     "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
@@ -31,14 +31,19 @@
     ],
     "contributions_by_type": {
       "Committee": 1200.0,
-      "Unitemized": 0.0
+      "Individual": 10470.0,
+      "Unitemized": 1146.0,
+      "Other (includes Businesses)": 600.0
     },
     "contributions_by_origin": {
-      "Within California": 1200.0
+      "Out of State": 1250.0,
+      "Within Oakland": 7180.0,
+      "Within California": 3840.0
     },
-    "total_small_contributions": 0.0,
+    "total_small_contributions": 1146.0,
     "expenditures_by_type": {
-      "Professional Services (Legal, Accounting)": 357.0
+      "Office Expenses": 119.79,
+      "Professional Services (Legal, Accounting)": 887.0
     },
     "supporting_by_type": {
       "IKD": 507.0,
@@ -55,7 +60,7 @@
 
     ]
   },
-  "total_contributions": 1200.0,
-  "total_expenditures": 357.0,
+  "total_contributions": 13416.0,
+  "total_expenditures": 9356.79,
   "total_loans_received": 0.0
 }

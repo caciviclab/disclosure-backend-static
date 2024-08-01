@@ -392,15 +392,15 @@
     "total_contributions": 6930441.34,
     "total_contributions_by_source": {
       "Out of State": 962276.36,
-      "Within Oakland": 2724177.62,
+      "Within Oakland": 2758677.62,
       "Within California": 2987941.18
     },
     "contributions_by_type": {
       "Committee": 1007966.04,
       "Individual": 2820913.61,
       "Unitemized": 155830.18,
-      "Self Funding": 89184.25,
-      "Other (includes Businesses)": 2756331.26
+      "Self Funding": 121184.25,
+      "Other (includes Businesses)": 2758831.26
     },
     "most_expensive_races": [
       {
@@ -490,16 +490,16 @@
         "total_contributions": 53757.13
       },
       {
+        "name": "Pamela Price",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_contributions": 34775.0
+      },
+      {
         "name": "Charlie Michelson",
         "type": "Office",
         "election_name": "oakland-2018",
         "total_contributions": 15700.0
-      },
-      {
-        "name": "Saied Karamooz",
-        "type": "Office",
-        "election_name": "oakland-2018",
-        "total_contributions": 8796.6
       }
     ],
     "top_contributors_for_measures": [
@@ -550,16 +550,16 @@
         "total_spending": 53757.13
       },
       {
+        "name": "Pamela Price",
+        "type": "Office",
+        "election_name": "oakland-2018",
+        "total_spending": 34775.0
+      },
+      {
         "name": "Charlie Michelson",
         "type": "Office",
         "election_name": "oakland-2018",
         "total_spending": 15700.0
-      },
-      {
-        "name": "Saied Karamooz",
-        "type": "Office",
-        "election_name": "oakland-2018",
-        "total_spending": 8796.6
       }
     ],
     "top_spenders_for_measures": [
@@ -584,16 +584,16 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3002117.6,
+    "total_contributions": 3006732.6,
     "total_contributions_by_source": {
-      "Out of State": 191042.27,
-      "Within Oakland": 1410190.26,
-      "Within California": 1114826.05
+      "Out of State": 191292.27,
+      "Within Oakland": 1413560.26,
+      "Within California": 1115326.05
     },
     "contributions_by_type": {
       "Committee": 446516.93,
-      "Individual": 1806968.61,
-      "Unitemized": 208327.35,
+      "Individual": 1811088.61,
+      "Unitemized": 208822.35,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 328106.4
     },
@@ -602,13 +602,13 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 520635.41
+        "amount": 521355.41
       },
       {
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 505811.91
+        "amount": 509706.91
       },
       {
         "slug": "ousd-facilities-bond",
@@ -779,25 +779,25 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 6412430.02,
+    "total_contributions": 6425165.02,
     "total_contributions_by_source": {
-      "Out of State": 529589.59,
-      "Within Oakland": 2667876.85,
-      "Within California": 3048897.34
+      "Out of State": 532839.59,
+      "Within Oakland": 2673496.85,
+      "Within California": 3052497.34
     },
     "contributions_by_type": {
-      "Committee": 1028199.72,
-      "Individual": 2569707.87,
-      "Unitemized": 130160.5,
+      "Committee": 1029999.72,
+      "Individual": 2578577.87,
+      "Unitemized": 130425.5,
       "Self Funding": 11162.14,
-      "Other (includes Businesses)": 2637294.05
+      "Other (includes Businesses)": 2639094.05
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1903523.39
+        "amount": 1913508.39
       },
       {
         "slug": "progressive-and-equitable-oakland-gross-receipts-tax",
@@ -1311,41 +1311,41 @@
     ]
   },
   "oakland-2023": {
-    "total_contributions": 36057.0,
+    "total_contributions": 36957.0,
     "total_contributions_by_source": {
       "Out of State": 1400.0,
-      "Within Oakland": 20534.0,
-      "Within California": 11326.0
+      "Within Oakland": 20234.0,
+      "Within California": 12526.0
     },
     "contributions_by_type": {
       "Committee": 6000.0,
-      "Individual": 25560.0,
+      "Individual": 26160.0,
       "Unitemized": 3097.0,
-      "Other (includes Businesses)": 1700.0
+      "Other (includes Businesses)": 2000.0
     },
     "most_expensive_races": [
       {
         "slug": "school-board-district-5",
         "type": "office",
         "title": "School Board District 5",
-        "amount": 36057.0
+        "amount": 36957.0
       }
     ],
     "largest_small_proportion": [
-      {
-        "slug": "jorge-c-lerma",
-        "type": "office",
-        "title": "Oakland November 7th, 2023 Special Election",
-        "candidate": "Jorge C. Lerma",
-        "proportion": 0.1,
-        "office_title": "School Board District 5"
-      },
       {
         "slug": "alexandra-ritzie-hernandez",
         "type": "office",
         "title": "Oakland November 7th, 2023 Special Election",
         "candidate": "Alexandra Ritzie-Hernandez",
         "proportion": 0.1,
+        "office_title": "School Board District 5"
+      },
+      {
+        "slug": "jorge-c-lerma",
+        "type": "office",
+        "title": "Oakland November 7th, 2023 Special Election",
+        "candidate": "Jorge C. Lerma",
+        "proportion": 0.09,
         "office_title": "School Board District 5"
       }
     ],
@@ -1451,22 +1451,22 @@
     ]
   },
   "oakland-march-2024": {
-    "total_contributions": 17745.0,
+    "total_contributions": 18005.0,
     "total_contributions_by_source": {
       "Out of State": 500.0,
       "Within Oakland": 1100.0,
-      "Within California": 5750.0
+      "Within California": 6000.0
     },
     "contributions_by_type": {
-      "Individual": 7350.0,
-      "Unitemized": 395.0
+      "Individual": 7600.0,
+      "Unitemized": 405.0
     },
     "most_expensive_races": [
       {
         "slug": "city-auditor",
         "type": "office",
         "title": "City Auditor",
-        "amount": 17745.0
+        "amount": 18005.0
       }
     ],
     "largest_small_proportion": [
@@ -1566,40 +1566,48 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 397094.99,
+    "total_contributions": 588959.27,
     "total_contributions_by_source": {
-      "Out of State": 33240.0,
-      "Within Oakland": 134160.67,
-      "Within California": 175584.05
+      "Out of State": 58119.0,
+      "Within Oakland": 212333.92,
+      "Within California": 237626.6
     },
     "contributions_by_type": {
-      "Committee": 48550.0,
-      "Individual": 284218.01,
-      "Unitemized": 29110.27,
+      "Committee": 64600.0,
+      "Individual": 426186.31,
+      "Unitemized": 45779.75,
       "Self Funding": 6801.71,
-      "Other (includes Businesses)": 3415.0
+      "Other (includes Businesses)": 10491.5
     },
     "most_expensive_races": [
+      {
+        "slug": "city-council-at-large",
+        "type": "office",
+        "title": "City Council At-Large",
+        "amount": 200091.14
+      },
       {
         "slug": "city-council-district-1",
         "type": "office",
         "title": "City Council District 1",
-        "amount": 126049.55
+        "amount": 174761.4
       },
       {
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 101364.27
-      },
-      {
-        "slug": "city-council-at-large",
-        "type": "office",
-        "title": "City Council At-Large",
-        "amount": 75237.71
+        "amount": 118463.27
       }
     ],
     "largest_small_proportion": [
+      {
+        "slug": "cristina-tostado",
+        "type": "office",
+        "title": "Oakland November 5th, 2024 General Election",
+        "candidate": "Cristina Tostado",
+        "proportion": 0.42,
+        "office_title": "City Council At-Large"
+      },
       {
         "slug": "mindy-pechenuk",
         "type": "office",
@@ -1615,14 +1623,6 @@
         "candidate": "Tonya Love",
         "proportion": 0.2,
         "office_title": "City Council At-Large"
-      },
-      {
-        "slug": "sam-davis",
-        "type": "office",
-        "title": "Oakland November 5th, 2024 General Election",
-        "candidate": "Sam Davis",
-        "proportion": 0.18,
-        "office_title": "School Board District 1"
       }
     ],
     "largest_independent_expenditures": {
@@ -1634,14 +1634,14 @@
         "total_contributions": 6000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
-        "election_name": "oakland-2024",
-        "total_contributions": 2400.0
-      },
-      {
         "name": "International Association of Firefighters Local 55",
         "election_name": "oakland-2024",
-        "total_contributions": 2400.0
+        "total_contributions": 3679.5
+      },
+      {
+        "name": "Charlene Wang",
+        "election_name": "oakland-2024",
+        "total_contributions": 2415.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1652,13 +1652,13 @@
         "total_contributions": 6000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "name": "Charlene Wang",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 2400.0
+        "total_contributions": 2415.0
       },
       {
-        "name": "International Association of Firefighters Local 55",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
@@ -1675,13 +1675,13 @@
         "total_spending": 6000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "name": "Charlene Wang",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 2400.0
+        "total_spending": 2415.0
       },
       {
-        "name": "International Association of Firefighters Local 55",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 2400.0
@@ -1695,20 +1695,25 @@
         "total_spending": 6000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
+        "name": "Charlene Wang",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 2400.0
+        "total_spending": 2415.0
       },
       {
-        "name": "International Association of Firefighters Local 55",
+        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 2400.0
       }
     ],
     "top_spenders_for_measures": [
-
+      {
+        "name": "International Association of Firefighters Local 55",
+        "type": "Measure",
+        "election_name": "oakland-2024",
+        "total_spending": 1279.5
+      }
     ]
   },
   "sf-2016": {

@@ -4,11 +4,11 @@ candidates:
 - warren-logan
 - carroll-fife
 - baba-a-afolabi
+- meron-y-semedar
 - derreck-b-johnson
 - donnel-c-dunbar
 - faye-taylor
 - lewis-l-lester
-- meron-y-semedar
 - shan-m-hirsch
 - tariq-e-ikharo
 title: City Council District 3

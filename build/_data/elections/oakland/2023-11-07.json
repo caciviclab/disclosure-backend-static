@@ -1,39 +1,39 @@
 {
-  "total_contributions": 36057.0,
+  "total_contributions": 36957.0,
   "total_contributions_by_source": {
     "Out of State": 1400.0,
-    "Within Oakland": 20534.0,
-    "Within California": 11326.0
+    "Within Oakland": 20234.0,
+    "Within California": 12526.0
   },
   "contributions_by_type": {
     "Committee": 6000.0,
-    "Individual": 25560.0,
+    "Individual": 26160.0,
     "Unitemized": 3097.0,
-    "Other (includes Businesses)": 1700.0
+    "Other (includes Businesses)": 2000.0
   },
   "most_expensive_races": [
     {
       "slug": "school-board-district-5",
       "type": "office",
       "title": "School Board District 5",
-      "amount": 36057.0
+      "amount": 36957.0
     }
   ],
   "largest_small_proportion": [
-    {
-      "slug": "jorge-c-lerma",
-      "type": "office",
-      "title": "Oakland November 7th, 2023 Special Election",
-      "candidate": "Jorge C. Lerma",
-      "proportion": 0.1,
-      "office_title": "School Board District 5"
-    },
     {
       "slug": "alexandra-ritzie-hernandez",
       "type": "office",
       "title": "Oakland November 7th, 2023 Special Election",
       "candidate": "Alexandra Ritzie-Hernandez",
       "proportion": 0.1,
+      "office_title": "School Board District 5"
+    },
+    {
+      "slug": "jorge-c-lerma",
+      "type": "office",
+      "title": "Oakland November 7th, 2023 Special Election",
+      "candidate": "Jorge C. Lerma",
+      "proportion": 0.09,
       "office_title": "School Board District 5"
     }
   ],

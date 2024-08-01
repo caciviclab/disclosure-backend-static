@@ -1,15 +1,15 @@
 ---
 election: _elections/oakland/2024-11-05.md
 candidates:
-- kanitha-matoury
-- tonya-love
-- mindy-pechenuk
 - charlene-a-wang
-- cristina-tostado
-- fabian-robinson
+- kanitha-matoury
 - leronne-armstrong
-- nancy-sidebotham
+- tonya-love
 - rowena-j-brown
+- cristina-tostado
+- mindy-pechenuk
+- fabian-robinson
+- nancy-sidebotham
 - selika-thomas
 - shawn-b-danino
 - tyron-jordan

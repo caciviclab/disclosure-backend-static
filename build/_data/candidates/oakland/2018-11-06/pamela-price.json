@@ -1,5 +1,5 @@
 {
-  "id": 145,
+  "id": 121,
   "name": "Pamela Price",
   "photo_url": "Pamela-Price.png",
   "website_url": "https://www.pamelaprice4mayor.com/",
@@ -23,8 +23,8 @@
   "supporting_money": {
     "contributions_received": 109782.9,
     "total_contributions": 109782.9,
-    "total_expenditures": 114167.41,
-    "total_loans_received": 34500.0,
+    "total_expenditures": 113224.65,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
@@ -33,12 +33,12 @@
       "Committee": 7676.9,
       "Individual": 56929.0,
       "Unitemized": 5302.0,
-      "Self Funding": 1375.0,
-      "Other (includes Businesses)": 4000.0
+      "Self Funding": 33375.0,
+      "Other (includes Businesses)": 6500.0
     },
     "contributions_by_origin": {
       "Out of State": 2350.0,
-      "Within Oakland": 33590.0,
+      "Within Oakland": 68090.0,
       "Within California": 34040.9
     },
     "total_small_contributions": 5961.0,
@@ -51,7 +51,7 @@
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 9979.27,
       "Postage, Delivery and Messenger Services": 487.47,
-      "Professional Services (Legal, Accounting)": 58770.34,
+      "Professional Services (Legal, Accounting)": 59037.89,
       "Information Technology Costs (Internet, E-mail)": 2019.74
     },
     "supporting_by_type": {
@@ -76,6 +76,6 @@
     ]
   },
   "total_contributions": 109782.9,
-  "total_expenditures": 114167.41,
-  "total_loans_received": 34500.0
+  "total_expenditures": 113224.65,
+  "total_loans_received": 0.0
 }

@@ -1,20 +1,20 @@
 {
-  "total_contributions": 17745.0,
+  "total_contributions": 18005.0,
   "total_contributions_by_source": {
     "Out of State": 500.0,
     "Within Oakland": 1100.0,
-    "Within California": 5750.0
+    "Within California": 6000.0
   },
   "contributions_by_type": {
-    "Individual": 7350.0,
-    "Unitemized": 395.0
+    "Individual": 7600.0,
+    "Unitemized": 405.0
   },
   "most_expensive_races": [
     {
       "slug": "city-auditor",
       "type": "office",
       "title": "City Auditor",
-      "amount": 17745.0
+      "amount": 18005.0
     }
   ],
   "largest_small_proportion": [

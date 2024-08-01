@@ -4,4 +4,5 @@ committee_name: Pechenuk for Oakland City Council 2024
 filer_id: '1469153'
 is_incumbent: false
 name: Mindy Pechenuk
+website_url: https://www.electmindy.com/
 ---

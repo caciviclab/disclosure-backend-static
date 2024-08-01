@@ -1,5 +1,5 @@
 {
-  "id": 56,
+  "id": 79,
   "name": "Janani Ramachandran",
   "photo_url": "Janani_Ramachandran.png",
   "website_url": "https://jananiforoakland.com/",
@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442792,
   "supporting_money": {
-    "contributions_received": 178133.19,
-    "total_contributions": 178133.19,
-    "total_expenditures": 196345.82,
+    "contributions_received": 180283.19,
+    "total_contributions": 180283.19,
+    "total_expenditures": 196445.82,
     "total_loans_received": 5000.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -36,18 +36,18 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 30142.5,
-      "Individual": 129326.0,
-      "Unitemized": 10855.0,
+      "Committee": 31342.5,
+      "Individual": 129646.0,
+      "Unitemized": 10885.0,
       "Self Funding": 900.0,
-      "Other (includes Businesses)": 1909.69
+      "Other (includes Businesses)": 2509.69
     },
     "contributions_by_origin": {
       "Out of State": 21960.0,
-      "Within Oakland": 52169.25,
-      "Within California": 88148.94
+      "Within Oakland": 54789.25,
+      "Within California": 87648.94
     },
-    "total_small_contributions": 18540.0,
+    "total_small_contributions": 18690.0,
     "expenditures_by_type": {
       "Not Stated": 10172.6,
       "Phone Banks": 16380.8,
@@ -61,7 +61,8 @@
       "Candidate Filing/Ballot Fees": 1415.91,
       "Campaign Literature and Mailings": 64252.81,
       "Professional Services (Legal, Accounting)": 20851.5,
-      "Information Technology Costs (Internet, E-mail)": 31559.54
+      "Information Technology Costs (Internet, E-mail)": 31559.54,
+      "Transfer Between Committees of the Same Candidate/sponsor": 100.0
     },
     "supporting_by_type": {
       "Digital Ads Estimate $1,038.41": 1000.0,
@@ -78,7 +79,7 @@
 
     ]
   },
-  "total_contributions": 178133.19,
-  "total_expenditures": 196345.82,
+  "total_contributions": 180283.19,
+  "total_expenditures": 196445.82,
   "total_loans_received": 5000.0
 }

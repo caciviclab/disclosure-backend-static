@@ -1,7 +1,32 @@
 {
   "iec": false,
-  "total_contributions": 0,
+  "total_contributions": 1200.0,
   "contributions": [
-
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Filer_ID": "1469894",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-06-28",
+      "Tran_NamF": "Linda",
+      "Tran_NamL": "Spencer",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Filer_ID": "1469894",
+      "Tran_Emp": "Self employed",
+      "Tran_Occ": "Economist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-06-28",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spencer",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
+    }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": 27,
+  "id": 222,
   "name": "Zac Unger",
   "photo_url": "Zac-Unger",
   "website_url": "https://www.zac4oakland.com/",
@@ -21,32 +21,36 @@
   "is_winner": null,
   "filer_id": 1462377,
   "supporting_money": {
-    "contributions_received": 125078.55,
-    "total_contributions": 125078.55,
-    "total_expenditures": 12304.02,
+    "contributions_received": 166789.4,
+    "total_contributions": 166789.4,
+    "total_expenditures": 31367.31,
     "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 43150.0,
-      "Individual": 76780.55,
-      "Unitemized": 3948.0,
-      "Other (includes Businesses)": 1200.0
+      "Committee": 56200.0,
+      "Individual": 101351.1,
+      "Unitemized": 6617.0,
+      "Other (includes Businesses)": 2621.3
     },
     "contributions_by_origin": {
-      "Out of State": 5200.0,
-      "Within Oakland": 31970.0,
-      "Within California": 83960.55
+      "Out of State": 6650.0,
+      "Within Oakland": 44811.3,
+      "Within California": 108711.1
     },
-    "total_small_contributions": 4473.0,
+    "total_small_contributions": 8267.0,
     "expenditures_by_type": {
-      "Office Expenses": 4079.13,
-      "Campaign Consultants": 3000.0,
+      "Not Stated": 2950.0,
+      "Office Expenses": 4883.91,
+      "Fundraising Events": 553.12,
+      "Campaign Consultants": 8500.0,
+      "Campaign Paraphernalia/Misc.": 493.2,
       "Candidate Filing/Ballot Fees": 100.0,
       "Campaign Literature and Mailings": 1994.5,
-      "Professional Services (Legal, Accounting)": 3100.39
+      "Professional Services (Legal, Accounting)": 10750.39,
+      "Information Technology Costs (Internet, E-mail)": 690.89
     },
     "supporting_by_type": {
     }
@@ -59,7 +63,7 @@
 
     ]
   },
-  "total_contributions": 125078.55,
-  "total_expenditures": 12304.02,
+  "total_contributions": 166789.4,
+  "total_expenditures": 31367.31,
   "total_loans_received": 0.0
 }

@@ -1,5 +1,5 @@
 {
-  "id": 2,
+  "id": 113,
   "name": "LeRonne Armstrong",
   "photo_url": null,
   "website_url": "https://armstrongforoakland.com/",
@@ -21,20 +21,32 @@
   "is_winner": null,
   "filer_id": 1469671,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 41504.2,
+    "total_contributions": 41504.2,
+    "total_expenditures": 22292.23,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 35330.0,
+      "Unitemized": 2388.0,
+      "Other (includes Businesses)": 3786.2
     },
     "contributions_by_origin": {
+      "Out of State": 100.0,
+      "Within Oakland": 28366.2,
+      "Within California": 10650.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 2688.0,
     "expenditures_by_type": {
+      "Not Stated": 500.0,
+      "Fundraising Events": 1489.54,
+      "Campaign Consultants": 2500.0,
+      "Campaign Paraphernalia/Misc.": 1363.79,
+      "Professional Services (Legal, Accounting)": 1550.0,
+      "Information Technology Costs (Internet, E-mail)": 4654.1
     },
     "supporting_by_type": {
     }
@@ -47,7 +59,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 41504.2,
+  "total_expenditures": 22292.23,
+  "total_loans_received": 0.0
 }

@@ -1,8 +1,8 @@
 {
-  "id": 3,
+  "id": 185,
   "name": "Rowena J. Brown",
   "photo_url": null,
-  "website_url": null,
+  "website_url": "https://www.rowenaforoakland.com/",
   "twitter_url": null,
   "facebook_url": null,
   "instagram_url": null,
@@ -21,20 +21,28 @@
   "is_winner": null,
   "filer_id": 1468846,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 11434.0,
+    "total_contributions": 11434.0,
+    "total_expenditures": 3319.31,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Committee": 2400.0,
+      "Individual": 7550.0,
+      "Unitemized": 1484.0
     },
     "contributions_by_origin": {
+      "Out of State": 100.0,
+      "Within Oakland": 4950.0,
+      "Within California": 4900.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 1784.0,
     "expenditures_by_type": {
+      "Campaign Consultants": 3000.0,
+      "Campaign Paraphernalia/Misc.": 280.0
     },
     "supporting_by_type": {
     }
@@ -47,7 +55,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 11434.0,
+  "total_expenditures": 3319.31,
+  "total_loans_received": 0.0
 }

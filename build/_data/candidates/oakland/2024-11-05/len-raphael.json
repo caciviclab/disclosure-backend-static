@@ -1,5 +1,5 @@
 {
-  "id": 29,
+  "id": 110,
   "name": "Len Raphael",
   "photo_url": "Len-Raphael",
   "website_url": "https://www.lensforchange.com/",
@@ -21,23 +21,26 @@
   "is_winner": null,
   "filer_id": 1462967,
   "supporting_money": {
-    "contributions_received": 971.0,
-    "total_contributions": 971.0,
-    "total_expenditures": 871.0,
-    "total_loans_received": 0.0,
+    "contributions_received": 7972.0,
+    "total_contributions": 7972.0,
+    "total_expenditures": 6641.0,
+    "total_loans_received": 7000.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
       "Individual": 971.0,
-      "Unitemized": 0.0
+      "Unitemized": 1.0
     },
     "contributions_by_origin": {
       "Within Oakland": 971.0
     },
-    "total_small_contributions": 50.0,
+    "total_small_contributions": 51.0,
     "expenditures_by_type": {
+      "Office Expenses": 1120.0,
+      "Professional Services (Legal, Accounting)": 1800.0,
+      "Information Technology Costs (Internet, E-mail)": 2850.0
     },
     "supporting_by_type": {
     }
@@ -50,7 +53,7 @@
 
     ]
   },
-  "total_contributions": 971.0,
-  "total_expenditures": 871.0,
-  "total_loans_received": 0.0
+  "total_contributions": 7972.0,
+  "total_expenditures": 6641.0,
+  "total_loans_received": 7000.0
 }

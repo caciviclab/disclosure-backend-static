@@ -4,4 +4,5 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Samuel A. Gondelman
+website_url: https://www.samgondelman.com/
 ---

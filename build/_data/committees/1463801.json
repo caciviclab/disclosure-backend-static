@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 7350.0,
+  "total_contributions": 7600.0,
   "contributions": [
     {
       "title": "Oakland March 5th, 2024 Special Election",
@@ -429,6 +429,19 @@
       "Tran_NamF": "Alerie",
       "Tran_NamL": "Flandez",
       "Tran_Zip4": "95112",
+      "election_name": "oakland-march-2024"
+    },
+    {
+      "title": "Oakland March 5th, 2024 Special Election",
+      "Filer_ID": "1463801",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-03-06",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Edmonds",
+      "Tran_Zip4": "94566",
       "election_name": "oakland-march-2024"
     }
   ]

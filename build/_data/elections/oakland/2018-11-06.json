@@ -2,15 +2,15 @@
   "total_contributions": 6930441.34,
   "total_contributions_by_source": {
     "Out of State": 962276.36,
-    "Within Oakland": 2724177.62,
+    "Within Oakland": 2758677.62,
     "Within California": 2987941.18
   },
   "contributions_by_type": {
     "Committee": 1007966.04,
     "Individual": 2820913.61,
     "Unitemized": 155830.18,
-    "Self Funding": 89184.25,
-    "Other (includes Businesses)": 2756331.26
+    "Self Funding": 121184.25,
+    "Other (includes Businesses)": 2758831.26
   },
   "most_expensive_races": [
     {
@@ -100,16 +100,16 @@
       "total_contributions": 53757.13
     },
     {
+      "name": "Pamela Price",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_contributions": 34775.0
+    },
+    {
       "name": "Charlie Michelson",
       "type": "Office",
       "election_name": "oakland-2018",
       "total_contributions": 15700.0
-    },
-    {
-      "name": "Saied Karamooz",
-      "type": "Office",
-      "election_name": "oakland-2018",
-      "total_contributions": 8796.6
     }
   ],
   "top_contributors_for_measures": [
@@ -160,16 +160,16 @@
       "total_spending": 53757.13
     },
     {
+      "name": "Pamela Price",
+      "type": "Office",
+      "election_name": "oakland-2018",
+      "total_spending": 34775.0
+    },
+    {
       "name": "Charlie Michelson",
       "type": "Office",
       "election_name": "oakland-2018",
       "total_spending": 15700.0
-    },
-    {
-      "name": "Saied Karamooz",
-      "type": "Office",
-      "election_name": "oakland-2018",
-      "total_spending": 8796.6
     }
   ],
   "top_spenders_for_measures": [

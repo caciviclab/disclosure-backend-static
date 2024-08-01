@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 15938.0,
+  "total_contributions": 16838.0,
   "contributions": [
     {
       "title": "Oakland November 7th, 2023 Special Election",
@@ -767,6 +767,58 @@
       "Tran_NamF": "Jumoke",
       "Tran_NamL": "Hinton",
       "Tran_Zip4": "94607",
+      "election_name": "oakland-2023"
+    },
+    {
+      "title": "Oakland November 7th, 2023 Special Election",
+      "Filer_ID": "1463520",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2024-02-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Native Soil Inc.",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2023"
+    },
+    {
+      "title": "Oakland November 7th, 2023 Special Election",
+      "Filer_ID": "1463520",
+      "Tran_Emp": "Student",
+      "Tran_Occ": "Student",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-02-27",
+      "Tran_NamF": "Grace",
+      "Tran_NamL": "Zamora",
+      "Tran_Zip4": "94506-1245",
+      "election_name": "oakland-2023"
+    },
+    {
+      "title": "Oakland November 7th, 2023 Special Election",
+      "Filer_ID": "1463520",
+      "Tran_Emp": "Student",
+      "Tran_Occ": "Student",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-02-27",
+      "Tran_NamF": "Marissa",
+      "Tran_NamL": "Zamora",
+      "Tran_Zip4": "94526",
+      "election_name": "oakland-2023"
+    },
+    {
+      "title": "Oakland November 7th, 2023 Special Election",
+      "Filer_ID": "1463520",
+      "Tran_Emp": "UC Berkeley Goldman School of Public Policy",
+      "Tran_Occ": "Lecturer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -600.0,
+      "Tran_Date": "2024-05-10",
+      "Tran_NamF": "Libby",
+      "Tran_NamL": "Schaaf",
+      "Tran_Zip4": "94602",
       "election_name": "oakland-2023"
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "id": 11,
+  "id": 14,
   "name": "Baba A. Afolabi",
   "photo_url": null,
-  "website_url": null,
-  "twitter_url": null,
+  "website_url": "https://babafordistrict3.com/",
+  "twitter_url": "BabaAfolabi4D3",
   "facebook_url": null,
-  "instagram_url": null,
+  "instagram_url": "babafordistrict3",
   "map_url": null,
   "votersedge_url": null,
   "first_name": "Baba",
@@ -21,20 +21,28 @@
   "is_winner": null,
   "filer_id": 1467002,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 3575.0,
+    "total_contributions": 3575.0,
+    "total_expenditures": 1706.37,
+    "total_loans_received": 100.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 3100.0,
+      "Unitemized": 375.0
     },
     "contributions_by_origin": {
+      "Out of State": 400.0,
+      "Within Oakland": 2000.0,
+      "Within California": 700.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 375.0,
     "expenditures_by_type": {
+      "Fundraising Events": 450.0,
+      "Campaign Literature and Mailings": 743.1,
+      "Professional Services (Legal, Accounting)": 325.0
     },
     "supporting_by_type": {
     }
@@ -47,7 +55,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 3575.0,
+  "total_expenditures": 1706.37,
+  "total_loans_received": 100.0
 }
