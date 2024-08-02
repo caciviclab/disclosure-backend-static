@@ -7,7 +7,7 @@ is_incumbent: true
 name: Abel Guillén
 occupation: Councilmember
 photo_url: abel_guillen.png
-public_funding_received: "$18,345"
+public_funding_received: "$18,345.00"
 twitter_url: abelguillen
 votersedge_url: https://votersedge.org/ca/en/ballot/election/area/73/contests/contest/17339/candidate/139754?&county=alameda%20county&election_authority_id=1
 website_url: http://www.voteabelguillen.com/
