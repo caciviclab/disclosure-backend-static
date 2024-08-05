@@ -1385,12 +1385,6 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Laborers Local 304",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
-      },
-      {
         "name": "UA Local 342",
         "type": "Office",
         "election_name": "oakland-2023",
@@ -1398,6 +1392,12 @@
       },
       {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Peralta Federation of Teachers COPE",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1500,7 +1500,7 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Araina Lynn Hennen",
+        "name": "Steven Von Stade",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1512,7 +1512,7 @@
         "total_contributions": 600.0
       },
       {
-        "name": "Steven Von Stade",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1566,15 +1566,15 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 588959.27,
+    "total_contributions": 595159.27,
     "total_contributions_by_source": {
       "Out of State": 58119.0,
-      "Within Oakland": 212333.92,
+      "Within Oakland": 213533.92,
       "Within California": 237626.6
     },
     "contributions_by_type": {
       "Committee": 64600.0,
-      "Individual": 426186.31,
+      "Individual": 427386.31,
       "Unitemized": 45779.75,
       "Self Funding": 6801.71,
       "Other (includes Businesses)": 10491.5

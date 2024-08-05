@@ -21,20 +21,24 @@
   "is_winner": null,
   "filer_id": 1470076,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 6200.0,
+    "total_contributions": 6200.0,
+    "total_expenditures": 100.0,
+    "total_loans_received": 5000.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 1200.0,
+      "Unitemized": 0.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 1200.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 0.0,
     "expenditures_by_type": {
+      "Professional Services (Legal, Accounting)": 100.0
     },
     "supporting_by_type": {
     }
@@ -47,7 +51,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 6200.0,
+  "total_expenditures": 100.0,
+  "total_loans_received": 5000.0
 }
