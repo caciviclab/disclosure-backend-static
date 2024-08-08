@@ -1,6 +1,6 @@
 CREATE TABLE referendums (
 	election_name VARCHAR(18) NOT NULL, 
-	"Measure_number" VARCHAR(2) NOT NULL, 
+	"Measure_number" VARCHAR(4) NOT NULL, 
 	"Short_Title" VARCHAR(89) NOT NULL, 
 	"Full_Title" VARCHAR(332), 
 	"Summary" VARCHAR(1272), 
