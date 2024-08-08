@@ -1957,12 +1957,12 @@ ALTER SEQUENCE public.office_elections_id_seq OWNED BY public.office_elections.i
 
 CREATE TABLE public.referendums (
     election_name character varying(18) NOT NULL,
-    "Measure_number" character varying(2) NOT NULL,
-    "Short_Title" character varying(89) NOT NULL,
-    "Full_Title" character varying(332),
-    "Summary" character varying(1272),
+    "Measure_number" character varying(4) NOT NULL,
+    "Short_Title" character varying(128) NOT NULL,
+    "Full_Title" character varying(1024),
+    "Summary" character varying(2048),
     "VotersEdge" character varying(129),
-    "Internal_notes" character varying(104),
+    "Internal_notes" character varying(1024),
     data_warning character varying(32),
     is_approved boolean,
     id integer NOT NULL
