@@ -7,15 +7,40 @@
   "number": "TBD4",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 786.38,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 45930.69,
+      "locale": "Within California"
+    },
+    {
+      "amount": 508946.53,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Committee",
+      "amount": 467519.16
+    },
+    {
+      "type": "Individual",
+      "amount": 80294.44
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 7850.0
+    }
   ],
   "supporting_organizations": [
-
+    {
+      "id": "1466653",
+      "name": "Oakland United To Recall Sheng Thao",
+      "payee": "Oakland United To Recall Sheng Thao",
+      "amount": 349524.89
+    }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 555663.6
 }

@@ -7,15 +7,32 @@
   "number": "TBD4",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 100.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 800.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 800.0,
+      "locale": "Within Oakland"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 1700.0
+    }
   ],
   "opposing_organizations": [
-
+    {
+      "id": "1469604",
+      "name": "Oaklanders Defending Democracy, Oppose the Recall of Mayor Thao (Thao Ballot Measure Committee)",
+      "payee": "Oaklanders Defending Democracy, Oppose the Recall of Mayor Thao (Thao Ballot Measure Committee)",
+      "amount": 0.0
+    }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 1700.0
 }

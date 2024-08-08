@@ -1,18 +1,24 @@
 {
-  "total_contributions": 595159.27,
+  "total_contributions": 1152522.87,
   "total_contributions_by_source": {
-    "Out of State": 58119.0,
-    "Within Oakland": 213533.92,
-    "Within California": 237626.6
+    "Out of State": 59005.38,
+    "Within Oakland": 723280.45,
+    "Within California": 284357.29
   },
   "contributions_by_type": {
-    "Committee": 64600.0,
-    "Individual": 427386.31,
+    "Committee": 532119.16,
+    "Individual": 509380.75,
     "Unitemized": 45779.75,
     "Self Funding": 6801.71,
-    "Other (includes Businesses)": 10491.5
+    "Other (includes Businesses)": 18341.5
   },
   "most_expensive_races": [
+    {
+      "slug": "mayoral-recall",
+      "type": "referendum",
+      "title": "Measure TBD4",
+      "amount": 557363.6
+    },
     {
       "slug": "city-council-at-large",
       "type": "office",
@@ -24,12 +30,6 @@
       "type": "office",
       "title": "City Council District 1",
       "amount": 174761.4
-    },
-    {
-      "slug": "city-council-district-3",
-      "type": "office",
-      "title": "City Council District 3",
-      "amount": 118463.27
     }
   ],
   "largest_small_proportion": [
@@ -62,19 +62,19 @@
   },
   "top_contributors": [
     {
-      "name": "Ryan Richardson",
+      "name": "Foundational Oakland Unites",
       "election_name": "oakland-2024",
-      "total_contributions": 6000.0
+      "total_contributions": 467519.16
     },
     {
-      "name": "International Association of Firefighters Local 55",
+      "name": "Christopher Conway",
       "election_name": "oakland-2024",
-      "total_contributions": 3679.5
+      "total_contributions": 10000.0
     },
     {
-      "name": "Charlene Wang",
+      "name": "Ronald Conway",
       "election_name": "oakland-2024",
-      "total_contributions": 2415.0
+      "total_contributions": 10000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -98,26 +98,43 @@
     }
   ],
   "top_contributors_for_measures": [
-
+    {
+      "name": "Foundational Oakland Unites",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_contributions": 467519.16
+    },
+    {
+      "name": "Ronald Conway",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_contributions": 10000.0
+    },
+    {
+      "name": "Ronny Conway",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_contributions": 10000.0
+    }
   ],
   "top_spenders": [
     {
-      "name": "Ryan Richardson",
-      "type": "Office",
+      "name": "Foundational Oakland Unites",
+      "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 6000.0
+      "total_spending": 467519.16
     },
     {
-      "name": "Charlene Wang",
-      "type": "Office",
+      "name": "Ronny Conway",
+      "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 2415.0
+      "total_spending": 10000.0
     },
     {
-      "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
-      "type": "Office",
+      "name": "Ronald Conway",
+      "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 2400.0
+      "total_spending": 10000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -142,10 +159,22 @@
   ],
   "top_spenders_for_measures": [
     {
-      "name": "International Association of Firefighters Local 55",
+      "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 1279.5
+      "total_spending": 467519.16
+    },
+    {
+      "name": "Ronald Conway",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 10000.0
+    },
+    {
+      "name": "Ronny Conway",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 10000.0
     }
   ]
 }
