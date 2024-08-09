@@ -18,7 +18,7 @@ class CommitteeContributionListCalculator
       )
       SELECT election_name, title, all_contributions."Filer_ID",
         "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
-        "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd"
+        "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd", "Cmte_ID"
       FROM all_contributions
       JOIN all_committees
       ON all_committees."Filer_ID" = all_contributions."Filer_ID"
