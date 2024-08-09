@@ -6,4 +6,5 @@ is_incumbent: false
 name: Erin Armstrong
 website_url: https://voteforerin.com/
 facebook_url: https://www.facebook.com/VoteForErin
+instagram_url: erin_for_oakland
 ---

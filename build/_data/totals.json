@@ -1566,17 +1566,17 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 1152522.87,
+    "total_contributions": 1160022.87,
     "total_contributions_by_source": {
       "Out of State": 59005.38,
-      "Within Oakland": 723280.45,
+      "Within Oakland": 730780.45,
       "Within California": 284357.29
     },
     "contributions_by_type": {
       "Committee": 532119.16,
       "Individual": 509380.75,
       "Unitemized": 45779.75,
-      "Self Funding": 6801.71,
+      "Self Funding": 14301.71,
       "Other (includes Businesses)": 18341.5
     },
     "most_expensive_races": [
@@ -1634,17 +1634,23 @@
         "total_contributions": 467519.16
       },
       {
-        "name": "Christopher Conway",
+        "name": "Brenda Harbin-Forte",
         "election_name": "oakland-2024",
-        "total_contributions": 10000.0
+        "total_contributions": 13500.0
       },
       {
-        "name": "Ronald Conway",
+        "name": "Christopher Conway",
         "election_name": "oakland-2024",
         "total_contributions": 10000.0
       }
     ],
     "top_contributors_for_offices": [
+      {
+        "name": "Brenda Harbin-Forte",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 7500.0
+      },
       {
         "name": "Ryan Richardson",
         "type": "Office",
@@ -1656,12 +1662,6 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2415.0
-      },
-      {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_contributions": 2400.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1706,6 +1706,12 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "Brenda Harbin-Forte",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 7500.0
+      },
+      {
         "name": "Ryan Richardson",
         "type": "Office",
         "election_name": "oakland-2024",
@@ -1716,12 +1722,6 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 2415.0
-      },
-      {
-        "name": "International Federation of Professional and Technical Engineers-Local 21 TJ Anthony PAC Fund",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_spending": 2400.0
       }
     ],
     "top_spenders_for_measures": [

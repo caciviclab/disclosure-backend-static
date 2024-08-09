@@ -4,5 +4,6 @@ committee_name: Cristina Tostado for Oakland City Council 2024
 filer_id: '1468486'
 is_incumbent: false
 name: Cristina Tostado
+website_url: https://tinafromthetown.com/
 instagram_url: tostadoforoakland
 ---
