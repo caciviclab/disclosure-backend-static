@@ -11,7 +11,7 @@ services:
 sudo: required
 install:
   - python --version
-  - rvm install 2.7.1
+  - rvm install 3.3.4
   - pip install 'urllib3[secure]'
   - pip install -r requirements.txt
   - bundle install
@@ -20,11 +20,11 @@ cache:
   - bundler
   - pip
 addons:
-  postgresql: "15"
+  postgresql: "16"
   apt:
     packages:
-    - postgresql-15
-    - postgresql-client-15
+    - postgresql-16
+    - postgresql-client-16
 notifications:
   email:
     - mike.ubell@gmail.com
