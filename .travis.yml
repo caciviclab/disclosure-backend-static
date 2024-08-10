@@ -20,11 +20,11 @@ cache:
   - bundler
   - pip
 addons:
-  postgresql: "16"
+  postgresql: "15"
   apt:
     packages:
-    - postgresql-16
-    - postgresql-client-16
+    - postgresql-15
+    - postgresql-client-15
 notifications:
   email:
     - mike.ubell@gmail.com
