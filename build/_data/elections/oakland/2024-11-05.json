@@ -1,13 +1,13 @@
 {
-  "total_contributions": 1160022.87,
+  "total_contributions": 1159898.05,
   "total_contributions_by_source": {
     "Out of State": 59005.38,
-    "Within Oakland": 730780.45,
+    "Within Oakland": 730655.63,
     "Within California": 284357.29
   },
   "contributions_by_type": {
     "Committee": 532119.16,
-    "Individual": 509380.75,
+    "Individual": 509255.93,
     "Unitemized": 45779.75,
     "Self Funding": 14301.71,
     "Other (includes Businesses)": 18341.5
@@ -17,7 +17,7 @@
       "slug": "mayoral-recall",
       "type": "referendum",
       "title": "Measure TBD4",
-      "amount": 557363.6
+      "amount": 557238.78
     },
     {
       "slug": "city-council-at-large",
@@ -62,6 +62,11 @@
   },
   "top_contributors": [
     {
+      "name": "Philip Dreyfuss",
+      "election_name": "oakland-2024",
+      "total_contributions": 605019.16
+    },
+    {
       "name": "Foundational Oakland Unites",
       "election_name": "oakland-2024",
       "total_contributions": 467519.16
@@ -70,11 +75,6 @@
       "name": "Brenda Harbin-Forte",
       "election_name": "oakland-2024",
       "total_contributions": 13500.0
-    },
-    {
-      "name": "Christopher Conway",
-      "election_name": "oakland-2024",
-      "total_contributions": 10000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -119,16 +119,16 @@
   ],
   "top_spenders": [
     {
+      "name": "Philip Dreyfuss",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 605019.16
+    },
+    {
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 467519.16
-    },
-    {
-      "name": "Ronny Conway",
-      "type": "Measure",
-      "election_name": "oakland-2024",
-      "total_spending": 10000.0
     },
     {
       "name": "Ronald Conway",
@@ -159,6 +159,12 @@
   ],
   "top_spenders_for_measures": [
     {
+      "name": "Philip Dreyfuss",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 605019.16
+    },
+    {
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
@@ -166,12 +172,6 @@
     },
     {
       "name": "Ronald Conway",
-      "type": "Measure",
-      "election_name": "oakland-2024",
-      "total_spending": 10000.0
-    },
-    {
-      "name": "Ronny Conway",
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 10000.0
