@@ -14,35 +14,43 @@ no client code changes will be required.
 
 ## Prerequisites
 
-- Ruby (see version in `.ruby-version`)
+- Ruby 3.3.4 (see version in `.ruby-version`)
 
 ## Installation
 
 **Note:** You do not need to run these commands to develop on the frontend. All
 you need to do is clone the repository adjacent to the frontend repo.
 
-If you'll be changing the backend code, install the development dependencies
-with these commands:
 
-```bash
-brew install postgresql
-sudo pip install -r requirements.txt
-gem install pg bundler
-bundle install
-```
+If you're planning to modify the backend code, follow these steps to set up all necessary development dependencies, including a new [PostgreSQL](https://www.PostgreSQL.org/) database and Python 3:
 
-**Note:** It appears there is a problem on Macintosh systems using the Apple Chips.
-If, when running ```make import``` you get:
-```
-ImportError: You don't appear to have the necessary database backend installed for connection string you're trying to use. Available backends include:
-
-PostgreSQL:	pip install psycopg2
-```
-Try the following:
-```
-pip uninstall psycopg2-binary
-pip install psycopg2-binary --no-cache-dir
-```
+1. Ensure [Homebrew](https://brew.sh/) is up to date by running:
+   ```
+   brew update && brew upgrade
+   ```
+2. Install PostgreSQL version 16 with Homebrew:
+   ```
+   brew install postgresql@16
+   ```
+   - To automatically start the database at login, use:
+      ```
+      brew services start postgresql@16
+      ```
+3. Verify Python 3 is installed on your system. If not, download it from [python.org](https://www.python.org/downloads/).
+   - macOS natively runs Python 2, so use `python3 -m pip` instead of `pip` to ensure Python 3 is used:
+     ```
+     python3 -m pip install ...
+     ```
+   - Or if your system's `pip` points to Python 3, you can use `pip` directly:
+     ```
+     pip install ...
+     ```
+4. Run
+    ```
+    sudo -H python -m pip install -r requirements.txt
+    gem install pg bundler
+    bundle install
+    ```
 
 ### Codespaces
 
@@ -73,8 +81,6 @@ This repository is also configured to run within a Docker container. This is sim
    - Note: VSCode may suggest installing the Docker extension as well, but you only need the Dev Containers extension for this setup.
 3. In VSCode, navigate to [.devcontainer/Dockerfile](.devcontainer/Dockerfile) or restart VSCode. The Dev Containers extension should prompt you to reopen the repository in a container. Proceed with this option.
 4. Once the container environment is loaded, complete the setup by following the commands below.
-
-
 
 ## Running
 
@@ -190,6 +196,7 @@ static HTML front end.
 <img alt="Diagram showing how finance data flows through different disclosure components" src="./docs/img/open-disclosure-data-flow.jpg" width="600" />
 
 ### Common Errors
+
 **During Bundle Install**
 ```
 error: use of undeclared identifier 'LZMA_OK'
@@ -206,6 +213,21 @@ brew link xz
 wget: command not found
 ```
 Run `brew install wget`.
+
+**During `make import`**
+
+It appears there is a problem on Macintosh systems using the Apple Chips.
+```
+ImportError: You don't appear to have the necessary database backend installed for connection string you're trying to use. Available backends include:
+
+PostgreSQL:	pip install psycopg2
+```
+Try the following:
+```
+pip uninstall psycopg2-binary
+pip install psycopg2-binary --no-cache-dir
+```
+
 
 
 [form_460]: http://www.fppc.ca.gov/content/dam/fppc/NS-Documents/TAD/Campaign%20Forms/460.pdf
