@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 1279.5,
+  "total_contributions": 11279.5,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -51,6 +51,19 @@
       "Tran_Date": "2024-06-05",
       "Tran_NamF": null,
       "Tran_NamL": "International Association of Firefighters Local 55",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2024-08-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Fire Fighters Local 55",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     }

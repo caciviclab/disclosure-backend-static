@@ -4,7 +4,6 @@ candidates:
 - charlene-a-wang
 - kanitha-matoury
 - leronne-armstrong
-- tonya-love
 - rowena-j-brown
 - cristina-tostado
 - mindy-pechenuk

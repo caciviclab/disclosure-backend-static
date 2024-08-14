@@ -7,8 +7,10 @@ candidates:
 - meron-y-semedar
 - derreck-b-johnson
 - donnel-c-dunbar
+- douglas-j-fort
 - faye-taylor
 - lewis-l-lester
+- michelle-hailey
 - shan-m-hirsch
 - tariq-e-ikharo
 title: City Council District 3

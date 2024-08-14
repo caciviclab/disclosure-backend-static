@@ -1,5 +1,5 @@
 {
-  "id": 26,
+  "id": 33,
   "name": "Noel Gallo",
   "photo_url": null,
   "website_url": null,
@@ -13,16 +13,16 @@
   "ballot_item": 13,
   "office_election": 13,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Re-Elect Noel Gallo for Oakland City Council 2024",
   "is_accepted_expenditure_ceiling": null,
   "is_incumbent": true,
   "occupation": null,
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1472382,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
+    "contributions_received": 15000.0,
+    "total_contributions": 15000.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "total_supporting_independent": null,
@@ -30,24 +30,28 @@
 
     ],
     "contributions_by_type": {
+      "Self Funding": 15000.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 15000.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 0.0,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "MON": 4100.0
     }
   },
   "opposing_money": {
     "opposing_expenditures": null,
     "opposing_by_type": {
+      "Independent Expenditure Supporting/Opposing Others": 39316.35
     },
     "opposition_list": [
 
     ]
   },
-  "total_contributions": 0.0,
+  "total_contributions": 15000.0,
   "total_expenditures": null,
   "total_loans_received": null
 }

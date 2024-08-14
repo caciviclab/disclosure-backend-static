@@ -1,15 +1,15 @@
 {
-  "total_contributions": 1159898.05,
+  "total_contributions": 1174898.05,
   "total_contributions_by_source": {
     "Out of State": 59005.38,
-    "Within Oakland": 730655.63,
+    "Within Oakland": 745655.63,
     "Within California": 284357.29
   },
   "contributions_by_type": {
     "Committee": 532119.16,
     "Individual": 509255.93,
     "Unitemized": 45779.75,
-    "Self Funding": 14301.71,
+    "Self Funding": 29301.71,
     "Other (includes Businesses)": 18341.5
   },
   "most_expensive_races": [
@@ -23,7 +23,7 @@
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 200091.14
+      "amount": 175743.43
     },
     {
       "slug": "city-council-district-1",
@@ -55,7 +55,7 @@
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Tonya Love",
       "proportion": 0.2,
-      "office_title": "City Council At-Large"
+      "office_title": "City Council District 7"
     }
   ],
   "largest_independent_expenditures": {
@@ -72,12 +72,18 @@
       "total_contributions": 467519.16
     },
     {
-      "name": "Brenda Harbin-Forte",
+      "name": "Noel Gallo",
       "election_name": "oakland-2024",
-      "total_contributions": 13500.0
+      "total_contributions": 15000.0
     }
   ],
   "top_contributors_for_offices": [
+    {
+      "name": "Noel Gallo",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_contributions": 15000.0
+    },
     {
       "name": "Brenda Harbin-Forte",
       "type": "Office",
@@ -89,12 +95,6 @@
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 6000.0
-    },
-    {
-      "name": "Charlene Wang",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_contributions": 2415.0
     }
   ],
   "top_contributors_for_measures": [
@@ -131,13 +131,19 @@
       "total_spending": 467519.16
     },
     {
-      "name": "Ronald Conway",
-      "type": "Measure",
+      "name": "Noel Gallo",
+      "type": "Office",
       "election_name": "oakland-2024",
-      "total_spending": 10000.0
+      "total_spending": 15000.0
     }
   ],
   "top_spenders_for_offices": [
+    {
+      "name": "Noel Gallo",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_spending": 15000.0
+    },
     {
       "name": "Brenda Harbin-Forte",
       "type": "Office",
@@ -149,12 +155,6 @@
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 6000.0
-    },
-    {
-      "name": "Charlene Wang",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_spending": 2415.0
     }
   ],
   "top_spenders_for_measures": [
@@ -171,7 +171,7 @@
       "total_spending": 467519.16
     },
     {
-      "name": "Ronald Conway",
+      "name": "International Association of Fire Fighters Local 55",
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 10000.0
