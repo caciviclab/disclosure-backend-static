@@ -208,7 +208,7 @@ puts "Indexing #{ballot_contrib.length} Ballot Contributors..."
 
 committee_data = []
 committee_contrib = []
-Committee.where(Make_Active: 'YES').find_each do |committee|
+Committee.where(_Committee_Type: 'GPC').find_each do |committee|
   next if ballot_committees.any? {|c| c[:committee_id] == committee['Filer_ID'] }
   next if iec_data.any? {|c| c[:committee_id] == committee['Filer_ID'] }
   election = Election.where(name: committee['Ballot_Measure_Election']).first

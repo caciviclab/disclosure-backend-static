@@ -1257,6 +1257,7 @@ CREATE VIEW public.all_contributions AS
     "A-Contributions"."Tran_Occ",
     "A-Contributions"."Tran_Emp",
     "A-Contributions"."Committee_Type",
+    "A-Contributions"."Cmte_ID",
     "A-Contributions"."Tran_ID"
    FROM public."A-Contributions"
 UNION
@@ -1272,6 +1273,7 @@ UNION
     "C-Contributions"."Tran_Occ",
     "C-Contributions"."Tran_Emp",
     "C-Contributions"."Committee_Type",
+    "C-Contributions"."Cmte_ID",
     "C-Contributions"."Tran_ID"
    FROM public."C-Contributions"
 UNION
@@ -1287,6 +1289,7 @@ UNION
     "497"."Ctrib_Occ" AS "Tran_Occ",
     "497"."Ctrib_Emp" AS "Tran_Emp",
     "497"."Committee_Type",
+    "497"."Cmte_ID",
     "497"."Tran_ID"
    FROM public."497"
   WHERE (("497"."Form_Type")::text = 'F497P1'::text);

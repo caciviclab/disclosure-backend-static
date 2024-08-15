@@ -110,12 +110,12 @@ DROP VIEW IF EXISTS all_contributions;
 CREATE VIEW  all_contributions AS
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
     "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-    "Tran_Occ", "Tran_Emp", "Committee_Type", "Tran_ID"
+    "Tran_Occ", "Tran_Emp", "Committee_Type", "Cmte_ID", "Tran_ID"
   FROM "A-Contributions"
   UNION
   SELECT "Filer_ID"::varchar, "Entity_Cd", "Tran_Amt1", "Tran_NamF",
     "Tran_NamL", "Tran_Date", "Tran_City", "Tran_State", "Tran_Zip4",
-    "Tran_Occ", "Tran_Emp", "Committee_Type", "Tran_ID"
+    "Tran_Occ", "Tran_Emp", "Committee_Type", "Cmte_ID", "Tran_ID"
   FROM "C-Contributions"
   UNION
   SELECT
@@ -130,7 +130,7 @@ CREATE VIEW  all_contributions AS
     "Enty_Zip4" as "Tran_Zip4",
     "Ctrib_Occ" as "Tran_Occ",
     "Ctrib_Emp" as "Tran_Emp",
-    "Committee_Type", "Tran_ID"
+    "Committee_Type", "Cmte_ID", "Tran_ID"
   FROM "497"
   WHERE "Form_Type" = 'F497P1';
 
