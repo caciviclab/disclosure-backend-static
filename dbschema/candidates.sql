@@ -24,6 +24,6 @@ CREATE TABLE candidates (
 	data_warning VARCHAR(232), 
 	is_winner BOOLEAN, 
 	ballot_status VARCHAR(13), 
-	map_app VARCHAR(127), 
+	map_app VARCHAR(256), 
 	has_pending BOOLEAN
 );
