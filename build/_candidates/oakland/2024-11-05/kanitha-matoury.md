@@ -4,5 +4,6 @@ committee_name: Kanitha Matoury for Oakland City Council At- Large 2024
 filer_id: '1467524'
 is_incumbent: false
 name: Kanitha Matoury
+occupation: Buisness Owner
 website_url: https://www.kanithaforoakland.com/
 ---

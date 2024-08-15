@@ -1566,14 +1566,14 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 1174898.05,
+    "total_contributions": 1176098.05,
     "total_contributions_by_source": {
       "Out of State": 59005.38,
       "Within Oakland": 745655.63,
-      "Within California": 284357.29
+      "Within California": 285557.29
     },
     "contributions_by_type": {
-      "Committee": 532119.16,
+      "Committee": 533319.16,
       "Individual": 509255.93,
       "Unitemized": 45779.75,
       "Self Funding": 29301.71,
@@ -1587,16 +1587,16 @@
         "amount": 557238.78
       },
       {
+        "slug": "city-council-district-1",
+        "type": "office",
+        "title": "City Council District 1",
+        "amount": 175961.4
+      },
+      {
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
         "amount": 175743.43
-      },
-      {
-        "slug": "city-council-district-1",
-        "type": "office",
-        "title": "City Council District 1",
-        "amount": 174761.4
       }
     ],
     "largest_small_proportion": [
