@@ -9,4 +9,5 @@ photo_url: Tonya-Love
 website_url: 'https://loveforoakland.com/ '
 facebook_url: https://www.facebook.com/LoveFortheCommunity/
 instagram_url: tdlove5
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2024&candidates=1466089&since=2021-07-07&until=2024-08-09
 ---

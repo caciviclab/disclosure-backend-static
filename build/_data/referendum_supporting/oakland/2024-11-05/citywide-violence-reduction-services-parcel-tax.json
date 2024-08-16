@@ -1,0 +1,46 @@
+{
+  "id": 2,
+  "contest_type": "Referendum",
+  "name": "Citywide Violence Reduction Services Parcel Tax",
+  "title": "Citywide Violence Reduction Services Parcel Tax",
+  "summary": "This measure would extend and increase both the existing parking tax surcharge to 10% and the existing parcel tax to $198 annually, with exemptions and reductions, for 9 years to fund violence reduction services such as 911 dispatch, community policy, mobile crisis responders, and increase police and fire minimum staffing.",
+  "number": "NN",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 31000.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 251100.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 356350.0,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 151000.0
+    },
+    {
+      "type": "Individual",
+      "amount": 1450.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 486000.0
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1467768",
+      "name": "Oaklanders Together - For A Safer Oakland",
+      "payee": "Oaklanders Together - For A Safer Oakland",
+      "amount": 55343.64
+    }
+  ],
+  "total_contributions": 638450.0
+}

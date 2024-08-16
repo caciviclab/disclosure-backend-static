@@ -8,35 +8,35 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 390843.64,
+      "amount": 781687.28,
       "locale": "Within California"
     },
     {
-      "amount": 40506.18,
+      "amount": 81012.36,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
       "type": "Committee",
-      "amount": 54133.42
+      "amount": 108266.84
     },
     {
       "type": "Individual",
-      "amount": 245716.4
+      "amount": 491432.8
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 131500.0
+      "amount": 263000.0
     }
   ],
   "supporting_organizations": [
     {
       "id": "960997",
-      "name": "Friends of Oakland Public Schools Yes on G1 2016",
-      "payee": "Friends of Oakland Public Schools Yes on G1 2016",
+      "name": "Friends of Oakland Public Schools",
+      "payee": "Friends of Oakland Public Schools",
       "amount": 25717.54
     }
   ],
-  "total_contributions": 431349.82
+  "total_contributions": 862699.64
 }

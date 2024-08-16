@@ -1364,7 +1364,7 @@ CREATE TABLE public.candidates (
     data_warning character varying(232),
     is_winner boolean,
     ballot_status character varying(13),
-    map_app character varying(127),
+    map_app character varying(256),
     has_pending boolean,
     id integer NOT NULL
 );

@@ -9,4 +9,5 @@ twitter_url: warrenforoak
 website_url: https://warrenforoakland.com/
 facebook_url: https://www.facebook.com/WarrenForOakland
 instagram_url: warrenforoakland
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2024&candidates=1463590&since=2021-07-07&until=2024-08-09
 ---

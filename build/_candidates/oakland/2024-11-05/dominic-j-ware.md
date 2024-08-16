@@ -4,5 +4,6 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Dominic J. Ware
+photo_url: Dominic-Ware
 facebook_url: https://www.facebook.com/dominic.ware.56/
 ---

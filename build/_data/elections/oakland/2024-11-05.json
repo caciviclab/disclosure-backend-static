@@ -1,22 +1,28 @@
 {
-  "total_contributions": 1176098.05,
+  "total_contributions": 1814548.05,
   "total_contributions_by_source": {
-    "Out of State": 59005.38,
-    "Within Oakland": 745655.63,
-    "Within California": 285557.29
+    "Out of State": 90005.38,
+    "Within Oakland": 1102005.63,
+    "Within California": 536657.29
   },
   "contributions_by_type": {
-    "Committee": 533319.16,
-    "Individual": 509255.93,
+    "Committee": 684319.16,
+    "Individual": 510705.93,
     "Unitemized": 45779.75,
     "Self Funding": 29301.71,
-    "Other (includes Businesses)": 18341.5
+    "Other (includes Businesses)": 504341.5
   },
   "most_expensive_races": [
     {
-      "slug": "mayoral-recall",
+      "slug": "citywide-violence-reduction-services-parcel-tax",
       "type": "referendum",
-      "title": "Measure TBD4",
+      "title": "Measure NN",
+      "amount": 638450.0
+    },
+    {
+      "slug": "mayoral-recall-election",
+      "type": "referendum",
+      "title": "Measure REC1",
       "amount": 557238.78
     },
     {
@@ -24,12 +30,6 @@
       "type": "office",
       "title": "City Council District 1",
       "amount": 175961.4
-    },
-    {
-      "slug": "city-council-at-large",
-      "type": "office",
-      "title": "City Council At-Large",
-      "amount": 175743.43
     }
   ],
   "largest_small_proportion": [
@@ -62,6 +62,11 @@
   },
   "top_contributors": [
     {
+      "name": "MICHAEL BLOOMBERG",
+      "election_name": "oakland-2024",
+      "total_contributions": 720000.0
+    },
+    {
       "name": "Philip Dreyfuss",
       "election_name": "oakland-2024",
       "total_contributions": 605019.16
@@ -70,11 +75,6 @@
       "name": "Foundational Oakland Unites",
       "election_name": "oakland-2024",
       "total_contributions": 467519.16
-    },
-    {
-      "name": "Noel Gallo",
-      "election_name": "oakland-2024",
-      "total_contributions": 15000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -105,19 +105,25 @@
       "total_contributions": 467519.16
     },
     {
-      "name": "Ronald Conway",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 10000.0
+      "total_contributions": 300000.0
     },
     {
-      "name": "Ronny Conway",
+      "name": "THE ATLANTIC ADVOCACY FUND  INC.",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 10000.0
+      "total_contributions": 250000.0
     }
   ],
   "top_spenders": [
+    {
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 720000.0
+    },
     {
       "name": "Philip Dreyfuss",
       "type": "Measure",
@@ -129,12 +135,6 @@
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 467519.16
-    },
-    {
-      "name": "Noel Gallo",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_spending": 15000.0
     }
   ],
   "top_spenders_for_offices": [
@@ -159,6 +159,12 @@
   ],
   "top_spenders_for_measures": [
     {
+      "name": "MICHAEL BLOOMBERG",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 720000.0
+    },
+    {
       "name": "Philip Dreyfuss",
       "type": "Measure",
       "election_name": "oakland-2024",
@@ -169,12 +175,6 @@
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 467519.16
-    },
-    {
-      "name": "International Association of Fire Fighters Local 55",
-      "type": "Measure",
-      "election_name": "oakland-2024",
-      "total_spending": 10000.0
     }
   ]
 }

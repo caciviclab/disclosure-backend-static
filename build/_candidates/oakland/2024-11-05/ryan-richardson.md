@@ -7,4 +7,5 @@ name: Ryan Richardson
 occupation: Chief Assistant City Attorney in Barbara Parker’s office
 photo_url: Ryan-Richardson
 website_url: https://www.ryanforoakland.com/
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2024&candidates=1462429&since=2021-07-07&until=2024-08-09
 ---
