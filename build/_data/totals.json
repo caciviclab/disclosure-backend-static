@@ -1010,7 +1010,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "KP Financial Svcs Ops",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
       }
@@ -1032,7 +1032,7 @@
         "total_contributions": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_contributions": 10000.0
@@ -1052,7 +1052,7 @@
         "total_spending": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_spending": 10000.0
@@ -1075,7 +1075,7 @@
         "total_spending": 15000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "Oakland Athletics Baseball Company",
         "type": "Measure",
         "election_name": "oakland-june-2018",
         "total_spending": 10000.0
@@ -1368,6 +1368,11 @@
     ],
     "top_contributors": [
       {
+        "name": "Peralta Federation of Teachers COPE",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
         "name": "Service Employees International Union Local 1021 Candidate PAC",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1376,28 +1381,23 @@
         "name": "Families in Action for Justice",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
-      },
-      {
-        "name": "Oakland Education Association PAC",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Laborers Local 304",
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
       },
       {
         "name": "UA Local 342",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_contributions": 1200.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_contributions": 1200.0
@@ -1408,19 +1408,19 @@
     ],
     "top_spenders": [
       {
-        "name": "Laborers Local 304",
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_spending": 1200.0
       },
       {
         "name": "UA Local 342",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_spending": 1200.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_spending": 1200.0
@@ -1428,19 +1428,19 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Laborers Local 304",
+        "name": "Peralta Federation of Teachers COPE",
+        "type": "Office",
+        "election_name": "oakland-2023",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_spending": 1200.0
       },
       {
         "name": "UA Local 342",
-        "type": "Office",
-        "election_name": "oakland-2023",
-        "total_spending": 1200.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2023",
         "total_spending": 1200.0
@@ -1483,36 +1483,36 @@
     },
     "top_contributors": [
       {
-        "name": "Mary Preston",
-        "election_name": "oakland-march-2024",
-        "total_contributions": 600.0
-      },
-      {
         "name": "Steven Von Stade",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
       },
       {
         "name": "Monique C Houston",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      },
+      {
+        "name": "Mary Preston",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
       }
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Araina Lynn Hennen",
-        "type": "Office",
-        "election_name": "oakland-march-2024",
-        "total_contributions": 600.0
-      },
-      {
-        "name": "Monique C Houston",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
       },
       {
         "name": "Steven Von Stade",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_contributions": 600.0
+      },
+      {
+        "name": "Monique C Houston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_contributions": 600.0
@@ -1523,19 +1523,19 @@
     ],
     "top_spenders": [
       {
-        "name": "Araina Lynn Hennen",
-        "type": "Office",
-        "election_name": "oakland-march-2024",
-        "total_spending": 600.0
-      },
-      {
-        "name": "Monique C Houston",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
       },
       {
         "name": "Steven Von Stade",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      },
+      {
+        "name": "Monique C Houston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
@@ -1543,19 +1543,19 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Araina Lynn Hennen",
-        "type": "Office",
-        "election_name": "oakland-march-2024",
-        "total_spending": 600.0
-      },
-      {
-        "name": "Monique C Houston",
+        "name": "Mary Preston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
       },
       {
         "name": "Steven Von Stade",
+        "type": "Office",
+        "election_name": "oakland-march-2024",
+        "total_spending": 600.0
+      },
+      {
+        "name": "Monique C Houston",
         "type": "Office",
         "election_name": "oakland-march-2024",
         "total_spending": 600.0
