@@ -1,18 +1,24 @@
 {
-  "total_contributions": 3006732.6,
+  "total_contributions": 3373927.68,
   "total_contributions_by_source": {
-    "Out of State": 191292.27,
-    "Within Oakland": 1413560.26,
-    "Within California": 1115326.05
+    "Out of State": 211924.92,
+    "Within Oakland": 1548642.74,
+    "Within California": 1326806.0
   },
   "contributions_by_type": {
-    "Committee": 446516.93,
-    "Individual": 1811088.61,
+    "Committee": 550265.43,
+    "Individual": 1892334.19,
     "Unitemized": 208822.35,
     "Self Funding": 134466.64,
-    "Other (includes Businesses)": 328106.4
+    "Other (includes Businesses)": 510307.4
   },
   "most_expensive_races": [
+    {
+      "slug": "ousd-facilities-bond",
+      "type": "referendum",
+      "title": "Measure Y",
+      "amount": 734390.16
+    },
     {
       "slug": "city-council-at-large",
       "type": "office",
@@ -24,12 +30,6 @@
       "type": "office",
       "title": "City Council District 3",
       "amount": 509706.91
-    },
-    {
-      "slug": "ousd-facilities-bond",
-      "type": "referendum",
-      "title": "Measure Y",
-      "amount": 367195.08
     }
   ],
   "largest_small_proportion": [

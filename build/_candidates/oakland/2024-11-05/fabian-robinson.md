@@ -5,4 +5,5 @@ filer_id: ''
 is_incumbent: false
 name: Fabian Robinson
 occupation: Pastor at Miraculous Word Christian Center
+photo_url: Fabian-Robinson
 ---

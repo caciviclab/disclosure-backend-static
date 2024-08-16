@@ -7,4 +7,5 @@ name: Zac Unger
 occupation: Firefighter and paramedic
 photo_url: Zac-Unger
 website_url: https://www.zac4oakland.com/
+map_url: https://data.oaklandca.gov/campaign_finance/contribution?electionYear=2024&candidates=1462377&since=2021-07-07&until=2024-08-09
 ---

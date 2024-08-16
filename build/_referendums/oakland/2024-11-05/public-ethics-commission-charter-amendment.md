@@ -1,7 +1,7 @@
 ---
 election: '2024-11-05'
 locality: oakland
-number: TBD3
+number: OO
 title: Public Ethics Commission Charter Amendment
 data_warning: 
 ---
