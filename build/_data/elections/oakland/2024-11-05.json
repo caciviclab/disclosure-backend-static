@@ -6,8 +6,8 @@
     "Within California": 546657.29
   },
   "contributions_by_type": {
-    "Committee": 684319.16,
-    "Individual": 520705.93,
+    "Committee": 554319.16,
+    "Individual": 650705.93,
     "Unitemized": 45779.75,
     "Self Funding": 29301.71,
     "Other (includes Businesses)": 504341.5
@@ -62,19 +62,19 @@
   },
   "top_contributors": [
     {
+      "name": "Philip Dreyfuss",
+      "election_name": "oakland-2024",
+      "total_contributions": 735019.16
+    },
+    {
       "name": "MICHAEL BLOOMBERG",
       "election_name": "oakland-2024",
       "total_contributions": 720000.0
     },
     {
-      "name": "Philip Dreyfuss",
-      "election_name": "oakland-2024",
-      "total_contributions": 605019.16
-    },
-    {
       "name": "Foundational Oakland Unites",
       "election_name": "oakland-2024",
-      "total_contributions": 467519.16
+      "total_contributions": 337519.16
     }
   ],
   "top_contributors_for_offices": [
@@ -102,7 +102,7 @@
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 467519.16
+      "total_contributions": 337519.16
     },
     {
       "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -119,22 +119,22 @@
   ],
   "top_spenders": [
     {
+      "name": "Philip Dreyfuss",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 735019.16
+    },
+    {
       "name": "MICHAEL BLOOMBERG",
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 720000.0
     },
     {
-      "name": "Philip Dreyfuss",
-      "type": "Measure",
-      "election_name": "oakland-2024",
-      "total_spending": 605019.16
-    },
-    {
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 467519.16
+      "total_spending": 337519.16
     }
   ],
   "top_spenders_for_offices": [
@@ -159,22 +159,22 @@
   ],
   "top_spenders_for_measures": [
     {
+      "name": "Philip Dreyfuss",
+      "type": "Measure",
+      "election_name": "oakland-2024",
+      "total_spending": 735019.16
+    },
+    {
       "name": "MICHAEL BLOOMBERG",
       "type": "Measure",
       "election_name": "oakland-2024",
       "total_spending": 720000.0
     },
     {
-      "name": "Philip Dreyfuss",
-      "type": "Measure",
-      "election_name": "oakland-2024",
-      "total_spending": 605019.16
-    },
-    {
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 467519.16
+      "total_spending": 337519.16
     }
   ]
 }

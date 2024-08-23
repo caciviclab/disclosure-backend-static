@@ -4,6 +4,7 @@ committee_name: Erin Armstrong for Oakland City Council District 5 2024
 filer_id: '1470433'
 is_incumbent: false
 name: Erin Armstrong
+occupation: Senior Policy Advisor
 photo_url: Erin-Armstrong
 website_url: https://voteforerin.com/
 facebook_url: https://www.facebook.com/VoteForErin

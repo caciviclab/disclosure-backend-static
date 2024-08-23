@@ -4,6 +4,7 @@ committee_name: Re-Elect Noel Gallo for Oakland City Council 2024
 filer_id: '1472382'
 is_incumbent: true
 name: Noel Gallo
+occupation: City Councilmember District 5
 photo_url: Noel-Gallo
 facebook_url: https://www.facebook.com/noelgallodistrict5/
 instagram_url: noel.gallod5

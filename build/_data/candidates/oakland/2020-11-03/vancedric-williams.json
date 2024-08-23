@@ -1,5 +1,5 @@
 {
-  "id": 131,
+  "id": 137,
   "name": "VanCedric Williams",
   "photo_url": "vancedric_williams_sub.jpg",
   "website_url": "http://vancedricwilliams.com",
@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1427826,
   "supporting_money": {
-    "contributions_received": 36218.73,
-    "total_contributions": 36218.73,
+    "contributions_received": 37418.73,
+    "total_contributions": 37418.73,
     "total_expenditures": 36516.89,
     "total_loans_received": 0.0,
     "total_supporting_independent": 71241.48,
@@ -43,6 +43,7 @@
       }
     ],
     "contributions_by_type": {
+      "Committee": 1200.0,
       "Individual": 14745.0,
       "Unitemized": 4689.0,
       "Self Funding": 850.0,
@@ -51,7 +52,7 @@
     "contributions_by_origin": {
       "Out of State": 1900.0,
       "Within Oakland": 9750.0,
-      "Within California": 19879.73
+      "Within California": 21079.73
     },
     "total_small_contributions": 5309.0,
     "expenditures_by_type": {
@@ -74,7 +75,7 @@
 
     ]
   },
-  "total_contributions": 36218.73,
+  "total_contributions": 37418.73,
   "total_expenditures": 36516.89,
   "total_loans_received": 0.0
 }

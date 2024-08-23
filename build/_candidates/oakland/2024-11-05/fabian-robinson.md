@@ -4,6 +4,6 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Fabian Robinson
-occupation: Pastor at Miraculous Word Christian Center
+occupation: Pastor
 photo_url: Fabian-Robinson
 ---

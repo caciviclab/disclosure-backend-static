@@ -627,7 +627,7 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 105.24,
       "Tran_Date": "2024-04-03",
-      "Tran_NamF": "Rick",
+      "Tran_NamF": "Richard",
       "Tran_NamL": "Heilborn",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
@@ -1628,16 +1628,16 @@
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1467180",
+      "Cmte_ID": null,
       "Filer_ID": "1466653",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
+      "Tran_Emp": "Phillip Dreyfuss, Investor",
+      "Tran_Occ": "Investor",
+      "Entity_Cd": "Individual",
       "Tran_Amt1": 130000.0,
       "Tran_Date": "2024-06-04",
-      "Tran_NamF": null,
-      "Tran_NamL": "Foundational Oakland Unites",
-      "Tran_Zip4": "94607",
+      "Tran_NamF": "Philip",
+      "Tran_NamL": "Dreyfuss",
+      "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
     },
     {

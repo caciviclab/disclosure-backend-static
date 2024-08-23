@@ -4,5 +4,6 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: false
 name: Iris Merriouns
-occupation: Chief of Staff to Vice Mayor
+occupation: Chief of Staff
+photo_url: Iris-Merriouns
 ---

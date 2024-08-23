@@ -4,6 +4,7 @@ committee_name: Baba Afolabi for Oakland City Council 2024
 filer_id: '1467002'
 is_incumbent: false
 name: Baba A. Afolabi
+occupation: Entrepreneur
 photo_url: Baba-Afolabi
 twitter_url: BabaAfolabi4D3
 website_url: https://babafordistrict3.com/

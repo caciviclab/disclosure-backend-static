@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 31529.73,
+  "total_contributions": 32729.73,
   "contributions": [
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -1820,6 +1820,20 @@
       "Tran_NamF": "VanCedric",
       "Tran_NamL": "Williams",
       "Tran_Zip4": "94611",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": "1423098",
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-08-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Angela Normand for Board of Education 2024",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2020"
     }
   ]

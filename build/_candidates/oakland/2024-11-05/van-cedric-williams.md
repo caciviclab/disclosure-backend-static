@@ -4,6 +4,7 @@ committee_name: No committee registered
 filer_id: ''
 is_incumbent: true
 name: Van Cedric Williams
+occupation: School Board Director
 photo_url: VanCedric-Williams
 website_url: http://www.vancedricwilliams.com/
 facebook_url: https://www.facebook.com/vancedricforousd/
