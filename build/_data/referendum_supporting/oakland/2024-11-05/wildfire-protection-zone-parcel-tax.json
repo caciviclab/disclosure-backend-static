@@ -7,15 +7,24 @@
   "number": "MM",
   "voters_edge_url": null,
   "contributions_by_region": [
-
+    {
+      "amount": 1000.0,
+      "locale": "Within California"
+    }
   ],
   "contributions_by_type": [
-
+    {
+      "type": "Individual",
+      "amount": 1000.0
+    }
   ],
   "supporting_organizations": [
-
+    {
+      "id": "1472871",
+      "name": "Make Oakland Wildfire Safe",
+      "payee": "Make Oakland Wildfire Safe",
+      "amount": 0
+    }
   ],
-  "total_contributions": [
-
-  ]
+  "total_contributions": 1000.0
 }

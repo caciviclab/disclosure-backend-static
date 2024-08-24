@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 43200.0,
+  "total_contributions": 43388.22,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -48,7 +48,7 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1462429",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 600.0,
@@ -62,7 +62,7 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1462429",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
@@ -342,8 +342,8 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1462429",
-      "Tran_Emp": "MaiContent LLC",
-      "Tran_Occ": "Writer/Producer",
+      "Tran_Emp": "McGee Media",
+      "Tran_Occ": "Associate Producer",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2023-08-25",
@@ -454,7 +454,7 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1462429",
-      "Tran_Emp": "Retired",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 200.0,
@@ -560,6 +560,20 @@
       "Tran_NamF": "Katharine",
       "Tran_NamL": "Van Dusen",
       "Tran_Zip4": "94501",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1462429",
+      "Tran_Emp": "The Jacobs Company",
+      "Tran_Occ": "Retirement Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 188.22,
+      "Tran_Date": "2023-10-09",
+      "Tran_NamF": "Mary",
+      "Tran_NamL": "Richardson",
+      "Tran_Zip4": "85233",
       "election_name": "oakland-2024"
     },
     {
