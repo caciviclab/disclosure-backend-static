@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2016-11-08.md
 committee_name: Nehanda Imara for City Council 2016
+data_warning: ''
 filer_id: '1386932'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false

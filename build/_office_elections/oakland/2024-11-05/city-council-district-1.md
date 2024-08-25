@@ -5,7 +5,6 @@ candidates:
 - len-raphael
 - debra-sherman
 - edward-c-frank
-- shantell-herndon
 title: City Council District 1
 label: City Council
 ---

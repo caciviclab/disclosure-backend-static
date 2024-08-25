@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2018-11-06.md
 committee_name: Gonzales for School Board 2018
+data_warning: ''
 filer_id: '1404347'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true

@@ -12,7 +12,7 @@ CREATE TABLE candidates (
 	"Website" VARCHAR(68), 
 	"Twitter" VARCHAR(17), 
 	"Facebook" VARCHAR(91), 
-	"Instagram" VARCHAR(23), 
+	"Instagram" VARCHAR(91), 
 	"Party_Affiliation" VARCHAR(11), 
 	"Occupation" VARCHAR(78), 
 	"Bio" VARCHAR(1295), 
