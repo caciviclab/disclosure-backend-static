@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 11700.0,
+  "total_contributions": 12700.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -168,6 +168,20 @@
       "Tran_NamF": "Quinn",
       "Tran_NamL": "Delaney",
       "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-08-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Farmhouse Kitchen",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2024"
     }
   ]
