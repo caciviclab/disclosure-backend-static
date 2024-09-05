@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 1000.0,
+  "total_contributions": 3500.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -14,6 +14,20 @@
       "Tran_NamF": "Jonathan",
       "Tran_NamL": "Kaufman",
       "Tran_Zip4": "94705-1510",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1472871",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2024-09-01",
+      "Tran_NamF": "Elizabeth",
+      "Tran_NamL": "Stage",
+      "Tran_Zip4": "94705",
       "election_name": "oakland-2024"
     }
   ]

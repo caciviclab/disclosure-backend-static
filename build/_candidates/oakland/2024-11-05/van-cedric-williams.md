@@ -1,6 +1,6 @@
 ---
 election: _elections/oakland/2024-11-05.md
-committee_name: No committee registered
+committee_name: Van Cedric Williams for OUSD, School Board, Seat 3, 2024
 filer_id: ''
 is_incumbent: true
 name: Van Cedric Williams

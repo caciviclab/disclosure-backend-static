@@ -1,16 +1,16 @@
 {
-  "total_contributions": 1826736.27,
+  "total_contributions": 1782549.06,
   "total_contributions_by_source": {
-    "Out of State": 90193.6,
-    "Within Oakland": 1103005.63,
-    "Within California": 547657.29
+    "Out of State": 80593.6,
+    "Within Oakland": 1080366.92,
+    "Within California": 541997.79
   },
   "contributions_by_type": {
-    "Committee": 554319.16,
-    "Individual": 651894.15,
-    "Unitemized": 45779.75,
-    "Self Funding": 29301.71,
-    "Other (includes Businesses)": 505341.5
+    "Committee": 552819.16,
+    "Individual": 616702.65,
+    "Unitemized": 39490.75,
+    "Self Funding": 28695.0,
+    "Other (includes Businesses)": 504741.5
   },
   "most_expensive_races": [
     {
@@ -23,7 +23,7 @@
       "slug": "mayoral-recall-election",
       "type": "referendum",
       "title": "Measure REC1",
-      "amount": 568238.78
+      "amount": 573238.78
     },
     {
       "slug": "city-council-district-1",
@@ -50,12 +50,12 @@
       "office_title": "City Council At-Large"
     },
     {
-      "slug": "tonya-love",
+      "slug": "rowena-j-brown",
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
-      "candidate": "Tonya Love",
-      "proportion": 0.2,
-      "office_title": "City Council District 7"
+      "candidate": "Rowena J. Brown",
+      "proportion": 0.16,
+      "office_title": "City Council At-Large"
     }
   ],
   "largest_independent_expenditures": {

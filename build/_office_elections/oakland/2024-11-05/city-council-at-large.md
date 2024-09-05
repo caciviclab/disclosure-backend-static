@@ -11,7 +11,6 @@ candidates:
 - nancy-sidebotham
 - selika-thomas
 - shawn-b-danino
-- tyron-jordan
 title: City Council At-Large
 label: City Council
 ---

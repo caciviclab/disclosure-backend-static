@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 33749.73,
+  "total_contributions": 34499.73,
   "contributions": [
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -1941,6 +1941,20 @@
       "Tran_Emp": "OUSD",
       "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
+      "Tran_Amt1": 0.0,
+      "Tran_Date": "2024-08-17",
+      "Tran_NamF": "Bethany",
+      "Tran_NamL": "Meyer",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
       "Tran_Date": "2024-08-17",
       "Tran_NamF": "Bethany",
@@ -2100,6 +2114,62 @@
       "Tran_NamF": "Rachel",
       "Tran_NamL": "Mann",
       "Tran_Zip4": "94602",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Self-employed",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-08-27",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Ward",
+      "Tran_Zip4": "53211",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2024-08-29",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Shepich",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "CTA",
+      "Tran_Occ": "Staff",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2024-08-30",
+      "Tran_NamF": "Jervon",
+      "Tran_NamL": "Graves",
+      "Tran_Zip4": "92116",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2024-08-30",
+      "Tran_NamF": "Kampala",
+      "Tran_NamL": "Rancifer",
+      "Tran_Zip4": "94605",
       "election_name": "oakland-2020"
     }
   ]
