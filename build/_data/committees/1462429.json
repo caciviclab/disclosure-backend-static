@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 43388.22,
+  "total_contributions": 45788.22,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -1568,6 +1568,34 @@
       "Tran_NamF": "Oliver",
       "Tran_NamL": "Luby",
       "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1462429",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1273532",
+      "Filer_ID": "1462429",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
     }
   ]
