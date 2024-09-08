@@ -58,8 +58,13 @@
       "office_title": "City Council At-Large"
     }
   ],
-  "largest_independent_expenditures": {
-  },
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland Citizens for Public Safety, Supporting Zac Unger for City Council 2024",
+      "election_name": "oakland-2024",
+      "total_spending": 1221.0
+    }
+  ],
   "top_contributors": [
     {
       "name": "Philip Dreyfuss",

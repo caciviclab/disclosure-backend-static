@@ -25,9 +25,15 @@
     "total_contributions": 167989.4,
     "total_expenditures": 31367.31,
     "total_loans_received": 0.0,
-    "total_supporting_independent": null,
+    "total_supporting_independent": 1221.0,
     "support_list": [
-
+      {
+        "Total": 1221.0,
+        "Cand_ID": 1462377,
+        "Filer_ID": "1465871",
+        "Filer_NamL": "Oakland Citizens for Public Safety, Supporting Zac Unger for City Council 2024",
+        "election_name": "oakland-2024"
+      }
     ],
     "contributions_by_type": {
       "Committee": 57400.0,
@@ -53,6 +59,7 @@
       "Information Technology Costs (Internet, E-mail)": 690.89
     },
     "supporting_by_type": {
+      "Website": 1221.0
     }
   },
   "opposing_money": {

@@ -584,15 +584,15 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3376897.68,
+    "total_contributions": 3377912.68,
     "total_contributions_by_source": {
-      "Out of State": 212124.92,
-      "Within Oakland": 1549487.74,
-      "Within California": 1328731.0
+      "Out of State": 212224.92,
+      "Within Oakland": 1549637.74,
+      "Within California": 1328846.0
     },
     "contributions_by_type": {
       "Committee": 551465.43,
-      "Individual": 1894104.19,
+      "Individual": 1894469.19,
       "Unitemized": 208822.35,
       "Self Funding": 134466.64,
       "Other (includes Businesses)": 510307.4
@@ -1625,8 +1625,13 @@
         "office_title": "City Council At-Large"
       }
     ],
-    "largest_independent_expenditures": {
-    },
+    "largest_independent_expenditures": [
+      {
+        "name": "Oakland Citizens for Public Safety, Supporting Zac Unger for City Council 2024",
+        "election_name": "oakland-2024",
+        "total_spending": 1221.0
+      }
+    ],
     "top_contributors": [
       {
         "name": "Philip Dreyfuss",
