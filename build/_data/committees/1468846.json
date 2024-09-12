@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 9950.0,
+  "total_contributions": 12350.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -686,6 +686,34 @@
       "Tran_NamF": "David",
       "Tran_NamL": "Silver",
       "Tran_Zip4": "94602",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1468846",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council Unity PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "850381",
+      "Filer_ID": "1468846",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104 PAC",
+      "Tran_Zip4": "94551",
       "election_name": "oakland-2024"
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "total_contributions": 1786149.06,
+  "total_contributions": 1788549.06,
   "total_contributions_by_source": {
     "Out of State": 80593.6,
-    "Within Oakland": 1082766.92,
-    "Within California": 543197.79
+    "Within Oakland": 1083966.92,
+    "Within California": 544397.79
   },
   "contributions_by_type": {
-    "Committee": 556419.16,
+    "Committee": 558819.16,
     "Individual": 616702.65,
     "Unitemized": 39490.75,
     "Self Funding": 28695.0,
@@ -26,10 +26,10 @@
       "amount": 573238.78
     },
     {
-      "slug": "city-council-district-1",
+      "slug": "city-council-at-large",
       "type": "office",
-      "title": "City Council District 1",
-      "amount": 175961.4
+      "title": "City Council At-Large",
+      "amount": 178143.43
     }
   ],
   "largest_small_proportion": [
@@ -50,12 +50,12 @@
       "office_title": "City Council At-Large"
     },
     {
-      "slug": "rowena-j-brown",
+      "slug": "warren-logan",
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
-      "candidate": "Rowena J. Brown",
-      "proportion": 0.16,
-      "office_title": "City Council At-Large"
+      "candidate": "Warren Logan",
+      "proportion": 0.15,
+      "office_title": "City Council District 3"
     }
   ],
   "largest_independent_expenditures": [
