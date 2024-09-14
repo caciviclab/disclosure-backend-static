@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 15000.0,
+  "total_contributions": 17400.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -14,6 +14,34 @@
       "Tran_NamF": "Noel",
       "Tran_NamL": "Gallo",
       "Tran_Zip4": "94601",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1460381",
+      "Filer_ID": "1472382",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "Building and Construction Trades Council of Alameda County PAC",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "850381",
+      "Filer_ID": "1472382",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104 Political Committee",
+      "Tran_Zip4": "94551",
       "election_name": "oakland-2024"
     }
   ]
