@@ -1,12 +1,12 @@
 {
-  "total_contributions": 1795349.06,
+  "total_contributions": 1796549.06,
   "total_contributions_by_source": {
     "Out of State": 80593.6,
-    "Within Oakland": 1087566.92,
+    "Within Oakland": 1088766.92,
     "Within California": 547597.79
   },
   "contributions_by_type": {
-    "Committee": 565619.16,
+    "Committee": 566819.16,
     "Individual": 616702.65,
     "Unitemized": 39490.75,
     "Self Funding": 28695.0,
@@ -29,7 +29,7 @@
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 179343.43
+      "amount": 180543.43
     }
   ],
   "largest_small_proportion": [
@@ -59,6 +59,11 @@
     }
   ],
   "largest_independent_expenditures": [
+    {
+      "name": "Citizens For A Brighter Future - Armstrong for Council 2024",
+      "election_name": "oakland-2024",
+      "total_spending": 5081.0
+    },
     {
       "name": "Oakland Citizens for Public Safety, Supporting Zac Unger for City Council 2024",
       "election_name": "oakland-2024",
