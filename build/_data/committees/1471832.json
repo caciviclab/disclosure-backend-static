@@ -1,7 +1,20 @@
 {
   "iec": true,
-  "total_contributions": 0,
+  "total_contributions": 2500.0,
   "contributions": [
-
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471832",
+      "Tran_Emp": "Kingsum Inc",
+      "Tran_Occ": "Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2024-09-18",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Yim",
+      "Tran_Zip4": "94563",
+      "election_name": "oakland-2024"
+    }
   ]
 }
