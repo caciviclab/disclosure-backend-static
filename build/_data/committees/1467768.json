@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 638450.0,
+  "total_contributions": 758450.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -266,6 +266,48 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers Local Union 104 Issues Committee",
       "Tran_Zip4": "94551",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2024-08-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1362080",
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2024-08-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+      "Tran_Zip4": "94103",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2024-09-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Blue Shield of California",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2024"
     }
   ]
