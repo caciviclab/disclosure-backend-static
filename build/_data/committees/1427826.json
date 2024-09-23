@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 34864.73,
+  "total_contributions": 37064.73,
   "contributions": [
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -2240,6 +2240,34 @@
       "Tran_NamF": "Carol",
       "Tran_NamL": "Delton",
       "Tran_Zip4": "94618",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "American Federation, State, County and Mucicipal 57",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2020"
     }
   ]
