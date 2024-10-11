@@ -28,7 +28,7 @@ CREATE TABLE "F465P3-Expenditure" (
 	"Expn_ChkNo" VARCHAR(32), 
 	"Expn_Code" VARCHAR(4), 
 	"Expn_Dscr" VARCHAR(98) NOT NULL, 
-	"Agent_NamL" VARCHAR(28), 
+	"Agent_NamL" VARCHAR(64), 
 	"Agent_NamF" VARCHAR(32), 
 	"Agent_NamT" VARCHAR(32), 
 	"Agent_NamS" VARCHAR(32), 

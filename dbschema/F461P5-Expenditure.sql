@@ -63,7 +63,7 @@ CREATE TABLE "F461P5-Expenditure" (
 	"XRef_SchNm" VARCHAR(32), 
 	"XRef_Match" VARCHAR(32), 
 	"EmplBus_CB" VARCHAR(4), 
-	"Bus_Name" VARCHAR(28), 
+	"Bus_Name" VARCHAR(64), 
 	"Bus_Adr1" VARCHAR(33), 
 	"Bus_Adr2" VARCHAR(10), 
 	"Bus_City" VARCHAR(13), 

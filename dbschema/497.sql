@@ -17,7 +17,7 @@ CREATE TABLE "497" (
 	"Enty_NamS" VARCHAR(4), 
 	"Enty_Adr1" VARCHAR(32), 
 	"Enty_Adr2" VARCHAR(32), 
-	"Enty_City" VARCHAR(17), 
+	"Enty_City" VARCHAR(32), 
 	"Enty_ST" VARCHAR(4), 
 	"Enty_Zip4" VARCHAR(10), 
 	"Ctrib_Emp" VARCHAR(50), 

@@ -30,7 +30,7 @@ CREATE TABLE "F496P3-Contributions" (
 	"Tran_Date1" VARCHAR(32), 
 	"Tran_Amt1" FLOAT NOT NULL, 
 	"Tran_Amt2" FLOAT, 
-	"Tran_Dscr" VARCHAR(28), 
+	"Tran_Dscr" VARCHAR(64), 
 	"Cmte_ID" VARCHAR(9), 
 	"Tres_NamL" VARCHAR(32), 
 	"Tres_NamF" VARCHAR(32), 
