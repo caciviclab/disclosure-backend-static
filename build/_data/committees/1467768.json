@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 758450.0,
+  "total_contributions": 1020550.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -270,6 +270,34 @@
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 22000.0,
+      "Tran_Date": "2024-07-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "Youth ALIVE!",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 75000.0,
+      "Tran_Date": "2024-07-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kaiser Permanente Financial Services Operations(Alena Wall)",
+      "Tran_Zip4": "91103",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1294190",
       "Filer_ID": "1467768",
       "Tran_Emp": null,
@@ -300,6 +328,20 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1467768",
+      "Tran_Emp": "Focus Realty",
+      "Tran_Occ": "Forward Planner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-08-27",
+      "Tran_NamF": "Rick",
+      "Tran_NamL": "Rosenbaum",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -308,6 +350,48 @@
       "Tran_NamF": null,
       "Tran_NamL": "Blue Shield of California",
       "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2024-09-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Asian Youth Center",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2024-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "PG&E Corporation",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1296947",
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2024-10-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
     }
   ]

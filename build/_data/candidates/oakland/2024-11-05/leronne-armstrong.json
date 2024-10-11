@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1469671,
   "supporting_money": {
-    "contributions_received": 42704.2,
-    "total_contributions": 42704.2,
-    "total_expenditures": 24171.5,
+    "contributions_received": 71277.2,
+    "total_contributions": 71277.2,
+    "total_expenditures": 59503.65,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 5081.0,
+    "total_supporting_independent": 37590.0,
     "support_list": [
       {
-        "Total": 5081.0,
+        "Total": 37590.0,
         "Cand_ID": 1469671,
         "Filer_ID": "1471304",
         "Filer_NamL": "Citizens For A Brighter Future - Armstrong for Council 2024",
@@ -36,28 +36,33 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 1200.0,
-      "Individual": 35330.0,
-      "Unitemized": 2388.0,
-      "Other (includes Businesses)": 3786.2
+      "Committee": 2400.0,
+      "Individual": 59526.0,
+      "Unitemized": 4765.0,
+      "Other (includes Businesses)": 4586.2
     },
     "contributions_by_origin": {
-      "Out of State": 100.0,
-      "Within Oakland": 29566.2,
-      "Within California": 10650.0
+      "Out of State": 752.0,
+      "Within Oakland": 48027.2,
+      "Within California": 17733.0
     },
-    "total_small_contributions": 2688.0,
+    "total_small_contributions": 6181.0,
     "expenditures_by_type": {
-      "Not Stated": 500.0,
-      "Fundraising Events": 1489.54,
-      "Campaign Consultants": 2500.0,
-      "Campaign Paraphernalia/Misc.": 1363.79,
-      "Professional Services (Legal, Accounting)": 1550.0,
-      "Information Technology Costs (Internet, E-mail)": 4654.1
+      "Not Stated": 3575.0,
+      "Office Expenses": 29.13,
+      "Fundraising Events": 2182.73,
+      "Campaign Consultants": 19500.0,
+      "Meetings and Appearances": 1083.76,
+      "Campaign Paraphernalia/Misc.": 3378.97,
+      "Postage, Delivery and Messenger Services": 10.2,
+      "Professional Services (Legal, Accounting)": 5775.0,
+      "Information Technology Costs (Internet, E-mail)": 7222.61
     },
     "supporting_by_type": {
-      "Consulting": 5000.0,
-      "Email marketing software": 81.0
+      "Mailer": 21928.0,
+      "Consulting": 3000.0,
+      "Graphic Design services": 2500.0,
+      "Independent Expenditure Supporting/Opposing Others": 10162.0
     }
   },
   "opposing_money": {
@@ -68,7 +73,7 @@
 
     ]
   },
-  "total_contributions": 42704.2,
-  "total_expenditures": 24171.5,
+  "total_contributions": 71277.2,
+  "total_expenditures": 59503.65,
   "total_loans_received": 0.0
 }

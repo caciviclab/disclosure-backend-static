@@ -21,34 +21,37 @@
   "is_winner": null,
   "filer_id": 1462429,
   "supporting_money": {
-    "contributions_received": 46849.22,
-    "total_contributions": 46849.22,
-    "total_expenditures": 17054.88,
-    "total_loans_received": 0.0,
+    "contributions_received": 107733.22,
+    "total_contributions": 107733.22,
+    "total_expenditures": 46631.33,
+    "total_loans_received": 38000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 4800.0,
-      "Individual": 34988.22,
-      "Unitemized": 1061.0,
-      "Self Funding": 6000.0
+      "Committee": 6100.0,
+      "Individual": 55038.22,
+      "Unitemized": 1995.0,
+      "Self Funding": 6000.0,
+      "Other (includes Businesses)": 600.0
     },
     "contributions_by_origin": {
-      "Out of State": 6688.22,
-      "Within Oakland": 18800.0,
-      "Within California": 20300.0
+      "Out of State": 7438.22,
+      "Within Oakland": 29750.0,
+      "Within California": 30550.0
     },
-    "total_small_contributions": 1236.0,
+    "total_small_contributions": 2170.0,
     "expenditures_by_type": {
       "Not Stated": 1860.0,
       "Office Expenses": 1744.15,
-      "Fundraising Events": 312.91,
-      "Campaign Consultants": 6500.0,
-      "Candidate Filing/Ballot Fees": 100.0,
-      "Professional Services (Legal, Accounting)": 6075.0,
-      "Information Technology Costs (Internet, E-mail)": 244.6
+      "Fundraising Events": 2059.57,
+      "Campaign Consultants": 11500.0,
+      "Meetings and Appearances": 270.0,
+      "Campaign Paraphernalia/Misc.": 4145.73,
+      "Candidate Filing/Ballot Fees": 1100.0,
+      "Professional Services (Legal, Accounting)": 8225.0,
+      "Information Technology Costs (Internet, E-mail)": 1108.83
     },
     "supporting_by_type": {
     }
@@ -61,7 +64,7 @@
 
     ]
   },
-  "total_contributions": 46849.22,
-  "total_expenditures": 17054.88,
-  "total_loans_received": 0.0
+  "total_contributions": 107733.22,
+  "total_expenditures": 46631.33,
+  "total_loans_received": 38000.0
 }

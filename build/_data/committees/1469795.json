@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 7330.0,
+  "total_contributions": 9730.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -322,6 +322,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "IBEW Local 595 PAC Small Contributor Committee",
       "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469795",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-09-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Justice",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "850381",
+      "Filer_ID": "1469795",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-10-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104 Political Committee",
+      "Tran_Zip4": "94551",
       "election_name": "oakland-2024"
     }
   ]

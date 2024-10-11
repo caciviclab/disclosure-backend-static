@@ -1,35 +1,36 @@
 {
-  "total_contributions": 1920149.06,
+  "total_contributions": 2687885.17,
   "total_contributions_by_source": {
-    "Out of State": 80593.6,
-    "Within Oakland": 1194966.92,
-    "Within California": 564997.79
+    "Out of State": 104207.04,
+    "Within Oakland": 1509423.89,
+    "Within California": 897972.07
   },
   "contributions_by_type": {
-    "Committee": 590419.16,
-    "Individual": 616702.65,
-    "Unitemized": 39490.75,
-    "Self Funding": 28695.0,
-    "Other (includes Businesses)": 604741.5
+    "PTY": 250.0,
+    "Committee": 761819.16,
+    "Individual": 901263.75,
+    "Unitemized": 69732.17,
+    "Self Funding": 8823.19,
+    "Other (includes Businesses)": 839446.9
   },
   "most_expensive_races": [
     {
       "slug": "citywide-violence-reduction-services-parcel-tax",
       "type": "referendum",
       "title": "Measure NN",
-      "amount": 758450.0
+      "amount": 1020550.0
     },
     {
       "slug": "mayoral-recall-election",
       "type": "referendum",
       "title": "Measure REC1",
-      "amount": 573238.78
+      "amount": 666594.6
     },
     {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 180543.43
+      "amount": 281303.95
     }
   ],
   "largest_small_proportion": [
@@ -38,36 +39,41 @@
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Cristina Tostado",
-      "proportion": 0.42,
+      "proportion": 0.4,
       "office_title": "City Council At-Large"
     },
     {
-      "slug": "mindy-pechenuk",
+      "slug": "dominic-l-prado",
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
-      "candidate": "Mindy Pechenuk",
-      "proportion": 0.23,
-      "office_title": "City Council At-Large"
+      "candidate": "Dominic L. Prado",
+      "proportion": 0.29,
+      "office_title": "City Council District 5"
     },
     {
-      "slug": "warren-logan",
+      "slug": "shawn-b-danino",
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
-      "candidate": "Warren Logan",
-      "proportion": 0.15,
-      "office_title": "City Council District 3"
+      "candidate": "Shawn B. Danino",
+      "proportion": 0.29,
+      "office_title": "City Council At-Large"
     }
   ],
   "largest_independent_expenditures": [
     {
-      "name": "Citizens For A Brighter Future - Armstrong for Council 2024",
+      "name": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
       "election_name": "oakland-2024",
-      "total_spending": 5081.0
+      "total_spending": 123219.0
     },
     {
-      "name": "Oakland Citizens for Public Safety, Supporting Zac Unger for City Council 2024",
+      "name": "Families for a Vibrant Oakland, Sponsored by Effective Government",
       "election_name": "oakland-2024",
-      "total_spending": 1221.0
+      "total_spending": 106614.0
+    },
+    {
+      "name": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)",
+      "election_name": "oakland-2024",
+      "total_spending": 70207.0
     }
   ],
   "top_contributors": [
@@ -82,29 +88,29 @@
       "total_contributions": 720000.0
     },
     {
-      "name": "Foundational Oakland Unites",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "election_name": "oakland-2024",
-      "total_contributions": 337519.16
+      "total_contributions": 379000.0
     }
   ],
   "top_contributors_for_offices": [
-    {
-      "name": "Noel Gallo",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_contributions": 15000.0
-    },
-    {
-      "name": "Brenda Harbin-Forte",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_contributions": 7500.0
-    },
     {
       "name": "Ryan Richardson",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 6000.0
+    },
+    {
+      "name": "Charlene Wang",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_contributions": 2415.0
+    },
+    {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_contributions": 2400.0
     }
   ],
   "top_contributors_for_measures": [
@@ -112,13 +118,13 @@
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 337519.16
+      "total_contributions": 357519.16
     },
     {
       "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 300000.0
+      "total_contributions": 350000.0
     },
     {
       "name": "THE ATLANTIC ADVOCACY FUND  INC.",
@@ -141,30 +147,30 @@
       "total_spending": 720000.0
     },
     {
-      "name": "Foundational Oakland Unites",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 337519.16
+      "total_spending": 379000.0
     }
   ],
   "top_spenders_for_offices": [
-    {
-      "name": "Noel Gallo",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_spending": 15000.0
-    },
-    {
-      "name": "Brenda Harbin-Forte",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_spending": 7500.0
-    },
     {
       "name": "Ryan Richardson",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 6000.0
+    },
+    {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_spending": 3600.0
+    },
+    {
+      "name": "Families in Action for Justice",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_spending": 3600.0
     }
   ],
   "top_spenders_for_measures": [
@@ -181,10 +187,10 @@
       "total_spending": 720000.0
     },
     {
-      "name": "Foundational Oakland Unites",
+      "name": "Service Employees International Union Local 1021 Issues PAC",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 337519.16
+      "total_spending": 379000.0
     }
   ]
 }

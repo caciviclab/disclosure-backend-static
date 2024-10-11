@@ -8,26 +8,30 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 100.0,
+      "amount": 225.0,
       "locale": "Out of State"
     },
     {
-      "amount": 15800.0,
+      "amount": 75500.0,
       "locale": "Within California"
     },
     {
-      "amount": 1800.0,
+      "amount": 7950.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 54500.0
+    },
+    {
       "type": "Individual",
-      "amount": 16700.0
+      "amount": 25675.0
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 1000.0
+      "amount": 3500.0
     }
   ],
   "opposing_organizations": [
@@ -38,5 +42,5 @@
       "amount": 0.0
     }
   ],
-  "total_contributions": 17700.0
+  "total_contributions": 83675.0
 }

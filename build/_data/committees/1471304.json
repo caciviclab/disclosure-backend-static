@@ -1,7 +1,62 @@
 {
   "iec": true,
-  "total_contributions": 0,
+  "total_contributions": 51600.0,
   "contributions": [
-
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Scott's Seafood Grill & Bar",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2024-07-22",
+      "Tran_NamF": "Raymond",
+      "Tran_NamL": "Gallagher",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Stephen Barnett Lewis",
+      "Tran_Occ": "Doctor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-08-28",
+      "Tran_NamF": "Stephen Barnett",
+      "Tran_NamL": "Lewis",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Vitas Healthcare",
+      "Tran_Occ": "Physician",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2024-09-17",
+      "Tran_NamF": "Harold",
+      "Tran_NamL": "Orr",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Montezuma Wetlands",
+      "Tran_Occ": "Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-09-21",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Levine",
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2024"
+    }
   ]
 }

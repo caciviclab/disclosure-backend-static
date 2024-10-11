@@ -8,14 +8,30 @@
   "voters_edge_url": null,
   "contributions_by_region": [
     {
-      "amount": 3500.0,
+      "amount": 100.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 29950.0,
       "locale": "Within California"
+    },
+    {
+      "amount": 10100.0,
+      "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
     {
+      "type": "Committee",
+      "amount": 10000.0
+    },
+    {
       "type": "Individual",
-      "amount": 3500.0
+      "amount": 25150.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 5000.0
     }
   ],
   "supporting_organizations": [
@@ -23,8 +39,8 @@
       "id": "1472871",
       "name": "Make Oakland Wildfire Safe",
       "payee": "Make Oakland Wildfire Safe",
-      "amount": 0
+      "amount": 1125.0
     }
   ],
-  "total_contributions": 3500.0
+  "total_contributions": 40150.0
 }

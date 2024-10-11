@@ -21,27 +21,33 @@
   "is_winner": null,
   "filer_id": 1469153,
   "supporting_money": {
-    "contributions_received": 3017.0,
-    "total_contributions": 3017.0,
-    "total_expenditures": 760.04,
+    "contributions_received": 5196.0,
+    "total_contributions": 5196.0,
+    "total_expenditures": 4046.23,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 2429.0,
-      "Unitemized": 588.0
+      "PTY": 250.0,
+      "Individual": 4109.0,
+      "Unitemized": 837.0
     },
     "contributions_by_origin": {
-      "Out of State": 665.0,
-      "Within Oakland": 100.0,
-      "Within California": 1664.0
+      "Out of State": 765.0,
+      "Within Oakland": 600.0,
+      "Within California": 2994.0
     },
-    "total_small_contributions": 688.0,
+    "total_small_contributions": 1267.0,
     "expenditures_by_type": {
-      "Meetings and Appearances": 427.06,
-      "Campaign Literature and Mailings": 143.51
+      "Not Stated": 128.52,
+      "Meetings and Appearances": 1612.97,
+      "Campaign Paraphernalia/Misc.": 442.56,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 143.51,
+      "Candidate Travel, Lodging, and Meals": 190.05,
+      "Information Technology Costs (Internet, E-mail)": 147.99
     },
     "supporting_by_type": {
     }
@@ -54,7 +60,7 @@
 
     ]
   },
-  "total_contributions": 3017.0,
-  "total_expenditures": 760.04,
+  "total_contributions": 5196.0,
+  "total_expenditures": 4046.23,
   "total_loans_received": 0.0
 }

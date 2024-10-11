@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 18279.5,
+  "total_contributions": 22824.5,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -74,6 +74,48 @@
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 175.0,
+      "Tran_Date": "2024-08-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Firefighters Local 55",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 275.0,
+      "Tran_Date": "2024-08-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Firefighters Local 55",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 595.0,
+      "Tran_Date": "2024-08-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association of Firefighters Local 55",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1241835",
       "Filer_ID": "1465871",
       "Tran_Emp": null,
@@ -88,6 +130,20 @@
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "880080",
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2024-09-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Hayward Firefighters Political Action Committee",
+      "Tran_Zip4": "95453",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "746138",
       "Filer_ID": "1465871",
       "Tran_Emp": null,
@@ -98,6 +154,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sacramento Area Fire Fighters Local 522 PAC",
       "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "960450",
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2024-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Berkeley Firefighters Association Local 1227 PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "743393",
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "San Jose Firefighters (IAFF) Local 230 PAC",
+      "Tran_Zip4": "95111",
       "election_name": "oakland-2024"
     }
   ]

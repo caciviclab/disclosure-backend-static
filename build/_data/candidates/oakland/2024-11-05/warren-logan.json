@@ -21,39 +21,62 @@
   "is_winner": null,
   "filer_id": 1463590,
   "supporting_money": {
-    "contributions_received": 101364.27,
-    "total_contributions": 101364.27,
-    "total_expenditures": 46156.11,
+    "contributions_received": 135543.14,
+    "total_contributions": 135543.14,
+    "total_expenditures": 71650.97,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 71221.0,
     "support_list": [
-
+      {
+        "Total": 1014.0,
+        "Cand_ID": 1463590,
+        "Filer_ID": "1469547",
+        "Filer_NamL": "Families for a Vibrant Oakland, Sponsored by Effective Government",
+        "election_name": "oakland-2024"
+      },
+      {
+        "Total": 70207.0,
+        "Cand_ID": 1463590,
+        "Filer_ID": "1344093",
+        "Filer_NamL": "NATIONAL ASSOCIATION OF REALTORS FUND (NONPROFIT 527 ORGANIZATION)",
+        "election_name": "oakland-2024"
+      }
     ],
     "contributions_by_type": {
-      "Committee": 1200.0,
-      "Individual": 88004.0,
-      "Unitemized": 12160.27
+      "Committee": 4500.0,
+      "Individual": 114654.0,
+      "Unitemized": 15889.14,
+      "Other (includes Businesses)": 500.0
     },
     "contributions_by_origin": {
-      "Out of State": 8825.0,
-      "Within Oakland": 38604.0,
-      "Within California": 41775.0
+      "Out of State": 10475.0,
+      "Within Oakland": 57504.0,
+      "Within California": 51675.0
     },
-    "total_small_contributions": 15113.27,
+    "total_small_contributions": 20823.14,
     "expenditures_by_type": {
+      "Phone Banks": 435.0,
       "Office Expenses": 3146.53,
       "Fundraising Events": 1430.0,
-      "Campaign Consultants": 15000.0,
+      "Campaign Consultants": 28000.0,
       "Meetings and Appearances": 408.72,
-      "Campaign Paraphernalia/Misc.": 5652.33,
-      "Campaign Literature and Mailings": 1773.96,
+      "Campaign Paraphernalia/Misc.": 6749.5,
+      "Campaign Literature and Mailings": 4900.65,
       "Candidate Travel, Lodging, and Meals": 286.02,
       "Staff/Spouse Travel, Lodging, and Meals": 70.3,
       "Postage, Delivery and Messenger Services": 184.8,
-      "Professional Services (Legal, Accounting)": 10905.0,
-      "Information Technology Costs (Internet, E-mail)": 7150.0
+      "Professional Services (Legal, Accounting)": 18570.0,
+      "Information Technology Costs (Internet, E-mail)": 7289.0
     },
     "supporting_by_type": {
+      "MON": 1200.0,
+      "Mailer": 25615.0,
+      "MAILERS": 16176.0,
+      "POLLING": 12976.0,
+      "Online ads": 40769.0,
+      "VOTER FILE": 1055.0,
+      "ONLINE ADS (ESTIMATE)": 40000.0,
+      "IND EXP OF STAFF TIME.": 1014.0
     }
   },
   "opposing_money": {
@@ -64,7 +87,7 @@
 
     ]
   },
-  "total_contributions": 101364.27,
-  "total_expenditures": 46156.11,
+  "total_contributions": 135543.14,
+  "total_expenditures": 71650.97,
   "total_loans_received": 0.0
 }
