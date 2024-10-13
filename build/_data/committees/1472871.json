@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 40150.0,
+  "total_contributions": 45350.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -153,6 +153,20 @@
       "Tran_Date": "2024-10-08",
       "Tran_NamF": null,
       "Tran_NamL": "International Association of Firefighter Local 55 PAC (IAFF)",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1472871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5200.0,
+      "Tran_Date": "2024-10-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "PG&E Corporation",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     }
