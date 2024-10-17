@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 67738.22,
+  "total_contributions": 69538.22,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -2618,6 +2618,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "Steamfitters Local 342 PAC",
       "Tran_Zip4": "94518",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1462429",
+      "Tran_Emp": "Walter Riley",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-10-10",
+      "Tran_NamF": "Walter",
+      "Tran_NamL": "Riley",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1332115",
+      "Filer_ID": "1462429",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     }
   ]

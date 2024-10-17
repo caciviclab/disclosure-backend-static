@@ -1566,16 +1566,16 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 2694285.17,
+    "total_contributions": 2700685.17,
     "total_contributions_by_source": {
       "Out of State": 104207.04,
-      "Within Oakland": 1515823.89,
-      "Within California": 897972.07
+      "Within Oakland": 1518823.89,
+      "Within California": 901372.07
     },
     "contributions_by_type": {
       "PTY": 250.0,
-      "Committee": 763019.16,
-      "Individual": 901263.75,
+      "Committee": 768819.16,
+      "Individual": 901863.75,
       "Unitemized": 69732.17,
       "Self Funding": 8823.19,
       "Other (includes Businesses)": 844646.9
@@ -1597,7 +1597,7 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 282503.95
+        "amount": 284703.95
       }
     ],
     "largest_small_proportion": [
@@ -1674,7 +1674,7 @@
         "total_contributions": 2415.0
       },
       {
-        "name": "International Association of Firefighters Local 55 PAC",
+        "name": "UA Local 342 PAC Fund",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 2400.0
@@ -1728,13 +1728,13 @@
         "total_spending": 6000.0
       },
       {
-        "name": "Families in Action for Justice",
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 3600.0
+        "total_spending": 4200.0
       },
       {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "name": "Families in Action for Justice",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 3600.0
