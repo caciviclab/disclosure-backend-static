@@ -8,5 +8,5 @@ occupation: Senior Development Officer
 photo_url: Shawn-Danino
 twitter_url: danino4oakland
 website_url: https://www.daninoforoakland.com/
-instagram_url: danino4oakland
+instagram_url: daninoforoakland
 ---

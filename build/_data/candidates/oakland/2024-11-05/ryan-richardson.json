@@ -25,9 +25,15 @@
     "total_contributions": 109533.22,
     "total_expenditures": 46631.33,
     "total_loans_received": 38000.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 23750.0,
     "support_list": [
-
+      {
+        "Total": 23750.0,
+        "Cand_ID": 1462429,
+        "Filer_ID": "1474351",
+        "Filer_NamL": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
+        "election_name": "oakland-2024"
+      }
     ],
     "contributions_by_type": {
       "Committee": 7300.0,
@@ -54,6 +60,8 @@
       "Information Technology Costs (Internet, E-mail)": 1108.83
     },
     "supporting_by_type": {
+      "Video Production": 3750.0,
+      "Television and Digital ads": 20000.0
     }
   },
   "opposing_money": {
