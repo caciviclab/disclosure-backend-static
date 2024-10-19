@@ -25,10 +25,10 @@
     "total_contributions": 23957.0,
     "total_expenditures": 13501.79,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 19682.0,
+    "total_supporting_independent": 24122.0,
     "support_list": [
       {
-        "Total": 19682.0,
+        "Total": 24122.0,
         "Cand_ID": 1470433,
         "Filer_ID": "1433122",
         "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
@@ -54,6 +54,7 @@
       "Professional Services (Legal, Accounting)": 1000.0
     },
     "supporting_by_type": {
+      "Mailer": 4440.0,
       "Digital Ads": 19682.0
     }
   },

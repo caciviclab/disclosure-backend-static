@@ -25,8 +25,15 @@
     "total_contributions": 176713.1,
     "total_expenditures": 66736.12,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 29372.8,
+    "total_supporting_independent": 39137.8,
     "support_list": [
+      {
+        "Total": 9765.0,
+        "Cand_ID": 1462377,
+        "Filer_ID": "1433122",
+        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "election_name": "oakland-2024"
+      },
       {
         "Total": 29372.8,
         "Cand_ID": 1462377,
@@ -59,7 +66,7 @@
       "Information Technology Costs (Internet, E-mail)": 2408.5
     },
     "supporting_by_type": {
-      "Mailer": 24152.0,
+      "Mailer": 33917.0,
       "Online ads": 4000.0,
       "Independent Expenditure Supporting/Opposing Others": 1220.8
     }
@@ -67,6 +74,8 @@
   "opposing_money": {
     "opposing_expenditures": null,
     "opposing_by_type": {
+      "Digital Media": 400.0,
+      "Mailer Production and Delivery": 6600.0
     },
     "opposition_list": [
 
