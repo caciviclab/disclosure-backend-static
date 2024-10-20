@@ -25,13 +25,20 @@
     "total_contributions": 28034.81,
     "total_expenditures": 5280.61,
     "total_loans_received": 7500.0,
-    "total_supporting_independent": 106614.0,
+    "total_supporting_independent": 169514.0,
     "support_list": [
       {
-        "Total": 106614.0,
+        "Total": 149514.0,
         "Cand_ID": 1472483,
         "Filer_ID": "1469547",
         "Filer_NamL": "Families for a Vibrant Oakland, Sponsored by Effective Government",
+        "election_name": "oakland-2024"
+      },
+      {
+        "Total": 20000.0,
+        "Cand_ID": 1472483,
+        "Filer_ID": "1463583",
+        "Filer_NamL": "SOS Oakland",
         "election_name": "oakland-2024"
       }
     ],
@@ -52,14 +59,15 @@
       "Professional Services (Legal, Accounting)": 1750.0
     },
     "supporting_by_type": {
+      "Online ads": 20000.0,
       "IND EXP OF POLLING.": 12700.0,
       "IND EXP OF STAFF TIME.": 1014.0,
-      "IND EXP OF CAMPAIGN LITERATURE.": 42900.0,
+      "IND EXP OF CAMPAIGN LITERATURE.": 85800.0,
       "IND EXP OF DIGITAL ADVERTISEMENT.": 50000.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
     },
     "opposition_list": [
