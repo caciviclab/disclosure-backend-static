@@ -1,7 +1,7 @@
 ---
 election: _elections/oakland/2024-11-05.md
-committee_name: No committee registered
-filer_id: ''
+committee_name: Ken Houston for Oakland City Council District 7
+filer_id: '1474389'
 is_incumbent: false
 name: Ken Houston
 occupation: Executive Director

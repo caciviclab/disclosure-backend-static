@@ -13,30 +13,39 @@
   "ballot_item": 14,
   "office_election": 14,
   "bio": null,
-  "committee_name": "No committee registered",
+  "committee_name": "Ken Houston for Oakland City Council District 7",
   "is_accepted_expenditure_ceiling": null,
   "is_incumbent": false,
   "occupation": "Executive Director",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1474389,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 25332.97,
+    "total_contributions": 25332.97,
+    "total_expenditures": 11792.43,
+    "total_loans_received": 10000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 6500.0,
+      "Unitemized": 0.0,
+      "Other (includes Businesses)": 8832.97
     },
     "contributions_by_origin": {
+      "Out of State": 2932.97,
+      "Within Oakland": 8500.0,
+      "Within California": 3900.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 0.0,
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 10792.43,
+      "Candidate Filing/Ballot Fees": 1000.0
     },
     "supporting_by_type": {
+      "Digital Advertising": 60000.0
     }
   },
   "opposing_money": {
@@ -47,7 +56,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 25332.97,
+  "total_expenditures": 11792.43,
+  "total_loans_received": 10000.0
 }

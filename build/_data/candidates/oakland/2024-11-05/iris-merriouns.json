@@ -19,24 +19,40 @@
   "occupation": "Chief of Staff",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1473376,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
-    "total_supporting_independent": 0.0,
+    "contributions_received": 18868.0,
+    "total_contributions": 18868.0,
+    "total_expenditures": 8262.31,
+    "total_loans_received": 0.0,
+    "total_supporting_independent": 4718.0,
     "support_list": [
-
+      {
+        "Total": 4718.0,
+        "Cand_ID": 1473376,
+        "Filer_ID": "1433122",
+        "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "election_name": "oakland-2024"
+      }
     ],
     "contributions_by_type": {
+      "Committee": 3600.0,
+      "Individual": 14475.0,
+      "Unitemized": 493.0,
+      "Other (includes Businesses)": 300.0
     },
     "contributions_by_origin": {
+      "Out of State": 950.0,
+      "Within Oakland": 12975.0,
+      "Within California": 4450.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 518.0,
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 1155.32,
+      "Information Technology Costs (Internet, E-mail)": 7000.0
     },
     "supporting_by_type": {
+      "Mailer": 4718.0
     }
   },
   "opposing_money": {
@@ -47,7 +63,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 18868.0,
+  "total_expenditures": 8262.31,
+  "total_loans_received": 0.0
 }
