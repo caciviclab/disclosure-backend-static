@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 83675.0,
+  "total_contributions": 115675.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -644,6 +644,48 @@
       "Tran_NamF": null,
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1413083",
+      "Filer_ID": "1469604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "A Pipeline Project",
+      "Tran_Zip4": "95815",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1469604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "881248",
+      "Filer_ID": "1469604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "IFPTE Local 21 TJ Anthony PAC Fund",
+      "Tran_Zip4": "94103",
       "election_name": "oakland-2024"
     }
   ]

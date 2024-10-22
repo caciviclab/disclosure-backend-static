@@ -1,17 +1,17 @@
 {
-  "total_contributions": 2748086.14,
+  "total_contributions": 2786944.14,
   "total_contributions_by_source": {
-    "Out of State": 108090.01,
-    "Within Oakland": 1541498.89,
-    "Within California": 911722.07
+    "Out of State": 108490.01,
+    "Within Oakland": 1554803.89,
+    "Within California": 936285.07
   },
   "contributions_by_type": {
     "PTY": 250.0,
-    "Committee": 774619.16,
-    "Individual": 923838.75,
-    "Unitemized": 70225.17,
+    "Committee": 809519.16,
+    "Individual": 928406.75,
+    "Unitemized": 70815.17,
     "Self Funding": 8823.19,
-    "Other (includes Businesses)": 853779.87
+    "Other (includes Businesses)": 852579.87
   },
   "most_expensive_races": [
     {
@@ -24,13 +24,13 @@
       "slug": "mayoral-recall-election",
       "type": "referendum",
       "title": "Measure REC1",
-      "amount": 666594.6
+      "amount": 698594.6
     },
     {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 284703.95
+      "amount": 286036.95
     }
   ],
   "largest_small_proportion": [
@@ -63,17 +63,17 @@
     {
       "name": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
       "election_name": "oakland-2024",
-      "total_spending": 165204.0
+      "total_spending": 188354.0
     },
     {
-      "name": "Families for a Vibrant Oakland, Sponsored by Effective Government",
+      "name": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
       "election_name": "oakland-2024",
       "total_spending": 149514.0
     },
     {
-      "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+      "name": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
       "election_name": "oakland-2024",
-      "total_spending": 87461.0
+      "total_spending": 144967.0
     }
   ],
   "top_contributors": [
@@ -101,16 +101,16 @@
       "total_contributions": 6000.0
     },
     {
-      "name": "Laborers' Local 304 PAC",
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_contributions": 3200.0
+      "total_contributions": 3600.0
     },
     {
-      "name": "Charlene Wang",
+      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_contributions": 2415.0
+      "total_contributions": 3600.0
     }
   ],
   "top_contributors_for_measures": [

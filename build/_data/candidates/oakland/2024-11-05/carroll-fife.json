@@ -25,8 +25,15 @@
     "total_contributions": 70622.7,
     "total_expenditures": 46441.14,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 182853.0,
+    "total_supporting_independent": 186096.0,
     "support_list": [
+      {
+        "Total": 3243.0,
+        "Cand_ID": 1463441,
+        "Filer_ID": "1407115",
+        "Filer_NamL": "Asian Pacific Environmental Network Action Candidate Committee",
+        "election_name": "oakland-2024"
+      },
       {
         "Total": 41399.0,
         "Cand_ID": 1463441,
@@ -77,7 +84,7 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 100267.0,
     "opposing_by_type": {
       "MAILER": 47411.0,
       "POLLING": 29750.0,
@@ -86,7 +93,13 @@
       "Independent Expenditure Supporting/Opposing Others": 23936.0
     },
     "opposition_list": [
-
+      {
+        "Total": 100267.0,
+        "Cand_ID": 1463441,
+        "Filer_ID": "963026",
+        "Filer_NamL": "CALIFORNIA REAL ESTATE INDEPENDENT EXPENDITURE COMMITTEE - CALIFORNIA ASSOCIATION OF REALTORS",
+        "election_name": "oakland-2024"
+      }
     ]
   },
   "total_contributions": 70622.7,
