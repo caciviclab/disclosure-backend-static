@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 25200.0,
+  "total_contributions": 26400.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -629,6 +629,20 @@
       "Tran_Date": "2024-10-14",
       "Tran_NamF": null,
       "Tran_NamL": "Laborers' Local 304 PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1472382",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Empower Oakland Committee",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
     }

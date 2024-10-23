@@ -1,24 +1,24 @@
 {
-  "total_contributions": 2786944.14,
+  "total_contributions": 2841744.14,
   "total_contributions_by_source": {
     "Out of State": 108490.01,
-    "Within Oakland": 1554803.89,
-    "Within California": 936285.07
+    "Within Oakland": 1604803.89,
+    "Within California": 941085.07
   },
   "contributions_by_type": {
     "PTY": 250.0,
-    "Committee": 809519.16,
-    "Individual": 928406.75,
+    "Committee": 811919.16,
+    "Individual": 930806.75,
     "Unitemized": 70815.17,
     "Self Funding": 8823.19,
-    "Other (includes Businesses)": 852579.87
+    "Other (includes Businesses)": 902579.87
   },
   "most_expensive_races": [
     {
       "slug": "citywide-violence-reduction-services-parcel-tax",
       "type": "referendum",
       "title": "Measure NN",
-      "amount": 1020550.0
+      "amount": 1070550.0
     },
     {
       "slug": "mayoral-recall-election",
@@ -30,7 +30,7 @@
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 286036.95
+      "amount": 287236.95
     }
   ],
   "largest_small_proportion": [
@@ -61,14 +61,14 @@
   ],
   "largest_independent_expenditures": [
     {
+      "name": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
+      "election_name": "oakland-2024",
+      "total_spending": 202543.0
+    },
+    {
       "name": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
       "election_name": "oakland-2024",
       "total_spending": 188354.0
-    },
-    {
-      "name": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
-      "election_name": "oakland-2024",
-      "total_spending": 149514.0
     },
     {
       "name": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
@@ -107,7 +107,7 @@
       "total_contributions": 3600.0
     },
     {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "name": "Empower Oakland Committee",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 3600.0
@@ -167,7 +167,7 @@
       "total_spending": 4200.0
     },
     {
-      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "name": "Empower Oakland Committee",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 3600.0
