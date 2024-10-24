@@ -69,7 +69,7 @@ CREATE TABLE "F461P5-Expenditure" (
 	"Bus_City" VARCHAR(13), 
 	"Bus_ST" VARCHAR(4), 
 	"Bus_ZIP4" INTEGER, 
-	"Bus_Inter" VARCHAR(37), 
+	"Bus_Inter" VARCHAR(64),
 	"BusAct_CB" VARCHAR(4), 
 	"BusActvity" VARCHAR(61), 
 	"Assoc_CB" VARCHAR(66), 

@@ -21,7 +21,7 @@ CREATE TABLE "497" (
 	"Enty_ST" VARCHAR(4), 
 	"Enty_Zip4" VARCHAR(10), 
 	"Ctrib_Emp" VARCHAR(50), 
-	"Ctrib_Occ" VARCHAR(37), 
+	"Ctrib_Occ" VARCHAR(64),
 	"Ctrib_Self" VARCHAR(32), 
 	"Elec_Date" DATE, 
 	"Ctrib_Date" DATE NOT NULL, 
