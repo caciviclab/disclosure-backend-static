@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 4450.0,
+  "total_contributions": 5250.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -392,6 +392,48 @@
       "Tran_NamF": "Taylor",
       "Tran_NamL": "Adi",
       "Tran_Zip4": "94611-4306",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467002",
+      "Tran_Emp": "ASM Research",
+      "Tran_Occ": "System Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2024-09-19",
+      "Tran_NamF": "Afeez",
+      "Tran_NamL": "Babatunde",
+      "Tran_Zip4": "21076",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467002",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2024-09-19",
+      "Tran_NamF": "Peter",
+      "Tran_NamL": "Kovacs",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467002",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2024-09-21",
+      "Tran_NamF": "Kofoworola",
+      "Tran_NamL": "Domingo",
+      "Tran_Zip4": "94525",
       "election_name": "oakland-2024"
     }
   ]

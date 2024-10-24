@@ -25,10 +25,10 @@
     "total_contributions": 110733.22,
     "total_expenditures": 46631.33,
     "total_loans_received": 38000.0,
-    "total_supporting_independent": 74207.0,
+    "total_supporting_independent": 82394.0,
     "support_list": [
       {
-        "Total": 7457.0,
+        "Total": 15644.0,
         "Cand_ID": 1462429,
         "Filer_ID": "1433122",
         "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
@@ -74,18 +74,25 @@
       "Information Technology Costs (Internet, E-mail)": 1108.83
     },
     "supporting_by_type": {
-      "Mailer": 7457.0,
+      "Mailer": 15644.0,
       "Billboards": 43000.0,
       "Video Production": 3750.0,
       "Television and Digital ads": 20000.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 21450.0,
     "opposing_by_type": {
+      "IND EXP OF CAMPAIGN LITERATURE": 21450.0
     },
     "opposition_list": [
-
+      {
+        "Total": 21450.0,
+        "Cand_ID": 1462429,
+        "Filer_ID": "1469547",
+        "Filer_NamL": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
+        "election_name": "oakland-2024"
+      }
     ]
   },
   "total_contributions": 110733.22,

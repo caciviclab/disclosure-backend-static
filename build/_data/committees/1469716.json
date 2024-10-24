@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 2358.0,
+  "total_contributions": 2362.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -235,6 +235,20 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
       "Tran_Date": "2024-08-17",
+      "Tran_NamF": "Nwe",
+      "Tran_NamL": "Oo",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469716",
+      "Tran_Emp": "Community Health for Asian Americans",
+      "Tran_Occ": "Social Worker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 4.0,
+      "Tran_Date": "2024-09-23",
       "Tran_NamF": "Nwe",
       "Tran_NamL": "Oo",
       "Tran_Zip4": "94601",

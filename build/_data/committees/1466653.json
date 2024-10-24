@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 582919.6,
+  "total_contributions": 583967.24,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -2436,6 +2436,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Foundational Oakland Unites",
       "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1466653",
+      "Tran_Emp": "Block Inc",
+      "Tran_Occ": "Manager of Fraud and Operational Risk Management",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1047.64,
+      "Tran_Date": "2024-10-21",
+      "Tran_NamF": "Timothy",
+      "Tran_NamL": "Murphy",
+      "Tran_Zip4": "93420",
       "election_name": "oakland-2024"
     }
   ]

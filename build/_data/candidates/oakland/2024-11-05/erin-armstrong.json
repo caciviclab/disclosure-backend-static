@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1470433,
   "supporting_money": {
-    "contributions_received": 23957.0,
-    "total_contributions": 23957.0,
-    "total_expenditures": 13501.79,
+    "contributions_received": 26547.0,
+    "total_contributions": 26547.0,
+    "total_expenditures": 14468.09,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 31579.0,
+    "total_supporting_independent": 36414.0,
     "support_list": [
       {
-        "Total": 31579.0,
+        "Total": 36414.0,
         "Cand_ID": 1470433,
         "Filer_ID": "1433122",
         "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
@@ -37,25 +37,27 @@
     ],
     "contributions_by_type": {
       "Committee": 7000.0,
-      "Individual": 14010.0,
-      "Unitemized": 2347.0,
+      "Individual": 16210.0,
+      "Unitemized": 2737.0,
       "Self Funding": 600.0
     },
     "contributions_by_origin": {
-      "Out of State": 6350.0,
-      "Within Oakland": 7910.0,
-      "Within California": 7350.0
+      "Out of State": 7250.0,
+      "Within Oakland": 8410.0,
+      "Within California": 8150.0
     },
-    "total_small_contributions": 2627.0,
+    "total_small_contributions": 3167.0,
     "expenditures_by_type": {
       "Fundraising Events": 234.94,
       "Campaign Literature and Mailings": 11827.72,
-      "Postage, Delivery and Messenger Services": 314.0,
-      "Professional Services (Legal, Accounting)": 1000.0
+      "Postage, Delivery and Messenger Services": 370.0,
+      "Professional Services (Legal, Accounting)": 1779.41,
+      "Information Technology Costs (Internet, E-mail)": 119.88
     },
     "supporting_by_type": {
-      "Mailer": 11897.0,
-      "Digital Ads": 19682.0
+      "Mailer": 14857.0,
+      "Digital Ads": 19682.0,
+      "Text Messages": 1875.0
     }
   },
   "opposing_money": {
@@ -66,7 +68,7 @@
 
     ]
   },
-  "total_contributions": 23957.0,
-  "total_expenditures": 13501.79,
+  "total_contributions": 26547.0,
+  "total_expenditures": 14468.09,
   "total_loans_received": 0.0
 }

@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1472483,
   "supporting_money": {
-    "contributions_received": 28034.81,
-    "total_contributions": 28034.81,
-    "total_expenditures": 5280.61,
+    "contributions_received": 41714.87,
+    "total_contributions": 41714.87,
+    "total_expenditures": 45100.05,
     "total_loans_received": 7500.0,
-    "total_supporting_independent": 222543.0,
+    "total_supporting_independent": 201093.0,
     "support_list": [
       {
-        "Total": 202543.0,
+        "Total": 181093.0,
         "Cand_ID": 1472483,
         "Filer_ID": "1469547",
         "Filer_NamL": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
@@ -43,27 +43,30 @@
       }
     ],
     "contributions_by_type": {
-      "Individual": 17683.28,
-      "Unitemized": 548.34,
+      "Committee": 600.0,
+      "Individual": 29242.45,
+      "Unitemized": 1469.23,
       "Self Funding": 1803.19,
-      "Other (includes Businesses)": 500.0
+      "Other (includes Businesses)": 1100.0
     },
     "contributions_by_origin": {
-      "Out of State": 703.94,
-      "Within Oakland": 10456.99,
-      "Within California": 8825.54
+      "Out of State": 1807.88,
+      "Within Oakland": 16196.46,
+      "Within California": 14741.3
     },
-    "total_small_contributions": 548.34,
+    "total_small_contributions": 1476.57,
     "expenditures_by_type": {
-      "Campaign Paraphernalia/Misc.": 606.98,
-      "Professional Services (Legal, Accounting)": 1750.0
+      "Office Expenses": 217.54,
+      "Campaign Paraphernalia/Misc.": 1101.75,
+      "Campaign Literature and Mailings": 18716.0,
+      "Professional Services (Legal, Accounting)": 2250.0
     },
     "supporting_by_type": {
       "Online ads": 20000.0,
       "IND EXP OF POLLING.": 12700.0,
       "IND EXP OF STAFF TIME.": 1014.0,
       "IND EXP OF VIDEO PRODUCTION.": 3029.0,
-      "IND EXP OF CAMPAIGN LITERATURE.": 85800.0,
+      "IND EXP OF CAMPAIGN LITERATURE.": 64350.0,
       "IND EXP OF DIGITAL ADVERTISEMENT.": 100000.0
     }
   },
@@ -83,7 +86,7 @@
       }
     ]
   },
-  "total_contributions": 28034.81,
-  "total_expenditures": 5280.61,
+  "total_contributions": 41714.87,
+  "total_expenditures": 45100.05,
   "total_loans_received": 7500.0
 }
