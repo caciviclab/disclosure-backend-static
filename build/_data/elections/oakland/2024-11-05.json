@@ -1,17 +1,17 @@
 {
-  "total_contributions": 2870954.84,
+  "total_contributions": 3001097.91,
   "total_contributions_by_source": {
-    "Out of State": 110893.95,
-    "Within Oakland": 1615717.36,
-    "Within California": 954848.47
+    "Out of State": 119093.95,
+    "Within Oakland": 1699009.68,
+    "Within California": 983583.67
   },
   "contributions_by_type": {
     "PTY": 250.0,
-    "Committee": 814919.16,
-    "Individual": 954287.56,
-    "Unitemized": 72945.06,
+    "Committee": 844719.16,
+    "Individual": 1034916.08,
+    "Unitemized": 82860.61,
     "Self Funding": 8823.19,
-    "Other (includes Businesses)": 903179.87
+    "Other (includes Businesses)": 912978.87
   },
   "most_expensive_races": [
     {
@@ -24,13 +24,13 @@
       "slug": "mayoral-recall-election",
       "type": "referendum",
       "title": "Measure REC1",
-      "amount": 699642.24
+      "amount": 703853.76
     },
     {
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 294555.95
+      "amount": 320571.77
     }
   ],
   "largest_small_proportion": [
@@ -39,7 +39,7 @@
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Cristina Tostado",
-      "proportion": 0.4,
+      "proportion": 0.41,
       "office_title": "City Council At-Large"
     },
     {
@@ -55,32 +55,32 @@
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Shawn B. Danino",
-      "proportion": 0.29,
+      "proportion": 0.28,
       "office_title": "City Council At-Large"
     }
   ],
   "largest_independent_expenditures": [
+    {
+      "name": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
+      "election_name": "oakland-2024",
+      "total_spending": 235805.33
+    },
     {
       "name": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
       "election_name": "oakland-2024",
       "total_spending": 221725.0
     },
     {
-      "name": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
+      "name": "Families for a Safer Oakland, in Support of LeRonne Armstrong for City Council 2024",
       "election_name": "oakland-2024",
-      "total_spending": 181093.0
-    },
-    {
-      "name": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
-      "election_name": "oakland-2024",
-      "total_spending": 169967.0
+      "total_spending": 203308.0
     }
   ],
   "top_contributors": [
     {
       "name": "Philip Dreyfuss",
       "election_name": "oakland-2024",
-      "total_contributions": 735019.16
+      "total_contributions": 890319.16
     },
     {
       "name": "MICHAEL BLOOMBERG",
@@ -95,22 +95,22 @@
   ],
   "top_contributors_for_offices": [
     {
+      "name": "Empower Oakland Committee",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_contributions": 9600.0
+    },
+    {
       "name": "Ryan Richardson",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 6000.0
     },
     {
-      "name": "Empower Oakland Committee",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_contributions": 4200.0
-    },
-    {
       "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_contributions": 3600.0
+      "total_contributions": 5150.0
     }
   ],
   "top_contributors_for_measures": [
@@ -118,7 +118,7 @@
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 357519.16
+      "total_contributions": 360319.16
     },
     {
       "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -138,7 +138,7 @@
       "name": "Philip Dreyfuss",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 735019.16
+      "total_spending": 890319.16
     },
     {
       "name": "MICHAEL BLOOMBERG",
@@ -155,22 +155,22 @@
   ],
   "top_spenders_for_offices": [
     {
+      "name": "Empower Oakland Committee",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_spending": 9600.0
+    },
+    {
       "name": "Ryan Richardson",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 6000.0
     },
     {
-      "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_spending": 4200.0
-    },
-    {
-      "name": "Empower Oakland Committee",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_spending": 4200.0
+      "total_spending": 5150.0
     }
   ],
   "top_spenders_for_measures": [
@@ -178,7 +178,7 @@
       "name": "Philip Dreyfuss",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 735019.16
+      "total_spending": 890319.16
     },
     {
       "name": "MICHAEL BLOOMBERG",

@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1463441,
   "supporting_money": {
-    "contributions_received": 71822.7,
-    "total_contributions": 71822.7,
-    "total_expenditures": 46441.14,
+    "contributions_received": 92083.7,
+    "total_contributions": 92083.7,
+    "total_expenditures": 91835.05,
     "total_loans_received": 0.0,
     "total_supporting_independent": 226569.0,
     "support_list": [
@@ -50,48 +50,47 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 13100.0,
-      "Individual": 52292.0,
-      "Unitemized": 5652.0,
+      "Committee": 13900.0,
+      "Individual": 69408.0,
+      "Unitemized": 7997.0,
       "Other (includes Businesses)": 778.7
     },
     "contributions_by_origin": {
-      "Out of State": 5210.0,
-      "Within Oakland": 36720.7,
-      "Within California": 24240.0
+      "Out of State": 5560.0,
+      "Within Oakland": 50052.7,
+      "Within California": 28474.0
     },
-    "total_small_contributions": 6541.0,
+    "total_small_contributions": 9602.0,
     "expenditures_by_type": {
-      "Not Stated": 2438.02,
-      "Office Expenses": 2215.89,
-      "Campaign Consultants": 24250.0,
-      "Campaign Literature and Mailings": 3073.4,
+      "Not Stated": 5209.29,
+      "Contribution": 5000.0,
+      "Office Expenses": 3409.78,
+      "Campaign Consultants": 33000.0,
+      "Campaign Literature and Mailings": 4262.4,
       "Postage, Delivery and Messenger Services": 1689.85,
       "Professional Services (Legal, Accounting)": 1986.5,
-      "Information Technology Costs (Internet, E-mail)": 192.0
+      "Information Technology Costs (Internet, E-mail)": 2539.36
     },
     "supporting_by_type": {
       "IKD": 507.0,
-      "MON": 1193.0,
-      "Mailer": 52596.0,
-      "Canvassing": 33371.0,
+      "MON": 2393.0,
+      "Mailer": 20524.0,
       "Digital Ads": 26102.0,
-      "Doorhangers": 5940.0,
       "Phone banking": 3243.0,
       "Text Messages": 1875.0,
-      "Video Editing": 2250.0,
-      "Television ads": 25000.0,
-      "Digital Media Buy": 17750.0,
-      "Independent Expenditure Supporting/Opposing Others": 201601.39
+      "Independent Expenditure Supporting/Opposing Others": 317984.39
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 115612.0,
+    "opposing_expenditures": 140612.0,
     "opposing_by_type": {
       "MAILER": 62756.0,
       "POLLING": 29750.0,
       "RESEARCH": 7761.0,
+      "Online ads": 25000.0,
+      "ONLINE VIDEO ADS": 15000.0,
       "MAILER (ESTIMATE)": 15345.0,
+      "ELECTRONIC MEDIA ADS": 15000.0,
       "Independent Expenditure Supporting/Opposing Others": 23936.0
     },
     "opposition_list": [
@@ -101,10 +100,17 @@
         "Filer_ID": "963026",
         "Filer_NamL": "CALIFORNIA REAL ESTATE INDEPENDENT EXPENDITURE COMMITTEE - CALIFORNIA ASSOCIATION OF REALTORS",
         "election_name": "oakland-2024"
+      },
+      {
+        "Total": 25000.0,
+        "Cand_ID": 1463441,
+        "Filer_ID": "1475778",
+        "Filer_NamL": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
+        "election_name": "oakland-2024"
       }
     ]
   },
-  "total_contributions": 71822.7,
-  "total_expenditures": 46441.14,
+  "total_contributions": 92083.7,
+  "total_expenditures": 91835.05,
   "total_loans_received": 0.0
 }

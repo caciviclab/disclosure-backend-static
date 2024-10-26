@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 71600.0,
+  "total_contributions": 71900.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -56,6 +56,48 @@
       "Tran_NamF": "James",
       "Tran_NamL": "Levine",
       "Tran_Zip4": "94608",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Tolbert & Assoicates, Inc.",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-09-27",
+      "Tran_NamF": "Lucia B.",
+      "Tran_NamL": "Gilbertson",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "McKinsey & Company",
+      "Tran_Occ": "Senior Partner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-06",
+      "Tran_NamF": "Marc",
+      "Tran_NamL": "Singer",
+      "Tran_Zip4": "94611",
       "election_name": "oakland-2024"
     },
     {

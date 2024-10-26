@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 5600.0,
+  "total_contributions": 5725.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -532,6 +532,34 @@
       "Tran_NamF": "Robyn",
       "Tran_NamL": "Collignon",
       "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470319",
+      "Tran_Emp": "Sleep quest Inc.",
+      "Tran_Occ": "Webstore Coordinator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-09-22",
+      "Tran_NamF": "Eduardo",
+      "Tran_NamL": "Jimenez",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470319",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2024-09-28",
+      "Tran_NamF": "Andres",
+      "Tran_NamL": "Giraldo",
+      "Tran_Zip4": "33135",
       "election_name": "oakland-2024"
     }
   ]

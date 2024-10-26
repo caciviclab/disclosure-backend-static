@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1427826,
   "supporting_money": {
-    "contributions_received": 53967.73,
-    "total_contributions": 53967.73,
-    "total_expenditures": 42404.05,
+    "contributions_received": 54117.73,
+    "total_contributions": 54117.73,
+    "total_expenditures": 46511.46,
     "total_loans_received": 0.0,
     "total_supporting_independent": 71241.48,
     "support_list": [
@@ -44,37 +44,32 @@
     ],
     "contributions_by_type": {
       "Committee": 2550.0,
-      "Individual": 22954.0,
-      "Unitemized": 5429.0,
+      "Individual": 22045.0,
+      "Unitemized": 6488.0,
       "Self Funding": 1450.0,
       "Other (includes Businesses)": 21584.73
     },
     "contributions_by_origin": {
-      "Out of State": 3560.0,
-      "Within Oakland": 15425.0,
-      "Within California": 29553.73
+      "Out of State": 3400.0,
+      "Within Oakland": 15300.0,
+      "Within California": 28929.73
     },
-    "total_small_contributions": 7058.0,
+    "total_small_contributions": 7108.0,
     "expenditures_by_type": {
       "Phone Banks": 6545.52,
       "Office Expenses": 106.75,
       "Voter Registration": 1500.0,
-      "Campaign Consultants": 3500.0,
+      "Campaign Consultants": 4500.0,
       "Polling and Survey Research": 3400.0,
       "Campaign Paraphernalia/Misc.": 18202.67,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 7649.55
+      "Campaign Literature and Mailings": 10756.96
     },
     "supporting_by_type": {
-      "MON": 400.0,
-      "Mailer": 36960.0,
-      "Consulting": 2500.0,
-      "Robo Calls": 199.0,
-      "Web Design": 208.0,
-      "Door Hangers": 2385.0,
-      "Text Messages": 1872.0,
-      "Mailer, Text Messages and Phone Banks": 2000.0,
-      "Independent Expenditure Supporting/Opposing Others": 71241.48
+      "MON": 1600.0,
+      "Mailer": 7457.0,
+      "Digital Ads": 10000.0,
+      "Independent Expenditure Supporting/Opposing Others": 109910.15
     }
   },
   "opposing_money": {
@@ -85,7 +80,7 @@
 
     ]
   },
-  "total_contributions": 53967.73,
-  "total_expenditures": 42404.05,
+  "total_contributions": 54117.73,
+  "total_expenditures": 46511.46,
   "total_loans_received": 0.0
 }

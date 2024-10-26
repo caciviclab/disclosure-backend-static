@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1462377,
   "supporting_money": {
-    "contributions_received": 177913.1,
-    "total_contributions": 177913.1,
-    "total_expenditures": 66736.12,
+    "contributions_received": 183692.1,
+    "total_contributions": 183692.1,
+    "total_expenditures": 101947.29,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 46594.8,
+    "total_supporting_independent": 48992.63,
     "support_list": [
       {
         "Total": 17222.0,
@@ -35,7 +35,14 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 29372.8,
+        "Total": 2398.0,
+        "Cand_ID": 1462377,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2024"
+      },
+      {
+        "Total": 29372.63,
         "Cand_ID": 1462377,
         "Filer_ID": "1465871",
         "Filer_NamL": "Oakland Citizens for Public Safety, Supporting Zac Unger for City Council 2024",
@@ -43,44 +50,44 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 60600.0,
-      "Individual": 106901.1,
-      "Unitemized": 7612.0,
-      "Other (includes Businesses)": 2800.0
+      "Committee": 62600.0,
+      "Individual": 108571.1,
+      "Unitemized": 8121.0,
+      "Other (includes Businesses)": 4400.0
     },
     "contributions_by_origin": {
-      "Out of State": 7000.0,
-      "Within Oakland": 49090.0,
-      "Within California": 114211.1
+      "Out of State": 8200.0,
+      "Within Oakland": 52000.0,
+      "Within California": 115371.1
     },
-    "total_small_contributions": 9762.0,
+    "total_small_contributions": 10441.0,
     "expenditures_by_type": {
-      "Not Stated": 7950.0,
+      "Not Stated": 16888.6,
       "Office Expenses": 4883.91,
-      "Fundraising Events": 991.06,
-      "Campaign Consultants": 24780.0,
-      "Campaign Paraphernalia/Misc.": 2596.46,
+      "Fundraising Events": 1145.75,
+      "Campaign Consultants": 28780.0,
+      "Campaign Paraphernalia/Misc.": 3343.96,
       "Candidate Filing/Ballot Fees": 1100.0,
-      "Campaign Literature and Mailings": 4994.5,
-      "Professional Services (Legal, Accounting)": 15300.39,
-      "Information Technology Costs (Internet, E-mail)": 2408.5
+      "Campaign Literature and Mailings": 23591.86,
+      "Professional Services (Legal, Accounting)": 16530.39,
+      "Information Technology Costs (Internet, E-mail)": 2757.26
     },
     "supporting_by_type": {
-      "Mailer": 41374.0,
-      "Online ads": 4000.0,
-      "Independent Expenditure Supporting/Opposing Others": 1220.8
+      "MON": 1200.0,
+      "Mailer": 19620.0,
+      "Independent Expenditure Supporting/Opposing Others": 29372.63
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 49750.0,
+    "opposing_expenditures": 50304.0,
     "opposing_by_type": {
-      "Digital Media": 400.0,
+      "Website": 554.0,
       "Digital Advertising": 42750.0,
-      "Mailer Production and Delivery": 6600.0
+      "Independent Expenditure Supporting/Opposing Others": 7000.0
     },
     "opposition_list": [
       {
-        "Total": 49750.0,
+        "Total": 50304.0,
         "Cand_ID": 1462377,
         "Filer_ID": "1476153",
         "Filer_NamL": "Committee to Elect Ken Houston & Len Raphael and oppose Zac Unger for City Council 2024",
@@ -88,7 +95,7 @@
       }
     ]
   },
-  "total_contributions": 177913.1,
-  "total_expenditures": 66736.12,
+  "total_contributions": 183692.1,
+  "total_expenditures": 101947.29,
   "total_loans_received": 0.0
 }

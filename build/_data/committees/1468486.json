@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 5374.0,
+  "total_contributions": 5423.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -532,6 +532,34 @@
       "Tran_NamF": "Ondrea",
       "Tran_NamL": "Bryant",
       "Tran_Zip4": "94124",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2024-09-25",
+      "Tran_NamF": "Marissa",
+      "Tran_NamL": "Mendoza",
+      "Tran_Zip4": "95148",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "Oakland Police Department",
+      "Tran_Occ": "Law Enforcement",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 24.0,
+      "Tran_Date": "2024-09-27",
+      "Tran_NamF": "Oscar",
+      "Tran_NamL": "Vargas Jr.",
+      "Tran_Zip4": "94541",
       "election_name": "oakland-2024"
     }
   ]

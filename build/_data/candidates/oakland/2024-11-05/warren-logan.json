@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1463590,
   "supporting_money": {
-    "contributions_received": 135543.14,
-    "total_contributions": 135543.14,
-    "total_expenditures": 71650.97,
+    "contributions_received": 147298.81,
+    "total_contributions": 147298.81,
+    "total_expenditures": 123633.68,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 252533.0,
+    "total_supporting_independent": 229929.8,
     "support_list": [
       {
         "Total": 11345.0,
@@ -35,7 +35,14 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 1014.0,
+        "Total": 2398.0,
+        "Cand_ID": 1463590,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2024"
+      },
+      {
+        "Total": 1014.33,
         "Cand_ID": 1463590,
         "Filer_ID": "1469547",
         "Filer_NamL": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
@@ -49,7 +56,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 169967.0,
+        "Total": 144965.47,
         "Cand_ID": 1463590,
         "Filer_ID": "1475778",
         "Filer_NamL": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
@@ -57,53 +64,50 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 4500.0,
-      "Individual": 114654.0,
-      "Unitemized": 15889.14,
-      "Other (includes Businesses)": 500.0
+      "Committee": 8000.0,
+      "Individual": 120472.0,
+      "Unitemized": 17126.81,
+      "Other (includes Businesses)": 1700.0
     },
     "contributions_by_origin": {
-      "Out of State": 10475.0,
-      "Within Oakland": 57504.0,
-      "Within California": 51675.0
+      "Out of State": 10800.0,
+      "Within Oakland": 62415.0,
+      "Within California": 56957.0
     },
-    "total_small_contributions": 20823.14,
+    "total_small_contributions": 22827.81,
     "expenditures_by_type": {
       "Phone Banks": 435.0,
-      "Office Expenses": 3146.53,
+      "Office Expenses": 4829.24,
       "Fundraising Events": 1430.0,
-      "Campaign Consultants": 28000.0,
+      "Campaign Consultants": 34000.0,
       "Meetings and Appearances": 408.72,
       "Campaign Paraphernalia/Misc.": 6749.5,
-      "Campaign Literature and Mailings": 4900.65,
+      "Campaign Literature and Mailings": 17500.65,
       "Candidate Travel, Lodging, and Meals": 286.02,
       "Staff/Spouse Travel, Lodging, and Meals": 70.3,
       "Postage, Delivery and Messenger Services": 184.8,
-      "Professional Services (Legal, Accounting)": 18570.0,
-      "Information Technology Costs (Internet, E-mail)": 7289.0
+      "Professional Services (Legal, Accounting)": 20270.0,
+      "Information Technology Costs (Internet, E-mail)": 37289.0
     },
     "supporting_by_type": {
       "MON": 1200.0,
       "MAILER": 11345.0,
-      "Mailer": 76845.0,
+      "Mailer": 2398.0,
       "MAILERS": 16176.0,
       "POLLING": 12976.0,
-      "Billboard": 7353.0,
-      "Consulting": 20000.0,
-      "Online ads": 65769.0,
       "VOTER FILE": 1055.0,
       "ONLINE ADS (ESTIMATE)": 40000.0,
-      "IND EXP OF STAFF TIME.": 1014.0
+      "Independent Expenditure Supporting/Opposing Others": 145979.8
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 5328.0,
+    "opposing_expenditures": 5328.34,
     "opposing_by_type": {
-      "Mailer": 5328.0
+      "Independent Expenditure Supporting/Opposing Others": 5328.34
     },
     "opposition_list": [
       {
-        "Total": 5328.0,
+        "Total": 5328.34,
         "Cand_ID": 1463590,
         "Filer_ID": "1474351",
         "Filer_NamL": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
@@ -111,7 +115,7 @@
       }
     ]
   },
-  "total_contributions": 135543.14,
-  "total_expenditures": 71650.97,
+  "total_contributions": 147298.81,
+  "total_expenditures": 123633.68,
   "total_loans_received": 0.0
 }

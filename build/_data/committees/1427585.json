@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 237947.0,
+  "total_contributions": 238047.0,
   "contributions": [
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -16912,6 +16912,76 @@
       "Tran_NamF": "Alexis",
       "Tran_NamL": "Meisels",
       "Tran_Zip4": "94118",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2024-09-28",
+      "Tran_NamF": "Angela",
+      "Tran_NamL": "Shannon",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": "YBCA",
+      "Tran_Occ": "Investment Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2024-09-30",
+      "Tran_NamF": "Stephanie",
+      "Tran_NamL": "Imah",
+      "Tran_Zip4": "94547",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2024-10-02",
+      "Tran_NamF": "Katherine",
+      "Tran_NamL": "Gilbert",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": "Aspire Public Schools",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2024-10-17",
+      "Tran_NamF": "Emily",
+      "Tran_NamL": "Fogel",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": "Touch of Modern",
+      "Tran_Occ": "Software Engineer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": "Tyler",
+      "Tran_NamL": "Guillen",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2020"
     }
   ]

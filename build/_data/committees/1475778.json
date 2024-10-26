@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 285000.0,
+  "total_contributions": 305000.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -70,6 +70,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Revitalize East Bay Committee",
       "Tran_Zip4": "94901",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1469547",
+      "Filer_ID": "1475778",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2024-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families for a Vibrant Oakland",
+      "Tran_Zip4": "94118",
       "election_name": "oakland-2024"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 2500.0,
+  "total_contributions": 2750.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -14,6 +14,20 @@
       "Tran_NamF": "Michael",
       "Tran_NamL": "Yim",
       "Tran_Zip4": "94563",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471832",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Family Chiropractic Care",
+      "Tran_Zip4": "93727",
       "election_name": "oakland-2024"
     }
   ]

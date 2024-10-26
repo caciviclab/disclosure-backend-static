@@ -1,21 +1,7 @@
 {
   "iec": true,
-  "total_contributions": 18299.51,
+  "total_contributions": 18712.51,
   "contributions": [
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1400908",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1055.5,
-      "Tran_Date": "2022-10-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Community Foundation",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
-    },
     {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -29,6 +15,20 @@
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1400908",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1055.5,
+      "Tran_Date": "2022-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -263,6 +263,20 @@
       "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 1319.31,
       "Tran_Date": "2024-09-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1400908",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 413.0,
+      "Tran_Date": "2024-09-23",
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612",

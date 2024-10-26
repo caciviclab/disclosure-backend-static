@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1473376,
   "supporting_money": {
-    "contributions_received": 18868.0,
-    "total_contributions": 18868.0,
-    "total_expenditures": 8262.31,
+    "contributions_received": 32178.0,
+    "total_contributions": 32178.0,
+    "total_expenditures": 11172.05,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 6593.0,
+    "total_supporting_independent": 8991.0,
     "support_list": [
       {
         "Total": 6593.0,
@@ -33,26 +33,36 @@
         "Filer_ID": "1433122",
         "Filer_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
         "election_name": "oakland-2024"
+      },
+      {
+        "Total": 2398.0,
+        "Cand_ID": 1473376,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2024"
       }
     ],
     "contributions_by_type": {
-      "Committee": 3600.0,
-      "Individual": 14475.0,
-      "Unitemized": 493.0,
-      "Other (includes Businesses)": 300.0
+      "Committee": 4200.0,
+      "Individual": 24898.0,
+      "Unitemized": 1331.0,
+      "Other (includes Businesses)": 1749.0
     },
     "contributions_by_origin": {
-      "Out of State": 950.0,
-      "Within Oakland": 12975.0,
-      "Within California": 4450.0
+      "Out of State": 1700.0,
+      "Within Oakland": 19772.0,
+      "Within California": 9375.0
     },
-    "total_small_contributions": 518.0,
+    "total_small_contributions": 1854.0,
     "expenditures_by_type": {
+      "Office Expenses": 897.24,
       "Campaign Paraphernalia/Misc.": 1155.32,
+      "Campaign Literature and Mailings": 1000.0,
+      "Professional Services (Legal, Accounting)": 1012.5,
       "Information Technology Costs (Internet, E-mail)": 7000.0
     },
     "supporting_by_type": {
-      "Mailer": 4718.0,
+      "Mailer": 7116.0,
       "Text Messages": 1875.0
     }
   },
@@ -64,7 +74,7 @@
 
     ]
   },
-  "total_contributions": 18868.0,
-  "total_expenditures": 8262.31,
+  "total_contributions": 32178.0,
+  "total_expenditures": 11172.05,
   "total_loans_received": 0.0
 }
