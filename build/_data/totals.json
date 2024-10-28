@@ -1566,19 +1566,19 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3001097.91,
+    "total_contributions": 3019248.73,
     "total_contributions_by_source": {
-      "Out of State": 119093.95,
-      "Within Oakland": 1699009.68,
-      "Within California": 983583.67
+      "Out of State": 122939.77,
+      "Within Oakland": 1711414.68,
+      "Within California": 985483.67
     },
     "contributions_by_type": {
       "PTY": 250.0,
       "Committee": 844719.16,
-      "Individual": 1034916.08,
+      "Individual": 1036216.08,
       "Unitemized": 82860.61,
       "Self Funding": 8823.19,
-      "Other (includes Businesses)": 912978.87
+      "Other (includes Businesses)": 929829.69
     },
     "most_expensive_races": [
       {
@@ -1662,22 +1662,22 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "City of Oakland",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 10005.0
+      },
+      {
         "name": "Empower Oakland Committee",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 9600.0
       },
       {
-        "name": "Ryan Richardson",
+        "name": "ActBlue Charities",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 6000.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_contributions": 5150.0
+        "total_contributions": 6178.79
       }
     ],
     "top_contributors_for_measures": [
@@ -1722,22 +1722,22 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "City of Oakland",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 10005.0
+      },
+      {
         "name": "Empower Oakland Committee",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 9600.0
       },
       {
-        "name": "Ryan Richardson",
+        "name": "ActBlue Charities",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 6000.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_spending": 5150.0
+        "total_spending": 6178.79
       }
     ],
     "top_spenders_for_measures": [
