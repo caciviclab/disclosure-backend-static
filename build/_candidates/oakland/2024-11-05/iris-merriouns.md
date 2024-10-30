@@ -1,6 +1,6 @@
 ---
 election: _elections/oakland/2024-11-05.md
-committee_name: No committee registered
+committee_name: Iris Merriouns for Oakland City Council D7 2024
 filer_id: '1473376'
 is_incumbent: false
 name: Iris Merriouns
