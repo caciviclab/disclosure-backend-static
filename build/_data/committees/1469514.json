@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 31601.96,
+  "total_contributions": 32301.96,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -1820,6 +1820,20 @@
       "Tran_NamF": "Talia",
       "Tran_NamL": "Leibovitz",
       "Tran_Zip4": "94608",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1414164",
+      "Filer_ID": "1469514",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 700.0,
+      "Tran_Date": "2024-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "IUPAT Political Action Together Legislative Education Committee on behalf of DC 16",
+      "Tran_Zip4": "94551",
       "election_name": "oakland-2024"
     }
   ]

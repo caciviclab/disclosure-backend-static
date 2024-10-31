@@ -25,13 +25,20 @@
     "total_contributions": 65912.0,
     "total_expenditures": 24459.98,
     "total_loans_received": 25000.0,
-    "total_supporting_independent": 2398.0,
+    "total_supporting_independent": 3689.0,
     "support_list": [
       {
         "Total": 2398.0,
         "Cand_ID": 1467524,
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2024"
+      },
+      {
+        "Total": 1291.0,
+        "Cand_ID": 1467524,
+        "Filer_ID": "1467180",
+        "Filer_NamL": "Foundational Oakland Unites",
         "election_name": "oakland-2024"
       }
     ],
@@ -62,7 +69,7 @@
       "Information Technology Costs (Internet, E-mail)": 1968.96
     },
     "supporting_by_type": {
-      "Mailer": 2398.0
+      "Mailer": 3689.0
     }
   },
   "opposing_money": {

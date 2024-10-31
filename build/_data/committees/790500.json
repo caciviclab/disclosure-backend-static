@@ -3,6 +3,20 @@
   "total_contributions": 390.0,
   "contributions": [
     {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "790500",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 45.0,
+      "Tran_Date": "2018-08-07",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Warwick",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2022"
+    },
+    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "790500",
@@ -15,34 +29,6 @@
       "Tran_NamL": "Warwick",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "790500",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 45.0,
-      "Tran_Date": "2018-08-07",
-      "Tran_NamF": "Robert",
-      "Tran_NamL": "Warwick",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2022"
-    },
-    {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "790500",
-      "Tran_Emp": "Earp Events & Fundraising",
-      "Tran_Occ": "owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-01-27",
-      "Tran_NamF": "Laurie",
-      "Tran_NamL": "Earp",
-      "Tran_Zip4": "94602",
-      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -66,7 +52,7 @@
       "Tran_Occ": "owner",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-03-15",
+      "Tran_Date": "2022-01-27",
       "Tran_NamF": "Laurie",
       "Tran_NamL": "Earp",
       "Tran_Zip4": "94602",
@@ -87,18 +73,18 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
+      "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
       "Filer_ID": "790500",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Emp": "Earp Events & Fundraising",
+      "Tran_Occ": "owner",
+      "Entity_Cd": "Individual",
       "Tran_Amt1": 50.0,
-      "Tran_Date": "2022-08-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "voters for Affirmative Action, Inc",
-      "Tran_Zip4": "unknown",
-      "election_name": "oakland-2024"
+      "Tran_Date": "2022-03-15",
+      "Tran_NamF": "Laurie",
+      "Tran_NamL": "Earp",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -113,6 +99,20 @@
       "Tran_NamL": "voters for Affirmative Action, Inc",
       "Tran_Zip4": "unknown",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "790500",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2022-08-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "voters for Affirmative Action, Inc",
+      "Tran_Zip4": "unknown",
+      "election_name": "oakland-2024"
     }
   ]
 }

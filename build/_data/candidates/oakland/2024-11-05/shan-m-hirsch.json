@@ -25,9 +25,15 @@
     "total_contributions": 0.0,
     "total_expenditures": null,
     "total_loans_received": null,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 1291.0,
     "support_list": [
-
+      {
+        "Total": 1291.0,
+        "Cand_ID": 1464290,
+        "Filer_ID": "1467180",
+        "Filer_NamL": "Foundational Oakland Unites",
+        "election_name": "oakland-2024"
+      }
     ],
     "contributions_by_type": {
     },
@@ -37,6 +43,7 @@
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "Mailer": 1291.0
     }
   },
   "opposing_money": {

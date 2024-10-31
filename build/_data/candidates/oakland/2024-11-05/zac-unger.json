@@ -79,8 +79,9 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 50304.0,
+    "opposing_expenditures": 51595.0,
     "opposing_by_type": {
+      "Mailer": 1291.0,
       "Website": 554.0,
       "Digital Advertising": 42750.0,
       "Independent Expenditure Supporting/Opposing Others": 7000.0
@@ -91,6 +92,13 @@
         "Cand_ID": 1462377,
         "Filer_ID": "1476153",
         "Filer_NamL": "Committee to Elect Ken Houston & Len Raphael and oppose Zac Unger for City Council 2024",
+        "election_name": "oakland-2024"
+      },
+      {
+        "Total": 1291.0,
+        "Cand_ID": 1462377,
+        "Filer_ID": "1467180",
+        "Filer_NamL": "Foundational Oakland Unites",
         "election_name": "oakland-2024"
       }
     ]
