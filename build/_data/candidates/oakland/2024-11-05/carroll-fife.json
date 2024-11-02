@@ -82,21 +82,20 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 157606.0,
+    "opposing_expenditures": 186653.0,
     "opposing_by_type": {
-      "MAILER": 78459.0,
-      "Mailer": 1291.0,
+      "MAILER": 93941.0,
+      "Mailer": 8472.0,
       "POLLING": 29750.0,
       "RESEARCH": 7761.0,
+      "Billboards": 6384.0,
       "Online ads": 25000.0,
-      "ONLINE VIDEO ADS": 15000.0,
       "MAILER (ESTIMATE)": 15345.0,
-      "ELECTRONIC MEDIA ADS": 15000.0,
-      "Independent Expenditure Supporting/Opposing Others": 23936.0
+      "Independent Expenditure Supporting/Opposing Others": 53936.0
     },
     "opposition_list": [
       {
-        "Total": 131315.0,
+        "Total": 146797.0,
         "Cand_ID": 1463441,
         "Filer_ID": "963026",
         "Filer_NamL": "CALIFORNIA REAL ESTATE INDEPENDENT EXPENDITURE COMMITTEE - CALIFORNIA ASSOCIATION OF REALTORS",
@@ -110,7 +109,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 25000.0,
+        "Total": 38565.0,
         "Cand_ID": 1463441,
         "Filer_ID": "1475778",
         "Filer_NamL": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
