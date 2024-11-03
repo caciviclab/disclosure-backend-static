@@ -1,24 +1,24 @@
 {
-  "total_contributions": 3408661.68,
+  "total_contributions": 3423261.68,
   "total_contributions_by_source": {
-    "Out of State": 127249.77,
-    "Within Oakland": 1963220.71,
-    "Within California": 1111448.4
+    "Out of State": 137249.77,
+    "Within Oakland": 1964420.71,
+    "Within California": 1114848.4
   },
   "contributions_by_type": {
     "PTY": 250.0,
-    "Committee": 880802.2,
-    "Individual": 1063670.1,
+    "Committee": 884202.2,
+    "Individual": 1064870.1,
     "Unitemized": 90192.8,
     "Self Funding": 10782.16,
-    "Other (includes Businesses)": 1246414.42
+    "Other (includes Businesses)": 1256414.42
   },
   "most_expensive_races": [
     {
       "slug": "citywide-violence-reduction-services-parcel-tax",
       "type": "referendum",
       "title": "Measure NN",
-      "amount": 1388550.0
+      "amount": 1398550.0
     },
     {
       "slug": "mayoral-recall-election",
@@ -107,10 +107,10 @@
       "total_contributions": 9600.0
     },
     {
-      "name": "ActBlue Charities",
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_contributions": 6178.79
+      "total_contributions": 6350.0
     }
   ],
   "top_contributors_for_measures": [
@@ -167,10 +167,10 @@
       "total_spending": 9600.0
     },
     {
-      "name": "ActBlue Charities",
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
       "type": "Office",
       "election_name": "oakland-2024",
-      "total_spending": 6178.79
+      "total_spending": 6350.0
     }
   ],
   "top_spenders_for_measures": [

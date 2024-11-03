@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 1388550.0,
+  "total_contributions": 1398550.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -490,6 +490,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Oakland Rising Ballot Committee Sponsored by Center for Empowered Politics",
       "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2024-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Comcast Financial Agency Corporation",
+      "Tran_Zip4": "19103-2838",
       "election_name": "oakland-2024"
     }
   ]

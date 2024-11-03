@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 85219.74,
+  "total_contributions": 87619.74,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -4802,6 +4802,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "California Working Families Party",
       "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1459663",
+      "Filer_ID": "1463441",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "AFSCME Local 3299",
+      "Tran_Zip4": "90017",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1273532",
+      "Filer_ID": "1463441",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-11-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
     }
   ]
