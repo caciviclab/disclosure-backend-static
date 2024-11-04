@@ -25,7 +25,7 @@
     "total_contributions": 11442.18,
     "total_expenditures": 7929.11,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 106760.08,
+    "total_supporting_independent": 110310.08,
     "support_list": [
       {
         "Total": 31157.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 71423.14,
+        "Total": 74973.14,
         "Cand_ID": 1469978,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee",
@@ -72,6 +72,9 @@
     "supporting_by_type": {
       "MON": 3600.0,
       "Mailer": 41366.0,
+      "Consulting": 2500.0,
+      "Phone Calls": 137.0,
+      "Text Messages": 913.0,
       "Independent Expenditure Supporting/Opposing Others": 65394.08
     }
   },
