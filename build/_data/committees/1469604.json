@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 116375.0,
+  "total_contributions": 121375.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -742,6 +742,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "IFPTE Local 21 TJ Anthony PAC Fund",
       "Tran_Zip4": "94103",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1332115",
+      "Filer_ID": "1469604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2024-11-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee Sponsored by the Center for Empowered Politics",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     }
   ]
