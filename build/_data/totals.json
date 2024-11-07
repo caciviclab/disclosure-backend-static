@@ -1566,15 +1566,15 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3432061.68,
+    "total_contributions": 3443261.68,
     "total_contributions_by_source": {
       "Out of State": 137249.77,
       "Within Oakland": 1973220.71,
-      "Within California": 1114848.4
+      "Within California": 1126048.4
     },
     "contributions_by_type": {
       "PTY": 250.0,
-      "Committee": 889202.2,
+      "Committee": 900402.2,
       "Individual": 1063670.1,
       "Unitemized": 90192.8,
       "Self Funding": 10782.16,
@@ -1591,13 +1591,13 @@
         "slug": "mayoral-recall-election",
         "type": "referendum",
         "title": "Measure REC1",
-        "amount": 708853.76
+        "amount": 718853.76
       },
       {
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 320571.77
+        "amount": 321771.77
       }
     ],
     "largest_small_proportion": [
@@ -1635,7 +1635,7 @@
       {
         "name": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
         "election_name": "oakland-2024",
-        "total_spending": 258088.0
+        "total_spending": 269414.0
       },
       {
         "name": "Families for a Safer Oakland, in Support of LeRonne Armstrong for City Council 2024",

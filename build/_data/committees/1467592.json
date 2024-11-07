@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 81551.65,
+  "total_contributions": 82751.65,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -5404,6 +5404,20 @@
       "Tran_NamF": "vincent",
       "Tran_NamL": "phillips",
       "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "891396",
+      "Filer_ID": "1467592",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-11-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers 3 Dist. #20 PAC",
+      "Tran_Zip4": "94519",
       "election_name": "oakland-2024"
     }
   ]
