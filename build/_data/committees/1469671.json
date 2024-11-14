@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 79737.2,
+  "total_contributions": 79837.2,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -2876,6 +2876,20 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1469671",
+      "Tran_Emp": "Karen Clayton",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2024-08-12",
+      "Tran_NamF": "Karen",
+      "Tran_NamL": "Clayton",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469671",
       "Tran_Emp": "Madison Park Financial Corporation",
       "Tran_Occ": "Executive President",
       "Entity_Cd": "Individual",
@@ -3164,6 +3178,20 @@
       "Tran_NamF": "Sheila",
       "Tran_NamL": "Kilty",
       "Tran_Zip4": "94602",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469671",
+      "Tran_Emp": "Compass",
+      "Tran_Occ": "Sales Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2024-09-04",
+      "Tran_NamF": "Lisa",
+      "Tran_NamL": "Cartolano",
+      "Tran_Zip4": "94619",
       "election_name": "oakland-2024"
     },
     {
@@ -3814,8 +3842,8 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1469671",
-      "Tran_Emp": "Cypress Mandela Training Center",
-      "Tran_Occ": "Program Manager",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2024-09-18",
@@ -4072,7 +4100,7 @@
       "Tran_Amt1": 200.0,
       "Tran_Date": "2024-09-21",
       "Tran_NamF": null,
-      "Tran_NamL": "Southern Cafe at 2000 Macarthur, LLC( )",
+      "Tran_NamL": "Southern Cafe at 2000 Macarthur, LLC(Phillip Bell)",
       "Tran_Zip4": "94602-2215",
       "election_name": "oakland-2024"
     },
