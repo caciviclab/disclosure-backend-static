@@ -6,15 +6,15 @@ import pandas as pd
 from model.a_contributions import A_Contributions
 
 def test_a_contributions_has_expected_fields(
-    transactions,
-    filings,
-    committees
+    transactions_df,
+    filings_df,
+    committees_df
 ):
     """
     Test that A_Contributions has expect fields
     based on "\d A-Contributions" dumped from Postgres database disclosure-backend
     """
-    a_contributions = A_Contributions(transactions, filings, committees).df
+    a_contributions = A_Contributions(transactions_df, filings_df, committees_df).df
 
     expect_columns = pd.read_table(str(Path(__file__).parent / 'A-Contributions.schema.txt'),
         sep='|', header=1, skipinitialspace=True
