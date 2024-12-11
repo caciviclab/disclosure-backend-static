@@ -40,7 +40,7 @@ def main():
     with open(f'{DATA_DIR_PATH}/filers.json', encoding='utf8') as f:
         filers = json.loads(f.read())
 
-    committees = Committees(filers, elections)
+    committees = Committees(filers, elections.pl)
 
     # A-Contribs:
     # join filers + filings + elections + transactions
@@ -49,13 +49,13 @@ def main():
     #     committees.Ballot_Measure_Election -> elections.Ballot_Measure_Election
     # where trans['transaction']['calTransactionType'] == 'F460A'
     with open(f'{DATA_DIR_PATH}/filings.json', encoding='utf8') as f:
-        filings = Filings(json.loads(f.read()))
+        filings = Filings(json.loads(f.read())).pl
 
     with open(f'{DATA_DIR_PATH}/transactions.json', encoding='utf8') as f:
         records = json.loads(f.read())
-        transactions = Transactions(records)
+        transactions = Transactions(records).pl
 
-    a_contributions = A_Contributions(transactions, filings, committees)
+    a_contributions = A_Contributions(transactions, filings, committees.pl)
     a_contribs_df = a_contributions.df
     if not a_contribs_df.is_empty:
         print(a_contribs_df.drop(columns=[
@@ -80,9 +80,9 @@ def main():
             'XRef_Match',
         ]).sample(n=20))
 
-    elections.df.write_csv(f'{csv_data_dir_path}/elections.csv')
-    committees.df.write_csv(f'{csv_data_dir_path}/committees.csv')
-    a_contributions.df.write_csv(f'{csv_data_dir_path}/a_contributions.csv')
+    elections.pl.write_csv(f'{OUTPUT_DIR}/elections.csv')
+    committees.pl.write_csv(f'{OUTPUT_DIR}/committees.csv')
+    a_contributions.df.write_csv(f'{OUTPUT_DIR}/a_contributions.csv')
 
 if __name__ == '__main__':
     main()
