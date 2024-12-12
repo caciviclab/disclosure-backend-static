@@ -2,9 +2,6 @@
 Abstracts much of the boilerplate common to FPPC Form 460 Schedule data
 '''
 import polars as pl
-from .committee import Committees
-from .filing import Filings
-from .transaction import Transactions
 
 DTYPES = {
     'Filer_ID': 'string',
@@ -91,18 +88,18 @@ class ScheduleBase:
     def __init__(
         self,
         form_id: str,
-        transactions:Transactions,
-        filings:Filings,
-        committees:Committees
+        transactions: pl.DataFrame,
+        filings: pl.DataFrame,
+        committees: pl.DataFrame
     ):
-        schedule = committees.df.lazy().group_by('Filer_ID').first().join(
-            filings.df.lazy(),
+        schedule = committees.lazy().group_by('Filer_ID').first().join(
+            filings.lazy(),
             on='filer_nid',
             how='inner'
         ).rename({
             '_Committee_Type': 'Committee_Type'
         }).join(
-            transactions.df.lazy().filter(pl.col('cal_tran_type') == form_id),
+            transactions.lazy().filter(pl.col('cal_tran_type') == form_id),
             on='filing_nid',
             how='inner'
         ).drop([
@@ -121,19 +118,14 @@ class ScheduleBase:
         ])
 
         self._lazy = schedule
-        self._df = None
 
         self._dtypes = DTYPES
 
     @property
     def lazy(self):
-        ''' Get data as Polars LazyFrame '''
         return self._lazy
 
     @property
     def df(self):
-        ''' Get data as Polars DataFrame '''
-        if self._df is None:
-            self._df = self._lazy.collect()
-
-        return self._df
+        # QUESTION: Does this invalidate self._lazy?
+        return self._lazy.collect()
