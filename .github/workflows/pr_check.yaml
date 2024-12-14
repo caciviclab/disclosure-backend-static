@@ -3,10 +3,7 @@ name: Python tests
 on:
   pull_request:
     branches:
-      - feat/pull-v2-api
-  push:
-    branches:
-      - ci/test-downloader
+      - master 
   workflow_dispatch:
 
 env:
