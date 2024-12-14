@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 committee_name: Kristina Molina for Oakland School Board 2020
+data_warning: ''
 filer_id: '1426942'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
