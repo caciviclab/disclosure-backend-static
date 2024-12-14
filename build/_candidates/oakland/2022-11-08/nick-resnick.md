@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2022-11-08.md
 committee_name: Nick Resnick for Oakland School Board 2022 District 4
+data_warning: ''
 filer_id: '1446325'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false

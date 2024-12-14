@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2024-11-05.md
 committee_name: Dominic Prado for Oakland City Council 2024
+data_warning: ''
 filer_id: '1470319'
 is_incumbent: false
 name: Dominic L. Prado

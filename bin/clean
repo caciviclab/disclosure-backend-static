@@ -18,4 +18,6 @@ cat <<-QUERY | psql ${database_name}
   DELETE FROM "$table_name"
   WHERE "Tran_Date" is NULL;
 QUERY
+else
+  echo
 fi

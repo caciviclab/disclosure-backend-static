@@ -4,6 +4,12 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
+
     env:
       REPO_OWNER: ${{ github.repository_owner}}
       REPO_BRANCH: ${{ github.ref_name }}
@@ -11,8 +17,8 @@ jobs:
       GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
     steps:
     - uses: actions/checkout@v3
-    - run: pip install -r gdrive_requirements.txt
-    - run: python test_pull_from_gdrive.py
+    - name: Test pull from gdrive
+      run: python test_pull_from_gdrive.py
     - name: Archive pulled files
       uses: actions/upload-artifact@v3
       with:

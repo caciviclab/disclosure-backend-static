@@ -7507,20 +7507,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 8th, 2016 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 30.0,
-      "Tran_Date": "2016-10-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "Highland Property Group LLC",
-      "Tran_Zip4": "94708",
-      "election_name": "oakland-2016"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -7541,7 +7527,7 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 95.0,
+      "Tran_Amt1": 30.0,
       "Tran_Date": "2016-10-28",
       "Tran_NamF": null,
       "Tran_NamL": "Highland Property Group LLC",
@@ -7561,6 +7547,20 @@
       "Tran_NamL": "Highland Property Group LLC",
       "Tran_Zip4": "94708",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 8th, 2016 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2016-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Highland Property Group LLC",
+      "Tran_Zip4": "94708",
+      "election_name": "oakland-2016"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -24139,20 +24139,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 190.0,
-      "Tran_Date": "2020-10-19",
-      "Tran_NamF": null,
-      "Tran_NamL": "Lapham Company( Corporation)",
-      "Tran_Zip4": "94609",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -24165,6 +24151,20 @@
       "Tran_NamL": "Lapham Company( Corporation)",
       "Tran_Zip4": "94609",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 190.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Lapham Company( Corporation)",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",

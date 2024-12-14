@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2018-11-06.md
 committee_name: Gary Yee for Oakland School Board 2018
+data_warning: ''
 filer_id: '1409088'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false

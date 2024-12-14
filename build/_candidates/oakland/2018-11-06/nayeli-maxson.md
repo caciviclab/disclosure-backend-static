@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2018-11-06.md
 committee_name: Nayeli Maxson for Oakland City Council
+data_warning: ''
 filer_id: '1405187'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false

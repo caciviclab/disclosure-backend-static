@@ -2,10 +2,12 @@
 # Contains logic to import files regardless of how many there are.
 # If there's no file, don't do anything with the database.
 # If the table already exists in the database, don't try to re-create it.
+# The fix_pending parameter defaults to 1 if not set.  Set it to 0
+# to skip the section that fixes the pending Filer_ID
 #
 # Usage:
-#   bin/import-file [csv_path] [table]
-#   bin/import-file downloads/csv A-Contributions
+#   bin/import-file [csv_path] [table] [fix_pending]
+#   bin/import-file downloads/csv A-Contributions 1
 set -euo pipefail
 
 if [ -z "${DATABASE_NAME:-""}" ]; then
@@ -14,12 +16,13 @@ if [ -z "${DATABASE_NAME:-""}" ]; then
 fi
 
 if [ $# -eq 0 ]; then
-  echo "Usage: bin/import-file [csv_path] [table]"
+  echo "Usage: bin/import-file [csv_path] [table] [fix_pending]"
   exit 1
 fi
 
 csv_path=$1
 table_name=$2
+fix_pending=${3:-1}
 filename_glob=$csv_path'/*'${table_name}'.csv'
 table_exists=
 if psql disclosure-backend -c '\d "'${table_name}'"' >/dev/null 2>&1; then
@@ -34,9 +37,10 @@ if ls $filename_glob 2>/dev/null >/dev/null; then
     csvsql --db postgresql:///$DATABASE_NAME --tables $table_name --insert --no-inference --no-create
   echo -n '  Removing empty Tran_Date... '
   ./bin/clean "$DATABASE_NAME" "$table_name"
-  echo
-  echo -n '  Fixing pending Filer_IDs... '
-  ./bin/fix-pending "$DATABASE_NAME" "$table_name"
+  if [ "$fix_pending" = "1" ]; then
+    echo -n '  Fixing pending Filer_IDs... '
+    ./bin/fix-pending "$DATABASE_NAME" "$table_name"
+  fi
 else
   echo 'Found no files to import'
 fi

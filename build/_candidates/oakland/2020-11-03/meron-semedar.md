@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2020-11-03.md
 committee_name: Meron Semedar for Oakland City Council District 1
+data_warning: ''
 filer_id: '1432998'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false

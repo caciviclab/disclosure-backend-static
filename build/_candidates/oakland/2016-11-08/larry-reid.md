@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2016-11-08.md
 committee_name: Re-Elect Larry Reid for Council 2016
+data_warning: ''
 filer_id: '1387905'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
