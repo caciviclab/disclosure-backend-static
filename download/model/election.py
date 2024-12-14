@@ -3,7 +3,7 @@ This is the Election model
 """
 import os
 from datetime import datetime
-from polars import Utf8
+from sqlalchemy.types import String
 from .base import BaseModel
 
 class Elections(BaseModel):
@@ -53,11 +53,19 @@ class Elections(BaseModel):
 
         super().__init__(elections)
         self._dtypes = {
-            'title': Utf8,
-            'name': Utf8,
-            'location': Utf8,
-            'date': Utf8
+            'title': 'string',
+            'name': 'string',
+            'location': 'string',
+            'date': 'string'
         }
+        self._sql_dtypes = {
+            'title': String,
+            'name': String,
+            'location': String,
+            'date': String
+        }
+        self._sql_cols = self._sql_dtypes.keys()
+        self._sql_table_name = 'elections'
 
     @staticmethod
     def ordinal(n):

@@ -2,12 +2,11 @@
 from typing import List
 import polars as pl
 from sqlalchemy.types import String
-# Next line ingored because Pylint reports cannot find election in model
-from . import base, election # pylint: disable=no-name-in-module
+from . import base
 
 class Committees(base.BaseModel):
     """ A collection of committees """
-    def __init__(self, filers:List[dict], elections:election.Elections):
+    def __init__(self, filers:List[dict], elections:pl.DataFrame):
         empty_election_influence = {
             'electionDate': None,
             'measure': None,
@@ -20,6 +19,7 @@ class Committees(base.BaseModel):
         super().__init__([
             {
                 'filer_nid': int(f['filerNid']),
+                # 'Ballot_Measure_Election': [ *elections[elections['date'] == infl['electionDate']]['name'].array, None ][0],
                 'Ballot_Measure_Election': self._get_possibly_empty_ballot_measure_election(
                     elections,
                     infl
@@ -49,6 +49,21 @@ class Committees(base.BaseModel):
             if f['registrations'].get('CA SOS')
         ])
         self._dtypes = {
+            'filer_nid': int,
+            'Ballot_Measure_Election': 'string',
+            'Filer_ID': 'string',
+            'Filer_NamL': 'string',
+            '_Status': 'string',
+            '_Committee_Type': 'string',
+            'Ballot_Measure': 'string',
+            'Support_Or_Oppose': 'string',
+            'candidate_controlled_id': 'string',
+            'Start_Date': 'string',
+            'End_Date': 'string',
+            'data_warning': 'string',
+            'Make_Active': 'string'
+        }
+        self._pl_dtypes = {
             'filer_nid': pl.UInt64,
             'Ballot_Measure_Election': pl.Utf8,
             'Filer_ID': pl.Utf8,
@@ -63,6 +78,22 @@ class Committees(base.BaseModel):
             'data_warning': pl.Utf8,
             'Make_Active': pl.Utf8
         }
+        self._sql_dtypes = {
+            'Ballot_Measure_Election': String,
+            'Filer_ID': String,
+            'Filer_NamL': String,
+            '_Status': String,
+            '_Committee_Type': String,
+            'Ballot_Measure': String,
+            'Support_Or_Oppose': String,
+            'candidate_controlled_id': String,
+            'Start_Date': String,
+            'End_Date': String,
+            'data_warning': String,
+            'Make_Active': String
+        }
+        self._sql_cols = self._sql_dtypes.keys()
+        self._sql_table_name = 'committees'
 
     @staticmethod
     def support_or_oppose(influence):
@@ -85,7 +116,7 @@ class Committees(base.BaseModel):
         list, which will contain either the matched election slug or None.
         '''
         return [
-            *elections.lazy.filter(
+            *elections.lazy().filter(
                 pl.col('date') == influence['electionDate']
             ).first().collect().get_column('name'),
             None
