@@ -1,25 +1,111 @@
-# This workflow will later be replaced with logic to "Generate Website Data"
-# The verify-gdrive.yml workflow file will be renamed to this one
-# We have to introduce this change in steps because GitHub gets confused until
-# we add the new workflow file to the master branch
 name: "Generate Website Data"
 on:
   workflow_dispatch:
+  push:
+env:
+  POSTGRES_USER: app_user
+  POSTGRES_DB: disclosure-backend
+  POSTGRES_PASSWORD: app_password
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    env:
-      REPO_OWNER: ${{ github.repository_owner}}
-      REPO_BRANCH: ${{ github.ref_name }}
-      SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
-      GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+    outputs:
+      devcontainer: ${{ steps.filter.outputs.devcontainer }}
+      noncontainer: ${{ steps.filter.outputs.noncontainer }}
     steps:
-    - uses: actions/checkout@v3
-    - run: pip install -r gdrive_requirements.txt
-    - run: python test_pull_from_gdrive.py
-    - name: Archive pulled files
-      uses: actions/upload-artifact@v3
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v3
       with:
-        name: redacted-netfile-files
-        path: .local/downloads
+        registry: ghcr.io
+        username: ${{github.actor}}
+        password: ${{secrets.GITHUB_TOKEN}}
+    - uses: actions/checkout@v3
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v40
+    - name: List all changed files
+      id: filter
+      run: |
+        echo ${{github.event_name}}
+        noncontainer=true
+        if docker pull ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest; then
+          devcontainer=false
+        else
+          devcontainer=true
+        fi
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          echo "$file was changed"
+          if [[ ${{github.event_name}} = push ]]; then
+            if [[ $file = .devcontainer* ]]; then
+              devcontainer=true
+            elif [[ $file = *requirements.txt* ]]; then
+              devcontainer=true
+            elif [[ $file = Gemfile* ]]; then
+              devcontainer=true
+            fi
+          fi
+        done
+        
+        echo "devcontainer=$devcontainer" >> $GITHUB_OUTPUT
+        echo "noncontainer=$noncontainer" >> $GITHUB_OUTPUT
+    - name: Build dev container
+      if: steps.filter.outputs.devcontainer == 'true'
+      run: |
+        docker build --no-cache --tag ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest -f ./.devcontainer/Dockerfile .
+        docker push ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+    - name: Check code changes
+      if: steps.filter.outputs.noncontainer == 'true'
+      run: |
+        echo "TODO: run test to verify that code changes are good"
+  generate:
+    needs: build
+    if: needs.build.outputs.noncontainer == 'true'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/caciviclab/disclosure-backend-static/${{github.ref_name}}:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
+      env:
+        REPO_OWNER: ${{ github.repository_owner}}
+        REPO_BRANCH: ${{ github.ref_name }}
+        SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}
+        GDRIVE_FOLDER: ${{ vars.GDRIVE_FOLDER }}
+        PGHOST: postgres
+        PGDATABASE: ${{ env.POSTGRES_DB }}
+        PGUSER: ${{ env.POSTGRES_USER }}
+        PGPASSWORD: ${{ env.POSTGRES_PASSWORD }}
+    services:
+      postgres:
+        image: postgres:15.6-bullseye
+        env:
+          POSTGRES_USER: ${{ env.POSTGRES_USER }}
+          POSTGRES_DB: ${{ env.POSTGRES_DB }}
+          POSTGRES_PASSWORD: ${{ env.POSTGRES_PASSWORD }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check setup
+      run: |
+        git -v
+        # This keeps git from thinking that the current dir is not a repo even though a .git dir exists
+        git config --global --add safe.directory "$GITHUB_WORKSPACE"
+        psql -l
+        echo "c1,c2" > test.csv
+        echo "a,b" >> test.csv
+        cat test.csv
+        csvsql -v --db postgresql:///disclosure-backend --insert test.csv
+        echo "List tables"
+        psql -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
 
+        pip show sqlalchemy
+    - name: Create csv files
+      run: |
+        make clean
+        make download
+        make import
+        make process
+    - name: Summarize results
+      run: |
+        echo "List tables"
+        psql -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"
+ 

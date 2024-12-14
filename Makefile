@@ -6,11 +6,23 @@ CSV_PATH?=downloads/csv
 CD := $(shell pwd)
 WGET=bin/wget-wrapper --no-verbose --tries=3
 
+ifdef SERVICE_ACCOUNT_KEY_JSON
+	NETFILE_V2_DOWNLOAD=download-netfile-v2
+	NETFILE_V2_IMPORT=import-new-data
+else ifneq ("$(wildcard .local/SERVICE_ACCOUNT_KEY_JSON.json)","")
+	NETFILE_V2_DOWNLOAD=download-netfile-v2
+	NETFILE_V2_IMPORT=import-new-data
+endif
+
 clean-spreadsheets:
 	rm -rf downloads/csv/*.csv  downloads/csv/office_elections.csv  downloads/csv/measure_committees.csv downloads/csv/elections.csv
 
 clean:
-	rm -rf downloads/raw downloads/csv
+	rm -rf downloads/raw downloads/csv .local/downloads .local/csv
+	git --version
+	python --version
+	ruby --version
+	psql --version
 
 process: process.rb
 	# todo: remove RUBYOPT variable when activerecord fixes deprecation warnings
@@ -20,6 +32,9 @@ process: process.rb
 	bin/create-digests
 	bin/report-candidates
 	git --no-pager diff build/digests.json
+
+download-netfile-v2: 
+	python download/main.py
 
 download-spreadsheets: downloads/csv/candidates.csv downloads/csv/committees.csv \
 	downloads/csv/referendums.csv downloads/csv/name_to_number.csv \
@@ -36,7 +51,8 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets \
+download: $(NETFILE_V2_DOWNLOAD) \
+	download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
@@ -81,6 +97,8 @@ do-import-spreadsheets:
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Instagram
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Twitter
 	./bin/remove-whitespace $(DATABASE_NAME) candidates Bio
+	./bin/make-null-empty $(DATABASE_NAME) candidates data_warning
+	./bin/make-null-empty $(DATABASE_NAME) candidates Committee_Name
 
 	echo 'DROP TABLE IF EXISTS referendums CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) referendums
@@ -88,6 +106,7 @@ do-import-spreadsheets:
 	echo 'ALTER TABLE "referendums" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) referendums Short_Title
 	./bin/remove-whitespace $(DATABASE_NAME) referendums Summary
+	./bin/make-null-empty $(DATABASE_NAME) referendums data_warning
 
 	echo 'DROP TABLE IF EXISTS name_to_number CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) name_to_number
@@ -98,6 +117,8 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference $(CSV_PATH)/committees.csv
 	echo 'ALTER TABLE "committees" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 	./bin/remove-whitespace $(DATABASE_NAME) committees Filer_NamL
+	./bin/make-null-empty $(DATABASE_NAME) committees Filer_NamL
+	./bin/make-null-empty $(DATABASE_NAME) committees data_warning
 
 	echo 'DROP TABLE IF EXISTS office_elections CASCADE;' | psql $(DATABASE_NAME)
 	./bin/create-table $(DATABASE_NAME) $(CSV_PATH) office_elections
@@ -110,9 +131,7 @@ do-import-spreadsheets:
 	csvsql --db postgresql:///$(DATABASE_NAME) --insert --no-create --no-inference downloads/csv/elections.csv
 	echo 'ALTER TABLE "elections" ADD COLUMN id SERIAL PRIMARY KEY;' | psql $(DATABASE_NAME)
 
-import-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
-	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
-	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+import-data: import-old-data $(NETFILE_V2_IMPORT)
 	echo 'CREATE TABLE IF NOT EXISTS "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql $(DATABASE_NAME)
 	./bin/remove_duplicate_transactions
 	./bin/make_view
@@ -124,8 +143,17 @@ recreatedb:
 reindex:
 	ruby search_index.rb
 
+import-new-data: elections_v2 committees_v2 a_contributions_v2
+
+import-old-data: 496 497 A-Contributions B1-Loans B2-Loans C-Contributions \
+	D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure \
+	F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary
+
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
+
+elections_v2 committees_v2 a_contributions_v2:
+	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@ 0
 
 downloads/csv/candidates.csv:
 	mkdir -p downloads/csv downloads/raw
