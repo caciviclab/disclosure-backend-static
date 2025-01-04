@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 7058.0,
+  "total_contributions": 7908.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -364,6 +364,76 @@
       "Tran_NamF": null,
       "Tran_NamL": "Empower Oakland Committee",
       "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471118",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-10-25",
+      "Tran_NamF": "Sudip",
+      "Tran_NamL": "Dutta",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471118",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -600.0,
+      "Tran_Date": "2024-10-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families in Action for Justice",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471118",
+      "Tran_Emp": "Zaru Sustems",
+      "Tran_Occ": "Entrepreneur",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2024-10-31",
+      "Tran_NamF": "Loren",
+      "Tran_NamL": "Taylor",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471118",
+      "Tran_Emp": "Self",
+      "Tran_Occ": "Economist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-11-03",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spencer",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471118",
+      "Tran_Emp": "University of California, Berkeley",
+      "Tran_Occ": "Student/Research Assistant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 400.0,
+      "Tran_Date": "2024-12-02",
+      "Tran_NamF": "Benjamin",
+      "Tran_NamL": "Salop",
+      "Tran_Zip4": "94611",
       "election_name": "oakland-2024"
     }
   ]
