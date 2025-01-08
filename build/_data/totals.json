@@ -1566,19 +1566,19 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3445975.57,
+    "total_contributions": 3461735.03,
     "total_contributions_by_source": {
       "Out of State": 138499.77,
-      "Within Oakland": 1972795.96,
-      "Within California": 1129037.04
+      "Within Oakland": 1988376.29,
+      "Within California": 1136857.2
     },
     "contributions_by_type": {
       "PTY": 250.0,
-      "Committee": 901602.2,
-      "Individual": 1067061.1,
-      "Unitemized": 90042.8,
-      "Self Funding": 11182.16,
-      "Other (includes Businesses)": 1260237.31
+      "Committee": 903402.2,
+      "Individual": 1080486.59,
+      "Unitemized": 89901.77,
+      "Self Funding": 16857.16,
+      "Other (includes Businesses)": 1262737.31
     },
     "most_expensive_races": [
       {
@@ -1662,22 +1662,22 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "Empower Oakland Committee",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 10200.0
+      },
+      {
         "name": "City of Oakland",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 10005.0
       },
       {
-        "name": "Empower Oakland Committee",
+        "name": "Brenda Harbin-Forte",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 9600.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_contributions": 6350.0
+        "total_contributions": 7478.19
       }
     ],
     "top_contributors_for_measures": [
@@ -1722,22 +1722,22 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "Empower Oakland Committee",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 10200.0
+      },
+      {
         "name": "City of Oakland",
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 10005.0
       },
       {
-        "name": "Empower Oakland Committee",
+        "name": "Brenda Harbin-Forte",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 9600.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_spending": 6350.0
+        "total_spending": 7478.19
       }
     ],
     "top_spenders_for_measures": [
