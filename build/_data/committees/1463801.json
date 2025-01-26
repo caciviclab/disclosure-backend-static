@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 7600.0,
+  "total_contributions": 12595.37,
   "contributions": [
     {
       "title": "Oakland March 5th, 2024 Special Election",
@@ -476,6 +476,20 @@
       "Tran_NamF": "Michael",
       "Tran_NamL": "Edmonds",
       "Tran_Zip4": "94566",
+      "election_name": "oakland-march-2024"
+    },
+    {
+      "title": "Oakland March 5th, 2024 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1463801",
+      "Tran_Emp": "Candidate",
+      "Tran_Occ": "Candidate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 4995.37,
+      "Tran_Date": "2024-12-31",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Houston",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-march-2024"
     }
   ]
