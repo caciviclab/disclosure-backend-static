@@ -1,17 +1,17 @@
 {
-  "total_contributions": 3471491.56,
+  "total_contributions": 3487536.44,
   "total_contributions_by_source": {
-    "Out of State": 136603.95,
-    "Within Oakland": 1995433.64,
-    "Within California": 1140623.2
+    "Out of State": 135470.98,
+    "Within Oakland": 2009291.49,
+    "Within California": 1143843.2
   },
   "contributions_by_type": {
     "PTY": 250.0,
-    "Committee": 905702.2,
-    "Individual": 1091559.94,
-    "Unitemized": 90730.77,
+    "Committee": 906302.2,
+    "Individual": 1097099.94,
+    "Unitemized": 90830.77,
     "Self Funding": 16857.16,
-    "Other (includes Businesses)": 1258291.49
+    "Other (includes Businesses)": 1268096.37
   },
   "most_expensive_races": [
     {
@@ -30,7 +30,7 @@
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 321771.77
+      "amount": 321996.77
     }
   ],
   "largest_small_proportion": [
@@ -95,16 +95,16 @@
   ],
   "top_contributors_for_offices": [
     {
+      "name": "City of Oakland",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_contributions": 22142.85
+    },
+    {
       "name": "Empower Oakland Committee",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_contributions": 10200.0
-    },
-    {
-      "name": "City of Oakland",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_contributions": 10005.0
     },
     {
       "name": "Brenda Harbin-Forte",
@@ -155,16 +155,16 @@
   ],
   "top_spenders_for_offices": [
     {
+      "name": "City of Oakland",
+      "type": "Office",
+      "election_name": "oakland-2024",
+      "total_spending": 22142.85
+    },
+    {
       "name": "Empower Oakland Committee",
       "type": "Office",
       "election_name": "oakland-2024",
       "total_spending": 10200.0
-    },
-    {
-      "name": "City of Oakland",
-      "type": "Office",
-      "election_name": "oakland-2024",
-      "total_spending": 10005.0
     },
     {
       "name": "Brenda Harbin-Forte",
