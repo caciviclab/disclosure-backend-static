@@ -1,17 +1,17 @@
 {
-  "total_contributions": 3487536.44,
+  "total_contributions": 3489197.44,
   "total_contributions_by_source": {
-    "Out of State": 135470.98,
-    "Within Oakland": 2009291.49,
-    "Within California": 1143843.2
+    "Out of State": 135570.98,
+    "Within Oakland": 2010036.49,
+    "Within California": 1144339.2
   },
   "contributions_by_type": {
     "PTY": 250.0,
     "Committee": 906302.2,
-    "Individual": 1097099.94,
-    "Unitemized": 90830.77,
+    "Individual": 1098392.94,
+    "Unitemized": 91150.77,
     "Self Funding": 16857.16,
-    "Other (includes Businesses)": 1268096.37
+    "Other (includes Businesses)": 1268144.37
   },
   "most_expensive_races": [
     {
@@ -30,7 +30,7 @@
       "slug": "city-council-at-large",
       "type": "office",
       "title": "City Council At-Large",
-      "amount": 321996.77
+      "amount": 322212.77
     }
   ],
   "largest_small_proportion": [
@@ -39,7 +39,7 @@
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Cristina Tostado",
-      "proportion": 0.41,
+      "proportion": 0.43,
       "office_title": "City Council At-Large"
     },
     {
@@ -47,7 +47,7 @@
       "type": "office",
       "title": "Oakland November 5th, 2024 General Election",
       "candidate": "Dominic L. Prado",
-      "proportion": 0.29,
+      "proportion": 0.3,
       "office_title": "City Council District 5"
     },
     {

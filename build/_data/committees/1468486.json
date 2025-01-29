@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 5423.0,
+  "total_contributions": 5569.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -560,6 +560,90 @@
       "Tran_NamF": "Oscar",
       "Tran_NamL": "Vargas Jr.",
       "Tran_Zip4": "94541",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2024-10-25",
+      "Tran_NamF": "Marissa",
+      "Tran_NamL": "Mendoza",
+      "Tran_Zip4": "95148",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "Oakland Police Department",
+      "Tran_Occ": "Law Enforcement",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 24.0,
+      "Tran_Date": "2024-10-27",
+      "Tran_NamF": "Oscar",
+      "Tran_NamL": "Vargas Jr.",
+      "Tran_Zip4": "94541",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "University of San Diego",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 24.0,
+      "Tran_Date": "2024-11-01",
+      "Tran_NamF": "Alysson",
+      "Tran_NamL": "Snow",
+      "Tran_Zip4": "91945",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2024-11-25",
+      "Tran_NamF": "Marissa",
+      "Tran_NamL": "Mendoza",
+      "Tran_Zip4": "95148",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "Oakland Police Department",
+      "Tran_Occ": "Law Enforcement",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 24.0,
+      "Tran_Date": "2024-11-27",
+      "Tran_NamF": "Oscar",
+      "Tran_NamL": "Vargas Jr.",
+      "Tran_Zip4": "94541",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468486",
+      "Tran_Emp": "University of San Diego",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 24.0,
+      "Tran_Date": "2024-12-01",
+      "Tran_NamF": "Alysson",
+      "Tran_NamL": "Snow",
+      "Tran_Zip4": "91945",
       "election_name": "oakland-2024"
     }
   ]
