@@ -21,9 +21,9 @@
   "is_winner": true,
   "filer_id": 1427585,
   "supporting_money": {
-    "contributions_received": 270098.07,
-    "total_contributions": 270098.07,
-    "total_expenditures": 289712.13,
+    "contributions_received": 270403.07,
+    "total_contributions": 270403.07,
+    "total_expenditures": 291183.05,
     "total_loans_received": 0.0,
     "total_supporting_independent": 143159.39,
     "support_list": [
@@ -51,24 +51,24 @@
     ],
     "contributions_by_type": {
       "Committee": 20050.0,
-      "Individual": 215032.0,
-      "Unitemized": 32051.07,
-      "Self Funding": 465.0,
+      "Individual": 215172.0,
+      "Unitemized": 32066.07,
+      "Self Funding": 615.0,
       "Other (includes Businesses)": 2500.0
     },
     "contributions_by_origin": {
       "Out of State": 18885.0,
-      "Within Oakland": 125636.0,
+      "Within Oakland": 125926.0,
       "Within California": 93526.0
     },
-    "total_small_contributions": 40640.07,
+    "total_small_contributions": 40795.07,
     "expenditures_by_type": {
       "Print Ads": 4040.0,
-      "Not Stated": 29826.8,
+      "Not Stated": 29957.45,
       "Phone Banks": 21667.29,
       "Contribution": 12150.0,
       "Civic Donations": 6714.88,
-      "Office Expenses": 15324.06,
+      "Office Expenses": 15333.99,
       "Fundraising Events": 182.0,
       "Campaign Consultants": 42237.65,
       "Meetings and Appearances": 2894.78,
@@ -76,31 +76,28 @@
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 39715.32,
       "Postage, Delivery and Messenger Services": 25236.71,
-      "Professional Services (Legal, Accounting)": 19534.32,
+      "Professional Services (Legal, Accounting)": 20350.82,
       "T.V. or Cable Airtime and Production Costs": 10410.0,
       "Information Technology Costs (Internet, E-mail)": 31588.23
     },
     "supporting_by_type": {
       "IKD": 507.0,
       "MON": 2393.0,
-      "Mailer": 37974.0,
+      "Mailer": 21887.0,
       "Digital Ads": 26102.0,
       "Phone banking": 3243.0,
       "Text Messages": 1875.0,
-      "Independent Expenditure Supporting/Opposing Others": 317984.39
+      "Independent Expenditure Supporting/Opposing Others": 340293.16
     }
   },
   "opposing_money": {
     "opposing_expenditures": 23936.0,
     "opposing_by_type": {
       "MAILER": 93941.0,
-      "Mailer": 8472.0,
       "POLLING": 29750.0,
       "RESEARCH": 7761.0,
-      "Billboards": 6384.0,
-      "Online ads": 25000.0,
       "MAILER (ESTIMATE)": 15345.0,
-      "Independent Expenditure Supporting/Opposing Others": 53936.0
+      "Independent Expenditure Supporting/Opposing Others": 93239.41
     },
     "opposition_list": [
       {
@@ -112,7 +109,7 @@
       }
     ]
   },
-  "total_contributions": 270098.07,
-  "total_expenditures": 289712.13,
+  "total_contributions": 270403.07,
+  "total_expenditures": 291183.05,
   "total_loans_received": 0.0
 }

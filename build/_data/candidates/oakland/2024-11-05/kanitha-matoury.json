@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1467524,
   "supporting_money": {
-    "contributions_received": 65912.0,
-    "total_contributions": 65912.0,
-    "total_expenditures": 24459.98,
+    "contributions_received": 68417.0,
+    "total_contributions": 68417.0,
+    "total_expenditures": 45663.95,
     "total_loans_received": 25000.0,
-    "total_supporting_independent": 4046.0,
+    "total_supporting_independent": 4046.32,
     "support_list": [
       {
         "Total": 2755.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 1291.0,
+        "Total": 1291.32,
         "Cand_ID": 1467524,
         "Filer_ID": "1467180",
         "Filer_NamL": "Foundational Oakland Unites",
@@ -43,34 +43,38 @@
       }
     ],
     "contributions_by_type": {
-      "Individual": 32315.0,
-      "Unitemized": 4112.0,
+      "Committee": 600.0,
+      "Individual": 33600.0,
+      "Unitemized": 4732.0,
       "Self Funding": 220.0,
       "Other (includes Businesses)": 4265.0
     },
     "contributions_by_origin": {
-      "Out of State": 1550.0,
-      "Within Oakland": 17360.0,
-      "Within California": 17890.0
+      "Out of State": 1600.0,
+      "Within Oakland": 18895.0,
+      "Within California": 18190.0
     },
-    "total_small_contributions": 5092.0,
+    "total_small_contributions": 5887.0,
     "expenditures_by_type": {
-      "Print Ads": 100.0,
+      "Print Ads": 1600.0,
       "Contribution": 250.0,
-      "Office Expenses": 2352.66,
+      "Office Expenses": 2452.78,
       "Fundraising Events": 1834.07,
-      "Campaign Consultants": 8062.5,
+      "Campaign Consultants": 12856.38,
+      "Meetings and Appearances": 229.95,
       "Campaign Paraphernalia/Misc.": 818.63,
       "Candidate Filing/Ballot Fees": 1145.0,
-      "Campaign Literature and Mailings": 571.25,
-      "Candidate Travel, Lodging, and Meals": 143.07,
-      "Staff/Spouse Travel, Lodging, and Meals": 1413.27,
-      "Postage, Delivery and Messenger Services": 265.0,
-      "Information Technology Costs (Internet, E-mail)": 1968.96
+      "Campaign Literature and Mailings": 9629.22,
+      "Candidate Travel, Lodging, and Meals": 256.57,
+      "Staff/Spouse Travel, Lodging, and Meals": 2705.94,
+      "Postage, Delivery and Messenger Services": 355.0,
+      "Professional Services (Legal, Accounting)": 3250.0,
+      "Information Technology Costs (Internet, E-mail)": 2058.92
     },
     "supporting_by_type": {
-      "Mailer": 3689.0,
-      "Text Messages": 357.0
+      "Mailer": 2398.0,
+      "Text Messages": 357.0,
+      "Independent Expenditure Supporting/Opposing Others": 1291.32
     }
   },
   "opposing_money": {
@@ -81,7 +85,7 @@
 
     ]
   },
-  "total_contributions": 65912.0,
-  "total_expenditures": 24459.98,
+  "total_contributions": 68417.0,
+  "total_expenditures": 45663.95,
   "total_loans_received": 25000.0
 }

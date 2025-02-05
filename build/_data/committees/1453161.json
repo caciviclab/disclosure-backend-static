@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 93358.37,
+  "total_contributions": 94108.37,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -742,6 +742,34 @@
       "Tran_NamF": "Avery",
       "Tran_NamL": "Arbaugh",
       "Tran_Zip4": "94704",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1453161",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-10-23",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay For Everyone",
+      "Tran_Zip4": "95811",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1401024",
+      "Filer_ID": "1453161",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2024-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Issues Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815",
       "election_name": "oakland-2024"
     }
   ]

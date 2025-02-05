@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1463441,
   "supporting_money": {
-    "contributions_received": 95616.74,
-    "total_contributions": 95616.74,
-    "total_expenditures": 91835.05,
+    "contributions_received": 111076.03,
+    "total_contributions": 111076.03,
+    "total_expenditures": 167667.53,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 244019.0,
+    "total_supporting_independent": 250240.77,
     "support_list": [
       {
         "Total": 3243.0,
@@ -42,56 +42,61 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 190912.0,
+        "Total": 196766.14,
         "Cand_ID": 1463441,
         "Filer_ID": "1474351",
         "Filer_NamL": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
         "election_name": "oakland-2024"
+      },
+      {
+        "Total": 367.63,
+        "Cand_ID": 1463441,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2024"
       }
     ],
     "contributions_by_type": {
-      "Committee": 17433.04,
-      "Individual": 69408.0,
-      "Unitemized": 7997.0,
-      "Other (includes Businesses)": 778.7
+      "Committee": 18883.04,
+      "Individual": 80573.66,
+      "Unitemized": 10340.63,
+      "Other (includes Businesses)": 1278.7
     },
     "contributions_by_origin": {
-      "Out of State": 5560.0,
-      "Within Oakland": 51185.74,
-      "Within California": 30874.0
+      "Out of State": 7020.66,
+      "Within Oakland": 59740.74,
+      "Within California": 33974.0
     },
-    "total_small_contributions": 9602.0,
+    "total_small_contributions": 12644.63,
     "expenditures_by_type": {
-      "Not Stated": 5209.29,
+      "Not Stated": 10615.06,
       "Contribution": 5000.0,
-      "Office Expenses": 3409.78,
-      "Campaign Consultants": 33000.0,
-      "Campaign Literature and Mailings": 4262.4,
-      "Postage, Delivery and Messenger Services": 1689.85,
-      "Professional Services (Legal, Accounting)": 1986.5,
-      "Information Technology Costs (Internet, E-mail)": 2539.36
+      "Office Expenses": 3758.36,
+      "Fundraising Events": 1500.0,
+      "Campaign Consultants": 41750.0,
+      "Campaign Literature and Mailings": 26212.09,
+      "Postage, Delivery and Messenger Services": 22269.61,
+      "Professional Services (Legal, Accounting)": 5865.38,
+      "Information Technology Costs (Internet, E-mail)": 13539.36
     },
     "supporting_by_type": {
       "IKD": 507.0,
       "MON": 2393.0,
-      "Mailer": 37974.0,
+      "Mailer": 21887.0,
       "Digital Ads": 26102.0,
       "Phone banking": 3243.0,
       "Text Messages": 1875.0,
-      "Independent Expenditure Supporting/Opposing Others": 317984.39
+      "Independent Expenditure Supporting/Opposing Others": 340293.16
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 186653.0,
+    "opposing_expenditures": 186100.41,
     "opposing_by_type": {
       "MAILER": 93941.0,
-      "Mailer": 8472.0,
       "POLLING": 29750.0,
       "RESEARCH": 7761.0,
-      "Billboards": 6384.0,
-      "Online ads": 25000.0,
       "MAILER (ESTIMATE)": 15345.0,
-      "Independent Expenditure Supporting/Opposing Others": 53936.0
+      "Independent Expenditure Supporting/Opposing Others": 93239.41
     },
     "opposition_list": [
       {
@@ -102,14 +107,14 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 1291.0,
+        "Total": 1291.32,
         "Cand_ID": 1463441,
         "Filer_ID": "1467180",
         "Filer_NamL": "Foundational Oakland Unites",
         "election_name": "oakland-2024"
       },
       {
-        "Total": 38565.0,
+        "Total": 38012.09,
         "Cand_ID": 1463441,
         "Filer_ID": "1475778",
         "Filer_NamL": "Together for Oakland's Families, in Support of Warren Logan for City Council 2024",
@@ -117,7 +122,7 @@
       }
     ]
   },
-  "total_contributions": 95616.74,
-  "total_expenditures": 91835.05,
+  "total_contributions": 111076.03,
+  "total_expenditures": 167667.53,
   "total_loans_received": 0.0
 }

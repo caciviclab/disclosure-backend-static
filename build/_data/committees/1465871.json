@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 31524.5,
+  "total_contributions": 33024.5,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -228,6 +228,20 @@
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "760851",
+      "Filer_ID": "1465871",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2024-10-22",
+      "Tran_NamF": null,
+      "Tran_NamL": "Santa Clara County Firefighters Local 1165 PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1465871",
       "Tran_Emp": null,
@@ -252,6 +266,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers Local Union 104 Political Committee",
       "Tran_Zip4": "94551",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1465871",
+      "Tran_Emp": "Alameda County",
+      "Tran_Occ": "County Supervisor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-11-22",
+      "Tran_NamF": "Elisa",
+      "Tran_NamL": "Marquez",
+      "Tran_Zip4": "94544-3310",
       "election_name": "oakland-2024"
     }
   ]

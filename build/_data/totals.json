@@ -584,17 +584,18 @@
     ]
   },
   "oakland-2020": {
-    "total_contributions": 3398121.03,
+    "total_contributions": 3400656.03,
     "total_contributions_by_source": {
-      "Out of State": 213534.92,
-      "Within Oakland": 1556097.74,
-      "Within California": 1340002.0
+      "Out of State": 213474.92,
+      "Within Oakland": 1556562.74,
+      "Within California": 1341006.0
     },
     "contributions_by_type": {
-      "Committee": 555515.43,
-      "Individual": 1903095.19,
-      "Unitemized": 210866.35,
-      "Self Funding": 135066.64,
+      "PTY": 1350.0,
+      "Committee": 556015.43,
+      "Individual": 1902504.19,
+      "Unitemized": 211992.35,
+      "Self Funding": 135216.64,
       "Other (includes Businesses)": 515957.4
     },
     "most_expensive_races": [
@@ -614,7 +615,7 @@
         "slug": "city-council-district-3",
         "type": "office",
         "title": "City Council District 3",
-        "amount": 510501.91
+        "amount": 510806.91
       }
     ],
     "largest_small_proportion": [
@@ -779,18 +780,18 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 8014242.54,
+    "total_contributions": 8024002.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2921407.86,
-      "Within California": 4373559.45
+      "Within Oakland": 2923387.86,
+      "Within California": 4381259.45
     },
     "contributions_by_type": {
-      "Committee": 1711288.97,
-      "Individual": 2835872.39,
-      "Unitemized": 130529.9,
+      "Committee": 1715388.97,
+      "Individual": 2840852.39,
+      "Unitemized": 130609.9,
       "Self Funding": 11387.78,
-      "Other (includes Businesses)": 3289257.76
+      "Other (includes Businesses)": 3289857.76
     },
     "most_expensive_races": [
       {
@@ -874,6 +875,12 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_contributions": 7949.0
+      },
+      {
         "name": "Laborers' Local 304 PAC",
         "type": "Office",
         "election_name": "oakland-2022",
@@ -884,12 +891,6 @@
         "type": "Office",
         "election_name": "oakland-2022",
         "total_contributions": 7426.74
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2022",
-        "total_contributions": 6749.0
       }
     ],
     "top_contributors_for_measures": [
@@ -934,6 +935,12 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2022",
+        "total_spending": 7949.0
+      },
+      {
         "name": "Laborers' Local 304 PAC",
         "type": "Office",
         "election_name": "oakland-2022",
@@ -944,12 +951,6 @@
         "type": "Office",
         "election_name": "oakland-2022",
         "total_spending": 7426.74
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2022",
-        "total_spending": 6749.0
       }
     ],
     "top_spenders_for_measures": [
@@ -1567,19 +1568,19 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3489197.44,
+    "total_contributions": 3590015.2,
     "total_contributions_by_source": {
-      "Out of State": 135570.98,
-      "Within Oakland": 2010036.49,
-      "Within California": 1144339.2
+      "Out of State": 139089.14,
+      "Within Oakland": 2059517.97,
+      "Within California": 1194490.73
     },
     "contributions_by_type": {
-      "PTY": 250.0,
-      "Committee": 906302.2,
-      "Individual": 1098392.94,
-      "Unitemized": 91150.77,
-      "Self Funding": 16857.16,
-      "Other (includes Businesses)": 1268144.37
+      "PTY": 1600.0,
+      "Committee": 927863.92,
+      "Individual": 1168353.89,
+      "Unitemized": 98317.36,
+      "Self Funding": 18654.19,
+      "Other (includes Businesses)": 1276625.84
     },
     "most_expensive_races": [
       {
@@ -1592,13 +1593,13 @@
         "slug": "mayoral-recall-election",
         "type": "referendum",
         "title": "Measure REC1",
-        "amount": 718853.76
+        "amount": 732632.82
       },
       {
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 322212.77
+        "amount": 342352.82
       }
     ],
     "largest_small_proportion": [
@@ -1623,7 +1624,7 @@
         "type": "office",
         "title": "Oakland November 5th, 2024 General Election",
         "candidate": "Shawn B. Danino",
-        "proportion": 0.28,
+        "proportion": 0.29,
         "office_title": "City Council At-Large"
       }
     ],
@@ -1631,24 +1632,24 @@
       {
         "name": "Families for a Vibrant Oakland, Sponsored by Abundance Network",
         "election_name": "oakland-2024",
-        "total_spending": 338834.33
+        "total_spending": 336772.18
       },
       {
         "name": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
         "election_name": "oakland-2024",
-        "total_spending": 269414.0
+        "total_spending": 266267.24
       },
       {
         "name": "Families for a Safer Oakland, in Support of LeRonne Armstrong for City Council 2024",
         "election_name": "oakland-2024",
-        "total_spending": 203308.0
+        "total_spending": 216849.0
       }
     ],
     "top_contributors": [
       {
         "name": "Philip Dreyfuss",
         "election_name": "oakland-2024",
-        "total_contributions": 890319.16
+        "total_contributions": 1025064.56
       },
       {
         "name": "MICHAEL BLOOMBERG",
@@ -1672,7 +1673,7 @@
         "name": "Empower Oakland Committee",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_contributions": 10200.0
+        "total_contributions": 10800.0
       },
       {
         "name": "Brenda Harbin-Forte",
@@ -1686,7 +1687,7 @@
         "name": "Foundational Oakland Unites",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_contributions": 360319.16
+        "total_contributions": 365800.56
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -1706,7 +1707,7 @@
         "name": "Philip Dreyfuss",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_spending": 890319.16
+        "total_spending": 1025064.56
       },
       {
         "name": "MICHAEL BLOOMBERG",
@@ -1732,7 +1733,7 @@
         "name": "Empower Oakland Committee",
         "type": "Office",
         "election_name": "oakland-2024",
-        "total_spending": 10200.0
+        "total_spending": 10800.0
       },
       {
         "name": "Brenda Harbin-Forte",
@@ -1746,7 +1747,7 @@
         "name": "Philip Dreyfuss",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_spending": 890319.16
+        "total_spending": 1025064.56
       },
       {
         "name": "MICHAEL BLOOMBERG",
@@ -1760,6 +1761,39 @@
         "election_name": "oakland-2024",
         "total_spending": 379000.0
       }
+    ]
+  },
+  "oakland-2025": {
+    "total_contributions": 0.0,
+    "total_contributions_by_source": {
+    },
+    "contributions_by_type": {
+    },
+    "most_expensive_races": [
+
+    ],
+    "largest_small_proportion": [
+
+    ],
+    "largest_independent_expenditures": {
+    },
+    "top_contributors": [
+
+    ],
+    "top_contributors_for_offices": [
+
+    ],
+    "top_contributors_for_measures": [
+
+    ],
+    "top_spenders": [
+
+    ],
+    "top_spenders_for_offices": [
+
+    ],
+    "top_spenders_for_measures": [
+
     ]
   },
   "sf-2016": {

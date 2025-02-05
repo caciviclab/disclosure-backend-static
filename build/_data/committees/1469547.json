@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 557200.0,
+  "total_contributions": 613200.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -140,6 +140,48 @@
       "Tran_NamF": null,
       "Tran_NamL": "REVITALIZE EAST BAY COMMITTEE",
       "Tran_Zip4": "94901",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469547",
+      "Tran_Emp": "BRUCE DUNG VOUNG ENTERPRISES, INC.",
+      "Tran_Occ": "OWNER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-10-24",
+      "Tran_NamF": "BRUCE",
+      "Tran_NamL": "VUONG, SR.",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1470222",
+      "Filer_ID": "1469547",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2024-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "REVITALIZE EAST BAY COMMITTEE",
+      "Tran_Zip4": "94901",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469547",
+      "Tran_Emp": "BUILDCASA",
+      "Tran_Occ": "CO-FOUNDER/CHIEF EXECUTIVE OFFICER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2024-10-30",
+      "Tran_NamF": "BEN",
+      "Tran_NamL": "BEAR",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2024"
     }
   ]

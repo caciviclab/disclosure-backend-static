@@ -25,7 +25,7 @@
     "total_contributions": 8033.0,
     "total_expenditures": 8033.0,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 4046.0,
+    "total_supporting_independent": 4046.32,
     "support_list": [
       {
         "Total": 2755.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 1291.0,
+        "Total": 1291.32,
         "Cand_ID": 1471118,
         "Filer_ID": "1467180",
         "Filer_NamL": "Foundational Oakland Unites",
@@ -63,8 +63,9 @@
       "Information Technology Costs (Internet, E-mail)": 3188.16
     },
     "supporting_by_type": {
-      "Mailer": 3689.0,
-      "Text Messages": 357.0
+      "Mailer": 2398.0,
+      "Text Messages": 357.0,
+      "Independent Expenditure Supporting/Opposing Others": 1291.32
     }
   },
   "opposing_money": {

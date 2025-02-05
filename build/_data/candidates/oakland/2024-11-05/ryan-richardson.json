@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1462429,
   "supporting_money": {
-    "contributions_received": 131039.22,
-    "total_contributions": 131039.22,
-    "total_expenditures": 96965.22,
-    "total_loans_received": 38000.0,
-    "total_supporting_independent": 93757.0,
+    "contributions_received": 144502.04,
+    "total_contributions": 144502.04,
+    "total_expenditures": 136214.19,
+    "total_loans_received": 43500.0,
+    "total_supporting_independent": 99124.63,
     "support_list": [
       {
         "Total": 22007.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 28750.0,
+        "Total": 33750.0,
         "Cand_ID": 1462429,
         "Filer_ID": "1474351",
         "Filer_NamL": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",
@@ -47,47 +47,53 @@
         "Filer_ID": "892160",
         "Filer_NamL": "International Association of Firefighter Local 55 Political Action, sponsored by: Int'l Assoc. of Firefighter Local 55",
         "election_name": "oakland-2024"
+      },
+      {
+        "Total": 367.63,
+        "Cand_ID": 1462429,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2024"
       }
     ],
     "contributions_by_type": {
-      "Committee": 8500.0,
-      "Individual": 74178.22,
-      "Unitemized": 3361.0,
+      "Committee": 10237.82,
+      "Individual": 79553.22,
+      "Unitemized": 3611.0,
       "Self Funding": 6000.0,
-      "Other (includes Businesses)": 1000.0
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
-      "Out of State": 9538.22,
-      "Within Oakland": 43565.0,
-      "Within California": 36575.0
+      "Out of State": 9638.22,
+      "Within Oakland": 47515.0,
+      "Within California": 40237.82
     },
-    "total_small_contributions": 4376.0,
+    "total_small_contributions": 4851.0,
     "expenditures_by_type": {
-      "Not Stated": 2297.84,
+      "Not Stated": 24404.89,
+      "Contribution": 3000.0,
       "Civic Donations": 600.0,
       "Office Expenses": 1744.15,
-      "Fundraising Events": 2738.98,
-      "Campaign Consultants": 11500.0,
+      "Fundraising Events": 3304.42,
+      "Campaign Consultants": 38000.0,
       "Meetings and Appearances": 270.0,
-      "Campaign Paraphernalia/Misc.": 4145.73,
+      "Campaign Paraphernalia/Misc.": 8865.53,
       "Candidate Filing/Ballot Fees": 1100.0,
-      "Campaign Literature and Mailings": 2000.0,
-      "Professional Services (Legal, Accounting)": 8225.0,
-      "Information Technology Costs (Internet, E-mail)": 1695.01
+      "Campaign Literature and Mailings": 36138.21,
+      "Professional Services (Legal, Accounting)": 16265.0,
+      "Information Technology Costs (Internet, E-mail)": 2297.99
     },
     "supporting_by_type": {
       "Mailer": 17007.0,
       "Billboards": 43000.0,
-      "Online ads": 5000.0,
       "Text Messages": 5000.0,
-      "Independent Expenditure Supporting/Opposing Others": 23750.0
+      "Independent Expenditure Supporting/Opposing Others": 34117.63
     }
   },
   "opposing_money": {
     "opposing_expenditures": 53625.0,
     "opposing_by_type": {
-      "IND EXP OF CAMPAIGN LITERATURE.": 32175.0,
-      "Independent Expenditure Supporting/Opposing Others": 21450.0
+      "Independent Expenditure Supporting/Opposing Others": 53625.0
     },
     "opposition_list": [
       {
@@ -99,7 +105,7 @@
       }
     ]
   },
-  "total_contributions": 131039.22,
-  "total_expenditures": 96965.22,
-  "total_loans_received": 38000.0
+  "total_contributions": 144502.04,
+  "total_expenditures": 136214.19,
+  "total_loans_received": 43500.0
 }

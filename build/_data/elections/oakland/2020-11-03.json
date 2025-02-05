@@ -1,15 +1,16 @@
 {
-  "total_contributions": 3398121.03,
+  "total_contributions": 3400656.03,
   "total_contributions_by_source": {
-    "Out of State": 213534.92,
-    "Within Oakland": 1556097.74,
-    "Within California": 1340002.0
+    "Out of State": 213474.92,
+    "Within Oakland": 1556562.74,
+    "Within California": 1341006.0
   },
   "contributions_by_type": {
-    "Committee": 555515.43,
-    "Individual": 1903095.19,
-    "Unitemized": 210866.35,
-    "Self Funding": 135066.64,
+    "PTY": 1350.0,
+    "Committee": 556015.43,
+    "Individual": 1902504.19,
+    "Unitemized": 211992.35,
+    "Self Funding": 135216.64,
     "Other (includes Businesses)": 515957.4
   },
   "most_expensive_races": [
@@ -29,7 +30,7 @@
       "slug": "city-council-district-3",
       "type": "office",
       "title": "City Council District 3",
-      "amount": 510501.91
+      "amount": 510806.91
     }
   ],
   "largest_small_proportion": [

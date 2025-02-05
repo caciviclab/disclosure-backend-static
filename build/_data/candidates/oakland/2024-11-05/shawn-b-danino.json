@@ -21,29 +21,33 @@
   "is_winner": null,
   "filer_id": 1472613,
   "supporting_money": {
-    "contributions_received": 16139.69,
-    "total_contributions": 16139.69,
-    "total_expenditures": 6655.11,
+    "contributions_received": 18594.29,
+    "total_contributions": 18594.29,
+    "total_expenditures": 11276.37,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 11723.1,
-      "Unitemized": 4416.59
+      "Individual": 13073.1,
+      "Unitemized": 5266.83,
+      "Other (includes Businesses)": 254.36
     },
     "contributions_by_origin": {
-      "Out of State": 3600.0,
-      "Within Oakland": 3371.5,
-      "Within California": 4751.6
+      "Out of State": 4100.0,
+      "Within Oakland": 3821.5,
+      "Within California": 5405.96
     },
-    "total_small_contributions": 4523.59,
+    "total_small_contributions": 5423.83,
     "expenditures_by_type": {
-      "Not Stated": 1523.12,
-      "Campaign Paraphernalia/Misc.": 2382.71,
-      "Campaign Literature and Mailings": 612.36,
-      "Professional Services (Legal, Accounting)": 1100.0
+      "Not Stated": 3787.43,
+      "Fundraising Events": 116.74,
+      "Campaign Workers' Salaries": 1451.61,
+      "Campaign Paraphernalia/Misc.": 5249.81,
+      "Campaign Literature and Mailings": 1724.72,
+      "Professional Services (Legal, Accounting)": 2200.0,
+      "Information Technology Costs (Internet, E-mail)": 1327.33
     },
     "supporting_by_type": {
     }
@@ -56,7 +60,7 @@
 
     ]
   },
-  "total_contributions": 16139.69,
-  "total_expenditures": 6655.11,
+  "total_contributions": 18594.29,
+  "total_expenditures": 11276.37,
   "total_loans_received": 0.0
 }

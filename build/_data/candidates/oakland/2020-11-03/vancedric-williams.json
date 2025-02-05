@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1427826,
   "supporting_money": {
-    "contributions_received": 59728.73,
-    "total_contributions": 59728.73,
-    "total_expenditures": 46511.46,
+    "contributions_received": 61958.73,
+    "total_contributions": 61958.73,
+    "total_expenditures": 61300.42,
     "total_loans_received": 0.0,
     "total_supporting_independent": 71241.48,
     "support_list": [
@@ -43,37 +43,35 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 5250.0,
-      "Individual": 24956.0,
-      "Unitemized": 6488.0,
+      "PTY": 1350.0,
+      "Committee": 5750.0,
+      "Individual": 24225.0,
+      "Unitemized": 7599.0,
       "Self Funding": 1450.0,
       "Other (includes Businesses)": 21584.73
     },
     "contributions_by_origin": {
-      "Out of State": 3460.0,
-      "Within Oakland": 16825.0,
-      "Within California": 32955.73
+      "Out of State": 3400.0,
+      "Within Oakland": 17000.0,
+      "Within California": 33959.73
     },
-    "total_small_contributions": 9950.0,
+    "total_small_contributions": 8999.0,
     "expenditures_by_type": {
+      "Print Ads": 1704.0,
       "Phone Banks": 6545.52,
       "Office Expenses": 106.75,
       "Voter Registration": 1500.0,
-      "Campaign Consultants": 4500.0,
+      "Campaign Consultants": 8500.0,
       "Polling and Survey Research": 3400.0,
-      "Campaign Paraphernalia/Misc.": 18202.67,
+      "Campaign Paraphernalia/Misc.": 18407.14,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 10756.96
+      "Campaign Literature and Mailings": 19576.45,
+      "Information Technology Costs (Internet, E-mail)": 36.0
     },
     "supporting_by_type": {
       "MON": 1600.0,
-      "Mailer": 21380.0,
-      "Consulting": 2500.0,
-      "Digital Ads": 10000.0,
-      "Phone Calls": 198.0,
-      "Text Messages": 3321.0,
-      "Food for Canvassers": 648.0,
-      "Independent Expenditure Supporting/Opposing Others": 109910.15
+      "Mailer": 8820.0,
+      "Independent Expenditure Supporting/Opposing Others": 156154.31
     }
   },
   "opposing_money": {
@@ -84,7 +82,7 @@
 
     ]
   },
-  "total_contributions": 59728.73,
-  "total_expenditures": 46511.46,
+  "total_contributions": 61958.73,
+  "total_expenditures": 61300.42,
   "total_loans_received": 0.0
 }

@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 222840.0,
+  "total_contributions": 247840.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -84,6 +84,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Revitalize East Bay Committee",
       "Tran_Zip4": "94901",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1475776",
+      "Tran_Emp": "Coinbase, Inc.",
+      "Tran_Occ": "Director of Engineering",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2024-10-24",
+      "Tran_NamF": "Jesse",
+      "Tran_NamL": "Pollak",
+      "Tran_Zip4": "94114",
       "election_name": "oakland-2024"
     }
   ]

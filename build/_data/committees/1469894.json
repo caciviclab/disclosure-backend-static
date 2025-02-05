@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 11856.0,
+  "total_contributions": 12156.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -714,6 +714,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "Empower Oakland Committee",
       "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469894",
+      "Tran_Emp": "Lockheed Martin",
+      "Tran_Occ": "Engineers",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-10-22",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Locke",
+      "Tran_Zip4": "94546",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469894",
+      "Tran_Emp": "T-Mobile",
+      "Tran_Occ": "Technology Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2024-11-16",
+      "Tran_NamF": "Calvin",
+      "Tran_NamL": "DILLAHUNTY",
+      "Tran_Zip4": "94806",
       "election_name": "oakland-2024"
     }
   ]
