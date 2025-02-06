@@ -1,31 +1,138 @@
 {
-  "total_contributions": 0.0,
+  "total_contributions": 119921.67,
   "total_contributions_by_source": {
+    "Out of State": 14976.0,
+    "Within Oakland": 60335.9,
+    "Within California": 33900.58
   },
   "contributions_by_type": {
+    "Committee": 5356.0,
+    "Individual": 102740.58,
+    "Unitemized": 10709.19,
+    "Self Funding": 570.9,
+    "Other (includes Businesses)": 545.0
   },
   "most_expensive_races": [
-
+    {
+      "slug": "mayor",
+      "type": "office",
+      "title": "Mayor",
+      "amount": 64213.9
+    },
+    {
+      "slug": "city-council-district-2",
+      "type": "office",
+      "title": "City Council District 2",
+      "amount": 55707.77
+    }
   ],
   "largest_small_proportion": [
-
+    {
+      "slug": "loren-taylor",
+      "type": "office",
+      "title": "Oakland April 15, 2025 Special Election",
+      "candidate": "Loren Taylor",
+      "proportion": 0.14,
+      "office_title": "Mayor"
+    },
+    {
+      "slug": "renia-webb",
+      "type": "office",
+      "title": "Oakland April 15, 2025 Special Election",
+      "candidate": "Renia Webb",
+      "proportion": 0.11,
+      "office_title": "Mayor"
+    },
+    {
+      "slug": "charlene-wang",
+      "type": "office",
+      "title": "Oakland April 15, 2025 Special Election",
+      "candidate": "Charlene Wang",
+      "proportion": 0.09,
+      "office_title": "City Council District 2"
+    }
   ],
   "largest_independent_expenditures": {
   },
   "top_contributors": [
-
+    {
+      "name": "Renia Webb for Oakland Mayor 2025",
+      "election_name": "oakland-2025",
+      "total_contributions": 4756.0
+    },
+    {
+      "name": "Patrick Burns",
+      "election_name": "oakland-2025",
+      "total_contributions": 700.0
+    },
+    {
+      "name": "Henry Lopez",
+      "election_name": "oakland-2025",
+      "total_contributions": 600.0
+    }
   ],
   "top_contributors_for_offices": [
-
+    {
+      "name": "Renia Webb for Oakland Mayor 2025",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_contributions": 4756.0
+    },
+    {
+      "name": "Patrick Burns",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_contributions": 700.0
+    },
+    {
+      "name": "Alysoun Bonde",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_contributions": 600.0
+    }
   ],
   "top_contributors_for_measures": [
 
   ],
   "top_spenders": [
-
+    {
+      "name": "Renia Webb for Oakland Mayor 2025",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 4756.0
+    },
+    {
+      "name": "Patrick Burns",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 700.0
+    },
+    {
+      "name": "Alysoun Bonde",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 600.0
+    }
   ],
   "top_spenders_for_offices": [
-
+    {
+      "name": "Renia Webb for Oakland Mayor 2025",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 4756.0
+    },
+    {
+      "name": "Patrick Burns",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 700.0
+    },
+    {
+      "name": "Alysoun Bonde",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 600.0
+    }
   ],
   "top_spenders_for_measures": [
 
