@@ -2,15 +2,15 @@
   "total_contributions": 119921.67,
   "total_contributions_by_source": {
     "Out of State": 14976.0,
-    "Within Oakland": 60335.9,
-    "Within California": 33900.58
+    "Within Oakland": 58039.9,
+    "Within California": 35700.58
   },
   "contributions_by_type": {
-    "Committee": 5356.0,
-    "Individual": 102740.58,
-    "Unitemized": 10709.19,
+    "Committee": 600.0,
+    "Individual": 106840.58,
+    "Unitemized": 11205.19,
     "Self Funding": 570.9,
-    "Other (includes Businesses)": 545.0
+    "Other (includes Businesses)": 705.0
   },
   "most_expensive_races": [
     {
@@ -56,36 +56,36 @@
   },
   "top_contributors": [
     {
-      "name": "Renia Webb for Oakland Mayor 2025",
-      "election_name": "oakland-2025",
-      "total_contributions": 4756.0
-    },
-    {
       "name": "Patrick Burns",
       "election_name": "oakland-2025",
       "total_contributions": 700.0
     },
     {
-      "name": "Henry Lopez",
+      "name": "Alfonse Upshaw",
+      "election_name": "oakland-2025",
+      "total_contributions": 600.0
+    },
+    {
+      "name": "Judith Cain",
       "election_name": "oakland-2025",
       "total_contributions": 600.0
     }
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Renia Webb for Oakland Mayor 2025",
-      "type": "Office",
-      "election_name": "oakland-2025",
-      "total_contributions": 4756.0
-    },
-    {
       "name": "Patrick Burns",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_contributions": 700.0
     },
     {
-      "name": "Alysoun Bonde",
+      "name": "Erica Taylor",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_contributions": 600.0
+    },
+    {
+      "name": "Puja Abid",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_contributions": 600.0
@@ -96,19 +96,19 @@
   ],
   "top_spenders": [
     {
-      "name": "Renia Webb for Oakland Mayor 2025",
-      "type": "Office",
-      "election_name": "oakland-2025",
-      "total_spending": 4756.0
-    },
-    {
       "name": "Patrick Burns",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 700.0
     },
     {
-      "name": "Alysoun Bonde",
+      "name": "Erica Taylor",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 600.0
+    },
+    {
+      "name": "Puja Abid",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 600.0
@@ -116,19 +116,19 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Renia Webb for Oakland Mayor 2025",
-      "type": "Office",
-      "election_name": "oakland-2025",
-      "total_spending": 4756.0
-    },
-    {
       "name": "Patrick Burns",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 700.0
     },
     {
-      "name": "Alysoun Bonde",
+      "name": "Erica Taylor",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 600.0
+    },
+    {
+      "name": "Puja Abid",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 600.0
