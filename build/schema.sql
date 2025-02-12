@@ -1487,6 +1487,7 @@ CREATE TABLE public.elections (
     title character varying(43) NOT NULL,
     "Start_Date" date NOT NULL,
     "End_Date" date NOT NULL,
+    display integer,
     id integer NOT NULL
 );
 
