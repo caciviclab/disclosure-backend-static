@@ -4,5 +4,6 @@ CREATE TABLE elections (
 	date DATE NOT NULL, 
 	title VARCHAR(43) NOT NULL, 
 	"Start_Date" DATE NOT NULL, 
-	"End_Date" DATE NOT NULL
+	"End_Date" DATE NOT NULL,
+  "display" INT
 );

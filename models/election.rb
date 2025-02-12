@@ -19,6 +19,7 @@ class Election < ActiveRecord::Base
       'election_id' => name,
       'locality' => locality,
       'election' => date.to_s,
+      'display' => display,
       'office_elections' => office_elections.group_by(&:label).map do |label, office_elections|
         {
           'label' => label,
