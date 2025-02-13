@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 10597.99,
+  "total_contributions": 10697.99,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -504,6 +504,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Alameda Labor Council",
       "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469978",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-25",
+      "Tran_NamF": "Sara",
+      "Tran_NamL": "Shepich",
+      "Tran_Zip4": "94619",
       "election_name": "oakland-2024"
     }
   ]
