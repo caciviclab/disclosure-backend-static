@@ -4,4 +4,5 @@ committee_name: Renia Webb for Oakland Mayor 2025
 filer_id: '1477511'
 is_incumbent: false
 name: Renia Webb
+twitter_url: webbforoakland
 ---
