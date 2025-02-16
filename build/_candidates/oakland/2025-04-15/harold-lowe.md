@@ -4,6 +4,6 @@ filer_id: ''
 is_incumbent: false
 name: Harold Lowe
 occupation: Financial Planner
-website_url: haroldfordistrict2.com
+website_url: https://haroldfordistrict2.com/
 facebook_url: https://www.facebook.com/people/Harold-Lowe-for-District-2-City-Council/100084465441014/
 ---
