@@ -780,17 +780,17 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 8024002.54,
+    "total_contributions": 8029002.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2923387.86,
+      "Within Oakland": 2928387.86,
       "Within California": 4381259.45
     },
     "contributions_by_type": {
       "Committee": 1715388.97,
       "Individual": 2840852.39,
       "Unitemized": 130609.9,
-      "Self Funding": 11387.78,
+      "Self Funding": 16387.78,
       "Other (includes Businesses)": 3289857.76
     },
     "most_expensive_races": [
@@ -1578,7 +1578,7 @@
       "PTY": 1600.0,
       "Committee": 927863.92,
       "Individual": 1168453.89,
-      "Unitemized": 98317.36,
+      "Unitemized": 98417.36,
       "Self Funding": 18654.19,
       "Other (includes Businesses)": 1276625.84
     },
@@ -1764,14 +1764,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 119921.67,
+    "total_contributions": 122321.67,
     "total_contributions_by_source": {
       "Out of State": 14976.0,
-      "Within Oakland": 58039.9,
-      "Within California": 35700.58
+      "Within Oakland": 59239.9,
+      "Within California": 36900.58
     },
     "contributions_by_type": {
-      "Committee": 600.0,
+      "Committee": 3000.0,
       "Individual": 106840.58,
       "Unitemized": 11205.19,
       "Self Funding": 570.9,
@@ -1782,7 +1782,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 64213.9
+        "amount": 66613.9
       },
       {
         "slug": "city-council-district-2",
@@ -1817,43 +1817,48 @@
         "office_title": "City Council District 2"
       }
     ],
-    "largest_independent_expenditures": {
-    },
+    "largest_independent_expenditures": [
+      {
+        "name": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
+        "election_name": "oakland-2025",
+        "total_spending": 5000.0
+      }
+    ],
     "top_contributors": [
       {
-        "name": "Patrick Burns",
+        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
         "election_name": "oakland-2025",
-        "total_contributions": 700.0
+        "total_contributions": 50000.0
       },
       {
-        "name": "Alfonse Upshaw",
+        "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
         "election_name": "oakland-2025",
-        "total_contributions": 600.0
+        "total_contributions": 10555.0
       },
       {
-        "name": "Judith Cain",
+        "name": "FOSTER INTERSTATE MEDIA, INC.",
         "election_name": "oakland-2025",
-        "total_contributions": 600.0
+        "total_contributions": 10000.0
       }
     ],
     "top_contributors_for_offices": [
       {
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_contributions": 1200.0
+      },
+      {
+        "name": "Alameda Labor Council, AFL-CIO Unity PAC",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_contributions": 1200.0
+      },
+      {
         "name": "Patrick Burns",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 700.0
-      },
-      {
-        "name": "Erica Taylor",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_contributions": 600.0
-      },
-      {
-        "name": "Puja Abid",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_contributions": 600.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1861,46 +1866,63 @@
     ],
     "top_spenders": [
       {
-        "name": "Patrick Burns",
-        "type": "Office",
+        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
+        "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 700.0
+        "total_spending": 50000.0
       },
       {
-        "name": "Erica Taylor",
-        "type": "Office",
+        "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
+        "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 600.0
+        "total_spending": 10555.0
       },
       {
-        "name": "Puja Abid",
-        "type": "Office",
+        "name": "FOSTER INTERSTATE MEDIA, INC.",
+        "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 600.0
+        "total_spending": 10000.0
       }
     ],
     "top_spenders_for_offices": [
       {
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_spending": 1200.0
+      },
+      {
+        "name": "Alameda Labor Council, AFL-CIO Unity PAC",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_spending": 1200.0
+      },
+      {
         "name": "Patrick Burns",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 700.0
-      },
-      {
-        "name": "Erica Taylor",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_spending": 600.0
-      },
-      {
-        "name": "Puja Abid",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_spending": 600.0
       }
     ],
     "top_spenders_for_measures": [
-
+      {
+        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 50000.0
+      },
+      {
+        "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 10555.0
+      },
+      {
+        "name": "FOSTER INTERSTATE MEDIA, INC.",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 10000.0
+      }
     ]
   },
   "sf-2016": {

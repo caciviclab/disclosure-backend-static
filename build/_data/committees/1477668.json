@@ -1,7 +1,34 @@
 {
   "iec": false,
-  "total_contributions": 0,
+  "total_contributions": 2400.0,
   "contributions": [
-
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2025-02-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1318200",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2025-02-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "Tran_Zip4": "95815",
+      "election_name": "oakland-2025"
+    }
   ]
 }

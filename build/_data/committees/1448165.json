@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 68015.0,
+  "total_contributions": 73015.0,
   "contributions": [
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -2870,6 +2870,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Sheet Metal Workers Local Union 104",
       "Tran_Zip4": "94551",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1448165",
+      "Tran_Emp": "Candidate",
+      "Tran_Occ": "Candidate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-16",
+      "Tran_NamF": "Kyra",
+      "Tran_NamL": "Mungia",
+      "Tran_Zip4": "94605",
       "election_name": "oakland-2022"
     }
   ]

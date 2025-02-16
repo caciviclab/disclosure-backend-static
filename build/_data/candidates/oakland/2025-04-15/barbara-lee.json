@@ -21,22 +21,32 @@
   "is_winner": null,
   "filer_id": 1477668,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
+    "contributions_received": 2400.0,
+    "total_contributions": 2400.0,
     "total_expenditures": null,
     "total_loans_received": null,
-    "total_supporting_independent": null,
+    "total_supporting_independent": 5000.0,
     "support_list": [
-
+      {
+        "Total": 5000.0,
+        "Cand_ID": 1477668,
+        "Filer_ID": "1471304",
+        "Filer_NamL": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
+        "election_name": "oakland-2025"
+      }
     ],
     "contributions_by_type": {
+      "Committee": 2400.0
     },
     "contributions_by_origin": {
+      "Within Oakland": 1200.0,
+      "Within California": 1200.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 0.0,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "Consulting": 5000.0,
       "Independent Expenditure Supporting/Opposing Others": 156.45
     }
   },
@@ -48,7 +58,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
+  "total_contributions": 2400.0,
   "total_expenditures": null,
   "total_loans_received": null
 }
