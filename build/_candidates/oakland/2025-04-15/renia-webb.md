@@ -4,7 +4,7 @@ committee_name: Renia Webb for Oakland Mayor 2025
 filer_id: '1477511'
 is_incumbent: false
 name: Renia Webb
-occupation: Educator, Non-Profit Director
+occupation: Educator/Safety Legislator
 twitter_url: webbforoakland
 website_url: https://www.webbforoakland.com/
 instagram_url: https://www.instagram.com/webbforoakland/

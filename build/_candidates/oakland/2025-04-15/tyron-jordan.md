@@ -4,7 +4,7 @@ committee_name: Jordan for Oakland Mayor 2025
 filer_id: '1476874'
 is_incumbent: false
 name: Tyron Jordan
-occupation: Former SEIU Steward, Military Veteran, Former Mayoral Appointee
+occupation: Paralegal
 twitter_url: TyronJordan13
 website_url: https://www.tyronjordanforoakland.com/
 ---
