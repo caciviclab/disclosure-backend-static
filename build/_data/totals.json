@@ -1764,14 +1764,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 122321.67,
+    "total_contributions": 135077.07,
     "total_contributions_by_source": {
       "Out of State": 14976.0,
-      "Within Oakland": 59239.9,
+      "Within Oakland": 71995.3,
       "Within California": 36900.58
     },
     "contributions_by_type": {
-      "Committee": 3000.0,
+      "Committee": 15755.4,
       "Individual": 106840.58,
       "Unitemized": 11205.19,
       "Self Funding": 570.9,
@@ -1789,6 +1789,12 @@
         "type": "office",
         "title": "City Council District 2",
         "amount": 55707.77
+      },
+      {
+        "slug": "general-sales-tax",
+        "type": "referendum",
+        "title": "Measure A",
+        "amount": 12755.4
       }
     ],
     "largest_small_proportion": [
@@ -1831,14 +1837,14 @@
         "total_contributions": 50000.0
       },
       {
+        "name": "Invest in Our Oakland 2022",
+        "election_name": "oakland-2025",
+        "total_contributions": 12755.4
+      },
+      {
         "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
         "election_name": "oakland-2025",
         "total_contributions": 10555.0
-      },
-      {
-        "name": "FOSTER INTERSTATE MEDIA, INC.",
-        "election_name": "oakland-2025",
-        "total_contributions": 10000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1862,7 +1868,12 @@
       }
     ],
     "top_contributors_for_measures": [
-
+      {
+        "name": "Invest in Our Oakland 2022",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_contributions": 12755.4
+      }
     ],
     "top_spenders": [
       {
@@ -1872,16 +1883,16 @@
         "total_spending": 50000.0
       },
       {
+        "name": "Invest in Our Oakland 2022",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 12755.4
+      },
+      {
         "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_spending": 10555.0
-      },
-      {
-        "name": "FOSTER INTERSTATE MEDIA, INC.",
-        "type": "Measure",
-        "election_name": "oakland-2025",
-        "total_spending": 10000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1912,16 +1923,16 @@
         "total_spending": 50000.0
       },
       {
+        "name": "Invest in Our Oakland 2022",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 12755.4
+      },
+      {
         "name": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_spending": 10555.0
-      },
-      {
-        "name": "FOSTER INTERSTATE MEDIA, INC.",
-        "type": "Measure",
-        "election_name": "oakland-2025",
-        "total_spending": 10000.0
       }
     ]
   },

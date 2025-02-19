@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "contest_type": "Referendum",
+  "name": "General Sales Tax",
+  "title": "General Sales Tax",
+  "summary": "Shall the measure providing funding to help maintain City of Oakland programs, services, and facilities such as public safety and police services; neighborhood crime prevention; fire protection; pothole and road repaving; shelter and housing for individuals and families experiencing homelessness; library and recreation services; playground and park services; playground and park maintenance; youth, senior, and cultural programs; by enacting a half-cent (.5%) transaction (sales) and use tax for 10 years, providing approximately $29,800,000 annually for general government use be adopted?",
+  "number": "A",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 12755.4,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 12755.4
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "1478689",
+      "name": "Oaklanders for Safe, Clean Streets, Yes on Measure A 2025",
+      "payee": "Oaklanders for Safe, Clean Streets, Yes on Measure A 2025",
+      "amount": 0
+    }
+  ],
+  "total_contributions": 12755.4
+}

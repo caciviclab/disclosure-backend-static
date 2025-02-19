@@ -1,7 +1,20 @@
 {
   "iec": true,
-  "total_contributions": 0,
+  "total_contributions": 12755.4,
   "contributions": [
-
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1444350",
+      "Filer_ID": "1478689",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 12755.4,
+      "Tran_Date": "2025-02-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Invest in Our Oakland 2022",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
+    }
   ]
 }
