@@ -5,6 +5,7 @@ candidates:
 - renia-webb
 - mindy-pechenuk
 - barbara-lee
+- cristina-grappo
 - derrick-soo
 - elizabeth-swaney
 - eric-simpson
@@ -12,6 +13,7 @@ candidates:
 - johnny-gatlin
 - larry-lionel-young-jr-
 - peter-liu
+- suz-robinson
 - tanzania-dodds
 - tyron-jordan
 title: Mayor

@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 7850.0,
+  "total_contributions": 8450.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -322,6 +322,76 @@
       "Tran_NamF": "Anthony",
       "Tran_NamL": "Willis",
       "Tran_Zip4": "94603",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470076",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-10-20",
+      "Tran_NamF": "Elihu",
+      "Tran_NamL": "Harris",
+      "Tran_Zip4": "94702",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470076",
+      "Tran_Emp": "Everlaw Inc",
+      "Tran_Occ": "Accountant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-21",
+      "Tran_NamF": "Zoe",
+      "Tran_NamL": "Barfield",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470076",
+      "Tran_Emp": "Mayor Libby Schaaf, City of Oakland",
+      "Tran_Occ": "Director of Education",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-22",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Silver",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470076",
+      "Tran_Emp": "Self-employed",
+      "Tran_Occ": "Independent Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2024-11-16",
+      "Tran_NamF": "Cynthia",
+      "Tran_NamL": "Adams",
+      "Tran_Zip4": "94577",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1470076",
+      "Tran_Emp": "Self-employed",
+      "Tran_Occ": "Independent Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 75.0,
+      "Tran_Date": "2024-12-16",
+      "Tran_NamF": "Cynthia",
+      "Tran_NamL": "Adams",
+      "Tran_Zip4": "94577",
       "election_name": "oakland-2024"
     }
   ]

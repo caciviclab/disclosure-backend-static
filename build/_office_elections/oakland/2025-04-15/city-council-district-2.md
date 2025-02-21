@@ -5,6 +5,7 @@ candidates:
 - charlene-wang
 - harold-lowe
 - kanitha-matoury-nguyen
+- kenneth-anderson
 - paula-thomas-nelson
 title: City Council District 2
 label: City Council

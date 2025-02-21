@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 80555.0,
+  "total_contributions": 140555.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -70,6 +70,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "INTERNATIONAL ASSOCIATION OF FIREFIGHTER LOCAL 55 POLITICAL ACTION, SPONSORED BY: INT'L ASSOC. OF FIREFIGHTER LOCAL 55",
       "Tran_Zip4": "94612",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "881248",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2025-02-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
+      "Tran_Zip4": "94103",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "478163",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-02-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "PG&E CORPORATION AND AFFILIATED ENTITIES",
+      "Tran_Zip4": "94901",
       "election_name": "oakland-2025"
     }
   ]
