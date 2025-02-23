@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 140555.0,
+  "total_contributions": 143805.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -98,6 +98,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "PG&E CORPORATION AND AFFILIATED ENTITIES",
       "Tran_Zip4": "94901",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1440699",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3250.0,
+      "Tran_Date": "2025-02-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "COMMUNITY LEGACY FUND LOCAL PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
     }
   ]

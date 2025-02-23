@@ -1764,14 +1764,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 210727.07,
+    "total_contributions": 214627.07,
     "total_contributions_by_source": {
       "Out of State": 14976.0,
-      "Within Oakland": 72645.3,
-      "Within California": 111900.58
+      "Within Oakland": 73945.3,
+      "Within California": 114500.58
     },
     "contributions_by_type": {
-      "Committee": 90755.4,
+      "Committee": 94655.4,
       "Individual": 107490.58,
       "Unitemized": 11205.19,
       "Self Funding": 570.9,
@@ -1788,7 +1788,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 67263.9
+        "amount": 71163.9
       },
       {
         "slug": "city-council-district-2",
@@ -1849,22 +1849,22 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "name": "IFPTE Local 21",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_contributions": 1200.0
+        "total_contributions": 1300.0
       },
       {
-        "name": "Alameda Labor Council, AFL-CIO Unity PAC",
+        "name": "California Nurses Association PAC",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_contributions": 1200.0
+        "total_contributions": 1300.0
       },
       {
-        "name": "Patrick Burns",
+        "name": "Peralta Federation of Teachers",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_contributions": 700.0
+        "total_contributions": 1300.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1903,22 +1903,22 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "name": "IFPTE Local 21",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_spending": 1200.0
+        "total_spending": 1300.0
       },
       {
-        "name": "Alameda Labor Council, AFL-CIO Unity PAC",
+        "name": "California Nurses Association PAC",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_spending": 1200.0
+        "total_spending": 1300.0
       },
       {
-        "name": "Patrick Burns",
+        "name": "Peralta Federation of Teachers",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_spending": 700.0
+        "total_spending": 1300.0
       }
     ],
     "top_spenders_for_measures": [
