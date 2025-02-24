@@ -1114,6 +1114,7 @@ CREATE TABLE public.committees (
     "_Committee_Type" character varying(11),
     "Ballot_Measure" character varying(10),
     "Support_Or_Oppose" character varying(4),
+    "Cand_ID" integer,
     candidate_controlled_id integer,
     "Start_Date" date,
     "End_Date" date,
