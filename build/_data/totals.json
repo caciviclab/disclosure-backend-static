@@ -1764,14 +1764,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 214627.07,
+    "total_contributions": 314627.07,
     "total_contributions_by_source": {
       "Out of State": 14976.0,
       "Within Oakland": 73945.3,
-      "Within California": 114500.58
+      "Within California": 214500.58
     },
     "contributions_by_type": {
-      "Committee": 94655.4,
+      "Committee": 194655.4,
       "Individual": 107490.58,
       "Unitemized": 11205.19,
       "Self Funding": 570.9,
@@ -1782,7 +1782,7 @@
         "slug": "general-sales-tax",
         "type": "referendum",
         "title": "Measure A",
-        "amount": 87755.4
+        "amount": 187755.4
       },
       {
         "slug": "mayor",
@@ -1837,9 +1837,9 @@
         "total_contributions": 75000.0
       },
       {
-        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
+        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
         "election_name": "oakland-2025",
-        "total_contributions": 50000.0
+        "total_contributions": 70000.0
       },
       {
         "name": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
@@ -1875,10 +1875,16 @@
         "total_contributions": 75000.0
       },
       {
-        "name": "Invest in Our Oakland 2022",
+        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_contributions": 12755.4
+        "total_contributions": 70000.0
+      },
+      {
+        "name": "International Federation of Professional and Technical Engineers Local 21 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_contributions": 30000.0
       }
     ],
     "top_spenders": [
@@ -1889,13 +1895,13 @@
         "total_spending": 75000.0
       },
       {
-        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
+        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 50000.0
+        "total_spending": 70000.0
       },
       {
-        "name": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
+        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_spending": 50000.0
@@ -1929,10 +1935,10 @@
         "total_spending": 75000.0
       },
       {
-        "name": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
+        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 50000.0
+        "total_spending": 70000.0
       },
       {
         "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
