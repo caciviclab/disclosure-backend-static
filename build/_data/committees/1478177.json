@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 143805.0,
+  "total_contributions": 148805.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -112,6 +112,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "COMMUNITY LEGACY FUND LOCAL PAC",
       "Tran_Zip4": "95814",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": "RETIRED",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-02-25",
+      "Tran_NamF": "LISA",
+      "Tran_NamL": "HONIG",
+      "Tran_Zip4": "94110",
       "election_name": "oakland-2025"
     }
   ]
