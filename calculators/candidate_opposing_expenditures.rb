@@ -14,8 +14,15 @@ class CandidateOpposingExpenditure
     # same Filer_ID.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT election_name, "Cand_ID", "Filer_ID", "Filer_NamL", SUM("Amount") as "Total"
-      FROM independent_candidate_expenditures
-      WHERE "Sup_Opp_Cd" = 'O'
+      FROM (
+        SELECT election_name, "Cand_ID", "Filer_ID", "Filer_NamL", "Amount"
+        FROM independent_candidate_expenditures
+        WHERE "Sup_Opp_Cd" = 'O'
+      UNION ALL
+        SELECT "Ballot_Measure_Election" as election_name, "Cand_ID", "Filer_ID", "Filer_NamL", 0 as "Amount"
+        FROM committees, candidates
+        WHERE "Cand_ID" = "FPPC" AND "Support_Or_Oppose" = 'O'
+      ) U
       GROUP BY election_name, "Cand_ID", "Filer_ID", "Filer_NamL"
     SQL
 
