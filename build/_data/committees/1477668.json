@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 6300.0,
+  "total_contributions": 7600.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -28,6 +28,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
       "Tran_Zip4": "95815",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1345259",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2025-02-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Education Association PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
     },
     {
@@ -70,6 +84,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "Peralta Federation of Teachers",
       "Tran_Zip4": "94606",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1345259",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2025-02-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Education Association PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
     }
   ]
