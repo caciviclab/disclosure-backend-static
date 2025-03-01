@@ -200,7 +200,6 @@ CREATE VIEW independent_candidate_expenditures AS
   WHERE (e."Start_Date" IS NULL OR "Exp_Date" >= e."Start_Date")
   AND (e."End_Date" IS NULL OR "Exp_Date" <= e."End_Date")
   AND "FPPC" IS NOT NULL
-  AND "FPPC" IS NOT NULL
   AND "Cand_NamL" IS NOT NULL;
 
 -- Remove summary data that is covered by a report that includes that time period
