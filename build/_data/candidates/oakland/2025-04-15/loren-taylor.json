@@ -21,23 +21,29 @@
   "is_winner": null,
   "filer_id": 1476843,
   "supporting_money": {
-    "contributions_received": 57707.0,
-    "total_contributions": 57707.0,
+    "contributions_received": 58307.0,
+    "total_contributions": 58307.0,
     "total_expenditures": 1957.82,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
-
+      {
+        "Total": 0.0,
+        "Cand_ID": 1476843,
+        "Filer_ID": "1479336",
+        "Filer_NamL": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
+        "election_name": "oakland-2025"
+      }
     ],
     "contributions_by_type": {
       "Committee": 600.0,
-      "Individual": 50515.0,
+      "Individual": 51115.0,
       "Unitemized": 6392.0,
       "Self Funding": 200.0
     },
     "contributions_by_origin": {
       "Out of State": 2300.0,
-      "Within Oakland": 36615.0,
+      "Within Oakland": 37215.0,
       "Within California": 12400.0
     },
     "total_small_contributions": 7757.0,
@@ -59,7 +65,7 @@
 
     ]
   },
-  "total_contributions": 57707.0,
+  "total_contributions": 58307.0,
   "total_expenditures": 1957.82,
   "total_loans_received": 0.0
 }
