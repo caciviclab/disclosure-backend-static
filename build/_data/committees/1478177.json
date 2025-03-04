@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 148805.0,
+  "total_contributions": 168805.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -126,6 +126,20 @@
       "Tran_NamF": "LISA",
       "Tran_NamL": "HONIG",
       "Tran_Zip4": "94110",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1449477",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2025-02-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "PROGRESSIVE ERA PAC",
+      "Tran_Zip4": "94104",
       "election_name": "oakland-2025"
     }
   ]

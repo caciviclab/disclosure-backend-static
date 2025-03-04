@@ -1764,16 +1764,16 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 316527.07,
+    "total_contributions": 321191.07,
     "total_contributions_by_source": {
-      "Out of State": 14976.0,
-      "Within Oakland": 74545.3,
-      "Within California": 215800.58
+      "Out of State": 16026.0,
+      "Within Oakland": 75195.3,
+      "Within California": 218150.58
     },
     "contributions_by_type": {
       "Committee": 195955.4,
-      "Individual": 108090.58,
-      "Unitemized": 11205.19,
+      "Individual": 112140.58,
+      "Unitemized": 11819.19,
       "Self Funding": 570.9,
       "Other (includes Businesses)": 705.0
     },
@@ -1788,7 +1788,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 73063.9
+        "amount": 77727.9
       },
       {
         "slug": "city-council-district-2",
@@ -1807,20 +1807,20 @@
         "office_title": "Mayor"
       },
       {
+        "slug": "mindy-pechenuk",
+        "type": "office",
+        "title": "Oakland April 15, 2025 Special Election",
+        "candidate": "Mindy Pechenuk",
+        "proportion": 0.11,
+        "office_title": "Mayor"
+      },
+      {
         "slug": "renia-webb",
         "type": "office",
         "title": "Oakland April 15, 2025 Special Election",
         "candidate": "Renia Webb",
         "proportion": 0.11,
         "office_title": "Mayor"
-      },
-      {
-        "slug": "charlene-wang",
-        "type": "office",
-        "title": "Oakland April 15, 2025 Special Election",
-        "candidate": "Charlene Wang",
-        "proportion": 0.09,
-        "office_title": "City Council District 2"
       }
     ],
     "largest_independent_expenditures": [
@@ -1842,7 +1842,7 @@
         "total_contributions": 70000.0
       },
       {
-        "name": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
+        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
         "election_name": "oakland-2025",
         "total_contributions": 50000.0
       }
@@ -1855,13 +1855,13 @@
         "total_contributions": 1300.0
       },
       {
-        "name": "Peralta Federation of Teachers",
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 1300.0
       },
       {
-        "name": "Oakland Education Association PAC",
+        "name": "Peralta Federation of Teachers",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 1300.0
@@ -1915,13 +1915,13 @@
         "total_spending": 1300.0
       },
       {
-        "name": "Peralta Federation of Teachers",
+        "name": "Oakland Education Association PAC",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 1300.0
       },
       {
-        "name": "Oakland Education Association PAC",
+        "name": "Peralta Federation of Teachers",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 1300.0
