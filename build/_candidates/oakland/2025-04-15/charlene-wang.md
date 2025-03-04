@@ -5,6 +5,7 @@ filer_id: '1477604'
 is_incumbent: false
 name: Charlene Wang
 occupation: Civil Rights Advisor
+photo_url: Charlene-Wang
 twitter_url: charlenewang
 website_url: https://www.charleneforoakland.com/
 facebook_url: https://www.facebook.com/profile.php?id=61558711491827

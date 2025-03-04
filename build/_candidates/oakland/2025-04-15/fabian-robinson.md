@@ -4,6 +4,7 @@ filer_id: ''
 is_incumbent: false
 name: Fabian Robinson
 occupation: Pastor
+photo_url: Fabian-Robinson
 facebook_url: https://www.facebook.com/fabian.robinson2/
 instagram_url: https://www.instagram.com/p/DDKpGOCPACY/?igsh=MzRlODBiNWFlZA%3D%3D
 ---

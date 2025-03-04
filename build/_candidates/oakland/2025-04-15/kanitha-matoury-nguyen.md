@@ -4,6 +4,7 @@ filer_id: ''
 is_incumbent: false
 name: Kanitha Matoury-Nguyen
 occupation: Proprietor/Chef
+photo_url: Kanitha-Matoury
 twitter_url: Kanitha4Oakland
 website_url: https://www.kanithaforoakland.com/
 facebook_url: https://www.facebook.com/KanithaForOakland

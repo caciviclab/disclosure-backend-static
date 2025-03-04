@@ -5,6 +5,7 @@ filer_id: '1476874'
 is_incumbent: false
 name: Tyron Jordan
 occupation: Paralegal
+photo_url: Tyron-Jordan
 twitter_url: TyronJordan13
 website_url: https://www.tyronjordanforoakland.com/
 ---

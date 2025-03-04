@@ -5,6 +5,7 @@ filer_id: '1477156'
 is_incumbent: false
 name: Mindy Pechenuk
 occupation: Educator/Researcher
+photo_url: Mindy-Pechenuk
 website_url: https://www.electmindy.com/
 facebook_url: https://www.facebook.com/mindy.pechenuk/
 instagram_url: https://www.instagram.com/elect_mindy/

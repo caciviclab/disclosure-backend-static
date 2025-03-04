@@ -4,6 +4,7 @@ filer_id: ''
 is_incumbent: false
 name: Elizabeth Swaney
 occupation: Olympian/Comedian/Barista
+photo_url: Elizabeth-Swaney
 twitter_url: ElizabethSwaney
 website_url: https://www.standupoakland.com/
 ---

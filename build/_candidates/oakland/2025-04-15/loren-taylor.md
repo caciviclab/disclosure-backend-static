@@ -5,6 +5,7 @@ filer_id: '1476843'
 is_incumbent: false
 name: Loren Taylor
 occupation: Engineer/Businessperson/Educator
+photo_url: Loren-Taylor
 twitter_url: lorenmtaylor
 website_url: https://lorenforoakland.com/
 facebook_url: https://www.facebook.com/Loren4Oakland

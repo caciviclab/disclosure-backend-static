@@ -5,6 +5,7 @@ filer_id: '1477511'
 is_incumbent: false
 name: Renia Webb
 occupation: Educator/Safety Legislator
+photo_url: Renia-Webb
 twitter_url: webbforoakland
 website_url: https://www.webbforoakland.com/
 instagram_url: https://www.instagram.com/webbforoakland/
