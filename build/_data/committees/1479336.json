@@ -1,7 +1,48 @@
 {
   "iec": true,
-  "total_contributions": 0,
+  "total_contributions": 36000.0,
   "contributions": [
-
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2025-03-03",
+      "Tran_NamF": "Derek",
+      "Tran_NamL": "Benham",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-03-03",
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Freiburg",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Rafanelli and Nahas Management Co.",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2025-03-03",
+      "Tran_NamF": "Ronald",
+      "Tran_NamL": "Nahas",
+      "Tran_Zip4": "83616",
+      "election_name": "oakland-2025"
+    }
   ]
 }
