@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 51915.0,
+  "total_contributions": 52415.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -2380,6 +2380,20 @@
       "Tran_NamF": "Deborah",
       "Tran_NamL": "Stegman",
       "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1476843",
+      "Tran_Emp": "Farella Braun + Martel",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2025-02-20",
+      "Tran_NamF": "Richard",
+      "Tran_NamL": "Shapiro",
+      "Tran_Zip4": "94618",
       "election_name": "oakland-2025"
     }
   ]

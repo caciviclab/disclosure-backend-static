@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 19521.5,
+  "total_contributions": 23121.5,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -1204,6 +1204,48 @@
       "Tran_NamF": "Linda",
       "Tran_NamL": "Zitzner",
       "Tran_Zip4": "94611",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "990469",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2025-02-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "LPAC",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1302835",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-02-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "AAGG PAC",
+      "Tran_Zip4": "945688",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1273532",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
     }
   ]

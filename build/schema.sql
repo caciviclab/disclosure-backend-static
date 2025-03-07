@@ -109,7 +109,7 @@ CREATE TABLE public."497" (
     "Bal_Num" character varying(4),
     "Bal_Juris" character varying(31),
     "Memo_Code" character varying(32),
-    "Memo_RefNo" character varying(13),
+    "Memo_RefNo" character varying(32),
     "Rpt_ID_Num" character varying(14) NOT NULL
 );
 
