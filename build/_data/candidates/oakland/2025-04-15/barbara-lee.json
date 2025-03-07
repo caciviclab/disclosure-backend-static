@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1477668,
   "supporting_money": {
-    "contributions_received": 7600.0,
-    "total_contributions": 7600.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 293156.77,
+    "total_contributions": 293156.77,
+    "total_expenditures": 149804.82,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 18500.0,
     "support_list": [
       {
@@ -43,20 +43,32 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 7600.0
+      "Committee": 16650.0,
+      "Individual": 248343.5,
+      "Unitemized": 27292.27,
+      "Other (includes Businesses)": 871.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 2500.0,
-      "Within California": 5100.0
+      "Out of State": 29426.0,
+      "Within Oakland": 121797.0,
+      "Within California": 114641.5
     },
-    "total_small_contributions": 0.0,
+    "total_small_contributions": 34008.77,
     "expenditures_by_type": {
+      "Print Ads": 500.0,
+      "Not Stated": 8360.0,
+      "Phone Banks": 6569.6,
+      "Office Expenses": 22157.23,
+      "Fundraising Events": 10000.0,
+      "Campaign Consultants": 24500.0,
+      "Polling and Survey Research": 30000.0,
+      "Campaign Paraphernalia/Misc.": 6541.5,
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Staff/Spouse Travel, Lodging, and Meals": 20.0,
+      "Information Technology Costs (Internet, E-mail)": 3973.05
     },
     "supporting_by_type": {
-      "Consulting": 5000.0,
-      "Newspaper ads": 10000.0,
-      "Graphic Design services": 3500.0,
-      "Independent Expenditure Supporting/Opposing Others": 156.45
+      "Independent Expenditure Supporting/Opposing Others": 18656.45
     }
   },
   "opposing_money": {
@@ -73,7 +85,7 @@
       }
     ]
   },
-  "total_contributions": 7600.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 293156.77,
+  "total_expenditures": 149804.82,
+  "total_loans_received": 0.0
 }

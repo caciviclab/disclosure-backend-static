@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2025-04-15.md
 candidates:
-- kara-murray-badal
 - charlene-wang
+- kara-murray-badal
 - harold-lowe
 - kanitha-matoury-nguyen
 - kenneth-anderson

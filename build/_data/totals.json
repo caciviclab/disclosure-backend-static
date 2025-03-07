@@ -780,14 +780,14 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 8029002.54,
+    "total_contributions": 8030002.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2928387.86,
+      "Within Oakland": 2929387.86,
       "Within California": 4381259.45
     },
     "contributions_by_type": {
-      "Committee": 1715388.97,
+      "Committee": 1716388.97,
       "Individual": 2840852.39,
       "Unitemized": 130609.9,
       "Self Funding": 16387.78,
@@ -1764,20 +1764,26 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 329091.07,
+    "total_contributions": 947110.38,
     "total_contributions_by_source": {
-      "Out of State": 16026.0,
-      "Within Oakland": 77995.3,
-      "Within California": 223250.58
+      "Out of State": 51969.0,
+      "Within Oakland": 417653.3,
+      "Within California": 408096.01
     },
     "contributions_by_type": {
-      "Committee": 203355.4,
-      "Individual": 112640.58,
-      "Unitemized": 11819.19,
+      "Committee": 214232.5,
+      "Individual": 657938.91,
+      "Unitemized": 69392.07,
       "Self Funding": 570.9,
-      "Other (includes Businesses)": 705.0
+      "Other (includes Businesses)": 4976.0
     },
     "most_expensive_races": [
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 615851.85
+      },
       {
         "slug": "general-sales-tax",
         "type": "referendum",
@@ -1785,16 +1791,10 @@
         "amount": 187755.4
       },
       {
-        "slug": "mayor",
-        "type": "office",
-        "title": "Mayor",
-        "amount": 78227.9
-      },
-      {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 63107.77
+        "amount": 143503.13
       }
     ],
     "largest_small_proportion": [
@@ -1807,18 +1807,18 @@
         "office_title": "Mayor"
       },
       {
+        "slug": "barbara-lee",
+        "type": "office",
+        "title": "Oakland April 15, 2025 Special Election",
+        "candidate": "Barbara Lee",
+        "proportion": 0.12,
+        "office_title": "Mayor"
+      },
+      {
         "slug": "mindy-pechenuk",
         "type": "office",
         "title": "Oakland April 15, 2025 Special Election",
         "candidate": "Mindy Pechenuk",
-        "proportion": 0.11,
-        "office_title": "Mayor"
-      },
-      {
-        "slug": "renia-webb",
-        "type": "office",
-        "title": "Oakland April 15, 2025 Special Election",
-        "candidate": "Renia Webb",
         "proportion": 0.11,
         "office_title": "Mayor"
       }
@@ -1842,7 +1842,7 @@
         "total_contributions": 70000.0
       },
       {
-        "name": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS- LOCAL 21 TJ ANTHONY PAC FUND",
+        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
         "election_name": "oakland-2025",
         "total_contributions": 50000.0
       }
@@ -1861,10 +1861,10 @@
         "total_contributions": 2500.0
       },
       {
-        "name": "Peralta Federation of Teachers",
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_contributions": 1300.0
+        "total_contributions": 2400.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1915,16 +1915,16 @@
         "total_spending": 2600.0
       },
       {
+        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_spending": 2600.0
+      },
+      {
         "name": "Alameda Labor Council, AFL-CIO Unity PAC",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 2500.0
-      },
-      {
-        "name": "Oakland Education Association PAC",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_spending": 1300.0
       }
     ],
     "top_spenders_for_measures": [

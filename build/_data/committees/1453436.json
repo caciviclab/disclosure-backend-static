@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 33400.0,
+  "total_contributions": 34400.0,
   "contributions": [
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -1442,6 +1442,20 @@
       "Tran_NamF": "Edward",
       "Tran_NamL": "Gerber",
       "Tran_Zip4": "94611",
+      "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1453436",
+      "Filer_ID": "1453436",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2025-01-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "LOWE FOR CITY COUNCIL 2024",
+      "Tran_Zip4": "94606",
       "election_name": "oakland-2022"
     }
   ]
