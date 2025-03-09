@@ -72,12 +72,14 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 0.0,
+    "opposing_expenditures": 11500.0,
     "opposing_by_type": {
+      "Website": 1500.0,
+      "Video Advertisements": 10000.0
     },
     "opposition_list": [
       {
-        "Total": 0.0,
+        "Total": 11500.0,
         "Cand_ID": 1477668,
         "Filer_ID": "1479336",
         "Filer_NamL": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
