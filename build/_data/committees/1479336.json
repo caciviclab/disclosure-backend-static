@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 36000.0,
+  "total_contributions": 37000.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -42,6 +42,20 @@
       "Tran_NamF": "Ronald",
       "Tran_NamL": "Nahas",
       "Tran_Zip4": "83616",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2025-03-07",
+      "Tran_NamF": "Charlton",
+      "Tran_NamL": "Holland",
+      "Tran_Zip4": "94610",
       "election_name": "oakland-2025"
     }
   ]

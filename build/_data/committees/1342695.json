@@ -5183,20 +5183,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 8th, 2016 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Self-Employed, No Separate Business Name",
-      "Tran_Occ": "Property Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 95.0,
-      "Tran_Date": "2016-01-29",
-      "Tran_NamF": "Robert",
-      "Tran_NamL": "Zolly",
-      "Tran_Zip4": "94619",
-      "election_name": "oakland-2016"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -5214,6 +5200,20 @@
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
+      "Tran_Emp": "Self-Employed, No Separate Business Name",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2016-01-29",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Zolly",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2016"
+    },
+    {
+      "title": "Oakland November 8th, 2016 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
@@ -6105,6 +6105,20 @@
       "Tran_NamL": "J & R Associates",
       "Tran_Zip4": "94609",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 8th, 2016 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 30.0,
+      "Tran_Date": "2016-05-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Foxfire Property Management",
+      "Tran_Zip4": "94127-1518",
+      "election_name": "oakland-2016"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -6119,20 +6133,6 @@
       "Tran_NamL": "Foxfire Property Management",
       "Tran_Zip4": "94127-1518",
       "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 8th, 2016 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 30.0,
-      "Tran_Date": "2016-05-06",
-      "Tran_NamF": null,
-      "Tran_NamL": "Foxfire Property Management",
-      "Tran_Zip4": "94127-1518",
-      "election_name": "oakland-2016"
     },
     {
       "title": "Oakland November 8th, 2016 Election",
@@ -6359,20 +6359,6 @@
       "election_name": "oakland-2016"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 30.0,
-      "Tran_Date": "2016-06-30",
-      "Tran_NamF": "Laurie",
-      "Tran_NamL": "Burke",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -6385,6 +6371,20 @@
       "Tran_NamL": "Burke",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2016"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 30.0,
+      "Tran_Date": "2016-06-30",
+      "Tran_NamF": "Laurie",
+      "Tran_NamL": "Burke",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 8th, 2016 Election",
@@ -9663,20 +9663,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 95.0,
-      "Tran_Date": "2017-06-09",
-      "Tran_NamF": null,
-      "Tran_NamL": "J & R Associates",
-      "Tran_Zip4": "94609",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 6th, 2018 Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -9689,6 +9675,20 @@
       "Tran_NamL": "J & R Associates",
       "Tran_Zip4": "94609",
       "election_name": "oakland-2018"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2017-06-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "J & R Associates",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 6th, 2018 Election",
@@ -11707,6 +11707,20 @@
       "election_name": "oakland-2024"
     },
     {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2017-10-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "S&H Properties",
+      "Tran_Zip4": "94611-4131",
+      "election_name": "oakland-2024"
+    },
+    {
       "title": "Oakland November 6th, 2018 Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -11727,20 +11741,6 @@
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2017-10-02",
-      "Tran_NamF": null,
-      "Tran_NamL": "S&H Properties",
-      "Tran_Zip4": "94611-4131",
-      "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
       "Tran_Amt1": 30.0,
       "Tran_Date": "2017-10-10",
       "Tran_NamF": null,
@@ -12547,20 +12547,6 @@
       "election_name": "oakland-2018"
     },
     {
-      "title": "Oakland November 6th, 2018 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Requested",
-      "Tran_Occ": "Requested",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 95.0,
-      "Tran_Date": "2018-01-05",
-      "Tran_NamF": "Munawar",
-      "Tran_NamL": "Husain",
-      "Tran_Zip4": "94610-4638",
-      "election_name": "oakland-2018"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -12581,11 +12567,11 @@
       "Tran_Emp": "Requested",
       "Tran_Occ": "Requested",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 30.0,
-      "Tran_Date": "2018-01-22",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Gawthorne",
-      "Tran_Zip4": "94619",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2018-01-05",
+      "Tran_NamF": "Munawar",
+      "Tran_NamL": "Husain",
+      "Tran_Zip4": "94610-4638",
       "election_name": "oakland-2018"
     },
     {
@@ -12601,6 +12587,20 @@
       "Tran_NamL": "Gawthorne",
       "Tran_Zip4": "94619",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 6th, 2018 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Requested",
+      "Tran_Occ": "Requested",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 30.0,
+      "Tran_Date": "2018-01-22",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Gawthorne",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2018"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -12852,20 +12852,6 @@
       "Tran_NamF": null,
       "Tran_NamL": "Iron Horse Park/Greystar",
       "Tran_Zip4": "94523",
-      "election_name": "oakland-2018"
-    },
-    {
-      "title": "Oakland November 6th, 2018 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Kasa Operations Inc.",
-      "Tran_Occ": "CEO, Property Management",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 30.0,
-      "Tran_Date": "2018-01-31",
-      "Tran_NamF": "Natasha",
-      "Tran_NamL": "Kapoor-Acuna",
-      "Tran_Zip4": "94704",
       "election_name": "oakland-2018"
     },
     {
@@ -12881,6 +12867,20 @@
       "Tran_NamL": "Kapoor-Acuna",
       "Tran_Zip4": "94704",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 6th, 2018 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Kasa Operations Inc.",
+      "Tran_Occ": "CEO, Property Management",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 30.0,
+      "Tran_Date": "2018-01-31",
+      "Tran_NamF": "Natasha",
+      "Tran_NamL": "Kapoor-Acuna",
+      "Tran_Zip4": "94704",
+      "election_name": "oakland-2018"
     },
     {
       "title": "Oakland November 6th, 2018 Election",
@@ -14843,20 +14843,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Requested",
-      "Tran_Occ": "Requested",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 95.0,
-      "Tran_Date": "2018-06-01",
-      "Tran_NamF": "Mitch",
-      "Tran_NamL": "Tunick",
-      "Tran_Zip4": "94595",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 6th, 2018 Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -14877,6 +14863,20 @@
       "Tran_Emp": "Requested",
       "Tran_Occ": "Requested",
       "Entity_Cd": "Individual",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2018-06-01",
+      "Tran_NamF": "Mitch",
+      "Tran_NamL": "Tunick",
+      "Tran_Zip4": "94595",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Requested",
+      "Tran_Occ": "Requested",
+      "Entity_Cd": "Individual",
       "Tran_Amt1": 30.0,
       "Tran_Date": "2018-06-01",
       "Tran_NamF": "Anne",
@@ -14927,20 +14927,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 6th, 2018 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 30.0,
-      "Tran_Date": "2018-06-07",
-      "Tran_NamF": null,
-      "Tran_NamL": "EEN Property Management",
-      "Tran_Zip4": "94509",
-      "election_name": "oakland-2018"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -14953,6 +14939,20 @@
       "Tran_NamL": "EEN Property Management",
       "Tran_Zip4": "94509",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 6th, 2018 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 30.0,
+      "Tran_Date": "2018-06-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "EEN Property Management",
+      "Tran_Zip4": "94509",
+      "election_name": "oakland-2018"
     },
     {
       "title": "Oakland November 6th, 2018 Election",
@@ -16999,20 +16999,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Self Employed",
-      "Tran_Occ": "Real Estate",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2018-09-06",
-      "Tran_NamF": "Jamie",
-      "Tran_NamL": "Miller",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 6th, 2018 Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -17025,6 +17011,20 @@
       "Tran_NamL": "Miller",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2018"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2018-09-06",
+      "Tran_NamF": "Jamie",
+      "Tran_NamL": "Miller",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 6th, 2018 Election",
@@ -18343,20 +18343,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 6th, 2018 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Self Employed",
-      "Tran_Occ": "Real Estate",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 95.0,
-      "Tran_Date": "2018-10-09",
-      "Tran_NamF": "Ann",
-      "Tran_NamL": "McClain",
-      "Tran_Zip4": "94611-5378",
-      "election_name": "oakland-2018"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -18369,6 +18355,20 @@
       "Tran_NamL": "McClain",
       "Tran_Zip4": "94611-5378",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 6th, 2018 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2018-10-09",
+      "Tran_NamF": "Ann",
+      "Tran_NamL": "McClain",
+      "Tran_Zip4": "94611-5378",
+      "election_name": "oakland-2018"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -19015,20 +19015,6 @@
       "election_name": "oakland-2018"
     },
     {
-      "title": "Oakland November 6th, 2018 Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 95.0,
-      "Tran_Date": "2018-11-06",
-      "Tran_NamF": null,
-      "Tran_NamL": "California Affordable Housing Group LLC",
-      "Tran_Zip4": "95356",
-      "election_name": "oakland-2018"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -19041,6 +19027,20 @@
       "Tran_NamL": "California Affordable Housing Group LLC",
       "Tran_Zip4": "95356",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 6th, 2018 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 95.0,
+      "Tran_Date": "2018-11-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Affordable Housing Group LLC",
+      "Tran_Zip4": "95356",
+      "election_name": "oakland-2018"
     },
     {
       "title": "Oakland November 6th, 2018 Election",
@@ -19911,20 +19911,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 125.0,
-      "Tran_Date": "2019-02-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "Montevista Senior Apartments/Winn",
-      "Tran_Zip4": "94806",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -19937,6 +19923,20 @@
       "Tran_NamL": "Montevista Senior Apartments/Winn",
       "Tran_Zip4": "94806",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2019-02-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Montevista Senior Apartments/Winn",
+      "Tran_Zip4": "94806",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -20163,20 +20163,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Bel Aire Properties, LLC",
-      "Tran_Occ": "Property Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 190.0,
-      "Tran_Date": "2019-03-01",
-      "Tran_NamF": "Robert",
-      "Tran_NamL": "Zolly",
-      "Tran_Zip4": "94619",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -20189,6 +20175,20 @@
       "Tran_NamL": "Zolly",
       "Tran_Zip4": "94619",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Bel Aire Properties, LLC",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 190.0,
+      "Tran_Date": "2019-03-01",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Zolly",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -20835,20 +20835,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 125.0,
-      "Tran_Date": "2019-08-15",
-      "Tran_NamF": null,
-      "Tran_NamL": "Legal ONE Realty- DBA Bay Property Group",
-      "Tran_Zip4": "94609",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -20861,6 +20847,20 @@
       "Tran_NamL": "Legal ONE Realty- DBA Bay Property Group",
       "Tran_Zip4": "94609",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2019-08-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Legal ONE Realty- DBA Bay Property Group",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -21199,20 +21199,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Bitzer Realty",
-      "Tran_Occ": "Realtor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 150.0,
-      "Tran_Date": "2019-09-20",
-      "Tran_NamF": "Mark",
-      "Tran_NamL": "Bitzer",
-      "Tran_Zip4": "94610",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -21225,6 +21211,20 @@
       "Tran_NamL": "Bitzer",
       "Tran_Zip4": "94610",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Bitzer Realty",
+      "Tran_Occ": "Realtor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2019-09-20",
+      "Tran_NamF": "Mark",
+      "Tran_NamL": "Bitzer",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -21255,20 +21255,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Self Employed",
-      "Tran_Occ": "Property Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 165.0,
-      "Tran_Date": "2019-09-21",
-      "Tran_NamF": "Homayoun",
-      "Tran_NamL": "Ghaderi",
-      "Tran_Zip4": "94601",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -21281,6 +21267,20 @@
       "Tran_NamL": "Ghaderi",
       "Tran_Zip4": "94601",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Self Employed",
+      "Tran_Occ": "Property Manager",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 165.0,
+      "Tran_Date": "2019-09-21",
+      "Tran_NamF": "Homayoun",
+      "Tran_NamL": "Ghaderi",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -21927,20 +21927,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": "Gawthone Enterprises",
-      "Tran_Occ": "Principal",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 125.0,
-      "Tran_Date": "2019-12-19",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Gawthorne",
-      "Tran_Zip4": "94619",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -21953,6 +21939,20 @@
       "Tran_NamL": "Gawthorne",
       "Tran_Zip4": "94619",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": "Gawthone Enterprises",
+      "Tran_Occ": "Principal",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 125.0,
+      "Tran_Date": "2019-12-19",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Gawthorne",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -24167,20 +24167,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 190.0,
-      "Tran_Date": "2020-10-19",
-      "Tran_NamF": null,
-      "Tran_NamL": "Salles Group( Corporation)",
-      "Tran_Zip4": "95476",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -24193,6 +24179,20 @@
       "Tran_NamL": "Salles Group( Corporation)",
       "Tran_Zip4": "95476",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 190.0,
+      "Tran_Date": "2020-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Salles Group( Corporation)",
+      "Tran_Zip4": "95476",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -25119,20 +25119,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 190.0,
-      "Tran_Date": "2021-03-12",
-      "Tran_NamF": null,
-      "Tran_NamL": "PMI Alvarado LLC(Kin Brackett)",
-      "Tran_Zip4": "94587",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -25145,6 +25131,20 @@
       "Tran_NamL": "PMI Alvarado LLC(Kin Brackett)",
       "Tran_Zip4": "94587",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 190.0,
+      "Tran_Date": "2021-03-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "PMI Alvarado LLC(Kin Brackett)",
+      "Tran_Zip4": "94587",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 8th, 2022 General Election",
@@ -25343,20 +25343,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 409.5,
-      "Tran_Date": "2022-06-16",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association",
-      "Tran_Zip4": "94610",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -25369,6 +25355,20 @@
       "Tran_NamL": "East Bay Rental Housing Association",
       "Tran_Zip4": "94610",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 409.5,
+      "Tran_Date": "2022-06-16",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -25399,20 +25399,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1342695",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 418.5,
-      "Tran_Date": "2022-10-06",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association",
-      "Tran_Zip4": "94610",
-      "election_name": "oakland-2022"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1342695",
@@ -25425,6 +25411,20 @@
       "Tran_NamL": "East Bay Rental Housing Association",
       "Tran_Zip4": "94610",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1342695",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 418.5,
+      "Tran_Date": "2022-10-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2022"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
