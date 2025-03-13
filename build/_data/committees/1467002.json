@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 6690.0,
+  "total_contributions": 6790.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -588,6 +588,20 @@
       "Tran_NamF": "Folu",
       "Tran_NamL": "Afolabi",
       "Tran_Zip4": "95838",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467002",
+      "Tran_Emp": "Mushin Bar, LLC",
+      "Tran_Occ": "Founder & GM",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-03-10",
+      "Tran_NamF": "Baba",
+      "Tran_NamL": "Afolabi",
+      "Tran_Zip4": "94610",
       "election_name": "oakland-2024"
     }
   ]

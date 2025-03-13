@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 178805.0,
+  "total_contributions": 183805.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -154,6 +154,20 @@
       "Tran_NamF": null,
       "Tran_NamL": "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL 595 PAC",
       "Tran_Zip4": "94568",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "850381",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-03-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "SHEET METAL WORKERS LOCAL UNION 104 POLITICAL COMMITTEE",
+      "Tran_Zip4": "94551",
       "election_name": "oakland-2025"
     }
   ]
