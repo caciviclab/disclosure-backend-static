@@ -25,7 +25,7 @@ CalculatorRunner
 
 # This must be before Candidate because candidate also output committee files
 # that can duplicate these.
-Committee.includes(:calculations).joins(:election).order("elections.date ASC").each do |committee|
+Committee.includes(:calculations).find_each do |committee|
   next if committee['Filer_ID'].nil?
   next if committee['Filer_ID'] =~ /pending/i
 

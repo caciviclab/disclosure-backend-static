@@ -4,7 +4,6 @@ class Election < ActiveRecord::Base
   has_many :candidates, foreign_key: :election_name, primary_key: :name
   has_many :office_elections, foreign_key: :election_name, primary_key: :name
   has_many :referendums, foreign_key: :election_name, primary_key: :name
-  has_many :committees, foreign_key: 'Ballot_Measure_Election', primary_key: :name
 
   def locality
     name.split('-', 2).first

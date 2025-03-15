@@ -1,8 +1,6 @@
 class Committee < ActiveRecord::Base
   include HasCalculations
 
-  belongs_to :election, foreign_key: 'Ballot_Measure_Election', primary_key: 'name'
-
   def self.from_candidate(candidate)
     new(
       Filer_ID: candidate.FPPC,
@@ -28,7 +26,6 @@ class Committee < ActiveRecord::Base
       iec: true,
       total_contributions: calculation(:contribution_list_total),
       contributions: calculation(:contribution_list) || [],
-      contributions_by_election: calculation(:total_by_election) || [],
     }
   end
 end

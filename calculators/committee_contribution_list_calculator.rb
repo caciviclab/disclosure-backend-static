@@ -45,20 +45,14 @@ class CommitteeContributionListCalculator
         sorted = Array(contributions_by_committee[filer_id])
         total_contributions = 0
         total_small = 0
-        total_by_election = {}
         sorted.each do |contribution|
           amount = contribution['Tran_Amt1']
           total_contributions += amount
           total_small += amount unless amount  >= 100 || amount <= -100
-          election_title = contribution['title']
-          total_by_election[election_title] ||= 0
-          total_by_election[election_title] += amount.round(2)
-
         end
         committee_or_candidate.save_calculation(:contribution_list, sorted)
         committee_or_candidate.save_calculation(:contribution_list_total, total_contributions.round(2))
         committee_or_candidate.save_calculation(:total_small_itemized_contributions, total_small.round(2))
-        committee_or_candidate.save_calculation(:total_by_election, total_by_election)
       end
     end
   end
