@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 187755.4,
+  "total_contributions": 197755.4,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -57,6 +57,23 @@
       "Tran_NamL": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
       "Tran_Zip4": "94103",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1478689",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-03-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
     }
-  ]
+  ],
+  "contributions_by_election": {
+    "Oakland April 15, 2025 Special Election": 197755.4
+  }
 }

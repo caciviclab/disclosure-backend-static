@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 183805.0,
+  "total_contributions": 203805.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -169,6 +169,23 @@
       "Tran_NamL": "SHEET METAL WORKERS LOCAL UNION 104 POLITICAL COMMITTEE",
       "Tran_Zip4": "94551",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478177",
+      "Tran_Emp": "KAISER FOUNDATION HEALTH PLAN, INC.",
+      "Tran_Occ": "CHAIR & CHIEF EXECUTIVE OFFICER",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2025-03-14",
+      "Tran_NamF": "GREGORY",
+      "Tran_NamL": "ADAMS",
+      "Tran_Zip4": "91001-2828",
+      "election_name": "oakland-2025"
     }
-  ]
+  ],
+  "contributions_by_election": {
+    "Oakland April 15, 2025 Special Election": 203805.0
+  }
 }

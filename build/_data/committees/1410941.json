@@ -167,7 +167,7 @@
       "Tran_Date": "2018-09-24",
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management, Inc.",
-      "Tran_Zip4": "94661",
+      "Tran_Zip4": "10022",
       "election_name": "oakland-2018"
     },
     {
@@ -181,7 +181,7 @@
       "Tran_Date": "2018-09-24",
       "Tran_NamF": null,
       "Tran_NamL": "Morse Management, Inc.",
-      "Tran_Zip4": "10022",
+      "Tran_Zip4": "94661",
       "election_name": "oakland-2018"
     },
     {
@@ -1035,7 +1035,7 @@
       "Tran_Date": "2018-10-19",
       "Tran_NamF": "Garrett",
       "Tran_NamL": "Riegg",
-      "Tran_Zip4": "94606",
+      "Tran_Zip4": "94602",
       "election_name": "oakland-2018"
     },
     {
@@ -1049,7 +1049,7 @@
       "Tran_Date": "2018-10-19",
       "Tran_NamF": "Garrett",
       "Tran_NamL": "Riegg",
-      "Tran_Zip4": "94602",
+      "Tran_Zip4": "94606",
       "election_name": "oakland-2018"
     },
     {
@@ -1430,5 +1430,8 @@
       "Tran_Zip4": "94602",
       "election_name": "oakland-2018"
     }
-  ]
+  ],
+  "contributions_by_election": {
+    "Oakland November 6th, 2018 Election": 328293.58999999997
+  }
 }
