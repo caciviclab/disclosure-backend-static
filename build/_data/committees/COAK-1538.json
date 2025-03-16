@@ -1,0 +1,23 @@
+{
+  "iec": true,
+  "total_contributions": 10000.0,
+  "contributions": [
+    {
+      "title": "Oakland November 4th, 2014 Election",
+      "Cmte_ID": null,
+      "Filer_ID": "COAK-1538",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2014-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "PMACC DBA Harborside Health Center",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2014"
+    }
+  ],
+  "contributions_by_election": {
+    "Oakland November 4th, 2014 Election": 10000.0
+  }
+}

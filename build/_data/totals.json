@@ -190,7 +190,24 @@
       }
     ],
     "top_spenders_for_measures": [
-
+      {
+        "name": "PMACC DBA Harborside Health Center",
+        "type": "Measure",
+        "election_name": "oakland-2014",
+        "total_spending": 10000.0
+      },
+      {
+        "name": "Karen Banks",
+        "type": "Measure",
+        "election_name": "oakland-2014",
+        "total_spending": 9500.0
+      },
+      {
+        "name": "Ralph Long",
+        "type": "Measure",
+        "election_name": "oakland-2014",
+        "total_spending": 5000.0
+      }
     ]
   },
   "oakland-2016": {
