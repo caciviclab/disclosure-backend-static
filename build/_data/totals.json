@@ -1781,10 +1781,10 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 968160.38,
+    "total_contributions": 969160.38,
     "total_contributions_by_source": {
       "Out of State": 51969.0,
-      "Within Oakland": 428303.3,
+      "Within Oakland": 429303.3,
       "Within California": 418496.01
     },
     "contributions_by_type": {
@@ -1792,7 +1792,7 @@
       "Individual": 658588.91,
       "Unitemized": 69392.07,
       "Self Funding": 570.9,
-      "Other (includes Businesses)": 4976.0
+      "Other (includes Businesses)": 5976.0
     },
     "most_expensive_races": [
       {
@@ -1805,7 +1805,7 @@
         "slug": "general-sales-tax",
         "type": "referendum",
         "title": "Measure A",
-        "amount": 197755.4
+        "amount": 198755.4
       },
       {
         "slug": "city-council-district-2",
@@ -1844,7 +1844,7 @@
       {
         "name": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
         "election_name": "oakland-2025",
-        "total_spending": 52243.0
+        "total_spending": 102999.0
       },
       {
         "name": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
