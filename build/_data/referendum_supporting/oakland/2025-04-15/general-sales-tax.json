@@ -12,7 +12,7 @@
       "locale": "Within California"
     },
     {
-      "amount": 22755.4,
+      "amount": 23755.4,
       "locale": "Within Oakland"
     }
   ],
@@ -20,6 +20,10 @@
     {
       "type": "Committee",
       "amount": 197755.4
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 1000.0
     }
   ],
   "supporting_organizations": [
@@ -30,5 +34,5 @@
       "amount": 64172.89
     }
   ],
-  "total_contributions": 197755.4
+  "total_contributions": 198755.4
 }
