@@ -1859,6 +1859,11 @@
     ],
     "top_contributors": [
       {
+        "name": "CALIFORNIA NURSES ASSOCIATION POLITICAL ACTION COMMITTEE (CNA-PAC)",
+        "election_name": "oakland-2025",
+        "total_contributions": 150000.0
+      },
+      {
         "name": "California Workers Justice Coalition",
         "election_name": "oakland-2025",
         "total_contributions": 75000.0
@@ -1867,11 +1872,6 @@
         "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
         "election_name": "oakland-2025",
         "total_contributions": 70000.0
-      },
-      {
-        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
-        "election_name": "oakland-2025",
-        "total_contributions": 50000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -1908,13 +1908,19 @@
         "total_contributions": 70000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 Issues PAC",
+        "name": "Ronald Nahas",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_contributions": 30000.0
+        "total_contributions": 50000.0
       }
     ],
     "top_spenders": [
+      {
+        "name": "CALIFORNIA NURSES ASSOCIATION POLITICAL ACTION COMMITTEE (CNA-PAC)",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 150000.0
+      },
       {
         "name": "California Workers Justice Coalition",
         "type": "Measure",
@@ -1926,12 +1932,6 @@
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_spending": 70000.0
-      },
-      {
-        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
-        "type": "Measure",
-        "election_name": "oakland-2025",
-        "total_spending": 50000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1956,6 +1956,12 @@
     ],
     "top_spenders_for_measures": [
       {
+        "name": "CALIFORNIA NURSES ASSOCIATION POLITICAL ACTION COMMITTEE (CNA-PAC)",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_spending": 150000.0
+      },
+      {
         "name": "California Workers Justice Coalition",
         "type": "Measure",
         "election_name": "oakland-2025",
@@ -1966,12 +1972,6 @@
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_spending": 70000.0
-      },
-      {
-        "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
-        "type": "Measure",
-        "election_name": "oakland-2025",
-        "total_spending": 50000.0
       }
     ]
   },

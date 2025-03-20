@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 39500.0,
+  "total_contributions": 84500.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -85,9 +85,37 @@
       "Tran_NamL": "Klinedinst",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Rafanelli & Nahas",
+      "Tran_Occ": "Real Estate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2025-03-17",
+      "Tran_NamF": "Ronald",
+      "Tran_NamL": "Nahas",
+      "Tran_Zip4": "83616",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Golden State Warriors",
+      "Tran_Occ": "Special Advisor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2025-03-18",
+      "Tran_NamF": "Marty",
+      "Tran_NamL": "Glick",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 39500.0
+    "Oakland April 15, 2025 Special Election": 84500.0
   }
 }

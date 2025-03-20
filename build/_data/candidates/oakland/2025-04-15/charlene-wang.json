@@ -25,9 +25,15 @@
     "total_contributions": 79177.62,
     "total_expenditures": 11990.8,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 6602.0,
     "support_list": [
-
+      {
+        "Total": 6602.0,
+        "Cand_ID": 1477604,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2025"
+      }
     ],
     "contributions_by_type": {
       "Committee": 6400.0,
@@ -52,7 +58,7 @@
       "Information Technology Costs (Internet, E-mail)": 1500.0
     },
     "supporting_by_type": {
-      "Mailer": 2398.0,
+      "Mailer": 9000.0,
       "Text Messages": 357.0
     }
   },
