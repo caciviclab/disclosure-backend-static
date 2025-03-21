@@ -1585,17 +1585,17 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3590990.2,
+    "total_contributions": 3591565.2,
     "total_contributions_by_source": {
       "Out of State": 139089.14,
-      "Within Oakland": 2060117.97,
+      "Within Oakland": 2060617.97,
       "Within California": 1194890.73
     },
     "contributions_by_type": {
       "PTY": 1600.0,
       "Committee": 927863.92,
-      "Individual": 1169353.89,
-      "Unitemized": 98492.36,
+      "Individual": 1169853.89,
+      "Unitemized": 98567.36,
       "Self Funding": 18654.19,
       "Other (includes Businesses)": 1276625.84
     },
@@ -1616,7 +1616,7 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 342352.82
+        "amount": 342927.82
       }
     ],
     "largest_small_proportion": [
@@ -1781,14 +1781,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 969160.38,
+    "total_contributions": 1024160.38,
     "total_contributions_by_source": {
       "Out of State": 51969.0,
-      "Within Oakland": 429303.3,
+      "Within Oakland": 484303.3,
       "Within California": 418496.01
     },
     "contributions_by_type": {
-      "Committee": 234632.5,
+      "Committee": 289632.5,
       "Individual": 658588.91,
       "Unitemized": 69392.07,
       "Self Funding": 570.9,
@@ -1805,7 +1805,7 @@
         "slug": "general-sales-tax",
         "type": "referendum",
         "title": "Measure A",
-        "amount": 198755.4
+        "amount": 253755.4
       },
       {
         "slug": "city-council-district-2",
@@ -1908,10 +1908,10 @@
         "total_contributions": 70000.0
       },
       {
-        "name": "Ronald Nahas",
+        "name": "IAFF Local 55 PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_contributions": 50000.0
+        "total_contributions": 55000.0
       }
     ],
     "top_spenders": [

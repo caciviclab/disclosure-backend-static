@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 198755.4,
+  "total_contributions": 253755.4,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -85,9 +85,23 @@
       "Tran_NamL": "East Bay Action",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "892160",
+      "Filer_ID": "1478689",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 55000.0,
+      "Tran_Date": "2025-03-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "IAFF Local 55 PAC",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 198755.4
+    "Oakland April 15, 2025 Special Election": 253755.4
   }
 }

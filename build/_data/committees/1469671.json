@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 83062.2,
+  "total_contributions": 83562.2,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -852,7 +852,7 @@
       "Tran_Amt1": 250.0,
       "Tran_Date": "2024-06-19",
       "Tran_NamF": "Patricia",
-      "Tran_NamL": "Schneider",
+      "Tran_NamL": "Joselewitz",
       "Tran_Zip4": "94610",
       "election_name": "oakland-2024"
     },
@@ -2597,6 +2597,20 @@
       "Cmte_ID": null,
       "Filer_ID": "1469671",
       "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 575.0,
+      "Tran_Date": "2024-07-26",
+      "Tran_NamF": "Trishala",
+      "Tran_NamL": "Vinnakota",
+      "Tran_Zip4": "94060",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469671",
+      "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 25.0,
@@ -2870,20 +2884,6 @@
       "Tran_NamF": "Michael",
       "Tran_NamL": "Valerio",
       "Tran_Zip4": "94610",
-      "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1469671",
-      "Tran_Emp": "Karen Clayton",
-      "Tran_Occ": "Property Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2024-08-12",
-      "Tran_NamF": "Karen",
-      "Tran_NamL": "Clayton",
-      "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
     },
     {
@@ -3178,20 +3178,6 @@
       "Tran_NamF": "Sheila",
       "Tran_NamL": "Kilty",
       "Tran_Zip4": "94602",
-      "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1469671",
-      "Tran_Emp": "Compass",
-      "Tran_Occ": "Sales Manager",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2024-09-04",
-      "Tran_NamF": "Lisa",
-      "Tran_NamL": "Cartolano",
-      "Tran_Zip4": "94619",
       "election_name": "oakland-2024"
     },
     {
@@ -3948,6 +3934,20 @@
       "Tran_NamF": "Brenda",
       "Tran_NamL": "Vallenas",
       "Tran_Zip4": "94602",
+      "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469671",
+      "Tran_Emp": "Trishala Vinnakota",
+      "Tran_Occ": "Political Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25.0,
+      "Tran_Date": "2024-09-18",
+      "Tran_NamF": "Trishala",
+      "Tran_NamL": "Vinnakota",
+      "Tran_Zip4": "94606",
       "election_name": "oakland-2024"
     },
     {
