@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 273664.5,
+  "total_contributions": 277564.5,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -15736,6 +15736,48 @@
       "Tran_NamF": null,
       "Tran_NamL": "UAW Region 6 Western States PAC",
       "Tran_Zip4": "90660",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1259780",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Asian American for Good Government PAC",
+      "Tran_Zip4": "95688",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1460381",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Building and Construction Trades Council of Alameda County PAC",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1379624",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Contra Costa United Working Families",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2025"
     }
   ]

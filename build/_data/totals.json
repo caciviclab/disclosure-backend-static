@@ -1781,14 +1781,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1024160.38,
+    "total_contributions": 1106960.38,
     "total_contributions_by_source": {
       "Out of State": 51969.0,
-      "Within Oakland": 484303.3,
-      "Within California": 418496.01
+      "Within Oakland": 488203.3,
+      "Within California": 497396.01
     },
     "contributions_by_type": {
-      "Committee": 289632.5,
+      "Committee": 372432.5,
       "Individual": 658588.91,
       "Unitemized": 69392.07,
       "Self Funding": 570.9,
@@ -1799,19 +1799,19 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 624301.85
+        "amount": 628201.85
       },
       {
         "slug": "general-sales-tax",
         "type": "referendum",
         "title": "Measure A",
-        "amount": 253755.4
+        "amount": 328755.4
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 146103.13
+        "amount": 150003.13
       }
     ],
     "largest_small_proportion": [
@@ -1844,17 +1844,17 @@
       {
         "name": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
         "election_name": "oakland-2025",
-        "total_spending": 102999.0
+        "total_spending": 146005.0
+      },
+      {
+        "name": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
+        "election_name": "oakland-2025",
+        "total_spending": 31500.0
       },
       {
         "name": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
         "election_name": "oakland-2025",
         "total_spending": 18500.0
-      },
-      {
-        "name": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
-        "election_name": "oakland-2025",
-        "total_spending": 11500.0
       }
     ],
     "top_contributors": [
@@ -1869,12 +1869,18 @@
         "total_contributions": 75000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "election_name": "oakland-2025",
-        "total_contributions": 70000.0
+        "total_contributions": 75000.0
       }
     ],
     "top_contributors_for_offices": [
+      {
+        "name": "Sheet Metal Workers Local Union 104 Political Committee",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_contributions": 2600.0
+      },
       {
         "name": "IFPTE Local 21",
         "type": "Office",
@@ -1882,16 +1888,10 @@
         "total_contributions": 2600.0
       },
       {
-        "name": "Alameda Labor Council, AFL-CIO Unity PAC",
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_contributions": 2500.0
-      },
-      {
-        "name": "Service Employees International Union Local 1021 Candidate PAC",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_contributions": 2400.0
+        "total_contributions": 2600.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1902,16 +1902,16 @@
         "total_contributions": 75000.0
       },
       {
+        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "type": "Measure",
+        "election_name": "oakland-2025",
+        "total_contributions": 75000.0
+      },
+      {
         "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_contributions": 70000.0
-      },
-      {
-        "name": "IAFF Local 55 PAC",
-        "type": "Measure",
-        "election_name": "oakland-2025",
-        "total_contributions": 55000.0
       }
     ],
     "top_spenders": [
@@ -1922,16 +1922,16 @@
         "total_spending": 150000.0
       },
       {
-        "name": "California Workers Justice Coalition",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
         "total_spending": 75000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
+        "name": "California Workers Justice Coalition",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 70000.0
+        "total_spending": 75000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -1939,7 +1939,7 @@
         "name": "Sheet Metal Workers Local Union 104 Political Committee",
         "type": "Office",
         "election_name": "oakland-2025",
-        "total_spending": 2600.0
+        "total_spending": 3900.0
       },
       {
         "name": "International Brotherhood of Electrical Workers Local 595 PAC",
@@ -1948,7 +1948,7 @@
         "total_spending": 2600.0
       },
       {
-        "name": "IFPTE Local 21",
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 2600.0
@@ -1968,10 +1968,10 @@
         "total_spending": 75000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "type": "Measure",
         "election_name": "oakland-2025",
-        "total_spending": 70000.0
+        "total_spending": 75000.0
       }
     ]
   },

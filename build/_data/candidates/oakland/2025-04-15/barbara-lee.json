@@ -21,17 +21,24 @@
   "is_winner": null,
   "filer_id": 1477668,
   "supporting_money": {
-    "contributions_received": 300956.77,
-    "total_contributions": 300956.77,
+    "contributions_received": 304856.77,
+    "total_contributions": 304856.77,
     "total_expenditures": 149804.82,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 121499.0,
+    "total_supporting_independent": 141499.0,
     "support_list": [
       {
         "Total": 18500.0,
         "Cand_ID": 1477668,
         "Filer_ID": "1471304",
         "Filer_NamL": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
+        "election_name": "oakland-2025"
+      },
+      {
+        "Total": 20000.0,
+        "Cand_ID": 1477668,
+        "Filer_ID": "1479336",
+        "Filer_NamL": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
         "election_name": "oakland-2025"
       },
       {
@@ -43,15 +50,15 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 24450.0,
+      "Committee": 28350.0,
       "Individual": 248343.5,
       "Unitemized": 27292.27,
       "Other (includes Businesses)": 871.0
     },
     "contributions_by_origin": {
       "Out of State": 29426.0,
-      "Within Oakland": 121797.0,
-      "Within California": 122441.5
+      "Within Oakland": 124397.0,
+      "Within California": 123741.5
     },
     "total_small_contributions": 34008.77,
     "expenditures_by_type": {
@@ -68,6 +75,7 @@
       "Information Technology Costs (Internet, E-mail)": 3973.05
     },
     "supporting_by_type": {
+      "Digital Advertising": 20000.0,
       "Campaign Literature and Mailings": 102999.0,
       "Independent Expenditure Supporting/Opposing Others": 18656.45
     }
@@ -88,7 +96,7 @@
       }
     ]
   },
-  "total_contributions": 300956.77,
+  "total_contributions": 304856.77,
   "total_expenditures": 149804.82,
   "total_loans_received": 0.0
 }
