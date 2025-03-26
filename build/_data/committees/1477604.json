@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 75758.0,
+  "total_contributions": 79658.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -3808,6 +3808,48 @@
       "Tran_NamF": null,
       "Tran_NamL": "U.A. Local 342 P.A.C.",
       "Tran_Zip4": "94518",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1460381",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Building and Construction Trades Council of Alameda County PAC",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "890106",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate Political Action Commiittee (CREPAC)",
+      "Tran_Zip4": "90071",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "902565",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Laborer's Local 304 PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
     }
   ]
