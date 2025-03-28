@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 84500.0,
+  "total_contributions": 89500.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -113,9 +113,23 @@
       "Tran_NamL": "Glick",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-03-25",
+      "Tran_NamF": "Ann S.",
+      "Tran_NamL": "Spears",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 84500.0
+    "Oakland April 15, 2025 Special Election": 89500.0
   }
 }

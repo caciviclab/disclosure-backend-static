@@ -25,8 +25,15 @@
     "total_contributions": 83077.62,
     "total_expenditures": 11990.8,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 15249.0,
+    "total_supporting_independent": 23099.0,
     "support_list": [
+      {
+        "Total": 7850.0,
+        "Cand_ID": 1477604,
+        "Filer_ID": "1475408",
+        "Filer_NamL": "A BETTER BAY AREA, SPONSORED BY CALIFORNIA ALLIANCE OF FAMILY OWNED BUSINESSES",
+        "election_name": "oakland-2025"
+      },
       {
         "Total": 15249.0,
         "Cand_ID": 1477604,
@@ -58,6 +65,7 @@
       "Information Technology Costs (Internet, E-mail)": 1500.0
     },
     "supporting_by_type": {
+      "MAILER": 7850.0,
       "Mailer": 15949.0,
       "Text Messages": 357.0,
       "Consulting for Mailer": 833.0,

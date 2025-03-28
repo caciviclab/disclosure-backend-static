@@ -55,7 +55,7 @@ CREATE TABLE public."496" (
     "Juris_Cd" character varying(4),
     "Juris_Dscr" character varying(31),
     "Dist_No" character varying(4),
-    "Rpt_ID_Num" character varying(15) NOT NULL
+    "Rpt_ID_Num" character varying(32) NOT NULL
 );
 
 
@@ -110,7 +110,7 @@ CREATE TABLE public."497" (
     "Bal_Juris" character varying(31),
     "Memo_Code" character varying(32),
     "Memo_RefNo" character varying(32),
-    "Rpt_ID_Num" character varying(14) NOT NULL
+    "Rpt_ID_Num" character varying(32) NOT NULL
 );
 
 
