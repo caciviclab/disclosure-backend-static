@@ -29,5 +29,5 @@ CREATE TABLE "496" (
 	"Juris_Cd" VARCHAR(4), 
 	"Juris_Dscr" VARCHAR(31), 
 	"Dist_No" VARCHAR(4), 
-	"Rpt_ID_Num" VARCHAR(15) NOT NULL
+	"Rpt_ID_Num" VARCHAR(32) NOT NULL
 );

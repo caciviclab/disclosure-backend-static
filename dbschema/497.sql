@@ -43,5 +43,5 @@ CREATE TABLE "497" (
 	"Bal_Juris" VARCHAR(31), 
 	"Memo_Code" VARCHAR(32), 
 	"Memo_RefNo" VARCHAR(32), 
-	"Rpt_ID_Num" VARCHAR(14) NOT NULL
+	"Rpt_ID_Num" VARCHAR(32) NOT NULL
 );
