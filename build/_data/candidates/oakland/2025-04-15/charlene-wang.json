@@ -25,7 +25,7 @@
     "total_contributions": 83077.62,
     "total_expenditures": 11990.8,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 23099.0,
+    "total_supporting_independent": 65039.0,
     "support_list": [
       {
         "Total": 7850.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2025"
       },
       {
-        "Total": 15249.0,
+        "Total": 57189.0,
         "Cand_ID": 1477604,
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",
@@ -67,10 +67,15 @@
     "supporting_by_type": {
       "MAILER": 7850.0,
       "Mailer": 15949.0,
+      "Canvassing": 28000.0,
       "Text Messages": 357.0,
-      "Consulting for Mailer": 833.0,
-      "Voter Data for Mailer": 65.0,
-      "Graphic Design for Mailer": 800.0
+      "Consulting for Mailer": 1666.0,
+      "Voter Data for Mailer": 240.0,
+      "Walk Piece Production": 2235.0,
+      "Graphic Design for Mailer": 1600.0,
+      "Voter Data for Canvassing": 1500.0,
+      "Graphic Design for Walk Piece": 200.0,
+      "Mailer Production and Delivery": 8197.0
     }
   },
   "opposing_money": {

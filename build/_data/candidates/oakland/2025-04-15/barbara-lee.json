@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1477668,
   "supporting_money": {
-    "contributions_received": 304856.77,
-    "total_contributions": 304856.77,
+    "contributions_received": 310056.77,
+    "total_contributions": 310056.77,
     "total_expenditures": 149804.82,
     "total_loans_received": 0.0,
     "total_supporting_independent": 145256.0,
@@ -50,7 +50,7 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 28350.0,
+      "Committee": 33550.0,
       "Individual": 248343.5,
       "Unitemized": 27292.27,
       "Other (includes Businesses)": 871.0
@@ -58,7 +58,7 @@
     "contributions_by_origin": {
       "Out of State": 29426.0,
       "Within Oakland": 124397.0,
-      "Within California": 123741.5
+      "Within California": 128941.5
     },
     "total_small_contributions": 34008.77,
     "expenditures_by_type": {
@@ -91,16 +91,16 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 44500.0,
+    "opposing_expenditures": 56500.0,
     "opposing_by_type": {
       "Website": 1500.0,
       "Digital Advertising": 20000.0,
-      "Video Advertisements": 20000.0,
+      "Video Advertisements": 32000.0,
       "Social Media Advertisements": 3000.0
     },
     "opposition_list": [
       {
-        "Total": 44500.0,
+        "Total": 56500.0,
         "Cand_ID": 1477668,
         "Filer_ID": "1479336",
         "Filer_NamL": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
@@ -108,7 +108,7 @@
       }
     ]
   },
-  "total_contributions": 304856.77,
+  "total_contributions": 310056.77,
   "total_expenditures": 149804.82,
   "total_loans_received": 0.0
 }

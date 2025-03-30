@@ -1781,37 +1781,37 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1110860.38,
+    "total_contributions": 1122360.38,
     "total_contributions_by_source": {
       "Out of State": 51969.0,
-      "Within Oakland": 489503.3,
-      "Within California": 499996.01
+      "Within Oakland": 494503.3,
+      "Within California": 506496.01
     },
     "contributions_by_type": {
-      "Committee": 376332.5,
+      "Committee": 382832.5,
       "Individual": 658588.91,
       "Unitemized": 69392.07,
       "Self Funding": 570.9,
-      "Other (includes Businesses)": 5976.0
+      "Other (includes Businesses)": 10976.0
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 628201.85
+        "amount": 633401.85
       },
       {
         "slug": "general-sales-tax",
         "type": "referendum",
         "title": "Measure A",
-        "amount": 328755.4
+        "amount": 333755.4
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 153903.13
+        "amount": 155203.13
       }
     ],
     "largest_small_proportion": [
@@ -1844,17 +1844,17 @@
       {
         "name": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
         "election_name": "oakland-2025",
-        "total_spending": 190856.0
+        "total_spending": 192082.0
+      },
+      {
+        "name": "Empower Oakland Committee",
+        "election_name": "oakland-2025",
+        "total_spending": 57189.0
       },
       {
         "name": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
         "election_name": "oakland-2025",
-        "total_spending": 44500.0
-      },
-      {
-        "name": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
-        "election_name": "oakland-2025",
-        "total_spending": 23164.0
+        "total_spending": 56500.0
       }
     ],
     "top_contributors": [
@@ -1876,19 +1876,19 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Sheet Metal Workers Local Union 104 Political Committee",
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_contributions": 2600.0
+      },
+      {
+        "name": "Unite Here Local 2 PAC",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 2600.0
       },
       {
         "name": "IFPTE Local 21",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_contributions": 2600.0
-      },
-      {
-        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 2600.0
@@ -1948,7 +1948,7 @@
         "total_spending": 2600.0
       },
       {
-        "name": "Building and Construction Trades Council of Alameda County PAC",
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 2600.0
