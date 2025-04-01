@@ -1,14 +1,14 @@
 {
-  "total_contributions": 1122360.38,
+  "total_contributions": 1125713.38,
   "total_contributions_by_source": {
-    "Out of State": 51969.0,
-    "Within Oakland": 494503.3,
-    "Within California": 506496.01
+    "Out of State": 52269.0,
+    "Within Oakland": 494603.3,
+    "Within California": 507984.01
   },
   "contributions_by_type": {
     "Committee": 382832.5,
-    "Individual": 658588.91,
-    "Unitemized": 69392.07,
+    "Individual": 660476.91,
+    "Unitemized": 70857.07,
     "Self Funding": 570.9,
     "Other (includes Businesses)": 10976.0
   },
@@ -17,7 +17,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 633401.85
+      "amount": 636754.85
     },
     {
       "slug": "general-sales-tax",
@@ -34,19 +34,19 @@
   ],
   "largest_small_proportion": [
     {
+      "slug": "mindy-pechenuk",
+      "type": "office",
+      "title": "Oakland April 15, 2025 Special Election",
+      "candidate": "Mindy Pechenuk",
+      "proportion": 0.22,
+      "office_title": "Mayor"
+    },
+    {
       "slug": "loren-taylor",
       "type": "office",
       "title": "Oakland April 15, 2025 Special Election",
       "candidate": "Loren Taylor",
       "proportion": 0.13,
-      "office_title": "Mayor"
-    },
-    {
-      "slug": "mindy-pechenuk",
-      "type": "office",
-      "title": "Oakland April 15, 2025 Special Election",
-      "candidate": "Mindy Pechenuk",
-      "proportion": 0.11,
       "office_title": "Mayor"
     },
     {
@@ -100,7 +100,7 @@
       "total_contributions": 2600.0
     },
     {
-      "name": "Unite Here Local 2 PAC",
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_contributions": 2600.0
@@ -160,13 +160,13 @@
       "total_spending": 3900.0
     },
     {
-      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 2600.0
     },
     {
-      "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+      "name": "Unite Here Local 2 PAC",
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 2600.0
