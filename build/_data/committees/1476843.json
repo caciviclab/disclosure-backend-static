@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 279919.0,
+  "total_contributions": 281869.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -14476,6 +14476,34 @@
       "Tran_NamF": "Virginia",
       "Tran_NamL": "Davis",
       "Tran_Zip4": "94611",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1476843",
+      "Tran_Emp": "E R Constr",
+      "Tran_Occ": "Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2025-03-11",
+      "Tran_NamF": "Home",
+      "Tran_NamL": "Ball",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "890106",
+      "Filer_ID": "1476843",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-03-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Real Estate (CREPAC)",
+      "Tran_Zip4": "90071",
       "election_name": "oakland-2025"
     }
   ]
