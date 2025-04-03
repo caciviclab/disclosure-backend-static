@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 89500.0,
+  "total_contributions": 92000.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -127,9 +127,23 @@
       "Tran_NamL": "Spears",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2025-03-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "D & S Realty and Management LLC(Daniel Cohen)",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 89500.0
+    "Oakland April 15, 2025 Special Election": 92000.0
   }
 }
