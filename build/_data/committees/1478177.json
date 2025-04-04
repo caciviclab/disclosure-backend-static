@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 413805.0,
+  "total_contributions": 415505.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -158,6 +158,34 @@
     },
     {
       "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478177",
+      "Tran_Emp": "TOWNSEND PUBLIC AFFAIRS",
+      "Tran_Occ": "VICE PRESIDENT",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 800.0,
+      "Tran_Date": "2025-03-04",
+      "Tran_NamF": "NICCOLO",
+      "Tran_NamL": "DELUCA",
+      "Tran_Zip4": "95818",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 900.0,
+      "Tran_Date": "2025-03-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "TERRE FORTE(BARBARA DELUCA)",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "850381",
       "Filer_ID": "1478177",
       "Tran_Emp": null,
@@ -256,6 +284,6 @@
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 413805.0
+    "Oakland April 15, 2025 Special Election": 415505.0
   }
 }

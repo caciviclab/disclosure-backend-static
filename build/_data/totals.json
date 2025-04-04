@@ -1781,14 +1781,14 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1127663.38,
+    "total_contributions": 1130263.38,
     "total_contributions_by_source": {
-      "Out of State": 52269.0,
-      "Within Oakland": 495453.3,
+      "Out of State": 53569.0,
+      "Within Oakland": 496753.3,
       "Within California": 509084.01
     },
     "contributions_by_type": {
-      "Committee": 384132.5,
+      "Committee": 386732.5,
       "Individual": 661126.91,
       "Unitemized": 70857.07,
       "Self Funding": 570.9,
@@ -1799,7 +1799,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 638704.85
+        "amount": 641304.85
       },
       {
         "slug": "general-sales-tax",
@@ -1832,10 +1832,10 @@
         "office_title": "Mayor"
       },
       {
-        "slug": "barbara-lee",
+        "slug": "renia-webb",
         "type": "office",
         "title": "Oakland April 15, 2025 Special Election",
-        "candidate": "Barbara Lee",
+        "candidate": "Renia Webb",
         "proportion": 0.11,
         "office_title": "Mayor"
       }
@@ -1844,12 +1844,12 @@
       {
         "name": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
         "election_name": "oakland-2025",
-        "total_spending": 217363.0
+        "total_spending": 336140.67
       },
       {
         "name": "Empower Oakland Committee",
         "election_name": "oakland-2025",
-        "total_spending": 60097.0
+        "total_spending": 61597.0
       },
       {
         "name": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
@@ -1864,23 +1864,17 @@
         "total_contributions": 150000.0
       },
       {
-        "name": "Service Employees International Union Local 1021 Issues PAC",
+        "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
         "election_name": "oakland-2025",
         "total_contributions": 75000.0
       },
       {
-        "name": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+        "name": "Service Employees International Union Local 1021 Issues PAC",
         "election_name": "oakland-2025",
         "total_contributions": 75000.0
       }
     ],
     "top_contributors_for_offices": [
-      {
-        "name": "IFPTE Local 21",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_contributions": 2600.0
-      },
       {
         "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
         "type": "Office",
@@ -1888,7 +1882,13 @@
         "total_contributions": 2600.0
       },
       {
-        "name": "Sheet Metal Workers Local Union 104 Political Committee",
+        "name": "Unite Here Local 2 PAC",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_contributions": 2600.0
+      },
+      {
+        "name": "IFPTE Local 21",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 2600.0
@@ -1942,13 +1942,13 @@
         "total_spending": 3900.0
       },
       {
-        "name": "Unite Here Local 2 PAC",
+        "name": "Building and Construction Trades Council of Alameda County PAC",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 2600.0
       },
       {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+        "name": "IFPTE Local 21",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 2600.0

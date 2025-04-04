@@ -25,7 +25,7 @@
     "total_contributions": 313474.18,
     "total_expenditures": 124537.13,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 2703.0,
+    "total_supporting_independent": 6476.0,
     "support_list": [
       {
         "Total": 1045.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2025"
       },
       {
-        "Total": 1658.0,
+        "Total": 3158.0,
         "Cand_ID": 1476843,
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",
@@ -46,6 +46,13 @@
         "Cand_ID": 1476843,
         "Filer_ID": "1479336",
         "Filer_NamL": "Oakland Neighbors, Businesses & Public Safety Advocates for Loren Taylor for Mayor 2025 and against Barbara Lee",
+        "election_name": "oakland-2025"
+      },
+      {
+        "Total": 2273.0,
+        "Cand_ID": 1476843,
+        "Filer_ID": "1478177",
+        "Filer_NamL": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
         "election_name": "oakland-2025"
       }
     ],
@@ -75,26 +82,28 @@
     "supporting_by_type": {
       "MON": 800.0,
       "MAILER": 1045.0,
+      "Canvassing": 56000.0,
       "Digital Advertising": 1458.0,
       "Outdoor Advertising": 58520.0,
       "Canvassing Consulting": 28000.0,
       "Printing for Walk Piece": 1228.0,
       "Graphic Design for Flyer": 500.0,
+      "Voter Data for Canvassing": 1500.0,
       "Graphic Design for Digital Advertising": 200.0,
       "Graphic Design for Outdoor Advertising": 3500.0,
-      "Independent Expenditure Supporting/Opposing Others": 20625.89
+      "Independent Expenditure Supporting/Opposing Others": 22898.89
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 124598.0,
+    "opposing_expenditures": 240315.54,
     "opposing_by_type": {
-      "DIGITAL ADS": 36741.0,
-      "Campaign Literature and Mailings": 87857.0,
-      "Independent Expenditure Supporting/Opposing Others": 3520.67
+      "MAILER": 28380.0,
+      "DIGITAL ADS": 55281.0,
+      "Independent Expenditure Supporting/Opposing Others": 160175.21
     },
     "opposition_list": [
       {
-        "Total": 124598.0,
+        "Total": 240315.54,
         "Cand_ID": 1476843,
         "Filer_ID": "1478177",
         "Filer_NamL": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",

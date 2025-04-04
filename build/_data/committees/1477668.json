@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 282764.5,
+  "total_contributions": 285364.5,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -15834,6 +15834,34 @@
       "Tran_NamF": null,
       "Tran_NamL": "United Food & Commercial Workers Local 5 PAC",
       "Tran_Zip4": "95113",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1413748",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-04-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "AFSCME Local 3993",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1285725",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-04-02",
+      "Tran_NamF": null,
+      "Tran_NamL": "Transport Workers Union",
+      "Tran_Zip4": "20001",
       "election_name": "oakland-2025"
     }
   ]
