@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1477604,
   "supporting_money": {
-    "contributions_received": 83077.62,
-    "total_contributions": 83077.62,
-    "total_expenditures": 11990.8,
+    "contributions_received": 112861.43,
+    "total_contributions": 112861.43,
+    "total_expenditures": 74547.07,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 75014.0,
+    "total_supporting_independent": 80038.0,
     "support_list": [
       {
-        "Total": 16167.0,
+        "Total": 21191.0,
         "Cand_ID": 1477604,
         "Filer_ID": "1475408",
         "Filer_NamL": "A BETTER BAY AREA, SPONSORED BY CALIFORNIA ALLIANCE OF FAMILY OWNED BUSINESSES",
@@ -43,29 +43,32 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 10300.0,
-      "Individual": 65563.0,
-      "Unitemized": 3419.62,
+      "Committee": 14400.0,
+      "Individual": 87708.21,
+      "Unitemized": 3924.97,
       "Self Funding": 250.0,
-      "Other (includes Businesses)": 3545.0
+      "Other (includes Businesses)": 6578.25
     },
     "contributions_by_origin": {
-      "Out of State": 7024.0,
-      "Within Oakland": 41967.0,
-      "Within California": 30667.0
+      "Out of State": 7597.25,
+      "Within Oakland": 58277.21,
+      "Within California": 43062.0
     },
-    "total_small_contributions": 3963.62,
+    "total_small_contributions": 4498.97,
     "expenditures_by_type": {
-      "Office Expenses": 125.0,
-      "Campaign Consultants": 3200.0,
-      "Campaign Workers' Salaries": 2500.0,
-      "Campaign Paraphernalia/Misc.": 2878.6,
+      "Phone Banks": 615.75,
+      "Office Expenses": 520.0,
+      "Fundraising Events": 605.92,
+      "Campaign Consultants": 5200.0,
+      "Campaign Workers' Salaries": 5900.0,
+      "Campaign Paraphernalia/Misc.": 9610.77,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Professional Services (Legal, Accounting)": 780.0,
-      "Information Technology Costs (Internet, E-mail)": 1500.0
+      "Campaign Literature and Mailings": 23783.42,
+      "Professional Services (Legal, Accounting)": 1770.0,
+      "Information Technology Costs (Internet, E-mail)": 8732.05
     },
     "supporting_by_type": {
-      "MAILER": 14964.0,
+      "MAILER": 19988.0,
       "Mailer": 15949.0,
       "Canvassing": 28000.0,
       "TEXT MESSAGES": 1203.0,
@@ -90,7 +93,7 @@
 
     ]
   },
-  "total_contributions": 83077.62,
-  "total_expenditures": 11990.8,
+  "total_contributions": 112861.43,
+  "total_expenditures": 74547.07,
   "total_loans_received": 0.0
 }

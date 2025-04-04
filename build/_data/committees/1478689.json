@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 333755.4,
+  "total_contributions": 333005.4,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -74,20 +74,6 @@
     },
     {
       "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1478689",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2025-03-14",
-      "Tran_NamF": null,
-      "Tran_NamL": "East Bay Action",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2025"
-    },
-    {
-      "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "892160",
       "Filer_ID": "1478689",
       "Tran_Emp": null,
@@ -118,6 +104,20 @@
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1478689",
+      "Tran_Emp": "Golden Gate Dispute Resolution",
+      "Tran_Occ": "Arbitrator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2025-03-22",
+      "Tran_NamF": "Paul",
+      "Tran_NamL": "Roose",
+      "Tran_Zip4": "94609",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478689",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -130,6 +130,6 @@
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 333755.4
+    "Oakland April 15, 2025 Special Election": 333005.4
   }
 }

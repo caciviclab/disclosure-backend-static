@@ -21,21 +21,21 @@
   "is_winner": null,
   "filer_id": 1477668,
   "supporting_money": {
-    "contributions_received": 312656.77,
-    "total_contributions": 312656.77,
-    "total_expenditures": 149804.82,
+    "contributions_received": 431940.6,
+    "total_contributions": 431940.6,
+    "total_expenditures": 371559.15,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 186641.27,
+    "total_supporting_independent": 193350.29,
     "support_list": [
       {
-        "Total": 59501.0,
+        "Total": 64501.0,
         "Cand_ID": 1477668,
         "Filer_ID": "1471304",
         "Filer_NamL": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
         "election_name": "oakland-2025"
       },
       {
-        "Total": 24141.0,
+        "Total": 25850.02,
         "Cand_ID": 1477668,
         "Filer_ID": "1332115",
         "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
@@ -50,55 +50,46 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 36150.0,
-      "Individual": 248343.5,
-      "Unitemized": 27292.27,
-      "Other (includes Businesses)": 871.0
+      "Committee": 40950.0,
+      "Individual": 343192.0,
+      "Unitemized": 41727.6,
+      "Other (includes Businesses)": 6071.0
     },
     "contributions_by_origin": {
-      "Out of State": 30726.0,
-      "Within Oakland": 125697.0,
-      "Within California": 128941.5
+      "Out of State": 46366.0,
+      "Within Oakland": 175317.0,
+      "Within California": 168530.0
     },
-    "total_small_contributions": 34008.77,
+    "total_small_contributions": 53422.6,
     "expenditures_by_type": {
       "Print Ads": 500.0,
       "Not Stated": 8360.0,
-      "Phone Banks": 6569.6,
-      "Office Expenses": 22157.23,
-      "Fundraising Events": 10000.0,
-      "Campaign Consultants": 24500.0,
+      "Phone Banks": 9573.2,
+      "Office Expenses": 26708.41,
+      "Fundraising Events": 21732.73,
+      "Campaign Consultants": 71000.0,
       "Polling and Survey Research": 30000.0,
-      "Campaign Paraphernalia/Misc.": 6541.5,
+      "Campaign Paraphernalia/Misc.": 11114.12,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Staff/Spouse Travel, Lodging, and Meals": 20.0,
-      "Information Technology Costs (Internet, E-mail)": 3973.05
+      "Campaign Literature and Mailings": 26263.24,
+      "Staff/Spouse Travel, Lodging, and Meals": 54.0,
+      "Postage, Delivery and Messenger Services": 24700.7,
+      "Professional Services (Legal, Accounting)": 9398.8,
+      "T.V. or Cable Airtime and Production Costs": 31100.0,
+      "Information Technology Costs (Internet, E-mail)": 14335.02
     },
     "supporting_by_type": {
       "Mailer": 35337.0,
-      "Consulting": 1000.0,
-      "Online ads": 500.0,
-      "Mailing List": 3914.0,
-      "LIT $14,089.25": 5816.0,
-      "LIT $19,092.67": 658.0,
+      "Consulting": 6000.0,
       "PHO $20,000.00": 20000.0,
-      "POS $14,089.25": 6652.0,
-      "LIT/POS $19,092.67": 4128.0,
-      "Voter Data $14,089.25": 622.0,
-      "Voter Data $19,092.67": 217.0,
-      "Graphic Design services": 250.0,
       "LIT/POS/Voter Data $24,140.97": 5048.0,
-      "Staff time - estimate $14,089.25": 1000.0,
-      "Independent Expenditure Supporting/Opposing Others": 121655.72
+      "Independent Expenditure Supporting/Opposing Others": 147121.74
     }
   },
   "opposing_money": {
     "opposing_expenditures": 56500.0,
     "opposing_by_type": {
-      "Website": 1500.0,
-      "Digital Advertising": 20000.0,
-      "Video Advertisements": 32000.0,
-      "Social Media Advertisements": 3000.0
+      "Independent Expenditure Supporting/Opposing Others": 56500.0
     },
     "opposition_list": [
       {
@@ -110,7 +101,7 @@
       }
     ]
   },
-  "total_contributions": 312656.77,
-  "total_expenditures": 149804.82,
+  "total_contributions": 431940.6,
+  "total_expenditures": 371559.15,
   "total_loans_received": 0.0
 }
