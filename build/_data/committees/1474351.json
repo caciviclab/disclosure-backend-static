@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 565000.0,
+  "total_contributions": 585000.0,
   "contributions": [
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -155,9 +155,23 @@
       "Tran_NamL": "Service Employees International Union Local 1021 Candidate PAC",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1332115",
+      "Filer_ID": "1474351",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2025-04-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": {
-    "Oakland November 5th, 2024 General Election": 565000.0
+    "Oakland November 5th, 2024 General Election": 585000.0
   }
 }

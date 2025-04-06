@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 333005.4,
+  "total_contributions": 383005.4,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -127,9 +127,23 @@
       "Tran_NamL": "East Bay Action",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1433122",
+      "Filer_ID": "1478689",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2025-04-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 333005.4
+    "Oakland April 15, 2025 Special Election": 383005.4
   }
 }

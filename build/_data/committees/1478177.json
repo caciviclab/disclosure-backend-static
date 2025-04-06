@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 455505.0,
+  "total_contributions": 490505.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -284,6 +284,20 @@
     },
     {
       "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2025-04-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "MEDICARE FOR ALL PAC",
+      "Tran_Zip4": "20006",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1296948",
       "Filer_ID": "1478177",
       "Tran_Emp": null,
@@ -295,9 +309,23 @@
       "Tran_NamL": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 CANDIDATE PAC",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2025-04-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "UNITY PAC, A SPONSORED COMMITTEE OF THE ALAMEDA LABOR COUNCIL, AFL-CIO",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 455505.0
+    "Oakland April 15, 2025 Special Election": 490505.0
   }
 }
