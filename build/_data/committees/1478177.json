@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 490505.0,
+  "total_contributions": 500505.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -323,9 +323,23 @@
       "Tran_NamL": "UNITY PAC, A SPONSORED COMMITTEE OF THE ALAMEDA LABOR COUNCIL, AFL-CIO",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1423131",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-04-04",
+      "Tran_NamF": null,
+      "Tran_NamL": "SMART JUSTICE CALIFORNIA ACTION FUND",
+      "Tran_Zip4": "95815",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 490505.0
+    "Oakland April 15, 2025 Special Election": 500505.0
   }
 }
