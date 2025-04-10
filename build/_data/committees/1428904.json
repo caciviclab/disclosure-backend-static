@@ -185,20 +185,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2020-09-29",
-      "Tran_NamF": "Charles",
-      "Tran_NamL": "Freiberg",
-      "Tran_Zip4": "94610",
-      "election_name": "oakland-2020"
-    },
-    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
@@ -213,18 +199,18 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
       "Tran_Emp": null,
       "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 2000.0,
+      "Tran_Amt1": 2500.0,
       "Tran_Date": "2020-09-29",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Roe",
+      "Tran_NamF": "Charles",
+      "Tran_NamL": "Freiberg",
       "Tran_Zip4": "94610",
-      "election_name": "oakland-2024"
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -239,6 +225,20 @@
       "Tran_NamL": "Roe",
       "Tran_Zip4": "94610",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Roe",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -269,6 +269,20 @@
       "election_name": "oakland-2024"
     },
     {
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Shoreline Venture Management",
+      "Tran_Occ": "Venture Capitalist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Spears",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2020"
+    },
+    {
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
@@ -281,34 +295,6 @@
       "Tran_NamL": "Spears",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "Shoreline Venture Management",
-      "Tran_Occ": "Venture Capitalist",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2020-09-29",
-      "Tran_NamF": "Robert",
-      "Tran_NamL": "Spears",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2020"
-    },
-    {
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": "Responsible Officer is Daniel Frattin",
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 9999.0,
-      "Tran_Date": "2020-09-30",
-      "Tran_NamF": null,
-      "Tran_NamL": "Reuben, Junius & Rose LLP",
-      "Tran_Zip4": "94104",
-      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -328,14 +314,14 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": "Riaz Capital, LLC",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2020-10-13",
-      "Tran_NamF": "Alexander Riaz",
-      "Tran_NamL": "Taplin",
-      "Tran_Zip4": "94601",
+      "Tran_Emp": null,
+      "Tran_Occ": "Responsible Officer is Daniel Frattin",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 9999.0,
+      "Tran_Date": "2020-09-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Reuben, Junius & Rose LLP",
+      "Tran_Zip4": "94104",
       "election_name": "oakland-2020"
     },
     {
@@ -353,18 +339,18 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": "Self Employed / Same Name",
-      "Tran_Occ": "Policy Consultant",
+      "Tran_Emp": "Riaz Capital, LLC",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 8000.0,
-      "Tran_Date": "2020-10-14",
-      "Tran_NamF": "Adelin",
-      "Tran_NamL": "Cai",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2024"
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-13",
+      "Tran_NamF": "Alexander Riaz",
+      "Tran_NamL": "Taplin",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2020"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -379,6 +365,20 @@
       "Tran_NamL": "Cai",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Self Employed / Same Name",
+      "Tran_Occ": "Policy Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 8000.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": "Adelin",
+      "Tran_NamL": "Cai",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 3rd, 2020 General Election",
@@ -409,20 +409,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "SV Angel",
-      "Tran_Occ": "Founder",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 15000.0,
-      "Tran_Date": "2020-10-16",
-      "Tran_NamF": "Ron",
-      "Tran_NamL": "Conway",
-      "Tran_Zip4": "94920",
-      "election_name": "oakland-2024"
-    },
-    {
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
@@ -435,6 +421,20 @@
       "Tran_NamL": "Conway",
       "Tran_Zip4": "94920",
       "election_name": "oakland-2020"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "SV Angel",
+      "Tran_Occ": "Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": "Ron",
+      "Tran_NamL": "Conway",
+      "Tran_Zip4": "94920",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",
@@ -574,20 +574,6 @@
       "Tran_NamF": null,
       "Tran_NamL": "East Bay Rental Housing Association PAC",
       "Tran_Zip4": "94607",
-      "election_name": "oakland-2024"
-    },
-    {
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2022-04-13",
-      "Tran_NamF": null,
-      "Tran_NamL": "Bay Area Housing Action Coalition",
-      "Tran_Zip4": "94103",
       "election_name": "oakland-2024"
     },
     {
@@ -603,6 +589,20 @@
       "Tran_NamL": "Bay Area Housing Action Coalition",
       "Tran_Zip4": "94103",
       "election_name": "oakland-2022"
+    },
+    {
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-04-13",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bay Area Housing Action Coalition",
+      "Tran_Zip4": "94103",
+      "election_name": "oakland-2024"
     },
     {
       "title": "Oakland November 5th, 2024 General Election",

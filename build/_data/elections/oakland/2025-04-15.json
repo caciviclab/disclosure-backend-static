@@ -1,16 +1,16 @@
 {
-  "total_contributions": 1549509.02,
+  "total_contributions": 1559509.02,
   "total_contributions_by_source": {
     "Out of State": 74032.25,
     "Within Oakland": 708414.51,
-    "Within California": 655956.51
+    "Within California": 665956.51
   },
   "contributions_by_type": {
     "Committee": 448832.5,
     "Individual": 969690.62,
     "Unitemized": 111105.75,
     "Self Funding": 570.9,
-    "Other (includes Businesses)": 19309.25
+    "Other (includes Businesses)": 29309.25
   },
   "most_expensive_races": [
     {
@@ -23,7 +23,7 @@
       "slug": "general-sales-tax",
       "type": "referendum",
       "title": "Measure A",
-      "amount": 383005.4
+      "amount": 393005.4
     },
     {
       "slug": "city-council-district-2",
@@ -62,17 +62,17 @@
     {
       "name": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
       "election_name": "oakland-2025",
-      "total_spending": 336640.67
+      "total_spending": 361556.67
+    },
+    {
+      "name": "A BETTER BAY AREA, SPONSORED BY CALIFORNIA ALLIANCE OF FAMILY OWNED BUSINESSES",
+      "election_name": "oakland-2025",
+      "total_spending": 109368.0
     },
     {
       "name": "Empower Oakland Committee",
       "election_name": "oakland-2025",
       "total_spending": 71177.0
-    },
-    {
-      "name": "A BETTER BAY AREA, SPONSORED BY CALIFORNIA ALLIANCE OF FAMILY OWNED BUSINESSES",
-      "election_name": "oakland-2025",
-      "total_spending": 70039.0
     }
   ],
   "top_contributors": [
