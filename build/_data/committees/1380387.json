@@ -3,6 +3,7 @@
   "total_contributions": 9072.94,
   "contributions": [
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": "1367599",
       "Filer_ID": "1380387",
@@ -17,6 +18,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1380387",
@@ -31,7 +33,13 @@
       "election_name": "oakland-2016"
     }
   ],
-  "contributions_by_election": {
-    "Oakland November 8th, 2016 Election": 9072.94
-  }
+  "contributions_by_election": [
+    [
+      "2016-11-08",
+      [
+        "Oakland November 8th, 2016 Election",
+        9072.94
+      ]
+    ]
+  ]
 }

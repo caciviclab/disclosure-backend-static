@@ -3,6 +3,7 @@
   "total_contributions": 393005.4,
   "contributions": [
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1444350",
       "Filer_ID": "1478689",
@@ -17,6 +18,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1433122",
       "Filer_ID": "1478689",
@@ -31,6 +33,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1362080",
       "Filer_ID": "1478689",
@@ -45,6 +48,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1478689",
@@ -59,6 +63,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1294190",
       "Filer_ID": "1478689",
@@ -73,6 +78,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "892160",
       "Filer_ID": "1478689",
@@ -87,6 +93,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1296947",
       "Filer_ID": "1478689",
@@ -101,6 +108,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1478689",
@@ -115,6 +123,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1478689",
@@ -129,6 +138,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": "1433122",
       "Filer_ID": "1478689",
@@ -143,6 +153,7 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1478689",
@@ -157,7 +168,13 @@
       "election_name": "oakland-2025"
     }
   ],
-  "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 393005.4
-  }
+  "contributions_by_election": [
+    [
+      "2025-04-15",
+      [
+        "Oakland April 15, 2025 Special Election",
+        393005.4
+      ]
+    ]
+  ]
 }

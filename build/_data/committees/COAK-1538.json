@@ -3,6 +3,7 @@
   "total_contributions": 10000.0,
   "contributions": [
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "COAK-1538",
@@ -17,7 +18,13 @@
       "election_name": "oakland-2014"
     }
   ],
-  "contributions_by_election": {
-    "Oakland November 4th, 2014 Election": 10000.0
-  }
+  "contributions_by_election": [
+    [
+      "2014-11-04",
+      [
+        "Oakland November 4th, 2014 Election",
+        10000.0
+      ]
+    ]
+  ]
 }
