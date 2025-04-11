@@ -86,13 +86,14 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 3680.0,
+    "opposing_expenditures": 6680.0,
     "opposing_by_type": {
-      "Mailer": 3680.0
+      "Mailer": 3680.0,
+      "Online ads": 3000.0
     },
     "opposition_list": [
       {
-        "Total": 3680.0,
+        "Total": 6680.0,
         "Cand_ID": 1477604,
         "Filer_ID": "1474351",
         "Filer_NamL": "Fix Our City Oakland, Supporting Fife for City Council and Richardson for City Attorney 2024 - Sponsored by labor organizations",

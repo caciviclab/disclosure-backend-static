@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 500505.0,
+  "total_contributions": 538005.0,
   "contributions": [
     {
       "title": "Oakland April 15, 2025 Special Election",
@@ -337,9 +337,51 @@
       "Tran_NamL": "SMART JUSTICE CALIFORNIA ACTION FUND",
       "Tran_Zip4": "95815",
       "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1294190",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-04-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "UNITY PAC, A SPONSORED COMMITTEE OF THE ALAMEDA LABOR COUNCIL, AFL-CIO",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1241835",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2025-04-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "CALIFORNIA PROFESSIONAL FIREFIGHTERS PAC",
+      "Tran_Zip4": "95833",
+      "election_name": "oakland-2025"
+    },
+    {
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2025-04-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "SEIU UNITED SERVICE WORKERS WEST",
+      "Tran_Zip4": "90015",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": {
-    "Oakland April 15, 2025 Special Election": 500505.0
+    "Oakland April 15, 2025 Special Election": 538005.0
   }
 }
