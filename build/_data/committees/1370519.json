@@ -3,6 +3,7 @@
   "total_contributions": 68250.0,
   "contributions": [
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -17,6 +18,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -31,6 +33,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -45,6 +48,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -59,6 +63,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -73,6 +78,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -87,6 +93,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -101,6 +108,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -115,6 +123,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -129,6 +138,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -143,6 +153,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -157,6 +168,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -171,6 +183,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -185,6 +198,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -199,6 +213,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -213,6 +228,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -227,6 +243,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -241,6 +258,7 @@
       "election_name": "oakland-2014"
     },
     {
+      "date": "2014-11-04",
       "title": "Oakland November 4th, 2014 Election",
       "Cmte_ID": null,
       "Filer_ID": "1370519",
@@ -255,7 +273,13 @@
       "election_name": "oakland-2014"
     }
   ],
-  "contributions_by_election": {
-    "Oakland November 4th, 2014 Election": 68250.0
-  }
+  "contributions_by_election": [
+    [
+      "2014-11-04",
+      [
+        "Oakland November 4th, 2014 Election",
+        68250.0
+      ]
+    ]
+  ]
 }

@@ -16,7 +16,7 @@ class CommitteeContributionListCalculator
         SELECT election_name, "FPPC"::varchar AS "Filer_ID", "Start_Date", "End_Date"
         FROM candidates
       )
-      SELECT election_name, title, all_contributions."Filer_ID",
+      SELECT election_name, title, date, all_contributions."Filer_ID",
         "Tran_Amt1", "Tran_Date", "Tran_NamF", "Tran_NamL",
         "Tran_Zip4", "Tran_Occ", "Tran_Emp", "Entity_Cd", "Cmte_ID"
       FROM all_contributions
@@ -42,20 +42,24 @@ class CommitteeContributionListCalculator
     ].each do |collection, id |
       collection.each do |committee_or_candidate|
         filer_id = committee_or_candidate[id].to_s
-        sorted = Array(contributions_by_committee[filer_id])
+        contributions = Array(contributions_by_committee[filer_id])
         total_contributions = 0
         total_small = 0
         total_by_election = {}
-        sorted.each do |contribution|
+        contributions.each do |contribution|
           amount = contribution['Tran_Amt1']
           total_contributions += amount
           total_small += amount unless amount  >= 100 || amount <= -100
           election_title = contribution['title']
-          total_by_election[election_title] ||= 0
-          total_by_election[election_title] += amount.round(2)
+          election_date = contribution['date']
+          total_by_election[election_date] ||= [election_title, 0]
+          total_by_election[election_date][1] += amount.round(2)
+          # Not clear why the round(2) above is not sufficent
+          total_by_election[election_date][1] = total_by_election[election_date][1].round(2)
 
         end
-        committee_or_candidate.save_calculation(:contribution_list, sorted)
+        total_by_election = total_by_election.sort.reverse
+        committee_or_candidate.save_calculation(:contribution_list, contributions)
         committee_or_candidate.save_calculation(:contribution_list_total, total_contributions.round(2))
         committee_or_candidate.save_calculation(:total_small_itemized_contributions, total_small.round(2))
         committee_or_candidate.save_calculation(:total_by_election, total_by_election)

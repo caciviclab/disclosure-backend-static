@@ -3,6 +3,7 @@
   "total_contributions": 43872.24,
   "contributions": [
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -17,6 +18,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -31,6 +33,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -45,6 +48,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -59,6 +63,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -73,6 +78,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -87,6 +93,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -101,6 +108,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -115,6 +123,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -129,6 +138,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -143,6 +153,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -157,6 +168,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -171,6 +183,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -185,6 +198,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -199,6 +213,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -213,6 +228,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -227,6 +243,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -241,6 +258,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -255,6 +273,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -269,6 +288,7 @@
       "election_name": "oakland-2016"
     },
     {
+      "date": "2016-11-08",
       "title": "Oakland November 8th, 2016 Election",
       "Cmte_ID": null,
       "Filer_ID": "1391606",
@@ -283,7 +303,13 @@
       "election_name": "oakland-2016"
     }
   ],
-  "contributions_by_election": {
-    "Oakland November 8th, 2016 Election": 43872.240000000005
-  }
+  "contributions_by_election": [
+    [
+      "2016-11-08",
+      [
+        "Oakland November 8th, 2016 Election",
+        43872.24
+      ]
+    ]
+  ]
 }
