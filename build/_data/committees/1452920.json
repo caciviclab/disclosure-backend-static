@@ -3,6 +3,7 @@
   "total_contributions": 600000.0,
   "contributions": [
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1452920",
@@ -17,6 +18,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "892160",
       "Filer_ID": "1452920",
@@ -31,6 +33,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "850381",
       "Filer_ID": "1452920",
@@ -45,6 +48,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1377164",
       "Filer_ID": "1452920",
@@ -59,6 +63,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "890268",
       "Filer_ID": "1452920",
@@ -73,6 +78,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "747285",
       "Filer_ID": "1452920",
@@ -87,6 +93,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1294190",
       "Filer_ID": "1452920",
@@ -101,6 +108,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1357256",
       "Filer_ID": "1452920",
@@ -115,6 +123,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "981697",
       "Filer_ID": "1452920",
@@ -129,6 +138,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1452920",
@@ -143,6 +153,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "892160",
       "Filer_ID": "1452920",
@@ -157,6 +168,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1273532",
       "Filer_ID": "1452920",
@@ -171,6 +183,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1294190",
       "Filer_ID": "1452920",
@@ -185,6 +198,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "747285",
       "Filer_ID": "1452920",
@@ -199,6 +213,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "C00002766",
       "Filer_ID": "1452920",
@@ -213,6 +228,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1452920",
@@ -227,6 +243,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1452920",
@@ -241,6 +258,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1296948",
       "Filer_ID": "1452920",
@@ -255,6 +273,7 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1452920",
@@ -269,7 +288,13 @@
       "election_name": "oakland-2022"
     }
   ],
-  "contributions_by_election": {
-    "Oakland November 8th, 2022 General Election": 600000.0
-  }
+  "contributions_by_election": [
+    [
+      "2022-11-08",
+      [
+        "Oakland November 8th, 2022 General Election",
+        600000.0
+      ]
+    ]
+  ]
 }

@@ -3,6 +3,7 @@
   "total_contributions": 660000.0,
   "contributions": [
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1474351",
@@ -17,6 +18,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1474351",
@@ -31,6 +33,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1294190",
       "Filer_ID": "1474351",
@@ -45,6 +48,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1474351",
@@ -59,6 +63,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1474351",
@@ -73,6 +78,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1433122",
       "Filer_ID": "1474351",
@@ -87,6 +93,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1294190",
       "Filer_ID": "1474351",
@@ -101,6 +108,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1460381",
       "Filer_ID": "1474351",
@@ -115,6 +123,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "890268",
       "Filer_ID": "1474351",
@@ -129,6 +138,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1474351",
@@ -143,6 +153,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1296948",
       "Filer_ID": "1474351",
@@ -157,6 +168,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1332115",
       "Filer_ID": "1474351",
@@ -171,6 +183,7 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "881248",
       "Filer_ID": "1474351",
@@ -185,7 +198,13 @@
       "election_name": "oakland-2024"
     }
   ],
-  "contributions_by_election": {
-    "Oakland November 5th, 2024 General Election": 660000.0
-  }
+  "contributions_by_election": [
+    [
+      "2024-11-05",
+      [
+        "Oakland November 5th, 2024 General Election",
+        660000.0
+      ]
+    ]
+  ]
 }
