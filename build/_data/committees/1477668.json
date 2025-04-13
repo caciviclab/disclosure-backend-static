@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 395413.0,
+  "total_contributions": 399013.0,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -25334,6 +25334,51 @@
       "Tran_Date": "2025-04-09",
       "Tran_NamF": null,
       "Tran_NamL": "United Nurses Association of California / Union of Health Care Professionals PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1242993",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-04-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Communications Workers of America - COPE PCC",
+      "Tran_Zip4": "20001",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2025-04-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "Progressive Choices PAC",
+      "Tran_Zip4": "60204",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "831628",
+      "Filer_ID": "1477668",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-04-10",
+      "Tran_NamF": null,
+      "Tran_NamL": "SEIU California State Council",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2025"
     }
