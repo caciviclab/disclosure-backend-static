@@ -1,29 +1,29 @@
 {
-  "total_contributions": 1564709.02,
+  "total_contributions": 1577809.02,
   "total_contributions_by_source": {
-    "Out of State": 74032.25,
-    "Within Oakland": 709714.51,
-    "Within California": 669856.51
+    "Out of State": 76332.25,
+    "Within Oakland": 719214.51,
+    "Within California": 671156.51
   },
   "contributions_by_type": {
-    "Committee": 454032.5,
+    "Committee": 466132.5,
     "Individual": 969690.62,
     "Unitemized": 111105.75,
     "Self Funding": 570.9,
-    "Other (includes Businesses)": 29309.25
+    "Other (includes Businesses)": 30309.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 961867.68
+      "amount": 965467.68
     },
     {
       "slug": "general-sales-tax",
       "type": "referendum",
       "title": "Measure A",
-      "amount": 393005.4
+      "amount": 402505.4
     },
     {
       "slug": "city-council-district-2",
@@ -67,12 +67,12 @@
     {
       "name": "A BETTER BAY AREA, SPONSORED BY CALIFORNIA ALLIANCE OF FAMILY OWNED BUSINESSES",
       "election_name": "oakland-2025",
-      "total_spending": 109368.0
+      "total_spending": 117696.0
     },
     {
       "name": "Empower Oakland Committee",
       "election_name": "oakland-2025",
-      "total_spending": 82915.0
+      "total_spending": 83210.0
     }
   ],
   "top_contributors": [

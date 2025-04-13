@@ -1,0 +1,8 @@
+---
+filer_id: 'FPPC #892'
+name: International Association of Firefighters, Local 55
+candidate_controlled_id: ''
+data_warning: This committee is formed outside of Oakland. We only have data on committees
+  which file with the Oakland Public Ethics Commission
+title: International Association of Firefighters, Local 55
+---
