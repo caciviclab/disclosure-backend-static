@@ -10,6 +10,6 @@ CREATE TABLE committees (
 	candidate_controlled_id INTEGER, 
 	"Start_Date" DATE, 
 	"End_Date" DATE, 
-	data_warning VARCHAR(84), 
+	data_warning VARCHAR(256),
 	"Make_Active" BOOLEAN
 );
