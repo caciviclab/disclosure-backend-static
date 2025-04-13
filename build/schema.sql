@@ -1118,7 +1118,7 @@ CREATE TABLE public.committees (
     candidate_controlled_id integer,
     "Start_Date" date,
     "End_Date" date,
-    data_warning character varying(84),
+    data_warning character varying(256),
     "Make_Active" boolean,
     id integer NOT NULL
 );
