@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 570505.0,
+  "total_contributions": 580505.0,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -436,6 +436,21 @@
       "Tran_NamL": "COMMITTEE TO EXPAND THE MIDDLE CLASS CANDIDATE COMMITTEE SPONSORED BY AIRBNB, INC.",
       "Tran_Zip4": "94901",
       "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "981455",
+      "Filer_ID": "1478177",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-04-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "AMALGAMATED TRANSIT UNION LOCAL 1555 POLITICAL ACTION COMMITTEE",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": [
@@ -443,7 +458,7 @@
       "2025-04-15",
       [
         "Oakland April 15, 2025 Special Election",
-        570505.0
+        580505.0
       ]
     ]
   ]
