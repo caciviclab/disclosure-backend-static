@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 1403550.0,
+  "total_contributions": 1393619.97,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -253,7 +253,7 @@
       "Tran_Amt1": 15000.0,
       "Tran_Date": "2024-06-05",
       "Tran_NamF": null,
-      "Tran_NamL": "Urban Peace Movement",
+      "Tran_NamL": "Movement Strategy Center",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     },
@@ -556,6 +556,21 @@
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467768",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": -9930.03,
+      "Tran_Date": "2025-04-09",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
@@ -563,7 +578,7 @@
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        1403550.0
+        1393619.97
       ]
     ]
   ]
