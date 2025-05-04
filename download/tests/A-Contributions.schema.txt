@@ -1,0 +1,79 @@
+                          Table "public.A-Contributions"
+ |         Column         |          Type          | Collation | Nullable | Default 
+-|------------------------+------------------------+-----------+----------+---------
+✔️| Filer_ID               | character varying(9)   |           | not null | 
+✔️| Filer_NamL             | character varying(183) |           | not null | 
+✔️| Report_Num             | character varying(3)   |           | not null | 
+✔️| Committee_Type         | character varying(3)   |           | not null | 
+✔️| Rpt_Date               | date                   |           | not null | 
+✔️| From_Date              | date                   |           | not null | 
+✔️| Thru_Date              | date                   |           | not null | 
+ | Elect_Date             | date                   |           |          | 
+x| tblCover_Office_Cd     | character varying(32)  |           |          | 
+x| tblCover_Offic_Dscr    | character varying(32)  |           |          | 
+ | Rec_Type               | character varying(4)   |           | not null | 
+ | Form_Type              | time without time zone |           | not null | 
+ | Tran_ID                | character varying(12)  |           | not null | 
+ | Entity_Cd              | character varying(3)   |           | not null | 
+ | Tran_NamL              | character varying(199) |           | not null | 
+ | Tran_NamF              | character varying(38)  |           |          | 
+ | Tran_NamT              | character varying(6)   |           |          | 
+ | Tran_NamS              | character varying(5)   |           |          | 
+ | Tran_Adr1              | character varying(32)  |           |          | 
+ | Tran_Adr2              | character varying(32)  |           |          | 
+ | Tran_City              | character varying(22)  |           |          | 
+ | Tran_State             | character varying(4)   |           |          | 
+ | Tran_Zip4              | character varying(10)  |           |          | 
+ | Tran_Emp               | character varying(92)  |           |          | 
+ | Tran_Occ               | character varying(60)  |           |          | 
+ | Tran_Self              | boolean                |           | not null | 
+ | Tran_Type              | character varying(4)   |           |          | 
+ | Tran_Date              | date                   |           | not null | 
+ | Tran_Date1             | date                   |           |          | 
+ | Tran_Amt1              | double precision       |           | not null | 
+ | Tran_Amt2              | double precision       |           | not null | 
+ | Tran_Dscr              | character varying(56)  |           |          | 
+ | Cmte_ID                | character varying(9)   |           |          | 
+ | Tres_NamL              | character varying(4)   |           |          | 
+ | Tres_NamF              | character varying(4)   |           |          | 
+ | Tres_NamT              | character varying(32)  |           |          | 
+ | Tres_NamS              | character varying(32)  |           |          | 
+ | Tres_Adr1              | character varying(32)  |           |          | 
+ | Tres_Adr2              | character varying(32)  |           |          | 
+ | Tres_City              | character varying(7)   |           |          | 
+ | Tres_State             | character varying(4)   |           |          | 
+ | Tres_Zip               | integer                |           |          | 
+ | Intr_NamL              | character varying(74)  |           |          | 
+ | Intr_NamF              | character varying(6)   |           |          | 
+ | Intr_NamT              | character varying(32)  |           |          | 
+ | Intr_NamS              | character varying(32)  |           |          | 
+ | Intr_Adr1              | character varying(32)  |           |          | 
+ | Intr_Adr2              | character varying(32)  |           |          | 
+ | Intr_City              | character varying(13)  |           |          | 
+ | Intr_State             | character varying(4)   |           |          | 
+ | Intr_Zip4              | character varying(10)  |           |          | 
+ | Intr_Emp               | character varying(15)  |           |          | 
+ | Intr_Occ               | character varying(8)   |           |          | 
+ | Intr_Self              | boolean                |           | not null | 
+ | Cand_NamL              | character varying(32)  |           |          | 
+ | Cand_NamF              | character varying(32)  |           |          | 
+ | Cand_NamT              | character varying(32)  |           |          | 
+ | Cand_NamS              | character varying(32)  |           |          | 
+ | tblDetlTran_Office_Cd  | character varying(4)   |           |          | 
+ | tblDetlTran_Offic_Dscr | character varying(19)  |           |          | 
+ | Juris_Cd               | character varying(4)   |           |          | 
+ | Juris_Dscr             | character varying(32)  |           |          | 
+ | Dist_No                | character varying(32)  |           |          | 
+ | Off_S_H_Cd             | character varying(32)  |           |          | 
+ | Bal_Name               | character varying(32)  |           |          | 
+ | Bal_Num                | character varying(4)   |           |          | 
+ | Bal_Juris              | character varying(32)  |           |          | 
+ | Sup_Opp_Cd             | character varying(32)  |           |          | 
+ | Memo_Code              | character varying(32)  |           |          | 
+ | Memo_RefNo             | character varying(11)  |           |          | 
+ | BakRef_TID             | character varying(32)  |           |          | 
+ | XRef_SchNm             | character varying(32)  |           |          | 
+ | XRef_Match             | character varying(32)  |           |          | 
+ | Loan_Rate              | character varying(32)  |           |          | 
+ | Int_CmteId             | integer                |           |          | 
+
