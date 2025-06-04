@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 96600.0,
+  "total_contributions": 98150.0,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -352,6 +352,21 @@
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2025-03-30",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Donatell",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
@@ -360,6 +375,81 @@
       "Tran_NamF": null,
       "Tran_NamL": "D & S Realty and Management LLC(Daniel Cohen)",
       "Tran_Zip4": "94607",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2025-03-31",
+      "Tran_NamF": "Terry",
+      "Tran_NamL": "Friedkin",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Institute for Evolvable Medicines",
+      "Tran_Occ": "Scientist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2025-04-07",
+      "Tran_NamF": "Leor",
+      "Tran_NamL": "Weinberger",
+      "Tran_Zip4": "94158",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2025-04-10",
+      "Tran_NamF": "James",
+      "Tran_NamL": "Donatell",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Abraham Boskovitz, MD",
+      "Tran_Occ": "Physician",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 150.0,
+      "Tran_Date": "2025-04-12",
+      "Tran_NamF": "Abraham",
+      "Tran_NamL": "Boskovitz",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1479336",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2025-04-13",
+      "Tran_NamF": "Brenda",
+      "Tran_NamL": "Harbin-Forte",
+      "Tran_Zip4": "94603",
       "election_name": "oakland-2025"
     },
     {
@@ -383,7 +473,7 @@
       "2025-04-15",
       [
         "Oakland April 15, 2025 Special Election",
-        96600.0
+        98150.0
       ]
     ]
   ]

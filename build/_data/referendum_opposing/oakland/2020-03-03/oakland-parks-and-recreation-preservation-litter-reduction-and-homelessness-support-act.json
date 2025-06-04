@@ -36,12 +36,6 @@
   ],
   "opposing_organizations": [
     {
-      "id": "782560",
-      "name": "California Association of Realtors Issues Mobilization PAC",
-      "payee": "California Association of Realtors Issues Mobilization PAC",
-      "amount": 40641.0
-    },
-    {
       "id": "495189",
       "name": "NATIONAL ASSOCIATION OF REALTORS",
       "payee": "NATIONAL ASSOCIATION OF REALTORS",
@@ -52,6 +46,12 @@
       "name": "Oakland Neighbors United, No On Measure Q",
       "payee": "Oakland Neighbors United, No On Measure Q",
       "amount": 211347.14
+    },
+    {
+      "id": "782560",
+      "name": "California Association of Realtors Issues Mobilization PAC",
+      "payee": "California Association of Realtors Issues Mobilization PAC",
+      "amount": 40641.0
     }
   ],
   "total_contributions": 210828.88

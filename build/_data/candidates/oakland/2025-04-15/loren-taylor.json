@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1476843,
   "supporting_money": {
-    "contributions_received": 509553.18,
-    "total_contributions": 509553.18,
-    "total_expenditures": 394391.82,
+    "contributions_received": 519505.18,
+    "total_contributions": 519505.18,
+    "total_expenditures": 478531.97,
     "total_loans_received": 0.0,
     "total_supporting_independent": 98255.0,
     "support_list": [
@@ -58,31 +58,31 @@
     ],
     "contributions_by_type": {
       "Committee": 3750.0,
-      "Individual": 449277.0,
-      "Unitemized": 55426.18,
+      "Individual": 461041.0,
+      "Unitemized": 52864.18,
       "Self Funding": 200.0,
-      "Other (includes Businesses)": 900.0
+      "Other (includes Businesses)": 1650.0
     },
     "contributions_by_origin": {
-      "Out of State": 9350.0,
-      "Within Oakland": 345881.0,
-      "Within California": 98896.0
+      "Out of State": 10250.0,
+      "Within Oakland": 355648.0,
+      "Within California": 100743.0
     },
-    "total_small_contributions": 74186.18,
+    "total_small_contributions": 75788.18,
     "expenditures_by_type": {
-      "Not Stated": 83524.78,
-      "Office Expenses": 5054.27,
-      "Fundraising Events": 4368.68,
-      "Campaign Consultants": 45600.0,
-      "Meetings and Appearances": 1191.27,
-      "Polling and Survey Research": 15000.0,
-      "Campaign Paraphernalia/Misc.": 27231.32,
-      "Campaign Literature and Mailings": 63019.88,
-      "Radio Airtime and Production Costs": 2800.0,
-      "Staff/Spouse Travel, Lodging, and Meals": 151.5,
-      "Professional Services (Legal, Accounting)": 14000.0,
-      "T.V. or Cable Airtime and Production Costs": 66156.75,
-      "Information Technology Costs (Internet, E-mail)": 11325.02
+      "Not Stated": 186669.56,
+      "Office Expenses": 9953.5,
+      "Fundraising Events": 19002.77,
+      "Campaign Consultants": 85700.0,
+      "Meetings and Appearances": 1682.54,
+      "Polling and Survey Research": 30000.0,
+      "Campaign Paraphernalia/Misc.": 54462.64,
+      "Campaign Literature and Mailings": 126039.76,
+      "Radio Airtime and Production Costs": 5600.0,
+      "Staff/Spouse Travel, Lodging, and Meals": 303.0,
+      "Professional Services (Legal, Accounting)": 24000.0,
+      "T.V. or Cable Airtime and Production Costs": 134122.3,
+      "Information Technology Costs (Internet, E-mail)": 19115.02
     },
     "supporting_by_type": {
       "MON": 800.0,
@@ -99,7 +99,7 @@
       "Graphic Design for Digital Ads": 600.0,
       "Mailer Production and Delivery": 83101.0,
       "Graphic Design for Text Banking": 2000.0,
-      "GOTV VOTER OUTREACH; 4/11 - 4/15": 7670.0,
+      "GOTV VOTER OUTREACH; 4/11 - 4/15": 7400.0,
       "Production of Video Advertisements": 7500.0,
       "Pre-Payment for Printing for Mailer": 47536.0,
       "Graphic Design for Digital Advertising": 200.0,
@@ -108,16 +108,13 @@
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 285931.54,
+    "opposing_expenditures": 285931.03,
     "opposing_by_type": {
-      "MAILER": 28380.0,
-      "DIGITAL ADS": 75981.0,
-      "Campaign Literature and Mailings": 24916.0,
-      "Independent Expenditure Supporting/Opposing Others": 160175.21
+      "Independent Expenditure Supporting/Opposing Others": 289451.7
     },
     "opposition_list": [
       {
-        "Total": 285931.54,
+        "Total": 285931.03,
         "Cand_ID": 1476843,
         "Filer_ID": "1478177",
         "Filer_NamL": "Supporters of Barbara Lee for Oakland Mayor 2025, A Coalition of Business, Labor and Public Safety Organizations for a Better Oakland",
@@ -125,7 +122,7 @@
       }
     ]
   },
-  "total_contributions": 509553.18,
-  "total_expenditures": 394391.82,
+  "total_contributions": 519505.18,
+  "total_expenditures": 478531.97,
   "total_loans_received": 0.0
 }
