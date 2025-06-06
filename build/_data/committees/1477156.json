@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 8273.9,
+  "total_contributions": 8773.9,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -690,6 +690,81 @@
       "Tran_NamF": "Susie",
       "Tran_NamL": "Ferris-Inderkum",
       "Tran_Zip4": "94583",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477156",
+      "Tran_Emp": "Blue Sky Rivers",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-01",
+      "Tran_NamF": "Tasha",
+      "Tran_NamL": "Hoggatt",
+      "Tran_Zip4": "91380",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477156",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-02",
+      "Tran_NamF": "Stephanie",
+      "Tran_NamL": "Jeong",
+      "Tran_Zip4": "94118",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477156",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-05",
+      "Tran_NamF": "Armon",
+      "Tran_NamL": "Ketchum",
+      "Tran_Zip4": "95493",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477156",
+      "Tran_Emp": "retired",
+      "Tran_Occ": "retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-05",
+      "Tran_NamF": "Dennis",
+      "Tran_NamL": "Thomas",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477156",
+      "Tran_Emp": "self",
+      "Tran_Occ": "electrician",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-05",
+      "Tran_NamF": "Howard",
+      "Tran_NamL": "Travis",
+      "Tran_Zip4": "88240",
       "election_name": "oakland-2025"
     }
   ]

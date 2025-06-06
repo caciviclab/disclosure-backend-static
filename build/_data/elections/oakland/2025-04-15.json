@@ -1,23 +1,23 @@
 {
-  "total_contributions": 1600138.78,
+  "total_contributions": 1718412.71,
   "total_contributions_by_source": {
-    "Out of State": 78532.25,
-    "Within Oakland": 729981.51,
-    "Within California": 683081.27
+    "Out of State": 109199.25,
+    "Within Oakland": 751412.51,
+    "Within California": 732804.55
   },
   "contributions_by_type": {
-    "Committee": 477210.26,
-    "Individual": 981454.62,
-    "Unitemized": 108543.75,
+    "Committee": 481560.26,
+    "Individual": 1061425.9,
+    "Unitemized": 124996.4,
     "Self Funding": 570.9,
-    "Other (includes Businesses)": 32359.25
+    "Other (includes Businesses)": 49859.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 987797.44
+      "amount": 1106071.37
     },
     {
       "slug": "general-sales-tax",
@@ -38,7 +38,7 @@
       "type": "office",
       "title": "Oakland April 15, 2025 Special Election",
       "candidate": "Mindy Pechenuk",
-      "proportion": 0.22,
+      "proportion": 0.21,
       "office_title": "Mayor"
     },
     {
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland April 15, 2025 Special Election",
       "candidate": "Barbara Lee",
-      "proportion": 0.12,
+      "proportion": 0.13,
       "office_title": "Mayor"
     }
   ],

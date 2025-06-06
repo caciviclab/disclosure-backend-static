@@ -3,21 +3,6 @@
   "total_contributions": 390.0,
   "contributions": [
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "790500",
-      "Tran_Emp": "Retired",
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 45.0,
-      "Tran_Date": "2018-08-07",
-      "Tran_NamF": "Robert",
-      "Tran_NamL": "Warwick",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -31,6 +16,21 @@
       "Tran_NamL": "Warwick",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "790500",
+      "Tran_Emp": "Retired",
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 45.0,
+      "Tran_Date": "2018-08-07",
+      "Tran_NamF": "Robert",
+      "Tran_NamL": "Warwick",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",

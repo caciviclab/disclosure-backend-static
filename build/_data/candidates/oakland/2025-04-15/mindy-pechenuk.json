@@ -21,35 +21,36 @@
   "is_winner": null,
   "filer_id": 1477156,
   "supporting_money": {
-    "contributions_received": 10417.9,
-    "total_contributions": 10417.9,
-    "total_expenditures": 7212.39,
+    "contributions_received": 10942.9,
+    "total_contributions": 10942.9,
+    "total_expenditures": 11042.9,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 8153.0,
-      "Unitemized": 2144.0,
+      "Individual": 8653.0,
+      "Unitemized": 2169.0,
       "Self Funding": 120.9
     },
     "contributions_by_origin": {
-      "Out of State": 1603.0,
-      "Within Oakland": 1720.9,
-      "Within California": 4950.0
+      "Out of State": 1703.0,
+      "Within Oakland": 1820.9,
+      "Within California": 5250.0
     },
-    "total_small_contributions": 2264.9,
+    "total_small_contributions": 2289.9,
     "expenditures_by_type": {
       "Print Ads": 1750.0,
-      "Not Stated": 801.03,
+      "Not Stated": 962.28,
       "Voter Registration": 195.0,
-      "Meetings and Appearances": 104.9,
-      "Campaign Paraphernalia/Misc.": 2778.51,
+      "Meetings and Appearances": 1051.8,
+      "Campaign Paraphernalia/Misc.": 3042.96,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 138.58,
       "Candidate Travel, Lodging, and Meals": 130.0,
-      "Information Technology Costs (Internet, E-mail)": 49.0
+      "Information Technology Costs (Internet, E-mail)": 98.0,
+      "Transfer Between Committees of the Same Candidate/sponsor": 2275.01
     },
     "supporting_by_type": {
     }
@@ -62,7 +63,7 @@
 
     ]
   },
-  "total_contributions": 10417.9,
-  "total_expenditures": 7212.39,
+  "total_contributions": 10942.9,
+  "total_expenditures": 11042.9,
   "total_loans_received": 0.0
 }

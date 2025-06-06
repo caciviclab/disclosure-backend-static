@@ -1,8 +1,8 @@
 ---
 election: _elections/oakland/2025-04-15.md
 candidates:
-- loren-taylor
 - barbara-lee
+- loren-taylor
 - mindy-pechenuk
 - renia-webb
 - cristina-grappo

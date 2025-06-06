@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1477668,
   "supporting_money": {
-    "contributions_received": 453118.36,
-    "total_contributions": 453118.36,
-    "total_expenditures": 371559.15,
+    "contributions_received": 580819.29,
+    "total_contributions": 580819.29,
+    "total_expenditures": 581219.29,
     "total_loans_received": 0.0,
     "total_supporting_independent": 221675.29,
     "support_list": [
@@ -64,33 +64,34 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 59827.76,
-      "Individual": 343192.0,
-      "Unitemized": 41727.6,
-      "Other (includes Businesses)": 8371.0
+      "Committee": 64177.76,
+      "Individual": 434427.28,
+      "Unitemized": 55593.25,
+      "Other (includes Businesses)": 26621.0
     },
     "contributions_by_origin": {
-      "Out of State": 49966.0,
-      "Within Oakland": 177617.0,
-      "Within California": 183807.76
+      "Out of State": 80883.0,
+      "Within Oakland": 208615.0,
+      "Within California": 235728.04
     },
-    "total_small_contributions": 53422.6,
+    "total_small_contributions": 74433.25,
     "expenditures_by_type": {
       "Print Ads": 500.0,
-      "Not Stated": 8360.0,
-      "Phone Banks": 9573.2,
-      "Office Expenses": 26708.41,
-      "Fundraising Events": 21732.73,
-      "Campaign Consultants": 71000.0,
+      "Not Stated": 18025.0,
+      "Phone Banks": 34523.89,
+      "Office Expenses": 43945.19,
+      "Fundraising Events": 43459.31,
+      "Campaign Consultants": 168550.0,
+      "Meetings and Appearances": 3406.81,
       "Polling and Survey Research": 30000.0,
-      "Campaign Paraphernalia/Misc.": 11114.12,
+      "Campaign Paraphernalia/Misc.": 12114.12,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 26263.24,
-      "Staff/Spouse Travel, Lodging, and Meals": 54.0,
-      "Postage, Delivery and Messenger Services": 24700.7,
-      "Professional Services (Legal, Accounting)": 9398.8,
-      "T.V. or Cable Airtime and Production Costs": 31100.0,
-      "Information Technology Costs (Internet, E-mail)": 14335.02
+      "Campaign Literature and Mailings": 53785.0,
+      "Staff/Spouse Travel, Lodging, and Meals": 1311.32,
+      "Postage, Delivery and Messenger Services": 43382.72,
+      "Professional Services (Legal, Accounting)": 20531.23,
+      "T.V. or Cable Airtime and Production Costs": 62475.0,
+      "Information Technology Costs (Internet, E-mail)": 41167.79
     },
     "supporting_by_type": {
       "Mailer": 35337.0,
@@ -118,7 +119,7 @@
       }
     ]
   },
-  "total_contributions": 453118.36,
-  "total_expenditures": 371559.15,
+  "total_contributions": 580819.29,
+  "total_expenditures": 581219.29,
   "total_loans_received": 0.0
 }
