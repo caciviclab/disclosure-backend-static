@@ -1052,7 +1052,7 @@ CREATE TABLE public."I-Contributions" (
     "Tran_Date" date NOT NULL,
     "Tran_Date1" character varying(32),
     "Tran_Amt1" double precision NOT NULL,
-    "Tran_Amt2" double precision NOT NULL,
+    "Tran_Amt2" double precision,
     "Tran_Dscr" character varying(87),
     "Cmte_ID" integer,
     "Tres_NamL" character varying(32),

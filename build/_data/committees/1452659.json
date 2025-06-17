@@ -63,21 +63,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 50000.0,
-      "Tran_Date": "2022-09-27",
-      "Tran_NamF": null,
-      "Tran_NamL": "McGuire and Hester",
-      "Tran_Zip4": "94502",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -95,16 +80,16 @@
     {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "1435653",
+      "Cmte_ID": null,
       "Filer_ID": "1452659",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2022-09-30",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2022-09-27",
       "Tran_NamF": null,
-      "Tran_NamL": "Resources for Community Development",
-      "Tran_Zip4": "94704",
+      "Tran_NamL": "McGuire and Hester",
+      "Tran_Zip4": "94502",
       "election_name": "oakland-2022"
     },
     {
@@ -121,6 +106,21 @@
       "Tran_NamL": "Resources for Community Development",
       "Tran_Zip4": "94704",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1435653",
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-09-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Resources for Community Development",
+      "Tran_Zip4": "94704",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2022-11-08",
@@ -243,21 +243,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2022-10-18",
-      "Tran_NamF": null,
-      "Tran_NamL": "Mercy Housing Inc.",
-      "Tran_Zip4": "80202",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
@@ -275,16 +260,16 @@
     {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1345344",
+      "Cmte_ID": null,
       "Filer_ID": "1452659",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 25000.0,
-      "Tran_Date": "2022-10-19",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2022-10-18",
       "Tran_NamF": null,
-      "Tran_NamL": "Operating Engineers Local Union No. 3 Issues Advocacy/Ballot Initiative PAC",
-      "Tran_Zip4": "94502",
+      "Tran_NamL": "Mercy Housing Inc.",
+      "Tran_Zip4": "80202",
       "election_name": "oakland-2024"
     },
     {
@@ -301,6 +286,21 @@
       "Tran_NamL": "Operating Engineers Local Union No. 3 Issues Advocacy/Ballot Initiative PAC",
       "Tran_Zip4": "94502",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1345344",
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Operating Engineers Local Union No. 3 Issues Advocacy/Ballot Initiative PAC",
+      "Tran_Zip4": "94502",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2022-11-08",
@@ -393,21 +393,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2022-10-24",
-      "Tran_NamF": null,
-      "Tran_NamL": "Plumbers & Steamfitters Local Union 342",
-      "Tran_Zip4": "94518",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -421,6 +406,21 @@
       "Tran_NamL": "Plumbers & Steamfitters Local Union 342",
       "Tran_Zip4": "94518",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "Plumbers & Steamfitters Local Union 342",
+      "Tran_Zip4": "94518",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -453,21 +453,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1433122",
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 24356.41,
-      "Tran_Date": "2022-10-25",
-      "Tran_NamF": null,
-      "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1433122",
@@ -481,6 +466,21 @@
       "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1433122",
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 24356.41,
+      "Tran_Date": "2022-10-25",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -513,21 +513,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 25000.0,
-      "Tran_Date": "2022-10-26",
-      "Tran_NamF": null,
-      "Tran_NamL": "Ray's Electric",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -541,6 +526,21 @@
       "Tran_NamL": "Ray's Electric",
       "Tran_Zip4": "94621",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Ray's Electric",
+      "Tran_Zip4": "94621",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -573,21 +573,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2022-10-27",
-      "Tran_NamF": null,
-      "Tran_NamL": "HNTB Corporation",
-      "Tran_Zip4": "64105",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
@@ -601,6 +586,21 @@
       "Tran_NamL": "HNTB Corporation",
       "Tran_Zip4": "64105",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "HNTB Corporation",
+      "Tran_Zip4": "64105",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2022-11-08",
@@ -693,21 +693,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 0.01,
-      "Tran_Date": "2022-10-31",
-      "Tran_NamF": null,
-      "Tran_NamL": "Local Initiatives Support Corporation",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
@@ -721,6 +706,21 @@
       "Tran_NamL": "Local Initiatives Support Corporation",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 0.01,
+      "Tran_Date": "2022-10-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Local Initiatives Support Corporation",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2022-11-08",
@@ -753,21 +753,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2022-11-03",
-      "Tran_NamF": null,
-      "Tran_NamL": "Cahill Contractors, LLC",
-      "Tran_Zip4": "94104",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -783,19 +768,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1433122",
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
       "Filer_ID": "1452659",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 6666.67,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
       "Tran_Date": "2022-11-03",
       "Tran_NamF": null,
-      "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2024"
+      "Tran_NamL": "Cahill Contractors, LLC",
+      "Tran_Zip4": "94104",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2022-11-08",
@@ -811,6 +796,21 @@
       "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1433122",
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 6666.67,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Workers' Justice Coalition sponsored by Service Employees International Union Local 1021",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2022-11-08",
@@ -843,21 +843,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 40000.0,
-      "Tran_Date": "2022-11-03",
-      "Tran_NamF": null,
-      "Tran_NamL": "MidPen Housing Corporationc/o MidPen Housing",
-      "Tran_Zip4": "94404",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -871,6 +856,21 @@
       "Tran_NamL": "MidPen Housing Corporationc/o MidPen Housing",
       "Tran_Zip4": "94404",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 40000.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "MidPen Housing Corporationc/o MidPen Housing",
+      "Tran_Zip4": "94404",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -903,21 +903,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "960734",
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 3000.0,
-      "Tran_Date": "2022-11-03",
-      "Tran_NamF": null,
-      "Tran_NamL": "Northern CA Chapter, National Electrical Contractors Assn PAC",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "960734",
@@ -931,6 +916,21 @@
       "Tran_NamL": "Northern CA Chapter, National Electrical Contractors Assn PAC",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "960734",
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2022-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "Northern CA Chapter, National Electrical Contractors Assn PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -1023,6 +1023,21 @@
       "election_name": "oakland-2022"
     },
     {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2022-11-08",
+      "Tran_NamF": null,
+      "Tran_NamL": "Shorenstein Oakland T12 LLC",
+      "Tran_Zip4": "94104",
+      "election_name": "oakland-2022"
+    },
+    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -1036,36 +1051,6 @@
       "Tran_NamL": "Shorenstein Oakland T12 LLC",
       "Tran_Zip4": "94104",
       "election_name": "oakland-2024"
-    },
-    {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 50000.0,
-      "Tran_Date": "2022-11-08",
-      "Tran_NamF": null,
-      "Tran_NamL": "Shorenstein Oakland T12 LLC",
-      "Tran_Zip4": "94104",
-      "election_name": "oakland-2022"
-    },
-    {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 25000.0,
-      "Tran_Date": "2022-11-08",
-      "Tran_NamF": null,
-      "Tran_NamL": "The San Francisco Foundation",
-      "Tran_Zip4": "94111",
-      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -1085,16 +1070,16 @@
     {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "1367976",
+      "Cmte_ID": null,
       "Filer_ID": "1452659",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2022-11-15",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-11-08",
       "Tran_NamF": null,
-      "Tran_NamL": "Construction & General Laborers Local Union 304 Issues Committee",
-      "Tran_Zip4": "95814",
+      "Tran_NamL": "The San Francisco Foundation",
+      "Tran_Zip4": "94111",
       "election_name": "oakland-2022"
     },
     {
@@ -1111,6 +1096,21 @@
       "Tran_NamL": "Construction & General Laborers Local Union 304 Issues Committee",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1367976",
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2022-11-15",
+      "Tran_NamF": null,
+      "Tran_NamL": "Construction & General Laborers Local Union 304 Issues Committee",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -1173,21 +1173,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1452659",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20000.0,
-      "Tran_Date": "2022-12-15",
-      "Tran_NamF": null,
-      "Tran_NamL": "PG&E Corporation Major Donor Account",
-      "Tran_Zip4": "94105",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -1203,19 +1188,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1452659",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1600.0,
-      "Tran_Date": "2022-12-21",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2022-12-15",
       "Tran_NamF": null,
-      "Tran_NamL": "C4C Oakland Action, Inc.",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2024"
+      "Tran_NamL": "PG&E Corporation Major Donor Account",
+      "Tran_Zip4": "94105",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2022-11-08",
@@ -1231,6 +1216,21 @@
       "Tran_NamL": "C4C Oakland Action, Inc.",
       "Tran_Zip4": "94607",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1452659",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1600.0,
+      "Tran_Date": "2022-12-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "C4C Oakland Action, Inc.",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
