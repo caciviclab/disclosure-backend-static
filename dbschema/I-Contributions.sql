@@ -29,7 +29,7 @@ CREATE TABLE "I-Contributions" (
 	"Tran_Date" DATE NOT NULL, 
 	"Tran_Date1" VARCHAR(32), 
 	"Tran_Amt1" FLOAT NOT NULL, 
-	"Tran_Amt2" FLOAT NOT NULL, 
+	"Tran_Amt2" FLOAT, 
 	"Tran_Dscr" VARCHAR(87), 
 	"Cmte_ID" INTEGER, 
 	"Tres_NamL" VARCHAR(32), 
