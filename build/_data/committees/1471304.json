@@ -123,6 +123,21 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Jacqueline Caldwell",
+      "Tran_Occ": "Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2025-01-15",
+      "Tran_NamF": "Jacqueline",
+      "Tran_NamL": "Caldwell",
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2025"
+    },
+    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -172,14 +187,14 @@
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1471304",
-      "Tran_Emp": "Jacqueline Caldwell",
-      "Tran_Occ": "Contractor",
+      "Tran_Emp": "Stephen Barnett Lewis",
+      "Tran_Occ": "Doctor",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2025-01-15",
-      "Tran_NamF": "Jacqueline",
-      "Tran_NamL": "Caldwell",
-      "Tran_Zip4": "94608",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-01-21",
+      "Tran_NamF": "Stephen Barnett",
+      "Tran_NamL": "Lewis",
+      "Tran_Zip4": "94618",
       "election_name": "oakland-2025"
     },
     {
@@ -196,21 +211,6 @@
       "Tran_NamL": "Lewis",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
-    },
-    {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Stephen Barnett Lewis",
-      "Tran_Occ": "Doctor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2025-01-21",
-      "Tran_NamF": "Stephen Barnett",
-      "Tran_NamL": "Lewis",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2025"
     },
     {
       "date": "2024-11-05",
@@ -333,6 +333,21 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Scott's Jack London Seafood Inc.",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2024"
+    },
+    {
       "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
@@ -346,36 +361,6 @@
       "Tran_NamL": "Scott's Jack London Seafood Inc.",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2025"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2025-01-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "Scott's Jack London Seafood Inc.",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2024"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "University Of California",
-      "Tran_Occ": "Professor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2025-03-21",
-      "Tran_NamF": "Dan",
-      "Tran_NamL": "Lindheim",
-      "Tran_Zip4": "94705",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2025-04-15",
@@ -393,19 +378,19 @@
       "election_name": "oakland-2025"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": "780657",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
       "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Small Contribution Committee",
-      "Tran_Amt1": 50000.0,
-      "Tran_Date": "2025-03-27",
-      "Tran_NamF": null,
-      "Tran_NamL": "California Nurses Association PAC",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2025"
+      "Tran_Emp": "University Of California",
+      "Tran_Occ": "Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-03-21",
+      "Tran_NamF": "Dan",
+      "Tran_NamL": "Lindheim",
+      "Tran_Zip4": "94705",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -421,6 +406,21 @@
       "Tran_NamL": "California Nurses Association PAC",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "780657",
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2025-03-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "California Nurses Association PAC",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2025"
     },
     {
       "date": "2024-11-05",
