@@ -18,21 +18,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": "Non-Profit Organization",
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2020-09-21",
-      "Tran_NamF": null,
-      "Tran_NamL": "Bay Area Housing Advocacy Coalition",
-      "Tran_Zip4": "94103",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -52,14 +37,14 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": "Horizon Beverage",
-      "Tran_Occ": "Founder",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 5000.0,
+      "Tran_Emp": null,
+      "Tran_Occ": "Non-Profit Organization",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
       "Tran_Date": "2020-09-21",
-      "Tran_NamF": "Cestra",
-      "Tran_NamL": "Butner",
-      "Tran_Zip4": "94619",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bay Area Housing Advocacy Coalition",
+      "Tran_Zip4": "94103",
       "election_name": "oakland-2020"
     },
     {
@@ -78,19 +63,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1425090",
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 100000.0,
+      "Tran_Emp": "Horizon Beverage",
+      "Tran_Occ": "Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 5000.0,
       "Tran_Date": "2020-09-21",
-      "Tran_NamF": null,
-      "Tran_NamL": "Californians for Independent Work, Sponsored by Lyft, Inc.",
-      "Tran_Zip4": "94965",
-      "election_name": "oakland-2024"
+      "Tran_NamF": "Cestra",
+      "Tran_NamL": "Butner",
+      "Tran_Zip4": "94619",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -106,6 +91,21 @@
       "Tran_NamL": "Californians for Independent Work, Sponsored by Lyft, Inc.",
       "Tran_Zip4": "94965",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1425090",
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 100000.0,
+      "Tran_Date": "2020-09-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Californians for Independent Work, Sponsored by Lyft, Inc.",
+      "Tran_Zip4": "94965",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -258,21 +258,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "Self Employed/Same Name",
-      "Tran_Occ": "Artist",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2020-09-29",
-      "Tran_NamF": "Martha",
-      "Tran_NamL": "Siegel",
-      "Tran_Zip4": "94501-3911",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -286,6 +271,21 @@
       "Tran_NamL": "Siegel",
       "Tran_Zip4": "94501-3911",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Self Employed/Same Name",
+      "Tran_Occ": "Artist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "Martha",
+      "Tran_NamL": "Siegel",
+      "Tran_Zip4": "94501-3911",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -438,21 +438,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "SV Angel",
-      "Tran_Occ": "Founder",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 15000.0,
-      "Tran_Date": "2020-10-16",
-      "Tran_NamF": "Ron",
-      "Tran_NamL": "Conway",
-      "Tran_Zip4": "94920",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -468,19 +453,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": "United States Digital Response",
-      "Tran_Occ": "Co-Founder",
+      "Tran_Emp": "SV Angel",
+      "Tran_Occ": "Founder",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2020-10-17",
-      "Tran_NamF": "Jennifer",
-      "Tran_NamL": "Pahlka",
-      "Tran_Zip4": "94610-1612",
-      "election_name": "oakland-2024"
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2020-10-16",
+      "Tran_NamF": "Ron",
+      "Tran_NamL": "Conway",
+      "Tran_Zip4": "94920",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -496,6 +481,21 @@
       "Tran_NamL": "Pahlka",
       "Tran_Zip4": "94610-1612",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "United States Digital Response",
+      "Tran_Occ": "Co-Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2020-10-17",
+      "Tran_NamF": "Jennifer",
+      "Tran_NamL": "Pahlka",
+      "Tran_Zip4": "94610-1612",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -528,21 +528,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "Related California",
-      "Tran_Occ": "Real Estate Consultant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 7500.0,
-      "Tran_Date": "2020-10-21",
-      "Tran_NamF": "William",
-      "Tran_NamL": "Witte",
-      "Tran_Zip4": "92651",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -556,6 +541,21 @@
       "Tran_NamL": "Witte",
       "Tran_Zip4": "92651",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Related California",
+      "Tran_Occ": "Real Estate Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "William",
+      "Tran_NamL": "Witte",
+      "Tran_Zip4": "92651",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2024-11-05",
@@ -588,6 +588,21 @@
       "election_name": "oakland-2020"
     },
     {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": "1342695",
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2020-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Rental Housing Association PAC",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2020"
+    },
+    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1342695",
@@ -603,19 +618,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": "1342695",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
       "Filer_ID": "1428904",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 3000.0,
-      "Tran_Date": "2020-10-29",
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2022-04-13",
       "Tran_NamF": null,
-      "Tran_NamL": "East Bay Rental Housing Association PAC",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2020"
+      "Tran_NamL": "Bay Area Housing Action Coalition",
+      "Tran_Zip4": "94103",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2022-11-08",
@@ -631,21 +646,6 @@
       "Tran_NamL": "Bay Area Housing Action Coalition",
       "Tran_Zip4": "94103",
       "election_name": "oakland-2022"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 500.0,
-      "Tran_Date": "2022-04-13",
-      "Tran_NamF": null,
-      "Tran_NamL": "Bay Area Housing Action Coalition",
-      "Tran_Zip4": "94103",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
