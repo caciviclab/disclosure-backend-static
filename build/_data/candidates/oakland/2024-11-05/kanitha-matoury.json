@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1467524,
   "supporting_money": {
-    "contributions_received": 68417.0,
-    "total_contributions": 68417.0,
-    "total_expenditures": 45663.95,
-    "total_loans_received": 25000.0,
+    "contributions_received": 44713.95,
+    "total_contributions": 44713.95,
+    "total_expenditures": 46315.83,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 4046.32,
     "support_list": [
       {
@@ -43,23 +43,23 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 600.0,
-      "Individual": 33600.0,
-      "Unitemized": 4732.0,
+      "Committee": 2021.95,
+      "Individual": 33500.0,
+      "Unitemized": 4707.0,
       "Self Funding": 220.0,
       "Other (includes Businesses)": 4265.0
     },
     "contributions_by_origin": {
       "Out of State": 1600.0,
-      "Within Oakland": 18895.0,
-      "Within California": 18190.0
+      "Within Oakland": 20316.95,
+      "Within California": 18090.0
     },
-    "total_small_contributions": 5887.0,
+    "total_small_contributions": 5862.0,
     "expenditures_by_type": {
       "Print Ads": 1600.0,
       "Contribution": 250.0,
       "Office Expenses": 2452.78,
-      "Fundraising Events": 1834.07,
+      "Fundraising Events": 2434.07,
       "Campaign Consultants": 12856.38,
       "Meetings and Appearances": 229.95,
       "Campaign Paraphernalia/Misc.": 818.63,
@@ -87,7 +87,7 @@
 
     ]
   },
-  "total_contributions": 68417.0,
-  "total_expenditures": 45663.95,
-  "total_loans_received": 25000.0
+  "total_contributions": 44713.95,
+  "total_expenditures": 46315.83,
+  "total_loans_received": 0.0
 }

@@ -3,8 +3,8 @@ election: _elections/oakland/2024-11-05.md
 candidates:
 - charlene-a-wang
 - leronne-armstrong
-- kanitha-matoury
 - rowena-j-brown
+- kanitha-matoury
 - shawn-b-danino
 - cristina-tostado
 - mindy-pechenuk

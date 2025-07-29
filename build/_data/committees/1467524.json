@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 38685.0,
+  "total_contributions": 40006.95,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -2475,6 +2475,36 @@
       "Tran_NamF": "Jinnhua",
       "Tran_NamL": "Su",
       "Tran_Zip4": "94577",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1467524",
+      "Tran_Emp": "Donahue Fitzgerald LLP",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -100.0,
+      "Tran_Date": "2025-01-03",
+      "Tran_NamF": "David",
+      "Tran_NamL": "Stein",
+      "Tran_Zip4": "94501",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1467524",
+      "Filer_ID": "1467524",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1421.95,
+      "Tran_Date": "2025-05-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Kanitha Matoury for Oakland City Council At-Large 2024",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     }
   ]
