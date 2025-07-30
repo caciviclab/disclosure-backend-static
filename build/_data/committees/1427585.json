@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 238337.0,
+  "total_contributions": 238937.0,
   "contributions": [
     {
       "date": "2020-11-03",
@@ -18360,6 +18360,36 @@
       "Tran_NamF": "Liz",
       "Tran_NamL": "Atkins-Pattenson",
       "Tran_Zip4": "94612",
+      "election_name": "oakland-2020"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": "City of Oakland",
+      "Tran_Occ": "Center Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-03",
+      "Tran_NamF": "Terri",
+      "Tran_NamL": "Westbrook",
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2020"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427585",
+      "Tran_Emp": "Leatrice Tomlinson",
+      "Tran_Occ": "Director",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2025-04-05",
+      "Tran_NamF": "Leatrice",
+      "Tran_NamL": "Tomlinson",
+      "Tran_Zip4": "94609",
       "election_name": "oakland-2020"
     }
   ]
