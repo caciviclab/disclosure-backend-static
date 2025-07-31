@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 305000.0,
+  "total_contributions": 306053.45,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -91,6 +91,21 @@
       "Tran_NamL": "Families for a Vibrant Oakland",
       "Tran_Zip4": "94118",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1475776",
+      "Filer_ID": "1475778",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1053.45,
+      "Tran_Date": "2025-06-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Families for a Safer Oakland, in Support of LeRonne Armstrong for City Council 2024",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
@@ -98,7 +113,7 @@
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        305000.0
+        306053.45
       ]
     ]
   ]
