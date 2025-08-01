@@ -797,18 +797,18 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 8030002.54,
+    "total_contributions": 8063402.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2929387.86,
-      "Within California": 4381259.45
+      "Within Oakland": 2949187.86,
+      "Within California": 4394734.45
     },
     "contributions_by_type": {
-      "Committee": 1716388.97,
-      "Individual": 2840852.39,
-      "Unitemized": 130609.9,
+      "Committee": 1717538.97,
+      "Individual": 2869727.39,
+      "Unitemized": 130734.9,
       "Self Funding": 16387.78,
-      "Other (includes Businesses)": 3289857.76
+      "Other (includes Businesses)": 3293107.76
     },
     "most_expensive_races": [
       {
@@ -1585,15 +1585,15 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3564161.12,
+    "total_contributions": 3588161.12,
     "total_contributions_by_source": {
       "Out of State": 139169.14,
-      "Within Oakland": 2055013.89,
-      "Within California": 1197940.73
+      "Within Oakland": 2068013.89,
+      "Within California": 1208940.73
     },
     "contributions_by_type": {
       "PTY": 1600.0,
-      "Committee": 929285.87,
+      "Committee": 953285.87,
       "Individual": 1175287.89,
       "Unitemized": 98637.36,
       "Self Funding": 18654.19,
@@ -1610,7 +1610,7 @@
         "slug": "mayoral-recall-election",
         "type": "referendum",
         "title": "Measure REC1",
-        "amount": 732632.82
+        "amount": 756632.82
       },
       {
         "slug": "city-council-at-large",
@@ -1674,9 +1674,9 @@
         "total_contributions": 720000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+        "name": "Revitalize East Bay Committee",
         "election_name": "oakland-2024",
-        "total_contributions": 390000.0
+        "total_contributions": 399764.55
       }
     ],
     "top_contributors_for_offices": [
@@ -1704,7 +1704,7 @@
         "name": "Foundational Oakland Unites",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_contributions": 365800.56
+        "total_contributions": 378800.56
       },
       {
         "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -1733,10 +1733,10 @@
         "total_spending": 720000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+        "name": "Revitalize East Bay Committee",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_spending": 390000.0
+        "total_spending": 399764.55
       }
     ],
     "top_spenders_for_offices": [
@@ -1773,24 +1773,24 @@
         "total_spending": 720000.0
       },
       {
-        "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+        "name": "Revitalize East Bay Committee",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_spending": 390000.0
+        "total_spending": 399764.55
       }
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1718412.71,
+    "total_contributions": 1741526.71,
     "total_contributions_by_source": {
-      "Out of State": 109199.25,
-      "Within Oakland": 751412.51,
-      "Within California": 732804.55
+      "Out of State": 110399.25,
+      "Within Oakland": 763301.01,
+      "Within California": 740794.8
     },
     "contributions_by_type": {
-      "Committee": 481560.26,
-      "Individual": 1061425.9,
-      "Unitemized": 124996.4,
+      "Committee": 484660.26,
+      "Individual": 1079404.65,
+      "Unitemized": 127031.65,
       "Self Funding": 570.9,
       "Other (includes Businesses)": 49859.25
     },
@@ -1811,7 +1811,7 @@
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 209835.94
+        "amount": 232949.94
       }
     ],
     "largest_small_proportion": [

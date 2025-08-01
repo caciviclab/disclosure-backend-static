@@ -1,13 +1,13 @@
 {
-  "total_contributions": 3564161.12,
+  "total_contributions": 3588161.12,
   "total_contributions_by_source": {
     "Out of State": 139169.14,
-    "Within Oakland": 2055013.89,
-    "Within California": 1197940.73
+    "Within Oakland": 2068013.89,
+    "Within California": 1208940.73
   },
   "contributions_by_type": {
     "PTY": 1600.0,
-    "Committee": 929285.87,
+    "Committee": 953285.87,
     "Individual": 1175287.89,
     "Unitemized": 98637.36,
     "Self Funding": 18654.19,
@@ -24,7 +24,7 @@
       "slug": "mayoral-recall-election",
       "type": "referendum",
       "title": "Measure REC1",
-      "amount": 732632.82
+      "amount": 756632.82
     },
     {
       "slug": "city-council-at-large",
@@ -88,9 +88,9 @@
       "total_contributions": 720000.0
     },
     {
-      "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+      "name": "Revitalize East Bay Committee",
       "election_name": "oakland-2024",
-      "total_contributions": 390000.0
+      "total_contributions": 399764.55
     }
   ],
   "top_contributors_for_offices": [
@@ -118,7 +118,7 @@
       "name": "Foundational Oakland Unites",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_contributions": 365800.56
+      "total_contributions": 378800.56
     },
     {
       "name": "Service Employees International Union Local 1021 Issues PAC",
@@ -147,10 +147,10 @@
       "total_spending": 720000.0
     },
     {
-      "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+      "name": "Revitalize East Bay Committee",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 390000.0
+      "total_spending": 399764.55
     }
   ],
   "top_spenders_for_offices": [
@@ -187,10 +187,10 @@
       "total_spending": 720000.0
     },
     {
-      "name": "International Federation of Professional and Technical Engineers Local 21 TJ Anthony PAC Fund",
+      "name": "Revitalize East Bay Committee",
       "type": "Measure",
       "election_name": "oakland-2024",
-      "total_spending": 390000.0
+      "total_spending": 399764.55
     }
   ]
 }

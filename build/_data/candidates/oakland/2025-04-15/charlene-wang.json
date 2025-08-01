@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1477604,
   "supporting_money": {
-    "contributions_received": 112861.43,
-    "total_contributions": 112861.43,
-    "total_expenditures": 74547.07,
+    "contributions_received": 122564.93,
+    "total_contributions": 122564.93,
+    "total_expenditures": 114873.29,
     "total_loans_received": 0.0,
     "total_supporting_independent": 105627.0,
     "support_list": [
@@ -43,37 +43,39 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 14400.0,
-      "Individual": 87708.21,
-      "Unitemized": 3924.97,
+      "Committee": 15700.0,
+      "Individual": 95496.96,
+      "Unitemized": 4539.72,
       "Self Funding": 250.0,
       "Other (includes Businesses)": 6578.25
     },
     "contributions_by_origin": {
-      "Out of State": 7597.25,
-      "Within Oakland": 58277.21,
-      "Within California": 43062.0
+      "Out of State": 7797.25,
+      "Within Oakland": 63600.71,
+      "Within California": 46627.25
     },
-    "total_small_contributions": 4498.97,
+    "total_small_contributions": 5364.47,
     "expenditures_by_type": {
-      "Phone Banks": 615.75,
-      "Office Expenses": 520.0,
+      "Phone Banks": 6302.08,
+      "Office Expenses": 2688.0,
       "Fundraising Events": 605.92,
-      "Campaign Consultants": 5200.0,
-      "Campaign Workers' Salaries": 5900.0,
-      "Campaign Paraphernalia/Misc.": 9610.77,
+      "Campaign Consultants": 10800.0,
+      "Meetings and Appearances": 3000.0,
+      "Campaign Workers' Salaries": 15662.56,
+      "Campaign Paraphernalia/Misc.": 22840.1,
       "Candidate Filing/Ballot Fees": 950.0,
-      "Campaign Literature and Mailings": 23783.42,
-      "Professional Services (Legal, Accounting)": 1770.0,
-      "Information Technology Costs (Internet, E-mail)": 8732.05
+      "Campaign Literature and Mailings": 32946.7,
+      "Professional Services (Legal, Accounting)": 3570.0,
+      "T.V. or Cable Airtime and Production Costs": 4200.0,
+      "Information Technology Costs (Internet, E-mail)": 9652.62
     },
     "supporting_by_type": {
+      "MON": 600.0,
       "MAILER": 22217.0,
-      "Mailer": 15949.0,
+      "Mailer": 13551.0,
       "Canvassing": 28000.0,
       "Text Banking": 87.0,
       "TEXT MESSAGES": 2950.0,
-      "Text Messages": 357.0,
       "Digital Advertising": 1250.0,
       "Consulting for Mailer": 3332.0,
       "Voter Data for Mailer": 642.0,
@@ -84,7 +86,8 @@
       "Graphic Design for Walk Piece": 200.0,
       "Mailer Production and Delivery": 26447.0,
       "Consulting for Digital Advertising": 208.0,
-      "Graphic Design for Digital Advertising": 200.0
+      "Graphic Design for Digital Advertising": 200.0,
+      "Independent Expenditure Supporting/Opposing Others": 2672.15
     }
   },
   "opposing_money": {
@@ -103,7 +106,7 @@
       }
     ]
   },
-  "total_contributions": 112861.43,
-  "total_expenditures": 74547.07,
+  "total_contributions": 122564.93,
+  "total_expenditures": 114873.29,
   "total_loans_received": 0.0
 }

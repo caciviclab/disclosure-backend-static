@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 600507.82,
+  "total_contributions": 624507.82,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -3181,6 +3181,51 @@
       "Tran_NamL": "Swamidass",
       "Tran_Zip4": "94552",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1470222",
+      "Filer_ID": "1466653",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 11000.0,
+      "Tran_Date": "2025-05-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "Revitalize East Bay Committee",
+      "Tran_Zip4": "94901",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1467180",
+      "Filer_ID": "1466653",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 3000.0,
+      "Tran_Date": "2025-06-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Foundational Oakland Unites",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1467180",
+      "Filer_ID": "1466653",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2025-06-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Foundational Oakland Unites",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
@@ -3188,7 +3233,7 @@
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        600507.82
+        624507.82
       ]
     ]
   ]

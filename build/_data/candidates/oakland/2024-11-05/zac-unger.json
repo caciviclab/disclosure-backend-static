@@ -23,9 +23,9 @@
   "supporting_money": {
     "contributions_received": 189547.1,
     "total_contributions": 189547.1,
-    "total_expenditures": 209570.61,
+    "total_expenditures": 210018.81,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 50609.46,
+    "total_supporting_independent": 50526.61,
     "support_list": [
       {
         "Total": 18585.0,
@@ -35,7 +35,7 @@
         "election_name": "oakland-2024"
       },
       {
-        "Total": 2755.0,
+        "Total": 2672.15,
         "Cand_ID": 1462377,
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",
@@ -69,8 +69,8 @@
     },
     "total_small_contributions": 10946.0,
     "expenditures_by_type": {
-      "Not Stated": 33636.85,
-      "Office Expenses": 4883.91,
+      "Not Stated": 33885.05,
+      "Office Expenses": 5033.91,
       "Fundraising Events": 2268.31,
       "Campaign Consultants": 29780.0,
       "Meetings and Appearances": 1574.41,
@@ -82,10 +82,9 @@
       "Transfer Between Committees of the Same Candidate/sponsor": 57288.72
     },
     "supporting_by_type": {
-      "MON": 1200.0,
-      "Mailer": 20983.0,
-      "Text Messages": 357.0,
-      "Independent Expenditure Supporting/Opposing Others": 29269.46
+      "MON": 2400.0,
+      "Mailer": 18585.0,
+      "Independent Expenditure Supporting/Opposing Others": 31941.61
     }
   },
   "opposing_money": {
@@ -111,6 +110,6 @@
     ]
   },
   "total_contributions": 189547.1,
-  "total_expenditures": 209570.61,
+  "total_expenditures": 210018.81,
   "total_loans_received": 0.0
 }
