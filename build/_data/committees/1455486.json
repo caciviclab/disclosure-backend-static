@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 144162.48,
+  "total_contributions": 194162.48,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -211,6 +211,21 @@
       "Tran_NamL": "East Bay Community Foundation",
       "Tran_Zip4": "94612-2005",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1455486",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 50000.0,
+      "Tran_Date": "2024-10-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "East Bay Community Foundation",
+      "Tran_Zip4": "94612-2005",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
@@ -218,7 +233,7 @@
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        144162.48
+        194162.48
       ]
     ]
   ]

@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1462429,
   "supporting_money": {
-    "contributions_received": 144502.04,
-    "total_contributions": 144502.04,
-    "total_expenditures": 136214.19,
+    "contributions_received": 139352.04,
+    "total_contributions": 139352.04,
+    "total_expenditures": 139388.52,
     "total_loans_received": 43500.0,
     "total_supporting_independent": 99124.63,
     "support_list": [
@@ -58,29 +58,29 @@
     ],
     "contributions_by_type": {
       "Committee": 10237.82,
-      "Individual": 79553.22,
-      "Unitemized": 3611.0,
-      "Self Funding": 6000.0,
+      "Individual": 79953.22,
+      "Unitemized": 3561.0,
+      "Self Funding": 500.0,
       "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
       "Out of State": 9638.22,
-      "Within Oakland": 47515.0,
+      "Within Oakland": 42415.0,
       "Within California": 40237.82
     },
-    "total_small_contributions": 4851.0,
+    "total_small_contributions": 4801.0,
     "expenditures_by_type": {
       "Not Stated": 24404.89,
       "Contribution": 3000.0,
       "Civic Donations": 600.0,
-      "Office Expenses": 1744.15,
+      "Office Expenses": 1944.15,
       "Fundraising Events": 3304.42,
       "Campaign Consultants": 38000.0,
       "Meetings and Appearances": 270.0,
       "Campaign Paraphernalia/Misc.": 8865.53,
       "Candidate Filing/Ballot Fees": 1100.0,
       "Campaign Literature and Mailings": 36138.21,
-      "Professional Services (Legal, Accounting)": 16265.0,
+      "Professional Services (Legal, Accounting)": 19140.0,
       "Information Technology Costs (Internet, E-mail)": 2297.99
     },
     "supporting_by_type": {
@@ -105,7 +105,7 @@
       }
     ]
   },
-  "total_contributions": 144502.04,
-  "total_expenditures": 136214.19,
+  "total_contributions": 139352.04,
+  "total_expenditures": 139388.52,
   "total_loans_received": 43500.0
 }

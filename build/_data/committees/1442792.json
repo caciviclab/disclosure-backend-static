@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 165078.19,
+  "total_contributions": 166228.19,
   "contributions": [
     {
       "date": "2022-11-08",
@@ -10650,6 +10650,36 @@
       "Tran_NamF": "Jonah",
       "Tran_NamL": "Schwartz",
       "Tran_Zip4": "94601",
+      "election_name": "oakland-2022"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1442792",
+      "Tran_Emp": "Townsend Public Affairs",
+      "Tran_Occ": "Advocate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2025-05-08",
+      "Tran_NamF": "Niccolo",
+      "Tran_NamL": "De Luca",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2022"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1442792",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 500.0,
+      "Tran_Date": "2025-05-08",
+      "Tran_NamF": "Roy",
+      "Tran_NamL": "Wilson",
+      "Tran_Zip4": "94605",
       "election_name": "oakland-2022"
     }
   ]

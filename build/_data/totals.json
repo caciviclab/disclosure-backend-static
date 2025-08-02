@@ -797,18 +797,18 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 8063402.54,
+    "total_contributions": 8040247.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2949187.86,
-      "Within California": 4394734.45
+      "Within Oakland": 2936087.86,
+      "Within California": 4384609.45
     },
     "contributions_by_type": {
-      "Committee": 1717538.97,
-      "Individual": 2869727.39,
-      "Unitemized": 130734.9,
+      "Committee": 1717038.97,
+      "Individual": 2850002.39,
+      "Unitemized": 130804.9,
       "Self Funding": 16387.78,
-      "Other (includes Businesses)": 3293107.76
+      "Other (includes Businesses)": 3290107.76
     },
     "most_expensive_races": [
       {
@@ -1585,18 +1585,18 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3588161.12,
+    "total_contributions": 3585854.12,
     "total_contributions_by_source": {
       "Out of State": 139169.14,
-      "Within Oakland": 2068013.89,
-      "Within California": 1208940.73
+      "Within Oakland": 2063913.89,
+      "Within California": 1210740.73
     },
     "contributions_by_type": {
       "PTY": 1600.0,
       "Committee": 953285.87,
-      "Individual": 1175287.89,
-      "Unitemized": 98637.36,
-      "Self Funding": 18654.19,
+      "Individual": 1178487.89,
+      "Unitemized": 98630.36,
+      "Self Funding": 13154.19,
       "Other (includes Businesses)": 1267295.81
     },
     "most_expensive_races": [
@@ -1616,7 +1616,7 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 319224.77
+        "amount": 322024.77
       }
     ],
     "largest_small_proportion": [
@@ -1781,25 +1781,25 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1741526.71,
+    "total_contributions": 1838019.26,
     "total_contributions_by_source": {
-      "Out of State": 110399.25,
-      "Within Oakland": 763301.01,
-      "Within California": 740794.8
+      "Out of State": 112449.25,
+      "Within Oakland": 813476.01,
+      "Within California": 777742.8
     },
     "contributions_by_type": {
-      "Committee": 484660.26,
-      "Individual": 1079404.65,
-      "Unitemized": 127031.65,
+      "Committee": 492260.26,
+      "Individual": 1158227.65,
+      "Unitemized": 134351.2,
       "Self Funding": 570.9,
-      "Other (includes Businesses)": 49859.25
+      "Other (includes Businesses)": 52609.25
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1106071.37
+        "amount": 1202563.92
       },
       {
         "slug": "general-sales-tax",
@@ -1828,7 +1828,7 @@
         "type": "office",
         "title": "Oakland April 15, 2025 Special Election",
         "candidate": "Loren Taylor",
-        "proportion": 0.15,
+        "proportion": 0.14,
         "office_title": "Mayor"
       },
       {

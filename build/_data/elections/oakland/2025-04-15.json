@@ -1,23 +1,23 @@
 {
-  "total_contributions": 1741526.71,
+  "total_contributions": 1838019.26,
   "total_contributions_by_source": {
-    "Out of State": 110399.25,
-    "Within Oakland": 763301.01,
-    "Within California": 740794.8
+    "Out of State": 112449.25,
+    "Within Oakland": 813476.01,
+    "Within California": 777742.8
   },
   "contributions_by_type": {
-    "Committee": 484660.26,
-    "Individual": 1079404.65,
-    "Unitemized": 127031.65,
+    "Committee": 492260.26,
+    "Individual": 1158227.65,
+    "Unitemized": 134351.2,
     "Self Funding": 570.9,
-    "Other (includes Businesses)": 49859.25
+    "Other (includes Businesses)": 52609.25
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1106071.37
+      "amount": 1202563.92
     },
     {
       "slug": "general-sales-tax",
@@ -46,7 +46,7 @@
       "type": "office",
       "title": "Oakland April 15, 2025 Special Election",
       "candidate": "Loren Taylor",
-      "proportion": 0.15,
+      "proportion": 0.14,
       "office_title": "Mayor"
     },
     {
