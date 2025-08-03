@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 9658.0,
+  "total_contributions": 13189.18,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -600,6 +600,21 @@
       "Tran_NamF": "Lawrence",
       "Tran_NamL": "Schonbrun",
       "Tran_Zip4": "94705",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1462967",
+      "Tran_Emp": "Self-Employed",
+      "Tran_Occ": "Certified Public Accountant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 3531.18,
+      "Tran_Date": "2025-07-28",
+      "Tran_NamF": "Leonard",
+      "Tran_NamL": "Raphael",
+      "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
     }
   ]
