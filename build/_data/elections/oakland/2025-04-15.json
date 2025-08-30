@@ -1,13 +1,13 @@
 {
-  "total_contributions": 1838019.26,
+  "total_contributions": 1854710.1,
   "total_contributions_by_source": {
     "Out of State": 112449.25,
-    "Within Oakland": 813476.01,
-    "Within California": 777742.8
+    "Within Oakland": 813576.01,
+    "Within California": 794333.64
   },
   "contributions_by_type": {
     "Committee": 492260.26,
-    "Individual": 1158227.65,
+    "Individual": 1174918.49,
     "Unitemized": 134351.2,
     "Self Funding": 570.9,
     "Other (includes Businesses)": 52609.25
@@ -17,7 +17,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1202563.92
+      "amount": 1219254.76
     },
     {
       "slug": "general-sales-tax",
@@ -94,6 +94,12 @@
   ],
   "top_contributors_for_offices": [
     {
+      "name": "Linda Childs Hothem",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_contributions": 16590.84
+    },
+    {
       "name": "Sheet Metal Workers Local Union 104 Political Committee",
       "type": "Office",
       "election_name": "oakland-2025",
@@ -104,12 +110,6 @@
       "type": "Office",
       "election_name": "oakland-2025",
       "total_contributions": 3250.0
-    },
-    {
-      "name": "Building and Construction Trades Council of Alameda County PAC",
-      "type": "Office",
-      "election_name": "oakland-2025",
-      "total_contributions": 3200.0
     }
   ],
   "top_contributors_for_measures": [
@@ -154,6 +154,12 @@
   ],
   "top_spenders_for_offices": [
     {
+      "name": "Linda Childs Hothem",
+      "type": "Office",
+      "election_name": "oakland-2025",
+      "total_spending": 16590.84
+    },
+    {
       "name": "Sheet Metal Workers Local Union 104 Political Committee",
       "type": "Office",
       "election_name": "oakland-2025",
@@ -164,12 +170,6 @@
       "type": "Office",
       "election_name": "oakland-2025",
       "total_spending": 3250.0
-    },
-    {
-      "name": "Building and Construction Trades Council of Alameda County PAC",
-      "type": "Office",
-      "election_name": "oakland-2025",
-      "total_spending": 3200.0
     }
   ],
   "top_spenders_for_measures": [
