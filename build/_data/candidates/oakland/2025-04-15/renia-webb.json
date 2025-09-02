@@ -21,27 +21,29 @@
   "is_winner": null,
   "filer_id": 1477511,
   "supporting_money": {
-    "contributions_received": 21446.84,
-    "total_contributions": 21446.84,
-    "total_expenditures": 20657.13,
+    "contributions_received": 25944.03,
+    "total_contributions": 25944.03,
+    "total_expenditures": 24411.74,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 20790.84,
-      "Unitemized": 496.0,
+      "Individual": 25038.03,
+      "Unitemized": 746.0,
       "Other (includes Businesses)": 160.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 2560.0,
-      "Within California": 18390.84
+      "Out of State": 350.0,
+      "Within Oakland": 5858.19,
+      "Within California": 18989.84
     },
-    "total_small_contributions": 521.0,
+    "total_small_contributions": 771.0,
     "expenditures_by_type": {
       "Fundraising Events": 375.99,
-      "Professional Services (Legal, Accounting)": 3250.0
+      "Professional Services (Legal, Accounting)": 3250.0,
+      "Information Technology Costs (Internet, E-mail)": 407.65
     },
     "supporting_by_type": {
     }
@@ -54,7 +56,7 @@
 
     ]
   },
-  "total_contributions": 21446.84,
-  "total_expenditures": 20657.13,
+  "total_contributions": 25944.03,
+  "total_expenditures": 24411.74,
   "total_loans_received": 0.0
 }
