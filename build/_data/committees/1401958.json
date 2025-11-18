@@ -93,21 +93,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": "850381",
-      "Filer_ID": "1401958",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 2000.0,
-      "Tran_Date": "2020-10-27",
-      "Tran_NamF": null,
-      "Tran_NamL": "Sheet Metal Workers' International Association Local No. 104",
-      "Tran_Zip4": "94583",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "850381",
@@ -121,6 +106,21 @@
       "Tran_NamL": "Sheet Metal Workers' International Association Local No. 104",
       "Tran_Zip4": "94583",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": "850381",
+      "Filer_ID": "1401958",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2020-10-27",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers' International Association Local No. 104",
+      "Tran_Zip4": "94583",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2024-11-05",
@@ -153,21 +153,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "902565",
-      "Filer_ID": "1401958",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2021-02-02",
-      "Tran_NamF": null,
-      "Tran_NamL": "Construction & General Laborers Local Union 304 Political Action Committee",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "902565",
@@ -185,16 +170,16 @@
     {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1435926",
+      "Cmte_ID": "902565",
       "Filer_ID": "1401958",
       "Tran_Emp": null,
       "Tran_Occ": null,
       "Entity_Cd": "Committee",
-      "Tran_Amt1": 7500.0,
-      "Tran_Date": "2022-05-24",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2021-02-02",
       "Tran_NamF": null,
-      "Tran_NamL": "Susan Ellenberg for Supervisor 2022",
-      "Tran_Zip4": "94607",
+      "Tran_NamL": "Construction & General Laborers Local Union 304 Political Action Committee",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2024"
     },
     {
@@ -215,16 +200,16 @@
     {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
+      "Cmte_ID": "1435926",
       "Filer_ID": "1401958",
       "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
       "Tran_Amt1": 7500.0,
       "Tran_Date": "2022-05-24",
-      "Tran_NamF": "Cathy",
-      "Tran_NamL": "Tsang",
-      "Tran_Zip4": "94024",
+      "Tran_NamF": null,
+      "Tran_NamL": "Susan Ellenberg for Supervisor 2022",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2024"
     },
     {
@@ -241,6 +226,21 @@
       "Tran_NamL": "Tsang",
       "Tran_Zip4": "94024",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1401958",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 7500.0,
+      "Tran_Date": "2022-05-24",
+      "Tran_NamF": "Cathy",
+      "Tran_NamL": "Tsang",
+      "Tran_Zip4": "94024",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
