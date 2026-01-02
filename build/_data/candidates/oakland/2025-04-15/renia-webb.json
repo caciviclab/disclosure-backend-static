@@ -21,30 +21,32 @@
   "is_winner": null,
   "filer_id": 1477511,
   "supporting_money": {
-    "contributions_received": 25944.03,
-    "total_contributions": 25944.03,
-    "total_expenditures": 24747.97,
+    "contributions_received": 27294.03,
+    "total_contributions": 27294.03,
+    "total_expenditures": 27313.34,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 25038.03,
-      "Unitemized": 746.0,
-      "Other (includes Businesses)": 160.0
+      "Individual": 25588.03,
+      "Unitemized": 896.0,
+      "Other (includes Businesses)": 810.0
     },
     "contributions_by_origin": {
       "Out of State": 350.0,
-      "Within Oakland": 5858.19,
-      "Within California": 18989.84
+      "Within Oakland": 6108.19,
+      "Within California": 19939.84
     },
-    "total_small_contributions": 771.0,
+    "total_small_contributions": 921.0,
     "expenditures_by_type": {
-      "Not Stated": 336.23,
+      "Not Stated": 493.31,
       "Fundraising Events": 375.99,
+      "Meetings and Appearances": 962.85,
+      "Candidate Travel, Lodging, and Meals": 173.46,
       "Professional Services (Legal, Accounting)": 3250.0,
-      "Information Technology Costs (Internet, E-mail)": 407.65
+      "Information Technology Costs (Internet, E-mail)": 493.65
     },
     "supporting_by_type": {
     }
@@ -57,7 +59,7 @@
 
     ]
   },
-  "total_contributions": 25944.03,
-  "total_expenditures": 24747.97,
+  "total_contributions": 27294.03,
+  "total_expenditures": 27313.34,
   "total_loans_received": 0.0
 }
