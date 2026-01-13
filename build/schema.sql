@@ -698,7 +698,7 @@ CREATE TABLE public."F461P5-Expenditure" (
     "XRef_Match" character varying(32),
     "EmplBus_CB" character varying(4),
     "Bus_Name" character varying(64),
-    "Bus_Adr1" character varying(33),
+    "Bus_Adr1" character varying(64),
     "Bus_Adr2" character varying(10),
     "Bus_City" character varying(13),
     "Bus_ST" character varying(4),
