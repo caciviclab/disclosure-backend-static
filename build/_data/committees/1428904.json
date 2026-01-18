@@ -108,21 +108,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2020-09-21",
-      "Tran_NamF": "Edward",
-      "Tran_NamL": "Gerber",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -136,6 +121,21 @@
       "Tran_NamL": "Gerber",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2020-09-21",
+      "Tran_NamF": "Edward",
+      "Tran_NamL": "Gerber",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -228,21 +228,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": null,
-      "Tran_Occ": "Retired",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 2000.0,
-      "Tran_Date": "2020-09-29",
-      "Tran_NamF": "David",
-      "Tran_NamL": "Roe",
-      "Tran_Zip4": "94610",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -258,19 +243,19 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": "Self Employed/Same Name",
-      "Tran_Occ": "Artist",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 10000.0,
+      "Tran_Amt1": 2000.0,
       "Tran_Date": "2020-09-29",
-      "Tran_NamF": "Martha",
-      "Tran_NamL": "Siegel",
-      "Tran_Zip4": "94501-3911",
-      "election_name": "oakland-2020"
+      "Tran_NamF": "David",
+      "Tran_NamL": "Roe",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -286,6 +271,21 @@
       "Tran_NamL": "Siegel",
       "Tran_Zip4": "94501-3911",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Self Employed/Same Name",
+      "Tran_Occ": "Artist",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-09-29",
+      "Tran_NamF": "Martha",
+      "Tran_NamL": "Siegel",
+      "Tran_Zip4": "94501-3911",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -348,6 +348,21 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Riaz Capital, LLC",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2020-10-13",
+      "Tran_NamF": "Alexander Riaz",
+      "Tran_NamL": "Taplin",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2024"
+    },
+    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -361,36 +376,6 @@
       "Tran_NamL": "Taplin",
       "Tran_Zip4": "94601",
       "election_name": "oakland-2020"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "Riaz Capital, LLC",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 10000.0,
-      "Tran_Date": "2020-10-13",
-      "Tran_NamF": "Alexander Riaz",
-      "Tran_NamL": "Taplin",
-      "Tran_Zip4": "94601",
-      "election_name": "oakland-2024"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "Self Employed / Same Name",
-      "Tran_Occ": "Policy Consultant",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 8000.0,
-      "Tran_Date": "2020-10-14",
-      "Tran_NamF": "Adelin",
-      "Tran_NamL": "Cai",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -412,13 +397,13 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1428904",
-      "Tran_Emp": "Law Office of Michael Yang",
-      "Tran_Occ": "Attorney",
+      "Tran_Emp": "Self Employed / Same Name",
+      "Tran_Occ": "Policy Consultant",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 7000.0,
-      "Tran_Date": "2020-10-15",
-      "Tran_NamF": "Michael",
-      "Tran_NamL": "Yang",
+      "Tran_Amt1": 8000.0,
+      "Tran_Date": "2020-10-14",
+      "Tran_NamF": "Adelin",
+      "Tran_NamL": "Cai",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
     },
@@ -436,6 +421,21 @@
       "Tran_NamL": "Yang",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "Law Office of Michael Yang",
+      "Tran_Occ": "Attorney",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 7000.0,
+      "Tran_Date": "2020-10-15",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Yang",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -498,21 +498,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "SV Angel",
-      "Tran_Occ": "Founder",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": -15000.0,
-      "Tran_Date": "2020-10-21",
-      "Tran_NamF": "Ron",
-      "Tran_NamL": "Conway",
-      "Tran_Zip4": "94920",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -526,6 +511,21 @@
       "Tran_NamL": "Conway",
       "Tran_Zip4": "94920",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "SV Angel",
+      "Tran_Occ": "Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -15000.0,
+      "Tran_Date": "2020-10-21",
+      "Tran_NamF": "Ron",
+      "Tran_NamL": "Conway",
+      "Tran_Zip4": "94920",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -558,21 +558,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1428904",
-      "Tran_Emp": "SV Angel",
-      "Tran_Occ": "Founder",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 15000.0,
-      "Tran_Date": "2020-10-22",
-      "Tran_NamF": "Ron",
-      "Tran_NamL": "Conway",
-      "Tran_Zip4": "94920",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -586,6 +571,21 @@
       "Tran_NamL": "Conway",
       "Tran_Zip4": "94920",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1428904",
+      "Tran_Emp": "SV Angel",
+      "Tran_Occ": "Founder",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15000.0,
+      "Tran_Date": "2020-10-22",
+      "Tran_NamF": "Ron",
+      "Tran_NamL": "Conway",
+      "Tran_Zip4": "94920",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
