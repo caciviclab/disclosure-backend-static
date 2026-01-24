@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 181151.1,
+  "total_contributions": 182451.1,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -9720,6 +9720,21 @@
       "Tran_NamF": "Francis",
       "Tran_NamL": "Barot",
       "Tran_Zip4": "94520",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "892160",
+      "Filer_ID": "1462377",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-12-05",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Association Of Firefighters Local 55",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     }
   ]
