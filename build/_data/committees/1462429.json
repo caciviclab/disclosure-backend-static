@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 97791.04,
+  "total_contributions": 134191.04,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -4950,6 +4950,21 @@
       "Tran_NamF": "Keith",
       "Tran_NamL": "Uriarte",
       "Tran_Zip4": "94619-2307",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1462429",
+      "Tran_Emp": "City Of Oakland",
+      "Tran_Occ": "Candidate / Lawyer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 36400.0,
+      "Tran_Date": "2025-12-31",
+      "Tran_NamF": "Ryan",
+      "Tran_NamL": "Richardson",
+      "Tran_Zip4": "94608",
       "election_name": "oakland-2024"
     }
   ]

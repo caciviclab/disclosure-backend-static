@@ -1585,10 +1585,10 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3587801.99,
+    "total_contributions": 3586201.99,
     "total_contributions_by_source": {
       "Out of State": 139169.14,
-      "Within Oakland": 2076383.2,
+      "Within Oakland": 2112783.2,
       "Within California": 1210740.73
     },
     "contributions_by_type": {
@@ -1596,7 +1596,7 @@
       "Committee": 954585.87,
       "Individual": 1182019.07,
       "Unitemized": 98630.36,
-      "Self Funding": 20792.32,
+      "Self Funding": 57192.32,
       "Other (includes Businesses)": 1267295.81
     },
     "most_expensive_races": [
@@ -1681,6 +1681,12 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "Ryan Richardson",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_contributions": 42400.0
+      },
+      {
         "name": "City of Oakland",
         "type": "Office",
         "election_name": "oakland-2024",
@@ -1691,12 +1697,6 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_contributions": 10800.0
-      },
-      {
-        "name": "Brenda Harbin-Forte",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_contributions": 7478.19
       }
     ],
     "top_contributors_for_measures": [
@@ -1741,6 +1741,12 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "Ryan Richardson",
+        "type": "Office",
+        "election_name": "oakland-2024",
+        "total_spending": 42400.0
+      },
+      {
         "name": "City of Oakland",
         "type": "Office",
         "election_name": "oakland-2024",
@@ -1751,12 +1757,6 @@
         "type": "Office",
         "election_name": "oakland-2024",
         "total_spending": 10800.0
-      },
-      {
-        "name": "Brenda Harbin-Forte",
-        "type": "Office",
-        "election_name": "oakland-2024",
-        "total_spending": 7478.19
       }
     ],
     "top_spenders_for_measures": [
@@ -1781,16 +1781,16 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1860557.29,
+    "total_contributions": 1873038.29,
     "total_contributions_by_source": {
       "Out of State": 112149.25,
-      "Within Oakland": 817124.2,
-      "Within California": 796532.64
+      "Within Oakland": 818827.2,
+      "Within California": 797157.64
     },
     "contributions_by_type": {
-      "Committee": 492260.26,
-      "Individual": 1179715.68,
-      "Unitemized": 134751.2,
+      "Committee": 492910.26,
+      "Individual": 1181393.68,
+      "Unitemized": 134904.2,
       "Self Funding": 570.9,
       "Other (includes Businesses)": 53259.25
     },
@@ -1799,7 +1799,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 1225101.95
+        "amount": 1237582.95
       },
       {
         "slug": "general-sales-tax",
