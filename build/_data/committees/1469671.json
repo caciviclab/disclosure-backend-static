@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 83562.2,
+  "total_contributions": 82762.2,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -5460,6 +5460,36 @@
       "Tran_NamF": "Cynthia",
       "Tran_NamL": "Adams",
       "Tran_Zip4": "94577",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469671",
+      "Tran_Emp": "H&L Advertising",
+      "Tran_Occ": "Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -600.0,
+      "Tran_Date": "2025-07-11",
+      "Tran_NamF": "Andrea",
+      "Tran_NamL": "Alfano",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1469671",
+      "Tran_Emp": null,
+      "Tran_Occ": "Retired",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": -200.0,
+      "Tran_Date": "2025-07-11",
+      "Tran_NamF": "Richard Douglas",
+      "Tran_NamL": "Campbell",
+      "Tran_Zip4": "94610",
       "election_name": "oakland-2024"
     }
   ]

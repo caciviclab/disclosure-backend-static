@@ -1585,17 +1585,17 @@
     ]
   },
   "oakland-2024": {
-    "total_contributions": 3586201.99,
+    "total_contributions": 3596085.99,
     "total_contributions_by_source": {
-      "Out of State": 139169.14,
-      "Within Oakland": 2112783.2,
-      "Within California": 1210740.73
+      "Out of State": 141319.14,
+      "Within Oakland": 2116064.2,
+      "Within California": 1214440.73
     },
     "contributions_by_type": {
       "PTY": 1600.0,
-      "Committee": 954585.87,
-      "Individual": 1182019.07,
-      "Unitemized": 98630.36,
+      "Committee": 955185.87,
+      "Individual": 1190550.07,
+      "Unitemized": 99383.36,
       "Self Funding": 57192.32,
       "Other (includes Businesses)": 1267295.81
     },
@@ -1616,7 +1616,7 @@
         "slug": "city-council-at-large",
         "type": "office",
         "title": "City Council At-Large",
-        "amount": 322024.77
+        "amount": 321224.77
       }
     ],
     "largest_small_proportion": [
@@ -1781,17 +1781,17 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1873038.29,
+    "total_contributions": 1884426.11,
     "total_contributions_by_source": {
-      "Out of State": 112149.25,
-      "Within Oakland": 818827.2,
+      "Out of State": 111699.25,
+      "Within Oakland": 830665.02,
       "Within California": 797157.64
     },
     "contributions_by_type": {
       "Committee": 492910.26,
-      "Individual": 1181393.68,
+      "Individual": 1180943.68,
       "Unitemized": 134904.2,
-      "Self Funding": 570.9,
+      "Self Funding": 12408.72,
       "Other (includes Businesses)": 53259.25
     },
     "most_expensive_races": [
@@ -1811,7 +1811,7 @@
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 232949.94
+        "amount": 244337.76
       }
     ],
     "largest_small_proportion": [
@@ -1882,16 +1882,16 @@
         "total_contributions": 16590.84
       },
       {
+        "name": "Kara Murray Badal",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_contributions": 11837.82
+      },
+      {
         "name": "Sheet Metal Workers Local Union 104 Political Committee",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_contributions": 3900.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_contributions": 3250.0
       }
     ],
     "top_contributors_for_measures": [
@@ -1942,16 +1942,16 @@
         "total_spending": 16590.84
       },
       {
+        "name": "Kara Murray Badal",
+        "type": "Office",
+        "election_name": "oakland-2025",
+        "total_spending": 11837.82
+      },
+      {
         "name": "Sheet Metal Workers Local Union 104 Political Committee",
         "type": "Office",
         "election_name": "oakland-2025",
         "total_spending": 3900.0
-      },
-      {
-        "name": "International Brotherhood of Electrical Workers Local 595 PAC",
-        "type": "Office",
-        "election_name": "oakland-2025",
-        "total_spending": 3250.0
       }
     ],
     "top_spenders_for_measures": [
