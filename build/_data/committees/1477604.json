@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 118025.21,
+  "total_contributions": 120625.21,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -6150,6 +6150,36 @@
       "Tran_NamF": "Terry",
       "Tran_NamL": "Atlas",
       "Tran_Zip4": "94606",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "1298012",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-07-01",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters & Apprentices Local 483 Local Political Action Committee",
+      "Tran_Zip4": "94545",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": "850381",
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1300.0,
+      "Tran_Date": "2025-12-31",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sheet Metal Workers Local Union 104 Political Committee",
+      "Tran_Zip4": "94551",
       "election_name": "oakland-2025"
     }
   ]
