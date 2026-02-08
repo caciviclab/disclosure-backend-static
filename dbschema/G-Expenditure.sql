@@ -47,7 +47,7 @@ CREATE TABLE "G-Expenditure" (
 	"Cand_NamT" VARCHAR(4), 
 	"Cand_NamS" VARCHAR(32), 
 	"Office_Cd" VARCHAR(4), 
-	"Offic_Dscr" VARCHAR(34), 
+	"Offic_Dscr" VARCHAR(64), 
 	"Juris_Cd" VARCHAR(4), 
 	"Juris_Dscr" VARCHAR(32), 
 	"Dist_No" VARCHAR(4), 
