@@ -6,7 +6,7 @@ if [ "${TRAVIS_EVENT_TYPE}" = "pull_request" -o ! "${TRAVIS_BRANCH}" = "master" 
   exit
 fi
 if [ "$(date +%A)" != "${INDEX_DAY}" ]; then
-  echo "Reindexing only on ${INDEX_DAY}"
+  echo "Reindexing only on ${INDEX_DAY} <> $(date +%A)"
   exit
 fi
 
