@@ -1482,10 +1482,10 @@ ALTER TABLE public.candidate_497 OWNER TO travis;
 --
 
 CREATE TABLE public.elections (
-    name character varying(18) NOT NULL,
-    location character varying(13) NOT NULL,
+    name character varying(32) NOT NULL,
+    location character varying(16) NOT NULL,
     date date NOT NULL,
-    title character varying(43) NOT NULL,
+    title character varying(64) NOT NULL,
     "Start_Date" date NOT NULL,
     "End_Date" date NOT NULL,
     display integer,
