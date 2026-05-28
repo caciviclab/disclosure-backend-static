@@ -1,31 +1,143 @@
 {
-  "total_contributions": 0.0,
+  "total_contributions": 173724.09,
   "total_contributions_by_source": {
+    "Out of State": 4645.0,
+    "Within Oakland": 87579.0,
+    "Within California": 74205.09
   },
   "contributions_by_type": {
+    "Committee": 30400.0,
+    "Individual": 122629.09,
+    "Unitemized": 7295.0,
+    "Other (includes Businesses)": 13400.0
   },
   "most_expensive_races": [
-
+    {
+      "slug": "city-council-district-6",
+      "type": "office",
+      "title": "City Council District 6",
+      "amount": 69400.0
+    },
+    {
+      "slug": "city-council-district-4",
+      "type": "office",
+      "title": "City Council District 4",
+      "amount": 62606.09
+    },
+    {
+      "slug": "mayor",
+      "type": "office",
+      "title": "Mayor",
+      "amount": 33613.0
+    }
   ],
   "largest_small_proportion": [
-
+    {
+      "slug": "janani-ramachandran",
+      "type": "office",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "candidate": "Janani Ramachandran",
+      "proportion": 0.09,
+      "office_title": "City Council District 4"
+    },
+    {
+      "slug": "barbara-lee",
+      "type": "office",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "candidate": "Barbara Lee",
+      "proportion": 0.07,
+      "office_title": "Mayor"
+    },
+    {
+      "slug": "charlene-wang",
+      "type": "office",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "candidate": "Charlene Wang",
+      "proportion": 0.02,
+      "office_title": "City Council District 2"
+    }
   ],
   "largest_independent_expenditures": {
   },
   "top_contributors": [
-
+    {
+      "name": "IAFF Local 55 PAC",
+      "election_name": "oakland-2026",
+      "total_contributions": 3100.0
+    },
+    {
+      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "election_name": "oakland-2026",
+      "total_contributions": 3100.0
+    },
+    {
+      "name": "Stewart Chen",
+      "election_name": "oakland-2026",
+      "total_contributions": 2450.0
+    }
   ],
   "top_contributors_for_offices": [
-
+    {
+      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_contributions": 3100.0
+    },
+    {
+      "name": "IAFF Local 55 PAC",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_contributions": 3100.0
+    },
+    {
+      "name": "Stewart Chen",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_contributions": 2450.0
+    }
   ],
   "top_contributors_for_measures": [
 
   ],
   "top_spenders": [
-
+    {
+      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 3100.0
+    },
+    {
+      "name": "IAFF Local 55 PAC",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 3100.0
+    },
+    {
+      "name": "Stewart Chen",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 2450.0
+    }
   ],
   "top_spenders_for_offices": [
-
+    {
+      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 3100.0
+    },
+    {
+      "name": "IAFF Local 55 PAC",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 3100.0
+    },
+    {
+      "name": "Stewart Chen",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 2450.0
+    }
   ],
   "top_spenders_for_measures": [
 

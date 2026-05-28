@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2026-11-03.md
-candidates: []
-title: OUSD District 4
+candidates:
+- arielle-fleisher
+title: School Board District 2
 label: Oakland Unified School District
 ---
