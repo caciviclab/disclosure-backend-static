@@ -5,5 +5,5 @@ filer_id: '1485058'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Brenda Grisham
-website_url: Brenda Grisham for Oakland Mayor 2026
+website_url: https://www.bgrishamformayor2026.org/
 ---
