@@ -5,6 +5,7 @@ filer_id: '1480704'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Barbara Lee
+photo_url: Barbara-Lee
 twitter_url: https://x.com/BarbaraLee_CA
 website_url: https://barbaralee4oakland.com/
 instagram_url: https://www.instagram.com/mayorbarbaralee/
