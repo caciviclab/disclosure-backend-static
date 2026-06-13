@@ -5,6 +5,6 @@ filer_id: '1490303'
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Arielle Fleisher
-occupation: OUSD School Board D2 / Public Policy Expert
+occupation: Public Policy Expert
 website_url: https://www.arielleforoakland.com/
 ---

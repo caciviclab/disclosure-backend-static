@@ -5,7 +5,7 @@ filer_id: '1490067'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Kathryn Camp
-occupation: OUSD Parent / School Board D4
+occupation: OUSD Parent
 photo_url: Kathryn-Camp
 website_url: https://www.kathryncamp.com/
 ---
