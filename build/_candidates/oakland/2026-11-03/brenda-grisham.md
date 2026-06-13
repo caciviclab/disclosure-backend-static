@@ -5,5 +5,6 @@ filer_id: '1485058'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Brenda Grisham
+occupation: Community Advocate / Gun Violence Prevention
 website_url: https://www.bgrishamformayor2026.org/
 ---

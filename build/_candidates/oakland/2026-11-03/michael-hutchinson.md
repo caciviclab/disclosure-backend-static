@@ -4,5 +4,7 @@ filer_id: ''
 is_accepted_expenditure_ceiling: false
 is_incumbent: true
 name: Michael Hutchinson
-facebook_url: https://www.facebook.com/MikeHutchinson4SchoolBoard?
+occupation: OUSD School Board Director D4
+photo_url: mike-hutchinson
+facebook_url: https://www.facebook.com/MikeHutchinson4SchoolBoard/
 ---

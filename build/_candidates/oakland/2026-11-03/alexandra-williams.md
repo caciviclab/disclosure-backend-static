@@ -5,6 +5,7 @@ filer_id: ''
 is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Alexandra Williams
+occupation: OUSD School Board D6
 website_url: https://alexandraforoakland.com/
 instagram_url: https://www.instagram.com/alexandraforoakland
 ---

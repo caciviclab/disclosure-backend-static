@@ -5,6 +5,8 @@ filer_id: '1481569'
 is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Kevin Jenkins
+occupation: Council President / Councilmember D6
+photo_url: Kevin-Jenkins-sm
 facebook_url: https://www.facebook.com/jenkins4Oakland/
 instagram_url: https://www.instagram.com/kevin_jenkins510/
 ---
