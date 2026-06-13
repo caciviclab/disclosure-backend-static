@@ -2,7 +2,6 @@ dist: jammy
 env:
   global:
     - TZ=America/Los_Angeles
-    - PGPORT=5433
 language: python
 python:
   - '3.9'
