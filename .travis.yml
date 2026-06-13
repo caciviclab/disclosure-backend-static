@@ -1,4 +1,4 @@
-dist: bionic
+dist: jammy
 env:
   global:
     - TZ=America/Los_Angeles
@@ -20,11 +20,7 @@ cache:
   - bundler
   - pip
 addons:
-  postgresql: "15"
-  apt:
-    packages:
-    - postgresql-15
-    - postgresql-client-15
+  postgresql: "14"
 notifications:
   email:
     - mike.ubell@gmail.com
