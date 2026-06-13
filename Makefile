@@ -18,7 +18,7 @@ process: process.rb
 	rm -rf build && RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby process.rb
 	bin/report-schema $(DATABASE_NAME)
 	bin/report-candidates
-	# $(MAKE) create-digests
+	$(MAKE) create-digests
 
 create-digests:
 	bin/create-digests

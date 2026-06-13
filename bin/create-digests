@@ -10,7 +10,7 @@ def round_floats(data):
     if type(data) == list:
         for i in range(len(data)):
             round_floats(data[i])
-    else:
+    elif type(data) == dict:
         for key in data:
             the_type = type(data[key])
             if the_type == dict:
@@ -27,7 +27,7 @@ def sort_arrays(data):
                 data.sort(key=lambda x: tuple([str(x[key]) for key in x.keys()]))
             else:
                 data.sort()
-    else:
+    elif type(data) == dict:
         for key in data:
             the_type = type(data[key])
             if the_type == dict:
