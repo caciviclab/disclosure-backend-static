@@ -1,14 +1,14 @@
 {
-  "total_contributions": 173724.09,
+  "total_contributions": 179549.51,
   "total_contributions_by_source": {
-    "Out of State": 4645.0,
-    "Within Oakland": 87579.0,
-    "Within California": 74205.09
+    "Out of State": 5245.0,
+    "Within Oakland": 87783.48,
+    "Within California": 78187.18
   },
   "contributions_by_type": {
     "Committee": 30400.0,
-    "Individual": 122629.09,
-    "Unitemized": 7295.0,
+    "Individual": 127415.66,
+    "Unitemized": 8333.85,
     "Other (includes Businesses)": 13400.0
   },
   "most_expensive_races": [
@@ -28,10 +28,18 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 33613.0
+      "amount": 39438.42
     }
   ],
   "largest_small_proportion": [
+    {
+      "slug": "mindy-pechenuk",
+      "type": "office",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "candidate": "Mindy Pechenuk",
+      "proportion": 0.18,
+      "office_title": "Mayor"
+    },
     {
       "slug": "janani-ramachandran",
       "type": "office",
@@ -47,14 +55,6 @@
       "candidate": "Barbara Lee",
       "proportion": 0.07,
       "office_title": "Mayor"
-    },
-    {
-      "slug": "charlene-wang",
-      "type": "office",
-      "title": "Oakland November 3rd, 2026 General Election",
-      "candidate": "Charlene Wang",
-      "proportion": 0.02,
-      "office_title": "City Council District 2"
     }
   ],
   "largest_independent_expenditures": {
@@ -78,13 +78,13 @@
   ],
   "top_contributors_for_offices": [
     {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "name": "IAFF Local 55 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_contributions": 3100.0
     },
     {
-      "name": "IAFF Local 55 PAC",
+      "name": "Sheet Metal Workers Local Union 104 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_contributions": 3100.0
@@ -101,13 +101,13 @@
   ],
   "top_spenders": [
     {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "name": "IAFF Local 55 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 3100.0
     },
     {
-      "name": "IAFF Local 55 PAC",
+      "name": "Sheet Metal Workers Local Union 104 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 3100.0
@@ -121,13 +121,13 @@
   ],
   "top_spenders_for_offices": [
     {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "name": "IAFF Local 55 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 3100.0
     },
     {
-      "name": "IAFF Local 55 PAC",
+      "name": "Sheet Metal Workers Local Union 104 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 3100.0

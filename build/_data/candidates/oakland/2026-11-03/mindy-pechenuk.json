@@ -21,20 +21,31 @@
   "is_winner": null,
   "filer_id": 1480943,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 5825.42,
+    "total_contributions": 5825.42,
+    "total_expenditures": 5393.84,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 4786.57,
+      "Unitemized": 1038.85
     },
     "contributions_by_origin": {
+      "Out of State": 600.0,
+      "Within Oakland": 204.48,
+      "Within California": 3982.09
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 1038.85,
     "expenditures_by_type": {
+      "Not Stated": 2066.8,
+      "Member Communications": 80.0,
+      "Meetings and Appearances": 1414.5,
+      "Campaign Paraphernalia/Misc.": 471.86,
+      "Campaign Literature and Mailings": 120.67,
+      "Information Technology Costs (Internet, E-mail)": 705.01
     },
     "supporting_by_type": {
     }
@@ -47,7 +58,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 5825.42,
+  "total_expenditures": 5393.84,
+  "total_loans_received": 0.0
 }
