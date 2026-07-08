@@ -29,7 +29,49 @@ for table in Summary A-Contributions B1-Loans B2-Loans C-Contributions \
 	QUERY
 done
 
-# 2. delete duplicate 497 summary
+# 2. delete transactions re-itemized across overlapping report periods.
+#
+# Committees sometimes file a later report whose period overlaps an earlier
+# report (e.g. a semi-annual covering Jul-Dec after already filing Jul-Sep
+# and Sep-Oct pre-election reports), re-listing the same transactions. Two
+# rows are considered the same transaction only if they agree on Tran_ID,
+# date, amount, AND contributor name (older NetFile Tran_IDs like "INC6"
+# repeat across periods for different contributions, so Tran_ID alone is not
+# sufficient). Keep the copy from the most recently filed report.
+for table in A-Contributions C-Contributions I-Contributions \
+    F496P3-Contributions; do
+  cat <<-QUERY | psql --quiet ${DATABASE_NAME:-"disclosure-backend"}
+	\\set ON_ERROR_STOP on
+	WITH ranked AS (
+	  SELECT ctid,
+	    row_number() OVER (
+	      PARTITION BY "Filer_ID", "Tran_ID", "Tran_Date", "Tran_Amt1",
+	                   "Tran_NamL", "Tran_NamF"
+	      ORDER BY "Rpt_Date" DESC, "Report_Num"::int DESC, "Thru_Date" DESC
+	    ) AS rn,
+	    first_value("From_Date") OVER (
+	      PARTITION BY "Filer_ID", "Tran_ID", "Tran_Date", "Tran_Amt1",
+	                   "Tran_NamL", "Tran_NamF"
+	      ORDER BY "Rpt_Date" DESC, "Report_Num"::int DESC, "Thru_Date" DESC
+	    ) AS kept_from,
+	    first_value("Thru_Date") OVER (
+	      PARTITION BY "Filer_ID", "Tran_ID", "Tran_Date", "Tran_Amt1",
+	                   "Tran_NamL", "Tran_NamF"
+	      ORDER BY "Rpt_Date" DESC, "Report_Num"::int DESC, "Thru_Date" DESC
+	    ) AS kept_thru,
+	    "From_Date", "Thru_Date"
+	  FROM "$table"
+	)
+	DELETE FROM "$table" t
+	USING ranked r
+	WHERE t.ctid = r.ctid
+	  AND r.rn > 1
+	  AND (r."From_Date", r."Thru_Date")
+	      IS DISTINCT FROM (r.kept_from, r.kept_thru);
+	QUERY
+done
+
+# 3. delete duplicate 497 summary
 cat <<-QUERY | psql ${DATABASE_NAME:-"disclosure-backend"}
 DELETE FROM "496" late
 WHERE EXISTS (
