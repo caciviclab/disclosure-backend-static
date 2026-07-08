@@ -53,6 +53,7 @@ download-COAK:
 # Legacy download path, kept as a fallback: per-year bulk Excel exports
 # directly from NetFile.
 download-netfile: download-spreadsheets \
+	download-COAK-2013 \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \
