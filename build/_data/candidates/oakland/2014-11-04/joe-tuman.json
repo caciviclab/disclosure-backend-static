@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1359017,
   "supporting_money": {
-    "contributions_received": 115502.98,
-    "total_contributions": 115502.98,
-    "total_expenditures": 250571.9,
-    "total_loans_received": -4211.02,
+    "contributions_received": 278014.0,
+    "total_contributions": 278014.0,
+    "total_expenditures": 273387.63,
+    "total_loans_received": 8000.0,
     "total_supporting_independent": 8450.0,
     "support_list": [
       {
@@ -36,33 +36,34 @@
       }
     ],
     "contributions_by_type": {
-      "Individual": 102747.0,
-      "Unitemized": 8487.0,
-      "Self Funding": 4360.0,
-      "Other (includes Businesses)": 4120.0
+      "Individual": 238997.0,
+      "Unitemized": 13737.0,
+      "Self Funding": 10210.0,
+      "Other (includes Businesses)": 7070.0
     },
     "contributions_by_origin": {
-      "Out of State": 1050.0,
-      "Within Oakland": 80755.0,
-      "Within California": 29422.0
+      "Out of State": 8500.0,
+      "Within Oakland": 173475.0,
+      "Within California": 74302.0
     },
-    "total_small_contributions": 10042.0,
+    "total_small_contributions": 16112.0,
     "expenditures_by_type": {
       "Print Ads": 420.0,
-      "Not Stated": 1143.76,
+      "Not Stated": 1224.13,
       "Phone Banks": 1086.75,
       "Civic Donations": 726.75,
       "Office Expenses": 18758.01,
       "Fundraising Events": 589.63,
-      "Campaign Consultants": 84120.0,
+      "Campaign Consultants": 94620.0,
       "Meetings and Appearances": 105.0,
-      "Campaign Paraphernalia/Misc.": 6305.45,
+      "Polling and Survey Research": 500.0,
+      "Campaign Paraphernalia/Misc.": 6816.7,
       "Candidate Filing/Ballot Fees": 500.0,
-      "Campaign Literature and Mailings": 59144.47,
-      "Postage, Delivery and Messenger Services": 34371.2,
+      "Campaign Literature and Mailings": 61762.59,
+      "Postage, Delivery and Messenger Services": 34420.7,
       "Professional Services (Legal, Accounting)": 3382.76,
       "T.V. or Cable Airtime and Production Costs": 28884.7,
-      "Information Technology Costs (Internet, E-mail)": 5850.13
+      "Information Technology Costs (Internet, E-mail)": 10709.68
     },
     "supporting_by_type": {
       "MON": 1400.0,
@@ -77,7 +78,7 @@
 
     ]
   },
-  "total_contributions": 115502.98,
-  "total_expenditures": 250571.9,
-  "total_loans_received": -4211.02
+  "total_contributions": 278014.0,
+  "total_expenditures": 273387.63,
+  "total_loans_received": 8000.0
 }

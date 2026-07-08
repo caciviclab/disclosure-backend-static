@@ -1,36 +1,7 @@
 {
   "iec": false,
-  "total_contributions": 200.0,
+  "total_contributions": 0,
   "contributions": [
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1467984",
-      "Tran_Emp": "not employed",
-      "Tran_Occ": "not employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-06-27",
-      "Tran_NamF": "Susan",
-      "Tran_NamL": "Goolsby",
-      "Tran_Zip4": "94621",
-      "election_name": "oakland-2024"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1467984",
-      "Tran_Emp": "Not Employed",
-      "Tran_Occ": "Not Employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-06-27",
-      "Tran_NamF": "Lucretia Ellen",
-      "Tran_NamL": "Murray",
-      "Tran_Zip4": "94601",
-      "election_name": "oakland-2024"
-    }
+
   ]
 }

@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict iQQVejCYWOgc57VZqOC7H4Ifo23vdhKvxg4fCptdYdjUsPV62go3hANv1Qk9w4p
+\restrict JXfWbmdlaQtfnrgboyLtTEelpC9OgavdhvCrFEsTRNPkLEdWVEUE6p6MoIGbs7r
 
 -- Dumped from database version 14.19 (Ubuntu 14.19-1.pgdg22.04+1)
 -- Dumped by pg_dump version 14.19 (Ubuntu 14.19-1.pgdg22.04+1)
@@ -38,7 +38,7 @@ CREATE TABLE public."496" (
     "Rec_Type" character varying(4) NOT NULL,
     "Form_Type" character varying(4) NOT NULL,
     "Tran_ID" character varying(12) NOT NULL,
-    "Amount" integer NOT NULL,
+    "Amount" double precision NOT NULL,
     "Exp_Date" date NOT NULL,
     "Date_Thru" character varying(32),
     "Expn_Dscr" character varying(90),
@@ -208,7 +208,7 @@ ALTER TABLE public."A-Contributions" OWNER TO travis;
 --
 
 CREATE TABLE public."B1-Loans" (
-    "Filer_ID" character varying(7) NOT NULL,
+    "Filer_ID" character varying(9) NOT NULL,
     "Filer_NamL" character varying(183) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
@@ -485,7 +485,7 @@ CREATE TABLE public."D-Expenditure" (
     "Office_Cd" character varying(4),
     "Offic_Dscr" character varying(40),
     "Juris_Cd" character varying(4),
-    "Juris_Dscr" character varying(38),
+    "Juris_Dscr" character varying(64),
     "Dist_No" character varying(4),
     "Off_S_H_Cd" character varying(4),
     "Bal_Name" character varying(188),
@@ -655,7 +655,7 @@ CREATE TABLE public."F461P5-Expenditure" (
     "Payee_NamS" character varying(32),
     "Payee_Adr1" character varying(32),
     "Payee_Adr2" character varying(32),
-    "Payee_City" character varying(14) NOT NULL,
+    "Payee_City" character varying(32) NOT NULL,
     "Payee_State" character varying(4),
     "Payee_Zip4" character varying(10),
     "Expn_Date" date NOT NULL,
@@ -683,7 +683,7 @@ CREATE TABLE public."F461P5-Expenditure" (
     "Cand_NamT" character varying(7),
     "Cand_NamS" character varying(4),
     "Office_Cd" character varying(4),
-    "Offic_Dscr" character varying(35),
+    "Offic_Dscr" character varying(64),
     "Juris_Cd" character varying(4),
     "Juris_Dscr" character varying(31),
     "Dist_No" character varying(4),
@@ -736,13 +736,13 @@ CREATE TABLE public."F465P3-Expenditure" (
     "Form_Type" character varying(6) NOT NULL,
     "Tran_ID" character varying(10) NOT NULL,
     "Entity_Cd" character varying(3) NOT NULL,
-    "Payee_NamL" character varying(31) NOT NULL,
+    "Payee_NamL" character varying(64) NOT NULL,
     "Payee_NamF" character varying(4),
     "Payee_NamT" character varying(32),
     "Payee_NamS" character varying(32),
     "Payee_Adr1" character varying(32),
     "Payee_Adr2" character varying(32),
-    "Payee_City" character varying(13) NOT NULL,
+    "Payee_City" character varying(32) NOT NULL,
     "Payee_State" character varying(2) NOT NULL,
     "Payee_Zip4" integer NOT NULL,
     "Expn_Date" date NOT NULL,
@@ -770,14 +770,14 @@ CREATE TABLE public."F465P3-Expenditure" (
     "Cand_NamT" character varying(32),
     "Cand_NamS" character varying(32),
     "Office_Cd" character varying(4),
-    "Offic_Dscr" character varying(12),
+    "Offic_Dscr" character varying(64),
     "Juris_Cd" character varying(4),
     "Juris_Dscr" character varying(31),
     "Dist_No" character varying(4),
     "Off_S_H_Cd" character varying(32),
-    "Bal_Name" character varying(122),
+    "Bal_Name" character varying(200),
     "Bal_Num" character varying(4),
-    "Bal_Juris" character varying(19),
+    "Bal_Juris" character varying(32),
     "Sup_Opp_Cd" character varying(1) NOT NULL,
     "Memo_Code" character varying(32),
     "Memo_RefNo" character varying(4),
@@ -924,7 +924,7 @@ CREATE TABLE public."G-Expenditure" (
     "Tres_ST" character varying(32),
     "Tres_ZIP4" character varying(32),
     "Cand_NamL" character varying(32),
-    "Cand_NamF" character varying(15),
+    "Cand_NamF" character varying(32),
     "Cand_NamT" character varying(4),
     "Cand_NamS" character varying(32),
     "Office_Cd" character varying(4),
@@ -2094,5 +2094,5 @@ ALTER TABLE ONLY public.referendums
 -- PostgreSQL database dump complete
 --
 
-\unrestrict iQQVejCYWOgc57VZqOC7H4Ifo23vdhKvxg4fCptdYdjUsPV62go3hANv1Qk9w4p
+\unrestrict JXfWbmdlaQtfnrgboyLtTEelpC9OgavdhvCrFEsTRNPkLEdWVEUE6p6MoIGbs7r
 

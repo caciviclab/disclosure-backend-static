@@ -1,35 +1,35 @@
 {
-  "total_contributions": 2649446.65,
+  "total_contributions": 3304387.27,
   "total_contributions_by_source": {
-    "Out of State": 130591.89,
-    "Within Oakland": 1395872.13,
-    "Within California": 839215.4
+    "Out of State": 166590.89,
+    "Within Oakland": 1592324.21,
+    "Within California": 1088895.85
   },
   "contributions_by_type": {
-    "Committee": 103895.35,
-    "Individual": 1586431.33,
-    "Unitemized": 136890.16,
-    "Self Funding": 468306.4,
-    "Other (includes Businesses)": 207046.34
+    "Committee": 102495.35,
+    "Individual": 2103141.51,
+    "Unitemized": 159249.52,
+    "Self Funding": 370766.51,
+    "Other (includes Businesses)": 271407.58
   },
   "most_expensive_races": [
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 1737849.04
+      "amount": 2343267.7
     },
     {
       "slug": "city-council-district-2",
       "type": "office",
       "title": "City Council District 2",
-      "amount": 332045.9
+      "amount": 334170.14
     },
     {
       "slug": "city-council-district-4",
       "type": "office",
       "title": "City Council District 4",
-      "amount": 182895.85
+      "amount": 191045.85
     }
   ],
   "largest_small_proportion": [
@@ -54,7 +54,7 @@
       "type": "office",
       "title": "Oakland November 4th, 2014 Election",
       "candidate": "Shereda Nosakhare",
-      "proportion": 0.21,
+      "proportion": 0.19,
       "office_title": "City Council District 6"
     }
   ],
@@ -79,17 +79,17 @@
     {
       "name": "Bryan Parker",
       "election_name": "oakland-2014",
-      "total_contributions": 121200.0
-    },
-    {
-      "name": "Jean Quan",
-      "election_name": "oakland-2014",
-      "total_contributions": 101185.73
+      "total_contributions": 131541.71
     },
     {
       "name": "Rebecca Kaplan",
       "election_name": "oakland-2014",
       "total_contributions": 80000.0
+    },
+    {
+      "name": "Brenda Roberts",
+      "election_name": "oakland-2014",
+      "total_contributions": 62050.0
     }
   ],
   "top_contributors_for_offices": [
@@ -97,19 +97,19 @@
       "name": "Bryan Parker",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_contributions": 121200.0
-    },
-    {
-      "name": "Jean Quan",
-      "type": "Office",
-      "election_name": "oakland-2014",
-      "total_contributions": 101185.73
+      "total_contributions": 131541.71
     },
     {
       "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2014",
       "total_contributions": 80000.0
+    },
+    {
+      "name": "Brenda Roberts",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_contributions": 62050.0
     }
   ],
   "top_contributors_for_measures": [
@@ -120,19 +120,19 @@
       "name": "Bryan Parker",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 121200.0
-    },
-    {
-      "name": "Jean Quan",
-      "type": "Office",
-      "election_name": "oakland-2014",
-      "total_spending": 101185.73
+      "total_spending": 131541.71
     },
     {
       "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2014",
       "total_spending": 80000.0
+    },
+    {
+      "name": "Brenda Roberts",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 62050.0
     }
   ],
   "top_spenders_for_offices": [
@@ -140,19 +140,19 @@
       "name": "Bryan Parker",
       "type": "Office",
       "election_name": "oakland-2014",
-      "total_spending": 121200.0
-    },
-    {
-      "name": "Jean Quan",
-      "type": "Office",
-      "election_name": "oakland-2014",
-      "total_spending": 101185.73
+      "total_spending": 131541.71
     },
     {
       "name": "Rebecca Kaplan",
       "type": "Office",
       "election_name": "oakland-2014",
       "total_spending": 80000.0
+    },
+    {
+      "name": "Brenda Roberts",
+      "type": "Office",
+      "election_name": "oakland-2014",
+      "total_spending": 62050.0
     }
   ],
   "top_spenders_for_measures": [
