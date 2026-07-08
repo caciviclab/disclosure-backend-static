@@ -39,7 +39,20 @@ upload-cache:
 	tar czf - downloads/csv downloads/static downloads/cached-db \
 		| aws s3 cp - s3://odca-data-cache/$(shell date +%Y-%m-%d).tar.gz --acl public-read
 
-download: download-spreadsheets \
+download: download-spreadsheets download-COAK
+
+# Downloads all Oakland filing data from the City's Socrata open data portal
+# (data.oaklandca.gov), which is synced daily from NetFile. Removes any CSVs
+# left over from the legacy per-year NetFile download (download-COAK-<year>
+# targets below) so they don't get double-imported.
+download-COAK:
+	mkdir -p downloads/csv
+	rm -f downloads/csv/efile_COAK_2*.csv
+	bin/download-socrata downloads/csv all
+
+# Legacy download path, kept as a fallback: per-year bulk Excel exports
+# directly from NetFile.
+download-netfile: download-spreadsheets \
 	download-COAK-2014 download-COAK-2015 download-COAK-2016 \
 	download-COAK-2017 download-COAK-2018 \
 	download-COAK-2019 download-COAK-2020 \

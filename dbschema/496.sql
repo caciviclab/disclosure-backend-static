@@ -10,7 +10,7 @@ CREATE TABLE "496" (
 	"Rec_Type" VARCHAR(4) NOT NULL, 
 	"Form_Type" VARCHAR(4) NOT NULL, 
 	"Tran_ID" VARCHAR(12) NOT NULL, 
-	"Amount" INTEGER NOT NULL, 
+	"Amount" FLOAT NOT NULL,
 	"Exp_Date" DATE NOT NULL, 
 	"Date_Thru" VARCHAR(32), 
 	"Expn_Dscr" VARCHAR(90), 

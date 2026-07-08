@@ -1,0 +1,119 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Downloads Oakland campaign finance data from the City of Oakland's Socrata
+# open data portal (data.oaklandca.gov), which is synced daily from NetFile.
+#
+# The output CSVs match the format of the NetFile bulk Excel exports this
+# pipeline originally consumed (efile_newest_COAK_<year>.zip), so the rest of
+# the import pipeline (bin/create-table, bin/import-file, dbschema/*.sql)
+# works unchanged:
+#   - Socrata-added geocoding columns (*_Location) are dropped
+#   - "B2Lender_Name_Inter_name" is renamed back to "B2Lender_Name-Inter_name"
+#   - MM/DD/YYYY dates are normalized to YYYY-MM-DD
+#   - Reports filed before 2013 are dropped, matching the year range the
+#     NetFile bulk download covers (the portal goes back to 2011, but that
+#     older data is spottier -- e.g. rows with no Filer_ID)
+#
+# WARNING (July 2026): do not use this as the production data source yet.
+# The City's NetFile->Socrata sync has been dropping most AMENDED filings
+# since roughly early 2025 -- the portal keeps serving the superseded
+# original reports (~$2.2M of Schedule A differences at last check, e.g.
+# filer 1467768 "Oaklanders Together": the Q2-2024 report amended on
+# 2025-04-17 is absent while the stale original remains). New original
+# filings do sync daily, so the portal looks current at a glance. Verify the
+# City has fixed amendment ingestion before switching `make download` over.
+#
+# Usage:
+#   bin/download-socrata [csv_path] [sheet]
+#   bin/download-socrata downloads/csv A-Contributions
+
+require 'csv'
+require 'net/http'
+require 'uri'
+
+DOMAIN = 'data.oaklandca.gov'
+
+DATASETS = {
+  'Summary'              => 'rsxe-vvuw',
+  'A-Contributions'      => '3xq4-ermg',
+  'B1-Loans'             => 'qaa7-q29f',
+  'B2-Loans'             => '4fu2-d832',
+  'C-Contributions'      => 'ba44-jqtm',
+  'D-Expenditure'        => 'x5eg-xkea',
+  'E-Expenditure'        => 'bvfu-nq99',
+  'F-Expenses'           => '9gcg-vghr',
+  'G-Expenditure'        => 'xuui-k2nt',
+  'H-Loans'              => 'qunm-zyau',
+  'I-Contributions'      => 'jft9-u9bd',
+  '496'                  => 'jkj3-8yq3',
+  'F496P3-Contributions' => 'eted-3m9d',
+  '497'                  => 'qact-u8hq',
+  'F461P5-Expenditure'   => 'ub5g-m92u',
+  'F465P3-Expenditure'   => '6ejr-39gh',
+}.freeze
+
+RENAMED_COLUMNS = {
+  'B2Lender_Name_Inter_name' => 'B2Lender_Name-Inter_name',
+}.freeze
+
+# Matches Socrata's US-style date exports, both bare ("02/16/2020") and with a
+# midnight time component ("12/20/2019 12:00:00 AM"). NetFile's exports carry
+# dates only, so the time part is dropped.
+US_DATE = %r{\A(\d{2})/(\d{2})/(\d{4})(?: 12:00:00 AM)?\z}
+
+MIN_RPT_DATE = '2013-01-01'
+
+def fetch(uri, redirects_remaining = 3)
+  response = Net::HTTP.get_response(URI(uri))
+  case response
+  when Net::HTTPRedirection
+    raise "Too many redirects fetching #{uri}" if redirects_remaining.zero?
+
+    fetch(response['location'], redirects_remaining - 1)
+  when Net::HTTPSuccess
+    response.body
+  else
+    raise "Download failed: #{response.code} #{response.message} for #{uri}"
+  end
+end
+
+def download_sheet(csv_path, sheet)
+  dataset_id = DATASETS.fetch(sheet) do
+    abort "Unknown sheet #{sheet.inspect}. Known sheets: #{DATASETS.keys.join(', ')}"
+  end
+
+  url = "https://#{DOMAIN}/api/views/#{dataset_id}/rows.csv?accessType=DOWNLOAD"
+  body = fetch(url)
+
+  rows = CSV.parse(body, headers: true)
+  keep = rows.headers.reject { |h| h.end_with?('_Location') }
+
+  out_path = File.join(csv_path, "efile_COAK_socrata_#{sheet}.csv")
+  kept_count = 0
+  CSV.open(out_path, 'w') do |out|
+    out << keep.map { |h| RENAMED_COLUMNS.fetch(h, h) }
+    rows.each do |row|
+      values = keep.map do |h|
+        value = row[h]
+        value = "#{$3}-#{$1}-#{$2}" if value =~ US_DATE
+        value
+      end
+      next if values[keep.index('Rpt_Date')].to_s < MIN_RPT_DATE
+
+      out << values
+      kept_count += 1
+    end
+  end
+
+  puts "#{sheet}: #{kept_count} rows (of #{rows.length}) -> #{out_path}"
+end
+
+if ARGV.length != 2
+  abort "Usage: bin/download-socrata [csv_path] [sheet|all]\n" \
+        "       bin/download-socrata downloads/csv A-Contributions"
+end
+
+csv_path, sheet = ARGV
+sheets = sheet == 'all' ? DATASETS.keys : [sheet]
+sheets.each { |s| download_sheet(csv_path, s) }

@@ -135,8 +135,8 @@ end
 
 build_file('/_data/stats.json') do |f|
   # TODO this should probably be locality-election specific to the date of the bulk data download
-  date_processed = File.exist?('downloads/raw/efile_COAK_2026.zip') ?
-    File.mtime('downloads/raw/efile_COAK_2026.zip') : Time.now
+  bulk_data_file = 'downloads/csv/efile_COAK_socrata_Summary.csv'
+  date_processed = File.exist?(bulk_data_file) ? File.mtime(bulk_data_file) : Time.now
   f.puts JSON.pretty_generate(
     date_processed: date_processed.to_s
   )
