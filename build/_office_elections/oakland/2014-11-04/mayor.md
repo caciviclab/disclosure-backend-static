@@ -1,13 +1,13 @@
 ---
 election: _elections/oakland/2014-11-04.md
 candidates:
-- rebecca-kaplan
 - libby-schaaf
-- dan-siegel
-- jean-quan
 - bryan-parker
-- courtney-ruby
+- jean-quan
+- rebecca-kaplan
+- dan-siegel
 - joe-tuman
+- courtney-ruby
 - charles-williams
 - saied-karamooz
 - eric-wilson

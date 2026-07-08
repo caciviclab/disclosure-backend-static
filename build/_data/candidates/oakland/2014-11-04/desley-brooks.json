@@ -21,10 +21,10 @@
   "is_winner": null,
   "filer_id": 1236617,
   "supporting_money": {
-    "contributions_received": 38429.0,
-    "total_contributions": 38429.0,
-    "total_expenditures": 62449.07,
-    "total_loans_received": -2500.0,
+    "contributions_received": 62679.0,
+    "total_contributions": 62679.0,
+    "total_expenditures": 65331.07,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 429.45,
     "support_list": [
       {
@@ -36,22 +36,22 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 2400.0,
-      "Individual": 37620.0,
+      "Committee": 3100.0,
+      "Individual": 57970.0,
       "Unitemized": 409.0,
-      "Other (includes Businesses)": 500.0
+      "Other (includes Businesses)": 1200.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 22920.0,
-      "Within California": 17600.0
+      "Within Oakland": 32320.0,
+      "Within California": 29950.0
     },
     "total_small_contributions": 1332.0,
     "expenditures_by_type": {
       "Print Ads": 1600.0,
       "Not Stated": 7453.93,
       "Contribution": 1400.0,
-      "Legal Defense": 1000.0,
-      "Civic Donations": 2200.0,
+      "Legal Defense": 3500.0,
+      "Civic Donations": 2440.0,
       "Office Expenses": 4451.4,
       "Fundraising Events": 4045.45,
       "Campaign Consultants": 6000.0,
@@ -61,7 +61,7 @@
       "Candidate Filing/Ballot Fees": 250.0,
       "Campaign Literature and Mailings": 22934.34,
       "Candidate Travel, Lodging, and Meals": 1182.61,
-      "Postage, Delivery and Messenger Services": 102.0
+      "Postage, Delivery and Messenger Services": 244.0
     },
     "supporting_by_type": {
       "MON": 3800.0,
@@ -76,7 +76,7 @@
 
     ]
   },
-  "total_contributions": 38429.0,
-  "total_expenditures": 62449.07,
-  "total_loans_received": -2500.0
+  "total_contributions": 62679.0,
+  "total_expenditures": 65331.07,
+  "total_loans_received": 0.0
 }
