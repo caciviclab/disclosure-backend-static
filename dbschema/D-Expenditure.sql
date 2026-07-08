@@ -49,7 +49,7 @@ CREATE TABLE "D-Expenditure" (
 	"Office_Cd" VARCHAR(4), 
 	"Offic_Dscr" VARCHAR(40), 
 	"Juris_Cd" VARCHAR(4), 
-	"Juris_Dscr" VARCHAR(38), 
+	"Juris_Dscr" VARCHAR(64), 
 	"Dist_No" VARCHAR(4), 
 	"Off_S_H_Cd" VARCHAR(4), 
 	"Bal_Name" VARCHAR(188), 
