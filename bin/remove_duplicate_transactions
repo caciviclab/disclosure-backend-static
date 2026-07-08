@@ -1,7 +1,35 @@
 #!/bin/bash
 set -euo pipefail
 
-# 1. delete duplicate 497 summary
+# 1. delete superseded report versions.
+#
+# Each yearly NetFile export contains only the newest version of the reports
+# it holds, but when a report is amended in a later year than it was filed,
+# the amendment lands in a different yearly file than the original -- and the
+# import unions all the yearly files, double-counting that report. Keep only
+# the highest Report_Num for each (Filer_ID, From_Date, Thru_Date).
+for table in Summary A-Contributions B1-Loans B2-Loans C-Contributions \
+    D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure \
+    F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans \
+    I-Contributions; do
+  cat <<-QUERY | psql --quiet ${DATABASE_NAME:-"disclosure-backend"}
+	\\set ON_ERROR_STOP on
+	WITH latest AS (
+	  SELECT "Filer_ID", "From_Date", "Thru_Date", max("Report_Num"::int) AS max_rpt
+	  FROM "$table"
+	  WHERE "From_Date" IS NOT NULL
+	  GROUP BY 1, 2, 3
+	)
+	DELETE FROM "$table" t
+	USING latest l
+	WHERE t."Filer_ID" = l."Filer_ID"
+	  AND t."From_Date" = l."From_Date"
+	  AND t."Thru_Date" = l."Thru_Date"
+	  AND t."Report_Num"::int < l.max_rpt;
+	QUERY
+done
+
+# 2. delete duplicate 497 summary
 cat <<-QUERY | psql ${DATABASE_NAME:-"disclosure-backend"}
 DELETE FROM "496" late
 WHERE EXISTS (
