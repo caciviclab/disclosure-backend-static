@@ -135,8 +135,8 @@ end
 
 build_file('/_data/stats.json') do |f|
   # TODO this should probably be locality-election specific to the date of the bulk data download
-  date_processed = File.exist?('downloads/raw/efile_COAK_2026.zip') ?
-    File.mtime('downloads/raw/efile_COAK_2026.zip') : Time.now
+  latest_download = Dir.glob('downloads/raw/efile_COAK_*.zip').max_by { |f| File.mtime(f) }
+  date_processed = latest_download ? File.mtime(latest_download) : Time.now
   f.puts JSON.pretty_generate(
     date_processed: date_processed.to_s
   )

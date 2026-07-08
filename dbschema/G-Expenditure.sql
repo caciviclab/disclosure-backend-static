@@ -43,7 +43,7 @@ CREATE TABLE "G-Expenditure" (
 	"Tres_ST" VARCHAR(32), 
 	"Tres_ZIP4" VARCHAR(32), 
 	"Cand_NamL" VARCHAR(32), 
-	"Cand_NamF" VARCHAR(15), 
+	"Cand_NamF" VARCHAR(32), 
 	"Cand_NamT" VARCHAR(4), 
 	"Cand_NamS" VARCHAR(32), 
 	"Office_Cd" VARCHAR(4), 

@@ -1,5 +1,5 @@
 CREATE TABLE "B1-Loans" (
-	"Filer_ID" VARCHAR(7) NOT NULL, 
+	"Filer_ID" VARCHAR(9) NOT NULL, 
 	"Filer_NamL" VARCHAR(183) NOT NULL, 
 	"Report_Num" VARCHAR(3) NOT NULL, 
 	"Committee_Type" VARCHAR(3) NOT NULL, 
