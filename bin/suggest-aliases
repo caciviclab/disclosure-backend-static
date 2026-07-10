@@ -1,0 +1,110 @@
+#!/usr/bin/env ruby
+# Report likely-missing entries for ContributorNameCoalescer's alias maps.
+#
+# Coalesces all employer/occupation values with the current rules, then flags
+# pairs of groups that probably refer to the same thing but are not merged:
+#   - near-identical spellings (small edit distance), which catches typos
+#   - one group's name extending the other's ("X" vs "X MEDICAL CENTER")
+#
+# Suggestions are ranked by the number of contributions affected. Review each
+# one before adding it to lib/contributor_name_coalescer.rb -- some pairs are
+# genuinely different entities.
+#
+# Usage: bundle exec ruby bin/suggest-aliases [min_count]
+#   min_count: only suggest merging groups seen at least this many times
+#              into a bigger group (default 3)
+
+require_relative '../environment.rb'
+
+MIN_COUNT = (ARGV[0] || 3).to_i     # smaller group must have at least this many rows
+HEAD_MIN_COUNT = 25                 # bigger group must have at least this many rows
+MAX_SUGGESTIONS = 40                # per section
+
+def levenshtein(a, b, max)
+  return max + 1 if (a.length - b.length).abs > max
+
+  prev = (0..b.length).to_a
+  a.each_char.with_index do |ca, i|
+    row = [i + 1]
+    b.each_char.with_index do |cb, j|
+      row << [prev[j + 1] + 1, row[j] + 1, prev[j] + (ca == cb ? 0 : 1)].min
+    end
+    return max + 1 if row.min > max
+    prev = row
+  end
+  prev.last
+end
+
+def coalesced_groups(column)
+  rows = ActiveRecord::Base.connection.execute(<<-SQL)
+    SELECT "#{column}" AS value, "Tran_Occ" AS occupation, COUNT(*) AS n
+    FROM all_contributions
+    WHERE "Entity_Cd" = 'IND'
+    GROUP BY 1, 2
+  SQL
+
+  groups = Hash.new(0)
+  rows.each do |row|
+    key = if column == 'Tran_Emp'
+            ContributorNameCoalescer.employer_key(row['value'], row['occupation'])
+          else
+            ContributorNameCoalescer.occupation_key(row['value'])
+          end
+    groups[key] += row['n'].to_i
+  end
+  groups.reject { |key, _| ContributorNameCoalescer::FIXED_DISPLAY_NAMES.key?(key) }
+end
+
+def suggestions_for(groups)
+  heads = groups.select { |_, n| n >= HEAD_MIN_COUNT }
+                .sort_by { |_, n| -n }
+  candidates = groups.select { |key, n| n >= MIN_COUNT && key.length >= 4 }
+
+  suggestions = []
+  heads.each do |head, head_n|
+    candidates.each do |other, other_n|
+      next if other == head || other_n > head_n
+
+      reason =
+        if other.start_with?("#{head} ") || head.start_with?("#{other} ")
+          'prefix'
+        else
+          max = head.length >= 10 ? 2 : 1
+          'edit distance' if levenshtein(head, other, max) <= max
+        end
+      next unless reason
+
+      suggestions << { head: head, head_n: head_n, other: other,
+                       other_n: other_n, reason: reason }
+    end
+  end
+
+  # If a group matched several heads, keep only its biggest match
+  suggestions.group_by { |s| s[:other] }
+             .map { |_, matches| matches.max_by { |s| s[:head_n] } }
+             .sort_by { |s| -s[:other_n] }
+end
+
+def print_section(title, groups)
+  puts "== #{title}: possible merges (#{groups.size} coalesced groups) =="
+  suggestions = suggestions_for(groups)
+  if suggestions.empty?
+    puts '  none found'
+  else
+    suggestions.first(MAX_SUGGESTIONS).each do |s|
+      puts format("  %-45s (%5d)  <-  %-45s (%4d)  [%s]",
+                  s[:head], s[:head_n], s[:other], s[:other_n], s[:reason])
+    end
+    puts "  ... and #{suggestions.size - MAX_SUGGESTIONS} more" if suggestions.size > MAX_SUGGESTIONS
+  end
+  puts
+end
+
+print_section('EMPLOYERS', coalesced_groups('Tran_Emp'))
+print_section('OCCUPATIONS', coalesced_groups('Tran_Occ'))
+
+puts <<~FOOTER
+  To merge a pair, add a line to EMPLOYER_ALIASES or OCCUPATION_ALIASES in
+  lib/contributor_name_coalescer.rb mapping the smaller key to the bigger one,
+  and add a case to spec/calculators/contributor_name_coalescer_spec.rb.
+FOOTER

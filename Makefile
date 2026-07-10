@@ -129,6 +129,11 @@ recreatedb:
 reindex:
 	ruby search_index.rb
 
+# Report employer/occupation spellings that probably belong in the alias maps
+# in lib/contributor_name_coalescer.rb. Run after importing fresh data.
+suggest-aliases:
+	RUBYOPT="-W:no-deprecated -W:no-experimental" bundle exec ruby bin/suggest-aliases
+
 496 497 A-Contributions B1-Loans B2-Loans C-Contributions D-Expenditure E-Expenditure F-Expenses F461P5-Expenditure F465P3-Expenditure F496P3-Contributions G-Expenditure H-Loans I-Contributions Summary:
 	DATABASE_NAME=$(DATABASE_NAME) ./bin/import-file $(CSV_PATH) $@
 
