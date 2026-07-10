@@ -42,9 +42,14 @@ class EmployerOccupationSummaryCalculator
       count = row['count'].to_i
       total = row['total'].to_f
 
-      add_to_group(employers_by_filer[filer_id],
-                   ContributorNameCoalescer.employer_key(row['Tran_Emp'], row['Tran_Occ']),
-                   row['Tran_Emp'], total, count)
+      employer_key = ContributorNameCoalescer.employer_key(row['Tran_Emp'], row['Tran_Occ'])
+      # "Retired/Not Employed" dwarfs real employers without naming one, and
+      # the occupation summary already shows it; keep the employer chart for
+      # actual employers.
+      unless employer_key == ContributorNameCoalescer::RETIRED_NOT_EMPLOYED
+        add_to_group(employers_by_filer[filer_id], employer_key,
+                     row['Tran_Emp'], total, count)
+      end
       add_to_group(occupations_by_filer[filer_id],
                    ContributorNameCoalescer.occupation_key(row['Tran_Occ'], row['Tran_Emp']),
                    row['Tran_Occ'], total, count)
