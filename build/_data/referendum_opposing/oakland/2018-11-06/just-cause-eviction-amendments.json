@@ -8,15 +8,15 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/area/73/measures/measure/3286?&county=alameda%20county&election_authority_id=1",
   "contributions_by_region": [
     {
-      "amount": 246185.0,
+      "amount": 226100.0,
       "locale": "Out of State"
     },
     {
-      "amount": 358697.33,
+      "amount": 357197.33,
       "locale": "Within California"
     },
     {
-      "amount": 194884.25,
+      "amount": 193699.25,
       "locale": "Within Oakland"
     }
   ],
@@ -27,11 +27,11 @@
     },
     {
       "type": "Individual",
-      "amount": 92158.75
+      "amount": 89973.75
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 420357.83
+      "amount": 399772.83
     }
   ],
   "opposing_organizations": [
@@ -39,14 +39,14 @@
       "id": "1410941",
       "name": "Committee for Better Choices, No on Measure AA, Y and W",
       "payee": "Committee for Better Choices, No on Measure AA, Y and W",
-      "amount": 50086.97
+      "amount": 1483.34
     },
     {
       "id": "1410943",
       "name": "Homeowners for Fair Treatment, No on Measures W and Y",
       "payee": "Homeowners for Fair Treatment, No on Measures W and Y",
-      "amount": 199888.42
+      "amount": 35723.99
     }
   ],
-  "total_contributions": 799766.58
+  "total_contributions": 776996.58
 }

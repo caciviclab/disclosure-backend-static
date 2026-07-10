@@ -8,15 +8,15 @@
   "voters_edge_url": "https://votersedge.org/ca/en/ballot/election/area/73/measures/measure/3288?&county=alameda%20county&election_authority_id=1",
   "contributions_by_region": [
     {
-      "amount": 23585.0,
+      "amount": 3500.0,
       "locale": "Out of State"
     },
     {
-      "amount": 149265.0,
+      "amount": 147765.0,
       "locale": "Within California"
     },
     {
-      "amount": 155443.59,
+      "amount": 154708.59,
       "locale": "Within Oakland"
     }
   ],
@@ -27,11 +27,11 @@
     },
     {
       "type": "Individual",
-      "amount": 76259.75
+      "amount": 74524.75
     },
     {
       "type": "Other (includes Businesses)",
-      "amount": 162283.84
+      "amount": 141698.84
     }
   ],
   "opposing_organizations": [
@@ -39,8 +39,8 @@
       "id": "1410941",
       "name": "Committee for Better Choices, No on Measure AA, Y and W",
       "payee": "Committee for Better Choices, No on Measure AA, Y and W",
-      "amount": 1164735.23
+      "amount": 916011.83
     }
   ],
-  "total_contributions": 328293.59
+  "total_contributions": 305973.59
 }

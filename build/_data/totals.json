@@ -274,7 +274,7 @@
       {
         "name": "GO PUBLIC SCHOOLS ADVOCATES Community-Powered Candidate Committee",
         "election_name": "oakland-2016",
-        "total_spending": 486753.01
+        "total_spending": 316696.51
       },
       {
         "name": "Oakland Police Officer's Association - Political Action Committee",
@@ -406,25 +406,25 @@
     ]
   },
   "oakland-2018": {
-    "total_contributions": 6930441.34,
+    "total_contributions": 6862581.34,
     "total_contributions_by_source": {
-      "Out of State": 962276.36,
-      "Within Oakland": 2758677.62,
-      "Within California": 2987941.18
+      "Out of State": 902021.36,
+      "Within Oakland": 2755572.62,
+      "Within California": 2983441.18
     },
     "contributions_by_type": {
       "Committee": 1007966.04,
-      "Individual": 2820913.61,
+      "Individual": 2814808.61,
       "Unitemized": 155830.18,
       "Self Funding": 121184.25,
-      "Other (includes Businesses)": 2758831.26
+      "Other (includes Businesses)": 2697076.26
     },
     "most_expensive_races": [
       {
         "slug": "oakland-children-s-initiative",
         "type": "referendum",
         "title": "Measure AA",
-        "amount": 2158805.19
+        "amount": 2136485.19
       },
       {
         "slug": "mayor",
@@ -436,7 +436,7 @@
         "slug": "just-cause-eviction-amendments",
         "type": "referendum",
         "title": "Measure Y",
-        "amount": 839177.38
+        "amount": 816407.38
       }
     ],
     "largest_small_proportion": [
@@ -800,12 +800,12 @@
     "total_contributions": 8043872.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2936587.86,
+      "Within Oakland": 2936487.86,
       "Within California": 4387709.45
     },
     "contributions_by_type": {
       "Committee": 1718838.97,
-      "Individual": 2851802.39,
+      "Individual": 2851702.39,
       "Unitemized": 130829.9,
       "Self Funding": 16387.78,
       "Other (includes Businesses)": 3290107.76
@@ -1333,11 +1333,11 @@
     "total_contributions_by_source": {
       "Out of State": 1400.0,
       "Within Oakland": 20234.0,
-      "Within California": 12526.0
+      "Within California": 12226.0
     },
     "contributions_by_type": {
       "Committee": 6000.0,
-      "Individual": 26160.0,
+      "Individual": 25860.0,
       "Unitemized": 3097.0,
       "Other (includes Businesses)": 2000.0
     },
