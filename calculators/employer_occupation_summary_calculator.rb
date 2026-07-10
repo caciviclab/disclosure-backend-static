@@ -46,7 +46,7 @@ class EmployerOccupationSummaryCalculator
                    ContributorNameCoalescer.employer_key(row['Tran_Emp'], row['Tran_Occ']),
                    row['Tran_Emp'], total, count)
       add_to_group(occupations_by_filer[filer_id],
-                   ContributorNameCoalescer.occupation_key(row['Tran_Occ']),
+                   ContributorNameCoalescer.occupation_key(row['Tran_Occ'], row['Tran_Emp']),
                    row['Tran_Occ'], total, count)
     end
 
@@ -71,6 +71,10 @@ class EmployerOccupationSummaryCalculator
   private
 
   def add_to_group(groups, key, raw_value, total, count)
+    # Contributions with neither an employer nor an occupation reported say
+    # nothing about where contributors work, so leave them out of the summary.
+    return if key == ContributorNameCoalescer::UNKNOWN
+
     group = groups[key] ||= { total: 0.0, count: 0, variants: Hash.new(0) }
     group[:total] += total
     group[:count] += count

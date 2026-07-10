@@ -95,8 +95,6 @@ class Candidate < ActiveRecord::Base
       iec: false,
       total_contributions: calculation(:contribution_list_total),
       contributions: calculation(:contribution_list) || [],
-      contributions_by_employer: calculation(:contributions_by_employer) || [],
-      contributions_by_occupation: calculation(:contributions_by_occupation) || [],
     }
   end
 end

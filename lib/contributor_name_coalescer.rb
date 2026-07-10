@@ -10,6 +10,15 @@ module ContributorNameCoalescer
   RETIRED = 'Retired'.freeze
   NOT_EMPLOYED = 'Not Employed'.freeze
   SELF_EMPLOYED = 'Self-Employed'.freeze
+  HOMEMAKER = 'Homemaker'.freeze
+
+  # A blank employer usually means the contributor has none (retired, not
+  # employed, homemaker) — those inherit their status from the occupation
+  # field. When the occupation is a real job but the employer is blank, the
+  # contributor chose not to report it, which is worth showing on its own.
+  # UNKNOWN is reserved for rows where both fields are blank.
+  EMPLOYER_NOT_REPORTED = 'Employer not reported'.freeze
+  OCCUPATION_NOT_REPORTED = 'Occupation not reported'.freeze
 
   # Oakland's police and fire departments are kept separate from the general
   # City of Oakland employer group because they are the city's two biggest
@@ -30,6 +39,9 @@ module ContributorNameCoalescer
     RETIRED => RETIRED,
     NOT_EMPLOYED => NOT_EMPLOYED,
     SELF_EMPLOYED => SELF_EMPLOYED,
+    HOMEMAKER => HOMEMAKER,
+    EMPLOYER_NOT_REPORTED => EMPLOYER_NOT_REPORTED,
+    OCCUPATION_NOT_REPORTED => OCCUPATION_NOT_REPORTED,
     OAKLAND_FIRE => 'Oakland Fire Department',
     OAKLAND_POLICE => 'Oakland Police Department',
   }.freeze
@@ -138,16 +150,7 @@ module ContributorNameCoalescer
   end
 
   def self.employer_key(raw, occupation = nil)
-    key = normalize(raw)
-    return UNKNOWN if UNKNOWN_KEYS.include?(key)
-    return NOT_EMPLOYED if NOT_EMPLOYED_KEYS.include?(key)
-    return RETIRED if key.start_with?('RETIRED')
-    return SELF_EMPLOYED if SELF_EMPLOYED_KEYS.include?(key) ||
-                            key.start_with?('SELF EMPLOYED')
-
-    key = strip_corporate_suffixes(key)
-    key = key.sub(/\ATHE /, '')
-    key = EMPLOYER_ALIASES[key] || apply_prefix_merges(key)
+    key = base_employer_key(raw)
 
     # Police and fire employees usually list just "City of Oakland" as their
     # employer; use the occupation to assign them to their department.
@@ -157,10 +160,49 @@ module ContributorNameCoalescer
       return OAKLAND_POLICE if POLICE_OCCUPATIONS.match?(occ)
     end
 
+    # A blank employer mostly means there is none; let the occupation say so.
+    if key == UNKNOWN
+      occ_key = base_occupation_key(occupation)
+      return UNKNOWN if occ_key == UNKNOWN
+      return RETIRED if occ_key == RETIRED || occ_key.start_with?('RETIRED')
+      return NOT_EMPLOYED if occ_key == NOT_EMPLOYED
+      return SELF_EMPLOYED if occ_key == SELF_EMPLOYED
+      return HOMEMAKER if occ_key == 'HOMEMAKER'
+
+      return EMPLOYER_NOT_REPORTED
+    end
+
     key
   end
 
-  def self.occupation_key(raw)
+  def self.occupation_key(raw, employer = nil)
+    key = base_occupation_key(raw)
+    return key unless key == UNKNOWN
+
+    # A blank occupation can still inherit no-employment status from the
+    # employer field ("Retired", "Not Employed", ... are common there too).
+    emp_key = base_employer_key(employer)
+    return UNKNOWN if emp_key == UNKNOWN
+    return emp_key if [RETIRED, NOT_EMPLOYED, SELF_EMPLOYED].include?(emp_key)
+    return HOMEMAKER if emp_key == 'HOMEMAKER'
+
+    OCCUPATION_NOT_REPORTED
+  end
+
+  def self.base_employer_key(raw)
+    key = normalize(raw)
+    return UNKNOWN if UNKNOWN_KEYS.include?(key)
+    return NOT_EMPLOYED if NOT_EMPLOYED_KEYS.include?(key)
+    return RETIRED if key.start_with?('RETIRED')
+    return SELF_EMPLOYED if SELF_EMPLOYED_KEYS.include?(key) ||
+                            key.start_with?('SELF EMPLOYED')
+
+    key = strip_corporate_suffixes(key)
+    key = key.sub(/\ATHE /, '')
+    EMPLOYER_ALIASES[key] || apply_prefix_merges(key)
+  end
+
+  def self.base_occupation_key(raw)
     key = normalize(raw)
     return UNKNOWN if UNKNOWN_KEYS.include?(key)
     return NOT_EMPLOYED if NOT_EMPLOYED_KEYS.include?(key)

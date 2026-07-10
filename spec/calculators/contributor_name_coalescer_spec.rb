@@ -46,10 +46,34 @@ RSpec.describe ContributorNameCoalescer do
       end
     end
 
-    it 'buckets blank and placeholder values as Unknown' do
+    it 'buckets values as Unknown only when both fields are blank' do
       [nil, '', '  ', 'N/A', 'N.A.', 'None', 'Unknown'].each do |variant|
         expect(described_class.employer_key(variant))
           .to eq(ContributorNameCoalescer::UNKNOWN)
+        expect(described_class.employer_key(variant, 'n/a'))
+          .to eq(ContributorNameCoalescer::UNKNOWN)
+      end
+    end
+
+    it 'infers no-employer status from the occupation when employer is blank' do
+      {
+        'Retired' => ContributorNameCoalescer::RETIRED,
+        'retired teacher' => ContributorNameCoalescer::RETIRED,
+        'Not Employed' => ContributorNameCoalescer::NOT_EMPLOYED,
+        'unemployed' => ContributorNameCoalescer::NOT_EMPLOYED,
+        'Homemaker' => ContributorNameCoalescer::HOMEMAKER,
+        'Housewife' => ContributorNameCoalescer::HOMEMAKER,
+        'Self-Employed' => ContributorNameCoalescer::SELF_EMPLOYED,
+      }.each do |occupation, expected|
+        expect(described_class.employer_key('', occupation))
+          .to eq(expected), occupation
+      end
+    end
+
+    it 'marks blank employers as not reported when the occupation is a real job' do
+      ['Teacher', 'Attorney', 'Student'].each do |occupation|
+        expect(described_class.employer_key(nil, occupation))
+          .to eq(ContributorNameCoalescer::EMPLOYER_NOT_REPORTED), occupation
       end
     end
 
@@ -147,6 +171,25 @@ RSpec.describe ContributorNameCoalescer do
     it 'keeps qualified occupations separate from the base occupation' do
       expect(described_class.occupation_key('Deputy City Attorney'))
         .not_to eq(described_class.occupation_key('Attorney'))
+    end
+
+    it 'infers no-employment status from the employer when occupation is blank' do
+      expect(described_class.occupation_key('', 'Retired'))
+        .to eq(ContributorNameCoalescer::RETIRED)
+      expect(described_class.occupation_key(nil, 'Not Employed'))
+        .to eq(ContributorNameCoalescer::NOT_EMPLOYED)
+      expect(described_class.occupation_key('', 'Self-Employed'))
+        .to eq(ContributorNameCoalescer::SELF_EMPLOYED)
+    end
+
+    it 'marks blank occupations as not reported when the employer is real' do
+      expect(described_class.occupation_key('', 'Google'))
+        .to eq(ContributorNameCoalescer::OCCUPATION_NOT_REPORTED)
+    end
+
+    it 'stays Unknown when both fields are blank' do
+      expect(described_class.occupation_key(nil, ''))
+        .to eq(ContributorNameCoalescer::UNKNOWN)
     end
   end
 end
