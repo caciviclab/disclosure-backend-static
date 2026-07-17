@@ -15,7 +15,10 @@ xlsx.sheets.each do |sheet|
   output_filename = ARGV[1] % { sheet: sheet }
 
   $stderr.puts "  -> #{output_filename}"
-  file = xlsx.sheet(sheet).to_enum(:each_row_streaming)
+  # pad_cells: sheets written sparsely (e.g. NetFile's newer portal exports)
+  # omit empty cells entirely; without padding, values slide left into the
+  # wrong columns.
+  file = xlsx.sheet(sheet).to_enum(:each_row_streaming, pad_cells: true)
 
   headers = file.next
 
@@ -30,7 +33,7 @@ xlsx.sheets.each do |sheet|
       # converting the format string to "yyyy-mm-dd" we can get a date formatted
       # properly for import into the database.
       row.each do |cell|
-        if cell.type == :date
+        if cell && cell.type == :date
           cell.instance_variable_set(:@format, "yyyy-mm-dd")
         end
       end
