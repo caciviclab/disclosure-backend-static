@@ -27,7 +27,7 @@ CREATE TABLE "F-Expenses" (
 	"Amt_Paid" FLOAT NOT NULL, 
 	"End_Bal" FLOAT NOT NULL, 
 	"Expn_Code" VARCHAR(4), 
-	"Expn_Dscr" VARCHAR(134), 
+	"Expn_Dscr" VARCHAR(250),
 	"Cmte_ID" VARCHAR(7), 
 	"Tres_NamL" VARCHAR(32), 
 	"Tres_NamF" VARCHAR(32), 
