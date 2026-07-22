@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict ZRD8dFo3tgJ7ajMipS7VabSiDlddkvzi2LCyoDhCac2MpOY0c9EKUcKwrJZEKNH
+\restrict nGBL6wuAfjCsbJYf86rrfZpyW4uITGOBJNArjkpATDkbPhI4ZtfBPlawBpx4Cyc
 
 -- Dumped from database version 14.19 (Ubuntu 14.19-1.pgdg22.04+1)
 -- Dumped by pg_dump version 14.19 (Ubuntu 14.19-1.pgdg22.04+1)
@@ -609,7 +609,7 @@ CREATE TABLE public."F-Expenses" (
     "Amt_Paid" double precision NOT NULL,
     "End_Bal" double precision NOT NULL,
     "Expn_Code" character varying(4),
-    "Expn_Dscr" character varying(134),
+    "Expn_Dscr" character varying(250),
     "Cmte_ID" character varying(7),
     "Tres_NamL" character varying(32),
     "Tres_NamF" character varying(32),
@@ -2094,5 +2094,5 @@ ALTER TABLE ONLY public.referendums
 -- PostgreSQL database dump complete
 --
 
-\unrestrict ZRD8dFo3tgJ7ajMipS7VabSiDlddkvzi2LCyoDhCac2MpOY0c9EKUcKwrJZEKNH
+\unrestrict nGBL6wuAfjCsbJYf86rrfZpyW4uITGOBJNArjkpATDkbPhI4ZtfBPlawBpx4Cyc
 
