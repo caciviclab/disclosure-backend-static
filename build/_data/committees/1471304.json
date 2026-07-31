@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 224900.0,
+  "total_contributions": 228900.0,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -213,21 +213,6 @@
       "election_name": "oakland-2025"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2025-01-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "1910 Fairway, LLC(Raymond Gallagher)",
-      "Tran_Zip4": "94597",
-      "election_name": "oakland-2025"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -241,6 +226,21 @@
       "Tran_NamL": "1910 Fairway, LLC(Raymond Gallagher)",
       "Tran_Zip4": "94597",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "1910 Fairway, LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597",
+      "election_name": "oakland-2025"
     },
     {
       "date": "2024-11-05",
@@ -303,21 +303,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2025-01-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
@@ -331,6 +316,21 @@
       "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2025"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2025-04-15",
@@ -510,6 +510,36 @@
       "Tran_NamF": "Harold",
       "Tran_NamL": "Orr",
       "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2026-01-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "2100 Livingston St Land LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 2000.0,
+      "Tran_Date": "2026-01-30",
+      "Tran_NamF": null,
+      "Tran_NamL": "2100 Livingston St Land LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597",
       "election_name": "oakland-2024"
     }
   ],
@@ -518,14 +548,14 @@
       "2025-04-15",
       [
         "Oakland April 15, 2025 Special Election",
-        76500.0
+        78500.0
       ]
     ],
     [
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        148400.0
+        150400.0
       ]
     ]
   ]
