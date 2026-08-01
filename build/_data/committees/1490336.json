@@ -1,7 +1,21 @@
 {
   "iec": false,
-  "total_contributions": 0,
+  "total_contributions": 2500.0,
   "contributions": [
-
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1490336",
+      "Tran_Emp": "Candidate",
+      "Tran_Occ": "Candidate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2026-05-14",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Houston",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2026"
+    }
   ]
 }

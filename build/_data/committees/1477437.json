@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 112965.33,
+  "total_contributions": 115104.13,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -6450,6 +6450,51 @@
       "Tran_NamF": "Kara",
       "Tran_NamL": "Murray Badal",
       "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477437",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2026-01-12",
+      "Tran_NamF": null,
+      "Tran_NamL": "Bay Rising Action Committee Sponsored by Center for Empowered Politics",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477437",
+      "Tran_Emp": "Candidate",
+      "Tran_Occ": "Candidate",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 838.8,
+      "Tran_Date": "2026-01-14",
+      "Tran_NamF": "Kara",
+      "Tran_NamL": "Murray Badal",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477437",
+      "Tran_Emp": "Artos Consulting",
+      "Tran_Occ": "Consultant",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 650.0,
+      "Tran_Date": "2026-06-30",
+      "Tran_NamF": "Carlos",
+      "Tran_NamL": "Uribe",
+      "Tran_Zip4": "94605",
       "election_name": "oakland-2025"
     }
   ]
