@@ -1976,18 +1976,18 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 748547.05,
+    "total_contributions": 762837.05,
     "total_contributions_by_source": {
-      "Out of State": 29894.0,
-      "Within Oakland": 383651.13,
-      "Within California": 298651.35
+      "Out of State": 31894.0,
+      "Within Oakland": 385876.13,
+      "Within California": 308351.35
     },
     "contributions_by_type": {
-      "Committee": 83083.94,
-      "Individual": 564309.83,
-      "Unitemized": 35600.57,
+      "Committee": 89683.94,
+      "Individual": 570634.83,
+      "Unitemized": 35965.57,
       "Self Funding": 3352.71,
-      "Other (includes Businesses)": 61450.0
+      "Other (includes Businesses)": 62450.0
     },
     "most_expensive_races": [
       {
@@ -2039,6 +2039,11 @@
     },
     "top_contributors": [
       {
+        "name": "Sheet Metal Workers Local Union 104 PAC",
+        "election_name": "oakland-2026",
+        "total_contributions": 6200.0
+      },
+      {
         "name": "IAFF Local 55 PAC",
         "election_name": "oakland-2026",
         "total_contributions": 4900.0
@@ -2047,15 +2052,16 @@
         "name": "Derek Smith",
         "election_name": "oakland-2026",
         "total_contributions": 4500.0
-      },
-      {
-        "name": "Sheet Metal Workers Local Union 104 PAC",
-        "election_name": "oakland-2026",
-        "total_contributions": 4400.0
       }
     ],
     "top_contributors_for_offices": [
       {
+        "name": "Sheet Metal Workers Local Union 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_contributions": 6200.0
+      },
+      {
         "name": "IAFF Local 55 PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2066,12 +2072,6 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_contributions": 4500.0
-      },
-      {
-        "name": "Sheet Metal Workers Local Union 104 PAC",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_contributions": 4400.0
       }
     ],
     "top_contributors_for_measures": [
@@ -2079,6 +2079,12 @@
     ],
     "top_spenders": [
       {
+        "name": "Sheet Metal Workers Local Union 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_spending": 6200.0
+      },
+      {
         "name": "IAFF Local 55 PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2089,16 +2095,16 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 4500.0
-      },
-      {
-        "name": "Sheet Metal Workers Local Union 104 PAC",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_spending": 4400.0
       }
     ],
     "top_spenders_for_offices": [
       {
+        "name": "Sheet Metal Workers Local Union 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_spending": 6200.0
+      },
+      {
         "name": "IAFF Local 55 PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2109,12 +2115,6 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 4500.0
-      },
-      {
-        "name": "Sheet Metal Workers Local Union 104 PAC",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_spending": 4400.0
       }
     ],
     "top_spenders_for_measures": [
