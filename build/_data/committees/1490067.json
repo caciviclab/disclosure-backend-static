@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 13925.0,
+  "total_contributions": 15725.0,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -495,6 +495,21 @@
       "Tran_NamF": "Margot",
       "Tran_NamL": "Schou",
       "Tran_Zip4": "94602",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "1460381",
+      "Filer_ID": "1490067",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2026-08-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Building and Construction Trades Council of Alameda County PAC",
+      "Tran_Zip4": "94621",
       "election_name": "oakland-2026"
     }
   ]
