@@ -1,7 +1,8 @@
 ---
 election: _elections/oakland/2026-11-03.md
-filer_id: ''
-is_accepted_expenditure_ceiling: false
+committee_name: Coaltion to Re-Elect Valarie Bachelor for Oakland School Board 2026
+filer_id: '1492547'
+is_accepted_expenditure_ceiling: true
 is_incumbent: true
 name: Valarie Bachelor
 occupation: Union Organizer / CFT

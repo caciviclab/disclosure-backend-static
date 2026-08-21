@@ -1976,16 +1976,16 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 764521.88,
+    "total_contributions": 818187.78,
     "total_contributions_by_source": {
-      "Out of State": 31878.47,
-      "Within Oakland": 387676.13,
-      "Within California": 308265.68
+      "Out of State": 34853.47,
+      "Within Oakland": 413120.62,
+      "Within California": 328407.68
     },
     "contributions_by_type": {
-      "Committee": 91483.94,
-      "Individual": 570533.63,
-      "Unitemized": 35951.6,
+      "Committee": 93283.94,
+      "Individual": 617295.12,
+      "Unitemized": 40556.01,
       "Self Funding": 3352.71,
       "Other (includes Businesses)": 62450.0
     },
@@ -2003,10 +2003,10 @@
         "amount": 168476.0
       },
       {
-        "slug": "city-council-district-4",
+        "slug": "city-council-district-2",
         "type": "office",
-        "title": "City Council District 4",
-        "amount": 135346.59
+        "title": "City Council District 2",
+        "amount": 141244.49
       }
     ],
     "largest_small_proportion": [
@@ -2027,12 +2027,12 @@
         "office_title": "Mayor"
       },
       {
-        "slug": "arielle-fleisher",
+        "slug": "alexandra-williams",
         "type": "office",
         "title": "Oakland November 3rd, 2026 General Election",
-        "candidate": "Arielle Fleisher",
-        "proportion": 0.09,
-        "office_title": "School Board District 2"
+        "candidate": "Alexandra Williams",
+        "proportion": 0.16,
+        "office_title": "School Board District 6"
       }
     ],
     "largest_independent_expenditures": {

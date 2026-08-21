@@ -1,5 +1,5 @@
 {
-  "id": 14,
+  "id": 11,
   "name": "Jennifer Brouhard",
   "photo_url": null,
   "website_url": null,
@@ -13,30 +13,37 @@
   "ballot_item": 64,
   "office_election": 64,
   "bio": null,
-  "committee_name": null,
-  "is_accepted_expenditure_ceiling": false,
+  "committee_name": "Committee to Re-Elect Jennifer Brouhard for Oakland School Board 2026",
+  "is_accepted_expenditure_ceiling": true,
   "is_incumbent": true,
   "occupation": null,
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1492545,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 4383.65,
+    "total_contributions": 4383.65,
+    "total_expenditures": 0.0,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 4050.0,
+      "Unitemized": 333.65
     },
     "contributions_by_origin": {
+      "Within Oakland": 3250.0,
+      "Within California": 800.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 333.65,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
+      "IKD": 20.17,
+      "MON": 2600.0,
+      "Independent Expenditure Supporting/Opposing Others": 59238.83
     }
   },
   "opposing_money": {
@@ -47,7 +54,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 4383.65,
+  "total_expenditures": 0.0,
+  "total_loans_received": 0.0
 }

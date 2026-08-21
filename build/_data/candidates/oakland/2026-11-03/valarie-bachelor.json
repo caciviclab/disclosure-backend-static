@@ -1,5 +1,5 @@
 {
-  "id": 11,
+  "id": 7,
   "name": "Valarie Bachelor",
   "photo_url": "Valarie Bachelor",
   "website_url": "https://val4oakland.com/",
@@ -13,30 +13,40 @@
   "ballot_item": 66,
   "office_election": 66,
   "bio": "Oakland native (Bolivian heritage), 15+ years in the labor movement",
-  "committee_name": null,
-  "is_accepted_expenditure_ceiling": false,
+  "committee_name": "Coaltion to Re-Elect Valarie Bachelor for Oakland School Board 2026",
+  "is_accepted_expenditure_ceiling": true,
   "is_incumbent": true,
   "occupation": "Union Organizer / CFT",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1492547,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 9812.76,
+    "total_contributions": 9812.76,
+    "total_expenditures": 435.9,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Committee": 900.0,
+      "Individual": 8200.0,
+      "Unitemized": 712.76
     },
     "contributions_by_origin": {
+      "Out of State": 300.0,
+      "Within Oakland": 5450.0,
+      "Within California": 3350.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 712.76,
     "expenditures_by_type": {
+      "Information Technology Costs (Internet, E-mail)": 435.9
     },
     "supporting_by_type": {
+      "IKD": 20.17,
+      "MON": 2600.0,
+      "Independent Expenditure Supporting/Opposing Others": 52569.85
     }
   },
   "opposing_money": {
@@ -47,7 +57,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 9812.76,
+  "total_expenditures": 435.9,
+  "total_loans_received": 0.0
 }

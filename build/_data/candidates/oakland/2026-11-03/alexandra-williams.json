@@ -1,5 +1,5 @@
 {
-  "id": 9,
+  "id": 5,
   "name": "Alexandra Williams",
   "photo_url": null,
   "website_url": "https://alexandraforoakland.com/",
@@ -13,30 +13,39 @@
   "ballot_item": 66,
   "office_election": 66,
   "bio": null,
-  "committee_name": "Alexandra Williams for District 6 2026",
+  "committee_name": "Alexandra Williams for District 6 School Board 2026",
   "is_accepted_expenditure_ceiling": false,
   "is_incumbent": false,
   "occupation": "Educator",
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1492061,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 11714.0,
+    "total_contributions": 11714.0,
+    "total_expenditures": 513.7,
+    "total_loans_received": 500.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Committee": 900.0,
+      "Individual": 8719.0,
+      "Unitemized": 1595.0
     },
     "contributions_by_origin": {
+      "Out of State": 1175.0,
+      "Within Oakland": 5094.0,
+      "Within California": 3350.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 1865.0,
     "expenditures_by_type": {
+      "Office Expenses": 138.34,
+      "Campaign Paraphernalia/Misc.": 140.56
     },
     "supporting_by_type": {
+      "MON": 900.0
     }
   },
   "opposing_money": {
@@ -47,7 +56,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 11714.0,
+  "total_expenditures": 513.7,
+  "total_loans_received": 500.0
 }

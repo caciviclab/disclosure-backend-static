@@ -1,5 +1,5 @@
 {
-  "id": 21,
+  "id": 17,
   "name": "Nate Adams",
   "photo_url": "Nate-Adams",
   "website_url": "https://www.nateforoakland.com/",
@@ -19,22 +19,30 @@
   "occupation": null,
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1490172,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 27755.49,
+    "total_contributions": 27755.49,
+    "total_expenditures": 2236.95,
+    "total_loans_received": 0.0,
     "total_supporting_independent": null,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 25792.49,
+      "Unitemized": 1963.0
     },
     "contributions_by_origin": {
+      "Out of State": 1500.0,
+      "Within Oakland": 11650.49,
+      "Within California": 12642.0
     },
-    "total_small_contributions": null,
+    "total_small_contributions": 2425.49,
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 592.51,
+      "Candidate Filing/Ballot Fees": 345.0,
+      "Information Technology Costs (Internet, E-mail)": 1209.95
     },
     "supporting_by_type": {
     }
@@ -47,7 +55,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 27755.49,
+  "total_expenditures": 2236.95,
+  "total_loans_received": 0.0
 }
