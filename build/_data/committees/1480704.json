@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 262082.94,
+  "total_contributions": 263082.94,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -14190,6 +14190,21 @@
       "Tran_NamF": "Miya",
       "Tran_NamL": "Yoshitani",
       "Tran_Zip4": "94618",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "1445078",
+      "Filer_ID": "1480704",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2026-08-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Teamsters Local 2010 PAC",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2026"
     }
   ]
