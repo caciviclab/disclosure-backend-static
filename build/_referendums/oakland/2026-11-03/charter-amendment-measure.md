@@ -1,0 +1,8 @@
+---
+election: '2026-11-03'
+locality: oakland
+number: EE
+title: Charter Amendment Measure
+data_warning: 
+---
+Shall the measure to amend Oakland's City Charter to, among other things, (1) make the Mayor the City's chief executive with a legislative veto, (2) empower the Council to override vetoes, confirm appointments of certain directors, and appoint an Independent Budget and Legislative Analyst, (3) affirm Councilmembers' right to acquire information from other City officials, (4) require Councilmembers to work full-time, and (5) empower the Public Ethics Commission to set salaries for all City elected officials using similar formulas, be adopted?

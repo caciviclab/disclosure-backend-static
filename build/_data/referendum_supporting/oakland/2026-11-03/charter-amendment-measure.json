@@ -1,0 +1,46 @@
+{
+  "id": 2,
+  "contest_type": "Referendum",
+  "name": "Charter Amendment Measure",
+  "title": "Charter Amendment Measure",
+  "summary": "Shall the measure to amend Oakland's City Charter to, among other things, (1) make the Mayor the City's chief executive with a legislative veto, (2) empower the Council to override vetoes, confirm appointments of certain directors, and appoint an Independent Budget and Legislative Analyst, (3) affirm Councilmembers' right to acquire information from other City officials, (4) require Councilmembers to work full-time, and (5) empower the Public Ethics Commission to set salaries for all City elected officials using similar formulas, be adopted?",
+  "number": "EE",
+  "voters_edge_url": null,
+  "contributions_by_region": [
+    {
+      "amount": 5315.0,
+      "locale": "Out of State"
+    },
+    {
+      "amount": 6826.0,
+      "locale": "Within California"
+    },
+    {
+      "amount": 144486.43,
+      "locale": "Within Oakland"
+    }
+  ],
+  "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 113611.43
+    },
+    {
+      "type": "Individual",
+      "amount": 42466.0
+    },
+    {
+      "type": "Other (includes Businesses)",
+      "amount": 550.0
+    }
+  ],
+  "supporting_organizations": [
+    {
+      "id": "Pending",
+      "name": "Committee for a Strong, Accountable Oakland: Yes on EE",
+      "payee": "Committee for a Strong, Accountable Oakland: Yes on EE",
+      "amount": 0
+    }
+  ],
+  "total_contributions": 156627.43
+}

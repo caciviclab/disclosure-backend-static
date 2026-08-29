@@ -1,6 +1,7 @@
 ---
 election: _elections/oakland/2026-11-03.md
-filer_id: ''
+committee_name: Mike Hutchinson for Oakland School Board 2026
+filer_id: '1494564'
 is_accepted_expenditure_ceiling: false
 is_incumbent: true
 name: Michael Hutchinson
