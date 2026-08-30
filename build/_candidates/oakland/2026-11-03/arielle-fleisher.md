@@ -1,6 +1,8 @@
 ---
 election: _elections/oakland/2026-11-03.md
 committee_name: Arielle Fleisher for Oakland School Board 2026
+data_warning: This candidate filed contributions with the employers and occupations
+  switched.
 filer_id: '1490303'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
