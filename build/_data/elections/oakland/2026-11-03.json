@@ -58,8 +58,13 @@
       "office_title": "School Board District 6"
     }
   ],
-  "largest_independent_expenditures": {
-  },
+  "largest_independent_expenditures": [
+    {
+      "name": "Oakland Education Association Political Action Committee",
+      "election_name": "oakland-2026",
+      "total_spending": 1810.0
+    }
+  ],
   "top_contributors": [
     {
       "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",

@@ -25,9 +25,15 @@
     "total_contributions": 9812.76,
     "total_expenditures": 435.9,
     "total_loans_received": 0.0,
-    "total_supporting_independent": null,
+    "total_supporting_independent": 1810.0,
     "support_list": [
-
+      {
+        "Total": 1810.0,
+        "Cand_ID": 1492547,
+        "Filer_ID": "1345259",
+        "Filer_NamL": "Oakland Education Association Political Action Committee",
+        "election_name": "oakland-2026"
+      }
     ],
     "contributions_by_type": {
       "Committee": 900.0,
@@ -285,6 +291,7 @@
     "supporting_by_type": {
       "IKD": 20.17,
       "MON": 2600.0,
+      "Yard Signs": 1810.0,
       "Independent Expenditure Supporting/Opposing Others": 52569.85
     }
   },
