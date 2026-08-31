@@ -38,6 +38,270 @@
       "Within Oakland": 1850.0,
       "Within California": 14052.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 6,
+        "total": 2208.0
+      },
+      {
+        "name": "SCLA Print",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "San Francisco State University",
+        "count": 4,
+        "total": 450.0
+      },
+      {
+        "name": "Public Counsel",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "UCI",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "West of Seguin",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "California State Senate",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Catholic Church Oakland",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Glickman & Glickman",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Harvard University",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Tuttle Law Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Aventine",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "BETA Healthcare Group",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "California Reinvestment Coalition",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Center for Responsible Lending",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "County of santa clara",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "IFPTE Local 21",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Inclusive Action",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Lake Tahoe Community College",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Operating Engineers",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Plumbline Coaching and Consulting Inc.",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "SAJE",
+        "count": 3,
+        "total": 200.0
+      },
+      {
+        "name": "SFUSD",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "TSC",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "UNITE HERE",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 27,
+        "total": 2850.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 25,
+        "total": 5952.0
+      },
+      {
+        "name": "Attorney",
+        "count": 9,
+        "total": 1600.0
+      },
+      {
+        "name": "consultant",
+        "count": 2,
+        "total": 1008.0
+      },
+      {
+        "name": "Businessman",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Director",
+        "count": 4,
+        "total": 650.0
+      },
+      {
+        "name": "Professor",
+        "count": 4,
+        "total": 550.0
+      },
+      {
+        "name": "Teacher",
+        "count": 3,
+        "total": 500.0
+      },
+      {
+        "name": "Organizer",
+        "count": 4,
+        "total": 400.0
+      },
+      {
+        "name": "Nonprofit director",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Urban Planner",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Educator",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Priest",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "State Senator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Assistant Real Estate Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Community Organizer",
+        "count": 3,
+        "total": 200.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Labor Representative",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Litigation Specialist",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Non Profit Staff",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Nonprofit consultant",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Social worker",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Teacher Librarian",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Vice President of Student Services",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 14,
+        "total": 1500.0
+      }
+    ],
     "total_small_contributions": 2515.0,
     "expenditures_by_type": {
       "Phone Banks": 671.0,

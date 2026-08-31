@@ -36,6 +36,20 @@
     "contributions_by_origin": {
       "Within Oakland": 2609.9
     },
+    "contributions_by_employer": [
+      {
+        "name": "Blue Beautifly LLC",
+        "count": 3,
+        "total": 2609.9
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Owner-Operator",
+        "count": 3,
+        "total": 2609.9
+      }
+    ],
     "total_small_contributions": 0.0,
     "expenditures_by_type": {
       "Print Ads": 1500.0,

@@ -41,6 +41,270 @@
       "Within Oakland": 75981.0,
       "Within California": 53584.15
     },
+    "contributions_by_employer": [
+      {
+        "name": "PolicyLink",
+        "count": 9,
+        "total": 2500.0
+      },
+      {
+        "name": "The CA Endowment",
+        "count": 5,
+        "total": 2350.0
+      },
+      {
+        "name": "The California Endowment",
+        "count": 6,
+        "total": 1700.0
+      },
+      {
+        "name": "The Mentoring Center",
+        "count": 14,
+        "total": 1535.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 4,
+        "total": 1400.0
+      },
+      {
+        "name": "Movement Strategy Center",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "BART",
+        "count": 4,
+        "total": 1150.0
+      },
+      {
+        "name": "Forward Change",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "National Equity Project",
+        "count": 4,
+        "total": 1150.0
+      },
+      {
+        "name": "New Venture Fund",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Rockwood",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Veen Firm",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "UCSF",
+        "count": 20,
+        "total": 1110.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 7,
+        "total": 1100.0
+      },
+      {
+        "name": "OUSD",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Alameda Health System",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Flourish Agenda Inc.",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Skyline College",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "AT&T",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Alameda County Superior Court",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Alpha Baptist Church",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "American Airlines",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Association of Black Foundation Executive",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Blk Girls Green House",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Boston IVF",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 430,
+        "total": 95681.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 196,
+        "total": 37935.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 37,
+        "total": 10225.0
+      },
+      {
+        "name": "Attorney",
+        "count": 23,
+        "total": 8300.0
+      },
+      {
+        "name": "Director",
+        "count": 33,
+        "total": 6185.0
+      },
+      {
+        "name": "Educator",
+        "count": 14,
+        "total": 4900.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 17,
+        "total": 4650.0
+      },
+      {
+        "name": "Consultant",
+        "count": 13,
+        "total": 4450.0
+      },
+      {
+        "name": "Physician",
+        "count": 23,
+        "total": 4400.0
+      },
+      {
+        "name": "Owner",
+        "count": 10,
+        "total": 4100.0
+      },
+      {
+        "name": "Professor",
+        "count": 10,
+        "total": 3200.0
+      },
+      {
+        "name": "Program Manager",
+        "count": 10,
+        "total": 2500.0
+      },
+      {
+        "name": "Nonprofit Executive",
+        "count": 10,
+        "total": 2450.0
+      },
+      {
+        "name": "Manager",
+        "count": 6,
+        "total": 2400.0
+      },
+      {
+        "name": "Clergy",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Policy Advocate",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Executive",
+        "count": 10,
+        "total": 1775.0
+      },
+      {
+        "name": "Founder",
+        "count": 8,
+        "total": 1711.0
+      },
+      {
+        "name": "Artist",
+        "count": 5,
+        "total": 1450.0
+      },
+      {
+        "name": "Teacher",
+        "count": 10,
+        "total": 1320.0
+      },
+      {
+        "name": "Program Officer",
+        "count": 8,
+        "total": 1300.0
+      },
+      {
+        "name": "Security",
+        "count": 5,
+        "total": 1300.0
+      },
+      {
+        "name": "Analyst",
+        "count": 4,
+        "total": 1150.0
+      },
+      {
+        "name": "Human Resources",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Philanthropy",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Accountant",
+        "count": 12,
+        "total": 1100.0
+      },
+      {
+        "name": "Other",
+        "count": 261,
+        "total": 51060.0
+      }
+    ],
     "total_small_contributions": 12333.0,
     "expenditures_by_type": {
       "Not Stated": 26372.78,

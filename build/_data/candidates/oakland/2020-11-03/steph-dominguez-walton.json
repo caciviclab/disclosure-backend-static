@@ -40,6 +40,270 @@
       "Within Oakland": 69462.0,
       "Within California": 82638.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "SSL Law Firm",
+        "count": 9,
+        "total": 2550.0
+      },
+      {
+        "name": "The Permanente Medical Group",
+        "count": 8,
+        "total": 2150.0
+      },
+      {
+        "name": "Paul Hastings",
+        "count": 8,
+        "total": 2100.0
+      },
+      {
+        "name": "Red Oak Realty",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Facebook",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Entercom",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Golden Gate Sotheby's International Realty",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "SPIN",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "AWHGO",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Anchor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "CHM",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "California Department of Justice",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Delta Energy Partners",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Giffords",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Idea Ventures Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Intel",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Keller Williams",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Litton Fuller Group",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Marin Cancer Care",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Miller Start Regalia",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "Mission College",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Morrison & Foerster LLP",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Morse Management, Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "NextGen America",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Rocket Science Group",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 379,
+        "total": 73113.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 144,
+        "total": 35072.0
+      },
+      {
+        "name": "Attorney",
+        "count": 61,
+        "total": 14150.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 20,
+        "total": 6950.0
+      },
+      {
+        "name": "Owner",
+        "count": 18,
+        "total": 4885.0
+      },
+      {
+        "name": "Physician",
+        "count": 15,
+        "total": 4575.0
+      },
+      {
+        "name": "Consultant",
+        "count": 16,
+        "total": 4200.0
+      },
+      {
+        "name": "Director",
+        "count": 20,
+        "total": 3300.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 10,
+        "total": 3000.0
+      },
+      {
+        "name": "Sales",
+        "count": 16,
+        "total": 2850.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 15,
+        "total": 1650.0
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 1600.0
+      },
+      {
+        "name": "Producer",
+        "count": 5,
+        "total": 1500.0
+      },
+      {
+        "name": "Architect",
+        "count": 4,
+        "total": 1400.0
+      },
+      {
+        "name": "Advertising",
+        "count": 5,
+        "total": 1350.0
+      },
+      {
+        "name": "Marketing",
+        "count": 5,
+        "total": 1350.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 6,
+        "total": 1350.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Investor",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Designer",
+        "count": 6,
+        "total": 950.0
+      },
+      {
+        "name": "Adjunct Professor",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Assembly Member",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Banker",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Business Development",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Communication",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Design Strategist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 211,
+        "total": 39453.0
+      }
+    ],
     "total_small_contributions": 12702.18,
     "expenditures_by_type": {
       "Not Stated": 38243.38,

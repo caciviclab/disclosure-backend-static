@@ -61,6 +61,270 @@
       "Within Oakland": 127606.98,
       "Within California": 93626.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Google",
+        "count": 32,
+        "total": 3875.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 15,
+        "total": 2850.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 13,
+        "total": 2675.0
+      },
+      {
+        "name": "Siegel Yee Brunner & Mehta",
+        "count": 5,
+        "total": 2550.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 23,
+        "total": 2450.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 5,
+        "total": 2175.0
+      },
+      {
+        "name": "Salesforce",
+        "count": 16,
+        "total": 2150.0
+      },
+      {
+        "name": "Communities for a Better Environment",
+        "count": 3,
+        "total": 2050.0
+      },
+      {
+        "name": "Sutter Health",
+        "count": 3,
+        "total": 2000.0
+      },
+      {
+        "name": "Oakland USD",
+        "count": 9,
+        "total": 1900.0
+      },
+      {
+        "name": "Contra Costa Regional Medical Center",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Even",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Jonah Kagan",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "The Laundry",
+        "count": 4,
+        "total": 1800.0
+      },
+      {
+        "name": "The Stepping Stones Project",
+        "count": 2,
+        "total": 1700.0
+      },
+      {
+        "name": "Bay Area Community Resources",
+        "count": 4,
+        "total": 1650.0
+      },
+      {
+        "name": "Bonita House",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Candidate",
+        "count": 4,
+        "total": 1335.98
+      },
+      {
+        "name": "Youth Leadership Institute",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "East Bay Housing Organizations",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "MVP",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Through the Looking Glass, Inc.",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Justice Teams Network",
+        "count": 4,
+        "total": 1125.0
+      },
+      {
+        "name": "San Francisco State University",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "Zeno Levy",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "Other",
+        "count": 784,
+        "total": 119861.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 274,
+        "total": 51471.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 79,
+        "total": 13700.0
+      },
+      {
+        "name": "Attorney",
+        "count": 50,
+        "total": 10925.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 30,
+        "total": 5935.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 42,
+        "total": 5245.0
+      },
+      {
+        "name": "Engineer",
+        "count": 21,
+        "total": 4329.0
+      },
+      {
+        "name": "Organizer",
+        "count": 42,
+        "total": 3752.0
+      },
+      {
+        "name": "Consultant",
+        "count": 22,
+        "total": 3551.0
+      },
+      {
+        "name": "Director",
+        "count": 15,
+        "total": 3500.0
+      },
+      {
+        "name": "Teacher",
+        "count": 25,
+        "total": 3495.0
+      },
+      {
+        "name": "Professor",
+        "count": 33,
+        "total": 3325.0
+      },
+      {
+        "name": "Pastor",
+        "count": 10,
+        "total": 2960.0
+      },
+      {
+        "name": "Educator",
+        "count": 10,
+        "total": 2900.0
+      },
+      {
+        "name": "Therapist",
+        "count": 5,
+        "total": 2700.0
+      },
+      {
+        "name": "Manager",
+        "count": 27,
+        "total": 2690.0
+      },
+      {
+        "name": "Physician",
+        "count": 8,
+        "total": 2650.0
+      },
+      {
+        "name": "Event Manager",
+        "count": 6,
+        "total": 2550.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 7,
+        "total": 2450.0
+      },
+      {
+        "name": "Fundraiser",
+        "count": 8,
+        "total": 2200.0
+      },
+      {
+        "name": "Marketing Manager",
+        "count": 11,
+        "total": 2180.0
+      },
+      {
+        "name": "Student",
+        "count": 5,
+        "total": 2175.0
+      },
+      {
+        "name": "Nurse",
+        "count": 5,
+        "total": 2100.0
+      },
+      {
+        "name": "Researcher",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Youth Mentor",
+        "count": 2,
+        "total": 1700.0
+      },
+      {
+        "name": "Writer",
+        "count": 12,
+        "total": 1675.0
+      },
+      {
+        "name": "Other",
+        "count": 472,
+        "total": 75609.98
+      }
+    ],
     "total_small_contributions": 41525.07,
     "expenditures_by_type": {
       "Print Ads": 4040.0,

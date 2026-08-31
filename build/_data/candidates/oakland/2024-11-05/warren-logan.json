@@ -74,6 +74,270 @@
       "Within Oakland": 64620.0,
       "Within California": 58901.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 38,
+        "total": 10207.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 10,
+        "total": 2150.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 5,
+        "total": 1600.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 5,
+        "total": 1550.0
+      },
+      {
+        "name": "Meta Platforms Inc.",
+        "count": 6,
+        "total": 1451.0
+      },
+      {
+        "name": "Apple",
+        "count": 5,
+        "total": 1300.0
+      },
+      {
+        "name": "San Francisco Municipal Transportation Agency",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Google",
+        "count": 7,
+        "total": 1100.0
+      },
+      {
+        "name": "UCSF",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "Covington & Burling LLP",
+        "count": 7,
+        "total": 900.0
+      },
+      {
+        "name": "Monchamp Meldrum",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Electric Era",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Walmart",
+        "count": 4,
+        "total": 750.0
+      },
+      {
+        "name": "Q care Plus",
+        "count": 13,
+        "total": 650.0
+      },
+      {
+        "name": "Aledale",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "American Institutes for Research",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "B3 Investors",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "BuildCasa",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Chromata RE",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Citi",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Clorox",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Coinbase",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Consulting Inc.",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Credit Karma",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "District Homes",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Other",
+        "count": 415,
+        "total": 66019.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 100,
+        "total": 19275.0
+      },
+      {
+        "name": "Attorney",
+        "count": 47,
+        "total": 9107.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 13,
+        "total": 4808.0
+      },
+      {
+        "name": "Consultant",
+        "count": 21,
+        "total": 4448.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 14,
+        "total": 2900.0
+      },
+      {
+        "name": "Director",
+        "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 9,
+        "total": 1780.0
+      },
+      {
+        "name": "Marketing",
+        "count": 6,
+        "total": 1551.0
+      },
+      {
+        "name": "Public Affairs",
+        "count": 10,
+        "total": 1550.0
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 1500.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 5,
+        "total": 1500.0
+      },
+      {
+        "name": "Physician",
+        "count": 4,
+        "total": 1450.0
+      },
+      {
+        "name": "Co-founder",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Engineer",
+        "count": 7,
+        "total": 1130.0
+      },
+      {
+        "name": "Partner",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Transportation Planner",
+        "count": 4,
+        "total": 1050.0
+      },
+      {
+        "name": "Urban Planner",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Writer",
+        "count": 13,
+        "total": 900.0
+      },
+      {
+        "name": "Sales director",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Planner",
+        "count": 8,
+        "total": 825.0
+      },
+      {
+        "name": "Analyst",
+        "count": 5,
+        "total": 810.0
+      },
+      {
+        "name": "Architect",
+        "count": 4,
+        "total": 775.0
+      },
+      {
+        "name": "Academic Faculty",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "IT",
+        "count": 4,
+        "total": 750.0
+      },
+      {
+        "name": "Policy",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Other",
+        "count": 337,
+        "total": 53843.0
+      }
+    ],
     "total_small_contributions": 23612.52,
     "expenditures_by_type": {
       "Print Ads": 2070.0,

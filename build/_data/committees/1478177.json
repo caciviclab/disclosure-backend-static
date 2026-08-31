@@ -461,5 +461,34 @@
         580505.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "KAISER FOUNDATION HEALTH PLAN, INC.",
+      "count": 1,
+      "total": 20000.0
+    },
+    {
+      "name": "TOWNSEND PUBLIC AFFAIRS",
+      "count": 1,
+      "total": 800.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "CHAIR & CHIEF EXECUTIVE OFFICER",
+      "count": 1,
+      "total": 20000.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "VICE PRESIDENT",
+      "count": 1,
+      "total": 800.0
+    }
   ]
 }

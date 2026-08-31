@@ -55,6 +55,270 @@
       "Within Oakland": 19138.13,
       "Within California": 33959.73
     },
+    "contributions_by_employer": [
+      {
+        "name": "SFUSD",
+        "count": 21,
+        "total": 4488.13
+      },
+      {
+        "name": "Oakland USD",
+        "count": 18,
+        "total": 2385.0
+      },
+      {
+        "name": "LAUSD",
+        "count": 9,
+        "total": 1535.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "CVS Health",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Consultant",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Owner",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Ca Federation Teachers",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "California Teachers Association",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "EGUSD",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "West Contra Costa USD",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Budget Watchers Academy",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "CTA",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "San Leandro USD",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Brentwood USD",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "CSU Office of the Chacellor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Saran Russell",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Wm S Hart Union High SD",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "town of Sudbury",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Oakland Unified SD",
+        "count": 3,
+        "total": 210.0
+      },
+      {
+        "name": "Bonita USD",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Brea Olinda USD",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "California Teacher Association",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Compass",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "HUSD",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 47,
+        "total": 4775.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Teacher",
+        "count": 66,
+        "total": 10068.13
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 39,
+        "total": 5970.0
+      },
+      {
+        "name": "teahcer",
+        "count": 3,
+        "total": 1450.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Customer Service Rep",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Educator",
+        "count": 6,
+        "total": 600.0
+      },
+      {
+        "name": "Saba poultry",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 3,
+        "total": 550.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 3,
+        "total": 500.0
+      },
+      {
+        "name": "ONGB",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Staff",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Supervisor",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Oakland USD",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Organizer",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "UniServ Staff",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Counselor",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Education",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Professor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Student",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Solar Developer",
+        "count": 1,
+        "total": 125.0
+      },
+      {
+        "name": "Administration",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "California Teachers Association",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Communication Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Continuous Improvement Leader",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 20,
+        "total": 1900.0
+      }
+    ],
     "total_small_contributions": 9119.0,
     "expenditures_by_type": {
       "Print Ads": 1704.0,

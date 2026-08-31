@@ -40,6 +40,95 @@
       "Within Oakland": 2000.0,
       "Within California": 1200.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Peralta Community College",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Baptist Hospital",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "City of Atlanta",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "St. John Boys Home, Inc.",
+        "count": 1,
+        "total": 50.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Vice Chancellor of General Services",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "CPA",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Doctor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Operation Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Chief of Staff",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "restaurant owner",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Psychologist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "contractor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 50.0
+      }
+    ],
     "total_small_contributions": 867.0,
     "expenditures_by_type": {
       "Print Ads": 3600.0,

@@ -37,6 +37,95 @@
       "Within Oakland": 1962.0,
       "Within California": 400.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Smart & Final Extra",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Community Health for Asian Americans",
+        "count": 7,
+        "total": 412.0
+      },
+      {
+        "name": "Highland hospital",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Law Offices of Yonas Gebreselassie",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Heavenly Heating & Air",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "EBMUD",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Midtown pharmacy",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Wells Fargo",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Worker",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 7,
+        "total": 412.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Housekeeping",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Contractor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Pharmacy tech",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Software engineer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Water Engineering",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 232.0,
     "expenditures_by_type": {
       "Print Ads": 240.35,

@@ -40,6 +40,270 @@
       "Within Oakland": 16997.0,
       "Within California": 14680.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "EPIC",
+        "count": 2,
+        "total": 2900.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 10,
+        "total": 1797.0
+      },
+      {
+        "name": "OUSD",
+        "count": 6,
+        "total": 1400.0
+      },
+      {
+        "name": "Google",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 3,
+        "total": 800.0
+      },
+      {
+        "name": "Meta",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Ameter",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Seneca",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "EBMUD",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Friday",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "SCI Consulting Group",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Visa",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "LCV",
+        "count": 3,
+        "total": 420.0
+      },
+      {
+        "name": "San Francisco Unified School District",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "TRiO Plus",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Center for Elders Independence",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "SLZUSD",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Tides Center",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Community Legal Services in East Palo Alto",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "East Bay Asian Youth Center",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Lighthouse Community Public Schools",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "NorthStar",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Viridian Management Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Zaru Sustems",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 41,
+        "total": 4450.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 12,
+        "total": 3040.0
+      },
+      {
+        "name": "Chief Impact Officer",
+        "count": 2,
+        "total": 2900.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 7,
+        "total": 1700.0
+      },
+      {
+        "name": "Civil engineer",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Director",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "Attorney",
+        "count": 4,
+        "total": 740.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Program Manager",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Educator",
+        "count": 4,
+        "total": 650.0
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Senior Director",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Substitute Principal",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Designer",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Nonprofit Executive",
+        "count": 2,
+        "total": 370.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Director of Government Affairs",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 4,
+        "total": 300.0
+      },
+      {
+        "name": "Program Director",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Senior Manager of Candidate Recruitment and Training",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Youth advisor",
+        "count": 3,
+        "total": 297.0
+      },
+      {
+        "name": "Director of education for Oakland mayor Libby Schaaf",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Financial Advisor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 35,
+        "total": 4310.0
+      }
+    ],
     "total_small_contributions": 2649.0,
     "expenditures_by_type": {
       "Phone Banks": 310.0,

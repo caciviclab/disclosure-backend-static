@@ -39,6 +39,240 @@
       "Within Oakland": 1850.0,
       "Within California": 4300.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 8,
+        "total": 1650.0
+      },
+      {
+        "name": "Exponent Partners",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Global AIDS Interfaith Alliance",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Samson Energy",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Campus Plaza Associates",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "270 Strategies",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "EdBuild",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Episcopal Diocese of California",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "State of California",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "CA Charter Schools Association",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Fillr",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Giant Creative Strategy",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Harry Singer Foundation",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "LightSail",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "MEBA Diagnostic Center",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "McKesson",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Pacific Gas and Electric Company",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Salesforce.org",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Value Line, Inc.",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Wells Fargo Bank",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "Small Business Owner",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "International Programs Director",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Vice President of Finance and Operations",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Broker Associate",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Physician",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Attorney",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Clergy",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Financial Consultant",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Philanthropist",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Business Development",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Cardiologist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Energy Efficiency Strategy",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Equity Analyst",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Finance Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Founder",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "IT Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Risk Management Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Software Exec",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Supervisor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Wine Grower",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 896.0,
     "expenditures_by_type": {
       "Civic Donations": 4907.33,

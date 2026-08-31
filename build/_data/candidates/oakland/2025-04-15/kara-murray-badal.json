@@ -41,6 +41,270 @@
       "Within Oakland": 62294.62,
       "Within California": 43143.51
     },
+    "contributions_by_employer": [
+      {
+        "name": "Candidate",
+        "count": 6,
+        "total": 12676.62
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 12,
+        "total": 1850.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 7,
+        "total": 1650.0
+      },
+      {
+        "name": "Resilient Strategies",
+        "count": 10,
+        "total": 1390.0
+      },
+      {
+        "name": "Artos Consulting",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Google",
+        "count": 3,
+        "total": 1200.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 6,
+        "total": 950.0
+      },
+      {
+        "name": "Apple",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "San Francisco Foundation",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Seed the Vote",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 4,
+        "total": 851.0
+      },
+      {
+        "name": "San Francisco Department of Public Health",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "San Francisco State University",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "Cisco",
+        "count": 2,
+        "total": 825.0
+      },
+      {
+        "name": "Hand in Hand",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Boston Consulting Group",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Littler",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Bonnie Lockhart",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Firetiger",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Genetech",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Kingdom Builders",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Quinco, Inc.",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Russell Reynolds Associates",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Science Corporation",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Smith College",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Other",
+        "count": 267,
+        "total": 52172.41
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 58,
+        "total": 13012.0
+      },
+      {
+        "name": "Candidate",
+        "count": 6,
+        "total": 12676.62
+      },
+      {
+        "name": "Consultant",
+        "count": 32,
+        "total": 7400.0
+      },
+      {
+        "name": "Attorney",
+        "count": 14,
+        "total": 3976.0
+      },
+      {
+        "name": "Physician",
+        "count": 7,
+        "total": 2050.0
+      },
+      {
+        "name": "Student",
+        "count": 5,
+        "total": 1700.0
+      },
+      {
+        "name": "Director",
+        "count": 10,
+        "total": 1630.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 6,
+        "total": 1450.0
+      },
+      {
+        "name": "Professor",
+        "count": 10,
+        "total": 1450.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 6,
+        "total": 1400.0
+      },
+      {
+        "name": "Organizer",
+        "count": 6,
+        "total": 1400.0
+      },
+      {
+        "name": "Program Manager",
+        "count": 5,
+        "total": 1350.0
+      },
+      {
+        "name": "Operations Manager",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Program Director",
+        "count": 7,
+        "total": 1290.0
+      },
+      {
+        "name": "Technician",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Researcher",
+        "count": 4,
+        "total": 1050.0
+      },
+      {
+        "name": "Sales Manager",
+        "count": 3,
+        "total": 1003.41
+      },
+      {
+        "name": "Executive",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Manager",
+        "count": 7,
+        "total": 950.0
+      },
+      {
+        "name": "Designer",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Educator",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "Engineer",
+        "count": 5,
+        "total": 850.0
+      },
+      {
+        "name": "Organizing Director",
+        "count": 5,
+        "total": 850.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Small Business Owner",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Other",
+        "count": 202,
+        "total": 37639.0
+      }
+    ],
     "total_small_contributions": 9712.5,
     "expenditures_by_type": {
       "Not Stated": 3266.51,

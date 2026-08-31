@@ -39,6 +39,85 @@
       "Within Oakland": 8999.0,
       "Within California": 700.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Commercial Corridor",
+        "count": 20,
+        "total": 7189.0
+      },
+      {
+        "name": "Laney College",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Sheppard Mullin",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "T Rowe Price",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Acts Full Gospel Church",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Nationwide Insurance",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Port of Oakland",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Manager",
+        "count": 20,
+        "total": 7189.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 15,
+        "total": 1560.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Investment Banker",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Bishop",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Longshoreman",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 1366.0,
     "expenditures_by_type": {
       "Office Expenses": 800.0,

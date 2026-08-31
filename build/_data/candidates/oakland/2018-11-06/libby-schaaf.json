@@ -46,6 +46,270 @@
       "Within Oakland": 288695.0,
       "Within California": 300593.12
     },
+    "contributions_by_employer": [
+      {
+        "name": "Homemaker",
+        "count": 17,
+        "total": 7150.0
+      },
+      {
+        "name": "Volkswagen of Oakland",
+        "count": 7,
+        "total": 5600.0
+      },
+      {
+        "name": "Carmel Partners",
+        "count": 12,
+        "total": 5500.0
+      },
+      {
+        "name": "Pet Food Express",
+        "count": 6,
+        "total": 4900.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 8,
+        "total": 4550.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 5,
+        "total": 4200.0
+      },
+      {
+        "name": "40th Street Apartments LLC",
+        "count": 4,
+        "total": 3400.0
+      },
+      {
+        "name": "Northbrae Properties",
+        "count": 4,
+        "total": 3400.0
+      },
+      {
+        "name": "O'Reilly Media",
+        "count": 4,
+        "total": 3400.0
+      },
+      {
+        "name": "Port of Oakland",
+        "count": 8,
+        "total": 3350.0
+      },
+      {
+        "name": "Emerald Fund",
+        "count": 4,
+        "total": 3300.0
+      },
+      {
+        "name": "Lighthouse Public Affairs LLC",
+        "count": 4,
+        "total": 3200.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 7,
+        "total": 3200.0
+      },
+      {
+        "name": "Google, Inc.",
+        "count": 5,
+        "total": 3150.0
+      },
+      {
+        "name": "United Talent Agency",
+        "count": 6,
+        "total": 3150.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 20,
+        "total": 3100.0
+      },
+      {
+        "name": "Jordan Real Estate Inv, LLC",
+        "count": 5,
+        "total": 2600.0
+      },
+      {
+        "name": "State of California",
+        "count": 6,
+        "total": 2600.0
+      },
+      {
+        "name": "Code For America",
+        "count": 5,
+        "total": 2500.0
+      },
+      {
+        "name": "Terra Tech Corp",
+        "count": 6,
+        "total": 2250.0
+      },
+      {
+        "name": "Renew Financial",
+        "count": 4,
+        "total": 2200.0
+      },
+      {
+        "name": "Tmg Partners",
+        "count": 3,
+        "total": 2200.0
+      },
+      {
+        "name": "YHLA Architects",
+        "count": 4,
+        "total": 2200.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 5,
+        "total": 2000.0
+      },
+      {
+        "name": "Facebook",
+        "count": 4,
+        "total": 1950.0
+      },
+      {
+        "name": "Other",
+        "count": 928,
+        "total": 361505.68
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 267,
+        "total": 98330.0
+      },
+      {
+        "name": "Attorney",
+        "count": 130,
+        "total": 53550.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 84,
+        "total": 45119.66
+      },
+      {
+        "name": "Real Estate",
+        "count": 67,
+        "total": 37100.0
+      },
+      {
+        "name": "Owner",
+        "count": 27,
+        "total": 15650.0
+      },
+      {
+        "name": "Executive",
+        "count": 24,
+        "total": 13100.0
+      },
+      {
+        "name": "Investor",
+        "count": 19,
+        "total": 11300.0
+      },
+      {
+        "name": "Consultant",
+        "count": 33,
+        "total": 11050.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 22,
+        "total": 10500.0
+      },
+      {
+        "name": "Manager",
+        "count": 21,
+        "total": 7200.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 17,
+        "total": 7150.0
+      },
+      {
+        "name": "Partner",
+        "count": 13,
+        "total": 6600.0
+      },
+      {
+        "name": "Architect",
+        "count": 19,
+        "total": 5600.0
+      },
+      {
+        "name": "Principal",
+        "count": 8,
+        "total": 5400.0
+      },
+      {
+        "name": "Accountant",
+        "count": 10,
+        "total": 5200.0
+      },
+      {
+        "name": "Director",
+        "count": 16,
+        "total": 4870.0
+      },
+      {
+        "name": "Public Affairs Consultant",
+        "count": 6,
+        "total": 4450.0
+      },
+      {
+        "name": "Engineer",
+        "count": 10,
+        "total": 4100.0
+      },
+      {
+        "name": "Economist",
+        "count": 6,
+        "total": 3950.0
+      },
+      {
+        "name": "Physician",
+        "count": 10,
+        "total": 3750.0
+      },
+      {
+        "name": "Managing Director",
+        "count": 5,
+        "total": 3500.0
+      },
+      {
+        "name": "Real Estate Owner",
+        "count": 4,
+        "total": 3400.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 4,
+        "total": 3300.0
+      },
+      {
+        "name": "Producer",
+        "count": 7,
+        "total": 2850.0
+      },
+      {
+        "name": "Art Teacher",
+        "count": 3,
+        "total": 2500.0
+      },
+      {
+        "name": "Other",
+        "count": 526,
+        "total": 175366.02
+      }
+    ],
     "total_small_contributions": 10238.5,
     "expenditures_by_type": {
       "Print Ads": 3951.0,

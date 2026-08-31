@@ -41,6 +41,270 @@
       "Within Oakland": 11366.65,
       "Within California": 7700.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Greater St. Paul Church",
+        "count": 3,
+        "total": 1742.65
+      },
+      {
+        "name": "Acts Full Gospel Church",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Children's Hospital OAkland",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "J&R Associates",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Kingdom Builders Christian Fellowship Ministries",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Drinker Biddle & Reath",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "East Oakland Community Project",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 5,
+        "total": 499.0
+      },
+      {
+        "name": "Healthy Communities",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "LaJones & Associates",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Valley Children's Hospital",
+        "count": 4,
+        "total": 400.0
+      },
+      {
+        "name": "Providence Church",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "AT&T",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "AdColony",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "California Pacific Medical Center",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Comcast",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Diamondstar Floor Polishers",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Mt. Zion Missionary Baptist Church",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "PG&E",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "San Francisco General Hospital",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Young Community Developers",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "John Stewart Company",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Adexi",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "AmTrust Financial Services, Inc.",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "American Chemical Society Student Affiliates",
+        "count": 2,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 35,
+        "total": 2200.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Pastor",
+        "count": 11,
+        "total": 3992.65
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 26,
+        "total": 3400.0
+      },
+      {
+        "name": "Commercial Property Management",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Nursing Director",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Housing Advocate",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Legal Secretary",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Dietitian",
+        "count": 4,
+        "total": 400.0
+      },
+      {
+        "name": "Manager",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Public Relations Consultant",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Consultant",
+        "count": 3,
+        "total": 299.0
+      },
+      {
+        "name": "Clerk",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Director of Accounting",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Health Care Counselor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Program Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Sales Manager",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Senior Managing Planning Design & Construction",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Vice President of Operations",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Property Management",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Attorney",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Business Executive",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Clinical Social Worker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Compliance Officer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Dean",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Dentist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 29,
+        "total": 1600.0
+      }
+    ],
     "total_small_contributions": 2649.0,
     "expenditures_by_type": {
       "Office Expenses": 339.33,

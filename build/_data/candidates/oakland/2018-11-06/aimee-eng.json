@@ -38,6 +38,270 @@
       "Within Oakland": 219.28,
       "Within California": 242.45
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 14,
+        "total": 3919.28
+      },
+      {
+        "name": "APPIP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Capital Impact Partners",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Kaiser Permenete",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Philanthropic Ventures Foundation",
+        "count": 2,
+        "total": 550.0
+      },
+      {
+        "name": "East Basy Asian Youth Center",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Kamehameha Schools",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "TRI Pointe Homes,INC",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "San Francisco Foundation",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "CTCA",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Nektar Therapeutics",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "inknown",
+        "count": 1,
+        "total": 299.95
+      },
+      {
+        "name": "Alarcon Bohm Corp",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "CA School Board Association",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "HEA",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Indiana University Athletics",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Metro Bay",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Orinda Optometry Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "T. Gary and Kathleen Rogers Private Family Foundation",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Orinda Optometry",
+        "count": 1,
+        "total": 242.45
+      },
+      {
+        "name": "Barron & Toups Architects",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Beyond 12",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Wendel Rosen Black & Dean LLP",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 27,
+        "total": 2650.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 13,
+        "total": 3575.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 5,
+        "total": 1250.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Optometrist",
+        "count": 5,
+        "total": 1192.45
+      },
+      {
+        "name": "Program Manager",
+        "count": 3,
+        "total": 950.0
+      },
+      {
+        "name": "Education",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Engineer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Independent Investment Management Professional",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Attorney",
+        "count": 4,
+        "total": 650.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Administration/Operations",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Chiropractor",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 500.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Homebuilder",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Optomitrist",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Physician",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Vice President",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "homemaker",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Clinical Research Manager",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Occupation not reported",
+        "count": 1,
+        "total": 299.95
+      },
+      {
+        "name": "Development Officer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Realator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Canindates",
+        "count": 1,
+        "total": 219.28
+      },
+      {
+        "name": "Architect",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 29,
+        "total": 2950.0
+      }
+    ],
     "total_small_contributions": 123.97,
     "expenditures_by_type": {
       "Contribution": 1000.0,

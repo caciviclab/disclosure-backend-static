@@ -6,5 +6,49 @@
   ],
   "contributions_by_election": [
 
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Fair Trade USA",
+      "count": 1,
+      "total": 122.5
+    },
+    {
+      "name": "Community Association Group",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Policy Link",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "UCB Labor Center",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Development Manager",
+      "count": 1,
+      "total": 122.5
+    },
+    {
+      "name": "Administrative Assistant",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Labor Policy Specialist",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Program Associate",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

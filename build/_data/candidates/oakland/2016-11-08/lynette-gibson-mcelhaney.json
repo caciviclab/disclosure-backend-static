@@ -40,6 +40,270 @@
       "Within Oakland": 52461.79,
       "Within California": 70760.98
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 6,
+        "total": 2900.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 5,
+        "total": 2700.0
+      },
+      {
+        "name": "TMG Partners",
+        "count": 6,
+        "total": 2450.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Branagh Development",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Strada Investment Group",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Telegraph Health Center",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Colliers International",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Carol H. Williams Association",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "SCI Consulting Group",
+        "count": 4,
+        "total": 712.98
+      },
+      {
+        "name": "AV Trucking",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Akonadi Foundation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Alameda Auto Body",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Alameda Body Shop",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Anderson Construction",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Aqua Skin Care",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Blum",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Bourbon Coffee Colne",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CBRE",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chevron Federal Credit Union",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chole Beauty Supply",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "D & B Painting",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Gensler",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Grace Executive Services",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Hanh Nguyen, CPA",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 175,
+        "total": 48959.79
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Owner",
+        "count": 30,
+        "total": 10750.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 28,
+        "total": 9450.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 29,
+        "total": 8845.96
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 13,
+        "total": 5300.0
+      },
+      {
+        "name": "Principal",
+        "count": 7,
+        "total": 2800.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 5,
+        "total": 2700.0
+      },
+      {
+        "name": "Attorney",
+        "count": 8,
+        "total": 2300.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 9,
+        "total": 1843.04
+      },
+      {
+        "name": "Developer",
+        "count": 3,
+        "total": 1650.0
+      },
+      {
+        "name": "Vice President",
+        "count": 7,
+        "total": 1632.45
+      },
+      {
+        "name": "Manager",
+        "count": 4,
+        "total": 1618.04
+      },
+      {
+        "name": "Senior Vice President",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Director",
+        "count": 5,
+        "total": 1463.14
+      },
+      {
+        "name": "Founder",
+        "count": 5,
+        "total": 1400.0
+      },
+      {
+        "name": "Architect",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Office Manager",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Pastor",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "Professor",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Political Consultant",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Property Manager",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Acquisition",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Beverage Distributor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Builder / Developer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Caterer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 62,
+        "total": 19370.14
+      }
+    ],
     "total_small_contributions": 3526.92,
     "expenditures_by_type": {
       "Print Ads": 1000.0,

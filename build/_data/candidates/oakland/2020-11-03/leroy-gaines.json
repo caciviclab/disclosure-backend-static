@@ -53,6 +53,270 @@
       "Within Oakland": 22909.96,
       "Within California": 14741.89
     },
+    "contributions_by_employer": [
+      {
+        "name": "Oakland Unified School District",
+        "count": 17,
+        "total": 3720.92
+      },
+      {
+        "name": "Self-Employed",
+        "count": 11,
+        "total": 2575.0
+      },
+      {
+        "name": "Rogers Family Foundation",
+        "count": 3,
+        "total": 1650.0
+      },
+      {
+        "name": "Oakland",
+        "count": 4,
+        "total": 1525.0
+      },
+      {
+        "name": "Arthur Rock & Co.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Emerson Collective",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Fitzgerald Parker Thomas",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Riaz Capital",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "T. Gary and Kathleen Rogers Family Private Foundation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "TMG Partners",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "PJs of Texas",
+        "count": 1,
+        "total": 895.0
+      },
+      {
+        "name": "Educate78",
+        "count": 4,
+        "total": 750.0
+      },
+      {
+        "name": "The Permanente Medical Group",
+        "count": 3,
+        "total": 723.67
+      },
+      {
+        "name": "San Mateo Union HIgh School District",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "La Clinica de La Raza",
+        "count": 2,
+        "total": 619.52
+      },
+      {
+        "name": "The Kos Read Group, Inc.",
+        "count": 1,
+        "total": 519.52
+      },
+      {
+        "name": "Auto-Chlor System",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "BF Legacy",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Charles and Lynn Schusterman Family Foundation",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Community Arts Stabilization Trust",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Mosswood Engineering",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Tides Center",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Partners in School Innovation",
+        "count": 3,
+        "total": 425.0
+      },
+      {
+        "name": "Education for Change",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "Tides Center/ All Home",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "Other",
+        "count": 67,
+        "total": 8751.22
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 29,
+        "total": 9250.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 14,
+        "total": 4920.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 5,
+        "total": 2500.0
+      },
+      {
+        "name": "Philanthropy",
+        "count": 4,
+        "total": 2150.0
+      },
+      {
+        "name": "Attorney",
+        "count": 8,
+        "total": 1612.15
+      },
+      {
+        "name": "Real Estate",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Principal",
+        "count": 8,
+        "total": 1464.07
+      },
+      {
+        "name": "Consultant",
+        "count": 8,
+        "total": 1419.52
+      },
+      {
+        "name": "Educator",
+        "count": 7,
+        "total": 1100.0
+      },
+      {
+        "name": "Communications",
+        "count": 2,
+        "total": 919.52
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Teacher",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 5,
+        "total": 750.0
+      },
+      {
+        "name": "Governing Board Member",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Pediatrician",
+        "count": 2,
+        "total": 619.52
+      },
+      {
+        "name": "Director of Education",
+        "count": 2,
+        "total": 525.0
+      },
+      {
+        "name": "Psychologist",
+        "count": 1,
+        "total": 519.52
+      },
+      {
+        "name": "Director of Real Estate & Partnerships",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Education",
+        "count": 3,
+        "total": 500.0
+      },
+      {
+        "name": "Non-profit Executive",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Regional Vice-President",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Structural Engineer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Network Superintendent",
+        "count": 1,
+        "total": 450.0
+      },
+      {
+        "name": "Education Consultant",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Other",
+        "count": 45,
+        "total": 5305.55
+      }
+    ],
     "total_small_contributions": 5290.8,
     "expenditures_by_type": {
       "Print Ads": 600.0,

@@ -47,6 +47,270 @@
       "Within Oakland": 11050.0,
       "Within California": 3609.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "CA Department of Health",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Rogers Family Foundation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "PJS of Texas",
+        "count": 1,
+        "total": 897.0
+      },
+      {
+        "name": "San Mateo Union High School District",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Kos Read Group, Inc.",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "EducationSuperHighway",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "BAESS",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Educate78",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Life Matters Financial Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "SCI Consulting Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "STG Partners LLC",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Clear Thinking",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Drip",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Education for Change",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Lone Pine Capital",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Augustana College",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Echidna Giving",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "GO Public Schools",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Glass and Marker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "P3 Consulting",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Performance fact",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 9,
+        "total": 3909.0
+      },
+      {
+        "name": "Attorney",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Philanthropy",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Volunteer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 897.0
+      },
+      {
+        "name": "Board President",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Retired Pastor",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "economist",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Retired Teacher and Principal",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "product manager",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Financial Administrator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Investor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "non-profit executive",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Education Management",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Data Engineer",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Managing Member",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "education advocacy",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Foundation",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Owner",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 4,
+        "total": 400.0
+      }
+    ],
     "total_small_contributions": 703.0,
     "expenditures_by_type": {
       "Civic Donations": 263.37,

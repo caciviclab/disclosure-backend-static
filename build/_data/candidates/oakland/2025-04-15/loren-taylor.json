@@ -61,6 +61,270 @@
       "Within Oakland": 397859.0,
       "Within California": 136469.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Kaiser Permanente",
+        "count": 38,
+        "total": 9574.0
+      },
+      {
+        "name": "Genentech",
+        "count": 13,
+        "total": 5450.0
+      },
+      {
+        "name": "University of California, Berkeley",
+        "count": 19,
+        "total": 4552.0
+      },
+      {
+        "name": "Google",
+        "count": 12,
+        "total": 3349.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 9,
+        "total": 2969.0
+      },
+      {
+        "name": "Hillendale Home Care",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "PricewaterhouseCoopers (PwC)",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Compass",
+        "count": 8,
+        "total": 1750.0
+      },
+      {
+        "name": "City Of Oakland",
+        "count": 8,
+        "total": 1400.0
+      },
+      {
+        "name": "Morrison & Foerster LLP",
+        "count": 11,
+        "total": 1400.0
+      },
+      {
+        "name": "Wells Fargo",
+        "count": 6,
+        "total": 1400.0
+      },
+      {
+        "name": "Another Planet Entertainment",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Cushman & Wakefield",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Montclair Golf Course",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Ridgemont Hospitality",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Golden State Warriors",
+        "count": 2,
+        "total": 1250.0
+      },
+      {
+        "name": "Autodesk, Inc.",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Lakeside Group",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Deloitte",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "Farella Braun + Martel",
+        "count": 6,
+        "total": 1100.0
+      },
+      {
+        "name": "Stanford University",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Amazon",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Gilead",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Microsoft",
+        "count": 3,
+        "total": 950.0
+      },
+      {
+        "name": "Apple Inc.",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 1123,
+        "total": 283700.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 957,
+        "total": 194634.0
+      },
+      {
+        "name": "Attorney",
+        "count": 142,
+        "total": 34767.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 67,
+        "total": 23420.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 61,
+        "total": 15811.0
+      },
+      {
+        "name": "Owner",
+        "count": 45,
+        "total": 11164.0
+      },
+      {
+        "name": "Physician",
+        "count": 42,
+        "total": 10099.0
+      },
+      {
+        "name": "Principal",
+        "count": 26,
+        "total": 8700.0
+      },
+      {
+        "name": "Engineer",
+        "count": 22,
+        "total": 4960.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 10,
+        "total": 4200.0
+      },
+      {
+        "name": "Founder",
+        "count": 12,
+        "total": 4150.0
+      },
+      {
+        "name": "Director",
+        "count": 14,
+        "total": 4120.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 20,
+        "total": 3875.0
+      },
+      {
+        "name": "Chief Financial Officer",
+        "count": 9,
+        "total": 3550.0
+      },
+      {
+        "name": "Professor",
+        "count": 15,
+        "total": 3251.0
+      },
+      {
+        "name": "Product Manager",
+        "count": 10,
+        "total": 3250.0
+      },
+      {
+        "name": "Vice President",
+        "count": 10,
+        "total": 3250.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 12,
+        "total": 3026.0
+      },
+      {
+        "name": "Property Manager",
+        "count": 11,
+        "total": 2900.0
+      },
+      {
+        "name": "Managing Partner",
+        "count": 8,
+        "total": 2600.0
+      },
+      {
+        "name": "Architect",
+        "count": 7,
+        "total": 2550.0
+      },
+      {
+        "name": "Teacher",
+        "count": 12,
+        "total": 2450.0
+      },
+      {
+        "name": "Co-Founder",
+        "count": 4,
+        "total": 2200.0
+      },
+      {
+        "name": "Accountant",
+        "count": 11,
+        "total": 2050.0
+      },
+      {
+        "name": "General Manager",
+        "count": 4,
+        "total": 2049.0
+      },
+      {
+        "name": "Senior Vice President",
+        "count": 5,
+        "total": 1950.0
+      },
+      {
+        "name": "Other",
+        "count": 715,
+        "total": 175002.0
+      }
+    ],
     "total_small_contributions": 87615.73,
     "expenditures_by_type": {
       "Print Ads": 4640.0,

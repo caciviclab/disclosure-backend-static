@@ -47,6 +47,270 @@
       "Within Oakland": 38275.0,
       "Within California": 58150.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Nob Hill Aesthetics",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Derek Smith",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Masih Afrouzi",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Yale",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Sunbber, Inc.",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "Black Women Organized for Political Action",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Access institute",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Building Opportunities for Self-Sufficiency",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "CA Friendly Laundromat",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Emeryville",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Davillier-Sloan Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Eastwood Development",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "IRAAS",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "King County",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Marina Security Service",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Marketwise",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Milo Group of California",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Tea Daily",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "The McConnell Group",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "University of California",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Bank of the Orient",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Fortress Construction",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "CDA Consulting Group",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Susana Ramos",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Behring Capital LLC",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Other",
+        "count": 99,
+        "total": 22075.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 42,
+        "total": 11950.0
+      },
+      {
+        "name": "Consultant",
+        "count": 13,
+        "total": 4300.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 8,
+        "total": 4100.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 8,
+        "total": 4100.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 7,
+        "total": 2250.0
+      },
+      {
+        "name": "Manager",
+        "count": 4,
+        "total": 2100.0
+      },
+      {
+        "name": "Researcher",
+        "count": 4,
+        "total": 1700.0
+      },
+      {
+        "name": "Marketing",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Physician",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Contractor",
+        "count": 3,
+        "total": 1350.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Analyst",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Attorney",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Business Analyst",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Health Care",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Manager, Financial Services",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Post doctoral fellow",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Tea Maker",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Director",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "Event Planner",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Postpartum Doula",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CFO",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Real Estate Private Equity",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Other",
+        "count": 56,
+        "total": 11125.0
+      }
+    ],
     "total_small_contributions": 2364.0,
     "expenditures_by_type": {
       "Not Stated": 15868.76,

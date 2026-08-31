@@ -42,6 +42,20 @@
     "contributions_by_origin": {
       "Within Oakland": 100.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "consulting",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 75.0,
     "expenditures_by_type": {
       "Not Stated": 646.0

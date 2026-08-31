@@ -40,6 +40,270 @@
       "Within Oakland": 250356.87,
       "Within California": 124863.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 35,
+        "total": 105670.73
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 9,
+        "total": 2600.0
+      },
+      {
+        "name": "U.C. Berkeley",
+        "count": 13,
+        "total": 2215.0
+      },
+      {
+        "name": "Lawrence Berkeley National Laboratory",
+        "count": 6,
+        "total": 2039.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 14,
+        "total": 1850.0
+      },
+      {
+        "name": "Scott's Seafood",
+        "count": 4,
+        "total": 1850.0
+      },
+      {
+        "name": "Harborside Health Center",
+        "count": 6,
+        "total": 1700.0
+      },
+      {
+        "name": "California Capital Investment",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Old Republic Title Company",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Platinum Advisors",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "YHLA Architects",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Siegel & Yee",
+        "count": 3,
+        "total": 1200.0
+      },
+      {
+        "name": "University of California",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "State of California",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Shorenstein Properties LLC",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "UCSF",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Oakland East Bay Symphony",
+        "count": 5,
+        "total": 950.0
+      },
+      {
+        "name": "United Health Group",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Wells Fargo Bank",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Lifelong Medical Care",
+        "count": 17,
+        "total": 710.0
+      },
+      {
+        "name": "AB&I",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "AB&I Foundry",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "ARA Cal, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Abbey Carpet",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Alex Paul",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 535,
+        "total": 132484.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Mayor",
+        "count": 6,
+        "total": 100985.73
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 191,
+        "total": 37226.14
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 41,
+        "total": 19075.0
+      },
+      {
+        "name": "business owner",
+        "count": 37,
+        "total": 12750.0
+      },
+      {
+        "name": "physician",
+        "count": 54,
+        "total": 9924.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 25,
+        "total": 9474.0
+      },
+      {
+        "name": "attorney",
+        "count": 30,
+        "total": 8927.0
+      },
+      {
+        "name": "consultant",
+        "count": 14,
+        "total": 4350.0
+      },
+      {
+        "name": "engineer",
+        "count": 12,
+        "total": 3050.0
+      },
+      {
+        "name": "architect",
+        "count": 13,
+        "total": 2785.0
+      },
+      {
+        "name": "housewife",
+        "count": 4,
+        "total": 2600.0
+      },
+      {
+        "name": "vice president",
+        "count": 5,
+        "total": 2350.0
+      },
+      {
+        "name": "dentist",
+        "count": 9,
+        "total": 1705.0
+      },
+      {
+        "name": "scientist",
+        "count": 3,
+        "total": 1650.0
+      },
+      {
+        "name": "writer",
+        "count": 5,
+        "total": 1650.0
+      },
+      {
+        "name": "insurance broker",
+        "count": 4,
+        "total": 1500.0
+      },
+      {
+        "name": "manager",
+        "count": 10,
+        "total": 1420.0
+      },
+      {
+        "name": "escrow officer",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "financial analyst",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "partner",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "teacher",
+        "count": 9,
+        "total": 1250.0
+      },
+      {
+        "name": "professor",
+        "count": 8,
+        "total": 1209.0
+      },
+      {
+        "name": "acupuncturist",
+        "count": 8,
+        "total": 1191.0
+      },
+      {
+        "name": "project manager",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "executive director",
+        "count": 7,
+        "total": 1050.0
+      },
+      {
+        "name": "Other",
+        "count": 365,
+        "total": 74898.0
+      }
+    ],
     "total_small_contributions": 26000.58,
     "expenditures_by_type": {
       "Not Stated": 29556.25,

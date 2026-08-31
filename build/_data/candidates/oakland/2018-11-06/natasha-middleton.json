@@ -40,6 +40,270 @@
       "Within Oakland": 26818.57,
       "Within California": 40458.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 17,
+        "total": 3275.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 9,
+        "total": 1403.0
+      },
+      {
+        "name": "City Of Oakland",
+        "count": 4,
+        "total": 1250.0
+      },
+      {
+        "name": "Gap, Inc",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Bay Area Rapid Transit",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Reddit",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "DaVita",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Carmel Partners",
+        "count": 4,
+        "total": 650.0
+      },
+      {
+        "name": "City Of Berkeley, CA.",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Hanson Bridgett, LLC",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Microsoft",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Nia Tero",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Stantec",
+        "count": 6,
+        "total": 500.0
+      },
+      {
+        "name": "Vituity",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Alameda County District Attorney's Office",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "City And County Of San Francisco",
+        "count": 4,
+        "total": 450.0
+      },
+      {
+        "name": "S?ntesis Strategies",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "The Carter Law Group",
+        "count": 10,
+        "total": 350.0
+      },
+      {
+        "name": "Oakland Community Acupuncture",
+        "count": 4,
+        "total": 300.0
+      },
+      {
+        "name": "Teamsters 856/Mills College",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Bill And Melinda Ggatea Foudation",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "CCC",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Cameo California Assoc For MicroEnterprise Opportunity",
+        "count": 4,
+        "total": 250.0
+      },
+      {
+        "name": "Contra Costa County Sheriff",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 125,
+        "total": 12473.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 48,
+        "total": 9525.0
+      },
+      {
+        "name": "Attorney",
+        "count": 35,
+        "total": 4750.0
+      },
+      {
+        "name": "Physician",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "Writer",
+        "count": 3,
+        "total": 899.0
+      },
+      {
+        "name": "Bart Board Director",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Director",
+        "count": 5,
+        "total": 800.0
+      },
+      {
+        "name": "Executive",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "Executive Assistant",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Healthcare Executive",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Registered Nurse",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Principal",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Director, Business Developmen",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Environmental Consultant",
+        "count": 6,
+        "total": 500.0
+      },
+      {
+        "name": "Manager",
+        "count": 3,
+        "total": 500.0
+      },
+      {
+        "name": "Partner",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Consultant",
+        "count": 5,
+        "total": 450.0
+      },
+      {
+        "name": "Firefighter",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Policy Analyst",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "Professor",
+        "count": 3,
+        "total": 325.0
+      },
+      {
+        "name": "Acupuncture",
+        "count": 4,
+        "total": 300.0
+      },
+      {
+        "name": "Attorney/Mills",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Educator",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Other",
+        "count": 117,
+        "total": 11577.0
+      }
+    ],
     "total_small_contributions": 9109.57,
     "expenditures_by_type": {
       "Not Stated": 26366.32,

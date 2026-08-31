@@ -581,5 +581,49 @@
         1393619.97
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "SCI Consulting Group",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Youth Alive!",
+      "count": 2,
+      "total": 350.0
+    },
+    {
+      "name": "Focus Realty",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Civil Engineer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Executive Director",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Development Director",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Forward Planner",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

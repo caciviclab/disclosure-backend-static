@@ -45,6 +45,270 @@
       "Within Oakland": 4100.0,
       "Within California": 4150.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 10,
+        "total": 1000.0
+      },
+      {
+        "name": "Donahue Fitzgerald",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 6,
+        "total": 650.0
+      },
+      {
+        "name": "Children's Fairyland",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Jones",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "MVLA Union High School",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "LeaderSpring",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "California Housing Partnership",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Community Technology Alliance",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Self-Help for the Elderly",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Alameda County Family Justice Center",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "AnewAmerica Community Corporation",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Argosy University",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Avanade",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of San Francisco",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Cleveland Elementary OUSD",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Girls Inc of the Island City",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Health Net",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Hooper, LUndy and Bookman, P.C.",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Marz Consulting",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Mills College",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 8,
+        "total": 800.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Executive Director",
+        "count": 8,
+        "total": 1300.0
+      },
+      {
+        "name": "Attorney",
+        "count": 6,
+        "total": 1100.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 4,
+        "total": 550.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Student Services",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Volunteer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Affordable Housing Leader",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Nonprofit Director of Operations",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Accountant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Art Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chairman",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Coach for Schools, nonprofits and social justice orgs.",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Collaboration Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director of Finance",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Executive Coach",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Faculty",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Former Principal",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Lawyer/Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Legal",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Legal Secretary",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 11,
+        "total": 1100.0
+      }
+    ],
     "total_small_contributions": 2943.0,
     "expenditures_by_type": {
       "Campaign Consultants": 4750.0,

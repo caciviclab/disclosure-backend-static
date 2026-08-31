@@ -46,6 +46,270 @@
       "Within Oakland": 91166.69,
       "Within California": 47704.22
     },
+    "contributions_by_employer": [
+      {
+        "name": "self-no separate business name",
+        "count": 46,
+        "total": 8360.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 36,
+        "total": 5303.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 20,
+        "total": 3940.0
+      },
+      {
+        "name": "Google",
+        "count": 18,
+        "total": 2870.0
+      },
+      {
+        "name": "Freelance",
+        "count": 41,
+        "total": 2421.18
+      },
+      {
+        "name": "Student",
+        "count": 11,
+        "total": 2093.0
+      },
+      {
+        "name": "Siegel & Yee",
+        "count": 5,
+        "total": 1772.03
+      },
+      {
+        "name": "UC San Francisco",
+        "count": 11,
+        "total": 1527.03
+      },
+      {
+        "name": "City of Oakland",
+        "count": 5,
+        "total": 1400.0
+      },
+      {
+        "name": "Facebook",
+        "count": 6,
+        "total": 1275.0
+      },
+      {
+        "name": "San Francisco Department of Public Health",
+        "count": 4,
+        "total": 1050.0
+      },
+      {
+        "name": "State of California",
+        "count": 15,
+        "total": 1030.0
+      },
+      {
+        "name": "Jewish Youth for Community Action",
+        "count": 3,
+        "total": 908.0
+      },
+      {
+        "name": "Alliance of Californians for Community Empowerment",
+        "count": 8,
+        "total": 900.0
+      },
+      {
+        "name": "Funding Circle",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 17,
+        "total": 860.0
+      },
+      {
+        "name": "Disney/Pixar",
+        "count": 2,
+        "total": 825.0
+      },
+      {
+        "name": "Bad Robot Productions",
+        "count": 3,
+        "total": 800.0
+      },
+      {
+        "name": "Blockstream",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Contra Costa College",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "First African Methodist Episcopal Church",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Grateful Heart Holistic Therapies",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Hustle",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Kin Folkz, Spectrum Queer Media",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "Know YOurself Foundation",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Other",
+        "count": 665,
+        "total": 73099.2
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 104,
+        "total": 19740.15
+      },
+      {
+        "name": "Software Engineer",
+        "count": 66,
+        "total": 8670.15
+      },
+      {
+        "name": "Attorney",
+        "count": 33,
+        "total": 4198.03
+      },
+      {
+        "name": "Executive Director",
+        "count": 33,
+        "total": 4133.0
+      },
+      {
+        "name": "Teacher",
+        "count": 26,
+        "total": 3905.0
+      },
+      {
+        "name": "Organizer",
+        "count": 26,
+        "total": 2615.0
+      },
+      {
+        "name": "Educator",
+        "count": 17,
+        "total": 2385.0
+      },
+      {
+        "name": "Student",
+        "count": 11,
+        "total": 2093.0
+      },
+      {
+        "name": "Professor",
+        "count": 14,
+        "total": 2080.0
+      },
+      {
+        "name": "Sales",
+        "count": 11,
+        "total": 1950.0
+      },
+      {
+        "name": "consulting",
+        "count": 17,
+        "total": 1733.37
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 3,
+        "total": 1700.0
+      },
+      {
+        "name": "Civil Rights Attorney",
+        "count": 3,
+        "total": 1650.0
+      },
+      {
+        "name": "Physician",
+        "count": 11,
+        "total": 1650.0
+      },
+      {
+        "name": "Director",
+        "count": 14,
+        "total": 1465.0
+      },
+      {
+        "name": "Community Organizer",
+        "count": 5,
+        "total": 1450.0
+      },
+      {
+        "name": "Engineer",
+        "count": 12,
+        "total": 1358.03
+      },
+      {
+        "name": "Staff",
+        "count": 6,
+        "total": 1264.06
+      },
+      {
+        "name": "Program Director",
+        "count": 6,
+        "total": 1250.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 6,
+        "total": 1050.0
+      },
+      {
+        "name": "Manager",
+        "count": 6,
+        "total": 1000.0
+      },
+      {
+        "name": "Research Scientist",
+        "count": 7,
+        "total": 1000.0
+      },
+      {
+        "name": "Nurse Practitioner",
+        "count": 15,
+        "total": 992.03
+      },
+      {
+        "name": "HR",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 606,
+        "total": 69601.77
+      }
+    ],
     "total_small_contributions": 56375.33,
     "expenditures_by_type": {
       "Print Ads": 1975.0,

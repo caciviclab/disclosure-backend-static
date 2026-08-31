@@ -40,6 +40,270 @@
       "Within Oakland": 120046.94,
       "Within California": 126301.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Kaiser Permanente",
+        "count": 13,
+        "total": 4550.0
+      },
+      {
+        "name": "Kazan McClain et al.",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 6,
+        "total": 2050.0
+      },
+      {
+        "name": "Kapor Enterprises Inc.",
+        "count": 4,
+        "total": 1800.0
+      },
+      {
+        "name": "Lighthouse Public Affairs LLC",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "UC San Francisco",
+        "count": 10,
+        "total": 1650.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 10,
+        "total": 1575.0
+      },
+      {
+        "name": "Change Consulting",
+        "count": 4,
+        "total": 1500.0
+      },
+      {
+        "name": "Institute for Community Leadership",
+        "count": 2,
+        "total": 1250.0
+      },
+      {
+        "name": "Movement Innovation Collaborative",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "SCI Consulting Group",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 7,
+        "total": 1050.0
+      },
+      {
+        "name": "1528 Cowork",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "1528 Webster St LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "AEBlue Capital",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "ActOne Group",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Akerman LLP",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Alana Ross",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Arnold Grisham",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "Bernstein & Lipsett",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Bernstein & Lipsett P.C.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Black Doc Village",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Catherine Lew",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Centinela Capital Partners",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Clean Energy Leadership Institute",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 519,
+        "total": 117522.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 304,
+        "total": 76352.0
+      },
+      {
+        "name": "Attorney",
+        "count": 45,
+        "total": 17650.0
+      },
+      {
+        "name": "Consultant",
+        "count": 51,
+        "total": 11875.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 31,
+        "total": 8650.0
+      },
+      {
+        "name": "Physician",
+        "count": 28,
+        "total": 8535.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 16,
+        "total": 5850.0
+      },
+      {
+        "name": "Director",
+        "count": 25,
+        "total": 4125.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 18,
+        "total": 3750.0
+      },
+      {
+        "name": "Manager",
+        "count": 7,
+        "total": 2425.0
+      },
+      {
+        "name": "Founder",
+        "count": 4,
+        "total": 2150.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 10,
+        "total": 2100.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 5,
+        "total": 2050.0
+      },
+      {
+        "name": "Investor",
+        "count": 6,
+        "total": 1925.0
+      },
+      {
+        "name": "Managing Member",
+        "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 15,
+        "total": 1775.0
+      },
+      {
+        "name": "Educator",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "County Supervisor",
+        "count": 5,
+        "total": 1400.0
+      },
+      {
+        "name": "Dentist",
+        "count": 5,
+        "total": 1250.0
+      },
+      {
+        "name": "Architect",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Photographer",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Executive",
+        "count": 4,
+        "total": 1150.0
+      },
+      {
+        "name": "Marketing",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Surgeon",
+        "count": 6,
+        "total": 1150.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Filmmaker",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Other",
+        "count": 301,
+        "total": 64687.0
+      }
+    ],
     "total_small_contributions": 22270.94,
     "expenditures_by_type": {
       "Office Expenses": 8691.57,

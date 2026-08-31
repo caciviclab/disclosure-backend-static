@@ -208698,5 +208698,34 @@
         175313.7
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Oakland Fire Department",
+      "count": 4932,
+      "total": 49320.0
+    },
+    {
+      "name": "City of Alameda",
+      "count": 4078,
+      "total": 40780.0
+    },
+    {
+      "name": "City of Emeryville",
+      "count": 1062,
+      "total": 10620.0
+    },
+    {
+      "name": "Emeryville",
+      "count": 14,
+      "total": 140.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Firefighter",
+      "count": 10086,
+      "total": 100860.0
+    }
   ]
 }

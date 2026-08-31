@@ -39,6 +39,95 @@
       "Within Oakland": 55207.13,
       "Within California": 900.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 7,
+        "total": 54757.13
+      },
+      {
+        "name": "City of Palo Alto",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Fairgrieve Law",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Simply Re-Creating",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Upwork",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "City Auditor",
+        "count": 6,
+        "total": 54257.13
+      },
+      {
+        "name": "Auditor",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Construction Inspection Supervisor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Management Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Sr. Tax Director",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 340.0,
     "expenditures_by_type": {
       "Print Ads": 2000.0,

@@ -39,6 +39,270 @@
       "Within Oakland": 33391.0,
       "Within California": 32575.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 17,
+        "total": 7200.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 14,
+        "total": 6350.0
+      },
+      {
+        "name": "Burke, Williams & Sorensen",
+        "count": 14,
+        "total": 5650.0
+      },
+      {
+        "name": "Terra Tech Corp",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Goldfarb & Lipman LLP",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "Nossaman, LLP",
+        "count": 3,
+        "total": 1125.0
+      },
+      {
+        "name": "Holland & Knight",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Akonadi Foundation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Albertsons Companies Inc. , previously Safeway Inc/ Real Estate Law",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "BWS",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Bassi Edlin Huie & Blum LLP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Black Oak Gallery",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Burnham Brown",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CAL Alumni Association",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "City of Alameda",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Cooley, LLP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Eviction Defense Center",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Fitzgerald, Abbott & Beardsley LLP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Foster Employment Law",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Hewlett Packard Company",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Kazan, McClain, Satterley & Greenwood",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Lafayette & Kumagai LLP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Lloyd A. Wise Co.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Michelman & Robinson, LLP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 44,
+        "total": 16600.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Attorney",
+        "count": 65,
+        "total": 29200.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 11,
+        "total": 2525.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 4,
+        "total": 2000.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Occupation not reported",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "CAO",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Council member",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Counselor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Executive Management",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Faculty",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Free Lance writer and tutor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Grantmaker",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Manager",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Marketing Director",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Non-profit community developer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Nurse",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Public Servant",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Retired Corporate Executive",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chairman",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Other",
+        "count": 23,
+        "total": 6025.0
+      }
+    ],
     "total_small_contributions": 393.0,
     "expenditures_by_type": {
       "Not Stated": 500.0,

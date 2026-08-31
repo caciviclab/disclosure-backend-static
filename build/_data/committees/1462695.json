@@ -14306,5 +14306,269 @@
         440004.53
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Raymond Landry",
+      "count": 3,
+      "total": 17500.0
+    },
+    {
+      "name": "Alameda County District Attorney's Office",
+      "count": 43,
+      "total": 15756.86
+    },
+    {
+      "name": "John Bauer",
+      "count": 2,
+      "total": 11000.0
+    },
+    {
+      "name": "Alameda County",
+      "count": 36,
+      "total": 10081.43
+    },
+    {
+      "name": "Democratizing Justice Initiative",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "Hendler Flores Law Pllc",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "State of Texas",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "Tracy Hewat",
+      "count": 2,
+      "total": 7854.45
+    },
+    {
+      "name": "May Jung LLP",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "John Burris",
+      "count": 5,
+      "total": 2882.18
+    },
+    {
+      "name": "Oakland And The World Enterprises",
+      "count": 4,
+      "total": 2819.36
+    },
+    {
+      "name": "Dorsu Liu",
+      "count": 2,
+      "total": 2500.0
+    },
+    {
+      "name": "Shirley Golub",
+      "count": 18,
+      "total": 2403.7
+    },
+    {
+      "name": "MPI Homes",
+      "count": 3,
+      "total": 1750.0
+    },
+    {
+      "name": "Elana Auerbach",
+      "count": 4,
+      "total": 1736.92
+    },
+    {
+      "name": "City Of Oakland",
+      "count": 5,
+      "total": 1660.48
+    },
+    {
+      "name": "Los Angeles County",
+      "count": 2,
+      "total": 1500.0
+    },
+    {
+      "name": "UC Berkeley",
+      "count": 4,
+      "total": 1450.0
+    },
+    {
+      "name": "Stewart Chen",
+      "count": 2,
+      "total": 1300.0
+    },
+    {
+      "name": "Social Security Administration",
+      "count": 19,
+      "total": 1292.16
+    },
+    {
+      "name": "Robert Bacon",
+      "count": 3,
+      "total": 1250.0
+    },
+    {
+      "name": "Dennis Middleton",
+      "count": 6,
+      "total": 1239.8
+    },
+    {
+      "name": "Liberty Law",
+      "count": 3,
+      "total": 1110.0
+    },
+    {
+      "name": "Realtech Financial Services Inc",
+      "count": 2,
+      "total": 1105.24
+    },
+    {
+      "name": "Jemjah LLC",
+      "count": 2,
+      "total": 1048.16
+    },
+    {
+      "name": "Other",
+      "count": 322,
+      "total": 53960.13
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Retired/Not Employed",
+      "count": 435,
+      "total": 109316.16
+    },
+    {
+      "name": "Attorney",
+      "count": 126,
+      "total": 51500.12
+    },
+    {
+      "name": "Pastor",
+      "count": 3,
+      "total": 17500.0
+    },
+    {
+      "name": "Arbitrage",
+      "count": 2,
+      "total": 11000.0
+    },
+    {
+      "name": "Director",
+      "count": 5,
+      "total": 10675.0
+    },
+    {
+      "name": "State Representative",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "Consultant",
+      "count": 8,
+      "total": 9504.45
+    },
+    {
+      "name": "Real Estate",
+      "count": 27,
+      "total": 6317.16
+    },
+    {
+      "name": "District Attorney",
+      "count": 9,
+      "total": 4660.48
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 10,
+      "total": 4146.85
+    },
+    {
+      "name": "Restaurant Owner",
+      "count": 10,
+      "total": 2395.29
+    },
+    {
+      "name": "Executive Director",
+      "count": 10,
+      "total": 2141.24
+    },
+    {
+      "name": "Developer",
+      "count": 4,
+      "total": 1962.33
+    },
+    {
+      "name": "Community Volunteer",
+      "count": 4,
+      "total": 1736.92
+    },
+    {
+      "name": "Software Engineer",
+      "count": 11,
+      "total": 1587.18
+    },
+    {
+      "name": "Registered Nurse",
+      "count": 22,
+      "total": 1495.0
+    },
+    {
+      "name": "Chiropractor",
+      "count": 2,
+      "total": 1300.0
+    },
+    {
+      "name": "Representative",
+      "count": 19,
+      "total": 1292.16
+    },
+    {
+      "name": "CPA",
+      "count": 6,
+      "total": 1239.8
+    },
+    {
+      "name": "Engineer",
+      "count": 2,
+      "total": 1157.59
+    },
+    {
+      "name": "Teacher",
+      "count": 7,
+      "total": 1120.43
+    },
+    {
+      "name": "Special Ed Teacher",
+      "count": 1,
+      "total": 1047.64
+    },
+    {
+      "name": "Chemical  Engineer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Farmer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Forensic Analyst",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Other",
+      "count": 204,
+      "total": 31421.23
+    }
   ]
 }

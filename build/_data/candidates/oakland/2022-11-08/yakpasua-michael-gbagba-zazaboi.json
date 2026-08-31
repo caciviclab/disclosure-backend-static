@@ -38,6 +38,150 @@
       "Within Oakland": 8950.0,
       "Within California": 650.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Sydewayz Cafe",
+        "count": 4,
+        "total": 3000.0
+      },
+      {
+        "name": "UNKOWN",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "CDCR",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Hawk Circle Consulting",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Selborne Legal Consulting",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Hoem & Associates",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Chambers Construction Inc",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "RBA Creative",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Stanford University",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Information Technology",
+        "count": 4,
+        "total": 3000.0
+      },
+      {
+        "name": "Occupation not reported",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "CORRECTIONAL OFFICER",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Floor installation",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Contractor",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Security Management",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Clinical Review Specialist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director of Education",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "lecturer",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 220.0,
     "expenditures_by_type": {
       "Polling and Survey Research": 1156.95,

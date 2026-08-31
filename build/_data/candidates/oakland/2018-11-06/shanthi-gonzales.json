@@ -47,6 +47,270 @@
       "Within Oakland": 16820.0,
       "Within California": 12375.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 20,
+        "total": 5350.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 7,
+        "total": 825.0
+      },
+      {
+        "name": "Astrea Foundation",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 4,
+        "total": 800.0
+      },
+      {
+        "name": "East Bay Asian Youth Center",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "JSK Fellowships",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Partnership for Democracy and Education",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Tulum Innovative Engineering",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 2,
+        "total": 640.0
+      },
+      {
+        "name": "Blake Griggs Properties",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Boston Common Asset Management",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Long Foundation",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Schott Foundation for Public Education",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Thornhill Parent Faculty Club",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Torres Law Group",
+        "count": 2,
+        "total": 325.0
+      },
+      {
+        "name": "Michael Stars",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Movement Strategy Center",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "ABC Security Service",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Contra Costa Community College",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "O'Melveny & Myers LLP",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Pathline Consulting",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "San Francisco Unified School District",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "UFCW Local 135",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Mills College",
+        "count": 2,
+        "total": 225.0
+      },
+      {
+        "name": "Other",
+        "count": 40,
+        "total": 4830.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Attorney",
+        "count": 13,
+        "total": 3000.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 9,
+        "total": 2250.0
+      },
+      {
+        "name": "Educator",
+        "count": 14,
+        "total": 2150.0
+      },
+      {
+        "name": "Librarian",
+        "count": 4,
+        "total": 1300.0
+      },
+      {
+        "name": "Principal",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "Teacher",
+        "count": 8,
+        "total": 975.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 925.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 2,
+        "total": 925.0
+      },
+      {
+        "name": "Consultant",
+        "count": 6,
+        "total": 850.0
+      },
+      {
+        "name": "English Coach",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Lab Technician",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Major Gifts Officer",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Meditation Teacher",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Political Strategist",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Professor",
+        "count": 5,
+        "total": 725.0
+      },
+      {
+        "name": "Leadership Coach",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Psychologist",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 550.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 4,
+        "total": 550.0
+      },
+      {
+        "name": "Student",
+        "count": 1,
+        "total": 540.0
+      },
+      {
+        "name": "Co-Founder and President",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Library Tech",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Nonprofit Consultant",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Portfolio Manager",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Other",
+        "count": 52,
+        "total": 7130.0
+      }
+    ],
     "total_small_contributions": 4753.0,
     "expenditures_by_type": {
       "Contribution": 15722.89,

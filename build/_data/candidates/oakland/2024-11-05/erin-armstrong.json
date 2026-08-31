@@ -46,6 +46,270 @@
       "Within Oakland": 9155.0,
       "Within California": 8500.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 8,
+        "total": 1475.0
+      },
+      {
+        "name": "County of Alameda",
+        "count": 3,
+        "total": 800.0
+      },
+      {
+        "name": "Crohn's & Colitis Foundation",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "10x Genomics",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "APOS",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Alpine School District",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Commercial Property Solutions",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Databricks",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Golden Artist Colors",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Snap Commerce",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Apple Inc",
+        "count": 3,
+        "total": 550.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Bornstein & Bornstein Law Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Boston University Chobanian and Avedisian School of Medicine",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "USAID",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Intellyk",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Meta",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "MicroByre",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "SMCCD",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "USF",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "UCLA",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "MT Diablo Unified",
+        "count": 3,
+        "total": 155.0
+      },
+      {
+        "name": "Dana Lang - Oakland",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Other",
+        "count": 24,
+        "total": 2045.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 18,
+        "total": 4250.0
+      },
+      {
+        "name": "Physician",
+        "count": 3,
+        "total": 950.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Aide to the Supervisor",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Manager",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Office Assistant",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Senior Advisor",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Tech Trainer",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Technical Researcher / Writer",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Creative Director",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Chief of Staff",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Artist",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Inventor",
+        "count": 3,
+        "total": 275.0
+      },
+      {
+        "name": "Foreign Service",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Administrator",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Anaalyst",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Educacion",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Mechanic",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Scientist",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Marketer",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "Other",
+        "count": 33,
+        "total": 2800.0
+      }
+    ],
     "total_small_contributions": 3812.0,
     "expenditures_by_type": {
       "Fundraising Events": 465.29,

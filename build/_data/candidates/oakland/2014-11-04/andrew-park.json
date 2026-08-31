@@ -41,6 +41,270 @@
       "Within Oakland": 35249.72,
       "Within California": 21280.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 42,
+        "total": 13927.92
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 9,
+        "total": 9902.36
+      },
+      {
+        "name": "Homemaker",
+        "count": 8,
+        "total": 3350.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 6,
+        "total": 2050.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 6,
+        "total": 1425.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 6,
+        "total": 750.0
+      },
+      {
+        "name": "2Y Contruction",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Bay Area Air Quality Management District",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Brown and Caldwell",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Crunchyroll, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Domantay Rehabilitation Services",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Family TLC, Inc",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Medivation Field Solutions, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "NDSU",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Oracle, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Philanthropic Ventures Foundation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "UC",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "UCSF",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Young Nak Church",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "10 Coders Inc",
+        "count": 1,
+        "total": 680.0
+      },
+      {
+        "name": "Peralta Colleges",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Tribe Church",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Claremont EAP",
+        "count": 6,
+        "total": 561.44
+      },
+      {
+        "name": "Almac Group",
+        "count": 2,
+        "total": 550.0
+      },
+      {
+        "name": "Other",
+        "count": 60,
+        "total": 10874.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "manager",
+        "count": 8,
+        "total": 9752.36
+      },
+      {
+        "name": "homemaker",
+        "count": 8,
+        "total": 3350.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 16,
+        "total": 2784.0
+      },
+      {
+        "name": "Engineer",
+        "count": 5,
+        "total": 1800.0
+      },
+      {
+        "name": "lawyer",
+        "count": 3,
+        "total": 1600.0
+      },
+      {
+        "name": "Day Care Proprietor",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "restaurant owner",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "consultant",
+        "count": 10,
+        "total": 1230.0
+      },
+      {
+        "name": "auto repair",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Teacher",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "restaurant proprietor",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "sales",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "student",
+        "count": 5,
+        "total": 725.0
+      },
+      {
+        "name": "76 station proprietor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Administrator",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Director of Operations",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Educator",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Estate Attorney",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "General Contractor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "KP Planza",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Koreana Plaza",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Occupational Therapist",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Professor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 97,
+        "total": 21713.36
+      }
+    ],
     "total_small_contributions": 9788.86,
     "expenditures_by_type": {
       "Not Stated": 3746.73,

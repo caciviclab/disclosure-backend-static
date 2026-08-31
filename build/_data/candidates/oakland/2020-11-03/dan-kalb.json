@@ -54,6 +54,270 @@
       "Within Oakland": 63409.82,
       "Within California": 82059.71
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 30,
+        "total": 7623.19
+      },
+      {
+        "name": "City Of Oakland",
+        "count": 30,
+        "total": 4290.34
+      },
+      {
+        "name": "BMWL & Partners",
+        "count": 5,
+        "total": 3600.0
+      },
+      {
+        "name": "State Of California",
+        "count": 9,
+        "total": 2625.0
+      },
+      {
+        "name": "City Of Berkeley",
+        "count": 6,
+        "total": 1282.34
+      },
+      {
+        "name": "City Of Los Angeles",
+        "count": 3,
+        "total": 1175.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Affirmed Housing",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Alex Beaton Real Estate",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Argent Materials Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Best Bay Apartments",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Consolidated Rubber Fasteners",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "DroneDeploy",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Eminent Resources Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Gatan, Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Grace Executive Services Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "HA Builder Group, LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Jerome And Horner",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Lpc Real Estate Corp",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Milo Group Of California, Inc",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Restore Hetch Hetchy",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "SCI Consulting Group",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "The Stanhope Company",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Townsend Public Affairs, Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 281,
+        "total": 48732.85
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 145,
+        "total": 30994.48
+      },
+      {
+        "name": "Attorney",
+        "count": 55,
+        "total": 9572.68
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 24,
+        "total": 7026.0
+      },
+      {
+        "name": "Political Consultant",
+        "count": 12,
+        "total": 4058.0
+      },
+      {
+        "name": "Owner",
+        "count": 11,
+        "total": 3550.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 19,
+        "total": 3475.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 5,
+        "total": 2800.0
+      },
+      {
+        "name": "Director",
+        "count": 9,
+        "total": 2068.0
+      },
+      {
+        "name": "Investor",
+        "count": 6,
+        "total": 1823.19
+      },
+      {
+        "name": "Principal",
+        "count": 7,
+        "total": 1450.0
+      },
+      {
+        "name": "Mayor",
+        "count": 4,
+        "total": 1382.34
+      },
+      {
+        "name": "Physician",
+        "count": 6,
+        "total": 1300.0
+      },
+      {
+        "name": "City Councilmember",
+        "count": 7,
+        "total": 1228.0
+      },
+      {
+        "name": "Architect",
+        "count": 9,
+        "total": 1200.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Physicist",
+        "count": 3,
+        "total": 1089.06
+      },
+      {
+        "name": "Manager",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Executive",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "Managing Partner",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "Author",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "California State Assemblymember",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Contracting Consultant",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Culinary Consultant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Engineering Manager Development Operations",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Health Educator",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 194,
+        "total": 35206.45
+      }
+    ],
     "total_small_contributions": 13791.45,
     "expenditures_by_type": {
       "Print Ads": 385.0,

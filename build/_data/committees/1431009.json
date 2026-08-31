@@ -288,5 +288,64 @@
         360500.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Bloomberg LP Media Production",
+      "count": 1,
+      "total": 200000.0
+    },
+    {
+      "name": "Stacy H. Schusterman",
+      "count": 1,
+      "total": 75000.0
+    },
+    {
+      "name": "Arthur Rock and Company",
+      "count": 1,
+      "total": 37500.0
+    },
+    {
+      "name": "Families in Action for Quality Education",
+      "count": 4,
+      "total": 400.0
+    },
+    {
+      "name": "Salesforce.com, Inc.",
+      "count": 1,
+      "total": 200.0
+    },
+    {
+      "name": "Rogers Family Foundation",
+      "count": 6,
+      "total": 60.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Executive",
+      "count": 1,
+      "total": 200000.0
+    },
+    {
+      "name": "Philanthropist",
+      "count": 7,
+      "total": 75060.0
+    },
+    {
+      "name": "Principal",
+      "count": 1,
+      "total": 37500.0
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 4,
+      "total": 400.0
+    },
+    {
+      "name": "Manager",
+      "count": 1,
+      "total": 200.0
+    }
   ]
 }

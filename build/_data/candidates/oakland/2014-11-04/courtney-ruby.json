@@ -41,6 +41,270 @@
       "Within Oakland": 89051.39,
       "Within California": 51520.98
     },
+    "contributions_by_employer": [
+      {
+        "name": "Candidate",
+        "count": 4,
+        "total": 16628.39
+      },
+      {
+        "name": "Homemaker",
+        "count": 6,
+        "total": 2400.0
+      },
+      {
+        "name": "University of California, Berkeley",
+        "count": 11,
+        "total": 2250.0
+      },
+      {
+        "name": "Stafford Real Estate",
+        "count": 4,
+        "total": 1400.0
+      },
+      {
+        "name": "Gateway Bank",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Petfood Express",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 7,
+        "total": 985.0
+      },
+      {
+        "name": "Cassidy Turley",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "Seneca Center",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Cisco Systems, Inc.",
+        "count": 5,
+        "total": 850.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Ken Betts, Inc.",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "5 Stepping Stones",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Akonadi Foundation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Amy Slater",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Asian Health Services",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Bridge the Chasm",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Children's Fairyland",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chiodo Art",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Christopher Brown",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 6,
+        "total": 700.0
+      },
+      {
+        "name": "Daniel Altemus",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Discera Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Donahue Gallagher Woods, LLP",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Family Paths",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 393,
+        "total": 81311.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 118,
+        "total": 24490.0
+      },
+      {
+        "name": "Candidate",
+        "count": 4,
+        "total": 16628.39
+      },
+      {
+        "name": "Attorney",
+        "count": 34,
+        "total": 8500.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 21,
+        "total": 6950.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 20,
+        "total": 6600.0
+      },
+      {
+        "name": "Owner",
+        "count": 29,
+        "total": 6350.0
+      },
+      {
+        "name": "Consultant",
+        "count": 31,
+        "total": 6285.0
+      },
+      {
+        "name": "Director",
+        "count": 16,
+        "total": 2800.0
+      },
+      {
+        "name": "Manager",
+        "count": 12,
+        "total": 2800.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 10,
+        "total": 2550.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 6,
+        "total": 2400.0
+      },
+      {
+        "name": "Vice President",
+        "count": 5,
+        "total": 2150.0
+      },
+      {
+        "name": "Property Manager",
+        "count": 6,
+        "total": 1750.0
+      },
+      {
+        "name": "Partner",
+        "count": 8,
+        "total": 1648.0
+      },
+      {
+        "name": "Auditor",
+        "count": 7,
+        "total": 1550.0
+      },
+      {
+        "name": "CFO",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "Accountant",
+        "count": 9,
+        "total": 1300.0
+      },
+      {
+        "name": "Founder",
+        "count": 6,
+        "total": 1158.0
+      },
+      {
+        "name": "Administrator",
+        "count": 6,
+        "total": 1150.0
+      },
+      {
+        "name": "Dentist",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Student",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Yoga Teacher",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Architect",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "City Auditor",
+        "count": 7,
+        "total": 950.0
+      },
+      {
+        "name": "Sales Manager",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "Other",
+        "count": 212,
+        "total": 40855.0
+      }
+    ],
     "total_small_contributions": 12393.89,
     "expenditures_by_type": {
       "Print Ads": 1452.5,

@@ -60,6 +60,110 @@
       "Within Oakland": 5997.99,
       "Within California": 3800.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Oakland Unified School District",
+        "count": 8,
+        "total": 900.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 601.0
+      },
+      {
+        "name": "Alameda Labor Council",
+        "count": 3,
+        "total": 488.02
+      },
+      {
+        "name": "Albany Memorial ED",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Cisco",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Berkeley Unified School District",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "CTA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "SFUSD",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Turcorp",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Teacher",
+        "count": 11,
+        "total": 1300.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 6,
+        "total": 700.0
+      },
+      {
+        "name": "Artist",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Organizer",
+        "count": 3,
+        "total": 488.02
+      },
+      {
+        "name": "Nurse",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "I.T",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Speech Language Pathologist",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Professor",
+        "count": 1,
+        "total": 101.0
+      },
+      {
+        "name": "Chief Financial Officer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Photographer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Representative",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 863.16,
     "expenditures_by_type": {
       "Office Expenses": 112.46,

@@ -40,6 +40,125 @@
       "Within Oakland": 67300.0,
       "Within California": 1250.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Accretive Solutions",
+        "count": 9,
+        "total": 62000.0
+      },
+      {
+        "name": "Accrretive Solutions",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Core-Mark Int'l., Inc.",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "City of Palo Alto",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Wells Fargo Bank",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "U.S. Dept. Interior",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "AAA NCNU",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Auction.Com",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of San Francisco",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Elko Co. School District",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Jairam & Associates",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Consultant",
+        "count": 13,
+        "total": 62800.0
+      },
+      {
+        "name": "City Auditor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Director, Internal Audit",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Finance",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Auditor",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Accountant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Internal Auditor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Program Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Recruiter",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "VP, Global Tax",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 275.0,
     "expenditures_by_type": {
       "Print Ads": 9483.0,

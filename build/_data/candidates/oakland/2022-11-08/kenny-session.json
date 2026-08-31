@@ -39,6 +39,270 @@
       "Within Oakland": 4450.0,
       "Within California": 7250.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Sales",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "CEO / President",
+        "count": 1,
+        "total": 750.0
+      },
+      {
+        "name": "Laundromat attendant",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Directool",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "Probation Officer",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "Customer service",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Real Estate Broker",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "President",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Camera Operator",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Admin/Owner",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "American AgCredit",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Ers tech",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Family Engagement",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Loan officer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Mortgage",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Pastor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Real Estate Broker/Tax Auditor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Realtor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 3,
+        "total": 300.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 21,
+        "total": 4900.0
+      },
+      {
+        "name": "Boxer Gerson",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Top of the Hill clean laundry",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Cross Ocean Tech",
+        "count": 1,
+        "total": 750.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 6,
+        "total": 750.0
+      },
+      {
+        "name": "Grand laundry",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "Cari",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "Wells Fargo",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "CHL",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "TLP",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Youngblood electrical services",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "AAA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "BHHS DRYSDALE Properties",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Bridgeway Realty",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Caliber Home Loans",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chambers Construction",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Los Angeles",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Employer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Evening Star",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "H4h",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Hathaway Dinwiddie",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "MadeWholeCounselingServices",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Maisel Prop Man",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "OUSD",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 5,
+        "total": 500.0
+      }
+    ],
     "total_small_contributions": 1545.0,
     "expenditures_by_type": {
       "Print Ads": 4132.98,

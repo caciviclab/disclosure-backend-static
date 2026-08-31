@@ -40,6 +40,270 @@
       "Within Oakland": 9800.0,
       "Within California": 13400.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 11,
+        "total": 3100.0
+      },
+      {
+        "name": "Abbott Diabetes Care",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Apostolou Vasiliki, DDS",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Applied Materials & Engineering, Inc.",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "City of Santa Ana, Department or Public Works",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Matson Company",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Oasis Food Market",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Safeway",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "San Ramon Valley Unified School District",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "World Wireless",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Magganas Co",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "City Auto Sales & Repair",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Ghilotti Bros., Inc.",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "LinkedIn",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "MHM Inc",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "The McConnell Group",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Google",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "City of Santa Ana",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Emadtuneup",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "VSCE, Inc",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Anvil Builders",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "LAM Engineering",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Coldwell Banker",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Creative Hospitality Corporation",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 10,
+        "total": 700.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 5,
+        "total": 2050.0
+      },
+      {
+        "name": "Owner",
+        "count": 3,
+        "total": 1550.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Dental Assistant",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Director of Risk Management",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Handyman",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Internal Audit Manager",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Pharmacist",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Dentist",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Developer",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Interim Assistant Director",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Ob/Gyn Physician",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Physician",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Electrician",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Engineering Manager",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Computer Engineer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "General Contractor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Public Works",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Operations Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 11,
+        "total": 800.0
+      }
+    ],
     "total_small_contributions": 1220.0,
     "expenditures_by_type": {
       "Print Ads": 200.0,

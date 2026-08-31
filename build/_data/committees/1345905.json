@@ -6,5 +6,64 @@
   ],
   "contributions_by_election": [
 
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "A Superior Electric",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "California Center for Sleep Disorder",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Dreisback Enterprises",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Dresiback Enterprises",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Self-Employed",
+      "count": 1,
+      "total": 700.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Attorney",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "CFO",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Doctor",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Self-Employed",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "VP - Operations",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 2,
+      "total": -9900.0
+    }
   ]
 }

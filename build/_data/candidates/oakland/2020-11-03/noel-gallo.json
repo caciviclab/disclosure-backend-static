@@ -40,6 +40,270 @@
       "Within Oakland": 38400.0,
       "Within California": 35401.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 5,
+        "total": 1900.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Silverado Contractors, Inc.",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Native American Health Center",
+        "count": 3,
+        "total": 1350.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 2,
+        "total": 1025.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Baines Group LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Briones International LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Fremont, CA",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Collaborative Design Studio",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Computacenter US",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Cordova Corporation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Dutch Direct",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Equity And General Trade Association DBA Oakland Citizens For Equity And Prosperity ('ocep')",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Hacier Pacific Properties",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Helix Consulting Partners",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Nacirfa Corporation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "National Mortgage Insurance Corporation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Quality Tech",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Riaz Capital",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "State Farm",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "TechMarch, LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "The Barron Collection LTD",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Tire Services",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 49,
+        "total": 15626.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 18,
+        "total": 9050.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 8,
+        "total": 4500.0
+      },
+      {
+        "name": "Owner",
+        "count": 7,
+        "total": 3650.0
+      },
+      {
+        "name": "Sales Manager",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Partner",
+        "count": 7,
+        "total": 1250.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 2,
+        "total": 1250.0
+      },
+      {
+        "name": "Accountant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Agricultural Consultant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Architecture",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Associate Engineer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Business Analyst",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Chair",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Escrow Assistant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Graduate Student Instructor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Human Services Coordinator",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Logistics Manager",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Management Analyst",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Manager",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "NLP Master Practitioner",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "President/Chief Executive Officer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Probation Officer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Property Manager",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Real Estate Advisor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 40,
+        "total": 11951.0
+      }
+    ],
     "total_small_contributions": 576.0,
     "expenditures_by_type": {
       "Print Ads": 1500.0,

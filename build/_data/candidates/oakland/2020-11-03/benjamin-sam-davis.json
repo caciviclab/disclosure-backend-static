@@ -52,6 +52,270 @@
       "Within Oakland": 34571.0,
       "Within California": 17820.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 41,
+        "total": 6755.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 20,
+        "total": 2439.0
+      },
+      {
+        "name": "University of California",
+        "count": 4,
+        "total": 1070.0
+      },
+      {
+        "name": "Associated Press",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Siegel, Yee, Brunner & Mehta",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Troutman Sanders",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "Twilio",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "UC San Diego",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Brown University",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Highland Hospital",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "East Bay Municipal Utility District",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 5,
+        "total": 720.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "O'Neil Risk Consulting",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "California State Assembly",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "East Bay Asian Youth Center",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Miller Star Regalia",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Tufts University",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "SF Unified School District",
+        "count": 5,
+        "total": 460.0
+      },
+      {
+        "name": "SCI Consulting",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Alameda County Office of Education",
+        "count": 3,
+        "total": 420.0
+      },
+      {
+        "name": "Hayward Unified School District",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "East Bay Community Foundation",
+        "count": 5,
+        "total": 340.0
+      },
+      {
+        "name": "Oakland Fire Department",
+        "count": 2,
+        "total": 320.0
+      },
+      {
+        "name": "Other",
+        "count": 73,
+        "total": 9918.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 51,
+        "total": 6909.0
+      },
+      {
+        "name": "Attorney",
+        "count": 22,
+        "total": 5220.0
+      },
+      {
+        "name": "Teacher",
+        "count": 31,
+        "total": 4130.0
+      },
+      {
+        "name": "Professor",
+        "count": 11,
+        "total": 2370.0
+      },
+      {
+        "name": "Consultant",
+        "count": 12,
+        "total": 2070.0
+      },
+      {
+        "name": "psychologist",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Educator",
+        "count": 8,
+        "total": 1015.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "City Councilmember",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Library Technician",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Reporter",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Copy Editor",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Physician's Assistant",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "City Planner",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Affordable Housing Consultant",
+        "count": 2,
+        "total": 660.0
+      },
+      {
+        "name": "Principal",
+        "count": 11,
+        "total": 619.0
+      },
+      {
+        "name": "photographer",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Writer",
+        "count": 3,
+        "total": 520.0
+      },
+      {
+        "name": "Assemblymember",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Water Resource Specialist",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "marriage counselor",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Senior Project Manager",
+        "count": 5,
+        "total": 460.0
+      },
+      {
+        "name": "Other",
+        "count": 103,
+        "total": 12808.0
+      }
+    ],
     "total_small_contributions": 11923.99,
     "expenditures_by_type": {
       "Not Stated": 311.93,

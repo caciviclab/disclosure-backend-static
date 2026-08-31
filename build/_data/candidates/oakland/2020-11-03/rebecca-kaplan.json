@@ -54,6 +54,270 @@
       "Within Oakland": 150661.63,
       "Within California": 79039.8
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 25,
+        "total": 71109.63
+      },
+      {
+        "name": "Diamond Investment Properties",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Milo Group of California, Inc.",
+        "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Silverado Contractors, Inc.",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Signature Development Group",
+        "count": 2,
+        "total": 1700.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 6,
+        "total": 1600.0
+      },
+      {
+        "name": "GSC Logistics, Inc.",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Kiva Confections",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Lighthouse Public Affairs, LLC",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 11,
+        "total": 1465.0
+      },
+      {
+        "name": "Hawk Development",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Holy Names University",
+        "count": 6,
+        "total": 930.0
+      },
+      {
+        "name": "ABC Security Service, Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Anthony Law Group",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Automax",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Chase Bank",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Claremont Realty",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Coldwell Banker",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Collaborative Design Studio",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Dreisbach Enterprise",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "DroneDeploy",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Hoi Lan Law",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 279,
+        "total": 57453.8
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Councilmember",
+        "count": 12,
+        "total": 55364.63
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 78,
+        "total": 19733.0
+      },
+      {
+        "name": "City Councilmember",
+        "count": 3,
+        "total": 14900.0
+      },
+      {
+        "name": "Attorney",
+        "count": 32,
+        "total": 6880.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 14,
+        "total": 6600.0
+      },
+      {
+        "name": "Consultant",
+        "count": 27,
+        "total": 6011.8
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 15,
+        "total": 5075.0
+      },
+      {
+        "name": "Owner",
+        "count": 10,
+        "total": 4950.0
+      },
+      {
+        "name": "Executive",
+        "count": 6,
+        "total": 3980.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 20,
+        "total": 2380.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 7,
+        "total": 2200.0
+      },
+      {
+        "name": "Sales Manager",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Psychologist",
+        "count": 9,
+        "total": 1800.0
+      },
+      {
+        "name": "Developer",
+        "count": 2,
+        "total": 1700.0
+      },
+      {
+        "name": "Principal",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Teacher",
+        "count": 10,
+        "total": 1404.0
+      },
+      {
+        "name": "Director",
+        "count": 9,
+        "total": 1380.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 1300.0
+      },
+      {
+        "name": "Manager",
+        "count": 5,
+        "total": 1022.0
+      },
+      {
+        "name": "Builder",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Customer Service",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Architecture",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Construction",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Health Educator",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 171,
+        "total": 32111.0
+      }
+    ],
     "total_small_contributions": 19299.0,
     "expenditures_by_type": {
       "Print Ads": 6000.0,

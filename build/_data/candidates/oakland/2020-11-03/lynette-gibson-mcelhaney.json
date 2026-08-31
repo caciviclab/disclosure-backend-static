@@ -47,6 +47,270 @@
       "Within Oakland": 109756.14,
       "Within California": 76400.34
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 29,
+        "total": 9473.5
+      },
+      {
+        "name": "City Of Oakland",
+        "count": 12,
+        "total": 3978.76
+      },
+      {
+        "name": "EverCharge",
+        "count": 1,
+        "total": 2800.0
+      },
+      {
+        "name": "Lighthouse Public Affairs",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "PCC Logistics",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "The Martin Group Of Companies, LLC",
+        "count": 4,
+        "total": 2250.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 6,
+        "total": 2100.0
+      },
+      {
+        "name": "Milo Group of California",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Axis Development Group",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "Ellis Partners",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "Riaz Capital",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "srmErnst",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Boss",
+        "count": 1,
+        "total": 1000.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Friendly Liquors",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Hawkins Way Capital, LLC",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "11 West Partners",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "A.T. Kearney Middle East LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Albasiery, Inc./Shoprite Market",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Amstutz Associates",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "BGI Construction",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Bay Area Business Associates",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Coliseum Lexus",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Craig Communications",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 249,
+        "total": 84218.9
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 58,
+        "total": 15652.17
+      },
+      {
+        "name": "Real Estate",
+        "count": 32,
+        "total": 13756.66
+      },
+      {
+        "name": "Owner",
+        "count": 24,
+        "total": 12570.8
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 22,
+        "total": 9689.46
+      },
+      {
+        "name": "Attorney",
+        "count": 15,
+        "total": 5816.85
+      },
+      {
+        "name": "Pastor",
+        "count": 10,
+        "total": 4706.66
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 3800.0
+      },
+      {
+        "name": "Partner",
+        "count": 8,
+        "total": 3135.0
+      },
+      {
+        "name": "Public Affairs Consultant",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Principal",
+        "count": 4,
+        "total": 2550.0
+      },
+      {
+        "name": "Contractor",
+        "count": 4,
+        "total": 2300.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 6,
+        "total": 1725.0
+      },
+      {
+        "name": "Manager",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 1550.0
+      },
+      {
+        "name": "Director",
+        "count": 6,
+        "total": 1191.41
+      },
+      {
+        "name": "Project Manager",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "Vice President",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Mayor",
+        "count": 2,
+        "total": 1113.8
+      },
+      {
+        "name": "Student",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Public Relations Consultant",
+        "count": 2,
+        "total": 1032.07
+      },
+      {
+        "name": "Writer",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Architect",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Auto Dealer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Banker",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Broker",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 178,
+        "total": 51933.45
+      }
+    ],
     "total_small_contributions": 48895.17,
     "expenditures_by_type": {
       "Not Stated": 20132.32,

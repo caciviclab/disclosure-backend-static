@@ -38,6 +38,270 @@
       "Within Oakland": 3000.0,
       "Within California": 2600.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Ensis AI",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "The Pack",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "PREG",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Indian Health Council, Inc.",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Open AI",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "TMC CC",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "University of California",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Arise high school",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "826 Valencia",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Adobe",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Alameda Unified School District",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Beast Oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Coastal Curl",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Engineering Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Google",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Greenberg Traurig",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Huckleberry",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Kite Hill",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Local 3",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Magnit",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Marine Corps",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Miharu ice cream",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 9,
+        "total": 900.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Chef/owner",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Chief Technology Officer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Dog Boarder",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Finance",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Software engineer",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 4,
+        "total": 325.0
+      },
+      {
+        "name": "Owner",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Physician",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Director of Partnerships",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Sales",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Scientist",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Baker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Designer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director of Minor League Operations",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Land Surveyor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Litigation support",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Marine",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Marketing",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Policy Specialist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Procurement Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Product",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 6,
+        "total": 600.0
+      }
+    ],
     "total_small_contributions": 2373.33,
     "expenditures_by_type": {
       "Not Stated": 1966.07,

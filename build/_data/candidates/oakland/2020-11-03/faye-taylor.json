@@ -38,6 +38,25 @@
       "Within Oakland": 1950.0,
       "Within California": 300.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Pacific Maritime Association",
+        "count": 2,
+        "total": 200.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Longshoreman",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Retired longshoreman",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 0.0,
     "expenditures_by_type": {
       "Print Ads": 2325.0,

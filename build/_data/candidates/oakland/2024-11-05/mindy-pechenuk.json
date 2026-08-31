@@ -39,6 +39,145 @@
       "Within Oakland": 1580.0,
       "Within California": 3382.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 13,
+        "total": 1510.0
+      },
+      {
+        "name": "Software Quality Analyst",
+        "count": 4,
+        "total": 462.0
+      },
+      {
+        "name": "Lakehurst Hall, Inc",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Contracts Admin",
+        "count": 3,
+        "total": 250.0
+      },
+      {
+        "name": "ASP",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "NBC Universal",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Linton Paper and Supply",
+        "count": 2,
+        "total": 180.0
+      },
+      {
+        "name": "American System Publications",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Calviri",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Fox Reality Corp",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Oak Hills Travel",
+        "count": 1,
+        "total": 50.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 15,
+        "total": 2125.0
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 500.0
+      },
+      {
+        "name": "Sterling Development LLC",
+        "count": 4,
+        "total": 462.0
+      },
+      {
+        "name": "Accountant",
+        "count": 2,
+        "total": 340.0
+      },
+      {
+        "name": "Financial Advisor",
+        "count": 4,
+        "total": 300.0
+      },
+      {
+        "name": "Residential Apartment Manager",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Sales",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "MCE Corporation",
+        "count": 3,
+        "total": 250.0
+      },
+      {
+        "name": "Laborer Artist",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Owner",
+        "count": 2,
+        "total": 180.0
+      },
+      {
+        "name": "Inventor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Investor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Travel Specialist",
+        "count": 1,
+        "total": 50.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 20.0
+      }
+    ],
     "total_small_contributions": 1587.0,
     "expenditures_by_type": {
       "Not Stated": 748.23,

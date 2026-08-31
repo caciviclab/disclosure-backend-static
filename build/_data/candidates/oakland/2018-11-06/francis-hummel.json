@@ -39,6 +39,125 @@
       "Within Oakland": 11888.6,
       "Within California": 825.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 8,
+        "total": 3500.0
+      },
+      {
+        "name": "Advesa Wellness",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Merrill Lynch",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Pak West paper and packaging",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "CBD Professionals",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Jingubang",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Raphael and Associates, Inc",
+        "count": 1,
+        "total": 165.0
+      },
+      {
+        "name": "Mag Wellness",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Expert Support, Inc.",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "John Burris",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "non",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Lawyer",
+        "count": 5,
+        "total": 2050.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Landscaping",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Wealth Management",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Sales",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "CPA",
+        "count": 2,
+        "total": 265.0
+      },
+      {
+        "name": "Owner",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 2,
+        "total": 125.0
+      },
+      {
+        "name": "Home Maker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Technical Writer",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 640.0,
     "expenditures_by_type": {
       "Campaign Consultants": 141.86,

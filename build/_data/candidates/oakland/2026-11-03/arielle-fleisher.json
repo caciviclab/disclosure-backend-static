@@ -40,6 +40,270 @@
       "Within Oakland": 22809.0,
       "Within California": 5720.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Consultant",
+        "count": 6,
+        "total": 1200.0
+      },
+      {
+        "name": "Product Manager",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Attorney",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Operations",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Data systems manager",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Philanthropy",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Health tech",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Owner",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Policy Manager",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Manager",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Marketing",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Nonprofit",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Sustainability Coordinator",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Technology",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Product Management",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Architect",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Electrical Engineer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Operating Partner",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Product development",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "SVP Public Policy",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 47,
+        "total": 5432.47
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 22,
+        "total": 5400.0
+      },
+      {
+        "name": "University of California",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Docusign",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Give Forward Foundation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Lighthouse Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Maven Learning Inc.",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Permit Power",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self (Danny Wan)",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self (Robert Spencer)",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "UC Berkeley Goldman School of Public Policy",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Waymo",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Abbott",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Assort health and Givers health",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "BECU",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Contra Costa County",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Google",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Infragarden LLC",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Meta",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self - Kevin Sweeney",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Wildlife Conservation Network",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 2,
+        "total": 380.0
+      },
+      {
+        "name": "AECOM",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Affirm Inc.",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Analog Devices",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Another Planet Entertainment",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 59,
+        "total": 7652.47
+      }
+    ],
     "total_small_contributions": 3015.0,
     "expenditures_by_type": {
       "Campaign Literature and Mailings": 137.95,

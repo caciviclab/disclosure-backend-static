@@ -40,6 +40,270 @@
       "Within Oakland": 39378.15,
       "Within California": 23067.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 16,
+        "total": 3907.5
+      },
+      {
+        "name": "US EPA",
+        "count": 7,
+        "total": 3490.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 6,
+        "total": 1453.0
+      },
+      {
+        "name": "Richard J. Lee Law Group",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "USDOT",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Pilot.com",
+        "count": 3,
+        "total": 705.0
+      },
+      {
+        "name": "oakland veterinary hospital",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Blue Shield of California",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Holmes",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "InsideTrack",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "JAMS",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "LA County",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "MuriGenics Inc.",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "PTW",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Phillips, Richard & RInd, P.A.",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Real Eastate Broker",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Real estate broker",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Real estate developer/investor",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "SFDPH",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Skydio",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "General Partner",
+        "count": 3,
+        "total": 599.9
+      },
+      {
+        "name": "EO Ventures",
+        "count": 2,
+        "total": 550.0
+      },
+      {
+        "name": "Lazard",
+        "count": 1,
+        "total": 505.0
+      },
+      {
+        "name": "A&M",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Adobe",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Other",
+        "count": 195,
+        "total": 30225.5
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 127,
+        "total": 24931.75
+      },
+      {
+        "name": "Attorney",
+        "count": 14,
+        "total": 3818.0
+      },
+      {
+        "name": "Physician",
+        "count": 12,
+        "total": 3050.0
+      },
+      {
+        "name": "Advisor",
+        "count": 6,
+        "total": 2534.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 7,
+        "total": 2000.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 6,
+        "total": 1650.0
+      },
+      {
+        "name": "Consultant",
+        "count": 11,
+        "total": 1585.5
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Finance",
+        "count": 3,
+        "total": 1005.0
+      },
+      {
+        "name": "Director",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "Professor",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 915.0
+      },
+      {
+        "name": "Scientist",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Marketing Manager",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Writer",
+        "count": 3,
+        "total": 705.0
+      },
+      {
+        "name": "veterinarian",
+        "count": 2,
+        "total": 705.0
+      },
+      {
+        "name": "Partner",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Data Analyst",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Health insurance exeuctive",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Mediator",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Psychiatrist",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Creative Ventures",
+        "count": 3,
+        "total": 599.9
+      },
+      {
+        "name": "Federal Gov",
+        "count": 1,
+        "total": 525.0
+      },
+      {
+        "name": "Manager",
+        "count": 5,
+        "total": 513.0
+      },
+      {
+        "name": "Accountant",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Other",
+        "count": 153,
+        "total": 24630.5
+      }
+    ],
     "total_small_contributions": 10133.08,
     "expenditures_by_type": {
       "Not Stated": 1793.11,

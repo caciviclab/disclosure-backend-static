@@ -6,5 +6,104 @@
   ],
   "contributions_by_election": [
 
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Michelman & Robinson",
+      "count": 8,
+      "total": 4900.0
+    },
+    {
+      "name": "County of Los Angeles",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Meyers Nave",
+      "count": 3,
+      "total": 600.0
+    },
+    {
+      "name": "Core Security Solutions",
+      "count": 1,
+      "total": 400.0
+    },
+    {
+      "name": "Blum",
+      "count": 1,
+      "total": 350.0
+    },
+    {
+      "name": "Clifford Moss",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Kaiser Permanente",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "PG&E",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Urbanspace Development",
+      "count": 3,
+      "total": 250.0
+    },
+    {
+      "name": "Peralta Community College District Board of Trustees",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Attorney",
+      "count": 12,
+      "total": 6200.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 1,
+      "total": 700.0
+    },
+    {
+      "name": "Manager",
+      "count": 1,
+      "total": 400.0
+    },
+    {
+      "name": "Executive Director",
+      "count": 1,
+      "total": 350.0
+    },
+    {
+      "name": "Consultant",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Developer",
+      "count": 3,
+      "total": 250.0
+    },
+    {
+      "name": "Government Relations Manager",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Political Consultant",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Board Member",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

@@ -38,6 +38,200 @@
       "Within Oakland": 5525.0,
       "Within California": 1950.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 1700.0
+      },
+      {
+        "name": "AthenaMT LLC",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Rodriguez Medical Clinic",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Scott's",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Tobisha Instuments",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "DBS World Wireless",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Better Home Realty",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Contra Costa County",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Custom Taylored Solutions",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "East Bay Park Regional",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "HCL America",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Java Jukebox",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Newcal Realty",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Over Sixty Health Center",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Scott's Seafood",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Scotts",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Sedgwick",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "State Farm",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 12,
+        "total": 2875.0
+      },
+      {
+        "name": "Nurse",
+        "count": 1,
+        "total": 1600.0
+      },
+      {
+        "name": "Doctor",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Manager",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Owner",
+        "count": 3,
+        "total": 800.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Hairdresser",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Sales",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Dentist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director Ward 2",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Diver",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "IT Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Marketing Analyst",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Office Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Principal Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Server",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 1278.0,
     "expenditures_by_type": {
       "Print Ads": 810.0,

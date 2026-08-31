@@ -39,6 +39,270 @@
       "Within Oakland": 14390.0,
       "Within California": 5625.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 16,
+        "total": 2650.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 4,
+        "total": 1275.0
+      },
+      {
+        "name": "Labrador-Grenfell Health Authority",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Consolidated CM",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Exterran",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "GATAN INC",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "JOHNSTON SUPPLY",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "KINDRED",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "WILLIAMS TANK LINE",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "OUSD",
+        "count": 1,
+        "total": 540.0
+      },
+      {
+        "name": "PFN Insurance Services",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "ALAMEDA HEALTHCARE SYSTEM",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "Lawrence Berkeley Labs",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Farmer Joe's",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "OAKLAND UNIFIED SCHOOL DESTRICT",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Children's Hospital Oakland",
+        "count": 2,
+        "total": 275.0
+      },
+      {
+        "name": "CA State Assembly",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "EBR SCHOOL SYSTEM",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "TRINET",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "The McConnell Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "PG&E",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Seton Med Center",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Spitzley Construction",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Clean Harbor",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Other",
+        "count": 32,
+        "total": 3125.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 18,
+        "total": 3000.0
+      },
+      {
+        "name": "physician",
+        "count": 4,
+        "total": 1025.0
+      },
+      {
+        "name": "Engineer",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "Attorney",
+        "count": 6,
+        "total": 725.0
+      },
+      {
+        "name": "COUNCIL MEMBER",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "EXECUTIVE",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "NURSE",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "OSC Biller",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "SOFTWARE DIRECTOR",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "TRUCK DRIVER",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "ACCOUNTANT",
+        "count": 2,
+        "total": 690.0
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 550.0
+      },
+      {
+        "name": "TEACHER",
+        "count": 3,
+        "total": 550.0
+      },
+      {
+        "name": "Agent",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Technical writer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Owner",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Investor",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "Physicist",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "REGISTERED NURSE",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Chief of Staff",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Commercial Real Estate",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "DENTIST",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Writer",
+        "count": 3,
+        "total": 250.0
+      },
+      {
+        "name": "Carpenter",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 40,
+        "total": 4025.0
+      }
+    ],
     "total_small_contributions": 5910.0,
     "expenditures_by_type": {
       "Print Ads": 6958.74,

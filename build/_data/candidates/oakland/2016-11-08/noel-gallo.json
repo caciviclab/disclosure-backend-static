@@ -40,6 +40,260 @@
       "Within Oakland": 26150.0,
       "Within California": 18950.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 26,
+        "total": 11400.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 5,
+        "total": 3300.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 4,
+        "total": 1700.0
+      },
+      {
+        "name": "CCSAC, Inc.",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Student",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Santa Clara Housing Authority",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "The Seville Group",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "barron collection",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CW Analytical",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Emerald Fund",
+        "count": 1,
+        "total": 350.0
+      },
+      {
+        "name": "AMPS",
+        "count": 2,
+        "total": 325.0
+      },
+      {
+        "name": "Martinkovic Milford Architects",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "CCMTS",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Comprehensive Allergy Services",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Goodby-Silverstein & Partners",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Harbor Bay Realty",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "BART",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Chek Tan and Company",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "La Tortilla Company",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "OUSD",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "keystone development",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "MTC",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Portfolio Development Properties",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "controlled energy",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Real Estate",
+        "count": 7,
+        "total": 3850.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 7,
+        "total": 2325.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 3,
+        "total": 1750.0
+      },
+      {
+        "name": "Manufacturing",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Architect",
+        "count": 3,
+        "total": 800.0
+      },
+      {
+        "name": "Student",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Accounting",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Communications Manager",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Real Estate Advisor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Real Estate owner",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Secretary/Treasurer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Sr. Housing Analyst",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Veterinarian",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "attornet",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "city council",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "sales rep",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "owner",
+        "count": 3,
+        "total": 550.0
+      },
+      {
+        "name": "Vice President",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Vice-Principal",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "attorney",
+        "count": 3,
+        "total": 500.0
+      },
+      {
+        "name": "property management",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Other",
+        "count": 18,
+        "total": 3675.0
+      }
+    ],
     "total_small_contributions": 919.0,
     "expenditures_by_type": {
       "Print Ads": 500.0,

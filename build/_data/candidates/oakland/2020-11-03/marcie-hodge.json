@@ -40,6 +40,245 @@
       "Within Oakland": 11300.0,
       "Within California": 3250.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "SJBH, Inc",
+        "count": 1,
+        "total": 9000.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Harambee Community Services",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Kingdom Buildrers",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Henry Adult Program",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "RE-TIRED",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Creekside Community Church",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Facebook",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Baptist Health",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Vallejo School District",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Bio Techne",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "AHS",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Elite Revenue Schools Solutions",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Innovative Training Consultants",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Mylaan Entertainment",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "NOrthMarq Capital",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Natomas Unified",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Sr. Paralegal",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Travis Credit Union",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "USPS",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Visbal Consulting",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "YMCA",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 9000.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "Pastor",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Engineer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Support Counselor",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Marketer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Medical Doctor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Nurse",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Scientist",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "LOVCG",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Legal Assistant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Owner",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Physician",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Postal Worker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Public Relations",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Vice President",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Vice President-CRE Closer",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 215.0,
     "expenditures_by_type": {
       "Not Stated": 532.29,

@@ -47,6 +47,270 @@
       "Within Oakland": 15343.58,
       "Within California": 7508.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Leadership Public Schools",
+        "count": 3,
+        "total": 1208.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 10,
+        "total": 1150.0
+      },
+      {
+        "name": "40th STreet Apartments LLC",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "COVAH Public Schools",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Johsntone Supply",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Sony Pictures",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "YHLA Architects",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Connect Ed",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "East Bay Asian Youth Center",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Long Foundation",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Performance Fact, Inc",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Asian Health Services",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Aspire Public Schools",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Change Healthcare",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "East Bay Innovation Academy",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Education for Change",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "GO Public Schools",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Kos-Read Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Unity Schools",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Ascend Rehab",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Oakland Progressive Daycare",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Stuart Foundation",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "CCSA",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Alder GSE",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 16,
+        "total": 1600.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 18,
+        "total": 6843.58
+      },
+      {
+        "name": "Educator",
+        "count": 11,
+        "total": 2758.0
+      },
+      {
+        "name": "Owner/Manager",
+        "count": 3,
+        "total": 1600.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 5,
+        "total": 1050.0
+      },
+      {
+        "name": "Architect",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Vfx Artist",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Development",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Regional Director",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "CBO",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Board Chair",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Researcher",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "pediatrician",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "physician",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Attorney",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "COO",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Chairman",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Clerical",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Developer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director of Facilities",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Education Consultant",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 11,
+        "total": 1100.0
+      }
+    ],
     "total_small_contributions": 1867.0,
     "expenditures_by_type": {
       "Campaign Consultants": 8496.62,

@@ -40,6 +40,270 @@
       "Within Oakland": 78176.0,
       "Within California": 31465.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Google",
+        "count": 3,
+        "total": 1350.0
+      },
+      {
+        "name": "Port of Oakland",
+        "count": 2,
+        "total": 1020.0
+      },
+      {
+        "name": "University of California",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Brain Co",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Care Plus Chiropratic Clinic",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Church",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "EcoDataLab",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "LA County",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Law Office of Doron Weinberg",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Law Office of Leung & Leung",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Marinship",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Mental health Association for Chinese communities",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Montclair Golf Club",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Montclair Golf Ent",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Morshedi Dental",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Oakland Garden School",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Pacific American",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Park Vista Square LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Quality Tech Automotive",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "SVA Architects Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Self/MC LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self/Robert Spencer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 153,
+        "total": 39747.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 114,
+        "total": 33213.0
+      },
+      {
+        "name": "Owner",
+        "count": 16,
+        "total": 7538.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 10,
+        "total": 4800.0
+      },
+      {
+        "name": "Consultant",
+        "count": 11,
+        "total": 4200.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 7,
+        "total": 3350.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 6,
+        "total": 2050.0
+      },
+      {
+        "name": "Manager",
+        "count": 6,
+        "total": 1611.0
+      },
+      {
+        "name": "Director",
+        "count": 4,
+        "total": 1250.0
+      },
+      {
+        "name": "Executive",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 3,
+        "total": 1038.0
+      },
+      {
+        "name": "Physician",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Advocate",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Architect",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Business Owner/Fast Food Franchisee",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Business development",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Chiropractor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Contractor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Dentist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Event Marketing Consultant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Executive Assistant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Govt Employee",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Pastor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Retired Attorney",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 104,
+        "total": 23330.0
+      }
+    ],
     "total_small_contributions": 4419.0,
     "expenditures_by_type": {
       "Office Expenses": 1299.84,
