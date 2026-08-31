@@ -68,6 +68,270 @@
       "Within Oakland": 109068.97,
       "Within California": 132700.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 47,
+        "total": 29100.0
+      },
+      {
+        "name": "The Lapham Company",
+        "count": 4,
+        "total": 3600.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Sino TV",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "H&R Block",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "MCS Burbank",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Marsh McLennan Agency",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "PCC Logistics",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Unemployed/ homemaker",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Andes Construction Inc",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "DC Construction",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Koreana Market Place",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Unity Council",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "BART",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "IDLF Solutions LLC",
+        "count": 2,
+        "total": 1024.4
+      },
+      {
+        "name": "Compass",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Newmark",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "111 West Capital",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "1850 Properties",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "A-Ruiz Construction & Assoc. Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "AB&I Foundry",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "ABC Security Service Inc.",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Acts Full Gospel",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Alarcon Bohm",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Amazon",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 176,
+        "total": 104894.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 43,
+        "total": 24290.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 27,
+        "total": 17850.0
+      },
+      {
+        "name": "Owner",
+        "count": 25,
+        "total": 16595.0
+      },
+      {
+        "name": "Attorney",
+        "count": 23,
+        "total": 12000.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 15,
+        "total": 10374.4
+      },
+      {
+        "name": "Consultant",
+        "count": 12,
+        "total": 7750.0
+      },
+      {
+        "name": "Manager",
+        "count": 6,
+        "total": 3750.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 4,
+        "total": 3600.0
+      },
+      {
+        "name": "Investor",
+        "count": 5,
+        "total": 2900.0
+      },
+      {
+        "name": "Logistics",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Finance",
+        "count": 3,
+        "total": 2050.0
+      },
+      {
+        "name": "Architect",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Broker",
+        "count": 4,
+        "total": 1900.0
+      },
+      {
+        "name": "Chairman",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Managing Director",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Medical Doctor",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Tax Preparer",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Vice President",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Assistant",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Agent",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Executive",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Founder & Executive Director",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Therapist",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Account Manager",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 118,
+        "total": 68649.0
+      }
+    ],
     "total_small_contributions": 1739.0,
     "expenditures_by_type": {
       "Office Expenses": 15010.76,

@@ -60,6 +60,270 @@
       "Within Oakland": 122757.0,
       "Within California": 292511.47
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 154,
+        "total": 53978.0
+      },
+      {
+        "name": "Becker Boards",
+        "count": 5,
+        "total": 4500.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 21,
+        "total": 3752.0
+      },
+      {
+        "name": "State of California",
+        "count": 11,
+        "total": 2750.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 7,
+        "total": 2350.0
+      },
+      {
+        "name": "University of California Berkeley",
+        "count": 8,
+        "total": 2350.0
+      },
+      {
+        "name": "student",
+        "count": 3,
+        "total": 2050.0
+      },
+      {
+        "name": "Sutter Health",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Townsend Public Affairs",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Western Gravel & Roofing Supply",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Yin McDonald's",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "The Fresno Center",
+        "count": 3,
+        "total": 1750.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 5,
+        "total": 1350.0
+      },
+      {
+        "name": "University of California, San Francisco",
+        "count": 4,
+        "total": 1350.0
+      },
+      {
+        "name": "Health Net",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 6,
+        "total": 1236.0
+      },
+      {
+        "name": "Center for Elders Independence",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Thunder Valley Casino",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "East Bay Regional Park District",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Peralta Community College District",
+        "count": 7,
+        "total": 1100.0
+      },
+      {
+        "name": "Prelude ventures",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "Sunbber.INC",
+        "count": 2,
+        "total": 1100.0
+      },
+      {
+        "name": "San Francisco Unifed School District",
+        "count": 9,
+        "total": 1075.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 6,
+        "total": 950.0
+      },
+      {
+        "name": "ABC STAFFING",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 698,
+        "total": 207952.47
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 195,
+        "total": 40262.0
+      },
+      {
+        "name": "Consultant",
+        "count": 58,
+        "total": 17796.47
+      },
+      {
+        "name": "Owner",
+        "count": 37,
+        "total": 14825.0
+      },
+      {
+        "name": "Attorney",
+        "count": 64,
+        "total": 14800.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 36,
+        "total": 13000.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 24,
+        "total": 10600.0
+      },
+      {
+        "name": "Manager",
+        "count": 21,
+        "total": 5875.0
+      },
+      {
+        "name": "Director",
+        "count": 21,
+        "total": 5756.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 9,
+        "total": 5450.0
+      },
+      {
+        "name": "Physician",
+        "count": 16,
+        "total": 5072.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 22,
+        "total": 4880.0
+      },
+      {
+        "name": "student",
+        "count": 6,
+        "total": 3875.0
+      },
+      {
+        "name": "Teacher",
+        "count": 12,
+        "total": 3850.0
+      },
+      {
+        "name": "Investor",
+        "count": 6,
+        "total": 3400.0
+      },
+      {
+        "name": "Council member",
+        "count": 9,
+        "total": 3350.0
+      },
+      {
+        "name": "Nurse",
+        "count": 5,
+        "total": 3000.0
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 4,
+        "total": 2900.0
+      },
+      {
+        "name": "Sales",
+        "count": 8,
+        "total": 2900.0
+      },
+      {
+        "name": "Professional",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Researcher",
+        "count": 9,
+        "total": 2700.0
+      },
+      {
+        "name": "Registered Nurse",
+        "count": 6,
+        "total": 2525.0
+      },
+      {
+        "name": "Assembly Member",
+        "count": 3,
+        "total": 2300.0
+      },
+      {
+        "name": "Partner",
+        "count": 5,
+        "total": 2250.0
+      },
+      {
+        "name": "Cheif Executive Officer",
+        "count": 6,
+        "total": 2100.0
+      },
+      {
+        "name": "Professor",
+        "count": 16,
+        "total": 2060.0
+      },
+      {
+        "name": "Other",
+        "count": 632,
+        "total": 177394.0
+      }
+    ],
     "total_small_contributions": 27701.4,
     "expenditures_by_type": {
       "Print Ads": 500.0,

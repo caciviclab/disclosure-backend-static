@@ -36,6 +36,25 @@
     "contributions_by_origin": {
       "Within Oakland": 1750.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 1750.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Attorny",
+        "count": 1,
+        "total": 700.0
+      }
+    ],
     "total_small_contributions": 0.0,
     "expenditures_by_type": {
       "Print Ads": 500.0,

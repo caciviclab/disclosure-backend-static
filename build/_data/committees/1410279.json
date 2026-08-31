@@ -821,5 +821,189 @@
         202808.99
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Self-Employed",
+      "count": 6,
+      "total": 7690.0
+    },
+    {
+      "name": "LAW OFFICES OF DAVID ROE",
+      "count": 1,
+      "total": 4990.0
+    },
+    {
+      "name": "CODE FOR AMERICA",
+      "count": 1,
+      "total": 4000.0
+    },
+    {
+      "name": "EARTHLINK",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "MICRO BALANCED PRODUCTS",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "PRICEWATERHOUSE COOPERS",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "WENDEL ROSEN",
+      "count": 2,
+      "total": 2000.0
+    },
+    {
+      "name": "PORT OF OAKLAND",
+      "count": 1,
+      "total": 1500.0
+    },
+    {
+      "name": "FARALLON CAPITAL MANAGEMENT, LLC",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "MCD/CLAREMONT GROUP",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "CITY OF OAKLAND",
+      "count": 1,
+      "total": 999.99
+    },
+    {
+      "name": "GATAN, INC.",
+      "count": 1,
+      "total": 999.0
+    },
+    {
+      "name": "KASOWITZ KENSON TORRES, LLP",
+      "count": 1,
+      "total": 900.0
+    },
+    {
+      "name": "SHEPPARD MULLIN RICHTER & HAMPTON LLP",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "DONAHUE FITZGERALD LLP",
+      "count": 1,
+      "total": 300.0
+    },
+    {
+      "name": "GOOGLE VENTURES",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "SKYLINE STORE, LLC.",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "WELLS FARGO",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "ATTORNEY",
+      "count": 8,
+      "total": 11690.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 7,
+      "total": 7240.0
+    },
+    {
+      "name": "INVESTOR",
+      "count": 1,
+      "total": 4990.0
+    },
+    {
+      "name": "EXECUTIVE DIRECTOR",
+      "count": 1,
+      "total": 4000.0
+    },
+    {
+      "name": "MARKETING",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "OWNER",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "GENERAL COUNSEL",
+      "count": 1,
+      "total": 1500.0
+    },
+    {
+      "name": "ARTIST/SCULPTOR",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "CHIEF FINANCIAL OFFICER",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "COLLEGE LECTURER/AUTHOR",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "DEVELOPMENT AND CONSTRUCTION",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "MAYOR",
+      "count": 1,
+      "total": 999.99
+    },
+    {
+      "name": "PHYSICIST",
+      "count": 1,
+      "total": 999.0
+    },
+    {
+      "name": "PARTNER",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "MANAGER",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "MARKETING CONSULTANT",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Real Estate",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "WOODWORKER",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

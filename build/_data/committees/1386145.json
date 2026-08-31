@@ -2426,5 +2426,269 @@
         28405.5
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Self-Employed",
+      "count": 28,
+      "total": 5865.5
+    },
+    {
+      "name": "Akonadi Foundation",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Apple Inc.",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "PolicyLink",
+      "count": 4,
+      "total": 480.0
+    },
+    {
+      "name": "Energy Solutions",
+      "count": 4,
+      "total": 355.0
+    },
+    {
+      "name": "California Faculty Assn",
+      "count": 1,
+      "total": 300.0
+    },
+    {
+      "name": "Adax Inc.",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "International Federation of Professional and Technical Engineers Local 21",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Oakland Private Industry Council",
+      "count": 2,
+      "total": 250.0
+    },
+    {
+      "name": "Transcontinental Printing",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Food and Water Watch",
+      "count": 1,
+      "total": 200.0
+    },
+    {
+      "name": "Solutions",
+      "count": 1,
+      "total": 200.0
+    },
+    {
+      "name": "TIGRA",
+      "count": 2,
+      "total": 150.0
+    },
+    {
+      "name": "University of California at San Francisco",
+      "count": 2,
+      "total": 150.0
+    },
+    {
+      "name": "Lakeshore Ave Business Improvement District",
+      "count": 2,
+      "total": 125.0
+    },
+    {
+      "name": "Alliance of Californians for Community Empowerment",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Alzheimer's Association",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "American Federation of Teachers",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "BRIDGE Housing",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "CSU Monterey Bay",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "JVS Bay Area",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Medium",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Oakland Peace Center",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Oakland School for the Arts",
+      "count": 2,
+      "total": 100.0
+    },
+    {
+      "name": "Pivotal",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Other",
+      "count": 33,
+      "total": 1220.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Retired/Not Employed",
+      "count": 43,
+      "total": 3685.0
+    },
+    {
+      "name": "Certified Public Accountant",
+      "count": 6,
+      "total": 1355.5
+    },
+    {
+      "name": "Attorney",
+      "count": 6,
+      "total": 1300.0
+    },
+    {
+      "name": "Grantmaker",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Technical writer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Software engineer",
+      "count": 7,
+      "total": 716.0
+    },
+    {
+      "name": "Physician",
+      "count": 3,
+      "total": 640.0
+    },
+    {
+      "name": "Fundraiser",
+      "count": 3,
+      "total": 625.0
+    },
+    {
+      "name": "Psychologist",
+      "count": 2,
+      "total": 450.0
+    },
+    {
+      "name": "Organizer",
+      "count": 2,
+      "total": 400.0
+    },
+    {
+      "name": "Public policy",
+      "count": 2,
+      "total": 380.0
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 3,
+      "total": 300.0
+    },
+    {
+      "name": "Engineer",
+      "count": 2,
+      "total": 275.0
+    },
+    {
+      "name": "Manager",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Policy director",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Political consultant",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Project manager",
+      "count": 2,
+      "total": 230.0
+    },
+    {
+      "name": "Criminal justice",
+      "count": 1,
+      "total": 200.0
+    },
+    {
+      "name": "Organizing director",
+      "count": 1,
+      "total": 200.0
+    },
+    {
+      "name": "Director",
+      "count": 3,
+      "total": 150.0
+    },
+    {
+      "name": "Non-profit Director",
+      "count": 2,
+      "total": 150.0
+    },
+    {
+      "name": "Researcher",
+      "count": 2,
+      "total": 125.0
+    },
+    {
+      "name": "Activist",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Affordable Housing Developer",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Community Ministry",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Other",
+      "count": 41,
+      "total": 1999.0
+    }
   ]
 }

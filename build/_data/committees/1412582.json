@@ -236,5 +236,34 @@
         29700.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "St. Mary's Center",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Gordon & Associates, Inc.",
+      "count": 1,
+      "total": 200.0
+    },
+    {
+      "name": "Tolbert & Associates",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Consultant",
+      "count": 2,
+      "total": 350.0
+    },
+    {
+      "name": "Database Manager",
+      "count": 1,
+      "total": 200.0
+    }
   ]
 }

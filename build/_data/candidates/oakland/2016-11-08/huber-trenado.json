@@ -46,6 +46,270 @@
       "Within Oakland": 9550.0,
       "Within California": 7563.31
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 7,
+        "total": 2400.0
+      },
+      {
+        "name": "Education for Change",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Arthur Rock & Co.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Emerson Collective",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Purdue Pharma",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Sebastes Capital Management, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "T. Gary and Kathleen Rogers Private Family Foundation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "UNKOWN",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Zeal Learning",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CamberView",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Kaiser Permanente Oakland",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "EFC",
+        "count": 1,
+        "total": 313.31
+      },
+      {
+        "name": "Big Picture Learning",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Buttercup grill",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "California Charter Schools Association",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Every Dog Has Its Day Care",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "GO Public Schools",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Lippincott",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "NHUSD",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Education Matters",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Student",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Edgility Consulting",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Other",
+        "count": 14,
+        "total": 1400.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 4,
+        "total": 2200.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 4,
+        "total": 2200.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 4,
+        "total": 2050.0
+      },
+      {
+        "name": "Teacher",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "City Mayor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Mother",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "maker",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Dietitian",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "corporate governance advisor",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Educator",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "CEO of EFC",
+        "count": 1,
+        "total": 313.31
+      },
+      {
+        "name": "Education",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Sales",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Dog Care",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Science Specialist",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Senior Managing Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Chief Talent Officer",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Principal",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Student",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Waitress",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 14,
+        "total": 1500.0
+      }
+    ],
     "total_small_contributions": 1822.17,
     "expenditures_by_type": {
       "Office Expenses": 123.83,

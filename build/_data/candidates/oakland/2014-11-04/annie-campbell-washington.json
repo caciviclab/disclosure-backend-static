@@ -46,6 +46,270 @@
       "Within Oakland": 54700.62,
       "Within California": 38210.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 39,
+        "total": 7315.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 14,
+        "total": 2550.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 7,
+        "total": 1900.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 6,
+        "total": 1520.62
+      },
+      {
+        "name": "Renewable Funding",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Wendel, Rosen, Black & Dean LLP",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 6,
+        "total": 1200.0
+      },
+      {
+        "name": "Snap Judgment LLC",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Gap",
+        "count": 3,
+        "total": 1030.0
+      },
+      {
+        "name": "Jam Global Group",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Children's Hospital Oakland",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Apple Inc.",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Genentech",
+        "count": 5,
+        "total": 800.0
+      },
+      {
+        "name": "Navigant",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Better Homes and Gardens",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Claremont Realty",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Ernst Development Partners",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Excubator",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "FTI Consulting",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Gatan, Inc",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "GenOn Energy, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "LoanCore Capital",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "McKinley",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Mission Bay Development Group",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Monsoon Company",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 140,
+        "total": 32195.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 42,
+        "total": 10500.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 13,
+        "total": 5225.0
+      },
+      {
+        "name": "Attorney",
+        "count": 15,
+        "total": 4150.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 11,
+        "total": 3900.0
+      },
+      {
+        "name": "Consultant",
+        "count": 6,
+        "total": 2850.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 5,
+        "total": 2000.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 7,
+        "total": 1900.0
+      },
+      {
+        "name": "District 4 Director, Oakland School Board",
+        "count": 5,
+        "total": 1420.62
+      },
+      {
+        "name": "Analyst",
+        "count": 5,
+        "total": 1400.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 4,
+        "total": 1300.0
+      },
+      {
+        "name": "Economist",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Researcher",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "Vice President",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Partner",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Professor",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Architect",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Policy Director",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Advocate",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Clean Energy Finance",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Clinical Psychologist",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Cofounder and Angel Investor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Director And Associate General Counsel",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Director Of Services",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Executive Producer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 149,
+        "total": 27415.0
+      }
+    ],
     "total_small_contributions": 6357.0,
     "expenditures_by_type": {
       "Not Stated": 5900.0,

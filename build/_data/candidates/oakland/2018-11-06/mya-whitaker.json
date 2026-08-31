@@ -45,6 +45,270 @@
       "Within Oakland": 6560.0,
       "Within California": 9050.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 14,
+        "total": 3800.0
+      },
+      {
+        "name": "Aosense Inc",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Gibson Dunn",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Lawrence Berkeley National Laboratory",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Partner Lawyer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Burke Williams & Sorensen",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "O'Melveny & Meyers LLP",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "UNKOWN",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Blue Monday Productions",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "US House of Representatives",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Unempmloyed",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Cal State University Fullerton",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Exelixis, Inc.",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Allegory, Inc.",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "AppSec Counsulting",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Business Analyst",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chegg",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Richmond",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Donahue Fitzgerald",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Emerge America",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Fox Rothschild LLP",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Fullerton College",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Greater Richmond Interfaith Program",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 6,
+        "total": 510.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Lawyer",
+        "count": 7,
+        "total": 2150.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 11,
+        "total": 1950.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 1700.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 860.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Corporate/Business Official",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Physicist",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Junius & Rose, LLP",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Occupation not reported",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Nonprofit Director",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Producer/Manager",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Producer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Contracts Administrator",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Health Educator",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Professor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Assistant Professor and Forensics",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "CFO",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City Council Member",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Community, Business, and Nonprofit Leader",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Counselor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Data Scientist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Higher Education Administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Information Security",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 6,
+        "total": 600.0
+      }
+    ],
     "total_small_contributions": 2376.0,
     "expenditures_by_type": {
       "Not Stated": 88.51,

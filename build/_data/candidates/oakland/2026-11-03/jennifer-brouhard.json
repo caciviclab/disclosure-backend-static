@@ -37,6 +37,80 @@
       "Within Oakland": 3250.0,
       "Within California": 800.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Marin Health",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Turcorp",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "San Diego Unified School District",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "UAW 4811",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "CTA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Sandia National Lab",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "CFO",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Nurse Midwife",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 6,
+        "total": 850.0
+      },
+      {
+        "name": "Board President",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Organizer",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Scientist",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 333.65,
     "expenditures_by_type": {
     },

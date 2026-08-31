@@ -1001,5 +1001,44 @@
         582218.37
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "The Urban School of San Francisco",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "Leonard Carter",
+      "count": 8,
+      "total": 1800.0
+    },
+    {
+      "name": "ComCon International",
+      "count": 1,
+      "total": 1000.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Retired/Not Employed",
+      "count": 5,
+      "total": 76400.0
+    },
+    {
+      "name": "Trustee",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "Attorney",
+      "count": 8,
+      "total": 1800.0
+    },
+    {
+      "name": "Founder",
+      "count": 1,
+      "total": 1000.0
+    }
   ]
 }

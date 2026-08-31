@@ -41,6 +41,270 @@
       "Within Oakland": 29025.0,
       "Within California": 19050.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Compass",
+        "count": 3,
+        "total": 1650.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 8,
+        "total": 1000.0
+      },
+      {
+        "name": "Alameda-Contra Costa Medical Assn",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "CA Parent Power",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Charles&Lynn Schusterman Family Foundation",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "GV",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Jessica Eastman Stewart LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "LCPS",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Law Offices of David Roe",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "MuA+oz and Co",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Opower - Oracle",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Rogers Family Foundation",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Schusterman Interests LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Urban Economics (self-employed)",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Community Arts Stabilization Trust",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Arthur Rock & Co",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Unity Schools",
+        "count": 3,
+        "total": 800.0
+      },
+      {
+        "name": "Fairlight Advisors",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "CSCE",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Murmuration",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Authentic Ventures",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Breakthrough Collaborative",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Other",
+        "count": 130,
+        "total": 20105.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 36,
+        "total": 9500.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 6,
+        "total": 2700.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 9,
+        "total": 2475.0
+      },
+      {
+        "name": "Attorney",
+        "count": 8,
+        "total": 2450.0
+      },
+      {
+        "name": "Educator",
+        "count": 12,
+        "total": 2450.0
+      },
+      {
+        "name": "Founder",
+        "count": 6,
+        "total": 2150.0
+      },
+      {
+        "name": "Partner",
+        "count": 6,
+        "total": 1900.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 15,
+        "total": 1775.0
+      },
+      {
+        "name": "Consultant",
+        "count": 10,
+        "total": 1700.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Education",
+        "count": 8,
+        "total": 950.0
+      },
+      {
+        "name": "Chair",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Energy Efficiency",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Philanthropist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Philantropy",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Director of Real Estate",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Co-Founder",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "CPA",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "NonProfit",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Sales",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "COO",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Development",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Other",
+        "count": 73,
+        "total": 11655.0
+      }
+    ],
     "total_small_contributions": 6055.0,
     "expenditures_by_type": {
       "Contribution": 210.0,

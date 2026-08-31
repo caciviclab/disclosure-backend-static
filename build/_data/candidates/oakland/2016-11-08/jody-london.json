@@ -46,6 +46,270 @@
       "Within Oakland": 10975.0,
       "Within California": 7160.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 11,
+        "total": 1950.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Kamala Harris for Senate",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Johnston Supply",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Perforce",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "SGI Consulting",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Urban Economics",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "student",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "OUSD",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Lumentum",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "PG&E",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Holland and Knight",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Oakland Public Education",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "The Energy Coalition",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Acalanes High School",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "CTP Planning and Economics",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Schiller Consulting, Inc.",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "NVIDIA",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 125.0
+      },
+      {
+        "name": "ABAG",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Alternative Technologies",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 26,
+        "total": 2600.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 9,
+        "total": 1660.0
+      },
+      {
+        "name": "Attorney",
+        "count": 8,
+        "total": 1250.0
+      },
+      {
+        "name": "Physician",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Deputy Campaign Manager",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Engineer",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Consultant",
+        "count": 5,
+        "total": 600.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 4,
+        "total": 550.0
+      },
+      {
+        "name": "Principal",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Programmer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "homemaker",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "student",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Writer",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Project Director",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Optical Engineer",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Public Health",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Volunteer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Educator",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Guidance Counselor",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Technical Program Manager",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Other",
+        "count": 23,
+        "total": 2325.0
+      }
+    ],
     "total_small_contributions": 3759.0,
     "expenditures_by_type": {
       "Office Expenses": 248.2,

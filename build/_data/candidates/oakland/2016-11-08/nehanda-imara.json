@@ -39,6 +39,270 @@
       "Within Oakland": 12450.0,
       "Within California": 5500.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "California Endowment",
+        "count": 6,
+        "total": 1650.0
+      },
+      {
+        "name": "Akonadi Foundation",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Communities for a Better Environment",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Khepera Consulting",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Lewis Bundy",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Merritt College",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Non-Profit Housing Association",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Siegal & Yee",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Elyssium Adavnced Skin Care",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Shiree Teng",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "First Presbyeterian Church of Oakland",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Kaiser Permanente Medical Group",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Carter Phillpis, LLC",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "City College of San Francisco",
+        "count": 3,
+        "total": 250.0
+      },
+      {
+        "name": "Common Counsel",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Neighborhood Funders Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "San Francisco Unified School District (SFUSD)",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "ACT Investments",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Beautiful Loks",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "California Department of Food and Agriculture",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Harvard University",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "San Francisco State University",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Tracy Brown",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Walter Riley",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 21,
+        "total": 2250.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 16,
+        "total": 3100.0
+      },
+      {
+        "name": "Attorney",
+        "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Consultant",
+        "count": 5,
+        "total": 1650.0
+      },
+      {
+        "name": "Program Manager",
+        "count": 4,
+        "total": 1050.0
+      },
+      {
+        "name": "Department Chair",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Grantmaker",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Political Director",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Physician",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Professor",
+        "count": 4,
+        "total": 450.0
+      },
+      {
+        "name": "Organizer",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Program Director",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Project Coordinator",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Pastor",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Philanthropy",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Program Specialist",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Non-Profit",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Nurse Practitioner",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Senior Program Manager",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Agricultural Inspection",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Data Analyst",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Research Fellow/Scientist",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Software Consultant",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Stylist",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 17,
+        "total": 1600.0
+      }
+    ],
     "total_small_contributions": 3291.0,
     "expenditures_by_type": {
       "Not Stated": 700.0,

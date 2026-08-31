@@ -54,6 +54,270 @@
       "Within Oakland": 20316.95,
       "Within California": 18090.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 26,
+        "total": 4395.0
+      },
+      {
+        "name": "Everlaw",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "Dongar Tech",
+        "count": 3,
+        "total": 625.0
+      },
+      {
+        "name": "Alameda County Water Dist.",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Bay ATM",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Bay Area Rapid Transit",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Burke Williams & Sorensen",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Chromata Retail",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Dreisbach",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Eva's Esthetics",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Genentech",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Lowney Architecture",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Madison Park Financial Group",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "OWO LLC",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Paradiso restaurant",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Path Forward Partners",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Selna Parnters Law",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "The Hernon Group",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 550.0
+      },
+      {
+        "name": "Accenture LLP",
+        "count": 2,
+        "total": 510.0
+      },
+      {
+        "name": "Golden Land Real Estate",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Uber",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 4,
+        "total": 400.0
+      },
+      {
+        "name": "Other",
+        "count": 60,
+        "total": 8400.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 26,
+        "total": 6790.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 12,
+        "total": 3850.0
+      },
+      {
+        "name": "Attorney",
+        "count": 12,
+        "total": 3400.0
+      },
+      {
+        "name": "Owner",
+        "count": 13,
+        "total": 2805.0
+      },
+      {
+        "name": "Accountant",
+        "count": 5,
+        "total": 2050.0
+      },
+      {
+        "name": "Founder",
+        "count": 7,
+        "total": 1250.0
+      },
+      {
+        "name": "Manager",
+        "count": 4,
+        "total": 1225.0
+      },
+      {
+        "name": "Consultant",
+        "count": 3,
+        "total": 1110.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Finance",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Property Mgr",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Board member",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Driver",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "IT Services provider",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Property inspector",
+        "count": 2,
+        "total": 375.0
+      },
+      {
+        "name": "General Contractor",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "CFO",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Pharmacist",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Developer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Principal",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Principle",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 46,
+        "total": 3415.0
+      }
+    ],
     "total_small_contributions": 5862.0,
     "expenditures_by_type": {
       "Print Ads": 1600.0,

@@ -566,5 +566,169 @@
         59508.94
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Amazon",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Roots Community Health",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Zunos Inc",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Ben Casnocha Inc",
+      "count": 1,
+      "total": 349.0
+    },
+    {
+      "name": "Stripe",
+      "count": 5,
+      "total": 340.0
+    },
+    {
+      "name": "Applied Marine Sciences, Inc.",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Bay Play Llc",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Safe Horizon, Llc",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Breakthrough Collaborative",
+      "count": 1,
+      "total": 150.0
+    },
+    {
+      "name": "Claudia Bowman Restoration",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Makersights",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Master Admissions",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Node Landscape Design LLC",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Rockridge Cafe",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Sandia National Labs",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Sunlight Giving",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "J&H Billing Services",
+      "count": 3,
+      "total": 90.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 6,
+      "total": 1440.0
+    },
+    {
+      "name": "Chief Operations Officer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Tech Manager",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 8,
+      "total": 575.0
+    },
+    {
+      "name": "Writer",
+      "count": 1,
+      "total": 349.0
+    },
+    {
+      "name": "Product Manager",
+      "count": 5,
+      "total": 340.0
+    },
+    {
+      "name": "Environmental Scientist",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Owner",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Development",
+      "count": 1,
+      "total": 150.0
+    },
+    {
+      "name": "Landscape Designer",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Owner/ General Manager",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Program Director",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Restoration",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Retail",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Systems Analyst",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

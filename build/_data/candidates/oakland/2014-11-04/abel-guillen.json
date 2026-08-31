@@ -40,6 +40,270 @@
       "Within Oakland": 44640.35,
       "Within California": 51553.01
     },
+    "contributions_by_employer": [
+      {
+        "name": "Peralta Community College District",
+        "count": 10,
+        "total": 2850.0
+      },
+      {
+        "name": "University of California, Berkeley",
+        "count": 7,
+        "total": 1050.0
+      },
+      {
+        "name": "Wendel Rosen Black & Dean LLP",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "ABC7",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Aram Electric Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chatime",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "FTI Consulting",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Four Leaf Consulting",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "General Dynamics OTS",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Johnstone Supply",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Jones Hall",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Live Nation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Luka's LLC",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Nancy M. Fiedman, M.A.",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "OTC Medical Group",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Oakland Pallet, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Robert Raich",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Southside Virginia Association of Realtors, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "The CoStar Group",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "The Sobrato Organization",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Whittier Union High School District",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Zocalo Coffee Shop",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Wells Fargo Bank",
+        "count": 7,
+        "total": 625.0
+      },
+      {
+        "name": "Caldwell Flores Winters, Inc.",
+        "count": 8,
+        "total": 603.0
+      },
+      {
+        "name": "Other",
+        "count": 293,
+        "total": 38932.01
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Attorney",
+        "count": 28,
+        "total": 6000.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 43,
+        "total": 4989.0
+      },
+      {
+        "name": "Consultant",
+        "count": 23,
+        "total": 2928.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 7,
+        "total": 2000.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 13,
+        "total": 1700.0
+      },
+      {
+        "name": "Manager",
+        "count": 3,
+        "total": 1650.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 8,
+        "total": 1600.0
+      },
+      {
+        "name": "Owner",
+        "count": 5,
+        "total": 1500.0
+      },
+      {
+        "name": "Educator",
+        "count": 6,
+        "total": 1450.0
+      },
+      {
+        "name": "Director",
+        "count": 9,
+        "total": 1311.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 8,
+        "total": 1050.0
+      },
+      {
+        "name": "Professor",
+        "count": 6,
+        "total": 878.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 875.0
+      },
+      {
+        "name": "Marketing",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Construction Management",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Physician",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Producer",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Production Manager",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Sales",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Vice Chancellor for Educational Services",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Communications Strategist",
+        "count": 7,
+        "total": 675.0
+      },
+      {
+        "name": "Program Manager",
+        "count": 5,
+        "total": 625.0
+      },
+      {
+        "name": "Other",
+        "count": 209,
+        "total": 27718.01
+      }
+    ],
     "total_small_contributions": 13147.0,
     "expenditures_by_type": {
       "Not Stated": 9291.6,

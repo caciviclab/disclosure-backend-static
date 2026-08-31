@@ -40,6 +40,175 @@
       "Within Oakland": 10421.74,
       "Within California": 6250.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "San Lorenzo Unified School District",
+        "count": 5,
+        "total": 8514.18
+      },
+      {
+        "name": "Eden Area Regional Occupational Program Center",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "United States Enivornmental Protection Agency",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "California State University East Bay",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Assurant",
+        "count": 3,
+        "total": 200.0
+      },
+      {
+        "name": "Novato Unified School District",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Social Security Administration",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Artos Consulting",
+        "count": 1,
+        "total": 107.56
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "League Of Conservation Voters",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Oakland Housing Authority",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Pope Enterprises",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Stanford University",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Counselor",
+        "count": 5,
+        "total": 8514.18
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 12,
+        "total": 1500.0
+      },
+      {
+        "name": "Librarian",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Assistant Superintendent",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Claims Specialist",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Retired Superintendent",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "System Business Analyst",
+        "count": 3,
+        "total": 200.0
+      },
+      {
+        "name": "Political Consultant",
+        "count": 1,
+        "total": 107.56
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Candidate Recruitment & Training Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director Of Child Care",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Health Educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Housing Assistance Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "School Board Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Wellness Consultant",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 878.18,
     "expenditures_by_type": {
       "Not Stated": 2200.0,

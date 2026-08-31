@@ -40,6 +40,270 @@
       "Within Oakland": 351350.27,
       "Within California": 199006.08
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 121,
+        "total": 39328.61
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 38,
+        "total": 11501.89
+      },
+      {
+        "name": "Genentech",
+        "count": 25,
+        "total": 8820.09
+      },
+      {
+        "name": "Google",
+        "count": 22,
+        "total": 5591.39
+      },
+      {
+        "name": "City of Oakland",
+        "count": 19,
+        "total": 5522.45
+      },
+      {
+        "name": "Riaz Capital",
+        "count": 9,
+        "total": 4100.0
+      },
+      {
+        "name": "PwC",
+        "count": 8,
+        "total": 4050.0
+      },
+      {
+        "name": "TMG Partners",
+        "count": 6,
+        "total": 3800.0
+      },
+      {
+        "name": "Ucsf",
+        "count": 24,
+        "total": 3028.19
+      },
+      {
+        "name": "OUSD",
+        "count": 25,
+        "total": 2999.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 6,
+        "total": 2920.0
+      },
+      {
+        "name": "Wells Fargo",
+        "count": 15,
+        "total": 2000.0
+      },
+      {
+        "name": "2B Living",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "DCI Construction Inc",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Holland Brooks Builders, Inc.",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Northbrae Properties",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Pantheon",
+        "count": 4,
+        "total": 1800.0
+      },
+      {
+        "name": "The Tidrick Law firm LLP",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 6,
+        "total": 1653.66
+      },
+      {
+        "name": "University of California",
+        "count": 7,
+        "total": 1606.9
+      },
+      {
+        "name": "Salesforce",
+        "count": 5,
+        "total": 1603.45
+      },
+      {
+        "name": "Microsoft",
+        "count": 3,
+        "total": 1503.45
+      },
+      {
+        "name": "Credit Karma",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Tides Center",
+        "count": 3,
+        "total": 1450.0
+      },
+      {
+        "name": "Soaring Food Group LLC",
+        "count": 2,
+        "total": 1416.45
+      },
+      {
+        "name": "Other",
+        "count": 1171,
+        "total": 332181.24
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 503,
+        "total": 98000.77
+      },
+      {
+        "name": "Attorney",
+        "count": 152,
+        "total": 39730.97
+      },
+      {
+        "name": "Executive",
+        "count": 87,
+        "total": 29615.51
+      },
+      {
+        "name": "Consultant",
+        "count": 93,
+        "total": 29470.05
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 46,
+        "total": 24167.19
+      },
+      {
+        "name": "Real Estate",
+        "count": 54,
+        "total": 20904.7
+      },
+      {
+        "name": "Physician",
+        "count": 74,
+        "total": 14846.89
+      },
+      {
+        "name": "Owner",
+        "count": 40,
+        "total": 12944.88
+      },
+      {
+        "name": "Director",
+        "count": 52,
+        "total": 12287.02
+      },
+      {
+        "name": "Manager",
+        "count": 37,
+        "total": 10674.29
+      },
+      {
+        "name": "Engineer",
+        "count": 41,
+        "total": 9310.37
+      },
+      {
+        "name": "Executive Director",
+        "count": 37,
+        "total": 8880.56
+      },
+      {
+        "name": "Investor",
+        "count": 11,
+        "total": 6102.42
+      },
+      {
+        "name": "Administrator",
+        "count": 16,
+        "total": 5858.64
+      },
+      {
+        "name": "Architect",
+        "count": 25,
+        "total": 5239.34
+      },
+      {
+        "name": "Self-Employed",
+        "count": 10,
+        "total": 4959.12
+      },
+      {
+        "name": "Finance",
+        "count": 8,
+        "total": 4530.45
+      },
+      {
+        "name": "Partner",
+        "count": 9,
+        "total": 4123.32
+      },
+      {
+        "name": "Teacher",
+        "count": 29,
+        "total": 3913.18
+      },
+      {
+        "name": "Homemaker",
+        "count": 13,
+        "total": 3862.98
+      },
+      {
+        "name": "Marketing",
+        "count": 15,
+        "total": 3764.99
+      },
+      {
+        "name": "Professor",
+        "count": 8,
+        "total": 3452.42
+      },
+      {
+        "name": "Accountant",
+        "count": 7,
+        "total": 3314.19
+      },
+      {
+        "name": "Principal",
+        "count": 9,
+        "total": 3203.45
+      },
+      {
+        "name": "Software Engineer",
+        "count": 6,
+        "total": 2952.42
+      },
+      {
+        "name": "Other",
+        "count": 719,
+        "total": 194313.62
+      }
+    ],
     "total_small_contributions": 46775.63,
     "expenditures_by_type": {
       "Phone Banks": 27656.05,

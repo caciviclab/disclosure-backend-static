@@ -176,5 +176,59 @@
         10520.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Self-Employed",
+      "count": 7,
+      "total": 8100.0
+    },
+    {
+      "name": "Sunny Spot Cafe",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Patient ID Center",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "A-1 Top Quality Painting",
+      "count": 1,
+      "total": 420.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Investor",
+      "count": 2,
+      "total": 4500.0
+    },
+    {
+      "name": "Attorney",
+      "count": 3,
+      "total": 3400.0
+    },
+    {
+      "name": "Manager",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Executive Director",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "Painting Contractor",
+      "count": 1,
+      "total": 420.0
+    },
+    {
+      "name": "Publisher",
+      "count": 2,
+      "total": 200.0
+    }
   ]
 }

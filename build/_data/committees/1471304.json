@@ -558,5 +558,99 @@
         150400.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Scott's Seafood Grill & Bar",
+      "count": 1,
+      "total": 50000.0
+    },
+    {
+      "name": "Anchor",
+      "count": 2,
+      "total": 2000.0
+    },
+    {
+      "name": "Montezuma Wetlands",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Vitas Healthcare",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "Stephen Barnett Lewis",
+      "count": 3,
+      "total": 300.0
+    },
+    {
+      "name": "Abby Ginzberg",
+      "count": 2,
+      "total": 200.0
+    },
+    {
+      "name": "Jacqueline Caldwell",
+      "count": 4,
+      "total": 200.0
+    },
+    {
+      "name": "University Of California",
+      "count": 2,
+      "total": 200.0
+    },
+    {
+      "name": "McKinsey & Company",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Owner",
+      "count": 1,
+      "total": 50000.0
+    },
+    {
+      "name": "Medical Doctor",
+      "count": 2,
+      "total": 2000.0
+    },
+    {
+      "name": "Engineer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Doctor",
+      "count": 4,
+      "total": 800.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 3,
+      "total": 300.0
+    },
+    {
+      "name": "Contractor",
+      "count": 4,
+      "total": 200.0
+    },
+    {
+      "name": "Documentary Filmmaker",
+      "count": 2,
+      "total": 200.0
+    },
+    {
+      "name": "Professor",
+      "count": 2,
+      "total": 200.0
+    },
+    {
+      "name": "Senior Partner",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

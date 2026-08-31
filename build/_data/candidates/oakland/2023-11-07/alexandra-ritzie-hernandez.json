@@ -59,6 +59,270 @@
       "Within Oakland": 9796.0,
       "Within California": 7026.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "OUSD",
+        "count": 23,
+        "total": 2920.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 11,
+        "total": 1261.0
+      },
+      {
+        "name": "ACCE",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Torres Law Group",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Oakland Education Association",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "CTA",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Google LLC.",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "University of San Francisco",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "California Teachers Association",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 3,
+        "total": 176.0
+      },
+      {
+        "name": "SEIU 1021",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "County of Alameda",
+        "count": 1,
+        "total": 115.0
+      },
+      {
+        "name": "Apple",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Applebee's",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Arrangements Abroad",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "BUSD",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "California Civil Rights Department",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Cargosense",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "IPN Security",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "LPAC",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Lake Merritt Healthcare Center",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "MTEA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 6,
+        "total": 550.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Teacher",
+        "count": 22,
+        "total": 2800.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Lab Tech",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 461.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "SLP",
+        "count": 2,
+        "total": 420.0
+      },
+      {
+        "name": "Educator",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Faculty",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Organizer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Retired Public School Teacher",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Retired Teacher",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Speech-Language Pathologist",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Legislative Aide",
+        "count": 3,
+        "total": 176.0
+      },
+      {
+        "name": "Union Representative",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "EST III",
+        "count": 1,
+        "total": 115.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "CNA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chief Financial Officer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Educational Therapist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Engineering Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Entertainer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 12,
+        "total": 1150.0
+      }
+    ],
     "total_small_contributions": 1814.0,
     "expenditures_by_type": {
       "Not Stated": 29.0,

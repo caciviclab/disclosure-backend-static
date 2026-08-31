@@ -40,6 +40,75 @@
       "Within Oakland": 1850.0,
       "Within California": 6400.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "RVB agency",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "worthy ventures",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "BOSS",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "SF-Marin Food Bank",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "San Francisco-Marin Food Bank",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Sheppard Mullin Richter & Hampton LLP",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 5,
+        "total": 2950.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "project manager",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Fundraising Operation",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Government Relations",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Legal Assistant",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 827.36,
     "expenditures_by_type": {
       "Not Stated": 5500.0,

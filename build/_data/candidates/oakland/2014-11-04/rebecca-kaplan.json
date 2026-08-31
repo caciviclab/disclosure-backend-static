@@ -54,6 +54,270 @@
       "Within Oakland": 172992.0,
       "Within California": 150916.36
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 5,
+        "total": 80195.0
+      },
+      {
+        "name": "CASS INC",
+        "count": 8,
+        "total": 5200.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 7,
+        "total": 4300.0
+      },
+      {
+        "name": "AB & I Foundry",
+        "count": 4,
+        "total": 2800.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 4,
+        "total": 2600.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 5,
+        "total": 2450.0
+      },
+      {
+        "name": "Schnitzer Steel",
+        "count": 4,
+        "total": 2400.0
+      },
+      {
+        "name": "Goodyear Peterson Hayward & Associates",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Grace & Co., Inc",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Google",
+        "count": 4,
+        "total": 1900.0
+      },
+      {
+        "name": "Reuben, Junius & Rose",
+        "count": 7,
+        "total": 1650.0
+      },
+      {
+        "name": "Balaji Hotels",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Berkeley Patients Group",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Better Homes",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "CBCB",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "CMG",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Kaplan Psychologists",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Oakland Organics",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Pho Ao Sen",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Steel Mill Recycling",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 5,
+        "total": 1350.0
+      },
+      {
+        "name": "Sunny Spot Cafe",
+        "count": 3,
+        "total": 1290.0
+      },
+      {
+        "name": "Coldwell Banker Real Estate",
+        "count": 7,
+        "total": 1150.0
+      },
+      {
+        "name": "AB&I Foundry",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Other",
+        "count": 411,
+        "total": 128737.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Councilmember",
+        "count": 3,
+        "total": 80000.0
+      },
+      {
+        "name": "Attorney",
+        "count": 61,
+        "total": 17303.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 64,
+        "total": 15333.0
+      },
+      {
+        "name": "Owner",
+        "count": 26,
+        "total": 12099.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 37,
+        "total": 11900.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 23,
+        "total": 9900.0
+      },
+      {
+        "name": "Manager",
+        "count": 14,
+        "total": 8800.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 11,
+        "total": 7100.0
+      },
+      {
+        "name": "Consultant",
+        "count": 18,
+        "total": 6519.0
+      },
+      {
+        "name": "Vice President",
+        "count": 10,
+        "total": 4550.0
+      },
+      {
+        "name": "Sales",
+        "count": 5,
+        "total": 3500.0
+      },
+      {
+        "name": "Principal",
+        "count": 7,
+        "total": 3380.0
+      },
+      {
+        "name": "Director",
+        "count": 6,
+        "total": 2500.0
+      },
+      {
+        "name": "Engineer",
+        "count": 11,
+        "total": 2500.0
+      },
+      {
+        "name": "Accountant",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 7,
+        "total": 2000.0
+      },
+      {
+        "name": "Physician",
+        "count": 7,
+        "total": 1800.0
+      },
+      {
+        "name": "Architect",
+        "count": 6,
+        "total": 1650.0
+      },
+      {
+        "name": "Executive",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Teacher",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Assistant Manager",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Dentist",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "psychologist",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Founder",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Office Manager",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Other",
+        "count": 241,
+        "total": 71121.0
+      }
+    ],
     "total_small_contributions": 18274.0,
     "expenditures_by_type": {
       "Print Ads": 763.04,

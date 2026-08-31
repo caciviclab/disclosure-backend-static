@@ -40,6 +40,270 @@
       "Within Oakland": 11256.0,
       "Within California": 10716.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 11,
+        "total": 1250.0
+      },
+      {
+        "name": "Kong Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Bank of America",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Trader Joe's",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 3,
+        "total": 756.0
+      },
+      {
+        "name": "Comal",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Mission Economic Development Agency",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Campfire Firm",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Exponent Partners",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "SF Tots",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Tanium",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "The Way Church",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 450.0
+      },
+      {
+        "name": "RDA",
+        "count": 1,
+        "total": 450.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "NICJR",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Volta Charging",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "State of California",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "EA (Electronic Arts)",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Zoho Corp",
+        "count": 4,
+        "total": 278.76
+      },
+      {
+        "name": "Basketball",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "City of Fremont",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Lam Research",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "The Costar Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 44,
+        "total": 4876.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 19,
+        "total": 4240.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 5,
+        "total": 1300.0
+      },
+      {
+        "name": "Director",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Novelist",
+        "count": 7,
+        "total": 850.0
+      },
+      {
+        "name": "Crew Member",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Loan Officer",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Marketing Manager",
+        "count": 5,
+        "total": 778.76
+      },
+      {
+        "name": "Bagger",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Attorney",
+        "count": 6,
+        "total": 650.0
+      },
+      {
+        "name": "Consultant",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Career Coach",
+        "count": 1,
+        "total": 556.0
+      },
+      {
+        "name": "Co-founder",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Pastor",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Program Director",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Systems Engineer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Court Exec Officer",
+        "count": 1,
+        "total": 450.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Economic Analyst",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Artist",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Construction",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Deputy Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Professional Athlete",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Regional Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 36,
+        "total": 3876.0
+      }
+    ],
     "total_small_contributions": 7645.96,
     "expenditures_by_type": {
       "Print Ads": 9488.0,

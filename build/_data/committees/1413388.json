@@ -236,5 +236,84 @@
         31230.49
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Self-Employed",
+      "count": 3,
+      "total": 7500.0
+    },
+    {
+      "name": "Kasowitz, Benson, Torres, and Friedman",
+      "count": 1,
+      "total": 4500.0
+    },
+    {
+      "name": "Purple Wine",
+      "count": 1,
+      "total": 4500.0
+    },
+    {
+      "name": "Shoreline Venture Management, LLC",
+      "count": 1,
+      "total": 4500.0
+    },
+    {
+      "name": "Beckman, Feller & Chang",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "Yorkshire Ventures LLC",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "Camberview Partners LLC",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "SoftBank",
+      "count": 1,
+      "total": 1000.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Attorney",
+      "count": 3,
+      "total": 8000.0
+    },
+    {
+      "name": "Business Consultant",
+      "count": 2,
+      "total": 6000.0
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 1,
+      "total": 4500.0
+    },
+    {
+      "name": "Venture Capital",
+      "count": 1,
+      "total": 4500.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 3,
+      "total": 3000.0
+    },
+    {
+      "name": "Business Consulting",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "Executive Chairman",
+      "count": 1,
+      "total": 1000.0
+    }
   ]
 }

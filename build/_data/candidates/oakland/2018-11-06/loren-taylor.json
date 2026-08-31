@@ -40,6 +40,270 @@
       "Within Oakland": 90675.26,
       "Within California": 42595.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 70,
+        "total": 15992.32
+      },
+      {
+        "name": "Genentech",
+        "count": 19,
+        "total": 4120.0
+      },
+      {
+        "name": "PwC",
+        "count": 10,
+        "total": 3800.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 18,
+        "total": 2850.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 8,
+        "total": 1650.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 6,
+        "total": 1400.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Artthaus Studios",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Custom Taylored Solutions",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "11 West Partners",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Alphabet, Inc",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Bay Area Rapid Transit",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Bay Imaging",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Betty's Children's Academy",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "CBRE",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "CamberView Partners",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Code for America",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Colliers",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Dell Technologies",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "FTI Consulting",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "FULL COURT PRESS Communications",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Factory OS",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Gatan Inc.",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Gilead Sciences",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Gold Coast Industries",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Other",
+        "count": 270,
+        "total": 58632.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 85,
+        "total": 24199.94
+      },
+      {
+        "name": "Attorney",
+        "count": 45,
+        "total": 10529.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 15,
+        "total": 5400.0
+      },
+      {
+        "name": "Consultant",
+        "count": 18,
+        "total": 4650.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 10,
+        "total": 4100.0
+      },
+      {
+        "name": "Executive",
+        "count": 7,
+        "total": 3650.0
+      },
+      {
+        "name": "Physician",
+        "count": 18,
+        "total": 3400.0
+      },
+      {
+        "name": "investor",
+        "count": 6,
+        "total": 2050.0
+      },
+      {
+        "name": "Management Consultant",
+        "count": 4,
+        "total": 1900.0
+      },
+      {
+        "name": "Partner",
+        "count": 5,
+        "total": 1900.0
+      },
+      {
+        "name": "Finance",
+        "count": 3,
+        "total": 1700.0
+      },
+      {
+        "name": "Owner",
+        "count": 6,
+        "total": 1350.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 4,
+        "total": 1350.0
+      },
+      {
+        "name": "Economist",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Director",
+        "count": 5,
+        "total": 1250.0
+      },
+      {
+        "name": "Product Manager",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "Marketing",
+        "count": 8,
+        "total": 1100.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Physicist",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Consulting Partner",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Finance Director",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "General Manager",
+        "count": 3,
+        "total": 850.0
+      },
+      {
+        "name": "Advisor",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Attorney/Partner",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Business Development",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Other",
+        "count": 253,
+        "total": 51706.32
+      }
+    ],
     "total_small_contributions": 11942.32,
     "expenditures_by_type": {
       "Print Ads": 20125.0,

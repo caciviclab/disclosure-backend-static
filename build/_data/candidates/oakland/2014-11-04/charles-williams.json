@@ -40,6 +40,30 @@
       "Within Oakland": 11100.0,
       "Within California": 600.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City and County of San Francisco",
+        "count": 2,
+        "total": 10750.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Administration",
+        "count": 2,
+        "total": 10750.0
+      },
+      {
+        "name": "Auto Transport",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 35.0,
     "expenditures_by_type": {
       "Print Ads": 960.0,

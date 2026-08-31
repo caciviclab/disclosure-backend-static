@@ -47,6 +47,270 @@
       "Within Oakland": 58000.06,
       "Within California": 46120.01
     },
+    "contributions_by_employer": [
+      {
+        "name": "City Of Oakland",
+        "count": 12,
+        "total": 20650.06
+      },
+      {
+        "name": "Self-Employed",
+        "count": 17,
+        "total": 3550.0
+      },
+      {
+        "name": "PCC Logistics",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 5,
+        "total": 1900.0
+      },
+      {
+        "name": "City And County Of San Francisco, CA.",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Albert & Mackenzie",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Blackhawk Consultant Group",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "CCA Group LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Caldwell Flores Winters, Inc.",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Colbert Ball Tax Svc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Computacenter US",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Equinix",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Fatherland And Stein Pacific Holdings",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Gemcorp Capital",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Gew Exhibition",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Goins & Associates",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Nordstrom Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Rhett Jones Jr Photography",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Sean L. Bullard, DDS",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Textainer Group Holdings",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "The Law Offices of Bryan J. Harrison",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Tire Services",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Weber Family Group, LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Wendel Rosen",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Safeway",
+        "count": 1,
+        "total": 850.0
+      },
+      {
+        "name": "Other",
+        "count": 223,
+        "total": 39260.01
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Attorney",
+        "count": 73,
+        "total": 19505.0
+      },
+      {
+        "name": "Deputy City Attorney",
+        "count": 3,
+        "total": 17351.42
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 52,
+        "total": 9150.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 12,
+        "total": 2525.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "Accountant",
+        "count": 8,
+        "total": 1450.0
+      },
+      {
+        "name": "Executive",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Senior Pastor",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "Political Consultant",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Manager",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Owner",
+        "count": 5,
+        "total": 1050.01
+      },
+      {
+        "name": "Associate Engineer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "CFO/Board Member",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Chief Financial Officer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Chief Policy Officer",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Chief of Staff",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Cosmetics Counter Manager",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Dentist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Founder",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "General Partner",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Investor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Managing Director",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Photographer",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Principal Consultant",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Probation Officer",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 149,
+        "total": 26178.64
+      }
+    ],
     "total_small_contributions": 6857.36,
     "expenditures_by_type": {
       "Not Stated": 27580.44,

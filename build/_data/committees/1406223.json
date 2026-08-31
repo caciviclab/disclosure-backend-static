@@ -86,5 +86,44 @@
         4089.79
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "City of Oakland",
+      "count": 1,
+      "total": 2489.79
+    },
+    {
+      "name": "Kaplan Psychology",
+      "count": 1,
+      "total": 800.0
+    },
+    {
+      "name": "Ronald Kaplan",
+      "count": 1,
+      "total": 800.0
+    },
+    {
+      "name": "Sandre Swanson",
+      "count": 2,
+      "total": 0.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "City Councilmember",
+      "count": 1,
+      "total": 2489.79
+    },
+    {
+      "name": "Psychologist",
+      "count": 2,
+      "total": 1600.0
+    },
+    {
+      "name": "Non-Profit Director",
+      "count": 2,
+      "total": 0.0
+    }
   ]
 }

@@ -53,6 +53,270 @@
       "Within Oakland": 23022.0,
       "Within California": 13075.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 5,
+        "total": 1050.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 4,
+        "total": 750.0
+      },
+      {
+        "name": "American National Insurance Company",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Macarthur Gastroenterology Inc",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Reliance Partners",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Ripon",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "SDS",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Self/Dr H.S. Merriouns",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "WIVI",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "ILWU",
+        "count": 2,
+        "total": 599.0
+      },
+      {
+        "name": "City of Sacramento",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Costco",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self/Sandra Varner",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Families United",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Bay Area rapid transit",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "UrbanCore",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "CSU East Bay",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Center for Elders' Independence",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "County",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Davenport Gerstner & McClure",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Oakland PIC Inc.",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Self/Rice III",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "CCSF",
+        "count": 5,
+        "total": 250.0
+      },
+      {
+        "name": "Contra Costa County",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 10,
+        "total": 1474.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 21,
+        "total": 6225.0
+      },
+      {
+        "name": "Physician",
+        "count": 4,
+        "total": 1300.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 4,
+        "total": 1050.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "City Council",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Occupation not reported",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Operations Manage",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Long Shoremen",
+        "count": 2,
+        "total": 599.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 3,
+        "total": 550.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Community Liason",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Driver",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Logistics Coordinator",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Director of Government Affairs",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Handyman",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Insurance Broker",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Bart Board Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Compliance Officer",
+        "count": 5,
+        "total": 250.0
+      },
+      {
+        "name": "Government Affairs",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "CT",
+        "count": 2,
+        "total": 249.0
+      },
+      {
+        "name": "Event Planner",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Other",
+        "count": 7,
+        "total": 875.0
+      }
+    ],
     "total_small_contributions": 2079.0,
     "expenditures_by_type": {
       "Not Stated": 26815.59,

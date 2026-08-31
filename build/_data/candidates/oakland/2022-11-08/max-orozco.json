@@ -45,6 +45,40 @@
       "Within Oakland": 1450.0,
       "Within California": 350.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Employer not reported",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "OUSD",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Stay at home",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "home maker",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "teacher",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 94.65,
     "expenditures_by_type": {
       "Not Stated": 611.34,

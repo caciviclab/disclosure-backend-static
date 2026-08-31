@@ -47,6 +47,270 @@
       "Within Oakland": 70550.71,
       "Within California": 49227.25
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 16,
+        "total": 4795.0
+      },
+      {
+        "name": "Ohlone College",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Murigenics",
+        "count": 2,
+        "total": 1020.0
+      },
+      {
+        "name": "Self/Lucille Lang Day",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 5,
+        "total": 862.5
+      },
+      {
+        "name": "Palo Alto Foundation Med Group",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Port of Oakland",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Google",
+        "count": 3,
+        "total": 709.0
+      },
+      {
+        "name": "John Lyman",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Oakland Veterinary Hospital",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Broadcom",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Coinbase, Inc.",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Creative Ventures",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Deheng Law Offices PC",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "EcoDataLab",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Fred Morse",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Jackson Lewis P.C.",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Lighthouse",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Lighthouse Public Schools",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Matrix",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Maven Learning, Inc.",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Medallion",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Mental Health Chinese",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Oakland and the World",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Oaklandish",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Other",
+        "count": 179,
+        "total": 40597.86
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 154,
+        "total": 39362.6
+      },
+      {
+        "name": "Attorney",
+        "count": 15,
+        "total": 5875.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 15,
+        "total": 4806.86
+      },
+      {
+        "name": "Director",
+        "count": 14,
+        "total": 2990.0
+      },
+      {
+        "name": "Owner",
+        "count": 6,
+        "total": 2650.0
+      },
+      {
+        "name": "Physician",
+        "count": 11,
+        "total": 2462.5
+      },
+      {
+        "name": "Consultant",
+        "count": 9,
+        "total": 2330.0
+      },
+      {
+        "name": "Writer",
+        "count": 6,
+        "total": 2208.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 6,
+        "total": 2150.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 6,
+        "total": 1600.0
+      },
+      {
+        "name": "General Partner",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Professor",
+        "count": 5,
+        "total": 1300.0
+      },
+      {
+        "name": "Executive",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Founder",
+        "count": 4,
+        "total": 1050.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 3,
+        "total": 1002.5
+      },
+      {
+        "name": "Product Manager",
+        "count": 5,
+        "total": 819.0
+      },
+      {
+        "name": "Operations",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Partner",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Angel Investor",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Attorney Arbitrator _Mediator",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "CTO",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Creative Director",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Economist",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Franchise",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Prop mgt",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Other",
+        "count": 109,
+        "total": 22790.5
+      }
+    ],
     "total_small_contributions": 5864.47,
     "expenditures_by_type": {
       "Phone Banks": 6302.08,

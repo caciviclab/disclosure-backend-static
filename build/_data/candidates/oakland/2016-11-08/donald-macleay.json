@@ -39,6 +39,90 @@
       "Within Oakland": 3680.0,
       "Within California": 200.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Siegel & Yee",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "SLUSD",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "Geli",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "OUSD",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Lawyer",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Pastor",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Teacher",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Redevelopement",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Non-Profit",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Unkown",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Speech Pathologist",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "Archaeologist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "QA Engineer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Professor",
+        "count": 2,
+        "total": -100.0
+      }
+    ],
     "total_small_contributions": 839.5,
     "expenditures_by_type": {
       "Not Stated": 809.02,

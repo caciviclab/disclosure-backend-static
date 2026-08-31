@@ -41,6 +41,270 @@
       "Within Oakland": 24589.64,
       "Within California": 23950.29
     },
+    "contributions_by_employer": [
+      {
+        "name": "Kaiser Permanente",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 6,
+        "total": 1150.0
+      },
+      {
+        "name": "College of San Mateo",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Coro Center for Civic Leadership",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "LendingClub",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Maier Law Group",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "UC Hastings, College of the Law",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Urbanworks LLC",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "San Francisco Unified School District",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Flavors Catering & Consulting",
+        "count": 2,
+        "total": 685.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "The McConnell Group",
+        "count": 4,
+        "total": 650.0
+      },
+      {
+        "name": "BART",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Veneruso & Moncharsh",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Morgan Shidler Photography",
+        "count": 1,
+        "total": 599.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 7,
+        "total": 550.0
+      },
+      {
+        "name": "Andrew Vincent",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Arts Council of Princeton",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Jonathan Breault",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Kwun Bhansali Lazarus LLP",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "LS&Co",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Law Office of Douglas Horngrad",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Nick Valaris",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "NovoEd",
+        "count": 3,
+        "total": 500.0
+      },
+      {
+        "name": "The Education Trust-West",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Other",
+        "count": 172,
+        "total": 19820.18
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 50,
+        "total": 8410.75
+      },
+      {
+        "name": "Attorney",
+        "count": 53,
+        "total": 7845.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 6,
+        "total": 1850.0
+      },
+      {
+        "name": "Professor",
+        "count": 4,
+        "total": 1150.0
+      },
+      {
+        "name": "Experience Design Consultant",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Learning disabilities specialist",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Manager, Recruiting",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Program Director",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Consultant",
+        "count": 6,
+        "total": 700.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 6,
+        "total": 692.54
+      },
+      {
+        "name": "Food Services Consultant & Caterer",
+        "count": 2,
+        "total": 685.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Project Manager",
+        "count": 7,
+        "total": 650.0
+      },
+      {
+        "name": "Chief Strategist",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Photographer",
+        "count": 1,
+        "total": 599.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 550.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 6,
+        "total": 505.64
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Construction",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Director of Operations",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Electrical Contractor",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "SVP",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Compliance Officer",
+        "count": 6,
+        "total": 450.0
+      },
+      {
+        "name": "External Relations Manager",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Architect",
+        "count": 4,
+        "total": 400.0
+      },
+      {
+        "name": "Other",
+        "count": 109,
+        "total": 12977.0
+      }
+    ],
     "total_small_contributions": 8887.27,
     "expenditures_by_type": {
       "Print Ads": 4038.24,

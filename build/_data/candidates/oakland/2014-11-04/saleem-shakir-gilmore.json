@@ -46,6 +46,270 @@
       "Within Oakland": 9235.0,
       "Within California": 3960.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 9,
+        "total": 2625.0
+      },
+      {
+        "name": "Bain Capital",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Samson Energy",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 5,
+        "total": 550.0
+      },
+      {
+        "name": "Hill and Company Communications",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Oakcliff Capital",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "California Labor Federation",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "County of Marin",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Oakland PIC",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "employed",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "policylink",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Zezen Advisors",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Chabot Space and Science Center",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Pacific Union Financial",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Community Housing Partnership",
+        "count": 1,
+        "total": 105.0
+      },
+      {
+        "name": "180 Degrees",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Advocate Lutheran General Hospital",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Attitudinal Healing",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Bryan Parker for Mayor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Community Housing Development Corporation of North Richmond",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Concerned Black Men- National",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "First African Methodist Episcopal Church",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 9,
+        "total": -170.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 5,
+        "total": 1500.0
+      },
+      {
+        "name": "Director",
+        "count": 7,
+        "total": 1450.0
+      },
+      {
+        "name": "business owner",
+        "count": 3,
+        "total": 1325.0
+      },
+      {
+        "name": "consultant",
+        "count": 3,
+        "total": 1200.0
+      },
+      {
+        "name": "Attorney",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "student",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Investor",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Physician",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Public Relations",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Donahue Fitzgerald",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Event Coordinator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Senior Vice President",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Trainer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "vice president",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Architect (retired)",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Principal",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "organizer",
+        "count": 2,
+        "total": 165.0
+      },
+      {
+        "name": "Chief of Staff",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Fundrasier",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Loan Underwriter",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "employment services supervisor",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Designer/ Realtor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 10,
+        "total": -30.0
+      }
+    ],
     "total_small_contributions": 2324.0,
     "expenditures_by_type": {
       "Phone Banks": 75.0,

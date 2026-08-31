@@ -39,6 +39,270 @@
       "Within Oakland": 3750.0,
       "Within California": 2900.01
     },
+    "contributions_by_employer": [
+      {
+        "name": "CCSA",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Microsoft",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "OAKMONT Healthcare",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "KIPP Bay Area Schools",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Northrop and Grumman",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "UCSF",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Bay Area at California Charter Schools Association",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Chan Zuckerberg Initiative",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Northstar Memorial Group",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Incyte Diagnostics",
+        "count": 1,
+        "total": 210.0
+      },
+      {
+        "name": "Cantex",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Kroger",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "School",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "great school choices",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Coinbase",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Highland Hospital",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 100.01
+      },
+      {
+        "name": "A2G",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Aspire",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "CSCEE",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "GO Public Schools",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "LSUHSC",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Leadership for Educaitonal equity",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 6,
+        "total": 600.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Engineer",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Wound Care Nurse",
+        "count": 3,
+        "total": 750.0
+      },
+      {
+        "name": "Director of Organizing",
+        "count": 2,
+        "total": 650.0
+      },
+      {
+        "name": "Cook",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Community Service Manager",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Education",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Regional Director",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Educator",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Register Nurse Director",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Chief of Staff, Office of the Chief Technology Risk Officer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Student",
+        "count": 1,
+        "total": 210.0
+      },
+      {
+        "name": "Clinical Nurse",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Non profit ed",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Nurse",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Pharmacist",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Director, Real Estate",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Recruiter",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Resident",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 100.01
+      },
+      {
+        "name": "Business Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "COO",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "College Counselor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 11,
+        "total": 1100.0
+      }
+    ],
     "total_small_contributions": 1906.0,
     "expenditures_by_type": {
       "Print Ads": 4377.14,

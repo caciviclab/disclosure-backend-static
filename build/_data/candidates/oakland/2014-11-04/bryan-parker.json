@@ -54,6 +54,270 @@
       "Within Oakland": 238335.16,
       "Within California": 134181.28
     },
+    "contributions_by_employer": [
+      {
+        "name": "PCI Health Development",
+        "count": 2,
+        "total": 45000.0
+      },
+      {
+        "name": "Da Vita Healthcare",
+        "count": 3,
+        "total": 10341.71
+      },
+      {
+        "name": "Homemaker",
+        "count": 16,
+        "total": 8400.0
+      },
+      {
+        "name": "DaVita",
+        "count": 13,
+        "total": 4350.0
+      },
+      {
+        "name": "AB&I Foundry",
+        "count": 5,
+        "total": 2500.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 14,
+        "total": 2374.98
+      },
+      {
+        "name": "Employer not reported",
+        "count": 6,
+        "total": 2200.0
+      },
+      {
+        "name": "DaVita Healthcare Partners",
+        "count": 7,
+        "total": 2150.0
+      },
+      {
+        "name": "IBM",
+        "count": 6,
+        "total": 2106.49
+      },
+      {
+        "name": "Vaquero Capital",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 7,
+        "total": 1856.49
+      },
+      {
+        "name": "Shearman & Sterling",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "AE3 Partners",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Adchemy, Inc",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "American City Pest & Termite",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Braddock & Logan",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Fred Thompson Executive Search",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Goodfellow Corporation",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "Mainsail Partners",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Reed Smith",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "The Lapham Company Inc.",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "Wendel Rosen Black & Dean",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "salesforce.com",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Morrison Foerster",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Google",
+        "count": 3,
+        "total": 1170.24
+      },
+      {
+        "name": "Other",
+        "count": 598,
+        "total": 187955.04
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 57,
+        "total": 95966.43
+      },
+      {
+        "name": "Vice President",
+        "count": 13,
+        "total": 57748.2
+      },
+      {
+        "name": "Attorney",
+        "count": 82,
+        "total": 27783.98
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 53,
+        "total": 21433.93
+      },
+      {
+        "name": "Owner",
+        "count": 23,
+        "total": 9590.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 16,
+        "total": 8400.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 17,
+        "total": 6624.95
+      },
+      {
+        "name": "Physician",
+        "count": 18,
+        "total": 5537.43
+      },
+      {
+        "name": "Investor",
+        "count": 10,
+        "total": 4311.99
+      },
+      {
+        "name": "Executive",
+        "count": 10,
+        "total": 3900.0
+      },
+      {
+        "name": "Chief Financial Officer",
+        "count": 5,
+        "total": 3000.0
+      },
+      {
+        "name": "Banker",
+        "count": 7,
+        "total": 2700.0
+      },
+      {
+        "name": "Partner",
+        "count": 7,
+        "total": 2462.98
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 7,
+        "total": 2459.24
+      },
+      {
+        "name": "Founder",
+        "count": 9,
+        "total": 2141.99
+      },
+      {
+        "name": "Private Equity",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Accountant",
+        "count": 6,
+        "total": 1950.0
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 1906.49
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 4,
+        "total": 1900.0
+      },
+      {
+        "name": "Healthcare",
+        "count": 6,
+        "total": 1900.0
+      },
+      {
+        "name": "Finance",
+        "count": 5,
+        "total": 1800.0
+      },
+      {
+        "name": "Managing Partner",
+        "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Engineer",
+        "count": 6,
+        "total": 1720.24
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 1650.0
+      },
+      {
+        "name": "Dentist",
+        "count": 4,
+        "total": 1609.24
+      },
+      {
+        "name": "Other",
+        "count": 384,
+        "total": 114174.29
+      }
+    ],
     "total_small_contributions": 15975.94,
     "expenditures_by_type": {
       "Print Ads": 1500.0,

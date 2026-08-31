@@ -46,6 +46,270 @@
       "Within Oakland": 111180.0,
       "Within California": 78993.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 7,
+        "total": 2025.0
+      },
+      {
+        "name": "CBRE",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Family Wash & Water",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Farmers Insurance",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "Genentech, Inc.",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Luka's",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Milo Group of California, Inc.",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Tacos Sinaloa",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 5,
+        "total": 1400.0
+      },
+      {
+        "name": "Dark Heart Nursery",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "TMG Partners",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "Riaz Capital",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Wells Fargo",
+        "count": 3,
+        "total": 875.0
+      },
+      {
+        "name": "Metropolitan Bank",
+        "count": 2,
+        "total": 850.0
+      },
+      {
+        "name": "ARAM Electric, Inc.",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Alex Hahn",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Alpha Design",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Amanda Brown-Stevens",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "BMWL & Partners",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Balco Properties",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "California State University, East Bay",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Capital Turnaround Group, Inc.",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Cardio Net",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Cestra Butner",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Other",
+        "count": 302,
+        "total": 87141.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 80,
+        "total": 19604.0
+      },
+      {
+        "name": "Attorney",
+        "count": 28,
+        "total": 9600.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 26,
+        "total": 9579.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 25,
+        "total": 9275.0
+      },
+      {
+        "name": "Owner",
+        "count": 20,
+        "total": 9175.0
+      },
+      {
+        "name": "Consultant",
+        "count": 17,
+        "total": 4575.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 17,
+        "total": 4300.0
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 2700.0
+      },
+      {
+        "name": "Principal",
+        "count": 5,
+        "total": 2243.0
+      },
+      {
+        "name": "Director",
+        "count": 5,
+        "total": 2225.0
+      },
+      {
+        "name": "Engineer",
+        "count": 6,
+        "total": 2125.0
+      },
+      {
+        "name": "Agent",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "Vice President",
+        "count": 3,
+        "total": 1150.0
+      },
+      {
+        "name": "Architect",
+        "count": 5,
+        "total": 1075.0
+      },
+      {
+        "name": "Director of Finance",
+        "count": 3,
+        "total": 1072.0
+      },
+      {
+        "name": "Managing Partner",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "President/Chief Executive Officer",
+        "count": 2,
+        "total": 1050.0
+      },
+      {
+        "name": "Professor",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Economist",
+        "count": 3,
+        "total": 1025.0
+      },
+      {
+        "name": "Partner",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "Government Relations",
+        "count": 3,
+        "total": 950.0
+      },
+      {
+        "name": "Executive",
+        "count": 2,
+        "total": 925.0
+      },
+      {
+        "name": "Accountant",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Acquisitions",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Other",
+        "count": 163,
+        "total": 45947.0
+      }
+    ],
     "total_small_contributions": 5123.0,
     "expenditures_by_type": {
       "Print Ads": 1562.5,

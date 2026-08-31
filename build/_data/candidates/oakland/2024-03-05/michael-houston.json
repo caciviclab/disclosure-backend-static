@@ -39,6 +39,260 @@
       "Within Oakland": 6095.37,
       "Within California": 6000.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Candidate",
+        "count": 1,
+        "total": 4995.37
+      },
+      {
+        "name": "City Of San Jose",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "Araina Lynn Hennen",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Deloitte Consulting LLP",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "State Farm",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Steven Von Stade",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "City of Mountainview",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "SCI Consulting Group",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "City Of Fremont",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "City Of Portland",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "City Of Berkeley",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Getinge",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Amazon",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Artisan Partners",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City Of Glendale",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City Of Half Moon Bay",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Climate And Clean Energy Equity Fund",
+        "count": 2,
+        "total": 100.0
+      },
+      {
+        "name": "First Citizens Bank",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Lucille Packard Foundation",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "McLane Company",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Months To Years",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Peninsula Healthcare Connection",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "San Jose State University",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Candidate",
+        "count": 1,
+        "total": 4995.37
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "Coordinator",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Management Consulting",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Team Manager",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Asst City Manager",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Auditor",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "Civil Engineer",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Administrator",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Data And Analytics Manager",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Performance Auditor",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "City Auditor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Manager",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Territory Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Community Development Banker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Community Relations",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director Customer Relationship",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Editor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Government Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Human Resources",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Mental Health Clinician",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Program Officer",
+        "count": 2,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 2,
+        "total": 200.0
+      }
+    ],
     "total_small_contributions": 505.0,
     "expenditures_by_type": {
       "Office Expenses": 326.65,

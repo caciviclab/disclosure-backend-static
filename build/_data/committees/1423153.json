@@ -536,5 +536,134 @@
         228012.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "HMI Capital",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "University of California, San Francisco",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "City Of Oakland",
+      "count": 3,
+      "total": 2000.0
+    },
+    {
+      "name": "Sci Consulting Group",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Self-Employed",
+      "count": 3,
+      "total": 1000.0
+    },
+    {
+      "name": "Shoreline Venture Management",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Roberts Electric",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "Solutions For Good",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "40th Street Apartments LLC",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Jerome And Horner",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Oakland Fire Department",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Investor",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "Professor, Anesthesia",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 6,
+      "total": 2550.0
+    },
+    {
+      "name": "Civil Engineer",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Councilmember",
+      "count": 2,
+      "total": 1000.0
+    },
+    {
+      "name": "Mayor",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Venture Capitalist",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Artist",
+      "count": 2,
+      "total": 500.0
+    },
+    {
+      "name": "Electrical Contractor",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "Public Health Consultant",
+      "count": 1,
+      "total": 500.0
+    },
+    {
+      "name": "Nonprofit Consultant",
+      "count": 1,
+      "total": 250.0
+    },
+    {
+      "name": "Business Owner",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Firefighter",
+      "count": 1,
+      "total": 100.0
+    },
+    {
+      "name": "Real Estate",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

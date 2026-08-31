@@ -39,6 +39,270 @@
       "Within Oakland": 3821.5,
       "Within California": 5405.96
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of San Jose",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 5,
+        "total": 502.9
+      },
+      {
+        "name": "Hinge Health",
+        "count": 4,
+        "total": 352.9
+      },
+      {
+        "name": "Zumper",
+        "count": 2,
+        "total": 352.9
+      },
+      {
+        "name": "Amazon",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Truevault",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Densify Labs",
+        "count": 2,
+        "total": 305.8
+      },
+      {
+        "name": "Signature Development Group",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "USF",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "10xFinders",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Divvy Homes",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "NYCUSD",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Nick and Jack Studios",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Paxton AI",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Sanofi",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "ServiceNow",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "State of CA",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "TL Venture",
+        "count": 1,
+        "total": 205.8
+      },
+      {
+        "name": "Aveanna",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "CA state",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Columbia",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "May Mobility",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "State of Michigan",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Stanford University",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "AC Transit",
+        "count": 1,
+        "total": 102.9
+      },
+      {
+        "name": "Other",
+        "count": 25,
+        "total": 2500.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 11,
+        "total": 1832.9
+      },
+      {
+        "name": "CTO",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Policy Manager",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Founder",
+        "count": 3,
+        "total": 511.6
+      },
+      {
+        "name": "Professor",
+        "count": 4,
+        "total": 500.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Public Relations",
+        "count": 4,
+        "total": 352.9
+      },
+      {
+        "name": "Sales",
+        "count": 2,
+        "total": 352.9
+      },
+      {
+        "name": "Industrial Engineer",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Operations",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "SVP Development",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Scientist",
+        "count": 2,
+        "total": 280.0
+      },
+      {
+        "name": "Podcaster",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Principal Data Scientist",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Senior Counsel",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "State Senator",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Analyst",
+        "count": 2,
+        "total": 202.9
+      },
+      {
+        "name": "Compliance Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Payer Relations",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Product Designer",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "attorney",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 1,
+        "total": 102.9
+      },
+      {
+        "name": "AI Programmer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 21,
+        "total": 2100.0
+      }
+    ],
     "total_small_contributions": 5423.83,
     "expenditures_by_type": {
       "Not Stated": 3787.43,

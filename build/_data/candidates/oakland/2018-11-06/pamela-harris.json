@@ -47,6 +47,270 @@
       "Within Oakland": 36147.13,
       "Within California": 16120.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 48,
+        "total": 9471.13
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 10,
+        "total": 1108.0
+      },
+      {
+        "name": "San Francisco state university",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "MarjTax Incorporated",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Gatan Inc",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Microsoft",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Quadric Group Inc.",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Sungrade Solar, Inc.",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Victoria Sanders & Associates LLC",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Zendesk",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "CALSSA",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Daily Kos",
+        "count": 6,
+        "total": 640.0
+      },
+      {
+        "name": "DaVita",
+        "count": 2,
+        "total": 600.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 5,
+        "total": 550.0
+      },
+      {
+        "name": "Alameda Unified School District",
+        "count": 4,
+        "total": 500.0
+      },
+      {
+        "name": "Artiman Ventures",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "CCIG",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Lighthouse Community Charter School",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "McGrath Properties Inc",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Rockwood",
+        "count": 4,
+        "total": 500.0
+      },
+      {
+        "name": "Wendel Rosen",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Grateful Heart Holistic Therapy Center",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Other",
+        "count": 98,
+        "total": 11333.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 81,
+        "total": 13765.0
+      },
+      {
+        "name": "Attorney",
+        "count": 14,
+        "total": 3950.0
+      },
+      {
+        "name": "Non-Profit Accounting Professional",
+        "count": 2,
+        "total": 3148.13
+      },
+      {
+        "name": "Professor",
+        "count": 8,
+        "total": 1600.0
+      },
+      {
+        "name": "Consultant",
+        "count": 6,
+        "total": 1350.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 5,
+        "total": 1300.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 6,
+        "total": 1150.0
+      },
+      {
+        "name": "Teacher",
+        "count": 10,
+        "total": 908.0
+      },
+      {
+        "name": "Software engineer",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Enrolled Agent",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "Chief Information Officer",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "HR professional",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Novelist",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Physicist",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Membership Director",
+        "count": 3,
+        "total": 650.0
+      },
+      {
+        "name": "Campaign Director",
+        "count": 6,
+        "total": 640.0
+      },
+      {
+        "name": "Communications",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 4,
+        "total": 600.0
+      },
+      {
+        "name": "Businesswoman",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Social worker",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "VP",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Venture Capitalist",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Director Poetry for the People",
+        "count": 5,
+        "total": 475.0
+      },
+      {
+        "name": "Litigation Consultant",
+        "count": 3,
+        "total": 475.0
+      },
+      {
+        "name": "Other",
+        "count": 113,
+        "total": 12756.0
+      }
+    ],
     "total_small_contributions": 11971.0,
     "expenditures_by_type": {
       "Phone Banks": 586.45,

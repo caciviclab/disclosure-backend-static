@@ -74,6 +74,270 @@
       "Within Oakland": 208615.0,
       "Within California": 235728.04
     },
+    "contributions_by_employer": [
+      {
+        "name": "Kaiser Permanente",
+        "count": 25,
+        "total": 6945.0
+      },
+      {
+        "name": "University of California, San Francisco",
+        "count": 20,
+        "total": 4825.0
+      },
+      {
+        "name": "US House of Representatives",
+        "count": 12,
+        "total": 4350.0
+      },
+      {
+        "name": "State of California",
+        "count": 10,
+        "total": 3300.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 16,
+        "total": 2405.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 11,
+        "total": 2225.0
+      },
+      {
+        "name": "Brotherhood Crusade",
+        "count": 3,
+        "total": 1950.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 8,
+        "total": 1625.0
+      },
+      {
+        "name": "Apple",
+        "count": 5,
+        "total": 1600.0
+      },
+      {
+        "name": "Planned Parenthood Mar Monte",
+        "count": 5,
+        "total": 1550.0
+      },
+      {
+        "name": "EBMUD",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 12,
+        "total": 1325.0
+      },
+      {
+        "name": "Akerman LLP",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Montclair Golf Ent, Inc.",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Renaissance Rialto, Inc",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Solano County",
+        "count": 5,
+        "total": 1300.0
+      },
+      {
+        "name": "Townsend Public Affairs",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "Yin McDonald's",
+        "count": 2,
+        "total": 1300.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 6,
+        "total": 1250.0
+      },
+      {
+        "name": "Bernstein & Lipsett P.C.",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Partnership for Democracy and Education LLC",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "FairVote",
+        "count": 6,
+        "total": 1150.0
+      },
+      {
+        "name": "U.S. Government",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "Stanford University",
+        "count": 5,
+        "total": 1100.0
+      },
+      {
+        "name": "Bay Area Rapid Transit",
+        "count": 7,
+        "total": 1050.0
+      },
+      {
+        "name": "Other",
+        "count": 1063,
+        "total": 226842.28
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 961,
+        "total": 156935.0
+      },
+      {
+        "name": "Attorney",
+        "count": 75,
+        "total": 22400.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 58,
+        "total": 19747.28
+      },
+      {
+        "name": "Consultant",
+        "count": 76,
+        "total": 13875.0
+      },
+      {
+        "name": "Physician",
+        "count": 36,
+        "total": 10045.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 26,
+        "total": 9650.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 17,
+        "total": 7705.0
+      },
+      {
+        "name": "Director",
+        "count": 28,
+        "total": 5350.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 28,
+        "total": 5275.0
+      },
+      {
+        "name": "Professor",
+        "count": 23,
+        "total": 4725.0
+      },
+      {
+        "name": "Executive",
+        "count": 10,
+        "total": 4300.0
+      },
+      {
+        "name": "Pastor",
+        "count": 11,
+        "total": 3450.0
+      },
+      {
+        "name": "Teacher",
+        "count": 24,
+        "total": 3105.0
+      },
+      {
+        "name": "Designer",
+        "count": 6,
+        "total": 2800.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 10,
+        "total": 2775.0
+      },
+      {
+        "name": "Accounting",
+        "count": 11,
+        "total": 2750.0
+      },
+      {
+        "name": "Administration",
+        "count": 12,
+        "total": 2525.0
+      },
+      {
+        "name": "Educator",
+        "count": 23,
+        "total": 2510.0
+      },
+      {
+        "name": "Congressman",
+        "count": 5,
+        "total": 2450.0
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 2125.0
+      },
+      {
+        "name": "Member of Congress",
+        "count": 7,
+        "total": 1950.0
+      },
+      {
+        "name": "Assembly Member",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Managing Director",
+        "count": 5,
+        "total": 1850.0
+      },
+      {
+        "name": "Writer",
+        "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Scientist",
+        "count": 5,
+        "total": 1650.0
+      },
+      {
+        "name": "Other",
+        "count": 728,
+        "total": 139880.0
+      }
+    ],
     "total_small_contributions": 74433.25,
     "expenditures_by_type": {
       "Print Ads": 500.0,

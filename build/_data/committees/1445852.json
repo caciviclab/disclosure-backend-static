@@ -551,5 +551,44 @@
         542093.89
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Solomon Cordwell Buenz",
+      "count": 3,
+      "total": 2000.0
+    },
+    {
+      "name": "SCB",
+      "count": 1,
+      "total": 750.0
+    },
+    {
+      "name": "United Federation of Doll Clubs",
+      "count": 1,
+      "total": 750.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Principal",
+      "count": 2,
+      "total": 1000.0
+    },
+    {
+      "name": "Academy Chair",
+      "count": 1,
+      "total": 750.0
+    },
+    {
+      "name": "Lead Designer",
+      "count": 1,
+      "total": 750.0
+    }
   ]
 }

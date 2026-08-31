@@ -54,6 +54,270 @@
       "Within Oakland": 56089.25,
       "Within California": 93698.94
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 45,
+        "total": 12090.0
+      },
+      {
+        "name": "Accenture",
+        "count": 3,
+        "total": 1700.0
+      },
+      {
+        "name": "SDS",
+        "count": 5,
+        "total": 1550.0
+      },
+      {
+        "name": "Cal State East Bay",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "CarePlus Chiropractic Health Center",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "NTEK Consulting Services LLC",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 4,
+        "total": 1400.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 12,
+        "total": 1030.0
+      },
+      {
+        "name": "Walmart",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "ACLU",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "ASM Technologies Ltd",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Afresh",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "California Water Service",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Centro Legal de la Raza",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "City & County of San Francisco",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "East Bay Community Law Center",
+        "count": 7,
+        "total": 900.0
+      },
+      {
+        "name": "Eco Inc.",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Encore Software Services, Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Helpline Advocate",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Innominds",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Lawrence Livermore Natl Lab",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Morgan Lewis & Bockius",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "PWC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Saviicare",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self/Kiran Karnad",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 347,
+        "total": 61608.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 236,
+        "total": 34218.0
+      },
+      {
+        "name": "Attorney",
+        "count": 45,
+        "total": 8101.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 19,
+        "total": 5840.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 19,
+        "total": 5510.0
+      },
+      {
+        "name": "Consultant",
+        "count": 16,
+        "total": 4929.0
+      },
+      {
+        "name": "Director",
+        "count": 25,
+        "total": 4051.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 11,
+        "total": 3850.0
+      },
+      {
+        "name": "Engineer",
+        "count": 23,
+        "total": 3523.0
+      },
+      {
+        "name": "Student",
+        "count": 5,
+        "total": 1625.0
+      },
+      {
+        "name": "Owner",
+        "count": 6,
+        "total": 1550.0
+      },
+      {
+        "name": "Chiropractor",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Physician",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "Accountant",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Professor",
+        "count": 5,
+        "total": 1000.0
+      },
+      {
+        "name": "Community Manager",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Deputy Director",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Epidemiologist",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 9,
+        "total": 900.0
+      },
+      {
+        "name": "Information Technology Specialist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Maitri Non Profit",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Officer",
+        "count": 3,
+        "total": 900.0
+      },
+      {
+        "name": "Product Director",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Retired Teacher",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Rug Wholesale",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 243,
+        "total": 45099.0
+      }
+    ],
     "total_small_contributions": 19295.0,
     "expenditures_by_type": {
       "Not Stated": 10172.6,

@@ -6,5 +6,69 @@
   ],
   "contributions_by_election": [
 
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "FARALLON CAPITAL MANAGEMENT",
+      "count": 2,
+      "total": 160000.0
+    },
+    {
+      "name": "BLOCKDAEMON",
+      "count": 1,
+      "total": 100000.0
+    },
+    {
+      "name": "COINBASE, INC.",
+      "count": 1,
+      "total": 100000.0
+    },
+    {
+      "name": "CREDIT KARMA",
+      "count": 1,
+      "total": 50000.0
+    },
+    {
+      "name": "MATRIX",
+      "count": 1,
+      "total": 20000.0
+    },
+    {
+      "name": "ELLIS PARTNERS",
+      "count": 1,
+      "total": 10000.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "MANAGING MEMBER",
+      "count": 2,
+      "total": 160000.0
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 1,
+      "total": 100000.0
+    },
+    {
+      "name": "VP OF ENGINEERING",
+      "count": 1,
+      "total": 100000.0
+    },
+    {
+      "name": "CO-FOUNDER",
+      "count": 1,
+      "total": 50000.0
+    },
+    {
+      "name": "INVESTOR",
+      "count": 1,
+      "total": 20000.0
+    },
+    {
+      "name": "CO-FOUNDER AND MANAGING PRINCIPAL",
+      "count": 1,
+      "total": 10000.0
+    }
   ]
 }

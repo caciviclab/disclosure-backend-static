@@ -213,5 +213,44 @@
         2542.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "East Bay Computer Services Inc.,",
+      "count": 5,
+      "total": 2246.8
+    },
+    {
+      "name": "Mei Fong and Associates",
+      "count": 1,
+      "total": 600.0
+    },
+    {
+      "name": "Employer not reported",
+      "count": 1,
+      "total": 100.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Owner, Manager",
+      "count": 5,
+      "total": 2246.8
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 3,
+      "total": 892.0
+    },
+    {
+      "name": "social worker",
+      "count": 1,
+      "total": 600.0
+    },
+    {
+      "name": "unknwon",
+      "count": 1,
+      "total": 100.0
+    }
   ]
 }

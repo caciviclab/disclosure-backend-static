@@ -131,6 +131,23 @@ An additional script has been created to generate a report that enables comparin
 
 To ensure that database schema changes are visible in pull requests, the complete postgres schema is also saved to a `schema.sql` file in the `build` directory.  Because the `build` directory is automatically re-built for each branch in a PR and committed to the repository, any change to the schema caused by a code change will be shown a difference in the `schema.sql` file when reviewing the PR.
 
+### Maintaining employer/occupation coalescing
+
+The contributions-by-employer and by-occupation summaries coalesce freeform
+`Tran_Emp`/`Tran_Occ` spellings using the rules and alias maps in
+`lib/contributor_name_coalescer.rb`. Since new spellings arrive with every
+filing, run this after importing fresh data:
+
+    $ make suggest-aliases
+
+It prints pairs of employer/occupation groups that look like they refer to the
+same thing but aren't merged (typos, "X" vs "X Medical Center", etc.), ranked
+by the number of contributions affected. Review each suggestion — some flagged
+pairs are genuinely different (e.g. "Product Manager" vs "Project Manager") —
+and add the good ones to `EMPLOYER_ALIASES` or `OCCUPATION_ALIASES`, with a
+test in `spec/calculators/contributor_name_coalescer_spec.rb`. Re-run
+`make suggest-aliases` to confirm the suggestions disappear.
+
 ### Adding a calculator
 
 Each metric about a candidate is calculated independently. A metric might be

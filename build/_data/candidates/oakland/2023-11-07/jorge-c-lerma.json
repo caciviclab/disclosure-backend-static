@@ -39,6 +39,270 @@
       "Within Oakland": 10438.0,
       "Within California": 5200.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 12,
+        "total": 4210.0
+      },
+      {
+        "name": "Student",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "HP Investors LLC",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "La Clinica de la Raza",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "UC Berkeley Goldman School of Public Policy",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Leftside Printing",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "RCR Inc.",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "OUSD",
+        "count": 2,
+        "total": 418.0
+      },
+      {
+        "name": "FCP",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Bob?s Cleaners",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "ACOE",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Aspire public schools",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Be Clear",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "EB",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Education for Change Public Schools",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Million Person Project",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Oakland Unified Public Schools",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Aero",
+        "count": 1,
+        "total": 160.0
+      },
+      {
+        "name": "CCSA",
+        "count": 3,
+        "total": 150.0
+      },
+      {
+        "name": "CEG",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "CloudEx",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Common Sense Media",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Donahue Fitzgerald LLP",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 7,
+        "total": 700.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Self-Employed",
+        "count": 6,
+        "total": 2310.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 10,
+        "total": 2150.0
+      },
+      {
+        "name": "Student",
+        "count": 3,
+        "total": 1800.0
+      },
+      {
+        "name": "Education",
+        "count": 7,
+        "total": 868.0
+      },
+      {
+        "name": "Consultant",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Engineer",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Finance",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Handyman",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 3,
+        "total": 600.0
+      },
+      {
+        "name": "Nurse Practitioner",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 4,
+        "total": 400.0
+      },
+      {
+        "name": "PR",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Education District Leader",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Partner",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Superintendent",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Executive",
+        "count": 1,
+        "total": 160.0
+      },
+      {
+        "name": "Founder",
+        "count": 2,
+        "total": 150.0
+      },
+      {
+        "name": "Administrator as needed",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Chief of Staff",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Decision Scientist",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "District administrator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Fitness",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 3,
+        "total": 300.0
+      }
+    ],
     "total_small_contributions": 1719.0,
     "expenditures_by_type": {
       "Not Stated": 30.0,

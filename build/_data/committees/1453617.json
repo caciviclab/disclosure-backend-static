@@ -641,5 +641,94 @@
         87154.34
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Employer not reported",
+      "count": 4,
+      "total": 5671.41
+    },
+    {
+      "name": "PURPPLE WINE COMPANY, LLC",
+      "count": 2,
+      "total": 4800.0
+    },
+    {
+      "name": "SHORELINE VENTURE MANAGEMENT",
+      "count": 3,
+      "total": 4537.13
+    },
+    {
+      "name": "H & L ADVERTISING",
+      "count": 2,
+      "total": 3544.63
+    },
+    {
+      "name": "GOOGLE VENTURES",
+      "count": 2,
+      "total": 2835.71
+    },
+    {
+      "name": "LSG ASSOCIATES",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "CES ASSOCIATES",
+      "count": 2,
+      "total": 945.24
+    },
+    {
+      "name": "Self-Employed",
+      "count": 2,
+      "total": 945.24
+    },
+    {
+      "name": "SALESIAN COLLEGE PREPARATIONS HIGH SCHOOL",
+      "count": 2,
+      "total": 236.31
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Retired/Not Employed",
+      "count": 18,
+      "total": 29555.43
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 6,
+      "total": 8580.94
+    },
+    {
+      "name": "MANAGING DIRECTOR",
+      "count": 3,
+      "total": 4537.13
+    },
+    {
+      "name": "RETIERD",
+      "count": 2,
+      "total": 3780.94
+    },
+    {
+      "name": "PARTNER",
+      "count": 2,
+      "total": 2835.71
+    },
+    {
+      "name": "CONSULTANT",
+      "count": 3,
+      "total": 1945.24
+    },
+    {
+      "name": "TECHNOLOGY PARTNERSHIPS",
+      "count": 2,
+      "total": 1890.47
+    },
+    {
+      "name": "FREELANCE WRITER",
+      "count": 2,
+      "total": 945.24
+    }
   ]
 }

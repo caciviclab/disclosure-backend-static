@@ -41,6 +41,270 @@
       "Within Oakland": 32801.33,
       "Within California": 25094.33
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 20,
+        "total": 6333.43
+      },
+      {
+        "name": "BART",
+        "count": 6,
+        "total": 806.29
+      },
+      {
+        "name": "Port of Oakland",
+        "count": 2,
+        "total": 803.39
+      },
+      {
+        "name": "Andes Construction Inc",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Apteligent",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Bloom Innovations",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CCSAC",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CCSAC/Bloom Innovations",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CFO",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "California State University of the East Bay",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Facebook",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "IDLF Solutions, LLC",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Intrepid Investors",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "KTV Music Cafe",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Katzoff & Riggs",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Lloyd A. Wise Company",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Mills College/University of Pennsylvania",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Pacific Aviation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Planned Parenthood",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "San Francisco State University",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Scotts Seafood",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Security Pacific",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Social Security Administratio",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "THC",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 68,
+        "total": 14842.89
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Executive Director",
+        "count": 7,
+        "total": 9203.56
+      },
+      {
+        "name": "Owner",
+        "count": 15,
+        "total": 4809.18
+      },
+      {
+        "name": "Real Estate",
+        "count": 6,
+        "total": 2903.39
+      },
+      {
+        "name": "Consultant",
+        "count": 8,
+        "total": 2609.78
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 2375.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 5,
+        "total": 2354.93
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 9,
+        "total": 1900.91
+      },
+      {
+        "name": "Attorney",
+        "count": 4,
+        "total": 1600.0
+      },
+      {
+        "name": "Psychologist",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Banker",
+        "count": 2,
+        "total": 958.03
+      },
+      {
+        "name": "Administrator",
+        "count": 2,
+        "total": 803.38
+      },
+      {
+        "name": "Board Secretary",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "CSR Agent",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Consultant/Professor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Human Resources Director",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Human Resources Specialist",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Lecturer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Marketing Manager",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Mayor",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "NUG",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "President/PhD",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Property Manager",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Retired Clinical Psychologist",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Retired Health  Executive",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Retired Non-Profit Executive",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 59,
+        "total": 11999.85
+      }
+    ],
     "total_small_contributions": 2628.61,
     "expenditures_by_type": {
       "Not Stated": 5350.76,

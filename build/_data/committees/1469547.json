@@ -236,5 +236,54 @@
         613200.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "BASE",
+      "count": 2,
+      "total": 145000.0
+    },
+    {
+      "name": "BLOCKDAEMON",
+      "count": 1,
+      "total": 60000.0
+    },
+    {
+      "name": "BUILDCASA",
+      "count": 1,
+      "total": 5000.0
+    },
+    {
+      "name": "BRUCE DUNG VOUNG ENTERPRISES, INC.",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "FOUNDERS TABLE RESTAURANT GROUP",
+      "count": 1,
+      "total": 200.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "CREATOR",
+      "count": 2,
+      "total": 145000.0
+    },
+    {
+      "name": "Chief Executive Officer/President",
+      "count": 2,
+      "total": 65000.0
+    },
+    {
+      "name": "OWNER",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "FOUNDER",
+      "count": 1,
+      "total": 200.0
+    }
   ]
 }

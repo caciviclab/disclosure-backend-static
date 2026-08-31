@@ -46,6 +46,270 @@
       "Within Oakland": 173475.0,
       "Within California": 74302.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 158,
+        "total": 41350.0
+      },
+      {
+        "name": "San Francisco State",
+        "count": 8,
+        "total": 10510.0
+      },
+      {
+        "name": "A B & I Foundary",
+        "count": 8,
+        "total": 5600.0
+      },
+      {
+        "name": "Mechanics Bank",
+        "count": 6,
+        "total": 3550.0
+      },
+      {
+        "name": "Reed Smith",
+        "count": 7,
+        "total": 2650.0
+      },
+      {
+        "name": "SKC Communication Products",
+        "count": 2,
+        "total": 2100.0
+      },
+      {
+        "name": "Ted Jacobs Engineering",
+        "count": 5,
+        "total": 2100.0
+      },
+      {
+        "name": "Coldwell Banker",
+        "count": 11,
+        "total": 2050.0
+      },
+      {
+        "name": "Mills College",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Bell Investment Advisor",
+        "count": 1,
+        "total": 1400.0
+      },
+      {
+        "name": "Brigantine Sales",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "PJMB",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Pet Food Express",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Piedmont USD",
+        "count": 1,
+        "total": 1400.0
+      },
+      {
+        "name": "Red Oak Realty",
+        "count": 1,
+        "total": 1400.0
+      },
+      {
+        "name": "Shoreline Venture Management",
+        "count": 1,
+        "total": 1400.0
+      },
+      {
+        "name": "Starr Finley",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Zhone Technologies",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Wells Fargo",
+        "count": 7,
+        "total": 1300.0
+      },
+      {
+        "name": "Argos Consulting",
+        "count": 1,
+        "total": 1200.0
+      },
+      {
+        "name": "Fitzgerald, Abbott & Beardsley",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Arch Insurance",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Delta Investments",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Wineshipping.com",
+        "count": 1,
+        "total": 1000.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 3,
+        "total": 850.0
+      },
+      {
+        "name": "Other",
+        "count": 377,
+        "total": 101002.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 236,
+        "total": 49610.0
+      },
+      {
+        "name": "Attorney",
+        "count": 70,
+        "total": 20625.0
+      },
+      {
+        "name": "Owner",
+        "count": 36,
+        "total": 15450.0
+      },
+      {
+        "name": "Professor/Dept Chair",
+        "count": 7,
+        "total": 10210.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 23,
+        "total": 8900.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 39,
+        "total": 8175.0
+      },
+      {
+        "name": "Consultant",
+        "count": 29,
+        "total": 7800.0
+      },
+      {
+        "name": "Physician",
+        "count": 11,
+        "total": 3450.0
+      },
+      {
+        "name": "Banker",
+        "count": 15,
+        "total": 3400.0
+      },
+      {
+        "name": "CPA",
+        "count": 9,
+        "total": 3300.0
+      },
+      {
+        "name": "Manager",
+        "count": 10,
+        "total": 3150.0
+      },
+      {
+        "name": "Engineer",
+        "count": 8,
+        "total": 2950.0
+      },
+      {
+        "name": "Developer",
+        "count": 4,
+        "total": 2800.0
+      },
+      {
+        "name": "homemaker",
+        "count": 8,
+        "total": 2600.0
+      },
+      {
+        "name": "Director",
+        "count": 5,
+        "total": 2300.0
+      },
+      {
+        "name": "Broker",
+        "count": 5,
+        "total": 2200.0
+      },
+      {
+        "name": "Artist",
+        "count": 4,
+        "total": 2150.0
+      },
+      {
+        "name": "Vice President",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Finance",
+        "count": 8,
+        "total": 1950.0
+      },
+      {
+        "name": "Architect",
+        "count": 5,
+        "total": 1800.0
+      },
+      {
+        "name": "Financial Analyst",
+        "count": 4,
+        "total": 1750.0
+      },
+      {
+        "name": "Attorney-Director",
+        "count": 1,
+        "total": 1400.0
+      },
+      {
+        "name": "CFO",
+        "count": 3,
+        "total": 1400.0
+      },
+      {
+        "name": "Chairman Emeritus",
+        "count": 1,
+        "total": 1400.0
+      },
+      {
+        "name": "Investor",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Other",
+        "count": 332,
+        "total": 85602.0
+      }
+    ],
     "total_small_contributions": 16112.0,
     "expenditures_by_type": {
       "Print Ads": 420.0,

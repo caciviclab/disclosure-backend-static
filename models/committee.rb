@@ -29,6 +29,8 @@ class Committee < ActiveRecord::Base
       total_contributions: calculation(:contribution_list_total),
       contributions: calculation(:contribution_list) || [],
       contributions_by_election: calculation(:total_by_election) || [],
+      contributions_by_employer: calculation(:contributions_by_employer) || [],
+      contributions_by_occupation: calculation(:contributions_by_occupation) || [],
     }
   end
 end

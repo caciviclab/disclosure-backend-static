@@ -41,6 +41,270 @@
       "Within Oakland": 60657.53,
       "Within California": 28571.97
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 24,
+        "total": 7855.73
+      },
+      {
+        "name": "Acts",
+        "count": 16,
+        "total": 6050.33
+      },
+      {
+        "name": "Housewife",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Oakland Police Department",
+        "count": 4,
+        "total": 1800.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 3,
+        "total": 1573.48
+      },
+      {
+        "name": "MOVA",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Law Office of George Holland",
+        "count": 5,
+        "total": 950.0
+      },
+      {
+        "name": "ABI",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "IHSS",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "LifeLong",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Love and Unity Christian Fellowship",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Nibbi Bros Associates,Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Our TV",
+        "count": 2,
+        "total": 876.5
+      },
+      {
+        "name": "Horizon B&V Properties",
+        "count": 1,
+        "total": 873.6
+      },
+      {
+        "name": "Annexion Bio Science",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Children's Hospital Oakland",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Greater St. Paul",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Horizon Properties",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Northern Lights School",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Pimentel Com",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Sloan Inc",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "State Farm",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Coldwell Banker",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Related",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 96,
+        "total": 19486.62
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 79,
+        "total": 18106.51
+      },
+      {
+        "name": "Owner",
+        "count": 10,
+        "total": 6094.73
+      },
+      {
+        "name": "Pastor",
+        "count": 13,
+        "total": 4535.2
+      },
+      {
+        "name": "Housewife",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 7,
+        "total": 2600.0
+      },
+      {
+        "name": "Sr. Pastor",
+        "count": 2,
+        "total": 2300.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 9,
+        "total": 2220.4
+      },
+      {
+        "name": "Admin",
+        "count": 7,
+        "total": 2178.82
+      },
+      {
+        "name": "Director",
+        "count": 6,
+        "total": 2100.0
+      },
+      {
+        "name": "Consultant",
+        "count": 3,
+        "total": 2000.0
+      },
+      {
+        "name": "Doctor",
+        "count": 5,
+        "total": 1966.5
+      },
+      {
+        "name": "Police Officer",
+        "count": 4,
+        "total": 1900.0
+      },
+      {
+        "name": "Sales",
+        "count": 3,
+        "total": 1600.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 3,
+        "total": 1200.0
+      },
+      {
+        "name": "Executive",
+        "count": 2,
+        "total": 1176.5
+      },
+      {
+        "name": "COO",
+        "count": 5,
+        "total": 1085.77
+      },
+      {
+        "name": "Broker",
+        "count": 3,
+        "total": 1073.6
+      },
+      {
+        "name": "Plumber",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Bishop",
+        "count": 4,
+        "total": 993.9
+      },
+      {
+        "name": "General Contractor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Healthcae",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Maintenance Manager",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Physical Therapist",
+        "count": 1,
+        "total": 773.48
+      },
+      {
+        "name": "Custodian",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 79,
+        "total": 13167.36
+      }
+    ],
     "total_small_contributions": 6273.35,
     "expenditures_by_type": {
       "Print Ads": 20917.08,

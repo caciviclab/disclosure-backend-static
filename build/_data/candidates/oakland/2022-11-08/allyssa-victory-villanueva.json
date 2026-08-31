@@ -46,6 +46,270 @@
       "Within Oakland": 10608.0,
       "Within California": 13621.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Snowflake",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "DBA Alina Johnson",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "DBA Eric Hollingder",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Lodestar K-5",
+        "count": 9,
+        "total": 900.0
+      },
+      {
+        "name": "Leadership Public Schools",
+        "count": 17,
+        "total": 872.0
+      },
+      {
+        "name": "ACLU NorCal",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Law Offices of John L. Burris",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "PayPal",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 11,
+        "total": 456.0
+      },
+      {
+        "name": "Sa",
+        "count": 5,
+        "total": 400.0
+      },
+      {
+        "name": "Umemployed",
+        "count": 8,
+        "total": 332.0
+      },
+      {
+        "name": "ACLU of Northern CA",
+        "count": 14,
+        "total": 322.0
+      },
+      {
+        "name": "Apple",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "East Bay Asian Youth Center",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Space Coatings, Inc",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Nonprofit Organization",
+        "count": 2,
+        "total": 225.0
+      },
+      {
+        "name": "UC San Diego",
+        "count": 4,
+        "total": 207.0
+      },
+      {
+        "name": "Belmont Village",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Binti",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Climate and Clean Energy Equity Fund",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Self -Envirocom Communications Strategies",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "City of Berkeley",
+        "count": 4,
+        "total": 194.0
+      },
+      {
+        "name": "Ucsd",
+        "count": 2,
+        "total": 180.0
+      },
+      {
+        "name": "Veloce Energy Inc",
+        "count": 2,
+        "total": 165.0
+      },
+      {
+        "name": "Alameda County",
+        "count": 1,
+        "total": 150.0
+      },
+      {
+        "name": "Other",
+        "count": 104,
+        "total": 6124.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 54,
+        "total": 7477.0
+      },
+      {
+        "name": "Attorney",
+        "count": 13,
+        "total": 1812.0
+      },
+      {
+        "name": "Business Operations",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Caretaker",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Truck Driver",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Vice Principal",
+        "count": 9,
+        "total": 900.0
+      },
+      {
+        "name": "Special Education Teacher",
+        "count": 16,
+        "total": 850.0
+      },
+      {
+        "name": "Teacher",
+        "count": 21,
+        "total": 726.0
+      },
+      {
+        "name": "Director",
+        "count": 3,
+        "total": 665.0
+      },
+      {
+        "name": "Cr",
+        "count": 5,
+        "total": 400.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Umemployed",
+        "count": 8,
+        "total": 332.0
+      },
+      {
+        "name": "Founder and Executive Director",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Producer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 250.0
+      },
+      {
+        "name": "Associate",
+        "count": 2,
+        "total": 225.0
+      },
+      {
+        "name": "Software engineer",
+        "count": 2,
+        "total": 210.0
+      },
+      {
+        "name": "Bistro Attendant",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Counselor",
+        "count": 3,
+        "total": 200.0
+      },
+      {
+        "name": "Investigator",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Operations Manager",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Public Relations consultant",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Strategist",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Rent board commissioner",
+        "count": 4,
+        "total": 194.0
+      },
+      {
+        "name": "Manager",
+        "count": 4,
+        "total": 172.0
+      },
+      {
+        "name": "Other",
+        "count": 90,
+        "total": 5091.0
+      }
+    ],
     "total_small_contributions": 6118.2,
     "expenditures_by_type": {
       "Office Expenses": 23.85,

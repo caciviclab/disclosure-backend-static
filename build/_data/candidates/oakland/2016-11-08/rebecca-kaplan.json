@@ -41,6 +41,270 @@
       "Within Oakland": 54306.0,
       "Within California": 105184.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "City of Oakland",
+        "count": 9,
+        "total": 52850.0
+      },
+      {
+        "name": "Dreisbach Enterprises",
+        "count": 4,
+        "total": 2100.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Reuben, Junius & Rose, LLP",
+        "count": 7,
+        "total": 1480.0
+      },
+      {
+        "name": "GSC Logistics, Inc.",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Townsend Public Affairs",
+        "count": 5,
+        "total": 1200.0
+      },
+      {
+        "name": "Ab&I Foundry",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Akonadi Foundation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Amity Home Health Care, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Amy Graham",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Aqua Skin Care",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Boys & Girls Club",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Bryan Parker",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Dark Heart Industries",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "E.C. Auto Body",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Eagle World Media",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Esmeralda Cruz-Lopez",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Eugene Gardner",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "GSZ Corporation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Genentech, Inc.",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Google",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Grace & Co. Facilities",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Green Remedy Richmond",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Interwest Insurance Services",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 163,
+        "total": 42510.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Council Member at Large",
+        "count": 3,
+        "total": 48000.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 35,
+        "total": 8950.0
+      },
+      {
+        "name": "Attorney",
+        "count": 27,
+        "total": 7338.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 18,
+        "total": 5656.0
+      },
+      {
+        "name": "Owner",
+        "count": 8,
+        "total": 4446.0
+      },
+      {
+        "name": "City Councilmember",
+        "count": 4,
+        "total": 4050.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 11,
+        "total": 3160.0
+      },
+      {
+        "name": "Manager",
+        "count": 5,
+        "total": 2900.0
+      },
+      {
+        "name": "Executive",
+        "count": 5,
+        "total": 2800.0
+      },
+      {
+        "name": "Student",
+        "count": 3,
+        "total": 2100.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Director",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Psychologist",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Partner",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Principal",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "Administrator",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "Advocate",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Agent",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Cardiogram Examiner",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Chairman & Executive Vice President",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Co-Founder",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Coffee Roaster",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Compliance Officer",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Concert Promoter",
+        "count": 3,
+        "total": 700.0
+      },
+      {
+        "name": "Councilmember",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Other",
+        "count": 102,
+        "total": 23090.0
+      }
+    ],
     "total_small_contributions": 10823.99,
     "expenditures_by_type": {
       "Print Ads": 1298.18,

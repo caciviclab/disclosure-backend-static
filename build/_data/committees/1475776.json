@@ -116,5 +116,34 @@
         247840.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Coinbase, Inc.",
+      "count": 2,
+      "total": 50000.0
+    },
+    {
+      "name": "Shoreline Venture Management",
+      "count": 1,
+      "total": 10000.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Director of Engineering",
+      "count": 2,
+      "total": 50000.0
+    },
+    {
+      "name": "Co-Founder",
+      "count": 1,
+      "total": 10000.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 1,
+      "total": 10000.0
+    }
   ]
 }

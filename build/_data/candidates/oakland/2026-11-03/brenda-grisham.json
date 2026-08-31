@@ -38,6 +38,110 @@
       "Within Oakland": 2780.0,
       "Within California": 2045.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "CAP INTERNATIONAL",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "CYPRESS MANDELA PARKWAY",
+        "count": 2,
+        "total": 255.0
+      },
+      {
+        "name": "CITY OF SAN FRANCISCO",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "CLAREMONT REALTY",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "HUMANGOOD",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "TANGO CONSTRUCTION",
+        "count": 2,
+        "total": 220.0
+      },
+      {
+        "name": "CITY OF ALAMEDA",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "CITY OF OAKLAND",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "BART AREA RAPID TRANSIT",
+        "count": 1,
+        "total": 120.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "PROGRAM MANAGER",
+        "count": 2,
+        "total": 255.0
+      },
+      {
+        "name": "REGIONAL MANAGER",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "SUPERVISOR",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "CONTRACTOR",
+        "count": 2,
+        "total": 220.0
+      },
+      {
+        "name": "ENGINEER",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "STATION AGENT",
+        "count": 1,
+        "total": 120.0
+      },
+      {
+        "name": "DISTIRICT DIRECTOR",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "DISTRICT DIRECTOR",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 855.0,
     "expenditures_by_type": {
       "Campaign Consultants": 140.73,

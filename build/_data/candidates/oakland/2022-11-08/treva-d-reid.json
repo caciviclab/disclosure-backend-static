@@ -40,6 +40,270 @@
       "Within Oakland": 86271.5,
       "Within California": 109846.21
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 18,
+        "total": 7900.0
+      },
+      {
+        "name": "Becker Boards",
+        "count": 5,
+        "total": 4500.0
+      },
+      {
+        "name": "Apple",
+        "count": 11,
+        "total": 2650.0
+      },
+      {
+        "name": "Pacific Gas & Electric Company",
+        "count": 5,
+        "total": 2150.0
+      },
+      {
+        "name": "Argent Materials",
+        "count": 3,
+        "total": 2050.0
+      },
+      {
+        "name": "Riaz Capital",
+        "count": 3,
+        "total": 2000.0
+      },
+      {
+        "name": "Employer not reported",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Haas School Of Business",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Holland Brooks Builders, Inc.",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Moderne Eye Optometry",
+        "count": 7,
+        "total": 1800.0
+      },
+      {
+        "name": "Oi Funds LLC",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "City Of Oakland",
+        "count": 5,
+        "total": 1350.0
+      },
+      {
+        "name": "Shiloh Church",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Kaiser Permanente",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "State Of California",
+        "count": 4,
+        "total": 1100.0
+      },
+      {
+        "name": "Blue Shield Of California",
+        "count": 5,
+        "total": 1098.0
+      },
+      {
+        "name": "PG&E",
+        "count": 4,
+        "total": 1027.12
+      },
+      {
+        "name": "Coldwell Banker Realty",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Starbucks",
+        "count": 4,
+        "total": 950.0
+      },
+      {
+        "name": "AB&I Foundry",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "AMG & Associates, LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Aaron Metals",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Alameda County, CA",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "All Home",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Ama Torrance",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Other",
+        "count": 448,
+        "total": 125642.1
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 108,
+        "total": 36149.49
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 43,
+        "total": 15784.5
+      },
+      {
+        "name": "Real Estate",
+        "count": 24,
+        "total": 10350.0
+      },
+      {
+        "name": "Owner",
+        "count": 18,
+        "total": 8699.0
+      },
+      {
+        "name": "Attorney",
+        "count": 16,
+        "total": 8650.0
+      },
+      {
+        "name": "Manager",
+        "count": 14,
+        "total": 5525.0
+      },
+      {
+        "name": "Principal",
+        "count": 8,
+        "total": 3100.0
+      },
+      {
+        "name": "General Contractor",
+        "count": 3,
+        "total": 2700.0
+      },
+      {
+        "name": "Marketing Consultant",
+        "count": 7,
+        "total": 2700.0
+      },
+      {
+        "name": "Founder",
+        "count": 4,
+        "total": 2550.0
+      },
+      {
+        "name": "Political Consultant",
+        "count": 7,
+        "total": 2500.0
+      },
+      {
+        "name": "Professor",
+        "count": 6,
+        "total": 2200.0
+      },
+      {
+        "name": "Public Affairs Consultant",
+        "count": 5,
+        "total": 2000.0
+      },
+      {
+        "name": "Optometrist",
+        "count": 7,
+        "total": 1800.0
+      },
+      {
+        "name": "Sales Manager",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
+        "name": "Pastor",
+        "count": 7,
+        "total": 1650.0
+      },
+      {
+        "name": "Hotelier",
+        "count": 5,
+        "total": 1600.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 13,
+        "total": 1374.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 1250.0
+      },
+      {
+        "name": "Sales Executive",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Vice President",
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Insurance Agent",
+        "count": 2,
+        "total": 1065.6
+      },
+      {
+        "name": "Director",
+        "count": 6,
+        "total": 1050.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 2,
+        "total": 1001.0
+      },
+      {
+        "name": "Certified Public Accountant",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Other",
+        "count": 380,
+        "total": 88568.12
+      }
+    ],
     "total_small_contributions": 14392.08,
     "expenditures_by_type": {
       "Print Ads": 2500.0,

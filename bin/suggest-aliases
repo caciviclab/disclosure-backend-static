@@ -1,0 +1,283 @@
+#!/usr/bin/env ruby
+# Report likely-missing entries for ContributorNameCoalescer's alias maps.
+#
+# Coalesces all employer/occupation values with the current rules, then flags
+# pairs of groups that probably refer to the same thing but are not merged:
+#   - near-identical spellings (small edit distance), which catches typos
+#   - one group's name extending the other's ("X" vs "X MEDICAL CENTER")
+#
+# Suggestions are ranked by the number of contributions affected and labeled
+# E1, E2, ... (employers) and O1, O2, ... (occupations). At the prompt, enter
+# labels to apply: each one adds the alias to lib/contributor_name_coalescer.rb
+# and an expectation to spec/calculators/contributor_name_coalescer_spec.rb.
+# Review each pair before applying -- some are genuinely different entities.
+# For those, enter the label with a leading slash (e.g. /O40) to record the
+# pair in bin/suggest-aliases-rejections.tsv so it is never suggested again.
+#
+# Usage: bundle exec ruby bin/suggest-aliases [min_count]
+#   min_count: only suggest merging groups seen at least this many times
+#              into a bigger group (default 3)
+
+require 'set'
+require_relative '../environment.rb'
+
+MIN_COUNT = (ARGV[0] || 3).to_i     # smaller group must have at least this many rows
+HEAD_MIN_COUNT = 25                 # bigger group must have at least this many rows
+MAX_SUGGESTIONS = 40                # per section
+
+LIB_PATH = File.expand_path('../lib/contributor_name_coalescer.rb', __dir__)
+SPEC_PATH = File.expand_path('../spec/calculators/contributor_name_coalescer_spec.rb', __dir__)
+
+# Pairs the user has marked "don't suggest again" (tab-separated:
+# kind, key, key). Lookup ignores pair order so a suggestion stays rejected
+# even if the two groups' sizes flip.
+REJECTIONS_PATH = File.expand_path('suggest-aliases-rejections.tsv', __dir__)
+
+def rejection_entry(kind, a, b)
+  [kind.to_s, *[a, b].sort]
+end
+
+REJECTIONS = File.exist?(REJECTIONS_PATH) ? File.readlines(REJECTIONS_PATH).filter_map do |line|
+  line = line.strip
+  next if line.empty? || line.start_with?('#')
+
+  kind, a, b = line.split("\t")
+  rejection_entry(kind, a, b)
+end.to_set : Set.new
+
+def levenshtein(a, b, max)
+  return max + 1 if (a.length - b.length).abs > max
+
+  prev = (0..b.length).to_a
+  a.each_char.with_index do |ca, i|
+    row = [i + 1]
+    b.each_char.with_index do |cb, j|
+      row << [prev[j + 1] + 1, row[j] + 1, prev[j] + (ca == cb ? 0 : 1)].min
+    end
+    return max + 1 if row.min > max
+    prev = row
+  end
+  prev.last
+end
+
+def coalesced_groups(column)
+  rows = ActiveRecord::Base.connection.execute(<<-SQL)
+    SELECT "#{column}" AS value, "Tran_Occ" AS occupation, COUNT(*) AS n
+    FROM all_contributions
+    WHERE "Entity_Cd" = 'IND'
+    GROUP BY 1, 2
+  SQL
+
+  groups = Hash.new(0)
+  rows.each do |row|
+    key = if column == 'Tran_Emp'
+            ContributorNameCoalescer.employer_key(row['value'], row['occupation'])
+          else
+            ContributorNameCoalescer.occupation_key(row['value'])
+          end
+    groups[key] += row['n'].to_i
+  end
+  # Keep groups with a fixed display name (CEO, Real Estate, ...) -- they are
+  # legitimate merge targets -- but drop the synthetic no-real-name buckets.
+  synthetic = [
+    ContributorNameCoalescer::UNKNOWN,
+    ContributorNameCoalescer::RETIRED_NOT_EMPLOYED,
+    ContributorNameCoalescer::SELF_EMPLOYED,
+    ContributorNameCoalescer::HOMEMAKER,
+    ContributorNameCoalescer::EMPLOYER_NOT_REPORTED,
+    ContributorNameCoalescer::OCCUPATION_NOT_REPORTED,
+  ]
+  groups.reject { |key, _| synthetic.include?(key) }
+end
+
+def suggestions_for(groups, kind)
+  heads = groups.select { |_, n| n >= HEAD_MIN_COUNT }
+                .sort_by { |_, n| -n }
+  candidates = groups.select { |key, n| n >= MIN_COUNT && key.length >= 4 }
+
+  suggestions = []
+  heads.each do |head, head_n|
+    candidates.each do |other, other_n|
+      next if other == head || other_n > head_n
+      next if REJECTIONS.include?(rejection_entry(kind, head, other))
+      # Groups with a curated display name (Oakland Fire, the Alameda DA, ...)
+      # were deliberately split out; suggest merges into them, never away.
+      next if ContributorNameCoalescer::FIXED_DISPLAY_NAMES.key?(other)
+
+      reason =
+        if other.start_with?("#{head} ") || head.start_with?("#{other} ")
+          'prefix'
+        else
+          max = head.length >= 10 ? 2 : 1
+          'edit distance' if levenshtein(head, other, max) <= max
+        end
+      next unless reason
+
+      suggestions << { head: head, head_n: head_n, other: other,
+                       other_n: other_n, reason: reason }
+    end
+  end
+
+  # If a group matched several heads, keep only its biggest match
+  suggestions.group_by { |s| s[:other] }
+             .map { |_, matches| matches.max_by { |s| s[:head_n] } }
+             .sort_by { |s| -s[:other_n] }
+end
+
+def print_section(title, label, kind, groups)
+  puts "== #{title}: possible merges (#{groups.size} coalesced groups) =="
+  suggestions = suggestions_for(groups, kind)
+  shown = suggestions.first(MAX_SUGGESTIONS)
+  if shown.empty?
+    puts '  none found'
+  else
+    shown.each_with_index do |s, i|
+      puts format("  %-4s %-45s (%5d)  <-  %-45s (%4d)  [%s]",
+                  "#{label}#{i + 1}", s[:head], s[:head_n],
+                  s[:other], s[:other_n], s[:reason])
+    end
+    puts "  ... and #{suggestions.size - shown.size} more" if suggestions.size > shown.size
+  end
+  puts
+  shown
+end
+
+# Insert `insert` (an array of lines) into `path` at the line index returned
+# by the block, which receives the file's lines. Returns false if the block
+# finds no anchor.
+def insert_at(path, insert)
+  lines = File.read(path).lines
+  index = yield lines
+  return false unless index
+
+  lines.insert(index, *insert)
+  File.write(path, lines.join)
+  true
+end
+
+def add_alias(hash_name, from, to)
+  if File.read(LIB_PATH).include?("'#{from}' =>")
+    puts "  ! '#{from}' already appears in #{File.basename(LIB_PATH)}; skipped"
+    return false
+  end
+
+  added = insert_at(LIB_PATH, ["    '#{from}' => '#{to}',\n"]) do |lines|
+    start = lines.index { |l| l.start_with?("  #{hash_name} = {") }
+    close = start && lines[start..].index { |l| l.start_with?('  }.freeze') }
+    close && start + close
+  end
+  puts "  ! could not find #{hash_name} in #{LIB_PATH}" unless added
+  added
+end
+
+def add_spec_case(method, from, to)
+  added = insert_at(SPEC_PATH, [
+    "      expect(described_class.#{method}('#{from}'))\n",
+    "        .to eq(described_class.#{method}('#{to}'))\n"
+  ]) do |lines|
+    describe = lines.index { |l| l.include?("describe '.#{method}'") }
+    anchor = describe &&
+             lines[describe..].index { |l| l.include?("it 'applies curated aliases' do") }
+    next nil unless anchor
+
+    anchor += describe
+    close = lines[anchor..].index { |l| l =~ /\A    end\n?\z/ }
+    close && anchor + close
+  end
+  puts "  ! could not find the 'applies curated aliases' block for .#{method} in #{SPEC_PATH}" unless added
+  added
+end
+
+def reject_suggestion(label, kind, suggestion)
+  entry = rejection_entry(kind, suggestion[:head], suggestion[:other])
+  if REJECTIONS.include?(entry)
+    puts "  ! #{label} is already in #{File.basename(REJECTIONS_PATH)}"
+    return
+  end
+
+  REJECTIONS << entry
+  File.open(REJECTIONS_PATH, 'a') do |f|
+    f.puts [kind, suggestion[:other], suggestion[:head]].join("\t")
+  end
+  puts "  #{label}: won't suggest '#{suggestion[:other]}' <-> '#{suggestion[:head]}' again"
+  true
+end
+
+def apply_suggestion(label, kind, suggestion)
+  hash_name, method =
+    if kind == :employer
+      %w[EMPLOYER_ALIASES employer_key]
+    else
+      %w[OCCUPATION_ALIASES occupation_key]
+    end
+
+  from, to = suggestion[:other], suggestion[:head]
+  return unless add_alias(hash_name, from, to)
+
+  add_spec_case(method, from, to)
+  puts "  #{label}: added '#{from}' => '#{to}' to #{hash_name} (+ spec case)"
+  true
+end
+
+def prompt_and_apply(sections)
+  applied = 0
+  rejected = 0
+  loop do
+    print 'Apply which suggestions? ("E1 O2"; "/O40" = never suggest; blank to finish): '
+    line = $stdin.gets
+    break if line.nil?
+
+    tokens = line.strip.split
+    break if tokens.empty?
+
+    tokens.each do |token|
+      match = token.upcase.match(%r{\A(/)?([EO])(\d+)\z})
+      unless match
+        puts "  ! unrecognized selection #{token.inspect} (expected e.g. E1, O2, or /O40)"
+        next
+      end
+
+      reject, label = match[1], "#{match[2]}#{match[3]}"
+      kind, suggestions = sections[match[2]]
+      suggestion = suggestions[match[3].to_i - 1]
+      unless suggestion
+        puts "  ! no suggestion #{label}"
+        next
+      end
+
+      if reject
+        rejected += 1 if reject_suggestion(label, kind, suggestion)
+      elsif apply_suggestion(label, kind, suggestion)
+        applied += 1
+      end
+    end
+  end
+  [applied, rejected]
+end
+
+employer_suggestions = print_section('EMPLOYERS', 'E', :employer,
+                                     coalesced_groups('Tran_Emp'))
+occupation_suggestions = print_section('OCCUPATIONS', 'O', :occupation,
+                                       coalesced_groups('Tran_Occ'))
+
+applied, rejected = prompt_and_apply(
+  'E' => [:employer, employer_suggestions],
+  'O' => [:occupation, occupation_suggestions]
+)
+
+puts "\nRecorded #{rejected} rejection(s) in #{REJECTIONS_PATH}" if rejected > 0
+if applied > 0
+  puts <<~FOOTER
+
+    Applied #{applied} merge(s). Next steps:
+      bundle exec rspec spec/calculators/contributor_name_coalescer_spec.rb
+      make process   # regenerate data with the new aliases
+  FOOTER
+elsif rejected == 0
+  puts <<~FOOTER
+    No changes made. To merge a pair manually, add a line to EMPLOYER_ALIASES or
+    OCCUPATION_ALIASES in lib/contributor_name_coalescer.rb mapping the less
+    common key to the more common one, and add a case to
+    spec/calculators/contributor_name_coalescer_spec.rb.
+  FOOTER
+end

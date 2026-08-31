@@ -45,6 +45,270 @@
       "Within Oakland": 32320.0,
       "Within California": 29950.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Self-Employed",
+        "count": 74,
+        "total": 42540.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 9,
+        "total": 5050.0
+      },
+      {
+        "name": "Eclipse Electric",
+        "count": 4,
+        "total": 3200.0
+      },
+      {
+        "name": "CECG",
+        "count": 3,
+        "total": 2400.0
+      },
+      {
+        "name": "YCAT-C",
+        "count": 3,
+        "total": 2400.0
+      },
+      {
+        "name": "First AME Church",
+        "count": 4,
+        "total": 2100.0
+      },
+      {
+        "name": "LT Liquors",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "GGSV",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Gray, Greer, Shelby & Vaughn",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Everett & Jones",
+        "count": 4,
+        "total": 1300.0
+      },
+      {
+        "name": "Kaiser",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Better Homes",
+        "count": 3,
+        "total": 1050.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 3,
+        "total": 950.0
+      },
+      {
+        "name": "John Burris",
+        "count": 3,
+        "total": 950.0
+      },
+      {
+        "name": "Pacific Park Management",
+        "count": 2,
+        "total": 950.0
+      },
+      {
+        "name": "Cypress Mandela, Inc.",
+        "count": 3,
+        "total": 850.0
+      },
+      {
+        "name": "AEG",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Abbissinian Baptist Church",
+        "count": 2,
+        "total": 800.0
+      },
+      {
+        "name": "Academy of Arts",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Aegis Equity Partners",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Aflac",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Anne Weills",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Aqua Skin Care",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Berkeley Bowl",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Bernard Ashcraft",
+        "count": 1,
+        "total": 800.0
+      },
+      {
+        "name": "Other",
+        "count": 154,
+        "total": 57243.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 55,
+        "total": 17500.0
+      },
+      {
+        "name": "Business Owner",
+        "count": 22,
+        "total": 13760.0
+      },
+      {
+        "name": "Attorney",
+        "count": 16,
+        "total": 7350.0
+      },
+      {
+        "name": "Consultant",
+        "count": 12,
+        "total": 5799.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 12,
+        "total": 5750.0
+      },
+      {
+        "name": "Pastor",
+        "count": 15,
+        "total": 5560.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 13,
+        "total": 5050.0
+      },
+      {
+        "name": "Contractor",
+        "count": 7,
+        "total": 4800.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 8,
+        "total": 4600.0
+      },
+      {
+        "name": "Retail",
+        "count": 6,
+        "total": 4200.0
+      },
+      {
+        "name": "Developer",
+        "count": 6,
+        "total": 4150.0
+      },
+      {
+        "name": "Manager",
+        "count": 6,
+        "total": 3100.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 4,
+        "total": 1900.0
+      },
+      {
+        "name": "Electrician",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Engineering Consultant",
+        "count": 2,
+        "total": 1600.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 2,
+        "total": 1500.0
+      },
+      {
+        "name": "Engineer",
+        "count": 3,
+        "total": 1500.0
+      },
+      {
+        "name": "Broker",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Food Industry",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Managing Director",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Restaurant",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Construction",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Technology",
+        "count": 2,
+        "total": 1200.0
+      },
+      {
+        "name": "Property Management",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Supervisor",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Other",
+        "count": 126,
+        "total": 46364.0
+      }
+    ],
     "total_small_contributions": 1332.0,
     "expenditures_by_type": {
       "Print Ads": 1600.0,

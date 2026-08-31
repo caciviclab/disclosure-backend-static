@@ -47,6 +47,270 @@
       "Within Oakland": 25950.0,
       "Within California": 13925.01
     },
+    "contributions_by_employer": [
+      {
+        "name": "Torres Law Group, Inc.",
+        "count": 6,
+        "total": 9600.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 5,
+        "total": 800.0
+      },
+      {
+        "name": "California Labor Federation",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Caraves Law",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Intico Holdings",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Ultragenyx",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "East Bay Municipal Utility District",
+        "count": 2,
+        "total": 525.0
+      },
+      {
+        "name": "She the People",
+        "count": 1,
+        "total": 450.0
+      },
+      {
+        "name": "Alta Bates Medical Center",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Oakland Unified School District",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Wells Fargo Bank",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "EtaGen, Inc.",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "HOPE",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "La Plazita Preschool",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Mar Con Company",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Montebello Unified School District",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "PowerPAC+",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "San Francisco Municipal Transportation Agency",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "State of California",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "The Melissa Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "University of California, Riverside",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Verizon",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "W.I. Simonson Mercedes-Bends Dealer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Webster Medical Group",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Other",
+        "count": 48,
+        "total": 5700.01
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Attorney",
+        "count": 16,
+        "total": 10925.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 14,
+        "total": 2400.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 4,
+        "total": 1500.0
+      },
+      {
+        "name": "Physician",
+        "count": 4,
+        "total": 700.01
+      },
+      {
+        "name": "Corporate Operations",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Engineer",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Event Coordinator",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Librarian",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Consultant",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "Human Resource Manager",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "Administrator",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Patient Access",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Vice President",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Assemblyman",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Assistant Professor",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Automotive Technician",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Contractor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Early Childhood Education",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Homemaker",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Manager",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Project Engineer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Senior Vice President",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Architect",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Other",
+        "count": 29,
+        "total": 3350.0
+      }
+    ],
     "total_small_contributions": 2428.0,
     "expenditures_by_type": {
       "Not Stated": 3367.0,

@@ -39,6 +39,100 @@
       "Within Oakland": 2150.0,
       "Within California": 650.0
     },
+    "contributions_by_employer": [
+      {
+        "name": "Siegel & Yee",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 490.0
+      },
+      {
+        "name": "University of California",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "COO",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Dept of Defense",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "OUSD",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
+    "contributions_by_occupation": [
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 700.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 6,
+        "total": 700.0
+      },
+      {
+        "name": "Nurse",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Coach/Lecturer",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Physcian",
+        "count": 1,
+        "total": 140.0
+      },
+      {
+        "name": "Educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Management Analyst",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Retired educator",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Teacher",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Videographer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Youth Services",
+        "count": 1,
+        "total": 100.0
+      }
+    ],
     "total_small_contributions": 1093.0,
     "expenditures_by_type": {
       "Not Stated": 180.0,

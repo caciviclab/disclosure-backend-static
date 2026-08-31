@@ -131,5 +131,69 @@
         10700.0
       ]
     ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "UC Berkeley",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "Policylink",
+      "count": 1,
+      "total": 1200.0
+    },
+    {
+      "name": "Brown & Toland Physicians",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Co-Director",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Homemaker/Unemployed",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Three Counties Termite Control",
+      "count": 1,
+      "total": 1000.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Librarian",
+      "count": 1,
+      "total": 2500.0
+    },
+    {
+      "name": "Senior Director",
+      "count": 1,
+      "total": 1200.0
+    },
+    {
+      "name": "Homemaker/Unemployed",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Owner",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Physician",
+      "count": 1,
+      "total": 1000.0
+    },
+    {
+      "name": "Speak Out",
+      "count": 1,
+      "total": 1000.0
+    }
   ]
 }
