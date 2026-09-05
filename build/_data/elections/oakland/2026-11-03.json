@@ -1,16 +1,16 @@
 {
-  "total_contributions": 959070.21,
+  "total_contributions": 802442.78,
   "total_contributions_by_source": {
-    "Out of State": 40168.47,
-    "Within Oakland": 546887.05,
-    "Within California": 329478.68
+    "Out of State": 34853.47,
+    "Within Oakland": 402400.62,
+    "Within California": 322652.68
   },
   "contributions_by_type": {
-    "Committee": 203995.37,
-    "Individual": 649936.12,
+    "Committee": 90383.94,
+    "Individual": 607470.12,
     "Unitemized": 41286.01,
     "Self Funding": 3352.71,
-    "Other (includes Businesses)": 59250.0
+    "Other (includes Businesses)": 58700.0
   },
   "most_expensive_races": [
     {
@@ -20,16 +20,16 @@
       "amount": 297625.11
     },
     {
-      "slug": "charter-amendment-measure",
-      "type": "referendum",
-      "title": "Measure EE",
-      "amount": 156627.43
-    },
-    {
       "slug": "city-council-district-6",
       "type": "office",
       "title": "City Council District 6",
       "amount": 144326.0
+    },
+    {
+      "slug": "city-council-district-2",
+      "type": "office",
+      "title": "City Council District 2",
+      "amount": 143044.49
     }
   ],
   "largest_small_proportion": [
@@ -67,19 +67,19 @@
   ],
   "top_contributors": [
     {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "election_name": "oakland-2026",
-      "total_contributions": 113611.43
-    },
-    {
-      "name": "Sammuel Washington",
-      "election_name": "oakland-2026",
-      "total_contributions": 28250.0
-    },
-    {
       "name": "Sheet Metal Workers Local Union 104 PAC",
       "election_name": "oakland-2026",
       "total_contributions": 4900.0
+    },
+    {
+      "name": "Derek Smith",
+      "election_name": "oakland-2026",
+      "total_contributions": 3850.0
+    },
+    {
+      "name": "Cestra Butner",
+      "election_name": "oakland-2026",
+      "total_contributions": 3600.0
     }
   ],
   "top_contributors_for_offices": [
@@ -103,43 +103,26 @@
     }
   ],
   "top_contributors_for_measures": [
-    {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_contributions": 113611.43
-    },
-    {
-      "name": "Sammuel Washington",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_contributions": 28250.0
-    },
-    {
-      "name": "Dan Grassetti",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_contributions": 1426.0
-    }
+
   ],
   "top_spenders": [
-    {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_spending": 113611.43
-    },
-    {
-      "name": "Sammuel Washington",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_spending": 28250.0
-    },
     {
       "name": "Sheet Metal Workers Local Union 104 PAC",
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 4900.0
+    },
+    {
+      "name": "Derek Smith",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 3850.0
+    },
+    {
+      "name": "Cliff Lee",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 3600.0
     }
   ],
   "top_spenders_for_offices": [
@@ -163,23 +146,6 @@
     }
   ],
   "top_spenders_for_measures": [
-    {
-      "name": "Oakland Rising Committee sponsored by Center for Empowered Politics",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_spending": 113611.43
-    },
-    {
-      "name": "Sammuel Washington",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_spending": 28250.0
-    },
-    {
-      "name": "Dan Grassetti",
-      "type": "Measure",
-      "election_name": "oakland-2026",
-      "total_spending": 1426.0
-    }
+
   ]
 }

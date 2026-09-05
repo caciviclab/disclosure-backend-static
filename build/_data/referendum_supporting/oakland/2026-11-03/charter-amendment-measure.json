@@ -7,40 +7,15 @@
   "number": "EE",
   "voters_edge_url": null,
   "contributions_by_region": [
-    {
-      "amount": 5315.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 6826.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 144486.43,
-      "locale": "Within Oakland"
-    }
+
   ],
   "contributions_by_type": [
-    {
-      "type": "Committee",
-      "amount": 113611.43
-    },
-    {
-      "type": "Individual",
-      "amount": 42466.0
-    },
-    {
-      "type": "Other (includes Businesses)",
-      "amount": 550.0
-    }
+
   ],
   "supporting_organizations": [
-    {
-      "id": "Pending",
-      "name": "Committee for a Strong, Accountable Oakland: Yes on EE",
-      "payee": "Committee for a Strong, Accountable Oakland: Yes on EE",
-      "amount": 0
-    }
+
   ],
-  "total_contributions": 156627.43
+  "total_contributions": [
+
+  ]
 }
