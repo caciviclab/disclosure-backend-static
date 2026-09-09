@@ -1943,14 +1943,14 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 802442.78,
+    "total_contributions": 806042.78,
     "total_contributions_by_source": {
       "Out of State": 34853.47,
       "Within Oakland": 402400.62,
-      "Within California": 322652.68
+      "Within California": 326252.68
     },
     "contributions_by_type": {
-      "Committee": 90383.94,
+      "Committee": 93983.94,
       "Individual": 607470.12,
       "Unitemized": 41286.01,
       "Self Funding": 3352.71,
@@ -1961,7 +1961,7 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 297625.11
+        "amount": 299425.11
       },
       {
         "slug": "city-council-district-6",
@@ -2021,7 +2021,7 @@
         "total_contributions": 3850.0
       },
       {
-        "name": "Cliff Lee",
+        "name": "Cestra Butner",
         "election_name": "oakland-2026",
         "total_contributions": 3600.0
       }
@@ -2040,7 +2040,7 @@
         "total_contributions": 3850.0
       },
       {
-        "name": "Danny Wan",
+        "name": "Cliff Lee",
         "type": "Office",
         "election_name": "oakland-2026",
         "total_contributions": 3600.0
@@ -2063,7 +2063,7 @@
         "total_spending": 3850.0
       },
       {
-        "name": "Cliff Lee",
+        "name": "Danny Wan",
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 3600.0
@@ -2083,7 +2083,7 @@
         "total_spending": 3850.0
       },
       {
-        "name": "Cliff Lee",
+        "name": "Danny Wan",
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 3600.0
