@@ -1943,17 +1943,17 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 809342.78,
+    "total_contributions": 813342.78,
     "total_contributions_by_source": {
       "Out of State": 34853.47,
-      "Within Oakland": 402400.62,
+      "Within Oakland": 406400.62,
       "Within California": 329552.68
     },
     "contributions_by_type": {
       "Committee": 97283.94,
       "Individual": 607470.12,
       "Unitemized": 41286.01,
-      "Self Funding": 3352.71,
+      "Self Funding": 7352.71,
       "Other (includes Businesses)": 58700.0
     },
     "most_expensive_races": [
@@ -2021,9 +2021,9 @@
         "total_contributions": 4900.0
       },
       {
-        "name": "Derek Smith",
+        "name": "Kathryn Camp",
         "election_name": "oakland-2026",
-        "total_contributions": 3850.0
+        "total_contributions": 4000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -2034,16 +2034,16 @@
         "total_contributions": 4900.0
       },
       {
+        "name": "Kathryn Camp",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_contributions": 4000.0
+      },
+      {
         "name": "Derek Smith",
         "type": "Office",
         "election_name": "oakland-2026",
         "total_contributions": 3850.0
-      },
-      {
-        "name": "Cestra Butner",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_contributions": 3600.0
       }
     ],
     "top_contributors_for_measures": [
@@ -2063,10 +2063,10 @@
         "total_spending": 4900.0
       },
       {
-        "name": "Derek Smith",
+        "name": "Kathryn Camp",
         "type": "Office",
         "election_name": "oakland-2026",
-        "total_spending": 3850.0
+        "total_spending": 4000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -2083,10 +2083,10 @@
         "total_spending": 4900.0
       },
       {
-        "name": "Derek Smith",
+        "name": "Kathryn Camp",
         "type": "Office",
         "election_name": "oakland-2026",
-        "total_spending": 3850.0
+        "total_spending": 4000.0
       }
     ],
     "top_spenders_for_measures": [
