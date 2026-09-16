@@ -49,7 +49,7 @@ else
   index = client.init_index('election')
 end
 
-oak_client = SODA::Client.new({:domain => "data.oklandca.gov", :app_token => "4FYL4zxMOncsLeANaeDzP455z"})
+oak_client = SODA::Client.new({:domain => "data.oaklandca.gov", :app_token => "4FYL4zxMOncsLeANaeDzP455z"})
 oak_response = oak_client.get("https://data.oaklandca.gov/resource/f4dq-mk8d").body
 charity_data = oak_response.map do |donation|
   {
@@ -91,9 +91,10 @@ puts "Indexing #{candidate_data.length} Candidates..."
 iec_data = []
 iec_contrib  = []
 contributor_data = []
-Candidate.includes(:election, :committee, :office_election).find_each do |candidate|
-  next if candidate.committee.nil?
-  list = candidate.committee.calculation(:contribution_list).map do |contributor|
+Candidate.includes(:election, :office_election).find_each do |candidate|
+  # Candidate committee contributions are calculated onto the Candidate record;
+  # recent candidates have no matching row in the committees table.
+  list = (candidate.calculation(:contribution_list) || []).map do |contributor|
     {
       type: :contributor,
       contributor_name: contributor['Tran_NamF'] ?
@@ -111,9 +112,7 @@ Candidate.includes(:election, :committee, :office_election).find_each do |candid
       election_title: candidate.election.title,
     }
   end
-  unless list.nil?
-    contributor_data += list
-  end
+  contributor_data += list
 
   [
     [:support_list, "Supporting"],
