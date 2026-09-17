@@ -6,4 +6,5 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: LeAna Powell
 occupation: Policy Advocate / Parent Leader
+photo_url: LeAna-Powell
 ---

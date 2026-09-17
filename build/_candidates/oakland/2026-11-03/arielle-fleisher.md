@@ -8,5 +8,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Arielle Fleisher
 occupation: Public Policy Expert
+photo_url: Arielle-Fleisher
 website_url: https://www.arielleforoakland.com/
 ---

@@ -6,6 +6,7 @@ is_accepted_expenditure_ceiling: false
 is_incumbent: false
 name: Alexandra Williams
 occupation: Educator
+photo_url: Alexandra-Williams
 website_url: https://alexandraforoakland.com/
 instagram_url: https://www.instagram.com/alexandraforoakland
 ---

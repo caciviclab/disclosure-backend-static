@@ -6,5 +6,6 @@ is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Kathryn Camp
 occupation: No occupation reported
+photo_url: Kathryn-Camp
 website_url: https://www.kathryncamp.com/
 ---
