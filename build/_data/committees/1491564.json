@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 3924.71,
+  "total_contributions": 5724.71,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -420,6 +420,21 @@
       "Tran_NamF": "Jozie",
       "Tran_NamL": "Westwood",
       "Tran_Zip4": "95209",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "1466279",
+      "Filer_ID": "1491564",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Small Contribution Committee",
+      "Tran_Amt1": 1800.0,
+      "Tran_Date": "2026-09-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Empower Oakland Committee",
+      "Tran_Zip4": "95814",
       "election_name": "oakland-2026"
     }
   ]
