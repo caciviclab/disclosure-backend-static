@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1468682,
   "supporting_money": {
-    "contributions_received": 135346.59,
-    "total_contributions": 135346.59,
-    "total_expenditures": 2995.96,
+    "contributions_received": 135084.09,
+    "total_contributions": 135084.09,
+    "total_expenditures": 4908.46,
     "total_loans_received": 750.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,15 +31,15 @@
     ],
     "contributions_by_type": {
       "Committee": 17950.0,
-      "Individual": 100460.59,
+      "Individual": 99298.09,
       "Unitemized": 7983.0,
       "Self Funding": 3.0,
-      "Other (includes Businesses)": 8200.0
+      "Other (includes Businesses)": 9100.0
     },
     "contributions_by_origin": {
       "Out of State": 6901.0,
-      "Within Oakland": 63470.0,
-      "Within California": 56242.59
+      "Within Oakland": 64470.0,
+      "Within California": 54980.09
     },
     "contributions_by_employer": [
       {
@@ -170,7 +170,7 @@
       {
         "name": "Other",
         "count": 148,
-        "total": 44721.0
+        "total": 45471.0
       }
     ],
     "contributions_by_occupation": [
@@ -181,8 +181,8 @@
       },
       {
         "name": "Owner",
-        "count": 14,
-        "total": 5350.0
+        "count": 13,
+        "total": 5150.0
       },
       {
         "name": "Real Estate",
@@ -275,6 +275,11 @@
         "total": 900.0
       },
       {
+        "name": "Dentist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Entrepreneur",
         "count": 2,
         "total": 900.0
@@ -295,21 +300,17 @@
         "total": 900.0
       },
       {
-        "name": "Law",
-        "count": 3,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 95,
-        "total": 24171.0
+        "count": 98,
+        "total": 25121.0
       }
     ],
     "total_small_contributions": 8969.0,
     "expenditures_by_type": {
       "Contribution": 250.0,
       "Office Expenses": 1818.51,
-      "Fundraising Events": 750.0
+      "Fundraising Events": 750.0,
+      "Professional Services (Legal, Accounting)": 1912.5
     },
     "supporting_by_type": {
       "Digital Ads Estimate $1,038.41": 1000.0,
@@ -326,7 +327,7 @@
 
     ]
   },
-  "total_contributions": 135346.59,
-  "total_expenditures": 2995.96,
+  "total_contributions": 135084.09,
+  "total_expenditures": 4908.46,
   "total_loans_received": 750.0
 }

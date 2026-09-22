@@ -1,0 +1,84 @@
+{
+  "iec": true,
+  "total_contributions": 65000.0,
+  "contributions": [
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1494729",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Healthcare Executive",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 10000.0,
+      "Tran_Date": "2026-09-04",
+      "Tran_NamF": "Samuel",
+      "Tran_NamL": "Glick",
+      "Tran_Zip4": "94114",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1494729",
+      "Tran_Emp": "Kaiser Permanente",
+      "Tran_Occ": "Chairman and Chief Executive Officer",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 30000.0,
+      "Tran_Date": "2026-09-09",
+      "Tran_NamF": "Gregory",
+      "Tran_NamL": "Adams",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1494729",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2026-09-11",
+      "Tran_NamF": "Mary Quinn",
+      "Tran_NamL": "Delaney",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2026"
+    }
+  ],
+  "contributions_by_election": [
+    [
+      "2026-11-03",
+      [
+        "Oakland November 3rd, 2026 General Election",
+        65000.0
+      ]
+    ]
+  ],
+  "contributions_by_employer": [
+    {
+      "name": "Kaiser Permanente",
+      "count": 2,
+      "total": 40000.0
+    }
+  ],
+  "contributions_by_occupation": [
+    {
+      "name": "Chairman and Chief Executive Officer",
+      "count": 1,
+      "total": 30000.0
+    },
+    {
+      "name": "Retired/Not Employed",
+      "count": 1,
+      "total": 25000.0
+    },
+    {
+      "name": "Healthcare Executive",
+      "count": 1,
+      "total": 10000.0
+    }
+  ]
+}

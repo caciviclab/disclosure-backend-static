@@ -1,16 +1,16 @@
 {
-  "total_contributions": 818742.78,
+  "total_contributions": 885280.28,
   "total_contributions_by_source": {
     "Out of State": 34853.47,
-    "Within Oakland": 408200.62,
-    "Within California": 333152.68
+    "Within Oakland": 464200.62,
+    "Within California": 343690.18
   },
   "contributions_by_type": {
-    "Committee": 102683.94,
-    "Individual": 607470.12,
+    "Committee": 104483.94,
+    "Individual": 671307.62,
     "Unitemized": 41286.01,
     "Self Funding": 7352.71,
-    "Other (includes Businesses)": 58700.0
+    "Other (includes Businesses)": 59600.0
   },
   "most_expensive_races": [
     {
@@ -67,19 +67,19 @@
   ],
   "top_contributors": [
     {
-      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "name": "Gregory Adams",
       "election_name": "oakland-2026",
-      "total_contributions": 5100.0
+      "total_contributions": 30900.0
     },
     {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "name": "Mary Quinn Delaney",
       "election_name": "oakland-2026",
-      "total_contributions": 4900.0
+      "total_contributions": 25000.0
     },
     {
-      "name": "Kathryn Camp",
+      "name": "Samuel Glick",
       "election_name": "oakland-2026",
-      "total_contributions": 4000.0
+      "total_contributions": 10000.0
     }
   ],
   "top_contributors_for_offices": [
@@ -103,30 +103,53 @@
     }
   ],
   "top_contributors_for_measures": [
-
+    {
+      "name": "Gregory Adams",
+      "type": "Measure",
+      "election_name": "oakland-2026",
+      "total_contributions": 30000.0
+    },
+    {
+      "name": "Mary Quinn Delaney",
+      "type": "Measure",
+      "election_name": "oakland-2026",
+      "total_contributions": 25000.0
+    },
+    {
+      "name": "Samuel Glick",
+      "type": "Measure",
+      "election_name": "oakland-2026",
+      "total_contributions": 10000.0
+    }
   ],
   "top_spenders": [
     {
-      "name": "North Coast States Regional Council of Carpenters Power PAC",
-      "type": "Office",
+      "name": "Gregory Adams",
+      "type": "Measure",
       "election_name": "oakland-2026",
-      "total_spending": 5100.0
+      "total_spending": 30000.0
     },
     {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
-      "type": "Office",
+      "name": "Mary Quinn Delaney",
+      "type": "Measure",
       "election_name": "oakland-2026",
-      "total_spending": 4900.0
+      "total_spending": 25000.0
     },
     {
-      "name": "Kathryn Camp",
-      "type": "Office",
+      "name": "Samuel Glick",
+      "type": "Measure",
       "election_name": "oakland-2026",
-      "total_spending": 4000.0
+      "total_spending": 10000.0
     }
   ],
   "top_spenders_for_offices": [
     {
+      "name": "Empower Oakland Committee",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 5400.0
+    },
+    {
       "name": "North Coast States Regional Council of Carpenters Power PAC",
       "type": "Office",
       "election_name": "oakland-2026",
@@ -137,15 +160,26 @@
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 4900.0
-    },
-    {
-      "name": "Kathryn Camp",
-      "type": "Office",
-      "election_name": "oakland-2026",
-      "total_spending": 4000.0
     }
   ],
   "top_spenders_for_measures": [
-
+    {
+      "name": "Gregory Adams",
+      "type": "Measure",
+      "election_name": "oakland-2026",
+      "total_spending": 30000.0
+    },
+    {
+      "name": "Mary Quinn Delaney",
+      "type": "Measure",
+      "election_name": "oakland-2026",
+      "total_spending": 25000.0
+    },
+    {
+      "name": "Samuel Glick",
+      "type": "Measure",
+      "election_name": "oakland-2026",
+      "total_spending": 10000.0
+    }
   ]
 }
