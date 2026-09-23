@@ -1943,16 +1943,16 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 885280.28,
+    "total_contributions": 921526.56,
     "total_contributions_by_source": {
-      "Out of State": 34853.47,
-      "Within Oakland": 464200.62,
-      "Within California": 343690.18
+      "Out of State": 37363.47,
+      "Within Oakland": 475655.17,
+      "Within California": 361400.06
     },
     "contributions_by_type": {
-      "Committee": 104483.94,
-      "Individual": 671307.62,
-      "Unitemized": 41286.01,
+      "Committee": 106283.94,
+      "Individual": 701182.05,
+      "Unitemized": 45957.86,
       "Self Funding": 7352.71,
       "Other (includes Businesses)": 59600.0
     },
@@ -1961,13 +1961,13 @@
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 299425.11
+        "amount": 315918.61
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 144844.49
+        "amount": 160333.97
       },
       {
         "slug": "city-council-district-6",
@@ -1986,12 +1986,12 @@
         "office_title": "School Board District 6"
       },
       {
-        "slug": "mindy-pechenuk",
+        "slug": "nate-adams",
         "type": "office",
         "title": "Oakland November 3rd, 2026 General Election",
-        "candidate": "Mindy Pechenuk",
-        "proportion": 0.21,
-        "office_title": "Mayor"
+        "candidate": "Nate Adams",
+        "proportion": 0.16,
+        "office_title": "City Council District 2"
       },
       {
         "slug": "alexandra-williams",

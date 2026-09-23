@@ -21,26 +21,100 @@
   "is_winner": null,
   "filer_id": 1494564,
   "supporting_money": {
-    "contributions_received": 0.0,
-    "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "contributions_received": 4263.3,
+    "total_contributions": 4263.3,
+    "total_expenditures": 280.63,
+    "total_loans_received": 100.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Individual": 3650.0,
+      "Unitemized": 513.3
     },
     "contributions_by_origin": {
+      "Out of State": 100.0,
+      "Within Oakland": 2550.0,
+      "Within California": 1000.0
     },
     "contributions_by_employer": [
-
+      {
+        "name": "Analog Devices Inc",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Lieff Cabraser Heimann and Bernstein LLP",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Google",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "City of San Jose",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Hospice of NW Ohio",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Meta",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Self/Kumi Rauf",
+        "count": 1,
+        "total": 100.0
+      }
     ],
     "contributions_by_occupation": [
-
+      {
+        "name": "Retired/Not Employed",
+        "count": 3,
+        "total": 1200.0
+      },
+      {
+        "name": "Attorney",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Engineer",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Product Manager",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Chaplain",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "City workerAsst Director",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Consultant",
+        "count": 1,
+        "total": 100.0
+      }
     ],
-    "total_small_contributions": null,
+    "total_small_contributions": 513.3,
     "expenditures_by_type": {
+      "Office Expenses": 280.63
     },
     "supporting_by_type": {
     }
@@ -53,7 +127,7 @@
 
     ]
   },
-  "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_contributions": 4263.3,
+  "total_expenditures": 280.63,
+  "total_loans_received": 100.0
 }
