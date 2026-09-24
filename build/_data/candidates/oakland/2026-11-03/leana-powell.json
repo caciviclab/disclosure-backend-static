@@ -21,40 +21,91 @@
   "is_winner": null,
   "filer_id": 1491564,
   "supporting_money": {
-    "contributions_received": 7102.71,
-    "total_contributions": 7102.71,
-    "total_expenditures": 899.03,
+    "contributions_received": 18036.91,
+    "total_contributions": 18036.91,
+    "total_expenditures": 9778.91,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 1800.0,
-      "Individual": 3675.0,
-      "Unitemized": 1378.0,
-      "Self Funding": 249.71
+      "Committee": 1900.0,
+      "Individual": 12545.0,
+      "Unitemized": 2442.2,
+      "Self Funding": 249.71,
+      "Other (includes Businesses)": 900.0
     },
     "contributions_by_origin": {
-      "Out of State": 300.0,
-      "Within Oakland": 2244.71,
-      "Within California": 3180.0
+      "Out of State": 1200.0,
+      "Within Oakland": 9329.71,
+      "Within California": 5065.0
     },
     "contributions_by_employer": [
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 1000.0
+      },
       {
         "name": "Data Systems Manager",
         "count": 2,
         "total": 900.0
       },
       {
-        "name": "Educator",
+        "name": "Economist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Head of Operations",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Attorney",
+        "count": 3,
+        "total": 850.0
+      },
+      {
+        "name": "Teacher",
+        "count": 5,
+        "total": 700.0
+      },
+      {
+        "name": "Pediatrics",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Consultant",
         "count": 4,
-        "total": 280.0
+        "total": 400.0
+      },
+      {
+        "name": "Director",
+        "count": 3,
+        "total": 400.0
+      },
+      {
+        "name": "LCSW",
+        "count": 1,
+        "total": 300.0
       },
       {
         "name": "Lawyer",
-        "count": 1,
-        "total": 250.0
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 2,
+        "total": 290.0
+      },
+      {
+        "name": "Educator",
+        "count": 4,
+        "total": 280.0
       },
       {
         "name": "Principal",
@@ -67,9 +118,34 @@
         "total": 249.71
       },
       {
-        "name": "Consultant",
+        "name": "HR Manager",
+        "count": 3,
+        "total": 235.0
+      },
+      {
+        "name": "Education",
         "count": 2,
+        "total": 220.0
+      },
+      {
+        "name": "Sr Manager--Candidate Recruitment & Training",
+        "count": 2,
+        "total": 220.0
+      },
+      {
+        "name": "HR",
+        "count": 1,
         "total": 200.0
+      },
+      {
+        "name": "Environmental Planner",
+        "count": 1,
+        "total": 180.0
+      },
+      {
+        "name": "Transit",
+        "count": 3,
+        "total": 140.0
       },
       {
         "name": "Director of Sourcing",
@@ -77,74 +153,79 @@
         "total": 125.0
       },
       {
-        "name": "Education",
-        "count": 1,
-        "total": 120.0
-      },
-      {
         "name": "Education Advocacy",
         "count": 1,
         "total": 120.0
       },
       {
-        "name": "Sr Manager--Candidate Recruitment & Training",
-        "count": 1,
-        "total": 120.0
-      },
-      {
-        "name": "Transit",
-        "count": 2,
-        "total": 120.0
-      },
-      {
-        "name": "Attorney",
+        "name": "BUsiness",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Chief Executive Officer/President",
+        "name": "City Planner",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Grants Coordinator",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Nonprofit education",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Pharmacist",
-        "count": 1,
-        "total": 100.0
+        "name": "Other",
+        "count": 11,
+        "total": 1020.0
       }
     ],
     "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 15,
+        "total": 1915.0
+      },
+      {
+        "name": "Self-Employed",
+        "count": 3,
+        "total": 1300.0
+      },
+      {
+        "name": "Lighthouse",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Maven",
+        "count": 1,
+        "total": 900.0
+      },
       {
         "name": "UC Office of the President",
         "count": 2,
         "total": 900.0
       },
       {
-        "name": "Retired/Not Employed",
-        "count": 4,
-        "total": 590.0
+        "name": "City & County of San Francisco",
+        "count": 2,
+        "total": 750.0
+      },
+      {
+        "name": "Clemente Course",
+        "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "TPMG",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Ousd",
+        "count": 2,
+        "total": 350.0
       },
       {
         "name": "CCWRO",
-        "count": 1,
-        "total": 250.0
+        "count": 2,
+        "total": 300.0
       },
       {
-        "name": "OUSD",
+        "name": "Oakland Unified",
         "count": 1,
         "total": 250.0
       },
@@ -154,9 +235,44 @@
         "total": 249.71
       },
       {
+        "name": "Oakland Promise",
+        "count": 3,
+        "total": 235.0
+      },
+      {
+        "name": "LCV",
+        "count": 2,
+        "total": 220.0
+      },
+      {
+        "name": "Oakland Veterinary Hospital",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Robin Hood Synergy",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Tilting Futures",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 180.0
+      },
+      {
         "name": "Self - George Lerma",
         "count": 2,
         "total": 180.0
+      },
+      {
+        "name": "SFMTA",
+        "count": 3,
+        "total": 140.0
       },
       {
         "name": "Title Nine Sports",
@@ -169,69 +285,36 @@
         "total": 120.0
       },
       {
-        "name": "LCV",
-        "count": 1,
-        "total": 120.0
-      },
-      {
         "name": "NCRF",
         "count": 1,
         "total": 120.0
       },
       {
-        "name": "SFMTA",
-        "count": 2,
-        "total": 120.0
-      },
-      {
-        "name": "City of Portland",
+        "name": "ABAG",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Federal government",
+        "name": "Amazon",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Hanson Bridgett",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Jonathan Osler Consulting",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Oakland Unified School District",
-        "count": 2,
-        "total": 100.0
-      },
-      {
-        "name": "Partners in school innovation",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Playworks",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Self - Reshonda Williams",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "United Administrators of Oakland Schools",
-        "count": 1,
-        "total": 100.0
+        "name": "Other",
+        "count": 22,
+        "total": 1860.0
       }
     ],
-    "total_small_contributions": 1658.0,
+    "total_small_contributions": 3172.2,
     "expenditures_by_type": {
-      "Meetings and Appearances": 225.0
+      "Civic Donations": 100.0,
+      "Campaign Consultants": 450.0,
+      "Meetings and Appearances": 625.0,
+      "Campaign Paraphernalia/Misc.": 3382.33,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 571.43,
+      "Professional Services (Legal, Accounting)": 2040.0,
+      "Information Technology Costs (Internet, E-mail)": 362.2
     },
     "supporting_by_type": {
     }
@@ -244,7 +327,7 @@
 
     ]
   },
-  "total_contributions": 7102.71,
-  "total_expenditures": 899.03,
+  "total_contributions": 18036.91,
+  "total_expenditures": 9778.91,
   "total_loans_received": 0.0
 }

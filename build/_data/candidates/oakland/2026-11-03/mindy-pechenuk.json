@@ -21,29 +21,24 @@
   "is_winner": null,
   "filer_id": 1480943,
   "supporting_money": {
-    "contributions_received": 26791.67,
-    "total_contributions": 26791.67,
-    "total_expenditures": 21913.99,
+    "contributions_received": 24391.67,
+    "total_contributions": 24391.67,
+    "total_expenditures": 21333.19,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 24236.07,
-      "Unitemized": 2755.6
+      "Individual": 21506.07,
+      "Unitemized": 2885.6
     },
     "contributions_by_origin": {
-      "Out of State": 3000.0,
-      "Within Oakland": 4335.03,
-      "Within California": 16901.04
+      "Out of State": 2850.0,
+      "Within Oakland": 3945.03,
+      "Within California": 14711.04
     },
     "contributions_by_employer": [
-      {
-        "name": "Self-Employed",
-        "count": 8,
-        "total": 929.48
-      },
       {
         "name": "Property Management",
         "count": 4,
@@ -53,6 +48,11 @@
         "name": "American System Publications",
         "count": 3,
         "total": 558.65
+      },
+      {
+        "name": "Self-Employed",
+        "count": 5,
+        "total": 529.48
       },
       {
         "name": "Golden Gate Capital Group",
@@ -65,11 +65,6 @@
         "total": 500.0
       },
       {
-        "name": "Coachman",
-        "count": 3,
-        "total": 290.0
-      },
-      {
         "name": "Exon Mobil Corp",
         "count": 1,
         "total": 260.73
@@ -80,13 +75,13 @@
         "total": 250.0
       },
       {
-        "name": "Pilates Lane",
-        "count": 3,
-        "total": 250.0
-      },
-      {
         "name": "ASP",
         "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Coachman",
+        "count": 2,
         "total": 200.0
       },
       {
@@ -100,7 +95,7 @@
         "total": 200.0
       },
       {
-        "name": "College of DuPage",
+        "name": "Pilates Lane",
         "count": 2,
         "total": 150.0
       },
@@ -120,7 +115,7 @@
         "total": 100.0
       },
       {
-        "name": "Consultant",
+        "name": "College of DuPage",
         "count": 1,
         "total": 100.0
       },
@@ -135,22 +130,7 @@
         "total": 100.0
       },
       {
-        "name": "Fox Realty Group",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "INTEC Video Systems, Inc",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Linda Rost Inc",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Ngoc Ng",
         "count": 1,
         "total": 100.0
       },
@@ -163,8 +143,8 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 100,
-        "total": 18197.21
+        "count": 91,
+        "total": 16507.21
       },
       {
         "name": "Sales",
@@ -182,16 +162,6 @@
         "total": 500.0
       },
       {
-        "name": "Project Manager",
-        "count": 3,
-        "total": 325.0
-      },
-      {
-        "name": "Construction Manager",
-        "count": 3,
-        "total": 290.0
-      },
-      {
         "name": "Process Chemist",
         "count": 1,
         "total": 260.73
@@ -202,13 +172,13 @@
         "total": 250.0
       },
       {
-        "name": "Pilates Instructor",
-        "count": 3,
-        "total": 250.0
+        "name": "Project Manager",
+        "count": 2,
+        "total": 225.0
       },
       {
-        "name": "CPA",
-        "count": 1,
+        "name": "Construction Manager",
+        "count": 2,
         "total": 200.0
       },
       {
@@ -222,7 +192,7 @@
         "total": 200.0
       },
       {
-        "name": "Professor",
+        "name": "Pilates Instructor",
         "count": 2,
         "total": 150.0
       },
@@ -233,16 +203,6 @@
       },
       {
         "name": "Attorney",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Blue Sky Rivers",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Book Keeper",
         "count": 1,
         "total": 100.0
       },
@@ -262,17 +222,7 @@
         "total": 100.0
       },
       {
-        "name": "Electrician",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Field Investigator",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "IHSS provider",
         "count": 1,
         "total": 100.0
       },
@@ -287,20 +237,30 @@
         "total": 100.0
       },
       {
-        "name": "Other",
-        "count": 3,
-        "total": 300.0
+        "name": "Professor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Real Estate",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "leasing administrator",
+        "count": 1,
+        "total": 100.0
       }
     ],
-    "total_small_contributions": 4248.75,
+    "total_small_contributions": 3998.75,
     "expenditures_by_type": {
-      "Not Stated": 9764.83,
-      "Member Communications": 1305.28,
-      "Meetings and Appearances": 6013.8,
-      "Campaign Paraphernalia/Misc.": 4330.0,
+      "Not Stated": 6699.83,
+      "Member Communications": 652.64,
+      "Meetings and Appearances": 3317.21,
+      "Campaign Paraphernalia/Misc.": 3575.6,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 241.34,
-      "Information Technology Costs (Internet, E-mail)": 5286.84
+      "Campaign Literature and Mailings": 120.67,
+      "Information Technology Costs (Internet, E-mail)": 4225.93
     },
     "supporting_by_type": {
     }
@@ -313,7 +273,7 @@
 
     ]
   },
-  "total_contributions": 26791.67,
-  "total_expenditures": 21913.99,
+  "total_contributions": 24391.67,
+  "total_expenditures": 21333.19,
   "total_loans_received": 0.0
 }

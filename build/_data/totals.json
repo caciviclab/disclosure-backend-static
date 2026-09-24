@@ -1943,25 +1943,25 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 921526.56,
+    "total_contributions": 951445.76,
     "total_contributions_by_source": {
-      "Out of State": 37363.47,
-      "Within Oakland": 475655.17,
-      "Within California": 361400.06
+      "Out of State": 38113.47,
+      "Within Oakland": 498923.17,
+      "Within California": 364044.06
     },
     "contributions_by_type": {
-      "Committee": 106283.94,
-      "Individual": 701182.05,
-      "Unitemized": 45957.86,
+      "Committee": 106383.94,
+      "Individual": 726844.05,
+      "Unitemized": 49015.06,
       "Self Funding": 7352.71,
-      "Other (includes Businesses)": 59600.0
+      "Other (includes Businesses)": 60500.0
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 315918.61
+        "amount": 313518.61
       },
       {
         "slug": "city-council-district-2",
@@ -1982,7 +1982,7 @@
         "type": "office",
         "title": "Oakland November 3rd, 2026 General Election",
         "candidate": "LeAna Powell",
-        "proportion": 0.23,
+        "proportion": 0.18,
         "office_title": "School Board District 6"
       },
       {
@@ -1994,12 +1994,12 @@
         "office_title": "City Council District 2"
       },
       {
-        "slug": "alexandra-williams",
+        "slug": "mindy-pechenuk",
         "type": "office",
         "title": "Oakland November 3rd, 2026 General Election",
-        "candidate": "Alexandra Williams",
+        "candidate": "Mindy Pechenuk",
         "proportion": 0.16,
-        "office_title": "School Board District 6"
+        "office_title": "Mayor"
       }
     ],
     "largest_independent_expenditures": [
@@ -2088,12 +2088,6 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Empower Oakland Committee",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_spending": 5400.0
-      },
-      {
         "name": "North Coast States Regional Council of Carpenters Power PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2104,6 +2098,12 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 4900.0
+      },
+      {
+        "name": "Kathryn Camp",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_spending": 4000.0
       }
     ],
     "top_spenders_for_measures": [
