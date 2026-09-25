@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1492547,
   "supporting_money": {
-    "contributions_received": 13412.76,
-    "total_contributions": 13412.76,
-    "total_expenditures": 435.9,
+    "contributions_received": 46523.26,
+    "total_contributions": 46523.26,
+    "total_expenditures": 26554.18,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 1810.0,
+    "total_supporting_independent": 5723.87,
     "support_list": [
       {
-        "Total": 1810.0,
+        "Total": 5723.87,
         "Cand_ID": 1492547,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee",
@@ -36,20 +36,56 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 4500.0,
-      "Individual": 8200.0,
-      "Unitemized": 712.76
+      "Committee": 16450.0,
+      "Individual": 25529.66,
+      "Unitemized": 3493.6,
+      "Other (includes Businesses)": 1050.0
     },
     "contributions_by_origin": {
-      "Out of State": 300.0,
-      "Within Oakland": 7250.0,
-      "Within California": 5150.0
+      "Out of State": 1250.0,
+      "Within Oakland": 26818.0,
+      "Within California": 14961.66
     },
     "contributions_by_employer": [
+      {
+        "name": "Oakland Unified School District",
+        "count": 18,
+        "total": 2800.0
+      },
+      {
+        "name": "Center for Biological Diversity",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Google",
+        "count": 1,
+        "total": 900.0
+      },
       {
         "name": "Marin Health",
         "count": 1,
         "total": 900.0
+      },
+      {
+        "name": "Tulum Systems",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 4,
+        "total": 650.0
+      },
+      {
+        "name": "Innovative Building Inc",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Benjamin Fife",
+        "count": 1,
+        "total": 500.0
       },
       {
         "name": "San Diego Unified School District",
@@ -57,22 +93,52 @@
         "total": 500.0
       },
       {
-        "name": "California Teachers Association",
+        "name": "UC Berkeley",
+        "count": 3,
+        "total": 450.0
+      },
+      {
+        "name": "Clio.com",
         "count": 2,
         "total": 400.0
       },
       {
-        "name": "City of Oakland",
+        "name": "ACCE",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "SEIU 1021",
         "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Bay Area Rapid Transit",
+        "count": 3,
         "total": 300.0
       },
       {
-        "name": "Self-Employed",
-        "count": 2,
-        "total": 300.0
+        "name": "Sandia National Lab",
+        "count": 4,
+        "total": 291.66
       },
       {
-        "name": "Center for Biological Diversity",
+        "name": "Cisco",
+        "count": 4,
+        "total": 280.0
+      },
+      {
+        "name": "Alameda Labor Council",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Bell Ring",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "California Teachers Association",
         "count": 1,
         "total": 250.0
       },
@@ -87,96 +153,61 @@
         "total": 250.0
       },
       {
-        "name": "SEIU",
+        "name": "HealthSherpa",
         "count": 1,
-        "total": 200.0
+        "total": 250.0
       },
       {
-        "name": "Public Advocates",
+        "name": "Solidaire Network",
         "count": 1,
-        "total": 150.0
+        "total": 250.0
       },
       {
-        "name": "Sandia National Lab",
+        "name": "State Assembly",
         "count": 1,
-        "total": 150.0
+        "total": 250.0
       },
       {
-        "name": "ABM Test",
+        "name": "UCSF Health",
         "count": 1,
-        "total": 100.0
+        "total": 250.0
       },
       {
-        "name": "ACCE",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "ACCE Institute",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "AFT Local 1521",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Abbvie",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Commonwealth of Massachusetts",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Jerica's Home Care",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "OUSD",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Post News Group",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Resilient Strategies LLC",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Rural County Representatives of California",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "SEIU 1021",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "SF BART",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "UAW 4811",
-        "count": 1,
-        "total": 100.0
+        "name": "Other",
+        "count": 44,
+        "total": 4598.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 12,
-        "total": 3150.0
+        "count": 28,
+        "total": 6310.0
+      },
+      {
+        "name": "Teacher",
+        "count": 16,
+        "total": 2450.0
+      },
+      {
+        "name": "Software Engineer",
+        "count": 5,
+        "total": 1660.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Attorney",
+        "count": 5,
+        "total": 900.0
+      },
+      {
+        "name": "California Climate Organizing Director",
+        "count": 2,
+        "total": 900.0
       },
       {
         "name": "Nurse Midwife",
@@ -184,9 +215,14 @@
         "total": 900.0
       },
       {
-        "name": "Attorney",
+        "name": "Construction",
+        "count": 1,
+        "total": 650.0
+      },
+      {
+        "name": "Community Organizer",
         "count": 4,
-        "total": 700.0
+        "total": 600.0
       },
       {
         "name": "Board President",
@@ -194,12 +230,22 @@
         "total": 500.0
       },
       {
-        "name": "Representative",
-        "count": 2,
-        "total": 400.0
+        "name": "Psychologist",
+        "count": 1,
+        "total": 500.0
       },
       {
-        "name": "Community Organizer",
+        "name": "Executive Director",
+        "count": 4,
+        "total": 380.0
+      },
+      {
+        "name": "Council Member",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Union Representative",
         "count": 2,
         "total": 350.0
       },
@@ -209,90 +255,74 @@
         "total": 300.0
       },
       {
-        "name": "Climate Organizing Director",
+        "name": "Principal Government & Community Relations Representative",
+        "count": 3,
+        "total": 300.0
+      },
+      {
+        "name": "Scientist",
+        "count": 4,
+        "total": 291.66
+      },
+      {
+        "name": "System Engineer",
+        "count": 4,
+        "total": 280.0
+      },
+      {
+        "name": "Assembly Member",
         "count": 1,
         "total": 250.0
       },
       {
-        "name": "Councilmember",
+        "name": "Lab Technician",
         "count": 1,
-        "total": 200.0
+        "total": 250.0
       },
       {
-        "name": "Data Capacity Manager",
+        "name": "Marketing Director",
         "count": 1,
-        "total": 200.0
+        "total": 250.0
       },
       {
-        "name": "Scientist",
+        "name": "Physician Assistant",
         "count": 1,
-        "total": 150.0
+        "total": 250.0
       },
       {
-        "name": "Advocate",
+        "name": "Political Staff",
         "count": 1,
-        "total": 100.0
+        "total": 250.0
       },
       {
-        "name": "CFO",
+        "name": "Representative",
         "count": 1,
-        "total": 100.0
+        "total": 250.0
       },
       {
-        "name": "Community and Government Relations",
+        "name": "Strategist",
         "count": 1,
-        "total": 100.0
+        "total": 250.0
       },
       {
-        "name": "Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Editor",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Engineer",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Executive Assistant",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Executive Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Manager",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Program Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Teacher",
-        "count": 1,
-        "total": 100.0
+        "name": "Other",
+        "count": 37,
+        "total": 3908.0
       }
     ],
-    "total_small_contributions": 712.76,
+    "total_small_contributions": 3795.26,
     "expenditures_by_type": {
-      "Information Technology Costs (Internet, E-mail)": 435.9
+      "Contribution": 500.0,
+      "Office Expenses": 1042.16,
+      "Campaign Consultants": 13365.35,
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Campaign Literature and Mailings": 1055.28,
+      "Information Technology Costs (Internet, E-mail)": 1610.0
     },
     "supporting_by_type": {
-      "IKD": 20.17,
-      "MON": 2600.0,
-      "Yard Signs": 1810.0,
-      "Independent Expenditure Supporting/Opposing Others": 52569.85
+      "IKD": 117.17,
+      "MON": 4400.0,
+      "Independent Expenditure Supporting/Opposing Others": 58293.72
     }
   },
   "opposing_money": {
@@ -303,7 +333,7 @@
 
     ]
   },
-  "total_contributions": 13412.76,
-  "total_expenditures": 435.9,
+  "total_contributions": 46523.26,
+  "total_expenditures": 26554.18,
   "total_loans_received": 0.0
 }

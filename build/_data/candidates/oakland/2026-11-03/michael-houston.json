@@ -21,26 +21,89 @@
   "is_winner": null,
   "filer_id": 1490336,
   "supporting_money": {
-    "contributions_received": 2500.0,
-    "total_contributions": 2500.0,
-    "total_expenditures": 593.53,
+    "contributions_received": 7850.0,
+    "total_contributions": 7850.0,
+    "total_expenditures": 2753.27,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Unitemized": 0.0,
+      "Individual": 5300.0,
+      "Unitemized": 50.0,
       "Self Funding": 2500.0
     },
     "contributions_by_origin": {
-      "Within Oakland": 2500.0
+      "Out of State": 100.0,
+      "Within Oakland": 3400.0,
+      "Within California": 4300.0
     },
     "contributions_by_employer": [
       {
         "name": "Candidate",
         "count": 1,
         "total": 2500.0
+      },
+      {
+        "name": "Patrick Ngo",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "San Francisco County",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Deloitte Consulting LLP",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "City of San Jose",
+        "count": 2,
+        "total": 400.0
+      },
+      {
+        "name": "State Farm",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "City Of Berkeley",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Getinge",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Peninsula Healthcare Connection",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "City Of Fremont",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "First Citizens Bank",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "McLane Company",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Salesforce",
+        "count": 1,
+        "total": 100.0
       }
     ],
     "contributions_by_occupation": [
@@ -48,11 +111,84 @@
         "name": "Candidate",
         "count": 1,
         "total": 2500.0
+      },
+      {
+        "name": "Retired/Not Employed",
+        "count": 4,
+        "total": 1000.0
+      },
+      {
+        "name": "Licensed Clinical Social Worker",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Psychotherapist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Management Consultant",
+        "count": 1,
+        "total": 600.0
+      },
+      {
+        "name": "Team Manager",
+        "count": 1,
+        "total": 400.0
+      },
+      {
+        "name": "City Auditor",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Data and Analytics Manager",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Social Worker",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Surgical Workflows Territory Manager",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Auditor",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Community Development Banker",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Director Customer Care",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Program Administrator",
+        "count": 1,
+        "total": 100.0
       }
     ],
-    "total_small_contributions": 0.0,
+    "total_small_contributions": 50.0,
     "expenditures_by_type": {
-      "Professional Services (Legal, Accounting)": 543.53
+      "Not Stated": 1039.99,
+      "Office Expenses": 239.75,
+      "Professional Services (Legal, Accounting)": 949.53,
+      "Information Technology Costs (Internet, E-mail)": 474.0
     },
     "supporting_by_type": {
     }
@@ -65,7 +201,7 @@
 
     ]
   },
-  "total_contributions": 2500.0,
-  "total_expenditures": 593.53,
+  "total_contributions": 7850.0,
+  "total_expenditures": 2753.27,
   "total_loans_received": 0.0
 }

@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1492061,
   "supporting_money": {
-    "contributions_received": 11714.0,
-    "total_contributions": 11714.0,
-    "total_expenditures": 513.7,
+    "contributions_received": 16432.22,
+    "total_contributions": 16432.22,
+    "total_expenditures": 9447.09,
     "total_loans_received": 500.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -31,13 +31,13 @@
     ],
     "contributions_by_type": {
       "Committee": 900.0,
-      "Individual": 8719.0,
-      "Unitemized": 1595.0
+      "Individual": 12958.22,
+      "Unitemized": 2074.0
     },
     "contributions_by_origin": {
-      "Out of State": 1175.0,
-      "Within Oakland": 5094.0,
-      "Within California": 3350.0
+      "Out of State": 1815.22,
+      "Within Oakland": 8244.0,
+      "Within California": 3799.0
     },
     "contributions_by_employer": [
       {
@@ -56,6 +56,16 @@
         "total": 900.0
       },
       {
+        "name": "Contra Costa County",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "UC Berkeley, Goldman School of Public Policy",
+        "count": 2,
+        "total": 600.0
+      },
+      {
         "name": "City and County of San Francisco",
         "count": 3,
         "total": 545.0
@@ -64,6 +74,16 @@
         "name": "Lesmore Barker Consulting, LLC",
         "count": 1,
         "total": 500.0
+      },
+      {
+        "name": "Kittelson & Associates",
+        "count": 1,
+        "total": 450.0
+      },
+      {
+        "name": "ZamCap AI",
+        "count": 4,
+        "total": 400.0
       },
       {
         "name": "Maxfair Inc",
@@ -91,6 +111,11 @@
         "total": 200.0
       },
       {
+        "name": "Samuel Merritt University",
+        "count": 1,
+        "total": 200.0
+      },
+      {
         "name": "SoFi",
         "count": 1,
         "total": 200.0
@@ -111,6 +136,21 @@
         "total": 150.0
       },
       {
+        "name": "Talnt Team, LLC",
+        "count": 4,
+        "total": 140.0
+      },
+      {
+        "name": "Marquette University College of Nursing",
+        "count": 1,
+        "total": 100.22
+      },
+      {
+        "name": "Alkebulan Financial Solutions, LLC",
+        "count": 1,
+        "total": 100.0
+      },
+      {
         "name": "Aspire Bay Area",
         "count": 1,
         "total": 100.0
@@ -126,56 +166,16 @@
         "total": 100.0
       },
       {
-        "name": "Executive Manager",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Halcyon Financial Technology",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "IBM",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Lockheed Martin",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Oakland Housing Authority",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Partners in School Innovation",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Pfizer",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Planned Parenthood of Northern California",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 6,
-        "total": 600.0
+        "count": 14,
+        "total": 1400.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 12,
-        "total": 1400.0
+        "count": 18,
+        "total": 2949.0
       },
       {
         "name": "Chief Executive Officer/President",
@@ -193,14 +193,34 @@
         "total": 900.0
       },
       {
+        "name": "Sustainability Coordinator",
+        "count": 2,
+        "total": 700.0
+      },
+      {
+        "name": "Engineer",
+        "count": 2,
+        "total": 550.0
+      },
+      {
         "name": "Product Leader",
         "count": 3,
         "total": 545.0
       },
       {
+        "name": "Dean of Students",
+        "count": 1,
+        "total": 500.0
+      },
+      {
         "name": "Real Estate",
         "count": 1,
         "total": 500.0
+      },
+      {
+        "name": "AI Strategist",
+        "count": 4,
+        "total": 400.0
       },
       {
         "name": "Teacher",
@@ -213,7 +233,17 @@
         "total": 275.0
       },
       {
+        "name": "Director",
+        "count": 2,
+        "total": 200.0
+      },
+      {
         "name": "Driver",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Nurse Executive",
         "count": 1,
         "total": 200.0
       },
@@ -233,9 +263,14 @@
         "total": 150.0
       },
       {
-        "name": "AI Strategist",
+        "name": "Talent Operations Coordinator",
+        "count": 4,
+        "total": 140.0
+      },
+      {
+        "name": "Professor",
         "count": 1,
-        "total": 100.0
+        "total": 100.22
       },
       {
         "name": "Analyst",
@@ -253,60 +288,29 @@
         "total": 100.0
       },
       {
+        "name": "CPA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
         "name": "Chief Operating Officer",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Chief of Police",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "City Councilor",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Engineer",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "General Counsel",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Health Science Specialist",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Inclusion Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Network Engineer",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 4,
-        "total": 400.0
+        "count": 11,
+        "total": 1100.0
       }
     ],
-    "total_small_contributions": 1865.0,
+    "total_small_contributions": 2484.0,
     "expenditures_by_type": {
-      "Office Expenses": 138.34,
-      "Campaign Paraphernalia/Misc.": 140.56
+      "Print Ads": 205.0,
+      "Office Expenses": 440.78,
+      "Campaign Consultants": 6024.21,
+      "Campaign Paraphernalia/Misc.": 623.92,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 918.38
     },
     "supporting_by_type": {
       "MON": 900.0
@@ -320,7 +324,7 @@
 
     ]
   },
-  "total_contributions": 11714.0,
-  "total_expenditures": 513.7,
+  "total_contributions": 16432.22,
+  "total_expenditures": 9447.09,
   "total_loans_received": 500.0
 }

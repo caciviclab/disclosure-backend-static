@@ -21,30 +21,30 @@
   "is_winner": null,
   "filer_id": 1482492,
   "supporting_money": {
-    "contributions_received": 117089.0,
-    "total_contributions": 117089.0,
-    "total_expenditures": 40793.95,
+    "contributions_received": 133097.11,
+    "total_contributions": 133097.11,
+    "total_expenditures": 55878.65,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 9950.0,
-      "Individual": 98180.0,
-      "Unitemized": 3759.0,
-      "Other (includes Businesses)": 5200.0
+      "Committee": 12750.0,
+      "Individual": 109180.0,
+      "Unitemized": 4567.11,
+      "Other (includes Businesses)": 6600.0
     },
     "contributions_by_origin": {
-      "Out of State": 1889.0,
-      "Within Oakland": 78176.0,
-      "Within California": 33265.0
+      "Out of State": 2189.0,
+      "Within Oakland": 88176.0,
+      "Within California": 38165.0
     },
     "contributions_by_employer": [
       {
         "name": "Google",
-        "count": 3,
-        "total": 1350.0
+        "count": 5,
+        "total": 2100.0
       },
       {
         "name": "Port of Oakland",
@@ -58,6 +58,11 @@
       },
       {
         "name": "Argent Materials",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Blue Shield of California",
         "count": 1,
         "total": 900.0
       },
@@ -82,6 +87,11 @@
         "total": 900.0
       },
       {
+        "name": "Daniel S Nam, DDS & Associates",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "EcoDataLab",
         "count": 1,
         "total": 900.0
@@ -98,6 +108,11 @@
       },
       {
         "name": "Law Office of Leung & Leung",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "MDS Health LLC",
         "count": 1,
         "total": 900.0
       },
@@ -152,36 +167,21 @@
         "total": 900.0
       },
       {
-        "name": "Self-Employed",
-        "count": 2,
-        "total": 900.0
-      },
-      {
-        "name": "Self/MC LLC",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Self/Robert Spencer",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 153,
-        "total": 39747.0
+        "count": 177,
+        "total": 46272.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 114,
-        "total": 33213.0
+        "count": 135,
+        "total": 36938.0
       },
       {
         "name": "Owner",
-        "count": 16,
-        "total": 7538.0
+        "count": 18,
+        "total": 8138.0
       },
       {
         "name": "Chief Executive Officer/President",
@@ -195,8 +195,8 @@
       },
       {
         "name": "Lawyer",
-        "count": 7,
-        "total": 3350.0
+        "count": 9,
+        "total": 3950.0
       },
       {
         "name": "Real Estate",
@@ -204,9 +204,24 @@
         "total": 2050.0
       },
       {
+        "name": "Physician",
+        "count": 3,
+        "total": 1900.0
+      },
+      {
+        "name": "Dentist",
+        "count": 2,
+        "total": 1800.0
+      },
+      {
         "name": "Manager",
         "count": 6,
         "total": 1611.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 3,
+        "total": 1600.0
       },
       {
         "name": "Director",
@@ -215,23 +230,18 @@
       },
       {
         "name": "Executive",
-        "count": 3,
-        "total": 1100.0
+        "count": 4,
+        "total": 1200.0
       },
       {
-        "name": "Executive Director",
-        "count": 2,
+        "name": "Product Manager",
+        "count": 3,
         "total": 1100.0
       },
       {
         "name": "Entrepreneur",
         "count": 3,
         "total": 1038.0
-      },
-      {
-        "name": "Physician",
-        "count": 2,
-        "total": 1000.0
       },
       {
         "name": "Advocate",
@@ -264,11 +274,6 @@
         "total": 900.0
       },
       {
-        "name": "Dentist",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Economist",
         "count": 1,
         "total": 900.0
@@ -289,27 +294,27 @@
         "total": 900.0
       },
       {
-        "name": "Pastor",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Retired Attorney",
+        "name": "Health plan executive",
         "count": 1,
         "total": 900.0
       },
       {
         "name": "Other",
-        "count": 104,
-        "total": 23330.0
+        "count": 119,
+        "total": 26805.0
       }
     ],
-    "total_small_contributions": 4419.0,
+    "total_small_contributions": 5477.11,
     "expenditures_by_type": {
-      "Office Expenses": 1299.84,
+      "Office Expenses": 1958.04,
       "Fundraising Events": 4705.06,
+      "Campaign Consultants": 31487.0,
       "Meetings and Appearances": 745.0,
-      "Professional Services (Legal, Accounting)": 8700.0
+      "Campaign Paraphernalia/Misc.": 600.0,
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Campaign Literature and Mailings": 2944.5,
+      "Professional Services (Legal, Accounting)": 11850.0,
+      "Information Technology Costs (Internet, E-mail)": 545.0
     },
     "supporting_by_type": {
       "MON": 600.0,
@@ -327,7 +332,7 @@
 
     ]
   },
-  "total_contributions": 117089.0,
-  "total_expenditures": 40793.95,
+  "total_contributions": 133097.11,
+  "total_expenditures": 55878.65,
   "total_loans_received": 0.0
 }

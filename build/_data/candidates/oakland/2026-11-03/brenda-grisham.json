@@ -21,33 +21,54 @@
   "is_winner": null,
   "filer_id": 1485058,
   "supporting_money": {
-    "contributions_received": 5605.0,
-    "total_contributions": 5605.0,
-    "total_expenditures": 4169.71,
+    "contributions_received": 12035.88,
+    "total_contributions": 12035.88,
+    "total_expenditures": 8148.39,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 2425.0,
-      "Unitemized": 780.0,
-      "Other (includes Businesses)": 2400.0
+      "Individual": 6275.0,
+      "Unitemized": 1605.0,
+      "Other (includes Businesses)": 4155.88
     },
     "contributions_by_origin": {
-      "Within Oakland": 2780.0,
-      "Within California": 2045.0
+      "Out of State": 250.0,
+      "Within Oakland": 4885.88,
+      "Within California": 5295.0
     },
     "contributions_by_employer": [
+      {
+        "name": "SINGER ASSOCIATES",
+        "count": 1,
+        "total": 900.0
+      },
       {
         "name": "CAP INTERNATIONAL",
         "count": 1,
         "total": 500.0
       },
       {
+        "name": "TANGO CONSTRUCTION",
+        "count": 3,
+        "total": 470.0
+      },
+      {
         "name": "CYPRESS MANDELA PARKWAY",
+        "count": 4,
+        "total": 455.0
+      },
+      {
+        "name": "REALIZED POTENTIAL",
         "count": 2,
-        "total": 255.0
+        "total": 300.0
+      },
+      {
+        "name": "Alameda County District Attorney's Office",
+        "count": 1,
+        "total": 250.0
       },
       {
         "name": "CITY OF SAN FRANCISCO",
@@ -65,9 +86,14 @@
         "total": 250.0
       },
       {
-        "name": "TANGO CONSTRUCTION",
-        "count": 2,
-        "total": 220.0
+        "name": "Michael D. Fulmore Transportation",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Priscilla's Little Smiling Faces Daycare",
+        "count": 1,
+        "total": 250.0
       },
       {
         "name": "CITY OF ALAMEDA",
@@ -83,18 +109,68 @@
         "name": "BART AREA RAPID TRANSIT",
         "count": 1,
         "total": 120.0
+      },
+      {
+        "name": "A C Transit",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "TRUE FAITH BC",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "WILLIAM LEE DESIGNS",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "PROGRESSIVE TRANSITIONA",
+        "count": 1,
+        "total": 50.0
       }
     ],
     "contributions_by_occupation": [
+      {
+        "name": "Retired/Not Employed",
+        "count": 4,
+        "total": 1280.0
+      },
+      {
+        "name": "COMMUNICATIONS STRATEGIST",
+        "count": 1,
+        "total": 900.0
+      },
       {
         "name": "Chief Executive Officer/President",
         "count": 1,
         "total": 500.0
       },
       {
-        "name": "PROGRAM MANAGER",
+        "name": "Owner",
         "count": 2,
-        "total": 255.0
+        "total": 500.0
+      },
+      {
+        "name": "CONTRACTOR",
+        "count": 3,
+        "total": 470.0
+      },
+      {
+        "name": "PROGRAM MANAGER",
+        "count": 4,
+        "total": 455.0
+      },
+      {
+        "name": "EXECUTIVE dIRECTOR",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "PROSECUTOR",
+        "count": 1,
+        "total": 250.0
       },
       {
         "name": "REGIONAL MANAGER",
@@ -112,24 +188,24 @@
         "total": 250.0
       },
       {
-        "name": "CONTRACTOR",
-        "count": 2,
-        "total": 220.0
-      },
-      {
         "name": "ENGINEER",
         "count": 2,
         "total": 200.0
       },
       {
-        "name": "Retired/Not Employed",
-        "count": 1,
-        "total": 180.0
-      },
-      {
         "name": "STATION AGENT",
         "count": 1,
         "total": 120.0
+      },
+      {
+        "name": "Bus Driver",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "DESIGNER",
+        "count": 1,
+        "total": 100.0
       },
       {
         "name": "DISTIRICT DIRECTOR",
@@ -140,12 +216,17 @@
         "name": "DISTRICT DIRECTOR",
         "count": 1,
         "total": 100.0
+      },
+      {
+        "name": "PASTOR",
+        "count": 1,
+        "total": 100.0
       }
     ],
-    "total_small_contributions": 855.0,
+    "total_small_contributions": 1780.0,
     "expenditures_by_type": {
-      "Campaign Consultants": 140.73,
-      "Campaign Paraphernalia/Misc.": 3788.95
+      "Campaign Consultants": 340.73,
+      "Campaign Paraphernalia/Misc.": 5709.1
     },
     "supporting_by_type": {
     }
@@ -158,7 +239,7 @@
 
     ]
   },
-  "total_contributions": 5605.0,
-  "total_expenditures": 4169.71,
+  "total_contributions": 12035.88,
+  "total_expenditures": 8148.39,
   "total_loans_received": 0.0
 }

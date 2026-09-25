@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict oh2mjNJDjg76Czq3c8SfH9NRrrVJF6QGJSnymqTXnIzgGRyQ7zkv0ukQYlscdSs
+\restrict dedBzW8ngP2LJW0mlQvF6ojJAW3KUeEQlHqd7byhgZMDk6iSkJWTnPeJBxS7J9R
 
 -- Dumped from database version 14.19 (Ubuntu 14.19-1.pgdg22.04+1)
 -- Dumped by pg_dump version 14.19 (Ubuntu 14.19-1.pgdg22.04+1)
@@ -509,7 +509,7 @@ ALTER TABLE public."D-Expenditure" OWNER TO travis;
 
 CREATE TABLE public."E-Expenditure" (
     "Filer_ID" character varying(9) NOT NULL,
-    "Filer_NamL" character varying(183) NOT NULL,
+    "Filer_NamL" character varying(250) NOT NULL,
     "Report_Num" character varying(3) NOT NULL,
     "Committee_Type" character varying(3) NOT NULL,
     "Rpt_Date" date NOT NULL,
@@ -536,7 +536,7 @@ CREATE TABLE public."E-Expenditure" (
     "Cum_YTD" double precision,
     "Expn_ChkNo" character varying(12),
     "Expn_Code" character varying(4),
-    "Expn_Dscr" character varying(174),
+    "Expn_Dscr" character varying(250),
     "Agent_NamL" character varying(32),
     "Agent_NamF" character varying(32),
     "Agent_NamT" character varying(32),
@@ -561,7 +561,7 @@ CREATE TABLE public."E-Expenditure" (
     "Juris_Dscr" character varying(31),
     "Dist_No" character varying(4),
     "Off_S_H_Cd" character varying(32),
-    "Bal_Name" character varying(188),
+    "Bal_Name" character varying(250),
     "Bal_Num" character varying(4),
     "Bal_Juris" character varying(31),
     "Sup_Opp_Cd" character varying(4),
@@ -2094,5 +2094,5 @@ ALTER TABLE ONLY public.referendums
 -- PostgreSQL database dump complete
 --
 
-\unrestrict oh2mjNJDjg76Czq3c8SfH9NRrrVJF6QGJSnymqTXnIzgGRyQ7zkv0ukQYlscdSs
+\unrestrict dedBzW8ngP2LJW0mlQvF6ojJAW3KUeEQlHqd7byhgZMDk6iSkJWTnPeJBxS7J9R
 

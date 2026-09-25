@@ -21,25 +21,24 @@
   "is_winner": null,
   "filer_id": 1490067,
   "supporting_money": {
-    "contributions_received": 23390.0,
-    "total_contributions": 23390.0,
-    "total_expenditures": 6130.04,
-    "total_loans_received": 0.0,
+    "contributions_received": 31270.0,
+    "total_contributions": 31270.0,
+    "total_expenditures": 26008.84,
+    "total_loans_received": 4000.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 11700.0,
-      "Individual": 6325.0,
-      "Unitemized": 365.0,
-      "Self Funding": 4000.0,
-      "Other (includes Businesses)": 1000.0
+      "Committee": 12200.0,
+      "Individual": 13425.0,
+      "Unitemized": 1145.0,
+      "Other (includes Businesses)": 500.0
     },
     "contributions_by_origin": {
-      "Out of State": 2000.0,
+      "Out of State": 2100.0,
       "Within Oakland": 8025.0,
-      "Within California": 13000.0
+      "Within California": 16000.0
     },
     "contributions_by_employer": [
       {
@@ -53,9 +52,24 @@
         "total": 900.0
       },
       {
+        "name": "Mercury Public Affairs",
+        "count": 4,
+        "total": 900.0
+      },
+      {
+        "name": "Rodric Camp",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Agora",
         "count": 2,
         "total": 500.0
+      },
+      {
+        "name": "Rohr Communications",
+        "count": 2,
+        "total": 450.0
       },
       {
         "name": "Employer not reported",
@@ -63,7 +77,22 @@
         "total": 350.0
       },
       {
+        "name": "San Francisco Unified School District",
+        "count": 3,
+        "total": 350.0
+      },
+      {
         "name": "Alston & Bird Llp",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Contra Costa County",
         "count": 1,
         "total": 250.0
       },
@@ -73,17 +102,17 @@
         "total": 250.0
       },
       {
-        "name": "Mercury Public Affairs",
+        "name": "Kittelson & Associates",
         "count": 1,
         "total": 250.0
       },
       {
-        "name": "San Francisco Unified School District",
-        "count": 2,
+        "name": "The College Preparatory School",
+        "count": 1,
         "total": 250.0
       },
       {
-        "name": "The College Preparatory School",
+        "name": "Us Army",
         "count": 1,
         "total": 250.0
       },
@@ -98,7 +127,22 @@
         "total": 200.0
       },
       {
+        "name": "Burlingame School District",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "City Of Oakland",
+        "count": 1,
+        "total": 200.0
+      },
+      {
         "name": "Amae Health",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Amyris",
         "count": 1,
         "total": 100.0
       },
@@ -113,25 +157,40 @@
         "total": 100.0
       },
       {
-        "name": "Lyra",
+        "name": "Catherine Bishop",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Sunset Youth Services",
+        "name": "Connect Bay Area",
         "count": 1,
         "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 6,
+        "total": 600.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 5,
-        "total": 1500.0
+        "count": 17,
+        "total": 4400.0
       },
       {
         "name": "Chief Executive Officer/President",
         "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Exercise Teacher",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Managing Director",
+        "count": 4,
         "total": 900.0
       },
       {
@@ -145,12 +204,37 @@
         "total": 500.0
       },
       {
+        "name": "Communications Strategist",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Lawyer",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Teacher",
+        "count": 2,
+        "total": 450.0
+      },
+      {
+        "name": "Human Resources Analyst",
+        "count": 3,
+        "total": 350.0
+      },
+      {
+        "name": "Product Manager",
+        "count": 2,
+        "total": 350.0
+      },
+      {
         "name": "Student",
         "count": 2,
         "total": 350.0
       },
       {
-        "name": "Attorney",
+        "name": "Engineer",
         "count": 1,
         "total": 250.0
       },
@@ -160,17 +244,12 @@
         "total": 250.0
       },
       {
-        "name": "Human Resources Analyst",
-        "count": 2,
-        "total": 250.0
-      },
-      {
-        "name": "Managing Director",
+        "name": "Military Officer",
         "count": 1,
         "total": 250.0
       },
       {
-        "name": "Teacher",
+        "name": "Sustainability Coordinator",
         "count": 1,
         "total": 250.0
       },
@@ -185,38 +264,54 @@
         "total": 200.0
       },
       {
+        "name": "Campaign Manager",
+        "count": 1,
+        "total": 100.0
+      },
+      {
         "name": "Consultant",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Product Manager",
+        "name": "Data Director",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Program Manager",
+        "name": "District Director",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Therapist",
+        "name": "Executive Director",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Vice President of Human Resources",
+        "name": "Legislative Affairs Associate",
         "count": 1,
         "total": 100.0
+      },
+      {
+        "name": "Marketer",
+        "count": 1,
+        "total": 100.0
+      },
+      {
+        "name": "Other",
+        "count": 4,
+        "total": 400.0
       }
     ],
-    "total_small_contributions": 415.0,
+    "total_small_contributions": 1195.0,
     "expenditures_by_type": {
-      "Not Stated": 195.0,
-      "Fundraising Events": 367.14,
-      "Meetings and Appearances": 365.0,
-      "Campaign Paraphernalia/Misc.": 549.4,
-      "Professional Services (Legal, Accounting)": 4603.5
+      "Not Stated": 10195.0,
+      "Fundraising Events": 658.49,
+      "Meetings and Appearances": 1058.9,
+      "Campaign Paraphernalia/Misc.": 4879.95,
+      "Professional Services (Legal, Accounting)": 7123.5,
+      "Information Technology Costs (Internet, E-mail)": 1684.0
     },
     "supporting_by_type": {
     }
@@ -229,7 +324,7 @@
 
     ]
   },
-  "total_contributions": 23390.0,
-  "total_expenditures": 6130.04,
-  "total_loans_received": 0.0
+  "total_contributions": 31270.0,
+  "total_expenditures": 26008.84,
+  "total_loans_received": 4000.0
 }

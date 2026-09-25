@@ -21,30 +21,30 @@
   "is_winner": null,
   "filer_id": 1481569,
   "supporting_money": {
-    "contributions_received": 144326.0,
-    "total_contributions": 144326.0,
-    "total_expenditures": 23416.07,
+    "contributions_received": 153476.0,
+    "total_contributions": 153476.0,
+    "total_expenditures": 36669.75,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 27000.0,
-      "Individual": 84575.0,
+      "Committee": 33950.0,
+      "Individual": 86775.0,
       "Unitemized": 851.0,
       "Other (includes Businesses)": 31900.0
     },
     "contributions_by_origin": {
       "Out of State": 1800.0,
-      "Within Oakland": 79000.0,
-      "Within California": 62675.0
+      "Within Oakland": 81450.0,
+      "Within California": 69375.0
     },
     "contributions_by_employer": [
       {
         "name": "Self-Employed",
-        "count": 13,
-        "total": 7200.0
+        "count": 14,
+        "total": 7800.0
       },
       {
         "name": "Genesis Worship Center",
@@ -88,6 +88,11 @@
       },
       {
         "name": "Pacific American Group",
+        "count": 2,
+        "total": 1150.0
+      },
+      {
+        "name": "UC Berkeley",
         "count": 2,
         "total": 1150.0
       },
@@ -162,26 +167,21 @@
         "total": 900.0
       },
       {
-        "name": "Ebmud",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 84,
-        "total": 38575.0
+        "count": 87,
+        "total": 39525.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 17,
-        "total": 8900.0
+        "count": 18,
+        "total": 9300.0
       },
       {
         "name": "Owner",
-        "count": 17,
-        "total": 8850.0
+        "count": 20,
+        "total": 9150.0
       },
       {
         "name": "Consultant",
@@ -214,6 +214,11 @@
         "total": 2050.0
       },
       {
+        "name": "developer",
+        "count": 4,
+        "total": 1850.0
+      },
+      {
         "name": "Entrepreneur",
         "count": 2,
         "total": 1800.0
@@ -229,9 +234,9 @@
         "total": 1300.0
       },
       {
-        "name": "developer",
-        "count": 3,
-        "total": 1250.0
+        "name": "Lecturer",
+        "count": 2,
+        "total": 1150.0
       },
       {
         "name": "Minister",
@@ -294,14 +299,9 @@
         "total": 900.0
       },
       {
-        "name": "Founding Partner",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Other",
         "count": 61,
-        "total": 24900.0
+        "total": 25550.0
       }
     ],
     "total_small_contributions": 951.0,
@@ -311,7 +311,9 @@
       "Member Communications": 393.0,
       "Meetings and Appearances": 9175.28,
       "Campaign Paraphernalia/Misc.": 239.22,
-      "Professional Services (Legal, Accounting)": 2237.79,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 12072.5,
+      "Professional Services (Legal, Accounting)": 2418.97,
       "Information Technology Costs (Internet, E-mail)": 106.9
     },
     "supporting_by_type": {
@@ -327,7 +329,7 @@
 
     ]
   },
-  "total_contributions": 144326.0,
-  "total_expenditures": 23416.07,
+  "total_contributions": 153476.0,
+  "total_expenditures": 36669.75,
   "total_loans_received": 0.0
 }

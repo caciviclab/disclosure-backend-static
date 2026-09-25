@@ -21,35 +21,40 @@
   "is_winner": null,
   "filer_id": 1480704,
   "supporting_money": {
-    "contributions_received": 283521.94,
-    "total_contributions": 283521.94,
-    "total_expenditures": 149597.26,
+    "contributions_received": 350958.94,
+    "total_contributions": 350958.94,
+    "total_expenditures": 224006.81,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 28883.94,
-      "Individual": 227799.0,
-      "Unitemized": 16839.0,
-      "Other (includes Businesses)": 10000.0
+      "Committee": 33783.94,
+      "Individual": 285654.0,
+      "Unitemized": 19221.0,
+      "Other (includes Businesses)": 12300.0
     },
     "contributions_by_origin": {
-      "Out of State": 16735.0,
-      "Within Oakland": 120046.94,
-      "Within California": 129901.0
+      "Out of State": 23200.0,
+      "Within Oakland": 153276.94,
+      "Within California": 155261.0
     },
     "contributions_by_employer": [
       {
         "name": "Kaiser Permanente",
-        "count": 13,
-        "total": 4550.0
+        "count": 14,
+        "total": 5050.0
       },
       {
         "name": "Kazan McClain et al.",
         "count": 3,
         "total": 2700.0
+      },
+      {
+        "name": "UC San Francisco",
+        "count": 15,
+        "total": 2075.0
       },
       {
         "name": "Alameda County",
@@ -67,19 +72,29 @@
         "total": 1800.0
       },
       {
-        "name": "UC San Francisco",
-        "count": 10,
-        "total": 1650.0
-      },
-      {
         "name": "City of Oakland",
-        "count": 10,
-        "total": 1575.0
+        "count": 11,
+        "total": 1675.0
       },
       {
         "name": "Change Consulting",
         "count": 4,
         "total": 1500.0
+      },
+      {
+        "name": "UC Berkeley",
+        "count": 9,
+        "total": 1500.0
+      },
+      {
+        "name": "Argent Materials Inc",
+        "count": 2,
+        "total": 1400.0
+      },
+      {
+        "name": "Bay Area Rapid Transit",
+        "count": 3,
+        "total": 1250.0
       },
       {
         "name": "Institute for Community Leadership",
@@ -97,9 +112,14 @@
         "total": 1150.0
       },
       {
-        "name": "UC Berkeley",
-        "count": 7,
-        "total": 1050.0
+        "name": "State of California",
+        "count": 5,
+        "total": 1150.0
+      },
+      {
+        "name": "PolicyLink",
+        "count": 4,
+        "total": 1000.0
       },
       {
         "name": "1528 Cowork",
@@ -122,7 +142,22 @@
         "total": 900.0
       },
       {
+        "name": "Advanced Home Energy",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Akerman LLP",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Akonadi Foundation",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Alamo Health Management LLC",
         "count": 1,
         "total": 900.0
       },
@@ -132,105 +167,75 @@
         "total": 900.0
       },
       {
-        "name": "Arnold Grisham",
-        "count": 5,
-        "total": 900.0
-      },
-      {
-        "name": "Bernstein & Lipsett",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Bernstein & Lipsett P.C.",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Black Doc Village",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Catherine Lew",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Centinela Capital Partners",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Clean Energy Leadership Institute",
-        "count": 3,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 519,
-        "total": 117522.0
+        "count": 639,
+        "total": 152327.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 304,
-        "total": 76352.0
+        "count": 384,
+        "total": 96727.0
       },
       {
         "name": "Attorney",
-        "count": 45,
-        "total": 17650.0
+        "count": 57,
+        "total": 22500.0
       },
       {
         "name": "Consultant",
-        "count": 51,
-        "total": 11875.0
+        "count": 56,
+        "total": 12875.0
       },
       {
         "name": "Chief Executive Officer/President",
-        "count": 31,
-        "total": 8650.0
+        "count": 40,
+        "total": 11650.0
       },
       {
         "name": "Physician",
-        "count": 28,
-        "total": 8535.0
+        "count": 34,
+        "total": 10785.0
       },
       {
         "name": "Business Owner",
-        "count": 16,
-        "total": 5850.0
-      },
-      {
-        "name": "Director",
-        "count": 25,
-        "total": 4125.0
-      },
-      {
-        "name": "Executive Director",
-        "count": 18,
-        "total": 3750.0
-      },
-      {
-        "name": "Manager",
-        "count": 7,
-        "total": 2425.0
-      },
-      {
-        "name": "Founder",
-        "count": 4,
-        "total": 2150.0
+        "count": 17,
+        "total": 6750.0
       },
       {
         "name": "Real Estate",
-        "count": 10,
-        "total": 2100.0
+        "count": 15,
+        "total": 5150.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 21,
+        "total": 4950.0
+      },
+      {
+        "name": "Director",
+        "count": 27,
+        "total": 4675.0
+      },
+      {
+        "name": "Founder",
+        "count": 6,
+        "total": 3950.0
+      },
+      {
+        "name": "Manager",
+        "count": 8,
+        "total": 2925.0
       },
       {
         "name": "Civil Engineer",
         "count": 5,
+        "total": 2050.0
+      },
+      {
+        "name": "Surgeon",
+        "count": 7,
         "total": 2050.0
       },
       {
@@ -239,14 +244,19 @@
         "total": 1925.0
       },
       {
+        "name": "Entrepreneur",
+        "count": 18,
+        "total": 1835.0
+      },
+      {
         "name": "Managing Member",
         "count": 6,
         "total": 1800.0
       },
       {
-        "name": "Entrepreneur",
-        "count": 15,
-        "total": 1775.0
+        "name": "County Supervisor",
+        "count": 7,
+        "total": 1600.0
       },
       {
         "name": "Educator",
@@ -254,9 +264,14 @@
         "total": 1600.0
       },
       {
-        "name": "County Supervisor",
+        "name": "Photographer",
         "count": 5,
-        "total": 1400.0
+        "total": 1300.0
+      },
+      {
+        "name": "Advisor",
+        "count": 3,
+        "total": 1250.0
       },
       {
         "name": "Dentist",
@@ -269,9 +284,9 @@
         "total": 1200.0
       },
       {
-        "name": "Photographer",
-        "count": 4,
-        "total": 1200.0
+        "name": "Accountant",
+        "count": 3,
+        "total": 1150.0
       },
       {
         "name": "Executive",
@@ -284,33 +299,23 @@
         "total": 1150.0
       },
       {
-        "name": "Surgeon",
-        "count": 6,
-        "total": 1150.0
-      },
-      {
-        "name": "Chief Operating Officer",
-        "count": 2,
-        "total": 1000.0
-      },
-      {
-        "name": "Filmmaker",
-        "count": 2,
-        "total": 1000.0
-      },
-      {
         "name": "Other",
-        "count": 301,
-        "total": 64687.0
+        "count": 380,
+        "total": 81407.0
       }
     ],
-    "total_small_contributions": 22270.94,
+    "total_small_contributions": 26282.94,
     "expenditures_by_type": {
-      "Office Expenses": 8691.57,
-      "Fundraising Events": 36037.06,
-      "Campaign Consultants": 15000.0,
-      "Professional Services (Legal, Accounting)": 8529.54,
-      "Information Technology Costs (Internet, E-mail)": 17310.0
+      "Office Expenses": 11445.09,
+      "Fundraising Events": 37288.65,
+      "Campaign Consultants": 82083.33,
+      "Campaign Paraphernalia/Misc.": 5763.02,
+      "Candidate Filing/Ballot Fees": 1000.0,
+      "Campaign Literature and Mailings": 1058.07,
+      "Staff/Spouse Travel, Lodging, and Meals": 66.45,
+      "Postage, Delivery and Messenger Services": 163.99,
+      "Professional Services (Legal, Accounting)": 14539.68,
+      "Information Technology Costs (Internet, E-mail)": 26900.92
     },
     "supporting_by_type": {
       "IKD": 650.0,
@@ -328,7 +333,7 @@
 
     ]
   },
-  "total_contributions": 283521.94,
-  "total_expenditures": 149597.26,
+  "total_contributions": 350958.94,
+  "total_expenditures": 224006.81,
   "total_loans_received": 0.0
 }

@@ -1641,9 +1641,9 @@
         "total_contributions": 720000.0
       },
       {
-        "name": "Revitalize East Bay Committee",
+        "name": "Oakland Education Association Intermediary for contributions less than $100",
         "election_name": "oakland-2024",
-        "total_contributions": 399764.55
+        "total_contributions": 456495.35
       }
     ],
     "top_contributors_for_offices": [
@@ -1700,10 +1700,10 @@
         "total_spending": 720000.0
       },
       {
-        "name": "Revitalize East Bay Committee",
+        "name": "Oakland Education Association Intermediary for contributions less than $100",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_spending": 399764.55
+        "total_spending": 456495.35
       }
     ],
     "top_spenders_for_offices": [
@@ -1740,10 +1740,10 @@
         "total_spending": 720000.0
       },
       {
-        "name": "Revitalize East Bay Committee",
+        "name": "Oakland Education Association Intermediary for contributions less than $100",
         "type": "Measure",
         "election_name": "oakland-2024",
-        "total_spending": 399764.55
+        "total_spending": 456495.35
       }
     ]
   },
@@ -1943,37 +1943,37 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 951445.76,
+    "total_contributions": 1118146.47,
     "total_contributions_by_source": {
-      "Out of State": 38113.47,
-      "Within Oakland": 498923.17,
-      "Within California": 364044.06
+      "Out of State": 46918.69,
+      "Within Oakland": 578572.05,
+      "Within California": 429464.72
     },
     "contributions_by_type": {
-      "Committee": 106383.94,
-      "Individual": 726844.05,
-      "Unitemized": 49015.06,
-      "Self Funding": 7352.71,
-      "Other (includes Businesses)": 60500.0
+      "Committee": 138283.94,
+      "Individual": 846312.93,
+      "Unitemized": 58591.01,
+      "Self Funding": 3352.71,
+      "Other (includes Businesses)": 67005.88
     },
     "most_expensive_races": [
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 313518.61
+        "amount": 387386.49
       },
       {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 160333.97
+        "amount": 176342.08
       },
       {
         "slug": "city-council-district-6",
         "type": "office",
         "title": "City Council District 6",
-        "amount": 144326.0
+        "amount": 153476.0
       }
     ],
     "largest_small_proportion": [
@@ -2006,7 +2006,7 @@
       {
         "name": "Oakland Education Association Political Action Committee",
         "election_name": "oakland-2026",
-        "total_spending": 1810.0
+        "total_spending": 7533.65
       }
     ],
     "top_contributors": [
@@ -2016,7 +2016,7 @@
         "total_contributions": 30900.0
       },
       {
-        "name": "Mary Quinn Delaney",
+        "name": "M. Quinn Delaney",
         "election_name": "oakland-2026",
         "total_contributions": 25000.0
       },
@@ -2028,22 +2028,22 @@
     ],
     "top_contributors_for_offices": [
       {
+        "name": "Building and Construction Trades Council of Alameda County PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_contributions": 5250.0
+      },
+      {
+        "name": "North Coast States Regional Council of Carpenters Power PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_contributions": 5100.0
+      },
+      {
         "name": "Sheet Metal Workers Local Union 104 PAC",
         "type": "Office",
         "election_name": "oakland-2026",
         "total_contributions": 4900.0
-      },
-      {
-        "name": "Kathryn Camp",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_contributions": 4000.0
-      },
-      {
-        "name": "Derek Smith",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_contributions": 3850.0
       }
     ],
     "top_contributors_for_measures": [
@@ -2054,7 +2054,7 @@
         "total_contributions": 30000.0
       },
       {
-        "name": "Mary Quinn Delaney",
+        "name": "M. Quinn Delaney",
         "type": "Measure",
         "election_name": "oakland-2026",
         "total_contributions": 25000.0
@@ -2074,7 +2074,7 @@
         "total_spending": 30000.0
       },
       {
-        "name": "Mary Quinn Delaney",
+        "name": "M. Quinn Delaney",
         "type": "Measure",
         "election_name": "oakland-2026",
         "total_spending": 25000.0
@@ -2088,6 +2088,12 @@
     ],
     "top_spenders_for_offices": [
       {
+        "name": "Building and Construction Trades Council of Alameda County PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_spending": 5250.0
+      },
+      {
         "name": "North Coast States Regional Council of Carpenters Power PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2098,12 +2104,6 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 4900.0
-      },
-      {
-        "name": "Kathryn Camp",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_spending": 4000.0
       }
     ],
     "top_spenders_for_measures": [
@@ -2114,7 +2114,7 @@
         "total_spending": 30000.0
       },
       {
-        "name": "Mary Quinn Delaney",
+        "name": "M. Quinn Delaney",
         "type": "Measure",
         "election_name": "oakland-2026",
         "total_spending": 25000.0

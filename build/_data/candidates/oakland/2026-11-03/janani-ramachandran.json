@@ -21,31 +21,31 @@
   "is_winner": null,
   "filer_id": 1468682,
   "supporting_money": {
-    "contributions_received": 135084.09,
-    "total_contributions": 135084.09,
-    "total_expenditures": 4908.46,
-    "total_loans_received": 750.0,
+    "contributions_received": 142128.09,
+    "total_contributions": 142128.09,
+    "total_expenditures": 27602.26,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Committee": 17950.0,
-      "Individual": 99298.09,
-      "Unitemized": 7983.0,
+      "Committee": 22750.0,
+      "Individual": 102143.09,
+      "Unitemized": 8132.0,
       "Self Funding": 3.0,
       "Other (includes Businesses)": 9100.0
     },
     "contributions_by_origin": {
       "Out of State": 6901.0,
-      "Within Oakland": 64470.0,
-      "Within California": 54980.09
+      "Within Oakland": 67615.0,
+      "Within California": 59480.09
     },
     "contributions_by_employer": [
       {
         "name": "City of Oakland",
-        "count": 8,
-        "total": 1851.0
+        "count": 10,
+        "total": 2351.0
       },
       {
         "name": "UC Berkeley",
@@ -85,6 +85,11 @@
       {
         "name": "Concise Insurance",
         "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Crossway Church",
+        "count": 1,
         "total": 900.0
       },
       {
@@ -163,26 +168,21 @@
         "total": 900.0
       },
       {
-        "name": "RH",
-        "count": 2,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 148,
-        "total": 45471.0
+        "count": 155,
+        "total": 47686.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 117,
-        "total": 29181.09
+        "count": 120,
+        "total": 29311.09
       },
       {
         "name": "Owner",
-        "count": 13,
-        "total": 5150.0
+        "count": 14,
+        "total": 5550.0
       },
       {
         "name": "Real Estate",
@@ -191,8 +191,8 @@
       },
       {
         "name": "Chief Executive Officer/President",
-        "count": 6,
-        "total": 4100.0
+        "count": 7,
+        "total": 4600.0
       },
       {
         "name": "Attorney",
@@ -301,16 +301,20 @@
       },
       {
         "name": "Other",
-        "count": 98,
-        "total": 25121.0
+        "count": 104,
+        "total": 26936.0
       }
     ],
-    "total_small_contributions": 8969.0,
+    "total_small_contributions": 9163.0,
     "expenditures_by_type": {
       "Contribution": 250.0,
-      "Office Expenses": 1818.51,
-      "Fundraising Events": 750.0,
-      "Professional Services (Legal, Accounting)": 1912.5
+      "Office Expenses": 1820.09,
+      "Fundraising Events": 1423.05,
+      "Campaign Consultants": 19500.0,
+      "Campaign Paraphernalia/Misc.": 185.4,
+      "Candidate Filing/Ballot Fees": 950.0,
+      "Candidate Travel, Lodging, and Meals": 6.0,
+      "Professional Services (Legal, Accounting)": 3172.5
     },
     "supporting_by_type": {
       "Digital Ads Estimate $1,038.41": 1000.0,
@@ -327,7 +331,7 @@
 
     ]
   },
-  "total_contributions": 135084.09,
-  "total_expenditures": 4908.46,
-  "total_loans_received": 750.0
+  "total_contributions": 142128.09,
+  "total_expenditures": 27602.26,
+  "total_loans_received": 0.0
 }
