@@ -179,11 +179,6 @@
         "total": 11434.0
       },
       {
-        "name": "Self-Employed",
-        "count": 5,
-        "total": 1150.0
-      },
-      {
         "name": "University of California",
         "count": 4,
         "total": 1100.0
@@ -230,6 +225,11 @@
       },
       {
         "name": "Self (Danny Wan)",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self (Michael Powers)",
         "count": 1,
         "total": 900.0
       },
@@ -300,8 +300,8 @@
       },
       {
         "name": "Other",
-        "count": 108,
-        "total": 16602.47
+        "count": 112,
+        "total": 16852.47
       }
     ],
     "total_small_contributions": 5628.0,

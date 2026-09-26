@@ -181,8 +181,8 @@
       },
       {
         "name": "Self-Employed",
-        "count": 3,
-        "total": 1300.0
+        "count": 2,
+        "total": 1000.0
       },
       {
         "name": "Lighthouse",
@@ -222,6 +222,11 @@
       {
         "name": "CCWRO",
         "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Self (Araina Hennen)",
+        "count": 1,
         "total": 300.0
       },
       {
@@ -295,14 +300,9 @@
         "total": 100.0
       },
       {
-        "name": "Amazon",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 22,
-        "total": 1860.0
+        "count": 23,
+        "total": 1960.0
       }
     ],
     "total_small_contributions": 3172.2,

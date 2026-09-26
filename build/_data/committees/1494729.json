@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 65000.0,
+  "total_contributions": 70000.0,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -46,6 +46,21 @@
       "Tran_NamL": "Delaney",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "C00002766",
+      "Filer_ID": "1494729",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2026-09-24",
+      "Tran_NamF": null,
+      "Tran_NamL": "United Food and Commercial Workers International Union Active Ballot Club",
+      "Tran_Zip4": "20006",
+      "election_name": "oakland-2026"
     }
   ],
   "contributions_by_election": [
@@ -53,7 +68,7 @@
       "2026-11-03",
       [
         "Oakland November 3rd, 2026 General Election",
-        65000.0
+        70000.0
       ]
     ]
   ],
