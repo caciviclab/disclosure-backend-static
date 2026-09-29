@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 43029.66,
+  "total_contributions": 44029.66,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -2250,6 +2250,21 @@
       "Tran_NamF": "Alison",
       "Tran_NamL": "McDonald",
       "Tran_Zip4": "94619",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "1313474",
+      "Filer_ID": "1492547",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2026-09-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "American Federation of State, County & Municipal Employees- Council 57 PAC",
+      "Tran_Zip4": "90650",
       "election_name": "oakland-2026"
     }
   ]

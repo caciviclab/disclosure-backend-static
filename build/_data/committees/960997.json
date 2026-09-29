@@ -6033,21 +6033,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "960997",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 20000.0,
-      "Tran_Date": "2022-10-17",
-      "Tran_NamF": null,
-      "Tran_NamL": "Pacific Gas & Electric Corporation",
-      "Tran_Zip4": "94105",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -6061,6 +6046,21 @@
       "Tran_NamL": "Pacific Gas & Electric Corporation",
       "Tran_Zip4": "94105",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "Pacific Gas & Electric Corporation",
+      "Tran_Zip4": "94105",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2022-11-08",
@@ -6243,21 +6243,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "1298012",
-      "Filer_ID": "960997",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2022-10-26",
-      "Tran_NamF": null,
-      "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
-      "Tran_Zip4": "94545",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1298012",
@@ -6271,6 +6256,21 @@
       "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
       "Tran_Zip4": "94545",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1298012",
+      "Filer_ID": "960997",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2022-10-26",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
+      "Tran_Zip4": "94545",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
