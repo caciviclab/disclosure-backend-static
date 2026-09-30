@@ -37,53 +37,48 @@
     },
     "contributions_by_origin": {
       "Out of State": 1003.47,
-      "Within Oakland": 39382.0,
-      "Within California": 10469.0
+      "Within Oakland": 39482.0,
+      "Within California": 10369.0
     },
     "contributions_by_employer": [
       {
         "name": "Consultant",
-        "count": 13,
-        "total": 3360.0
-      },
-      {
-        "name": "Attorney",
-        "count": 7,
-        "total": 2250.0
-      },
-      {
-        "name": "Operations",
-        "count": 3,
-        "total": 1900.0
+        "count": 6,
+        "total": 1200.0
       },
       {
         "name": "Product Manager",
-        "count": 6,
-        "total": 1800.0
+        "count": 4,
+        "total": 1200.0
+      },
+      {
+        "name": "Attorney",
+        "count": 2,
+        "total": 1050.0
       },
       {
         "name": "Chief Executive Officer/President",
-        "count": 3,
-        "total": 1150.0
-      },
-      {
-        "name": "sales",
-        "count": 3,
-        "total": 1150.0
-      },
-      {
-        "name": "Director",
         "count": 2,
         "total": 1000.0
       },
       {
-        "name": "Advisor",
+        "name": "Operations",
+        "count": 2,
+        "total": 1000.0
+      },
+      {
+        "name": "Akimbo Health",
         "count": 1,
         "total": 900.0
       },
       {
         "name": "Data systems manager",
         "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Director",
+        "count": 1,
         "total": 900.0
       },
       {
@@ -102,13 +97,23 @@
         "total": 900.0
       },
       {
+        "name": "Lubin Olson LLP",
+        "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "Moving state LLC",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Philanthropy",
         "count": 1,
         "total": 900.0
       },
       {
-        "name": "Sustainability Coordinator",
-        "count": 2,
+        "name": "YouTube",
+        "count": 1,
         "total": 900.0
       },
       {
@@ -117,17 +122,17 @@
         "total": 750.0
       },
       {
-        "name": "Marketing",
-        "count": 2,
-        "total": 750.0
+        "name": "Rss",
+        "count": 1,
+        "total": 700.0
       },
       {
-        "name": "Engineer",
-        "count": 3,
-        "total": 730.0
+        "name": "Lighthouse Worldwide Solutions",
+        "count": 1,
+        "total": 650.0
       },
       {
-        "name": "Director of Engineering",
+        "name": "f5",
         "count": 1,
         "total": 650.0
       },
@@ -142,12 +147,17 @@
         "total": 600.0
       },
       {
-        "name": "Operations Manager",
+        "name": "Oakland Jewish Alliance",
         "count": 1,
         "total": 518.0
       },
       {
-        "name": "COO",
+        "name": "Foresight",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Great Question",
         "count": 1,
         "total": 500.0
       },
@@ -157,19 +167,9 @@
         "total": 500.0
       },
       {
-        "name": "Nonprofit",
-        "count": 1,
-        "total": 500.0
-      },
-      {
-        "name": "Technology",
-        "count": 1,
-        "total": 500.0
-      },
-      {
         "name": "Other",
-        "count": 83,
-        "total": 10362.47
+        "count": 105,
+        "total": 15452.47
       }
     ],
     "contributions_by_occupation": [
@@ -179,13 +179,28 @@
         "total": 11434.0
       },
       {
-        "name": "University of California",
-        "count": 4,
-        "total": 1100.0
+        "name": "Operations Manager",
+        "count": 2,
+        "total": 1418.0
       },
       {
-        "name": "Contra Costa County",
-        "count": 2,
+        "name": "Attorney",
+        "count": 7,
+        "total": 1350.0
+      },
+      {
+        "name": "Consultant",
+        "count": 4,
+        "total": 1030.0
+      },
+      {
+        "name": "University of California",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Advisor",
+        "count": 1,
         "total": 900.0
       },
       {
@@ -199,22 +214,17 @@
         "total": 900.0
       },
       {
+        "name": "Healthcare Consultant",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Lighthouse Inc.",
         "count": 1,
         "total": 900.0
       },
       {
-        "name": "Lubin Olson LLP",
-        "count": 2,
-        "total": 900.0
-      },
-      {
         "name": "Maven Learning Inc.",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Moving state LLC",
         "count": 1,
         "total": 900.0
       },
@@ -229,11 +239,6 @@
         "total": 900.0
       },
       {
-        "name": "Self (Michael Powers)",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Self (Robert Spencer)",
         "count": 1,
         "total": 900.0
@@ -244,44 +249,29 @@
         "total": 900.0
       },
       {
-        "name": "YouTube",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "f5",
+        "name": "sales",
         "count": 2,
         "total": 900.0
       },
       {
-        "name": "Rss",
-        "count": 1,
-        "total": 700.0
-      },
-      {
-        "name": "Waymo",
-        "count": 2,
-        "total": 700.0
-      },
-      {
-        "name": "Lighthouse Worldwide Solutions",
+        "name": "Director of Engineering",
         "count": 1,
         "total": 650.0
       },
       {
-        "name": "BECU",
+        "name": "Engineer",
+        "count": 2,
+        "total": 630.0
+      },
+      {
+        "name": "Product Manager",
         "count": 2,
         "total": 600.0
       },
       {
-        "name": "Google",
-        "count": 2,
-        "total": 550.0
-      },
-      {
-        "name": "Oakland Jewish Alliance",
+        "name": "Waymo",
         "count": 1,
-        "total": 518.0
+        "total": 600.0
       },
       {
         "name": "Abbott",
@@ -294,14 +284,24 @@
         "total": 500.0
       },
       {
-        "name": "Foresight",
+        "name": "BECU",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "COO",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Contra Costa County",
         "count": 1,
         "total": 500.0
       },
       {
         "name": "Other",
-        "count": 112,
-        "total": 16852.47
+        "count": 106,
+        "total": 16092.47
       }
     ],
     "total_small_contributions": 5628.0,

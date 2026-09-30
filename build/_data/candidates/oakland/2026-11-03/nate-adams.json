@@ -34,16 +34,11 @@
       "Unitemized": 5327.55
     },
     "contributions_by_origin": {
-      "Out of State": 2160.0,
+      "Out of State": 1760.0,
       "Within Oakland": 18124.49,
-      "Within California": 17632.93
+      "Within California": 18032.93
     },
     "contributions_by_employer": [
-      {
-        "name": "Self-Employed",
-        "count": 9,
-        "total": 1750.0
-      },
       {
         "name": "AC Transit",
         "count": 5,
@@ -125,6 +120,11 @@
         "total": 550.0
       },
       {
+        "name": "Self-Employed",
+        "count": 4,
+        "total": 550.0
+      },
+      {
         "name": "Arkin Tilt Architects",
         "count": 5,
         "total": 501.49
@@ -136,6 +136,11 @@
       },
       {
         "name": "Darshini Patel",
+        "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "Gisela Kottmeier",
         "count": 1,
         "total": 500.0
       },
@@ -155,19 +160,14 @@
         "total": 450.0
       },
       {
-        "name": "PrincInt",
-        "count": 1,
+        "name": "David Inman",
+        "count": 3,
         "total": 450.0
       },
       {
-        "name": "Union",
-        "count": 1,
-        "total": 400.0
-      },
-      {
         "name": "Other",
-        "count": 106,
-        "total": 10715.0
+        "count": 109,
+        "total": 11815.0
       }
     ],
     "contributions_by_occupation": [

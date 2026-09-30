@@ -21,8 +21,8 @@
   "is_winner": null,
   "filer_id": 1480943,
   "supporting_money": {
-    "contributions_received": 24391.67,
-    "total_contributions": 24391.67,
+    "contributions_received": 25091.67,
+    "total_contributions": 25091.67,
     "total_expenditures": 21333.19,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
@@ -30,24 +30,24 @@
 
     ],
     "contributions_by_type": {
-      "Individual": 21506.07,
+      "Individual": 22206.07,
       "Unitemized": 2885.6
     },
     "contributions_by_origin": {
       "Out of State": 2850.0,
-      "Within Oakland": 3945.03,
-      "Within California": 14711.04
+      "Within Oakland": 4345.03,
+      "Within California": 15011.04
     },
     "contributions_by_employer": [
+      {
+        "name": "American System Publications",
+        "count": 4,
+        "total": 958.65
+      },
       {
         "name": "Property Management",
         "count": 4,
         "total": 650.0
-      },
-      {
-        "name": "American System Publications",
-        "count": 3,
-        "total": 558.65
       },
       {
         "name": "Self-Employed",
@@ -143,13 +143,13 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 91,
-        "total": 16507.21
+        "count": 92,
+        "total": 16807.21
       },
       {
         "name": "Sales",
-        "count": 7,
-        "total": 1258.65
+        "count": 8,
+        "total": 1658.65
       },
       {
         "name": "Evergreen Venture Group Inc",
@@ -254,10 +254,10 @@
     ],
     "total_small_contributions": 3998.75,
     "expenditures_by_type": {
-      "Not Stated": 6699.83,
+      "Not Stated": 6745.83,
       "Member Communications": 652.64,
       "Meetings and Appearances": 3317.21,
-      "Campaign Paraphernalia/Misc.": 3575.6,
+      "Campaign Paraphernalia/Misc.": 3529.6,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 120.67,
       "Information Technology Costs (Internet, E-mail)": 4225.93
@@ -273,7 +273,7 @@
 
     ]
   },
-  "total_contributions": 24391.67,
+  "total_contributions": 25091.67,
   "total_expenditures": 21333.19,
   "total_loans_received": 0.0
 }
