@@ -12,15 +12,19 @@
       "locale": "Out of State"
     },
     {
-      "amount": 10000.0,
+      "amount": 65000.0,
       "locale": "Within California"
     },
     {
-      "amount": 55000.0,
+      "amount": 305000.0,
       "locale": "Within Oakland"
     }
   ],
   "contributions_by_type": [
+    {
+      "type": "Committee",
+      "amount": 305000.0
+    },
     {
       "type": "Individual",
       "amount": 65000.0
@@ -38,5 +42,5 @@
       "amount": 28589.97
     }
   ],
-  "total_contributions": 70000.0
+  "total_contributions": 375000.0
 }

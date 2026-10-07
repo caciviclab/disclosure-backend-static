@@ -25,9 +25,15 @@
     "total_contributions": 55482.47,
     "total_expenditures": 11614.98,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 17942.0,
     "support_list": [
-
+      {
+        "Total": 17942.0,
+        "Cand_ID": 1490303,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2026"
+      }
     ],
     "contributions_by_type": {
       "Committee": 3600.0,
@@ -313,11 +319,12 @@
       "Information Technology Costs (Internet, E-mail)": 2694.0
     },
     "supporting_by_type": {
-      "MON": 900.0
+      "MON": 900.0,
+      "Mailer": 17942.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
     },
     "opposition_list": [

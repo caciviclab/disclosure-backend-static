@@ -21,26 +21,37 @@
   "is_winner": null,
   "filer_id": 1490067,
   "supporting_money": {
-    "contributions_received": 31270.0,
-    "total_contributions": 31270.0,
+    "contributions_received": 34070.0,
+    "total_contributions": 34070.0,
     "total_expenditures": 26008.84,
     "total_loans_received": 4000.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 4359.0,
     "support_list": [
-
+      {
+        "Total": 4359.0,
+        "Cand_ID": 1490067,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2026"
+      }
     ],
     "contributions_by_type": {
-      "Committee": 12200.0,
-      "Individual": 13425.0,
+      "Committee": 14000.0,
+      "Individual": 14425.0,
       "Unitemized": 1145.0,
       "Other (includes Businesses)": 500.0
     },
     "contributions_by_origin": {
       "Out of State": 2100.0,
-      "Within Oakland": 8025.0,
-      "Within California": 16000.0
+      "Within Oakland": 9825.0,
+      "Within California": 17000.0
     },
     "contributions_by_employer": [
+      {
+        "name": "Harris Funeral Home Legacy Center",
+        "count": 2,
+        "total": 1000.0
+      },
       {
         "name": "Illinois Edc",
         "count": 2,
@@ -162,14 +173,9 @@
         "total": 100.0
       },
       {
-        "name": "Connect Bay Area",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 6,
-        "total": 600.0
+        "count": 7,
+        "total": 700.0
       }
     ],
     "contributions_by_occupation": [
@@ -177,6 +183,11 @@
         "name": "Retired/Not Employed",
         "count": 17,
         "total": 4400.0
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 2,
+        "total": 1000.0
       },
       {
         "name": "Chief Executive Officer/President",
@@ -294,14 +305,9 @@
         "total": 100.0
       },
       {
-        "name": "Marketer",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 4,
-        "total": 400.0
+        "count": 5,
+        "total": 500.0
       }
     ],
     "total_small_contributions": 1195.0,
@@ -314,17 +320,18 @@
       "Information Technology Costs (Internet, E-mail)": 1684.0
     },
     "supporting_by_type": {
+      "Mailer": 4359.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
     },
     "opposition_list": [
 
     ]
   },
-  "total_contributions": 31270.0,
+  "total_contributions": 34070.0,
   "total_expenditures": 26008.84,
   "total_loans_received": 4000.0
 }

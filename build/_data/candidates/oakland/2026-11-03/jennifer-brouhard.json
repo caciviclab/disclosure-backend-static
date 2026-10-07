@@ -25,10 +25,10 @@
     "total_contributions": 13955.65,
     "total_expenditures": 1682.22,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 5723.86,
+    "total_supporting_independent": 7959.86,
     "support_list": [
       {
-        "Total": 5723.86,
+        "Total": 7959.86,
         "Cand_ID": 1492545,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee",
@@ -246,15 +246,23 @@
     "supporting_by_type": {
       "IKD": 117.17,
       "MON": 4400.0,
+      "Canvassing": 2236.0,
       "Independent Expenditure Supporting/Opposing Others": 64962.69
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 4387.0,
     "opposing_by_type": {
+      "Mailer": 4387.0
     },
     "opposition_list": [
-
+      {
+        "Total": 4387.0,
+        "Cand_ID": 1492545,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2026"
+      }
     ]
   },
   "total_contributions": 13955.65,

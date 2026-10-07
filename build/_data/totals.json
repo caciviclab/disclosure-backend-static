@@ -1943,15 +1943,15 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 1126146.47,
+    "total_contributions": 1437546.47,
     "total_contributions_by_source": {
-      "Out of State": 51518.69,
-      "Within Oakland": 579072.05,
-      "Within California": 432364.72
+      "Out of State": 52518.69,
+      "Within Oakland": 830872.05,
+      "Within California": 490964.72
     },
     "contributions_by_type": {
-      "Committee": 140583.94,
-      "Individual": 847012.93,
+      "Committee": 449983.94,
+      "Individual": 849012.93,
       "Unitemized": 58591.01,
       "Self Funding": 3352.71,
       "Other (includes Businesses)": 72005.88
@@ -1964,16 +1964,16 @@
         "amount": 388086.49
       },
       {
+        "slug": "charter-amendment-measure",
+        "type": "referendum",
+        "title": "Measure EE",
+        "amount": 375000.0
+      },
+      {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
         "amount": 176342.08
-      },
-      {
-        "slug": "city-council-district-6",
-        "type": "office",
-        "title": "City Council District 6",
-        "amount": 153476.0
       }
     ],
     "largest_small_proportion": [
@@ -2004,26 +2004,31 @@
     ],
     "largest_independent_expenditures": [
       {
+        "name": "Empower Oakland Committee",
+        "election_name": "oakland-2026",
+        "total_spending": 31934.0
+      },
+      {
         "name": "Oakland Education Association Political Action Committee",
         "election_name": "oakland-2026",
-        "total_spending": 7533.65
+        "total_spending": 9769.65
       }
     ],
     "top_contributors": [
       {
+        "name": "California Nurses Association Initiative PAC",
+        "election_name": "oakland-2026",
+        "total_contributions": 250000.0
+      },
+      {
+        "name": "California Alliance for Jobs - Rebuild California Comittee",
+        "election_name": "oakland-2026",
+        "total_contributions": 50000.0
+      },
+      {
         "name": "Gregory Adams",
         "election_name": "oakland-2026",
         "total_contributions": 30900.0
-      },
-      {
-        "name": "M. Quinn Delaney",
-        "election_name": "oakland-2026",
-        "total_contributions": 25000.0
-      },
-      {
-        "name": "Samuel Glick",
-        "election_name": "oakland-2026",
-        "total_contributions": 10000.0
       }
     ],
     "top_contributors_for_offices": [
@@ -2048,42 +2053,42 @@
     ],
     "top_contributors_for_measures": [
       {
+        "name": "California Nurses Association Initiative PAC",
+        "type": "Measure",
+        "election_name": "oakland-2026",
+        "total_contributions": 250000.0
+      },
+      {
+        "name": "California Alliance for Jobs - Rebuild California Comittee",
+        "type": "Measure",
+        "election_name": "oakland-2026",
+        "total_contributions": 50000.0
+      },
+      {
         "name": "Gregory Adams",
         "type": "Measure",
         "election_name": "oakland-2026",
         "total_contributions": 30000.0
-      },
-      {
-        "name": "M. Quinn Delaney",
-        "type": "Measure",
-        "election_name": "oakland-2026",
-        "total_contributions": 25000.0
-      },
-      {
-        "name": "Samuel Glick",
-        "type": "Measure",
-        "election_name": "oakland-2026",
-        "total_contributions": 10000.0
       }
     ],
     "top_spenders": [
+      {
+        "name": "California Nurses Association Initiative PAC",
+        "type": "Measure",
+        "election_name": "oakland-2026",
+        "total_spending": 250000.0
+      },
+      {
+        "name": "California Alliance for Jobs - Rebuild California Comittee",
+        "type": "Measure",
+        "election_name": "oakland-2026",
+        "total_spending": 50000.0
+      },
       {
         "name": "Gregory Adams",
         "type": "Measure",
         "election_name": "oakland-2026",
         "total_spending": 30000.0
-      },
-      {
-        "name": "M. Quinn Delaney",
-        "type": "Measure",
-        "election_name": "oakland-2026",
-        "total_spending": 25000.0
-      },
-      {
-        "name": "Samuel Glick",
-        "type": "Measure",
-        "election_name": "oakland-2026",
-        "total_spending": 10000.0
       }
     ],
     "top_spenders_for_offices": [
@@ -2108,22 +2113,22 @@
     ],
     "top_spenders_for_measures": [
       {
+        "name": "California Nurses Association Initiative PAC",
+        "type": "Measure",
+        "election_name": "oakland-2026",
+        "total_spending": 250000.0
+      },
+      {
+        "name": "California Alliance for Jobs - Rebuild California Comittee",
+        "type": "Measure",
+        "election_name": "oakland-2026",
+        "total_spending": 50000.0
+      },
+      {
         "name": "Gregory Adams",
         "type": "Measure",
         "election_name": "oakland-2026",
         "total_spending": 30000.0
-      },
-      {
-        "name": "M. Quinn Delaney",
-        "type": "Measure",
-        "election_name": "oakland-2026",
-        "total_spending": 25000.0
-      },
-      {
-        "name": "Samuel Glick",
-        "type": "Measure",
-        "election_name": "oakland-2026",
-        "total_spending": 10000.0
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 230900.0,
+  "total_contributions": 270900.0,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -123,21 +123,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Jacqueline Caldwell",
-      "Tran_Occ": "Contractor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2025-01-15",
-      "Tran_NamF": "Jacqueline",
-      "Tran_NamL": "Caldwell",
-      "Tran_Zip4": "94608",
-      "election_name": "oakland-2025"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -151,6 +136,21 @@
       "Tran_NamL": "Caldwell",
       "Tran_Zip4": "94608",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Jacqueline Caldwell",
+      "Tran_Occ": "Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2025-01-15",
+      "Tran_NamF": "Jacqueline",
+      "Tran_NamL": "Caldwell",
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2025"
     },
     {
       "date": "2024-11-05",
@@ -243,6 +243,21 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "2500 Embarcadero LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2024"
+    },
+    {
       "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
@@ -256,36 +271,6 @@
       "Tran_NamL": "2500 Embarcadero LLC(Raymond Gallagher)",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2025"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2025-01-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "2500 Embarcadero LLC(Raymond Gallagher)",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2024"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2025-01-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "Beecher Street Properties, LLC(Raymond Gallagher)",
-      "Tran_Zip4": "94597",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2025-04-15",
@@ -303,8 +288,8 @@
       "election_name": "oakland-2025"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1471304",
       "Tran_Emp": null,
@@ -313,9 +298,9 @@
       "Tran_Amt1": 5000.0,
       "Tran_Date": "2025-01-29",
       "Tran_NamF": null,
-      "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2025"
+      "Tran_NamL": "Beecher Street Properties, LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -331,6 +316,21 @@
       "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2025"
     },
     {
       "date": "2024-11-05",
@@ -453,21 +453,6 @@
       "election_name": "oakland-2025"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Abby Ginzberg",
-      "Tran_Occ": "Documentary Filmmaker",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2025-04-09",
-      "Tran_NamF": "Abby",
-      "Tran_NamL": "Ginzberg",
-      "Tran_Zip4": "94706",
-      "election_name": "oakland-2025"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -481,6 +466,21 @@
       "Tran_NamL": "Ginzberg",
       "Tran_Zip4": "94706",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Abby Ginzberg",
+      "Tran_Occ": "Documentary Filmmaker",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-04-09",
+      "Tran_NamF": "Abby",
+      "Tran_NamL": "Ginzberg",
+      "Tran_Zip4": "94706",
+      "election_name": "oakland-2025"
     },
     {
       "date": "2024-11-05",
@@ -543,6 +543,21 @@
       "election_name": "oakland-2025"
     },
     {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Anchor",
+      "Tran_Occ": "Medical Doctor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2026-09-03",
+      "Tran_NamF": "Harold",
+      "Tran_NamL": "Orr",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2025"
+    },
+    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -562,15 +577,30 @@
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1471304",
-      "Tran_Emp": "Anchor",
-      "Tran_Occ": "Medical Doctor",
+      "Tran_Emp": "Scott's Seafood Grill & Bar",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2026-09-03",
-      "Tran_NamF": "Harold",
-      "Tran_NamL": "Orr",
-      "Tran_Zip4": "94605",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2026-10-01",
+      "Tran_NamF": "Raymond",
+      "Tran_NamL": "Gallagher",
+      "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2025"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Scott's Seafood Grill & Bar",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2026-10-01",
+      "Tran_NamF": "Raymond",
+      "Tran_NamL": "Gallagher",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [
@@ -578,22 +608,22 @@
       "2025-04-15",
       [
         "Oakland April 15, 2025 Special Election",
-        79500.0
+        99500.0
       ]
     ],
     [
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        151400.0
+        171400.0
       ]
     ]
   ],
   "contributions_by_employer": [
     {
       "name": "Scott's Seafood Grill & Bar",
-      "count": 1,
-      "total": 50000.0
+      "count": 3,
+      "total": 90000.0
     },
     {
       "name": "Anchor",
@@ -639,8 +669,8 @@
   "contributions_by_occupation": [
     {
       "name": "Owner",
-      "count": 1,
-      "total": 50000.0
+      "count": 3,
+      "total": 90000.0
     },
     {
       "name": "Medical Doctor",

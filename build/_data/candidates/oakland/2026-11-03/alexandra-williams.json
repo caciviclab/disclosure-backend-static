@@ -21,23 +21,29 @@
   "is_winner": null,
   "filer_id": 1492061,
   "supporting_money": {
-    "contributions_received": 16432.22,
-    "total_contributions": 16432.22,
+    "contributions_received": 17732.22,
+    "total_contributions": 17732.22,
     "total_expenditures": 9447.09,
     "total_loans_received": 500.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 7561.0,
     "support_list": [
-
+      {
+        "Total": 7561.0,
+        "Cand_ID": 1492061,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2026"
+      }
     ],
     "contributions_by_type": {
-      "Committee": 900.0,
+      "Committee": 2200.0,
       "Individual": 12958.22,
       "Unitemized": 2074.0
     },
     "contributions_by_origin": {
       "Out of State": 1815.22,
       "Within Oakland": 8244.0,
-      "Within California": 3799.0
+      "Within California": 5099.0
     },
     "contributions_by_employer": [
       {
@@ -313,18 +319,19 @@
       "Campaign Literature and Mailings": 918.38
     },
     "supporting_by_type": {
-      "MON": 900.0
+      "MON": 900.0,
+      "Mailer": 7561.0
     }
   },
   "opposing_money": {
-    "opposing_expenditures": null,
+    "opposing_expenditures": 0.0,
     "opposing_by_type": {
     },
     "opposition_list": [
 
     ]
   },
-  "total_contributions": 16432.22,
+  "total_contributions": 17732.22,
   "total_expenditures": 9447.09,
   "total_loans_received": 500.0
 }
