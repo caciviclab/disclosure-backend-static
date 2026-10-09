@@ -1,11 +1,11 @@
 CREATE TABLE referendums (
-	election_name VARCHAR(18) NOT NULL, 
+	election_name VARCHAR NOT NULL, 
 	"Measure_number" VARCHAR(4) NOT NULL, 
-	"Short_Title" VARCHAR(128) NOT NULL, 
-	"Full_Title" VARCHAR(1024), 
-	"Summary" VARCHAR(2048), 
-	"VotersEdge" VARCHAR(129), 
-	"Internal_notes" VARCHAR(1024), 
-	data_warning VARCHAR(32), 
+	"Short_Title" VARCHAR NOT NULL, 
+	"Full_Title" VARCHAR, 
+	"Summary" VARCHAR, 
+	"VotersEdge" VARCHAR, 
+	"Internal_notes" VARCHAR, 
+	data_warning VARCHAR, 
 	is_approved BOOLEAN
 );

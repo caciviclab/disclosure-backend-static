@@ -1,7 +1,7 @@
 CREATE TABLE committees (
-	"Ballot_Measure_Election" VARCHAR(18), 
+	"Ballot_Measure_Election" VARCHAR, 
 	"Filer_ID" VARCHAR(32) NOT NULL, 
-	"Filer_NamL" VARCHAR(255) NOT NULL, 
+	"Filer_NamL" VARCHAR NOT NULL, 
 	"_Status" VARCHAR(19), 
 	"_Committee_Type" VARCHAR(11), 
 	"Ballot_Measure" VARCHAR(10), 
@@ -10,6 +10,6 @@ CREATE TABLE committees (
 	candidate_controlled_id INTEGER, 
 	"Start_Date" DATE, 
 	"End_Date" DATE, 
-	data_warning VARCHAR(256),
+	data_warning VARCHAR,
 	"Make_Active" BOOLEAN
 );
