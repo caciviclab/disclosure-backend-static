@@ -7,7 +7,7 @@ CREATE TABLE "D-Expenditure" (
 	"From_Date" DATE NOT NULL, 
 	"Thru_Date" DATE NOT NULL, 
 	"Elect_Date" DATE, 
-	"tblCover_Office_Cd" VARCHAR(32), 
+	"tblCover_Office_Cd" VARCHAR, 
 	"tblCover_Offic_Dscr" VARCHAR, 
 	"Rec_Type" VARCHAR(4) NOT NULL, 
 	"Form_Type" VARCHAR(1) NOT NULL, 

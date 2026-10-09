@@ -14,7 +14,7 @@ CREATE TABLE "496" (
 	"Exp_Date" DATE NOT NULL, 
 	"Date_Thru" VARCHAR, 
 	"Expn_Dscr" VARCHAR, 
-	"Memo_Code" VARCHAR(32), 
+	"Memo_Code" VARCHAR, 
 	"Memo_RefNo" VARCHAR, 
 	"Bal_Name" VARCHAR, 
 	"Bal_Num" VARCHAR(4), 
