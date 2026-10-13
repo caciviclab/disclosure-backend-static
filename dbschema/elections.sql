@@ -1,8 +1,8 @@
 CREATE TABLE elections (
-	name VARCHAR(32) NOT NULL, 
-	location VARCHAR(16) NOT NULL, 
+	name VARCHAR NOT NULL, 
+	location VARCHAR NOT NULL, 
 	date DATE NOT NULL, 
-	title VARCHAR(64) NOT NULL, 
+	title VARCHAR NOT NULL, 
 	"Start_Date" DATE NOT NULL, 
 	"End_Date" DATE NOT NULL,
   "display" INT

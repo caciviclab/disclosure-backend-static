@@ -23,7 +23,7 @@
   "supporting_money": {
     "contributions_received": 153476.0,
     "total_contributions": 153476.0,
-    "total_expenditures": 36669.75,
+    "total_expenditures": 37236.76,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
@@ -306,14 +306,17 @@
     ],
     "total_small_contributions": 951.0,
     "expenditures_by_type": {
+      "Not Stated": 131.0,
       "Civic Donations": 1000.0,
+      "Office Expenses": 6109.86,
       "Fundraising Events": 2099.4,
       "Member Communications": 393.0,
       "Meetings and Appearances": 9175.28,
-      "Campaign Paraphernalia/Misc.": 239.22,
+      "Campaign Paraphernalia/Misc.": 1089.04,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 12072.5,
-      "Professional Services (Legal, Accounting)": 2418.97,
+      "Candidate Travel, Lodging, and Meals": 256.35,
+      "Professional Services (Legal, Accounting)": 2443.65,
       "Information Technology Costs (Internet, E-mail)": 106.9
     },
     "supporting_by_type": {
@@ -330,6 +333,6 @@
     ]
   },
   "total_contributions": 153476.0,
-  "total_expenditures": 36669.75,
+  "total_expenditures": 37236.76,
   "total_loans_received": 0.0
 }
