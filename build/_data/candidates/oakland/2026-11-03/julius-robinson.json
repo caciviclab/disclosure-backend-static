@@ -1,8 +1,8 @@
 {
   "id": 1,
   "name": "Julius Robinson",
-  "photo_url": null,
-  "website_url": null,
+  "photo_url": "Julius-Robinson",
+  "website_url": "https://www.julius4mayor.com/",
   "twitter_url": null,
   "facebook_url": null,
   "instagram_url": null,
@@ -13,23 +13,24 @@
   "ballot_item": 1,
   "office_election": 1,
   "bio": null,
-  "committee_name": null,
-  "is_accepted_expenditure_ceiling": false,
+  "committee_name": "Robinson for Mayor 2026",
+  "is_accepted_expenditure_ceiling": true,
   "is_incumbent": false,
   "occupation": null,
   "party_affiliation": null,
   "is_winner": null,
-  "filer_id": null,
+  "filer_id": 1495931,
   "supporting_money": {
     "contributions_received": 0.0,
     "total_contributions": 0.0,
-    "total_expenditures": null,
-    "total_loans_received": null,
+    "total_expenditures": 0.0,
+    "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
+      "Unitemized": 0.0
     },
     "contributions_by_origin": {
     },
@@ -39,7 +40,7 @@
     "contributions_by_occupation": [
 
     ],
-    "total_small_contributions": null,
+    "total_small_contributions": 0.0,
     "expenditures_by_type": {
     },
     "supporting_by_type": {
@@ -54,6 +55,6 @@
     ]
   },
   "total_contributions": 0.0,
-  "total_expenditures": null,
-  "total_loans_received": null
+  "total_expenditures": 0.0,
+  "total_loans_received": 0.0
 }
