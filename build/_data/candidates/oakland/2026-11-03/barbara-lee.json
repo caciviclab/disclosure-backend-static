@@ -25,13 +25,20 @@
     "total_contributions": 352758.94,
     "total_expenditures": 224006.81,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 13150.0,
+    "total_supporting_independent": 14435.0,
     "support_list": [
       {
         "Total": 13150.0,
         "Cand_ID": 1480704,
         "Filer_ID": "1471304",
         "Filer_NamL": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
+        "election_name": "oakland-2026"
+      },
+      {
+        "Total": 1285.0,
+        "Cand_ID": 1480704,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
         "election_name": "oakland-2026"
       }
     ],
@@ -330,7 +337,9 @@
       "Consulting": 6500.0,
       "Digital Ads": 650.0,
       "PHO $20,000.00": 20000.0,
-      "Independent Expenditure Supporting/Opposing Others": 201995.54
+      "Independent Expenditure Supporting/Opposing Others": 201995.54,
+      "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
+      "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     }
   },
   "opposing_money": {

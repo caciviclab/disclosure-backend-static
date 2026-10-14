@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 171748.19,
+  "total_contributions": 171788.19,
   "contributions": [
     {
       "date": "2022-11-08",
@@ -10977,6 +10977,36 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 20.0,
       "Tran_Date": "2026-06-22",
+      "Tran_NamF": "Jonah",
+      "Tran_NamL": "Schwartz",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2022"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1442792",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2026-07-22",
+      "Tran_NamF": "Jonah",
+      "Tran_NamL": "Schwartz",
+      "Tran_Zip4": "94601",
+      "election_name": "oakland-2022"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1442792",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20.0,
+      "Tran_Date": "2026-08-02",
       "Tran_NamF": "Jonah",
       "Tran_NamL": "Schwartz",
       "Tran_Zip4": "94601",

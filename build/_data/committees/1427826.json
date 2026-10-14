@@ -3903,21 +3903,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "OUSD",
-      "Tran_Occ": "Education",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-08-11",
-      "Tran_NamF": "Sabria",
-      "Tran_NamL": "Hassan",
-      "Tran_Zip4": "94606",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -3931,6 +3916,21 @@
       "Tran_NamL": "Hassan",
       "Tran_Zip4": "94606",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Education",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-08-11",
+      "Tran_NamF": "Sabria",
+      "Tran_NamL": "Hassan",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -4023,6 +4023,21 @@
       "election_name": "oakland-2020"
     },
     {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1423098",
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-08-20",
+      "Tran_NamF": null,
+      "Tran_NamL": "Angela Normand for Board of Education 2024",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
+    },
+    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": "1423098",
@@ -4036,36 +4051,6 @@
       "Tran_NamL": "Angela Normand for Board of Education 2024",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2020"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1423098",
-      "Filer_ID": "1427826",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 1200.0,
-      "Tran_Date": "2024-08-20",
-      "Tran_NamF": null,
-      "Tran_NamL": "Angela Normand for Board of Education 2024",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2024"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "OUSD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-08-27",
-      "Tran_NamF": "Jessica",
-      "Tran_NamL": "Gray",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -4083,19 +4068,19 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "Consultant",
-      "Tran_Occ": "Self employed",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
       "Tran_Date": "2024-08-27",
-      "Tran_NamF": "Michael",
-      "Tran_NamL": "Ward",
-      "Tran_Zip4": "53211",
-      "election_name": "oakland-2020"
+      "Tran_NamF": "Jessica",
+      "Tran_NamL": "Gray",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -4117,14 +4102,14 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "CTA",
-      "Tran_Occ": "Staff",
+      "Tran_Emp": "Consultant",
+      "Tran_Occ": "Self employed",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 300.0,
-      "Tran_Date": "2024-08-30",
-      "Tran_NamF": "Jervon",
-      "Tran_NamL": "Graves",
-      "Tran_Zip4": "92116",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-08-27",
+      "Tran_NamF": "Michael",
+      "Tran_NamL": "Ward",
+      "Tran_Zip4": "53211",
       "election_name": "oakland-2020"
     },
     {
@@ -4143,19 +4128,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "OUSD",
-      "Tran_Occ": "Teacher",
+      "Tran_Emp": "CTA",
+      "Tran_Occ": "Staff",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 300.0,
       "Tran_Date": "2024-08-30",
-      "Tran_NamF": "Kampala",
-      "Tran_NamL": "Rancifer",
-      "Tran_Zip4": "94605",
-      "election_name": "oakland-2024"
+      "Tran_NamF": "Jervon",
+      "Tran_NamL": "Graves",
+      "Tran_Zip4": "92116",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -4171,6 +4156,21 @@
       "Tran_NamL": "Rancifer",
       "Tran_Zip4": "94605",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "OUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2024-08-30",
+      "Tran_NamF": "Kampala",
+      "Tran_NamL": "Rancifer",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -4203,21 +4203,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Common Vision",
-      "Tran_Occ": "Educator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-09-02",
-      "Tran_NamF": "Wanda",
-      "Tran_NamL": "Stewart",
-      "Tran_Zip4": "94703",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4231,6 +4216,21 @@
       "Tran_NamL": "Stewart",
       "Tran_Zip4": "94703",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Common Vision",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-09-02",
+      "Tran_NamF": "Wanda",
+      "Tran_NamL": "Stewart",
+      "Tran_Zip4": "94703",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -4263,21 +4263,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "San Lorenzo USD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-09-10",
-      "Tran_NamF": "Kimily",
-      "Tran_NamL": "Gerking",
-      "Tran_Zip4": "94578",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4291,6 +4276,21 @@
       "Tran_NamL": "Gerking",
       "Tran_Zip4": "94578",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "San Lorenzo USD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-09-10",
+      "Tran_NamF": "Kimily",
+      "Tran_NamL": "Gerking",
+      "Tran_Zip4": "94578",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -4353,6 +4353,21 @@
       "election_name": "oakland-2020"
     },
     {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Not employed",
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-09-12",
+      "Tran_NamF": "Hameza",
+      "Tran_NamL": "Musid",
+      "Tran_Zip4": "94080",
+      "election_name": "oakland-2024"
+    },
+    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4366,36 +4381,6 @@
       "Tran_NamL": "Musid",
       "Tran_Zip4": "94080",
       "election_name": "oakland-2020"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Not employed",
-      "Tran_Occ": "Not employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 600.0,
-      "Tran_Date": "2024-09-12",
-      "Tran_NamF": "Hameza",
-      "Tran_NamL": "Musid",
-      "Tran_Zip4": "94080",
-      "election_name": "oakland-2024"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Not employed",
-      "Tran_Occ": "Not employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2024-09-13",
-      "Tran_NamF": "Sheila",
-      "Tran_NamL": "Bell",
-      "Tran_Zip4": "95401",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -4413,19 +4398,19 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "CVS Health",
-      "Tran_Occ": "Customer Service Rep",
+      "Tran_Emp": "Not employed",
+      "Tran_Occ": "Not employed",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 250.0,
-      "Tran_Date": "2024-09-18",
-      "Tran_NamF": "Cire",
-      "Tran_NamL": "Barriere",
-      "Tran_Zip4": "89142",
-      "election_name": "oakland-2020"
+      "Tran_Date": "2024-09-13",
+      "Tran_NamF": "Sheila",
+      "Tran_NamL": "Bell",
+      "Tran_Zip4": "95401",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -4441,6 +4426,21 @@
       "Tran_NamL": "Barriere",
       "Tran_Zip4": "89142",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "CVS Health",
+      "Tran_Occ": "Customer Service Rep",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-09-18",
+      "Tran_NamF": "Cire",
+      "Tran_NamL": "Barriere",
+      "Tran_Zip4": "89142",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -4473,21 +4473,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2024-09-19",
-      "Tran_NamF": null,
-      "Tran_NamL": "Alameda Labor Council",
-      "Tran_Zip4": "94607",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4501,6 +4486,21 @@
       "Tran_NamL": "Alameda Labor Council",
       "Tran_Zip4": "94607",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-09-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Alameda Labor Council",
+      "Tran_Zip4": "94607",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -4593,21 +4593,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Consultant",
-      "Tran_Occ": "ONGB",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2024-09-22",
-      "Tran_NamF": "Nyeisha",
-      "Tran_NamL": "DeWitt",
-      "Tran_Zip4": "94607-3117",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4621,6 +4606,21 @@
       "Tran_NamL": "DeWitt",
       "Tran_Zip4": "94607-3117",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Consultant",
+      "Tran_Occ": "ONGB",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-09-22",
+      "Tran_NamF": "Nyeisha",
+      "Tran_NamL": "DeWitt",
+      "Tran_Zip4": "94607-3117",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -4653,21 +4653,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Fresno United",
-      "Tran_Occ": "Educator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-09-27",
-      "Tran_NamF": "Eva",
-      "Tran_NamL": "Ruiz",
-      "Tran_Zip4": "93725",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -4687,14 +4672,14 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "HUSD",
-      "Tran_Occ": "Teacher",
+      "Tran_Emp": "Fresno United",
+      "Tran_Occ": "Educator",
       "Entity_Cd": "Individual",
       "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-09-28",
-      "Tran_NamF": "Yurii",
-      "Tran_NamL": "Camacho",
-      "Tran_Zip4": "92243",
+      "Tran_Date": "2024-09-27",
+      "Tran_NamF": "Eva",
+      "Tran_NamL": "Ruiz",
+      "Tran_Zip4": "93725",
       "election_name": "oakland-2020"
     },
     {
@@ -4711,6 +4696,21 @@
       "Tran_NamL": "Camacho",
       "Tran_Zip4": "92243",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "HUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-09-28",
+      "Tran_NamF": "Yurii",
+      "Tran_NamL": "Camacho",
+      "Tran_Zip4": "92243",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2024-11-05",
@@ -4743,21 +4743,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2024-10-07",
-      "Tran_NamF": null,
-      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595",
-      "Tran_Zip4": "95814",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4773,8 +4758,8 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
       "Tran_Emp": null,
@@ -4783,9 +4768,9 @@
       "Tran_Amt1": 1000.0,
       "Tran_Date": "2024-10-07",
       "Tran_NamF": null,
-      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee",
-      "Tran_Zip4": "95815",
-      "election_name": "oakland-2020"
+      "Tran_NamL": "International Brotherhood of Electrical Workers Local 595",
+      "Tran_Zip4": "95814",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -4801,6 +4786,21 @@
       "Tran_NamL": "National Union of Healthcare Workers Candidate Committee",
       "Tran_Zip4": "95815",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2024-10-07",
+      "Tran_NamF": null,
+      "Tran_NamL": "National Union of Healthcare Workers Candidate Committee",
+      "Tran_Zip4": "95815",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -4923,21 +4923,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Oakland USD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-10-09",
-      "Tran_NamF": "Carrie",
-      "Tran_NamL": "Anderson",
-      "Tran_Zip4": "94602",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -4951,6 +4936,21 @@
       "Tran_NamL": "Anderson",
       "Tran_Zip4": "94602",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Oakland USD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-09",
+      "Tran_NamF": "Carrie",
+      "Tran_NamL": "Anderson",
+      "Tran_Zip4": "94602",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -5013,21 +5013,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": "1332115",
-      "Filer_ID": "1427826",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 1200.0,
-      "Tran_Date": "2024-10-11",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Committee sponsored by Center of Empowered Politics",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1332115",
@@ -5041,6 +5026,21 @@
       "Tran_NamL": "Oakland Rising Committee sponsored by Center of Empowered Politics",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": "1332115",
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-10-11",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Committee sponsored by Center of Empowered Politics",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -5193,21 +5193,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "UCSF",
-      "Tran_Occ": "Student",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-10-14",
-      "Tran_NamF": "Rosalie",
-      "Tran_NamL": "Winslow",
-      "Tran_Zip4": "11238",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -5221,6 +5206,21 @@
       "Tran_NamL": "Winslow",
       "Tran_Zip4": "11238",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "UCSF",
+      "Tran_Occ": "Student",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-14",
+      "Tran_NamF": "Rosalie",
+      "Tran_NamL": "Winslow",
+      "Tran_Zip4": "11238",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -5283,21 +5283,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Consultant",
-      "Tran_Occ": "ONGB",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2024-10-19",
-      "Tran_NamF": "Nyeisha",
-      "Tran_NamL": "DeWitt",
-      "Tran_Zip4": "94607-3117",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -5317,14 +5302,14 @@
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "San Francisco Unified School District",
-      "Tran_Occ": "Teacher",
+      "Tran_Emp": "Consultant",
+      "Tran_Occ": "ONGB",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
+      "Tran_Amt1": 250.0,
       "Tran_Date": "2024-10-19",
-      "Tran_NamF": "Betty",
-      "Tran_NamL": "Robinson-Harris",
-      "Tran_Zip4": "94606",
+      "Tran_NamF": "Nyeisha",
+      "Tran_NamL": "DeWitt",
+      "Tran_Zip4": "94607-3117",
       "election_name": "oakland-2024"
     },
     {
@@ -5341,6 +5326,21 @@
       "Tran_NamL": "Robinson-Harris",
       "Tran_Zip4": "94606",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "San Francisco Unified School District",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": "Betty",
+      "Tran_NamL": "Robinson-Harris",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -5373,21 +5373,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "LAUSD",
-      "Tran_Occ": "Educator",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-10-19",
-      "Tran_NamF": "Denisha",
-      "Tran_NamL": "Wilson",
-      "Tran_Zip4": "91307",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -5401,6 +5386,21 @@
       "Tran_NamL": "Wilson",
       "Tran_Zip4": "91307",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "LAUSD",
+      "Tran_Occ": "Educator",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-19",
+      "Tran_NamF": "Denisha",
+      "Tran_NamL": "Wilson",
+      "Tran_Zip4": "91307",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -5433,21 +5433,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Brea Olinda USD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-10-20",
-      "Tran_NamF": "Joe",
-      "Tran_NamL": "Bartell",
-      "Tran_Zip4": "91709",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -5461,6 +5446,21 @@
       "Tran_NamL": "Bartell",
       "Tran_Zip4": "91709",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Brea Olinda USD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-10-20",
+      "Tran_NamF": "Joe",
+      "Tran_NamL": "Bartell",
+      "Tran_Zip4": "91709",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -5583,21 +5583,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1427826",
-      "Filer_ID": "1427826",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 1200.0,
-      "Tran_Date": "2024-10-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "Peralta Federation of Teachers Cope Account",
-      "Tran_Zip4": "94606",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": "1427826",
@@ -5611,6 +5596,21 @@
       "Tran_NamL": "Peralta Federation of Teachers Cope Account",
       "Tran_Zip4": "94606",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1427826",
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1200.0,
+      "Tran_Date": "2024-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Peralta Federation of Teachers Cope Account",
+      "Tran_Zip4": "94606",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -5763,21 +5763,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "LAUSD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 600.0,
-      "Tran_Date": "2024-11-04",
-      "Tran_NamF": "Cecily",
-      "Tran_NamL": "Myart-Cruz",
-      "Tran_Zip4": "90301",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -5797,14 +5782,14 @@
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
       "Filer_ID": "1427826",
-      "Tran_Emp": "Not employed",
-      "Tran_Occ": "Not employed",
+      "Tran_Emp": "LAUSD",
+      "Tran_Occ": "Teacher",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2024-11-05",
-      "Tran_NamF": "Sergio",
-      "Tran_NamL": "Martinez",
-      "Tran_Zip4": "90650",
+      "Tran_Amt1": 600.0,
+      "Tran_Date": "2024-11-04",
+      "Tran_NamF": "Cecily",
+      "Tran_NamL": "Myart-Cruz",
+      "Tran_Zip4": "90301",
       "election_name": "oakland-2020"
     },
     {
@@ -5821,6 +5806,21 @@
       "Tran_NamL": "Martinez",
       "Tran_Zip4": "90650",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Not employed",
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2024-11-05",
+      "Tran_NamF": "Sergio",
+      "Tran_NamL": "Martinez",
+      "Tran_Zip4": "90650",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -5913,21 +5913,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": "Pending",
-      "Filer_ID": "1427826",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": null,
-      "Tran_Amt1": 250.0,
-      "Tran_Date": "2024-11-19",
-      "Tran_NamF": null,
-      "Tran_NamL": "Manteca Educators Association PAC",
-      "Tran_Zip4": "95336-5067",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "Pending",
@@ -5941,6 +5926,21 @@
       "Tran_NamL": "Manteca Educators Association PAC",
       "Tran_Zip4": "95336-5067",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": "Pending",
+      "Filer_ID": "1427826",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": null,
+      "Tran_Amt1": 250.0,
+      "Tran_Date": "2024-11-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Manteca Educators Association PAC",
+      "Tran_Zip4": "95336-5067",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2024-11-05",
@@ -5973,21 +5973,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "Not Employed",
-      "Tran_Occ": "Not Employed",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 300.0,
-      "Tran_Date": "2024-12-11",
-      "Tran_NamF": "Emily",
-      "Tran_NamL": "Filloy",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -6001,6 +5986,21 @@
       "Tran_NamL": "Filloy",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 300.0,
+      "Tran_Date": "2024-12-11",
+      "Tran_NamF": "Emily",
+      "Tran_NamL": "Filloy",
+      "Tran_Zip4": "94618",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2020-11-03",
@@ -6063,21 +6063,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "SFUSD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 118.13,
-      "Tran_Date": "2025-03-12",
-      "Tran_NamF": "VanCedric",
-      "Tran_NamL": "Williams",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -6091,6 +6076,21 @@
       "Tran_NamL": "Williams",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "SFUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 118.13,
+      "Tran_Date": "2025-03-12",
+      "Tran_NamF": "VanCedric",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2020-11-03",
@@ -6123,21 +6123,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "SFUSD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 160.0,
-      "Tran_Date": "2025-04-07",
-      "Tran_NamF": "VanCedric",
-      "Tran_NamL": "Williams",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2020-11-03",
       "title": "Oakland November 3rd, 2020 General Election",
       "Cmte_ID": null,
@@ -6151,6 +6136,21 @@
       "Tran_NamL": "Williams",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2020"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "SFUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 160.0,
+      "Tran_Date": "2025-04-07",
+      "Tran_NamF": "VanCedric",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -6183,21 +6183,6 @@
       "election_name": "oakland-2020"
     },
     {
-      "date": "2020-11-03",
-      "title": "Oakland November 3rd, 2020 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1427826",
-      "Tran_Emp": "SFUSD",
-      "Tran_Occ": "Teacher",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 60.0,
-      "Tran_Date": "2025-05-07",
-      "Tran_NamF": "VanCedric",
-      "Tran_NamL": "Williams",
-      "Tran_Zip4": "94611",
-      "election_name": "oakland-2020"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -6211,6 +6196,21 @@
       "Tran_NamL": "Williams",
       "Tran_Zip4": "94611",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2020-11-03",
+      "title": "Oakland November 3rd, 2020 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1427826",
+      "Tran_Emp": "SFUSD",
+      "Tran_Occ": "Teacher",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 60.0,
+      "Tran_Date": "2025-05-07",
+      "Tran_NamF": "VanCedric",
+      "Tran_NamL": "Williams",
+      "Tran_Zip4": "94611",
+      "election_name": "oakland-2020"
     },
     {
       "date": "2024-11-05",

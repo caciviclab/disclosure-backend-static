@@ -25,9 +25,15 @@
     "total_contributions": 133097.11,
     "total_expenditures": 55878.65,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 0.0,
+    "total_supporting_independent": 1285.0,
     "support_list": [
-
+      {
+        "Total": 1285.0,
+        "Cand_ID": 1482492,
+        "Filer_ID": "1466279",
+        "Filer_NamL": "Empower Oakland Committee",
+        "election_name": "oakland-2026"
+      }
     ],
     "contributions_by_type": {
       "Committee": 12750.0,
@@ -323,7 +329,9 @@
       "DIGITAL ADS": 70000.0,
       "TEXT MESSAGES": 2950.0,
       "PRODUCTION FOR DIGITAL ADS": 8823.0,
-      "Independent Expenditure Supporting/Opposing Others": 2672.15
+      "Independent Expenditure Supporting/Opposing Others": 2672.15,
+      "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
+      "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     }
   },
   "opposing_money": {

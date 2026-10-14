@@ -25,10 +25,10 @@
     "total_contributions": 13955.65,
     "total_expenditures": 1682.22,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 7959.86,
+    "total_supporting_independent": 23106.86,
     "support_list": [
       {
-        "Total": 7959.86,
+        "Total": 23106.86,
         "Cand_ID": 1492545,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee",
@@ -246,18 +246,22 @@
     "supporting_by_type": {
       "IKD": 117.17,
       "MON": 4400.0,
+      "Mailer": 9505.0,
       "Canvassing": 2236.0,
+      "Door Hangers": 5642.0,
       "Independent Expenditure Supporting/Opposing Others": 64962.69
     }
   },
   "opposing_money": {
-    "opposing_expenditures": 23439.0,
+    "opposing_expenditures": 24724.0,
     "opposing_by_type": {
-      "Mailer": 23439.0
+      "Mailer": 23439.0,
+      "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
+      "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     },
     "opposition_list": [
       {
-        "Total": 23439.0,
+        "Total": 24724.0,
         "Cand_ID": 1492545,
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",

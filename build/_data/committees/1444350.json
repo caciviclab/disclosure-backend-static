@@ -153,21 +153,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "1455486",
-      "Filer_ID": "1444350",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 2500.0,
-      "Tran_Date": "2022-09-06",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1455486",
@@ -181,6 +166,21 @@
       "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1455486",
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 2500.0,
+      "Tran_Date": "2022-09-06",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2022-11-08",
@@ -273,21 +273,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1455486",
-      "Filer_ID": "1444350",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 5872.64,
-      "Tran_Date": "2022-10-07",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1455486",
@@ -305,16 +290,16 @@
     {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
+      "Cmte_ID": "1455486",
       "Filer_ID": "1444350",
       "Tran_Emp": null,
       "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 25000.0,
-      "Tran_Date": "2022-10-17",
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 5872.64,
+      "Tran_Date": "2022-10-07",
       "Tran_NamF": null,
-      "Tran_NamL": "The San Francisco Foundation",
-      "Tran_Zip4": "94111",
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
     },
     {
@@ -331,6 +316,21 @@
       "Tran_NamL": "The San Francisco Foundation",
       "Tran_Zip4": "94111",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2022-10-17",
+      "Tran_NamF": null,
+      "Tran_NamL": "The San Francisco Foundation",
+      "Tran_Zip4": "94111",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -363,21 +363,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "1455486",
-      "Filer_ID": "1444350",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 4816.36,
-      "Tran_Date": "2022-10-21",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1455486",
@@ -391,6 +376,21 @@
       "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1455486",
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 4816.36,
+      "Tran_Date": "2022-10-21",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2022-11-08",
@@ -483,21 +483,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2022-11-08",
-      "title": "Oakland November 8th, 2022 General Election",
-      "Cmte_ID": "1455486",
-      "Filer_ID": "1444350",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 1146.93,
-      "Tran_Date": "2022-10-28",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2022"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": "1455486",
@@ -511,6 +496,21 @@
       "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2022-11-08",
+      "title": "Oakland November 8th, 2022 General Election",
+      "Cmte_ID": "1455486",
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1146.93,
+      "Tran_Date": "2022-10-28",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2022"
     },
     {
       "date": "2024-11-05",
@@ -543,21 +543,6 @@
       "election_name": "oakland-2022"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": "1455486",
-      "Filer_ID": "1444350",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Committee",
-      "Tran_Amt1": 235.75,
-      "Tran_Date": "2022-11-18",
-      "Tran_NamF": null,
-      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
-      "Tran_Zip4": "94612",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2022-11-08",
       "title": "Oakland November 8th, 2022 General Election",
       "Cmte_ID": "1455486",
@@ -571,6 +556,21 @@
       "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
       "Tran_Zip4": "94612",
       "election_name": "oakland-2022"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": "1455486",
+      "Filer_ID": "1444350",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 235.75,
+      "Tran_Date": "2022-11-18",
+      "Tran_NamF": null,
+      "Tran_NamL": "Oakland Rising Ballot Committee, Supporting Measures T & W",
+      "Tran_Zip4": "94612",
+      "election_name": "oakland-2024"
     }
   ],
   "contributions_by_election": [

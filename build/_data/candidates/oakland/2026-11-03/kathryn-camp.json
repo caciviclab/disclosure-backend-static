@@ -25,10 +25,10 @@
     "total_contributions": 34070.0,
     "total_expenditures": 26008.84,
     "total_loans_received": 4000.0,
-    "total_supporting_independent": 4359.0,
+    "total_supporting_independent": 5644.0,
     "support_list": [
       {
-        "Total": 4359.0,
+        "Total": 5644.0,
         "Cand_ID": 1490067,
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",
@@ -320,7 +320,9 @@
       "Information Technology Costs (Internet, E-mail)": 1684.0
     },
     "supporting_by_type": {
-      "Mailer": 4359.0
+      "Mailer": 4359.0,
+      "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
+      "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     }
   },
   "opposing_money": {
