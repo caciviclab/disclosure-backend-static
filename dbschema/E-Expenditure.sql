@@ -1,6 +1,6 @@
 CREATE TABLE "E-Expenditure" (
 	"Filer_ID" VARCHAR(9) NOT NULL, 
-	"Filer_NamL" VARCHAR NOT NULL,
+	"Filer_NamL" VARCHAR,
 	"Report_Num" VARCHAR(3) NOT NULL, 
 	"Committee_Type" VARCHAR(3) NOT NULL, 
 	"Rpt_Date" DATE NOT NULL, 
@@ -9,7 +9,7 @@ CREATE TABLE "E-Expenditure" (
 	"Elect_Date" DATE, 
 	"tblCover_Office_Cd" VARCHAR, 
 	"tblCover_Offic_Dscr" VARCHAR, 
-	"Rec_Type" VARCHAR(4) NOT NULL, 
+	"Rec_Type" VARCHAR(4), 
 	"Form_Type" VARCHAR(1) NOT NULL, 
 	"Tran_ID" VARCHAR NOT NULL, 
 	"Entity_Cd" VARCHAR(4), 

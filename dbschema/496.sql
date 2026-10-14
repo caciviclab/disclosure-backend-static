@@ -1,13 +1,13 @@
 CREATE TABLE "496" (
 	"Filer_ID" VARCHAR(9) NOT NULL, 
-	"Filer_NamL" VARCHAR NOT NULL, 
+	"Filer_NamL" VARCHAR, 
 	"Report_Num" VARCHAR(3) NOT NULL, 
 	"Committee_Type" VARCHAR(4), 
 	"Rpt_Date" DATE NOT NULL, 
 	"From_Date" DATE, 
 	"Thru_Date" DATE, 
 	"Elect_Date" DATE, 
-	"Rec_Type" VARCHAR(4) NOT NULL, 
+	"Rec_Type" VARCHAR(4), 
 	"Form_Type" VARCHAR(4) NOT NULL, 
 	"Tran_ID" VARCHAR NOT NULL, 
 	"Amount" FLOAT NOT NULL,
@@ -29,5 +29,5 @@ CREATE TABLE "496" (
 	"Juris_Cd" VARCHAR(4), 
 	"Juris_Dscr" VARCHAR, 
 	"Dist_No" VARCHAR(4), 
-	"Rpt_ID_Num" VARCHAR NOT NULL
+	"Rpt_ID_Num" VARCHAR
 );

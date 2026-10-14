@@ -19,7 +19,7 @@ def contributors_to_committee(name, id, election)
     {
       type: :contributor,
       contributor_name: contributor['Tran_NamF'] ?
-          (contributor['Tran_NamF'] + ' ' + contributor['Tran_NamL']).squish
+          (contributor['Tran_NamF'].to_s + ' ' + contributor['Tran_NamL'].to_s).squish
          : contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
       committee_name: name,
@@ -98,7 +98,7 @@ Candidate.includes(:election, :office_election).find_each do |candidate|
     {
       type: :contributor,
       contributor_name: contributor['Tran_NamF'] ?
-          (contributor['Tran_NamF'] + ' ' + contributor['Tran_NamL']).squish
+          (contributor['Tran_NamF'].to_s + ' ' + contributor['Tran_NamL'].to_s).squish
          : contributor['Tran_NamL'],
       amount: contributor['Tran_Amt1'],
       name: candidate['Candidate'],
