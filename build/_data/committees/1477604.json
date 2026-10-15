@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 127575.21,
+  "total_contributions": 127955.21,
   "contributions": [
     {
       "date": "2025-04-15",
@@ -6465,6 +6465,66 @@
       "Tran_NamF": "Jonathan",
       "Tran_NamL": "Wacks",
       "Tran_Zip4": "94606",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477604",
+      "Tran_Emp": "UCSF",
+      "Tran_Occ": "Registered Nurse",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2026-07-14",
+      "Tran_NamF": "Karmen",
+      "Tran_NamL": "Ng",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477604",
+      "Tran_Emp": "Not Employed",
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2026-07-15",
+      "Tran_NamF": "sukey",
+      "Tran_NamL": "Lilienthal",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2026-07-22",
+      "Tran_NamF": "Evelyn",
+      "Tran_NamL": "Lee",
+      "Tran_Zip4": "94610",
+      "election_name": "oakland-2025"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1477604",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not Employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 40.0,
+      "Tran_Date": "2026-08-22",
+      "Tran_NamF": "Evelyn",
+      "Tran_NamL": "Lee",
+      "Tran_Zip4": "94610",
       "election_name": "oakland-2025"
     }
   ]
