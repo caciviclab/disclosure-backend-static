@@ -1943,31 +1943,31 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 1440346.47,
+    "total_contributions": 1465346.47,
     "total_contributions_by_source": {
       "Out of State": 54318.69,
       "Within Oakland": 830872.05,
-      "Within California": 491964.72
+      "Within California": 516964.72
     },
     "contributions_by_type": {
       "Committee": 452783.94,
       "Individual": 849012.93,
       "Unitemized": 58591.01,
       "Self Funding": 3352.71,
-      "Other (includes Businesses)": 72005.88
+      "Other (includes Businesses)": 97005.88
     },
     "most_expensive_races": [
+      {
+        "slug": "charter-amendment-measure",
+        "type": "referendum",
+        "title": "Measure EE",
+        "amount": 400000.0
+      },
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
         "amount": 389886.49
-      },
-      {
-        "slug": "charter-amendment-measure",
-        "type": "referendum",
-        "title": "Measure EE",
-        "amount": 375000.0
       },
       {
         "slug": "city-council-district-2",

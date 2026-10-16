@@ -5,7 +5,7 @@ filer_id: '1490067'
 is_accepted_expenditure_ceiling: true
 is_incumbent: false
 name: Kathryn Camp
-occupation: ublic Policy Professional
+occupation: Public Policy Professional
 photo_url: Kathryn-Camp
 website_url: https://www.kathryncamp.com/
 ---

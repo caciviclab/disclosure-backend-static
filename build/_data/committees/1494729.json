@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 375000.0,
+  "total_contributions": 400000.0,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -106,6 +106,21 @@
       "Tran_NamL": "California Alliance for Jobs - Rebuild California Comittee",
       "Tran_Zip4": "95814",
       "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1494729",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2026-10-14",
+      "Tran_NamF": null,
+      "Tran_NamL": "Sutter Health",
+      "Tran_Zip4": "95833",
+      "election_name": "oakland-2026"
     }
   ],
   "contributions_by_election": [
@@ -113,7 +128,7 @@
       "2026-11-03",
       [
         "Oakland November 3rd, 2026 General Election",
-        375000.0
+        400000.0
       ]
     ]
   ],
