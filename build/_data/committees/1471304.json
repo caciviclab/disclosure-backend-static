@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 270900.0,
+  "total_contributions": 268900.0,
   "contributions": [
     {
       "date": "2024-11-05",
@@ -123,6 +123,21 @@
       "election_name": "oakland-2024"
     },
     {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Jacqueline Caldwell",
+      "Tran_Occ": "Contractor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 50.0,
+      "Tran_Date": "2025-01-15",
+      "Tran_NamF": "Jacqueline",
+      "Tran_NamL": "Caldwell",
+      "Tran_Zip4": "94608",
+      "election_name": "oakland-2025"
+    },
+    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -153,21 +168,6 @@
       "election_name": "oakland-2025"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Jacqueline Caldwell",
-      "Tran_Occ": "Contractor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 50.0,
-      "Tran_Date": "2025-01-15",
-      "Tran_NamF": "Jacqueline",
-      "Tran_NamL": "Caldwell",
-      "Tran_Zip4": "94608",
-      "election_name": "oakland-2025"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -180,6 +180,21 @@
       "Tran_NamF": "Jacqueline",
       "Tran_NamL": "Caldwell",
       "Tran_Zip4": "94608",
+      "election_name": "oakland-2024"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Stephen Barnett Lewis",
+      "Tran_Occ": "Doctor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-01-21",
+      "Tran_NamF": "Stephen Barnett",
+      "Tran_NamL": "Lewis",
+      "Tran_Zip4": "94618",
       "election_name": "oakland-2024"
     },
     {
@@ -196,21 +211,6 @@
       "Tran_NamL": "Lewis",
       "Tran_Zip4": "94618",
       "election_name": "oakland-2025"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Stephen Barnett Lewis",
-      "Tran_Occ": "Doctor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2025-01-21",
-      "Tran_NamF": "Stephen Barnett",
-      "Tran_NamL": "Lewis",
-      "Tran_Zip4": "94618",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -303,21 +303,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": null,
-      "Tran_Occ": null,
-      "Entity_Cd": "Other (includes Businesses)",
-      "Tran_Amt1": 5000.0,
-      "Tran_Date": "2025-01-29",
-      "Tran_NamF": null,
-      "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2025"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -343,7 +328,7 @@
       "Tran_Amt1": 5000.0,
       "Tran_Date": "2025-01-29",
       "Tran_NamF": null,
-      "Tran_NamL": "Scott's Jack London Seafood Inc.",
+      "Tran_NamL": "Factor Avenue LLC(Raymond Gallagher)",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2025"
     },
@@ -363,19 +348,19 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1471304",
-      "Tran_Emp": "University Of California",
-      "Tran_Occ": "Professor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 100.0,
-      "Tran_Date": "2025-03-21",
-      "Tran_NamF": "Dan",
-      "Tran_NamL": "Lindheim",
-      "Tran_Zip4": "94705",
-      "election_name": "oakland-2024"
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Other (includes Businesses)",
+      "Tran_Amt1": 5000.0,
+      "Tran_Date": "2025-01-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Scott's Jack London Seafood Inc.",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2025"
     },
     {
       "date": "2025-04-15",
@@ -391,6 +376,21 @@
       "Tran_NamL": "Lindheim",
       "Tran_Zip4": "94705",
       "election_name": "oakland-2025"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "University Of California",
+      "Tran_Occ": "Professor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 100.0,
+      "Tran_Date": "2025-03-21",
+      "Tran_NamF": "Dan",
+      "Tran_NamL": "Lindheim",
+      "Tran_Zip4": "94705",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -483,21 +483,6 @@
       "election_name": "oakland-2024"
     },
     {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Anchor",
-      "Tran_Occ": "Medical Doctor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2025-09-02",
-      "Tran_NamF": "Harold",
-      "Tran_NamL": "Orr",
-      "Tran_Zip4": "94605",
-      "election_name": "oakland-2024"
-    },
-    {
       "date": "2025-04-15",
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
@@ -511,6 +496,21 @@
       "Tran_NamL": "Orr",
       "Tran_Zip4": "94605",
       "election_name": "oakland-2025"
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Oakland November 5th, 2024 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Anchor",
+      "Tran_Occ": "Medical Doctor",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2025-09-02",
+      "Tran_NamF": "Harold",
+      "Tran_NamL": "Orr",
+      "Tran_Zip4": "94605",
+      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -547,30 +547,15 @@
       "title": "Oakland April 15, 2025 Special Election",
       "Cmte_ID": null,
       "Filer_ID": "1471304",
-      "Tran_Emp": "Anchor",
-      "Tran_Occ": "Medical Doctor",
+      "Tran_Emp": "Scott's Seafood Grill & Bar",
+      "Tran_Occ": "Owner",
       "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2026-09-03",
-      "Tran_NamF": "Harold",
-      "Tran_NamL": "Orr",
-      "Tran_Zip4": "94605",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2026-10-01",
+      "Tran_NamF": "Raymond",
+      "Tran_NamL": "Gallagher",
+      "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2025"
-    },
-    {
-      "date": "2024-11-05",
-      "title": "Oakland November 5th, 2024 General Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Anchor",
-      "Tran_Occ": "Medical Doctor",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 1000.0,
-      "Tran_Date": "2026-09-03",
-      "Tran_NamF": "Harold",
-      "Tran_NamL": "Orr",
-      "Tran_Zip4": "94605",
-      "election_name": "oakland-2024"
     },
     {
       "date": "2024-11-05",
@@ -586,21 +571,6 @@
       "Tran_NamL": "Gallagher",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2024"
-    },
-    {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Scott's Seafood Grill & Bar",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 20000.0,
-      "Tran_Date": "2026-10-01",
-      "Tran_NamF": "Raymond",
-      "Tran_NamL": "Gallagher",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": [
@@ -608,14 +578,14 @@
       "2025-04-15",
       [
         "Oakland April 15, 2025 Special Election",
-        99500.0
+        98500.0
       ]
     ],
     [
       "2024-11-05",
       [
         "Oakland November 5th, 2024 General Election",
-        171400.0
+        170400.0
       ]
     ]
   ],
@@ -627,8 +597,8 @@
     },
     {
       "name": "Anchor",
-      "count": 4,
-      "total": 4000.0
+      "count": 2,
+      "total": 2000.0
     },
     {
       "name": "Montezuma Wetlands",
@@ -674,8 +644,8 @@
     },
     {
       "name": "Medical Doctor",
-      "count": 4,
-      "total": 4000.0
+      "count": 2,
+      "total": 2000.0
     },
     {
       "name": "Engineer",
