@@ -1,15 +1,15 @@
 {
-  "total_contributions": 1475346.47,
+  "total_contributions": 1483726.47,
   "total_contributions_by_source": {
-    "Out of State": 54318.69,
-    "Within Oakland": 830872.05,
-    "Within California": 526964.72
+    "Out of State": 55318.69,
+    "Within Oakland": 838072.05,
+    "Within California": 527064.72
   },
   "contributions_by_type": {
     "Committee": 452783.94,
-    "Individual": 849012.93,
-    "Unitemized": 58591.01,
-    "Self Funding": 3352.71,
+    "Individual": 850812.93,
+    "Unitemized": 58771.01,
+    "Self Funding": 9852.71,
     "Other (includes Businesses)": 107005.88
   },
   "most_expensive_races": [
@@ -23,7 +23,7 @@
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
-      "amount": 389886.49
+      "amount": 396386.49
     },
     {
       "slug": "city-council-district-2",
@@ -94,6 +94,12 @@
   ],
   "top_contributors_for_offices": [
     {
+      "name": "Julius Robinson",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_contributions": 6500.0
+    },
+    {
       "name": "Building and Construction Trades Council of Alameda County PAC",
       "type": "Office",
       "election_name": "oakland-2026",
@@ -104,12 +110,6 @@
       "type": "Office",
       "election_name": "oakland-2026",
       "total_contributions": 5100.0
-    },
-    {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
-      "type": "Office",
-      "election_name": "oakland-2026",
-      "total_contributions": 4900.0
     }
   ],
   "top_contributors_for_measures": [
@@ -154,6 +154,12 @@
   ],
   "top_spenders_for_offices": [
     {
+      "name": "Julius Robinson",
+      "type": "Office",
+      "election_name": "oakland-2026",
+      "total_spending": 6500.0
+    },
+    {
       "name": "Building and Construction Trades Council of Alameda County PAC",
       "type": "Office",
       "election_name": "oakland-2026",
@@ -164,12 +170,6 @@
       "type": "Office",
       "election_name": "oakland-2026",
       "total_spending": 5100.0
-    },
-    {
-      "name": "Sheet Metal Workers Local Union 104 PAC",
-      "type": "Office",
-      "election_name": "oakland-2026",
-      "total_spending": 4900.0
     }
   ],
   "top_spenders_for_measures": [
