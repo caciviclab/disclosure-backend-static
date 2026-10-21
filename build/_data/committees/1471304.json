@@ -543,21 +543,6 @@
       "election_name": "oakland-2025"
     },
     {
-      "date": "2025-04-15",
-      "title": "Oakland April 15, 2025 Special Election",
-      "Cmte_ID": null,
-      "Filer_ID": "1471304",
-      "Tran_Emp": "Scott's Seafood Grill & Bar",
-      "Tran_Occ": "Owner",
-      "Entity_Cd": "Individual",
-      "Tran_Amt1": 20000.0,
-      "Tran_Date": "2026-10-01",
-      "Tran_NamF": "Raymond",
-      "Tran_NamL": "Gallagher",
-      "Tran_Zip4": "94597-3957",
-      "election_name": "oakland-2025"
-    },
-    {
       "date": "2024-11-05",
       "title": "Oakland November 5th, 2024 General Election",
       "Cmte_ID": null,
@@ -571,6 +556,21 @@
       "Tran_NamL": "Gallagher",
       "Tran_Zip4": "94597-3957",
       "election_name": "oakland-2024"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "Oakland April 15, 2025 Special Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1471304",
+      "Tran_Emp": "Scott's Seafood Grill & Bar",
+      "Tran_Occ": "Owner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 20000.0,
+      "Tran_Date": "2026-10-01",
+      "Tran_NamF": "Raymond",
+      "Tran_NamL": "Gallagher",
+      "Tran_Zip4": "94597-3957",
+      "election_name": "oakland-2025"
     }
   ],
   "contributions_by_election": [

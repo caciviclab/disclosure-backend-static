@@ -1,6 +1,6 @@
 {
   "iec": true,
-  "total_contributions": 410000.0,
+  "total_contributions": 435000.0,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -136,6 +136,21 @@
       "Tran_NamL": "Delta Dental Of California",
       "Tran_Zip4": "945909",
       "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "1470222",
+      "Filer_ID": "1494729",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 25000.0,
+      "Tran_Date": "2026-10-19",
+      "Tran_NamF": null,
+      "Tran_NamL": "Revitalize East Bay Committee, The Oakland Chapter of the Abundance Network",
+      "Tran_Zip4": "94901",
+      "election_name": "oakland-2026"
     }
   ],
   "contributions_by_election": [
@@ -143,7 +158,7 @@
       "2026-11-03",
       [
         "Oakland November 3rd, 2026 General Election",
-        410000.0
+        435000.0
       ]
     ]
   ],

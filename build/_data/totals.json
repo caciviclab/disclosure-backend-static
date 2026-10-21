@@ -1943,16 +1943,16 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 1483726.47,
+    "total_contributions": 1512441.47,
     "total_contributions_by_source": {
       "Out of State": 55318.69,
-      "Within Oakland": 838072.05,
-      "Within California": 527064.72
+      "Within Oakland": 838822.05,
+      "Within California": 554464.72
     },
     "contributions_by_type": {
-      "Committee": 452783.94,
-      "Individual": 850812.93,
-      "Unitemized": 58771.01,
+      "Committee": 477783.94,
+      "Individual": 853962.93,
+      "Unitemized": 59336.01,
       "Self Funding": 9852.71,
       "Other (includes Businesses)": 107005.88
     },
@@ -1961,13 +1961,13 @@
         "slug": "charter-amendment-measure",
         "type": "referendum",
         "title": "Measure EE",
-        "amount": 410000.0
+        "amount": 435000.0
       },
       {
         "slug": "mayor",
         "type": "office",
         "title": "Mayor",
-        "amount": 396386.49
+        "amount": 400101.49
       },
       {
         "slug": "city-council-district-2",
@@ -2006,7 +2006,7 @@
       {
         "name": "Empower Oakland Committee",
         "election_name": "oakland-2026",
-        "total_spending": 65360.0
+        "total_spending": 92690.0
       },
       {
         "name": "Oakland Education Association Political Action Committee",

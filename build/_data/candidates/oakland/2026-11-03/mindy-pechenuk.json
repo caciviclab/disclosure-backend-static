@@ -21,22 +21,22 @@
   "is_winner": null,
   "filer_id": 1480943,
   "supporting_money": {
-    "contributions_received": 25091.67,
-    "total_contributions": 25091.67,
-    "total_expenditures": 21333.19,
+    "contributions_received": 28806.67,
+    "total_contributions": 28806.67,
+    "total_expenditures": 29123.17,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 22206.07,
-      "Unitemized": 2885.6
+      "Individual": 25356.07,
+      "Unitemized": 3450.6
     },
     "contributions_by_origin": {
       "Out of State": 2850.0,
-      "Within Oakland": 4345.03,
-      "Within California": 15011.04
+      "Within Oakland": 5095.03,
+      "Within California": 17411.04
     },
     "contributions_by_employer": [
       {
@@ -45,14 +45,19 @@
         "total": 958.65
       },
       {
+        "name": "Peninsula Land and Capital",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Property Management",
-        "count": 4,
-        "total": 650.0
+        "count": 5,
+        "total": 850.0
       },
       {
         "name": "Self-Employed",
-        "count": 5,
-        "total": 529.48
+        "count": 7,
+        "total": 829.48
       },
       {
         "name": "Golden Gate Capital Group",
@@ -63,6 +68,11 @@
         "name": "Little Goldfish Children Dentistry",
         "count": 1,
         "total": 500.0
+      },
+      {
+        "name": "Crane Strategics",
+        "count": 2,
+        "total": 300.0
       },
       {
         "name": "Exon Mobil Corp",
@@ -81,6 +91,11 @@
       },
       {
         "name": "Coachman",
+        "count": 2,
+        "total": 200.0
+      },
+      {
+        "name": "Davis & Co. Realtors",
         "count": 2,
         "total": 200.0
       },
@@ -120,16 +135,6 @@
         "total": 100.0
       },
       {
-        "name": "Crane Strategics",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Davis & Co. Realtors",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "INTEC Video Systems, Inc",
         "count": 1,
         "total": 100.0
@@ -143,8 +148,8 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 92,
-        "total": 16807.21
+        "count": 101,
+        "total": 18257.21
       },
       {
         "name": "Sales",
@@ -152,14 +157,24 @@
         "total": 1658.65
       },
       {
+        "name": "Private Equity Commercial Real Esate",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Evergreen Venture Group Inc",
-        "count": 4,
-        "total": 650.0
+        "count": 5,
+        "total": 850.0
       },
       {
         "name": "Dentist",
         "count": 1,
         "total": 500.0
+      },
+      {
+        "name": "Chief Executive Officer/President",
+        "count": 2,
+        "total": 300.0
       },
       {
         "name": "Process Chemist",
@@ -192,6 +207,16 @@
         "total": 200.0
       },
       {
+        "name": "construction contractor",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "leasing administrator",
+        "count": 2,
+        "total": 200.0
+      },
+      {
         "name": "Pilates Instructor",
         "count": 2,
         "total": 150.0
@@ -212,12 +237,12 @@
         "total": 100.0
       },
       {
-        "name": "Chief Executive Officer/President",
+        "name": "Chief Investment Officer",
         "count": 1,
         "total": 100.0
       },
       {
-        "name": "Chief Investment Officer",
+        "name": "Consultant",
         "count": 1,
         "total": 100.0
       },
@@ -245,22 +270,18 @@
         "name": "Real Estate",
         "count": 1,
         "total": 100.0
-      },
-      {
-        "name": "leasing administrator",
-        "count": 1,
-        "total": 100.0
       }
     ],
-    "total_small_contributions": 3998.75,
+    "total_small_contributions": 4713.75,
     "expenditures_by_type": {
-      "Not Stated": 6745.83,
+      "Not Stated": 9583.03,
       "Member Communications": 652.64,
-      "Meetings and Appearances": 3317.21,
-      "Campaign Paraphernalia/Misc.": 3529.6,
+      "Meetings and Appearances": 3820.76,
+      "Campaign Paraphernalia/Misc.": 5060.47,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 120.67,
-      "Information Technology Costs (Internet, E-mail)": 4225.93
+      "Postage, Delivery and Messenger Services": 402.35,
+      "Information Technology Costs (Internet, E-mail)": 6225.93
     },
     "supporting_by_type": {
     }
@@ -273,7 +294,7 @@
 
     ]
   },
-  "total_contributions": 25091.67,
-  "total_expenditures": 21333.19,
+  "total_contributions": 28806.67,
+  "total_expenditures": 29123.17,
   "total_loans_received": 0.0
 }
