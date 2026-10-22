@@ -1748,15 +1748,15 @@
     ]
   },
   "oakland-2025": {
-    "total_contributions": 1897014.91,
+    "total_contributions": 1897054.91,
     "total_contributions_by_source": {
       "Out of State": 111699.25,
-      "Within Oakland": 840133.82,
+      "Within Oakland": 840173.82,
       "Within California": 799757.64
     },
     "contributions_by_type": {
       "Committee": 496160.26,
-      "Individual": 1188923.68,
+      "Individual": 1188963.68,
       "Unitemized": 135424.2,
       "Self Funding": 13247.52,
       "Other (includes Businesses)": 53259.25
@@ -1778,7 +1778,7 @@
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 256926.56
+        "amount": 256966.56
       }
     ],
     "largest_small_proportion": [
@@ -1943,16 +1943,16 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 1512441.47,
+    "total_contributions": 1520321.78,
     "total_contributions_by_source": {
-      "Out of State": 55318.69,
-      "Within Oakland": 838822.05,
-      "Within California": 554464.72
+      "Out of State": 55643.69,
+      "Within Oakland": 841136.05,
+      "Within California": 557484.71
     },
     "contributions_by_type": {
       "Committee": 477783.94,
-      "Individual": 853962.93,
-      "Unitemized": 59336.01,
+      "Individual": 859621.92,
+      "Unitemized": 61557.33,
       "Self Funding": 9852.71,
       "Other (includes Businesses)": 107005.88
     },
@@ -1973,10 +1973,18 @@
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 176342.08
+        "amount": 184222.39
       }
     ],
     "largest_small_proportion": [
+      {
+        "slug": "nate-adams",
+        "type": "office",
+        "title": "Oakland November 3rd, 2026 General Election",
+        "candidate": "Nate Adams",
+        "proportion": 0.19,
+        "office_title": "City Council District 2"
+      },
       {
         "slug": "leana-powell",
         "type": "office",
@@ -1984,14 +1992,6 @@
         "candidate": "LeAna Powell",
         "proportion": 0.18,
         "office_title": "School Board District 6"
-      },
-      {
-        "slug": "nate-adams",
-        "type": "office",
-        "title": "Oakland November 3rd, 2026 General Election",
-        "candidate": "Nate Adams",
-        "proportion": 0.16,
-        "office_title": "City Council District 2"
       },
       {
         "slug": "mindy-pechenuk",
@@ -2006,7 +2006,7 @@
       {
         "name": "Empower Oakland Committee",
         "election_name": "oakland-2026",
-        "total_spending": 92690.0
+        "total_spending": 93836.0
       },
       {
         "name": "Oakland Education Association Political Action Committee",

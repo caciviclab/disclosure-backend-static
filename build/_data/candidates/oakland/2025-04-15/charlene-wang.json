@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1477604,
   "supporting_money": {
-    "contributions_received": 133014.93,
-    "total_contributions": 133014.93,
-    "total_expenditures": 130147.94,
+    "contributions_received": 133054.93,
+    "total_contributions": 133054.93,
+    "total_expenditures": 130149.65,
     "total_loans_received": 0.0,
     "total_supporting_independent": 25167.0,
     "support_list": [
@@ -37,14 +37,14 @@
     ],
     "contributions_by_type": {
       "Committee": 18300.0,
-      "Individual": 102826.96,
+      "Individual": 102866.96,
       "Unitemized": 5059.72,
       "Self Funding": 250.0,
       "Other (includes Businesses)": 6578.25
     },
     "contributions_by_origin": {
       "Out of State": 7797.25,
-      "Within Oakland": 70930.71,
+      "Within Oakland": 70970.71,
       "Within California": 49227.25
     },
     "contributions_by_employer": [
@@ -182,8 +182,8 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 157,
-        "total": 39642.6
+        "count": 158,
+        "total": 39682.6
       },
       {
         "name": "Attorney",
@@ -311,11 +311,11 @@
         "total": 22890.5
       }
     ],
-    "total_small_contributions": 5964.47,
+    "total_small_contributions": 6004.47,
     "expenditures_by_type": {
       "Phone Banks": 6302.08,
       "Contribution": 100.0,
-      "Office Expenses": 2933.9,
+      "Office Expenses": 2935.61,
       "Fundraising Events": 605.92,
       "Campaign Consultants": 20123.0,
       "Meetings and Appearances": 7000.0,
@@ -329,7 +329,7 @@
     },
     "supporting_by_type": {
       "MON": 600.0,
-      "MAILER": 36192.0,
+      "MAILER": 50167.0,
       "WEBSITE": 2000.0,
       "DIGITAL ADS": 70000.0,
       "TEXT MESSAGES": 2950.0,
@@ -354,7 +354,7 @@
       }
     ]
   },
-  "total_contributions": 133014.93,
-  "total_expenditures": 130147.94,
+  "total_contributions": 133054.93,
+  "total_expenditures": 130149.65,
   "total_loans_received": 0.0
 }

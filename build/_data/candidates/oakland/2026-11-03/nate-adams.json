@@ -21,22 +21,22 @@
   "is_winner": null,
   "filer_id": 1490172,
   "supporting_money": {
-    "contributions_received": 43244.97,
-    "total_contributions": 43244.97,
-    "total_expenditures": 26864.88,
+    "contributions_received": 51125.28,
+    "total_contributions": 51125.28,
+    "total_expenditures": 41253.1,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 37917.42,
-      "Unitemized": 5327.55
+      "Individual": 43576.41,
+      "Unitemized": 7548.87
     },
     "contributions_by_origin": {
-      "Out of State": 1760.0,
-      "Within Oakland": 18124.49,
-      "Within California": 18032.93
+      "Out of State": 2085.0,
+      "Within Oakland": 20438.49,
+      "Within California": 21052.92
     },
     "contributions_by_employer": [
       {
@@ -90,6 +90,16 @@
         "total": 900.0
       },
       {
+        "name": "Google",
+        "count": 1,
+        "total": 899.99
+      },
+      {
+        "name": "RRSC",
+        "count": 4,
+        "total": 850.0
+      },
+      {
         "name": "Ala Costa Centers",
         "count": 1,
         "total": 700.0
@@ -103,6 +113,11 @@
         "name": "Fair Housing",
         "count": 4,
         "total": 683.93
+      },
+      {
+        "name": "Arkin Tilt Architects",
+        "count": 6,
+        "total": 601.49
       },
       {
         "name": "Roblox",
@@ -125,9 +140,9 @@
         "total": 550.0
       },
       {
-        "name": "Arkin Tilt Architects",
-        "count": 5,
-        "total": 501.49
+        "name": "Metropolitan Transportation Commission",
+        "count": 2,
+        "total": 505.0
       },
       {
         "name": "Arkestro",
@@ -150,46 +165,36 @@
         "total": 500.0
       },
       {
-        "name": "Soff",
-        "count": 1,
-        "total": 500.0
-      },
-      {
-        "name": "314e Corporation",
-        "count": 2,
-        "total": 450.0
-      },
-      {
-        "name": "David Inman",
-        "count": 3,
-        "total": 450.0
-      },
-      {
         "name": "Other",
-        "count": 109,
-        "total": 11815.0
+        "count": 145,
+        "total": 16119.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 33,
-        "total": 8867.0
+        "count": 37,
+        "total": 9267.0
       },
       {
         "name": "Software Engineer",
-        "count": 11,
-        "total": 3460.0
+        "count": 13,
+        "total": 3810.0
       },
       {
         "name": "Engineer",
-        "count": 14,
-        "total": 2300.0
+        "count": 17,
+        "total": 2950.0
       },
       {
         "name": "Researcher",
         "count": 6,
         "total": 1430.0
+      },
+      {
+        "name": "software",
+        "count": 2,
+        "total": 959.99
       },
       {
         "name": "Engineering Manager",
@@ -233,8 +238,18 @@
       },
       {
         "name": "Organizer",
-        "count": 7,
-        "total": 760.0
+        "count": 9,
+        "total": 895.0
+      },
+      {
+        "name": "Plumber",
+        "count": 4,
+        "total": 850.0
+      },
+      {
+        "name": "Consultant",
+        "count": 10,
+        "total": 825.0
       },
       {
         "name": "Operations",
@@ -257,11 +272,6 @@
         "total": 650.0
       },
       {
-        "name": "Consultant",
-        "count": 7,
-        "total": 645.0
-      },
-      {
         "name": "Labor Relations Representative",
         "count": 2,
         "total": 550.0
@@ -270,6 +280,11 @@
         "name": "UX designer",
         "count": 4,
         "total": 550.0
+      },
+      {
+        "name": "Planner",
+        "count": 2,
+        "total": 505.0
       },
       {
         "name": "Candidate",
@@ -282,35 +297,20 @@
         "total": 500.0
       },
       {
-        "name": "AI Safety Researcher",
-        "count": 1,
-        "total": 450.0
-      },
-      {
-        "name": "Electrician",
-        "count": 1,
-        "total": 400.0
-      },
-      {
-        "name": "Administrative Assistant",
-        "count": 5,
-        "total": 360.0
-      },
-      {
         "name": "Other",
-        "count": 72,
-        "total": 7210.0
+        "count": 99,
+        "total": 10049.0
       }
     ],
-    "total_small_contributions": 7094.97,
+    "total_small_contributions": 9745.29,
     "expenditures_by_type": {
-      "Not Stated": 270.0,
+      "Not Stated": 762.78,
       "Fundraising Events": 273.06,
-      "Campaign Workers' Salaries": 17004.99,
-      "Campaign Paraphernalia/Misc.": 4745.65,
+      "Campaign Workers' Salaries": 23604.99,
+      "Campaign Paraphernalia/Misc.": 10193.16,
       "Candidate Filing/Ballot Fees": 1345.0,
-      "Postage, Delivery and Messenger Services": 250.11,
-      "Information Technology Costs (Internet, E-mail)": 2779.23
+      "Postage, Delivery and Messenger Services": 367.92,
+      "Information Technology Costs (Internet, E-mail)": 4509.35
     },
     "supporting_by_type": {
     }
@@ -323,7 +323,7 @@
 
     ]
   },
-  "total_contributions": 43244.97,
-  "total_expenditures": 26864.88,
+  "total_contributions": 51125.28,
+  "total_expenditures": 41253.1,
   "total_loans_received": 0.0
 }
