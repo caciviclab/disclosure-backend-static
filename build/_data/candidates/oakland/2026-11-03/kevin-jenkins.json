@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1481569,
   "supporting_money": {
-    "contributions_received": 153476.0,
-    "total_contributions": 153476.0,
-    "total_expenditures": 37236.76,
+    "contributions_received": 153776.0,
+    "total_contributions": 153776.0,
+    "total_expenditures": 46432.03,
     "total_loans_received": 0.0,
     "total_supporting_independent": 1285.0,
     "support_list": [
@@ -37,13 +37,13 @@
     ],
     "contributions_by_type": {
       "Committee": 33950.0,
-      "Individual": 86775.0,
+      "Individual": 87075.0,
       "Unitemized": 851.0,
       "Other (includes Businesses)": 31900.0
     },
     "contributions_by_origin": {
       "Out of State": 1800.0,
-      "Within Oakland": 81450.0,
+      "Within Oakland": 81750.0,
       "Within California": 69375.0
     },
     "contributions_by_employer": [
@@ -174,8 +174,8 @@
       },
       {
         "name": "Other",
-        "count": 87,
-        "total": 39525.0
+        "count": 90,
+        "total": 39825.0
       }
     ],
     "contributions_by_occupation": [
@@ -186,8 +186,8 @@
       },
       {
         "name": "Owner",
-        "count": 20,
-        "total": 9150.0
+        "count": 21,
+        "total": 9250.0
       },
       {
         "name": "Consultant",
@@ -216,8 +216,8 @@
       },
       {
         "name": "Pastor",
-        "count": 3,
-        "total": 2050.0
+        "count": 4,
+        "total": 2150.0
       },
       {
         "name": "developer",
@@ -240,6 +240,11 @@
         "total": 1300.0
       },
       {
+        "name": "Real Estate",
+        "count": 4,
+        "total": 1200.0
+      },
+      {
         "name": "Lecturer",
         "count": 2,
         "total": 1150.0
@@ -248,11 +253,6 @@
         "name": "Minister",
         "count": 2,
         "total": 1150.0
-      },
-      {
-        "name": "Real Estate",
-        "count": 3,
-        "total": 1100.0
       },
       {
         "name": "Business Owner and Longshoreman",
@@ -313,16 +313,17 @@
     "total_small_contributions": 951.0,
     "expenditures_by_type": {
       "Not Stated": 131.0,
+      "Contribution": 5400.0,
       "Civic Donations": 1000.0,
       "Office Expenses": 6109.86,
       "Fundraising Events": 2099.4,
-      "Member Communications": 393.0,
+      "Member Communications": 545.0,
       "Meetings and Appearances": 9175.28,
       "Campaign Paraphernalia/Misc.": 1089.04,
       "Candidate Filing/Ballot Fees": 1000.0,
       "Campaign Literature and Mailings": 12072.5,
       "Candidate Travel, Lodging, and Meals": 256.35,
-      "Professional Services (Legal, Accounting)": 2443.65,
+      "Professional Services (Legal, Accounting)": 2453.95,
       "Information Technology Costs (Internet, E-mail)": 106.9
     },
     "supporting_by_type": {
@@ -340,7 +341,7 @@
 
     ]
   },
-  "total_contributions": 153476.0,
-  "total_expenditures": 37236.76,
+  "total_contributions": 153776.0,
+  "total_expenditures": 46432.03,
   "total_loans_received": 0.0
 }

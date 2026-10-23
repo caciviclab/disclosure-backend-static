@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 7800.0,
+  "total_contributions": 8000.0,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -270,6 +270,21 @@
       "Tran_NamF": "Mary",
       "Tran_NamL": "Preston",
       "Tran_Zip4": "94112",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1490336",
+      "Tran_Emp": "Arapahoe County Co",
+      "Tran_Occ": "Commissioner",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 200.0,
+      "Tran_Date": "2026-10-11",
+      "Tran_NamF": "Leslie",
+      "Tran_NamL": "Summey",
+      "Tran_Zip4": "80231",
       "election_name": "oakland-2026"
     }
   ]

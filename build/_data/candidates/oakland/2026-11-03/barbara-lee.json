@@ -21,11 +21,11 @@
   "is_winner": null,
   "filer_id": 1480704,
   "supporting_money": {
-    "contributions_received": 352758.94,
-    "total_contributions": 352758.94,
-    "total_expenditures": 224006.81,
+    "contributions_received": 400766.94,
+    "total_contributions": 400766.94,
+    "total_expenditures": 300566.93,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 14435.0,
+    "total_supporting_independent": 19215.7,
     "support_list": [
       {
         "Total": 13150.0,
@@ -40,34 +40,46 @@
         "Filer_ID": "1466279",
         "Filer_NamL": "Empower Oakland Committee",
         "election_name": "oakland-2026"
+      },
+      {
+        "Total": 4780.7,
+        "Cand_ID": 1480704,
+        "Filer_ID": "1332115",
+        "Filer_NamL": "Oakland Rising Committee sponsored by Center for Empowered Politics",
+        "election_name": "oakland-2026"
       }
     ],
     "contributions_by_type": {
-      "Committee": 35583.94,
-      "Individual": 285654.0,
-      "Unitemized": 19221.0,
-      "Other (includes Businesses)": 12300.0
+      "Committee": 36733.94,
+      "Individual": 330134.0,
+      "Unitemized": 19799.0,
+      "Other (includes Businesses)": 14100.0
     },
     "contributions_by_origin": {
-      "Out of State": 25000.0,
-      "Within Oakland": 153276.94,
-      "Within California": 155261.0
+      "Out of State": 33555.0,
+      "Within Oakland": 176576.94,
+      "Within California": 170836.0
     },
     "contributions_by_employer": [
       {
         "name": "Kaiser Permanente",
-        "count": 14,
+        "count": 16,
         "total": 5050.0
+      },
+      {
+        "name": "UC San Francisco",
+        "count": 19,
+        "total": 3550.0
+      },
+      {
+        "name": "City of Oakland",
+        "count": 13,
+        "total": 2875.0
       },
       {
         "name": "Kazan McClain et al.",
         "count": 3,
         "total": 2700.0
-      },
-      {
-        "name": "UC San Francisco",
-        "count": 15,
-        "total": 2075.0
       },
       {
         "name": "Alameda County",
@@ -85,9 +97,9 @@
         "total": 1800.0
       },
       {
-        "name": "City of Oakland",
-        "count": 11,
-        "total": 1675.0
+        "name": "NID Housing Counseling Agency",
+        "count": 2,
+        "total": 1800.0
       },
       {
         "name": "Change Consulting",
@@ -100,8 +112,8 @@
         "total": 1500.0
       },
       {
-        "name": "Argent Materials Inc",
-        "count": 2,
+        "name": "Argent Materials",
+        "count": 5,
         "total": 1400.0
       },
       {
@@ -150,7 +162,17 @@
         "total": 900.0
       },
       {
+        "name": "AT&T",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "ActOne Group",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Addisu Demissie",
         "count": 1,
         "total": 900.0
       },
@@ -165,51 +187,36 @@
         "total": 900.0
       },
       {
-        "name": "Akonadi Foundation",
-        "count": 2,
-        "total": 900.0
-      },
-      {
-        "name": "Alamo Health Management LLC",
-        "count": 1,
-        "total": 900.0
-      },
-      {
-        "name": "Alana Ross",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 639,
-        "total": 152327.0
+        "count": 702,
+        "total": 177387.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 384,
-        "total": 96727.0
+        "count": 425,
+        "total": 112572.0
       },
       {
         "name": "Attorney",
-        "count": 57,
-        "total": 22500.0
+        "count": 61,
+        "total": 24850.0
       },
       {
         "name": "Consultant",
-        "count": 56,
-        "total": 12875.0
+        "count": 62,
+        "total": 15925.0
       },
       {
         "name": "Chief Executive Officer/President",
-        "count": 40,
-        "total": 11650.0
+        "count": 51,
+        "total": 14400.0
       },
       {
         "name": "Physician",
-        "count": 34,
-        "total": 10785.0
+        "count": 40,
+        "total": 12985.0
       },
       {
         "name": "Business Owner",
@@ -217,19 +224,19 @@
         "total": 6750.0
       },
       {
-        "name": "Real Estate",
-        "count": 15,
-        "total": 5150.0
+        "name": "Executive Director",
+        "count": 23,
+        "total": 5950.0
       },
       {
-        "name": "Executive Director",
-        "count": 21,
-        "total": 4950.0
+        "name": "Real Estate",
+        "count": 16,
+        "total": 5350.0
       },
       {
         "name": "Director",
-        "count": 27,
-        "total": 4675.0
+        "count": 28,
+        "total": 4975.0
       },
       {
         "name": "Founder",
@@ -238,8 +245,13 @@
       },
       {
         "name": "Manager",
-        "count": 8,
-        "total": 2925.0
+        "count": 9,
+        "total": 3825.0
+      },
+      {
+        "name": "Entrepreneur",
+        "count": 19,
+        "total": 2235.0
       },
       {
         "name": "Civil Engineer",
@@ -252,18 +264,23 @@
         "total": 2050.0
       },
       {
+        "name": "Psychologist",
+        "count": 4,
+        "total": 1950.0
+      },
+      {
         "name": "Investor",
         "count": 6,
         "total": 1925.0
       },
       {
-        "name": "Entrepreneur",
-        "count": 18,
-        "total": 1835.0
-      },
-      {
         "name": "Managing Member",
         "count": 6,
+        "total": 1800.0
+      },
+      {
+        "name": "Venture Capitalist",
+        "count": 2,
         "total": 1800.0
       },
       {
@@ -275,6 +292,16 @@
         "name": "Educator",
         "count": 4,
         "total": 1600.0
+      },
+      {
+        "name": "Professor",
+        "count": 6,
+        "total": 1600.0
+      },
+      {
+        "name": "Producer",
+        "count": 2,
+        "total": 1400.0
       },
       {
         "name": "Photographer",
@@ -292,52 +319,30 @@
         "total": 1250.0
       },
       {
-        "name": "Architect",
-        "count": 5,
-        "total": 1200.0
-      },
-      {
-        "name": "Accountant",
-        "count": 3,
-        "total": 1150.0
-      },
-      {
-        "name": "Executive",
-        "count": 4,
-        "total": 1150.0
-      },
-      {
-        "name": "Marketing",
-        "count": 2,
-        "total": 1150.0
-      },
-      {
         "name": "Other",
-        "count": 380,
-        "total": 81407.0
+        "count": 421,
+        "total": 94792.0
       }
     ],
-    "total_small_contributions": 26282.94,
+    "total_small_contributions": 27390.94,
     "expenditures_by_type": {
-      "Office Expenses": 11445.09,
-      "Fundraising Events": 37288.65,
-      "Campaign Consultants": 82083.33,
+      "Phone Banks": 4476.09,
+      "Office Expenses": 13596.46,
+      "Fundraising Events": 44703.65,
+      "Campaign Consultants": 99749.99,
       "Campaign Paraphernalia/Misc.": 5763.02,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 1058.07,
+      "Campaign Literature and Mailings": 5530.5,
       "Staff/Spouse Travel, Lodging, and Meals": 66.45,
       "Postage, Delivery and Messenger Services": 163.99,
-      "Professional Services (Legal, Accounting)": 14539.68,
-      "Information Technology Costs (Internet, E-mail)": 26900.92
+      "Professional Services (Legal, Accounting)": 16066.23,
+      "Information Technology Costs (Internet, E-mail)": 35657.15
     },
     "supporting_by_type": {
       "IKD": 650.0,
       "MON": 3100.0,
-      "Consulting": 6500.0,
-      "Digital Ads": 650.0,
-      "Newspaper Ad": 6000.0,
       "PHO $20,000.00": 20000.0,
-      "Independent Expenditure Supporting/Opposing Others": 201995.54,
+      "Independent Expenditure Supporting/Opposing Others": 219926.24,
       "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
       "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     }
@@ -351,7 +356,7 @@
 
     ]
   },
-  "total_contributions": 352758.94,
-  "total_expenditures": 224006.81,
+  "total_contributions": 400766.94,
+  "total_expenditures": 300566.93,
   "total_loans_received": 0.0
 }

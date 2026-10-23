@@ -764,16 +764,16 @@
     ]
   },
   "oakland-2022": {
-    "total_contributions": 8045872.54,
+    "total_contributions": 8045897.54,
     "total_contributions_by_source": {
       "Out of State": 552839.59,
-      "Within Oakland": 2936647.86,
+      "Within Oakland": 2936667.86,
       "Within California": 4389509.45
     },
     "contributions_by_type": {
       "Committee": 1720638.97,
-      "Individual": 2851862.39,
-      "Unitemized": 130869.9,
+      "Individual": 2851882.39,
+      "Unitemized": 130874.9,
       "Self Funding": 16387.78,
       "Other (includes Businesses)": 3290107.76
     },
@@ -1943,20 +1943,26 @@
     ]
   },
   "oakland-2026": {
-    "total_contributions": 1520321.78,
+    "total_contributions": 1623160.39,
     "total_contributions_by_source": {
-      "Out of State": 55643.69,
-      "Within Oakland": 841136.05,
-      "Within California": 557484.71
+      "Out of State": 67936.8,
+      "Within Oakland": 887875.05,
+      "Within California": 591049.71
     },
     "contributions_by_type": {
-      "Committee": 477783.94,
-      "Individual": 859621.92,
-      "Unitemized": 61557.33,
-      "Self Funding": 9852.71,
-      "Other (includes Businesses)": 107005.88
+      "Committee": 492083.94,
+      "Individual": 941159.03,
+      "Unitemized": 65298.83,
+      "Self Funding": 3352.71,
+      "Other (includes Businesses)": 110265.88
     },
     "most_expensive_races": [
+      {
+        "slug": "mayor",
+        "type": "office",
+        "title": "Mayor",
+        "amount": 453899.49
+      },
       {
         "slug": "charter-amendment-measure",
         "type": "referendum",
@@ -1964,16 +1970,10 @@
         "amount": 435000.0
       },
       {
-        "slug": "mayor",
-        "type": "office",
-        "title": "Mayor",
-        "amount": 400101.49
-      },
-      {
         "slug": "city-council-district-2",
         "type": "office",
         "title": "City Council District 2",
-        "amount": 184222.39
+        "amount": 195151.39
       }
     ],
     "largest_small_proportion": [
@@ -1986,20 +1986,20 @@
         "office_title": "City Council District 2"
       },
       {
-        "slug": "leana-powell",
-        "type": "office",
-        "title": "Oakland November 3rd, 2026 General Election",
-        "candidate": "LeAna Powell",
-        "proportion": 0.18,
-        "office_title": "School Board District 6"
-      },
-      {
         "slug": "mindy-pechenuk",
         "type": "office",
         "title": "Oakland November 3rd, 2026 General Election",
         "candidate": "Mindy Pechenuk",
         "proportion": 0.16,
         "office_title": "Mayor"
+      },
+      {
+        "slug": "leana-powell",
+        "type": "office",
+        "title": "Oakland November 3rd, 2026 General Election",
+        "candidate": "LeAna Powell",
+        "proportion": 0.15,
+        "office_title": "School Board District 6"
       }
     ],
     "largest_independent_expenditures": [
@@ -2011,7 +2011,7 @@
       {
         "name": "Oakland Education Association Political Action Committee",
         "election_name": "oakland-2026",
-        "total_spending": 51656.65
+        "total_spending": 51656.19
       },
       {
         "name": "Citizens For A Brighter Oakland Future - Barbara Lee for Mayor 2025",
@@ -2038,12 +2038,6 @@
     ],
     "top_contributors_for_offices": [
       {
-        "name": "Julius Robinson",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_contributions": 6500.0
-      },
-      {
         "name": "Building and Construction Trades Council of Alameda County PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2054,6 +2048,12 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_contributions": 5100.0
+      },
+      {
+        "name": "Sheet Metal Workers Local Union 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_contributions": 4900.0
       }
     ],
     "top_contributors_for_measures": [
@@ -2098,12 +2098,6 @@
     ],
     "top_spenders_for_offices": [
       {
-        "name": "Julius Robinson",
-        "type": "Office",
-        "election_name": "oakland-2026",
-        "total_spending": 6500.0
-      },
-      {
         "name": "Building and Construction Trades Council of Alameda County PAC",
         "type": "Office",
         "election_name": "oakland-2026",
@@ -2114,6 +2108,12 @@
         "type": "Office",
         "election_name": "oakland-2026",
         "total_spending": 5100.0
+      },
+      {
+        "name": "Sheet Metal Workers Local Union 104 PAC",
+        "type": "Office",
+        "election_name": "oakland-2026",
+        "total_spending": 4900.0
       }
     ],
     "top_spenders_for_measures": [

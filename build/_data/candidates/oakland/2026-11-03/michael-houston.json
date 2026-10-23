@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1490336,
   "supporting_money": {
-    "contributions_received": 7850.0,
-    "total_contributions": 7850.0,
-    "total_expenditures": 2753.27,
+    "contributions_received": 8050.0,
+    "total_contributions": 8050.0,
+    "total_expenditures": 3022.63,
     "total_loans_received": 0.0,
     "total_supporting_independent": 1285.0,
     "support_list": [
@@ -36,12 +36,12 @@
       }
     ],
     "contributions_by_type": {
-      "Individual": 5300.0,
+      "Individual": 5500.0,
       "Unitemized": 50.0,
       "Self Funding": 2500.0
     },
     "contributions_by_origin": {
-      "Out of State": 100.0,
+      "Out of State": 300.0,
       "Within Oakland": 3400.0,
       "Within California": 4300.0
     },
@@ -80,6 +80,11 @@
         "name": "City Of Berkeley",
         "count": 1,
         "total": 300.0
+      },
+      {
+        "name": "Arapahoe County Co",
+        "count": 1,
+        "total": 200.0
       },
       {
         "name": "Getinge",
@@ -154,6 +159,11 @@
         "total": 300.0
       },
       {
+        "name": "Commissioner",
+        "count": 1,
+        "total": 200.0
+      },
+      {
         "name": "Social Worker",
         "count": 1,
         "total": 200.0
@@ -192,8 +202,8 @@
     "total_small_contributions": 50.0,
     "expenditures_by_type": {
       "Not Stated": 1039.99,
-      "Office Expenses": 239.75,
-      "Professional Services (Legal, Accounting)": 949.53,
+      "Office Expenses": 249.25,
+      "Professional Services (Legal, Accounting)": 1209.39,
       "Information Technology Costs (Internet, E-mail)": 474.0
     },
     "supporting_by_type": {
@@ -209,7 +219,7 @@
 
     ]
   },
-  "total_contributions": 7850.0,
-  "total_expenditures": 2753.27,
+  "total_contributions": 8050.0,
+  "total_expenditures": 3022.63,
   "total_loans_received": 0.0
 }

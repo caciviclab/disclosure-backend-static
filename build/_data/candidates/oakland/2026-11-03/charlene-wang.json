@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1482492,
   "supporting_money": {
-    "contributions_received": 133097.11,
-    "total_contributions": 133097.11,
-    "total_expenditures": 55878.65,
+    "contributions_received": 144026.11,
+    "total_contributions": 144026.11,
+    "total_expenditures": 60338.51,
     "total_loans_received": 0.0,
     "total_supporting_independent": 1285.0,
     "support_list": [
@@ -36,15 +36,15 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 12750.0,
-      "Individual": 109180.0,
-      "Unitemized": 4567.11,
-      "Other (includes Businesses)": 6600.0
+      "Committee": 16200.0,
+      "Individual": 115780.0,
+      "Unitemized": 5086.11,
+      "Other (includes Businesses)": 6960.0
     },
     "contributions_by_origin": {
-      "Out of State": 2189.0,
-      "Within Oakland": 88176.0,
-      "Within California": 38165.0
+      "Out of State": 2339.0,
+      "Within Oakland": 93526.0,
+      "Within California": 43075.0
     },
     "contributions_by_employer": [
       {
@@ -53,14 +53,14 @@
         "total": 2100.0
       },
       {
+        "name": "University of California Office of the President",
+        "count": 3,
+        "total": 1350.0
+      },
+      {
         "name": "Port of Oakland",
         "count": 2,
         "total": 1020.0
-      },
-      {
-        "name": "University of California",
-        "count": 2,
-        "total": 1000.0
       },
       {
         "name": "Argent Materials",
@@ -100,6 +100,11 @@
       {
         "name": "EcoDataLab",
         "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Jackson Lewis P.C.",
+        "count": 3,
         "total": 900.0
       },
       {
@@ -168,51 +173,46 @@
         "total": 900.0
       },
       {
-        "name": "SVA Architects Inc",
-        "count": 1,
-        "total": 900.0
-      },
-      {
         "name": "Other",
-        "count": 177,
-        "total": 46272.0
+        "count": 193,
+        "total": 49267.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 135,
-        "total": 36938.0
+        "count": 150,
+        "total": 40193.0
       },
       {
         "name": "Owner",
-        "count": 18,
-        "total": 8138.0
+        "count": 19,
+        "total": 8538.0
       },
       {
         "name": "Chief Executive Officer/President",
-        "count": 10,
-        "total": 4800.0
+        "count": 11,
+        "total": 4950.0
       },
       {
         "name": "Consultant",
-        "count": 11,
-        "total": 4200.0
+        "count": 12,
+        "total": 4500.0
       },
       {
         "name": "Lawyer",
-        "count": 9,
-        "total": 3950.0
+        "count": 10,
+        "total": 4250.0
+      },
+      {
+        "name": "Physician",
+        "count": 6,
+        "total": 2300.0
       },
       {
         "name": "Real Estate",
         "count": 6,
         "total": 2050.0
-      },
-      {
-        "name": "Physician",
-        "count": 3,
-        "total": 1900.0
       },
       {
         "name": "Dentist",
@@ -231,13 +231,13 @@
       },
       {
         "name": "Director",
-        "count": 4,
-        "total": 1250.0
+        "count": 5,
+        "total": 1350.0
       },
       {
         "name": "Executive",
-        "count": 4,
-        "total": 1200.0
+        "count": 5,
+        "total": 1250.0
       },
       {
         "name": "Product Manager",
@@ -306,20 +306,20 @@
       },
       {
         "name": "Other",
-        "count": 119,
-        "total": 26805.0
+        "count": 129,
+        "total": 28450.0
       }
     ],
-    "total_small_contributions": 5477.11,
+    "total_small_contributions": 6096.11,
     "expenditures_by_type": {
-      "Office Expenses": 1958.04,
+      "Office Expenses": 2184.9,
       "Fundraising Events": 4705.06,
-      "Campaign Consultants": 31487.0,
+      "Campaign Consultants": 33687.0,
       "Meetings and Appearances": 745.0,
       "Campaign Paraphernalia/Misc.": 600.0,
       "Candidate Filing/Ballot Fees": 950.0,
       "Campaign Literature and Mailings": 2944.5,
-      "Professional Services (Legal, Accounting)": 11850.0,
+      "Professional Services (Legal, Accounting)": 13830.0,
       "Information Technology Costs (Internet, E-mail)": 545.0
     },
     "supporting_by_type": {
@@ -343,7 +343,7 @@
 
     ]
   },
-  "total_contributions": 133097.11,
-  "total_expenditures": 55878.65,
+  "total_contributions": 144026.11,
+  "total_expenditures": 60338.51,
   "total_loans_received": 0.0
 }

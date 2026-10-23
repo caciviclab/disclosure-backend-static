@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1491564,
   "supporting_money": {
-    "contributions_received": 18036.91,
-    "total_contributions": 18036.91,
-    "total_expenditures": 9778.91,
+    "contributions_received": 29313.91,
+    "total_contributions": 29313.91,
+    "total_expenditures": 28025.58,
     "total_loans_received": 0.0,
     "total_supporting_independent": 20110.0,
     "support_list": [
@@ -36,22 +36,27 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 1900.0,
-      "Individual": 12545.0,
-      "Unitemized": 2442.2,
+      "Committee": 3700.0,
+      "Individual": 21149.0,
+      "Unitemized": 3315.2,
       "Self Funding": 249.71,
       "Other (includes Businesses)": 900.0
     },
     "contributions_by_origin": {
-      "Out of State": 1200.0,
-      "Within Oakland": 9329.71,
-      "Within California": 5065.0
+      "Out of State": 1400.0,
+      "Within Oakland": 16453.71,
+      "Within California": 8145.0
     },
     "contributions_by_employer": [
       {
         "name": "Chief Executive Officer/President",
         "count": 2,
         "total": 1000.0
+      },
+      {
+        "name": "Arrow Impact",
+        "count": 1,
+        "total": 900.0
       },
       {
         "name": "Data Systems Manager",
@@ -65,6 +70,11 @@
       },
       {
         "name": "Head of Operations",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Self-Employed",
         "count": 1,
         "total": 900.0
       },
@@ -84,6 +94,11 @@
         "total": 500.0
       },
       {
+        "name": "University of California",
+        "count": 1,
+        "total": 500.0
+      },
+      {
         "name": "Consultant",
         "count": 4,
         "total": 400.0
@@ -92,6 +107,16 @@
         "name": "Director",
         "count": 3,
         "total": 400.0
+      },
+      {
+        "name": "City and County of San Francisco",
+        "count": 1,
+        "total": 300.0
+      },
+      {
+        "name": "Gerbode Foundation",
+        "count": 2,
+        "total": 300.0
       },
       {
         "name": "LCSW",
@@ -114,6 +139,21 @@
         "total": 280.0
       },
       {
+        "name": "ADI",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Amgen",
+        "count": 2,
+        "total": 250.0
+      },
+      {
+        "name": "Dan Clifford",
+        "count": 1,
+        "total": 250.0
+      },
+      {
         "name": "Principal",
         "count": 1,
         "total": 250.0
@@ -134,61 +174,31 @@
         "total": 220.0
       },
       {
-        "name": "Sr Manager--Candidate Recruitment & Training",
-        "count": 2,
-        "total": 220.0
-      },
-      {
-        "name": "HR",
-        "count": 1,
-        "total": 200.0
-      },
-      {
-        "name": "Environmental Planner",
-        "count": 1,
-        "total": 180.0
-      },
-      {
-        "name": "Transit",
-        "count": 3,
-        "total": 140.0
-      },
-      {
-        "name": "Director of Sourcing",
-        "count": 1,
-        "total": 125.0
-      },
-      {
-        "name": "Education Advocacy",
-        "count": 1,
-        "total": 120.0
-      },
-      {
-        "name": "BUsiness",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "City Planner",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 11,
-        "total": 1020.0
+        "count": 35,
+        "total": 3804.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 15,
-        "total": 1915.0
+        "count": 31,
+        "total": 5270.0
       },
       {
         "name": "Self-Employed",
-        "count": 2,
-        "total": 1000.0
+        "count": 3,
+        "total": 1100.0
+      },
+      {
+        "name": "Counselor",
+        "count": 1,
+        "total": 900.0
+      },
+      {
+        "name": "Executive Director",
+        "count": 1,
+        "total": 900.0
       },
       {
         "name": "Lighthouse",
@@ -211,6 +221,11 @@
         "total": 750.0
       },
       {
+        "name": "Budget analyst",
+        "count": 1,
+        "total": 500.0
+      },
+      {
         "name": "Clemente Course",
         "count": 2,
         "total": 500.0
@@ -231,12 +246,37 @@
         "total": 300.0
       },
       {
+        "name": "Executive disclosure",
+        "count": 2,
+        "total": 300.0
+      },
+      {
+        "name": "Product Management",
+        "count": 1,
+        "total": 300.0
+      },
+      {
         "name": "Self (Araina Hennen)",
         "count": 1,
         "total": 300.0
       },
       {
+        "name": "Engineer",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Medical Science Liaison",
+        "count": 2,
+        "total": 250.0
+      },
+      {
         "name": "Oakland Unified",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Owner",
         "count": 1,
         "total": 250.0
       },
@@ -256,75 +296,38 @@
         "total": 220.0
       },
       {
-        "name": "Oakland Veterinary Hospital",
+        "name": "Attorney",
         "count": 1,
         "total": 200.0
       },
       {
-        "name": "Robin Hood Synergy",
-        "count": 2,
-        "total": 200.0
-      },
-      {
-        "name": "Tilting Futures",
+        "name": "Chief Executive Officer/President",
         "count": 1,
         "total": 200.0
-      },
-      {
-        "name": "City and County of San Francisco",
-        "count": 1,
-        "total": 180.0
-      },
-      {
-        "name": "Self - George Lerma",
-        "count": 2,
-        "total": 180.0
-      },
-      {
-        "name": "SFMTA",
-        "count": 3,
-        "total": 140.0
-      },
-      {
-        "name": "Title Nine Sports",
-        "count": 1,
-        "total": 125.0
-      },
-      {
-        "name": "Families in Action for Quality Education",
-        "count": 1,
-        "total": 120.0
-      },
-      {
-        "name": "NCRF",
-        "count": 1,
-        "total": 120.0
-      },
-      {
-        "name": "ABAG",
-        "count": 1,
-        "total": 100.0
       },
       {
         "name": "Other",
-        "count": 23,
-        "total": 1960.0
+        "count": 47,
+        "total": 4624.0
       }
     ],
-    "total_small_contributions": 3172.2,
+    "total_small_contributions": 4419.2,
     "expenditures_by_type": {
       "Civic Donations": 100.0,
-      "Campaign Consultants": 450.0,
+      "Fundraising Events": 328.0,
+      "Campaign Consultants": 1450.0,
       "Meetings and Appearances": 625.0,
-      "Campaign Paraphernalia/Misc.": 3382.33,
+      "Campaign Paraphernalia/Misc.": 3698.73,
       "Candidate Filing/Ballot Fees": 1000.0,
-      "Campaign Literature and Mailings": 571.43,
-      "Professional Services (Legal, Accounting)": 2040.0,
-      "Information Technology Costs (Internet, E-mail)": 362.2
+      "Campaign Literature and Mailings": 4733.4,
+      "Postage, Delivery and Messenger Services": 8004.6,
+      "Professional Services (Legal, Accounting)": 5859.33,
+      "Information Technology Costs (Internet, E-mail)": 785.77
     },
     "supporting_by_type": {
       "Mailer": 18825.0,
-      "DIGITAL ADS": 7238.0,
+      "DIGITAL ADS": 4625.0,
+      "Independent Expenditure Supporting/Opposing Others": 2612.91,
       "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
       "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     }
@@ -337,7 +340,7 @@
 
     ]
   },
-  "total_contributions": 18036.91,
-  "total_expenditures": 9778.91,
+  "total_contributions": 29313.91,
+  "total_expenditures": 28025.58,
   "total_loans_received": 0.0
 }

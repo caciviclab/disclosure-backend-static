@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1490067,
   "supporting_money": {
-    "contributions_received": 35070.0,
-    "total_contributions": 35070.0,
-    "total_expenditures": 26008.84,
+    "contributions_received": 43000.0,
+    "total_contributions": 43000.0,
+    "total_expenditures": 44316.63,
     "total_loans_received": 4000.0,
     "total_supporting_independent": 5644.0,
     "support_list": [
@@ -36,25 +36,35 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 14000.0,
-      "Individual": 15425.0,
-      "Unitemized": 1145.0,
-      "Other (includes Businesses)": 500.0
+      "Committee": 15000.0,
+      "Individual": 20885.0,
+      "Unitemized": 1515.0,
+      "Other (includes Businesses)": 1600.0
     },
     "contributions_by_origin": {
-      "Out of State": 3100.0,
-      "Within Oakland": 9825.0,
-      "Within California": 17000.0
+      "Out of State": 4450.0,
+      "Within Oakland": 14385.0,
+      "Within California": 18650.0
     },
     "contributions_by_employer": [
       {
         "name": "Harris Funeral Home Legacy Center",
-        "count": 2,
+        "count": 3,
         "total": 1000.0
+      },
+      {
+        "name": "Arrow Impact",
+        "count": 1,
+        "total": 900.0
       },
       {
         "name": "Illinois Edc",
         "count": 2,
+        "total": 900.0
+      },
+      {
+        "name": "John George Hair Inc",
+        "count": 1,
         "total": 900.0
       },
       {
@@ -73,14 +83,29 @@
         "total": 900.0
       },
       {
+        "name": "City of Oakland",
+        "count": 4,
+        "total": 750.0
+      },
+      {
         "name": "Agora",
         "count": 2,
+        "total": 500.0
+      },
+      {
+        "name": "UC Berkeley, Goldman School of Public Policy",
+        "count": 1,
         "total": 500.0
       },
       {
         "name": "Rohr Communications",
         "count": 2,
         "total": 450.0
+      },
+      {
+        "name": "Contra Costa County",
+        "count": 2,
+        "total": 350.0
       },
       {
         "name": "Employer not reported",
@@ -103,11 +128,6 @@
         "total": 250.0
       },
       {
-        "name": "Contra Costa County",
-        "count": 1,
-        "total": 250.0
-      },
-      {
         "name": "Fathom",
         "count": 1,
         "total": 250.0
@@ -123,6 +143,11 @@
         "total": 250.0
       },
       {
+        "name": "University of California",
+        "count": 1,
+        "total": 250.0
+      },
+      {
         "name": "Us Army",
         "count": 1,
         "total": 250.0
@@ -133,59 +158,39 @@
         "total": 225.0
       },
       {
+        "name": "Artos Consulting",
+        "count": 1,
+        "total": 200.0
+      },
+      {
+        "name": "Black Women Organized for Political Action California",
+        "count": 1,
+        "total": 200.0
+      },
+      {
         "name": "Block Inc",
         "count": 1,
         "total": 200.0
       },
       {
-        "name": "Burlingame School District",
-        "count": 1,
-        "total": 200.0
-      },
-      {
-        "name": "City Of Oakland",
-        "count": 1,
-        "total": 200.0
-      },
-      {
-        "name": "Amae Health",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Amyris",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Applied Systems",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Bmwl Public Affairs",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Catherine Bishop",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 7,
-        "total": 700.0
+        "count": 24,
+        "total": 2650.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 17,
-        "total": 4400.0
+        "count": 24,
+        "total": 6010.0
       },
       {
         "name": "Entrepreneur",
+        "count": 3,
+        "total": 1000.0
+      },
+      {
+        "name": "Executive Director",
         "count": 2,
         "total": 1000.0
       },
@@ -200,6 +205,11 @@
         "total": 900.0
       },
       {
+        "name": "Hair Stylist",
+        "count": 1,
+        "total": 900.0
+      },
+      {
         "name": "Managing Director",
         "count": 4,
         "total": 900.0
@@ -210,17 +220,22 @@
         "total": 900.0
       },
       {
+        "name": "Attorney",
+        "count": 4,
+        "total": 700.0
+      },
+      {
+        "name": "Dean of Students",
+        "count": 1,
+        "total": 500.0
+      },
+      {
         "name": "Head Of Onboarding",
         "count": 2,
         "total": 500.0
       },
       {
         "name": "Communications Strategist",
-        "count": 2,
-        "total": 450.0
-      },
-      {
-        "name": "Lawyer",
         "count": 2,
         "total": 450.0
       },
@@ -245,6 +260,21 @@
         "total": 350.0
       },
       {
+        "name": "Sustainability Coordinator",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Auditor",
+        "count": 1,
+        "total": 250.0
+      },
+      {
+        "name": "Budget Analyst",
+        "count": 1,
+        "total": 250.0
+      },
+      {
         "name": "Engineer",
         "count": 1,
         "total": 250.0
@@ -260,68 +290,41 @@
         "total": 250.0
       },
       {
-        "name": "Sustainability Coordinator",
-        "count": 1,
-        "total": 250.0
-      },
-      {
         "name": "Director, Clinical Quality",
         "count": 1,
         "total": 225.0
       },
       {
-        "name": "Executive Sales Leader",
+        "name": "City council member",
         "count": 1,
         "total": 200.0
       },
       {
-        "name": "Campaign Manager",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Consultant",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Data Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "District Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Executive Director",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Legislative Affairs Associate",
-        "count": 1,
-        "total": 100.0
+        "count": 2,
+        "total": 200.0
       },
       {
         "name": "Other",
-        "count": 5,
-        "total": 500.0
+        "count": 21,
+        "total": 2500.0
       }
     ],
-    "total_small_contributions": 1195.0,
+    "total_small_contributions": 1565.0,
     "expenditures_by_type": {
-      "Not Stated": 10195.0,
-      "Fundraising Events": 658.49,
+      "Not Stated": 10790.55,
+      "Fundraising Events": 1045.74,
       "Meetings and Appearances": 1058.9,
-      "Campaign Paraphernalia/Misc.": 4879.95,
-      "Professional Services (Legal, Accounting)": 7123.5,
-      "Information Technology Costs (Internet, E-mail)": 1684.0
+      "Campaign Paraphernalia/Misc.": 10175.42,
+      "Campaign Literature and Mailings": 2187.64,
+      "Postage, Delivery and Messenger Services": 7639.88,
+      "Professional Services (Legal, Accounting)": 7348.5,
+      "Information Technology Costs (Internet, E-mail)": 2434.0
     },
     "supporting_by_type": {
       "Mailer": 4359.0,
-      "DIGITAL ADS": 3098.0,
+      "DIGITAL ADS": 2875.0,
+      "Independent Expenditure Supporting/Opposing Others": 223.16,
       "Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 428.0,
       "Consulting for Digital Advertisements (estimate) [Ads run 10/9/26-11/3/26]": 857.0
     }
@@ -334,7 +337,7 @@
 
     ]
   },
-  "total_contributions": 35070.0,
-  "total_expenditures": 26008.84,
+  "total_contributions": 43000.0,
+  "total_expenditures": 44316.63,
   "total_loans_received": 4000.0
 }

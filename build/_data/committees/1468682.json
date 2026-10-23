@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 133996.09,
+  "total_contributions": 134011.09,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -5532,6 +5532,21 @@
       "Entity_Cd": "Individual",
       "Tran_Amt1": 15.0,
       "Tran_Date": "2026-08-21",
+      "Tran_NamF": "Pam",
+      "Tran_NamL": "Claassen",
+      "Tran_Zip4": "94502",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": null,
+      "Filer_ID": "1468682",
+      "Tran_Emp": null,
+      "Tran_Occ": "Not employed",
+      "Entity_Cd": "Individual",
+      "Tran_Amt1": 15.0,
+      "Tran_Date": "2026-09-21",
       "Tran_NamF": "Pam",
       "Tran_NamL": "Claassen",
       "Tran_Zip4": "94502",

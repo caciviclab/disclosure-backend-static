@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1492061,
   "supporting_money": {
-    "contributions_received": 17732.22,
-    "total_contributions": 17732.22,
-    "total_expenditures": 9447.09,
+    "contributions_received": 21942.22,
+    "total_contributions": 21942.22,
+    "total_expenditures": 9706.73,
     "total_loans_received": 500.0,
     "total_supporting_independent": 15060.0,
     "support_list": [
@@ -36,14 +36,14 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 2200.0,
-      "Individual": 12958.22,
-      "Unitemized": 2074.0
+      "Committee": 4500.0,
+      "Individual": 14648.22,
+      "Unitemized": 2294.0
     },
     "contributions_by_origin": {
-      "Out of State": 1815.22,
-      "Within Oakland": 8244.0,
-      "Within California": 5099.0
+      "Out of State": 1955.22,
+      "Within Oakland": 10194.0,
+      "Within California": 6999.0
     },
     "contributions_by_employer": [
       {
@@ -77,8 +77,18 @@
         "total": 545.0
       },
       {
+        "name": "Inquiry by Design",
+        "count": 1,
+        "total": 500.0
+      },
+      {
         "name": "Lesmore Barker Consulting, LLC",
         "count": 1,
+        "total": 500.0
+      },
+      {
+        "name": "ZamCap AI",
+        "count": 5,
         "total": 500.0
       },
       {
@@ -87,9 +97,14 @@
         "total": 450.0
       },
       {
-        "name": "ZamCap AI",
-        "count": 4,
-        "total": 400.0
+        "name": "City of Oakland",
+        "count": 2,
+        "total": 350.0
+      },
+      {
+        "name": "Tenaya Therapeutics",
+        "count": 1,
+        "total": 300.0
       },
       {
         "name": "Maxfair Inc",
@@ -132,6 +147,11 @@
         "total": 200.0
       },
       {
+        "name": "Talnt Team, LLC",
+        "count": 6,
+        "total": 180.0
+      },
+      {
         "name": "Employ Inc.",
         "count": 1,
         "total": 150.0
@@ -142,51 +162,31 @@
         "total": 150.0
       },
       {
-        "name": "Talnt Team, LLC",
-        "count": 4,
-        "total": 140.0
-      },
-      {
         "name": "Marquette University College of Nursing",
         "count": 1,
         "total": 100.22
       },
       {
-        "name": "Alkebulan Financial Solutions, LLC",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Aspire Bay Area",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "City of Oakland",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Community Child Care Council (4Cs) of Alameda County",
+        "name": "12 MC Ventures",
         "count": 1,
         "total": 100.0
       },
       {
         "name": "Other",
-        "count": 14,
-        "total": 1400.0
+        "count": 19,
+        "total": 1900.0
       }
     ],
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 18,
-        "total": 2949.0
+        "count": 19,
+        "total": 3149.0
       },
       {
         "name": "Chief Executive Officer/President",
-        "count": 4,
-        "total": 1349.0
+        "count": 5,
+        "total": 1849.0
       },
       {
         "name": "Head of Operations",
@@ -199,19 +199,24 @@
         "total": 900.0
       },
       {
+        "name": "Engineer",
+        "count": 3,
+        "total": 800.0
+      },
+      {
         "name": "Sustainability Coordinator",
         "count": 2,
         "total": 700.0
       },
       {
-        "name": "Engineer",
-        "count": 2,
-        "total": 550.0
-      },
-      {
         "name": "Product Leader",
         "count": 3,
         "total": 545.0
+      },
+      {
+        "name": "AI Strategist",
+        "count": 5,
+        "total": 500.0
       },
       {
         "name": "Dean of Students",
@@ -224,19 +229,24 @@
         "total": 500.0
       },
       {
-        "name": "AI Strategist",
-        "count": 4,
-        "total": 400.0
-      },
-      {
         "name": "Teacher",
         "count": 2,
         "total": 400.0
       },
       {
+        "name": "Corporate Developer",
+        "count": 1,
+        "total": 300.0
+      },
+      {
         "name": "Administrative Assistant",
         "count": 2,
         "total": 275.0
+      },
+      {
+        "name": "Chief Operating Officer",
+        "count": 2,
+        "total": 200.0
       },
       {
         "name": "Director",
@@ -264,14 +274,14 @@
         "total": 200.0
       },
       {
+        "name": "Talent Operations Coordinator",
+        "count": 6,
+        "total": 180.0
+      },
+      {
         "name": "Software Engineer",
         "count": 1,
         "total": 150.0
-      },
-      {
-        "name": "Talent Operations Coordinator",
-        "count": 4,
-        "total": 140.0
       },
       {
         "name": "Professor",
@@ -294,25 +304,16 @@
         "total": 100.0
       },
       {
-        "name": "CPA",
-        "count": 1,
-        "total": 100.0
-      },
-      {
-        "name": "Chief Operating Officer",
-        "count": 1,
-        "total": 100.0
-      },
-      {
         "name": "Other",
-        "count": 11,
-        "total": 1100.0
+        "count": 14,
+        "total": 1400.0
       }
     ],
-    "total_small_contributions": 2484.0,
+    "total_small_contributions": 2744.0,
     "expenditures_by_type": {
       "Print Ads": 205.0,
-      "Office Expenses": 440.78,
+      "Not Stated": 150.0,
+      "Office Expenses": 505.42,
       "Campaign Consultants": 6024.21,
       "Campaign Paraphernalia/Misc.": 623.92,
       "Candidate Filing/Ballot Fees": 1000.0,
@@ -334,7 +335,7 @@
 
     ]
   },
-  "total_contributions": 17732.22,
-  "total_expenditures": 9447.09,
+  "total_contributions": 21942.22,
+  "total_expenditures": 9706.73,
   "total_loans_received": 500.0
 }

@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1468682,
   "supporting_money": {
-    "contributions_received": 142128.09,
-    "total_contributions": 142128.09,
-    "total_expenditures": 27602.26,
+    "contributions_received": 142193.09,
+    "total_contributions": 142193.09,
+    "total_expenditures": 27605.13,
     "total_loans_received": 0.0,
     "total_supporting_independent": 1285.0,
     "support_list": [
@@ -37,14 +37,14 @@
     ],
     "contributions_by_type": {
       "Committee": 22750.0,
-      "Individual": 102143.09,
-      "Unitemized": 8132.0,
+      "Individual": 102158.09,
+      "Unitemized": 8182.0,
       "Self Funding": 3.0,
       "Other (includes Businesses)": 9100.0
     },
     "contributions_by_origin": {
       "Out of State": 6901.0,
-      "Within Oakland": 67615.0,
+      "Within Oakland": 67630.0,
       "Within California": 59480.09
     },
     "contributions_by_employer": [
@@ -182,8 +182,8 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 120,
-        "total": 29311.09
+        "count": 121,
+        "total": 29326.09
       },
       {
         "name": "Owner",
@@ -311,10 +311,10 @@
         "total": 26936.0
       }
     ],
-    "total_small_contributions": 9163.0,
+    "total_small_contributions": 9228.0,
     "expenditures_by_type": {
       "Contribution": 250.0,
-      "Office Expenses": 1820.09,
+      "Office Expenses": 1822.96,
       "Fundraising Events": 1423.05,
       "Campaign Consultants": 19500.0,
       "Campaign Paraphernalia/Misc.": 185.4,
@@ -339,7 +339,7 @@
 
     ]
   },
-  "total_contributions": 142128.09,
-  "total_expenditures": 27602.26,
+  "total_contributions": 142193.09,
+  "total_expenditures": 27605.13,
   "total_loans_received": 0.0
 }

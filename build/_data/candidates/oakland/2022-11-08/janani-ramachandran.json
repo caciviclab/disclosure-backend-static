@@ -21,9 +21,9 @@
   "is_winner": null,
   "filer_id": 1442792,
   "supporting_money": {
-    "contributions_received": 187888.19,
-    "total_contributions": 187888.19,
-    "total_expenditures": 208024.51,
+    "contributions_received": 187913.19,
+    "total_contributions": 187913.19,
+    "total_expenditures": 213748.91,
     "total_loans_received": 5000.0,
     "total_supporting_independent": 3151.9,
     "support_list": [
@@ -44,14 +44,14 @@
     ],
     "contributions_by_type": {
       "Committee": 35442.5,
-      "Individual": 132936.0,
-      "Unitemized": 11100.0,
+      "Individual": 132956.0,
+      "Unitemized": 11105.0,
       "Self Funding": 900.0,
       "Other (includes Businesses)": 2509.69
     },
     "contributions_by_origin": {
       "Out of State": 21960.0,
-      "Within Oakland": 56129.25,
+      "Within Oakland": 56149.25,
       "Within California": 93698.94
     },
     "contributions_by_employer": [
@@ -189,8 +189,8 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 238,
-        "total": 34258.0
+        "count": 239,
+        "total": 34278.0
       },
       {
         "name": "Attorney",
@@ -318,17 +318,17 @@
         "total": 45099.0
       }
     ],
-    "total_small_contributions": 19345.0,
+    "total_small_contributions": 19370.0,
     "expenditures_by_type": {
       "Not Stated": 10172.6,
       "Phone Banks": 16380.8,
       "Contribution": 100.0,
-      "Office Expenses": 5817.53,
+      "Office Expenses": 5870.33,
       "Fundraising Events": 465.92,
       "Campaign Consultants": 20000.0,
       "Meetings and Appearances": 5014.68,
       "Campaign Workers' Salaries": 9480.0,
-      "Campaign Paraphernalia/Misc.": 19119.67,
+      "Campaign Paraphernalia/Misc.": 24771.88,
       "Candidate Filing/Ballot Fees": 1415.91,
       "Campaign Literature and Mailings": 64252.81,
       "Professional Services (Legal, Accounting)": 21571.5,
@@ -352,7 +352,7 @@
 
     ]
   },
-  "total_contributions": 187888.19,
-  "total_expenditures": 208024.51,
+  "total_contributions": 187913.19,
+  "total_expenditures": 213748.91,
   "total_loans_received": 5000.0
 }

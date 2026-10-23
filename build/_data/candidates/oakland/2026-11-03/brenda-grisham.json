@@ -21,22 +21,22 @@
   "is_winner": null,
   "filer_id": 1485058,
   "supporting_money": {
-    "contributions_received": 12035.88,
-    "total_contributions": 12035.88,
-    "total_expenditures": 8148.39,
+    "contributions_received": 13430.88,
+    "total_contributions": 13430.88,
+    "total_expenditures": 11365.66,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 6275.0,
-      "Unitemized": 1605.0,
+      "Individual": 7515.0,
+      "Unitemized": 1760.0,
       "Other (includes Businesses)": 4155.88
     },
     "contributions_by_origin": {
       "Out of State": 250.0,
-      "Within Oakland": 4885.88,
+      "Within Oakland": 6125.88,
       "Within California": 5295.0
     },
     "contributions_by_employer": [
@@ -44,6 +44,11 @@
         "name": "SINGER ASSOCIATES",
         "count": 1,
         "total": 900.0
+      },
+      {
+        "name": "SMOKEHOUSE",
+        "count": 1,
+        "total": 540.0
       },
       {
         "name": "CAP INTERNATIONAL",
@@ -116,6 +121,11 @@
         "total": 100.0
       },
       {
+        "name": "STATE OF CALIFORNIA",
+        "count": 1,
+        "total": 100.0
+      },
+      {
         "name": "TRUE FAITH BC",
         "count": 1,
         "total": 100.0
@@ -134,8 +144,13 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 4,
-        "total": 1280.0
+        "count": 6,
+        "total": 1880.0
+      },
+      {
+        "name": "Owner",
+        "count": 3,
+        "total": 1040.0
       },
       {
         "name": "COMMUNICATIONS STRATEGIST",
@@ -145,11 +160,6 @@
       {
         "name": "Chief Executive Officer/President",
         "count": 1,
-        "total": 500.0
-      },
-      {
-        "name": "Owner",
-        "count": 2,
         "total": 500.0
       },
       {
@@ -218,15 +228,21 @@
         "total": 100.0
       },
       {
+        "name": "JUDGE",
+        "count": 1,
+        "total": 100.0
+      },
+      {
         "name": "PASTOR",
         "count": 1,
         "total": 100.0
       }
     ],
-    "total_small_contributions": 1780.0,
+    "total_small_contributions": 1935.0,
     "expenditures_by_type": {
+      "Not Stated": 93.41,
       "Campaign Consultants": 340.73,
-      "Campaign Paraphernalia/Misc.": 5709.1
+      "Campaign Paraphernalia/Misc.": 8235.47
     },
     "supporting_by_type": {
     }
@@ -239,7 +255,7 @@
 
     ]
   },
-  "total_contributions": 12035.88,
-  "total_expenditures": 8148.39,
+  "total_contributions": 13430.88,
+  "total_expenditures": 11365.66,
   "total_loans_received": 0.0
 }
