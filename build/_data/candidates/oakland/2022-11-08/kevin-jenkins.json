@@ -23,7 +23,7 @@
   "supporting_money": {
     "contributions_received": 103139.0,
     "total_contributions": 103139.0,
-    "total_expenditures": 120225.98,
+    "total_expenditures": 129410.95,
     "total_loans_received": 0.0,
     "total_supporting_independent": 2113.9,
     "support_list": [
@@ -315,10 +315,11 @@
     "expenditures_by_type": {
       "Not Stated": 15868.76,
       "Phone Banks": 2500.0,
-      "Contribution": 2200.0,
+      "Contribution": 7600.0,
       "Civic Donations": 5300.0,
       "Office Expenses": 3982.05,
       "Campaign Consultants": 10000.0,
+      "Member Communications": 152.0,
       "Meetings and Appearances": 3420.0,
       "Campaign Paraphernalia/Misc.": 1656.71,
       "Campaign Literature and Mailings": 28442.12,
@@ -342,6 +343,6 @@
     ]
   },
   "total_contributions": 103139.0,
-  "total_expenditures": 120225.98,
+  "total_expenditures": 129410.95,
   "total_loans_received": 0.0
 }
