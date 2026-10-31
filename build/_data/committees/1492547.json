@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 60602.77,
+  "total_contributions": 61602.77,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -2609,7 +2609,7 @@
       "Tran_Date": "2026-09-27",
       "Tran_NamF": "Paul",
       "Tran_NamL": "Reynolds",
-      "Tran_Zip4": "94607",
+      "Tran_Zip4": "94606-1452",
       "election_name": "oakland-2026"
     },
     {
@@ -2624,7 +2624,7 @@
       "Tran_Date": "2026-09-27",
       "Tran_NamF": "Paul",
       "Tran_NamL": "Reynolds",
-      "Tran_Zip4": "94606-1452",
+      "Tran_Zip4": "94607",
       "election_name": "oakland-2026"
     },
     {
@@ -3075,6 +3075,21 @@
       "Tran_NamF": null,
       "Tran_NamL": "Amalgamated Transit Union Local 1555",
       "Tran_Zip4": "94607",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "851706",
+      "Filer_ID": "1492547",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2026-10-29",
+      "Tran_NamF": null,
+      "Tran_NamL": "Western States PAC",
+      "Tran_Zip4": "48214",
       "election_name": "oakland-2026"
     }
   ]
