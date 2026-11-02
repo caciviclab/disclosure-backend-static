@@ -1,29 +1,29 @@
 {
-  "total_contributions": 1646245.39,
+  "total_contributions": 1676343.41,
   "total_contributions_by_source": {
-    "Out of State": 78936.8,
-    "Within Oakland": 894775.05,
-    "Within California": 595749.71
+    "Out of State": 79936.8,
+    "Within Oakland": 921873.07,
+    "Within California": 597749.71
   },
   "contributions_by_type": {
     "Committee": 494883.94,
-    "Individual": 950959.03,
+    "Individual": 952959.03,
     "Unitemized": 65783.83,
     "Self Funding": 3352.71,
-    "Other (includes Businesses)": 120265.88
+    "Other (includes Businesses)": 148363.9
   },
   "most_expensive_races": [
+    {
+      "slug": "charter-amendment-measure",
+      "type": "referendum",
+      "title": "Measure EE",
+      "amount": 482598.02
+    },
     {
       "slug": "mayor",
       "type": "office",
       "title": "Mayor",
       "amount": 453899.49
-    },
-    {
-      "slug": "charter-amendment-measure",
-      "type": "referendum",
-      "title": "Measure EE",
-      "amount": 452500.0
     },
     {
       "slug": "city-council-district-2",
