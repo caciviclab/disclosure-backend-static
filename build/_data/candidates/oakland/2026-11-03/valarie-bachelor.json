@@ -21,14 +21,14 @@
   "is_winner": null,
   "filer_id": 1492547,
   "supporting_money": {
-    "contributions_received": 65952.87,
-    "total_contributions": 65952.87,
+    "contributions_received": 69552.87,
+    "total_contributions": 69552.87,
     "total_expenditures": 33125.22,
     "total_loans_received": 0.0,
-    "total_supporting_independent": 83615.96,
+    "total_supporting_independent": 88076.96,
     "support_list": [
       {
-        "Total": 77835.26,
+        "Total": 82296.26,
         "Cand_ID": 1492547,
         "Filer_ID": "1345259",
         "Filer_NamL": "Oakland Education Association Political Action Committee",
@@ -43,13 +43,13 @@
       }
     ],
     "contributions_by_type": {
-      "Committee": 25350.0,
+      "Committee": 28950.0,
       "Individual": 35202.77,
       "Unitemized": 4350.1,
       "Other (includes Businesses)": 1050.0
     },
     "contributions_by_origin": {
-      "Out of State": 3798.11,
+      "Out of State": 7398.11,
       "Within Oakland": 36093.0,
       "Within California": 21711.66
     },
@@ -332,8 +332,10 @@
       "MON": 4400.0,
       "Mailer": 25692.0,
       "Video Ads": 5000.0,
+      "Canvassing": 3061.0,
       "Consulting": 600.0,
       "Display Ads": 970.0,
+      "Newspaper Ad": 1400.0,
       "Newspaper Ads": 3750.0,
       "Text Messages": 181.0,
       "Flyers & Canvassing": 1301.0,
@@ -359,7 +361,7 @@
       }
     ]
   },
-  "total_contributions": 65952.87,
+  "total_contributions": 69552.87,
   "total_expenditures": 33125.22,
   "total_loans_received": 0.0
 }
