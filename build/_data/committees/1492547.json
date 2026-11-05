@@ -1,6 +1,6 @@
 {
   "iec": false,
-  "total_contributions": 65202.77,
+  "total_contributions": 66202.77,
   "contributions": [
     {
       "date": "2026-11-03",
@@ -3120,6 +3120,21 @@
       "Tran_NamF": null,
       "Tran_NamL": "DRIVE Committee",
       "Tran_Zip4": "20001",
+      "election_name": "oakland-2026"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Oakland November 3rd, 2026 General Election",
+      "Cmte_ID": "1414164",
+      "Filer_ID": "1492547",
+      "Tran_Emp": null,
+      "Tran_Occ": null,
+      "Entity_Cd": "Committee",
+      "Tran_Amt1": 1000.0,
+      "Tran_Date": "2026-11-03",
+      "Tran_NamF": null,
+      "Tran_NamL": "International Union of Painters & Allied Trades Legislative Educational Committee",
+      "Tran_Zip4": "21076",
       "election_name": "oakland-2026"
     }
   ]
