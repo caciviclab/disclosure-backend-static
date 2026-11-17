@@ -21,22 +21,22 @@
   "is_winner": null,
   "filer_id": 1480943,
   "supporting_money": {
-    "contributions_received": 28806.67,
-    "total_contributions": 28806.67,
-    "total_expenditures": 29123.17,
+    "contributions_received": 28756.67,
+    "total_contributions": 28756.67,
+    "total_expenditures": 26846.17,
     "total_loans_received": 0.0,
     "total_supporting_independent": 0.0,
     "support_list": [
 
     ],
     "contributions_by_type": {
-      "Individual": 25356.07,
+      "Individual": 25306.07,
       "Unitemized": 3450.6
     },
     "contributions_by_origin": {
       "Out of State": 2850.0,
       "Within Oakland": 5095.03,
-      "Within California": 17411.04
+      "Within California": 17361.04
     },
     "contributions_by_employer": [
       {
@@ -148,8 +148,8 @@
     "contributions_by_occupation": [
       {
         "name": "Retired/Not Employed",
-        "count": 101,
-        "total": 18257.21
+        "count": 102,
+        "total": 18207.21
       },
       {
         "name": "Sales",
@@ -272,9 +272,9 @@
         "total": 100.0
       }
     ],
-    "total_small_contributions": 4713.75,
+    "total_small_contributions": 4663.75,
     "expenditures_by_type": {
-      "Not Stated": 9583.03,
+      "Not Stated": 7306.03,
       "Member Communications": 652.64,
       "Meetings and Appearances": 3820.76,
       "Campaign Paraphernalia/Misc.": 5060.47,
@@ -294,7 +294,7 @@
 
     ]
   },
-  "total_contributions": 28806.67,
-  "total_expenditures": 29123.17,
+  "total_contributions": 28756.67,
+  "total_expenditures": 26846.17,
   "total_loans_received": 0.0
 }
